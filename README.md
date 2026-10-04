@@ -1,23 +1,37 @@
 # ML-assisted utility specification for choice modelling
 
-This repository contains the reproducible materials for the revised Journal of Choice Modelling study. The central method uses ML diagnostics to propose candidate nonlinearities and interactions, then refits those candidates as interpretable random-utility models.
+This repository is organised around the revised Journal of Choice Modelling study.
+The empirical design combines a large revealed-preference panel (LPMC), the Swissmetro stated-preference benchmark, and a small-sample stress test. The central method is an ML-assisted specification workflow: machine learning proposes candidate nonlinearities and interactions, while the final model remains a behavioural random-utility model.
 
-## Structure
+## Planned structure
 
 ```text
 data/              Raw and processed data (raw files are not committed)
-simulation/        Monte Carlo data-generating processes
+src/               Data preparation, estimation, diagnostics, validation
+simulation/        Monte Carlo data-generating processes and summaries
 analysis/           Reproducible analysis entry points
-manuscript/         Revision plans, methods notes, and submission checklist
-results/            Frozen summary results and selected-term frequencies
+manuscript/         Main text, appendix, tables, and figures
+results/             Generated outputs (tables and figures)
 ```
 
-## Current benchmark
+## Reproducibility principles
 
-The corrected benchmark uses eight mechanism-specific conditions, 30 replications per condition, 400 consumers, and 12 tasks per consumer. It includes an explicit opt-out utility indicator and unobserved respondent-specific random price sensitivity in the heterogeneity condition. The assisted specification uses respondent-level nested forward selection over six candidate utility terms.
+- All splits are grouped by decision maker. The LPMC temporal validation uses the final observed year as an external holdout.
+- Simulation conditions separate nonlinear utility, threshold effects, omitted interactions, random taste heterogeneity, and combined mechanisms.
+- Every model is assessed with behavioural recovery metrics and predictive metrics.
+- Candidate terms selected by ML are refit in interpretable utility models and evaluated with nested validation.
+- Random seeds, software versions, data provenance, and estimation settings are recorded for every run.
 
-The corrected results are in `results/assisted_spec_results_corrected_30rep.csv`, `results/assisted_spec_summary_corrected_30rep.csv`, and `results/selected_terms_frequency_corrected_30rep.csv`. The model reports accuracy, log loss, Brier score, choice-share RMSE, and decision regret.
+## Data access
 
-## Reproducibility plan
+The repository will contain scripts and metadata for downloading or locating LPMC and Swissmetro. Raw data remain excluded from version control unless their licence permits redistribution.
 
-All splits are grouped by decision maker. The planned LPMC analysis uses a temporal holdout; Swissmetro uses respondent-grouped panel validation. Raw data remain excluded unless their licences permit redistribution. Mixed Logit, Latent Class MNL, XGBoost, LPMC, and Swissmetro are the next extensions in the locked submission plan.
+## Current status
+
+The first reproducible Monte Carlo run is complete. It uses eight mechanism-specific conditions, 24 replications per condition (192 replications total), 400 consumers, and 12 tasks per consumer. The current minimal implementation compares additive MNL with structured MNL and reports accuracy, log loss, Brier score, choice-share RMSE, and decision regret. The results are in `results/simulation_results.csv` and `results/summary_results.csv`.
+
+This run is a validated analysis scaffold. Mixed Logit, Latent Class, Random Forest, XGBoost, LPMC, and Swissmetro still need to be added when their estimation dependencies and data files are available.
+
+The corrected assisted-specification experiment is expanded to 30 replications per condition. It includes an explicit opt-out utility indicator and unobserved random price sensitivity in the heterogeneity condition. Nested respondent-level forward selection over six candidate utility terms is compared with additive and fully structured MNL. Results are in `results/assisted_spec_results_corrected_30rep.csv`, `results/assisted_spec_summary_corrected_30rep.csv`, and `results/selected_terms_frequency_corrected_30rep.csv`.
+
+A pure-NumPy two-class Latent Class MNL extension is included in `analysis/run_simulation.py`. Its 10-replication extension results are in `results/latent_class_extension_10rep.csv` and `results/latent_class_extension_summary_10rep.csv`. The latent-class run is an extension check; the 30-replication corrected benchmark remains the locked primary simulation until the remaining model families are added.
