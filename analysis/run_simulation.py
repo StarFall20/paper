@@ -99,6 +99,50 @@ def fit_mnl(X, y, steps=350, lr=0.08, l2=1e-3):
     return beta
 
 
+def fit_latent_class(X4, y2, steps=100, lr=0.06, l2=1e-3, seed=0):
+    """Two-class latent-class MNL fitted by a small EM-gradient routine."""
+    rng = np.random.default_rng(seed)
+    n, tasks, _, p = X4.shape
+    k = 2
+    beta = rng.normal(0, 0.02, size=(k, p))
+    prior = np.full(k, 1.0 / k)
+    for _ in range(steps):
+        loglik = np.zeros((n, k))
+        probs = np.zeros((n, tasks, k, 3))
+        for c in range(k):
+            probs[:, :, c, :] = softmax(np.einsum("ntjp,p->ntj", X4, beta[c]).reshape(-1, 3)).reshape(n, tasks, 3)
+            loglik[:, c] = np.log(np.clip(probs[:, :, c, :][np.arange(n)[:, None], np.arange(tasks)[None, :], y2], 1e-12, 1)).sum(1)
+        z = loglik + np.log(np.clip(prior, 1e-12, 1))[None, :]
+        z -= z.max(1, keepdims=True)
+        resp = np.exp(z); resp /= resp.sum(1, keepdims=True)
+        prior = resp.mean(0)
+        for c in range(k):
+            target = np.eye(3)[y2]
+            err = probs[:, :, c, :] - target
+            weighted = resp[:, c, None, None] * err
+            grad = np.einsum("nt,ntj,ntjp->p", resp[:, c, None].repeat(tasks, 1), err, X4) / (resp[:, c].sum() * tasks + 1e-12)
+            beta[c] -= lr * (grad + l2 * beta[c])
+    return beta, prior
+
+
+def score_latent_class(X4, y2, v4, beta, prior):
+    n, tasks, _, _ = X4.shape
+    probs = []
+    for c in range(len(prior)):
+        probs.append(softmax(np.einsum("ntjp,p->ntj", X4, beta[c]).reshape(-1, 3)).reshape(n, tasks, 3))
+    pr = np.tensordot(np.asarray(prior), np.asarray(probs), axes=(0, 0))
+    pred = pr.argmax(2)
+    yflat = y2.reshape(-1); pflat = pr.reshape(-1, 3); vflat = v4.reshape(-1, 3)
+    pred = pflat.argmax(1)
+    acc = float((pred == yflat).mean())
+    logloss = float(-np.log(np.clip(pflat[np.arange(len(yflat)), yflat], 1e-12, 1)).mean())
+    brier = float(((pflat - np.eye(3)[yflat]) ** 2).sum(1).mean())
+    shares = pflat.mean(0); observed = np.bincount(yflat, minlength=3) / len(yflat)
+    share_rmse = float(np.sqrt(np.mean((shares - observed) ** 2)))
+    regret = float(np.mean(vflat.max(1) - vflat[np.arange(len(yflat)), pred]))
+    return acc, logloss, brier, share_rmse, regret
+
+
 def score(X, y, v_true, beta):
     pr = softmax(np.einsum("tjp,p->tj", X, beta))
     pred = pr.argmax(1)
@@ -165,13 +209,23 @@ def run(reps=24, n=400, tasks=12, out="results/simulation_results.csv"):
             rng.shuffle(idx)
             cut = int(0.8 * n)
             train_ids, test_ids = idx[:cut], idx[cut:]
-            for model, structured in [("MNL", False), ("Structured_MNL", True), ("ML_assisted_spec", True)]:
+            for model, structured in [("MNL", False), ("Structured_MNL", True), ("ML_assisted_spec", True), ("Latent_Class_MNL", False)]:
                 xx = feature_matrix(x, z, structured)
                 selected = list(range(xx.shape[2]))
                 selected_terms = "base+all_candidates" if model == "Structured_MNL" else "base"
                 if model == "ML_assisted_spec":
                     selected, selected_terms = choose_candidate_terms(xx, choices, train_ids, tasks, seed + 101)
                 xx = xx[:, :, selected]
+                if model == "Latent_Class_MNL":
+                    n_features = xx.shape[2]
+                    x4 = xx.reshape(n, tasks, 3, n_features)
+                    beta_lc, prior_lc = fit_latent_class(x4[train_ids], choices[train_ids], seed=seed + 303)
+                    vals = score_latent_class(x4[test_ids], choices[test_ids], v[test_ids], beta_lc, prior_lc)
+                    rows.append({"condition": cond.name, "replication": rep, "model": model,
+                                 "accuracy": vals[0], "logloss": vals[1], "brier": vals[2],
+                                 "share_rmse": vals[3], "decision_regret": vals[4],
+                                 "selected_terms": "base"})
+                    continue
                 train = np.concatenate([xx[train_ids * tasks + q] for q in range(tasks)])
                 ytrain = np.concatenate([choices[train_ids, q] for q in range(tasks)])
                 test = np.concatenate([xx[test_ids * tasks + q] for q in range(tasks)])
