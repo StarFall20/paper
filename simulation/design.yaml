@@ -1,0 +1,43 @@
+study: ml_assisted_utility_specification
+replications_per_condition: 100
+conditions:
+  - name: linear
+    nonlinear_utility: false
+    threshold: false
+    interaction: false
+    random_taste_heterogeneity: false
+  - name: nonlinear
+    nonlinear_utility: true
+    threshold: false
+    interaction: false
+    random_taste_heterogeneity: false
+  - name: threshold
+    nonlinear_utility: false
+    threshold: true
+    interaction: false
+    random_taste_heterogeneity: false
+  - name: interaction
+    nonlinear_utility: false
+    threshold: false
+    interaction: true
+    random_taste_heterogeneity: false
+  - name: heterogeneity
+    nonlinear_utility: false
+    threshold: false
+    interaction: false
+    random_taste_heterogeneity: true
+  - name: combined
+    nonlinear_utility: true
+    threshold: true
+    interaction: true
+    random_taste_heterogeneity: true
+models:
+  - mnl
+  - mixed_logit
+  - latent_class_mnl
+  - xgboost_diagnostic
+  - ml_assisted_specification
+validation:
+  grouping: decision_maker
+  nested_candidate_selection: true
+  external_temporal_holdout: true
