@@ -25,7 +25,7 @@
 - Run exact XGBoost in an environment with a working OpenMP runtime.
 - Add coefficient recovery, calibration, term stability, parsimony, and sample-size/task-count sensitivity analyses.
 - Add candidate-library coverage, recoverability-ceiling, formal heterogeneity-gate, and permutation-robustness experiments before claiming a general decision rule.
-- Verify whether Swissmetro contains matched tasks that can support the paired-task equality test. If it does not, either collect a small paired-task supplement or keep the pivot as a preregistered simulation method and retain the recoverability benchmark as the empirical contribution.
+- The public Swissmetro file has been audited: it has 10,728 rows for 1,192 IDs and only eight exact repeated full profiles within an ID, concentrated in two IDs. That structure is insufficient for a clean paired-task empirical test. A paired-task supplement or a different dataset is now a hard requirement for promoting the pivot to the main empirical contribution.
 - A first score-overdispersion prototype is now implemented. It flags all continuous-heterogeneity replications and 83% of combined replications at an exploratory threshold while producing a 3% false-positive rate in the additive condition. Bootstrap calibration is still required.
 
 ## Pending before submission
