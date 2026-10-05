@@ -11,6 +11,12 @@ basis is wrong. This direction has a clear novelty claim only after a valid
 paired-task instrument is confirmed; otherwise it remains a simulation method
 and the manuscript should retain the narrower benchmark framing.
 
+The candidate is adjacent to Fok and Paap's 2025 JOCM tests, which use
+alternative pairs and overidentifying moments to diagnose MNL/IIA
+misspecification. The paper must state this overlap explicitly and limit any
+novelty claim to the cross-task equality of utility-difference vectors after a
+systematic search confirms that the construction is not already established.
+
 ## Closest prior work
 
 | Study | What it already contributes | Required distinction in this paper |
@@ -21,6 +27,7 @@ and the manuscript should retain the narrower benchmark framing.
 | Delphos (Nova et al., 2026 preprint) | Deep-RL agent that learns sequential specification policies and compares with VNS on Swissmetro and DECISIONS | Provide a mechanism benchmark with explicit failure boundaries and decision-regret outcomes |
 | Sfeir et al. (2026) | LLM-generated specifications evaluated for fit, behavioural plausibility, and complexity | Keep the diagnostic learner inside a reproducible, non-generative feature-selection pipeline and test structural recovery |
 | Zhao et al. (2020) | Direct ML-versus-logit comparison of prediction and behavioural outputs | Refit a behavioural model after diagnostics and measure recovery, calibration, and regret |
+| Fok and Paap (2025) | Composite-likelihood and GMM overidentification tests using pairs of alternatives for MNL/IIA misspecification | Test equality across different choice tasks with equal candidate utility differences and different attribute decompositions; do not claim a general MNL misspecification test |
 
 ## Main overlap risks
 
@@ -40,7 +47,6 @@ across randomized task pairs while changing the attribute decomposition. Its
 equivalence violation measures whether the observed choice process supports
 the candidate basis and localizes omitted nonlinear, threshold, or interaction
 terms. The existing ML and process analyses serve as comparison and boundary
-experiments.
 
 ## Journal and reader alignment
 
