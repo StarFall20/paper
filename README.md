@@ -40,3 +40,5 @@ A pure-NumPy two-class Latent Class MNL extension is included in `analysis/run_s
 Random Forest and HistGradientBoosting are evaluated in `analysis/run_ml_extension.py` with the same grouped holdout. HistGradientBoosting is labelled as a boosted-tree proxy because XGBoost cannot load its native macOS library without `libomp.dylib`. The five-replication tree extension is in `results/tree_extension_5rep.csv` and `results/tree_extension_summary_5rep.csv`.
 
 Run `analysis/smoke_test.sh` after installing `requirements-analysis.txt` to verify the simulation, tree, and targeted Mixed Logit entry points. The frozen summary outputs are checksummed in `results/MANIFEST.sha256`.
+
+The current framework and model audit is in `manuscript/model_audit.md`. Draw-count sensitivity for the targeted Mixed Logit check is in `results/mixed_logit_draw_stability.csv`.
