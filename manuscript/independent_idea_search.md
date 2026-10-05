@@ -73,6 +73,13 @@ the empirical data, which the current LPMC and Swissmetro files have not yet
 been shown to provide. It cannot enter the main paper without that data
 condition.
 
+A direct audit of the public Biogeme Swissmetro file found 10,728 rows for
+1,192 IDs and only eight exact repeated full alternative profiles within an
+ID, concentrated in two IDs. This is too small and too irregular for a clean
+paired-task validation. The pivot therefore needs a paired-task supplement or
+a different dataset; the existing Swissmetro application can validate the
+baseline workflow only.
+
 ## Selected pivot: model-equivalent choice-pair test
 
 ### Scientific question
