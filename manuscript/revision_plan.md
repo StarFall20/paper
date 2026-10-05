@@ -12,6 +12,11 @@ An observational matched-task version may use frozen utility-difference
 coordinates in Swissmetro, but it requires a separate clustered bootstrap and
 is weaker than randomized pairs.
 
+The implemented fallback uses cross-fitting and respondent-clustered multiplier
+bootstrap. Its current boundary run controls the null at about 5% but has only
+modest power against the engineered nonlinear and interaction conditions. It
+is an audit of feasibility and does not replace the exact paired-task design.
+
 Can a grouped-validation diagnostic decide whether a choice problem needs utility enrichment, discrete segmentation, continuous heterogeneity, process/sequence modelling, or candidate-library expansion? When the observed data cannot distinguish competing mechanisms, can an explicit unresolved branch reduce policy loss relative to forced model selection?
 
 ## Current baseline contribution
