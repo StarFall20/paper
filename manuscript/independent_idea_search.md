@@ -197,6 +197,15 @@ between 0.404 and 0.468. These results keep the fallback out of the main
 claim. If an exact supplement cannot be fielded, the pivot is reported as a
 rejected innovation and the paper keeps the narrower recoverability benchmark.
 
+The exact randomized benchmark now passes the null and base-power checks in a
+50-replication run: rejection is 0.06 under the additive null, 0.84 for the
+nonlinear condition, and 1.00 for the threshold and interaction conditions.
+The repair gate fails: after adding the DGP's threshold or interaction term,
+rejection remains 1.00 and 0.98. This is a current method failure, not a
+result to hide. The paired-task pivot is therefore still high-risk and cannot
+be adopted as the manuscript's main contribution until the optimizer and
+balanced crossing design pass the repair test.
+
 ## Literature boundary used for the audit
 
 - JOCM scope: https://shop.elsevier.com/journals/journal-of-choice-modelling/1755-5345
