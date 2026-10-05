@@ -2,7 +2,7 @@
 
 ## Simulation question
 
-The simulation asks when diagnostic term discovery improves an interpretable choice model. The conditions vary one source of misspecification at a time and then combine nonlinear utility, a price threshold, an omitted interaction, and unobserved price sensitivity. Every replication uses a respondent-level split, so tasks from the same decision maker remain on one side of validation.
+The simulation asks when a Random Forest diagnostic can help specify an interpretable choice model. The conditions vary one source of misspecification at a time and then combine nonlinear utility, a price threshold, an omitted interaction, and unobserved price sensitivity. The forest ranks a five-term shortlist inside the development sample; the selected terms are refit and validated in a behavioural MNL. Every replication uses a respondent-level split, so tasks from the same decision maker remain on one side of validation.
 
 ## Current benchmark pattern
 
@@ -10,9 +10,11 @@ The corrected 30-replication benchmark shows the clearest gain in the combined c
 
 The heterogeneity condition provides the boundary case. The data contain respondent-specific random price sensitivity that is unavailable to the term-discovery stage. The three interpretable specifications have similar predictive performance in this condition. The result separates recoverable utility misspecification from preference variation that requires a heterogeneity model.
 
+The recovery table makes the boundary measurable. In the combined condition, the RF-assisted workflow recovers an average of 4.0 of 5 represented terms, with mean precision 0.91 and recall 0.80. In the threshold-only condition, the current shortlist and validation rule recover none of the hinge terms across the 30 replications. This failure is part of the result: a diagnostic workflow can miss a weak or poorly represented mechanism even when the final behavioural model is correctly specified as an oracle benchmark.
+
 ## Model-family extension
 
-The two-class Latent Class MNL extension addresses discrete segmentation. In the combined condition its 10-replication mean accuracy is 0.591 with mean decision regret of 0.248. The ML-assisted specification reaches 0.665 accuracy with 0.036 regret in the same extension run. The class model does not recover the continuous price variation in the heterogeneity condition. This comparison motivates Mixed Logit as the remaining behavioural benchmark for continuous heterogeneity.
+The two-class Latent Class MNL extension addresses discrete segmentation. In the combined condition its 10-replication mean accuracy is 0.591 with mean decision regret of 0.248. The RF-assisted specification reaches 0.665 accuracy with 0.036 regret in the same extension run. The class model does not recover the continuous price variation in the heterogeneity condition. This comparison motivates Mixed Logit as the remaining behavioural benchmark for continuous heterogeneity.
 
 Random Forest and HistGradientBoosting provide a flexible-learner implementation check under the same grouped holdout. HistGradientBoosting is reported as a boosted-tree proxy because the current macOS environment lacks `libomp.dylib` for the XGBoost native library. These outputs remain supplementary until the exact XGBoost runtime, tuning budget, calibration procedure, and Mixed Logit comparison are fixed.
 
