@@ -1,5 +1,23 @@
 # Innovation gate for the JOCM submission
 
+## Independent pivot after the Idea-DNA search
+
+The preferred new direction is a **model-equivalent choice-pair test**. The
+analyst creates two randomized choice tasks with the same candidate-model
+utility-difference vector and different raw attribute decompositions. The
+candidate model implies equal choice probabilities for the pair. A bootstrap-
+calibrated share difference becomes a direct specification test, with pair
+construction used to localize a missing nonlinear, threshold, or interaction
+term. The first 500-replication prototype gives a 0.06 rejection rate under
+the additive null and 0.986 under an omitted quadratic term.
+
+This pivot is a separate design-based object. It does not combine the Random
+Forest selector with the process gate. Its submission status depends on a
+paired-task instrument: Swissmetro must contain usable matched tasks, or the
+study needs a small paired-task supplement. Until that condition is verified,
+the pivot remains a tested candidate and the recoverability benchmark remains
+the empirical baseline.
+
 ## Objective assessment
 
 The current paper has a credible question and a corrected simulation scaffold, but its original innovation claim is too small for a strong JOCM submission. A generic statement that machine learning can screen nonlinearities and interactions is already close to assisted specification, random-forest-assisted portfolio choice, extensive mixed-Logit hypothesis search, model-based recursive partitioning, latent-class neural networks, reinforcement-learning specification, and LLM-supported specification. The current results show that the workflow can approach an oracle structured MNL in a combined synthetic condition. That is useful evidence, but it is not a new method by itself.
