@@ -27,7 +27,7 @@ negative feasibility audit, not a substitute for the randomized supplement.
 - Before submission, run a candidate-library omission stress test. The present benchmark gives the selector access to all represented terms, so external validity of term recovery remains an open threat.
 - For the paired-task pivot, report bootstrap size, power, localization, and the loss of rejection after the omitted term is added. The public Swissmetro file does not contain enough clean randomized matched pairs; do not label its ordinary nine-task panel as an empirical equivalence test.
 - Cite and distinguish Fok and Paap's JOCM alternative-pair misspecification tests. Do not claim to be the first specification test; any novelty statement must be limited to the task-level equality construction after a systematic literature search.
-- The exact three-alternative benchmark currently fails the repair gate for threshold and interaction terms. A balanced task design and a stable optimizer are required before the paired-task method can be described as localizing omitted mechanisms.
+- The exact three-alternative benchmark now passes the null, power, and repair checks after the Newton-estimation fix. Interaction localization remains incomplete because the joint shift changes multiple raw loci; a four-cell factorial contrast or an equivalent empirical design is required before claiming term-level localization.
 
 ## Ordered work plan
 
