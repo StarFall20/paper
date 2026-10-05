@@ -18,6 +18,15 @@ study needs a small paired-task supplement. Until that condition is verified,
 the pivot remains a tested candidate and the recoverability benchmark remains
 the empirical baseline.
 
+The overlap audit lowers the confidence of any priority claim. Fok and Paap's
+JOCM misspecification tests already use alternative pairs and overidentifying
+moments. The present candidate differs through cross-task equality of utility
+difference vectors and attribute decompositions, but that distinction must be
+stated precisely and checked against the full specification-test literature.
+The observational fallback now controls null size near 5% but has modest power
+and no descriptive rejection on public Swissmetro. It remains a feasibility
+audit until an exact randomized supplement is available.
+
 ## Objective assessment
 
 The current paper has a credible question and a corrected simulation scaffold, but its original innovation claim is too small for a strong JOCM submission. A generic statement that machine learning can screen nonlinearities and interactions is already close to assisted specification, random-forest-assisted portfolio choice, extensive mixed-Logit hypothesis search, model-based recursive partitioning, latent-class neural networks, reinforcement-learning specification, and LLM-supported specification. The current results show that the workflow can approach an oracle structured MNL in a combined synthetic condition. That is useful evidence, but it is not a new method by itself.
