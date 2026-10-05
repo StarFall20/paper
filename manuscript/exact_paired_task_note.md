@@ -42,8 +42,12 @@ condition, rejection is 0.74 for the time shift, 0.06 for the cost shift, and
 0.68 for the joint shift. For the threshold condition it is 0.10, 1.00, and
 1.00. For the interaction condition it is 0.28, 1.00, and 1.00. The joint
 shift changes more than one raw locus, so the interaction result cannot be
-described as uniquely isolated. A four-cell factorial contrast is the next
-design repair if the paper needs term-level localization.
+described as uniquely isolated. A four-cell factorial contrast was audited as
+the next design repair. Its probability-scale mixed difference reduced
+rejection after an interaction term was added, but it generated a high
+rejection rate when an interaction and a nonlinear main effect coexisted. The
+audit is recorded in `manuscript/factorial_contrast_note.md`; it does not
+support term-level localization.
 
 The threshold condition is especially sensitive to the number of focal tasks
 that cross the hinge. A credible paper needs a better-balanced design and a
@@ -53,10 +57,12 @@ contribution.
 ## Decision
 
 The exact design is a promising independent object with a falsifiable null.
-The repair gate now passes in the controlled simulation, while interaction
-localization remains incomplete because the joint shift changes multiple
-raw loci. The method is still high-risk until a factorial contrast or a
-purpose-built paired-task supplement confirms the intended localization.
+The null, power, and repair gates pass for detection. Term-level localization
+remains outside the supported claim: the first-order pair labels do not isolate
+a unique raw locus, and the four-cell probability contrast fails when main
+effects are nonlinear. The method remains high-risk until a purpose-built
+paired-task supplement and a predeclared scope limited to invariance violation
+are completed.
 
 The output is `results/exact_paired_task_benchmark.csv`; the public Swissmetro
 file cannot validate this exact design because it lacks the randomized focal
