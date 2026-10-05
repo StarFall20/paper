@@ -53,8 +53,9 @@ utility-difference coordinates, and test choice-share equality on held-out
 tasks. In the public file, the audit finds 26, 85, 535, and 1,924 within-ID
 pairs at coordinate tolerances 0.01, 0.02, 0.05, and 0.10, respectively. The
 small tolerances give little power; the larger tolerances weaken the equality
-restriction. `analysis/audit_swissmetro_pairs.py` records this trade-off. The
-fallback is a separate, calibrated observational test and cannot be treated as
+restriction. `analysis/audit_swissmetro_pairs.py` records this trade-off and
+`results/swissmetro_pair_audit.csv` stores the reproduced counts. The fallback
+is a separate, calibrated observational test and cannot be treated as
 equivalent to randomized paired-task data.
 
 The null rejection rate is close to the declared size and the nonlinear
