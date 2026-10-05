@@ -1,0 +1,11 @@
+# Local environments and caches
+work/vendor/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local data and generated scratch files
+data/raw/
+data/processed/
+results/*_smoke.csv
+results/smoke*.csv
