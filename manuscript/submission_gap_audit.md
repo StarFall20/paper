@@ -2,6 +2,12 @@
 
 ## Objective verdict
 
+The latest independent idea search changes the preferred route. A
+model-equivalent choice-pair test has a cleaner new object than the earlier
+process-triage proposal: it tests a utility-basis equality created by the
+choice design. The prototype is promising, but the empirical claim is blocked
+by the paired-task data condition.
+
 The original claim, “a Random Forest helps discover nonlinear terms for a
 choice model,” is below the JOCM submission threshold. Assisted specification,
 random-forest diagnostics, recursive partitioning, latent-class neural choice
@@ -29,9 +35,18 @@ not yet contain the evidence needed to defend it as a contribution.
 | manuscript claim | working draft still follows the earlier ML-assisted framing | full rewrite required |
 
 The paper is therefore at the **candidate-contribution stage**, not at the
-submission-ready stage. The innovation idea is no longer the main weakness;
-the missing proof that the triage decision improves behavioural and policy
-outcomes is.
+submission-ready stage. The remaining gap is evidence that the paired-task
+equality has correct size, useful power, and a valid empirical instrument.
+
+## New pivot gate
+
+The paired-task test can replace the process-triage claim only if it passes
+five checks: bootstrap size near the declared level, power against omitted
+nonlinear and interaction terms, localization when one attribute locus changes,
+loss of rejection after the correct term is added, and a valid Swissmetro or
+supplementary paired-task instrument. Without the final data condition, the
+test remains a simulation contribution and the manuscript should present the
+recoverability benchmark as the main empirical result.
 
 ## What would clear the gate
 
