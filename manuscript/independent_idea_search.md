@@ -47,7 +47,7 @@ score is a reason to stop.
 | Policy-equivalence set | the set of models that are observationally adequate within a declared predictive tolerance, paired with the width of their policy outputs | 3 | 5 | 4 | 5 | 3 | retain as backup |
 | Intervention-stable contrast audit | a utility basis is accepted only when policy-relevant contrasts remain stable under predeclared choice-set and attribute interventions | 3 | 4 | 3 | 5 | 3 | retain as backup |
 | Library-insufficiency certificate | the minimum slack or adversarial perturbation required for the candidate library to rationalize observed choices | 4 | 5 | 2 | 4 | 3 | retain as theory extension |
-| Model-equivalent choice-pair test | a designed pair of choice tasks has the same candidate-model sufficient statistics but a different attribute decomposition; systematic choice differences reject the candidate basis | 5 | 5 | 3 | 5 | 2 | selected pivot |
+| Model-equivalent choice-pair test | a designed pair of choice tasks has the same candidate-model sufficient statistics but a different attribute decomposition; systematic choice differences reject the candidate basis | 4 | 5 | 3 | 5 | 3 | selected high-risk pivot |
 | Adaptive discriminating task design | choose the next task to separate competing utility mechanisms | 2 | 4 | 2 | 4 | 5 | stop |
 | Permutation-invariant learner | enforce alternative-exchangeability in the diagnostic learner | 2 | 4 | 3 | 4 | 5 | stop as primary idea |
 | Reliability-based mechanism separation | use repeated choices or test-retest stability to distinguish taste from processing | 2 | 4 | 3 | 4 | 4 | stop as primary idea |
@@ -153,15 +153,23 @@ matched tasks or if a small paired-task supplement can be collected. LPMC is
 used as a transfer benchmark for ordinary specification recovery, not as proof
 of the paired-task invariance when its task design lacks the required pairs.
 
-### Why the pivot is distinct
+### Why the pivot is distinct, and where it overlaps
 
-Existing conditional-moment and MNL misspecification tests evaluate residual
-restrictions after a model is fitted. This pivot constructs a randomized
-within-experiment equality that follows from the candidate utility basis and
-tests that equality directly. It does not rank learners, average models, or
-add a process mechanism. The claim is intentionally narrow: an equivalence
-violation is evidence against the candidate basis under the declared choice
-design. It can be rejected if the test has poor size, fails to localize the
+Fok and Paap (JOCM 2025) already use pairs of alternatives to build composite-
+likelihood and GMM overidentification tests for MNL misspecification and IIA.
+That is a direct adjacent precedent. Utility-neutral experimental designs and
+invariance tests also show that equivalent utility representations are an
+established design and theory concern. The present object is narrower: it
+creates pairs of *tasks* with different attribute decompositions and equal
+candidate utility-difference vectors, then tests whether the candidate utility
+basis is sufficient across those tasks. The null is cross-task basis
+sufficiency, not the within-task binary-pair implication of IIA.
+
+This distinction is a hypothesis for a literature audit, not a priority claim.
+The method must be described as a new task-level construction only after a
+systematic search confirms that no existing paper has already proposed the
+same restriction. It does not rank learners, average models, or add a process
+mechanism. It can be rejected if the test has poor size, fails to localize the
 omitted term, or cannot be implemented with a valid paired-task instrument.
 
 ## Policy-equivalence set as the backup route
@@ -177,12 +185,17 @@ pivot.
 ## Decision gate before manuscript adoption
 
 The pivot enters the main paper only after a simulation gives all of the
-following: null size near the declared level; power against at least two
-omitted mechanisms; localization when only one attribute locus changes; loss
-of rejection after the correct term is added; and a credible paired-task
-implementation for an empirical study. If any gate fails, the pivot is
-reported as a rejected innovation and the paper keeps the narrower
-recoverability benchmark.
+following: null size near the declared level; useful power against at least
+two omitted mechanisms; localization when only one attribute locus changes;
+loss of rejection after the correct term is added; and a credible paired-task
+implementation for an empirical study. The observational fallback currently
+has a near-5% null size but only 0.225 and 0.175 rejection rates for the
+engineered nonlinear and interaction conditions in a 40-replication boundary
+run. The public Swissmetro file gives 126, 236, 1,371, and 3,430 approximate
+pairs at tolerances 0.01, 0.02, 0.05, and 0.10, with descriptive p-values
+between 0.404 and 0.468. These results keep the fallback out of the main
+claim. If an exact supplement cannot be fielded, the pivot is reported as a
+rejected innovation and the paper keeps the narrower recoverability benchmark.
 
 ## Literature boundary used for the audit
 
@@ -193,3 +206,5 @@ recoverability benchmark.
 - Latent utility and permutation invariance: https://doi.org/10.1016/j.jeconom.2024.105844
 - Optimal experimental designs for model discrimination: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4095610
 - Choice-set confounding: https://www.cs.cornell.edu/~arb/papers/choice-set-confounding-KDD-2021.pdf
+- Fok and Paap, new MNL misspecification tests: https://doi.org/10.1016/j.jocm.2024.100531
+- Utility-neutral design and underidentification boundary: https://doi.org/10.1111/bmsp.12256
