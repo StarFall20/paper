@@ -27,6 +27,12 @@ The observational fallback now controls null size near 5% but has modest power
 and no descriptive rejection on public Swissmetro. It remains a feasibility
 audit until an exact randomized supplement is available.
 
+The exact three-alternative benchmark now supplies the randomized supplement
+in simulation. It has strong base power, but adding the corresponding
+threshold or interaction term does not remove rejection. This repair failure
+means the current implementation cannot yet localize omitted mechanisms. The
+pivot remains a candidate object, not the paper's accepted contribution.
+
 ## Objective assessment
 
 The current paper has a credible question and a corrected simulation scaffold, but its original innovation claim is too small for a strong JOCM submission. A generic statement that machine learning can screen nonlinearities and interactions is already close to assisted specification, random-forest-assisted portfolio choice, extensive mixed-Logit hypothesis search, model-based recursive partitioning, latent-class neural networks, reinforcement-learning specification, and LLM-supported specification. The current results show that the workflow can approach an oracle structured MNL in a combined synthetic condition. That is useful evidence, but it is not a new method by itself.
