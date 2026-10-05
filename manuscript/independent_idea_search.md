@@ -204,9 +204,12 @@ conditions. After adding the corresponding term, rejection falls to 0.04,
 0.02, and 0.02 for the nonlinear, threshold, and interaction conditions.
 The remaining gap is localization: the joint shift changes multiple raw
 loci, so the interaction signal is not uniquely separated. A four-cell
-factorial equivalence contrast is the next design repair. The paired-task
-pivot remains high-risk until that contrast or an empirical supplement is
-validated.
+probability-scale factorial contrast was audited as a repair. It reduced
+rejection after an interaction term was supplied, but rejection rose to 0.86
+when an interaction coexisted with a nonlinear main effect. The audit is in
+`manuscript/factorial_contrast_note.md`; it excludes term-level localization
+from the claim. The paired-task pivot remains high-risk until a purpose-built
+supplement validates the narrower invariance-violation test.
 
 ## Literature boundary used for the audit
 
