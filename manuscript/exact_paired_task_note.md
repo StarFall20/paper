@@ -21,36 +21,42 @@ respondent-cluster multiplier bootstrap. The implementation is
 The current run uses 50 replications, 300 respondents per replication, three
 focal pairs per respondent, four nuisance tasks, and 199 multiplier draws. The
 base candidate has train and car constants plus generic time and cost. The
-oracle repair adds the single term used by the DGP when applicable.
+oracle repair adds the single term used by the DGP when applicable. Estimation
+uses a damped Newton update with a monotone loss check.
 
 | DGP | additive candidate | oracle-term candidate |
 |---|---:|---:|
 | additive | 0.06 | not applicable |
-| omitted nonlinear term | 0.84 | 0.18 |
-| omitted threshold | 1.00 | 1.00 |
-| omitted interaction | 1.00 | 0.98 |
+| omitted nonlinear term | 0.84 | 0.04 |
+| omitted threshold | 1.00 | 0.02 |
+| omitted interaction | 1.00 | 0.02 |
 | random cost sensitivity | 0.04 | not applicable |
 
 The additive null and random-cost boundary have rejection rates near the
-declared 5% level. The base candidate has high power against the nonlinear
-and interaction shifts. The threshold and interaction repair rows still
-reject after the correct term is supplied. This means the current estimator
-or pair design has not passed the repair gate. The result is useful because it
-blocks an invalid claim: a rejection cannot yet be interpreted as a localized
-omitted term when the repaired candidate remains rejected.
+declared 5% level. The base candidate has high power against the nonlinear,
+threshold, and interaction shifts. Rejection falls back to the declared size
+after the corresponding term is supplied. The repair gate now passes.
 
-The threshold condition is especially sensitive to the small number of focal
-tasks that cross the hinge. A credible paper needs a better-balanced design,
-more varied threshold crossings, a stable MNL optimizer, and a predeclared
-repair test before presenting the paired-task test as a method contribution.
+Pair-type localization is directional rather than exact. For the nonlinear
+condition, rejection is 0.74 for the time shift, 0.06 for the cost shift, and
+0.68 for the joint shift. For the threshold condition it is 0.10, 1.00, and
+1.00. For the interaction condition it is 0.28, 1.00, and 1.00. The joint
+shift changes more than one raw locus, so the interaction result cannot be
+described as uniquely isolated. A four-cell factorial contrast is the next
+design repair if the paper needs term-level localization.
+
+The threshold condition is especially sensitive to the number of focal tasks
+that cross the hinge. A credible paper needs a better-balanced design and a
+predeclared repair test before presenting the paired-task test as a method
+contribution.
 
 ## Decision
 
-The exact design is a promising independent object with a falsifiable null,
-but it is not submission-ready. The main manuscript must not claim that it
-localizes omitted mechanisms until the repair gate passes. If the repair gate
-continues to fail after design and optimizer fixes, this innovation is
-dropped and the paper returns to a narrower recoverability benchmark.
+The exact design is a promising independent object with a falsifiable null.
+The repair gate now passes in the controlled simulation, while interaction
+localization remains incomplete because the joint shift changes multiple
+raw loci. The method is still high-risk until a factorial contrast or a
+purpose-built paired-task supplement confirms the intended localization.
 
 The output is `results/exact_paired_task_benchmark.csv`; the public Swissmetro
 file cannot validate this exact design because it lacks the randomized focal
