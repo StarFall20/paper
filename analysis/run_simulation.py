@@ -13,6 +13,11 @@ import os
 from dataclasses import dataclass
 import numpy as np
 
+N_ALTERNATIVES = 3
+N_ATTRIBUTES = 5
+OPT_OUT_INDEX = 2
+PRICE_INDEX = 4
+
 
 @dataclass(frozen=True)
 class Condition:
@@ -43,21 +48,21 @@ def softmax(u):
 
 def make_data(seed, n=400, tasks=12, condition=None):
     rng = np.random.default_rng(seed)
-    j = 3
+    j = N_ALTERNATIVES
     # alternative attributes: quality, support, evidence, data, price
-    x = rng.normal(size=(n, tasks, j, 5))
-    x[:, :, 2, :] = 0.0  # opt-out has no product attributes
-    x[:, :, :, 4] = np.abs(x[:, :, :, 4]) + 0.5
+    x = rng.normal(size=(n, tasks, j, N_ATTRIBUTES))
+    x[:, :, OPT_OUT_INDEX, :] = 0.0  # opt-out has no product attributes
+    x[:, :, :, PRICE_INDEX] = np.abs(x[:, :, :, PRICE_INDEX]) + 0.5
     z = rng.normal(size=(n, 2))  # observed income and digital experience
     z[:, 0] = (z[:, 0] > 0).astype(float)
     z[:, 1] = (z[:, 1] > 0).astype(float)
     base = np.array([0.55, 0.35, 0.45, 0.25, -0.85])
     v = np.einsum("ntjp,p->ntj", x, base)
-    v[:, :, 2] += -0.35
+    v[:, :, OPT_OUT_INDEX] += -0.35
     if condition.nonlinear:
-        v += 0.55 * x[:, :, :, 0] ** 2 - 0.30 * x[:, :, :, 4] ** 2
+        v += 0.55 * x[:, :, :, 0] ** 2 - 0.30 * x[:, :, :, PRICE_INDEX] ** 2
     if condition.threshold:
-        v += -0.90 * np.maximum(x[:, :, :, 4] - 1.25, 0.0)
+        v += -0.90 * np.maximum(x[:, :, :, PRICE_INDEX] - 1.25, 0.0)
     if condition.interaction:
         v += 0.75 * x[:, :, :, 0] * x[:, :, :, 1]
         v += 0.55 * x[:, :, :, 2] * z[:, None, None, 1]
@@ -65,8 +70,8 @@ def make_data(seed, n=400, tasks=12, condition=None):
         # Unobserved random price sensitivity. This is deliberately distinct
         # from the observed covariates used by the interaction condition.
         random_price = rng.normal(0.0, 0.45, size=n)
-        v += random_price[:, None, None] * x[:, :, :, 4]
-    v[:, :, 2] += 0.15 * z[:, None, 0]
+        v += random_price[:, None, None] * x[:, :, :, PRICE_INDEX]
+    v[:, :, OPT_OUT_INDEX] += 0.15 * z[:, None, 0]
     p = softmax(v.reshape(-1, j)).reshape(n, tasks, j)
     choices = np.array([rng.choice(j, p=pp) for pp in p.reshape(-1, j)]).reshape(n, tasks)
     return x, z, choices, v
@@ -74,16 +79,18 @@ def make_data(seed, n=400, tasks=12, condition=None):
 
 def feature_matrix(x, z, structured=False):
     n, t, j, _ = x.shape
+    if j != N_ALTERNATIVES:
+        raise ValueError(f"expected {N_ALTERNATIVES} alternatives, found {j}")
     flat_x = x.reshape(n * t, j, 5)
     flat_z = np.repeat(z, t, axis=0)
-    optout = np.broadcast_to((np.arange(j) == 2).astype(float)[None, :, None], (n * t, j, 1))
+    optout = np.broadcast_to((np.arange(j) == OPT_OUT_INDEX).astype(float)[None, :, None], (n * t, j, 1))
     cols = [flat_x, optout]
     if structured:
-        cols += [flat_x[:, :, 0:1] ** 2, flat_x[:, :, 4:5] ** 2]
-        cols += [np.maximum(flat_x[:, :, 4:5] - 1.25, 0.0)]
+        cols += [flat_x[:, :, 0:1] ** 2, flat_x[:, :, PRICE_INDEX:PRICE_INDEX + 1] ** 2]
+        cols += [np.maximum(flat_x[:, :, PRICE_INDEX:PRICE_INDEX + 1] - 1.25, 0.0)]
         cols += [flat_x[:, :, 0:1] * flat_x[:, :, 1:2]]
         cols += [flat_x[:, :, 2:3] * flat_z[:, None, 1:2]]
-        cols += [flat_x[:, :, 4:5] * flat_z[:, None, 0:1]]
+        cols += [flat_x[:, :, PRICE_INDEX:PRICE_INDEX + 1] * flat_z[:, None, 0:1]]
     return np.concatenate(cols, axis=2)
 
 
@@ -108,16 +115,16 @@ def fit_latent_class(X4, y2, steps=100, lr=0.06, l2=1e-3, seed=0):
     prior = np.full(k, 1.0 / k)
     for _ in range(steps):
         loglik = np.zeros((n, k))
-        probs = np.zeros((n, tasks, k, 3))
+        probs = np.zeros((n, tasks, k, N_ALTERNATIVES))
         for c in range(k):
-            probs[:, :, c, :] = softmax(np.einsum("ntjp,p->ntj", X4, beta[c]).reshape(-1, 3)).reshape(n, tasks, 3)
+            probs[:, :, c, :] = softmax(np.einsum("ntjp,p->ntj", X4, beta[c]).reshape(-1, N_ALTERNATIVES)).reshape(n, tasks, N_ALTERNATIVES)
             loglik[:, c] = np.log(np.clip(probs[:, :, c, :][np.arange(n)[:, None], np.arange(tasks)[None, :], y2], 1e-12, 1)).sum(1)
         z = loglik + np.log(np.clip(prior, 1e-12, 1))[None, :]
         z -= z.max(1, keepdims=True)
         resp = np.exp(z); resp /= resp.sum(1, keepdims=True)
         prior = resp.mean(0)
         for c in range(k):
-            target = np.eye(3)[y2]
+            target = np.eye(N_ALTERNATIVES)[y2]
             err = probs[:, :, c, :] - target
             weighted = resp[:, c, None, None] * err
             grad = np.einsum("nt,ntj,ntjp->p", resp[:, c, None].repeat(tasks, 1), err, X4) / (resp[:, c].sum() * tasks + 1e-12)
@@ -132,12 +139,12 @@ def score_latent_class(X4, y2, v4, beta, prior):
         probs.append(softmax(np.einsum("ntjp,p->ntj", X4, beta[c]).reshape(-1, 3)).reshape(n, tasks, 3))
     pr = np.tensordot(np.asarray(prior), np.asarray(probs), axes=(0, 0))
     pred = pr.argmax(2)
-    yflat = y2.reshape(-1); pflat = pr.reshape(-1, 3); vflat = v4.reshape(-1, 3)
+    yflat = y2.reshape(-1); pflat = pr.reshape(-1, N_ALTERNATIVES); vflat = v4.reshape(-1, N_ALTERNATIVES)
     pred = pflat.argmax(1)
     acc = float((pred == yflat).mean())
     logloss = float(-np.log(np.clip(pflat[np.arange(len(yflat)), yflat], 1e-12, 1)).mean())
-    brier = float(((pflat - np.eye(3)[yflat]) ** 2).sum(1).mean())
-    shares = pflat.mean(0); observed = np.bincount(yflat, minlength=3) / len(yflat)
+    brier = float(((pflat - np.eye(N_ALTERNATIVES)[yflat]) ** 2).sum(1).mean())
+    shares = pflat.mean(0); observed = np.bincount(yflat, minlength=N_ALTERNATIVES) / len(yflat)
     share_rmse = float(np.sqrt(np.mean((shares - observed) ** 2)))
     regret = float(np.mean(vflat.max(1) - vflat[np.arange(len(yflat)), pred]))
     return acc, logloss, brier, share_rmse, regret
@@ -148,9 +155,9 @@ def score(X, y, v_true, beta):
     pred = pr.argmax(1)
     acc = float((pred == y).mean())
     logloss = float(-np.log(np.clip(pr[np.arange(len(y)), y], 1e-12, 1)).mean())
-    brier = float(((pr - np.eye(3)[y]) ** 2).sum(1).mean())
+    brier = float(((pr - np.eye(N_ALTERNATIVES)[y]) ** 2).sum(1).mean())
     shares = pr.mean(0)
-    observed = np.bincount(y, minlength=3) / len(y)
+    observed = np.bincount(y, minlength=N_ALTERNATIVES) / len(y)
     share_rmse = float(np.sqrt(np.mean((shares - observed) ** 2)))
     regret = float(np.mean(v_true.max(1) - v_true[np.arange(len(y)), pred]))
     return acc, logloss, brier, share_rmse, regret
@@ -177,7 +184,7 @@ def choose_candidate_terms(xx, choices, train_ids, tasks, seed):
     tr0, y0 = stack(inner, selected)
     beta0 = fit_mnl(tr0, y0)
     va0, yv = stack(valid, selected)
-    best_loss = score(va0, yv, np.zeros((len(yv), 3)), beta0)[1]
+    best_loss = score(va0, yv, np.zeros((len(yv), N_ALTERNATIVES)), beta0)[1]
     while remaining:
         trials = []
         for gi in remaining:
@@ -185,7 +192,7 @@ def choose_candidate_terms(xx, choices, train_ids, tasks, seed):
             tr, yy = stack(inner, cols)
             b = fit_mnl(tr, yy, steps=220)
             va, _ = stack(valid, cols)
-            loss = score(va, yv, np.zeros((len(yv), 3)), b)[1]
+            loss = score(va, yv, np.zeros((len(yv), N_ALTERNATIVES)), b)[1]
             trials.append((loss, gi))
         loss, gi = min(trials)
         if loss + 1e-4 < best_loss:
@@ -218,7 +225,7 @@ def run(reps=24, n=400, tasks=12, out="results/simulation_results.csv"):
                 xx = xx[:, :, selected]
                 if model == "Latent_Class_MNL":
                     n_features = xx.shape[2]
-                    x4 = xx.reshape(n, tasks, 3, n_features)
+                    x4 = xx.reshape(n, tasks, N_ALTERNATIVES, n_features)
                     beta_lc, prior_lc = fit_latent_class(x4[train_ids], choices[train_ids], seed=seed + 303)
                     vals = score_latent_class(x4[test_ids], choices[test_ids], v[test_ids], beta_lc, prior_lc)
                     rows.append({"condition": cond.name, "replication": rep, "model": model,
