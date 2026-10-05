@@ -28,10 +28,11 @@ and no descriptive rejection on public Swissmetro. It remains a feasibility
 audit until an exact randomized supplement is available.
 
 The exact three-alternative benchmark now supplies the randomized supplement
-in simulation. It has strong base power, but adding the corresponding
-threshold or interaction term does not remove rejection. This repair failure
-means the current implementation cannot yet localize omitted mechanisms. The
-pivot remains a candidate object, not the paper's accepted contribution.
+in simulation. It has strong base power, and the damped-Newton repair returns
+rejection to the declared size after the corresponding term is added. The
+joint shift still changes multiple raw loci, so interaction localization is
+incomplete. A factorial contrast is required before the pivot can be treated
+as a fully localized specification test.
 
 ## Objective assessment
 
