@@ -6,9 +6,10 @@ The preferred new direction is a **model-equivalent choice-pair test**. The
 analyst creates two randomized choice tasks with the same candidate-model
 utility-difference vector and different raw attribute decompositions. The
 candidate model implies equal choice probabilities for the pair. A bootstrap-
-calibrated share difference becomes a direct specification test, with pair
-construction used to localize a missing nonlinear, threshold, or interaction
-term. The first 500-replication prototype gives a 0.06 rejection rate under
+calibrated share difference becomes a direct specification test. Pair labels
+can stratify the violation by a predeclared transformation, but they do not
+identify a unique omitted term. The first 500-replication prototype gives a
+0.06 rejection rate under
 the additive null and 0.986 under an omitted quadratic term.
 
 This pivot is a separate design-based object. It does not combine the Random
