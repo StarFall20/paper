@@ -2,11 +2,32 @@
 
 ## Research question
 
+**Independent pivot under review:** Can a utility basis be rejected by
+randomized choice-task pairs that preserve the candidate model's utility
+differences while changing the attribute decomposition? The paired-task test
+is the only new object being considered for the main contribution. The
+recoverability and process-triage analyses remain comparison baselines until
+the paired-task data condition is verified.
+
 Can a grouped-validation diagnostic decide whether a choice problem needs utility enrichment, discrete segmentation, continuous heterogeneity, process/sequence modelling, or candidate-library expansion? When the observed data cannot distinguish competing mechanisms, can an explicit unresolved branch reduce policy loss relative to forced model selection?
 
-## Main contribution
+## Current baseline contribution
 
 The paper develops a process- and recoverability-aware model-family triage rule for choice-model specification. A choice-set-aware diagnostic ranks candidate utility terms, a formal heterogeneity gate tests whether respondent-level structure is missing, a sequence diagnostic tests omitted state dependence, and the selected branch is refit in a behavioural model. When evidence cannot distinguish taste heterogeneity from attribute non-attendance, the rule abstains and identifies the missing measurement needed for resolution. The contribution is assessed through structure recovery, parameter and WTP recovery, calibration, external prediction, decision regret, computational cost, parsimony, and the cost of forced decisions. The paper presents an empirically tested decision rule for analysts, not a new generic search algorithm.
+
+This baseline is below the preferred innovation threshold if presented as the
+main paper claim. The standalone process branches overlap established JOCM
+work and are retained as failure-boundary comparisons.
+
+## Candidate main contribution
+
+The model-equivalent choice-pair test constructs task pairs with identical
+candidate-model utility-difference vectors and different attribute
+decompositions. Under the candidate utility basis, the pair has identical
+choice probabilities. A bootstrap-calibrated difference in observed choice
+shares tests that equality and can localize omitted nonlinear, threshold, or
+interaction terms. The method is adopted only if a valid paired-task
+instrument is available.
 
 ## Evidence package
 
