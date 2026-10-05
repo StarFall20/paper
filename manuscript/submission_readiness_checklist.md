@@ -2,7 +2,14 @@
 
 ## Current decision
 
-The manuscript fits the journal's methodological scope as a mechanism-controlled validation benchmark for assisted utility specification. A generic "ML-assisted model search" claim would overlap with recent JOCM work on assisted specification, extensive mixed-Logit hypothesis search, reinforcement learning, and LLM-supported specification. The submission should wait until the main evidence package and the reproducibility archive are complete.
+The manuscript fits the journal's methodological scope as a specification
+study, but the original generic "ML-assisted model search" claim overlaps with
+recent JOCM work on assisted specification, extensive mixed-Logit hypothesis
+search, reinforcement learning, and LLM-supported specification. An
+independent pivot has now been prototyped: a model-equivalent choice-pair test
+holds the candidate utility differences fixed while changing the attribute
+decomposition. It is not ready for the main manuscript until a valid paired-task
+instrument is verified.
 
 ## Novelty and overlap gate
 
@@ -11,6 +18,7 @@ The manuscript fits the journal's methodological scope as a mechanism-controlled
 - Cite and distinguish the recent JOCM assisted-specification, mixed-Logit search, reinforcement-learning, and LLM papers in the introduction and discussion. The detailed positioning matrix is in `manuscript/novelty_positioning.md`.
 - The current RF selector recovers 4.0 of 5 represented terms on average in the combined condition (precision 0.91; recall 0.80) and recovers no threshold hinge terms in the threshold-only condition. Treat this boundary as a result, not as a hidden weakness.
 - Before submission, run a candidate-library omission stress test. The present benchmark gives the selector access to all represented terms, so external validity of term recovery remains an open threat.
+- For the paired-task pivot, report bootstrap size, power, localization, and the loss of rejection after the omitted term is added. Do not claim an empirical test if the available data do not contain randomized matched pairs.
 
 ## Ordered work plan
 
