@@ -31,8 +31,10 @@ The exact three-alternative benchmark now supplies the randomized supplement
 in simulation. It has strong base power, and the damped-Newton repair returns
 rejection to the declared size after the corresponding term is added. The
 joint shift still changes multiple raw loci, so interaction localization is
-incomplete. A factorial contrast is required before the pivot can be treated
-as a fully localized specification test.
+incomplete. A four-cell probability-scale factorial contrast was audited as a
+repair; it fails when an interaction coexists with a nonlinear main effect.
+The extension is excluded from the primary claim. The supported object is a
+test for candidate-invariance violation, with no unique omitted-term label.
 
 ## Objective assessment
 
