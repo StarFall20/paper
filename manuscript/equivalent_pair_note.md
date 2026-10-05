@@ -47,6 +47,16 @@ main-paper pivot requires a new paired-task supplement or a different dataset;
 the ordinary Swissmetro application can validate transfer of the baseline
 specification workflow only.
 
+An observational fallback is possible: freeze a candidate model on a separate
+development sample, match within-respondent tasks by the candidate's two
+utility-difference coordinates, and test choice-share equality on held-out
+tasks. In the public file, the audit finds 26, 85, 535, and 1,924 within-ID
+pairs at coordinate tolerances 0.01, 0.02, 0.05, and 0.10, respectively. The
+small tolerances give little power; the larger tolerances weaken the equality
+restriction. `analysis/audit_swissmetro_pairs.py` records this trade-off. The
+fallback is a separate, calibrated observational test and cannot be treated as
+equivalent to randomized paired-task data.
+
 The null rejection rate is close to the declared size and the nonlinear
 condition is detected with high power in this deliberately simple design. The
 result supports feasibility, not a submission claim. The next experiments
