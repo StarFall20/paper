@@ -17,11 +17,12 @@ bootstrap. Its current boundary run controls the null at about 5% but has only
 modest power against the engineered nonlinear and interaction conditions. It
 is an audit of feasibility and does not replace the exact paired-task design.
 
-The exact randomized benchmark now gives strong base power, but the repair
-candidate still rejects in the threshold and interaction conditions. The
-central localization claim is therefore unverified. The next repair step is a
-balanced crossing design and a stable optimizer; the pivot stays outside the
-main paper until that gate passes.
+The exact randomized benchmark now gives strong base power, and the damped-
+Newton repair candidate returns the rejection rate to the declared size for
+the nonlinear, threshold, and interaction conditions. Interaction
+localization remains incomplete because the joint shift changes multiple raw
+loci. The next repair step is a four-cell factorial contrast; the pivot stays
+high-risk until that design or an empirical supplement is validated.
 
 Can a grouped-validation diagnostic decide whether a choice problem needs utility enrichment, discrete segmentation, continuous heterogeneity, process/sequence modelling, or candidate-library expansion? When the observed data cannot distinguish competing mechanisms, can an explicit unresolved branch reduce policy loss relative to forced model selection?
 
