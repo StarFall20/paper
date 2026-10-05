@@ -1,0 +1,6 @@
+tolerance,rows,respondents,within_respondent_pairs,respondents_with_pair,exact_profile_repeats
+0.0,10728,1192,8,2,8
+0.01,10728,1192,26,20,8
+0.02,10728,1192,85,70,8
+0.05,10728,1192,535,306,8
+0.1,10728,1192,1924,729,8
