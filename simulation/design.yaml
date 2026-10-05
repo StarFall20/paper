@@ -62,5 +62,5 @@ validation:
   external_temporal_holdout: planned_for_lpmc
   respondent_grouped_panel_validation: planned_for_swissmetro
 metrics:
-  current: [accuracy, logloss, brier, choice_share_rmse, decision_regret]
+  current: [accuracy, logloss, brier, choice_share_rmse, decision_regret, term_recovery]
   planned: [coefficient_recovery, wtp_recovery, calibration, term_stability, parsimony]
