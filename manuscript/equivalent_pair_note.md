@@ -35,6 +35,18 @@ The 500-replication run gives:
 The raw replication file is `results/equivalent_pair_test.csv`; the entry
 point is `analysis/equivalent_pair_test.py`.
 
+## Swissmetro feasibility audit
+
+The public Biogeme Swissmetro file contains 10,728 rows for 1,192 respondent
+IDs, with nine choice situations per ID. An exact scan of the full
+alternative-attribute profile finds only eight repeated profiles within a
+respondent, concentrated in two IDs. Those rows look like duplicated survey
+records rather than a balanced matched-task block. The dataset therefore does
+not supply enough clean paired tasks for an empirical equivalence test. The
+main-paper pivot requires a new paired-task supplement or a different dataset;
+the ordinary Swissmetro application can validate transfer of the baseline
+specification workflow only.
+
 The null rejection rate is close to the declared size and the nonlinear
 condition is detected with high power in this deliberately simple design. The
 result supports feasibility, not a submission claim. The next experiments
@@ -51,6 +63,5 @@ and include latent heterogeneity and process violations.
 4. The bootstrap must preserve respondent clustering when each respondent sees
    both members of a pair.
 5. An empirical application requires matched tasks in the instrument or a
-   paired-task supplement. LPMC cannot establish this property without such a
-   design.
-
+   paired-task supplement. LPMC and the public Swissmetro file cannot establish
+   this property without such a design.
