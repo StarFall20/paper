@@ -10,10 +10,11 @@ mkdir -p "$OUT_DIR"
 "$PYTHON_BIN" analysis/run_mixed_logit_extension.py --reps 1 --out "$OUT_DIR/mixed_logit.csv"
 "$PYTHON_BIN" analysis/process_gate.py --reps 1 --out "$OUT_DIR/process_gate.csv"
 "$PYTHON_BIN" analysis/equivalent_pair_test.py --reps 2 --n-per-pair 30 --bootstrap 50 --out "$OUT_DIR/equivalent_pair.csv"
+"$PYTHON_BIN" analysis/observational_equivalence_test.py simulate --reps 1 --bootstrap 20 --out "$OUT_DIR/observational_equivalence.csv"
 "$PYTHON_BIN" - "$OUT_DIR" <<'PY'
 import csv, pathlib, sys
 root = pathlib.Path(sys.argv[1])
-expected = {"simulation.csv": 32, "tree.csv": 16, "mixed_logit.csv": 8, "process_gate.csv": 5, "equivalent_pair.csv": 4}
+expected = {"simulation.csv": 32, "tree.csv": 16, "mixed_logit.csv": 8, "process_gate.csv": 5, "equivalent_pair.csv": 4, "observational_equivalence.csv": 4}
 for name, rows in expected.items():
     with (root / name).open(newline="") as f:
         count = sum(1 for _ in csv.DictReader(f))
