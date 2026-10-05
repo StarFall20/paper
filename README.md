@@ -31,7 +31,7 @@ Data provenance and the empirical validation protocol are recorded in `data/READ
 
 The first reproducible Monte Carlo run is complete. It uses eight mechanism-specific conditions, 24 replications per condition (192 replications total), 400 consumers, and 12 tasks per consumer. The current minimal implementation compares additive MNL with structured MNL and reports accuracy, log loss, Brier score, choice-share RMSE, and decision regret. The results are in `results/simulation_results.csv` and `results/summary_results.csv`.
 
-This run is a validated analysis scaffold. Mixed Logit, Latent Class, Random Forest, XGBoost, LPMC, and Swissmetro still need to be added when their estimation dependencies and data files are available.
+This run is a validated analysis scaffold. Mixed Logit, the exact XGBoost runtime, LPMC, and Swissmetro remain to be added when their estimation dependencies and data files are available.
 
 The corrected assisted-specification experiment is expanded to 30 replications per condition. It includes an explicit opt-out utility indicator and unobserved random price sensitivity in the heterogeneity condition. Nested respondent-level forward selection over six candidate utility terms is compared with additive and fully structured MNL. Results are in `results/assisted_spec_results_corrected_30rep.csv`, `results/assisted_spec_summary_corrected_30rep.csv`, and `results/selected_terms_frequency_corrected_30rep.csv`.
 
