@@ -49,6 +49,31 @@ The selection stage can be upgraded from fit-only screening to a constrained obj
 
 ## Additional high-value innovations found in the audit
 
+### 0. Process-aware triage with an explicit unresolved branch
+
+Process heterogeneity is already a mature JOCM topic. Existing papers model
+attribute non-attendance, saliency, inertia, non-trading, and disjunctive
+decision rules. Adding one of those mechanisms alone would duplicate that
+literature. The stronger route is to make process heterogeneity a branch in a
+recoverability-aware triage rule and to add an explicit abstention outcome.
+
+The rule should distinguish three signals: (i) observable utility-form error,
+(ii) respondent-level score dispersion, and (iii) sequence residuals. A high
+score-dispersion statistic can arise from random taste sensitivity or
+attribute non-attendance. If no attention or process indicator separates them,
+the rule should report an unresolved mechanism and request additional evidence
+instead of forcing a Mixed Logit or ANA label. This is the key method-transfer
+opportunity from selective prediction: the model-selection system can decline
+an unsupported behavioural interpretation.
+
+The exploratory process prototype supports this design. In 30 respondent-
+grouped replications, random price sensitivity and price non-attendance both
+produced high price-score dispersion and near-zero sequence residuals, while
+inertia produced a positive sequence residual. The combined condition produced
+both signals. The overlap between random taste and non-attendance is a useful
+failure boundary, not a result to hide. Details and raw outputs are in
+`manuscript/process_gate_note.md` and `results/process_gate_30rep.csv`.
+
 ### 1. A recoverability ceiling for observed-term diagnostics
 
 The current heterogeneity condition can support a formal distinction between approximation error and latent-heterogeneity error. When all candidate terms are functions of observed attributes, a selector can improve the observed utility component but cannot identify respondent-specific random coefficients that are independent of those attributes. Define the recoverability ceiling as the performance of the best candidate-term model under the true observed component, and report the residual policy regret relative to the true random-coefficient model. The paper can then test whether the ceiling predicts the point at which MNL enrichment should stop and Mixed Logit should begin.
