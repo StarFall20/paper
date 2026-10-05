@@ -14,9 +14,9 @@ import sys
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(__file__))
-from run_simulation import CONDITIONS, feature_matrix, make_data
+from run_simulation import CONDITIONS, N_ALTERNATIVES, PRICE_INDEX, feature_matrix, make_data
 
-PRICE_FEATURE_INDEX = 4
+PRICE_FEATURE_INDEX = PRICE_INDEX
 
 
 def make_antithetic_draws(n, draws, seed):
@@ -74,14 +74,14 @@ def score_mixed_logit(X, y, v, beta, sigma, draws=80, seed=0):
     prob = _probabilities(X, beta, sigma, q)
     pr = prob.mean(axis=1)
     yflat = y.reshape(-1)
-    pflat = pr.reshape(-1, 3)
-    vflat = v.reshape(-1, 3)
+    pflat = pr.reshape(-1, N_ALTERNATIVES)
+    vflat = v.reshape(-1, N_ALTERNATIVES)
     pred = pflat.argmax(1)
     acc = float((pred == yflat).mean())
     logloss = float(-np.log(np.clip(pflat[np.arange(len(yflat)), yflat], 1e-12, 1)).mean())
-    brier = float(((pflat - np.eye(3)[yflat]) ** 2).sum(1).mean())
+    brier = float(((pflat - np.eye(N_ALTERNATIVES)[yflat]) ** 2).sum(1).mean())
     shares = pflat.mean(0)
-    observed = np.bincount(yflat, minlength=3) / len(yflat)
+    observed = np.bincount(yflat, minlength=N_ALTERNATIVES) / len(yflat)
     share_rmse = float(np.sqrt(np.mean((shares - observed) ** 2)))
     regret = float(np.mean(vflat.max(1) - vflat[np.arange(len(yflat)), pred]))
     return acc, logloss, brier, share_rmse, regret
@@ -93,7 +93,7 @@ def run(reps=3, n=400, tasks=12, out="results/mixed_logit_extension.csv"):
         for rep in range(reps):
             seed = 20401005 + ci * 1000 + rep
             x, z, choices, v = make_data(seed, n, tasks, cond)
-            X = feature_matrix(x, z, structured=False).reshape(n, tasks, 3, -1)
+            X = feature_matrix(x, z, structured=False).reshape(n, tasks, N_ALTERNATIVES, -1)
             ids = np.arange(n)
             np.random.default_rng(seed + 7).shuffle(ids)
             cut = int(0.8 * n)
