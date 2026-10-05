@@ -80,6 +80,13 @@ paired-task validation. The pivot therefore needs a paired-task supplement or
 a different dataset; the existing Swissmetro application can validate the
 baseline workflow only.
 
+An observational fallback can match within-respondent tasks on two frozen
+candidate utility-difference coordinates. The public file yields 26, 85, 535,
+and 1,924 pairs at coordinate tolerances 0.01, 0.02, 0.05, and 0.10. This
+creates a power-versus-approximation trade-off and requires a separate
+clustered bootstrap. It is a possible extension of the pivot, not evidence
+that the existing panel is a randomized paired-task experiment.
+
 ## Selected pivot: model-equivalent choice-pair test
 
 ### Scientific question
