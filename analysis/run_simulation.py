@@ -1,9 +1,10 @@
-"""Pure-NumPy Monte Carlo benchmark for the JOCM revision.
+"""Monte Carlo benchmark for the JOCM revision.
 
 The script keeps the simulation runnable in a minimal environment. It compares
 an additive MNL with a structured MNL that receives prespecified nonlinear and
-interaction terms. Optional scikit-learn learners can be added later without
-changing the data-generating process or validation code.
+interaction terms. The ML-assisted selector uses a respondent-level random
+forest diagnostic to rank candidate utility terms, followed by nested
+behavioural refitting and validation.
 """
 from __future__ import annotations
 
@@ -12,6 +13,12 @@ import csv
 import os
 from dataclasses import dataclass
 import numpy as np
+
+try:
+    from sklearn.ensemble import RandomForestClassifier
+except ImportError as exc:  # pragma: no cover - dependency is pinned for the release
+    RandomForestClassifier = None
+    _SKLEARN_IMPORT_ERROR = exc
 
 N_ALTERNATIVES = 3
 N_ATTRIBUTES = 5
@@ -167,16 +174,42 @@ def score(X, y, v_true, beta):
 
 
 def choose_candidate_terms(xx, choices, train_ids, tasks, seed):
-    """Nested forward selection using respondent-level validation."""
+    """Use RF diagnostics, then nested behavioural forward selection.
+
+    The forest only sees the inner respondent split. Candidate terms are ranked
+    by grouped alternative-specific feature importance. The behavioural MNL is
+    then refit on the inner split and terms are retained only when the inner
+    validation loss improves. This keeps discovery and behavioural estimation
+    separate while making the selector genuinely ML-assisted.
+    """
+    if RandomForestClassifier is None:
+        raise ImportError("scikit-learn is required for ML-assisted selection") from _SKLEARN_IMPORT_ERROR
     rng = np.random.default_rng(seed)
     shuffled = np.array(train_ids, copy=True)
     rng.shuffle(shuffled)
     cut = max(1, int(0.75 * len(shuffled)))
     inner, valid = shuffled[:cut], shuffled[cut:]
-    groups = [[6], [7], [8], [9], [10], [11]]
+    groups = [[N_ATTRIBUTES + 1 + i] for i in range(6)]
     names = ["quality_sq", "price_sq", "price_hinge", "quality_support", "evidence_digital", "price_income"]
-    selected = list(range(6))
-    remaining = list(range(len(groups)))
+    selected = list(range(N_ATTRIBUTES + 1))
+    # Fit the diagnostic learner only on inner respondents and aggregate
+    # importance across alternatives for each candidate utility term.
+    flat = xx.reshape(xx.shape[0], -1)
+    inner_rows = np.concatenate([inner * tasks + q for q in range(tasks)])
+    forest = RandomForestClassifier(
+        n_estimators=100,
+        min_samples_leaf=5,
+        max_features="sqrt",
+        random_state=seed,
+        n_jobs=1,
+    )
+    forest.fit(flat[inner_rows], choices[inner].reshape(-1))
+    importance = forest.feature_importances_.reshape(N_ALTERNATIVES, xx.shape[2]).sum(axis=0)
+    ranked = sorted(range(len(groups)), key=lambda gi: float(importance[groups[gi]].sum()), reverse=True)
+    # The diagnostic stage defines a short-list. Behavioural validation then
+    # chooses among that shortlist, so the RF ranking has a material role in
+    # the final specification instead of serving as unused metadata.
+    remaining = ranked[:5]
 
     def stack(ids, cols):
         mat = xx[:, :, cols]
