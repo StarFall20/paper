@@ -51,19 +51,22 @@ The exact randomized benchmark provides a cleaner test of the proposed object:
 50 replications give 0.06 null rejection, 0.84 nonlinear power, and 1.00
 threshold and interaction power for the base candidate. Damped-Newton repair
 reduces rejection to 0.04, 0.02, and 0.02 after the corresponding terms are
-added. The remaining gap is term-level localization: the joint shift changes
-multiple raw loci, so a four-cell factorial contrast is needed before the
-pivot can enter the main claim.
+added. A four-cell probability-scale factorial audit was then run as a
+localisation repair. It gives 0.28 rejection for a pure interaction and 0.86
+when an interaction coexists with a nonlinear main effect. The audit shows
+that the mixed probability contrast is contaminated by the nonlinear link, so
+term-level localization is excluded from the innovation claim.
 
 ## New pivot gate
 
 The paired-task test can replace the process-triage claim only if it passes
-five checks: bootstrap size near the declared level, power against omitted
-nonlinear and interaction terms, localization when one attribute locus changes,
-loss of rejection after the correct term is added, and a valid Swissmetro or
-supplementary paired-task instrument. Without the final data condition, the
-test remains a simulation contribution and the manuscript should present the
-recoverability benchmark as the main empirical result.
+four checks: bootstrap size near the declared level, power against omitted
+nonlinear and interaction terms, loss of rejection after the correct term is
+added, and a valid Swissmetro or supplementary paired-task instrument. Term
+localization is outside the supported claim after the factorial audit. Without
+the final data condition, the test remains a simulation contribution and the
+manuscript should present the recoverability benchmark as the main empirical
+result.
 
 ## What would clear the gate
 
