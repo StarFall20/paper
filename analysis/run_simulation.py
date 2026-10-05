@@ -84,7 +84,7 @@ def feature_matrix(x, z, structured=False):
     n, t, j, _ = x.shape
     if j != N_ALTERNATIVES:
         raise ValueError(f"expected {N_ALTERNATIVES} alternatives, found {j}")
-    flat_x = x.reshape(n * t, j, 5)
+    flat_x = x.reshape(n * t, j, N_ATTRIBUTES)
     flat_z = np.repeat(z, t, axis=0)
     optout = np.broadcast_to((np.arange(j) == OPT_OUT_INDEX).astype(float)[None, :, None], (n * t, j, 1))
     cols = [flat_x, optout]
@@ -139,7 +139,7 @@ def score_latent_class(X4, y2, v4, beta, prior):
     n, tasks, _, _ = X4.shape
     probs = []
     for c in range(len(prior)):
-        probs.append(softmax(np.einsum("ntjp,p->ntj", X4, beta[c]).reshape(-1, 3)).reshape(n, tasks, 3))
+        probs.append(softmax(np.einsum("ntjp,p->ntj", X4, beta[c]).reshape(-1, N_ALTERNATIVES)).reshape(n, tasks, N_ALTERNATIVES))
     pr = np.tensordot(np.asarray(prior), np.asarray(probs), axes=(0, 0))
     pred = pr.argmax(2)
     yflat = y2.reshape(-1); pflat = pr.reshape(-1, N_ALTERNATIVES); vflat = v4.reshape(-1, N_ALTERNATIVES)
