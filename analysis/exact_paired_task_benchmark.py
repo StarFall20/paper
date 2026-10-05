@@ -40,13 +40,37 @@ def design(x, term=None):
     return np.concatenate([out, extra], axis=2)
 
 
-def fit_mnl(X, y, steps=3000, lr=0.15, l2=1e-4):
+def fit_mnl(X, y, steps=80, l2=1e-5):
+    """Fit MNL by damped Newton updates with a monotone loss check."""
     beta = np.zeros(X.shape[2])
+    target = np.eye(3)[y]
+
+    def loss(b):
+        p = softmax(np.einsum("njp,p->nj", X, b))
+        return float(-np.mean(np.log(np.clip(p[np.arange(len(y)), y], 1e-12, 1))) + 0.5 * l2 * (b @ b))
+
+    current = loss(beta)
     for _ in range(steps):
         probs = softmax(np.einsum("njp,p->nj", X, beta))
-        target = np.eye(3)[y]
         grad = np.einsum("nj,njp->p", probs - target, X) / len(y) + l2 * beta
-        beta -= lr * grad
+        info = np.eye(X.shape[2]) * l2
+        for n in range(len(y)):
+            w = np.diag(probs[n]) - np.outer(probs[n], probs[n])
+            info += X[n].T @ w @ X[n] / len(y)
+        try:
+            step = np.linalg.solve(info, grad)
+        except np.linalg.LinAlgError:
+            step = np.linalg.pinv(info) @ grad
+        accepted = False
+        for damping in (1.0, 0.5, 0.25, 0.1, 0.05):
+            candidate = beta - damping * step
+            value = loss(candidate)
+            if value <= current + 1e-10:
+                beta, current = candidate, value
+                accepted = True
+                break
+        if not accepted or np.linalg.norm(step) < 1e-7:
+            break
     return beta
 
 
