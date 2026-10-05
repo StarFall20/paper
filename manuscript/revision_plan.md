@@ -8,6 +8,9 @@ differences while changing the attribute decomposition? The paired-task test
 is the only new object being considered for the main contribution. The
 recoverability and process-triage analyses remain comparison baselines until
 the paired-task data condition is verified.
+An observational matched-task version may use frozen utility-difference
+coordinates in Swissmetro, but it requires a separate clustered bootstrap and
+is weaker than randomized pairs.
 
 Can a grouped-validation diagnostic decide whether a choice problem needs utility enrichment, discrete segmentation, continuous heterogeneity, process/sequence modelling, or candidate-library expansion? When the observed data cannot distinguish competing mechanisms, can an explicit unresolved branch reduce policy loss relative to forced model selection?
 
