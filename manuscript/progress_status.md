@@ -26,6 +26,7 @@
 - Add coefficient recovery, calibration, term stability, parsimony, and sample-size/task-count sensitivity analyses.
 - Add candidate-library coverage, recoverability-ceiling, formal heterogeneity-gate, and permutation-robustness experiments before claiming a general decision rule.
 - The public Swissmetro file has been audited: it has 10,728 rows for 1,192 IDs and only eight exact repeated full profiles within an ID, concentrated in two IDs. That structure is insufficient for a clean paired-task empirical test. A paired-task supplement or a different dataset is now a hard requirement for promoting the pivot to the main empirical contribution.
+- An observational fallback is specified in `analysis/audit_swissmetro_pairs.py`: freeze the candidate utility coordinates on development data, match within-respondent held-out tasks at a declared tolerance, and use a clustered bootstrap. The public file yields 26, 85, 535, and 1,924 candidate pairs at tolerances 0.01, 0.02, 0.05, and 0.10. This route remains weaker than randomized pairs and needs its own size and power study.
 - A first score-overdispersion prototype is now implemented. It flags all continuous-heterogeneity replications and 83% of combined replications at an exploratory threshold while producing a 3% false-positive rate in the additive condition. Bootstrap calibration is still required.
 
 ## Pending before submission
