@@ -49,10 +49,11 @@ documented limitation and does not clear the empirical gate.
 
 The exact randomized benchmark provides a cleaner test of the proposed object:
 50 replications give 0.06 null rejection, 0.84 nonlinear power, and 1.00
-threshold and interaction power for the base candidate. The repair gate still
-fails, with 1.00 and 0.98 rejection after the corresponding threshold and
-interaction terms are added. The pivot cannot enter the main claim until this
-failure is resolved by a balanced design and stable estimation.
+threshold and interaction power for the base candidate. Damped-Newton repair
+reduces rejection to 0.04, 0.02, and 0.02 after the corresponding terms are
+added. The remaining gap is term-level localization: the joint shift changes
+multiple raw loci, so a four-cell factorial contrast is needed before the
+pivot can enter the main claim.
 
 ## New pivot gate
 
