@@ -47,6 +47,13 @@ orientation at the larger tolerances, while cost orientation gives 0.847–0.977
 This orientation sensitivity is a direct failure boundary. The branch is a
 documented limitation and does not clear the empirical gate.
 
+The exact randomized benchmark provides a cleaner test of the proposed object:
+50 replications give 0.06 null rejection, 0.84 nonlinear power, and 1.00
+threshold and interaction power for the base candidate. The repair gate still
+fails, with 1.00 and 0.98 rejection after the corresponding threshold and
+interaction terms are added. The pivot cannot enter the main claim until this
+failure is resolved by a balanced design and stable estimation.
+
 ## New pivot gate
 
 The paired-task test can replace the process-triage claim only if it passes
