@@ -14,8 +14,9 @@ Use one central claim: ML diagnostics can identify utility terms that improve an
 
 - The assisted-specification experiment now has 30 replications per condition. Preserve this result set as the locked simulation benchmark.
 - A pure-NumPy two-class Latent Class MNL extension is available as a model-family check. Its results should remain separate from the locked benchmark until the full estimation settings are fixed.
+- A targeted random-price Mixed Logit extension is available as a heterogeneity check. It should remain separate from the locked benchmark until the full random-coefficient specification and WTP recovery are documented.
 - Random Forest and HistGradientBoosting are available in a grouped-holdout extension. HistGradientBoosting is labelled as a boosted-tree proxy while the exact XGBoost runtime remains unavailable on the current macOS environment.
-- Add Mixed Logit and the exact XGBoost run with documented tuning and an identical respondent-level validation budget.
+- Upgrade the targeted Mixed Logit check to the full random-coefficient specification and run exact XGBoost with documented tuning and an identical respondent-level validation budget.
 - Report coefficient recovery, WTP recovery, calibration, choice-share error, and decision regret.
 - Add sample-size and task-count sensitivity analyses.
 
