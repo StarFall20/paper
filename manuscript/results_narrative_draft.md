@@ -16,7 +16,7 @@ The two-class Latent Class MNL extension addresses discrete segmentation. In the
 
 Random Forest and HistGradientBoosting provide a flexible-learner implementation check under the same grouped holdout. HistGradientBoosting is reported as a boosted-tree proxy because the current macOS environment lacks `libomp.dylib` for the XGBoost native library. These outputs remain supplementary until the exact XGBoost runtime, tuning budget, calibration procedure, and Mixed Logit comparison are fixed.
 
-The targeted Mixed Logit extension estimates a single random price coefficient. Across three replications, the estimated random-price standard deviation is about 0.36 in the heterogeneity condition, with mean decision regret of 0.041. In the combined condition, regret remains 0.235. This separates continuous taste variation from the nonlinear and interaction terms that drive the combined condition. The extension is a diagnostic check; the final paper requires a full random-coefficient specification and WTP recovery.
+The targeted Mixed Logit extension estimates a single random price coefficient. Across three replications, the estimated random-price standard deviation is about 0.36 in the heterogeneity condition, with mean decision regret of 0.041. In the combined condition, regret remains 0.236. This separates continuous taste variation from the nonlinear and interaction terms that drive the combined condition. The extension is a diagnostic check; the final paper requires a full random-coefficient specification and WTP recovery.
 
 ## Reporting boundary
 
