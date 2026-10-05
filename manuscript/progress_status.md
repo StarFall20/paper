@@ -23,6 +23,7 @@
 - Run exact XGBoost in an environment with a working OpenMP runtime.
 - Add coefficient recovery, calibration, term stability, parsimony, and sample-size/task-count sensitivity analyses.
 - Add candidate-library coverage, recoverability-ceiling, formal heterogeneity-gate, and permutation-robustness experiments before claiming a general decision rule.
+- A first score-overdispersion prototype is now implemented. It flags all continuous-heterogeneity replications and 83% of combined replications at an exploratory threshold while producing a 3% false-positive rate in the additive condition. Bootstrap calibration is still required.
 
 ## Pending before submission
 
