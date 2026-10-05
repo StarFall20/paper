@@ -67,6 +67,10 @@ Add a score or residual-based gate before fitting Latent Class or Mixed Logit. T
 
 The gate should be judged by false expansion, missed heterogeneity, WTP distortion, and computational savings. A model that expands to Mixed Logit for every dataset is not a decision rule.
 
+### Prototype evidence
+
+The first score-overdispersion prototype already separates the current mechanisms. After fitting the structured MNL, the mean score ratio is 1.03 in the additive condition, 1.07 in the nonlinear condition, 1.05 in the interaction condition, 1.89 in the continuous-heterogeneity condition, and 1.50 in the combined condition. Using an exploratory threshold of 1.30, the gate flags 100% of heterogeneity replications and 83% of combined replications, while flagging 3% of additive replications. These values are development evidence only; the threshold must be calibrated by a parametric bootstrap before it enters the main paper. The raw diagnostics are in `results/heterogeneity_gate_30rep.csv` and the summary is in `results/heterogeneity_gate_summary_30rep.csv`.
+
 ## Innovation ranking after the deeper audit
 
 1. **Recommended and feasible:** recoverability-aware model-family triage with candidate coverage, formal heterogeneity gate, policy regret, and external transfer.
