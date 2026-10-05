@@ -4,6 +4,13 @@
 
 The topic fits the Journal of Choice Modelling because it studies utility specification, behavioural interpretation, model validation, and the use of data-driven methods in choice analysis. The current contribution is publishable only as a mechanism-controlled validation study. A claim that the paper introduces a new ML specification algorithm would overlap with established JOCM work and recent specification agents.
 
+The independent innovation search identifies a stronger candidate: a
+model-equivalent choice-pair test. It tests a model-implied equality created
+by the task design, so it can reject a good aggregate fit when the utility
+basis is wrong. This direction has a clear novelty claim only after a valid
+paired-task instrument is confirmed; otherwise it remains a simulation method
+and the manuscript should retain the narrower benchmark framing.
+
 ## Closest prior work
 
 | Study | What it already contributes | Required distinction in this paper |
@@ -25,6 +32,15 @@ The topic fits the Journal of Choice Modelling because it studies utility specif
 ## Revised contribution statement
 
 The paper develops a mechanism-controlled benchmark for deciding when data-driven utility diagnostics are useful in discrete choice modelling. It separates three sources of complexity: observable nonlinear and interaction terms, discrete segmentation, and continuous latent taste heterogeneity. It evaluates the workflow with predictive accuracy, coefficient and WTP recovery, calibration, specification stability, choice-share error, and decision regret under grouped validation. The output is a mechanism-specific selection rule that tells analysts when term discovery is sufficient and when the model must represent heterogeneity directly.
+
+If the paired-task condition is met, the revised contribution statement becomes:
+the paper develops a bootstrap-calibrated model-equivalent choice-pair test for
+utility specification. The test preserves candidate-model utility differences
+across randomized task pairs while changing the attribute decomposition. Its
+equivalence violation measures whether the observed choice process supports
+the candidate basis and localizes omitted nonlinear, threshold, or interaction
+terms. The existing ML and process analyses serve as comparison and boundary
+experiments.
 
 ## Journal and reader alignment
 
