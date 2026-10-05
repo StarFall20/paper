@@ -2,11 +2,11 @@
 
 ## Research question
 
-Can machine learning improve utility specification when it is used to discover candidate nonlinearities and interactions, while estimation and interpretation remain within the random-utility framework?
+Under which data-generating mechanisms do data-driven utility diagnostics improve a behavioural choice model, and when do they fail because the missing structure is latent or absent from the candidate library?
 
 ## Main contribution
 
-The paper evaluates a disciplined ML-assisted specification workflow against established behavioural alternatives. The contribution is assessed through structure recovery, parameter and WTP recovery, calibration, external prediction, and parsimony.
+The paper develops a mechanism-controlled validation benchmark for ML-assisted specification. A diagnostic learner ranks candidate utility terms; the selected terms are refit in a behavioural model. The contribution is assessed through structure recovery, parameter and WTP recovery, calibration, external prediction, decision regret, and parsimony. The paper presents a decision rule for analysts, not a new generic search algorithm.
 
 ## Evidence package
 
@@ -21,7 +21,7 @@ The paper evaluates a disciplined ML-assisted specification workflow against est
 - Mixed Logit for continuous taste heterogeneity
 - Latent Class MNL for discrete heterogeneity
 - Enriched interpretable utilities using prespecified quadratic, spline, hinge, and interaction terms
-- XGBoost as the primary diagnostic learner; random forest as a robustness learner
+- Random Forest as the current diagnostic learner; XGBoost as the planned exact-runtime robustness learner
 - ML-assisted specification: learner diagnostics, candidate-term screening, behavioural refit, nested/group validation, and parsimony selection
 
 ## Evaluation
@@ -53,3 +53,5 @@ Each paragraph has one job: motivate the question, define the method, explain id
 - Remove claims based only on random train/test splits.
 - Report validation design before reporting performance numbers.
 - Add a limitations paragraph covering data licensing, transferability, and computational choices.
+- Add a candidate-library coverage or omitted-term stress test so the mechanism-specific failure boundary is explicit.
+- Position the contribution against Ortelli et al. (2021), Hernandez et al. (2023), Beeramoole et al. (2023), Delphos, and recent LLM-assisted specification work.
