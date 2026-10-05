@@ -12,6 +12,7 @@
 - Added paired-draw Monte Carlo stability checks and an explicit framework/model audit.
 - Fixed opt-out price leakage in the data generator and regenerated the primary, latent-class, tree, and Mixed Logit result files.
 - Added mechanism-focused results prose, methods and writing benchmarks, data provenance instructions, a smoke test, and a SHA-256 results manifest.
+- Added a deeper innovation gate that ranks recoverability-aware model-family triage, choice-set-aware diagnostics, and policy-loss-constrained selection; the current RF selector also received a preliminary product-alternative permutation audit.
 - Synchronized the reproducibility repository with GitHub and rendered the Word working draft for visual review.
 
 ## In progress
@@ -21,6 +22,7 @@
 - Upgrade the targeted Mixed Logit check to a full random-coefficient model with WTP recovery and convergence diagnostics.
 - Run exact XGBoost in an environment with a working OpenMP runtime.
 - Add coefficient recovery, calibration, term stability, parsimony, and sample-size/task-count sensitivity analyses.
+- Add candidate-library coverage, recoverability-ceiling, formal heterogeneity-gate, and permutation-robustness experiments before claiming a general decision rule.
 
 ## Pending before submission
 
