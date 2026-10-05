@@ -14,6 +14,10 @@ The public Swissmetro file currently has too few clean repeated profiles for
 that test, so a paired-task supplement or a different dataset is required
 before the pivot can carry the empirical paper.
 
+The cross-fitted observational fallback is now reproducible, but its
+simulation power is modest and its public-data pairs are approximate. It is a
+negative feasibility audit, not a substitute for the randomized supplement.
+
 ## Novelty and overlap gate
 
 - Keep the contribution centred on mechanism-specific operating boundaries: observable functional-form misspecification, discrete segmentation, and continuous latent heterogeneity.
@@ -22,6 +26,7 @@ before the pivot can carry the empirical paper.
 - The current RF selector recovers 4.0 of 5 represented terms on average in the combined condition (precision 0.91; recall 0.80) and recovers no threshold hinge terms in the threshold-only condition. Treat this boundary as a result, not as a hidden weakness.
 - Before submission, run a candidate-library omission stress test. The present benchmark gives the selector access to all represented terms, so external validity of term recovery remains an open threat.
 - For the paired-task pivot, report bootstrap size, power, localization, and the loss of rejection after the omitted term is added. The public Swissmetro file does not contain enough clean randomized matched pairs; do not label its ordinary nine-task panel as an empirical equivalence test.
+- Cite and distinguish Fok and Paap's JOCM alternative-pair misspecification tests. Do not claim to be the first specification test; any novelty statement must be limited to the task-level equality construction after a systematic literature search.
 
 ## Ordered work plan
 
