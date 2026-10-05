@@ -1,7 +1,12 @@
 study: ml_assisted_utility_specification
-replications_per_condition: 100
+status: active_revision_scaffold
+current_primary_replications_per_condition: 30
+target_replications_per_condition: 100
+respondents: 400
+tasks_per_respondent: 12
+alternatives: 3
 conditions:
-  - name: linear
+  - name: additive
     nonlinear_utility: false
     threshold: false
     interaction: false
@@ -21,6 +26,16 @@ conditions:
     threshold: false
     interaction: true
     random_taste_heterogeneity: false
+  - name: nonlinear_threshold
+    nonlinear_utility: true
+    threshold: true
+    interaction: false
+    random_taste_heterogeneity: false
+  - name: nonlinear_interaction
+    nonlinear_utility: true
+    threshold: false
+    interaction: true
+    random_taste_heterogeneity: false
   - name: heterogeneity
     nonlinear_utility: false
     threshold: false
@@ -33,11 +48,19 @@ conditions:
     random_taste_heterogeneity: true
 models:
   - mnl
-  - mixed_logit
-  - latent_class_mnl
-  - xgboost_diagnostic
+  - structured_mnl
   - ml_assisted_specification
+  - latent_class_mnl_extension
+  - random_forest_extension
+  - boosted_tree_proxy_extension
+  - mixed_logit_planned
+  - xgboost_planned
 validation:
   grouping: decision_maker
   nested_candidate_selection: true
-  external_temporal_holdout: true
+  current_internal_holdout: respondent_level_80_20
+  external_temporal_holdout: planned_for_lpmc
+  respondent_grouped_panel_validation: planned_for_swissmetro
+metrics:
+  current: [accuracy, logloss, brier, choice_share_rmse, decision_regret]
+  planned: [coefficient_recovery, wtp_recovery, calibration, term_stability, parsimony]
