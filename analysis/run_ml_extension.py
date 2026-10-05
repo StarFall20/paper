@@ -9,7 +9,7 @@ import argparse, csv, os, sys
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(__file__))
-from run_simulation import CONDITIONS, make_data
+from run_simulation import CONDITIONS, N_ALTERNATIVES, make_data
 
 from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassifier
 from sklearn.metrics import log_loss
@@ -17,11 +17,11 @@ from sklearn.metrics import log_loss
 
 def metrics(prob, y, v):
     pred = prob.argmax(1)
-    y = y.reshape(-1); v = v.reshape(-1, 3)
+    y = y.reshape(-1); v = v.reshape(-1, N_ALTERNATIVES)
     acc = float((pred == y).mean())
-    ll = float(log_loss(y, prob, labels=[0, 1, 2]))
-    brier = float(((prob - np.eye(3)[y]) ** 2).sum(1).mean())
-    share_rmse = float(np.sqrt(np.mean((prob.mean(0) - np.bincount(y, minlength=3) / len(y)) ** 2)))
+    ll = float(log_loss(y, prob, labels=list(range(N_ALTERNATIVES))))
+    brier = float(((prob - np.eye(N_ALTERNATIVES)[y]) ** 2).sum(1).mean())
+    share_rmse = float(np.sqrt(np.mean((prob.mean(0) - np.bincount(y, minlength=N_ALTERNATIVES) / len(y)) ** 2)))
     regret = float(np.mean(v.max(1) - v[np.arange(len(y)), pred]))
     return acc, ll, brier, share_rmse, regret
 
@@ -34,7 +34,7 @@ def run(reps=10, n=400, tasks=12, out="results/tree_extension.csv"):
             x, z, choices, v = make_data(seed, n, tasks, cond)
             features = np.concatenate([x.reshape(n * tasks, -1), np.repeat(z, tasks, axis=0)], axis=1)
             y = choices.reshape(-1)
-            vv = v.reshape(-1, 3)
+            vv = v.reshape(-1, N_ALTERNATIVES)
             ids = np.arange(n); np.random.default_rng(seed + 7).shuffle(ids)
             cut = int(.8 * n); train_ids, test_ids = ids[:cut], ids[cut:]
             tr = np.concatenate([np.arange(i * tasks, (i + 1) * tasks) for i in train_ids])
@@ -46,7 +46,7 @@ def run(reps=10, n=400, tasks=12, out="results/tree_extension.csv"):
             for name, model in models:
                 model.fit(features[tr], y[tr])
                 pr = model.predict_proba(features[te])
-                full = np.zeros((len(te), 3)); full[:, model.classes_.astype(int)] = pr
+                full = np.zeros((len(te), N_ALTERNATIVES)); full[:, model.classes_.astype(int)] = pr
                 vals = metrics(full, y[te], vv[te])
                 rows.append({"condition": cond.name, "replication": rep, "model": name,
                              "accuracy": vals[0], "logloss": vals[1], "brier": vals[2],
