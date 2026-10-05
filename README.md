@@ -1,7 +1,7 @@
 # ML-assisted utility specification for choice modelling
 
 This repository is organised around the revised Journal of Choice Modelling study.
-The empirical design combines a large revealed-preference panel (LPMC), the Swissmetro stated-preference benchmark, and a small-sample stress test. The central method is an ML-assisted specification workflow: machine learning proposes candidate nonlinearities and interactions, while the final model remains a behavioural random-utility model.
+The empirical design combines a large revealed-preference panel (LPMC), the Swissmetro stated-preference benchmark, and a small-sample stress test. The central method is a mechanism-controlled validation benchmark: a Random Forest diagnostic ranks candidate nonlinearities and interactions, while the final model remains a behavioural random-utility model.
 
 ## Planned structure
 
@@ -19,7 +19,7 @@ results/             Generated outputs (tables and figures)
 - All splits are grouped by decision maker. The LPMC temporal validation uses the final observed year as an external holdout.
 - Simulation conditions separate nonlinear utility, threshold effects, omitted interactions, random taste heterogeneity, and combined mechanisms.
 - Every model is assessed with behavioural recovery metrics and predictive metrics.
-- Candidate terms selected by ML are refit in interpretable utility models and evaluated with nested validation.
+- Candidate terms ranked by the Random Forest diagnostic are refit in interpretable utility models and evaluated with nested validation.
 - Random seeds, software versions, data provenance, and estimation settings are recorded for every run.
 
 ## Data access
@@ -33,7 +33,7 @@ The first reproducible Monte Carlo run is complete. It uses eight mechanism-spec
 
 This run is a validated analysis scaffold. A targeted random-price Mixed Logit extension is now available as a heterogeneity check. The full random-coefficient specification, exact XGBoost runtime, LPMC, and Swissmetro remain to be added when their estimation dependencies and data files are available.
 
-The corrected assisted-specification experiment is expanded to 30 replications per condition. It includes an explicit opt-out utility indicator and unobserved random price sensitivity in the heterogeneity condition. Nested respondent-level forward selection over six candidate utility terms is compared with additive and fully structured MNL. Results are in `results/assisted_spec_results_corrected_30rep.csv`, `results/assisted_spec_summary_corrected_30rep.csv`, and `results/selected_terms_frequency_corrected_30rep.csv`.
+The corrected assisted-specification experiment is expanded to 30 replications per condition. It includes an explicit opt-out utility indicator and unobserved random price sensitivity in the heterogeneity condition. Random Forest ranking followed by nested respondent-level behavioural refitting over a five-term shortlist from six candidate utility terms is compared with additive and fully structured MNL. Results are in `results/assisted_spec_results_corrected_30rep.csv`, `results/assisted_spec_summary_corrected_30rep.csv`, `results/selected_terms_frequency_corrected_30rep.csv`, and `results/assisted_spec_recovery_corrected_30rep.csv`.
 
 The data generator restores the opt-out row after applying the product-price floor, so opt-out carries no product attributes. All downstream extension results were regenerated after this audit fix.
 
@@ -43,4 +43,4 @@ Random Forest and HistGradientBoosting are evaluated in `analysis/run_ml_extensi
 
 Run `analysis/smoke_test.sh` after installing `requirements-analysis.txt` to verify the simulation, tree, and targeted Mixed Logit entry points. The frozen summary outputs are checksummed in `results/MANIFEST.sha256`.
 
-The current framework and model audit is in `manuscript/model_audit.md`. Draw-count sensitivity for the targeted Mixed Logit check is in `results/mixed_logit_draw_stability.csv`.
+The current framework and model audit is in `manuscript/model_audit.md`. Draw-count sensitivity for the targeted Mixed Logit check is in `results/mixed_logit_draw_stability.csv`. The novelty and journal-fit audit is in `manuscript/novelty_positioning.md`.
