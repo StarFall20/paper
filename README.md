@@ -47,4 +47,6 @@ The current framework and model audit is in `manuscript/model_audit.md`. Draw-co
 
 The process-aware innovation audit is documented in `manuscript/process_gate_note.md`. Its separate prototype (`analysis/process_gate.py`) tests attribute non-attendance and sequence dependence and includes an unresolved branch when respondent-level score dispersion cannot distinguish random taste sensitivity from non-attendance. The exploratory outputs are in `results/process_gate_30rep.csv` and `results/process_gate_summary_30rep.csv`; they are not calibrated manuscript thresholds.
 
+The independent innovation search is documented in `manuscript/independent_idea_search.md`. The current high-risk pivot is a model-equivalent choice-pair test: paired tasks hold candidate utility differences fixed while changing the attribute decomposition, so a systematic choice-share difference is a direct specification failure. Its 500-replication proof-of-concept is in `analysis/equivalent_pair_test.py` and `results/equivalent_pair_test.csv`. The pivot remains conditional on verifying matched tasks in Swissmetro or collecting a small paired-task supplement; it is not yet an empirical submission claim.
+
 The current distance to a defensible submission claim is recorded in `manuscript/submission_gap_audit.md`.
