@@ -6,12 +6,14 @@
 2. **Mixed Logit simulation design.** The targeted extension now keeps the respondent trajectory together, uses paired normal draws, records estimation and prediction draw counts, and includes a draw-stability script for 20, 40, and 80 draws.
 3. **Dimension brittleness.** Alternative count, attribute count, opt-out index, and price index are explicit constants. The feature builder now raises an error when the alternative dimension does not match the declared design.
 4. **Environment mismatch.** The requirements file now matches the NumPy version used by the local analysis environment. The XGBoost OpenMP limitation remains recorded as an execution constraint.
+5. **Opt-out price leakage.** The price-floor transform was applied to all alternatives after the opt-out row had been zeroed, silently assigning a price of 0.5 to opt-out. The generator now restores the opt-out row after the product-price transform, and all affected result files have been regenerated.
 
 ## Checks that passed
 
 - Nested candidate-term selection uses only respondent-level training data for the inner choice.
 - The corrected data-generating process separates observed covariate interactions from unobserved respondent-specific price sensitivity.
 - The opt-out alternative has zero product attributes and an explicit utility indicator.
+- A direct assertion confirms that every generated opt-out row is exactly zero after all attribute transforms.
 - The smoke test produces 32 simulation rows, 16 tree-model rows, and 8 targeted Mixed Logit rows.
 - The draw-stability check shows small changes in the heterogeneity and combined conditions between 20, 40, and 80 paired draws.
 
