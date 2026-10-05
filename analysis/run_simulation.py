@@ -53,6 +53,9 @@ def make_data(seed, n=400, tasks=12, condition=None):
     x = rng.normal(size=(n, tasks, j, N_ATTRIBUTES))
     x[:, :, OPT_OUT_INDEX, :] = 0.0  # opt-out has no product attributes
     x[:, :, :, PRICE_INDEX] = np.abs(x[:, :, :, PRICE_INDEX]) + 0.5
+    # Restore the opt-out row after the product-price transform. Otherwise the
+    # global price floor would silently assign a product price to opt-out.
+    x[:, :, OPT_OUT_INDEX, :] = 0.0
     z = rng.normal(size=(n, 2))  # observed income and digital experience
     z[:, 0] = (z[:, 0] > 0).astype(float)
     z[:, 1] = (z[:, 1] > 0).astype(float)
