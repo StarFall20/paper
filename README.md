@@ -25,6 +25,7 @@ results/           Generated outputs (tables and figures)
 ## Data access
 
 The repository will contain scripts and metadata for downloading or locating LPMC and Swissmetro. Raw data remain excluded from version control unless their licence permits redistribution.
+Data provenance and the empirical validation protocol are recorded in `data/README.md`.
 
 ## Current status
 
@@ -37,3 +38,5 @@ The corrected assisted-specification experiment is expanded to 30 replications p
 A pure-NumPy two-class Latent Class MNL extension is included in `analysis/run_simulation.py`. Its 10-replication extension results are in `results/latent_class_extension_10rep.csv` and `results/latent_class_extension_summary_10rep.csv`. The latent-class run is an extension check; the 30-replication corrected benchmark remains the locked primary simulation until the remaining model families are added.
 
 Random Forest and HistGradientBoosting are evaluated in `analysis/run_ml_extension.py` with the same grouped holdout. HistGradientBoosting is labelled as a boosted-tree proxy because XGBoost cannot load its native macOS library without `libomp.dylib`. The five-replication tree extension is in `results/tree_extension_5rep.csv` and `results/tree_extension_summary_5rep.csv`.
+
+Run `analysis/smoke_test.sh` after installing `requirements-analysis.txt` to verify both analysis entry points. The frozen summary outputs are checksummed in `results/MANIFEST.sha256`.
