@@ -7,6 +7,7 @@
 - Locked the corrected 30-replication benchmark as the current primary simulation scaffold.
 - Added two-class Latent Class MNL, grouped Random Forest, and boosted-tree proxy extensions.
 - Added a targeted random-price Mixed Logit extension and documented its boundary interpretation.
+- Added paired-draw Monte Carlo stability checks and an explicit framework/model audit.
 - Added mechanism-focused results prose, methods and writing benchmarks, data provenance instructions, a smoke test, and a SHA-256 results manifest.
 - Synchronized the reproducibility repository with GitHub and rendered the Word working draft for visual review.
 
