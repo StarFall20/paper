@@ -12,6 +12,12 @@ Parady, Ory, and Walker show that discrete choice papers often report fit statis
 
 Source: https://doi.org/10.1016/j.jocm.2020.100257
 
+## Reproducible simulation practice
+
+The Biogeme examples for panel mixed logit keep the likelihood at the respondent trajectory level, use paired normal draws, and expose a post-estimation Monte Carlo draw-stability diagnostic. The revision now follows those practices in the targeted extension and keeps draw count, seed, and draw design in the output files.
+
+Reference implementation: https://github.com/michelbierlaire/biogeme/blob/master/docs/source/examples/swissmetro/plot_b12_panel_bis.py and https://github.com/michelbierlaire/biogeme/blob/master/docs/source/examples/swissmetro/plot_b27_monte_carlo_diagnostic.py
+
 ## Changes applied to this revision
 
 1. The research question is stated as a conditional model-development question, not a contest between algorithms.
