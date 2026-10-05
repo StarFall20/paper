@@ -35,6 +35,8 @@ This run is a validated analysis scaffold. A targeted random-price Mixed Logit e
 
 The corrected assisted-specification experiment is expanded to 30 replications per condition. It includes an explicit opt-out utility indicator and unobserved random price sensitivity in the heterogeneity condition. Nested respondent-level forward selection over six candidate utility terms is compared with additive and fully structured MNL. Results are in `results/assisted_spec_results_corrected_30rep.csv`, `results/assisted_spec_summary_corrected_30rep.csv`, and `results/selected_terms_frequency_corrected_30rep.csv`.
 
+The data generator restores the opt-out row after applying the product-price floor, so opt-out carries no product attributes. All downstream extension results were regenerated after this audit fix.
+
 A pure-NumPy two-class Latent Class MNL extension is included in `analysis/run_simulation.py`. Its 10-replication extension results are in `results/latent_class_extension_10rep.csv` and `results/latent_class_extension_summary_10rep.csv`. The latent-class run is an extension check; the 30-replication corrected benchmark remains the locked primary simulation until the remaining model families are added.
 
 Random Forest and HistGradientBoosting are evaluated in `analysis/run_ml_extension.py` with the same grouped holdout. HistGradientBoosting is labelled as a boosted-tree proxy because XGBoost cannot load its native macOS library without `libomp.dylib`. The five-replication tree extension is in `results/tree_extension_5rep.csv` and `results/tree_extension_summary_5rep.csv`.
