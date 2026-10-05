@@ -38,6 +38,15 @@ The paper is therefore at the **candidate-contribution stage**, not at the
 submission-ready stage. The remaining gap is evidence that the paired-task
 equality has correct size, useful power, and a valid empirical instrument.
 
+The observational fallback has now been tested. Cross-fitting and respondent-
+clustered multiplier bootstrap give a near-5% null size in the engineered
+boundary run, but power is only 0.225 for the nonlinear condition and 0.175
+for the interaction condition. On public Swissmetro, the p-value changes from
+about 0.43–0.48 under row-order orientation to 0.003–0.033 under time
+orientation at the larger tolerances, while cost orientation gives 0.847–0.977.
+This orientation sensitivity is a direct failure boundary. The branch is a
+documented limitation and does not clear the empirical gate.
+
 ## New pivot gate
 
 The paired-task test can replace the process-triage claim only if it passes
