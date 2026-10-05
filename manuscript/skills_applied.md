@@ -29,3 +29,15 @@ Applied rules:
 - Keep the abstract and conclusion centered on the contribution and evidence.
 
 These rules guide presentation. They do not change reported results or remove necessary methodological qualifications.
+
+## Independent Idea Generator
+
+Source: https://github.com/ludi-uni/idea-generator-skill
+
+The remote skill's Idea-DNA workflow was applied manually because no local
+idea-generator skill was installed in this environment. The search records the
+object, intervention, estimand, identification, validation, policy output, and
+stop rule for each candidate. Existing methods were treated as parents for
+overlap screening; the selected pivot uses one new design object and rejects
+cross-paper feature stitching. Candidate lineage and rejection reasons are
+recorded in `manuscript/independent_idea_search.md`.
