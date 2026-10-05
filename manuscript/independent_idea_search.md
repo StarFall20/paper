@@ -67,7 +67,9 @@ not a policy-uncertainty interval. Under a candidate utility basis, two tasks
 with the same vector of alternative utility differences must have the same
 choice probabilities. A randomized pair that preserves those differences while
 changing the attribute decomposition creates a direct test of the basis. The
-test can reject an apparently well-fitting model and localize a missing term.
+test can reject an apparently well-fitting model. Its pair labels can show
+which predeclared transformations produce violations, but they do not identify
+a unique omitted term.
 It requires purpose-built paired tasks or a strong matched-task structure in
 the empirical data, which the current LPMC and Swissmetro files have not yet
 been shown to provide. It cannot enter the main paper without that data
@@ -131,8 +133,10 @@ neither is part of the definition of \(\Delta_j\).
    zero in expectation and the bootstrap test has the declared size.
 2. An omitted nonlinear term produces different choice shares for pairs with
    the same candidate utility differences.
-3. An omitted interaction produces a violation only for pairs that alter the
-   interacting attributes, which gives the test a localization property.
+3. An omitted interaction can produce a violation for pairs that alter the
+   interacting attributes, while the probability-scale test can also transmit
+   nonlinear main effects through the choice-probability map. The design must
+   report this boundary instead of claiming unique interaction localization.
 4. A model with good aggregate log loss can still fail the paired-task test;
    this is the key distinction from an ordinary holdout comparison.
 5. The violation must disappear after the missing basis term is added. If it
