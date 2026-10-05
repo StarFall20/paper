@@ -43,4 +43,4 @@ Random Forest and HistGradientBoosting are evaluated in `analysis/run_ml_extensi
 
 Run `analysis/smoke_test.sh` after installing `requirements-analysis.txt` to verify the simulation, tree, and targeted Mixed Logit entry points. The frozen summary outputs are checksummed in `results/MANIFEST.sha256`.
 
-The current framework and model audit is in `manuscript/model_audit.md`. Draw-count sensitivity for the targeted Mixed Logit check is in `results/mixed_logit_draw_stability.csv`. The novelty and journal-fit audit is in `manuscript/novelty_positioning.md`.
+The current framework and model audit is in `manuscript/model_audit.md`. Draw-count sensitivity for the targeted Mixed Logit check is in `results/mixed_logit_draw_stability.csv`. The novelty and journal-fit audit is in `manuscript/novelty_positioning.md`. The deeper innovation gate and ranked contribution options are in `manuscript/innovation_gate.md`.
