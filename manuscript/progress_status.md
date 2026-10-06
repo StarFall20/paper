@@ -16,6 +16,7 @@
 - Synchronized the reproducibility repository with GitHub and rendered the Word working draft for visual review.
 - Applied the Idea-DNA workflow from the public Idea Generator skill and completed an independent innovation audit. The selected high-risk pivot is a model-equivalent choice-pair specification test; adaptive design, permutation invariance, reliability, and standalone process models were stopped as overlapping routes.
 - Completed a fourth-round literature and identification audit. The transportable-utility prototype is retained as exploratory work only because its penalty was target-tuned and its raw coefficient stability criterion confounds logit scale. UFIT remains the leading candidate under a narrower candidate-basis sufficiency claim; a formal proposition and paired-task instrument are now explicit submission gates.
+- Added the BMST negative-control benchmark. In 100 replications, rejection is .04 for the additive null, .68 for omitted nonlinearity, .03 for random linear taste, .23 for task-specific scale drift, and 1.00 for order effects. The result keeps mechanism attribution separate from relation violation.
 - Added a 500-replication proof-of-concept for the paired-task test. The additive null rejection rate is 0.06 and the omitted-quadratic rejection rate is 0.986 at the declared 5% level. This is feasibility evidence; it does not yet establish empirical validity.
 
 ## In progress
