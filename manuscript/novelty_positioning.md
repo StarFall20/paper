@@ -41,12 +41,12 @@ systematic search confirms that the construction is not already established.
 The paper develops a mechanism-controlled benchmark for deciding when data-driven utility diagnostics are useful in discrete choice modelling. It separates three sources of complexity: observable nonlinear and interaction terms, discrete segmentation, and continuous latent taste heterogeneity. It evaluates the workflow with predictive accuracy, coefficient and WTP recovery, calibration, specification stability, choice-share error, and decision regret under grouped validation. The output is a mechanism-specific selection rule that tells analysts when term discovery is sufficient and when the model must represent heterogeneity directly.
 
 If the paired-task condition is met, the revised contribution statement becomes:
-the paper develops a bootstrap-calibrated model-equivalent choice-pair test for
+the paper develops a candidate-preserving paired-task randomization test for
 utility specification. The test preserves candidate-model utility differences
 across randomized task pairs while changing the attribute decomposition. Its
 equivalence violation measures whether the observed choice process supports
-the candidate basis and localizes omitted nonlinear, threshold, or interaction
-terms. The existing ML and process analyses serve as comparison and boundary
+the candidate basis and can stratify predeclared transformations. It does not
+identify a unique omitted term. The existing ML and process analyses serve as comparison and boundary
 
 ## Journal and reader alignment
 
