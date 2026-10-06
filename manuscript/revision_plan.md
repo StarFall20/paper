@@ -2,62 +2,11 @@
 
 ## Research question
 
-**Independent pivot under review:** Can Behavioral Metamorphic Specification
-Testing (BMST) reject a utility basis using randomized choice-task versions
-that preserve the candidate model's utility differences while changing the
-attribute decomposition? The BMST procedure, with the Utility-Fibre Invariance
-Test (UFIT) relation, is the only new object being considered for the main
-contribution. The
-recoverability and process-triage analyses remain comparison baselines until
-the paired-task data condition is verified.
-An observational matched-task version may use frozen utility-difference
-coordinates in Swissmetro, but it requires a separate clustered bootstrap and
-is weaker than randomized pairs.
+Can machine learning improve utility specification when it is used to discover candidate nonlinearities and interactions, while estimation and interpretation remain within the random-utility framework?
 
-The implemented fallback uses cross-fitting and respondent-clustered multiplier
-bootstrap. Its current boundary run controls the null at about 5% but has only
-modest power against the engineered nonlinear and interaction conditions. It
-is an audit of feasibility and does not replace the exact paired-task design.
+## Main contribution
 
-The exact randomized benchmark now gives strong base power, and the damped-
-Newton repair candidate returns rejection to the declared size for the
-nonlinear, threshold, and interaction conditions. Interaction localization
-remains incomplete because the joint shift changes multiple raw loci. The
-four-cell probability-scale factorial audit was run and failed under a
-combined interaction and nonlinear main effect, so it is excluded from the
-contribution. The cluster sign-flip version is the current method object; it
-remains high-risk until a purpose-built empirical supplement or a different
-valid paired-task dataset is available.
-
-Can a grouped-validation diagnostic decide whether a choice problem needs utility enrichment, discrete segmentation, continuous heterogeneity, process/sequence modelling, or candidate-library expansion? When the observed data cannot distinguish competing mechanisms, can an explicit unresolved branch reduce policy loss relative to forced model selection?
-
-## Current baseline contribution
-
-The paper develops a process- and recoverability-aware model-family triage rule for choice-model specification. A choice-set-aware diagnostic ranks candidate utility terms, a formal heterogeneity gate tests whether respondent-level structure is missing, a sequence diagnostic tests omitted state dependence, and the selected branch is refit in a behavioural model. When evidence cannot distinguish taste heterogeneity from attribute non-attendance, the rule abstains and identifies the missing measurement needed for resolution. The contribution is assessed through structure recovery, parameter and WTP recovery, calibration, external prediction, decision regret, computational cost, parsimony, and the cost of forced decisions. The paper presents an empirically tested decision rule for analysts, not a new generic search algorithm.
-
-This baseline is below the preferred innovation threshold if presented as the
-main paper claim. The standalone process branches overlap established JOCM
-work and are retained as failure-boundary comparisons.
-
-## Candidate main contribution
-
-BMST constructs task pairs with identical candidate-model utility-difference
-vectors and different attribute decompositions. Under the candidate utility
-basis, the pair has identical choice probabilities. One-member-per-pair
-assignment and a respondent-cluster sign-flip reference test that equality.
-The method does not identify a unique omitted nonlinear, threshold, or
-interaction term. It is adopted only if a valid paired-task instrument is
-available.
-
-Before responses are collected, the instrument can use a constrained maximin
-selection over a declared grid of common shifts. The current audit selects
-`(5,45), (20,0), (35,45)` under a 30-unit pairwise separation and a 150-unit
-movement budget. It raises the weakest normalized separation score from 1.142
-for the fixed design to 1.632 while preserving the candidate exactly. An
-unconstrained search repeats `(40,60)` three times, so the diversity and
-movement constraints are part of the design definition. The design layer is a
-sensitivity improvement for the paired-task test; it is not a claim of generic
-optimal model discrimination.
+The paper evaluates a disciplined ML-assisted specification workflow against established behavioural alternatives. The contribution is assessed through structure recovery, parameter and WTP recovery, calibration, external prediction, and parsimony.
 
 ## Evidence package
 
@@ -72,7 +21,7 @@ optimal model discrimination.
 - Mixed Logit for continuous taste heterogeneity
 - Latent Class MNL for discrete heterogeneity
 - Enriched interpretable utilities using prespecified quadratic, spline, hinge, and interaction terms
-- Random Forest as the current diagnostic learner; XGBoost as the planned exact-runtime robustness learner
+- XGBoost as the primary diagnostic learner; random forest as a robustness learner
 - ML-assisted specification: learner diagnostics, candidate-term screening, behavioural refit, nested/group validation, and parsimony selection
 
 ## Evaluation
@@ -104,10 +53,3 @@ Each paragraph has one job: motivate the question, define the method, explain id
 - Remove claims based only on random train/test splits.
 - Report validation design before reporting performance numbers.
 - Add a limitations paragraph covering data licensing, transferability, and computational choices.
-- Add a candidate-library coverage or omitted-term stress test so the mechanism-specific failure boundary is explicit.
-- Add a recoverability ceiling that separates observable approximation error from latent-heterogeneity error.
-- Add a permutation-robustness audit for the alternative-specific learner; if the current RF ranking changes after product-alternative permutation, replace it with a choice-set-aware diagnostic.
-- Add a formal respondent-level heterogeneity gate before expanding to Latent Class or Mixed Logit.
-- Add a process/sequence gate and an unresolved branch; do not claim that choice data alone identify attribute non-attendance versus random taste heterogeneity.
-- Compare the triage rule with direct ANA and decision-rule models, and report the policy cost of forcing a model family when the mechanism remains unresolved.
-- Position the contribution against Ortelli et al. (2021), Hernandez et al. (2023), Beeramoole et al. (2023), Delphos, and recent LLM-assisted specification work.
