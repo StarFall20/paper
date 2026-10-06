@@ -29,10 +29,12 @@ and no descriptive rejection on public Swissmetro. It remains a feasibility
 audit until an exact randomized supplement is available.
 
 The exact three-alternative benchmark now supplies the randomized supplement
-in simulation. The cluster sign-flip version has 0.06 null rejection, 0.86,
+in simulation. The cluster sign-flip version has 0.06 null rejection, 0.82,
 1.00, and 1.00 rejection against nonlinear, threshold, and interaction
 conditions, and 0.08, 0.02, and 0.04 after the corresponding repair terms are
-supplied. The random-price boundary is 0.08. The joint shift still changes
+supplied. The random-price boundary is 0.06; nonlinear-plus-random-price and
+interaction-plus-random-price retain 0.74 and 1.00 power, with 0.02 and 0.00
+after repair. The joint shift still changes
 multiple raw loci, so interaction localization is incomplete. A four-cell
 probability-scale factorial contrast was audited as a repair; it fails when an
 interaction coexists with a nonlinear main effect. The extension is excluded
