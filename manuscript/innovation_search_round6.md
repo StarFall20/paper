@@ -149,6 +149,25 @@ It has not passed the full empirical gate. Before submission, the paper must:
 The independent innovation is therefore selected, while the manuscript remains
 below complete-submission status until the empirical instrument is available.
 
+## Final innovation gate
+
+| gate | finding | decision |
+|---|---|---|
+| Independent object | BMST defines a candidate-conditioned exchangeability relation and a randomized one-member test. No reviewed choice-modelling paper combines this relation, assignment, and clustered reference distribution. | **Pass** |
+| Non-stitching | The relation, assignment, estimand, and reference distribution answer one question: whether a frozen utility basis treats its own equivalent task versions alike. Learners and process controls do not carry contribution claims. | **Pass** |
+| Scientific value | The test evaluates a behavioral implication that likelihood, holdout accuracy, and pairwise model comparison can leave unexamined. It can reject a candidate relation without pretending to identify the omitted mechanism. | **Pass** |
+| JOCM fit | The journal explicitly accepts methodological contributions in choice modelling and survey design. BMST is a choice-specific specification method with a stated experimental instrument. | **Pass, conditional on evidence** |
+| Incremental-risk check | Generic conformal prediction, model averaging, adversarial stress tests, invariant WTP, and ML-assisted specification were screened as main routes and rejected because they overlap established work or do not supply the missing test oracle. | **Pass** |
+| Empirical threshold | The current evidence is simulation-only. Public repeated-task data do not document the required candidate-preserving assignment. | **Open gate** |
+
+The independent claim is therefore ready for a paper rewrite, while the paper is
+not yet ready for submission. The remaining work is an evidence requirement,
+not another conceptual contribution: collect or locate a paired-task supplement,
+freeze the instrument before outcomes are observed, and report the usable-pair
+count, assignment balance, null calibration, negative controls, and unresolved
+branch. If that gate fails, the correct paper is a simulation-validated method
+proposal with an explicit empirical limitation.
+
 ## Papers used for the boundary audit
 
 - [Assisted specification of discrete choice models](https://doi.org/10.1016/j.jocm.2021.100285)
