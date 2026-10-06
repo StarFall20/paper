@@ -66,12 +66,14 @@ def evaluate(ids, y, x, pair_ids, pair_side, pair_type, term, randomization_reps
 def run(reps=100, randomization_reps=499, respondents=300,
         out="results/randomization_paired_task_test.csv"):
     rows = []
-    conditions = ("additive", "nonlinear", "threshold", "interaction", "random_price")
+    conditions = ("additive", "nonlinear", "threshold", "interaction", "random_price",
+                  "nonlinear_random_price", "interaction_random_price")
     for condition in conditions:
         for rep in range(reps):
             data = simulate(20261007 + rep, respondents=respondents, condition=condition)
             oracle_term = {"nonlinear": "nonlinear", "threshold": "threshold",
-                           "interaction": "interaction"}.get(condition)
+                           "interaction": "interaction", "nonlinear_random_price": "nonlinear",
+                           "interaction_random_price": "interaction"}.get(condition)
             candidate_terms = [None] if oracle_term is None else [None, oracle_term]
             for term in candidate_terms:
                 pvalue, pairs = evaluate(*data, term=term,
