@@ -83,7 +83,7 @@ def run(reps=100, randomization_reps=499, respondents=300,
         out="results/randomization_paired_task_test.csv"):
     rows = []
     conditions = ("additive", "nonlinear", "threshold", "interaction", "random_price",
-                  "nonlinear_random_price", "interaction_random_price")
+                  "nonlinear_random_price", "interaction_random_price", "cubic")
     for condition in conditions:
         for rep in range(reps):
             data = simulate(20261007 + rep, respondents=respondents, condition=condition)
@@ -101,7 +101,8 @@ def run(reps=100, randomization_reps=499, respondents=300,
                                  **record, "reject": int(record["pvalue"] < 0.05)})
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
     with open(out, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0])); writer.writeheader(); writer.writerows(rows)
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator="\n")
+        writer.writeheader(); writer.writerows(rows)
     for condition in conditions:
         for candidate in ("additive", "oracle_term"):
             subset = [r for r in rows if r["condition"] == condition and
