@@ -68,6 +68,16 @@ must be stated as a finite-sample task construction and randomization
 implementation. The method also requires a purpose-built paired-task
 instrument; the current public panels do not supply one.
 
+The pre-outcome design layer has now passed its development audit. A
+constrained maximin search improves the weakest probe separation from 1.142 to
+1.632 and raises nonlinear power from 0.82 to 1.00 without changing null
+rejection (0.06). It also raises power under nonlinear misspecification with
+random price sensitivity from 0.74 to 1.00. The result is conditional on the
+declared probe family and feasible-shift constraints. An unconstrained search
+collapses to a repeated maximum shift, which is retained as a negative control.
+The design layer can be promoted only as a pre-outcome task-selection rule; it
+is not a claim of generic optimal model-discrimination design.
+
 ## New pivot gate
 
 The paired-task test can replace the process-triage claim only if it passes
@@ -100,6 +110,11 @@ result.
 7. Rewrite the introduction and discussion around mechanism recoverability,
    decision risk, and the abstention boundary. The Random Forest becomes one
    diagnostic component.
+
+8. If the paired-task route is retained, preregister the feasible shift grid,
+   probe family, movement budget, diversity constraint, and maximin tie rule
+   before collecting responses. Report the fixed-design comparison and the
+   repeated-shift failure boundary.
 
 ## Stop conditions
 
