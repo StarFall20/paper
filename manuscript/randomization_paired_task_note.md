@@ -1,13 +1,20 @@
-# Candidate-preserving paired-task randomization test
+# Behavioral metamorphic specification test
 
 ## Method object
 
-The proposed method constructs two held-out choice tasks with identical
+The proposed Behavioral Metamorphic Specification Test (BMST) constructs two
+held-out choice tasks with identical
 candidate utility differences for every alternative. The raw attributes can
 change by a common shift, so a linear random coefficient on the shifted
 attribute also leaves every individual's utility difference unchanged. The
 observed contrast is the one-hot choice vector difference minus the frozen
 candidate probability difference.
+
+The candidate-preserving relation is the domain-specific metamorphic relation:
+the second task is a follow-up input whose output must equal the first under
+the candidate. This imports a test-oracle idea from metamorphic software and
+simulation validation into choice-model specification. UFIT names the
+utility-fibre relation; BMST names the complete test procedure.
 
 The reference distribution uses respondent-level sign flips. Under the null,
 the two task outcomes are exchangeable within the pair. A cluster sign flip
@@ -93,11 +100,12 @@ empirical claim from the existing data.
 
 ## Literature boundary
 
-Breitmoser (2021) characterizes conditional logit through observable
+Metamorphic testing addresses test-oracle construction in software and
+simulation validation. Breitmoser (2021) characterizes conditional logit through observable
 translation, presentation, context, and IIA invariances. Fok and Paap (2025)
 construct MNL misspecification tests from alternative pairs and composite-
 likelihood/GMM moments. The present contribution can be distinguished only at
-the implementation level: it uses cross-task transformations that preserve
+the method-transfer level: it uses cross-task transformations that preserve
 the candidate utility-difference vector, then obtains a cluster randomization
 reference from paired task exchangeability. It must not claim to introduce
 invariance testing or a general MNL misspecification test.
