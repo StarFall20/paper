@@ -18,6 +18,7 @@
 - Completed a fourth-round literature and identification audit. The transportable-utility prototype is retained as exploratory work only because its penalty was target-tuned and its raw coefficient stability criterion confounds logit scale. UFIT remains the leading candidate under a narrower candidate-basis sufficiency claim; a formal proposition and paired-task instrument are now explicit submission gates.
 - Added the BMST negative-control benchmark. In 100 replications, rejection is .04 for the additive null, .68 for omitted nonlinearity, .03 for random linear taste, .23 for task-specific scale drift, and 1.00 for order effects. The result keeps mechanism attribution separate from relation violation.
 - Reworked the primary supplement protocol to assign one member of each focal pair per respondent. The 600-respondent, 100-replication assignment benchmark gives .05 null rejection, .79 nonlinear power, .05 random-taste rejection, and 1.00 interaction power.
+- Completed a fifth-round cross-literature novelty audit. Daly's indistinguishability and scale boundary is now explicit; BMST is limited to a declared choice-probability relation on a tested task fibre.
 - Added a 500-replication proof-of-concept for the paired-task test. The additive null rejection rate is 0.06 and the omitted-quadratic rejection rate is 0.986 at the declared 5% level. This is feasibility evidence; it does not yet establish empirical validity.
 
 ## In progress
