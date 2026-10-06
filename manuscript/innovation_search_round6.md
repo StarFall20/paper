@@ -148,3 +148,16 @@ It has not passed the full empirical gate. Before submission, the paper must:
 
 The independent innovation is therefore selected, while the manuscript remains
 below complete-submission status until the empirical instrument is available.
+
+## Papers used for the boundary audit
+
+- [Assisted specification of discrete choice models](https://doi.org/10.1016/j.jocm.2021.100285)
+- [Predicting choices of street-view images](https://doi.org/10.1016/j.jocm.2024.100470)
+- [Discrete choice experiments with eye-tracking](https://doi.org/10.1016/j.jocm.2024.100478)
+- [A discrete choice modeling framework for non-trading behavior](https://doi.org/10.1016/j.jocm.2023.100413)
+- [Context-aware Bayesian mixed multinomial logit model](https://doi.org/10.1016/j.jocm.2024.100536)
+- [Understanding the decision-making process of choice modellers](https://doi.org/10.1016/j.jocm.2025.100562)
+- [Model choice and framing effects](https://doi.org/10.1016/j.jocm.2024.100524)
+- [Constructing Bayesian optimal designs for discrete choice experiments](https://doi.org/10.1016/j.jocm.2025.100551)
+- [New misspecification tests for multinomial logit models](https://doi.org/10.1016/j.jocm.2024.100531)
+- [Enhancing mode-choice models with conformal prediction](https://doi.org/10.2478/ttj-2025-0027)
