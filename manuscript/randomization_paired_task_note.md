@@ -18,7 +18,7 @@ earlier feasibility benchmark.
 ## Boundary run
 
 The run uses 50 replications, 300 respondents, three focal pairs, four nuisance
-tasks, and 499 cluster randomizations per split. The results are:
+tasks, and 199 cluster randomizations per split. The results are:
 
 | DGP | candidate | rejection rate |
 |---|---|---:|
@@ -29,12 +29,18 @@ tasks, and 499 cluster randomizations per split. The results are:
 | omitted threshold | oracle term | 0.02 |
 | omitted interaction | additive | 1.00 |
 | omitted interaction | oracle term | 0.04 |
-| random cost sensitivity | additive | 0.08 |
+| random cost sensitivity | additive | 0.06 |
+| nonlinear term + random cost sensitivity | additive | 0.74 |
+| nonlinear term + random cost sensitivity | oracle term | 0.02 |
+| interaction + random cost sensitivity | additive | 1.00 |
+| interaction + random cost sensitivity | oracle term | 0.00 |
 
 The random-cost boundary is the key check. A common cost shift leaves each
 respondent's utility differences unchanged even when the cost coefficient is
 random, so the test need not confuse linear taste heterogeneity with a
-functional-form violation. The result is a simulation property, not evidence
+functional-form violation. The combined conditions show that the test can
+retain power against an omitted nonlinear or interaction term in the presence
+of random cost sensitivity. The result is a simulation property, not evidence
 that arbitrary heterogeneity is identified.
 
 ## Identification conditions and limits
@@ -46,6 +52,15 @@ candidate utility differences for every allowed coefficient vector. A shift
 that preserves only the population mean utility does not satisfy the null.
 The test detects a violation of candidate-task invariance. It does not label a
 unique omitted nonlinear, threshold, or interaction term.
+
+The original A/B/opt-out instrument does not automatically satisfy this design.
+Its opt-out alternative has no product attributes, so a shift applied only to
+the two products changes the product-versus-opt-out utility differences. A
+paired-task supplement must apply a common task-level transformation to every
+alternative, including opt-out, or define a coefficient-wise compensating
+construction. The current public panels do not contain such randomized pairs;
+the method is therefore a design requirement for a new supplement, not an
+empirical claim from the existing data.
 
 ## Literature boundary
 
