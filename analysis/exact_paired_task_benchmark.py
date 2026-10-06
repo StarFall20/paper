@@ -103,16 +103,18 @@ def multiplier_pvalue(contrasts, clusters, reps, seed):
     return float((1.0 + np.sum(np.asarray(draws) >= observed)) / (reps + 1.0))
 
 
-def simulate(seed, respondents=300, nuisance_tasks=4, condition="additive"):
+def simulate(seed, respondents=300, nuisance_tasks=4, condition="additive",
+             shift_specs=None):
     rng = np.random.default_rng(seed)
     base_beta = np.array([-0.35, -0.18, -1.15, -0.95])
     # Each shift is common to all alternatives, so the additive candidate's
     # pairwise utility differences remain exactly equal.
-    shift_specs = {
-        "time_shift": np.array([20.0, 0.0]),
-        "cost_shift": np.array([0.0, 60.0]),
-        "joint_shift": np.array([20.0, 50.0]),
-    }
+    if shift_specs is None:
+        shift_specs = {
+            "time_shift": np.array([20.0, 0.0]),
+            "cost_shift": np.array([0.0, 60.0]),
+            "joint_shift": np.array([20.0, 50.0]),
+        }
     xs, ys, ids, pair_ids, pair_side, pair_type = [], [], [], [], [], []
     for rid in range(respondents):
         random_cost = rng.normal(0.0, 1.0) if condition in ("random_price", "nonlinear_random_price", "interaction_random_price") else 0.0
@@ -136,6 +138,8 @@ def simulate(seed, respondents=300, nuisance_tasks=4, condition="additive"):
                 utility += -10.0 * np.maximum(xx[:, 1] / 100.0 - 0.85, 0.0)
             elif condition in ("interaction", "interaction_random_price"):
                 utility += 8.0 * (xx[:, 0] / 100.0) * (xx[:, 1] / 100.0)
+            elif condition == "cubic":
+                utility += 4.0 * (xx[:, 0] / 100.0) ** 3
             elif condition == "random_price":
                 utility += random_cost * (xx[:, 1] / 100.0)
             p = softmax(utility[None, :])[0]
