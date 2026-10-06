@@ -14,10 +14,12 @@ mkdir -p "$OUT_DIR"
 "$PYTHON_BIN" analysis/exact_paired_task_benchmark.py --reps 1 --bootstrap 20 --respondents 100 --out "$OUT_DIR/exact_paired_task.csv"
 "$PYTHON_BIN" analysis/factorial_equivalence_contrast.py --reps 1 --bootstrap 20 --respondents 100 --out "$OUT_DIR/factorial_equivalence.csv"
 "$PYTHON_BIN" analysis/randomization_paired_task_test.py --reps 1 --randomization-reps 20 --respondents 100 --out "$OUT_DIR/randomization_paired_task.csv"
+"$PYTHON_BIN" analysis/metamorphic_design_score.py --out "$OUT_DIR/metamorphic_design_score.csv"
+"$PYTHON_BIN" analysis/metamorphic_design_benchmark.py --reps 1 --randomization-reps 20 --respondents 100 --out "$OUT_DIR/metamorphic_design_benchmark.csv"
 "$PYTHON_BIN" - "$OUT_DIR" <<'PY'
 import csv, pathlib, sys
 root = pathlib.Path(sys.argv[1])
-expected = {"simulation.csv": 32, "tree.csv": 16, "mixed_logit.csv": 8, "process_gate.csv": 5, "equivalent_pair.csv": 4, "observational_equivalence.csv": 4, "exact_paired_task.csv": 32, "factorial_equivalence.csv": 7, "randomization_paired_task.csv": 48}
+expected = {"simulation.csv": 32, "tree.csv": 16, "mixed_logit.csv": 8, "process_gate.csv": 5, "equivalent_pair.csv": 4, "observational_equivalence.csv": 4, "exact_paired_task.csv": 32, "factorial_equivalence.csv": 7, "randomization_paired_task.csv": 52, "metamorphic_design_score.csv": 36, "metamorphic_design_benchmark.csv": 39}
 for name, rows in expected.items():
     with (root / name).open(newline="") as f:
         count = sum(1 for _ in csv.DictReader(f))
