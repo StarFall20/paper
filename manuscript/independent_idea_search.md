@@ -62,7 +62,7 @@ process-model topics. The process-aware abstention prototype is useful for a
 failure-boundary experiment, but it does not become the new contribution.
 
 The model-equivalent choice-pair test is selected as a high-risk pivot. Its
-object is a design-based specification test,
+sharper object is a design-based paired randomization test,
 not a policy-uncertainty interval. Under a candidate utility basis, two tasks
 with the same vector of alternative utility differences must have the same
 choice probabilities. A randomized pair that preserves those differences while
@@ -74,6 +74,16 @@ It requires purpose-built paired tasks or a strong matched-task structure in
 the empirical data, which the current LPMC and Swissmetro files have not yet
 been shown to provide. It cannot enter the main paper without that data
 condition.
+
+The literature boundary is material. Breitmoser (2021) already shows that
+conditional logit can be characterized by observable invariances, including
+translation invariance, and Fok and Paap (2025) already use alternative pairs
+inside composite-likelihood and GMM misspecification tests. The surviving
+increment is narrower: a cross-task transformation that preserves candidate
+utility differences for every allowed coefficient vector, combined with a
+respondent-cluster sign-flip reference. This is an implementation and design
+contribution hypothesis, not a claim to introduce invariance theory or a
+general MNL misspecification test.
 
 A direct audit of the public Biogeme Swissmetro file found 10,728 rows for
 1,192 IDs and only eight exact repeated full alternative profiles within an
