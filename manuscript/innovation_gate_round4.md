@@ -125,6 +125,14 @@ declared nonlinear, threshold, and interaction probes. They do not identify a
 unique omitted term, and the empirical data audit has not found enough exact
 paired tasks. Those two facts remain submission conditions.
 
+A separate 100-replication negative-control benchmark gives rejection rates of
+.04 for the additive null, .68 for an omitted nonlinear term, .03 for random
+linear taste, .23 for a task-specific error-scale drift, and 1.00 for a
+declared order effect. The scale and order results show why a BMST rejection is
+a relation violation; it is not an automatic functional-form diagnosis. The
+implementation is analysis/bmst_negative_controls.py and the frozen output is
+results/bmst_negative_controls.csv.
+
 ## Submission gate
 
 UFIT can become the main contribution after four additions:
