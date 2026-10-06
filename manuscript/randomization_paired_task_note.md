@@ -34,6 +34,7 @@ tasks, and 199 cluster randomizations per split. The results are:
 | nonlinear term + random cost sensitivity | oracle term | 0.02 |
 | interaction + random cost sensitivity | additive | 1.00 |
 | interaction + random cost sensitivity | oracle term | 0.00 |
+| cubic out-of-library departure | additive | 1.00 |
 
 The random-cost boundary is the key check. A common cost shift leaves each
 respondent's utility differences unchanged even when the cost coefficient is
@@ -51,6 +52,25 @@ The combined nonlinear-plus-random-cost condition gives 0.62, 0.04, and 0.66,
 while the combined interaction condition gives 0.16, 1.00, and 1.00. These
 rows are diagnostic of transformation sensitivity; they cannot be read as a
 unique omitted-term decomposition.
+
+## Pre-outcome transformation design
+
+The proposed maximin layer is audited separately from the outcome test. On a
+5-unit feasible grid, the fixed shifts `(20,0), (0,60), (20,50)` have a
+minimum normalized separation score of 1.142 across quadratic, threshold,
+interaction, and cubic probe utilities. A constrained maximin search with a
+pairwise Manhattan separation of 30 and a total movement budget of 150 selects
+`(5,45), (20,0), (35,45)` and raises the score to 1.632. An unconstrained
+search repeats `(40,60)` three times; its score of 3.000 demonstrates why a
+diversity constraint is part of the design object.
+
+The companion 50-replication benchmark gives null rejection of 0.06 for the
+fixed and constrained designs. Constrained maximin raises nonlinear power
+from 0.82 to 1.00 and nonlinear-plus-random-cost power from 0.74 to 1.00.
+Threshold, interaction, and cubic out-of-library power are 1.00 for both
+designs. These results justify treating the constrained search as a pre-outcome
+sensitivity layer. They do not turn the score into a new misspecification
+estimand, and the repeated-shift solution is excluded.
 
 ## Identification conditions and limits
 
@@ -85,3 +105,8 @@ invariance testing or a general MNL misspecification test.
 The implementation is `analysis/randomization_paired_task_test.py`; the frozen
 output is `results/randomization_paired_task_test.csv`. It contains all-pair
 and predeclared shift-specific rows.
+
+The design audit is implemented in `analysis/metamorphic_design_score.py` and
+its finite-sample comparison in `analysis/metamorphic_design_benchmark.py`;
+frozen outputs are `results/metamorphic_design_score.csv` and
+`results/metamorphic_design_benchmark.csv`.
