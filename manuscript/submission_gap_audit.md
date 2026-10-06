@@ -2,9 +2,10 @@
 
 ## Objective verdict
 
-The latest independent idea search changes the preferred route. A
-model-equivalent choice-pair test has a cleaner new object than the earlier
-process-triage proposal: it tests a utility-basis equality created by the
+The latest independent idea search changes the preferred route. Behavioral
+Metamorphic Specification Testing (BMST) has a cleaner new object than the
+earlier process-triage proposal: it transfers a test-oracle paradigm into
+choice-model specification and tests a utility-basis equality created by the
 choice design. The prototype is promising, but the empirical claim is blocked
 by the paired-task data condition.
 
@@ -37,6 +38,10 @@ not yet contain the evidence needed to defend it as a contribution.
 The paper is therefore at the **candidate-contribution stage**, not at the
 submission-ready stage. The remaining gap is evidence that the paired-task
 equality has correct size, useful power, and a valid empirical instrument.
+The one-member assignment benchmark now supplies the preferred protocol:
+600 respondents and 100 replications give .05 null rejection, .79 nonlinear
+power, .05 random-taste rejection, and 1.00 interaction power. The empirical
+instrument itself is still absent.
 
 The observational fallback has now been tested. Cross-fitting and respondent-
 clustered multiplier bootstrap give a near-5% null size in the engineered
