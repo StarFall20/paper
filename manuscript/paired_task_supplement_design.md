@@ -41,7 +41,7 @@ nuisance tasks when needed to reduce memory effects, while retaining a pair
 identifier for analysis.
 
 The recommended primary design assigns each respondent one member of every
-focal pair. Draw one orientation coin \z_n\in\{-1,+1\} per respondent and
+focal pair. Draw one orientation coin \(z_n\in\{-1,+1\}\) per respondent and
 hold it across the focal pairs, so the respondent never sees both members of a
 pair. This removes within-respondent carryover from the primary estimand.
 Counterbalance the orientation across respondents and retain the pair identity
