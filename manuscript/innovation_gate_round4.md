@@ -64,6 +64,25 @@ The exact softmax equivalence and the randomization conditions are stated in
 ufit_proposition.md; analysis/ufit_algebra_check.py checks the algebraic
 construction used by the simulation.
 
+## Method-transfer framing
+
+The independent method transfer is **Behavioral Metamorphic Specification
+Testing (BMST)**. Metamorphic testing supplies a test oracle when the correct
+output for one input is unavailable: a valid transformation creates a second
+input whose output must satisfy a known relation. BMST obtains that relation
+from the candidate choice model's maximal utility-difference invariant. UFIT is
+the formal utility-fibre relation used by BMST.
+
+This is one coherent transfer from software and simulation validation into
+choice-model specification. It does not combine a learner, a process model,
+and a policy rule. A targeted search found metamorphic-testing methods for
+classifiers and simulation validation, and invariance-based choice theory and
+MNL misspecification tests, but no exact candidate-basis metamorphic
+specification test for discrete choice. This is a search result, not a priority
+claim; the introduction must state the boundary and cite the adjacent
+literatures. The practical value is a test oracle for a utility library when
+single-task fit cannot reveal whether an omitted attribute relation matters.
+
 ## Why this is distinct enough to investigate
 
 Breitmoser’s axiomatic result characterizes conditional-logit probabilities
