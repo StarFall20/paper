@@ -71,9 +71,9 @@ instrument; the current public panels do not supply one.
 ## New pivot gate
 
 The paired-task test can replace the process-triage claim only if it passes
-four checks: bootstrap size near the declared level, power against omitted
+four checks: randomization size near the declared level, power against omitted
 nonlinear and interaction terms, loss of rejection after the correct term is
-added, and a valid Swissmetro or supplementary paired-task instrument. Term
+added, and a valid supplementary paired-task instrument or different dataset. Term
 localization is outside the supported claim after the factorial audit. Without
 the final data condition, the test remains a simulation contribution and the
 manuscript should present the recoverability benchmark as the main empirical
