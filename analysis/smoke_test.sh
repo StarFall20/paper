@@ -17,7 +17,7 @@ mkdir -p "$OUT_DIR"
 "$PYTHON_BIN" - "$OUT_DIR" <<'PY'
 import csv, pathlib, sys
 root = pathlib.Path(sys.argv[1])
-expected = {"simulation.csv": 32, "tree.csv": 16, "mixed_logit.csv": 8, "process_gate.csv": 5, "equivalent_pair.csv": 4, "observational_equivalence.csv": 4, "exact_paired_task.csv": 32, "factorial_equivalence.csv": 7, "randomization_paired_task.csv": 8}
+expected = {"simulation.csv": 32, "tree.csv": 16, "mixed_logit.csv": 8, "process_gate.csv": 5, "equivalent_pair.csv": 4, "observational_equivalence.csv": 4, "exact_paired_task.csv": 32, "factorial_equivalence.csv": 7, "randomization_paired_task.csv": 12}
 for name, rows in expected.items():
     with (root / name).open(newline="") as f:
         count = sum(1 for _ in csv.DictReader(f))
