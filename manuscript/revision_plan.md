@@ -2,10 +2,12 @@
 
 ## Research question
 
-**Independent pivot under review:** Can a utility basis be rejected by
-randomized choice-task pairs that preserve the candidate model's utility
-differences while changing the attribute decomposition? The paired-task test
-is the only new object being considered for the main contribution. The
+**Independent pivot under review:** Can Behavioral Metamorphic Specification
+Testing (BMST) reject a utility basis using randomized choice-task versions
+that preserve the candidate model's utility differences while changing the
+attribute decomposition? The BMST procedure, with the Utility-Fibre Invariance
+Test (UFIT) relation, is the only new object being considered for the main
+contribution. The
 recoverability and process-triage analyses remain comparison baselines until
 the paired-task data condition is verified.
 An observational matched-task version may use frozen utility-difference
@@ -39,13 +41,13 @@ work and are retained as failure-boundary comparisons.
 
 ## Candidate main contribution
 
-The model-equivalent choice-pair test constructs task pairs with identical
-candidate-model utility-difference vectors and different attribute
-decompositions. Under the candidate utility basis, the pair has identical
-choice probabilities. A respondent-cluster sign-flip reference tests that
-equality and can stratify violations by predeclared transformations. It does
-not identify a unique omitted nonlinear, threshold, or interaction term. The
-method is adopted only if a valid paired-task instrument is available.
+BMST constructs task pairs with identical candidate-model utility-difference
+vectors and different attribute decompositions. Under the candidate utility
+basis, the pair has identical choice probabilities. One-member-per-pair
+assignment and a respondent-cluster sign-flip reference test that equality.
+The method does not identify a unique omitted nonlinear, threshold, or
+interaction term. It is adopted only if a valid paired-task instrument is
+available.
 
 Before responses are collected, the instrument can use a constrained maximin
 selection over a declared grid of common shifts. The current audit selects
