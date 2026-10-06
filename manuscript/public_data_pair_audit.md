@@ -26,6 +26,16 @@ supplement as the empirical gate.
 | [Van Cranenburgh & Garrido-Valenzuela (2025) experiment description](https://doi.org/10.1016/j.tra.2024.104300) | The experiment drew image pairs at random and pulled attribute tasks from preconstructed tables. | Random task generation does not establish a prespecified candidate-preserving transformation or an exchangeable assignment between two task members. | Do not treat the data as a BMST instrument. |
 | Swissmetro public file | Existing repository audit found very few exact repeated profiles within respondent and orientation-sensitive approximate matches. | Exact randomized fibre is absent; the observational fallback has unstable orientation results. | Retain as a documented feasibility boundary, not as the main empirical test. |
 
+Additional public DCE repositories were screened as adjuncts. The [Harvard
+Dataverse Karnataka study](https://doi.org/10.7910/DVN/42TAA9) documents repeated
+choice-set observations within respondent, and the [Scottish DCE archive](https://doi.org/10.5281/zenodo.17749439)
+documents fixed numbers of choice rows per respondent. These are useful
+repeated-task resources, but their public descriptions do not define a
+candidate-preserving transformation or one-member assignment. A repeated
+identical task can test response stability; it cannot by itself test whether a
+candidate basis survives a change in attribute decomposition. They remain
+secondary candidates for descriptive checks, not BMST instruments.
+
 ## Why repeated tasks are insufficient
 
 BMST needs a declared transformation (T) such that the candidate basis
