@@ -60,6 +60,24 @@ pair-based MNL misspecification tests. The present route can claim only the
 finite-sample task construction and cluster randomization implementation after
 the empirical design conditions are verified.
 
+The third-round audit separates the independent core from its localization
+extension. The independent core is the **Utility-Fibre Invariance Test
+(UFIT)**: a frozen candidate is evaluated on held-out task pairs that preserve
+candidate utility differences while changing the attribute decomposition, and
+respondent-cluster randomization tests cross-task exchangeability. MFCA extends
+UFIT with a common-shift, alternative-relabelling, and repeated-task relation
+to locate which candidate-implied invariance class fails. A shared-sign maxT
+reference controls the three-axis familywise error rate. In the 50-replication
+gate, the additive null rejects at 0.02, 0.00, and 0.00 on the fibre,
+presentation, and sequence axes. Nonlinear utility yields 0.82 fibre power,
+position bias yields 1.00 presentation power, and inertia yields 1.00 sequence
+power. The dominant single-axis signatures occur in 39/50, 49/50, and 49/50
+replications, respectively. Combined mechanisms are reported as mixed or
+unresolved. Day et al. (2009) and the ordering-effects literature mean MFCA is
+not a wholly new process theory; its defensible delta is the candidate-
+conditioned invariance vector and explicit ambiguity action. The full boundary
+decision is recorded in `manuscript/innovation_gate_round3.md`.
+
 ## Objective assessment
 
 The current paper has a credible question and a corrected simulation scaffold, but its original innovation claim is too small for a strong JOCM submission. A generic statement that machine learning can screen nonlinearities and interactions is already close to assisted specification, random-forest-assisted portfolio choice, extensive mixed-Logit hypothesis search, model-based recursive partitioning, latent-class neural networks, reinforcement-learning specification, and LLM-supported specification. The current results show that the workflow can approach an oracle structured MNL in a combined synthetic condition. That is useful evidence, but it is not a new method by itself.
