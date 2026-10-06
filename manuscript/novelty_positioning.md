@@ -46,7 +46,11 @@ utility specification. The test preserves candidate-model utility differences
 across randomized task pairs while changing the attribute decomposition. Its
 equivalence violation measures whether the observed choice process supports
 the candidate basis and can stratify predeclared transformations. It does not
-identify a unique omitted term. The existing ML and process analyses serve as comparison and boundary
+identify a unique omitted term. A constrained maximin task-design layer can
+choose diverse transformations before responses are observed; its role is to
+raise sensitivity across a declared probe family, not to introduce a general
+optimal-design theorem. The existing ML and process analyses serve as
+comparisons and failure boundaries.
 
 ## Journal and reader alignment
 
@@ -58,6 +62,10 @@ The primary readers are choice modellers who need a disciplined specification wo
 - Add a candidate-library coverage or omitted-term stress test so the workflow has an explicit failure boundary.
 - Compare against at least one established assisted-search baseline and a pure flexible learner under the same grouped validation budget.
 - Complete full Mixed Logit, WTP recovery, calibration, 100 replications, and the LPMC/Swissmetro external checks.
+- If the paired-task route is retained, preregister the feasible shift grid,
+  probe family, movement budget, and diversity rule, then report the fixed,
+  constrained-maximin, and repeated-shift designs with null-size and power
+  comparisons.
 
 ## Decision
 
