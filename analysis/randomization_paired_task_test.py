@@ -39,7 +39,7 @@ def evaluate(ids, y, x, pair_ids, pair_side, pair_type, term, randomization_reps
     unique = np.unique(ids)
     rng = np.random.default_rng(seed)
     shuffled = unique.copy(); rng.shuffle(shuffled)
-    contrasts = []; clusters = []
+    contrasts = []; clusters = []; types = []
     for test_ids in np.array_split(shuffled, 2):
         test_mask = np.isin(ids, test_ids)
         train_mask = ~test_mask
@@ -60,7 +60,23 @@ def evaluate(ids, y, x, pair_ids, pair_side, pair_type, term, randomization_reps
             pl = probs[local[left]]; pr = probs[local[right]]
             contrasts.append(observed - (pl - pr))
             clusters.append(int(ids[left]))
-    return randomization_pvalue(contrasts, clusters, randomization_reps, seed + 7), len(contrasts)
+            types.append(pair_type[left])
+    contrasts = np.asarray(contrasts)
+    clusters = np.asarray(clusters)
+    types = np.asarray(types)
+    records = [{"pair_type": "all",
+                "pvalue": randomization_pvalue(contrasts, clusters,
+                                                randomization_reps, seed + 7),
+                "pairs": len(contrasts)}]
+    for typ in sorted(set(types.tolist())):
+        take = types == typ
+        records.append({"pair_type": typ,
+                        "pvalue": randomization_pvalue(contrasts[take],
+                                                        clusters[take],
+                                                        randomization_reps,
+                                                        seed + 17 + len(typ)),
+                        "pairs": int(take.sum())})
+    return records
 
 
 def run(reps=100, randomization_reps=499, respondents=300,
@@ -76,19 +92,20 @@ def run(reps=100, randomization_reps=499, respondents=300,
                            "interaction_random_price": "interaction"}.get(condition)
             candidate_terms = [None] if oracle_term is None else [None, oracle_term]
             for term in candidate_terms:
-                pvalue, pairs = evaluate(*data, term=term,
-                                          randomization_reps=randomization_reps,
-                                          seed=20600000 + rep)
-                rows.append({"condition": condition, "rep": rep,
-                             "candidate": "oracle_term" if term else "additive",
-                             "pairs": pairs, "pvalue": pvalue,
-                             "reject": int(pvalue < 0.05)})
+                records = evaluate(*data, term=term,
+                                   randomization_reps=randomization_reps,
+                                   seed=20600000 + rep)
+                for record in records:
+                    rows.append({"condition": condition, "rep": rep,
+                                 "candidate": "oracle_term" if term else "additive",
+                                 **record, "reject": int(record["pvalue"] < 0.05)})
     os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
     with open(out, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=list(rows[0])); writer.writeheader(); writer.writerows(rows)
     for condition in conditions:
         for candidate in ("additive", "oracle_term"):
-            subset = [r for r in rows if r["condition"] == condition and r["candidate"] == candidate]
+            subset = [r for r in rows if r["condition"] == condition and
+                      r["candidate"] == candidate and r["pair_type"] == "all"]
             if subset:
                 print(condition, candidate, "rejection_rate", round(float(np.mean([r["reject"] for r in subset])), 3))
     print(f"wrote {len(rows)} randomization-test rows to {out}")
