@@ -60,6 +60,20 @@ while the combined interaction condition gives 0.16, 1.00, and 1.00. These
 rows are diagnostic of transformation sensitivity; they cannot be read as a
 unique omitted-term decomposition.
 
+## Negative-control benchmark
+
+The separate BMST benchmark tests the mechanism boundary directly. Across 100
+replications, rejection is .04 under the additive null, .68 for an omitted
+nonlinear term, and .03 under random linear taste. A task-specific error-scale
+drift rejects at .23 and a declared order effect rejects at 1.00. These
+process and scale departures deliberately break the candidate-preserving
+relation. They establish that a rejection identifies a relation violation; the
+mechanism requires the declared negative controls and cannot be inferred from
+the p-value alone.
+
+The implementation is analysis/bmst_negative_controls.py and the frozen output
+is results/bmst_negative_controls.csv.
+
 ## Pre-outcome transformation design
 
 The proposed maximin layer is audited separately from the outcome test. On a
