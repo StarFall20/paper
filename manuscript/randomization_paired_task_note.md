@@ -23,7 +23,7 @@ tasks, and 199 cluster randomizations per split. The results are:
 | DGP | candidate | rejection rate |
 |---|---|---:|
 | additive | additive | 0.06 |
-| omitted nonlinear term | additive | 0.86 |
+| omitted nonlinear term | additive | 0.82 |
 | omitted nonlinear term | oracle term | 0.08 |
 | omitted threshold | additive | 1.00 |
 | omitted threshold | oracle term | 0.02 |
