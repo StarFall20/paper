@@ -78,6 +78,16 @@ collapses to a repeated maximum shift, which is retained as a negative control.
 The design layer can be promoted only as a pre-outcome task-selection rule; it
 is not a claim of generic optimal model-discrimination design.
 
+The MFCA extension passes a separate development gate. With maxT adjustment,
+the additive null rejects at 0.02, 0.00, and 0.00 on the fibre, presentation,
+and sequence axes. Nonlinear utility, position bias, and inertia produce the
+intended dominant signatures with 39/50, 49/50, and 49/50 single-axis
+classifications. Combined mechanisms produce mixed signatures and remain
+unresolved. This supports MFCA as a localization extension to the independent
+UFIT core; it does not establish a new order-effect theory. The empirical gate
+still needs a balanced instrument containing the declared relations and an
+external transfer check.
+
 ## New pivot gate
 
 The paired-task test can replace the process-triage claim only if it passes
@@ -115,6 +125,10 @@ result.
    probe family, movement budget, diversity constraint, and maximin tie rule
    before collecting responses. Report the fixed-design comparison and the
    repeated-shift failure boundary.
+
+9. If MFCA is promoted, preregister the relation definitions, shared-sign maxT
+   reference, signature confusion matrix, and unresolved action. Do not label
+   a mixed signature as a unique omitted term or a uniquely identified process.
 
 ## Stop conditions
 
