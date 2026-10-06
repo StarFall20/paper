@@ -43,6 +43,15 @@ retain power against an omitted nonlinear or interaction term in the presence
 of random cost sensitivity. The result is a simulation property, not evidence
 that arbitrary heterogeneity is identified.
 
+The shift-specific rows provide directional evidence without term-level
+identification. Under the additive candidate, nonlinear power is 0.72 for the
+time shift, 0.04 for the cost shift, and 0.70 for the joint shift. Threshold
+power is 0.06, 1.00, and 1.00; interaction power is 0.24, 1.00, and 1.00.
+The combined nonlinear-plus-random-cost condition gives 0.62, 0.04, and 0.66,
+while the combined interaction condition gives 0.16, 1.00, and 1.00. These
+rows are diagnostic of transformation sensitivity; they cannot be read as a
+unique omitted-term decomposition.
+
 ## Identification conditions and limits
 
 The randomization reference requires a frozen candidate estimated outside the
@@ -74,4 +83,5 @@ reference from paired task exchangeability. It must not claim to introduce
 invariance testing or a general MNL misspecification test.
 
 The implementation is `analysis/randomization_paired_task_test.py`; the frozen
-output is `results/randomization_paired_task_test.csv`.
+output is `results/randomization_paired_task_test.csv`. It contains all-pair
+and predeclared shift-specific rows.
