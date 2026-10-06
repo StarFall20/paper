@@ -176,11 +176,15 @@ predeclared controls.
 ## 7. Empirical instrument
 
 The current Swissmetro file does not provide enough exact randomized task
-pairs. The empirical study therefore needs a forced-choice supplement or a
-different dataset with the required assignment structure. The supplement
-should include at least two directional shifts, one joint shift, a
-one-member-per-pair assignment, an additive placebo, a random-taste condition,
-and an order or carryover placebo in a separate arm.
+pairs. A broader public-data audit reached the same boundary: repeated tasks in
+open DCE repositories do not document the candidate-preserving transformation
+and one-member assignment required by the estimand. Those data can support
+descriptive or predictive transfer, but they cannot replace the instrument.
+The empirical study therefore needs a forced-choice supplement or a different
+dataset with the required assignment structure. The supplement should include
+at least two directional shifts, one joint shift, a one-member-per-pair
+assignment, an additive placebo, a random-taste condition, and an order or
+carryover placebo in a separate arm.
 
 An opt-out requires a fully defined profile if the relation is intended to
 include product-versus-opt-out differences. A forced-choice block provides the
