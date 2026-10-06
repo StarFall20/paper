@@ -9,7 +9,7 @@ decompositions. The candidate implies exchangeable outcomes within the pair.
 A respondent-level sign-flip distribution gives a design-based specification
 test. Pair labels can stratify violations by a predeclared transformation, but
 they do not identify a unique omitted term. The first 50-replication
-randomization run gives a 0.06 rejection rate under the additive null and 0.86
+randomization run gives a 0.06 rejection rate under the additive null and 0.82
 against an omitted quadratic term.
 
 This pivot is a separate design-based object. It does not combine the Random
