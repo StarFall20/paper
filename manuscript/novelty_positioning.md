@@ -4,12 +4,15 @@
 
 The topic fits the Journal of Choice Modelling because it studies utility specification, behavioural interpretation, model validation, and the use of data-driven methods in choice analysis. The current contribution is publishable only as a mechanism-controlled validation study. A claim that the paper introduces a new ML specification algorithm would overlap with established JOCM work and recent specification agents.
 
-The independent innovation search identifies a stronger candidate: a
-model-equivalent choice-pair test. It tests a model-implied equality created
-by the task design, so it can reject a good aggregate fit when the utility
-basis is wrong. This direction has a clear novelty claim only after a valid
-paired-task instrument is confirmed; otherwise it remains a simulation method
-and the manuscript should retain the narrower benchmark framing.
+The independent innovation search identifies a stronger candidate:
+**Behavioral Metamorphic Specification Testing (BMST)**. BMST transfers the
+metamorphic-test-oracle paradigm into discrete-choice specification. Its
+Utility-Fibre Invariance Test (UFIT) relation creates a model-implied equality
+across randomized task versions, so it can reject a good aggregate fit when
+the utility basis is wrong. This direction has a clear novelty claim only
+after a valid one-member-per-pair instrument is confirmed; otherwise it
+remains a simulation method and the manuscript should retain the narrower
+benchmark framing.
 
 The candidate is adjacent to Fok and Paap's 2025 JOCM tests, which use
 alternative pairs and overidentifying moments to diagnose MNL/IIA
@@ -52,15 +55,15 @@ raise sensitivity across a declared probe family, not to introduce a general
 optimal-design theorem. The existing ML and process analyses serve as
 comparisons and failure boundaries.
 
-The stronger independent candidate is the **Utility-Fibre Invariance Test
-(UFIT)** implemented by the candidate-preserving paired-task design. It
-constructs held-out task pairs with equal candidate utility differences and
-different attribute decompositions, freezes the candidate before testing, and
-uses respondent-cluster randomization to test cross-task exchangeability. Its
-estimand is a candidate-conditioned violation of a utility fibre. It is close
-to axiomatic invariance tests and pair-based MNL misspecification tests, so the
-paper must claim this construction and its finite-sample operating boundary,
-not a general invariance theorem.
+The stronger independent candidate is BMST, implemented through the
+**Utility-Fibre Invariance Test (UFIT)**. It constructs held-out task pairs
+with equal candidate utility differences and different attribute
+decompositions, freezes the candidate before testing, and uses randomized
+one-member assignment with respondent-cluster sign flips. Its estimand is a
+candidate-conditioned violation of a utility fibre. It is close to axiomatic
+invariance tests and pair-based MNL misspecification tests, so the paper must
+claim this method transfer and finite-sample operating boundary, not a general
+invariance theorem.
 
 The **Mechanism-Fingerprint Choice Audit (MFCA)** is retained as a bounded
 localization extension. It adds candidate-implied presentation and sequence
@@ -85,7 +88,8 @@ The primary readers are choice modellers who need a disciplined specification wo
 - If the paired-task route is retained, preregister the feasible shift grid,
   probe family, movement budget, and diversity rule, then report the fixed,
   constrained-maximin, and repeated-shift designs with null-size and power
-  comparisons.
+  comparisons. Use one-member-per-pair assignment as the primary instrument
+  and retain within-respondent pairs as a carryover sensitivity arm.
 - For MFCA, preregister the three relation definitions, the maxT reference,
   the signature-to-action map, and the unresolved rule. Report the signature
   confusion matrix, including combined mechanisms and linear random taste
