@@ -2,15 +2,15 @@
 
 ## Independent pivot after the Idea-DNA search
 
-The preferred new direction is a **model-equivalent choice-pair test**. The
-analyst creates two randomized choice tasks with the same candidate-model
-utility-difference vector and different raw attribute decompositions. The
-candidate model implies equal choice probabilities for the pair. A bootstrap-
-calibrated share difference becomes a direct specification test. Pair labels
-can stratify the violation by a predeclared transformation, but they do not
-identify a unique omitted term. The first 500-replication prototype gives a
-0.06 rejection rate under
-the additive null and 0.986 under an omitted quadratic term.
+The preferred new direction is a **candidate-preserving paired-task
+randomization test**. The analyst creates two held-out choice tasks with the
+same candidate-model utility-difference vector and different raw attribute
+decompositions. The candidate implies exchangeable outcomes within the pair.
+A respondent-level sign-flip distribution gives a design-based specification
+test. Pair labels can stratify violations by a predeclared transformation, but
+they do not identify a unique omitted term. The first 50-replication
+randomization run gives a 0.06 rejection rate under the additive null and 0.86
+against an omitted quadratic term.
 
 This pivot is a separate design-based object. It does not combine the Random
 Forest selector with the process gate. Its submission status depends on a
@@ -29,13 +29,21 @@ and no descriptive rejection on public Swissmetro. It remains a feasibility
 audit until an exact randomized supplement is available.
 
 The exact three-alternative benchmark now supplies the randomized supplement
-in simulation. It has strong base power, and the damped-Newton repair returns
-rejection to the declared size after the corresponding term is added. The
-joint shift still changes multiple raw loci, so interaction localization is
-incomplete. A four-cell probability-scale factorial contrast was audited as a
-repair; it fails when an interaction coexists with a nonlinear main effect.
-The extension is excluded from the primary claim. The supported object is a
-test for candidate-invariance violation, with no unique omitted-term label.
+in simulation. The cluster sign-flip version has 0.06 null rejection, 0.86,
+1.00, and 1.00 rejection against nonlinear, threshold, and interaction
+conditions, and 0.08, 0.02, and 0.04 after the corresponding repair terms are
+supplied. The random-price boundary is 0.08. The joint shift still changes
+multiple raw loci, so interaction localization is incomplete. A four-cell
+probability-scale factorial contrast was audited as a repair; it fails when an
+interaction coexists with a nonlinear main effect. The extension is excluded
+from the primary claim. The supported object is a cross-task exchangeability
+test for candidate invariance, with no unique omitted-term label.
+
+Breitmoser (2021) already provides an axiomatic foundation for observable
+translation and related invariances, and Fok and Paap (2025) already provide
+pair-based MNL misspecification tests. The present route can claim only the
+finite-sample task construction and cluster randomization implementation after
+the empirical design conditions are verified.
 
 ## Objective assessment
 
