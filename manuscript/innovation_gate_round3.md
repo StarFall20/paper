@@ -2,10 +2,13 @@
 
 ## Decision
 
-The paper's strongest independent object is the **Utility-Fibre Invariance
-Test (UFIT)**, implemented by the candidate-preserving paired-task
-randomization design. The Mechanism-Fingerprint Choice Audit (MFCA) remains a
-useful extension, but it should not carry the whole novelty claim.
+The strongest remaining candidate is the **Utility-Fibre Invariance Test
+(UFIT)**, implemented by the candidate-preserving paired-task randomization
+design. Round 4 records the stricter boundary: UFIT is a method-and-design
+extension whose submission-level originality still depends on a formal
+candidate-basis proposition and a valid paired-task instrument. The
+Mechanism-Fingerprint Choice Audit (MFCA) remains a useful extension, but it
+should not carry the whole novelty claim.
 
 UFIT starts with a fitted candidate basis (B), then constructs a pair of
 held-out tasks whose candidate utility differences are equal for every
@@ -26,13 +29,13 @@ prediction into a finite-sample specification diagnostic. The estimand is the
 violation of candidate-implied equality across a utility fibre. It is not a
 general misspecification test and it does not identify a unique omitted term.
 
-This object is independent in the relevant sense: the transformation is
-defined by the candidate's utility representation, the outcome comparison is
-across tasks rather than alternative pairs within one task, and inference is
-design-based after the candidate is frozen. Existing invariance theory and
-pairwise MNL tests are close foundations, so the paper must claim this exact
-construction and its operating boundary, not priority over all invariance or
-misspecification work.
+The transformation is defined by the candidate's utility representation, the
+outcome comparison is across tasks rather than alternative pairs within one
+task, and inference is design-based after the candidate is frozen. Existing
+invariance theory and pairwise MNL tests are close foundations, so the paper
+must claim this exact construction and its operating boundary, not priority
+over all invariance or misspecification work. The full round-4 decision is in
+`innovation_gate_round4.md`.
 
 ## What is already known
 
