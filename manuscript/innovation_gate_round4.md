@@ -133,6 +133,14 @@ a relation violation; it is not an automatic functional-form diagnosis. The
 implementation is analysis/bmst_negative_controls.py and the frozen output is
 results/bmst_negative_controls.csv.
 
+The recommended one-member-per-pair assignment was then evaluated separately
+with 600 respondents and 100 replications. Rejection is .05 for the additive
+null, .79 for omitted nonlinearity, .05 for random linear taste, and 1.00 for
+an omitted interaction. This design removes carryover from the primary
+estimand and is the preferred supplement protocol. The implementation is
+analysis/bmst_assignment_benchmark.py and the frozen output is
+results/bmst_assignment_benchmark.csv.
+
 ## Submission gate
 
 UFIT can become the main contribution after four additions:
