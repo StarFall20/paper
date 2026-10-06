@@ -66,3 +66,5 @@ The required instrument for a defensible empirical test is specified in `manuscr
 The weaker cross-fitted observational fallback is implemented in `analysis/observational_equivalence_test.py`. Its boundary simulation keeps null size near 5% but gives modest power against deliberately visible nonlinear and interaction alternatives. The public Swissmetro run produces 126, 236, 1,371, and 3,430 approximate pairs at tolerances 0.01, 0.02, 0.05, and 0.10. Its p-values change from about 0.43–0.48 under row-order orientation to 0.003–0.033 at the larger tolerances under time orientation, while cost orientation gives 0.847–0.977. This orientation sensitivity is a failure boundary, not evidence of misspecification. See `manuscript/observational_equivalence_note.md`.
 
 The current distance to a defensible submission claim is recorded in `manuscript/submission_gap_audit.md`.
+
+The fifth-round cross-literature novelty boundary is recorded in `manuscript/novelty_boundary_round5.md`. It incorporates Daly's utility-difference and scale-identification warning and limits BMST to a declared choice-probability relation on a tested task fibre.
