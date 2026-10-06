@@ -41,6 +41,19 @@ interaction coexists with a nonlinear main effect. The extension is excluded
 from the primary claim. The supported object is a cross-task exchangeability
 test for candidate invariance, with no unique omitted-term label.
 
+The second-round design audit now tests whether the transformations themselves
+can be chosen before responses are observed. A constrained maximin search over
+quadratic, threshold, interaction, and cubic probe utilities selects shifts
+`(5,45), (20,0), (35,45)`, compared with the fixed shifts `(20,0), (0,60),
+(20,50)`. The normalized minimum probe score rises from 1.142 to 1.632. In
+the 50-replication randomization benchmark, null rejection remains 0.06 while
+nonlinear power rises from 0.82 to 1.00 and nonlinear-plus-random-price power
+rises from 0.74 to 1.00. The fixed design already has 1.00 power for threshold,
+interaction, and cubic out-of-library departures. An unconstrained search
+repeats `(40,60)` three times, so movement and diversity constraints are part
+of the method's design definition. This supports a task-design layer; it does
+not support a claim of a general optimal-design theorem.
+
 Breitmoser (2021) already provides an axiomatic foundation for observable
 translation and related invariances, and Fok and Paap (2025) already provide
 pair-based MNL misspecification tests. The present route can claim only the
