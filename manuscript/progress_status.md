@@ -1,5 +1,21 @@
 # Revision progress status
 
+## Current decision
+
+The independent innovation gate is passed at the conceptual and simulation
+levels. The main paper will be rebuilt around **Behavioral Metamorphic
+Specification Testing (BMST)** and its **Utility-Fibre Invariance Test
+(UFIT)** relation. BMST freezes a candidate utility basis, constructs
+candidate-equivalent task versions, and tests their observed choice-probability
+equivalence with one-member assignment and respondent-cluster randomization.
+The earlier XGBoost-versus-MNL crossover and the model-family triage remain
+controlled benchmarks. They no longer carry the main contribution claim.
+
+The full submission gate remains open until a paired-task supplement or a
+dataset with the same candidate-preserving assignment structure is obtained.
+This is an evidence requirement for the selected innovation, not a request for
+another conceptual route.
+
 ## Completed
 
 - Reframed the paper around ML-assisted utility specification for the Journal of Choice Modelling.
