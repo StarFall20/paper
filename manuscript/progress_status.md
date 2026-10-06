@@ -21,6 +21,7 @@
 - Completed a fifth-round cross-literature novelty audit. Daly's indistinguishability and scale boundary is now explicit; BMST is limited to a declared choice-probability relation on a tested task fibre.
 - Added a 500-replication proof-of-concept for the paired-task test. The additive null rejection rate is 0.06 and the omitted-quadratic rejection rate is 0.986 at the declared 5% level. This is feasibility evidence; it does not yet establish empirical validity.
 - Audited a public repeated-task dataset from TUDelft as a possible empirical BMST source. Its documented schema and random task construction do not provide the one-member-per-pair assignment needed for the primary estimand. The audit is in `manuscript/public_data_pair_audit.md`; the paired-task supplement remains the empirical gate.
+- Completed a sixth-round independent innovation audit against recent JOCM directions. BMST/UFIT is retained as one coherent candidate-fibre exchangeability test; conformal prediction, welfare model averaging, adversarial stress testing, and environment-invariant WTP are recorded as comparison or secondary routes. The original XGBoost-versus-MNL crossover is demoted to a controlled benchmark.
 
 ## In progress
 
