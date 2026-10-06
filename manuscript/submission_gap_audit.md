@@ -57,6 +57,15 @@ when an interaction coexists with a nonlinear main effect. The audit shows
 that the mixed probability contrast is contaminated by the nonlinear link, so
 term-level localization is excluded from the innovation claim.
 
+The cluster sign-flip version is the stronger current specification of the
+object. It gives 0.06 null rejection, 0.86/1.00/1.00 rejection against
+nonlinear/threshold/interaction conditions, and 0.08/0.02/0.04 after repair
+terms. Its empirical novelty remains conditional: observable invariance theory
+and pair-based MNL misspecification tests are established, so the contribution
+must be stated as a finite-sample task construction and randomization
+implementation. The method also requires a purpose-built paired-task
+instrument; the current public panels do not supply one.
+
 ## New pivot gate
 
 The paired-task test can replace the process-triage claim only if it passes
