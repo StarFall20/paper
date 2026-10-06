@@ -42,10 +42,10 @@ work and are retained as failure-boundary comparisons.
 The model-equivalent choice-pair test constructs task pairs with identical
 candidate-model utility-difference vectors and different attribute
 decompositions. Under the candidate utility basis, the pair has identical
-choice probabilities. A bootstrap-calibrated difference in observed choice
-shares tests that equality and can localize omitted nonlinear, threshold, or
-interaction terms. The method is adopted only if a valid paired-task
-instrument is available.
+choice probabilities. A respondent-cluster sign-flip reference tests that
+equality and can stratify violations by predeclared transformations. It does
+not identify a unique omitted nonlinear, threshold, or interaction term. The
+method is adopted only if a valid paired-task instrument is available.
 
 ## Evidence package
 
