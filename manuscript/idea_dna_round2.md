@@ -88,3 +88,22 @@ after a separate calibration study.
 - an explicit literature comparison with Huang, Breitmoser, Fok and Paap, and
   metamorphic-testing work.
 
+## Design audit result
+
+The deterministic score audit uses a 5-unit grid, a maximum time shift of 40,
+a maximum cost shift of 60, a pairwise Manhattan separation of 30, and a total
+movement budget of 150. The fixed design `(20,0), (0,60), (20,50)` has a
+minimum normalized probe score of 1.142. The constrained maximin design
+`(5,45), (20,0), (35,45)` raises that score to 1.632. The unconstrained
+criterion selects `(40,60)` three times and reaches 3.000 by repeating the
+largest shift; this is a design failure boundary, not a publishable design.
+
+The 50-replication randomization benchmark preserves null rejection at 0.06
+for both the fixed and constrained designs. Constrained maximin raises power
+from 0.82 to 1.00 for the quadratic departure and from 0.74 to 1.00 for the
+quadratic-plus-random-price condition. Threshold, interaction, and cubic
+out-of-library departures are already detected at 1.00 by the fixed design.
+The constrained design therefore earns a place as a pre-outcome task-design
+layer, while the optimization itself is not the central estimand. The
+unconstrained repeated-shift result is retained only to show why diversity and
+movement constraints are required.
