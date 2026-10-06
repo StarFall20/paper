@@ -47,6 +47,16 @@ equality and can stratify violations by predeclared transformations. It does
 not identify a unique omitted nonlinear, threshold, or interaction term. The
 method is adopted only if a valid paired-task instrument is available.
 
+Before responses are collected, the instrument can use a constrained maximin
+selection over a declared grid of common shifts. The current audit selects
+`(5,45), (20,0), (35,45)` under a 30-unit pairwise separation and a 150-unit
+movement budget. It raises the weakest normalized separation score from 1.142
+for the fixed design to 1.632 while preserving the candidate exactly. An
+unconstrained search repeats `(40,60)` three times, so the diversity and
+movement constraints are part of the design definition. The design layer is a
+sensitivity improvement for the paired-task test; it is not a claim of generic
+optimal model discrimination.
+
 ## Evidence package
 
 1. **Monte Carlo study:** at least 100 replications per condition. Conditions vary one mechanism at a time and include a combined condition. The true utility contains linear effects plus selected quadratic, interaction, and threshold terms, with optional random taste heterogeneity.
