@@ -36,6 +36,28 @@ not assert that a non-rejection proves the candidate globally correct. The
 empirical test samples a declared set of transformations \(T\), a declared
 support of attributes, and a declared choice process.
 
+## Proposition: one-member randomization reference
+
+Let \(Z_n\in\{-1,+1\}\) be an orientation coin assigned independently of
+respondent \(n\)'s potential choices, and show that respondent one member of
+each focal pair. Let \(\beta\) be frozen from a development fold and define
+
+\[
+ S_n=\sum_{q\in\mathcal{Q}_n}Z_n
+ \{e(Y_{nq})-\hat p_{nq}\}.
+\]
+
+Under the candidate null, the joint distribution of the observed cluster
+scores is invariant to \(Z_n\mapsto-Z_n\). Conditional on the potential
+choices and the frozen candidate, all \(2^N\) sign assignments are therefore
+equally likely. The respondent-cluster sign-flip distribution is an exact
+randomization reference for any statistic computed from the \(S_n\)'s.
+
+The result uses one orientation per respondent so arbitrary dependence among
+that respondent's focal tasks remains inside \(S_n\). Fitting \(\beta\) on the
+test respondents, allowing the candidate to depend on \(Z_n\), or showing both
+members of a pair without a carryover condition removes this exact reference.
+
 ## Test estimand
 
 For a transformation \(T\), define
