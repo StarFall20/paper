@@ -1,35 +1,36 @@
-# Testing utility specification with behavioral metamorphic relations
+# Testing coarsened utility specification with anchored behavioral metamorphic relations
 
 ## Working title
 
-**Behavioral metamorphic specification testing for discrete choice models:
-randomized task fibres for utility-basis adequacy**
+**Anchored behavioral metamorphic specification testing for discrete choice
+models: randomized utility fibres for coarsened-basis adequacy**
 
 ## Abstract
 
 Choice modellers often compare out-of-sample fit after selecting a utility
 specification. Similar fit can conceal different behavioral implications, and
 single-task diagnostics do not provide a test oracle when the correct utility
-function is unknown. This paper develops Behavioral Metamorphic Specification
-Testing (BMST), a design-based audit for candidate utility bases. A frozen
-candidate generates a pair of task versions whose alternative-specific
-candidate utility differences are identical while the raw attribute
-decomposition changes. The candidate therefore predicts equal choice
-probabilities across the pair. We assign one member of each pair to each
-respondent, aggregate respondent-cluster residual scores, and use the
-randomized orientation to construct a finite-sample reference distribution.
-The test estimand is a violation of candidate-implied choice-probability
-equivalence on a declared task fibre.
+function is unknown. This paper develops an anchored version of Behavioral
+Metamorphic Specification Testing (BMST) for candidate bases that coarsen the
+raw attribute space. A frozen candidate generates task versions with the same
+full menu of candidate utility differences while the raw decomposition changes.
+The instrument assigns one member of each pair to each respondent, includes a
+zero-candidate-difference anchor, and holds pairwise raw geometry fixed in its
+primary control arm. Respondent-cluster randomization supplies a finite-sample
+reference distribution. The estimand is a violation of candidate-implied
+choice-probability equivalence on a declared, nontrivial task fibre.
 
-In a 100-replication negative-control benchmark, the additive null rejection
-rate is .04, omitted nonlinearity is detected at .68, random linear taste at
-.03, task-specific error-scale drift at .23, and an order effect at 1.00. A
-600-respondent assignment benchmark gives .05 null rejection, .79 power
-against omitted nonlinearity, .05 rejection under random linear taste, and
-1.00 power against an omitted interaction. The results establish a
-specification relation test. They do not identify a unique omitted mechanism,
-latent scale, or global model truth. A paired-task supplement is required for
-the empirical application.
+In a 100-replication anchored-fibre benchmark, the ordinary observational LR
+test and a residual-learning proxy reject at .04 and .04 under an omitted
+decomposition term because the original support is nearly flat in the omitted
+direction. The anchored fibre test rejects at .83 on the zero-gap,
+geometry-preserving arm and 1.00 on the geometry-changing nonzero-gap arm. In
+the complexity-only control, the zero-gap and geometry-preserving arms reject
+at .02 and .07, while the deliberately geometry-changing arm responds at
+.41. These figures are planning evidence, not an empirical application. They
+show why the paper reports a relation violation together with complexity
+controls instead of assigning every rejection to utility misspecification. A
+paired-task supplement is required for the empirical study.
 
 ## 1. Research problem
 
@@ -57,18 +58,20 @@ that the candidate basis is insufficient for the tested transformation.
 The paper makes one method contribution and two supporting contributions.
 
 1. BMST transfers metamorphic test-oracle construction into discrete-choice
-   utility specification. Its domain-specific relation is the Utility-Fibre
-   Invariance Test (UFIT).
-2. The paper gives a candidate-basis equivalence proposition and a
-   respondent-cluster randomization reference for a one-member-per-pair
-   instrument.
-3. The benchmark separates functional-form departures from random linear
-   taste, task-specific scale drift, and order effects.
+   specification and restricts it to candidate bases with nontrivial fibres.
+   Its domain-specific relation is the Utility-Fibre Invariance Test (UFIT).
+2. The anchored instrument uses a zero-candidate-difference task and a
+   geometry-preserving common translation to separate a scale/complexity
+   explanation from a decomposition-direction violation.
+3. The benchmark compares the designed probe with an observational LR test and
+   an out-of-fold residual learner, then reports scale, taste, order, and
+   comparison-complexity controls.
 
 BMST tests a declared choice-probability relation on a declared intervention
-domain. It does not introduce invariance theory, provide a universal MNL
-misspecification test, recover a unique omitted term, or guarantee external
-validity beyond the tested task fibre.
+domain. It is not run when the candidate fibre is a singleton. It does not
+introduce invariance theory, provide a universal MNL misspecification test,
+recover a unique omitted term, or guarantee external validity beyond the tested
+task fibre.
 
 ## 3. Candidate-preserving task relation
 
@@ -79,13 +82,13 @@ and define the candidate utility
 V_j(x;\beta)=b_j(x)^\top\beta .
 \]
 
-The vector of alternative differences is
+The full menu coordinate is
 
 \[
-d(x)=\{b_j(x)-b_k(x):j<k\}.
+\phi(x)=\{b_j(x)-b_k(x):j<k\}.
 \]
 
-A transformation \(T\) is candidate-preserving when \(d(Tx)=d(x)\). The
+A transformation \(T\) is candidate-preserving when \(\phi(Tx)=\phi(x)\). The
 candidate multinomial-logit probabilities are
 
 \[
@@ -97,7 +100,10 @@ The candidate-preserving condition implies
 \(p_j(Tx;\beta)=p_j(x;\beta)\) for every \(j\) and every \(\beta\). The converse
 also holds because equality of softmax odds implies equality of every
 alternative-pair basis difference. The relation therefore comes from the
-candidate representation rather than from an arbitrary matching rule.
+candidate representation rather than from an arbitrary matching rule. Before
+the test, the feasible transformation set is screened for a nonzero direction
+that preserves \(\phi\). A full raw-attribute basis with no such direction has
+singleton fibres and is outside the primary estimand.
 
 For the data-generating choice process \(P^*\), BMST targets
 
@@ -119,6 +125,14 @@ chooses, and the respondent never sees both members of a pair. Candidate
 parameters are estimated on a development fold and frozen before the test
 fold is evaluated.
 
+The primary binary arm adds two controls. A zero-candidate-difference pair has
+\(\Delta V=0\); under symmetric binary errors its probability is one half for
+every positive scale. A common raw-attribute translation applied to both
+alternatives preserves their pairwise raw geometry and tests the candidate
+relation without changing the similarity/dominance distance used by
+comparison-complexity models. An alternative-specific decomposition move is
+reported as a complexity arm, not as a direct utility diagnosis.
+
 For focal tasks \(\mathcal Q_n\), define the cluster score
 
 \[
@@ -136,9 +150,11 @@ the fitted candidate to depend on orientation breaks this reference.
 
 ## 5. Simulation design
 
-The benchmark uses three-alternative tasks, additive candidate attributes,
-alternative constants, and common shifts in time, cost, and both attributes.
-Conditions vary one mechanism at a time:
+The original smart-device benchmark uses three-alternative tasks, additive
+candidate attributes, alternative constants, and common shifts in time, cost,
+and both attributes. The revised primary benchmark uses binary tasks with a
+coarsened candidate burden \(s=a_1+a_2\) and an omitted decomposition coordinate
+\(z=a_1-a_2\). Conditions vary one mechanism at a time:
 
 - additive candidate;
 - omitted quadratic utility;
@@ -146,6 +162,12 @@ Conditions vary one mechanism at a time:
 - random linear cost sensitivity;
 - task-specific error-scale drift;
 - order-dependent choice bonus.
+
+The observational support keeps \(z\) near zero. The fibre supplement moves
+along \(s\)-constant directions and compares geometry-preserving and
+geometry-changing decompositions. The LR comparator adds \(z^2\) to the
+candidate likelihood. The residual comparator searches out-of-fold residuals
+with a small random-feature basis in \(z\).
 
 The main assignment benchmark uses 600 respondents, one member per pair,
 three focal pairs, four nuisance tasks, 100 replications, and 499
@@ -167,11 +189,22 @@ and adds the scale and order conditions.
 | Random linear taste, one-member assignment | .05 |
 | Omitted interaction, one-member assignment | 1.00 |
 
-The null and random-taste conditions calibrate the relation test. The
-nonlinear and interaction conditions show sensitivity to out-of-library
-utility. Scale and order conditions demonstrate the interpretation boundary:
-BMST detects a candidate-relation violation, and mechanism attribution needs
-predeclared controls.
+The null and random-taste conditions calibrate the original relation test. The
+anchored-fibre benchmark adds the following planning result:
+
+| condition | LR on observational support | residual learner | zero-gap GP | gap GP | zero-gap GC | gap GC |
+|---|---:|---:|---:|---:|---:|---:|
+| null | .04 | .03 | .06 | .07 | .03 | .03 |
+| omitted decomposition | .04 | .04 | .83 | .56 | .50 | 1.00 |
+| complexity only | .03 | .06 | .06 | .07 | .02 | .41 |
+
+Here GP denotes geometry-preserving and GC geometry-changing. The table uses
+100 replications with 400 respondents and 199 sign-flip draws. It is a design
+comparison, not an empirical application. It shows the intended logic: the
+observational diagnostics have little power on the omitted direction, the
+geometry-preserving fibre detects the decomposition error, and the
+complexity-only control is concentrated in the geometry-changing nonzero-gap
+arm while the zero-gap anchor remains calibrated.
 
 ## 7. Empirical instrument
 
@@ -182,9 +215,12 @@ and one-member assignment required by the estimand. Those data can support
 descriptive or predictive transfer, but they cannot replace the instrument.
 The empirical study therefore needs a forced-choice supplement or a different
 dataset with the required assignment structure. The supplement should include
-at least two directional shifts, one joint shift, a one-member-per-pair
-assignment, an additive placebo, a random-taste condition, and an order or
-carryover placebo in a separate arm.
+an explicitly coarsened candidate basis, a pretest showing a nontrivial fibre,
+at least one zero-gap anchor, a geometry-preserving translation arm, a
+geometry-changing decomposition arm, a one-member-per-pair assignment, an
+additive placebo, a random-taste condition, and an order or carryover placebo
+in a separate arm. Response time, confidence, and the raw pairwise distance
+index are recorded before the analysis plan is unlocked.
 
 An opt-out requires a fully defined profile if the relation is intended to
 include product-versus-opt-out differences. A forced-choice block provides the
@@ -192,8 +228,9 @@ cleaner first test of in-product utility specification.
 
 ## 8. Submission claim
 
-The supported claim is that BMST provides a finite-sample, candidate-conditioned
-specification audit for a declared choice-task fibre. The empirical paper must
+The supported claim is that anchored BMST provides a finite-sample,
+candidate-conditioned specification audit for a declared nontrivial fibre of a
+coarsened utility basis. The empirical paper must
 report usable-pair counts, the predeclared transformation, assignment balance,
 null calibration, negative controls, and the action for a mixed violation.
 Survival of the test supports the tested relation and task domain; it does not
