@@ -63,6 +63,8 @@ The preferred one-member-per-pair supplement is benchmarked in `analysis/bmst_as
 
 The required instrument for a defensible empirical test is specified in `manuscript/paired_task_supplement_design.md`. It defines the common-shift construction, respondent-fold estimation, cluster randomization reference, counterbalanced order, and the opt-out boundary.
 
+The public-data audit in `manuscript/public_data_pair_audit.md` records the search for an existing empirical BMST instrument. The open TUDelft computer-vision choice dataset has repeated observations, but its documented schema and random task construction do not establish candidate-preserving pair assignment. It is therefore reserved for descriptive or predictive transfer; a purpose-built paired-task supplement remains required for the primary empirical claim.
+
 The weaker cross-fitted observational fallback is implemented in `analysis/observational_equivalence_test.py`. Its boundary simulation keeps null size near 5% but gives modest power against deliberately visible nonlinear and interaction alternatives. The public Swissmetro run produces 126, 236, 1,371, and 3,430 approximate pairs at tolerances 0.01, 0.02, 0.05, and 0.10. Its p-values change from about 0.43–0.48 under row-order orientation to 0.003–0.033 at the larger tolerances under time orientation, while cost orientation gives 0.847–0.977. This orientation sensitivity is a failure boundary, not evidence of misspecification. See `manuscript/observational_equivalence_note.md`.
 
 The current distance to a defensible submission claim is recorded in `manuscript/submission_gap_audit.md`.
