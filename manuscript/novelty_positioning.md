@@ -52,6 +52,26 @@ raise sensitivity across a declared probe family, not to introduce a general
 optimal-design theorem. The existing ML and process analyses serve as
 comparisons and failure boundaries.
 
+The stronger independent candidate is the **Utility-Fibre Invariance Test
+(UFIT)** implemented by the candidate-preserving paired-task design. It
+constructs held-out task pairs with equal candidate utility differences and
+different attribute decompositions, freezes the candidate before testing, and
+uses respondent-cluster randomization to test cross-task exchangeability. Its
+estimand is a candidate-conditioned violation of a utility fibre. It is close
+to axiomatic invariance tests and pair-based MNL misspecification tests, so the
+paper must claim this construction and its finite-sample operating boundary,
+not a general invariance theorem.
+
+The **Mechanism-Fingerprint Choice Audit (MFCA)** is retained as a bounded
+localization extension. It adds candidate-implied presentation and sequence
+placebos to the fibre relation, applies a shared maxT reference, and returns a
+mixed or unresolved signature when several axes reject. Day et al. (2009) and
+the ordering-effects literature already establish signature patterns for
+process effects. MFCA's delta is the candidate-conditioned cross-task
+invariance vector and the explicit ambiguity action. It should not be claimed
+as a wholly new order-effect theory, and it should remain secondary until a
+paired-task empirical supplement supports the design.
+
 ## Journal and reader alignment
 
 The primary readers are choice modellers who need a disciplined specification workflow, researchers comparing behavioural and data-driven models, and applied analysts who report policy or welfare consequences. The manuscript should lead with the modelling decision and its behavioural consequence. The medical-device simulation should remain a controlled example; LPMC and Swissmetro must carry the evidence of transferability.
@@ -66,6 +86,10 @@ The primary readers are choice modellers who need a disciplined specification wo
   probe family, movement budget, and diversity rule, then report the fixed,
   constrained-maximin, and repeated-shift designs with null-size and power
   comparisons.
+- For MFCA, preregister the three relation definitions, the maxT reference,
+  the signature-to-action map, and the unresolved rule. Report the signature
+  confusion matrix, including combined mechanisms and linear random taste
+  heterogeneity.
 
 ## Decision
 
