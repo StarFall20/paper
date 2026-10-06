@@ -40,6 +40,13 @@ balance the assignment across respondents. Keep the pair members separated by
 nuisance tasks when needed to reduce memory effects, while retaining a pair
 identifier for analysis.
 
+The recommended primary design assigns each respondent one member of every
+focal pair. Draw one orientation coin \z_n\in\{-1,+1\} per respondent and
+hold it across the focal pairs, so the respondent never sees both members of a
+pair. This removes within-respondent carryover from the primary estimand.
+Counterbalance the orientation across respondents and retain the pair identity
+and orientation in the analysis file.
+
 ## Opt-out handling
 
 The original instrument assigns no product attributes to the opt-out. A
@@ -59,17 +66,30 @@ opt-out-specific constant, but it requires new instrument development.
 ## Estimation and randomization reference
 
 Split respondents before estimation. Fit the candidate on one respondent
-fold, freeze its parameters, and evaluate the paired contrasts on the other
-fold. For pair (r), define
+fold, freeze its parameters, and evaluate the randomized assignment on the
+other fold. Under the recommended one-member design, define the respondent
+cluster score
+
+\[
+S_n=\sum_{q\in\mathcal{Q}_n} z_n
+\{e(Y_{nq})-\hat p_{nq}\},
+\]
+
+where \(\mathcal{Q}_n\) contains the focal pairs shown to respondent \(n\).
+The candidate null makes \(S_n\) exchangeable under
+\(z_n\mapsto-z_n\). Flipping the whole \(S_n\) vector gives the randomization
+reference. A within-respondent paired design can be used as a sensitivity arm:
 
 \[
 C_r=(Y_{r0}-Y_{r1})-(\hat p_{r0}-\hat p_{r1}),
 \]
 
-where (Y) is the one-hot choice vector. Aggregate a squared norm of the mean
-contrast across pairs. The reference distribution flips the sign of all pair
-contrasts contributed by a respondent. This retains arbitrary dependence
-within a respondent and uses only pair exchangeability under the candidate.
+where \(Y\) is the one-hot choice vector. It requires randomized order and a
+separate carryover placebo.
+
+Aggregate a squared norm of the mean cluster score. This retains arbitrary
+dependence within a respondent and uses randomized orientation under the
+candidate.
 
 The preregistration must state the transformation, pair order rule, candidate
 terms, fold split, statistic, number of randomization draws, and rejection
@@ -89,4 +109,3 @@ The test identifies a violation of candidate-preserving task invariance. It
 does not identify a unique omitted term, and it does not establish that the
 candidate is correct when the test does not reject. Existing data without
 randomized paired tasks cannot be relabelled as this experiment.
-
