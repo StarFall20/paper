@@ -70,3 +70,5 @@ The weaker cross-fitted observational fallback is implemented in `analysis/obser
 The current distance to a defensible submission claim is recorded in `manuscript/submission_gap_audit.md`.
 
 The fifth-round cross-literature novelty boundary is recorded in `manuscript/novelty_boundary_round5.md`. It incorporates Daly's utility-difference and scale-identification warning and limits BMST to a declared choice-probability relation on a tested task fibre.
+
+The sixth-round independent innovation audit is in `manuscript/innovation_search_round6.md`. It compares BMST with conformal choice prediction, welfare model averaging, adversarial counterfactual stress tests, and environment-invariant WTP. BMST/UFIT is retained as the single main contribution; the original XGBoost-versus-MNL crossover is demoted to a controlled benchmark.
