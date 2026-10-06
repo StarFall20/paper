@@ -115,7 +115,7 @@ def simulate(seed, respondents=300, nuisance_tasks=4, condition="additive"):
     }
     xs, ys, ids, pair_ids, pair_side, pair_type = [], [], [], [], [], []
     for rid in range(respondents):
-        random_cost = rng.normal(0.0, 1.0) if condition == "random_price" else 0.0
+        random_cost = rng.normal(0.0, 1.0) if condition in ("random_price", "nonlinear_random_price", "interaction_random_price") else 0.0
         tasks = []
         for typ, shift in shift_specs.items():
             # A common focal profile keeps the direction of each omitted-term
@@ -130,11 +130,11 @@ def simulate(seed, respondents=300, nuisance_tasks=4, condition="additive"):
         local_pairs = {}
         for xx_type, side, xx in tasks:
             utility = np.array([base_beta[0], 0.0, base_beta[1]]) + base_beta[2:] @ (xx.T / 100.0)
-            if condition == "nonlinear":
+            if condition in ("nonlinear", "nonlinear_random_price"):
                 utility += 6.0 * (xx[:, 0] / 100.0) ** 2
             elif condition == "threshold":
                 utility += -10.0 * np.maximum(xx[:, 1] / 100.0 - 0.85, 0.0)
-            elif condition == "interaction":
+            elif condition in ("interaction", "interaction_random_price"):
                 utility += 8.0 * (xx[:, 0] / 100.0) * (xx[:, 1] / 100.0)
             elif condition == "random_price":
                 utility += random_cost * (xx[:, 1] / 100.0)
