@@ -75,3 +75,12 @@ Outputs: `results/policy_oracle_audit.csv` and
 The 24-replication output is a corrected audit, not a replacement for an
 external causal validation. The Swissmetro result remains descriptive because
 its public data do not contain randomized intervention outcomes.
+
+## n=800 replication
+
+A second 24-replication run with 800 respondents reduces the additive-null
+model gap from 0.01036 to 0.00778. The nonlinear and interaction gaps remain
+0.09672 and 0.08954, while the combined condition remains 0.12182. The
+threshold gap is 0.01995. The same ordering appears in the oracle errors, so
+the direct sensitivity result is not a small-sample artifact. The n=800 raw
+output is saved in `results/policy_oracle_audit_n800.csv`.
