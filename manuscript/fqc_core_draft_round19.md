@@ -64,7 +64,7 @@ b(A_+)=b(A_-),\qquad b(B_+)=b(B_-).
 \]
 
 The candidate A--B utility difference is the same in the plus and minus
-versions for every (eta). A respondent-level orientation coin assigns one
+versions for every (\beta). A respondent-level orientation coin assigns one
 version of each pair, and the reference distribution flips the respondent
 cluster signs.
 
@@ -100,7 +100,7 @@ proportional to (D_S(h)). The dimensions of the locally distinguishable
 departure space and its blind space equal the rank and nullity of
 (D_S).
 
-Equality of (b(x)) removes the candidate component for every (eta). The
+Equality of (b(x)) removes the candidate component for every (\beta). The
 respondent-level sign reverses the odd perturbation while retaining the even
 component. A smooth logit probability changes by (p(1-p)) times the reflected
 utility perturbation, which gives (D_t(h)) after the plus-minus contrast.
@@ -189,5 +189,4 @@ assignment, and action for mixed violations before outcomes are inspected. It
 must report usable-pair counts, semantic screening, response-time and
 complexity diagnostics, sample-size/power analysis, and direct comparisons
 with an efficient block, an added-term LR test, and an out-of-fold residual
-learner. Until that gate is met, the paper should be presented as a
-simulation-validated design method and describe it as a simulation-validated design method until that gate is met.
+learner. Until that gate is met, describe the paper as a simulation-validated design method.
