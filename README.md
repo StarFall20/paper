@@ -22,7 +22,9 @@ outputs are in `results/fibre_exposure_design_summary.csv` and
 screen and policy-weighting falsification gate are recorded in
 `manuscript/independent_innovation_search_round23.md` and implemented in
 `analysis/fibre_policy_weighted_design.py`. The current status and remaining
-empirical gates are recorded in `manuscript/progress_status.md`.
+empirical gates are recorded in `manuscript/progress_status.md`. The sequential
+coverage transfer gate is deliberately retained as a negative result in
+`manuscript/sequential_coverage_gate_round24.md`.
 
 ## Planned structure
 

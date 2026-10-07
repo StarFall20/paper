@@ -1,0 +1,5 @@
+condition,adaptive_rejection,static_fibre2_rejection,adaptive_chosen_fibre1,adaptive_chosen_fibre2,adaptive_chosen_fibre3,wave1_n,wave2_n,replications,seed
+null,0.04,0.074,0.0,1.0,0.0,240,240,500,20261007
+h1,1.0,1.0,0.0,1.0,0.0,240,240,500,20261007
+h2,0.048,0.026,0.0,1.0,0.0,240,240,500,20261007
+mixed,1.0,1.0,0.0,1.0,0.0,240,240,500,20261007

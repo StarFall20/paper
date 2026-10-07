@@ -1,5 +1,21 @@
 # Revision progress status
 
+## Round 24 status: sequential coverage transfer rejected
+
+I tested a method transfer from sequential and adaptive DCE design: use a
+first wave to estimate the under-exposed residual direction, choose a
+candidate-preserving fibre for a second wave, and conduct inference only on
+the independent second-wave assignment. The 500-replication gate selected the
+same central fibre in every replication. Null rejection was .040 for the
+adaptive rule versus .074 for the static comparator; power was 1.000 versus
+1.000 for $h_1$, .048 versus .026 for $h_2$, and 1.000 versus 1.000 for a
+mixed direction. The update created no structural-rank or meaningful power
+gain, so it is rejected as a primary innovation. The negative result confirms
+that an adaptive algorithm cannot create a missing feasible fibre. Details are
+in `manuscript/sequential_coverage_gate_round24.md`, with code and output in
+`analysis/sequential_fibre_coverage_gate.py` and
+`results/sequential_fibre_coverage_gate.csv`.
+
 ## Round 23 status: independent innovation search and policy-weighting gate
 
 The new literature pass did not identify a stronger, lower-overlap replacement
