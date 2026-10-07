@@ -1,5 +1,20 @@
 # Innovation gate for the JOCM submission
 
+## Round 29 update: preferred core is policy-path recoverability
+
+The earlier recoverability-aware triage remains a useful model-family
+benchmark, but its observed-task loss signals are too close to ordinary model
+selection. The preferred independent core is now the **counterfactual
+policy-path disagreement certificate**. It evaluates additive and structured
+choice models on a finite, predeclared feasible intervention path and combines
+that policy gap with respondent score overdispersion after structured refitting.
+The 100-calibration, 24-replication run gives zero additive alerts, 1.000
+policy alerts for nonlinear and interaction mechanisms, 0.750 for threshold,
+0.958 score alerts for isolated heterogeneity with a 0.042 policy false-alert
+rate, and 0.625 unresolved actions for the combined mechanism. The pooled policy-gap/regret correlation is
+0.95. This is the current main innovation candidate; the full definition and
+collision boundary are in `manuscript/policy_path_recoverability_round29.md`.
+
 ## Independent pivot after the Idea-DNA search
 
 The preferred new direction is a **candidate-preserving paired-task

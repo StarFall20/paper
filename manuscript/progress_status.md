@@ -1,5 +1,33 @@
 # Revision progress status
 
+## Round 29 status: policy-path recoverability certificate
+
+The stronger innovation candidate is now a counterfactual policy-path
+disagreement certificate. It evaluates additive and structured MNL predictions
+on a fixed feasible quality/price intervention path, then combines the policy
+gap with score overdispersion after structured refitting. In the 100-calibration,
+24-replication run, additive false alerts are 0/24; nonlinear, threshold, and
+interaction policy-alert rates are 1.000, 0.750, and 1.000; isolated
+heterogeneity produces a score alert in 0.958 with a 0.042 policy-alert rate;
+and the combined mechanism is unresolved in 0.625. The pooled correlation between the
+policy gap and base-minus-structured test decision regret is 0.95. This object
+is now the preferred innovation candidate because it targets counterfactual
+demand sensitivity rather than only observed-task prediction. The full note
+is in `manuscript/policy_path_recoverability_round29.md`.
+
+The public Swissmetro policy-path audit gives mean choice-probability L1 gap
+0.06468 and mean share L1 gap 0.01864 between additive and alternative-specific
+time/cost MNLs over a fixed multiplicative time/cost path. The public data do
+not identify the mechanism; this is a descriptive external check. Outputs are
+in `results/swissmetro_policy_path_audit.csv`.
+
+The sample-size stress check exposed calibration instability when only 50 null
+replications were used at (N=800). With 200 independent additive calibration
+replications, the (N=800) run gives zero additive policy alerts, 1.000 policy
+alerts for nonlinear, threshold, and interaction mechanisms, and 1.000 score
+alerts for isolated heterogeneity. Thresholds are now treated as
+sample-size-specific and their calibration resolution is reported.
+
 ## Round 28 status: recoverability-aware triage run completed
 
 The current innovation candidate is a selective model-family diagnostic rather

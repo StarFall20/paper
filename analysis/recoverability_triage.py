@@ -156,7 +156,7 @@ def get_diagnostics(x, z, choices, train_ids, val_ids, tasks, seed):
 
 
 def calibrate(reps: int = 100, n: int = 400, tasks: int = 12,
-              seed: int = 20261030) -> tuple[Thresholds, list[dict]]:
+              seed: int = 20261030, alpha: float = 0.02) -> tuple[Thresholds, list[dict]]:
     diagnostics = []
     for rep in range(reps):
         x, z, choices, _ = make_data(seed + rep, n, tasks, CONDITIONS[0])
@@ -168,14 +168,16 @@ def calibrate(reps: int = 100, n: int = 400, tasks: int = 12,
     structured = np.asarray([d["structured_gain"] for d in diagnostics])
     gaps = np.asarray([d["library_gap"] for d in diagnostics])
     scores = np.asarray([d["cluster_score"] for d in diagnostics])
-    # A one-sided 95% calibration controls the additive-condition false
-    # expansion rate at the calibration resolution; these thresholds are
-    # frozen for all mechanism conditions.
+    # Four signals are inspected jointly.  Calibrating each at the
+    # Bonferroni tail controls the familywise false-expansion rate at alpha,
+    # up to the finite calibration resolution; thresholds are frozen for all
+    # mechanism conditions.
+    tail = 1.0 - alpha / 4.0
     thresholds = Thresholds(
-        structured_gain=float(np.quantile(structured, 0.95)),
-        library_gap=float(np.quantile(gaps, 0.95)),
-        flex_gain=float(np.quantile(gains, 0.95)),
-        cluster_score=float(np.quantile(scores, 0.95)),
+        structured_gain=float(np.quantile(structured, tail)),
+        library_gap=float(np.quantile(gaps, tail)),
+        flex_gain=float(np.quantile(gains, tail)),
+        cluster_score=float(np.quantile(scores, tail)),
     )
     return thresholds, diagnostics
 

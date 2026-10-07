@@ -1,0 +1,2 @@
+dataset,rows,respondents,train_respondents,validation_respondents,test_respondents,base_validation_logloss,structured_validation_logloss,base_test_logloss,structured_test_logloss,policy_path_l1,policy_path_share_l1,policy_path_max_l1
+Swissmetro_DCE_purpose_1_3,6768,752,451,150,151,0.8570658207770212,0.8447286896605312,0.7982064569453146,0.7657907150754178,0.0646794555471885,0.018634737537217352,0.07571394321632399

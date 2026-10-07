@@ -44,24 +44,25 @@ heterogeneity can generate similar predictive gains.
 ## Simulation result
 
 The formal run uses 100 additive calibration replications and 24 evaluation
-replications per condition, with 400 respondents and 12 tasks. The rule has
+replications per condition, with 400 respondents and 12 tasks. Four signals
+are jointly calibrated at a conservative familywise tail. The rule has
 the following action accuracy against the known simulation mechanism:
 
 | condition | action accuracy | dominant action | triage regret | validation-only regret |
 |---|---:|---|---:|---:|
-| additive | 0.792 | base (0.792) | 0.0091 | 0.0039 |
+| additive | 0.917 | base (0.917) | 0.0044 | 0.0039 |
 | nonlinear | 1.000 | observed_structure (1.000) | 0.0028 | 0.0028 |
-| threshold | 0.542 | observed_structure (0.542) | 0.0063 | 0.0027 |
-| interaction | 0.875 | observed_structure (0.875) | 0.0129 | 0.0030 |
-| heterogeneity | 0.958 | heterogeneity (0.958) | 0.0749 | 0.0655 |
-| nonlinear + threshold | 0.917 | observed_structure (0.917) | 0.0073 | 0.0019 |
-| nonlinear + interaction | 0.917 | observed_structure (0.917) | 0.0089 | 0.0025 |
-| combined | 0.542 | unresolved (0.542) | 0.0763 | 0.0329 |
+| threshold | 0.500 | base/observed_structure (0.500/0.500) | 0.0056 | 0.0027 |
+| interaction | 1.000 | observed_structure (1.000) | 0.0030 | 0.0030 |
+| heterogeneity | 1.000 | heterogeneity (1.000) | 0.0726 | 0.0655 |
+| nonlinear + threshold | 0.958 | observed_structure (0.958) | 0.0050 | 0.0019 |
+| nonlinear + interaction | 1.000 | observed_structure (1.000) | 0.0025 | 0.0025 |
+| combined | 0.333 | unresolved (0.333) | 0.0591 | 0.0329 |
 
 The results establish the intended boundary. The rule recovers strong
 observable departures and isolated random taste heterogeneity. Thresholds are
 harder to expose at the current signal strength. When observable structure
-and heterogeneity coexist, the unresolved branch is selected in 54.2% of
+and heterogeneity coexist, the unresolved branch is selected in 33.3% of
 replications; the remaining runs are classified as observed structure. The
 triage rule is not claimed to dominate validation-only prediction. Its value
 is the mechanism and recoverability decision, while the regret columns show
