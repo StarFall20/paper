@@ -189,13 +189,13 @@ universally optimal. Its inputs and outputs are fully auditable: profile
 weights, fibre masses, exposure rank, eigenvalues, and candidate precision are
 saved for every value of \(\lambda\).
 
-An exact (3\times3) support check uses \(\phi(a,b)=a+b\) and residual
-features \((a-b,ab)). The unconstrained candidate-precision design places
-half the mass at \((0,0)) and half at \((2,2)\):
-\(\operatorname{Var}(\phi)=4.00\), exposure rank (0), and minimum exposure
-eigenvalue (0). With at least 10% mass in each non-singleton fibre, the
-fibre-log-determinant design has candidate precision (0.20\), exposure rank
-2, and minimum eigenvalue (0.1805\). The regularized Pareto table shows how
+An exact \(3\times3\) support check uses \(\phi(a,b)=a+b\) and residual
+features \((a-b,ab)\). The unconstrained candidate-precision design places
+half the mass at \((0,0)\) and half at \((2,2)\):
+\(\operatorname{Var}(\phi)=4.00\), exposure rank \(0\), and minimum exposure
+eigenvalue \(0\). With at least 10% mass in each non-singleton fibre, the
+fibre-log-determinant design has candidate precision \(0.20\), exposure rank
+2, and minimum eigenvalue \(0.1805\). The regularized Pareto table shows how
 candidate precision rises as the exposure criterion is relaxed. These values
 are structural design calculations with \(\kappa_z=1\); the manuscript's
 empirical design must replace this scalar with the chosen link and pilot
