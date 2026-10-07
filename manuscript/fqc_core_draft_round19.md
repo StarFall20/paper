@@ -97,7 +97,7 @@ at the respondent level. Under a common random-utility error law, the
 candidate expected odd contrast is zero. For a local perturbation
 (V(x)=b(x)'\beta+\eta h(x)), the first-order expected odd contrast is
 proportional to (D_S(h)). The dimensions of the locally distinguishable
-departure space and its blind space are therefore the rank and nullity of
+departure space and its blind space equal the rank and nullity of
 (D_S).
 
 Equality of (b(x)) removes the candidate component for every (eta). The
@@ -190,5 +190,4 @@ must report usable-pair counts, semantic screening, response-time and
 complexity diagnostics, sample-size/power analysis, and direct comparisons
 with an efficient block, an added-term LR test, and an out-of-fold residual
 learner. Until that gate is met, the paper should be presented as a
-simulation-validated design method rather than a completed empirical
-application.
+simulation-validated design method and describe it as a simulation-validated design method until that gate is met.

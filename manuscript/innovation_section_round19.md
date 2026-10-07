@@ -5,7 +5,7 @@
 Choice-model diagnostics usually begin after data collection. A richer utility
 specification, a residual learner, or a likelihood-ratio test can detect a
 departure only when the observed tasks contain variation in that direction. A
-candidate basis can therefore pass a conventional diagnostic because the task
+candidate basis can pass a conventional diagnostic because the task
 space is blind to the relevant departure. The design question is prior to
 estimation: which departures remain observable after the candidate basis is
 held fixed?

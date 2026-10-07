@@ -11,7 +11,7 @@ b(A_+)=b(A_-),\qquad b(B_+)=b(B_-).
 \]
 
 For every candidate coefficient vector \(\beta\), the candidate utility
-difference is unchanged by the reflection. The task therefore removes the
+difference is unchanged by the reflection. The task removes the
 candidate utility from the odd contrast without calibrating to an estimated
 \(\hat\beta\).
 
