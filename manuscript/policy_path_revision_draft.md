@@ -241,6 +241,6 @@ Goeken, N., Kurz, P., and Steiner, W. J. (2024). Multimodal preference heterogen
 
 Wang, S., Mo, B., Zheng, Y., Hess, S., and Zhao, J. (2024). Comparing hundreds of machine learning and discrete choice models for travel demand modeling. Transportation Research Part B, 190, 103061.
 
-Fok, D., and Paap, R. (2025). Model specification tests for discrete choice models. Journal of Choice Modelling. [Insert final bibliographic details before submission.]
+Fok, D., and Paap, R. (2025). New misspecification tests for multinomial logit models. Journal of Choice Modelling. https://doi.org/10.1016/j.jocm.2024.100531
 
 ISPOR Conjoint Analysis Good Research Practices Task Force. (2013). Constructing experimental designs for discrete-choice experiments. Value in Health, 16, 3–13.
