@@ -1,0 +1,4 @@
+design,candidate_precision_var_phi,fibre_exposure_var_h_given_phi,singleton_fibre_share,exposure_rank,exposure_min_eigenvalue
+candidate_D_optimal_endpoints,1.0,0.0,1.0,0,0.0
+full_factorial_orthogonal,0.5,0.5,0.5,1,0.0
+fibre_balanced_middle,0.25,0.75,0.25,1,0.0

@@ -317,3 +317,27 @@ The remaining submission gate is a preregistered paired DCE or documented
 external dataset with independent calibration, semantic screening, and a
 direct comparison against an efficient block and ordinary added-term/residual
 diagnostics.
+
+## Round-twenty-two sufficiency reformulation
+
+The paper's main claim has been tightened to a fibre-conditional sufficiency
+audit. The null is $Y\perp X\mid\phi(X)$, with the conditional response
+function left unrestricted. A finite-support exposure matrix measures the
+choice-probability-weighted conditional variance of a declared residual
+direction. Directions that are functions of $\phi$ have zero exposure and are
+kept inside the null; they are functional-form questions within the candidate
+summary.
+
+The proof, multinomial implementation, and finite-support counterexample are
+now recorded in `manuscript/fibre_sufficiency_exposure_round22.md` and
+`manuscript/fibre_sufficiency_exposure_proof_round22.md`. The counterexample
+has candidate precision 1.00 and exposure 0.00 for an endpoint design, versus
+precision 0.50 and exposure 0.50 for a full factorial and precision 0.25 and
+exposure 0.75 for a middle-fibre allocation. This supplies the concrete
+increment over candidate-precision design.
+
+The eight-arm multinomial gate now preserves every pairwise candidate gap
+exactly, has residual rank 3, and separates declared scale/framing from an
+unlisted process in 200 replications. These are structural and planning
+results. The empirical gate still requires a paired DCE or a matched public
+dataset, and the Scopus/Google Scholar institutional exports remain open.

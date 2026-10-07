@@ -1,5 +1,10 @@
 # Nuisance-orthogonal fibre quotient completeness: innovation audit
 
+> **Round-22 scope note.** This audit records the nuisance-orthogonal
+> extension. The paper's primary contribution is now the fibre-conditional
+> sufficiency audit in `fibre_sufficiency_exposure_round22.md`; NO-FQC is one
+> implementation layer after the exposure certificate, not a separate theory.
+
 ## Decision
 
 The strongest independent contribution is **nuisance-orthogonal fibre

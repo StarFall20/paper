@@ -104,13 +104,21 @@ to introduce a general theory of which experiments test models. It can claim a
 choice-specific local certificate for coarsened utility bases under declared
 nuisance directions.
 
-## Novelty sentence that survives the audit
+## Earlier novelty sentence (superseded)
 
 > We introduce a nuisance-orthogonal fibre quotient certificate for discrete
 > choice experiments: reflected tasks hold the candidate's full menu
 > differences fixed, and a weighted nuisance projection identifies the rank
 > and weakest direction of utility departures that remain locally testable on
 > the declared attribute support.
+
+The current contribution sentence is:
+
+> We introduce a fibre-conditional sufficiency audit for discrete choice
+> designs: a feasible within-fibre randomization holds the complete candidate
+> menu summary fixed, and a choice-probability-weighted exposure matrix
+> certifies which discarded raw-coordinate directions are structurally visible
+> before outcomes are collected.
 
 The manuscript must avoid “first transformation test,” “first maximin robust
 DCE,” “general invariance test,” and “universal MNL misspecification test.”
@@ -121,3 +129,38 @@ NO-FQC passes the conceptual independence gate with a bounded claim. It does
 not pass the final priority or empirical gate until the full Scopus/Google
 Scholar exports and a paired DCE or structurally matched external dataset are
 available. The repository records this limitation explicitly.
+
+## Round-22 sufficiency reformulation
+
+The main contribution is now stated as a fibre-conditional sufficiency audit,
+with NO-FQC retained as a nuisance-orthogonal extension. This reformulation
+responds directly to the lack-of-fit objection. The null is the nonparametric
+relation $Y\perp X\mid\phi(X)$; the candidate response function conditional
+on $\phi$ is unrestricted. The certificate targets residual dependence on raw
+coordinates, not the functional form of a function of $\phi$.
+
+The new searches covered conditional sufficiency, conditional-independence
+testing in discrete data, model-discrimination design, and fibre-level
+specification. The closest adjacent works are:
+
+| source | overlap | remaining distinction |
+|---|---|---|
+| Wilcox (2024), *Conditional independence in a binary choice experiment* | tests whether a choice depends on previous choices | process dependence across trials; it does not test raw-profile invariance after conditioning on a candidate menu summary |
+| Sørensen (2021), conditional moment restrictions | nonparametric conditional-mean and conditional-independence testing | develops outcome-side moment tests; it does not construct candidate-preserving DCE fibres or optimize their support |
+| Marx (2019), testing conditional independence on discrete data | finite-support conditional-independence testing | gives a generic statistical test; it does not use randomized menu reflections or choice-probability tangent exposure |
+| Atkinson--Fedorov/T-optimal design literature | model-discrimination criteria and noncentrality optimization | compares specified rival surfaces; fibre exposure holds the candidate summary fixed and measures discarded-coordinate variation |
+| Healy and Leo (2026) | experiment-level testability of deterministic preference rankings | ranking separation with graph partitions; no stochastic probability tangent, conditional exposure matrix, or nuisance projection |
+
+The reformulation does not make the priority claim broader. It narrows the
+claim to a design object for coarsened DCE summaries, establishes a finite
+exposure matrix, and gives a support counterexample in which candidate
+precision is positive while residual exposure is zero. Direct Scopus and
+Google Scholar institutional exports are still required before a priority
+statement.
+
+The latest public-index check sent four exact concept queries to the Scholar
+domain and four to the Scopus domain. Both returned no indexed hits for
+“fibre-conditional sufficiency”, “candidate-preserving discrete choice”, or
+“within-fibre choice experiment”. This is a negative search result, not a
+priority proof: institutional indexing, alternate terminology, and papers that
+describe the construction without these phrases remain unresolved.

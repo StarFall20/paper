@@ -1,0 +1,39 @@
+{
+  "audit_date": "2026-10-07",
+  "scope": "fibre-conditional sufficiency for discrete choice experiment design",
+  "public_index_queries": [
+    "fibre conditional sufficiency choice experiment",
+    "candidate-preserving discrete choice experiment",
+    "conditional sufficiency discrete choice",
+    "within-fibre discrete choice"
+  ],
+  "closest_sources": [
+    {
+      "title": "Conditional independence in a binary choice experiment",
+      "year": 2024,
+      "url": "https://doi.org/10.1007/s11166-024-09431-9",
+      "boundary": "tests dependence on previous choices rather than raw-profile invariance within a candidate fibre"
+    },
+    {
+      "title": "New misspecification tests for multinomial logit models",
+      "year": 2025,
+      "url": "https://doi.org/10.1016/j.jocm.2024.100531",
+      "boundary": "tests MNL/IIA moments using pairwise composite likelihood and GMM; it does not construct candidate-preserving fibres"
+    },
+    {
+      "title": "Which experiments test a model?",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.jet.2026.106191",
+      "boundary": "characterizes deterministic preference-ranking experiments using a permutohedron; it does not give a stochastic choice-probability exposure matrix"
+    },
+    {
+      "title": "Optimal Experimental Design for Model Discrimination",
+      "year": 2009,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2743521/",
+      "boundary": "reviews T/D-optimal discrimination; fibre exposure holds the candidate summary fixed and targets residual dependence on discarded coordinates"
+    }
+  ],
+  "google_scholar_public_domain_result": "No indexed exact-phrase hits in the available public search route; institutional export still required.",
+  "scopus_public_domain_result": "No indexed exact-phrase hits in the available public search route; institutional export still required.",
+  "priority_claim": "Withheld pending institutional exports and empirical paired-DCE validation."
+}

@@ -1,12 +1,22 @@
-# ML-assisted utility specification for choice modelling
+# Fibre-conditional sufficiency audits for choice modelling
 
 This repository is organised around the revised Journal of Choice Modelling study.
-The main contribution is now an anchored Behavioral Metamorphic Specification
-Test (BMST) for candidate bases that coarsen the raw attribute space. A
-zero-candidate-difference anchor and a geometry-preserving translation control
-the symmetric-scale and tradeoff-complexity channels. The original
-XGBoost-versus-MNL comparison, Random Forest diagnostics, and process models
-remain controlled benchmarks.
+The current contribution is a fibre-conditional sufficiency audit for a
+coarsened candidate menu summary \(\phi\). The null is
+\(Y\perp X\mid\phi(X)\); the conditional response function is left
+unrestricted. Feasible reflected DCE tasks preserve the complete candidate
+menu vector and randomize raw profiles within each fibre. A finite exposure
+matrix certifies which residual directions are structurally visible. The
+nuisance-orthogonal fibre quotient calculation is an extension for declared
+scale and framing tangents. Earlier BMST/UFIT labels are historical names and
+are not separate contributions.
+
+The conceptual core is in
+`manuscript/fibre_sufficiency_exposure_round22.md` and its proof note. The
+multinomial full-menu gate is implemented in
+`analysis/no_fqc_multinomial_check.py`; the finite support counterexample is in
+`analysis/fibre_exposure_counterexample.py`. The current status and remaining
+empirical gates are recorded in `manuscript/progress_status.md`.
 
 ## Planned structure
 
@@ -60,7 +70,11 @@ The sharper candidate-preserving randomization test is in `analysis/randomizatio
 
 The pre-outcome transformation design audit is in `analysis/metamorphic_design_score.py` and `analysis/metamorphic_design_benchmark.py`. The constrained maximin shifts `(5,45), (20,0), (35,45)` raise the weakest normalized probe score from 1.142 for the fixed design to 1.632. In the 50-replication benchmark, null rejection remains 0.06 while nonlinear power rises from 0.82 to 1.00 and nonlinear-plus-random-cost power rises from 0.74 to 1.00. An unconstrained search repeats `(40,60)` three times and is retained as a failure boundary. Outputs are `results/metamorphic_design_score.csv` and `results/metamorphic_design_benchmark.csv`.
 
-The leading independent innovation candidate is the Behavioral Metamorphic Specification Test (BMST), whose formal utility-fibre relation is the Utility-Fibre Invariance Test (UFIT). Held-out tasks keep candidate utility differences fixed while changing their raw attribute decomposition, and a respondent-cluster randomization test measures cross-task exchangeability. Round 4 narrows the claim to a candidate-basis sufficiency audit and requires a formal proposition plus a valid paired-task instrument before submission-level novelty is claimed. The Mechanism-Fingerprint Choice Audit in `analysis/mechanism_fingerprint_benchmark.py` is a bounded localization extension. The simulation output is `results/mechanism_fingerprint_benchmark.csv`; the overlap boundary and decision are documented in `manuscript/innovation_gate_round3.md` and `manuscript/innovation_gate_round4.md`.
+The earlier BMST/UFIT experiments are retained as development history. Their
+current interpretation is the fibre-conditional sufficiency audit described at
+the top of this README. The Mechanism-Fingerprint Choice Audit in
+`analysis/mechanism_fingerprint_benchmark.py` is a bounded localization
+extension; it does not carry a separate innovation claim.
 
 The BMST negative-control benchmark is in `analysis/bmst_negative_controls.py` and `results/bmst_negative_controls.csv`. Across 100 replications, rejection is 0.04 under the additive null, 0.68 for omitted nonlinearity, 0.03 for random linear taste, 0.23 for task-specific scale drift, and 1.00 for an order effect. These results define a relation-violation boundary; they do not identify the mechanism from a p-value.
 
@@ -76,7 +90,10 @@ The current distance to a defensible submission claim is recorded in `manuscript
 
 The fifth-round cross-literature novelty boundary is recorded in `manuscript/novelty_boundary_round5.md`. It incorporates Daly's utility-difference and scale-identification warning and limits BMST to a declared choice-probability relation on a tested task fibre.
 
-The sixth-round independent innovation audit is in `manuscript/innovation_search_round6.md`. It compares BMST with conformal choice prediction, welfare model averaging, adversarial counterfactual stress tests, and environment-invariant WTP. BMST/UFIT is retained as the single main contribution; the original XGBoost-versus-MNL crossover is demoted to a controlled benchmark.
+The sixth-round independent innovation audit is in
+`manuscript/innovation_search_round6.md`. It records the development path
+that led to the current sufficiency formulation and demotes the original
+XGBoost-versus-MNL crossover to a controlled benchmark.
 
 The seventh-round audit in `manuscript/innovation_audit_round7.md` addresses
 the direct comparison-complexity objection. The primary test is restricted to

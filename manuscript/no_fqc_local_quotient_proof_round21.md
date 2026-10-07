@@ -1,5 +1,9 @@
 # Local quotient theorem for NO-FQC
 
+This note proves the nuisance-orthogonal extension. The primary finite-support
+sufficiency and conditional-variance result is in
+`fibre_sufficiency_exposure_proof_round22.md`.
+
 ## Setup
 
 Let a reflected task block contain m task arms. For each arm, let Delta_t be a
