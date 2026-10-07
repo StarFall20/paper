@@ -12,7 +12,7 @@ The work is at the corrected audit stage, not the final submission stage. The ea
 - Population oracle correction: random-coefficient conditions use quadrature integration instead of treating a respondent draw as the population truth.
 - Manuscript correction: old alert and observed-task regret claims are removed from the primary evidence; titles, authorship metadata, formulas, DGP description, and section numbering are corrected.
 - Render QA: the six-page DOCX was rendered and visually checked after the final content changes.
-- GitHub: corrected audit script, CSVs, report, and manuscript are on `main` at commit `7d13a5770d1cb7f84f39a9e06f38c26838572220`.
+- GitHub: corrected audit script, CSVs, report, and manuscript are on `main` at commit `94087ebd1c4fe4adcbd3ee1abea2200e13fd7732`.
 
 ## Open gates
 
