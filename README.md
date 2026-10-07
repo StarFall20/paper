@@ -15,7 +15,10 @@ The conceptual core is in
 `manuscript/fibre_sufficiency_exposure_round22.md` and its proof note. The
 multinomial full-menu gate is implemented in
 `analysis/no_fqc_multinomial_check.py`; the finite support counterexample is in
-`analysis/fibre_exposure_counterexample.py`. The current status and remaining
+`analysis/fibre_exposure_counterexample.py`. The reproducible support optimizer
+is in `analysis/fibre_exposure_design_optimizer.py`; its summary and Pareto
+outputs are in `results/fibre_exposure_design_summary.csv` and
+`results/fibre_exposure_design_frontier.csv`. The current status and remaining
 empirical gates are recorded in `manuscript/progress_status.md`.
 
 ## Planned structure

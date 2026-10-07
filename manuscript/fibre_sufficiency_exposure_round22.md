@@ -170,6 +170,46 @@ available fibre. These numbers are design quantities, not estimated effects.
 They make the structural separation visible without relying on a
 linear-regression residual plot.
 
+## A reproducible support optimizer
+
+The certificate can drive design search before respondents are recruited. For
+each candidate support (S), calculate the candidate-index precision and the
+exposure matrix (E(S,w)) for a declared residual dictionary. A finite
+coordinate-exchange algorithm moves one design count at a time, enforces a
+minimum mass in each non-singleton fibre, and maximizes
+
+\[
+  \log\det\{E(S,w)+\varepsilon I\}+\lambda\,\operatorname{Var}_w\{\phi(X)\}.
+\]
+
+The first term protects structural visibility; the second records the
+precision trade-off for the candidate summary. The algorithm is a design
+rule for a declared finite support, not a claim that one scalar criterion is
+universally optimal. Its inputs and outputs are fully auditable: profile
+weights, fibre masses, exposure rank, eigenvalues, and candidate precision are
+saved for every value of \(\lambda\).
+
+An exact (3\times3) support check uses \(\phi(a,b)=a+b\) and residual
+features \((a-b,ab)). The unconstrained candidate-precision design places
+half the mass at \((0,0)) and half at \((2,2)\):
+\(\operatorname{Var}(\phi)=4.00\), exposure rank (0), and minimum exposure
+eigenvalue (0). With at least 10% mass in each non-singleton fibre, the
+fibre-log-determinant design has candidate precision (0.20\), exposure rank
+2, and minimum eigenvalue (0.1805\). The regularized Pareto table shows how
+candidate precision rises as the exposure criterion is relaxed. These values
+are structural design calculations with \(\kappa_z=1\); the manuscript's
+empirical design must replace this scalar with the chosen link and pilot
+probabilities, then attach a separate power calculation.
+
+The result gives a sharp reviewer-facing implication: a design can be highly
+informative for the declared candidate index and completely uninformative for
+raw-coordinate violations of conditional sufficiency. The proposed optimizer
+creates the missing within-fibre support and reports the rank certificate
+before estimation. The implementation is in
+`analysis/fibre_exposure_design_optimizer.py`, with the summary and Pareto
+frontier in `results/fibre_exposure_design_summary.csv` and
+`results/fibre_exposure_design_frontier.csv`.
+
 ## Boundary with nearby literature
 
 Sufficient-dimension-reduction and conditional-moment testing establish the

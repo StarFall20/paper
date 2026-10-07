@@ -1,5 +1,48 @@
 # Revision progress status
 
+## Round 22 status: conditional-sufficiency reformulation and design gate
+
+The innovation has been narrowed to one testable object: a candidate summary
+\(\phi(X)\), a complete menu-preserving fibre, and the null
+\(Y\perp X\mid\phi(X)\). The conditional response function remains
+unrestricted. A local probability tangent gives the exposure identity
+\(\mathcal I(h)=\mathbb E[\kappa_Z\operatorname{Var}(h(X)\mid Z)]\), and the
+finite-support rank/eigenvalue certificate separates structural visibility
+from statistical power. Directions of the form \(q(\phi)\) stay inside the
+null and are excluded from the raw-coordinate violation claim.
+
+The new support optimizer is implemented in
+`analysis/fibre_exposure_design_optimizer.py`. On a finite (3\times3\)
+support with \(\phi(a,b)=a+b\) and residual dictionary \((a-b,ab)\), the
+unconstrained candidate-precision design reaches candidate variance 4.00
+while exposing no residual direction (rank 0). A fibre-aware coordinate
+exchange design, constrained to put at least 10% mass in each non-singleton
+fibre, reaches exposure rank 2 and minimum exposure eigenvalue 0.1805. The
+result is a design-level separation from ordinary candidate precision, with a
+transparent Pareto table rather than a universal optimality claim. Outputs:
+`results/fibre_exposure_design_summary.csv` and
+`results/fibre_exposure_design_frontier.csv`.
+
+Current gate status:
+
+```
+fibre-sufficiency contribution      [#########.] 92%
+finite-support proof/certificate    [#########.] 90%
+support optimizer and trade-off     [########..] 85%
+multinomial full-menu gate          [########..] 88%
+overlap audit                       [#######...] 75%
+Scopus/Google Scholar exports       [###.......] 30%
+paired human DCE validation         [##........] 20%
+full manuscript integration         [######....] 60%
+submission package                  [###.......] 35%
+overall submission readiness        [######....] 63%
+```
+
+The design and mathematical gates have advanced. The submission claim still
+requires a paired DCE or a public dataset with documented candidate-preserving
+assignment, direct institutional database exports, and final manuscript
+integration.
+
 ## Current decision
 
 The selected innovation is now a **nuisance-balanced candidate-preserving
