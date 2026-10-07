@@ -145,6 +145,8 @@ The nearest methodological precedents are:
 
 - Fok and Paap, *New misspecification tests for multinomial logit models*,
   https://doi.org/10.1016/j.jocm.2024.100531
+- Healy and Leo, *Which experiments test a model?*,
+  https://doi.org/10.1016/j.jet.2026.106191
 - Mao, Kessels, and van der Zanden, *Constructing Bayesian optimal designs
   for discrete choice experiments by simulated annealing*,
   https://doi.org/10.1016/j.jocm.2025.100551

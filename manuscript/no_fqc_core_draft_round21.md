@@ -231,7 +231,12 @@ inference provides nuisance-orthogonal scores. NO-FQC contributes a
 choice-specific bridge: a candidate-preserving observed fibre supplies the
 coefficient-robust cancellation, and the nuisance projection supplies a
 pre-outcome utility-versus-process boundary. The paper does not claim a
-general invariance theory or a universal MNL test.
+general invariance theory or a universal MNL test. Healy and Leo's
+permutohedron framework characterizes experiments that test deterministic
+preference rankings. NO-FQC addresses stochastic DCE contrasts for a
+coarsened parametric utility basis and reports residual local rank and
+information, so the paper should not use the broader phrase “which
+experiments test a model.”
 
 ## 7. Scope and submission gate
 

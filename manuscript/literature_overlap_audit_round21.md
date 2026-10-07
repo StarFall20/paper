@@ -27,6 +27,7 @@ accessible search supports a bounded novelty claim; it does not prove priority.
 | Pérez-Troncoso (2022), sequential DCE strategy | sequential Bayesian design updates for precision | targets estimator precision, not testability of a frozen candidate basis |
 | Kazagli and de Lapparent (2023), heterogeneous decision rules | latent classes, inertia, serial correlation, and rule membership | models process heterogeneity after data; it does not supply a pre-outcome fibre certificate |
 | Fok and Paap (2024), MNL misspecification tests | outcome-side composite likelihood/GMM tests | uses observed alternatives and moments; it does not hold the full candidate menu vector fixed across task versions |
+| Healy and Leo (2026), which experiments test a model? | graph-theoretic characterization of experiments that test or classify deterministic preference models | works with preference rankings and experiment partitions; it does not give a stochastic DCE tangent operator, a coarsened utility fibre, or nuisance-orthogonal local power |
 | Quainoo et al. (2024), model choice and framing | how post-data model choices affect loss-aversion estimates | studies model-choice sensitivity, not a design-based nuisance projection |
 | Biswas et al. (2024), stochastic variables and random coefficients | joint stochastic attributes and taste heterogeneity | changes the estimation model; it does not create a candidate quotient |
 | Akinc et al. (2024), varying choice-set sizes | efficiency and respondent burden under different menu sizes | design varies menu size; it does not preserve a candidate menu prediction |
@@ -85,6 +86,23 @@ Adaptive model-discrimination designs select informative stimuli among rival
 models. NO-FQC begins with one frozen candidate basis and asks whether its
 within-fibre relation is testable after nuisance projection. A future adaptive
 extension is outside the primary claim.
+
+### Healy and Leo: experiment-level testability
+
+Healy and Leo are the closest conceptual precedent ([J.E.T. article](https://doi.org/10.1016/j.jet.2026.106191)).
+Their labeled permutohedron
+characterizes when a set of menus separates deterministic preference rankings
+that belong to different model types. NO-FQC solves a narrower stochastic
+choice-modelling problem. It starts from a parametric candidate utility basis,
+holds the entire candidate menu-difference vector fixed across observed
+attribute decompositions, and studies the local mean of randomized choice
+probability contrasts after a nuisance tangent projection. Its output is a
+rank and information spectrum, not a deterministic experiment partition.
+
+The overlap changes the wording of the contribution. The paper must not claim
+to introduce a general theory of which experiments test models. It can claim a
+choice-specific local certificate for coarsened utility bases under declared
+nuisance directions.
 
 ## Novelty sentence that survives the audit
 
