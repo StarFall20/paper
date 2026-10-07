@@ -130,30 +130,9 @@ A large model gap tracks observable curvature and interactions in this generator
 
 For observed support q∈{−1,+1}, let the omitted policy term be h(q)=q²−1. It is zero at every observed support point, so two fitted models can agree exactly while the oracle changes at q=−0.5, 0, and 0.5. The saved witness has D=0 and oracle terms −0.75, −1, and −0.75. The result is an exact finite-support counterexample to treating model agreement as a recoverability certificate.
 
-## 5.3 Sample-size calibration
+## 5.3 Calibration status
 
-A preliminary small calibration produced an unstable high quantile at n=800. We increased the independent additive calibration to 200 replications for that setting. The corrected n=800 run produced zero additive policy alerts, full policy detection for nonlinear, threshold, and interaction mechanisms, and full score detection for isolated heterogeneity. The result supports sample-size-specific calibration; it does not justify transporting one threshold across designs.
-
-
-**Table 3. Corrected n=800 calibration and evaluation.**
-
-
-
-| Condition | Policy alert | Score alert | Unresolved | Replications |
-
-| --- | --- | --- | --- | --- |
-
-| Additive | 0.000 | 0.000 | 0.000 | 24 |
-
-| Nonlinear | 1.000 | 0.000 | 0.000 | 24 |
-
-| Threshold | 1.000 | 0.000 | 0.000 | 24 |
-
-| Interaction | 1.000 | 0.000 | 0.000 | 24 |
-
-| Heterogeneity | 0.000 | 1.000 | 0.000 | 24 |
-
-
+The earlier alert table used an incomplete opt-out library and is removed from the primary evidence. A sample-size-specific alert calibration must be rerun with the corrected library, the direct oracle metrics, and a prespecified family-wise error rule. Until that rerun is complete, the policy-path statistic is reported as a sensitivity measure and the common-mode witness is treated as a required negative control.
 
 
 ## 5.4 Swissmetro external audit
