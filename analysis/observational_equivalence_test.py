@@ -289,6 +289,11 @@ def run_swissmetro(path, out="results/observational_equivalence_swissmetro.csv",
                    tolerances=(0.01, 0.02, 0.05, 0.1), bootstrap=499,
                    orientations=("index", "time", "cost")):
     rows = read_swissmetro(path)
+    # CHOICE=0 is the missing-choice code in the public Swissmetro file.
+    # Drop those records before any estimation or pairing; otherwise the
+    # NumPy index -1 would silently recode them as the last alternative.
+    raw_rows = len(rows)
+    rows = [r for r in rows if r["choice"] >= 0 and r["avail"][r["choice"]] > 0]
     ids, choices, x, avail = rows_to_arrays(rows)
     records = []
     for orientation in orientations:
@@ -296,7 +301,9 @@ def run_swissmetro(path, out="results/observational_equivalence_swissmetro.csv",
             result = cross_fit_test(ids, choices, x, avail, tolerance=tolerance,
                                     bootstrap=bootstrap, orientation=orientation)
             records.append({"orientation": orientation, "tolerance": tolerance,
-                            "rows": len(rows), "respondents": len(np.unique(ids)),
+                            "raw_rows": raw_rows, "rows": len(rows),
+                            "dropped_missing_choice": raw_rows - len(rows),
+                            "respondents": len(np.unique(ids)),
                             **{k: v for k, v in result.items() if k != "folds"}})
             print("Swissmetro", "orientation", orientation, "tolerance", tolerance,
                   "pairs", result["pairs"], "respondents_with_pair", result["respondents_with_pair"],

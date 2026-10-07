@@ -1,5 +1,24 @@
 # Revision progress status
 
+## Round 25 status: public Swissmetro model run completed
+
+I ran the candidate MNL and the cross-fitted approximate fibre audit on the
+official public Swissmetro DCE. The raw file contains 10,728 rows; after
+dropping 9 `CHOICE=0` missing records, 10,719 rows from 1,191 respondents
+remain. The 12 orientation/tolerance cells produce 126--3,540 approximate
+pairs and 60--905 respondents with a pair. At tolerance 0.02, the omnibus
+p-values are .310 (`index`), .346 (`time`), and .434 (`cost`); at tolerance
+0.05 they are .010, .008, and .070. The orientation sensitivity is a direct
+empirical boundary of the observational fallback. The run verifies the
+candidate fitting, full-menu matching, cross-fitting, and respondent-cluster
+reference implementation on real DCE data. Swissmetro has no documented
+one-member-per-pair assignment, so it cannot close the primary randomized
+paired-DCE gate. Details are in
+`manuscript/swissmetro_external_validation_round25.md`, with provenance in
+`data/provenance_swissmetro_2026-10-07.md` and results in
+`results/swissmetro_external_validation.csv`; the baseline fit and grouped
+two-fold score are in `results/swissmetro_model_summary.csv`.
+
 ## Round 24 status: sequential coverage transfer rejected
 
 I tested a method transfer from sequential and adaptive DCE design: use a

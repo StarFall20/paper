@@ -1,0 +1,2 @@
+raw_rows,retained_rows,dropped_missing_choice,respondents,choice_share_train,choice_share_sm,choice_share_car,beta_train_asc,beta_car_asc,beta_time,beta_cost,in_sample_log_score,in_sample_accuracy,two_fold_oof_log_score,two_fold_oof_accuracy
+10728,10719,9,1191,0.1327549211680194,0.5799048418695774,0.2873402369624032,-0.4011040538274847,0.280481266698477,-1.2684905626808165,-0.09143395891713016,-0.981897374341213,0.5923127157384084,-1.0890648950009425,0.592308511771599
