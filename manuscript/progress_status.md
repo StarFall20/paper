@@ -341,3 +341,22 @@ exactly, has residual rank 3, and separates declared scale/framing from an
 unlisted process in 200 replications. These are structural and planning
 results. The empirical gate still requires a paired DCE or a matched public
 dataset, and the Scopus/Google Scholar institutional exports remain open.
+
+## Live readiness bar (2026-10-07)
+
+```
+fibre-sufficiency contribution      [#########.] 90%
+finite-support proof/certificate    [########..] 85%
+multinomial full-menu gate          [########..] 88%
+overlap audit                       [#######...] 75%
+Scopus/Google Scholar exports       [###.......] 30%
+paired human DCE validation         [##........] 20%
+full manuscript integration         [#####.....] 55%
+submission package                  [###.......] 35%
+overall submission readiness        [######....] 60%
+```
+
+The remaining 40% is evidence work: institutional literature exports, a
+paired or matched DCE, and the final Word-manuscript integration. The current
+results support a credible method-and-design contribution; they do not justify
+claiming empirical confirmation or priority over every related test.
