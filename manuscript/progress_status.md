@@ -1,5 +1,27 @@
 # Revision progress status
 
+## Round 26 status: support-complete certificate added
+
+The residual-dictionary formulation has been stress-tested against the most
+likely reviewer objection: a hand-picked dictionary can make a test appear
+powerful only in the directions chosen by the authors. The new finite-support
+refinement spans the complete non-constant contrast space inside every
+non-singleton candidate fibre. On the (3\times3) counterexample, the
+candidate-precision endpoint design has candidate variance 4.00 and
+support-complete rank 0, while the support-complete design has rank 4 and
+minimum exposure eigenvalue 0.1222. The code is in
+`analysis/support_complete_fibre_design.py` and the output is in
+`results/support_complete_fibre_design.csv`.
+
+The literature screen now covers 222 Journal of Choice Modelling Crossref
+records from 2021--2026 and the closest methodological papers. Hoshino and
+Yanagi's 2026 conditional-randomization test for coarsened exposure mappings
+is recorded as the nearest collision; generic conditional-randomization
+language is removed from the novelty claim. The independent increment is the
+DCE-specific complete-menu fibre, support-complete rank certificate, and
+pre-outcome separation of structural visibility from behavioral power. The
+full audit is in `manuscript/innovation_audit_round26.md`.
+
 ## Round 25 status: public Swissmetro model run completed
 
 I ran the candidate MNL and the cross-fitted approximate fibre audit on the
