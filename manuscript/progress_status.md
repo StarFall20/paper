@@ -8,9 +8,11 @@ out-of-fold structured-utility gain and respondent score overdispersion, with
 an explicit unresolved branch when observable structure and heterogeneity
 signals coexist. The formal run uses 100 additive calibration replications and
 24 evaluation replications per mechanism, with 400 respondents and 12 tasks.
-Action accuracy is 1.000 for the nonlinear condition, 0.917 for interaction,
-0.958 for isolated heterogeneity, and 0.542 for threshold and combined
-conditions. The rule is not claimed to dominate validation-only prediction;
+The final rule adds a richer coverage basis and uses its incremental gain to
+flag out-of-library departures. Action accuracy is 1.000 for nonlinear, 0.875
+for interaction, 0.958 for isolated heterogeneity, and 0.542 for threshold
+and combined conditions. The separate cubic out-of-library run is unresolved
+in all 24 replications. The rule is not claimed to dominate validation-only prediction;
 its contribution is the recoverability/mechanism decision and its measured
 failure boundary. The full account is in
 `manuscript/recoverability_triage_round28.md`.

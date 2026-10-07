@@ -9,6 +9,8 @@ calibrated on independent additive simulations. The candidate-preserving fibre
 audits remain negative controls and design certificates; their finite-support
 saturated score is not claimed as a new inferential test. The Round 28
 definition and results are in `manuscript/recoverability_triage_round28.md`.
+The richer coverage probe and cubic out-of-library stress test are implemented
+in `analysis/recoverability_triage_ood.py`.
 
 The conceptual core is in
 `manuscript/fibre_sufficiency_exposure_round22.md` and its proof note. The

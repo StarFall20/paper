@@ -30,9 +30,9 @@ The decision rule has four outputs:
 1. **base** when neither signal exceeds its additive-calibrated threshold;
 2. **observed_structure** when (G_S) is large and (Q) is not;
 3. **heterogeneity** when (Q) is large and (G_S) is not;
-4. **unresolved** when both signals are large or when the flexible learner
-   improves on the additive model without an improvement from the declared
-   utility library.
+4. **unresolved** when both signals are large, when the flexible learner
+   improves without an improvement from the declared utility library, or when
+   a frozen richer coverage basis improves beyond that library.
 
 This is a decision object, not a new likelihood-ratio test. It answers a
 different question from an assisted specification search: whether the data
@@ -49,12 +49,12 @@ the following action accuracy against the known simulation mechanism:
 
 | condition | action accuracy | dominant action | triage regret | validation-only regret |
 |---|---:|---|---:|---:|
-| additive | 0.875 | base (0.875) | 0.0044 | 0.0039 |
+| additive | 0.792 | base (0.792) | 0.0091 | 0.0039 |
 | nonlinear | 1.000 | observed_structure (1.000) | 0.0028 | 0.0028 |
 | threshold | 0.542 | observed_structure (0.542) | 0.0063 | 0.0027 |
-| interaction | 0.917 | observed_structure (0.917) | 0.0098 | 0.0030 |
+| interaction | 0.875 | observed_structure (0.875) | 0.0129 | 0.0030 |
 | heterogeneity | 0.958 | heterogeneity (0.958) | 0.0749 | 0.0655 |
-| nonlinear + threshold | 0.958 | observed_structure (0.958) | 0.0042 | 0.0019 |
+| nonlinear + threshold | 0.917 | observed_structure (0.917) | 0.0073 | 0.0019 |
 | nonlinear + interaction | 0.917 | observed_structure (0.917) | 0.0089 | 0.0025 |
 | combined | 0.542 | unresolved (0.542) | 0.0763 | 0.0329 |
 
@@ -66,6 +66,14 @@ replications; the remaining runs are classified as observed structure. The
 triage rule is not claimed to dominate validation-only prediction. Its value
 is the mechanism and recoverability decision, while the regret columns show
 the cost of treating that decision as a forecast rule.
+
+The out-of-library stress test adds a cubic utility term absent from the
+primary structured library. A richer coverage basis contains all marginal
+squares/cubes, pairwise products, and observed-covariate products. Its
+increment over the primary library is calibrated on the same additive
+replications. All 24 cubic replications are classified as unresolved. This is
+the coverage check: a candidate library can be structurally useful without
+being treated as complete.
 
 ## Public DCE check
 
@@ -100,8 +108,6 @@ contribution.
 
 ## Required next experiments before submission
 
-- Add an out-of-library cubic/spline mechanism and report whether it enters the
-  unresolved branch rather than being forced into the structured family.
 - Vary respondent count, task count, and signal strength to obtain power and
   false-expansion curves for (G_S) and (Q).
 - Compare the score gate with a converged mixed-logit fit and report WTP and
@@ -111,7 +117,8 @@ contribution.
 
 Raw outputs are `results/recoverability_triage.csv`,
 `results/recoverability_triage_summary.csv`,
-`results/recoverability_triage_calibration.csv`, and
+`results/recoverability_triage_calibration.csv`,
+`results/recoverability_triage_ood.csv`, and
 `results/swissmetro_recoverability_audit.csv`. The executable entry points are
-`analysis/recoverability_triage.py` and
+`analysis/recoverability_triage.py`, `analysis/recoverability_triage_ood.py`, and
 `analysis/swissmetro_recoverability_audit.py`.

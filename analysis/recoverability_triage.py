@@ -40,6 +40,7 @@ from run_simulation import (  # noqa: E402
 @dataclass(frozen=True)
 class Thresholds:
     structured_gain: float
+    library_gap: float
     flex_gain: float
     cluster_score: float
 
@@ -95,6 +96,31 @@ def fit_flexible(x: np.ndarray, z: np.ndarray, ids: np.ndarray, choices: np.ndar
     return model, raw
 
 
+def expanded_feature_matrix(x: np.ndarray, z: np.ndarray) -> np.ndarray:
+    """A frozen coverage library used only to expose out-of-library gain.
+
+    The primary structured library contains the prespecified terms in
+    ``run_simulation.feature_matrix``.  This richer basis adds all marginal
+    squares/cubes and pairwise products.  It is deliberately interpreted as a
+    coverage probe, not as the behavioural model selected by the rule.
+    """
+    n, tasks, alternatives, attrs = x.shape
+    flat_x = x.reshape(n * tasks, alternatives, attrs)
+    flat_z = np.repeat(z, tasks, axis=0)
+    optout = np.broadcast_to(
+        (np.arange(alternatives) == 2).astype(float)[None, :, None],
+        (n * tasks, alternatives, 1),
+    )
+    cols = [flat_x, optout, flat_x ** 2, flat_x ** 3]
+    for a in range(attrs):
+        for b in range(a + 1, attrs):
+            cols.append(flat_x[:, :, a:a + 1] * flat_x[:, :, b:b + 1])
+    for a in range(attrs):
+        for k in range(flat_z.shape[1]):
+            cols.append(flat_x[:, :, a:a + 1] * flat_z[:, None, k:k + 1])
+    return np.concatenate(cols, axis=2)
+
+
 def get_diagnostics(x, z, choices, train_ids, val_ids, tasks, seed):
     """Fit only on train respondents and return development diagnostics."""
     base_features = feature_matrix(x, z, structured=False)
@@ -109,6 +135,10 @@ def get_diagnostics(x, z, choices, train_ids, val_ids, tasks, seed):
     structured_beta = fit_mnl(structured_features[train_rows], y_train)
     structured_prob = mnl_probs(structured_features[val_rows], structured_beta)
     structured_loss = logloss_from_probs(structured_prob, y_val)
+    expanded_features = expanded_feature_matrix(x, z)
+    expanded_beta = fit_mnl(expanded_features[train_rows], y_train)
+    expanded_prob = mnl_probs(expanded_features[val_rows], expanded_beta)
+    expanded_loss = logloss_from_probs(expanded_prob, y_val)
     flexible, raw = fit_flexible(x, z, train_ids, choices, tasks, seed)
     flex_prob = np.zeros((len(val_rows), N_ALTERNATIVES))
     pred = flexible.predict_proba(raw[val_rows])
@@ -118,8 +148,10 @@ def get_diagnostics(x, z, choices, train_ids, val_ids, tasks, seed):
         base_features[val_rows], y_val, beta, len(val_ids), tasks,
     )
     return {"structured_gain": base_loss - structured_loss,
+            "library_gap": structured_loss - expanded_loss,
             "flex_gain": base_loss - flex_loss, "cluster_score": q,
             "base_loss": base_loss, "structured_loss": structured_loss,
+            "expanded_loss": expanded_loss,
             "flex_loss": flex_loss}
 
 
@@ -134,12 +166,14 @@ def calibrate(reps: int = 100, n: int = 400, tasks: int = 12,
         diagnostics.append(d)
     gains = np.asarray([d["flex_gain"] for d in diagnostics])
     structured = np.asarray([d["structured_gain"] for d in diagnostics])
+    gaps = np.asarray([d["library_gap"] for d in diagnostics])
     scores = np.asarray([d["cluster_score"] for d in diagnostics])
     # A one-sided 95% calibration controls the additive-condition false
     # expansion rate at the calibration resolution; these thresholds are
     # frozen for all mechanism conditions.
     thresholds = Thresholds(
         structured_gain=float(np.quantile(structured, 0.95)),
+        library_gap=float(np.quantile(gaps, 0.95)),
         flex_gain=float(np.quantile(gains, 0.95)),
         cluster_score=float(np.quantile(scores, 0.95)),
     )
@@ -148,12 +182,15 @@ def calibrate(reps: int = 100, n: int = 400, tasks: int = 12,
 
 def classify(diagnostic: dict, thresholds: Thresholds) -> tuple[str, str]:
     structured = diagnostic["structured_gain"] > thresholds.structured_gain
+    uncovered = diagnostic["library_gap"] > thresholds.library_gap
     flex = diagnostic["flex_gain"] > thresholds.flex_gain
     het = diagnostic["cluster_score"] > thresholds.cluster_score
-    if (structured or flex) and het:
+    if (structured or flex or uncovered) and het:
         return "unresolved", "both_signals"
     if het:
         return "heterogeneity", "cluster_signal"
+    if uncovered:
+        return "unresolved", "candidate_library_gap"
     if structured:
         return "observed_structure", "flexible_gain"
     if flex:
@@ -219,6 +256,8 @@ def run(reps: int = 30, calibration_reps: int = 100, n: int = 400,
         rows.append({"stage": "calibration", "condition": "additive",
                      "replication": d["replication"], **d,
                      "threshold_flex_gain": thresholds.flex_gain,
+                     "threshold_library_gap": thresholds.library_gap,
+                     "threshold_structured_gain": thresholds.structured_gain,
                      "threshold_cluster_score": thresholds.cluster_score,
                      "action": "calibration", "reason": "calibration"})
     for ci, condition in enumerate(CONDITIONS):
@@ -254,6 +293,8 @@ def run(reps: int = 30, calibration_reps: int = 100, n: int = 400,
             rows.append({"stage": "evaluation", "condition": condition.name,
                          "replication": rep, **d,
                          "threshold_flex_gain": thresholds.flex_gain,
+                         "threshold_library_gap": thresholds.library_gap,
+                         "threshold_structured_gain": thresholds.structured_gain,
                          "threshold_cluster_score": thresholds.cluster_score,
                          "action": action, "reason": reason,
                          "target_action": target_action(condition),
