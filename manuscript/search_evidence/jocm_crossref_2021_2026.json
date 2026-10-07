@@ -1,0 +1,3568 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 222,
+    "items": [
+      {
+        "DOI": "10.1016/j.jocm.2024.100507",
+        "title": [
+          "A micro-econometric framework for Participatory Value Evaluation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100507",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100563",
+        "title": [
+          "A method to integrate strategic alignment in freight transportation behavioral models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100563",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100321",
+        "title": [
+          "Attribute range effects: Preference anomaly or unexplained variance?"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100321",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100396",
+        "title": [
+          "Distribution-free estimation of individual parameter logit (IPL) models using combined evolutionary and optimization algorithms"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100396",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100418",
+        "title": [
+          "How to ask twenty questions and win: Machine learning tools for assessing preferences from small samples of willingness-to-pay prices"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100418",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100375",
+        "title": [
+          "Seen but not considered? Awareness and consideration in choice analysis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100375",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100393",
+        "title": [
+          "Modeling preference heterogeneity using model-based decision trees"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100393",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(25)00019-3",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(25)00019-3",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(23)00043-x",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(23)00043-x",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100271",
+        "title": [
+          "Distortions in willingness-to-pay for public goods induced by endemic distrust in institutions"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100271",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100436",
+        "title": [
+          "Sample size selection for discrete choice experiments using design features"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100436",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100623",
+        "title": [
+          "Can large language models assist choice modelling? Insights into prompting strategies and current models’ capabilities"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100623",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100489",
+        "title": [
+          "Ordering effects in discrete choice experiments: A systematic literature review across domains"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100489",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100447",
+        "title": [
+          "Outside good utility and substitution patterns in direct utility models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100447",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100226",
+        "title": [
+          "Estimation of discrete choice models with hybrid stochastic adaptive batch size algorithms"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100226",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100300",
+        "title": [
+          "“Whose plan is it?” understanding how the goal pursuit of consumers and carers influence choices in the australian disability sector"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100300",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(25)00005-3",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(25)00005-3",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100366",
+        "title": [
+          "A choice experiment approach to evaluate maize farmers’ decision-making processes in Lao PDR"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100366",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100472",
+        "title": [
+          "Travel behaviour and game theory: A review of route choice modeling behaviour"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100472",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100309",
+        "title": [
+          "Hypothetical bias in stated choice experiments: Part I. Macro-scale analysis of literature and integrative synthesis of empirical evidence from applied economics, experimental psychology and neuroimaging"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100309",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(24)00014-9",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(24)00014-9",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100503",
+        "title": [
+          "A hierarchical Bayesian logit model for spatial multivariate choice data"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100503",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100578",
+        "title": [
+          "Re-examining the no-choice option in conjoint analysis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100578",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100324",
+        "title": [
+          "Disentangling the effects of unobserved factors on seatbelt use choices in multi-occupant vehicles"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100324",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100466",
+        "title": [
+          "The rise of best-worst scaling for prioritization: A transdisciplinary literature review"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100466",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100531",
+        "title": [
+          "New misspecification tests for multinomial logit models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100531",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100284",
+        "title": [
+          "mixl: An open-source R package for estimating complex choice models on large datasets"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100284",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(21)00028-2",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(21)00028-2",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(25)00032-6",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(25)00032-6",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100369",
+        "title": [
+          "Matching reality: A basket and expenditure based choice experiment with sensory preferences"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100369",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100370",
+        "title": [
+          "Testing for saliency-led choice behavior in discrete choice modeling: An application in the context of preferences towards nuclear energy in Italy"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100370",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100398",
+        "title": [
+          "Heterogeneity in choice experiment data: A Bayesian investigation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100398",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100551",
+        "title": [
+          "Constructing Bayesian optimal designs for discrete choice experiments by simulated annealing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100551",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100412",
+        "title": [
+          "Formative versus reflective attitude measures: Extending the hybrid choice model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100412",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100510",
+        "title": [
+          "A novel choice model combining utility maximization and the disjunctive decision rules, application to two case studies"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100510",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100285",
+        "title": [
+          "Assisted specification of discrete choice models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100285",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100394",
+        "title": [
+          "R packages and tutorial for case 1 best–worst scaling"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100394",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(21)00064-6",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(21)00064-6",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100291",
+        "title": [
+          "Who is watching out for me? Quantifying fear of crime mitigation attributes using a choice experiment approach among adolescents and their parents"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100291",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100574",
+        "title": [
+          "A smooth bounded choice model: Formulation and application in three large-scale case studies"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100574",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100467",
+        "title": [
+          "Resampling estimation of discrete choice models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100467",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100586",
+        "title": [
+          "On the asymptotic variance of latent class logit models for discrete choice applications"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100586",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100509",
+        "title": [
+          "The interdependence between hospital choice and waiting time — with a case study in urban China"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100509",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(21)00009-9",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(21)00009-9",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100415",
+        "title": [
+          "Modelling activity patterns of wild animals - An application of the multiple discrete-continuous extreme value (MDCEV) model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100415",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100505",
+        "title": [
+          "On the Linear Probability Model as binary choice random utility model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100505",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100266",
+        "title": [
+          "Measuring public preferences between health and social care funding options"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100266",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100431",
+        "title": [
+          "Theory-driven or data-driven? Modelling ride-sourcing mode choices using integrated choice and latent variable model and multi-task learning deep neural networks"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100431",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(21)00046-4",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(21)00046-4",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100306",
+        "title": [
+          "Longitudinal investigation of skeletal activity episode timing decisions – A copula approach"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100306",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100416",
+        "title": [
+          "Preferences for online grocery shopping during the COVID-19 pandemic — the role of fear-related attitudes"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100416",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100282",
+        "title": [
+          "Predicting strategic medical choices: An application of a quantal response equilibrium choice model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100282",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100302",
+        "title": [
+          "Separating generalizable from source-specific preference heterogeneity in the fusion of revealed and stated preferences"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100302",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100257",
+        "title": [
+          "The overreliance on statistical goodness-of-fit and under-reliance on model validation in discrete choice models: A review of validation practices in the transportation academic literature"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100257",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100473",
+        "title": [
+          "Australian community preferences for hotel quarantine options within the Logit Mixed Logit Model framework"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100473",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100322",
+        "title": [
+          "Hypothetical bias in stated choice experiments: Part II. Conceptualisation of external validity, sources and explanations of bias and effectiveness of mitigation methods"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100322",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100565",
+        "title": [
+          "Tri-reference-point framework for analyzing air-rail passenger airport access behaviour"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100565",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(22)00006-9",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(22)00006-9",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100367",
+        "title": [
+          "Matching and weighting in stated preferences for health care"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100367",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100582",
+        "title": [
+          "Capturing zero-price effects in stated choice surveys: implications for willingness-to-pay and welfare"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100582",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100430",
+        "title": [
+          "Preference estimation from point allocation experiments"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100430",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(22)00021-5",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(22)00021-5",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100342",
+        "title": [
+          "Characterizing the impact of discrete indicators to correct for endogeneity in discrete choice models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100342",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100413",
+        "title": [
+          "A discrete choice modeling framework of heterogenous decision rules accounting for non-trading behavior"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100413",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100401",
+        "title": [
+          "Cost vector effects in discrete choice experiments with positive status quo cost"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100401",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100269",
+        "title": [
+          "Eliciting individual preferences for immigrants in the Dominican Republic. Results from two choice experiments"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100269",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100374",
+        "title": [
+          "The value of consideration data in a discrete choice experiment"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100374",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100453",
+        "title": [
+          "Open system model of choice and response time"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100453",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100303",
+        "title": [
+          "The landscape of econometric discrete choice modelling research"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100303",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100410",
+        "title": [
+          "Building a life-course intertemporal discrete choice model to analyze migration biographies"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100410",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100624",
+        "title": [
+          "Inference in downstream analysis using individual-level posterior means from mixed logit models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100624",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100550",
+        "title": [
+          "Cost vector effects in forced-choice discrete choice experiments: Assessing the acceptability of future glyphosate policies"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100550",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100286",
+        "title": [
+          "A day in the life with an automated vehicle: Empirical analysis of data from an interactive stated activity-travel survey"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100286",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100288",
+        "title": [
+          "A hierarchical agent-based approach to simulate a dynamic decision-making process of evacuees using reinforcement learning"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100288",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100561",
+        "title": [
+          "Mitigating hypothetical bias in choice Experiments: An in-depth review on the use of cheap talk"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100561",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100478",
+        "title": [
+          "Discrete choice experiments with eye-tracking: How far we have come and ways forward"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100478",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100320",
+        "title": [
+          "Latent class choice model with a flexible class membership component: A mixture model approach"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100320",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100538",
+        "title": [
+          "Analysis of attribute importance in multinomial logit models using Shapley values-based methods"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100538",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100534",
+        "title": [
+          "Social finance in emerging markets: Insights into Chinese individual investor preferences with broader implications"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100534",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100548",
+        "title": [
+          "Modelling viewing patterns of serial TV dramas considering live viewing and time shifting"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100548",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100287",
+        "title": [
+          "Activity behavior of residents of Paraisópolis slum: Analysis of multiday activity patterns using data collected with smartphones"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100287",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100450",
+        "title": [
+          "Evaluating the gap choice decisions of pedestrians in conflict situations in mass religious gatherings and controlled experimental setup – A pilot study"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100450",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100435",
+        "title": [
+          "A randomized group approach to identifying label effects"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100435",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100448",
+        "title": [
+          "Cube model: Predictions and account for best–worst choice situations with three choice alternatives"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100448",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100465",
+        "title": [
+          "On the impact of decision rule assumptions in experimental designs on preference recovery: An application to climate change adaptation measures"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100465",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100454",
+        "title": [
+          "Ordinal-ResLogit: Interpretable deep residual neural networks for ordered choices"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100454",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100354",
+        "title": [
+          "Capturing trade-offs between daily scheduling choices"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100354",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100340",
+        "title": [
+          "Choice modelling in the age of machine learning - Discussion paper"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100340",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(22)00046-x",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(22)00046-x",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100280",
+        "title": [
+          "Models of moral decision making: Theory and empirical applications in various domains"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100280",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100419",
+        "title": [
+          "A Bayesian hierarchical approach to the joint modelling of Revealed and stated choices"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100419",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100325",
+        "title": [
+          "Case 2 best-worst scaling: For good or for bad but not for both"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100325",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(23)00060-x",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(23)00060-x",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100476",
+        "title": [
+          "Departure time choices and a modeling framework for a guidance system"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100476",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100411",
+        "title": [
+          "Separation-based parameterization strategies for estimation of restricted covariance matrices in multivariate model systems"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100411",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100452",
+        "title": [
+          "Attitudes and Latent Class Choice Models using Machine Learning"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100452",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100290",
+        "title": [
+          "Quantum utility and random utility model for path choice modelling: Specification and aggregate calibration from traffic counts"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100290",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100581",
+        "title": [
+          "Sensitivity analysis of Bayesian estimates of value function parameters to priors using imprecise probabilities"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100581",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100319",
+        "title": [
+          "Using choice experiments to improve equity in access to socially marketed HIV prevention products"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100319",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100606",
+        "title": [
+          "Cyclists’ crossing behaviour at roundabouts: A Generalized Spatially Correlated Nested Logit model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100606",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100580",
+        "title": [
+          "A special Cholesky-based parameterization for estimation of restricted correlation matrices"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100580",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100372",
+        "title": [
+          "Modelling online job search and choices of dentists in the Australian job market: Staged sequential DCEs and FIML econometric methods"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100372",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100253",
+        "title": [
+          "A note on the large sample properties of the welfare change estimator in linear-in-income logit"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100253",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100326",
+        "title": [
+          "Marginal compensated effects in discrete labor supply models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100326",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100385",
+        "title": [
+          "Stated choice analysis of preferences for COVID-19 vaccines using the Choquet integral"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100385",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100620",
+        "title": [
+          "Misspecified heterogeneity in alternative-specific constants: Omitted variables in discrete choice models for environmental valuation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100620",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100608",
+        "title": [
+          "Summed-probability logit models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100608",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100356",
+        "title": [
+          "Quantifying behavioural difference in latent class models to assess empirical identifiability: Analytical development and application to multiple heuristics"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100356",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100336",
+        "title": [
+          "Utilising activity space concepts to sampling of alternatives for mode and destination choice modelling of discretionary activities"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100336",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100511",
+        "title": [
+          "The impact of violations of expected utility theory on choices in the face of multiple risks"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100511",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100549",
+        "title": [
+          "Exploring the choice landscape: Anchoring and framing effects on search behavior in complex choices"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100549",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100268",
+        "title": [
+          "Does charity begin at home for air pollution reductions? Unraveling intra familial altruism"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100268",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100428",
+        "title": [
+          "Integrating a choice experiment into an agent-based model to simulate climate-change induced migration: The case of the Mekong River Delta, Vietnam"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100428",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100434",
+        "title": [
+          "Climate change adaptation preferences of winemakers from the Rioja wine appellation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100434",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100585",
+        "title": [
+          "Which rubber duck makes the best decoy? Considering the decoy effect on the basis of different behavioral theories"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100585",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100611",
+        "title": [
+          "Statistical significance in choice modelling: computation, usage and reporting"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100611",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(26)00035-7",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(26)00035-7",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100575",
+        "title": [
+          "A novel algorithm for drawing nested extreme value random variables"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100575",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100596",
+        "title": [
+          "Dispersion-induced status quo bias in pivot-designed choice experiment"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100596",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100471",
+        "title": [
+          "Revealing and reducing bias when modelling choice behaviour on imbalanced panel datasets"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100471",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100270",
+        "title": [
+          "Mapping potentials and challenges of choice modelling for social science research"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100270",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100432",
+        "title": [
+          "One or two-step? Evaluating GMM efficiency for spatial binary probit models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100432",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(26)00007-2",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(26)00007-2",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100414",
+        "title": [
+          "Estimating a model of forward-looking behavior with discrete choice experiments: The case of lifetime hunting license demand"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100414",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100264",
+        "title": [
+          "Anchoring on visual cues in a stated preference survey: The case of siting offshore wind power projects"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100264",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100323",
+        "title": [
+          "Evaluating the predictive abilities of mixed logit models with unobserved inter- and intra-individual heterogeneity"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100323",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100305",
+        "title": [
+          "What factors influence HIV testing? Modeling preference heterogeneity using latent classes and class-independent random effects"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100305",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100519",
+        "title": [
+          "Latent class choice models with an error structure: Investigating potential unobserved associations between latent segmentation and behavior generation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100519",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100470",
+        "title": [
+          "Predicting choices of street-view images: A comparison between discrete choice models and machine learning models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100470",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100343",
+        "title": [
+          "Volumetric choice experiments (VCEs)"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100343",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100522",
+        "title": [
+          "Transformation-based flexible error structures for choice modeling"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100522",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100504",
+        "title": [
+          "Corrigendum to “Ordinal-ResLogit: Interpretable deep residual neural networks for ordered choices” [J. Choice Model., 50 (2024) 100454]"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100504",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100605",
+        "title": [
+          "Respondent experience and willingness to pay: Reconciling stated preference data with scientific evidence"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100605",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100359",
+        "title": [
+          "Jeopardizing brand profitability by misattributing process heterogeneity to preference heterogeneity"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100359",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100307",
+        "title": [
+          "Estimating decision rule differences between ‘best’ and ‘worst’ choices in a sequential best worst discrete choice experiment"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100307",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100463",
+        "title": [
+          "The route choices of pedestrians under crowded and non-emergency conditions: Two-route experiments and modeling"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100463",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(23)00024-6",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(23)00024-6",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100399",
+        "title": [
+          "A control-function correction for endogeneity in random coefficients models: The case of choice-based recommender systems"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100399",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(26)00021-7",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(26)00021-7",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100383",
+        "title": [
+          "Real payment priming to reduce potential hypothetical bias"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100383",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100256",
+        "title": [
+          "A discrete choice modeling approach to measure susceptibility and subjective valuation of the decoy effect, with an application to route choice"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100256",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100409",
+        "title": [
+          "Extensive hypothesis testing for estimation of mixed-Logit models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100409",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100520",
+        "title": [
+          "An assessment of the current use of hybrid choice models in environmental economics, and considerations for future applications"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100520",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100464",
+        "title": [
+          "Guilt, gender, and work-life balance: A choice experiment"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100464",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100353",
+        "title": [
+          "Instability in mixed logit demand models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100353",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(24)00032-0",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(24)00032-0",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100327",
+        "title": [
+          "Delight or disappointment? A model of signal-based other-pleasing choice"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100327",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100304",
+        "title": [
+          "Joint modelling of choice and rating data: Theory and examples"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100304",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(23)00006-4",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(23)00006-4",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100609",
+        "title": [
+          "“It should be relevant, reliable and feasible”: Introducing FACE, an instrument for assessing the face validity of choice experiments"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100609",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100475",
+        "title": [
+          "A Bayesian generalized rank ordered logit model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100475",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100437",
+        "title": [
+          "Do choice tasks and rating scales elicit the same judgments?"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100437",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100634",
+        "title": [
+          "Corrigendum to “Summed-probability logit models” [J. Choice Model. 59, (2026), 100608]"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100634",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100537",
+        "title": [
+          "Control Function Approach for Addressing Endogeneity in Transport Models: A Case Study on the London–Amsterdam Route"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100537",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100355",
+        "title": [
+          "Exploring the subscribing behavior of customized bus passengers: Active users versus inactive users"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100355",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100283",
+        "title": [
+          "Computationally efficient forecasting procedures for Kuhn-Tucker consumer demand model systems: Application to residential energy consumption analysis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100283",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100597",
+        "title": [
+          "Potential for electric vehicle adoption in Midwest US States: A stated preference and two-stage MRP study"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100597",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100341",
+        "title": [
+          "Modeling the relationship between food purchasing, transport, and health outcomes: Evidence from Concepcion, Chile"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100341",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100562",
+        "title": [
+          "Understanding the decision-making process of choice modellers"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100562",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100427",
+        "title": [
+          "NP4VTT: A new software for estimating the value of travel time with nonparametric models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100427",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100584",
+        "title": [
+          "Semi-dynamics of electric vehicle adoption based on strategic consumer choices: Preference statement-guided forward-looking behavior based on individual expectations"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100584",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(25)00053-3",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(25)00053-3",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100491",
+        "title": [
+          "A Bayesian sample selection model with a binary outcome for handling residential self-selection in individual car ownership"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100491",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100451",
+        "title": [
+          "On-demand transit user preference analysis using hybrid choice models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100451",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100408",
+        "title": [
+          "Intra-household bargaining for a joint vacation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100408",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100552",
+        "title": [
+          "An Experience-Based Choice Model (EBCM): Formulation, identification, behavioural insights and well-being assessment"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100552",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100455",
+        "title": [
+          "The effect of perceived risk of false diagnosis on preferences for COVID-19 testing: Evidence from the United States"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100455",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100622",
+        "title": [
+          "Joint learning from heterogeneous rank data: The sparse fused rank-ordered logit model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100622",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100494",
+        "title": [
+          "Level overlap and level color coding revisited: Improved attribute attendance and higher choice consistency in discrete choice experiments"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100494",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100524",
+        "title": [
+          "Model choice and framing effects: Do discrete choice modeling decisions affect loss aversion estimates?"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100524",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100595",
+        "title": [
+          "An instrument-free approach for estimating multinomial logit models with endogenous variables"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100595",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100397",
+        "title": [
+          "Data-driven assisted model specification for complex choice experiments data: Association rules learning and random forests for Participatory Value Evaluation experiments"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100397",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100358",
+        "title": [
+          "Decision Field Theory: Equivalence with probit models and guidance for identifiability"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100358",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100488",
+        "title": [
+          "Choice models with stochastic variables and random coefficients"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100488",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100493",
+        "title": [
+          "Varying choice set sizes in discrete choice experiments"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100493",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100371",
+        "title": [
+          "Applications of discrete choice experiments in COVID-19 research: Disparity in survey qualities between health and transport fields"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100371",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100508",
+        "title": [
+          "Too much, too little? A CBC approach accounting for screening from both sides"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100508",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100621",
+        "title": [
+          "The \"dark\" side of engagement in stated choice experiments: exploring the role of time and complexity with an example on food"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100621",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100254",
+        "title": [
+          "Consumer ‘app-etite’ for workers' rights in the Australian ‘gig’ economy"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100254",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100400",
+        "title": [
+          "A Bayesian instrumental variable model for multinomial choice with correlated alternatives"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100400",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100337",
+        "title": [
+          "Long-distance mode choice model estimation using mobile phone network data"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100337",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(22)00036-7",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(22)00036-7",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100576",
+        "title": [
+          "Recursive logit models for dynamic versus sequential trip chaining"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100576",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100487",
+        "title": [
+          "To pool or not to pool: Accounting for task non-attendance in subgroup analysis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100487",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100619",
+        "title": [
+          "Time flips and price dips: Modeling preference reversals between intertemporal choice and pricing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100619",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100477",
+        "title": [
+          "Exploring the behavioral stage transition of traveler's adoption of carsharing: An integrated choice and latent variable model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100477",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100564",
+        "title": [
+          "Quantifying the value of carbon label information in food choice using drift diffusion modelling"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100564",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100265",
+        "title": [
+          "What works better for preference elicitation among older people? Cognitive burden of discrete choice experiment and case 2 best-worst scaling in an online setting"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100265",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100495",
+        "title": [
+          "Decision field theory: An extension for real-world settings"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100495",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100384",
+        "title": [
+          "Preference reversal: Analysis using construal level theory that incorporates discounting"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100384",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(24)00047-2",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(24)00047-2",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100267",
+        "title": [
+          "Activity participation, episode duration and stop-making behavior of pilgrims in a religious event: An exploratory analysis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100267",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100395",
+        "title": [
+          "Multiple discrete choice and quantity with order statistic marginal utilities"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100395",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100610",
+        "title": [
+          "Causal inference in conjoint analysis: Logit models vs. potential outcomes"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100610",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100490",
+        "title": [
+          "Choice experiments with facial expression analysis: How do emotions affect wine choices?"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100490",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100536",
+        "title": [
+          "Context-aware Bayesian mixed multinomial logit model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100536",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100339",
+        "title": [
+          "xlogit: An open-source Python package for GPU-accelerated estimation of Mixed Logit models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100339",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100449",
+        "title": [
+          "Best, worst, and best&amp;worst choice probabilities for logit and reverse logit models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100449",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100429",
+        "title": [
+          "Consumer preferences for country of origin labeling: Bridging the gap between research estimates and real-world behavior"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100429",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100468",
+        "title": [
+          "Responsibility attribution and community support of coastal adaptation to climate change: Evidence from a choice experiment in the Maldives"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100468",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100289",
+        "title": [
+          "bwsTools: An R package for case 1 best-worst scaling"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100289",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100521",
+        "title": [
+          "Modelling household online shopping and home delivery demand using latent class &amp; ordinal generalized extreme value (GEV) models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100521",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2026.100607",
+        "title": [
+          "Heterogeneous impacts of system and vehicle security concern on autonomous vehicle adoption: A causal machine learning approach"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2026.100607",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100579",
+        "title": [
+          "Beyond the status quo: Leveraging reference-dependent theory in a neural network for consumer choice analysis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100579",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100221",
+        "title": [
+          "A systematic review of machine learning classification methodologies for modelling passenger mode choice"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100221",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/s1755-5345(24)00060-5",
+        "title": [
+          "Editorial Board"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/s1755-5345(24)00060-5",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100301",
+        "title": [
+          "A two recursive equation model to correct for endogeneity in latent class binary probit models"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100301",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100535",
+        "title": [
+          "Location choice of residential housing supply: An application of the multiple discrete-continuous extreme value (MDCEV) model"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100535",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100523",
+        "title": [
+          "A consistent moment equations for binary probit models with endogenous variables using instrumental variables"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100523",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2021.100308",
+        "title": [
+          "Joint analysis of preferences and drop out data in discrete choice experiments"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2021.100308",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100492",
+        "title": [
+          "Special issue on choice modelling in health - Editorial"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100492",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100577",
+        "title": [
+          "Can an ‘informed’ general population sample be comparable to a patient sample? A case study of preferences for chemotherapy induced peripheral neuropathy"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100577",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100357",
+        "title": [
+          "Optimal sequential strategy to improve the precision of the estimators in a discrete choice experiment: A simulation study"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100357",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100344",
+        "title": [
+          "Capturing the effect of multiple social influence sources on the adoption of new transport technologies and services"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100344",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2022.100373",
+        "title": [
+          "Weibit choice models: Properties, mode choice application and graphical illustrations"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2022.100373",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100433",
+        "title": [
+          "A cross-sectional exploration of labor supply, gender, and household wealth in urban China"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100433",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2023.100426",
+        "title": [
+          "Reducing sample size requirements by extending discrete choice experiments to indifference elicitation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2023.100426",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100506",
+        "title": [
+          "A practical method to draw from multivariate extreme value distributions"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100506",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100583",
+        "title": [
+          "A neural estimation framework for discrete choice models with arbitrary error distributions"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100583",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2025.100573",
+        "title": [
+          "Using Lagrange multiplier type tests to detect structural intra-person heterogeneity in composite marginal likelihood estimation in panel data sets"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2025.100573",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2020.100252",
+        "title": [
+          "Characterising heterogeneity and the role of attitudes in patient preferences: A case study in preferences for outpatient parenteral intravenous antimicrobial therapy (OPAT) services"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2020.100252",
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.1016/j.jocm.2024.100469",
+        "title": [
+          "The role of reinforcement learning in shaping the decision policy in methamphetamine use disorders"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              3
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.jocm.2024.100469",
+        "type": "journal-article"
+      }
+    ],
+    "items-per-page": 1000,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

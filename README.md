@@ -85,3 +85,130 @@ observational LR test and residual learner with the designed fibre probe. The
 anchored benchmark is in `analysis/anchored_fibre_benchmark.py` and
 `results/anchored_fibre_benchmark.csv`; the sample-size planning run is in
 `analysis/bmst_power_curve.py` and `results/bmst_power_curve.csv`.
+
+The eighth-round innovation search asks whether the scale, geometry, framing,
+and order controls can be made one pre-outcome criterion. The leading upgrade
+is nuisance-orthogonal utility-fibre testing: task-pair contrasts are selected
+after projecting the omitted-utility signal away from a declared nuisance
+tangent space. The proof-of-concept is in
+`analysis/nuisance_orthogonal_fibre_benchmark.py`, with the method note in
+`manuscript/nuisance_orthogonal_fibre_note.md` and the search audit in
+`manuscript/innovation_search_round8.md`. It is a planning result until the
+nuisance library, out-of-library controls, and paired-task instrument are
+completed.
+
+The ninth-round audit introduces a sharper instrument: parity-separated
+utility-fibre testing. A candidate-preserving trajectory uses reflected
+coordinates (z_A(t)=c+t) and (z_B(t)=c-t). Symmetric geometry and scale
+changes are even in (t); a quadratic omitted decomposition term is odd. The
+central (+t/-t) contrast therefore cancels the declared even processing
+mechanism before inference. The binary benchmark is in
+`analysis/parity_fibre_benchmark.py`; the full-menu multinomial check is in
+`analysis/parity_multinomial_check.py`; the formal result is in
+`manuscript/parity_fibre_proposition.md` and the overlap audit is in
+`manuscript/innovation_search_round9.md`. This is now the preferred primary
+instrument when the substantive fibre admits the reflection symmetry; the
+round-eight nuisance-orthogonal design remains the general extension.
+
+The parity proposition has also been generalized to the moderate-utility form
+(F(Delta V / D)), so the odd/even construction is not tied to multinomial
+logit. The logistic/probit link check is in
+`analysis/parity_link_robustness.py` and `results/parity_link_robustness.csv`.
+
+The round-ten collision audit is in `manuscript/innovation_search_round10.md`.
+It positions the parity test against moderate-utility theory, tradeoff
+complexity, choice-set specification tests, symmetric DCE designs, and
+procedural-invariance studies, and records the exact remaining novelty and
+empirical gates.
+
+The application-specific smart-device parity audit is in
+`manuscript/smart_device_parity_design.md`, with exact profile equalities and an
+A/B/opt-out planning benchmark in `analysis/smart_device_fibre_design.py` and
+`results/smart_device_fibre_benchmark.csv`.
+
+The five-task smart-device candidate grid is in
+`analysis/smart_device_fibre_candidate_grid.py` and
+`results/smart_device_fibre_candidates.csv`; it enumerates 677 feasible
+reflections and selects gaps from 0.20 to 1.00.
+
+A fibre-optimal smart-device task rule is implemented in
+`analysis/smart_device_fibre_optimal_design.py` and
+`results/smart_device_fibre_optimal_design.csv`. It ranks 648 pure-odd
+candidate reflections by pre-outcome local odd information.
+
+The calibration-error gate is audited in
+`analysis/smart_device_calibration_robustness.py` and
+`results/smart_device_calibration_robustness.csv`; it motivates an independent
+pilot and a predeclared candidate-gap tolerance for empirical deployment.
+
+The eleventh-round collision audit is in
+`manuscript/innovation_search_round11.md`. It incorporates the 2024 latent
+utility and permutation invariance paper and narrows the claim away from a
+general transformation-group theorem.
+
+The round-twelve JOCM positioning audit is in
+`manuscript/jocm_positioning_round12.md`. It aligns the parity-fibre design
+with recent JOCM work on Bayesian design, ordering effects, attribute
+attendance, interpretable ML, and model-building workflows.
+
+The matched ordinary-grid versus fibre-optimal five-task benchmark is in
+`analysis/smart_device_multitask_benchmark.py` and
+`results/smart_device_multitask_benchmark.csv`; at weak signal strength .3,
+power is .49 versus .87 at 150 respondents; the combined omitted-plus-even-
+scale rates are .335 versus .785. The corrected scripts use one orientation
+coin per respondent block and respondent-cluster sign flips.
+
+The smart-device preregistration protocol is in
+`manuscript/smart_device_preregistration_spec.md`; invariant checks are in
+`analysis/verify_smart_device_preregistration.py`.
+
+The manuscript-ready innovation section is in
+`manuscript/innovation_section_draft.md` and is written around the candidate
+fibre, parity estimand, information criterion, smart-device implementation, and
+explicit failure boundaries.
+
+The round-thirteen manuscript revision package is in
+`manuscript/revision_package_round13.md`; it provides the title, abstract,
+section map, result hierarchy, and demotion rules for the original ML-first
+narrative.
+
+The round-fourteen anti-stitch audit is in
+`manuscript/novelty_audit_round14.md`. It narrows the contribution to one
+nuisance-balanced candidate-fibre design and records the collision audit with
+Healy and Leo (2026), Shubatt and Yang, McGranaghan et al. (2024), and latent
+permutation-invariance work. The corrected design is implemented in
+`analysis/smart_device_nuisance_balanced_design.py` and its five-task output is
+`results/smart_device_nuisance_balanced_design.csv`. The comparison-complexity
+negative-control benchmark is in
+`analysis/smart_device_complexity_balance_binary_benchmark.py` and
+`results/smart_device_complexity_balance_binary_benchmark.csv`; at 600
+respondents it rejects .185 of loose-grid complexity-only samples and .050 of
+balanced-grid samples, while omitted-direction power is 1.000 for both.
+
+The fibre-violation profile is implemented in
+`analysis/smart_device_fibre_violation_profile.py` and
+`results/smart_device_fibre_violation_profile.csv`. It adds a max-T profile to
+the same balanced task block. Under a localized omitted interaction, global
+power is .330, profile power is .885, and localization accuracy is .990; null
+rejection is .035 and .050. The random-taste boundary benchmark is in
+`analysis/smart_device_random_taste_balance_benchmark.py`; rejection is .085,
+.095, and .085 at coefficient standard deviations 0, .1, and .2.
+
+The round-sixteen independence and assignment audit is in
+`manuscript/novelty_audit_round16.md`. It records which literature ingredients
+are used as bounded inputs, which claims are excluded, and why the corrected
+respondent-level assignment is part of the estimand.
+
+The round-eighteen JOCM topic audit is in
+`manuscript/jocm_topic_gap_audit_round18.md`, and the structural-fibre design
+and simulation record is in `manuscript/falsification_design_round18.md`.
+The round-nineteen overlap audit is in
+`manuscript/literature_overlap_audit_round19.md`; it records the material
+collision with the 2013 maximin model-robust DCE abstract and narrows the
+claim accordingly. The independent theoretical core is the fibre quotient
+completeness operator in `manuscript/fibre_quotient_completeness_round19.md`.
+The writing-ready replacement for the earlier innovation section is
+`manuscript/innovation_section_round19.md`.
+The reproducible structural search is
+`analysis/structural_fibre_design.py`, with task, calibration, and power
+outputs under `results/structural_fibre_*.csv`.

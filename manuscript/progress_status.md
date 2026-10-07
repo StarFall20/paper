@@ -2,69 +2,318 @@
 
 ## Current decision
 
-The independent innovation gate is passed at the conceptual and simulation
-levels. The main paper will be rebuilt around **Behavioral Metamorphic
-Specification Testing (BMST)** and its **Utility-Fibre Invariance Test
-(UFIT)** relation. BMST freezes a candidate utility basis, constructs
-candidate-equivalent task versions, and tests their observed choice-probability
-equivalence with one-member assignment and respondent-cluster randomization.
-The earlier XGBoost-versus-MNL crossover and the model-family triage remain
-controlled benchmarks. They no longer carry the main contribution claim.
+The selected innovation is now a **nuisance-balanced candidate-preserving
+utility-fibre audit** for a coarsened utility basis. The candidate is frozen,
+the complete menu utility vector is preserved, the weighted L1 comparison
+signature is matched, and one member of each candidate-equivalent pair is
+assigned at the respondent level. The odd response is confirmatory; the even
+response and complexity-only arm are process diagnostics.
 
-The full submission gate remains open until a paired-task supplement or a
-dataset with the same candidate-preserving assignment structure is obtained.
-This is an evidence requirement for the selected innovation, not a request for
-another conceptual route.
+The original generic ML-assisted search, process-triage, and broad
+localization claims have been demoted to comparisons and failure boundaries.
+They no longer carry the paper's innovation claim.
 
-## Completed
+## Completed this round
 
-- Reframed the paper around ML-assisted utility specification for the Journal of Choice Modelling.
-- Added a novelty and journal-fit audit; the paper is now positioned as a mechanism-controlled validation benchmark rather than a new generic specification algorithm.
-- Corrected the data-generating process with an explicit opt-out indicator and unobserved respondent-specific price sensitivity.
-- Locked the corrected 30-replication benchmark as the current primary simulation scaffold.
-- Added two-class Latent Class MNL, grouped Random Forest, and boosted-tree proxy extensions.
-- Added a targeted random-price Mixed Logit extension and documented its boundary interpretation.
-- Replaced the original MNL-only candidate selector with a respondent-level Random Forest diagnostic followed by nested behavioural refitting.
-- Added paired-draw Monte Carlo stability checks and an explicit framework/model audit.
-- Fixed opt-out price leakage in the data generator and regenerated the primary, latent-class, tree, and Mixed Logit result files.
-- Added mechanism-focused results prose, methods and writing benchmarks, data provenance instructions, a smoke test, and a SHA-256 results manifest.
-- Added a deeper innovation gate that ranks recoverability-aware model-family triage, choice-set-aware diagnostics, and policy-loss-constrained selection; the current RF selector also received a preliminary product-alternative permutation audit.
-- Synchronized the reproducibility repository with GitHub and rendered the Word working draft for visual review.
-- Applied the Idea-DNA workflow from the public Idea Generator skill and completed an independent innovation audit. The selected high-risk pivot is a model-equivalent choice-pair specification test; adaptive design, permutation invariance, reliability, and standalone process models were stopped as overlapping routes.
-- Completed a fourth-round literature and identification audit. The transportable-utility prototype is retained as exploratory work only because its penalty was target-tuned and its raw coefficient stability criterion confounds logit scale. UFIT remains the leading candidate under a narrower candidate-basis sufficiency claim; a formal proposition and paired-task instrument are now explicit submission gates.
-- Added the BMST negative-control benchmark. In 100 replications, rejection is .04 for the additive null, .68 for omitted nonlinearity, .03 for random linear taste, .23 for task-specific scale drift, and 1.00 for order effects. The result keeps mechanism attribution separate from relation violation.
-- Reworked the primary supplement protocol to assign one member of each focal pair per respondent. The 600-respondent, 100-replication assignment benchmark gives .05 null rejection, .79 nonlinear power, .05 random-taste rejection, and 1.00 interaction power.
-- Completed a fifth-round cross-literature novelty audit. Daly's indistinguishability and scale boundary is now explicit; BMST is limited to a declared choice-probability relation on a tested task fibre.
-- Added a 500-replication proof-of-concept for the paired-task test. The additive null rejection rate is 0.06 and the omitted-quadratic rejection rate is 0.986 at the declared 5% level. This is feasibility evidence; it does not yet establish empirical validity.
-- Audited a public repeated-task dataset from TUDelft as a possible empirical BMST source. Its documented schema and random task construction do not provide the one-member-per-pair assignment needed for the primary estimand. The audit is in `manuscript/public_data_pair_audit.md`; the paired-task supplement remains the empirical gate.
-- Completed a sixth-round independent innovation audit against recent JOCM directions. BMST/UFIT is retained as one coherent candidate-fibre exchangeability test; conformal prediction, welfare model averaging, adversarial stress testing, and environment-invariant WTP are recorded as comparison or secondary routes. The original XGBoost-versus-MNL crossover is demoted to a controlled benchmark.
-- Completed a seventh-round stress audit prompted by the comparison-complexity objection. The main claim is now restricted to nontrivial fibres of coarsened candidate bases. A zero-candidate-difference anchor and a geometry-preserving common translation control the symmetric-scale and tradeoff-complexity channels. The new 100-replication anchored-fibre benchmark shows .04/.04 rejection for observational LR and residual-learning comparators under an omitted decomposition, versus .83/.56/1.00 for the anchored arms; the complexity-only control is concentrated in the geometry-changing nonzero-gap arm. A 60-replication sample-size curve is committed for planning.
+- Restricted the estimand to nontrivial fibres of a coarsened candidate basis;
+  singleton fibres are explicitly excluded.
+- Formalized the full multinomial menu vector, zero-gap scale anchor,
+  geometry-preserving translation, and fibre-screen proposition.
+- Added the anchored benchmark against observational LR and an out-of-fold
+  residual proxy.
+- Added the sample-size and focal-pair power curve.
+- Audited the comparison-complexity objection using Shubatt and Yang's model,
+  and added geometry, response-time, confidence, order, and scale controls to
+  the instrument specification.
+- Completed targeted JOCM, ScienceDirect, Google Scholar-compatible, and
+  Scopus-linked searches. Direct Scopus and Google Scholar pages were
+  inaccessible or authentication-gated; the search log records this boundary
+  and avoids an unsupported “first ever” claim.
+- Rewrote the core draft, novelty audit, paired-task supplement design,
+  submission-gap audit, and readiness checklist.
+- Synchronized code, planning results, manifests, and manuscript documents to
+  https://github.com/StarFall20/paper.
 
-## In progress
+## Locked planning evidence
 
-- Expand the benchmark to the target replication count.
-- Regenerate the primary and latent-class benchmarks with the Random Forest-assisted selector and report term recovery metrics.
-- Upgrade the targeted Mixed Logit check to a full random-coefficient model with WTP recovery and convergence diagnostics.
-- Run exact XGBoost in an environment with a working OpenMP runtime.
-- Add coefficient recovery, calibration, term stability, parsimony, and sample-size/task-count sensitivity analyses.
-- Add candidate-library coverage, recoverability-ceiling, formal heterogeneity-gate, and permutation-robustness experiments before claiming a general decision rule.
-- The public Swissmetro file has been audited: it has 10,728 rows for 1,192 IDs and only eight exact repeated full profiles within an ID, concentrated in two IDs. That structure is insufficient for a clean paired-task empirical test. A paired-task supplement or a different dataset is now a hard requirement for promoting the pivot to the main empirical contribution.
-- An observational fallback is specified in `analysis/audit_swissmetro_pairs.py`: freeze the candidate utility coordinates on development data, match within-respondent held-out tasks at a declared tolerance, and use a clustered bootstrap. The public file yields 26, 85, 535, and 1,924 candidate pairs at tolerances 0.01, 0.02, 0.05, and 0.10. This route remains weaker than randomized pairs and needs its own size and power study.
-- The observational fallback has now been implemented in `analysis/observational_equivalence_test.py` with respondent-level cross-fitting, availability-aware MNL probabilities, deterministic covariate-only pair orientation, and a respondent-cluster multiplier bootstrap. In a 40-replication boundary run, the null rejection rate is 0.050; rejection rates are 0.225 for the engineered nonlinear condition and 0.175 for the engineered interaction condition. The cross-fitted public Swissmetro run yields 126, 236, 1,371, and 3,430 pairs at tolerances 0.01, 0.02, 0.05, and 0.10. The row-order orientation gives p-values 0.427, 0.440, 0.430, and 0.477; time orientation gives 0.430, 0.387, 0.003, and 0.033; cost orientation gives 0.130, 0.460, 0.847, and 0.977. This orientation sensitivity is a failure boundary, so the fallback remains an explicit feasibility limit, not the main empirical contribution.
-- The exact randomized three-alternative benchmark is implemented in `analysis/exact_paired_task_benchmark.py`. Its 50-replication run gives 0.06 rejection under the additive null, 0.84 against omitted nonlinearity, and 1.00 against threshold and interaction conditions. The damped-Newton oracle repair reduces rejection to 0.04, 0.02, and 0.02 for nonlinear, threshold, and interaction conditions. The repair gate passes for detection. A four-cell probability-scale factorial audit found 0.28 rejection for a pure interaction and 0.86 when an interaction coexists with a nonlinear main effect, so term-level localization is excluded from the claim. Details are in `manuscript/factorial_contrast_note.md`.
-- The cluster randomization audit is implemented in `analysis/randomization_paired_task_test.py`. Its 50-replication run gives 0.06 null rejection, 0.82/1.00/1.00 rejection against nonlinear/threshold/interaction conditions, 0.08/0.02/0.04 after the corresponding repair terms, 0.06 for random cost sensitivity, and 0.74/1.00 power when nonlinear or interaction terms are combined with random cost sensitivity. This is the sharper candidate-preserving test. Its finite-sample validity requires held-out pairs, exchangeability, no carryover, and coefficient-wise utility-difference preservation. The result does not establish a unique omitted term.
-- The randomization output now includes all-pair and predeclared time-, cost-, and joint-shift rows. The shift-specific patterns are directional and remain explicitly non-identifying for a unique omitted term.
-- Added a deterministic candidate-preserving design-score audit and a finite-sample fixed-versus-maximin benchmark. The constrained maximin design raises the normalized weakest probe score from 1.142 to 1.632, keeps null rejection at 0.06, and raises nonlinear power from 0.82 to 1.00. The unconstrained repeated-shift solution is retained as a documented failure boundary. A cubic out-of-library condition is now included in the frozen randomization output.
-- Added and audited the Mechanism-Fingerprint Choice Audit as a bounded extension to the Utility-Fibre Invariance Test. UFIT is the independent core: a frozen candidate is tested on held-out task pairs with equal candidate utility differences and different attribute decompositions. MFCA adds common-shift, presentation, and sequence relations with shared-sign maxT adjustment. In 50 replications, null rejection is 0.02/0.00/0.00; nonlinear, position-bias, and inertia conditions produce the intended dominant signatures in 39/50, 49/50, and 49/50 replications. Combined mechanisms remain mixed or unresolved. The overlap audit records why MFCA is not a wholly new order-effect theory, and a three-relation empirical supplement remains required.
-- A first score-overdispersion prototype is now implemented. It flags all continuous-heterogeneity replications and 83% of combined replications at an exploratory threshold while producing a 3% false-positive rate in the additive condition. Bootstrap calibration is still required.
+The 100-replication anchored benchmark uses 400 respondents and 199
+respondent-cluster sign flips. Under an omitted decomposition, observational
+LR and the residual proxy reject at .04 and .04; the zero-gap
+geometry-preserving arm rejects at .83; the geometry-changing nonzero-gap arm
+rejects at 1.00. Under a complexity-only condition, the zero-gap arms remain
+near size (.02 and .07) and the geometry-changing nonzero-gap arm responds at
+.41.
 
-## Pending before submission
+The 60-replication sample-size curve gives one-pair nonlinear power of .20,
+.42, and .70 at 150, 300, and 600 respondents; three focal pairs give .90,
+1.00, and 1.00. Additive rejection stays below .08. These are planning
+results, not human-data findings.
 
-- Run the locked workflow on LPMC with a final-year temporal holdout.
-- Run the locked workflow on Swissmetro with respondent-grouped validation.
-- Freeze the final result tables and rewrite the complete manuscript around them.
-- Complete declarations, data availability, author information, and the final public release commit.
+## Remaining gates
 
-## Submission gate
+- Field a forced-choice supplement or find data with documented one-member
+  assignment, a nontrivial candidate fibre, and the required full-menu
+  preservation.
+- Preregister the basis, feasible transformations, zero-gap and geometry
+  arms, assignment coin, fold split, statistic, sign-flip reference,
+  multiplicity rule, and mixed-signature action.
+- Run additive, random-taste, scale, order/carryover, and complexity
+  controls. Treat rejection as a relation violation, not unique term
+  identification.
+- Compare BMST with LR and residual diagnostics on the same respondent budget.
+- Rewrite the supplied Word manuscript, supplement, cover letter, and
+  declarations so they use the anchored-fibre claim and the same frozen
+  repository commit.
 
-The paper is in an advanced revision scaffold. It is not submission-ready until the in-progress and pending evidence blocks are complete and the manuscript, tables, declarations, and repository refer to the same frozen version.
+## Round-eight innovation audit
+
+The current strongest upgrade is nuisance-orthogonal utility-fibre testing. It
+projects the omitted-utility signal away from declared scale, geometry,
+framing, and order tangents before selecting the task-pair contrast. An
+algebraic audit removed the L1 geometry index because it is constant on this
+fixed-sum fibre; the corrected benchmark uses squared Euclidean distance. In a
+200-replication planning run with 600 respondents, the orthogonal contrast has
+rejection rates .035 under the null, .750 for a moderate omitted decomposition,
+.020 under declared scale, .035 under shared framing, .035 under unlisted
+nonlinear scale, .980 under an out-of-library geometry-framing interaction,
+and .385 under the combined condition. The raw-signal comparator gives .025,
+1.000, .025, .020, .040, 1.000, and .850 for the corresponding main rows. The
+result is a calibrated operating boundary, not final superiority. The local
+proposition, sample-size expression, multinomial condition, and out-of-library
+interpretation are recorded in `manuscript/nuisance_orthogonal_proposition.md`.
+The empirical paired-task supplement and LR/residual comparison remain open.
+
+## Round-nine parity upgrade
+
+The round-nine search found a sharper primary instrument for the main
+comparison-complexity objection. A reflected candidate-preserving trajectory
+uses z_A(t)=c+t and z_B(t)=c-t. Squared geometry and symmetric scale are even
+in t, while the omitted quadratic decomposition term is odd. In the 200-run
+binary planning benchmark, the parity test has .050 null rejection, .050 under
+even scale, 1.000 under the omitted direction, .055 under shared framing, and
+.325 under an intentionally odd scale nuisance. A three-alternative check keeps
+the full menu vector phi=(10,20,10) fixed and gives .040 null rejection, .035
+under even scale, and 1.000 under the omitted direction. This is a stronger
+primary design when the substantive transformation supports the reflection; the
+round-eight nuisance projection remains the fallback for arbitrary fibres.
+
+## Submission decision
+
+The design-level innovation gate is provisionally passed after the nuisance
+balance correction. The empirical and full-manuscript gates remain open. Until
+those gates close, the defensible status is a method-and-design study with a
+predeclared human-data validation plan.
+
+## Round-fifteen fibre-violation profile
+
+The balanced task block now reports a vector of task-specific odd responses in
+addition to the global omnibus contrast. A max-T respondent-cluster sign-flip
+statistic controls the family-wise error rate and identifies where the
+candidate relation fails. In a 200-replication, 600-respondent planning run
+with 999 sign flips, a localized omitted interaction gives global power .330,
+profile power .885, and correct task localization .990. Null rejection is .035
+for the global test and .050 for the profile; a diffuse omitted interaction
+gives 1.000 for both. This diagnostic is derived from the same
+nuisance-balanced fibre object and is not a separate theory.
+
+## Incremental diagnostic comparison
+
+A four-condition planning benchmark now compares observational likelihood and
+out-of-fold residual diagnostics with the reflected parity supplement under the
+same 600-respondent budget. Across 100 replications, the omitted-direction
+condition gives rejection rates .060 (observational LR), .030 (residual
+proxy), and 1.000 (parity). An even scale nuisance gives .030, .060, and .050,
+while the one-sided fibre comparator rejects at 1.000. The combined omitted
+plus even-scale condition gives .050, .060, and 1.000. These values support the
+incremental design claim and remain planning evidence until the locked DCE
+generator is rerun with the final replication count.
+
+## Link-robustness extension
+
+The parity proposition has been generalized from multinomial logit scale to the
+moderate-utility form (F(\Delta V/D)). A 100-replication check under logistic
+and probit links gives omitted-direction rejection of 1.000 for both links and
+even-scale rejection of .020 for both; null rejection is .020 and .010. The
+combined condition gives .750 and .990. These short runs support link
+robustness, with final size and power still requiring the locked replication
+plan.
+
+## Application-specific fibre audit
+
+The original smart-device attribute space supports an exact paired instrument.
+The selected A+/A- and B+/B- profiles preserve each alternative's additive
+candidate utility, the A--B gap (.40), the opt-out utility (-.42), and the
+squared level-index distance (6). The existing intelligence-by-cloud
+interaction changes from a -0.55 A--B gap in the plus task to +0.55 in the
+minus task. A 200-replication A/B/opt-out simulation with 400 respondents gives
+.025 null rejection and .995 rejection when that interaction is active. This
+establishes semantic feasibility inside the supplied manuscript; it is still a
+planning result without a human paired DCE.
+
+## Five-task application grid
+
+An exhaustive profile audit finds 677 unique reflections satisfying exact
+candidate-menu preservation, equal plus/minus squared geometry, and an odd
+existing nonlinear interaction. A pre-outcome grid selects five tasks with
+candidate A--B gaps .20, .40, .60, .80, and 1.00. Each has an odd interaction
+signal of .55. This provides a feasible multi-task supplement template; pilot
+semantic checks and final power analysis remain open.
+
+## Fibre-optimal design criterion
+
+The application design now has a pre-outcome information rule
+(I_{odd}=p(1-p)s^2), with an additional exact antisymmetry constraint on the
+omitted interaction. Of 648 pure-odd candidate reflections, the selected grid
+has candidate gaps approximately .20, .35, .55, .75, and .95 and odd signal .90
+in every task. This gives the supplement a reproducible design criterion beyond
+hand-picked examples.
+
+## Calibration uncertainty gate
+
+A coefficient-perturbation audit shows null rejection .030 at candidate
+coefficient noise SD .02 and .150 at SD .05 for the selected smart-device
+pair. The method therefore requires an independent calibration pilot and a
+predeclared candidate-gap tolerance. This is an identified empirical gate,
+not a hidden assumption of exact coefficients.
+
+## Transformation-group collision audit
+
+A 2024 Journal of Econometrics paper on latent utility and permutation
+invariance is a closer theoretical neighbor than the prior search found. The
+novelty claim has been narrowed accordingly: the paper will present an observed
+attribute-space DCE specification audit with candidate menu preservation and
+odd/even response separation, not a general latent transformation-invariance
+theorem.
+
+## JOCM positioning audit
+
+Recent JOCM papers reinforce the fit of a design-based specification audit:
+Bayesian design algorithms, ordering-effect reviews, randomized level-overlap
+studies, interpretable ML, and model-building workflow analyses all treat
+experimental validity and transparent design as central. The submission should
+lead with the parity-fibre audit and information criterion; the smart-device
+simulation remains a testbed and the original XGBoost crossover remains a
+benchmark.
+
+## Matched multi-task design comparison
+
+At 150 respondents and five tasks, a weak omitted interaction gives .490 power
+for the ordinary candidate grid and .870 for the fibre-optimal grid; the
+combined omitted-plus-even-scale rates are .335 and .785. Null rejection is
+.015 and .055, and even-scale rejection is .040 versus .045. Strong omitted
+signals saturate at 1.000 for both. The information criterion is retained as a
+weak-signal design improvement, not a universal power-dominance claim.
+
+## Pre-registration specification
+
+The smart-device supplement now has a frozen protocol covering independent
+calibration, candidate-gap and geometry tolerances, pure-odd screening, one-
+member randomization, global cluster sign-flip inference, max-T secondary task
+contrasts, even-component diagnostics, and order/semantic negative controls.
+`analysis/verify_smart_device_preregistration.py` checks the five-task grid and
+reports `preregistration_invariants=PASS`.
+
+## Manuscript-ready innovation section
+
+A direct prose-and-equation draft now states the research problem, reflected
+utility-fibre estimand, moderate-utility extension, fibre information criterion,
+smart-device implementation, contribution claims, and failure boundaries. It
+is saved as `manuscript/innovation_section_draft.md` and can anchor the Word
+manuscript rewrite.
+
+## Revision package round thirteen
+
+A complete manuscript-level package now specifies the recommended title,
+abstract, section order, contribution claims, result hierarchy, tables, figures,
+and material to demote. The main paper will lead with the design-based
+specification audit; the XGBoost crossover will appear as a bounded predictive
+benchmark.
+
+## Round-fourteen anti-stitch and complexity-balance audit
+
+The nearest-neighbour review found that the method cannot be presented as a
+general symmetry theory. Healy and Leo's 2026 Journal of Economic Theory paper
+characterizes experiments that test deterministic preference models. Shubatt
+and Yang's comparison-complexity model shows that equal utility gaps can still
+produce unequal choice rates when value-weighted (L_1) distance differs.
+McGranaghan et al. (2024) show that differential noise can bias paired-choice
+tests. These papers change the design requirements and narrow the claim.
+
+The core contribution is now one design object: a candidate-preserving fibre
+with a matched nuisance signature. The signature requires equality of the
+candidate menu vector, weighted (L_1) comparison distance, changed-attribute
+count, raw level-change load, and component-sign counts. Reflection, odd/even
+contrasts, and task optimization follow from this object; they are not separate
+borrowed theories.
+
+The original smart-device grid failed the full signature audit. None of its
+five selected pairs matched the weighted (L_1) profile. A corrected search
+finds 58 pure-odd nuisance-balanced reflections and selects gaps near .32,
+.38, .57, .80, and .98. In a binary moderate-utility stress test with 600
+respondents, 200 replications, and 999 cluster sign flips, the loose grid
+rejects a complexity-only null in .185 of samples, while the balanced grid
+rejects in .050. With the omitted interaction added, both designs reject in
+1.000 of samples. The result is a direct negative-control justification for the
+new balance condition.
+
+The innovation section, preregistration specification, revision package, and
+reproducibility scripts now use the nuisance-balanced design. The remaining
+empirical gate is a human or external-data DCE with independent calibration,
+semantic screening, and the frozen assignment protocol.
+
+## Round-sixteen assignment and heterogeneity audit
+
+The first versions of the profile and multi-task benchmarks drew a new
+orientation inside each task while using respondent-cluster sign flips. Those
+versions are discarded. The corrected scripts draw one orientation coin per
+respondent block and share it across the five tasks. The sign-flip reference
+now matches the assignment unit.
+
+With 600 respondents, 200 replications, and 999 flips, the corrected profile
+has global null rejection .035 and max-T null rejection .050. A localized
+omitted direction gives global power .330, profile power .885, and localization
+.990. A random-taste boundary control gives rejection .085, .095, and .085 at
+coefficient standard deviations 0, .1, and .2. These values keep the central
+claim bounded: the design audits a candidate relation and does not identify a
+unique omitted mechanism under unmodelled heterogeneity. The full audit is in
+`manuscript/novelty_audit_round16.md`.
+
+## Round-eighteen structural-fibre redesign
+
+The topic audit in `manuscript/jocm_topic_gap_audit_round18.md` queried the
+2021--2026 JOCM DOI corpus and separated four active streams: assisted
+specification and ML, efficient DCE design, behavioural extensions, and
+specification/invariance tests. The unresolved problem is pre-outcome
+coverage of departures from a coarsened candidate basis.
+
+The structural search in `analysis/structural_fibre_design.py` constructs
+candidate-preserving pairs by exact equality of the candidate sufficient
+statistic vector. This makes the equality valid for every candidate
+coefficient vector. It enumerates 1,024 admissible reflections, enforces equal
+raw comparison signatures, and selects a five-task block with a maximin local
+coverage criterion. The selected gaps are .22, .36, .56, .66, and .82; its
+coverage eigenvalues are 1.648, 6.063, and 7.352.
+
+In 200-replication simulations with 600 respondents and 499 sign flips, the
+structural maximin block has minimum feature power .67 at zero coefficient
+perturbation and .65 at perturbation standard deviation .05. A random
+structural block has minimum feature power .40 and .45 under the same two
+conditions. Null rejection for the maximin block is .045, .035, .045, and .020
+at coefficient standard deviations 0, .02, .05, and .10.
+
+## Round-nineteen independent-core audit
+
+The overlap audit found a real adjacent result: Errore, Nachtsheim, and Li's
+2013 conference abstract already studies maximin model-robust DCE designs for
+main effects and interactions. The manuscript therefore drops any generic
+“first maximin DCE” claim. The primary contribution is now the fibre quotient
+completeness operator and its rank/null-space certificate; maximin selection is
+a secondary conditioning rule. The full collision audit is in
+`manuscript/literature_overlap_audit_round19.md`, and the proposition and
+smart-device calculation are in
+`manuscript/fibre_quotient_completeness_round19.md`.
+
+The remaining submission gate is a preregistered paired DCE or documented
+external dataset with independent calibration, semantic screening, and a
+direct comparison against an efficient block and ordinary added-term/residual
+diagnostics.
