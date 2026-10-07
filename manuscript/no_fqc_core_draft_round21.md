@@ -213,6 +213,13 @@ power when the target departure lies close to those directions. The
 out-of-library geometry-framing condition shows why the nuisance library must
 be frozen and expanded through predeclared sensitivity analyses.
 
+The departure-strength curve makes this trade-off explicit. For the omitted
+decomposition, NO-FQC power is .375 at strength $\eta=0.10$ and .980 at
+$\eta=0.30$, while the raw-signal comparator is .755 and 1.000. The projected
+test remains close to size for the declared scale and framing conditions at
+both strengths because those conditions do not contain the target utility
+direction.
+
 These are planning simulations. They do not establish a human preference
 effect. A paired DCE must report usable-pair counts, semantic screening,
 response time, task complexity, sample-size calculations, and the action for a

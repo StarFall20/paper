@@ -130,6 +130,11 @@ to a departure aligned with them. That trade-off is part of the contribution
 and must be reported. The method earns its value by keeping declared nuisance
 false positives near size and by exposing when the library is incomplete.
 
+The prespecified effect-strength check gives NO-FQC power .375 at
+$\eta=0.10$ and .980 at $\eta=0.30$ for the omitted decomposition; the
+raw-signal comparator gives .755 and 1.000. This curve reports the cost of
+nuisance protection instead of hiding it in a single tuned effect size.
+
 All values are planning simulations. They do not establish a human preference
 effect.
 

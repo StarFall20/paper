@@ -268,9 +268,10 @@ def randomization_pvalue(scores, reps, seed):
     return float((1.0 + np.sum(draws >= observed)) / (reps + 1.0))
 
 
-def evaluate(rows, design, condition, respondents, permutation_reps, seed):
+def evaluate(rows, design, condition, respondents, permutation_reps, seed,
+             departure_strength=0.10):
     rng = np.random.default_rng(seed)
-    eta = 0.10 if condition in {"omitted", "combined"} else 0.0
+    eta = departure_strength if condition in {"omitted", "combined"} else 0.0
     scale_strength = 0.50 if condition in {"scale", "combined"} else 0.20 \
         if condition == "unlisted_complexity" else 0.0
     framing = 0.20 if condition == "framing" else \
@@ -334,7 +335,8 @@ def write_design(path, rows, design):
 
 def run(reps=200, respondents=600, permutation_reps=499,
         design_out="results/no_fqc_structural_design.csv",
-        benchmark_out="results/no_fqc_structural_benchmark_200rep.csv"):
+        benchmark_out="results/no_fqc_structural_benchmark_200rep.csv",
+        departure_strength=0.10):
     rows, gaps, variance, departure, nuisance = prepare_pool()
     design = select_design(rows, gaps, variance, departure, nuisance)
     write_design(design_out, rows, design)
@@ -352,7 +354,8 @@ def run(reps=200, respondents=600, permutation_reps=499,
         for rep in range(reps):
             orth, naive, p_orth, p_naive = evaluate(
                 rows, design, condition, respondents, permutation_reps,
-                82000000 + rep)
+                82000000 + rep,
+                departure_strength=departure_strength)
             records.extend((
                 {"condition": condition, "rep": rep,
                  "diagnostic": "nuisance_orthogonal", "reject": orth,
@@ -374,6 +377,7 @@ def run(reps=200, respondents=600, permutation_reps=499,
             print(condition, diagnostic, "rejection_rate",
                   round(float(np.mean([x["reject"] for x in subset])), 3))
     print("wrote", len(records), "rows to", benchmark_out)
+    print("departure_strength", departure_strength)
 
 
 if __name__ == "__main__":
@@ -385,5 +389,6 @@ if __name__ == "__main__":
                         default="results/no_fqc_structural_design.csv")
     parser.add_argument("--benchmark-out",
                         default="results/no_fqc_structural_benchmark_200rep.csv")
+    parser.add_argument("--departure-strength", type=float, default=0.10)
     args = parser.parse_args()
     run(**vars(args))
