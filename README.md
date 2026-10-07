@@ -1,15 +1,14 @@
-# Fibre-conditional sufficiency audits for choice modelling
+# Recoverability-aware model-family diagnostics for choice modelling
 
 This repository is organised around the revised Journal of Choice Modelling study.
-The current contribution is a fibre-conditional sufficiency audit for a
-coarsened candidate menu summary \(\phi\). The null is
-\(Y\perp X\mid\phi(X)\); the conditional response function is left
-unrestricted. Feasible reflected DCE tasks preserve the complete candidate
-menu vector and randomize raw profiles within each fibre. A finite exposure
-matrix certifies which residual directions are structurally visible. The
-nuisance-orthogonal fibre quotient calculation is an extension for declared
-scale and framing tangents. Earlier BMST/UFIT labels are historical names and
-are not separate contributions.
+The current innovation candidate is a recoverability-aware model-family
+diagnostic. It separates held-out gains from a predeclared observable utility
+library and respondent-level score overdispersion, then reports base,
+observed-structure, heterogeneity, or unresolved actions under thresholds
+calibrated on independent additive simulations. The candidate-preserving fibre
+audits remain negative controls and design certificates; their finite-support
+saturated score is not claimed as a new inferential test. The Round 28
+definition and results are in `manuscript/recoverability_triage_round28.md`.
 
 The conceptual core is in
 `manuscript/fibre_sufficiency_exposure_round22.md` and its proof note. The

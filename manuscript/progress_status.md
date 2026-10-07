@@ -1,5 +1,28 @@
 # Revision progress status
 
+## Round 28 status: recoverability-aware triage run completed
+
+The current innovation candidate is a selective model-family diagnostic rather
+than a new fibre test. It uses frozen additive-calibrated thresholds for an
+out-of-fold structured-utility gain and respondent score overdispersion, with
+an explicit unresolved branch when observable structure and heterogeneity
+signals coexist. The formal run uses 100 additive calibration replications and
+24 evaluation replications per mechanism, with 400 respondents and 12 tasks.
+Action accuracy is 1.000 for the nonlinear condition, 0.917 for interaction,
+0.958 for isolated heterogeneity, and 0.542 for threshold and combined
+conditions. The rule is not claimed to dominate validation-only prediction;
+its contribution is the recoverability/mechanism decision and its measured
+failure boundary. The full account is in
+`manuscript/recoverability_triage_round28.md`.
+
+The public Swissmetro audit uses 6,768 purpose-1/3 observations from 752
+respondents. Validation gains are 0.01234 for alternative-specific
+time/cost MNL and 0.02519 for the flexible learner; the independent test log
+losses are 0.79821, 0.76579, and 0.79599 for additive, structured, and
+flexible models. The public data have no mechanism labels, so this table is an
+external predictive check only. Outputs are in
+`results/swissmetro_recoverability_audit.csv`.
+
 ## Round 27 status: corrected public DCE run and novelty downgrade
 
 The Swissmetro analysis now follows the canonical DCE preparation: 6,768
