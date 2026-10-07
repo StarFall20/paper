@@ -18,7 +18,10 @@ multinomial full-menu gate is implemented in
 `analysis/fibre_exposure_counterexample.py`. The reproducible support optimizer
 is in `analysis/fibre_exposure_design_optimizer.py`; its summary and Pareto
 outputs are in `results/fibre_exposure_design_summary.csv` and
-`results/fibre_exposure_design_frontier.csv`. The current status and remaining
+`results/fibre_exposure_design_frontier.csv`. The independent innovation
+screen and policy-weighting falsification gate are recorded in
+`manuscript/independent_innovation_search_round23.md` and implemented in
+`analysis/fibre_policy_weighted_design.py`. The current status and remaining
 empirical gates are recorded in `manuscript/progress_status.md`.
 
 ## Planned structure

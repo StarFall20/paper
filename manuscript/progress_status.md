@@ -1,5 +1,26 @@
 # Revision progress status
 
+## Round 23 status: independent innovation search and policy-weighting gate
+
+The new literature pass did not identify a stronger, lower-overlap replacement
+for the fibre-conditional sufficiency audit. Method transfer, variable
+innovation, and reverse-design candidates were screened against recent JOCM
+work on assisted specification, decision-rule heterogeneity, attribute
+attendance, choice-set size, model-choice sensitivity, and MNL misspecification.
+The primary object remains the candidate-preserving fibre, efficient residual
+exposure, and finite rank certificate.
+
+I also tested a policy-weighted exposure criterion. A naive trace score that
+weights residual directions by a declared deployment profile selected supports
+with structural exposure rank 1, even when the policy-direction matrix had
+rank 2. The structural log-determinant reference retained rank 2 and minimum
+eigenvalue 0.1805. This failure rules out policy weighting as a replacement
+theory; it can remain a constrained sensitivity analysis only after the policy
+functional and a full-rank requirement are frozen. The audit is in
+`manuscript/independent_innovation_search_round23.md`, with code and results
+in `analysis/fibre_policy_weighted_design.py` and
+`results/fibre_policy_weighted_design.csv`.
+
 ## Round 22 status: conditional-sufficiency reformulation and design gate
 
 The innovation has been narrowed to one testable object: a candidate summary
