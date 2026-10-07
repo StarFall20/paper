@@ -144,6 +144,40 @@ Adding feasible menus repairs u when the enlarged L_S maps u to a nonzero
 contrast. Exact rank calculations on finite rational features require no
 attribute derivatives.
 
+### 6.1 Support-complete finite theorem
+
+There is a dictionary-free version on a finite support. For fibre (g) with
+(K_g\ge2) profiles, let (Q_g) have orthonormal columns spanning the
+orthogonal complement of ({\bf1}_{K_g}). For conditional weights (w_g),
+define
+
+    E_g^sat = alpha_g kappa_g Q_g' [diag(w_g)-w_g w_g'] Q_g.
+
+If every supported profile has positive weight and (kappa_g>0), then
+(E_g^sat) is positive definite and has rank (K_g-1). The direct sum over
+all non-singleton fibres therefore has rank
+
+    r_sat = sum_g (K_g - 1).
+
+If any profile receives zero mass, the corresponding block loses rank. More
+generally, the kernel of the direct sum is exactly the set of profile-level
+departures that are constant on every positively weighted subset of each
+fibre. Thus the rank and smallest eigenvalue are a complete structural
+certificate for the declared finite support. This result is a finite ANOVA
+decomposition of the conditional-sufficiency tangent; it is not a claim that
+finite support identifies an arbitrary function outside the declared menu
+universe. The saturated-LR benchmark in Round 27 shows that this finite
+contrast parameterization has the same tested alternative as unrestricted
+profile terms; the proof supplies a checkable exposure certificate, not a new
+finite-support inferential family.
+
+For the (3\times3) support with (phi(a,b)=a+b), the non-singleton fibres
+have sizes (2,3,2), so (r_{sat}=1+2+1=4). The endpoint candidate-precision
+design has rank zero. A support-complete design with positive mass on every
+profile has rank four and minimum exposure eigenvalue 0.1222 in the declared
+normalization. The calculation is reproduced in
+`analysis/support_complete_fibre_design.py`.
+
 ## 7. Randomization and process interpretation
 
 A frozen within-fibre assignment law supplies a conditional-randomization

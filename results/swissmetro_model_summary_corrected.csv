@@ -1,0 +1,2 @@
+raw_rows,dce_rows_after_purpose_filter,retained_rows,dropped_or_non_dce,respondents,choice_share_train,choice_share_sm,choice_share_car,beta_train_asc,beta_car_asc,beta_time,beta_cost,in_sample_log_score,in_sample_accuracy,two_fold_oof_log_score,two_fold_oof_accuracy
+10728,6768,6768,3960,752,0.13416075650118203,0.6043144208037825,0.26152482269503546,-0.7011867500818998,-0.1546324273513565,-1.2778600569469762,-1.0837904002387513,-0.7877145400289373,0.6764184397163121,-0.8045486374011885,0.6690307328605201

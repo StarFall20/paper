@@ -1,5 +1,11 @@
 # Round 25: public Swissmetro external validation
 
+> **Superseded.** This record used an all-purpose sample, a non-converged
+> fixed-step fit, and an observational pairing fallback. The corrected DCE
+> analysis is documented in `manuscript/progress_status.md` (Round 27) and the
+> outputs `results/swissmetro_*_corrected.csv`. The values below are retained
+> only as an implementation history and must not be used in the manuscript.
+
 ## Purpose
 
 I ran the fibre-conditional diagnostic on the public Swissmetro stated-choice

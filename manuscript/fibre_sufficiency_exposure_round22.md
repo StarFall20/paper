@@ -104,6 +104,32 @@ The result is local in the departure amplitude \(\eta\), not in the attribute
 levels. It therefore applies to finite discrete fibres. No derivative with
 respect to a discrete attribute is required.
 
+### Support-complete finite certificate
+
+The dictionary version is useful when the analyst has a substantively fixed
+residual class. It is not needed for a finite DCE support. If fibre \(g\) has
+\(K_g\) feasible profiles, let \(Q_g\) be an orthonormal basis for the
+\(K_g-1\) vectors orthogonal to the constant vector. The saturated block is
+
+\[
+ E_g^{\mathrm{sat}}=\alpha_g\kappa_g Q_g^\top
+ \{\operatorname{diag}(w_g)-w_gw_g^\top\}Q_g.
+\]
+
+The direct sum over non-singleton fibres has dimension
+
+\[
+ r_{\mathrm{sat}}=\sum_g(K_g-1).
+\]
+
+Every non-constant response pattern on the declared finite support has a
+coordinate in this space. Positive mass on every feasible profile gives rank
+\(r_{\mathrm{sat}}\); zero mass or a duplicated profile removes the
+corresponding direction. The smallest eigenvalue of the direct sum is a
+support-conditioning certificate. This is stronger than a rank result for a
+selected polynomial dictionary, while it does not imply nonparametric
+coverage outside the declared support.
+
 ## Computable certificate
 
 For a finite support, fibre \(g\) contains profiles \(x_{g1},\ldots,x_{gK_g}\)
@@ -173,10 +199,11 @@ linear-regression residual plot.
 ## A reproducible support optimizer
 
 The certificate can drive design search before respondents are recruited. For
-each candidate support (S), calculate the candidate-index precision and the
-exposure matrix (E(S,w)) for a declared residual dictionary. A finite
-coordinate-exchange algorithm moves one design count at a time, enforces a
-minimum mass in each non-singleton fibre, and maximizes
+each candidate support (S), calculate the candidate-index precision and either
+the support-complete matrix \(E^{\mathrm{sat}}(S,w)\) or the exposure matrix
+\(E(S,w)\) for a declared residual dictionary. A finite coordinate-exchange
+algorithm moves one design count at a time, enforces a minimum mass in each
+non-singleton fibre, and maximizes
 
 \[
   \log\det\{E(S,w)+\varepsilon I\}+\lambda\,\operatorname{Var}_w\{\phi(X)\}.
@@ -205,9 +232,11 @@ The result gives a sharp reviewer-facing implication: a design can be highly
 informative for the declared candidate index and completely uninformative for
 raw-coordinate violations of conditional sufficiency. The proposed optimizer
 creates the missing within-fibre support and reports the rank certificate
-before estimation. The implementation is in
-`analysis/fibre_exposure_design_optimizer.py`, with the summary and Pareto
-frontier in `results/fibre_exposure_design_summary.csv` and
+before estimation. The support-complete check is implemented in
+`analysis/support_complete_fibre_design.py`, with output in
+`results/support_complete_fibre_design.csv`. The dictionary-based optimizer
+remains in `analysis/fibre_exposure_design_optimizer.py`, with the summary and
+Pareto frontier in `results/fibre_exposure_design_summary.csv` and
 `results/fibre_exposure_design_frontier.csv`.
 
 ## Boundary with nearby literature
@@ -235,20 +264,14 @@ stochastic probability contrasts, local choice tangents, and the exposure of
 raw coordinates discarded by a candidate summary. It does not characterize
 all experiments that test a preference model.
 
-## Evidence required for a submission claim
+## Evidence boundary for the current revision
 
-The current structural and multinomial simulations establish the certificate,
-the full-menu preservation condition, nuisance orthogonality, and the
-separation between structure and power. A submission-ready version still needs
-one of the following empirical validations:
-
-1. a new paired DCE with the preregistered fibre assignment and a frozen
-   candidate summary; or
-2. a public DCE containing repeated or deliberately matched fibres with enough
-   raw-profile support to estimate conditional contrasts.
-
-The empirical comparison must report the fibre support table, the exposure
-eigenvalues, sample-size planning, null controls, complexity and order placebos,
-and a benchmark against a candidate-fit or LR lack-of-fit procedure. The
-conclusion should say which residual directions were exposed and which were
-structurally unavailable.
+The public Swissmetro run supplies a reproducible external model audit. It
+does not supply a candidate-preserving random assignment, so its approximate
+fibre p-values are feasibility diagnostics. The finite-support score has also
+been compared directly with a saturated profile LR; both target the same
+within-fibre alternative. The manuscript must not present the score as a new
+inferential procedure until a distinct design objective or a theorem beyond
+the saturated alternative is supplied. The current revision can report the
+rank/eigenvalue certificate, the corrected public-data model comparison, and
+the explicit limitation without introducing a new survey.

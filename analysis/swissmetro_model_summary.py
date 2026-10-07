@@ -17,9 +17,11 @@ from observational_equivalence_test import design, fit_mnl, predict, read_swissm
 
 
 def valid_rows(path):
-    raw = read_swissmetro(path)
-    kept = [r for r in raw if r["choice"] >= 0 and r["avail"][r["choice"]] > 0]
-    return raw, kept
+    with open(path, newline="") as handle:
+        raw_rows = sum(1 for _ in csv.DictReader(handle, delimiter="\t"))
+    dce = read_swissmetro(path, dce_only=True)
+    kept = [r for r in dce if r["avail"][r["choice"]] > 0]
+    return raw_rows, dce, kept
 
 
 def score(X, y, avail, beta):
@@ -29,7 +31,7 @@ def score(X, y, avail, beta):
 
 
 def run(path, out):
-    raw, rows = valid_rows(path)
+    raw_rows, dce_rows, rows = valid_rows(path)
     ids, y, x, avail = rows_to_arrays(rows)
     X = design(x)
     beta = fit_mnl(X, y, avail)
@@ -49,9 +51,10 @@ def run(path, out):
 
     shares = np.bincount(y, minlength=3) / len(y)
     fields = {
-        "raw_rows": len(raw),
+        "raw_rows": raw_rows,
+        "dce_rows_after_purpose_filter": len(dce_rows),
         "retained_rows": len(rows),
-        "dropped_missing_choice": len(raw) - len(rows),
+        "dropped_or_non_dce": raw_rows - len(rows),
         "respondents": len(np.unique(ids)),
         "choice_share_train": shares[0],
         "choice_share_sm": shares[1],

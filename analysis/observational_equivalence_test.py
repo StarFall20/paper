@@ -18,6 +18,7 @@ import os
 from collections import defaultdict
 
 import numpy as np
+from scipy.optimize import minimize
 
 
 ALT_NAMES = ("train", "sm", "car")
@@ -30,21 +31,38 @@ def softmax(u):
     return e / np.sum(e, axis=1, keepdims=True)
 
 
-def read_swissmetro(path):
+def read_swissmetro(path, dce_only=True):
+    """Read the public Swissmetro file with the canonical SP preparation.
+
+    The DCE analysis follows the documented Biogeme preparation: retain valid
+    choices for purposes 1 and 3, apply the GA discount to train/Swissmetro
+    cost, and retain the stated-preference availability flags.  Setting
+    ``dce_only=False`` is available for an all-row sensitivity check.
+    """
     rows = []
     with open(path, newline="") as f:
         reader = csv.DictReader(f, delimiter="\t")
         for row in reader:
+            choice = int(float(row["CHOICE"])) - 1
+            purpose = int(float(row["PURPOSE"]))
+            if choice < 0:
+                continue
+            if dce_only and purpose not in (1, 3):
+                continue
+            sp = float(row["SP"]) != 0
+            ga_free = float(row["GA"]) == 0
             rows.append({
                 "id": int(float(row["ID"])),
-                "choice": int(float(row["CHOICE"])) - 1,
+                "choice": choice,
                 "x": np.array([
-                    [float(row["TRAIN_TT"]), float(row["TRAIN_CO"])],
-                    [float(row["SM_TT"]), float(row["SM_CO"])],
+                    [float(row["TRAIN_TT"]), float(row["TRAIN_CO"]) * ga_free],
+                    [float(row["SM_TT"]), float(row["SM_CO"]) * ga_free],
                     [float(row["CAR_TT"]), float(row["CAR_CO"])],
                 ], dtype=float),
                 "avail": np.array([
-                    float(row["TRAIN_AV"]), float(row["SM_AV"]), float(row["CAR_AV"]),
+                    float(row["TRAIN_AV"]) * sp,
+                    float(row["SM_AV"]),
+                    float(row["CAR_AV"]) * sp,
                 ], dtype=float),
             })
     return rows
@@ -68,21 +86,45 @@ def design(x):
     return out
 
 
-def fit_mnl(X, y, avail, steps=500, lr=0.25, l2=1e-4):
-    """Fit a small availability-aware MNL using deterministic gradient steps."""
-    beta = np.zeros(X.shape[2])
-    for _ in range(steps):
-        utility = np.einsum("njp,p->nj", X, beta)
-        utility = np.where(avail > 0, utility, -1e9)
-        probs = softmax(utility)
-        # Exclude rows where the observed choice is unavailable (data errors).
-        valid = (avail[np.arange(len(y)), y] > 0)
+def fit_mnl(X, y, avail, l2=1e-8):
+    """Fit an availability-aware MNL by converged BFGS maximum likelihood.
+
+    The previous fixed-step update was sensitive to the very wide Swissmetro
+    cost range.  The objective is written in log-sum-exp form and returns the
+    analytic score, so convergence is checked by the optimizer rather than by
+    an arbitrary learning rate and iteration count.
+    """
+    valid = avail[np.arange(len(y)), y] > 0
+    Xv, yv, av = X[valid], y[valid], avail[valid]
+    n, _, p = Xv.shape
+
+    def objective(beta, need_grad=True):
+        utility = np.einsum("njp,p->nj", Xv, beta)
+        utility = np.where(av > 0, utility, -np.inf)
+        max_u = np.max(utility, axis=1, keepdims=True)
+        exp_shift = np.exp(utility - max_u)
+        denom = np.sum(exp_shift, axis=1, keepdims=True)
+        logp = utility - max_u - np.log(denom)
+        value = -np.sum(logp[np.arange(n), yv]) / n + 0.5 * l2 * np.dot(beta, beta)
+        if not need_grad:
+            return value
+        probs = exp_shift / denom
         target = np.zeros_like(probs)
-        target[np.arange(len(y)), y] = 1.0
-        error = (probs - target) * valid[:, None]
-        grad = np.einsum("nj,njp->p", error, X) / max(valid.sum(), 1) + l2 * beta
-        beta -= lr * grad
-    return beta
+        target[np.arange(n), yv] = 1.0
+        grad = np.einsum("nj,njp->p", probs - target, Xv) / n + l2 * beta
+        return value, grad
+
+    result = minimize(lambda b: objective(b), np.zeros(p), jac=True,
+                      method="BFGS", options={"gtol": 1e-8, "maxiter": 4000})
+    # BFGS can report precision loss when the Hessian is nearly singular even
+    # after reaching a numerically stationary point (common for rich
+    # alternative-specific designs).  Accept only a finite solution with a
+    # small analytic score; otherwise fail loudly.
+    if not result.success:
+        grad_norm = float(np.linalg.norm(result.jac)) if result.jac is not None else np.inf
+        if not np.isfinite(result.fun) or grad_norm > 2e-5:
+            raise RuntimeError(f"MNL optimizer did not converge: {result.message}; gradient={grad_norm}")
+    return result.x
 
 
 def predict(X, avail, beta):
@@ -101,31 +143,33 @@ def pair_rows(ids, x, avail, beta, tolerance, orientation="time"):
     for i, rid in enumerate(ids):
         by_id[int(rid)].append(i)
     for rid, indices in by_id.items():
-        for left_pos, left in enumerate(indices):
-            for right in indices[left_pos + 1:]:
-                if not np.array_equal(avail[left], avail[right]):
+        for left_pos, left_idx in enumerate(indices):
+            for right_idx in indices[left_pos + 1:]:
+                if not np.array_equal(avail[left_idx], avail[right_idx]):
                     continue
                 # Coordinates are utility differences relative to Swissmetro.
-                left_coord = np.array([utility[left, 0] - utility[left, 1],
-                                       utility[left, 2] - utility[left, 1]])
-                right_coord = np.array([utility[right, 0] - utility[right, 1],
-                                        utility[right, 2] - utility[right, 1]])
+                left_coord = np.array([utility[left_idx, 0] - utility[left_idx, 1],
+                                       utility[left_idx, 2] - utility[left_idx, 1]])
+                right_coord = np.array([utility[right_idx, 0] - utility[right_idx, 1],
+                                        utility[right_idx, 2] - utility[right_idx, 1]])
                 if np.max(np.abs(left_coord - right_coord)) <= tolerance:
                     # Deterministic covariate orientation avoids using outcomes
                     # to choose the sign.  Observational analyses should report
                     # sensitivity because this convention is not randomized.
                     if orientation == "index":
-                        left_key = (left,)
-                        right_key = (right,)
+                        left_key = (left_idx,)
+                        right_key = (right_idx,)
                     elif orientation == "cost":
-                        left_key = (float(x[left, :, 1].sum()), float(x[left, :, 0].sum()), left)
-                        right_key = (float(x[right, :, 1].sum()), float(x[right, :, 0].sum()), right)
+                        left_key = (float(x[left_idx, :, 1].sum()), float(x[left_idx, :, 0].sum()), left_idx)
+                        right_key = (float(x[right_idx, :, 1].sum()), float(x[right_idx, :, 0].sum()), right_idx)
                     else:  # time: the declared default
-                        left_key = (float(x[left, :, 0].sum()), float(x[left, :, 1].sum()), left)
-                        right_key = (float(x[right, :, 0].sum()), float(x[right, :, 1].sum()), right)
+                        left_key = (float(x[left_idx, :, 0].sum()), float(x[left_idx, :, 1].sum()), left_idx)
+                        right_key = (float(x[right_idx, :, 0].sum()), float(x[right_idx, :, 1].sum()), right_idx)
+                    pair_left, pair_right = left_idx, right_idx
                     if right_key < left_key:
-                        left, right = right, left
-                    pairs.append((rid, left, right, probs[left], probs[right]))
+                        pair_left, pair_right = pair_right, pair_left
+                    pairs.append((rid, pair_left, pair_right,
+                                  probs[pair_left], probs[pair_right]))
     return pairs
 
 
@@ -153,7 +197,7 @@ def cluster_stat(contrasts, clusters):
     cluster_means = sums / counts[:, None]
     mean = cluster_means.mean(axis=0)
     centered = cluster_means - mean
-    cov = centered.T @ centered / max(len(unique) * (len(unique) - 1), 1)
+    cov = centered.T @ centered / max(len(unique) - 1, 1)
     cov += np.eye(3) * 1e-10
     stat = float(len(unique) * (mean @ np.linalg.pinv(cov) @ mean))
     return stat, mean, cov
@@ -288,11 +332,9 @@ def run_simulation(reps=80, bootstrap=199, tolerance=0.02,
 def run_swissmetro(path, out="results/observational_equivalence_swissmetro.csv",
                    tolerances=(0.01, 0.02, 0.05, 0.1), bootstrap=499,
                    orientations=("index", "time", "cost")):
-    rows = read_swissmetro(path)
-    # CHOICE=0 is the missing-choice code in the public Swissmetro file.
-    # Drop those records before any estimation or pairing; otherwise the
-    # NumPy index -1 would silently recode them as the last alternative.
-    raw_rows = len(rows)
+    with open(path, newline="") as f:
+        raw_rows = sum(1 for _ in csv.DictReader(f, delimiter="\t"))
+    rows = read_swissmetro(path, dce_only=True)
     rows = [r for r in rows if r["choice"] >= 0 and r["avail"][r["choice"]] > 0]
     ids, choices, x, avail = rows_to_arrays(rows)
     records = []
@@ -302,7 +344,7 @@ def run_swissmetro(path, out="results/observational_equivalence_swissmetro.csv",
                                     bootstrap=bootstrap, orientation=orientation)
             records.append({"orientation": orientation, "tolerance": tolerance,
                             "raw_rows": raw_rows, "rows": len(rows),
-                            "dropped_missing_choice": raw_rows - len(rows),
+                            "dropped_or_non_dce": raw_rows - len(rows),
                             "respondents": len(np.unique(ids)),
                             **{k: v for k, v in result.items() if k != "folds"}})
             print("Swissmetro", "orientation", orientation, "tolerance", tolerance,
