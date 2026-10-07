@@ -96,6 +96,21 @@ eigenvalue says the chosen block is well-conditioned for detecting the weakest
 direction. The endpoint mode-support interaction is excluded because it is
 constant on the (m+s) fibre; that exclusion is a structural result.
 
+## Incremental comparator
+
+The earlier paired-task benchmark supplies the required same-budget comparison
+with ordinary diagnostics. When observational tasks are concentrated near the
+centre of the decomposition coordinate, the added-term observational LR and
+the out-of-fold residual proxy reject the omitted decomposition in .06 and .03
+of 200 replications. The parity-fibre design rejects in 1.00. Under an
+even-scale nuisance, the LR and residual rates are .03 and .06, while the
+parity-fibre rate is .05. The comparison has a narrow interpretation: the
+fibre design creates support for the declared odd departure, while the scale
+negative control shows that an odd contrast is not a general mechanism
+separator. These values come from
+`results/parity_incremental_benchmark.csv` and should be reported alongside
+the structural rank certificate.
+
 ## Why this is a single idea
 
 The paper does not join unrelated tests. It starts from one question: which
