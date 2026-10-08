@@ -42,6 +42,14 @@ certificate for a coarsened utility representation.
 2. Keep the Word artifact and markdown companion aligned if further prose
    changes are made.
 
+The legacy all-in-one smoke script stops before the current fibre modules
+because this runtime does not include scikit-learn, which the older ML-assisted
+entry point imports. The support-complete design recheck, 30-replication
+benchmark, saturated-LR boundary check, smart-device rank check, and policy
+oracle checks run independently with the bundled NumPy/SciPy runtime. The
+missing optional dependency is recorded as an environment limitation rather
+than a failure of the primary release.
+
 The remaining work is approximately 1--2 focused hours for a minimal,
 internally consistent submission package. A full second public-DCE validation
 would add about one working day and is outside the current no-questionnaire
