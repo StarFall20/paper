@@ -1,16 +1,21 @@
-# Recoverability-aware model-family diagnostics for choice modelling
+# Finite-support utility-basis audits for choice modelling
 
 This repository is organised around the revised Journal of Choice Modelling study.
-The current innovation candidate is a counterfactual policy-path recoverability
-certificate. It measures disagreement between additive and structured choice
-models over a predeclared feasible intervention path, combines that gap with
-respondent score overdispersion, and reports base, observed-structure,
-heterogeneity, or unresolved actions. The candidate-preserving fibre audits
-remain negative controls and design certificates; their finite-support
-saturated score is not claimed as a new inferential test. The Round 29
-definition and results are in `manuscript/policy_path_recoverability_round29.md`.
-The richer coverage probe and cubic out-of-library stress test are implemented
-in `analysis/recoverability_triage_ood.py`.
+The primary contribution is a support-complete fibre audit for a coarsened
+utility representation. It holds the complete candidate menu summary fixed
+inside feasible non-singleton fibres, reports a pre-outcome rank and eigenvalue
+certificate, and searches for support repairs when a declared direction is
+structurally blind. The finite-support score is deliberately compared with a
+saturated fibre likelihood ratio; the manuscript claims the design certificate
+and repair rule, not a new universal inferential family. The current manuscript
+and decision memo are `manuscript/JOCM_fibre_sufficiency_revision.docx` and
+`manuscript/innovation_decision_round31.md`.
+
+The counterfactual policy-path audit is retained as a bounded negative control.
+It documents a common-mode failure in which two models agree on observed
+support while sharing an omitted off-support term. Its corrected oracle and
+Swissmetro outputs remain reproducible in the policy-path scripts and are not a
+second headline contribution.
 
 The conceptual core is in
 `manuscript/fibre_sufficiency_exposure_round22.md` and its proof note. The
