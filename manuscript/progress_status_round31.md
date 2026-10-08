@@ -35,12 +35,14 @@ certificate for a coarsened utility representation.
   back byte-for-byte for verification. The binary Word file remains the local
   submission artifact; the markdown companion is the repository-readable copy.
 
-## Remaining work
+## Release status
 
-1. Run the final repository smoke checks and record any environment-specific
-   limitations.
-2. Keep the Word artifact and markdown companion aligned if further prose
-   changes are made.
+The no-questionnaire computational package is complete. The Word manuscript,
+markdown companion, cover letter, data-availability statement, release
+manifest, innovation decision memo, readiness checklist, scripts, and round-31
+outputs are present locally. The connected GitHub main branch contains the
+repository-readable files, and each was fetched back byte-for-byte against the
+local copy.
 
 The legacy all-in-one smoke script stops before the current fibre modules
 because this runtime does not include scikit-learn, which the older ML-assisted
@@ -50,7 +52,6 @@ oracle checks run independently with the bundled NumPy/SciPy runtime. The
 missing optional dependency is recorded as an environment limitation rather
 than a failure of the primary release.
 
-The remaining work is approximately 1--2 focused hours for a minimal,
-internally consistent submission package. A full second public-DCE validation
-would add about one working day and is outside the current no-questionnaire
-scope.
+No required work remains within the current scope. A randomized
+candidate-preserving DCE or a second public DCE would be a future empirical
+extension and would add about one working day.
