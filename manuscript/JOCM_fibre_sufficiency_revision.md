@@ -97,6 +97,8 @@ The hidden-direction result demonstrates the operational value of spanning the f
 
 A saturated fibre likelihood-ratio boundary check uses the same finite fibres and the same conditional randomization law. Its rejection pattern matches the support-complete score: null rejection is 0.030 for the score and 0.045 for the LR, while all four non-null directions have rejection 1.000 for both. This equivalence is reported as a scope check. The added contribution is the pre-outcome rank certificate and the support optimizer that tells an analyst when the saturated alternative has no structural content.
 
+The expanded boundary check gives the same conclusion. With 800 observations, 500 replications, and 499 randomization draws, null rejection is 0.062 for the score and 0.064 for the saturated LR; all four non-null directions are rejected in 1.000 of replications. With 400 observations, 1,000 replications, and 199 draws, the corresponding null rates are 0.038 and 0.043, again with 1.000 rejection for every non-null direction. These results support the design certificate and do not support a claim of a distinct inferential family.
+
 ## 6.1 Multinomial and nuisance controls
 
 The multinomial implementation preserves the complete menu vector and uses two independent probability contrasts for each three-alternative arm. The residual rank is 3 and the smallest residual eigenvalue is 1.203. The nuisance-orthogonal extension projects declared framing and scale tangents with the full menu covariance metric. It is a control for a specified nuisance span; it does not grant immunity to unlisted process changes.
@@ -113,9 +115,9 @@ The public Swissmetro purpose-1/3 data provide 6,768 observations from 752 respo
 
 ## 8 Relation to nearby work and claim boundary
 
-Assisted specification methods search across candidate utility forms. Misspecification tests compare outcomes with a fitted model or a broad MNL restriction. Optimal designs target parameter precision or discrimination between specified rivals. Counterfactual robustness work studies the stability of downstream predictions. The present audit addresses a different finite design object: whether the raw coordinates discarded by a declared candidate menu summary have nonzero within-fibre exposure on the support the experiment creates.
+Assisted specification methods search across candidate utility forms. Misspecification tests compare outcomes with a fitted model or a broad MNL restriction. Optimal designs target parameter precision or discrimination between specified rivals. Conditional-randomization exposure-mapping tests in network interference use the same level-set logic in a different domain. Counterfactual robustness work studies the stability of downstream predictions. The present audit addresses a different finite design object: whether the raw coordinates discarded by a declared candidate menu summary have nonzero within-fibre exposure on the support the experiment creates.
 
-The method should be presented as a design-based finite-support audit. It should not be described as the first conditional-randomization test, a universal MNL misspecification test, or a nonparametric identification theorem. The saturated-LR comparison prevents an inflated novelty claim. The useful distinction is that the rank and support-repair output are available before outcome data and can reveal a zero-information design that ordinary precision criteria accept.
+The method should be presented as a design-based finite-support audit. It should not be described as the first conditional-randomization test, a universal MNL misspecification test, or a nonparametric identification theorem. The saturated-LR comparison prevents an inflated novelty claim. The useful distinction is that the rank and support-repair output are available before outcome data and can reveal a zero-information design that ordinary precision criteria accept. The literature audit covered Crossref, publisher pages, open repositories, and broad web searches; direct Scopus and Google Scholar result pages were not consistently accessible, so no database-complete priority claim is made.
 
 The separate policy-path audit supplies a common-mode negative control. Two models can agree on observed support and share an omitted off-support term. That result explains why model agreement cannot certify counterfactual correctness; it is not a second headline method.
 
@@ -129,7 +131,7 @@ The scope is deliberately finite. A saturated raw basis has singleton fibres and
 
 All scripts, locked CSV outputs, and the public-data provenance record are versioned at https://github.com/StarFall20/paper. The primary entry points are analysis/support_complete_fibre_design.py, analysis/support_complete_fibre_benchmark.py, analysis/support_complete_vs_saturated_benchmark.py, analysis/smart_device_fibre_design.py, and analysis/swissmetro_policy_path_audit.py. Raw public data are not redistributed.
 
-The finite-support recheck uses 30 replications, 400 observations, and 199 conditional randomization draws. The original locked benchmark uses 200 replications and 499 draws. All respondent-level splits and task assignments are generated from explicit seeds. Structural rank and eigenvalue calculations are run before outcome simulation.
+The finite-support recheck uses 30 replications, 400 observations, and 199 conditional randomization draws. The original locked benchmark uses 200 replications and 499 draws. The expanded boundary checks use 500 replications at n=800 with 499 draws and 1,000 replications at n=400 with 199 draws. All respondent-level splits and task assignments are generated from explicit seeds. Structural rank and eigenvalue calculations are run before outcome simulation.
 
 ## References
 
@@ -140,6 +142,10 @@ Train, K. E. (2009). Discrete Choice Methods with Simulation. 2nd ed. Cambridge 
 Ortelli, F., et al. (2021). Assisted specification of discrete choice models. Journal of Choice Modelling, 39, 100285. https://doi.org/10.1016/j.jocm.2021.100285
 
 Fok, D., and Paap, R. (2025). New misspecification tests for multinomial logit models. Journal of Choice Modelling. https://doi.org/10.1016/j.jocm.2024.100531
+
+Hoshino, T., and Yanagi, S. (2026). Conditional randomization tests for the specification of interference structure. Journal of Applied Econometrics. https://doi.org/10.1002/jae.70076
+
+Atkinson, A. C. (2008). DT-optimum designs for model discrimination and parameter estimation. Journal of Statistical Planning and Inference, 138, 56–64. https://doi.org/10.1016/j.jspi.2007.05.024
 
 Christensen, T., and Connault, B. (2023). Counterfactual sensitivity and robustness. Econometrica, 91, 1815–1842. https://doi.org/10.3982/ECTA17232
 
