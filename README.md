@@ -247,3 +247,15 @@ The writing-ready replacement for the earlier innovation section is
 The reproducible structural search is
 `analysis/structural_fibre_design.py`, with task, calibration, and power
 outputs under `results/structural_fibre_*.csv`.
+
+The current round-32 release is the finite-support support-complete fibre audit.
+The overlap screen is in `manuscript/literature_overlap_audit_round32.md` and
+the search record is in `data/literature_search_log_round32.csv`. The expanded
+boundary checks are reported in `manuscript/model_validation_round32.md` with
+locked outputs at `results/support_complete_vs_saturated_benchmark_round32_n800.csv`
+and `results/support_complete_vs_saturated_benchmark_round32_n400_r1000.csv`.
+The n=800 run gives null rejection .062/.064 for the support-complete score and
+saturated fibre LR; the n=400 run gives .038/.043. All four non-null directions
+are detected at rate 1.000 in both runs. These results support a pre-outcome
+design certificate and support-repair rule, not a claim of a new inferential
+family.
