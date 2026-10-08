@@ -28,3 +28,13 @@ Before an empirical run, add a local record containing:
 - licence or redistribution terms;
 - number of respondents, choice tasks, alternatives, and retained observations;
 - preprocessing decisions and the script commit used for the run.
+
+## Electricity (`mlogit`)
+
+The public Electricity DCE is distributed as `Electricity.rda` in the CRAN `mlogit` package. The package documentation is https://search.r-project.org/CRAN/refmans/mlogit/html/Electricity.html and the raw package file is https://raw.githubusercontent.com/cran/mlogit/master/data/Electricity.rda. Convert it with `analysis/parse_electricity_rda.py`; run the external validation with `analysis/electricity_external_validation.py`. The exact RDA and converted-CSV checksums are recorded in `data/provenance_electricity_2026-10-08.md`.
+
+## Train vehicle stated-choice sample
+
+The Train vehicle archive is the public sample distributed with Kenneth Train's mixed-logit software. The official source page is https://eml.berkeley.edu/Software/abstracts/train1006mxlmsl.html and the archive URL is recorded in `data/provenance_train_vehicle_2026-10-08.md`. Raw data remain local. The validation entry point is `analysis/train_vehicle_external_validation.py`.
+
+Neither public file contains the candidate-preserving random assignment required for a human-data sufficiency claim. They are external implementation and predictive specification checks.

@@ -1,0 +1,9 @@
+# Lack of fit and model discrimination positioning
+
+The paper's finite-support certificate sits inside a mature design literature. Atkinson and Fedorov's T-optimal designs choose support points to discriminate between specified rival regression models. Goos, Kobilinsky, O'Brien, and Vandebroek combine parameter precision with model bias and lack-of-fit sensitivity in model-robust and model-sensitive designs. Gilmour and Trinca develop compound criteria that retain precision while reserving residual degrees of freedom. Wiens constructs maximin designs for testing lack of fit in binary-response models.
+
+The manuscript does not claim that rank, fibre variance, or a saturated alternative is a new lack-of-fit principle. The precise increment is a different design object. The null is conditional sufficiency, `Y independent of X given phi(X)`, with the response surface indexed by the complete candidate menu summary left unrestricted. The certificate is computed from the feasible support before outcomes are collected. It reports the dimension and conditioning of all non-constant response contrasts inside each positive-mass fibre, preserves the entire multinomial candidate menu vector, and returns a support repair when a candidate-preserving direction is structurally blind.
+
+The 3 x 3 example is consequently a boundary demonstration, not a claim of novelty by itself. Its endpoint design has zero lack-of-fit degrees of freedom because every supported fibre is a singleton. The support-complete allocation has four finite contrast directions. This is the same algebraic boundary that classical lack-of-fit design makes visible; the contribution is the candidate-summary fibre audit and its use as a DCE design check.
+
+The release therefore compares the complete-fibre LR with a fibre-stratified CMH score and a cross-fitted ML residual score. The hand-written dictionary remains a diagnostic control and is not the headline comparator.
