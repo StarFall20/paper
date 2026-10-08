@@ -34,8 +34,10 @@ certificate, but they are not separate headline contributions.
    hashes as the local release.
 3. Add a concise cover letter and data-availability statement that describe the
    work as a method-and-design study with a public-data implementation check.
-4. Run the final smoke checks with the bundled runtime and record any missing
-   optional dependencies.
+4. Run the fibre, multinomial, smart-device, and policy-oracle checks with the
+   bundled runtime. The legacy all-in-one smoke script still needs optional
+   scikit-learn for its older ML-assisted entry point; record that limitation
+   instead of treating it as a failure of the primary release.
 5. Keep the human-data claim open. A randomized candidate-preserving DCE is
    required before claiming a rejection from human responses; no questionnaire
    is needed for the current computational submission package.
