@@ -29,17 +29,20 @@ certificate for a coarsened utility representation.
 - New support-complete Word manuscript generated and rendered; all five pages
   passed visual inspection. The draft is
   `manuscript/JOCM_fibre_sufficiency_revision.docx`.
+- A markdown companion is included for repository review. The new manuscript,
+  round-31 outputs, innovation memo, readiness checklist, and manifest were
+  written to GitHub main through the connected GitHub integration and fetched
+  back byte-for-byte for verification. The binary Word file remains the local
+  submission artifact; the markdown companion is the repository-readable copy.
 
 ## Remaining work
 
-1. Finish the submission checklist and ensure the final manifest includes the
-   support-complete manuscript and round-31 outputs.
-2. Push the new tracked manuscript, code, results, and innovation memo to
-   GitHub, then verify the remote tree and commit.
-3. Run the final repository smoke checks and record any environment-specific
+1. Run the final repository smoke checks and record any environment-specific
    limitations.
+2. Keep the Word artifact and markdown companion aligned if further prose
+   changes are made.
 
-The remaining work is approximately 3--5 focused hours for a minimal,
+The remaining work is approximately 1--2 focused hours for a minimal,
 internally consistent submission package. A full second public-DCE validation
 would add about one working day and is outside the current no-questionnaire
 scope.
