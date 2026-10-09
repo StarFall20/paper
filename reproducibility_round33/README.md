@@ -10,14 +10,13 @@ Install the pinned analysis dependencies in `requirements-analysis.txt`, then ru
 
 ```text
 analysis/support_complete_fibre_design.py
-analysis/support_complete_fibre_benchmark.py
-analysis/support_complete_vs_saturated_benchmark.py
 analysis/fibre_baseline_comparison.py
 analysis/support_complete_power_curve.py
 analysis/swissmetro_specification_benchmark.py
 analysis/electricity_external_validation.py
 analysis/train_vehicle_external_validation.py
 analysis/verify_candidate_preserving_questionnaire.py
+analysis/common_dce_design_exposure_audit.py
 ```
 
 The locked outputs used in the manuscript are:
@@ -33,6 +32,8 @@ results/swissmetro_specification_benchmark.csv
 results/electricity_external_validation.csv
 results/train_vehicle_external_validation.csv
 results/questionnaire_candidate_preservation_audit.csv
+results/common_dce_design_exposure_audit.csv
+results/common_dce_design_menus.csv
 ```
 
 `analysis/parse_electricity_rda.py` converts the public `mlogit` Electricity RDA to a local CSV. `analysis/electricity_external_validation.py` and `analysis/train_vehicle_external_validation.py` accept local public-data files; raw data are not redistributed. The exact source URLs, checksums, sample counts, preprocessing, and licence notes are in:
@@ -46,7 +47,7 @@ data/README.md
 
 ## Main manuscript and survey instrument
 
-The common-design audit reproduces the NIST L9 exposure check and the local D-exchange sensitivity check. The manuscript source is `manuscript/JOCM_fibre_sufficiency_revision.md`. The candidate-preserving pilot instrument for human respondents is `manuscript/candidate_preserving_dce_questionnaire.md`; the researcher-only fielding protocol is `manuscript/candidate_preserving_dce_fielding_protocol.md`. Editable Chinese and English Word versions are delivered under the task outputs.
+The manuscript source is `manuscript/JOCM_fibre_sufficiency_revision.md`. The candidate-preserving pilot instrument for human respondents is `manuscript/candidate_preserving_dce_questionnaire.md`; the researcher-only fielding protocol is `manuscript/candidate_preserving_dce_fielding_protocol.md`. Editable Chinese and English Word versions are delivered under the task outputs.
 
 The clean release surface is `reproducibility_round33/` and `REPRODUCIBILITY_MANIFEST_round33.md`; a matching zip is delivered under the task outputs. Earlier exploratory scripts and round notes remain in the repository for provenance, but they are not manuscript entry points and are excluded from the release manifest.
 
@@ -60,4 +61,4 @@ The clean release surface is `reproducibility_round33/` and `REPRODUCIBILITY_MAN
 
 ## Relevant design literature
 
-The positioning now cites Atkinson and Fedorov's T-optimal model-discrimination designs, Goos et al.'s model-robust/model-sensitive designs, Gilmour and Trinca's compound precision and lack-of-fit criteria, and Wiens's lack-of-fit designs for binary responses. The manuscript states the increment directly: fibre conditioning on the complete candidate menu, full finite contrast coverage, and a computable support repair.
+The common-design audit includes the NIST/SEMATECH L9 table and a local D-exchange search. The positioning now cites Atkinson and Fedorov's T-optimal model-discrimination designs, Goos et al.'s model-robust/model-sensitive designs, Gilmour and Trinca's compound precision and lack-of-fit criteria, and Wiens's lack-of-fit designs for binary responses. The manuscript states the increment directly: fibre conditioning on the complete candidate menu, full finite contrast coverage, and a computable support repair.

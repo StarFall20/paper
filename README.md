@@ -10,8 +10,6 @@ Install the pinned analysis dependencies in `requirements-analysis.txt`, then ru
 
 ```text
 analysis/support_complete_fibre_design.py
-analysis/support_complete_fibre_benchmark.py
-analysis/support_complete_vs_saturated_benchmark.py
 analysis/fibre_baseline_comparison.py
 analysis/support_complete_power_curve.py
 analysis/swissmetro_specification_benchmark.py

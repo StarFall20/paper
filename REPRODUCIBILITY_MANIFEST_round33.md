@@ -10,7 +10,6 @@ The clean release surface is the `reproducibility_round33/` directory and the ma
 ## Primary entry points
 
 - `analysis/support_complete_fibre_design.py`
-- `analysis/support_complete_fibre_benchmark.py`
 - `analysis/fibre_baseline_comparison.py`
 - `analysis/support_complete_power_curve.py`
 - `analysis/verify_candidate_preserving_questionnaire.py`
@@ -30,4 +29,4 @@ The clean release surface is the `reproducibility_round33/` directory and the ma
 - `results/electricity_external_validation.csv`
 - `results/train_vehicle_external_validation.csv`
 
-Historical oracle-baseline diagnostics are retained in the repository and clearly labelled; they are not primary round-33 evidence. Raw public datasets remain local inputs with provenance and checksums in `data/`.
+Historical oracle-baseline diagnostics and the earlier dictionary benchmark are retained in the repository and clearly labelled; they are not primary round-33 evidence. Raw public datasets remain local inputs with provenance and checksums in `data/`.

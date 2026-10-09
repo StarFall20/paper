@@ -7,6 +7,7 @@ The manuscript has a coherent finite-support design contribution and a reproduci
 ## Completed gates
 
 - The 3 × 3 counterexample reports candidate-index precision separately from within-fibre exposure. The support-complete rank is 4 with minimum positive eigenvalue 0.1222; the endpoint precision design has rank 0.
+- A common-design audit now covers the NIST L9 array (24 column mappings, exposure rank 0) and a 50-start × 3-prior local D-exchange sensitivity check (rank 1); the repair menu is explicit and the result is labelled design-specific.
 - The manuscript now positions the method against Atkinson–Fedorov model-discrimination designs, model-robust/model-sensitive design, compound lack-of-fit criteria, and binary-response lack-of-fit designs.
 - The primary finite-support comparator has 500 replications, n = 400, and four methods: unrestricted-fibre support score, all-profile generalized CMH, unrestricted complete-fibre LR, and held-out ML residual score. Null rates are 0.046, 0.046, 0.046, and 0.042; the ML column is exploratory even with 499 draws because it is a frozen predictive learner.
 - The power curve varies η and n. The strong-signal ceiling result is separated from the power-planning evidence.
