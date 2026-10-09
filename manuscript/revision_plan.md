@@ -1,120 +1,55 @@
 # Journal of Choice Modelling revision plan
 
-## Main research question
+## Research question
 
-Can a fitted candidate basis that coarsens the raw attribute space be tested on
-new choice tasks that it declares equivalent? Anchored Behavioral Metamorphic
-Specification Testing (BMST) answers this question by constructing task pairs
-with the same full menu difference vector and different raw decompositions.
-The Utility-Fibre Invariance Test (UFIT) compares their observed choice
-probabilities with a zero-difference anchor and a geometry-preserving control.
-The primary test is not run when the feasible fibre is a singleton.
+Can machine learning improve utility specification when it is used to discover candidate nonlinearities and interactions, while estimation and interpretation remain within the random-utility framework?
 
-This is the only new object in the main paper. Random Forest, XGBoost, Mixed
-Logit, latent-class MNL, and process models are comparison or negative-control
-tools. They do not form separate contribution claims.
+## Main contribution
 
-## Contribution statement
+The paper evaluates a disciplined ML-assisted specification workflow against established behavioural alternatives. The contribution is assessed through structure recovery, parameter and WTP recovery, calibration, external prediction, and parsimony.
 
-The paper develops a candidate-conditioned exchangeability test for discrete
-choice specification. A development fold freezes the candidate basis. A
-predeclared transformation preserves every alternative-pair difference in the
-menu. A one-member-per-pair assignment prevents respondents from seeing both
-members. Respondent-cluster sign flips provide the finite-sample reference
-under the candidate null. The binary primary arm includes a zero-candidate-
-difference task and a common translation that preserves pairwise raw geometry.
-The estimand is a choice-probability relation on a declared nontrivial task
-fibre.
+## Evidence package
 
-The paper does not claim a universal MNL misspecification test, a new
-invariance axiom, a unique omitted term, or global model correctness.
+1. **Monte Carlo study:** at least 100 replications per condition. Conditions vary one mechanism at a time and include a combined condition. The true utility contains linear effects plus selected quadratic, interaction, and threshold terms, with optional random taste heterogeneity.
+2. **LPMC:** large revealed-preference panel. Use the first two years for model construction and the final year for temporal external validation.
+3. **Swissmetro:** panel stated-preference benchmark. Group all observations from each respondent in resampling and cross-validation.
+4. **Small-sample stress test:** retain the existing pilot as a robustness analysis, with claims limited to finite-sample behaviour.
 
-## Manuscript architecture
+## Model set
 
-1. **Introduction.** Explain why a good holdout score does not test whether a
-   coarsened utility library treats its own equivalent tasks consistently.
-   State anchored BMST and the local interpretation boundary.
-2. **Related literature.** Position BMST against assisted specification,
-   axiomatic invariance, MNL misspecification tests, metamorphic testing,
-   process models, and DCE design. State the exact delta in one paragraph.
-3. **Candidate-fibre theory.** Define the basis, full menu difference vector,
-   nontrivial-fibre screen, candidate-preserving transformation, probability
-   relation, and estimand. State the softmax equivalence proposition.
-4. **Randomized instrument.** Define the development/test split, one-member
-   assignment, orientation coin, cluster score, sign-flip reference, order
-   counterbalance, opt-out boundary, and failure conditions.
-5. **Falsification-oriented design.** Select geometry-preserving translations
-   and decomposition probes by a declared movement budget. Report the zero-gap
-   anchor, raw-distance balance, and any complexity-only arm before outcomes.
-6. **Simulation testbed.** Retain the smart-medical-device generator as a
-   controlled benchmark and add the coarsened-burden binary design. Compare
-   anchored BMST with an observational LR test and an out-of-fold residual
-   learner. Conditions include omitted decomposition, random taste, scale,
-   order, and comparison complexity.
-7. **Results.** Report size, power, repair, negative controls, design
-   sensitivity, sample-size/task-count sensitivity, and the action for mixed
-   signatures. Keep mechanism attribution bounded.
-8. **Empirical instrument and data boundary.** Report the public-data audit and
-   specify the paired-task supplement. If the supplement is not available,
-   present the work as a simulation-validated method proposal rather than a
-   completed empirical application.
-9. **Discussion.** Explain the tested-domain value, limits of non-rejection,
-   scale and process confounding, and the path to external validation.
+- MNL baseline
+- Mixed Logit for continuous taste heterogeneity
+- Latent Class MNL for discrete heterogeneity
+- Enriched interpretable utilities using prespecified quadratic, spline, hinge, and interaction terms
+- XGBoost as the primary diagnostic learner; random forest as a robustness learner
+- ML-assisted specification: learner diagnostics, candidate-term screening, behavioural refit, nested/group validation, and parsimony selection
 
-## Role of the original Word manuscript
+## Evaluation
 
-The original title, “When Does XGBoost Improve Choice Prediction for Smart
-Medical Devices?”, and its lambda crossover are retained as an appendix
-benchmark. The crossover is specific to the generator and cannot carry the
-main novelty claim. The smart-device attributes remain useful because they
-provide a transparent, multi-attribute testbed for the BMST relation.
+### Behavioural recovery
 
-## Evidence already available
+- coefficient bias, RMSE, and empirical coverage
+- WTP bias and RMSE
+- recovery of interactions and thresholds
+- false-positive term rate
+- specification stability across resamples
 
-- UFIT algebra and the randomization validity proposition are recorded in
-  `manuscript/ufit_proposition.md`.
-- The one-member assignment benchmark has 100 replications and 600
-  respondents. Rejection is .05 under the additive null, .79 for omitted
-  nonlinearity, .05 under random linear taste, and 1.00 for an omitted
-  interaction.
-- The negative-control benchmark has 100 replications. Rejection is .04 for
-  the null, .68 for omitted nonlinearity, .03 for random taste, .23 for scale
-  drift, and 1.00 for order effects.
-- The constrained maximin design raises the weakest normalized probe score
-  from 1.142 to 1.632. A repeated-shift unconstrained solution is retained as
-  a failure boundary.
-- The public-data audit found no existing dataset with the required
-  candidate-preserving pair and one-member assignment. See
-  `manuscript/public_data_pair_audit.md`.
-- The anchored-fibre benchmark uses a coarsened burden (s=a_1+a_2) and an
-  omitted decomposition coordinate (z=a_1-a_2). With 100 replications and
-  400 respondents, the observational LR and residual-learning proxy reject at
-  .04 and .04 under the omitted decomposition condition; anchored rejection is
-  .83 for the zero-gap geometry-preserving arm and 1.00 for the nonzero-gap
-  geometry-changing arm. Under complexity alone, the zero-gap and
-  geometry-preserving rates are .02 and .07, while the geometry-changing
-  nonzero-gap rate is .41. See `results/anchored_fibre_benchmark.csv`.
-- The 60-replication sample-size planning run reports nonlinear power of .20,
-  .42, and .70 at 150, 300, and 600 respondents with three focal pairs;
-  interaction power is .90, 1.00, and 1.00. See
-  `results/bmst_power_curve.csv`.
+### Predictive performance
 
-The frozen BMST outputs were re-run with the bundled analysis environment on
-2026-10-06. Both benchmark CSVs matched the committed files byte for byte.
+- held-out log loss
+- Brier score and calibration slope/intercept
+- predicted choice shares
+- individual-level choice prediction
+- temporal external validation for LPMC
 
-## Submission gates
+### Reporting discipline
 
-1. Complete the target replication and sensitivity runs, including the
-   coarsened-fibre power curve at the preregistered replication count.
-2. Freeze the nontrivial-fibre screen, transformation grid, zero-gap anchor,
-   geometry metric, movement budget, assignment rule, and unresolved-action
-   rule before any paired-task outcome is inspected.
-3. Obtain a paired-task supplement or a public dataset with an equivalent
-   assignment structure.
-4. Add the paired-task results to the main text, with usable-pair counts,
-   balance checks, response-time/complexity diagnostics, and the LR/residual
-   comparison.
-5. Run the locked workflow on the external choice datasets only as transfer
-   checks; do not relabel observational matches as randomized BMST evidence.
-6. Rewrite the full Word manuscript and appendices around the frozen anchored
-   BMST results, then run document render and visual QA before submission.
+Each paragraph has one job: motivate the question, define the method, explain identification, report evidence, or state the implication. Technical implementation details move to the methods subsections and appendix. The main text presents the decision logic before estimator settings.
+
+## Required manuscript changes
+
+- Replace the model-race framing with the ML-assisted specification question.
+- Separate heterogeneity, nonlinear utility, threshold effects, and omitted interactions in the theory and simulation design.
+- Remove claims based only on random train/test splits.
+- Report validation design before reporting performance numbers.
+- Add a limitations paragraph covering data licensing, transferability, and computational choices.

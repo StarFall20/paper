@@ -1,63 +1,39 @@
-# Finite support audits for discrete choice experiments
+# ML-assisted utility specification for choice modelling
 
-This repository contains the reproducible materials for the Journal of Choice Modelling manuscript **Testing Utility Basis Sufficiency in Discrete Choice Experiments**. The paper studies a finite support question: does a declared candidate menu summary leave any raw attribute variation available for checking? The main output is a pre-outcome certificate of within-fibre exposure and a support repair rule.
+This repository is organised around the revised Journal of Choice Modelling study.
+The empirical design combines a large revealed-preference panel (LPMC), the Swissmetro stated-preference benchmark, and a small-sample stress test. The central method is an ML-assisted specification workflow: machine learning proposes candidate nonlinearities and interactions, while the final model remains a behavioural random-utility model.
 
-The scope is explicit. The certificate is finite-support and design-based. It is not a universal MNL misspecification test, a replacement for classical lack-of-fit design, or evidence of a human causal mechanism from observational data.
-
-## Reproduce the release
-
-Install the pinned analysis dependencies in `requirements-analysis.txt`, then run the following entry points from this directory:
+## Planned structure
 
 ```text
-analysis/support_complete_fibre_design.py
-analysis/support_complete_fibre_benchmark.py
-analysis/support_complete_vs_saturated_benchmark.py
-analysis/fibre_baseline_comparison.py
-analysis/support_complete_power_curve.py
-analysis/swissmetro_specification_benchmark.py
-analysis/electricity_external_validation.py
-analysis/train_vehicle_external_validation.py
-analysis/verify_candidate_preserving_questionnaire.py
+data/              Raw and processed data (raw files are not committed)
+src/               Data preparation, estimation, diagnostics, validation
+simulation/        Monte Carlo data-generating processes and summaries
+analysis/           Reproducible analysis entry points
+manuscript/         Main text, appendix, tables, and figures
+results/             Generated outputs (tables and figures)
 ```
 
-The locked outputs used in the manuscript are:
+## Reproducibility principles
 
-```text
-results/support_complete_fibre_design.csv
-results/support_complete_fibre_benchmark.csv
-results/support_complete_vs_saturated_benchmark_round32_n800.csv
-results/support_complete_vs_saturated_benchmark_round32_n400_r1000.csv
-results/fibre_baseline_comparison.csv
-results/support_complete_power_curve.csv
-results/swissmetro_specification_benchmark.csv
-results/electricity_external_validation.csv
-results/train_vehicle_external_validation.csv
-results/questionnaire_candidate_preservation_audit.csv
-```
+- All splits are grouped by decision maker. The LPMC temporal validation uses the final observed year as an external holdout.
+- Simulation conditions separate nonlinear utility, threshold effects, omitted interactions, random taste heterogeneity, and combined mechanisms.
+- Every model is assessed with behavioural recovery metrics and predictive metrics.
+- Candidate terms selected by ML are refit in interpretable utility models and evaluated with nested validation.
+- Random seeds, software versions, data provenance, and estimation settings are recorded for every run.
 
-`analysis/parse_electricity_rda.py` converts the public `mlogit` Electricity RDA to a local CSV. `analysis/electricity_external_validation.py` and `analysis/train_vehicle_external_validation.py` accept local public-data files; raw data are not redistributed. The exact source URLs, checksums, sample counts, preprocessing, and licence notes are in:
+## Data access
 
-```text
-data/provenance_swissmetro_2026-10-07.md
-data/provenance_electricity_2026-10-08.md
-data/provenance_train_vehicle_2026-10-08.md
-data/README.md
-```
+The repository will contain scripts and metadata for downloading or locating LPMC and Swissmetro. Raw data remain excluded from version control unless their licence permits redistribution.
 
-## Main manuscript and survey instrument
+## Current status
 
-The manuscript source is `manuscript/JOCM_fibre_sufficiency_revision.md`. The candidate-preserving pilot instrument for human respondents is `manuscript/candidate_preserving_dce_questionnaire.md`; the editable Word version is delivered under `outputs/`.
+The first reproducible Monte Carlo run is complete. It uses eight mechanism-specific conditions, 24 replications per condition (192 replications total), 400 consumers, and 12 tasks per consumer. The current minimal implementation compares additive MNL with structured MNL and reports accuracy, log loss, Brier score, choice-share RMSE, and decision regret. The results are in `results/simulation_results.csv` and `results/summary_results.csv`.
 
-The clean release surface is listed in `REPRODUCIBILITY_MANIFEST_round33.md`. Earlier exploratory scripts and round notes remain in the repository for provenance, but they are not manuscript entry points and are excluded from the release manifest.
+This run is a validated analysis scaffold. Mixed Logit, Latent Class, Random Forest, XGBoost, LPMC, and Swissmetro still need to be added when their estimation dependencies and data files are available.
 
-## Evidence hierarchy
+The corrected assisted-specification experiment is expanded to 30 replications per condition. It includes an explicit opt-out utility indicator and unobserved random price sensitivity in the heterogeneity condition. Nested respondent-level forward selection over six candidate utility terms is compared with additive and fully structured MNL. Results are in `results/assisted_spec_results_corrected_30rep.csv`, `results/assisted_spec_summary_corrected_30rep.csv`, and `results/selected_terms_frequency_corrected_30rep.csv`.
 
-- The finite rank/eigenvalue certificate is the primary design result.
-- The complete-fibre LR, CMH, and cross-fitted ML residual scores are inferential comparators.
-- The power curve varies departure amplitude and respondent count; the 1.000 rejection rates in the strong-signal benchmark are not presented as general power.
-- Swissmetro, Electricity, and Train vehicle files are external implementation checks. They do not contain candidate-preserving randomization.
-- A human-data sufficiency claim requires the randomized pilot instrument in the manuscript questionnaire.
+A pure-NumPy two-class Latent Class MNL extension is included in `analysis/run_simulation.py`. Its 10-replication extension results are in `results/latent_class_extension_10rep.csv` and `results/latent_class_extension_summary_10rep.csv`. The latent-class run is an extension check; the 30-replication corrected benchmark remains the locked primary simulation until the remaining model families are added.
 
-## Relevant design literature
-
-The positioning now cites Atkinson and Fedorov's T-optimal model-discrimination designs, Goos et al.'s model-robust/model-sensitive designs, Gilmour and Trinca's compound precision and lack-of-fit criteria, and Wiens's lack-of-fit designs for binary responses. The manuscript states the increment directly: fibre conditioning on the complete candidate menu, full finite contrast coverage, and a computable support repair.
+Random Forest and HistGradientBoosting are evaluated in `analysis/run_ml_extension.py` with the same grouped holdout. HistGradientBoosting is labelled as a boosted-tree proxy because XGBoost cannot load its native macOS library without `libomp.dylib`. The five-replication tree extension is in `results/tree_extension_5rep.csv` and `results/tree_extension_summary_5rep.csv`.
