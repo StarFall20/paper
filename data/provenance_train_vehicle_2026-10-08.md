@@ -1,1 +1,12 @@
-N¶œy¶œ’j,¶·œz{\jYejËEŠW¬µØ§–)ÞÚ)æ¡Û¥xX¥xÚ-‹§tJë¢±+®z66‹.râ•ê+v*ÞrÚ+ÉÖ­kúk¢÷§jw¶¶¢ž÷¡‰É^ÛMº×M<™
+source_file=../work/train_mxlmsl_06/data.txt
+sha256=81d87eb6008bab4b96ed6384038aaa7db9a3cb93aeba69ac15fd91e56f80575f
+rows=4452
+tasks=1484
+respondents=100
+alternatives_per_task=3
+unique_complete_menu_signatures=1484
+duplicate_complete_menu_tasks=0
+min_tasks_per_respondent=10
+max_tasks_per_respondent=15
+assignment_note=public observational stated-choice archive; no candidate-preserving randomization
+holdout_note=5-fold respondent-grouped cross-fitting with fixed seed 20261008

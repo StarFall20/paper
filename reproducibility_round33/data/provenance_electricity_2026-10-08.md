@@ -1,1 +1,16 @@
-N¶œy¶œ’j,¶·œz{\jYejËEŠW¬µØ§–)ŞÚ)æ¡Û¥xX¥xÚ-‹§tJë¢±+®z66‹.râ•ê+v*ŞrÚ+Ê·©®‡nr&â–+r®‹§w}ÿu«Zşšè½éÚÇ•ç-®'"·-´Û­tÓÉ
+parsed_csv=../work/Electricity_parsed.csv
+parsed_csv_sha256=36d23de8f1ca96ef4f9bf8e7894e9fcba59a0b948be0c1a7b0055655df9595a2
+source_package=mlogit
+source_documentation=https://search.r-project.org/CRAN/refmans/mlogit/html/Electricity.html
+source_rda=https://raw.githubusercontent.com/cran/mlogit/master/data/Electricity.rda
+rows=4308
+tasks=4308
+respondents=361
+alternatives_per_task=4
+unique_complete_menu_signatures=62
+duplicate_complete_menu_tasks=4246
+min_tasks_per_respondent=8
+max_tasks_per_respondent=12
+assignment_note=public observational stated-choice archive; no candidate-preserving randomization
+holdout_note=5-fold respondent-grouped cross-fitting with fixed seed 20261008
+raw_data_note=RDA and converted CSV are local inputs and are not redistributed

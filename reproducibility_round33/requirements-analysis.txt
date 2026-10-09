@@ -1,1 +1,6 @@
-N¶œy¶œ’j,¶·œz{\jYejËEŠW¬µØ§–)ÞÚ)æ¡Û¥xX¥xÚ-‹§tJë¢±+®z66‹.râ•ê+v*ÞrÚ+Ê·©®‡nr&â–+r®‹§w}ÿ­ê®Š·¦z{ljv¥ÊÈ¬·
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+xgboost==3.4.1
+pyreadr==0.5.3
