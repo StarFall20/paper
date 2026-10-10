@@ -6,7 +6,7 @@ The package now passes the static code, data-shape, dependency-closure, manifest
 
 ## New audit evidence
 
-- All 81 tracked Python files parse. The clean release has no missing local runtime imports across its nine primary entry points.
+- All 86 tracked Python files parse. The clean release has no missing local runtime imports across its nine primary entry points.
 - The 14 locked release CSVs are non-empty and rectangular. The release manifest covers 43 non-manifest files and verifies their SHA-256 hashes.
 - The bilingual verifier reads all four rendered DOCX files. It checks 32 displayed alternative cards, the two candidate vectors, the sharing row, the price row, and the expected profile layout.
 - The Electricity validator now uses the standard library CSV reader, so its declared requirements no longer hide a pandas dependency. The clean release includes `observational_equivalence_test.py`, which the Electricity and Train validators import.
