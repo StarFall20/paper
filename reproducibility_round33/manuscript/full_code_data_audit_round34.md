@@ -3,16 +3,16 @@
 This report separates executable integrity from scientific readiness. A passing software check does not supply randomized human evidence.
 
 - Audit date: 2026-10-10
-- Tracked files: 332
-- Tracked Python files: 81
-- Tracked DOCX files: 5
+- Tracked files: 350
+- Tracked Python files: 86
+- Tracked DOCX files: 9
 - Clean release files: 44
 
 ## Findings
 
 | Status | Check | Evidence | Required action |
 | --- | --- | --- | --- |
-| PASS | python_syntax | 81 tracked Python files; parse failures=0 | Fix every parser failure before release. |
+| PASS | python_syntax | 86 tracked Python files; parse failures=0 | Fix every parser failure before release. |
 | PASS | release_import_closure | 11 reachable release files; missing local imports=0 | Keep every runtime local dependency in the clean package. |
 | PASS | release_hash_manifest | 44 release files; manifest failures=0 | Regenerate MANIFEST.sha256 after every release edit. |
 | PASS | locked_csv_integrity | 14 release CSVs; malformed=0 | Repair malformed or empty locked outputs. |
