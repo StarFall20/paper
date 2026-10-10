@@ -9,14 +9,19 @@ from observational_equivalence_test import fit_mnl,predict
 ATTRS=('pf','cl','loc','wk','tod','seas')
 
 def read_electricity(path):
-    import pandas as pd
-    d=pd.read_csv(path)
+    with open(path, newline="") as handle:
+        d = list(csv.DictReader(handle))
+    if not d:
+        raise ValueError('electricity CSV is empty')
+    columns = set(d[0])
     required={'choice','id'}|{f'{a}{j}' for a in ATTRS for j in range(1,5)}
-    missing=required-set(d.columns)
+    missing=required-columns
     if missing: raise ValueError(f'missing columns: {sorted(missing)}')
-    ids=d.id.to_numpy(int); y=d.choice.to_numpy(int)-1
+    ids=np.asarray([int(float(row['id'])) for row in d], dtype=int)
+    y=np.asarray([int(float(row['choice'])) for row in d], dtype=int)-1
     if np.any((y<0)|(y>3)): raise ValueError('choice must be 1..4')
-    attrs=np.stack([d[[f'{a}{j}' for j in range(1,5)]].to_numpy(float) for a in ATTRS],axis=2)
+    attrs=np.stack([np.asarray([[float(row[f'{a}{j}']) for j in range(1,5)] for row in d], dtype=float)
+                    for a in ATTRS], axis=2)
     avail=np.ones((len(d),4),float)
     return d,ids,y,attrs,avail
 
@@ -53,10 +58,12 @@ def run(path,out,provenance_out,seed=20261008):
         r['lr_vs_linear']=2*(r['loglik']-base);r['lr_df_vs_linear']=r['effective_rank']-records[0]['effective_rank'];r['lr_p_vs_linear']=1.0 if r['lr_df_vs_linear']<=0 else float(chi2.sf(r['lr_vs_linear'],r['lr_df_vs_linear']))
     os.makedirs(os.path.dirname(out) or '.',exist_ok=True)
     with open(out,'w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(records[0]));w.writeheader();w.writerows(records)
-    sig=d.drop(columns=['choice','id']).astype(str).agg('|'.join,axis=1); counts=np.bincount(ids-min(ids)); sha=hashlib.sha256(Path(path).read_bytes()).hexdigest()
-    prov=[f'parsed_csv={path}',f'parsed_csv_sha256={sha}','source_package=mlogit','source_documentation=https://search.r-project.org/CRAN/refmans/mlogit/html/Electricity.html','source_rda=https://raw.githubusercontent.com/cran/mlogit/master/data/Electricity.rda',f'rows={len(d)}',f'tasks={len(d)}',f'respondents={len(people)}','alternatives_per_task=4',f'unique_complete_menu_signatures={sig.nunique()}',f'duplicate_complete_menu_tasks={len(d)-sig.nunique()}',f'min_tasks_per_respondent={int(counts[counts>0].min())}',f'max_tasks_per_respondent={int(counts.max())}','assignment_note=public observational stated-choice archive; no candidate-preserving randomization',f'holdout_note=5-fold respondent-grouped cross-fitting with fixed seed {seed}','raw_data_note=RDA and converted CSV are local inputs and are not redistributed']
+    signature_columns = sorted(set(d[0]) - {'choice', 'id'})
+    sig=['|'.join(row[k] for k in signature_columns) for row in d]
+    counts=np.bincount(ids-min(ids)); sha=hashlib.sha256(Path(path).read_bytes()).hexdigest()
+    prov=[f'parsed_csv={path}',f'parsed_csv_sha256={sha}','source_package=mlogit','source_documentation=https://search.r-project.org/CRAN/refmans/mlogit/html/Electricity.html','source_rda=https://raw.githubusercontent.com/cran/mlogit/master/data/Electricity.rda',f'rows={len(d)}',f'tasks={len(d)}',f'respondents={len(people)}','alternatives_per_task=4',f'unique_complete_menu_signatures={len(set(sig))}',f'duplicate_complete_menu_tasks={len(d)-len(set(sig))}',f'min_tasks_per_respondent={int(counts[counts>0].min())}',f'max_tasks_per_respondent={int(counts.max())}','assignment_note=public observational stated-choice archive; no candidate-preserving randomization',f'holdout_note=5-fold respondent-grouped cross-fitting with fixed seed {seed}','raw_data_note=RDA and converted CSV are local inputs and are not redistributed']
     Path(provenance_out).write_text('\n'.join(prov)+'\n')
     for r in records: print(r['model'],'oof_log',round(r['five_fold_oof_log_score'],6),'oof_acc',round(r['five_fold_oof_accuracy'],4),'LR_p',f"{r['lr_p_vs_linear']:.4g}")
-    print('tasks',len(d),'respondents',len(people),'unique_menus',sig.nunique())
+    print('tasks',len(d),'respondents',len(people),'unique_menus',len(set(sig)))
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('path');ap.add_argument('--out',default='results/electricity_external_validation.csv');ap.add_argument('--provenance-out',default='data/provenance_electricity_2026-10-08.md');ap.add_argument('--seed',type=int,default=20261008);run(**vars(ap.parse_args()))
