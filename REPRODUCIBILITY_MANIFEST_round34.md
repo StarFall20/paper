@@ -1,4 +1,4 @@
-# Reproducibility manifest round 33
+# Reproducibility manifest round 34
 
 The clean release surface is the `reproducibility_round33/` directory and the matching zip in `outputs/`. It contains the dependency closure for the manuscript's current primary claims. Exploratory scripts, internal notes, stale Word binaries, and raw third-party data are excluded.
 
@@ -31,4 +31,4 @@ The clean release surface is the `reproducibility_round33/` directory and the ma
 - `results/electricity_external_validation.csv`
 - `results/train_vehicle_external_validation.csv`
 
-Historical oracle-baseline diagnostics and the earlier dictionary benchmark are retained in the repository and clearly labelled; they are not primary round-33 evidence. Raw public datasets remain local inputs with provenance and checksums in `data/`.
+Historical oracle-baseline diagnostics and the earlier dictionary benchmark are retained in the repository and clearly labelled; they are not primary round-34 evidence. Raw public datasets remain local inputs with provenance and checksums in `data/`.

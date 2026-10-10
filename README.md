@@ -47,9 +47,9 @@ data/README.md
 
 ## Main manuscript and survey instrument
 
-The manuscript source is `manuscript/JOCM_fibre_sufficiency_revision.md`. The candidate-preserving pilot instrument for human respondents is `manuscript/candidate_preserving_dce_questionnaire.md`; the researcher-only fielding protocol is `manuscript/candidate_preserving_dce_fielding_protocol.md`. Editable Chinese and English Word versions are delivered under the task outputs.
+The manuscript source is `manuscript/JOCM_fibre_sufficiency_revision.md`. The candidate-preserving pilot instrument for human respondents is `manuscript/candidate_preserving_dce_questionnaire.md`; the researcher-only fielding protocol is `manuscript/candidate_preserving_dce_fielding_protocol.md`. Editable Chinese and English Word versions are delivered under the task outputs. The rendered DOCX audit is stored in `results/questionnaire_candidate_preservation_audit_all_languages.csv`.
 
-The clean release surface is `reproducibility_round33/` and `REPRODUCIBILITY_MANIFEST_round33.md`; a matching zip is delivered under the task outputs. Earlier exploratory scripts and round notes remain in the repository for provenance, but they are not manuscript entry points and are excluded from the release manifest.
+The clean release surface is `reproducibility_round33/` with the round-34 additions recorded in `REPRODUCIBILITY_MANIFEST_round34.md`; the matching zip is `outputs/JOCM_reproducibility_package_round34.zip`. The full code/data audit is `manuscript/full_code_data_audit_round34.md`. Earlier exploratory scripts and round notes remain in the repository for provenance, but they are not manuscript entry points and are excluded from the release manifest.
 
 ## Evidence hierarchy
 

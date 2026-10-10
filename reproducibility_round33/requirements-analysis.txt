@@ -4,3 +4,4 @@ scikit-learn==1.9.1
 matplotlib==3.11.2
 xgboost==3.4.1
 pyreadr==0.5.3
+python-docx==1.2.0
