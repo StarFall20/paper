@@ -1,0 +1,30 @@
+{
+  "export_date": "2026-11-08",
+  "raw_exports": [
+    {
+      "version": "V1",
+      "activity_id": 390522225,
+      "sha256": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13",
+      "rows": 180,
+      "columns": 17,
+      "duplicate_ip_rows_flag_only": 28
+    },
+    {
+      "version": "V2",
+      "activity_id": 390535906,
+      "sha256": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01",
+      "rows": 180,
+      "columns": 17,
+      "duplicate_ip_rows_flag_only": 29
+    }
+  ],
+  "raw_records": 360,
+  "ai_labelled_records": 60,
+  "non_AI_labelled_records": 300,
+  "early_records_flag_only": 1,
+  "recruitment": "Different channels each received only one version; no allocation record. Researcher reports no content changes.",
+  "verified_human_status_of_AI_labelled_records": false,
+  "randomized_sufficiency_claim_supported": false,
+  "individual_records_publicly_shared": false,
+  "full_source_analysis_retains_AI_labels": true
+}

@@ -1,0 +1,8 @@
+{
+  "raw_model_columns": 13,
+  "raw_model_rank": 7,
+  "unidentified_dimensions": 6,
+  "channel_version_columns": 2,
+  "channel_version_rank": 1,
+  "interpretation": "Within each version/alternative the four raw profile attributes are fixed. They are absorbed by cohort-specific alternative constants. Recruitment channel and version are identical indicators."
+}

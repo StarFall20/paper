@@ -1,0 +1,12 @@
+{
+  "raw_rows_per_version": 180,
+  "raw_choice_frequencies_reconciled": true,
+  "model_fits": 9,
+  "all_model_gradients_below_1e_5": true,
+  "all_fitted_designs_full_rank": true,
+  "CV_scores": 15,
+  "split_unit": "record / participant proxy",
+  "bootstrap_repetitions": 4999,
+  "input_files_unchanged": true,
+  "no_individual_level_records_in_public_outputs": true
+}

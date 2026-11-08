@@ -1,0 +1,30 @@
+{
+  "within_form": [
+    {
+      "version": "V1",
+      "population": "all",
+      "rows_with_duplicate_IP": 28,
+      "records": 180
+    },
+    {
+      "version": "V1",
+      "population": "non_AI",
+      "rows_with_duplicate_IP": 0,
+      "records": 150
+    },
+    {
+      "version": "V2",
+      "population": "all",
+      "rows_with_duplicate_IP": 29,
+      "records": 180
+    },
+    {
+      "version": "V2",
+      "population": "non_AI",
+      "rows_with_duplicate_IP": 0,
+      "records": 150
+    }
+  ],
+  "cross_form_non_AI_IP_overlap": 0,
+  "IP_matches_are_flags_not_person_identity_or_exclusion_rules": true
+}

@@ -1,0 +1,6 @@
+version,platform_source,records,duration_min,duration_median,duration_max,under_60_seconds,repeated_one_choice
+V1,AI样本,30,16,28.0,34,30,30
+V1,手机提交,150,102,233.5,395,0,0
+V2,AI样本,30,22,30.0,34,30,30
+V2,企业微信,1,28,28.0,28,1,0
+V2,手机提交,149,103,255.0,417,0,0
