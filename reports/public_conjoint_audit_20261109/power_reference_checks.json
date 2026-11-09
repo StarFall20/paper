@@ -1,0 +1,31 @@
+{
+  "pinned_reference_files_verified": 2,
+  "independent_whitened_covariance_weight_difference": 2.3314683517128287e-15,
+  "oracle_efficiency_identities": [
+    {
+      "epsilon": 0.05,
+      "gradient_cross_moment": 0.2025,
+      "predicted_gradient_variance": 0.2025,
+      "population_optimal_weight_infinite_auxiliary": 1.0
+    },
+    {
+      "epsilon": 0.1,
+      "gradient_cross_moment": 0.16,
+      "predicted_gradient_variance": 0.16000000000000006,
+      "population_optimal_weight_infinite_auxiliary": 0.9999999999999997
+    },
+    {
+      "epsilon": 0.25,
+      "gradient_cross_moment": 0.0625,
+      "predicted_gradient_variance": 0.0625,
+      "population_optimal_weight_infinite_auxiliary": 1.0
+    },
+    {
+      "epsilon": 0.4,
+      "gradient_cross_moment": 0.009999999999999995,
+      "predicted_gradient_variance": 0.009999999999999995,
+      "population_optimal_weight_infinite_auxiliary": 1.0
+    }
+  ],
+  "downloaded_code_executed": false
+}

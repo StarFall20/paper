@@ -110,7 +110,7 @@ A broader candidate boundary follows from the same estimation problem. Let
 
 \[
 a(\gamma)=E[G\sigma(\gamma G)],\quad c=\phi(0),\quad
-R_g=E\{Y-g(X)\}^2>0.
+R_g=E[(Y-g(X))^2]>0.
 \]
 
 In the population-auxiliary corrected loss, the target moment is
@@ -167,3 +167,44 @@ Adding a positive quadratic penalty on all parameters yields a finite penalized 
 - Separate the classical support argument from the exact new candidate boundary; inspect semi-supervised, corrected-risk and high-dimensional likelihood literature for an equivalent result.
 - The fixed-target500-allocation vaccine audit is complete. All seven exterior cases across the two corrected estimators have a separate positive-gap separating-ray check. No exterior case was silently removed from failure counts.
 - Assess substantive JOCM value and current human-application scope. None of these requirements is fulfilled by a green checksum or a self-review score.
+
+## 8. Informative proxies and efficiency-optimal weighting
+
+The previous frozen-predictor argument extends to an auxiliary proxy Z when (Y,Z) depends on a fixed-dimensional Gaussian projection V and is independent of all orthogonal Gaussian coordinates conditional on V. Let g(V,Z) be frozen, bounded and independent of the labelled training sample. Its population moment exists, and the same decomposition gives(7) with R_g=E(Y−g(V,Z))². Auxiliary records must include Z. This permits predictions containing information about Y beyond the utility covariates.
+
+This distinction matters for a meaningful comparison with established power tuning. In a correctly specified logit, put U=W{p(X)−Y} and V_g=W{p(X)−g(X,Z)}. Both have zero mean when g=E(Y|X,Z). Conditional expectation gives
+
+Cov(U,V_g)=Var(V_g).
+
+In the published PPI variance scalarization, whenever Tr(H⁻¹Var(V_g)H⁻¹)>0, the population-optimal power is λ*=1/(1+m/N). It tends to1 for an unlimited auxiliary pool. This is an application of PPI++'s existing variance formula. For a predictor depending only on X, Cov(U,V_g)=0 under correct specification, so a generic inaccurate g(X) instead has population-optimal power zero. The constant-predictor example alone cannot establish a problem for an adaptively downweighted informative predictor.
+
+Consider the balanced-null experiment with an informative binary proxy and a fixed error rate ε:
+
+X~N_p(0,I), Y~Bernoulli(1/2), Z=Y xor B,
+B~Bernoulli(ε), independent of X,Y, 0<ε<1/2.
+
+The frozen conditional-mean oracle is g(Z)=ε+(1−2ε)Z. Its Brier risk is ε(1−ε), so the candidate boundary is
+
+κ_c(ε)=1/[2π ε(1−ε)].
+
+Here λ=1 is the population variance-optimal limit, and the corrected loss still has no finite minimizer above κ_c. An efficiency-optimal fixed-dimensional weighting criterion does not itself give a finite-root guarantee in the proportional-dimension regime. This is a property of this unpenalized objective, not an information-theoretic impossibility for every estimator. It does not claim that the estimated PPI++ weight must converge to its fixed-dimensional population optimum in growing dimension, or that PPI confidence-set inversion fails.
+
+There is also an exact finite-label candidate formula. Let K count proxy disagreements, A count Y=1 among agreements, and B₁ count Y=1 among disagreements. Then
+
+K~Bin(m,ε), A|K=k~Bin(m−k,1/2), B₁|K=k~Bin(k,1/2),
+
+with A,B₁ conditionally independent. Define
+
+T(k,a,b)=1/2+[ε{2a−(m−k)}+(1−ε)(2b−k)]/m,
+
+D(k)=(m−k)ε²+k(1−ε)².
+
+Conditional on the counts, the corrected intercept is T and the slope moment is N_p(0,D(k)I/m²). Therefore the exact existence probability is the triple-binomial average of
+
+1{0<T<1} F_chi²_p{m² r(T)²/D(k)}.
+
+At ε=1/2 it reduces to(5) with q=1/2; the variance-optimal power is then nonunique because the predicted score is identically zero at the null. At ε=0 the correction residual vanishes and a separate limit applies. Neither endpoint is used to claim a unique optimal power.
+
+The finite-auxiliary strict-side boundary also persists for a sequence of powers tending to1: the extra empirical primary-loss component has uniform recession-function size O_P(1+sqrt(p/m)), and its multiplier tends to zero. The target-moment perturbation has the same bounded order. Thus the previously established positive support gap survives. This statement is conditional on the power sequence tending to1; it is not a theorem about the high-dimensional plug-in weight.
+
+This extension is a candidate substantive increment, not an originality certificate. The geometry, conditional-mean oracle property and variance-optimal weighting are attributed tools. The exact existence law and its relevance to an informative efficiency-optimal correction are the results whose priority and practical value require assessment.

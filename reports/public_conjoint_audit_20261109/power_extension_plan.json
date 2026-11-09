@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-09",
+  "stage": "Exploratory extension fixed after the completed matched audit, before the following fits",
+  "question": "Does established power tuning remove finite-root failures, and does the Gaussian candidate concern an estimator with informative auxiliary outcomes?",
+  "public_vaccine_design": "Same fixed1200 rows, seed20261109,500 nested block allocations, budgets50/100/150/200, nuisance fits and target projection as the prior audit. No target-error tuning.",
+  "power_reference": "PPI++ Eq(8), plus aangelopoulos/ppi_py at3d1f0c668444907b39bd045cb9dd38e479ce7dd6:ppi_logistic_pointestimate,_logistic_get_stats,_calc_lam_glm. No downloaded code will execute.",
+  "methods": ["human converged", "PPI lambda1 using auxiliary-only imputed loss", "power tuning initialized at the human root", "power tuning initialized at the PPI lambda1 root as in the inspected package"],
+  "prediction_variants": ["AI-stratified ridge nuisance", "X-only ridge nuisance"],
+  "weight_convention": "Use the inspected package's pooled-information matrix and centered covariance normalization; clip lambda to[0,1]. The human-root initializer is an explicit fixed-lambda0 alternative allowed by the paper; it is not silently substituted for a missing lambda1 root in the source-style path.",
+  "objective": "L_m(y)+lambda[L_N_aux(g)-L_m(g)]. The primary previous GAI-style objective instead uses a pooled imputed loss; record that difference.",
+  "failures": "Check weighted mean support for every objective; retain all exterior/boundary/initialization-unavailable/numerically unresolved cases. Independently separate exterior moments.",
+  "outcomes": ["finite-root and initialization frequencies", "stabilized parameter error to fixed1200 projection", "paired differences on shared finite cases plus full statuses", "weight distributions", "score preservation"],
+  "scope": "Point-estimation controlled reanalysis only. Row nuisance folds and source-defined blocks do not establish independent-person coverage.",
+  "Gaussian_surrogate_extension": {
+    "DGP": "X~N_p(0,I),Y~Bernoulli(.5) independent. Z is Y flipped independently with probability epsilon; the frozen oracle g(Z)=epsilon+(1-2epsilon)Z is observed in labelled and auxiliary samples.",
+    "labels": [20,60,120],
+    "dimension_label_ratios": [0.1,0.25,0.5,0.75,1.0,1.5,2.0,3.0,4.0],
+    "flip_probabilities": [0.05,0.1,0.25,0.4,0.5],
+    "replications_per_cell": 2000,
+    "auxiliary_limit": "Population imputed loss; finite-pool extension only in the stated N/p->infinity regime",
+    "candidate_exact_formula": "Binomial disagreement count and conditional balanced labels yield a triple-binomial mixture of chi-square CDFs. Verify by direct X,Y,Z draws, and epsilon=.5 reduction to the previous exact formula.",
+    "candidate_boundary": "kappa_c=1/[2*pi*epsilon*(1-epsilon)]. For the oracle, population variance-optimal lambda tends to1 as auxiliary/label ratio diverges.",
+    "claim_limits": "No broad high-dimensional coverage theorem or novelty guarantee. Generic support geometry and PPI tuning remain attributed prior work."
+  }
+}

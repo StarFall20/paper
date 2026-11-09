@@ -1,0 +1,26 @@
+{
+  "repository": "aangelopoulos/ppi_py",
+  "commit": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+  "license": "MIT, inspected LICENSE",
+  "files": [
+    {
+      "path": "ppi_py/ppi.py",
+      "size": 66411,
+      "git_blob_sha1": "9d61900f7e1d0868f12c786e57be154b2b5d51c7",
+      "url": "https://raw.githubusercontent.com/aangelopoulos/ppi_py/3d1f0c668444907b39bd045cb9dd38e479ce7dd6/ppi_py/ppi.py"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1080,
+      "git_blob_sha1": "3e152a0069505a6bccbb510673c0db17389dafd3",
+      "url": "https://raw.githubusercontent.com/aangelopoulos/ppi_py/3d1f0c668444907b39bd045cb9dd38e479ce7dd6/LICENSE"
+    }
+  ],
+  "inspected_functions": [
+    "ppi_logistic_pointestimate",
+    "_logistic_get_stats",
+    "_calc_lam_glm"
+  ],
+  "downloaded_code_executed": false,
+  "implementation_difference": "Finite support checked before a root is accepted. Source-style lambda1 initialization failure is retained. Human-root initialization is separately labelled."
+}

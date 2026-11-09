@@ -22,3 +22,20 @@ The six matched methods share the1200-row prefix design and one empirical human-
 `MAPE_*` fields mean100×mean(abs(estimate−reference)/(1+abs(reference))). They are stabilized parameter errors, not standard MAPE. `point_estimation_summary.csv` includes finite-fit counts; `paired_point_comparisons.csv` conditions on shared finite fits. `status_counts.csv` and `nonexistence_ray_checks.json` must accompany those comparisons. No confidence-interval coverage, PPI++ superiority or general AI replacement conclusion has been tested.
 
 The Gaussian figure uses simulated attributes and frozen predictors. Panel(a) plots exact probabilities with simulation points and approximate95% Monte Carlo error bars; dotted lines show proportional-dimension limits. Panel(b) plots simulated frequencies with the corresponding candidate limits. The two panels describe a theoretical benchmark, not the actual vaccine or DH36 design. The160 exact-probability cells include rare-event conditions; `exact_probability_consistency_checks.csv` records exact-binomial diagnostics, with multiple-cell qualification in the report.
+
+## Power tuning and informative proxies
+
+The extension is specified in `power_extension_plan.json` and `surrogate_signal_plan.json`. Run these after fetching the same numeric data:
+
+```sh
+python analysis/power_tuned_choice_audit.py --input-dir ../work/gai_data --out ../outputs/public_conjoint_audit --allocations 500
+python analysis/informative_surrogate_existence.py --out ../outputs/public_conjoint_audit --replications 2000
+python analysis/informative_surrogate_signal_checks.py --out ../outputs/public_conjoint_audit
+python analysis/write_power_extension_report.py --out ../outputs/public_conjoint_audit
+```
+
+`power_tuned_choice_audit.py --resume` resumes a matching500-allocation checkpoint and verifies its script hash. The auxiliary-only PPI objective is explicit; it differs from the previous pooled-imputation objective. Human-root and source-style PPI-root initializers are separate methods. A missing verified PPI root is retained as `initialization_unavailable`; we do not infer what an unchecked optimizer's last iterate would do. Every exterior weighted moment receives a direct separating-ray check. The score and analytical derivative checks are in `power_numeric_checks.json`.
+
+The pinned reference implementation is identified in `ppi_power_source_manifest.json`. Its published functions were inspected and independently implemented; no downloaded script runs. `power_reference_checks.json` records a source-hash and independent covariance-identity spot check, created during this analysis; it is not required by the report writer to rerun the numerical study. For a clean reproduction without that spot-check file, the report writer recomputes the independent tuning identity from its own estimator code.
+
+The informative-proxy DGP is a frozen conditional-mean oracle, not newly generated LLM answers. Its exact balanced-null formula, nonzero-signal boundary and variance-optimal-limit argument are in Section8 of the derivation. The135 exact-probability cells and162 signal cells are separate from the earlier Gaussian simulations. This research does not establish priority merely by matching a simulation to a formula.

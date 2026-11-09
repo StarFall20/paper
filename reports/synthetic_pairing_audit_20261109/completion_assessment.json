@@ -3,7 +3,7 @@
   "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
   "source_definition_blocker": "resolved by the researcher-supplied explicit service description",
   "previous_goal_turn": "Source-definition impasse; original publication objective remained unachieved",
-  "current_turn": "Progress:completed500 fixed-target public vaccine allocations,clipping identity,seven independently verified exterior cases,Gaussian candidate derivation and direct simulation,closest-prior review; no submission or priority claim",
+  "current_turn": "Progress:completed500 published-objective power-tuning allocations with both initializers and prediction variants; derived informative-oracle finite-root law; completed135 exact and162 nonnull proxy checks; working manuscript updated",
   "completion_proven": false,
   "requirements": [
     {
@@ -49,7 +49,7 @@
   "new_AI_generation_sample_purchase_or_fielding": false,
   "raw_records_rewritten_or_deleted": false,
   "original_objective_preserved": true,
-  "next_work": "Assess exact-boundary priority and substantive increment; compare established power tuning and finite-auxiliary treatments with all failures retained. No new questionnaire, AI generation, purchases or author messages are authorized.",
+  "next_work": "Evaluate finite auxiliary pools, existing one-step alternatives and coverage under a known choice DGP. Complete closest-prior priority comparison and a coherent full manuscript before claiming submission readiness.",
   "closest_source_review": {
     "Doudkin2026": "arxiv2609.07305v1, AppendixA.8; source probability columns shuffled before categorical realization; no equivalence to exact realized counts asserted",
     "Train2009": "Chapter6 Section6.7 panel likelihood",
@@ -78,6 +78,16 @@
     "candidate_nonnull_boundary": true,
     "novelty_proven": false,
     "submission_readiness_proven": false,
-    "generic_geometry_claimed_new": false
+    "generic_geometry_claimed_new": false,
+    "informative_oracle_extension": {
+      "exact_formula": true,
+      "signal_extension": true,
+      "exact_probability_cells": 135,
+      "signal_cells": 162,
+      "replications_per_cell": 2000,
+      "variance_optimal_weight_identity": "Established PPI++ formula, attributed",
+      "priority_proven": false
+    },
+    "power_tuning_allocations": 500
   }
 }

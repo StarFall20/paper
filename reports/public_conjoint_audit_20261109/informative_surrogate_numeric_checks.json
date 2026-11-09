@@ -1,0 +1,11 @@
+{
+  "cells": 135,
+  "replications_per_cell": 2000,
+  "direct_X_Y_Z_draws": true,
+  "uninformative_proxy_reduction_max_error": 1.8096635301390052e-14,
+  "maximum_probability_absolute_error": 0.025405608274121638,
+  "minimum_exact_binomial_p": 0.007003122217191574,
+  "minimum_Bonferroni_p": 0.9454214993208625,
+  "independent_priority_verified": false,
+  "Gaussian_binary_scope": true
+}

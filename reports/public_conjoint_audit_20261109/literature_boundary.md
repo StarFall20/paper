@@ -19,6 +19,8 @@ The working candidate is the exact finite-label formula(5), its calibration-depe
 
 The finite formula is a short consequence of the known geometry and a conditional Gaussian law. A reviewer may judge that increment too small. The nonnull Brier-risk boundary, a practically useful treatment of finite auxiliary pools, and a fair calibrated/power-tuned comparison must establish whether the new question changes a choice analyst's decision. Numerical agreement alone cannot answer that question.
 
+The informative-proxy extension adds a sharper candidate: an exact finite-label law where the frozen conditional-mean predictor contains information beyond utility covariates and the population variance-optimal weight tends to one. The existing covariance identity supplies that optimal weight; it is not claimed as our result. The new quantity to assess is the finite-root law at that informative optimum. It avoids relying on inaccurate constant predictions that established power tuning would asymptotically downweight. General sparse surrogate inference and one-step alternatives remain relevant comparisons.
+
 Targeted query families included prediction-powered/rectified loss with existence, finite minimizer, unboundedness, separation, phase transition, high-dimensional logistic regression and Gaussian lift zonoid; semi-supervised risk prediction and corrected PU risk were traced to primary papers. No exhaustive exclusion of equivalent earlier results is claimed.
 
 The publisher's aims/scope URL and full article endpoint returned403 in this check. The recent article's publisher-indexed record and author arXiv version were available. This is an observed readership connection, not a freshly completed full submission-guideline audit or an acceptance prediction.

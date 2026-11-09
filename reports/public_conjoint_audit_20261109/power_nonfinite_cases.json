@@ -1,0 +1,234 @@
+[
+  {
+    "trial": 92,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "ppi_lambda1",
+    "status": "outside_mean_support",
+    "separation_gap": 0.0003875561998002708,
+    "ray_objective_1e6": -387.4712139285548,
+    "direction": [
+      0.0,
+      0.05263157894736841,
+      0.052631578947368404,
+      -0.10526315789473684,
+      -0.10526315789473681,
+      0.05263157894736841,
+      -0.10526315789473686,
+      -0.10526315789473684,
+      0.05263157894736842,
+      0.15789473684210523,
+      0.21052631578947367
+    ]
+  },
+  {
+    "trial": 92,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "power_ppi_init",
+    "status": "initialization_unavailable"
+  },
+  {
+    "trial": 121,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "ppi_lambda1",
+    "status": "outside_mean_support",
+    "separation_gap": 0.0030913435483728435,
+    "ray_objective_1e6": -3090.9228381711,
+    "direction": [
+      0.0,
+      0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0,
+      -0.0,
+      0.0
+    ]
+  },
+  {
+    "trial": 121,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "power_ppi_init",
+    "status": "initialization_unavailable"
+  },
+  {
+    "trial": 256,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "ppi_lambda1",
+    "status": "outside_mean_support",
+    "separation_gap": 0.0017415353738245015,
+    "ray_objective_1e6": -1741.418442908849,
+    "direction": [
+      0.0,
+      0.1111111111111111,
+      -0.1111111111111111,
+      0.0,
+      0.1111111111111111,
+      0.0,
+      -0.2222222222222222,
+      -0.11111111111111112,
+      -0.3333333333333333,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "trial": 256,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "power_ppi_init",
+    "status": "initialization_unavailable"
+  },
+  {
+    "trial": 317,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "ppi_lambda1",
+    "status": "outside_mean_support",
+    "separation_gap": 0.002940852934402549,
+    "ray_objective_1e6": -2940.8384687222715,
+    "direction": [
+      0.06451612903225806,
+      0.3225806451612903,
+      0.010752688172043029,
+      -0.10752688172043012,
+      -0.0,
+      -0.27956989247311825,
+      -0.026881720430107506,
+      -0.03225806451612903,
+      -0.15591397849462363,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "trial": 317,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "power_ppi_init",
+    "status": "initialization_unavailable"
+  },
+  {
+    "trial": 317,
+    "label_rows": 50,
+    "prediction": "X_only",
+    "method": "ppi_lambda1",
+    "status": "outside_mean_support",
+    "separation_gap": 0.006806577134847613,
+    "ray_objective_1e6": -6806.5494089604035,
+    "direction": [
+      0.046875,
+      0.296875,
+      -0.0,
+      -0.140625,
+      -0.0,
+      -0.265625,
+      -0.03125,
+      -0.046875,
+      -0.125,
+      0.046875,
+      0.0
+    ]
+  },
+  {
+    "trial": 317,
+    "label_rows": 50,
+    "prediction": "X_only",
+    "method": "power_ppi_init",
+    "status": "initialization_unavailable"
+  },
+  {
+    "trial": 337,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "ppi_lambda1",
+    "status": "outside_mean_support",
+    "separation_gap": 0.003375732010130153,
+    "ray_objective_1e6": -3375.710311609728,
+    "direction": [
+      -0.21052631578947364,
+      -0.010526315789473684,
+      0.09473684210526312,
+      -0.0,
+      -0.08421052631578946,
+      0.12631578947368421,
+      -0.0,
+      0.010526315789473684,
+      0.03157894736842107,
+      0.28421052631578947,
+      0.1473684210526316
+    ]
+  },
+  {
+    "trial": 337,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "power_ppi_init",
+    "status": "initialization_unavailable"
+  },
+  {
+    "trial": 483,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "ppi_lambda1",
+    "status": "outside_mean_support",
+    "separation_gap": 0.0054798667613701335,
+    "ray_objective_1e6": -5479.8480765330605,
+    "direction": [
+      -0.05405405405405406,
+      0.16216216216216212,
+      0.01801801801801803,
+      0.0,
+      -0.04504504504504504,
+      0.009009009009009014,
+      -0.22522522522522523,
+      -0.26126126126126126,
+      0.02702702702702703,
+      0.16216216216216214,
+      0.03603603603603603
+    ]
+  },
+  {
+    "trial": 483,
+    "label_rows": 50,
+    "prediction": "AI",
+    "method": "power_ppi_init",
+    "status": "initialization_unavailable"
+  },
+  {
+    "trial": 483,
+    "label_rows": 50,
+    "prediction": "X_only",
+    "method": "ppi_lambda1",
+    "status": "outside_mean_support",
+    "separation_gap": 0.00528345935424579,
+    "ray_objective_1e6": -5283.436450252004,
+    "direction": [
+      -0.046875,
+      0.140625,
+      0.03125,
+      0.0,
+      -0.0625,
+      0.03125,
+      -0.203125,
+      -0.265625,
+      0.015625,
+      0.140625,
+      0.0625
+    ]
+  },
+  {
+    "trial": 483,
+    "label_rows": 50,
+    "prediction": "X_only",
+    "method": "power_ppi_init",
+    "status": "initialization_unavailable"
+  }
+]
