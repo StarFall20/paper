@@ -1,0 +1,15 @@
+{
+  "human_primary": 300,
+  "AI_pretest_excluded_from_human_estimation": 60,
+  "human_choice_rows": 2400,
+  "early_record_flag_not_automatic_invalidity": 1,
+  "raw_hashes": {
+    "V1": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13",
+    "V2": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01"
+  },
+  "classification_sha256": "c15a7c305cf58e390c19c2c75ab7544603c6a5fef5efde6c1e30e7d7ac47c52e",
+  "source_definition_resolved": true,
+  "version_randomization_verified": false,
+  "new_AI_samples_requested": false,
+  "raw_records_changed": false
+}

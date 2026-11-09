@@ -142,6 +142,10 @@ The figure's “AI samples” text is a literal translation of the original expo
     verify['records']=len(y); verify['choice_rows']=y.size; verify['raw_and_person_level_data_exported']=False
     verify['source_description']='Researcher reports human recruitment; authenticated task notices and AI-point logs confirm the two 30-record tasks, but their task-specific respondent provenance remains unresolved. Original AI样本 labels retained.'
     save(OUT/'numerical_validation_summary.json',verify)
+    if (ANALYSIS.parent/'data/dh36_source_classification.json').exists():
+        notice='> Historical mixed-source diagnostic. The subsequently supplied service definition establishes 60 AI-pretest records; current human primary estimation uses 300 records. Source statements below record the earlier information state. See [current human analysis](../human_primary_20261109/真人主分析与来源纠正.md).\n\n'
+        for filename in ['README.md','问卷保留与模型重建结果.md']:
+            target=OUT/filename;target.write_text(notice+target.read_text())
     print('Report, figures and aggregate validation written.',flush=True)
 
 if __name__=='__main__': main()

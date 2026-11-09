@@ -1,14 +1,15 @@
 {
   "date": "2026-11-09",
-  "researcher_report": "The researcher reports that the platform described the service as recruitment of human respondents.",
-  "evidence_level": "Researcher report retained; authenticated completion notices and all 60 AI-point entries independently inspected; task-specific respondent origin unresolved",
-  "analysis_population": "all 360 records retained in pooled analyses",
-  "export_field": "60 records have original 来源 label AI样本; retained unchanged in private exports and audit metadata",
-  "sensitivity": "source-group analyses reflect observed source-pattern differences, not a declaration that the 60 records were generated or invalid",
-  "all_outside_pattern": "42 all-outside records, all in the 60-record group; other 300 contain none",
-  "version_allocation": "different recruitment channels each administered only one version; no allocation record; no causal version effect claim",
-  "authenticated_platform_evidence": "../platform_source_verification_20261109/source_evidence.json",
-  "task_specific_human_origin_verified": false,
-  "generated_origin_proven": false,
-  "current_source_status": "Two 30-record AI-sample tasks and point usage verified; human-service-description applicability pending"
+  "current_source_status": "AI-pretest task origin resolved by the explicit supplied platform wording",
+  "source_definition_basis": "The researcher supplied the platform service wording in direct answer to the question about these two 30-record tasks. It explicitly describes AI samples answering the questionnaire for preliminary research/pretesting. This resolves the prior ambiguous general human-recruitment description.",
+  "classification": "../../data/dh36_source_classification.json",
+  "authenticated_task_evidence": "../platform_source_verification_20261109/source_evidence.json",
+  "human_primary_records": 300,
+  "AI_pretest_records": 60,
+  "mixed_diagnostic_records": 360,
+  "analysis_population": "Human preference estimation uses300 human-recruitment records. Existing360-record fits are mixed human/AI diagnostics, not human-population estimates.",
+  "original_source_fields_and_raw_records_retained": true,
+  "human_demographic_representativeness_verified": false,
+  "version_allocation": "Different recruitment channels each administered one version; no allocation log. No causal version comparison.",
+  "previous_human_recruitment_report_superseded_for_AI_tasks": true
 }

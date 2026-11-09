@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-09",
+  "status": "task_specific_service_definition_supplied_by_researcher",
+  "source_definition_basis": "The researcher supplied the platform service wording in direct answer to the question about these two 30-record tasks. It explicitly describes AI samples answering the questionnaire for preliminary research/pretesting. This resolves the prior ambiguous general human-recruitment description.",
+  "independently_read_in_authenticated_UI": "The two task notices, their counts, source labels and AI-point records were inspected. The explanatory wording itself was provided by the researcher, not freshly read from an identified web page.",
+  "service_definition_original": "这个是基于问卷星对问卷调研行业的深入了解，我们会基于您当前问卷项目和社会人群现实，让AI匹配一批契合社会现实的样本，并让这些AI样本来作答您的问卷。AI样本适合项目前期的预研究、预测试，每个问卷最多可通过AI样本回收100份答卷。",
+  "synthetic_records": {"selector": "original 来源 contains AI样本", "V1": 30, "V2": 30, "total": 60, "role": "AI-produced pretest responses; excluded from human-preference estimation"},
+  "primary_records": {"selector": "all other original source labels", "V1": 150, "V2": 150, "total": 300, "choice_rows": 2400, "role": "human-recruitment analytic records based on ordinary submission metadata and researcher recruitment report", "quality_scope": "Not a certification of demographic representativeness, eligibility or every individual response; retain the early-record sensitivity"},
+  "mixed_records": {"total": 360, "choice_rows": 2880, "role": "mixed human/AI diagnostic and explicitly labelled computational stress analysis only; never 360 human respondents"},
+  "raw_records_deleted_or_source_fields_rewritten": false,
+  "actual_version_allocation": "Different recruitment channels each administered one version; no allocation log. No causal version comparison.",
+  "AI_model_prompt_persona_selection_and_decoding": "Not available; no specific underlying LLM or general AI-generator performance is inferred.",
+  "previous_general_human_recruitment_report": "Superseded for these 60 task-linked records by the supplied explicit AI-pretest wording."
+}

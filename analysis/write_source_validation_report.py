@@ -218,6 +218,10 @@ Let p_tj be the MNL probability for alternative j at task t. A constant-j vector
 The comparison uses standard conditioning and categorical smoothing. These calculations are not claimed as an independently new theorem. A publication contribution must come from a distinct, adequately documented empirical finding and its consequences for choice-model use.
 '''
     (out/'focused_research_note.md').write_text(note)
+    if (Path(__file__).resolve().parents[1]/'data/dh36_source_classification.json').exists():
+        notice='> Historical source-label diagnostic. The later service definition classifies 60 records as AI pretests; 300 human-recruitment records form the human primary analysis. Earlier unresolved-source statements below are superseded. See [current source correction](../human_primary_20261109/真人主分析与来源纠正.md) and [current pairing audit](../synthetic_pairing_audit_20261109/AI预测试配对审计.md).\n\n'
+        for filename in ['README.md','来源条件验证与创新边界.md','focused_research_note.md']:
+            target=out/filename;target.write_text(notice+target.read_text())
     print(json.dumps({'fold_fits':len(folds),'source_group_contribution_fraction':attribution,'raw_hashes_match':True,'checks_and_report_written':True}))
 
 

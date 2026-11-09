@@ -1,50 +1,35 @@
-# Current research status — 2026-11-09
+# Current research status — 9 November 2026, after AI-pretest clarification
 
-The current independent-new-method Journal of Choice Modelling submission claim is not supported. Fixed-support fibre information, saturated contrast rank and matched local design criteria coincide with classical nuisance-adjusted lack-of-fit constructions. Two released stated-choice supports and 9,000 matched simulations have been checked.
+The source-definition barrier is resolved. The researcher supplied the exact platform service wording: AI samples answer the questionnaire for preliminary research/pretesting. Matching task notices and counts had already been inspected. The explanation itself is researcher-provided, without a freshly identified webpage claim.
 
-The active output is a reproducible classical-method design audit and technical resource note, not a submission-ready new theory. New questionnaire fielding and new human sample-size planning were conditional on a distinct contribution; that gate was not passed, so neither proceeds.
+## Correct analysis populations
 
-- [Research decision](reports/method_decision_20261109/最终研究去留报告.md)
-- [Classical equivalence derivation](reports/method_decision_20261109/classical_equivalence_proof.md)
-- [Resource technical note](manuscript/design_testability_audit_note_20261109.md)
-- [Reproduction instructions](reports/method_decision_20261109/README.md)
+- **Human primary analysis:**300 human-recruitment records,150 per version,2400 choices. These use ordinary submission metadata and the recruitment report; demographic representativeness and all eligibility claims are not certified.
+- **AI pretest records:**60,30 per version. They do not enter human preference estimates, human sample size or human significance evidence.
+- **Original mixed export:**360 records preserved unchanged. Earlier pooled fits are historical mixed-source diagnostics, not 360 human respondents.
 
-DH36 original exports and the full 360-record exploratory analyses are preserved. Original provenance and actual recruitment facts are not rewritten. Historical internal round-by-round novelty or submission-threshold judgments are superseded by this decision; they are not independent peer review.
+The canonical definition is [data/dh36_source_classification.json](data/dh36_source_classification.json). No further device unlock or repeated provenance question is needed to classify these 60 records. The earlier general human-recruitment interpretation is superseded for these tasks.
 
-## Additional questionnaire-content reuse assessment
+## Completed human primary reconstruction
 
-The fee and sharing-rule content is being assessed for a separate exploratory applied question about paid health-management services. [Reuse plan](reports/questionnaire_reuse_20261109/现有问卷内容利用方案.md). The original theoretical-method conclusion is unchanged. Human provenance, substantive application novelty and submission readiness remain to be verified; no new fielding or publication promise is made.
+The [human-primary report](reports/human_primary_20261109/真人主分析与来源纠正.md) re-estimates ordinary and random-intercept models with linear fees or free observed fee-rule cells. Whole-record folds are retained. Human joint NLL per choice is1.031745 for ordinary linear fees and 1.031899 for a normal random intercept; increased flexibility does not improve the current human prediction target.
 
-## Executed application rebuild and updated source report
+At CNY 89, ordinary free cells estimate G2–G1 at 0.503 with interval[0.029,0.977]; random-intercept cells give 0.499,[0.024,0.975]. Conditional A/B gives 0.787,[-0.184,1.759]. The early-record 299 sensitivity remains reported without declaring that record invalid. These are exploratory model-conditional package comparisons, not pure-control effects or established WTP.
 
-The researcher reports that the platform described its service as recruiting human respondents. All 360 records remain in pooled models. The original 60-record export label `AI样本` is retained as source metadata. Fresh authenticated platform inspection confirms two 30-record AI-sample completion notices and 60 matching AI-point transaction entries. The inspected entries each consume 0.5 points. Whether the reported human-recruitment description applies specifically to these tasks remains unresolved; neither verified human origin nor machine generation is inferred from their labels, billing or answer patterns. See the [source-verification update](reports/platform_source_verification_20261109/问卷星来源核验更新.md).
+The [current human application draft](manuscript/human_service_choice_application_20261109.md) uses 300 records. Different recruitment channels administered one version each, without a retained assignment log; no causal version effect is claimed.
 
-The [executed rebuild](reports/application_rebuild_20261109/问卷保留与模型重建结果.md) fits eight fixed model specifications, an exact outside-component follow-up and a source sensitivity. All 42 all-outside vectors occur in that 60-record source group; the other 300 records contain none. Improved pooled joint prediction from preference mixtures is essentially reproduced by a classical participation component and does not establish stable taste classes.
+## Current research candidate: AI-pretest answer pairing
 
-Flexible fee-rule cells identify a model-adjusted G2–G1 contrast at CNY89, conditional on cross-task utility and package assumptions. Its intervals span zero in the pooled random-intercept, outside-component and conditional A/B models. G0 has no common fee with the other rules. Linear-fee monetary trade-offs remain supplementary model-conditional estimates, superseding any stronger reading of the earlier reuse plan.
+The [computational audit](reports/synthetic_pairing_audit_20261109/AI预测试配对审计.md) fixes human training/test vectors, menus, AI counts and every training task-by-version choice count. It re-pairs only AI training answers. All 50 exact marginal controls pass. For the specified MNL, coefficient point estimates and human predictions remain invariant; clustered uncertainty is not asserted invariant.
 
-An [application evidence draft](reports/application_rebuild_20261109/application_evidence_draft.md) and [close prior-work comparison](reports/application_rebuild_20261109/closest_prior_work.md) preserve the completed questionnaire content. An independent substantive contribution and submission readiness are not established by these model runs. No new questionnaire fielding is required to reproduce the current analyses.
+With original AI pretests added, human-target joint NLL is1.064631 for a random service intercept and 1.049832 for the outside component. Across ten fixed re-pairings, means are 1.044161 and 1.042139. Mean outside weight drops from 11.66% to 1.14% at unchanged margins. These are consequences of the defined data operation, not a change in human tastes or ten independent AI batches.
 
-## Background extension and independent input preflight
+The [current case manuscript](manuscript/ai_pretest_pairing_audit_20261109.md) develops this specific consequence for inferred participation heterogeneity and human prediction. AI pretests are not proposed as replacement respondents. The service is explicitly intended for pretesting; the note does not claim the provider promotes population inference from them.
 
-Ten predeclared exploratory background contrasts and matched whole-record validation are complete. Prior-payment differences seen under a linear fee do not remain precise under flexible price-rule cells; the 300-record source sensitivity provides no predictive improvement from payment/use-history modifiers. The [extension report](reports/application_extensions_20261109/背景扩展与投稿条件复核.md) retains all comparisons and the limited ten-test Holm family. A close 2020 app DCE already includes fee, privacy control, sharing and reminders, strengthening the need for a distinct substantive contribution.
+## Innovation and submission decision
 
-The BRAC CHORUS public DCE archive passed its published CSV checksum but requires input clarification: 162 active-facility rows have all six attributes missing and declared block/task slots contain two observed menu variants. No outcome model, design rank or independent-validation success is claimed for that archive. Its rows are not redistributed.
+The original fibre-information/rank claim coincides with classical lack-of-fit constructions and remains retired. [Equivalence proof](reports/method_decision_20261109/classical_equivalence_proof.md).
 
-Questionnaire Star access has been restored after the user unlocked the Mac and signed in. Source/task and AI-point records were read successfully in the authenticated interface. A later UI call reported the device locked again, after inspection had completed; no additional unlock is needed to preserve these observations or complete this backup. The task-specific service definition remains to be verified. The active goal is unachieved; numerical completion and a preserved exploratory draft do not establish submission readiness.
+The fixed-margin case is a more precise empirical candidate. Synthetic human-choice comparisons, synthetic dependence failures and non-trading rules already have relevant precedents. MNL invariance, conditioning and classical mixtures are tools, not newly named theories. Independent originality and a sufficient JOCM contribution remain to be established. The goal is not declared complete; see the [current completion assessment](reports/synthetic_pairing_audit_20261109/completion_assessment.json).
 
-## Exhaustive direct-menu and context-sensitivity audit
-
-The [identification-boundary report](reports/identification_boundary_20261109/识别边界与研究决策.md) exhausts all 28 pairs of the eight menus. There are no single-rule-only matched contrasts, one single-price-change pair and two unchanged-service pairs. Both classical conditional path restrictions are not rejected; their informative discordant counts are 75 and 63. Non-rejection is not a sufficiency or model-validity finding.
-
-The pooled task-5 to task-8 net-share decomposition has an outside/A-loss ratio of 47/52, but it has broad Fieller uncertainty, weak within-version denominator support and fixed task order. It is descriptive and does not establish a causal switching rate. The within-version conditional free-cell model is saturated (8 rows, rank 8); its rule contrast uses log-odds weights (-2,1,1,0,1,-2,1,0), making a declared task-offset bound expand eightfold. These are classical sensitivity calculations.
-
-The original Word benchmark and prior corrected oracle audit were checked again; existing corrections are not presented as new discoveries. The [completion evidence audit](reports/identification_boundary_20261109/completion_evidence_audit.json) keeps the original publication objective intact and records its unmet substantive and validation requirements. Its previous device/account access blocker has been resolved; the new source-verification evidence supersedes that access snapshot. No device-security bypass, external author message, new fielding or sample purchase has occurred.
-
-## Source-conditioned validation and a sharper empirical finding
-
-The [new fixed benchmark](reports/source_conditioned_validation_20261109/来源条件验证与创新边界.md) completes nine specifications and 45 whole-record fold fits. All 60 AI-labelled vectors are constant (15 all A, 3 all B, 42 all outside); all other 300 vectors are nonconstant. This is an observed response-pattern/source association, without an identity or behavioral-cause finding.
-
-The source-blind outside-component model's accurate pooled count of 42 hides source-conditional errors: it predicts 35.32 all-outside vectors among the 300 records containing none, and 6.68 among the 60 containing all 42. A transparent source-aware four-pattern hurdle predicts 0.62 and 40.42. Its pooled joint score improves over a source-adjusted ordinary model, while their scores in the other 300 records are nearly identical. In that comparison, approximately 99.94% of the weighted pooled mean gain occurs in the 60-record group. Source-stratified scores and marginal scores are retained alongside pooled scores.
-
-A [focused research note](manuscript/source_conditioned_choice_prediction_note_20261109.md) develops this case-specific result. Non-trading models, pattern-frequency diagnostics and ASC interactions have close published precedents in 2023, 2025 and 2026, including a checked author GitHub repository. Standard conditioning and pattern gates are not claimed as independent theory. The original goal remains unachieved: the specific service definition and an independently substantial publication contribution still require evidence. A numerically stronger benchmark does not establish either. See the [current completion assessment](reports/source_conditioned_validation_20261109/completion_assessment.json).
+All raw records remain private and unchanged. No new questionnaire, AI generation, purchase or external message was made. Historical drafts have supersession notices; they retain their prior information state and numerical results. Current reproduction starts from the new human-primary and pairing-audit READMEs.

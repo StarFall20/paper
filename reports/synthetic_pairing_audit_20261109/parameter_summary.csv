@@ -1,0 +1,10 @@
+condition,model,service_intercept_sd,outside_component_weight,training_AI_constant_vectors
+human_only,MNL_linear,,,0.0
+human_only,RI_linear,0.22159441227854249,,0.0
+human_only,spike_linear,,2.0611536181902033e-09,0.0
+mixed_original_AI,MNL_linear,,,48.0
+mixed_original_AI,RI_linear,1.3558817809515338,,48.0
+mixed_original_AI,spike_linear,,0.11662192892322112,48.0
+mixed_repaired_AI,MNL_linear,,,3.36
+mixed_repaired_AI,RI_linear,0.7229551573174021,,3.36
+mixed_repaired_AI,spike_linear,,0.011382241369011828,3.36

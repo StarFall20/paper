@@ -34,7 +34,11 @@ def main():
     save(a.out/'source_boundary_model_fits.json',fits); save(a.out/'source_boundary_fold_checks.json',diagnostics); pd.DataFrame(contrasts).to_csv(a.out/'source_boundary_same_price_contrasts.csv',index=False)
     source_path=a.out/'source_statement.json'
     # Re-estimation must not erase later independently inspected provenance.
-    if not source_path.exists():
+    classification_path=Path(__file__).resolve().parents[1]/'data/dh36_source_classification.json'
+    if classification_path.exists():
+        classification=json.loads(classification_path.read_text())
+        save(source_path,{'date':'2026-11-09','classification':'../../data/dh36_source_classification.json','evidence_level':classification['source_definition_basis'],'AI_pretest_records':60,'human_primary_records':300,'mixed_diagnostic_records':360,'analysis_population':'This legacy entry point estimates mixed-source diagnostics. Human preference primary estimates use only the 300 human-recruitment records in human_primary_20261109.','original_source_fields_retained':True,'human_recruitment_representativeness_verified':False,'version_allocation':classification['actual_version_allocation']})
+    elif not source_path.exists():
         save(source_path,{'date':'2026-11-09','researcher_report':'The researcher reports that the platform described the service as recruitment of human respondents.','evidence_level':'researcher-transmitted platform description; original service documentation not inspected','analysis_population':'all 360 records retained in pooled analyses','export_field':'60 records have original 来源 label AI样本; retained unchanged in private exports and audit metadata','sensitivity':'source-group analyses reflect observed source-pattern differences, not a declaration that the 60 records were generated or invalid','all_outside_pattern':'42 all-outside records, all in the 60-record group; other 300 contain none','version_allocation':'different recruitment channels each administered only one version; no allocation record; no causal version effect claim'})
     print(pd.DataFrame(rows).to_string(index=False),flush=True)
 

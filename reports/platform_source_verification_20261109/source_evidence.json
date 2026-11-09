@@ -2,9 +2,7 @@
   "checked_at": "2026-11-09T13:47:22+08:00",
   "inspection": "Read-only native UI inspection of the authenticated questionnaire-platform account after user-restored access",
   "device_and_account_access": "restored",
-  "researcher_report": "平台说明为真人招募答卷",
   "task_specific_human_recruitment_description_verified": false,
-  "generated_origin_proven": false,
   "observed_task_notices": [
     {
       "version": "V1",
@@ -62,13 +60,13 @@
     "V2_entries": 30,
     "account_names_balances_and_transaction_rows_exported": false
   },
-  "general_service_description": "Ordinary human-panel service description inspected; mapping to the two AI-sample tasks not verified",
+  "general_service_description": "The earlier ordinary human-panel service description does not classify these two task-linked AI-pretest batches.",
   "official_virtual_sample_update": {
     "url": "https://www.wjx.cn/recentupdate.aspx?page=3",
     "date": "2026-06-28",
     "equivalence_to_current_task_label_verified": false
   },
-  "interpretation": "Tasks and AI-point usage verified; specific service definition and respondent origin unresolved",
+  "interpretation": "60 AI-pretest responses; excluded from human estimation. Human primary records=300. Original360 remain mixed-source diagnostics.",
   "analysis": {
     "pooled_records": 360,
     "other_source_sensitivity_records": 300,
@@ -76,12 +74,21 @@
     "all_outside_in_60_record_source_group": 42,
     "new_model_fits": 0
   },
-  "pending_question": "Does the reported human-recruitment description explicitly cover these two 30-record AI-sample tasks?",
+  "pending_question": null,
   "survey_or_answers_changed": false,
   "new_sample_order_submitted": false,
   "paid_AI_operations_requested": false,
   "external_messages_sent": false,
   "raw_answers_or_participant_metadata_exported": false,
   "subsequent_device_state": "After the authenticated inspection was complete, a later UI call reported the Mac locked again. No further UI change was attempted; the completed observations remain valid.",
-  "additional_unlock_required_to_save_current_findings": false
+  "additional_unlock_required_to_save_current_findings": false,
+  "researcher_report_before_clarification": "平台说明为真人招募答卷",
+  "source_definition_resolved": true,
+  "source_classification": "AI-produced pretest responses",
+  "AI_pretest_origin_established_for_analysis": true,
+  "source_definition_evidence_level": "Task-specific platform service wording supplied by the researcher in direct answer to the source question; matching task labels/counts independently read earlier",
+  "service_definition_original": "这个是基于问卷星对问卷调研行业的深入了解，我们会基于您当前问卷项目和社会人群现实，让AI匹配一批契合社会现实的样本，并让这些AI样本来作答您的问卷。AI样本适合项目前期的预研究、预测试，每个问卷最多可通过AI样本回收100份答卷。",
+  "source_definition_freshly_read_from_identified_webpage": false,
+  "source_confirmation_blocker_resolved": true,
+  "classification_file": "../../data/dh36_source_classification.json"
 }

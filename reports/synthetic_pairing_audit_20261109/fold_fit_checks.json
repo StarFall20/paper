@@ -1,0 +1,3140 @@
+[
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -1985.9235975421248,
+    "parameters": 7,
+    "n": 241,
+    "gradient_max": 1.503773149114096e-05,
+    "projected_gradient_max": 1.503773149114096e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -1985.9235975421248
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -1984.9977326429403,
+    "parameters": 8,
+    "n": 241,
+    "gradient_max": 5.537697245205919e-06,
+    "projected_gradient_max": 5.537697245205919e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -1984.9977326430098,
+      -1984.9977326429407,
+      -1984.9977326429403
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2262.9858711087772,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.5991952859728542e-06,
+    "projected_gradient_max": 1.5991952859728542e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2262.985871108788,
+      -2262.9858711087772,
+      -2262.9858711087973
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -1985.9235980388626,
+    "parameters": 8,
+    "n": 241,
+    "gradient_max": 9.472031351265287e-06,
+    "projected_gradient_max": 9.472031351265287e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -1985.9235980388632,
+      -1985.923598038863,
+      -1985.9235980388626
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2214.531224097913,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.1419285612636982e-05,
+    "projected_gradient_max": 1.1419285612636982e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2214.5312240979156,
+      -2214.5312240979147,
+      -2214.531224097913
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -1965.5639251663772,
+    "parameters": 7,
+    "n": 238,
+    "gradient_max": 1.1607995187290499e-06,
+    "projected_gradient_max": 1.1607995187290499e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -1965.5639251663772
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -1965.559870128906,
+    "parameters": 8,
+    "n": 238,
+    "gradient_max": 1.0125472334365782e-05,
+    "projected_gradient_max": 1.0125472334365782e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -1965.5598701289314,
+      -1965.5598701289064,
+      -1965.559870128906
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2255.097379482321,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 4.3463251278019754e-06,
+    "projected_gradient_max": 4.3463251278019754e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2255.0973794823485,
+      -2255.097379482321,
+      -2255.0973794823217
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -1965.5639256569327,
+    "parameters": 8,
+    "n": 238,
+    "gradient_max": 3.289929132321845e-05,
+    "projected_gradient_max": 3.289929132321845e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -1965.5639256569357,
+      -1965.563925656933,
+      -1965.5639256569327
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2187.9944177543534,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.9508336772148475e-06,
+    "projected_gradient_max": 1.9508336772148475e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2187.994417754354,
+      -2187.9944177543534,
+      -2187.9944177543584
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -1923.1372283836358,
+    "parameters": 7,
+    "n": 234,
+    "gradient_max": 2.1976604624995844e-07,
+    "projected_gradient_max": 2.1976604624995844e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -1923.1372283836358
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -1922.8552060055256,
+    "parameters": 8,
+    "n": 234,
+    "gradient_max": 1.4864540756609479e-05,
+    "projected_gradient_max": 1.4864540756609479e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -1922.8552060055272,
+      -1922.8552060055256,
+      -1922.8552060055263
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2220.2926382746055,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.6529802567832874e-06,
+    "projected_gradient_max": 1.6529802567832874e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2220.292638274631,
+      -2220.2926382746055,
+      -2220.2926382746064
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -1923.1372288659477,
+    "parameters": 8,
+    "n": 234,
+    "gradient_max": 4.010562227119152e-05,
+    "projected_gradient_max": 4.010562227119152e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -1923.1372288659675,
+      -1923.1372288659477,
+      -1923.1372288659545
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2159.9249679573677,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.2887263456329395e-06,
+    "projected_gradient_max": 5.2887263456329395e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2159.9249679573677,
+      -2159.92496795737,
+      -2159.9249679573736
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -1959.9067144599244,
+    "parameters": 7,
+    "n": 239,
+    "gradient_max": 1.4410883503401806e-05,
+    "projected_gradient_max": 1.4410883503401806e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -1959.9067144599244
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -1959.3250208586626,
+    "parameters": 8,
+    "n": 239,
+    "gradient_max": 1.3087915431642116e-05,
+    "projected_gradient_max": 1.3087915431642116e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -1959.3250208586626,
+      -1959.3250208586628,
+      -1959.3250208586746
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2229.5532838177032,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.19631332149428e-05,
+    "projected_gradient_max": 1.19631332149428e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2229.5532838177032,
+      -2229.5532838177064,
+      -2229.5532838177032
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -1959.9067149525406,
+    "parameters": 8,
+    "n": 239,
+    "gradient_max": 1.4639114519710006e-05,
+    "projected_gradient_max": 1.4639114519710006e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -1959.9067149525413,
+      -1959.9067149525522,
+      -1959.9067149525406
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2166.247925725209,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.754318372694955e-06,
+    "projected_gradient_max": 2.754318372694955e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2166.2479257252107,
+      -2166.2479257252116,
+      -2166.247925725209
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2042.7486900694362,
+    "parameters": 7,
+    "n": 248,
+    "gradient_max": 4.5219471857649296e-05,
+    "projected_gradient_max": 4.5219471857649296e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2042.7486900694362
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2041.9340094751785,
+    "parameters": 8,
+    "n": 248,
+    "gradient_max": 1.381114348078527e-05,
+    "projected_gradient_max": 1.381114348078527e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2041.9340094751785,
+      -2041.934009475183,
+      -2041.934009475283
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2276.8399839228264,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 8.886966643806282e-06,
+    "projected_gradient_max": 8.886966643806282e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2276.8399839228323,
+      -2276.839983922827,
+      -2276.8399839228264
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "human_only",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2042.7486905806006,
+    "parameters": 8,
+    "n": 248,
+    "gradient_max": 6.812985440873831e-05,
+    "projected_gradient_max": 6.812985440873831e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2042.7486905806063,
+      -2042.7486905806074,
+      -2042.7486905806006
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_original_AI",
+    "seed": -1,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2231.3549409575976,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.590919379801381e-05,
+    "projected_gradient_max": 1.590919379801381e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2231.3549409575976,
+      -2231.3549409576017,
+      -2231.354940957608
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2374.399476219568,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.1927315779924896e-05,
+    "projected_gradient_max": 1.1927315779924896e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2374.39947621957,
+      -2374.3994762195703,
+      -2374.399476219568
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2389.6066056035925,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.126678059630407e-06,
+    "projected_gradient_max": 5.126678059630407e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2389.606605603596,
+      -2389.6066056035925,
+      -2389.606605603597
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2359.2945820287337,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.22925076442948e-06,
+    "projected_gradient_max": 2.22925076442948e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2359.294582028736,
+      -2359.2945820287446,
+      -2359.2945820287337
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2381.2942292861467,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 8.91403046709982e-06,
+    "projected_gradient_max": 8.91403046709982e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2381.2942292861467,
+      -2381.2942292861517,
+      -2381.294229286147
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2345.7560320611665,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 7.4941405112660675e-06,
+    "projected_gradient_max": 7.4941405112660675e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2345.7560320611688,
+      -2345.7560320611724,
+      -2345.7560320611665
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2372.705411593589,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.3242234779609063e-05,
+    "projected_gradient_max": 1.3242234779609063e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2372.7054115935925,
+      -2372.7054115935907,
+      -2372.705411593589
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2331.4176790977153,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.9350746014890063e-05,
+    "projected_gradient_max": 1.9350746014890063e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2331.4176790977153,
+      -2331.417679097749,
+      -2331.4176790977554
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2365.437320627165,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 4.105194301828874e-06,
+    "projected_gradient_max": 4.105194301828874e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2365.4373206271657,
+      -2365.437320627165,
+      -2365.4373206271657
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2357.417645215666,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.076273757926742e-06,
+    "projected_gradient_max": 6.076273757926742e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2357.4176452156776,
+      -2357.417645215666,
+      -2357.417645215667
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611090,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2374.296064050688,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.6851964370623307e-05,
+    "projected_gradient_max": 1.6851964370623307e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2374.296064050688,
+      -2374.2960640506885,
+      -2374.2960640507363
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2371.987843092317,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.8359712329663047e-05,
+    "projected_gradient_max": 1.8359712329663047e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2371.987843092317,
+      -2371.9878430923186,
+      -2371.98784309232
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2382.1506093456164,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.783957742089285e-06,
+    "projected_gradient_max": 5.783957742089285e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2382.1506093456164,
+      -2382.1506093456205,
+      -2382.150609345618
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2358.75225119372,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.6950067492648166e-06,
+    "projected_gradient_max": 2.6950067492648166e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2358.7522511937204,
+      -2358.752251193724,
+      -2358.75225119372
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2381.294229286146,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 8.914029745010765e-06,
+    "projected_gradient_max": 8.914029745010765e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2381.294229286146,
+      -2381.2942292861517,
+      -2381.294229286147
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2346.327043640176,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.327951185269853e-06,
+    "projected_gradient_max": 6.327951185269853e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2346.327043640176,
+      -2346.3270436401817,
+      -2346.3270436401826
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2369.665547684077,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 7.004987535363938e-06,
+    "projected_gradient_max": 7.004987535363938e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2369.665547684077,
+      -2369.665547684078,
+      -2369.665547684082
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2332.660692030703,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.4833645496148407e-05,
+    "projected_gradient_max": 1.4833645496148407e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2332.660692030706,
+      -2332.660692030703,
+      -2332.6606920307154
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2361.3680934599133,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.9998637509788253e-05,
+    "projected_gradient_max": 1.9998637509788253e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2361.3680934599133,
+      -2361.3680934599174,
+      -2361.368093459925
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2358.334686893295,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.8982271236200887e-05,
+    "projected_gradient_max": 1.8982271236200887e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2358.334686893295,
+      -2358.3346868933086,
+      -2358.334686893306
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611091,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2377.043828212887,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.838142709686963e-05,
+    "projected_gradient_max": 1.838142709686963e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2377.043828212887,
+      -2377.043828212887,
+      -2377.0438282128935
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2374.8454097094263,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.7522804283132132e-05,
+    "projected_gradient_max": 1.7522804283132132e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2374.8454097094263,
+      -2374.845409709427,
+      -2374.8454097094263
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2389.890856101548,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.648624518934554e-06,
+    "projected_gradient_max": 6.648624518934554e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2389.890856101548,
+      -2389.890856101548,
+      -2389.8908561015587
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2358.989927141185,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.1021139489475473e-05,
+    "projected_gradient_max": 1.1021139489475473e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2358.9899271411923,
+      -2358.989927141186,
+      -2358.989927141185
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2364.837507738021,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.2283997756740161e-05,
+    "projected_gradient_max": 1.2283997756740161e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2364.837507738021,
+      -2364.837507738024,
+      -2364.837507738021
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2345.5295167205804,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.7622407126327566e-06,
+    "projected_gradient_max": 1.7622407126327566e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2345.5295167205804,
+      -2345.5295167205886,
+      -2345.5295167206136
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2376.1785605665073,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.718060709369865e-07,
+    "projected_gradient_max": 5.718060709369865e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2376.1785605665177,
+      -2376.1785605665073,
+      -2376.1785605665077
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2334.2226382855797,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.7520357564435614e-05,
+    "projected_gradient_max": 3.7520357564435614e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2334.2226382855797,
+      -2334.2226382855815,
+      -2334.222638285625
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2369.2325417781467,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.0917037870660238e-06,
+    "projected_gradient_max": 2.0917037870660238e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2369.2325417781503,
+      -2369.232541778147,
+      -2369.2325417781467
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2357.412614323235,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.5876850003371246e-05,
+    "projected_gradient_max": 1.5876850003371246e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2357.4126143232447,
+      -2357.4126143232525,
+      -2357.412614323235
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611092,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2370.922759626087,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.3947195220207504e-05,
+    "projected_gradient_max": 3.3947195220207504e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2370.92275962612,
+      -2370.922759626087,
+      -2370.922759626092
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2375.7841038454717,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.0935190838455853e-05,
+    "projected_gradient_max": 2.0935190838455853e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2375.7841038454717,
+      -2375.7841038454762,
+      -2375.7841038454717
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2389.978830637889,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.1487125125331232e-05,
+    "projected_gradient_max": 1.1487125125331232e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2389.978830637889,
+      -2389.978830637913,
+      -2389.978830637938
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2358.7335226605446,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.4772638316840059e-05,
+    "projected_gradient_max": 1.4772638316840059e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2358.73352266055,
+      -2358.7335226605455,
+      -2358.7335226605446
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2373.5105789337645,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 8.540459859318617e-06,
+    "projected_gradient_max": 8.540459859318617e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2373.5105789337645,
+      -2373.5105789337695,
+      -2373.5105789337663
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2345.485596727847,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 7.3079848372792355e-06,
+    "projected_gradient_max": 7.3079848372792355e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2345.485596727847,
+      -2345.4855967278554,
+      -2345.4855967278518
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2364.931493751633,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.687702707098282e-05,
+    "projected_gradient_max": 1.687702707098282e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2364.931493751633,
+      -2364.931493751633,
+      -2364.9314937516347
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2332.357074738763,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 7.478319222098406e-06,
+    "projected_gradient_max": 7.478319222098406e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2332.357074738764,
+      -2332.357074738763,
+      -2332.357074738763
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2365.3702381797,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 8.192056988320928e-06,
+    "projected_gradient_max": 8.192056988320928e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2365.370238179751,
+      -2365.3702381797,
+      -2365.3702381797048
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2357.4318496802666,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.980718465581347e-06,
+    "projected_gradient_max": 5.980718465581347e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2357.4318496802666,
+      -2357.431849680268,
+      -2357.431849680273
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611093,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2367.0934726035703,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 4.1524318230123924e-05,
+    "projected_gradient_max": 4.1524318230123924e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2367.0934726035703,
+      -2367.093472603597,
+      -2367.0934726036157
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2374.6186199736303,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.7918177903929475e-06,
+    "projected_gradient_max": 2.7918177903929475e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2374.618619973631,
+      -2374.6186199736303,
+      -2374.6186199736303
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2389.9788306378887,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.1487123062092763e-05,
+    "projected_gradient_max": 1.1487123062092763e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2389.9788306378887,
+      -2389.9788306379123,
+      -2389.978830637938
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2360.641783224825,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.154900947903826e-06,
+    "projected_gradient_max": 2.154900947903826e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2360.641783224825,
+      -2360.641783224837,
+      -2360.6417832248253
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2384.6985203226095,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.221479287494276e-05,
+    "projected_gradient_max": 1.221479287494276e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2384.6985203226404,
+      -2384.6985203226095,
+      -2384.6985203226095
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2344.6692862479617,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.5039950285309374e-05,
+    "projected_gradient_max": 3.5039950285309374e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2344.669286247965,
+      -2344.6692862479654,
+      -2344.6692862479617
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2372.7054115935894,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.3243289935127578e-05,
+    "projected_gradient_max": 1.3243289935127578e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2372.7054115935925,
+      -2372.7054115935907,
+      -2372.7054115935894
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2336.066123326521,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.8265915292525747e-05,
+    "projected_gradient_max": 1.8265915292525747e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2336.0661233265228,
+      -2336.066123326521,
+      -2336.066123326523
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2372.744399648097,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.666407115218931e-08,
+    "projected_gradient_max": 6.666407115218931e-08,
+    "solver_success": true,
+    "start_logliks": [
+      -2372.7443996481006,
+      -2372.7443996481347,
+      -2372.744399648097
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2358.593796429574,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.7225690818856165e-05,
+    "projected_gradient_max": 1.7225690818856165e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2358.59379642958,
+      -2358.5937964295754,
+      -2358.593796429574
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611094,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2370.922759626087,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.39472708503763e-05,
+    "projected_gradient_max": 3.39472708503763e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2370.92275962612,
+      -2370.922759626087,
+      -2370.922759626092
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2371.0041893647503,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.3431844748987287e-05,
+    "projected_gradient_max": 1.3431844748987287e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2371.004189364752,
+      -2371.004189364754,
+      -2371.0041893647503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2389.9788306378887,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.1487112951069633e-05,
+    "projected_gradient_max": 1.1487112951069633e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2389.9788306378887,
+      -2389.9788306379123,
+      -2389.9788306379373
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2355.1089771421466,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.597144942467766e-06,
+    "projected_gradient_max": 2.597144942467766e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2355.1089771421466,
+      -2355.1089771421784,
+      -2355.10897714215
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2369.214566454418,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.1287992559338988e-05,
+    "projected_gradient_max": 1.1287992559338988e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2369.214566454418,
+      -2369.2145664544228,
+      -2369.2145664544414
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2346.3558980504813,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.7877906065555393e-05,
+    "projected_gradient_max": 1.7877906065555393e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2346.3558980504813,
+      -2346.355898050484,
+      -2346.355898050483
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2378.7283291918866,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.0028641573178732e-05,
+    "projected_gradient_max": 1.0028641573178732e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.7283291918875,
+      -2378.7283291918866,
+      -2378.7283291918893
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2332.958953332173,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.0391920704844182e-05,
+    "projected_gradient_max": 1.0391920704844182e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2332.958953332176,
+      -2332.958953332174,
+      -2332.958953332173
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2361.205072651437,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.560734837395387e-05,
+    "projected_gradient_max": 5.560734837395387e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2361.2050726514835,
+      -2361.205072651437,
+      -2361.2050726514376
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2356.1843167726392,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.255482919373165e-05,
+    "projected_gradient_max": 3.255482919373165e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2356.1843167726392,
+      -2356.184316772644,
+      -2356.184316772664
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611095,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2374.2960640506885,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.6851318727972853e-05,
+    "projected_gradient_max": 1.6851318727972853e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2374.2960640506885,
+      -2374.2960640506885,
+      -2374.2960640507363
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2375.100343029127,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.299197025965263e-06,
+    "projected_gradient_max": 5.299197025965263e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2375.1003430291275,
+      -2375.1003430291285,
+      -2375.100343029127
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2394.793012682702,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.946607505904808e-05,
+    "projected_gradient_max": 2.946607505904808e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930126827123,
+      -2394.793012682705,
+      -2394.793012682702
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2360.359859576418,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 4.652137627125796e-06,
+    "projected_gradient_max": 4.652137627125796e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2360.359859576418,
+      -2360.359859576425,
+      -2360.359859576419
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2380.796703267769,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.800385503893722e-05,
+    "projected_gradient_max": 3.800385503893722e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2380.796703267769,
+      -2380.7967032677698,
+      -2380.796703267769
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2346.042609080964,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.5589300595919564e-05,
+    "projected_gradient_max": 1.5589300595919564e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2346.042609080964,
+      -2346.0426090809697,
+      -2346.0426090809665
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2365.755852489942,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.375394687465949e-05,
+    "projected_gradient_max": 3.375394687465949e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2365.7558524899505,
+      -2365.755852489942,
+      -2365.7558524899423
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2333.2671003753385,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.6719393629127666e-05,
+    "projected_gradient_max": 1.6719393629127666e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2333.267100375361,
+      -2333.267100375353,
+      -2333.2671003753385
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2361.3680934599133,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.9999090115074836e-05,
+    "projected_gradient_max": 1.9999090115074836e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2361.3680934599133,
+      -2361.3680934599174,
+      -2361.368093459925
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2355.727030446217,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 7.796880578947452e-06,
+    "projected_gradient_max": 7.796880578947452e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2355.727030446219,
+      -2355.727030446217,
+      -2355.7270304462195
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611096,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2358.436373480424,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.505133510081862e-06,
+    "projected_gradient_max": 6.505133510081862e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2358.4363734804256,
+      -2358.4363734804633,
+      -2358.436373480424
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2371.9929328164108,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.6268813858627595e-06,
+    "projected_gradient_max": 6.6268813858627595e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2371.99293281642,
+      -2371.9929328164108,
+      -2371.992932816413
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2386.2307219686936,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.11760230506286e-05,
+    "projected_gradient_max": 2.11760230506286e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2386.230721968698,
+      -2386.230721968701,
+      -2386.2307219686936
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2365.810405844252,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 8.990559684951549e-06,
+    "projected_gradient_max": 8.990559684951549e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2365.810405844252,
+      -2365.810405844273,
+      -2365.810405844263
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2391.365220704386,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.3127220721240747e-05,
+    "projected_gradient_max": 3.3127220721240747e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220704386,
+      -2391.3652207043874,
+      -2391.3652207043883
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2346.0557897873223,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.6371504588618144e-05,
+    "projected_gradient_max": 2.6371504588618144e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2346.055789787324,
+      -2346.0557897873223,
+      -2346.055789787327
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2368.997545010437,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.9867214860802562e-05,
+    "projected_gradient_max": 1.9867214860802562e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2368.997545010437,
+      -2368.997545010439,
+      -2368.997545010437
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2333.908994355642,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.504959287667589e-06,
+    "projected_gradient_max": 6.504959287667589e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2333.908994355642,
+      -2333.9089943556555,
+      -2333.908994355642
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2365.437320627165,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.6063266207465574e-06,
+    "projected_gradient_max": 2.6063266207465574e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2365.4373206271657,
+      -2365.437320627165,
+      -2365.4373206271653
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2356.479145545114,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.0650040027426755e-05,
+    "projected_gradient_max": 1.0650040027426755e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2356.479145545114,
+      -2356.479145545125,
+      -2356.479145545117
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611097,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2370.922759626087,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.394728209649145e-05,
+    "projected_gradient_max": 3.394728209649145e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2370.9227596261203,
+      -2370.922759626087,
+      -2370.9227596260926
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2374.3756393145195,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.0983245750884052e-05,
+    "projected_gradient_max": 1.0983245750884052e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2374.3756393145195,
+      -2374.375639314524,
+      -2374.375639314545
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2394.7930126827014,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.9463819572583816e-05,
+    "projected_gradient_max": 2.9463819572583816e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930126827123,
+      -2394.793012682705,
+      -2394.7930126827014
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2363.7808656506822,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 9.875641942436175e-06,
+    "projected_gradient_max": 9.875641942436175e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2363.7808656506822,
+      -2363.7808656506877,
+      -2363.780865650689
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2387.3529764231653,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 3.355610613375859e-06,
+    "projected_gradient_max": 3.355610613375859e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2387.3529764231653,
+      -2387.352976423166,
+      -2387.352976423179
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2344.91152748246,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.269437208050732e-06,
+    "projected_gradient_max": 6.269437208050732e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2344.91152748246,
+      -2344.911527482468,
+      -2344.911527482461
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2372.705411593589,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.323969101285627e-05,
+    "projected_gradient_max": 1.323969101285627e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2372.7054115935925,
+      -2372.7054115935907,
+      -2372.705411593589
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2334.521935532707,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.3845972183013089e-05,
+    "projected_gradient_max": 1.3845972183013089e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2334.5219355327117,
+      -2334.521935532707,
+      -2334.5219355327094
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2365.3702381797,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 8.192057117994977e-06,
+    "projected_gradient_max": 8.192057117994977e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2365.370238179751,
+      -2365.3702381797,
+      -2365.3702381797048
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2357.877094323152,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.541252875769672e-05,
+    "projected_gradient_max": 1.541252875769672e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2357.8770943231552,
+      -2357.877094323152,
+      -2357.8770943231602
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611098,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2377.043828212887,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.838142929955211e-05,
+    "projected_gradient_max": 1.838142929955211e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2377.043828212887,
+      -2377.043828212887,
+      -2377.0438282128935
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "MNL_linear",
+    "fold": 0,
+    "loglik": -2394.7930120890896,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.744239881393497e-06,
+    "projected_gradient_max": 4.744239881393497e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930120890896
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "RI_linear",
+    "fold": 0,
+    "loglik": -2372.1506387984173,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 9.207677037270656e-06,
+    "projected_gradient_max": 9.207677037270656e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2372.150638798419,
+      -2372.150638798419,
+      -2372.1506387984173
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "spike_linear",
+    "fold": 0,
+    "loglik": -2394.793012682702,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.9469813630278452e-05,
+    "projected_gradient_max": 2.9469813630278452e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2394.7930126827123,
+      -2394.793012682705,
+      -2394.793012682702
+    ],
+    "at_bound": [
+      7
+    ]
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "MNL_linear",
+    "fold": 1,
+    "loglik": -2391.365220110774,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 1.554079596299829e-05,
+    "projected_gradient_max": 1.554079596299829e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2391.365220110774
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "RI_linear",
+    "fold": 1,
+    "loglik": -2361.18268846986,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.955926594021662e-05,
+    "projected_gradient_max": 1.955926594021662e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2361.18268846986,
+      -2361.182688469863,
+      -2361.182688469864
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "spike_linear",
+    "fold": 1,
+    "loglik": -2387.671072307417,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 6.617305803757745e-06,
+    "projected_gradient_max": 6.617305803757745e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2387.6710723074184,
+      -2387.671072307417,
+      -2387.6710723074184
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "MNL_linear",
+    "fold": 2,
+    "loglik": -2379.8902232211503,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 4.858923574602159e-07,
+    "projected_gradient_max": 4.858923574602159e-07,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.8902232211503
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "RI_linear",
+    "fold": 2,
+    "loglik": -2344.3739797973603,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 2.373486630735666e-06,
+    "projected_gradient_max": 2.373486630735666e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2344.3739797973603,
+      -2344.3739797973703,
+      -2344.373979797362
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "spike_linear",
+    "fold": 2,
+    "loglik": -2368.9975450104366,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.9870404327271274e-05,
+    "projected_gradient_max": 1.9870404327271274e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2368.9975450104366,
+      -2368.9975450104384,
+      -2368.9975450104375
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "MNL_linear",
+    "fold": 3,
+    "loglik": -2379.608311669621,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 3.7015710327992224e-06,
+    "projected_gradient_max": 3.7015710327992224e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2379.608311669621
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "RI_linear",
+    "fold": 3,
+    "loglik": -2332.3410053742914,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.9768036051859283e-05,
+    "projected_gradient_max": 1.9768036051859283e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2332.341005374302,
+      -2332.341005374295,
+      -2332.3410053742914
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "spike_linear",
+    "fold": 3,
+    "loglik": -2361.205072651437,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.560734849696658e-05,
+    "projected_gradient_max": 5.560734849696658e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2361.2050726514694,
+      -2361.205072651437,
+      -2361.2050726514376
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "MNL_linear",
+    "fold": 4,
+    "loglik": -2378.4143419354727,
+    "parameters": 7,
+    "n": 288,
+    "gradient_max": 7.22533010044657e-05,
+    "projected_gradient_max": 7.22533010044657e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2378.4143419354727
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "RI_linear",
+    "fold": 4,
+    "loglik": -2360.4007219011355,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 5.559077969508053e-06,
+    "projected_gradient_max": 5.559077969508053e-06,
+    "solver_success": true,
+    "start_logliks": [
+      -2360.400721901138,
+      -2360.4007219011473,
+      -2360.4007219011355
+    ],
+    "at_bound": []
+  },
+  {
+    "condition": "mixed_repaired_AI",
+    "seed": 202611099,
+    "model": "spike_linear",
+    "fold": 4,
+    "loglik": -2377.0438282128866,
+    "parameters": 8,
+    "n": 288,
+    "gradient_max": 1.8381429519820358e-05,
+    "projected_gradient_max": 1.8381429519820358e-05,
+    "solver_success": true,
+    "start_logliks": [
+      -2377.0438282128866,
+      -2377.0438282128866,
+      -2377.0438282128935
+    ],
+    "at_bound": []
+  }
+]

@@ -1,3 +1,5 @@
+> 来源说明已于2026年11月9日澄清：两版各30条为AI预测试作答。下文保留澄清前的混合来源分析／核验记录；其中未明确来源的文字属于当时信息状态。当前真人主分析为300条，见[来源纠正与真人主结果](../human_primary_20261109/真人主分析与来源纠正.md)及[AI预测试计算审计](../synthetic_pairing_audit_20261109/AI预测试配对审计.md)。
+
 # Source-conditioned validation of panel choices
 
 Nine fixed exploratory benchmarks use the existing five whole-record folds.

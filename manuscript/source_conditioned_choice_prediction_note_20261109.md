@@ -1,3 +1,5 @@
+> Historical exploratory note, superseded after the explicit AI-pretest service definition. See [current AI-pretest case audit](ai_pretest_pairing_audit_20261109.md).
+
 # Source-conditional evaluation of repeated health-service choices
 
 *Exploratory research note, 9 November 2026. The recorded source-service definition remains unresolved. This draft makes a dataset-specific diagnostic claim and no new-method priority claim.*

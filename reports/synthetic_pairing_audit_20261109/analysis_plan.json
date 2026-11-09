@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-09",
+  "stage": "Exploratory fixed computational-control plan following explicit AI-pretest source clarification; not preregistration or untouched validation",
+  "question": "Can the cross-task pairing of the fixed AI pretest batch change panel heterogeneity and human-target predictive scores while every training task-by-version choice count remains exactly fixed?",
+  "units": "Original human records and fixed AI-pretest records. Derived re-pairings are computational controls, never newly observed responses.",
+  "training_and_target": "Use the existing five record folds. In each fold keep human training records, held-out human records, menus and the original training AI counts fixed. Re-pair only training AI answers within version, independently by task. Score only original held-out human records.",
+  "conditions": ["human_only", "mixed_original_AI", "mixed_AI_within_version_taskwise_repairing"],
+  "models": ["MNL_linear", "RI_linear", "spike_linear"],
+  "repairing_seeds": [202611090,202611091,202611092,202611093,202611094,202611095,202611096,202611097,202611098,202611099],
+  "repairing_count": 10,
+  "outcomes": ["human-heldout joint and marginal log scores", "random-intercept standard deviation", "outside-component weight", "training constant-pattern counts"],
+  "exact_control": "Verify each task-by-version count and the MNL objective/gradient at its fitted parameters. Re-pairing preserves the ordinary MNL objective exactly; this established invariance is a control, not a new theorem.",
+  "interpretation": "Effects are of an explicit data operation on this fixed batch. They do not identify population-level human-versus-AI causal differences, generator mechanisms or platform-wide prevalence.",
+  "uncertainty": "Ten fixed re-pairings are a procedural sensitivity analysis, not a permutation p-value, power simulation or ten independent AI-generation batches.",
+  "stopping_rule": "Run the stated models and seeds; retain all outcomes. No new models or seed selection based on observed gains."
+}

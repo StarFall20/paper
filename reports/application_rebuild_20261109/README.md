@@ -1,3 +1,5 @@
+> 来源说明已于2026年11月9日澄清：两版各30条为AI预测试作答。下文保留澄清前的混合来源分析／核验记录；其中未明确来源的文字属于当时信息状态。当前真人主分析为300条，见[来源纠正与真人主结果](../human_primary_20261109/真人主分析与来源纠正.md)及[AI预测试计算审计](../synthetic_pairing_audit_20261109/AI预测试配对审计.md)。
+
 # Exploratory application rebuild — 2026-11-09
 
 This package preserves the questionnaire and evaluates an applied question. It makes no new-method, verified-randomization or submission-readiness claim. Recruitment is recorded as the researcher's report of a platform human-recruitment description. Authenticated inspection confirms two 30-record AI-sample task notices and 60 matching point-log entries; the task-specific respondent provenance remains unresolved. See the [source-verification update](../platform_source_verification_20261109/README.md). Original source labels remain in the private exports. Public files contain aggregate results and code only.

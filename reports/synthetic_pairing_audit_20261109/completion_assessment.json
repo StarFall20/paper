@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-09",
+  "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
+  "source_definition_blocker": "resolved by the researcher-supplied explicit service description",
+  "previous_goal_turn": "Source-definition impasse; original publication objective remained unachieved",
+  "current_turn": "Progress:60 AI pretests classified separately;300 human primary models re-estimated;50 exact marginal controls and human-target predictions completed; current manuscripts and source metadata corrected",
+  "completion_proven": false,
+  "requirements": [
+    {
+      "requirement": "Accurate treatment of the60 task-linked AI records",
+      "state": "resolved_for_analysis",
+      "evidence": [
+        "../../data/dh36_source_classification.json",
+        "../human_primary_20261109/population_audit.json"
+      ],
+      "finding": "Explicit service wording says AI samples answer for preliminary research/pretests. These60 are excluded from human preference estimates. No further unlock or duplicate source question is needed for this classification."
+    },
+    {
+      "requirement": "Retest existing data using the correct human population",
+      "state": "completed_for_the_fixed_primary_models",
+      "evidence": [
+        "../human_primary_20261109/primary_model_comparison.csv",
+        "../human_primary_20261109/same_price_rule_contrasts.csv"
+      ],
+      "finding": "300 records,150 per version,2400 choices. Four primary models, conditional A/B and the early-record sensitivity retained. Ordinary submission metadata does not certify representativeness or all eligibility claims."
+    },
+    {
+      "requirement": "An identified contribution with independent originality and practical value",
+      "state": "specific_case_candidate_supported_originality_and_submission_threshold_unproven",
+      "evidence": [
+        "human_target_prediction.csv",
+        "exact_marginal_controls.csv",
+        "pairing_case_manuscript.md"
+      ],
+      "finding": "The explicit computational re-pairing changes inferred participation heterogeneity and human-target prediction at fixed task margins. Existing synthetic DCE, dependence and non-trading studies are close prior work. Standard MNL invariance and classical mixtures are not claimed as new theory."
+    },
+    {
+      "requirement": "Evidence matched to the actual claim",
+      "state": "fixed_case_computational_claim_supported_broader_generator_or_population_claims_not_established",
+      "finding": "The operation changes only training AI answer pairing. Ten controls are sensitivity arrangements, not ten AI deployments or a formal permutation test. AI generator settings and prompts are unavailable. No human-versus-AI recruitment causal inference is claimed."
+    },
+    {
+      "requirement": "Coherent submission manuscript, appendices and materials",
+      "state": "current_exploratory_manuscripts_and_reproduction_materials_updated_final_submission_package_not_ready",
+      "finding": "The sources and analytic populations are now coherent. A publication claim needs continued novelty assessment; actual author/recruitment/consent statements cannot be invented."
+    }
+  ],
+  "new_AI_generation_sample_purchase_or_fielding": false,
+  "raw_records_rewritten_or_deleted": false,
+  "original_objective_preserved": true,
+  "next_work": "Assess the specific fixed-margin panel consequence against the closest synthetic-choice and dependence literature, while retaining the corrected300-record human application."
+}

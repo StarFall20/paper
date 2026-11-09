@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-09",
+  "reason": "External source clarification establishes 60 AI-produced pretest records. Human primary estimation therefore uses the other 300 records, with raw originals preserved.",
+  "classification": "data/dh36_source_classification.json",
+  "models": ["MNL_linear", "MNL_cells", "RI_linear", "RI_cells", "conditional_A_B_cells"],
+  "primary_comparison": "Model-adjusted G2 minus G1 at CNY89, with the existing cross-task/bundle restrictions. No pure-control mechanism or causal version interpretation.",
+  "validation": "Retain the existing whole-record five folds after selecting the 300 human-recruitment records. Reused internal exploratory validation.",
+  "quality_sensitivity": "Refit MNL observed cells after omitting the previously flagged early V2 record; no claim that it is invalid or that exclusion is mandatory.",
+  "legacy_mixed_results": "Preserved as mixed-source diagnostics and not human-population estimates.",
+  "stopping_rule": "No additional background predictors, exclusions or models chosen to obtain significance."
+}
