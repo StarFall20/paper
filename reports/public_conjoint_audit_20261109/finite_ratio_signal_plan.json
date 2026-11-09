@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-09",
+  "status_at_write": "before_signal_phase_runs",
+  "target": "finite auxiliary-ratio existence boundary with nonzero logistic signal and a free intercept",
+  "data": "independent simulated Gaussian covariates, Bernoulli logit choices and a flipped-choice proxy; no new respondent or LLM responses",
+  "signal_gamma": [1, 2],
+  "epsilon": 0.25,
+  "label_rows": [40, 80],
+  "auxiliary_label_ratio": [1, 4],
+  "positive_powers": ["unit", "tau/(1+tau), a comparator weight rather than a claim of nonnull optimality"],
+  "orthogonal_dimension_ratio_offsets": [-0.15, -0.075, 0, 0.075, 0.15],
+  "replications_per_condition": 300,
+  "planned_conditions": 80,
+  "phase_seed": 20261116,
+  "LP_equivalence_cases": 120,
+  "projection_identity_cases": 12,
+  "population_checks": ["gamma=0 recovers the previous null formula", "Gauss-Hermite convergence at100 and200 nodes", "saddle stationarity and intercept symmetry", "separate zero-power endpoint equals the classical ordinary-logit scalar formula"],
+  "retain": "all feasible, exterior and unresolved statuses; no success-only denominator; no adaptive stopping",
+  "novelty": "generic statistical dimension, Gaussian random-nullspace results and ordinary-logit endpoint are prior work",
+  "claim_scope": "finite-ratio Gaussian slopes with one logistic signal and estimated intercept; not a categorical-DCE sample-size rule or CI guarantee"
+}

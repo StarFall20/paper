@@ -36,7 +36,28 @@
         "Theorem7.1"
       ],
       "finding": "Statistical dimension and Gaussian random-nullspace threshold are attributed tools."
+    },
+    {
+      "source": "https://arxiv.org/html/2505.20178v2",
+      "authors": "Mani,Xu,Lipton,Oberst",
+      "units": [
+        "Sections3-4",
+        "Proposition4.2",
+        "AppendixA.9.3"
+      ],
+      "finding": "Exact finite-sample PPI++ mean-error, weight-estimation and variance-estimation costs; finite-N Gaussian mean case. General finite-sample costs are prior work. Nonlinear parameter-error linkage is explicitly distinguished inSection3."
+    },
+    {
+      "source": "https://arxiv.org/html/2609.32006v1",
+      "authors": "Zhang,Zhang,He",
+      "units": [
+        "Sections2.1-2.4",
+        "Algorithm1",
+        "Theorems2,4"
+      ],
+      "finding": "Predictive-distribution score calibration and finite-ratio efficiency with initial local root and regularity assumptions. This candidate does not claim new oracle efficiency or superiority over all calibrated inference."
     }
   ],
-  "remaining": "Equivalent random-box and weighted-logit laws are not exhaustively excluded; no independent proof review or submission-readiness claim."
+  "remaining": "Equivalent corrected-logistic/random-box phase curves are not exhaustively excluded; independent proof review, non-oracle validation and submission readiness remain unproven.",
+  "updated": "2026-11-10"
 }

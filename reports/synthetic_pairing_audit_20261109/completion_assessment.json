@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
   "source_definition_blocker": "resolved by the researcher-supplied explicit service description",
   "previous_goal_turn": "Progress: informative-oracle theory and published-objective power-tuning comparison completed; full publication objective remained unachieved",
-  "current_turn": "Progress:completed known-truth finite-pool benchmark (12cells,500repetitions,7methods), scalar covariance check, finite-ratio power-dependent derivation and80phase checks; manuscript and closest-prior boundary updated",
+  "current_turn": "Progress:finite-pool/coverage results and nonzero-signal finite-ratio conditional proof completed;80additional signal conditions at300draws each,120LP and12projection identities; manuscript and primary literature boundary updated",
   "completion_proven": false,
   "requirements": [
     {
@@ -51,7 +51,7 @@
   "new_AI_generation_sample_purchase_or_fielding": false,
   "raw_records_rewritten_or_deleted": false,
   "original_objective_preserved": true,
-  "next_work": "Complete the nonzero-signal finite-ratio proof and validation, compare closest equivalent prior results, demonstrate a useful estimator/budget decision, then finish a coherent manuscript and clean journal package.",
+  "next_work": "Review the conditional proof and closest equivalent prior results, evaluate imperfect frozen predictions and practical budget/estimator decisions, then finish the full manuscript and clean journal package.",
   "closest_source_review": {
     "Doudkin2026": "arxiv2609.07305v1, AppendixA.8; source probability columns shuffled before categorical realization; no equivalence to exact realized counts asserted",
     "Train2009": "Chapter6 Section6.7 panel likelihood",
@@ -110,6 +110,19 @@
       "unresolved": 0,
       "generic_cone_theorem_new": false,
       "nonnull_extension_proven": false,
+      "priority_proven": false
+    },
+    "finite_ratio_signal_extension": {
+      "conditional_derivation_complete": true,
+      "independent_proof_review_complete": false,
+      "oracle_phase_cells": 80,
+      "replications_per_cell": 300,
+      "original_interval_LP_matches": 120,
+      "projection_identities": 12,
+      "unresolved": 0,
+      "phase_source_hash": "45b45bde3329db643447f7970e13742e5a9b0c0668fe9f5c9bc24c4c42921f06",
+      "general_frozen_prediction_candidate": true,
+      "non_oracle_phase_validation_complete": false,
       "priority_proven": false
     }
   },

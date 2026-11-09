@@ -1,0 +1,9 @@
+{
+  "phase_cells": 80,
+  "replications_per_cell": 300,
+  "unresolved": 0,
+  "LP_matches": 120,
+  "projection_checks": 12,
+  "theory_status": "conditional derivation with numerical checks; independent proof/priority review outstanding",
+  "submission_goal_complete": false
+}

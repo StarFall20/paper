@@ -55,4 +55,15 @@ Use a fresh output directory for a clean reproduction. The first command draws i
 
 The original completed benchmark recorded script SHA256 `b859719384c90623fd22937d290f76ce327d9240c06d29c12f239612b9f95601`. A subsequent one-coordinate check required wrapping scalar covariance output in `np.atleast_2d` and removed a redundant scalar assertion. This is the identity operation for the original11-coordinate experiment; its outputs were retained without a rerun. `finite_pool_source_compatibility.json` records both source hashes and this bounded compatibility check. The old completed checkpoint intentionally retains its original hash. `--resume` accepts only a checkpoint produced by the identical current source; it does not silently accept the older hash.
 
-The finite-ratio experiment separately uses Gaussian attributes with a balanced null, a fixed zero intercept, finite N/m and fixed positive power. It completes80 conditions with500 LP draws each. These are feasibility experiments, not confidence-interval experiments or actual respondent counts. The100 original-moment versus interval LP comparisons use positive powers, including unit power. Zero power is the separate classical ordinary-logit endpoint; the box LP cannot diagnose that endpoint by checking zero feasibility, because zero is automatically feasible there. The nonzero-signal finite-ratio outline remains unverified.
+The finite-ratio experiment separately uses Gaussian attributes with a balanced null, a fixed zero intercept, finite N/m and fixed positive power. It completes80 conditions with500 LP draws each. These are feasibility experiments, not confidence-interval experiments or actual respondent counts. The100 original-moment versus interval LP comparisons use positive powers, including unit power. Zero power is the separate classical ordinary-logit endpoint; the box LP cannot diagnose that endpoint by checking zero feasibility, because zero is automatically feasible there.
+
+## Utility signal and estimated intercept
+
+Read [the signal report](非零效用信号与有限样本边界.md) and [candidate proof](finite_ratio_signal_candidate.md). The latter now supplies the multiplier/scale tightness and uniform-convergence argument missing from the original outline. Independent proof and priority review remain open.
+
+```sh
+python analysis/finite_ratio_signal_boundary.py --out ../outputs/public_conjoint_audit
+python analysis/write_finite_ratio_signal_report.py --out ../outputs/public_conjoint_audit
+```
+
+The signal experiment is separate:80 conditions with300 draws each, utility signals1 and2, a free intercept, N/m=1,4 and two fixed positive powers. All300 draws enter each feasibility denominator; no numerical-unresolved case occurred. The script also compares120 original-moment/interval LPs,12 direct cone projections versus polar saddle calculations,100/200-node population integration and the separate classical ordinary-logit endpoint. `--checks-only` runs those identities without the phase experiment. The source hash in `finite_ratio_signal_status.json` identifies the completed run. This oracle experiment does not validate data-dependent weights or fitted predictors. The proof states a broader frozen low-index prediction candidate; its non-oracle phase experiments remain to be performed.

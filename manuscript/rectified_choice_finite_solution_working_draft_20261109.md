@@ -1,10 +1,10 @@
 # Label budgets and finite estimates in prediction-assisted choice modelling
 
-Working research draft, 9 November 2026. This version incorporates the completed finite-auxiliary and coverage experiments. The mathematical statements remain candidates pending priority and proof review. It does not replace the separately retained 300-record human application.
+Working research draft, updated 10 November 2026. This version incorporates finite-auxiliary coverage experiments and the signal/intercept boundary. The mathematical statements remain candidates pending priority and proof review. It does not replace the separately retained 300-record human application.
 
 ## Abstract
 
-Prediction-assisted choice estimation corrects predicted choices using a smaller sample of observed choices. Its unpenalized corrected objective can lack a finite minimizer. We study this event for binary logit with Gaussian attributes and a frozen predictor. With finite labelled and auxiliary samples, a computable phase boundary depends jointly on the auxiliary-to-label ratio, proxy error and correction weight. Population-auxiliary limits yield exact finite-label laws and a nonzero-signal boundary. A released vaccine-choice reanalysis retains established power tuning, unavailable initializers and separately verified exterior moments. A known-truth experiment on the released attribute support compares seven estimators, including one-step and penalized alternatives. It reports both interval availability and conditional coverage. These results distinguish the existence of a finite unpenalized fit from the reliability of its uncertainty estimates.
+Prediction-assisted choice estimation corrects predicted choices using a smaller sample of observed choices. Its unpenalized corrected objective can lack a finite minimizer. We study this event for binary logit with Gaussian attributes and a frozen low-index predictor. With finite labelled and auxiliary samples, a computable phase boundary depends jointly on utility signal, proxy quality, the auxiliary-to-label ratio and correction weight. Population-auxiliary limits yield exact finite-label laws. A released vaccine-choice reanalysis retains established power tuning, unavailable initializers and separately verified exterior moments. A known-truth experiment on the released attribute support compares seven estimators, including one-step and penalized alternatives. It reports both interval availability and conditional coverage. These results distinguish the existence of a finite unpenalized fit from the reliability of its uncertainty estimates.
 
 ## 1. The analysis decision
 
@@ -44,6 +44,18 @@ The proof orients the feature rows by observed choice/proxy signs. Conditional o
 
 Finite auxiliary counts matter. At τ=1 and ε=0.25, unit power gives κ_c≈0.355. The existing population variance-optimal power λ*=τ/(1+τ)=0.5 gives κ_c≈0.603. The infinite-auxiliary unit-power value is about 0.849. The weight formula is established PPI theory; the candidate result quantifies the finite-root boundary at that weight. These values describe the Gaussian benchmark, without prescribing a sample size for a categorical DCE.
 
+### Utility signal and a free intercept
+
+Let X=(S,W), with S standard normal, P(Y=1|S)=σ(γS), and q independent Gaussian coordinates W that are independent of (S,Y,Z). The estimator now includes an intercept and the signal slope. A fixed low-index prediction g(S,Z) lies strictly between zero and one; it need not be the oracle. Orienting the two samples gives bounded random intervals I_L and I_U, whose endpoints are stated in [the signal appendix](../reports/public_conjoint_audit_20261109/finite_ratio_signal_candidate.md).
+
+For B(h,t,a,b)=1+h²−f(−h−ta)−f(h+tb), the candidate boundary in q/m is
+
+κ_c=inf_(η₀,η₁) sup_(t≥0) [ E B(s_L(η₀+η₁S),t,I_L)+τ E B(s_U(η₀+η₁S),t,I_U) ].
+
+Here s_L=1−2Y and s_U=2Z−1. Under the oracle's joint sign symmetry, η₀=0 is optimal, leaving two scalar operations. The proof controls the multiplier using positive population logistic overlap and controls the cone scale using positive primary residuals. Uniform convergence and an integrable bound then justify the statistical-dimension limit. The generic conic theorem is the same established tool as in the null case.
+
+The completed oracle experiment fixes ε=0.25. At τ=1 and γ=2, unit power gives a candidate boundary of 0.2474 and power0.5 gives 0.4080. The classical ordinary-logit boundary is 0.3449. Utility signal changes the existence comparison. The theorem concerns fixed positive powers; the empirical power-tuning estimators in Section 5 have a different data-dependent rule. Non-oracle phase validation and a useful practical analysis rule remain to be assessed.
+
 ## 4. Population-auxiliary limits and utility signal
 
 With an unlimited independent auxiliary pool, constant prediction g=q in the balanced Gaussian model gives an exact binomial-mixture finite-label probability. As p/m→κ, its candidate boundary is
@@ -56,7 +68,7 @@ For logistic utility signal γX₁ and a frozen predictor based on a fixed-dimen
 
 where a(γ)=E[Gσ(γG)]. Independent auxiliary pools with N/p→∞ retain the strict-side limits. Gaussian lift-zonoid geometry and Brier-risk optimality are established results used in this derivation.
 
-For the informative balanced-null oracle, residual risk is ε(1−ε), and the unit-power boundary is 1/[2π ε(1−ε)]. A triple-binomial mixture gives its finite-label probability. The finite-ratio formula in Section 3 approaches the same limit as τ grows. Exact laws, assumptions and proofs are in [the population-auxiliary appendix](../reports/public_conjoint_audit_20261109/existence_candidate_derivation.md). A finite-ratio extension with nonzero signal and an estimated intercept is currently an [unverified outline](../reports/public_conjoint_audit_20261109/finite_ratio_signal_candidate.md).
+For the informative balanced-null oracle, residual risk is ε(1−ε), and the unit-power boundary is 1/[2π ε(1−ε)]. A triple-binomial mixture gives its finite-label probability. The finite-ratio formula in Section 3 approaches the same limit as τ grows. Exact laws, assumptions and proofs are in [the population-auxiliary appendix](../reports/public_conjoint_audit_20261109/existence_candidate_derivation.md).
 
 ## 5. Released vaccine choices
 
@@ -101,10 +113,12 @@ The finite-ratio experiment completes 80 prespecified conditions with 500 Gaussi
 
 Independent quadrature checks the Gaussian tail function and unit-power reduction within 8.9e-16. A large-τ check approaches the population limit. Earlier population-auxiliary experiments cover 160 exact-probability and 480 signal/predictor conditions, each with 2000 draws. The informative-proxy extension separately covers 135 exact-probability and 162 signal conditions. These calculations test the stated models; they do not certify originality or theorems for arbitrary discrete designs.
 
+The finite-ratio signal experiment separately completes 80 conditions with 300 draws each, including a free intercept. All 120 original-moment/interval LP checks agree, and 12 direct cone projections agree with the polar saddle expression within 3.8e-14 after an independent active-face refinement. Population quadrature at 100 and 200 nodes agrees within 7.9e-13. The phase experiment retains every draw and has no unresolved numerical cases. Finite-m curves have smooth transitions and finite-sample shifts; no exact finite-m step is claimed. See [the signal report](../reports/public_conjoint_audit_20261109/非零效用信号与有限样本边界.md).
+
 ## 8. Scope and remaining work
 
 The results concern a specified unpenalized corrected binary-choice estimator. They give no impossibility bound for every prediction-assisted estimator. General cone geometry, ordinary-logit separation, power tuning, one-step estimation and penalized coercivity are established prior work. The remaining originality claim concerns the explicit estimator-specific finite-estimability law and a useful analysis decision supported by it.
 
 The 300-record Chinese service-choice analysis remains an exploratory human application. Sixty AI pretests remain separate. Recruitment channel is confounded with questionnaire version, and several attributes vary as a bundle. Its findings cannot validate the Gaussian theorem or identify a randomized version effect. It belongs in a future submission only if its analysis question connects directly to the final contribution.
 
-The next scientific work is to complete the nonzero-signal finite-ratio proof and validation, investigate the nearest equivalent prior results, and assess a useful budget/estimator decision under realistic choice designs. The final manuscript, appendices, journal-format package and accurate research declarations are still incomplete. The present draft makes no submission-readiness claim.
+The next scientific work is to review the conditional proof and nearest equivalent prior results, evaluate imperfect frozen predictors, and assess a useful budget/estimator decision under realistic choice designs. Finite-sample PPI++ costs already have an exact mean-estimation literature, including Mani et al.2026; the candidate claim is the specified logistic-root existence law. The final manuscript, appendices, journal-format package and accurate research declarations remain incomplete. The present draft makes no submission-readiness claim.

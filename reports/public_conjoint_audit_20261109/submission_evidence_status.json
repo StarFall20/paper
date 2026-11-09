@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "goal_complete": false,
   "decision": "Continue substantive theory and validation; no submission-readiness claim",
   "requirements": [
@@ -17,9 +17,9 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "explicit_finite_ratio_candidate_priority_unproven",
-      "evidence": "finite_ratio_boundary_candidate.md",
-      "remaining": "Rule out equivalent prior phase curves, complete the finite-ratio nonzero-signal proof, and demonstrate a practically useful choice-analysis decision"
+      "status": "explicit_signal_finite_ratio_candidate_priority_unproven",
+      "evidence": "finite_ratio_signal_candidate.md",
+      "remaining": "Rule out equivalent prior phase curves, independently review the conditional proof, and demonstrate a practically useful choice-analysis decision"
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -29,9 +29,9 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "finite_ratio_derivation_and_prespecified_checks_available",
-      "evidence": "finite_ratio_boundary_numeric_checks.json",
-      "remaining": "Independent proof and priority review; nonzero-signal finite-ratio minimax interchange remains unverified; no general discrete-DCE theorem"
+      "status": "signal_intercept_conditional_proof_and_checks_available",
+      "evidence": "finite_ratio_signal_numeric_checks.json",
+      "remaining": "Independent proof and priority review, non-oracle validation and practical discrete-design relevance; no general categorical-DCE or fitted-predictor theorem"
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
