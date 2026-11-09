@@ -2,8 +2,8 @@
   "date": "2026-11-09",
   "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
   "source_definition_blocker": "resolved by the researcher-supplied explicit service description",
-  "previous_goal_turn": "Source-definition impasse; original publication objective remained unachieved",
-  "current_turn": "Progress:completed500 published-objective power-tuning allocations with both initializers and prediction variants; derived informative-oracle finite-root law; completed135 exact and162 nonnull proxy checks; working manuscript updated",
+  "previous_goal_turn": "Progress: informative-oracle theory and published-objective power-tuning comparison completed; full publication objective remained unachieved",
+  "current_turn": "Progress:completed known-truth finite-pool benchmark (12cells,500repetitions,7methods), scalar covariance check, finite-ratio power-dependent derivation and80phase checks; manuscript and closest-prior boundary updated",
   "completion_proven": false,
   "requirements": [
     {
@@ -26,14 +26,16 @@
     },
     {
       "requirement": "An identified contribution with independent originality and practical value",
-      "state": "independent_method_claim_not_supported_case_retained",
+      "state": "old_pairing_method_claim_withdrawn_new_finite_root_candidate_unproven",
       "evidence": [
         "originality_review_20261109.md",
         "human_negative_control_validated_summary.csv",
         "human_rank_alignment_quadrature_audit.json",
-        "pairing_case_manuscript.md"
+        "pairing_case_manuscript.md",
+        "../public_conjoint_audit_20261109/finite_ratio_boundary_candidate.md",
+        "../public_conjoint_audit_20261109/有限样本验证与理论扩展.md"
       ],
-      "finding": "Generic panel-likelihood dependence, a close synthetic-shuffle precedent in Doudkin2026 AppendixA.8, and human-only dependence stress controls prevent claiming a new independent method. Exactly fixed realized DCE counts and downstream estimation are case-specific differences, not proof of a sufficient innovative application."
+      "finding": "The old pairing case remains classical dependence sensitivity. The new candidate is an explicit finite-auxiliary, power-dependent existence law for one corrected binary-choice estimator. Generic conic geometry, existing power tuning and interval instability are attributed prior work; independent novelty and sufficient practical value remain unproven."
     },
     {
       "requirement": "Evidence matched to the actual claim",
@@ -49,7 +51,7 @@
   "new_AI_generation_sample_purchase_or_fielding": false,
   "raw_records_rewritten_or_deleted": false,
   "original_objective_preserved": true,
-  "next_work": "Evaluate finite auxiliary pools, existing one-step alternatives and coverage under a known choice DGP. Complete closest-prior priority comparison and a coherent full manuscript before claiming submission readiness.",
+  "next_work": "Complete the nonzero-signal finite-ratio proof and validation, compare closest equivalent prior results, demonstrate a useful estimator/budget decision, then finish a coherent manuscript and clean journal package.",
   "closest_source_review": {
     "Doudkin2026": "arxiv2609.07305v1, AppendixA.8; source probability columns shuffled before categorical realization; no equivalence to exact realized counts asserted",
     "Train2009": "Chapter6 Section6.7 panel likelihood",
@@ -88,6 +90,28 @@
       "variance_optimal_weight_identity": "Established PPI++ formula, attributed",
       "priority_proven": false
     },
-    "power_tuning_allocations": 500
-  }
+    "power_tuning_allocations": 500,
+    "finite_pool_validation": {
+      "conditions": 12,
+      "replications_per_condition": 500,
+      "methods": 7,
+      "known_truth": true,
+      "new_real_respondents": false,
+      "one_step_included": true,
+      "coverage_and_issuance_separate": true
+    },
+    "finite_ratio_boundary": {
+      "balanced_null_fixed_zero_intercept": true,
+      "finite_auxiliary_ratio": true,
+      "fixed_positive_power": true,
+      "original_interval_LP_matches": 100,
+      "phase_cells": 80,
+      "replications_per_cell": 500,
+      "unresolved": 0,
+      "generic_cone_theorem_new": false,
+      "nonnull_extension_proven": false,
+      "priority_proven": false
+    }
+  },
+  "genuine_blocker": null
 }

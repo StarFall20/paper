@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-09",
+  "type": "targeted_primary_full_text_screening",
+  "Scopus_systematic_review_completed": false,
+  "Google_Scholar_systematic_review_completed": false,
+  "priority_certificate": false,
+  "query_families": [
+    "prediction-powered/rectified logistic with phase transition, finite existence and separation",
+    "weighted/soft-label logistic phase transitions",
+    "finite-ratio and high-dimensional semi-supervised inference"
+  ],
+  "new_primary_units": [
+    {
+      "source": "https://arxiv.org/html/2604.27892v1",
+      "authors": "Gu,Kong,Xia",
+      "units": [
+        "Section3.4 Algorithm5",
+        "AppendixB.1"
+      ],
+      "finding": "Prior discussion of wide logistic intervals and possible near-separation; logistic inference uses score inversion on a grid; suggested grid point estimate has theory left open. Instability is not a new observation."
+    },
+    {
+      "source": "https://arxiv.org/html/2606.25743v1",
+      "author": "Zhou",
+      "units": [
+        "Theorem5.4",
+        "Sections5.2-5.3"
+      ],
+      "finding": "A nonparametric squared-risk transition in residual radius; mathematical target differs from existence of the specified logistic root."
+    },
+    {
+      "source": "https://tropp.caltech.edu/papers/ALMT14-Living-Edge-preprint.pdf",
+      "authors": "Amelunxen,Lotz,McCoy,Tropp",
+      "units": [
+        "TheoremI",
+        "Theorem7.1"
+      ],
+      "finding": "Statistical dimension and Gaussian random-nullspace threshold are attributed tools."
+    }
+  ],
+  "remaining": "Equivalent random-box and weighted-logit laws are not exhaustively excluded; no independent proof review or submission-readiness claim."
+}

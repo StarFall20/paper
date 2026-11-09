@@ -1,0 +1,17 @@
+{
+  "finite_pool_replications_per_cell": 500,
+  "finite_pool_cells": 12,
+  "method_condition_outcomes": 42000,
+  "finite_ratio_cells": 80,
+  "finite_ratio_replications_per_cell": 500,
+  "finite_ratio_unresolved": 0,
+  "intercept_covariance_checks": {
+    "intercept_variance_max_closed_form_error": 4.440892098500626e-16,
+    "ridge_exterior_root_difference_from_brent": 1.8938139945134935e-10,
+    "unpenalized_base_has_no_finite_root": true,
+    "penalty_changes_the_objective": true,
+    "interval_coverage_claim": "No coverage guarantee follows from these numerical identities"
+  },
+  "independent_novelty_verified": false,
+  "submission_goal_complete": false
+}

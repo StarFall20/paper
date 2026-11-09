@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-09",
+  "stage": "Fixed after scalar candidate derivation, before direct phase simulations",
+  "candidate": "finite_ratio_boundary_candidate.md",
+  "scope": "Balanced Gaussian binary-choice model with intercept fixed at zero, frozen informative oracle, finite N/m ratio and positive fixed power",
+  "identity_checks": "100 independently drawn cases compare the original weighted-moment LP with the oriented interval LP. Check normal tail integrals against quadrature, unit-power reduction, and convergence to the population-auxiliary boundary.",
+  "labels": [40,80],
+  "auxiliary_label_ratios": [1,4],
+  "proxy_flip_probabilities": [0.1,0.25],
+  "powers": ["unit", "population variance optimum tau/(1+tau)"],
+  "dimension_ratios": "Five offsets(-.2,-.1,0,.1,.2) around each candidate critical ratio, rounded to an integer number of slopes",
+  "replications_per_cell": 500,
+  "seed": 20261113,
+  "retention": "Retain infeasible and unresolved statuses. The original and oriented LP identity is a prerequisite for using the latter in the phase study. Report finite-m frequencies without calling them exact step functions.",
+  "prior_work": "Generic cone geometry and random-nullspace transitions are attributed to ALMT2014; the candidate contribution is the explicit corrected-choice phase curve, whose priority remains unverified."
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-09",
+  "stage": "Exploratory protocol fixed before running this known-truth finite-pool experiment",
+  "question": "On the released vaccine attribute support, how do finite-root availability, point error and confidence-interval performance change with the human label budget and finite auxiliary pool?",
+  "feature_distribution": "Empirical uniform distribution of the fixed1200 released vaccine contrasts. Labelled and auxiliary rows are independently sampled with replacement. This is an IID choice-row simulation, not a respondent-panel experiment or new empirical respondent data.",
+  "truth": "The converged11-dimensional logit projection of the fixed1200 human rows, frozen before simulation. Synthetic Y follows this logit exactly. The vector is a simulation parameter, not structural truth claimed for the released human sample.",
+  "proxy": "Z is synthetic Y flipped independently with probability epsilon. The frozen oracle probability is sigmoid(X beta+(2Z-1)log((1-epsilon)/epsilon)). It uses available X,Z and a known benchmark parameter, not the unobserved auxiliary Y during estimation.",
+  "label_budgets": [20,50,150],
+  "auxiliary_sizes": [150,600],
+  "flip_probabilities": [0.1,0.25],
+  "replications_per_cell": 500,
+  "seed": 20261112,
+  "coupling": "Each replication independently draws150 primary rows and600 auxiliary rows. Budget/pool prefixes are nested. Predictions share uniforms across epsilon conditions. All methods in a cell use the same features, outcomes and proxy draws.",
+  "methods": [
+    "human-only unpenalized MLE",
+    "unit-weight PPI root",
+    "power-tuned PPI root with human-MLE initializer",
+    "power-tuned PPI root with explicitly ridge-regularized human initializer",
+    "one Newton step for the same ridge-initialized tuned PPI objective",
+    "unit-weight PPI plus rho*||beta||^2/2, rho=1/m on all coordinates",
+    "observed labels plus oracle soft auxiliary probabilities pooled with equal row weights"
+  ],
+  "initialization": "Human-ridge initializer uses rho=1/m, fixed before simulation. It is a comparator adaptation of established one-step/power-tuning principles, not a proposed innovation. Missing human MLEs do not silently receive ridge substitutes in the human-initialized method.",
+  "fitting": "Classical weighted mean-support LP for unpenalized human/PPI roots; exterior cases retain independent separating-ray checks. Ridge objectives are coercive by their explicit penalty. The oracle soft pool has an interior target when its auxiliary design is full rank and probabilities are strictly interior; verify these conditions before bypassing an LP.",
+  "intervals": "Nominal95% marginal Wald intervals using a sandwich with the actual objective Hessian and separate labelled/auxiliary empirical score covariances. One-step intervals plug in the final point. Ridge intervals are deliberately unadjusted for penalty bias and are labelled diagnostic. Soft-pool intervals rely on the oracle benchmark's correct conditional mean. No finite-sample coverage guarantee is asserted.",
+  "coverage_outputs": ["interval availability", "coverage conditional on an available interval", "probability that an interval is both issued and covers, over all500 repetitions", "average marginal coverage across11 fixed coordinates", "coverage of coordinate0 fixed before results", "Monte Carlo standard errors"],
+  "point_outputs": ["MSE and stabilized absolute parameter error", "per-choice true-model excess log loss on the1200-row feature support", "paired differences on shared finite estimates, with failures retained", "weights and score residuals"],
+  "prohibited_interpretations": "No new human or AI respondents; no DCE sample-size rule from the Gaussian boundary; no superiority or coverage claim selected only among successful roots; no claim that an oracle pooling advantage transfers to unknown or biased predictors.",
+  "stopping": "Run all500 replications in all12 cells and all7 methods. Preserve failure and numerical-unresolved statuses; no effect-dependent stopping or tuning to the known truth."
+}
