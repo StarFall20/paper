@@ -1,0 +1,48 @@
+{
+  "canonical_human_records": 300,
+  "AI_pretests": 60,
+  "raw_hashes": {
+    "V1": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13",
+    "V2": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01"
+  },
+  "conditional_objective_AI_invariance": [
+    {
+      "model": "linear",
+      "objective_difference": 2.2737367544323206e-13,
+      "gradient_difference": 0.0
+    },
+    {
+      "model": "linear",
+      "objective_difference": 2.2737367544323206e-13,
+      "gradient_difference": 0.0
+    },
+    {
+      "model": "linear",
+      "objective_difference": 2.2737367544323206e-13,
+      "gradient_difference": 0.0
+    },
+    {
+      "model": "observed_cells",
+      "objective_difference": 2.2737367544323206e-13,
+      "gradient_difference": 0.0
+    },
+    {
+      "model": "observed_cells",
+      "objective_difference": 0.0,
+      "gradient_difference": 0.0
+    },
+    {
+      "model": "observed_cells",
+      "objective_difference": 2.2737367544323206e-13,
+      "gradient_difference": 0.0
+    }
+  ],
+  "pairwise_tests": 56,
+  "negative_sample_covariances": 22,
+  "minimum_raw_one_sided_p": 0.037436403101276994,
+  "minimum_Holm_p": 1.0,
+  "Holm_rejections_at_005": 0,
+  "raw_responses_changed": false,
+  "new_method_claim": false,
+  "interpretation": "Necessary-association diagnostics plus classical shared-slope conditional logit. Nonrejection establishes neither full latent-model adequacy nor sufficient power."
+}

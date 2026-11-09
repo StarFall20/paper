@@ -3,7 +3,7 @@
   "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
   "source_definition_blocker": "resolved by the researcher-supplied explicit service description",
   "previous_goal_turn": "Source-definition impasse; original publication objective remained unachieved",
-  "current_turn": "Human-only negative controls and closest primary literature audited; artificial boundary fits repaired with higher-order quadrature; independent-method positioning withdrawn; corrected300-record human analysis retained",
+  "current_turn": "Progress:two classical within-person conditional models fitted;56 necessary-association tests retained; numeric and exact-invariance checks completed; open-resource file/metadata preflight and GitHub source inspection completed; human application strengthened without a new-theory claim",
   "completion_proven": false,
   "requirements": [
     {
@@ -49,10 +49,22 @@
   "new_AI_generation_sample_purchase_or_fielding": false,
   "raw_records_rewritten_or_deleted": false,
   "original_objective_preserved": true,
-  "next_work": "Require a substantive unresolved choice-research question and a defensible identification argument before further model building; retain the300-record human application and the bounded AI-pretest case. Additional models or a new framework name do not establish innovation.",
+  "next_work": "Continue substantive originality research using the corrected human application and audited external resources. Before any additional model, identify a close-prior-work gap and the information that can identify it. Fixed-effect conditioning, positive association, and counterbalancing algebra are established tools, not new frameworks. No paid generation or author messaging is authorized.",
   "closest_source_review": {
     "Doudkin2026": "arxiv2609.07305v1, AppendixA.8; source probability columns shuffled before categorical realization; no equivalence to exact realized counts asserted",
     "Train2009": "Chapter6 Section6.7 panel likelihood",
     "systematic_Scopus_Google_Scholar_review_completed": false
+  },
+  "additional_assumption_audit": {
+    "evidence": "../within_person_audit_20261109/个体内模型重建与创新边界.md",
+    "free_cell_G2_minus_G1_at_89": 0.49729936591278606,
+    "interval": [
+      0.0254884018664005,
+      0.9691103299591717
+    ],
+    "invariance": "All60 constant AI vectors have zero conditional contributions; not a general AI-robustness theorem",
+    "association_diagnostics": "56 tests; Holm minimum1.0; no sufficiency or power certification",
+    "external_validation_completed": false,
+    "independently_new_method_established": false
   }
 }

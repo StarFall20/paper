@@ -24,6 +24,10 @@ def main():
     role=json.loads(a.classification.read_text());primary=a.primary_out;pair=a.pairing_out
     models=pd.read_csv(primary/'primary_model_comparison.csv');contrasts=pd.read_csv(primary/'same_price_rule_contrasts.csv');scores=pd.read_csv(pair/'human_target_prediction.csv');params=pd.read_csv(pair/'fold_model_parameters.csv')
     checks=json.loads((pair/'numerical_checks.json').read_text());assert checks['all_50_training_marginal_controls_passed'] and role['primary_records']['total']==300
+    within_path=primary.parent/'within_person_audit_20261109/conditional_fixed_effect_contrasts.csv'
+    within_cells=None
+    if within_path.exists():
+        within_cells=pd.read_csv(within_path).set_index('model').loc['observed_cells']
     summary=scores.groupby(['condition','model'],as_index=False).agg(mean_human_joint_nll=('human_joint_nll_per_choice','mean'),minimum=('human_joint_nll_per_choice','min'),maximum=('human_joint_nll_per_choice','max'))
     summary.to_csv(pair/'condition_summary.csv',index=False)
     pretty=summary.replace({'condition':{'human_only':'Human training only','mixed_original_AI':'Original AI pretests added','mixed_repaired_AI':'AI answers re-paired'},'model':{'MNL_linear':'MNL','RI_linear':'Random service intercept','spike_linear':'Outside component'}}).rename(columns={'condition':'Training condition','model':'Model','mean_human_joint_nll':'Mean human joint NLL','minimum':'Minimum','maximum':'Maximum'})
@@ -67,6 +71,13 @@ G2包含“由用户决定是否共享、共享给谁”的组合描述，G1为�
 
 现有问卷内容仍可利用。原创性不能由样本分类纠正或某个p值代替：健康应用的费用、共享和隐私属性已有接近文献，新的应用主张仍需实质增量。本轮进一步完成的跨题配对对照见[AI预测试计算审计](../synthetic_pairing_audit_20261109/AI预测试配对审计.md)。
 '''
+    if within_cells is not None:
+        extra=f'''## 新增个体内稳健性审计
+
+允许每个人有不同的稳定A／B方案截距，用各自的选项次数消去这些截距。自由费用—共享规则单元下，89元时G2−G1为{within_cells['estimate']:.6f}，95%记录层面区间[{within_cells['ci_low']:.6f}, {within_cells['ci_high']:.6f}]。共同属性斜率和条件logit假设仍然保留。56项参与关联检验经Holm校正后没有拒绝，不能据此宣称模型充分。详见[个体内重建审计](../within_person_audit_20261109/个体内模型重建与创新边界.md)。
+
+'''
+        report=report.replace('## 稿件如何使用这些结果',extra+'## 稿件如何使用这些结果')
     (primary/'真人主分析与来源纠正.md').write_text(report)
     human_note='''# Data-sharing packages in a paid health-service questionnaire
 
@@ -96,6 +107,15 @@ The positive same-fee package association has intervals above zero in ordinary a
 
 App fees, privacy, sharing and usage-history heterogeneity have close prior applications, including [Nittas et al. (2020)](https://www.jmir.org/2020/11/e18889/) and [Xie and Or (2023)](https://mhealth.jmir.org/2023/1/e25908/). The current positive package estimate is retained as an application result. It does not by itself establish an independently innovative JOCM submission. Applicable recruitment, consent and research statements must follow the actual materials, with no invented approval.
 '''
+    if within_cells is not None:
+        human_note=human_note.replace('Conditional A/B estimation gives 0.787 (−0.184–1.759).',f"Conditional A/B estimation gives 0.787 (−0.184–1.759). Removing stable person-specific alternative intercepts through classical count conditioning gives {within_cells['estimate']:.3f} ({within_cells['ci_low']:.3f}–{within_cells['ci_high']:.3f}) under the same free cells.")
+        methods='''A further sensitivity uses the established fixed-effect conditional multinomial logit. Conditioning on each person's A/B/outside counts removes stable alternative intercepts, while retaining common attribute slopes and independent conditional logit errors. See [Pforr (2014), Section2](https://doi.org/10.1177/1536867X1401400409). Exact enumeration covers all6561 sequences. Conditional likelihood does not evaluate unconditional participation or population prediction.
+
+'''
+        human_note=human_note.replace('## Results and interpretation',methods+'## Results and interpretation')
+        results=f"The fixed-effect free-cell sensitivity gives {within_cells['estimate']:.3f} [{within_cells['ci_low']:.3f}, {within_cells['ci_high']:.3f}] for the CNY89 package contrast. It is close to the pooled and normal-intercept results. This robustness concerns stable intercept heterogeneity; dynamic task effects, person-specific error scales and random attribute slopes remain outside this sensitivity. The count-conditioned likelihood is a different target from the earlier unconditional held-out scores.\n\n"
+        human_note=human_note.replace('App fees, privacy, sharing and usage-history heterogeneity',results+'App fees, privacy, sharing and usage-history heterogeneity')
+        human_note=human_note.replace('The current positive package estimate is retained as an application result.', '[Biasiotto et al. (2023)](https://www.jmir.org/2023/1/e47066/) also studies health-data consent and governance preferences. The current positive package estimate is retained as an application result.')
     (primary/'human_application_draft.md').write_text(prose(human_note))
     negative_path=pair/'human_negative_control_validated_summary.csv'
     negative_section=''

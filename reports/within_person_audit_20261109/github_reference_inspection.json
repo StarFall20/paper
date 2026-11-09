@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-09",
+  "statsmodels": {
+    "repository": "statsmodels/statsmodels",
+    "commit": "772cb34aff9e95f5c3eb10f1fe1ff6cd393daa69",
+    "path": "statsmodels/discrete/conditional_models.py",
+    "url": "https://github.com/statsmodels/statsmodels/blob/772cb34aff9e95f5c3eb10f1fe1ff6cd393daa69/statsmodels/discrete/conditional_models.py",
+    "inspection": "Read ConditionalMNLogit class, its Chamberlain reference and loglike/score methods. No code copied or package executed.",
+    "package_installed_or_executed": false,
+    "new_method_claim": false
+  },
+  "gems": {
+    "repository": "schang-lab/gems",
+    "readme_url": "https://github.com/schang-lab/gems",
+    "paper_url": "https://arxiv.org/abs/2511.02135",
+    "inspection": "README sections on OpinionQA, Twin-2k and Dunning-Kruger datasets, split generation, and LLM baselines. These are not established as attribute-menu DCE validation data for this project.",
+    "code_copied_or_executed": false,
+    "models_downloaded_or_generated": false
+  },
+  "researcher_messages_sent": false,
+  "novelty_proof": false,
+  "pricebench": {
+    "repository": "pashasan/PriceBench",
+    "homepage": "https://pashasan.github.io/PriceBench/",
+    "README": "https://github.com/pashasan/PriceBench",
+    "inspection": "Read benchmark description, counterbalancing claim and README reproduction section. The58 per-model original/swap output CSVs are explicitly uncommitted and the stated download link is a placeholder.",
+    "replication_executed": false,
+    "new_LLM_inference_run": false,
+    "human_panel_validation_claim": false,
+    "scope": "Potential source for auditing counterbalancing assumptions; no new-method or empirical-refutation claim. Full paired-output replication is not supported by the files inspected."
+  }
+}

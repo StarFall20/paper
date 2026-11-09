@@ -1,0 +1,223 @@
+{
+  "date": "2026-11-09",
+  "file_checks": [
+    {
+      "record": "23143985",
+      "file": "extra_A_brier_por_cobertura.csv",
+      "bytes": 594,
+      "publisher_md5": "md5:0d3fccad49a3ac32f49b3603e1c67359",
+      "sha256": "85ff4f57684d6dbd925804ecc519d24a301baf49207a52b29317dc928f9457cc",
+      "license": "cc-by-4.0",
+      "url": "https://zenodo.org/api/records/23143985/files/extra_A_brier_por_cobertura.csv/content"
+    },
+    {
+      "record": "23143985",
+      "file": "extra_C_est_sem_T.csv",
+      "bytes": 1308,
+      "publisher_md5": "md5:0433684245648c01a76b06d63a41e747",
+      "sha256": "64f86c3332dfa51e45bd5e9b20130a651637ff51779ccad23439b9ca869a8d1d",
+      "license": "cc-by-4.0",
+      "url": "https://zenodo.org/api/records/23143985/files/extra_C_est_sem_T.csv/content"
+    },
+    {
+      "record": "23143985",
+      "file": "extra_B_heterogeneidade.csv",
+      "bytes": 804,
+      "publisher_md5": "md5:e0799b3ed49f309c47dc0456556991d0",
+      "sha256": "3a6cff457e43e345519f7e26af18c66a4ea6df59221fe8a0162e04d9324a0843",
+      "license": "cc-by-4.0",
+      "url": "https://zenodo.org/api/records/23143985/files/extra_B_heterogeneidade.csv/content"
+    },
+    {
+      "record": "23143985",
+      "file": "extra_E_ep_optout.csv",
+      "bytes": 3364,
+      "publisher_md5": "md5:0bf9ece36254ccc448e35d90738e6adc",
+      "sha256": "d5c985208842a859bcfd1719dba3139f8dfc075ac4967922acb4f4fc15c14b9e",
+      "license": "cc-by-4.0",
+      "url": "https://zenodo.org/api/records/23143985/files/extra_E_ep_optout.csv/content"
+    },
+    {
+      "record": "23143985",
+      "file": "extra_A_H1_sensibilidade.csv",
+      "bytes": 871,
+      "publisher_md5": "md5:9f4f721ee0a42d65d89c677dabb22978",
+      "sha256": "9d2f308e39b4fa52b9f0637cd98707d0726284d548f50ff6a65a102c3e8bfd70",
+      "license": "cc-by-4.0",
+      "url": "https://zenodo.org/api/records/23143985/files/extra_A_H1_sensibilidade.csv/content"
+    },
+    {
+      "record": "23143985",
+      "file": "extra_D_recalibracao.csv",
+      "bytes": 12424,
+      "publisher_md5": "md5:fd9414eb3dda3ddf984058d1d495b425",
+      "sha256": "724657612d37321c43257f455f3a4c684ac7251363d077fb08ea469246db0b1b",
+      "license": "cc-by-4.0",
+      "url": "https://zenodo.org/api/records/23143985/files/extra_D_recalibracao.csv/content"
+    },
+    {
+      "record": "23143985",
+      "file": "analise_extra.py",
+      "bytes": 10084,
+      "publisher_md5": "md5:dde2053e23da36a8fe65ae2da02f3b6d",
+      "sha256": "d08a2c27bc58267440d432763c3da13f6376a2ef64babf6b5a5385185cd22d5b",
+      "license": "cc-by-4.0",
+      "url": "https://zenodo.org/api/records/23143985/files/analise_extra.py/content"
+    },
+    {
+      "record": "15420092",
+      "file": "COSCBB.xlsx",
+      "bytes": 541767,
+      "publisher_md5": "md5:d1c07bc41035afab588ecd03acdc5abc",
+      "sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+      "license": "cc-by-4.0",
+      "url": "https://zenodo.org/api/records/15420092/files/COSCBB.xlsx/content"
+    }
+  ],
+  "source_23143985": {
+    "doi": "10.5281/zenodo.23143985",
+    "version": null,
+    "inspection": "Current seven-file release and downloaded supplemental analysis source; no execution of downloaded code",
+    "released_files": [
+      "analise_extra.py",
+      "extra_A_H1_sensibilidade.csv",
+      "extra_A_brier_por_cobertura.csv",
+      "extra_B_heterogeneidade.csv",
+      "extra_C_est_sem_T.csv",
+      "extra_D_recalibracao.csv",
+      "extra_E_ep_optout.csv"
+    ],
+    "released_CSV_schemas": {
+      "extra_A_H1_sensibilidade.csv": {
+        "parsed_rows": 5,
+        "columns": [
+          "contexto",
+          "n",
+          "media_dZ",
+          "ep",
+          "ic90_lo",
+          "ic90_hi",
+          "mde80",
+          "p_tost_0.03",
+          "p_tost_0.05"
+        ],
+        "content_level": "aggregate context/replication results, not individual answer vectors"
+      },
+      "extra_A_brier_por_cobertura.csv": {
+        "parsed_rows": 4,
+        "columns": [
+          "('brier_llm', 'alta')",
+          "('brier_llm', 'baixa')",
+          "('brier_llm', 'media')",
+          "('brier_est', 'alta')",
+          "('brier_est', 'baixa')",
+          "('brier_est', 'media')"
+        ],
+        "content_level": "aggregate context/replication results, not individual answer vectors"
+      },
+      "extra_B_heterogeneidade.csv": {
+        "parsed_rows": 4,
+        "columns": [
+          "contexto",
+          "n_T",
+          "n_naoT",
+          "optout_T",
+          "optout_naoT",
+          "dif_optout",
+          "ep_dif_optout",
+          "beta_T",
+          "beta_naoT",
+          "dif_beta",
+          "ep_dif_beta"
+        ],
+        "content_level": "aggregate context/replication results, not individual answer vectors"
+      },
+      "extra_C_est_sem_T.csv": {
+        "parsed_rows": 24,
+        "columns": [
+          "contexto",
+          "rep",
+          "cond",
+          "brier_est",
+          "brier_est_semT"
+        ],
+        "content_level": "aggregate context/replication results, not individual answer vectors"
+      },
+      "extra_D_recalibracao.csv": {
+        "parsed_rows": 72,
+        "columns": [
+          "contexto",
+          "rep",
+          "cond",
+          "modo",
+          "a",
+          "brier_llm",
+          "brier_est",
+          "acerto",
+          "optout_sint",
+          "beta_sint",
+          "H_optout",
+          "H_beta"
+        ],
+        "content_level": "aggregate context/replication results, not individual answer vectors"
+      },
+      "extra_E_ep_optout.csv": {
+        "parsed_rows": 48,
+        "columns": [
+          "contexto",
+          "rep",
+          "cond",
+          "metodo",
+          "lambda",
+          "ep_cor",
+          "ep_hum_VT"
+        ],
+        "content_level": "aggregate context/replication results, not individual answer vectors"
+      }
+    },
+    "missing_local_module": "estudo2_pipeline.py",
+    "referenced_inputs_absent_from_current_release": [
+      "brier_por_pessoa.csv",
+      "estimandos_vereditos.csv",
+      "previsoes_llm.csv"
+    ],
+    "raw_AI_panel_vectors_in_current_file_list": false,
+    "use": "Related exploratory estimand/prediction work, not an executed independent replication; no claim about older releases or authors private files"
+  },
+  "source_15420092": {
+    "doi": "10.5281/zenodo.15420092",
+    "file": "COSCBB.xlsx",
+    "survey_records": 299,
+    "choice_records": 299,
+    "alternative_rows": 5370,
+    "observed_tasks": 1790,
+    "task_counts_per_record": {
+      "6": 298,
+      "2": 1
+    },
+    "task_key": [
+      "unique_id",
+      "choice_card"
+    ],
+    "index_is_row_counter_not_task_number": true,
+    "alternatives_per_task": 3,
+    "one_selected_per_task": true,
+    "outside_option_code": 3,
+    "complete_constant_choice_records": 8,
+    "partial_constant_choice_records": 1,
+    "attribute_columns": [
+      "ingr",
+      "nutr",
+      "label",
+      "access",
+      "prox",
+      "cost"
+    ],
+    "license": "cc-by-4.0",
+    "use": "Available human DCE resource; codebook and basic structure verified. No preference model or external validation has been run."
+  },
+  "raw_external_records_republished": false,
+  "downloaded_code_executed": false,
+  "new_AI_generation": false,
+  "submission_or_novelty_proof": false
+}

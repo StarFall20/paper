@@ -32,6 +32,16 @@ The300 human-recruitment records alone supply55 additional fixed-margin controls
 
 All five extreme random-intercept fits hit the fixed standard-deviation upper bound7.389056. Their initial61-node quadrature was inadequate. Re-estimation at1281 nodes and verification at2561 reduce maximum training log-likelihood discrepancy below7.3e-7. Use `human_negative_control_validated_summary.csv`; lower-order stress outputs remain an audit trail. These repairs do not change the primary human analysis or original AI-pairing results.
 
+## New within-person assumption audit
+
+The [within-person report](reports/within_person_audit_20261109/个体内模型重建与创新边界.md) uses classical conditional multinomial logit to remove stable person-specific alternative intercepts. Free observed cells give G2 minus G1 at CNY89 of0.497299, with interval[0.025488,0.969110]. Linear fees give0.358422,[0.219558,0.497285]. Both rely on shared slopes and normalized logit scale. Cross-task identification and the bundled sharing description remain limitations.
+
+All300 human records contribute to conditional estimation. The60 constant AI vectors have singleton count strata and contribute zero to this conditional likelihood; six objective/score checks confirm the exact bounded invariance. This is a classical property, not a new AI filter. Conditional likelihood does not evaluate unconditional participation or new-person prediction.
+
+There are56 pairwise participation-association tests across the two versions, with22 negative sample covariances and no Holm-adjusted rejection. Nonrejection does not establish latent-model adequacy or power. Two conditional models, full enumeration, analytic derivatives and direct conditioning checks are documented. No result is selected by significance.
+
+The [external-resource preflight](reports/within_person_audit_20261109/external_resource_preflight.json) verifies eight openly licensed files. A human DCE with299 records and1790 observed tasks is structurally readable; no external preference model or validation has been run. The inspected synthetic-response supplement lacks files needed for its script, and the PriceBench README states that its58 paired-output CSVs are uncommitted. No new AI generation or author message was made.
+
 ## Innovation and submission decision
 
 The original fibre-information/rank claim coincides with classical lack-of-fit constructions and remains retired. [Equivalence proof](reports/method_decision_20261109/classical_equivalence_proof.md).

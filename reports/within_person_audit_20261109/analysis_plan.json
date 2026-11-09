@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-09",
+  "stage": "Exploratory assumption audit, written before the new fits; existing outcomes have been examined in earlier analyses",
+  "purpose": "Test whether the human application survives removal of stable respondent-specific alternative intercepts, and check a necessary common-participation restriction",
+  "population": "300 ordinary-source human-recruitment records under the canonical source definition; 60 AI pretests used only for an exact invariance control",
+  "models": [
+    "Classical conditional multinomial logit with individual-specific alternative intercepts removed by conditioning on each person's A/B/outside counts; shared linear fee and G1/G2 slopes",
+    "The same conditional model with the seven free observed fee-rule cell utilities relative to G1 at CNY89"
+  ],
+  "primary_contrast": "G2 minus G1 at CNY89 under free observed cells, conditional on the shared-slope logit model",
+  "diagnostics": [
+    "Exact enumeration of all3^8 sequences and count strata; analytic gradient and Hessian checks",
+    "Rank of within-count sufficient-feature variation; estimability of the CNY89 contrast",
+    "Exact objective and score invariance when adding the60 original constant AI vectors",
+    "56 one-sided Fisher tests for negative participation association:28 task pairs within each version; Holm family correction across all56"
+  ],
+  "association_null": "Each pair's odds ratio is at least1, a necessary consequence of conditional independence and a common monotone stable participation trait. Pairwise satisfaction is not sufficient to establish the full latent model.",
+  "inference": "Record-level sandwich intervals for the fixed slope models, conditional on the original design and shared slopes; exploratory reused data, no confirmatory or model-selection-adjusted claim",
+  "target_limits": "Conditioning discards participation and A/B count information. No unconditional outside shares, respondent intercepts, population prediction or general random-taste recovery is claimed.",
+  "originality_gate": "These are established conditional-likelihood and association tools, not a new theory. A potential contribution needs a substantive unresolved choice-research question and an identifiable, robust empirical finding beyond using the tools.",
+  "stopping_rule": "Retain both fixed models, every pairwise test and nonidentification/numerical failure. Do not add specifications or discard records to obtain significance."
+}
