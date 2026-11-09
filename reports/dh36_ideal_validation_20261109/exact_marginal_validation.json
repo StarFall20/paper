@@ -1,0 +1,106 @@
+{
+  "global_Bonferroni_p": 0.10561386144720218,
+  "global_reject_0_05": false,
+  "target": "equal three-category marginal probabilities for all eight tasks",
+  "assumptions": "independent records, each group multinomial sampling with common task probabilities under null; arbitrary dependence across tasks within record",
+  "finite_sample_validity": "Exact conditional tests per task; Bonferroni/Holm union bound requires no cross-task independence. No claim of exact pooled omnibus weak-null test.",
+  "validation": [
+    {
+      "task": 1,
+      "statistic_LR": 1.4369632845930531,
+      "exact_conditional_p": 0.4921752949816205,
+      "enumerated_tables": 8328,
+      "probability_mass_error": 4.11226608321158e-13,
+      "conditional_size_checks": {
+        "0.01": 0.00995617857538662,
+        "0.05": 0.04939883009548456,
+        "0.1": 0.09895508830538696
+      }
+    },
+    {
+      "task": 2,
+      "statistic_LR": 8.740024865637245,
+      "exact_conditional_p": 0.013201732680900273,
+      "enumerated_tables": 5967,
+      "probability_mass_error": 4.982680934517703e-13,
+      "conditional_size_checks": {
+        "0.01": 0.009989007016014868,
+        "0.05": 0.049076958065449,
+        "0.1": 0.09999497474782594
+      }
+    },
+    {
+      "task": 3,
+      "statistic_LR": 0.024786238473290312,
+      "exact_conditional_p": 1.0,
+      "enumerated_tables": 7374,
+      "probability_mass_error": 4.60964599824365e-13,
+      "conditional_size_checks": {
+        "0.01": 0.009812059854513252,
+        "0.05": 0.0498653549291244,
+        "0.1": 0.09798840277674767
+      }
+    },
+    {
+      "task": 4,
+      "statistic_LR": 1.1351684762532213,
+      "exact_conditional_p": 0.5914534370407702,
+      "enumerated_tables": 7593,
+      "probability_mass_error": 3.6504133049675147e-13,
+      "conditional_size_checks": {
+        "0.01": 0.00997983987134131,
+        "0.05": 0.04967751758837083,
+        "0.1": 0.09942045287074687
+      }
+    },
+    {
+      "task": 5,
+      "statistic_LR": 6.177825059707965,
+      "exact_conditional_p": 0.04557846257182036,
+      "enumerated_tables": 10689,
+      "probability_mass_error": 2.5490720645393594e-13,
+      "conditional_size_checks": {
+        "0.01": 0.009881526777407225,
+        "0.05": 0.049167974814761005,
+        "0.1": 0.0996434549707785
+      }
+    },
+    {
+      "task": 6,
+      "statistic_LR": 5.018023908125487,
+      "exact_conditional_p": 0.08662026281009255,
+      "enumerated_tables": 10078,
+      "probability_mass_error": 2.2737367544323206e-13,
+      "conditional_size_checks": {
+        "0.01": 0.009819701713599891,
+        "0.05": 0.0499704465350648,
+        "0.1": 0.09908956674223066
+      }
+    },
+    {
+      "task": 7,
+      "statistic_LR": 4.745715218013157,
+      "exact_conditional_p": 0.0941174918302744,
+      "enumerated_tables": 8718,
+      "probability_mass_error": 5.471179065352771e-13,
+      "conditional_size_checks": {
+        "0.01": 0.009840621841946421,
+        "0.05": 0.049291306429115125,
+        "0.1": 0.09808315277239443
+      }
+    },
+    {
+      "task": 8,
+      "statistic_LR": 0.7283063266443344,
+      "exact_conditional_p": 0.6905107911110429,
+      "enumerated_tables": 9048,
+      "probability_mass_error": 4.334310688136611e-13,
+      "conditional_size_checks": {
+        "0.01": 0.009906916857360202,
+        "0.05": 0.049195687430971004,
+        "0.1": 0.09922036467355742
+      }
+    }
+  ],
+  "source_and_assignment_verified": false
+}

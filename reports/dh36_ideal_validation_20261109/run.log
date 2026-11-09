@@ -1,0 +1,15 @@
+full tests [{'test': 'studentized_cluster_Wald', 'statistic': 28.04680917887829, 'permutation_p_plus_one': 0.04814}, {'test': 'pooled_fibre_score_generalized_CMH', 'statistic': 26.08182286659397, 'permutation_p_plus_one': 0.04814}, {'test': 'saturated_task_by_version_composite_LR', 'statistic': 28.006813377447756, 'permutation_p_plus_one': 0.04906}]
+panel_mixed_common LL -2820.4980332225687 gradient 6.667782094116337e-05
+panel_mixed_version_ASC LL -2812.824998019536 gradient 1.3537045095546318e-05
+panel CV fold 0
+panel CV fold 1
+panel CV fold 2
+panel CV fold 3
+panel CV fold 4
+calibration joint_null_independent
+calibration joint_null_correlated
+calibration weak_null_unequal_dependence
+power all_tasks_A_vs_B
+power one_task_A_vs_B
+power all_tasks_service_vs_optout
+COMPLETE outputs/dh36_ideal_validation_20261109

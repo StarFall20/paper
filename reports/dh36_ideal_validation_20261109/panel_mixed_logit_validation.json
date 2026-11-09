@@ -1,0 +1,108 @@
+{
+  "panel_mixed_common": {
+    "draw256": {
+      "sobol_draws": 256,
+      "seed": 20261109,
+      "solver_success": true,
+      "projected_gradient_max": 4.945066489514538e-06,
+      "gradient_check_error": 3.8879434782757016e-08,
+      "hessian_min_eigenvalue": 0.01582353431035344,
+      "hessian_max_eigenvalue": 850.157534852284,
+      "start_logliks": [
+        -2820.609479174698,
+        -2820.6094791747437,
+        -2820.609479174701
+      ],
+      "at_bound": [
+        "log_sd_log_price"
+      ]
+    },
+    "draw1024": {
+      "sobol_draws": 1024,
+      "seed": 20261109,
+      "solver_success": true,
+      "projected_gradient_max": 6.667782094116337e-05,
+      "gradient_check_error": 2.7628544785329723e-08,
+      "hessian_min_eigenvalue": 0.01615815819080915,
+      "hessian_max_eigenvalue": 850.1579794807773,
+      "start_logliks": [
+        -2820.4980332225687
+      ],
+      "at_bound": [
+        "log_sd_log_price"
+      ]
+    },
+    "independent_scramble1024": {
+      "sobol_draws": 1024,
+      "seed": 20261110,
+      "solver_success": true,
+      "projected_gradient_max": 9.266483054881647e-06,
+      "gradient_check_error": 4.250044582931878e-08,
+      "hessian_min_eigenvalue": 0.01874075891018961,
+      "hessian_max_eigenvalue": 850.1590169056576,
+      "start_logliks": [
+        -2820.4819778547007
+      ],
+      "at_bound": [
+        "log_sd_log_price"
+      ]
+    },
+    "loglik_draw256": -2820.609479174698,
+    "loglik_draw1024": -2820.4980332225687,
+    "loglik_independent_scramble1024": -2820.4819778547007,
+    "coefficient_scramble_max_diff": 0.00041074345268282686
+  },
+  "panel_mixed_version_ASC": {
+    "draw256": {
+      "sobol_draws": 256,
+      "seed": 20261109,
+      "solver_success": true,
+      "projected_gradient_max": 1.741860614901114e-05,
+      "gradient_check_error": 3.8879434782757016e-08,
+      "hessian_min_eigenvalue": 0.015095178813940688,
+      "hessian_max_eigenvalue": 1058.5530740934937,
+      "start_logliks": [
+        -2812.9360375539586,
+        -2812.9360375539554,
+        -2812.936037553959
+      ],
+      "at_bound": [
+        "log_sd_log_price"
+      ]
+    },
+    "draw1024": {
+      "sobol_draws": 1024,
+      "seed": 20261109,
+      "solver_success": true,
+      "projected_gradient_max": 1.3537045095546318e-05,
+      "gradient_check_error": 2.7628544785329723e-08,
+      "hessian_min_eigenvalue": 0.01548069302718629,
+      "hessian_max_eigenvalue": 1058.5512316662919,
+      "start_logliks": [
+        -2812.824998019536
+      ],
+      "at_bound": [
+        "log_sd_log_price"
+      ]
+    },
+    "independent_scramble1024": {
+      "sobol_draws": 1024,
+      "seed": 20261110,
+      "solver_success": true,
+      "projected_gradient_max": 2.4296696320202926e-05,
+      "gradient_check_error": 4.250044582931878e-08,
+      "hessian_min_eigenvalue": 0.018057365476989787,
+      "hessian_max_eigenvalue": 1058.552236588465,
+      "start_logliks": [
+        -2812.809020906205
+      ],
+      "at_bound": [
+        "log_sd_log_price"
+      ]
+    },
+    "loglik_draw256": -2812.9360375539554,
+    "loglik_draw1024": -2812.824998019536,
+    "loglik_independent_scramble1024": -2812.809020906205,
+    "coefficient_scramble_max_diff": 0.0004096807640101008
+  }
+}

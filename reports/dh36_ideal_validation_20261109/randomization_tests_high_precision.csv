@@ -1,0 +1,4 @@
+test,statistic,n,permutations,exceedances,permutation_p_plus_one,mc_interval_low,mc_interval_high,asymptotic_chi16_p,null
+studentized_cluster_Wald,28.04680917887829,360,999999,48686,0.048687,0.04826597387270874,0.04910959089745452,0.031214982906502448,weak marginal equality; permutation asymptotically robust
+pooled_fibre_score_generalized_CMH,26.08182286659397,360,999999,48686,0.048687,0.04826597387270874,0.04910959089745452,0.052887760686610136,joint response-vector exchangeability for finite-sample exactness
+saturated_task_by_version_composite_LR,28.006813377447756,360,999999,48171,0.048172,0.04775309861240758,0.048592469084449946,,joint response-vector exchangeability for finite-sample exactness

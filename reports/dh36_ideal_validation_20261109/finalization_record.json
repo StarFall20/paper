@@ -1,0 +1,12 @@
+{
+  "high_precision_permutations": 999999,
+  "null_MC_per_scenario": 5000,
+  "null_permutations_per_rep": 999,
+  "power_MC_per_cell": 1000,
+  "power_null_cutoff_MC_per_n": 5000,
+  "raw_hashes_unchanged": true,
+  "full_record_population": 360,
+  "fixed_price_panel_model": "six or eight estimated parameters; random price variance set exactly to zero",
+  "initial_results_preserved": true,
+  "complete": true
+}

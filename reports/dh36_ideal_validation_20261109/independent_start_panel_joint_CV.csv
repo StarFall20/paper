@@ -1,0 +1,4 @@
+model,joint_NLL_per_record,joint_NLL_divided_by_8,gain_vs_MNL_per_task,descriptive_gain_ci_low,descriptive_gain_ci_high,gain_vs_random_intercept_common,descriptive_gain_vs_RI_ci_low,descriptive_gain_vs_RI_ci_high,folds,target
+MNL_product,8.334834192988382,1.0418542741235477,0.0,0.0,0.0,-0.058457475814298596,-0.07986511542421983,-0.037049836204377365,5,joint 8-response vector for new record; fixed multistart from training data only
+random_intercept_common,7.867174386473993,0.9833967983092491,0.058457475814298596,0.037049836204377365,0.07986511542421983,0.0,0.0,0.0,5,joint 8-response vector for new record; fixed multistart from training data only
+random_intercept_version_ASC,7.853547534034818,0.9816934417543522,0.0601608323691955,0.03842287550028552,0.08189878923810548,0.0017033565548969102,-0.0015000639671904309,0.004906777076984252,5,joint 8-response vector for new record; fixed multistart from training data only

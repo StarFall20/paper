@@ -1,0 +1,232 @@
+[
+  {
+    "fold": 0,
+    "model": "random_intercept_common",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 2.4258112956587752e-05,
+    "gradient_check_error": 3.247569608788581e-07,
+    "hessian_min_eigenvalue": 39.76322547290626,
+    "start_logliks": [
+      -2269.289457242308,
+      -2269.2894572423097,
+      -2269.28945724231
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 0,
+    "model": "random_intercept_version_ASC",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 4.995558527026711e-05,
+    "gradient_check_error": 3.247569608788581e-07,
+    "hessian_min_eigenvalue": 10.319983438210656,
+    "start_logliks": [
+      -2262.9858711088073,
+      -2262.985871108807,
+      -2262.98587110904
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 1,
+    "model": "random_intercept_common",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 1.417467193931543e-05,
+    "gradient_check_error": 3.0116489568854377e-07,
+    "hessian_min_eigenvalue": 40.22363331069802,
+    "start_logliks": [
+      -2259.9180454034713,
+      -2259.9180454034718,
+      -2259.9180454034713
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 1,
+    "model": "random_intercept_version_ASC",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 2.764374459340857e-05,
+    "gradient_check_error": 3.0116489568854377e-07,
+    "hessian_min_eigenvalue": 10.44926336636471,
+    "start_logliks": [
+      -2255.0973794825077,
+      -2255.0973794823403,
+      -2255.097379482323
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 2,
+    "model": "random_intercept_common",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 4.317695464273186e-06,
+    "gradient_check_error": 3.000841353184569e-07,
+    "hessian_min_eigenvalue": 36.11253592012497,
+    "start_logliks": [
+      -2231.4342217525486,
+      -2231.4342217525473,
+      -2231.4342217525477
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 2,
+    "model": "random_intercept_version_ASC",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 2.554172368052221e-06,
+    "gradient_check_error": 3.000841353184569e-07,
+    "hessian_min_eigenvalue": 8.961380353152476,
+    "start_logliks": [
+      -2220.29263827462,
+      -2220.292638274629,
+      -2220.2926382746055
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 3,
+    "model": "random_intercept_common",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 2.7449716455407724e-06,
+    "gradient_check_error": 2.99952411353388e-07,
+    "hessian_min_eigenvalue": 37.84969664476341,
+    "start_logliks": [
+      -2233.499814389901,
+      -2233.4998143898115,
+      -2233.4998143898183
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 3,
+    "model": "random_intercept_version_ASC",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 5.753626007187762e-05,
+    "gradient_check_error": 2.99952411353388e-07,
+    "hessian_min_eigenvalue": 9.591079143132193,
+    "start_logliks": [
+      -2229.5532838177432,
+      -2229.553283817714,
+      -2229.5532838177305
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 4,
+    "model": "random_intercept_common",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 1.1731456450170263e-06,
+    "gradient_check_error": 3.147726364005621e-07,
+    "hessian_min_eigenvalue": 44.84537884213815,
+    "start_logliks": [
+      -2282.5427371708784,
+      -2282.542737170878,
+      -2282.5427371708806
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  },
+  {
+    "fold": 4,
+    "model": "random_intercept_version_ASC",
+    "quadrature_nodes": 61,
+    "solver_success": true,
+    "gradient_max": 1.4698379978916876e-05,
+    "gradient_check_error": 3.147726364005621e-07,
+    "hessian_min_eigenvalue": 12.701311441966165,
+    "start_logliks": [
+      -2276.8399839228564,
+      -2276.839983922827,
+      -2276.839983922826
+    ],
+    "fixed_start_rule": [
+      0.3,
+      0.8,
+      1.6
+    ],
+    "at_bound": [],
+    "training_n": 288,
+    "validation_n": 72,
+    "no_heldout_outcomes_in_fit_or_initialization": true
+  }
+]

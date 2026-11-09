@@ -1,0 +1,65 @@
+{
+  "independent_checks": [
+    {
+      "model": "mnl_common",
+      "independent_grouped_nll_difference": 1.3642420526593924e-12,
+      "independent_coefficient_max_difference": 7.390873127399722e-08,
+      "gradient_at_solution_max": 9.094947017729281e-08,
+      "hessian_min_eigenvalue": 87.61339748943622,
+      "probability_sum_error": 1.1102230246251565e-16,
+      "observations": 2880,
+      "parameters": 5
+    },
+    {
+      "model": "mnl_cohort_intercepts",
+      "independent_grouped_nll_difference": 9.094947017729282e-13,
+      "independent_coefficient_max_difference": 7.651879502246217e-08,
+      "gradient_at_solution_max": 9.094947017729281e-08,
+      "hessian_min_eigenvalue": 56.162523479561706,
+      "probability_sum_error": 2.220446049250313e-16,
+      "observations": 2880,
+      "parameters": 7
+    },
+    {
+      "model": "mnl_cohort_all",
+      "independent_grouped_nll_difference": 2.7284841053187847e-12,
+      "independent_coefficient_max_difference": 7.598771570305196e-08,
+      "gradient_at_solution_max": 9.094947017729281e-08,
+      "hessian_min_eigenvalue": 16.71966732863131,
+      "probability_sum_error": 2.220446049250313e-16,
+      "observations": 2880,
+      "parameters": 10
+    }
+  ],
+  "models": {
+    "mnl_common": {
+      "rank": 5,
+      "gradient_max": 3.179286212073862e-08,
+      "solver_success": true,
+      "composite_log_likelihood": -2990.090120809349,
+      "test": null
+    },
+    "mnl_cohort_intercepts": {
+      "rank": 7,
+      "gradient_max": 6.951661468690418e-13,
+      "solver_success": true,
+      "composite_log_likelihood": -2982.5215334595277,
+      "test": {
+        "wald": 10.452838953720708,
+        "df": 2,
+        "p_value_association_only": 0.005372728081366316
+      }
+    },
+    "mnl_cohort_all": {
+      "rank": 10,
+      "gradient_max": 2.3401441784365318e-08,
+      "solver_success": true,
+      "composite_log_likelihood": -2982.2502512619085,
+      "test": {
+        "wald": 10.936083585760349,
+        "df": 5,
+        "p_value_association_only": 0.052662088728356045
+      }
+    }
+  }
+}

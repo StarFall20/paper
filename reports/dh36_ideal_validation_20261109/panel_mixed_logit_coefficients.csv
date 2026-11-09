@@ -1,0 +1,17 @@
+model,term,estimate,cluster_se
+panel_mixed_common,ASC_A,0.0568507368447098,0.09664232805957111
+panel_mixed_common,ASC_B,-0.3387613199451872,0.09702107914935239
+panel_mixed_common,mu_log_negative_price,-1.531372912618163,0.06331344446853958
+panel_mixed_common,G1_vs_G0,-0.2213369722053116,0.06803190534426012
+panel_mixed_common,G2_vs_G0,0.11485169093522155,0.07108827546337267
+panel_mixed_common,log_sd_service_intercept,0.30499992953544214,0.09191075242664568
+panel_mixed_common,log_sd_log_price,-4.0,0.3304064426799955
+panel_mixed_version_ASC,ASC_A,-0.04701393922433774,0.13181659309013374
+panel_mixed_version_ASC,ASC_B,-0.246932923575358,0.13404317577245106
+panel_mixed_version_ASC,mu_log_negative_price,-1.5252327208368144,0.06318515549695754
+panel_mixed_version_ASC,G1_vs_G0,-0.22282839904868476,0.06838324812259142
+panel_mixed_version_ASC,G2_vs_G0,0.11523838913260467,0.07145850404022623
+panel_mixed_version_ASC,log_sd_service_intercept,0.3054052773619947,0.09188469541735977
+panel_mixed_version_ASC,log_sd_log_price,-4.0,0.3492626711708622
+panel_mixed_version_ASC,V2_x_ASC_A,0.20079315645410345,0.1818762260027458
+panel_mixed_version_ASC,V2_x_ASC_B,-0.19586576508195433,0.18006267322411118

@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "numpy": "2.5.3",
+  "pandas": "2.2.3",
+  "seed": 20261109,
+  "arguments": {
+    "input_dir": "work/private_dh36_20261108",
+    "instrument": "repo/survey/public_dh36/instrument.json",
+    "out": "outputs/dh36_ideal_validation_20261109",
+    "permutations": 49999,
+    "mc_repetitions": 500,
+    "calibration_permutations": 199
+  }
+}

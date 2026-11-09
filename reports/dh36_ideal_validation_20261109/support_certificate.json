@@ -1,0 +1,21 @@
+{
+  "finite_design_support_points": 16,
+  "candidate_fibres": 8,
+  "rank_menu_contrast_operator": 8,
+  "rank_outcome_probability_contrasts": 16,
+  "normalized_exposure_eigenvalues": [
+    0.062499999999999986,
+    0.062499999999999986,
+    0.062499999999999986,
+    0.062499999999999986,
+    0.062499999999999986,
+    0.062499999999999986,
+    0.062499999999999986,
+    0.062499999999999986
+  ],
+  "normalization": "uniform mass 1/16 per menu; unit Euclidean contrast rows",
+  "support_covered": "only these 16 menus; not the full attribute universe",
+  "raw_attribute_model_rank": 7,
+  "raw_attribute_columns": 13,
+  "unidentified_dimensions": 6
+}

@@ -1,0 +1,11 @@
+{
+  "analysis_population": "all 360 exported records, no exclusions",
+  "independent_response_records": "assumed; not verified identity or human provenance",
+  "assignment": "ideal complete respondent-level 180:180 random assignment, assumed for conditional inference",
+  "interference": "none assumed",
+  "profile_display": "unchanged questionnaire and whole-menu candidate preservation",
+  "source_metadata": "raw provenance retained unchanged; not converted to verified human labels",
+  "factual_provenance_reference": "../dh36_model_20261108/DH36_模型与数据核查报告.md",
+  "causal_claims": "conditional only; source and actual allocation cannot be validated by fitting a model",
+  "analysis_timing": "analysis developed after inspecting outcomes; exploratory, no preregistration claimed"
+}

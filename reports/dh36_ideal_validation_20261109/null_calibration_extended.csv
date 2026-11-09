@@ -1,0 +1,13 @@
+scenario,test,n,MC_repetitions,permutations_per_rep,rejection_rate,mc_low,mc_high,scope
+joint_null_independent,studentized_Wald_permutation,360,5000,999,0.053,0.04712629144933971,0.059560034089541365,joint null
+joint_null_independent,pooled_score_permutation,360,5000,999,0.053,0.04712629144933971,0.059560034089541365,joint null
+joint_null_independent,saturated_composite_LR_permutation,360,5000,999,0.0516,0.045805193052696626,0.05808328205163061,joint null
+joint_null_independent,studentized_Wald_chi16,360,5000,0,0.0784,0.07126887513142803,0.08617845114864413,joint null
+joint_null_correlated,studentized_Wald_permutation,360,5000,999,0.0556,0.049582913854809285,0.06229941963395749,joint null
+joint_null_correlated,pooled_score_permutation,360,5000,999,0.0556,0.049582913854809285,0.06229941963395749,joint null
+joint_null_correlated,saturated_composite_LR_permutation,360,5000,999,0.052,0.04618252452365877,0.058505336419112416,joint null
+joint_null_correlated,studentized_Wald_chi16,360,5000,0,0.0832,0.07586093314234772,0.0911790231990519,joint null
+weak_null_unequal_dependence,studentized_Wald_permutation,360,5000,999,0.0612,0.05488694601595171,0.06818678921103043,weak marginal null; studentized or balanced-equivalent score
+weak_null_unequal_dependence,pooled_score_permutation,360,5000,999,0.0612,0.05488694601595171,0.06818678921103043,weak marginal null; studentized or balanced-equivalent score
+weak_null_unequal_dependence,saturated_composite_LR_permutation,360,5000,999,0.0508,0.04505083668536068,0.05723886674207865,joint null false; no weak-null validity claim
+weak_null_unequal_dependence,studentized_Wald_chi16,360,5000,0,0.0862,0.07873484384029536,0.09430050628943393,weak marginal null; studentized or balanced-equivalent score

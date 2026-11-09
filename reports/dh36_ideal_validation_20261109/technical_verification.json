@@ -1,0 +1,29 @@
+{
+  "records": 360,
+  "tasks_per_record": 8,
+  "choice_rows": 2880,
+  "alternative_rows": 8640,
+  "dropped_records": 0,
+  "raw_sha256": {
+    "V1": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13",
+    "V2": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01"
+  },
+  "balanced_Wald_identity_max_error_100_splits": 1.4210854715202004e-13,
+  "group_and_category_relabeling_max_stat_error": 4.618527782440651e-14,
+  "exact_enumeration": {
+    "assignments": 70,
+    "test": "saturated composite LR",
+    "rejection_fraction_at_0_05": 0.02857142857142857,
+    "max_validity_excess": 0.0,
+    "scope": "one enumerated toy example; not a proof for all designs"
+  },
+  "information_projection": {
+    "schur_information": 0.11574000000000001,
+    "E_kappa_Var_h_given_phi": 0.11574000000000001,
+    "absolute_difference": 0.0,
+    "phi_only_direction_information": -1.3877787807814457e-17,
+    "scope": "Bernoulli local score, kappa a function of candidate summary. This is standard nuisance projection, not a novelty proof. Panel NCP additionally requires cluster covariance."
+  },
+  "elapsed_seconds": 29.96355676651001,
+  "completed_numerical_checks": true
+}

@@ -1,0 +1,131 @@
+{
+  "models": {
+    "random_intercept_common": {
+      "nodes31": {
+        "quadrature_nodes": 31,
+        "solver_success": true,
+        "gradient_max": 5.454873394317161e-06,
+        "gradient_check_error": 3.761598392770793e-07,
+        "hessian_min_eigenvalue": 49.65254832215618,
+        "start_logliks": [
+          -2820.465665410766,
+          -2820.465665410762,
+          -2820.465665410762
+        ],
+        "fixed_start_rule": [
+          0.3,
+          0.8,
+          1.6
+        ],
+        "at_bound": []
+      },
+      "nodes101": {
+        "quadrature_nodes": 101,
+        "solver_success": true,
+        "gradient_max": 5.176494574321566e-06,
+        "gradient_check_error": 3.794983314264755e-07,
+        "hessian_min_eigenvalue": 49.652226717367654,
+        "start_logliks": [
+          -2820.4655833147403,
+          -2820.4655833147194,
+          -2820.4655833147312
+        ],
+        "fixed_start_rule": [
+          0.3,
+          0.8,
+          1.6
+        ],
+        "at_bound": []
+      },
+      "nodes161": {
+        "quadrature_nodes": 161,
+        "solver_success": true,
+        "gradient_max": 5.203355154526079e-06,
+        "gradient_check_error": 3.7949848774587736e-07,
+        "hessian_min_eigenvalue": 49.65222671163724,
+        "start_logliks": [
+          -2820.465583314764,
+          -2820.465583314732,
+          -2820.4655833147444
+        ],
+        "fixed_start_rule": [
+          0.3,
+          0.8,
+          1.6
+        ],
+        "at_bound": []
+      },
+      "loglik31": -2820.465665410762,
+      "loglik101": -2820.4655833147194,
+      "loglik161": -2820.465583314732,
+      "max_coefficient_change101_to161": 4.029933331484159e-11
+    },
+    "random_intercept_version_ASC": {
+      "nodes31": {
+        "quadrature_nodes": 31,
+        "solver_success": true,
+        "gradient_max": 5.6272167527460226e-05,
+        "gradient_check_error": 3.761598392770793e-07,
+        "hessian_min_eigenvalue": 12.888526260777027,
+        "start_logliks": [
+          -2812.7928526658898,
+          -2812.792852666,
+          -2812.792852665943
+        ],
+        "fixed_start_rule": [
+          0.3,
+          0.8,
+          1.6
+        ],
+        "at_bound": []
+      },
+      "nodes101": {
+        "quadrature_nodes": 101,
+        "solver_success": true,
+        "gradient_max": 9.088120945677236e-05,
+        "gradient_check_error": 3.794983314264755e-07,
+        "hessian_min_eigenvalue": 12.88857572144391,
+        "start_logliks": [
+          -2812.7928001200667,
+          -2812.792800120154,
+          -2812.7928001201153
+        ],
+        "fixed_start_rule": [
+          0.3,
+          0.8,
+          1.6
+        ],
+        "at_bound": []
+      },
+      "nodes161": {
+        "quadrature_nodes": 161,
+        "solver_success": true,
+        "gradient_max": 8.952271084050611e-05,
+        "gradient_check_error": 3.7949848774587736e-07,
+        "hessian_min_eigenvalue": 12.888575679579235,
+        "start_logliks": [
+          -2812.792800120076,
+          -2812.792800120164,
+          -2812.7928001201253
+        ],
+        "fixed_start_rule": [
+          0.3,
+          0.8,
+          1.6
+        ],
+        "at_bound": []
+      },
+      "loglik31": -2812.7928526658898,
+      "loglik101": -2812.7928001200667,
+      "loglik161": -2812.792800120076,
+      "max_coefficient_change101_to161": 2.982710506360675e-08
+    }
+  },
+  "version_ASC_model_conditional_Wald": {
+    "W": 10.460315501456913,
+    "df": 2,
+    "p": 0.005352680846752118,
+    "scope": "restricted random-intercept logit; not the unrestricted sufficiency null"
+  },
+  "variance_boundary_repair": "Lognormal price SD hit lower bound in expanded mixed logit; final model fixes its variance to zero and estimates only service-intercept heterogeneity."
+}

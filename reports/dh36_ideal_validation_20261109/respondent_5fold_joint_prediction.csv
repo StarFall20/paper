@@ -1,0 +1,4 @@
+model,joint_negative_logscore_per_record,joint_negative_logscore_divided_by_8,gain_vs_MNL_per_task,descriptive_ci_low,descriptive_ci_high,folds,prediction_target
+MNL_product,8.334834192988382,1.0418542741235477,0.0,0.0,0.0,5,"joint full response vector, new respondent"
+panel_mixed_common,7.867109524498624,0.983388690562328,0.058465583561219524,0.037011199246330104,0.07991996787610894,5,"joint full response vector, new respondent"
+panel_mixed_version_ASC,7.853475925087363,0.9816844906359203,0.06016978348762719,0.03838568792872318,0.0819538790465312,5,"joint full response vector, new respondent"

@@ -1,0 +1,43 @@
+{
+  "method": "honest single split random forest residual direction; one-sided heldout randomization score",
+  "training_records": 240,
+  "holdout_records": 120,
+  "training_per_arm": 120,
+  "holdout_per_arm": 60,
+  "permutations": 49999,
+  "score": 0.022815112899673046,
+  "p_plus_one": 0.2022,
+  "mc_interval": [
+    0.19868658244987333,
+    0.20572726422070395
+  ],
+  "mean_heldout_logscore_gain": -0.005218577758186628,
+  "descriptive_ci95_gain": [
+    -0.013209113346777154,
+    0.002771957830403897
+  ],
+  "features": "task identifier, menu raw attributes, price, sharing; no demographics, provenance or post-choice answers",
+  "hyperparameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 6,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 32,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 500,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 20261109,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "split_rule_fixed_before_ML_holdout_evaluation": true,
+  "claim": "Conditional exactness under heldout joint exchangeability; no exact weak-null claim."
+}

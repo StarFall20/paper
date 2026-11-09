@@ -1,0 +1,25 @@
+million permutations [{'test': 'studentized_cluster_Wald', 'permutation_p_plus_one': 0.048687}, {'test': 'pooled_fibre_score_generalized_CMH', 'permutation_p_plus_one': 0.048687}, {'test': 'saturated_task_by_version_composite_LR', 'permutation_p_plus_one': 0.048172}]
+independent-start CV 0
+independent-start CV 1
+independent-start CV 2
+independent-start CV 3
+independent-start CV 4
+extended null joint_null_independent 1000
+extended null joint_null_independent 2000
+extended null joint_null_independent 3000
+extended null joint_null_independent 4000
+extended null joint_null_independent 5000
+extended null joint_null_correlated 1000
+extended null joint_null_correlated 2000
+extended null joint_null_correlated 3000
+extended null joint_null_correlated 4000
+extended null joint_null_correlated 5000
+extended null weak_null_unequal_dependence 1000
+extended null weak_null_unequal_dependence 2000
+extended null weak_null_unequal_dependence 3000
+extended null weak_null_unequal_dependence 4000
+extended null weak_null_unequal_dependence 5000
+calibrated power all_tasks_A_vs_B
+calibrated power one_task_A_vs_B
+calibrated power all_tasks_service_vs_optout
+FINAL NUMERICAL VALIDATION COMPLETE

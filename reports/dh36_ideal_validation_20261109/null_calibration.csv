@@ -1,0 +1,13 @@
+scenario,test,n,MC_repetitions,permutations_per_rep,rejection_rate,mc_low,mc_high,interpretation
+joint_null_independent,studentized_Wald_permutation,360,500,199,0.072,0.0524580314181262,0.09806840401696253,size for joint null
+joint_null_independent,pooled_score_permutation,360,500,199,0.072,0.0524580314181262,0.09806840401696253,size for joint null
+joint_null_independent,saturated_composite_LR_permutation,360,500,199,0.058,0.0406837291117572,0.08205618785625499,size for joint null
+joint_null_independent,studentized_Wald_chi16,360,500,0,0.086,0.06447314240360771,0.11383981149855754,size for weak marginal null
+joint_null_correlated,studentized_Wald_permutation,360,500,199,0.036,0.02289106098029272,0.056184326968027755,size for joint null
+joint_null_correlated,pooled_score_permutation,360,500,199,0.036,0.02289106098029272,0.056184326968027755,size for joint null
+joint_null_correlated,saturated_composite_LR_permutation,360,500,199,0.042,0.027632310108451703,0.06335158575433016,size for joint null
+joint_null_correlated,studentized_Wald_chi16,360,500,0,0.05,0.034093745243849435,0.0727681611715476,size for weak marginal null
+weak_null_unequal_dependence,studentized_Wald_permutation,360,500,199,0.048,0.03246520694135317,0.07042719683589006,size for weak marginal null
+weak_null_unequal_dependence,pooled_score_permutation,360,500,199,0.048,0.03246520694135317,0.07042719683589006,joint null false; not a weak-null size estimate
+weak_null_unequal_dependence,saturated_composite_LR_permutation,360,500,199,0.03,0.018263213197913384,0.04890366683594573,joint null false; not a weak-null size estimate
+weak_null_unequal_dependence,studentized_Wald_chi16,360,500,0,0.06,0.0423483564809462,0.08436106312521979,size for weak marginal null
