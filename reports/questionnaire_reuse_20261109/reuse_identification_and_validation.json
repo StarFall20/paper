@@ -1,0 +1,40 @@
+{
+  "population": 360,
+  "source_based_models_not_split": true,
+  "price_and_sharing_model_rank": 7,
+  "with_common_order_trend_rank": 8,
+  "with_alternative_order_trends_rank": 9,
+  "with_saturated_alternative_task_effects_columns": 21,
+  "with_saturated_alternative_task_effects_rank": 18,
+  "lost_directions_due_to_saturated_task_effects": 3,
+  "interpretation": "price/sharing are estimable under specified preference/order models; arbitrary alternative-by-task effects absorb them",
+  "models": {
+    "version_bundle_intercepts": {
+      "records": 360,
+      "tasks_per_record": 8,
+      "parameters": 7,
+      "rank": 7,
+      "gradient_max": 6.951661468690418e-13,
+      "hessian_min_eigenvalue": 56.162523479561706
+    },
+    "common_participation_order_trend": {
+      "records": 360,
+      "tasks_per_record": 8,
+      "parameters": 8,
+      "rank": 8,
+      "gradient_max": 2.1108993442098267e-09,
+      "hessian_min_eigenvalue": 55.89715937432772
+    },
+    "alternative_specific_order_trends": {
+      "records": 360,
+      "tasks_per_record": 8,
+      "parameters": 9,
+      "rank": 9,
+      "gradient_max": 7.924412792625901e-10,
+      "hessian_min_eigenvalue": 49.38112585885844
+    }
+  },
+  "raw_hashes_unchanged": true,
+  "not_a_preregistered_confirmation": true,
+  "actual_human_provenance_not_certified": true
+}

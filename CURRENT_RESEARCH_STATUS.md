@@ -10,3 +10,7 @@ The active output is a reproducible classical-method design audit and technical 
 - [Reproduction instructions](reports/method_decision_20261109/README.md)
 
 DH36 original exports and the full 360-record exploratory analyses are preserved. Original provenance and actual recruitment facts are not rewritten. Historical internal round-by-round novelty or submission-threshold judgments are superseded by this decision; they are not independent peer review.
+
+## Additional questionnaire-content reuse assessment
+
+The fee and sharing-rule content is being assessed for a separate exploratory applied question about paid health-management services. [Reuse plan](reports/questionnaire_reuse_20261109/现有问卷内容利用方案.md). The original theoretical-method conclusion is unchanged. Human provenance, substantive application novelty and submission readiness remain to be verified; no new fielding or publication promise is made.
