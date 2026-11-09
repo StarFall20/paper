@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-09",
+  "stage": "Exploratory source and numerical audit, fixed before the new optimizer fits",
+  "source": "Lu, Wang, Zhang and Zhang2026 GAI replication repository, commit d18717206867c7a12ff470879a0dd5d488b300c2",
+  "source_scope": "The released vaccine file contains4605 human outcome rows,4605 two-alternative feature matrices,1200 aligned-prefix AI outcomes, and an11-parameter reference. Source scripts drop the constant first feature.",
+  "question": "Are apparent benchmark differences confounded by convergence of the stated human-only maximum-likelihood estimator or by the supplied parameter reference?",
+  "fixed_cohorts": ["all4605 released human rows", "the first1200 human rows, the extent of released GPT4o auxiliary labels"],
+  "models": [
+    "The same11-parameter binary logistic choice loss for all estimators",
+    "Adam with ones initialization, learning rate0.01 and200 steps, matching the released primary helper convention",
+    "The same Adam convention with4000 steps, a numerical diagnostic rather than a new statistical method",
+    "Converged full-batch likelihood, using three initial values and Newton refinement"
+  ],
+  "outcomes": ["loss and total/mean score at every estimate", "difference from converged likelihood", "reference-parameter score and observed-information diagnostic", "parameter distances, clearly labelled numerical and not structural-truth errors"],
+  "checks": ["Pinned Git blob hashes and stated licenses", "Numeric-only restricted pickle reader; no downloaded research code executed", "First-column constancy, label codes, finite data and feature rank", "Analytic gradient/Hessian finite-difference checks", "Agreement of converged solutions across starts"],
+  "limits": "No GAI estimator replication or synthetic-data label-savings claim is inferred from this diagnostic. The author's reference is an empirical fitted vector, not known structural truth. Row-prefix alignment and five-row participant blocks follow source conventions and are not independently certified participant identities.",
+  "stopping_rule": "Retain both cohorts and every stated estimator, including failures. If convergence differences are small, do not promote an optimization explanation. Any later benchmark needs matched samples, targets, nuisance tuning and fitting accuracy.",
+  "new_AI_generation_or_author_contact": false,
+  "independent_innovation_established": false
+}

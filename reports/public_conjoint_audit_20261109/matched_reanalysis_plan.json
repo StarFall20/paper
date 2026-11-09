@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-09",
+  "stage": "Exploratory matched reanalysis; written after source and full-cohort convergence diagnostics, before these resampling fits",
+  "primary_target": "The converged binary-logit projection of the fixed1200-row AI-aligned human cohort. All methods are evaluated against the same target.",
+  "secondary_references": ["released reference vector", "converged4605-row human projection"],
+  "source_units": "240 contiguous five-row blocks, following the source script. The released numeric file does not independently certify respondent identities.",
+  "allocations": 500,
+  "random_seed": 20261109,
+  "allocation_rule": "One permutation of the240 blocks per trial. Human label budgets50,100,150,200 use nested prefixes; every remaining row is auxiliary. This fixed-target scheme differs explicitly from the source's changing prefix-pool convention.",
+  "methods": ["human-only200-step Adam", "converged human-only logit", "naive hard-AI pooling", "clipped-target AI self-training as in the released code", "unclipped corrected AI moment", "unclipped corrected X-only moment"],
+  "nuisance_models": "Match the released C=0.05 ridge logistic convention and five row folds. AI version fits separate models within discrete AI-label strata. X-only version uses the same folds and regularization without AI strata. No tuning on target errors. Row cross-fitting is recorded as a source convention, not independent-person validation.",
+  "clipping_identity": "For a labelled one-hot outcome and0<e<1, clipping every component of g+(y-g)/e to[0,1] and renormalizing returns y exactly. Unlabelled rows retain g. Verify numerically in every allocation.",
+  "existence_checks": "Use the classical binary exponential-family mean-support LP before fitting corrected losses. Retain infeasible, boundary/near-boundary and unresolved solver cases; no hidden bounds or silent clipping in corrected methods.",
+  "outcomes": ["score preservation and clipping identity", "finite-solution frequencies", "parameter error to all three explicitly named references", "conditional paired comparisons on shared finite cases, alongside full failure counts"],
+  "limits": "This is a controlled reanalysis, not an exact reproduction of the article's tables. It does not evaluate embeddings or PPI++ and cannot establish a full-method ranking. Resampling allocations add no human participants. No confidence-interval validity claim is made in this stage.",
+  "stopping_rule": "Complete all500 allocations at all four budgets and retain all methods. Report effects that remain after fixing target and optimization; do not infer disappearance of AI value before observing results."
+}

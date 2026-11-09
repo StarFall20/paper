@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "stage": "Candidate-theorem verification, defined before the new numerical checks",
+  "model": "Balanced null binary logistic choice with intercept, independent standard Gaussian contrasts, constant frozen predictorq and population auxiliary risk",
+  "label_counts": [20,60,120],
+  "dimension_ratios": [0.025,0.05,0.1,0.15,0.2,0.3,0.4,0.5,0.6,0.7,0.8],
+  "predictors": [0,0.25,0.5,0.75,1],
+  "replications_per_cell": 2000,
+  "simulation": "Draw original GaussianX and BernoulliY. Couple predictors and nested dimensions on each draw. Compare the empirical moment-support event with the independently evaluated binomial/chi-square formula. These are MonteCarlo checks, not collected human responses.",
+  "population_numeric_checks": "Targets with outcome mean0.3,0.5,0.7 and slope-moment norm0,0.5,0.95,1.05,1.5 times the Gaussian support radius. Solve interior cases by adaptive numerical integration; verify negative recession rays outside.",
+  "seed": 20261109,
+  "nonnull_extension_before_simulation": {"signal_norms":[0,1,3],"frozen_predictors":["constant0.5","constant1","oracle_probability","oracle_hard_threshold","reversed_probability"],"target":"Verify the candidate calibration-dependent phase for bounded frozen one-index predictors. Constant-predictor exact finite-label checks remain a separate output."},
+  "novelty_status": "Unproven; exact candidate formula and proportional boundary are assessed separately from classical convex-support and separation results.",
+  "stopping_rule": "Retain every cell and discrepancy. Numerical agreement does not establish priority or full finite-pool/real-DCE applicability."
+}

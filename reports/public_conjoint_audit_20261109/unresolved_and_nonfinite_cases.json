@@ -1,0 +1,51 @@
+[
+  {
+    "trial": 121,
+    "label_rows": 50,
+    "method": "corrected_AI",
+    "status": "outside_mean_support",
+    "interior_margin": null
+  },
+  {
+    "trial": 256,
+    "label_rows": 50,
+    "method": "corrected_AI",
+    "status": "outside_mean_support",
+    "interior_margin": null
+  },
+  {
+    "trial": 317,
+    "label_rows": 50,
+    "method": "corrected_AI",
+    "status": "outside_mean_support",
+    "interior_margin": null
+  },
+  {
+    "trial": 317,
+    "label_rows": 50,
+    "method": "corrected_X_only",
+    "status": "outside_mean_support",
+    "interior_margin": null
+  },
+  {
+    "trial": 337,
+    "label_rows": 50,
+    "method": "corrected_AI",
+    "status": "outside_mean_support",
+    "interior_margin": null
+  },
+  {
+    "trial": 483,
+    "label_rows": 50,
+    "method": "corrected_AI",
+    "status": "outside_mean_support",
+    "interior_margin": null
+  },
+  {
+    "trial": 483,
+    "label_rows": 50,
+    "method": "corrected_X_only",
+    "status": "outside_mean_support",
+    "interior_margin": null
+  }
+]

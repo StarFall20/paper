@@ -1,0 +1,63 @@
+{
+  "source": {
+    "repository": "ChengLu1999/generative-augmented-inference",
+    "commit": "d18717206867c7a12ff470879a0dd5d488b300c2",
+    "license": {
+      "code": "MIT",
+      "datasets": "CC-BY-4.0 as stated in the pinned README"
+    },
+    "files": [
+      {
+        "path": "GAI_Conjoint_Study/label_z/data/ground_truth.pkl",
+        "size": 182,
+        "git_blob_sha1": "78d4d7037b5e83117d0dd61fb947f9d83e83139a",
+        "url": "https://raw.githubusercontent.com/ChengLu1999/generative-augmented-inference/d18717206867c7a12ff470879a0dd5d488b300c2/GAI_Conjoint_Study/label_z/data/ground_truth.pkl"
+      },
+      {
+        "path": "GAI_Conjoint_Study/label_z/data/train_cot-gpt-4o_11_1200.pkl",
+        "size": 1055335,
+        "git_blob_sha1": "01bea94462cd8b74089b78d0a299eaeb5014ee16",
+        "url": "https://raw.githubusercontent.com/ChengLu1999/generative-augmented-inference/d18717206867c7a12ff470879a0dd5d488b300c2/GAI_Conjoint_Study/label_z/data/train_cot-gpt-4o_11_1200.pkl"
+      },
+      {
+        "path": "README.md",
+        "size": 6656,
+        "git_blob_sha1": "070b9c1ab93d17c6662c33c6b7f8d2e6c7a8d952",
+        "url": "https://raw.githubusercontent.com/ChengLu1999/generative-augmented-inference/d18717206867c7a12ff470879a0dd5d488b300c2/README.md"
+      },
+      {
+        "path": "LICENSE",
+        "size": 1065,
+        "git_blob_sha1": "7cfbd6359797bc08e0f3c8311a51b1bf3fc026e9",
+        "url": "https://raw.githubusercontent.com/ChengLu1999/generative-augmented-inference/d18717206867c7a12ff470879a0dd5d488b300c2/LICENSE"
+      }
+    ]
+  },
+  "human_outcome_rows": 4605,
+  "feature_menus": [
+    4605,
+    2,
+    12
+  ],
+  "AI_outcome_rows": 1200,
+  "common_AI_prefix_rows": 1200,
+  "full_human_label_counts": [
+    2509,
+    2096
+  ],
+  "prefix_human_label_counts": [
+    702,
+    498
+  ],
+  "AI_label_counts": [
+    598,
+    602
+  ],
+  "constant_first_column_difference_max": 0.0,
+  "full_feature_rank": 11,
+  "block_information": "Five-row blocks are the source-script convention; no respondent IDs are released in this file",
+  "raw_research_code_executed": false,
+  "numeric_restricted_reader_used": true,
+  "underlying_population_scope": "The source study excludes respondents who never select a vaccine; this is not all original1971 respondents",
+  "reference_scope": "The released fitted11-vector, not known structural truth"
+}

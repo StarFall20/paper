@@ -1,0 +1,12 @@
+{
+  "exact_formula_cells": 160,
+  "phase_cells": 480,
+  "replications_per_cell": 2000,
+  "direct_original_X_Y_simulation": true,
+  "maximum_exact_formula_MC_discrepancy": 0.02474172904172267,
+  "population_interior_checks": 9,
+  "population_exterior_ray_checks": 6,
+  "minimum_classical_support_claim_new": false,
+  "independent_novelty_verified": false,
+  "scope": "Gaussian benchmark and frozen low-index predictors; no universal real-DCE sample-size rule"
+}

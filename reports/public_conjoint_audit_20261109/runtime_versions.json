@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "2.2.3",
+  "sklearn": "1.9.1",
+  "matplotlib": "3.11.2",
+  "BLAS_threads": 1,
+  "seed": 20261109
+}

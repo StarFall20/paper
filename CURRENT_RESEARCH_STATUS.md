@@ -42,6 +42,16 @@ There are56 pairwise participation-association tests across the two versions, wi
 
 The [external-resource preflight](reports/within_person_audit_20261109/external_resource_preflight.json) verifies eight openly licensed files. A human DCE with299 records and1790 observed tasks is structurally readable; no external preference model or validation has been run. The inspected synthetic-response supplement lacks files needed for its script, and the PriceBench README states that its58 paired-output CSVs are uncommitted. No new AI generation or author message was made.
 
+## Public-choice reanalysis and a new finite-solution candidate
+
+The [new audit](reports/public_conjoint_audit_20261109/公开数据重分析与创新进展.md) uses a pinned, openly released vaccine-choice dataset. A stable-loss fit on4605 human rows finds that the released reference matches200-step Adam within1.49e-7 but differs from the converged projection by up to0.185492 in a coefficient; total NLL can fall7.013964. This is a convergence finding, not a reproduction or dismissal of all reported gains.
+
+Component clipping of inverse-propensity-corrected one-hot targets exactly returns observed labels for labelled records and g for unlabelled records. The fixed-prediction identity passes all2000 comparisons. A500-allocation, six-method, four-budget controlled reanalysis is complete on the fixed1200-row prefix. At50 labelled choice rows, the unmodified AI correction has5/500 exterior moments and the X-only correction2/500; all seven have separate positive-gap recession-ray verification. Failure counts accompany finite-fit point-error summaries. Clipped soft training's smaller point error is retained alongside its discrepancy from the theoretical corrected score. No interval-coverage or PPI++ superiority claim is made.
+
+The [candidate derivation](reports/public_conjoint_audit_20261109/existence_candidate_derivation.md) gives an exact finite-label probability and a frozen low-index Gaussian boundary depending on signal and Brier error.160 exact-probability and480 signal/predictor conditions use2000 original-X,Y draws each; population integration checks and the independent finite-pool argument are recorded. Gaussian lift-zonoid geometry, generic separation LPs, ordinary-logit phase transitions and corrected-risk issues are attributed prior work. The candidate's priority and substantive increment remain unproven. This is a separate estimator question, not a revival of fibre ranks or a combination of unrelated case studies.
+
+The [working draft](manuscript/rectified_choice_finite_solution_working_draft_20261109.md) has a single research question. The next substantive test concerns established power tuning, finite auxiliary pools and valid treatment of nonfinite roots. Public source and file hashes, objective definitions, plans, numerical checks and aggregate outputs are documented; raw questionnaire exports remain private.
+
 ## Innovation and submission decision
 
 The original fibre-information/rank claim coincides with classical lack-of-fit constructions and remains retired. [Equivalence proof](reports/method_decision_20261109/classical_equivalence_proof.md).

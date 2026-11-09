@@ -1,0 +1,15 @@
+{
+  "completed_allocations": 500,
+  "matched_method_budget_fits": 12000,
+  "clipping_identity_max_error": 0.0,
+  "exterior_cases_separately_verified": 7,
+  "minimum_separation_gap": 0.0009282306591744116,
+  "maximum_exact_probability_MC_standardized_difference": 7.430321149974887,
+  "tail_warning": "Normal-standardized discrepancies are unstable near probability0 or1; the largest comes from one rare event",
+  "minimum_exact_binomial_p": 0.005605269636761171,
+  "minimum_Bonferroni_binomial_p": 0.8968431418817874,
+  "maximum_population_root_gradient": 3.6122627111723205e-10,
+  "maximum_ray_slope_error": 6.926072882496026e-06,
+  "independent_novelty_proven": false,
+  "submission_readiness_proven": false
+}

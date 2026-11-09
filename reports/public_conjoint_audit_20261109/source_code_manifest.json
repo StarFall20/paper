@@ -1,0 +1,17 @@
+{
+  "repository": "ChengLu1999/generative-augmented-inference",
+  "commit": "d18717206867c7a12ff470879a0dd5d488b300c2",
+  "files": [
+    {
+      "path": "GAI_Conjoint_Study/label_z/run_gai_label.py",
+      "size": 12870,
+      "git_blob_sha1": "404b80818f7a959d0f5f0dbd72b8deec91c74d8c"
+    },
+    {
+      "path": "GAI_Conjoint_Study/label_z/estimation_weighted.py",
+      "size": 3462,
+      "git_blob_sha1": "dc35e2939ecd5f8bfb9e20e82390bb13cfa6657b"
+    }
+  ],
+  "downloaded_scripts_executed": false
+}
