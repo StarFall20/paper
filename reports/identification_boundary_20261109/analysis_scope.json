@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-09",
+  "status": "Exploratory design-driven analysis; earlier outcomes and preliminary paired tables have been inspected. Not preregistration.",
+  "purpose": "Complete the direct information audit before attributing a new substantive mechanism to the existing questionnaire.",
+  "enumeration": "Examine every pair of the eight menus using instrument attributes only. Identify unchanged-service pairs, single-price-change pairs and single-rule-change pairs.",
+  "populations": ["all 360", "other-source 300 sensitivity", "each version separately for descriptive replication"],
+  "primary_reporting": "All mechanically eligible menu pairs; no selection by p-value. Whole-record paired covariance. Source labels unchanged.",
+  "swap_null": "Conditional on stable individual utilities/tastes, independent task-level logit shocks and an unchanged pair of options, reverse two-task choice paths for those options have equal probabilities. Heterogeneous stable coefficients are integrated at the record level.",
+  "swap_multiplicity": "Bonferroni across the two pooled instrument-eligible restrictions. Version and source results are exploratory diagnostics, not additional independent confirmations.",
+  "substitution_quantity": "Net share decomposition for the single-price-change menu pair. It is not the fraction of named individuals causally switching, a real market elasticity, or a causal price effect with fixed task order.",
+  "context_sensitivity": "State explicit hypothetical bounds on task-level log odds or probability drift; these bounds are assumptions, not estimated amounts of actual fatigue or framing.",
+  "novelty": "Classical conditional-logit, paired-binomial, linear-contrast and Fieller constructions. No new framework name or independent theorem claim.",
+  "submission_ready": false
+}

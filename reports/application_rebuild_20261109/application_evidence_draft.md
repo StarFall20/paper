@@ -76,6 +76,12 @@ An exploratory extension tests prior payment experience and weekly application u
 
 The exploratory linear-fee p-value remains 0.0444 after Holm adjustment within the ten extension contrasts. This adjustment does not cover earlier project-wide exploration. The linear-fee money-ratio contrast also has an interval spanning zero. The modifier is not presented as a stable preference mechanism or an independent innovation. All ten contrasts, the fixed extension plan and uncertainty are retained in the [background appendix](../application_extensions_20261109/application_background_appendix.md).
 
+## Appendix: Direct matched-menu information
+
+Exhaustive enumeration of the 28 menu pairs finds no contrast changing only the sharing rule. Tasks 5 and 8 change only A's fee (CNY89 to CNY119), with B held at CNY69. The pooled observed shares change by −14.44 percentage points for A, +1.39 for B and +13.06 for outside. The net outside-gain/A-loss ratio is 47/52, with a Fieller interval of 0.534 to 1.473. This is a decomposition of observed net shares; task order is fixed and the ratio is not a causal count of individual switching. Within-version ratio uncertainty is substantially greater.
+
+The two instrument-eligible unchanged-service pairs allow classical conditional-path checks under stable person-specific utilities and conditionally independent logit errors. Their exact p-values are 0.356 and 0.130, with 75 and 63 informative discordant records; these do not establish model validity. The within-version conditional free-cell design has rank eight for eight task probabilities, so there is no task-level lack-of-fit degree of freedom in that conditional representation. The [identification-boundary appendix](../identification_boundary_20261109/conditional_path_identity.md) gives the assumptions, direct contrast weights and hypothetical context-drift bounds.
+
 ## Reproducibility materials
 
 The accompanying package includes the observed fee-rule support, rank/null-vector checks, saved aggregate model parameters and covariances, fold-fit diagnostics, joint and marginal prediction tables, source sensitivity and provenance statements. Original answers, identifiers, IP addresses, timestamps and individual fold assignments remain private. Re-estimation requires authorized access to the private originals; public aggregate files cannot independently verify respondent identity or reproduce private records.

@@ -1,0 +1,9 @@
+first_task,second_task,conditional_discordant_records,fixed_alternative_forward_probability,two_sided_test_alpha,exact_conditional_power,scope
+1,4,75,0.55,0.025,0.07329323971605141,illustrative fixed alternatives at observed discordant count; not observed-effect power or a full-study sample-size recommendation
+1,4,75,0.6,0.025,0.2797587945886952,illustrative fixed alternatives at observed discordant count; not observed-effect power or a full-study sample-size recommendation
+1,4,75,0.65,0.025,0.6229906821003894,illustrative fixed alternatives at observed discordant count; not observed-effect power or a full-study sample-size recommendation
+1,4,75,0.7,0.025,0.8946659846201606,illustrative fixed alternatives at observed discordant count; not observed-effect power or a full-study sample-size recommendation
+5,8,63,0.55,0.025,0.06928197664227705,illustrative fixed alternatives at observed discordant count; not observed-effect power or a full-study sample-size recommendation
+5,8,63,0.6,0.025,0.24534594009737787,illustrative fixed alternatives at observed discordant count; not observed-effect power or a full-study sample-size recommendation
+5,8,63,0.65,0.025,0.5524332910662839,illustrative fixed alternatives at observed discordant count; not observed-effect power or a full-study sample-size recommendation
+5,8,63,0.7,0.025,0.8390569363689273,illustrative fixed alternatives at observed discordant count; not observed-effect power or a full-study sample-size recommendation

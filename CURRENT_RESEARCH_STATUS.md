@@ -32,3 +32,11 @@ Ten predeclared exploratory background contrasts and matched whole-record valida
 The BRAC CHORUS public DCE archive passed its published CSV checksum but requires input clarification: 162 active-facility rows have all six attributes missing and declared block/task slots contain two observed menu variants. No outcome model, design rank or independent-validation success is claimed for that archive. Its rows are not redistributed.
 
 Questionnaire Star currently requires reauthentication. The platform's source/service explanation has not been independently read in this session; the researcher's report of human recruitment remains retained. The active goal is unachieved; numerical completion and a preserved exploratory draft do not establish submission readiness.
+
+## Exhaustive direct-menu and context-sensitivity audit
+
+The [identification-boundary report](reports/identification_boundary_20261109/识别边界与研究决策.md) exhausts all 28 pairs of the eight menus. There are no single-rule-only matched contrasts, one single-price-change pair and two unchanged-service pairs. Both classical conditional path restrictions are not rejected; their informative discordant counts are 75 and 63. Non-rejection is not a sufficiency or model-validity finding.
+
+The pooled task-5 to task-8 net-share decomposition has an outside/A-loss ratio of 47/52, but it has broad Fieller uncertainty, weak within-version denominator support and fixed task order. It is descriptive and does not establish a causal switching rate. The within-version conditional free-cell model is saturated (8 rows, rank 8); its rule contrast uses log-odds weights (-2,1,1,0,1,-2,1,0), making a declared task-offset bound expand eightfold. These are classical sensitivity calculations.
+
+The original Word benchmark and prior corrected oracle audit were checked again; existing corrections are not presented as new discoveries. The [completion evidence audit](reports/identification_boundary_20261109/completion_evidence_audit.json) keeps the original publication objective intact and records its unmet substantive and validation requirements. The current live interface reports that the Mac is locked; the user has been asked to unlock it and sign in to the questionnaire platform. No device-security bypass, external author message, new fielding or sample purchase has occurred.
