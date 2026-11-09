@@ -2,8 +2,8 @@
   "date": "2026-11-10",
   "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
   "source_definition_blocker": "resolved by the researcher-supplied explicit service description",
-  "previous_goal_turn": "Progress: informative-oracle theory and published-objective power-tuning comparison completed; full publication objective remained unachieved",
-  "current_turn": "Progress:finite-pool/coverage results and nonzero-signal finite-ratio conditional proof completed;80additional signal conditions at300draws each,120LP and12projection identities; manuscript and primary literature boundary updated",
+  "previous_goal_turn": "Progress:finite-pool validation and signal/intercept candidate derived and backed up; full publication objective remained unachieved",
+  "current_turn": "Progress:80imperfect-prediction phase conditions,matched-risk/covariance proposition,nearest general-theorem applicability audit,and12biased/stronger-utility validation conditions completed; manuscript and official journal scope updated",
   "completion_proven": false,
   "requirements": [
     {
@@ -51,7 +51,7 @@
   "new_AI_generation_sample_purchase_or_fielding": false,
   "raw_records_rewritten_or_deleted": false,
   "original_objective_preserved": true,
-  "next_work": "Review the conditional proof and closest equivalent prior results, evaluate imperfect frozen predictions and practical budget/estimator decisions, then finish the full manuscript and clean journal package.",
+  "next_work": "Consolidate the single corrected-choice contribution into a complete manuscript,verify closest-prior equivalence and the proof,and evaluate an executable analysis decision before producing a compact submission package.",
   "closest_source_review": {
     "Doudkin2026": "arxiv2609.07305v1, AppendixA.8; source probability columns shuffled before categorical realization; no equivalence to exact realized counts asserted",
     "Train2009": "Chapter6 Section6.7 panel likelihood",
@@ -122,8 +122,24 @@
       "unresolved": 0,
       "phase_source_hash": "45b45bde3329db643447f7970e13742e5a9b0c0668fe9f5c9bc24c4c42921f06",
       "general_frozen_prediction_candidate": true,
-      "non_oracle_phase_validation_complete": false,
-      "priority_proven": false
+      "non_oracle_phase_validation_complete": true,
+      "priority_proven": false,
+      "non_oracle_phase_cells": 80,
+      "non_oracle_replications_per_cell": 300,
+      "general_M_estimator_assumption_audit_complete_for_inspected_units": true,
+      "matched_covariance_proposition_candidate": true,
+      "matched_covariance_effect_size_at_tau1_relative": 0.0011882648148102692,
+      "biased_and_stronger_support_validation": {
+        "conditions": 12,
+        "replications_per_condition": 500,
+        "methods": 7,
+        "truth_scales": [
+          1,
+          3
+        ],
+        "new_respondents": false,
+        "soft_pooling_successes_retained": true
+      }
     }
   },
   "genuine_blocker": null

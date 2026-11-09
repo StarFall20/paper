@@ -17,27 +17,27 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "explicit_signal_finite_ratio_candidate_priority_unproven",
-      "evidence": "finite_ratio_signal_candidate.md",
-      "remaining": "Rule out equivalent prior phase curves, independently review the conditional proof, and demonstrate a practically useful choice-analysis decision"
+      "status": "explicit_rectified_boundary_and_matched_covariance_candidate_priority_unproven",
+      "evidence": "general_M_estimator_prior_audit.md",
+      "remaining": "Review equivalent prior results,verify the candidate proof and demonstrate an executable choice-analysis decision; matched-covariance effect sizes are small atN/m>=1"
     },
     {
       "requirement": "Fair comparison against established methods",
-      "status": "completed_for_prespecified_known_truth_grid",
-      "evidence": "有限样本验证与理论扩展.md",
-      "remaining": "Coverage and oracle advantages are conditional on the specified DGP; stronger utility signals and unknown biased predictions are not established by this grid"
+      "status": "completed_for_oracle_bias_and_stronger_signal_grids",
+      "evidence": "预测偏差检验与创新边界深化.md",
+      "remaining": "Results are scoped to fixed generated-choice DGPs and existing comparators; no uniformly superior estimator is established"
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "signal_intercept_conditional_proof_and_checks_available",
-      "evidence": "finite_ratio_signal_numeric_checks.json",
-      "remaining": "Independent proof and priority review, non-oracle validation and practical discrete-design relevance; no general categorical-DCE or fitted-predictor theorem"
+      "status": "general_frozen_predictor_candidate_and_independent_numeric_checks_available",
+      "evidence": "matched_moment_independent_checks.json",
+      "remaining": "Proof and closest-prior review; fixed-Gaussian/independent-row assumptions do not become a general categorical-DCE or fitted-predictor theorem"
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
-      "status": "topic_connection_supported_submission_audit_incomplete",
-      "evidence": "literature_boundary.md",
-      "remaining": "A recent JOCM AI-assistance paper supplies readership context; current official scope/guide endpoints were inaccessible in the latest check"
+      "status": "official_scope_verified_contribution_assessment_incomplete",
+      "evidence": "journal_scope_verification.json",
+      "remaining": "The topic matches the publisher methodological/innovative-application remit; demonstrate sufficient contribution and complete the author-guide/package audit"
     },
     {
       "requirement": "Reproducible submission package",

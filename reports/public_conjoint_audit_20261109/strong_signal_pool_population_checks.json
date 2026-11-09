@@ -1,0 +1,8 @@
+{
+  "truth_scale": 3.0,
+  "fixed_power_corrected_expected_score_max": 1.734723475976807e-18,
+  "oracle_conditional_mean_identity_error": 2.220446049250313e-16,
+  "expected_soft_target_fits": 6,
+  "fixed_power_target_identity_is_prior_work": true,
+  "data_selected_weight_unbiasedness_asserted": false
+}

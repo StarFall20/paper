@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-10",
+  "status_at_write": "before_new_phase_runs",
+  "question": "Does the finite-ratio low-index boundary remain correct for miscalibrated predictions with a free intercept, and is Brier risk alone sufficient at finite auxiliary ratios?",
+  "DGP": {"gamma": 1.5, "proxy_flip_error": 0.25, "intercept": 0, "prediction": "expit(a * oracle_log_odds + b)", "new_respondent_or_LLM_answers": false},
+  "phase_prediction_cases": [{"name": "overconfident", "a": 2, "b": 0}, {"name": "intercept_bias", "a": 1, "b": 1}],
+  "additional_numeric_cases": [{"name": "oracle", "a": 1, "b": 0}, {"name": "weakened", "a": 0.5, "b": 0}, {"name": "reversed", "a": -1, "b": 0}],
+  "label_rows": [40, 80],
+  "auxiliary_label_ratio": [1, 4],
+  "positive_powers": ["unit", "population variance-optimal for an orthogonal slope, clipped to[0,1]; established covariance formula"],
+  "dimension_offsets_from_each_critical_ratio": [-0.15, -0.075, 0, 0.075, 0.15],
+  "planned_phase_conditions": 80,
+  "replications_per_condition": 300,
+  "phase_seed": 20261119,
+  "verification_seed": 20261118,
+  "identity_checks": ["100/200-node population quadrature", "full two-multiplier envelope gradient", "asymmetric prediction does not force zero intercept multiplier", "120 original-moment versus interval LPs", "12 independent cone projections"],
+  "matched_moment_proposition": "A balanced-null analytical counterexample will compare frozen confidence distributions with equal prediction mean, Brier risk and all fixed-power orthogonal-score covariances. It is deterministic mathematical illustration, not outcome-selected simulation evidence.",
+  "retain": "all feasibility, exterior, unresolved statuses; all simulation conditions; no adaptive stopping",
+  "scope": "fixed low-index predictors and fixed powers; no learned-predictor or data-selected-power phase theorem"
+}

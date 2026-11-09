@@ -1,0 +1,16 @@
+{
+  "date":"2026-11-10",
+  "status_at_write":"before_strong_signal_runs; moderate-signal study continues unchanged",
+  "motivation":"The existing benchmark uses a relatively small frozen utility vector. Its theoretical scope assessment already identifies stronger utility signals and ridge bias as unresolved. Exact moderate-signal population checks show small soft-pooling target shifts, so their effect size must be retained rather than exaggerated.",
+  "truth":"3 times the frozen1200-row converged logit vector; an explicit simulation parameter, not human structural truth",
+  "attribute_support":"same pinned released1200-row empirical support",
+  "label_rows":[50,150],"auxiliary_rows":600,"proxy_flip_error":0.25,
+  "prediction_cases":[{"name":"oracle","a":1,"b":0},{"name":"overconfident","a":2,"b":0},{"name":"intercept_bias","a":1,"b":1}],
+  "methods":["human_MLE","PPI_unit","PPI_power_human","PPI_power_ridge","PPI_one_step_ridge","PPI_ridge_unit","soft_frozen_pool"],
+  "replications_per_condition":500,"seed":20261121,
+  "matching":"shared generated rows, choices, proxies across all methods and prediction cases; no replacement of the moderate-signal results",
+  "intervals":"diagnostic marginal Wald sandwiches; unadjusted ridge bias; no finite-sample guarantee",
+  "retain":"all conditions and every status, conditional and issued-and-covers summaries, mean and tail errors",
+  "new_human_or_LLM_responses":false,
+  "stopping":"fixed500 with no optional stopping"
+}

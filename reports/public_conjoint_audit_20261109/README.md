@@ -66,4 +66,24 @@ python analysis/finite_ratio_signal_boundary.py --out ../outputs/public_conjoint
 python analysis/write_finite_ratio_signal_report.py --out ../outputs/public_conjoint_audit
 ```
 
-The signal experiment is separate:80 conditions with300 draws each, utility signals1 and2, a free intercept, N/m=1,4 and two fixed positive powers. All300 draws enter each feasibility denominator; no numerical-unresolved case occurred. The script also compares120 original-moment/interval LPs,12 direct cone projections versus polar saddle calculations,100/200-node population integration and the separate classical ordinary-logit endpoint. `--checks-only` runs those identities without the phase experiment. The source hash in `finite_ratio_signal_status.json` identifies the completed run. This oracle experiment does not validate data-dependent weights or fitted predictors. The proof states a broader frozen low-index prediction candidate; its non-oracle phase experiments remain to be performed.
+The signal experiment is separate:80 conditions with300 draws each, utility signals1 and2, a free intercept, N/m=1,4 and two fixed positive powers. All300 draws enter each feasibility denominator; no numerical-unresolved case occurred. The script also compares120 original-moment/interval LPs,12 direct cone projections versus polar saddle calculations,100/200-node population integration and the separate classical ordinary-logit endpoint. `--checks-only` runs those identities without the phase experiment. The source hash in `finite_ratio_signal_status.json` identifies the completed run. This oracle experiment does not validate data-dependent weights or fitted predictors. The next extension below evaluates imperfect frozen predictions.
+
+## Imperfect predictions and stronger utility
+
+Read [the new report](预测偏差检验与创新边界深化.md), [general-M-estimator applicability audit](general_M_estimator_prior_audit.md) and [matched-risk/covariance proposition](matched_moment_existence_proposition.md). This remains one corrected-choice question; generic conic tools, variance tuning and finite-sample PPI costs are attributed prior work.
+
+```sh
+python analysis/imperfect_predictor_choice_boundary.py --out ../outputs/public_conjoint_audit
+python analysis/verify_matched_moment_proposition.py --out ../outputs/public_conjoint_audit
+python analysis/imperfect_finite_pool_validation.py --input-dir ../work/gai_data --out ../outputs/public_conjoint_audit --replications 500
+python analysis/imperfect_strong_signal_validation.py --input-dir ../work/gai_data --out ../outputs/public_conjoint_audit --replications 500
+python analysis/imperfect_population_targets.py --input-dir ../work/gai_data --out ../outputs/public_conjoint_audit
+python analysis/imperfect_population_targets.py --input-dir ../work/gai_data --out ../outputs/public_conjoint_audit --truth-scale 3 --prefix strong_signal_pool
+python analysis/write_imperfect_prediction_report.py --out ../outputs/public_conjoint_audit
+```
+
+The imperfect-prediction phase grid has80 conditions with300 draws each. Its asymmetric case estimates both saddle multipliers. The fixed comparison power uses the existing covariance formula for an orthogonal slope; it is not claimed jointly optimal under proportional asymptotics. A reversed prediction chooses the ordinary zero-power endpoint in that formula and is retained separately.
+
+The two finite-support benchmarks have three prediction cases, two label budgets and500 repetitions per condition each. The stronger benchmark multiplies the same frozen utility vector by3. Every prediction/method comparison within a signal group shares the generated rows and outcomes. The soft-pooling method uses the same frozen prediction as its comparators; it is an oracle only in the correctly calibrated case. Every failure remains in status counts. Conditional coverage and issued-and-covers use explicit different denominators. The two generated trial CSVs and per-repetition unavailable-case JSONs stay local; the public package retains aggregates. No new human or LLM answers are collected.
+
+`--resume` on either finite-support script accepts only its matching source/helper hashes and replication count. The population-target script independently integrates over both proxy values on the finite attribute support. Its fixed-power score identity does not prove finite-sample unbiasedness for estimated weights.

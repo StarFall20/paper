@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-10",
+  "official_source": "https://shop.elsevier.com/journals/journal-of-choice-modelling/1755-5345",
+  "inspected_unit": "Description",
+  "criterion": "methodological contribution or innovative application in choice modelling",
+  "topic_connection": "finite estimation and inference for prediction-assisted binary choice models",
+  "topic_in_scope": true,
+  "contribution_sufficiency_proven": false,
+  "guide_source": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
+  "guide_observed_status": "403",
+  "acceptance_prediction": false
+}

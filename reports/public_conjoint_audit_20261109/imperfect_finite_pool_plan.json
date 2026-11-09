@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-10",
+  "status_at_write": "before_imperfect_finite_pool_runs",
+  "support": "uniform empirical distribution of the pinned released1200-row vaccine attribute difference support",
+  "truth": "same frozen converged11-coordinate logit simulation parameter as the earlier finite-pool benchmark",
+  "label_rows": [50, 150],
+  "auxiliary_rows": 600,
+  "proxy_flip_error": 0.25,
+  "prediction_cases": [{"name":"oracle","a":1,"b":0},{"name":"overconfident","a":2,"b":0},{"name":"intercept_bias","a":1,"b":1}],
+  "prediction_formula": "expit(a * correct conditional log odds given X,Z + b)",
+  "methods": ["human_MLE","PPI_unit","PPI_power_human","PPI_power_ridge","PPI_one_step_ridge","PPI_ridge_unit","soft_frozen_pool"],
+  "ridge_convention": "rho=1/m on every coordinate; this changes the objective",
+  "soft_pool_scope": "uses the same frozen prediction as other methods; only the oracle case has correct conditional mean",
+  "replications_per_condition": 500,
+  "seed": 20261120,
+  "matching": "all methods and prediction cases share each generated covariate, true choice, proxy and sample size; human fits are shared",
+  "intervals": "same diagnostic marginal Wald sandwich convention as earlier; no penalization-bias correction or finite-sample guarantee",
+  "outputs": ["availability and every failure status","conditional coverage","issued-and-covers over all500","all11 fixed coordinates","mean and tail parameter/choice loss errors","paired contrasts and Monte Carlo error"],
+  "scope": "known-truth IID choice-row simulation, no new real respondent or LLM data; not a registered human experiment or causal version comparison",
+  "stopping": "fixed500; no optional stopping or selection by performance"
+}

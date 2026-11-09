@@ -1,0 +1,15 @@
+{
+  "imperfect_phase_cells": 80,
+  "phase_replications_per_cell": 300,
+  "finite_support_conditions": 12,
+  "finite_support_replications_per_cell": 500,
+  "finite_support_methods": 7,
+  "method_condition_outcomes": 42000,
+  "prediction_cases": 3,
+  "truth_scales": [
+    1,
+    3
+  ],
+  "independent_novelty_proven": false,
+  "submission_goal_complete": false
+}

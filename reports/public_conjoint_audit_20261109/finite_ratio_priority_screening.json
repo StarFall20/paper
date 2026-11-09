@@ -56,8 +56,42 @@
         "Theorems2,4"
       ],
       "finding": "Predictive-distribution score calibration and finite-ratio efficiency with initial local root and regularity assumptions. This candidate does not claim new oracle efficiency or superiority over all calibrated inference."
+    },
+    {
+      "source": "https://arxiv.org/html/2501.03163v3",
+      "authors": "Koriyama,Bellec",
+      "units": [
+        "Assumptions2.4-2.5",
+        "Theorem2.6",
+        "AppendixA"
+      ],
+      "finding": "General Gaussian M-estimator existence law is prior. Corrected labelled rows have infimum-inf and unit-power rows are affine,violating the inspected assumptions; no direct specialization established."
+    },
+    {
+      "source": "https://arxiv.org/html/2102.08127v3",
+      "authors": "Loureiro etal.",
+      "units": [
+        "AppendixB.1A3",
+        "Theorem4"
+      ],
+      "finding": "Generic scalar CGMT machinery is prior; inspected characterization assumes a coercive total cost."
+    },
+    {
+      "source": "https://arxiv.org/html/1601.06233",
+      "authors": "Thrampoulidis,Abbasi,Hassibi",
+      "units": [
+        "Section2.2",
+        "Theorem3.1"
+      ],
+      "finding": "Inspected residual-loss formulation has a finite attained loss minimum and independent additive noise; generic CGMT machinery is attributed prior."
     }
   ],
-  "remaining": "Equivalent corrected-logistic/random-box phase curves are not exhaustively excluded; independent proof review, non-oracle validation and submission readiness remain unproven.",
-  "updated": "2026-11-10"
+  "remaining": "A bounded applicability distinction is verified for inspected general results; no exhaustive priority certificate or final submission-readiness finding.",
+  "updated": "2026-11-10",
+  "access_checks": {
+    "Scopus": "specific publication endpoint inaccessible through search tool; no systematic search completed",
+    "Google_Scholar": "search tool inaccessible; browser inventory showed redirect to Google sorry/access-check URL; result list not read",
+    "journal_author_guide": "403",
+    "journal_official_description": "readable"
+  }
 }

@@ -1,0 +1,10 @@
+{
+  "date":"2026-11-10",
+  "status_at_write":"before_population_target_computation; the prespecified finite-pool simulation is already running",
+  "purpose":"independently distinguish the corrected target from soft-pooling target bias under the same frozen prediction cases",
+  "calculation":"exact finite-support expectation over X and both Z values, followed by converged expected soft-logit fits",
+  "prediction_cases":["oracle","overconfident","intercept_bias"],
+  "label_rows":[50,150],"auxiliary_rows":600,"proxy_error":0.25,
+  "fixed_power_score_checks":[0,0.25,0.5,1],
+  "not_claimed":"unbiasedness for data-selected finite-sample weights, new empirical truth, or a new general PPI target identity"
+}

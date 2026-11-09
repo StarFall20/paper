@@ -4,7 +4,7 @@ Research derivation begun 9 November 2026, updated 10 November 2026. This extend
 
 ## Model and proposed limit
 
-Let X=(S,W), where S~N(0,1), W~N_q(0,I), and W is independent of (S,Y,Z). Choices obey P(Y=1|S)=σ(γS) for fixed finite γ. A binary proxy independently flips Y with probability ε in (0,1/2). Let g(S,Z) be any fixed measurable prediction strictly between zero and one. The numerical specialization uses the conditional-mean oracle
+Let X=(S,W), where S~N(0,1), W~N_q(0,I), and W is independent of the fixed low-dimensional tuple (S,Y,Z,U). Choices obey P(Y=1|S)=σ(γS) for fixed finite γ. Here Z is a binary proxy and U is optional ancillary prediction information; their joint conditional law given (S,Y) is fixed. Let g(S,Z,U) be any fixed measurable prediction strictly between zero and one. Both samples share the same joint law. The original numerical specialization omits U, independently flips Y with probability ε in (0,1/2), and uses the conditional-mean oracle
 
 g(S,Z)=σ(γS+(2Z−1)log((1−ε)/ε)).
 
@@ -12,12 +12,12 @@ Estimate an intercept, the slope of S, and q orthogonal slopes. The true interce
 
 Define primary and auxiliary signs s_L=1−2Y and s_U=2Z−1. The random intervals are
 
-I_L=[λr,1−λ+λr], r=|Y−g(S,Z)|,
+I_L=[λr,1−λ+λr], r=|Y−g(S,Z,U)|,
 
 I_U=(λ/τ)[−g,1−g] if Z=1,
 I_U=(λ/τ)[g−1,g] if Z=0.
 
-For a standard normal H independent of (S,Y,Z), let
+For a standard normal H independent of (S,Y,Z,U), let
 
 f(a)=E[(H−a)_+²]=(1+a²)Φ(−a)−aφ(a),
 
@@ -30,11 +30,13 @@ For η=(η₀,η₁), set
 
 The candidate critical ratio is
 
-κ_c(γ,ε,τ,λ)=inf_{η∈R²} sup_{t≥0} Ψ(η,t).
+κ_c(P,g;τ,λ)=inf_{η∈R²} sup_{t≥0} Ψ(η,t),
+
+where P is the joint law of (S,Y,Z,U).
 
 The strict-side claim is a unique finite minimizer with probability tending to one if κ<κ_c, and no finite minimizer with probability tending to one if κ>κ_c. No equality-boundary probability is asserted. The difference between q orthogonal slopes and q+2 estimated coordinates is finite and disappears in the proportional limit.
 
-For the oracle, joint sign symmetry makes Ψ convex and even in η₀ at fixed η₁,t, so the infimum has η₀=0. More generally this reduction holds when g(−S,1−Z)=1−g(S,Z). Under that symmetry, computation is a scalar convex minimization whose objective contains a scalar concave maximization. An asymmetric frozen prediction retains both multiplier coordinates. The proof below does not require oracle calibration: the cancellation in Section 3 uses the same prediction distribution in the two independent samples.
+For the oracle, joint sign symmetry makes Ψ convex and even in η₀ at fixed η₁,t, so the infimum has η₀=0. More generally this reduction holds when the joint law is invariant under (S,Y,Z,U)↦(−S,1−Y,1−Z,U) and g(−S,1−Z,U)=1−g(S,Z,U). Under that symmetry, computation is a scalar convex minimization whose objective contains a scalar concave maximization. An asymmetric frozen prediction retains both multiplier coordinates. The proof below does not require oracle calibration or a constant flip rate: the cancellation in Section 3 uses the same prediction distribution in the two independent samples.
 
 ## 1. Exact finite-dimensional event
 
@@ -115,10 +117,10 @@ The statistical-dimension identity and kinematic theorem are established prior r
 
 ## 6. Diagnostics and scope
 
-At γ=0, additional symmetry makes η₁=0 optimal, recovering the preceding balanced-null formula. At λ=0 the auxiliary box collapses and the primary box contains zero. That endpoint must use K=R_+^m×{0}, not ordinary zero feasibility. Its separate value is
+In the γ=0 oracle specialization, S is independent of predictions and additional symmetry makes η₁=0 optimal, recovering the preceding balanced-null formula. This reduction is not asserted for arbitrary predictions depending on S. At λ=0 the auxiliary box collapses and the primary box contains zero. That endpoint must use K=R_+^m×{0}, not ordinary zero feasibility. Its separate value is
 
 inf_η E[(H−s_L(η₀+η₁S))_+²],
 
 the attributed [Candès–Sur ordinary-logit boundary](https://arxiv.org/abs/1804.09753). Zero power is excluded from the positive-power tightness argument because its primary lower endpoints vanish.
 
-The prespecified [signal plan](finite_ratio_signal_plan.json) tests the oracle specialization: null reduction, Gaussian quadrature, saddle derivatives, intercept symmetry, direct cone projection, original-score versus oriented LPs, and finite-m phase curves. Its120 original/interval LP checks,12 independent cone-projection checks and80 phase conditions are complete; see [numeric checks](finite_ratio_signal_numeric_checks.json) and [phase results](finite_ratio_signal_phase.csv). Non-oracle phase experiments have not been run in this plan. This derivation does not establish categorical-DCE sample sizes, validity of data-selected powers, fitted-predictor boundaries or confidence-interval coverage.
+The prespecified [signal plan](finite_ratio_signal_plan.json) tests the oracle specialization: null reduction, Gaussian quadrature, saddle derivatives, intercept symmetry, direct cone projection, original-score versus oriented LPs, and finite-m phase curves. Its120 original/interval LP checks,12 independent cone-projection checks and80 phase conditions are complete; see [numeric checks](finite_ratio_signal_numeric_checks.json) and [phase results](finite_ratio_signal_phase.csv). A separate [imperfect-prediction plan](imperfect_prediction_plan.json) and [report](预测偏差检验与创新边界深化.md) add non-oracle phase validation. This derivation does not establish categorical-DCE sample sizes, validity of data-selected powers, fitted-predictor boundaries or confidence-interval coverage.
