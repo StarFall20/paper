@@ -1,0 +1,22 @@
+{
+  "MNL_linear_saved_likelihood_error": 0.0,
+  "RI_linear_saved_likelihood_error": 0.0,
+  "RI_cells_saved_likelihood_error": 0.0,
+  "participation_2class_saved_likelihood_error": 0.0,
+  "scale_2class_saved_likelihood_error": 0.0,
+  "taste_2class_saved_likelihood_error": 0.0,
+  "raw_file_hashes": [
+    {
+      "version": "V1",
+      "sha256": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13"
+    },
+    {
+      "version": "V2",
+      "sha256": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01"
+    }
+  ],
+  "records": 360,
+  "choice_rows": 2880,
+  "raw_and_person_level_data_exported": false,
+  "source_description": "Researcher reports that platform service recruited human respondents; original 60-record AI样本 source label retained."
+}

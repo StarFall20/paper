@@ -1,0 +1,17 @@
+# Application contribution check — 9 November 2026
+
+The comparison below uses primary publisher articles and an author-deposited accepted manuscript. It is a targeted comparison, not an exhaustive Scopus or Google Scholar review.
+
+| Inspected source | Established contribution relevant here | Consequence for this dataset |
+|---|---|---|
+| Xie & Or (2023), [Consumers’ Preferences for Purchasing mHealth Apps](https://mhealth.jmir.org/2023/1/e25908/), abstract and attribute/results tables | Consumer app-purchase choices already include cost, security/privacy and usage-history heterogeneity. | A paid health-app context and a negative fee coefficient do not establish independent novelty. |
+| [Public preferences for health data sharing governance: a discrete choice experiment in China](https://doi.org/10.3389/fpubh.2026.1883099), published 20 October 2026; abstract and methods/results sections | Chinese health-data governance choices, rights arrangements and exploratory latent preference profiles have been studied. | A China context, governance labels and latent classes cannot be claimed as the new contribution. |
+| Biasiotto et al. (2023), [Public Preferences for Digital Health Data Sharing](https://www.jmir.org/2023/1/e47066/), abstract and latent-class results | Consent/information and review arrangements, with contrasting sharing-preference classes, are established topics. | A positive estimated coefficient for the user-decision package needs a specific additional question and robust evidence. |
+| Campbell & Erdem (2019), [Including opt-out options in discrete choice experiments: Issues to consider](https://doi.org/10.1007/s40271-018-0324-6), [accepted manuscript](https://dspace.stir.ac.uk/bitstream/1893/27458/1/Campbell-Erdem-ThePatient2018.pdf), Sections 2–4 | Compares opt-out specifications, including serial nonparticipation and restricted consideration sets. | The exact all-outside component and separating participation from conditional choice are classical comparators, not new theory. |
+| Ong et al. (2025), [Calculating willingness-to-pay with discrete cost and random coefficients](https://doi.org/10.1186/s13561-025-00658-z), abstract and methods | Develops discrete-cost WTP calculations and illustrates dependence on cost specification. | Relaxing linear price and reporting WTP sensitivity is established practice; it is useful validation here. |
+
+The observed source-specific concentration of repeated outside choices is specific to these exports. Its cause is unresolved. It cannot presently support a general claim about human versus AI choices, platform reliability, or a causal recruitment effect.
+
+The narrow applied question is whether the user-decision sharing package differs from deidentified research sharing at a model-adjusted common fee, and how participation and source assumptions change that comparison. This is a viable exploratory analysis question. Its present evidence and the close prior work do not establish a submission-ready independent innovation for Journal of Choice Modelling.
+
+The price-support graph, null-vector rank calculation and classical point-mass likelihood are analysis tools. They are not relabelled as new theorems, frameworks or independent mechanisms.

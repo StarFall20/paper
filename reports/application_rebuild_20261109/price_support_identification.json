@@ -1,0 +1,56 @@
+{
+  "categorical_columns": [
+    "ASC_A",
+    "ASC_B",
+    "G1",
+    "G2",
+    "V2_ASC_A",
+    "V2_ASC_B",
+    "fee_59",
+    "fee_69",
+    "fee_79",
+    "fee_99",
+    "fee_109",
+    "fee_119"
+  ],
+  "categorical_rank": 11,
+  "categorical_columns_count": 12,
+  "normalized_null_vector": [
+    -0.9999999999999883,
+    -0.9999999999999893,
+    0.9999999999999909,
+    0.9999999999999756,
+    -4.290333786043027e-16,
+    5.156652850670914e-16,
+    -3.497291201913982e-16,
+    1.9618288041764615e-15,
+    0.9999999999999988,
+    2.029815801951987e-15,
+    1.0,
+    -1.4576812686482233e-16
+  ],
+  "observed_cell_parameterization_rank": 11,
+  "linear_price_rank": 7,
+  "quadratic_price_rank": 8,
+  "same_observed_utility_space_verified": true,
+  "price_sets_by_rule": {
+    "G0": [
+      79,
+      109
+    ],
+    "G1": [
+      69,
+      89,
+      99
+    ],
+    "G2": [
+      59,
+      89,
+      119
+    ]
+  },
+  "G1_G2_common_prices": [
+    89
+  ],
+  "G0_other_common_prices": []
+}

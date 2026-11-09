@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-09",
+  "status": "exploratory analysis protocol fixed after earlier outcomes were inspected; not preregistration",
+  "primary_application_question": "Which sharing-rule comparisons and fee trade-offs are supported by the actual price-rule support, and which require functional-form or participation assumptions?",
+  "population": "all 360 exported records for pooled model diagnostics; factual provenance unchanged",
+  "identification_checks": [
+    "exact price-by-sharing support graph and effective utility-design ranks",
+    "identify price-rule cell contrasts without imposing linear fee",
+    "compare full A/B/outside models with conditional A/B models",
+    "distinguish rule-package contrasts from a pure control mechanism",
+    "keep amount trade-offs within observed support and report assumptions"
+  ],
+  "fixed_model_family": [
+    "linear-price MNL with version-bundle intercepts",
+    "quadratic-price MNL with version-bundle intercepts",
+    "unrestricted observed price-rule-cell MNL",
+    "conditional A/B logit on observed price-rule cells",
+    "random service-intercept panel logit with linear and cell utilities",
+    "two-class participation-propensity mixture",
+    "two-class scale-only mixture",
+    "two-class preference mixture with class-specific price and sharing coefficients"
+  ],
+  "comparison_rules": [
+    "same respondent-level five folds, all eight answers held out together",
+    "fixed multistart rules, no heldout-outcome initialization",
+    "joint response log score and separate marginal score targets",
+    "posterior predictive refusal-count diagnostics",
+    "compare model classes before giving behavioral names",
+    "source metadata used for provenance diagnostics, never silently relabelled as verified human responses",
+    "no choice of model or subgroup solely to obtain significance"
+  ],
+  "readiness_requirements": [
+    "a substantive contribution distinguished from existing app-purchase and health-data-governance DCE studies",
+    "valid source and recruitment statements; appropriate research/ethics statements",
+    "identified estimands and matched model assumptions",
+    "numerical and predictive validation with limitations attached to claims",
+    "manuscript and reproducibility materials consistent with the supported evidence"
+  ],
+  "follow_up_amendment": {
+    "reason": "Participation and preference mixtures approached a deterministic all-outside boundary. All 42 all-outside records share one original export source label.",
+    "models": "Added a classical exact all-outside point-mass mixture to replace arbitrary large-intercept boundaries; assessed the other-source 300-record subset as a sensitivity population.",
+    "source_update": "Researcher reports that the platform described the service as human recruitment; this is recorded as reported provenance. No source label is deleted or silently reclassified.",
+    "inference": "Exploratory, post-outcome amendment. Source concentration is an observation, not a demonstrated causal mechanism or proof of nonhuman respondents."
+  },
+  "submission_ready": false
+}

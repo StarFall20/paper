@@ -14,3 +14,13 @@ DH36 original exports and the full 360-record exploratory analyses are preserved
 ## Additional questionnaire-content reuse assessment
 
 The fee and sharing-rule content is being assessed for a separate exploratory applied question about paid health-management services. [Reuse plan](reports/questionnaire_reuse_20261109/现有问卷内容利用方案.md). The original theoretical-method conclusion is unchanged. Human provenance, substantive application novelty and submission readiness remain to be verified; no new fielding or publication promise is made.
+
+## Executed application rebuild and updated source report
+
+The researcher now reports that the platform described its service as recruiting human respondents. All 360 records remain in pooled models. The original 60-record export label `AI样本` is retained as source metadata; it is not treated as proof of generated or invalid responses.
+
+The [executed rebuild](reports/application_rebuild_20261109/问卷保留与模型重建结果.md) fits eight fixed model specifications, an exact outside-component follow-up and a source sensitivity. All 42 all-outside vectors occur in that 60-record source group; the other 300 records contain none. Improved pooled joint prediction from preference mixtures is essentially reproduced by a classical participation component and does not establish stable taste classes.
+
+Flexible fee-rule cells identify a model-adjusted G2–G1 contrast at CNY89, conditional on cross-task utility and package assumptions. Its intervals span zero in the pooled random-intercept, outside-component and conditional A/B models. G0 has no common fee with the other rules. Linear-fee monetary trade-offs remain supplementary model-conditional estimates, superseding any stronger reading of the earlier reuse plan.
+
+An [application evidence draft](reports/application_rebuild_20261109/application_evidence_draft.md) and [close prior-work comparison](reports/application_rebuild_20261109/closest_prior_work.md) preserve the completed questionnaire content. An independent substantive contribution and submission readiness are not established by these model runs. No new questionnaire fielding is required to reproduce the current analyses.

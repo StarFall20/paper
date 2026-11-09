@@ -1,0 +1,9 @@
+model,reference,mean_joint_logscore_gain_per_choice,paired_descriptive_ci_low,paired_descriptive_ci_high,caution
+MNL_linear,RI_linear,-0.05861267341008128,-0.08003723679618527,-0.03718811002397729,exploratory reused folds; overlapping training sets; not external validation or model-selection-adjusted inference
+MNL_quadratic,RI_linear,-0.058695470372613676,-0.08016639194949458,-0.03722454879573277,exploratory reused folds; overlapping training sets; not external validation or model-selection-adjusted inference
+MNL_cells,RI_linear,-0.05857987357825978,-0.07996451950740924,-0.037195227649110325,exploratory reused folds; overlapping training sets; not external validation or model-selection-adjusted inference
+RI_linear,RI_linear,0.0,0.0,0.0,exploratory reused folds; overlapping training sets; not external validation or model-selection-adjusted inference
+RI_cells,RI_linear,-0.0003696704934124805,-0.0014563592355223533,0.0007170182486973924,exploratory reused folds; overlapping training sets; not external validation or model-selection-adjusted inference
+participation_2class,RI_linear,0.025015836461035015,0.01566628628183883,0.0343653866402312,exploratory reused folds; overlapping training sets; not external validation or model-selection-adjusted inference
+scale_2class,RI_linear,-0.05964223456371683,-0.08044317673111061,-0.03884129239632306,exploratory reused folds; overlapping training sets; not external validation or model-selection-adjusted inference
+taste_2class,RI_linear,0.025017185740458834,0.01566742622928284,0.03436694525163483,exploratory reused folds; overlapping training sets; not external validation or model-selection-adjusted inference
