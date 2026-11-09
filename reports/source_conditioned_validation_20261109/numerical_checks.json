@@ -1,0 +1,126 @@
+{
+  "hurdle_blind_linear_enumeration": [
+    {
+      "design_number": 1,
+      "gate_group": 0,
+      "joint_total_error": 4.440892098500626e-16,
+      "marginal_enumeration_error": 3.3306690738754696e-16,
+      "refusal_enumeration_error": 9.43689570931383e-16
+    },
+    {
+      "design_number": 2,
+      "gate_group": 0,
+      "joint_total_error": 8.881784197001252e-16,
+      "marginal_enumeration_error": 4.440892098500626e-16,
+      "refusal_enumeration_error": 9.43689570931383e-16
+    }
+  ],
+  "hurdle_source_linear_enumeration": [
+    {
+      "design_number": 1,
+      "gate_group": 0,
+      "joint_total_error": 6.661338147750939e-16,
+      "marginal_enumeration_error": 3.885780586188048e-16,
+      "refusal_enumeration_error": 4.996003610813204e-16
+    },
+    {
+      "design_number": 1,
+      "gate_group": 1,
+      "joint_total_error": 2.220446049250313e-16,
+      "marginal_enumeration_error": 1.1102230246251565e-16,
+      "refusal_enumeration_error": 1.6653345369377348e-16
+    },
+    {
+      "design_number": 2,
+      "gate_group": 0,
+      "joint_total_error": 8.881784197001252e-16,
+      "marginal_enumeration_error": 4.440892098500626e-16,
+      "refusal_enumeration_error": 9.43689570931383e-16
+    },
+    {
+      "design_number": 2,
+      "gate_group": 1,
+      "joint_total_error": 1.1102230246251565e-16,
+      "marginal_enumeration_error": 1.1102230246251565e-16,
+      "refusal_enumeration_error": 1.1102230246251565e-16
+    }
+  ],
+  "hurdle_blind_cells_enumeration": [
+    {
+      "design_number": 1,
+      "gate_group": 0,
+      "joint_total_error": 4.440892098500626e-16,
+      "marginal_enumeration_error": 3.3306690738754696e-16,
+      "refusal_enumeration_error": 4.718447854656915e-16
+    },
+    {
+      "design_number": 2,
+      "gate_group": 0,
+      "joint_total_error": 2.220446049250313e-16,
+      "marginal_enumeration_error": 2.220446049250313e-16,
+      "refusal_enumeration_error": 3.885780586188048e-16
+    }
+  ],
+  "hurdle_source_cells_enumeration": [
+    {
+      "design_number": 1,
+      "gate_group": 0,
+      "joint_total_error": 4.440892098500626e-16,
+      "marginal_enumeration_error": 2.7755575615628914e-16,
+      "refusal_enumeration_error": 5.551115123125783e-16
+    },
+    {
+      "design_number": 1,
+      "gate_group": 1,
+      "joint_total_error": 2.220446049250313e-16,
+      "marginal_enumeration_error": 1.1102230246251565e-16,
+      "refusal_enumeration_error": 5.551115123125783e-17
+    },
+    {
+      "design_number": 2,
+      "gate_group": 0,
+      "joint_total_error": 2.220446049250313e-16,
+      "marginal_enumeration_error": 2.220446049250313e-16,
+      "refusal_enumeration_error": 3.608224830031759e-16
+    },
+    {
+      "design_number": 2,
+      "gate_group": 1,
+      "joint_total_error": 2.220446049250313e-16,
+      "marginal_enumeration_error": 1.1102230246251565e-16,
+      "refusal_enumeration_error": 2.220446049250313e-16
+    }
+  ],
+  "records": 360,
+  "choice_rows": 2880,
+  "source_AI_records": 60,
+  "raw_hashes": [
+    {
+      "version": "V1",
+      "sha256": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13"
+    },
+    {
+      "version": "V2",
+      "sha256": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01"
+    }
+  ],
+  "record_fold_ids": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "heldout_patterns_used_as_predictor": false,
+  "probability_prediction_arguments": "features, fitted training parameters, source label only",
+  "new_theory_or_identity_claim": false,
+  "raw_hashes_match_frozen_exports": true,
+  "completed_fold_fits": 45,
+  "max_conditional_gradient_check_error": 1.9644937765406212e-07,
+  "max_projected_gradient": 0.0001334327202466845,
+  "fold_fit_bounds": [],
+  "full_RI_quadrature_61_vs_161_loglik_difference": -7.301832738448866e-08,
+  "public_record_prediction_file_exported": false,
+  "private_record_predictions_saved": true,
+  "previous_MNL_RI_spike_pooled_scores_reproduced": true
+}

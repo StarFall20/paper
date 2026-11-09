@@ -1,0 +1,9 @@
+form,source_aware,alpha,joint_nll_per_choice
+linear,False,0.5,0.9337280206617807
+linear,False,1.0,0.9336586985231492
+linear,True,0.5,0.8772336704763862
+linear,True,1.0,0.8780188253168063
+cells,False,0.5,0.9339830274929467
+cells,False,1.0,0.9339137053543151
+cells,True,0.5,0.8774886773075521
+cells,True,1.0,0.8782738321479722

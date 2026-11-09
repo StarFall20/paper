@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-09",
+  "stage": "Exploratory follow-up after source and constant-vector counts were inspected; fixed before the new benchmark fits",
+  "question": "How much of pooled joint prediction is explained by observed source and constant alternative-choice patterns?",
+  "observed_motivation": "All 60 AI-labelled records are constant across eight choices (15 A, 3 B, 42 outside); all other 300 records are nonconstant. This is not identity or validity evidence.",
+  "population": "All 360 exported records, with source-stratified evaluation; no relabelled provenance",
+  "validation": "Reuse the existing five whole-record folds; internal exploratory validation, not untouched external confirmation",
+  "models": ["MNL_linear", "RI_linear", "spike_linear", "source_ASC_MNL_linear", "hurdle_blind_linear", "hurdle_source_linear", "source_ASC_MNL_cells", "hurdle_blind_cells", "hurdle_source_cells"],
+  "hurdle_categories": ["nonconstant vector", "all A", "all B", "all outside"],
+  "hurdle_regular_component": "MNL conditional on a nonconstant eight-answer vector, estimated on nonconstant training records",
+  "hurdle_gate": "Training category counts, optionally by the original source label, with fixed symmetric Dirichlet alpha=0.5 smoothing; alpha=1 sensitivity. No held-out category is a predictor.",
+  "outcomes": ["joint log score per choice", "marginal log score per choice", "predicted all-outside counts", "within-source paired descriptive gains"],
+  "comparisons": "Source-aware versus source-blind hurdle changes only the gate; source-ASC ordinary model and classical outside spike are substantive baselines",
+  "weighting": "Report algebraic standardization over hypothetical source shares; no claim of representative human-population weights",
+  "checks": ["analytic gradient versus finite differences", "normalization, marginals and refusal counts versus exhaustive 3^8 vector enumeration", "unchanged raw hashes", "same participant-level folds", "source gate estimated within each training split"],
+  "interpretation": "Constant-choice outcomes need not indicate careless responding, generation or a specific psychological mechanism. The hurdle is a classical predictive diagnostic and is not claimed as an original choice theory.",
+  "stopping_rule": "Do not add models or choose smoothing based on the new results. Revise contribution claims to match the evidence. Source-service verification and independent novelty remain separate requirements."
+}

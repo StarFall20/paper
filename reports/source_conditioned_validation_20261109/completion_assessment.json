@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-09",
+  "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
+  "previous_goal_turn": "progress: authenticated source notices and all 60 point-log entries inspected; manuscript provenance revised; verified GitHub backup completed",
+  "current_goal_turn": "progress: complete constant-vector/source association verified, nine fixed benchmarks fitted, 45 record-level validation fits completed, source-specific calibration errors exposed, primary literature and an author GitHub repository inspected, focused draft written",
+  "completion_proven": false,
+  "requirements": [
+    {"requirement": "Retest existing data and build identified, meaningful comparisons", "state": "completed_for_the_fixed_followup", "evidence": ["source_stratified_prediction.csv", "fold_fit_checks.json", "numerical_checks.json"]},
+    {"requirement": "Independent innovation with substantive value", "state": "unproven", "evidence": ["primary_source_comparison.md", "focused_research_note.md"], "finding": "The source-specific allocation failure is a concrete case finding. Existing non-trading, pattern-diagnostic and ASC-interaction work precludes relabelling the diagnostic components as new theory. The independent contribution of this particular case remains to be established."},
+    {"requirement": "Reliable respondent-source and recruitment statements", "state": "incomplete", "evidence": ["../platform_source_verification_20261109/source_evidence.json"], "finding": "Task notices and point logs verified; mapping of researcher-reported human recruitment to those tasks unresolved. Neither origin nor invalidity is inferred from constant choices."},
+    {"requirement": "Evidence appropriate to the actual proposed claim", "state": "case_specific_exploratory_prediction_claim_supported_broader_claims_not_supported", "finding": "Reused internal folds support this bounded comparison. Source causality, a human-versus-generated contrast and prevalence in other studies are not identified. An external dataset is not imposed as a universal journal rule."},
+    {"requirement": "Coherent manuscript, appendix and reproducible submission materials", "state": "focused_exploratory_draft_and_aggregate_reproduction_package_completed_final_submission_package_not_ready", "evidence": ["focused_research_note.md", "README.md", "analysis_plan.json"], "finding": "A final cover letter or submission-readiness label would require an established central contribution and accurate source statement."}
+  ],
+  "no_new_fielding_sample_purchase_or_external_message": true,
+  "original_objective_not_redefined_as_resource_only_success": true,
+  "next_evidence": "Task-specific service/recruitment documentation or a substantive clarification that changes the case's interpretation; evaluate whether a distinct identified application contribution follows. Do not continue adding models merely to obtain significance."
+}

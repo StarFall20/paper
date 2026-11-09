@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-09",
+  "publisher_scope": {"url": "https://shop.elsevier.com/journals/journal-of-choice-modelling/1755-5345", "level": "Official publisher description", "interpretation": "Methodological contribution or innovative application; topic fit alone is insufficient"},
+  "papers": [
+    {"doi": "10.1016/j.jocm.2023.100413", "level": "Author repository full text; model section including deterministic non-trading equation (8)", "url": "https://arodes.hes-so.ch/nanna/record/12671/files/Kazagli_Lapparent_2023_discrete_choice.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0"},
+    {"doi": "10.1016/j.reseneeco.2025.101496", "level": "Primary full text, methodology and conclusion; article footnote 2 maps the GitHub repository", "url": "https://addi.ehu.eus/bitstream/handle/10810/73588/articulo%20Mariel%20Artabe%202025%20comprimido.pdf?isAllowed=y&sequence=1"},
+    {"doi": "10.1016/j.jocm.2026.100620", "level": "Publisher abstract and highlights, not a full proof audit", "url": "https://www.sciencedirect.com/science/article/pii/S1755534526000266"}
+  ],
+  "github": {
+    "repository": "discretechoice/simulation-based-method",
+    "inspected_commit": "7cec56ba9d2a8b28a48e370df4693bf552a9a488",
+    "files": ["README.md", "Figure2_TEST_CaseStudy_Block1.R", "Figure3_TEST_CaseStudy_Block2.R"],
+    "sections_examined": "README, inputs, explicit vector counts, simulation seed and pattern-count loop",
+    "readme_uses_earlier_2024_working_title": true,
+    "final_publication_year": 2025,
+    "root_license_file_observed": false,
+    "source_code_reused": false,
+    "input_data_redistributed": false,
+    "R_scripts_executed_or_replication_claimed": false
+  },
+  "systematic_Scopus_or_Google_Scholar_search_completed": false,
+  "worldwide_priority_certified": false
+}

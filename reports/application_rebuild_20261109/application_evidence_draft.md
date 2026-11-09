@@ -85,3 +85,11 @@ The two instrument-eligible unchanged-service pairs allow classical conditional-
 ## Reproducibility materials
 
 The accompanying package includes the observed fee-rule support, rank/null-vector checks, saved aggregate model parameters and covariances, fold-fit diagnostics, joint and marginal prediction tables, source sensitivity and provenance statements. Original answers, identifiers, IP addresses, timestamps and individual fold assignments remain private. Re-estimation requires authorized access to the private originals; public aggregate files cannot independently verify respondent identity or reproduce private records.
+
+## Appendix: Source-conditioned predictive validation
+
+A fixed follow-up finds that all 60 source-labelled vectors are constant: 15 all-A, three all-B and 42 all-outside. The other 300 vectors all change alternative at least once. An overall all-outside prediction of 42 from the source-blind outside-component model conceals predictions of 35.32 in the other-source group (observed zero) and 6.68 in the labelled group (observed 42).
+
+A transparent source-aware pattern hurdle predicts 0.62 and 40.42. Against a source-adjusted ordinary model, its joint negative log score per choice changes from 0.997330 to 0.877234 overall. Scores in the other 300 records are nearly identical, 1.032544 and 1.032465. Approximately 99.94% of the weighted pooled mean gain comes from the 60-record group. The hurdle is a predictive diagnostic with a correctly conditioned nonconstant MNL component; its coefficients are not population WTP. Source origin and behavioral cause remain unresolved.
+
+The [source-conditioned validation report](../source_conditioned_validation_20261109/README.md) provides all nine fixed benchmarks, source-stratified scores and the fixed smoothing sensitivity. The focused note develops this case-specific interpretation. Non-trading components and pattern-frequency diagnostics have published precedents; this follow-up does not establish an independently new method or submission readiness.

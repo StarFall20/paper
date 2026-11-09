@@ -1,0 +1,9 @@
+source_group,pattern,records
+other_labels,nonconstant,300
+other_labels,all_A,0
+other_labels,all_B,0
+other_labels,all_outside,0
+AI_label,nonconstant,0
+AI_label,all_A,15
+AI_label,all_B,3
+AI_label,all_outside,42
