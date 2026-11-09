@@ -1,0 +1,65 @@
+{
+  "all_360_ever_paid_linear_MNL": {
+    "parameters": 16,
+    "utility_design_rank": 16,
+    "gradient_max": 6.747918349092608e-08,
+    "finite_covariance": true
+  },
+  "all_360_ever_paid_cells_MNL": {
+    "parameters": 24,
+    "utility_design_rank": 24,
+    "gradient_max": 1.354472090042691e-13,
+    "finite_covariance": true
+  },
+  "all_360_ever_paid_cells_RI": {
+    "parameters": 25,
+    "utility_design_rank": 24,
+    "gradient_max": 2.365752045629943e-05,
+    "finite_covariance": true
+  },
+  "all_360_weekly_use_linear_MNL": {
+    "parameters": 16,
+    "utility_design_rank": 16,
+    "gradient_max": 1.9384494009955233e-13,
+    "finite_covariance": true
+  },
+  "all_360_weekly_use_cells_MNL": {
+    "parameters": 24,
+    "utility_design_rank": 24,
+    "gradient_max": 2.844391389089651e-13,
+    "finite_covariance": true
+  },
+  "300_other_source_labels_ever_paid_linear_MNL": {
+    "parameters": 14,
+    "utility_design_rank": 14,
+    "gradient_max": 1.2036671548365518e-08,
+    "finite_covariance": true
+  },
+  "300_other_source_labels_ever_paid_cells_MNL": {
+    "parameters": 22,
+    "utility_design_rank": 22,
+    "gradient_max": 1.2179146580137967e-13,
+    "finite_covariance": true
+  },
+  "300_other_source_labels_ever_paid_cells_RI": {
+    "parameters": 23,
+    "utility_design_rank": 22,
+    "gradient_max": 2.7377200490730225e-05,
+    "finite_covariance": true
+  },
+  "300_other_source_labels_weekly_use_linear_MNL": {
+    "parameters": 14,
+    "utility_design_rank": 14,
+    "gradient_max": 4.821270827015667e-09,
+    "finite_covariance": true
+  },
+  "300_other_source_labels_weekly_use_cells_MNL": {
+    "parameters": 22,
+    "utility_design_rank": 22,
+    "gradient_max": 1.9013249197286086e-08,
+    "finite_covariance": true
+  },
+  "table_max_contrast_error": 6.938893903907228e-17,
+  "table_max_cluster_se_error": 5.551115123125783e-17,
+  "private_record_data_exported": false
+}

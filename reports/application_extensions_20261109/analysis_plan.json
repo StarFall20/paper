@@ -1,0 +1,18 @@
+{
+  "status": "Exploratory extension fixed before fitting the background interactions; outcomes and descriptive counts have already been inspected. Not preregistration.",
+  "date": "2026-11-09",
+  "purpose": "Determine whether existing background questions supply a robust substantive contribution; do not select a model to obtain significance.",
+  "primary_modifier": "ever paid for a health app: Q10 codes 1 or 2 versus never code 3; codes 4 and 5 retained as an unknown group with separate alternative intercepts",
+  "secondary_modifier": "weekly application use: Q9 code 4 versus codes 1 through 3; code 5 retained as unknown with separate alternative intercepts",
+  "populations": ["all 360 records", "300 records with other original export source labels, as sensitivity only"],
+  "source_handling": "All records retained in the pooled analysis; source indicator enters A/B intercepts. Researcher reports platform-recruited humans. Original export labels preserved.",
+  "forms": ["linear fee and sharing main effects", "unrestricted observed price-rule cells"],
+  "interaction_scope": "Modifier interacts with all five baseline choice coefficients in the linear model or both alternative intercepts and all seven active cell coefficients in the free-cell model; version intercept effects remain common. Unknown groups have their own A/B intercepts.",
+  "primary_contrast": "modifier difference in model-adjusted G2 minus G1 utility at CNY89; utility scale assumptions remain explicit",
+  "supplement": "Linear-model money-ratio contrast between modifier groups with delta-method uncertainty; not a population monetary valuation or pure control effect",
+  "validation": "Source and version adjusted baseline versus modifier model on identical whole-record five-fold partitions. No use of full-sample initialization in heldout fits.",
+  "random_intercept_follow_up": "Primary ever-paid modifier with free cells, in both populations, using the same whole-record panel likelihood and 61 versus 161 node checks.",
+  "multiplicity": "Holm adjustment across the ten reported primary utility-modifier tests (two modifiers, two forms, two populations, plus two primary free-cell random-intercept fits); all are exploratory.",
+  "interpretation": "Payment/use history is self-reported, self-selected and not randomized; income/demographics are unavailable. Q11 post-choice priority remains descriptive. Interaction or predictive fit alone does not establish novelty.",
+  "submission_ready": false
+}

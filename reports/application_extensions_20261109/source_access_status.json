@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-09",
+  "service": "问卷星",
+  "state": "authentication_required",
+  "evidence": "Live page displayed 您还未登录，请先登录！ and then the normal login page.",
+  "cached_response_page_is_not_freshly_authenticated_service_evidence": true,
+  "human_recruitment_statement": "Researcher reports platform explanation as human recruitment; retained unchanged.",
+  "user_login_request_pending": true,
+  "responses_or_survey_settings_changed": false,
+  "passwords_or_verification_codes_requested": false
+}

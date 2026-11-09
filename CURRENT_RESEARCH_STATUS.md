@@ -24,3 +24,11 @@ The [executed rebuild](reports/application_rebuild_20261109/问卷保留与模�
 Flexible fee-rule cells identify a model-adjusted G2–G1 contrast at CNY89, conditional on cross-task utility and package assumptions. Its intervals span zero in the pooled random-intercept, outside-component and conditional A/B models. G0 has no common fee with the other rules. Linear-fee monetary trade-offs remain supplementary model-conditional estimates, superseding any stronger reading of the earlier reuse plan.
 
 An [application evidence draft](reports/application_rebuild_20261109/application_evidence_draft.md) and [close prior-work comparison](reports/application_rebuild_20261109/closest_prior_work.md) preserve the completed questionnaire content. An independent substantive contribution and submission readiness are not established by these model runs. No new questionnaire fielding is required to reproduce the current analyses.
+
+## Background extension and independent input preflight
+
+Ten predeclared exploratory background contrasts and matched whole-record validation are complete. Prior-payment differences seen under a linear fee do not remain precise under flexible price-rule cells; the 300-record source sensitivity provides no predictive improvement from payment/use-history modifiers. The [extension report](reports/application_extensions_20261109/背景扩展与投稿条件复核.md) retains all comparisons and the limited ten-test Holm family. A close 2020 app DCE already includes fee, privacy control, sharing and reminders, strengthening the need for a distinct substantive contribution.
+
+The BRAC CHORUS public DCE archive passed its published CSV checksum but requires input clarification: 162 active-facility rows have all six attributes missing and declared block/task slots contain two observed menu variants. No outcome model, design rank or independent-validation success is claimed for that archive. Its rows are not redistributed.
+
+Questionnaire Star currently requires reauthentication. The platform's source/service explanation has not been independently read in this session; the researcher's report of human recruitment remains retained. The active goal is unachieved; numerical completion and a preserved exploratory draft do not establish submission readiness.

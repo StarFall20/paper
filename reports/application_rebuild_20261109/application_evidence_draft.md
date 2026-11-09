@@ -12,6 +12,8 @@ Health-service providers choose both a subscription fee and a data-sharing arran
 
 This analysis asks a narrower question: within the support of an existing paid-service questionnaire, how does a package allowing users to decide whether and with whom to share compare with deidentified sharing for research? It also examines how the treatment of persistent nonpurchase changes the comparison. The user-decision description combines more than one feature. Its coefficient describes that package and does not isolate a pure control mechanism.
 
+[Nittas et al. (2020)](https://www.jmir.org/2020/11/e18889/) provides a closer attribute comparison: its app-choice experiment includes fees, privacy control, sharing with selected providers and reminder customization. The present application must establish an additional substantive result beyond the inclusion of these attributes.
+
 ## 2. Questionnaire and analytic records
 
 Two forms each contain 180 records and eight A/B/outside choices. Monthly fees range from CNY59 to CNY119. Sharing descriptions are: no sharing with external organizations (G0), deidentified provision to research institutions (G1), and user decisions about whether and with whom to share (G2). Other service-card attributes remain fixed within each form and alternative. Their separate effects cannot be recovered from these records; form-specific A and B intercepts represent the corresponding bundles.
@@ -67,6 +69,12 @@ In the other 300 records, the corresponding flexible-cell ordinary and random-in
 The questionnaire retains useful service-choice content. Its price support identifies a specific package comparison under stated utility restrictions. Its source fields explain why a pooled mixture can appear to find a distinct participation group. These observations guide a transparent applied analysis and preserve the value of the completed fieldwork.
 
 The existing evidence does not yet supply a distinctive, robust contribution beyond close app-purchase, data-governance, opt-out and discrete-cost studies. The submission decision requires an application claim with a demonstrated substantive delta, together with accurate recruitment and applicable research statements. Additional model complexity cannot supply the missing substantive identification. No new theoretical acronym, causal version claim or guaranteed publication claim is attached to these results.
+
+## Appendix: Background-modifier sensitivity
+
+An exploratory extension tests prior payment experience and weekly application use, adjusting source-group and version/package intercepts. Unknown answers retain separate alternative intercepts. In the pooled linear-fee model, the ever-paid modifier of the G2–G1 utility difference is −0.395, with a 95% interval of −0.668 to −0.123. Flexible fee-rule cells give −0.197, interval −1.099 to 0.704; a random service-intercept specification gives −0.122, interval −1.073 to 0.829. The other-source 300-record sensitivity has near-zero flexible-cell modifier estimates and no predictive improvement from the background models.
+
+The exploratory linear-fee p-value remains 0.0444 after Holm adjustment within the ten extension contrasts. This adjustment does not cover earlier project-wide exploration. The linear-fee money-ratio contrast also has an interval spanning zero. The modifier is not presented as a stable preference mechanism or an independent innovation. All ten contrasts, the fixed extension plan and uncertainty are retained in the [background appendix](../application_extensions_20261109/application_background_appendix.md).
 
 ## Reproducibility materials
 

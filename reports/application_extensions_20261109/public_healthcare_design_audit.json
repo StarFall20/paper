@@ -1,0 +1,66 @@
+{
+  "status": "preflight_requires_source_clarification",
+  "source": "BRAC University, CHORUS BANGLADESH DCE DATASET",
+  "source_url": "https://zenodo.org/records/19478777",
+  "source_md5": "0804176ec8f3114fd220da90966d8f26",
+  "source_sha256": "9eae85706321fac976523d575a64da58bdc93be2ba91d432792845ece66fca33",
+  "data_rows": 7776,
+  "choice_occasions": 2592,
+  "declared_block_task_slots": 36,
+  "observed_complete_row_triplet_variants": 72,
+  "ordered_variants_per_declared_slot_distribution": {
+    "2": 36
+  },
+  "active_facility_rows": 5184,
+  "active_facility_rows_with_missing_attributes": 162,
+  "missing_active_by_attribute": {
+    "Med_trt_cost": 162,
+    "wait_time": 162,
+    "Service_mch": 162,
+    "referral": 162,
+    "provider": 162,
+    "consul_fee": 162
+  },
+  "active_declared_profile_slots_with_varying_attributes": 72,
+  "decoding_from_csv_labels": {
+    "Alternative_slno": {
+      "Facility_1": 1,
+      "Facility_2": 2,
+      "Opt-out": 0
+    },
+    "Med_trt_cost": {
+      "Free of cost": 1,
+      "Half payment": 2,
+      "Full payment": 3
+    },
+    "wait_time": {
+      "30 minutes": 30,
+      "60 minutes": 60,
+      "90 minutes": 90
+    },
+    "Service_mch": {
+      "Yes": 1,
+      "No": 2
+    },
+    "referral": {
+      "Yes": 1,
+      "No": 2
+    },
+    "provider": {
+      "MBBS Doctor": 1,
+      "Paramedic": 2,
+      "Drug seller": 3
+    },
+    "consul_fee": {
+      "BDT 100": 100,
+      "BDT 200": 200,
+      "BDT 300": 300,
+      "Free": 0
+    }
+  },
+  "outside_placeholder_rule": "Blank/Free attributes on opt-out are inactive placeholders normalized to zero; active-facility missing values are not filled.",
+  "design_ranks_computed": false,
+  "outcome_models_fitted": false,
+  "respondent_data_exported": false,
+  "reason": "Declared block/task slots do not specify a single stable observed menu and some active facility rows have missing attributes. The original planned design cannot be certified from this file without clarification. No canonicalization, modal fill or complete-case replacement is used to produce a passing audit."
+}

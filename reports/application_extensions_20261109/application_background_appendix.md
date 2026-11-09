@@ -1,0 +1,9 @@
+# Appendix: Background-modifier sensitivity
+
+This appendix reports an exploratory extension fixed after earlier outcomes and descriptive counts had been inspected. It is not preregistered confirmation. Ever-paid status and weekly application use are self-reported modifiers. Unknown responses retain separate alternative intercepts. Main models retain all 360 records and adjust original source-group and version/package intercepts; the other 300 records provide a source sensitivity.
+
+The pooled linear-fee model estimates an ever-paid modifier of −0.395 for the G2–G1 utility contrast, 95% interval −0.668 to −0.123. Its exploratory p-value is 0.00444 and Holm adjustment within the ten extension tests is 0.0444. Flexible fee-rule cells give −0.197, interval −1.099 to 0.704; a random service intercept gives −0.122, interval −1.073 to 0.829. In the other-source 300 records, the corresponding flexible estimates are 0.005 and 0.008, with intervals spanning approximately −1.07 to 1.08. Utility scales and ratio assumptions differ across models. The linear-fee money-ratio difference also has an interval spanning zero.
+
+Modifier models provide no predictive improvement in the 300-record sensitivity population on the same whole-record five folds. Some pooled improvements can involve general participation or unknown-response intercepts; they do not identify the contribution of a sharing-rule preference interaction. These results are retained as sensitivity evidence and are not used to name a causal mechanism or an independent innovation.
+
+The related-work comparison includes [Nittas et al. (2020)](https://www.jmir.org/2020/11/e18889/), which studies fee, privacy control, sharing and reminders, and [Xie and Or (2023)](https://mhealth.jmir.org/2023/1/e25908/), which examines prior purchase/use experience. Neither a control-related attribute nor an experience subgroup establishes the contribution by itself.

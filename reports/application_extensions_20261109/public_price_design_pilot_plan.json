@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-09",
+  "status": "Pre-outcome plan for one public-design feasibility pilot; not a systematic review or preregistration",
+  "question": "Does replacing linear consultation fee with unrestricted observed fee levels create structural aliasing in an independently released healthcare DCE?",
+  "dataset": "BRAC University CHORUS Bangladesh DCE, Zenodo 10.5281/zenodo.19478777",
+  "source": "https://zenodo.org/records/19478777",
+  "inclusion_reason": "Public deidentified choice data, documented block/menu structure, three actual consultation-fee amounts, and a codebook. Selected without examining outcome associations.",
+  "core_model": "Two facility alternative constants; categorical medicine/treatment cost, waiting time, provider, referral and service scope; consultation fee linear in BDT100",
+  "expanded_model": "Replace linear consultation fee with indicators for BDT200 and BDT300, reference BDT100, only on active facilities",
+  "primary_checks": ["exact 3-alternative choice-set structure", "block-by-task menu stability across records", "design rank after alternative differencing", "unweighted residual information for the extra fee-curvature direction", "conditioning and parameter estimability"],
+  "restrictions": ["Medicine/treatment cost codes mean free/half/full, not currency amounts; never sum these codes with consultation fees", "Do not infer random allocation or causal effects from an archive description alone", "A full-rank result is not a power or sample-quality guarantee", "A deficient result is not evidence against all D-efficient designs", "Classic design ranks and nuisance-adjusted information remain classical results", "No human response records are redistributed without verifying the source license"],
+  "publication_role": "One external feasibility audit can test a research direction; it cannot establish general prevalence, an independently new method or submission readiness."
+}
