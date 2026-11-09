@@ -1,6 +1,6 @@
 # Exploratory application rebuild — 2026-11-09
 
-This package preserves the questionnaire and evaluates an applied question. It makes no new-method, verified-randomization or submission-readiness claim. Recruitment is recorded as the researcher's report of a platform human-recruitment description. Original source labels remain in the private exports. Public files contain aggregate results and code only.
+This package preserves the questionnaire and evaluates an applied question. It makes no new-method, verified-randomization or submission-readiness claim. Recruitment is recorded as the researcher's report of a platform human-recruitment description. Authenticated inspection confirms two 30-record AI-sample task notices and 60 matching point-log entries; the task-specific respondent provenance remains unresolved. See the [source-verification update](../platform_source_verification_20261109/README.md). Original source labels remain in the private exports. Public files contain aggregate results and code only.
 
 Run from repository root with scientific Python dependencies numpy, pandas, scipy, matplotlib, openpyxl, threadpoolctl. Raw exports and fold assignments remain private. `PRIVATE_DIR` must contain V1_raw.xlsx, V2_raw.xlsx and ideal_cv_folds_private.csv. The historic fold filename does not certify ideal randomization. A private access holder can reproduce the estimates; an independent public download cannot recover private records or certify respondent provenance.
 

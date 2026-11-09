@@ -1,0 +1,198 @@
+{
+  "checked_at": "2026-11-09T13:47:22+08:00",
+  "private_raw_hash_checks": [
+    {
+      "version": "V1",
+      "sha256": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13",
+      "unchanged": true
+    },
+    {
+      "version": "V2",
+      "sha256": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01",
+      "unchanged": true
+    }
+  ],
+  "saved_numeric_result_files_unchanged_count": 34,
+  "saved_numeric_result_files": [
+    {
+      "path": "reports/application_rebuild_20261109/all_outside_by_export_source.csv",
+      "sha256": "983aec94d1a74f900183e736e2c3bb3e53490355ac3b56003cc6c1dcde5a59d0",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/choice_and_background_counts.csv",
+      "sha256": "8efb29708cabb3d6c6dc10f90d978bad05127b483acc923662bdc690186de335",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/common_price_and_supported_fee_contrasts.csv",
+      "sha256": "b0793fff2357bae15b34a7e9dcc6c33dd0e8e60fded8483cac5c602fa7f1514a",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/common_price_bridge_sensitivity.csv",
+      "sha256": "75861c97242191b5ebe2b381ff3e3e0009c8bc847076450dfe053d8d894ca569",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/consolidated_same_price_contrasts.csv",
+      "sha256": "2ff18ac3aff9b636f2f14ddb3dbc0beb34d7e7be9f61abb10c7dad44ae17953b",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/exact_fee_sharing_support.csv",
+      "sha256": "10aa47e04a622f4a0bb96a1e4e4687e80fb4325d9fc9a346ed0dcff68e66065f",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/observed_cell_coefficients.csv",
+      "sha256": "3f08c81fd544db4ef25cb4730b460c25b319a386fae1764c97e2248cd8efeaa4",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/paired_prediction_diagnostics.csv",
+      "sha256": "8a459ca82ffc4aa6c303be6af7e16b966a2ab7582d4152ffd0fb8cea27acd7b6",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/panel_fold_fit_checks.json",
+      "sha256": "57b4dd313daab1cba2849477e7e30ead9ce48f20fd32416e76b2ac6a1d181ead",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/panel_model_comparison.csv",
+      "sha256": "07fffb808d4cc15b7c3e387075c15089a2aacf34fbd9fbcfbe2bdda657468f3f",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/panel_model_fits.json",
+      "sha256": "4be6309079ed5d0dc5b7e229322ec3b77a4d3dd850af30ec9c6bd7a5237d12fd",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/panel_same_price_rule_contrasts.csv",
+      "sha256": "9c3da8f5117019bc3ea66d4dd614d1c360224cfc3c1e5b5c87bad83dd38b57c1",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/price_support_identification.json",
+      "sha256": "70c2541a7fccea654711c9b6868555b336103e1366780e7f69b9763ed46610a4",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/source_boundary_comparison.csv",
+      "sha256": "d83f73ef20cd7d508119bdebd949a2bb7662ac2c00c067cc78e8179bcf322294",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/source_boundary_fold_checks.json",
+      "sha256": "d8bbd3f755594d18febb49098a366347414e949caedc3b3093f3b9b9ac43232c",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/source_boundary_model_fits.json",
+      "sha256": "56c353832a1a53d073bb143fcca5abd85d76b38a9ddd5088d3800a0d7676a15f",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/source_boundary_same_price_contrasts.csv",
+      "sha256": "9c221ebe761389be80adab482e3be847156052223060b8b88dad3ec35d4b4443",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/source_sensitivity_panel_fits.json",
+      "sha256": "3451934e863e7605e701ac7b86eb1f73ec9f633bbc1716929f6cc71401730f94",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_rebuild_20261109/support_model_fits.json",
+      "sha256": "db94d9d9cb4d9b67b0b1fcd8cdc2155211859a699729026f15da61921c81b4d2",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_extensions_20261109/background_contrasts.csv",
+      "sha256": "278e3f836cd5b30878f5c3aed68d4b71abd07adf6e1aff0b1d989d75c79ad35d",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_extensions_20261109/background_cv_fit_checks.json",
+      "sha256": "a7eed04fd5500c1ce0759612cb71e67090a1937113bb8fc5ddd4a266e534a835",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_extensions_20261109/background_linear_fee_ratios.csv",
+      "sha256": "81ef8e7f10d74203b850ea697e4e56f2baa4d8179afee9c0b52082169ffce179",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_extensions_20261109/background_model_fits.json",
+      "sha256": "3fd71c6d45969295924aa3d2ebd205d0aeaa5a431e88bf1362d9562a2ba0de0d",
+      "unchanged": true
+    },
+    {
+      "path": "reports/application_extensions_20261109/extension_numerical_checks.json",
+      "sha256": "1da8cb19c9b19e991cde5d3a645ca96736e320c7d92b7c33d63bfa5697650f56",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/all_28_menu_pairs.csv",
+      "sha256": "ae93fef8e1a15166f79524ca937007e1415a80e5678e3f0acb0ea929ce6798b4",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/boundary_numerical_audit.json",
+      "sha256": "fc41f2e66635ff5e162686ae366a014ab7349be0869b4223550f9129118c54e8",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/conditional_path_swap_tests.csv",
+      "sha256": "3e3e8e619fffc84d23735c44082effdb3bce88ca1b9f899c54ff52c30e5ecb05",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/conditional_rule_offset_sensitivity.csv",
+      "sha256": "fbf216965d1377b81b0868751cc44318cba2b43debe30abe8942848ea7e291f8",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/direct_task_logodds_contrasts.csv",
+      "sha256": "bb73eb941f27efa7983a142bf2ef9cb07b97b3d195b2d6e7e23b1994ebeed786",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/hypothetical_order_drift_sensitivity.csv",
+      "sha256": "05cbcc3dd80033c0962f8ad749059132621a67721765cbd2a57694082fa14a76",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/illustrative_exact_conditional_power.csv",
+      "sha256": "7154c85b042613e1a2b3fea58b3c120bbbbbace10c302823a5e3dc228b127bc7",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/net_share_decomposition.csv",
+      "sha256": "b80c3c8573f1c6334a11e788d33acc0935c0f41f80339e15951b8a59c20e0c22",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/paired_choice_shares.csv",
+      "sha256": "c80323182d5bdd552c356a7df760525b1e60020eaea7fa54610c7f3d86782580",
+      "unchanged": true
+    },
+    {
+      "path": "reports/identification_boundary_20261109/paired_transition_counts.csv",
+      "sha256": "58782c685eb0524e5717fa2cb8d9be3296377452d331340ac881fe51cd55fc73",
+      "unchanged": true
+    }
+  ],
+  "model_inputs_or_population_changed": false,
+  "new_estimation_performed": false,
+  "statistical_findings_used_to_verify_respondent_identity": false,
+  "public_package_excludes_private_transaction_details": true,
+  "likelihood_re_evaluation": {
+    "passed": true,
+    "all_previous_summary_values_unchanged": true,
+    "only_summary_provenance_description_updated": true,
+    "new_model_estimation": false
+  }
+}

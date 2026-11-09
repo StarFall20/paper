@@ -17,7 +17,7 @@ The fee and sharing-rule content is being assessed for a separate exploratory ap
 
 ## Executed application rebuild and updated source report
 
-The researcher now reports that the platform described its service as recruiting human respondents. All 360 records remain in pooled models. The original 60-record export label `AI样本` is retained as source metadata; it is not treated as proof of generated or invalid responses.
+The researcher reports that the platform described its service as recruiting human respondents. All 360 records remain in pooled models. The original 60-record export label `AI样本` is retained as source metadata. Fresh authenticated platform inspection confirms two 30-record AI-sample completion notices and 60 matching AI-point transaction entries. The inspected entries each consume 0.5 points. Whether the reported human-recruitment description applies specifically to these tasks remains unresolved; neither verified human origin nor machine generation is inferred from their labels, billing or answer patterns. See the [source-verification update](reports/platform_source_verification_20261109/问卷星来源核验更新.md).
 
 The [executed rebuild](reports/application_rebuild_20261109/问卷保留与模型重建结果.md) fits eight fixed model specifications, an exact outside-component follow-up and a source sensitivity. All 42 all-outside vectors occur in that 60-record source group; the other 300 records contain none. Improved pooled joint prediction from preference mixtures is essentially reproduced by a classical participation component and does not establish stable taste classes.
 
@@ -31,7 +31,7 @@ Ten predeclared exploratory background contrasts and matched whole-record valida
 
 The BRAC CHORUS public DCE archive passed its published CSV checksum but requires input clarification: 162 active-facility rows have all six attributes missing and declared block/task slots contain two observed menu variants. No outcome model, design rank or independent-validation success is claimed for that archive. Its rows are not redistributed.
 
-Questionnaire Star currently requires reauthentication. The platform's source/service explanation has not been independently read in this session; the researcher's report of human recruitment remains retained. The active goal is unachieved; numerical completion and a preserved exploratory draft do not establish submission readiness.
+Questionnaire Star access has been restored after the user unlocked the Mac and signed in. Source/task and AI-point records were read successfully in the authenticated interface. A later UI call reported the device locked again, after inspection had completed; no additional unlock is needed to preserve these observations or complete this backup. The task-specific service definition remains to be verified. The active goal is unachieved; numerical completion and a preserved exploratory draft do not establish submission readiness.
 
 ## Exhaustive direct-menu and context-sensitivity audit
 
@@ -39,4 +39,4 @@ The [identification-boundary report](reports/identification_boundary_20261109/�
 
 The pooled task-5 to task-8 net-share decomposition has an outside/A-loss ratio of 47/52, but it has broad Fieller uncertainty, weak within-version denominator support and fixed task order. It is descriptive and does not establish a causal switching rate. The within-version conditional free-cell model is saturated (8 rows, rank 8); its rule contrast uses log-odds weights (-2,1,1,0,1,-2,1,0), making a declared task-offset bound expand eightfold. These are classical sensitivity calculations.
 
-The original Word benchmark and prior corrected oracle audit were checked again; existing corrections are not presented as new discoveries. The [completion evidence audit](reports/identification_boundary_20261109/completion_evidence_audit.json) keeps the original publication objective intact and records its unmet substantive and validation requirements. The current live interface reports that the Mac is locked; the user has been asked to unlock it and sign in to the questionnaire platform. No device-security bypass, external author message, new fielding or sample purchase has occurred.
+The original Word benchmark and prior corrected oracle audit were checked again; existing corrections are not presented as new discoveries. The [completion evidence audit](reports/identification_boundary_20261109/completion_evidence_audit.json) keeps the original publication objective intact and records its unmet substantive and validation requirements. Its previous device/account access blocker has been resolved; the new source-verification evidence supersedes that access snapshot. No device-security bypass, external author message, new fielding or sample purchase has occurred.

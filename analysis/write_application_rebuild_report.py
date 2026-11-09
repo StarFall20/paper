@@ -32,7 +32,7 @@ def main():
         for j in range(len(prices)):
             if mat[i,j]: ax.text(j,i,str(mat[i,j]),ha='center',va='center',color='white',fontweight='bold')
     ax=axes[1]; ax.bar([0,1],[42/60,0],color=['#377eb8','#a6bddb']); ax.set_xticks([0,1],['Export label: AI samples\n(n = 60)','Other source labels\n(n = 300)']); ax.set_ylim(0,1); ax.set_ylabel('Fraction choosing outside in all 8 tasks'); ax.set_title('Observed source concentration'); ax.text(0,.73,'42 / 60',ha='center'); ax.text(1,.04,'0 / 300',ha='center')
-    fig.text(.02,.02,'Cell numbers: card appearances per form. Source labels retained; researcher reports platform-recruited humans.',fontsize=8)
+    fig.text(.02,.02,'Cell numbers: card appearances per form. Source labels retained; task-specific respondent provenance unresolved.',fontsize=8)
     fig.tight_layout(rect=[0,.06,1,1]); fig.savefig(OUT/'support_and_source_audit.svg'); fig.savefig(OUT/'support_and_source_audit.png',dpi=170); plt.close(fig)
     report=f'''# 问卷保留与模型重建结果
 
@@ -44,9 +44,9 @@ def main():
 
 这个问题直接使用原有8道选择题和已有背景题。两版各180条，共360条记录、2,880次选择。每条记录的8次选择一起进入估计和验证，不能当作2,880个独立受访者。优先级题用于描述，不作随机机制或外生中介。
 
-## 来源说明已按最新回复登记
+## 来源任务已核验，具体服务含义待核对
 
-你反馈“平台说明为真人招募答卷”。主分析保留全部360条，来源说明登记为研究者转述的平台真人招募说明。原始导出中的60条“AI样本”标签保持不变；该标签在这里是来源分组标记，不据此认定为生成答卷。
+你反馈“平台说明为真人招募答卷”。已登录平台的系统通知确认两版各有一项30份的“AI样本”任务；三页点数记录共60条，两版各30条，每条消耗0.5点。该真人招募说明是否对应这两项任务尚待核实。主分析保留全部360条，原始导出中的60条“AI样本”标签保持不变；来源名称、点数记录和回答模式均不能单独核验真人身份或生成来源。详见[来源核验更新](../platform_source_verification_20261109/问卷星来源核验更新.md)。
 
 42条“8题全部不购买”记录全部属于这60条来源组（版本1为22/30，版本2为20/30）；其余300条为0/300。这个集中现象要求来源敏感性分析。它本身不能证明答卷无效、生成来源或某个消费者群体的动机。请保留平台服务说明、订单或客服解释，供以后准确填写招募方法使用，无需提供参与者身份信息。
 
@@ -104,7 +104,7 @@ def main():
     (OUT/'问卷保留与模型重建结果.md').write_text(report)
     (OUT/'README.md').write_text('''# Exploratory application rebuild — 2026-11-09
 
-This package preserves the questionnaire and evaluates an applied question. It makes no new-method, verified-randomization or submission-readiness claim. Recruitment is recorded as the researcher's report of a platform human-recruitment description. Original source labels remain in the private exports. Public files contain aggregate results and code only.
+This package preserves the questionnaire and evaluates an applied question. It makes no new-method, verified-randomization or submission-readiness claim. Recruitment is recorded as the researcher's report of a platform human-recruitment description. Authenticated inspection confirms two 30-record AI-sample task notices and 60 matching point-log entries; the task-specific respondent provenance remains unresolved. See the [source-verification update](../platform_source_verification_20261109/README.md). Original source labels remain in the private exports. Public files contain aggregate results and code only.
 
 Run from repository root with scientific Python dependencies numpy, pandas, scipy, matplotlib, openpyxl, threadpoolctl. Raw exports and fold assignments remain private. `PRIVATE_DIR` must contain V1_raw.xlsx, V2_raw.xlsx and ideal_cv_folds_private.csv. The historic fold filename does not certify ideal randomization. A private access holder can reproduce the estimates; an independent public download cannot recover private records or certify respondent provenance.
 
@@ -140,7 +140,7 @@ The figure's “AI samples” text is a literal translation of the original expo
     assert int((y==2).all(1).sum())==42 and not (y[~d.ai_label.to_numpy()]==2).all(1).any()
     verify['raw_file_hashes']=[{'version':v['version'],'sha256':v['sha256']} for v in provenance]
     verify['records']=len(y); verify['choice_rows']=y.size; verify['raw_and_person_level_data_exported']=False
-    verify['source_description']='Researcher reports that platform service recruited human respondents; original 60-record AI样本 source label retained.'
+    verify['source_description']='Researcher reports human recruitment; authenticated task notices and AI-point logs confirm the two 30-record tasks, but their task-specific respondent provenance remains unresolved. Original AI样本 labels retained.'
     save(OUT/'numerical_validation_summary.json',verify)
     print('Report, figures and aggregate validation written.',flush=True)
 

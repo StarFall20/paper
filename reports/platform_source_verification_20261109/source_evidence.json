@@ -1,0 +1,87 @@
+{
+  "checked_at": "2026-11-09T13:47:22+08:00",
+  "inspection": "Read-only native UI inspection of the authenticated questionnaire-platform account after user-restored access",
+  "device_and_account_access": "restored",
+  "researcher_report": "平台说明为真人招募答卷",
+  "task_specific_human_recruitment_description_verified": false,
+  "generated_origin_proven": false,
+  "observed_task_notices": [
+    {
+      "version": "V1",
+      "task_label": "AI样本",
+      "completed_records": 30
+    },
+    {
+      "version": "V2",
+      "task_label": "AI样本",
+      "completed_records": 30
+    }
+  ],
+  "export_sources": {
+    "V1": {
+      "手机提交": 150,
+      "AI样本": 30
+    },
+    "V2": {
+      "手机提交": 149,
+      "企业微信": 1,
+      "AI样本": 30
+    }
+  },
+  "point_log": {
+    "unit": "AI point, not currency",
+    "total_entries_shown": 60,
+    "pages_read": 3,
+    "page_summaries": [
+      {
+        "page": 1,
+        "entries": 20,
+        "V1": 0,
+        "V2": 20,
+        "entries_at_half_point": 20
+      },
+      {
+        "page": 2,
+        "entries": 20,
+        "V1": 10,
+        "V2": 10,
+        "entries_at_half_point": 20
+      },
+      {
+        "page": 3,
+        "entries": 20,
+        "V1": 20,
+        "V2": 0,
+        "entries_at_half_point": 20
+      }
+    ],
+    "remark_for_all_entries": "AI样本",
+    "per_entry_points": 0.5,
+    "total_consumed_points": 30,
+    "V1_entries": 30,
+    "V2_entries": 30,
+    "account_names_balances_and_transaction_rows_exported": false
+  },
+  "general_service_description": "Ordinary human-panel service description inspected; mapping to the two AI-sample tasks not verified",
+  "official_virtual_sample_update": {
+    "url": "https://www.wjx.cn/recentupdate.aspx?page=3",
+    "date": "2026-06-28",
+    "equivalence_to_current_task_label_verified": false
+  },
+  "interpretation": "Tasks and AI-point usage verified; specific service definition and respondent origin unresolved",
+  "analysis": {
+    "pooled_records": 360,
+    "other_source_sensitivity_records": 300,
+    "all_outside_records": 42,
+    "all_outside_in_60_record_source_group": 42,
+    "new_model_fits": 0
+  },
+  "pending_question": "Does the reported human-recruitment description explicitly cover these two 30-record AI-sample tasks?",
+  "survey_or_answers_changed": false,
+  "new_sample_order_submitted": false,
+  "paid_AI_operations_requested": false,
+  "external_messages_sent": false,
+  "raw_answers_or_participant_metadata_exported": false,
+  "subsequent_device_state": "After the authenticated inspection was complete, a later UI call reported the Mac locked again. No further UI change was attempted; the completed observations remain valid.",
+  "additional_unlock_required_to_save_current_findings": false
+}

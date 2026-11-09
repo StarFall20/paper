@@ -18,5 +18,5 @@
   "records": 360,
   "choice_rows": 2880,
   "raw_and_person_level_data_exported": false,
-  "source_description": "Researcher reports that platform service recruited human respondents; original 60-record AI样本 source label retained."
+  "source_description": "Researcher reports human recruitment; authenticated task notices and AI-point logs confirm the two 30-record tasks, but their task-specific respondent provenance remains unresolved. Original AI样本 labels retained."
 }

@@ -2,11 +2,16 @@
   "date": "2026-11-09",
   "platform": "问卷星",
   "prior_observed_state": "Platform required reauthentication and Chrome displayed the normal login page",
-  "current_live_tool_result": "The Mac is locked and automatic unlock could not unlock it. Ask the user to unlock the Mac manually before continuing.",
-  "state": "manual_device_unlock_and_platform_login_required",
-  "user_request_pending": true,
+  "state": "authenticated_inspection_complete_later_device_lock",
+  "user_request_pending": false,
   "no_password_or_verification_code_requested": true,
   "device_security_bypassed": false,
   "researcher_report_of_human_recruitment_retained": true,
-  "fresh_service_explanation_verified": false
+  "fresh_service_explanation_verified": false,
+  "previous_live_tool_result": "The Mac is locked and automatic unlock could not unlock it. Ask the user to unlock the Mac manually before continuing.",
+  "current_live_tool_result": "A later UI call reported the Mac locked, after task/source/point inspection had completed.",
+  "fresh_task_and_point_records_verified": true,
+  "latest_evidence": "../platform_source_verification_20261109/source_evidence.json",
+  "successful_authenticated_inspection": "Authenticated questionnaire task notices, source statistics and AI-point transaction pages read successfully after user-restored access",
+  "additional_unlock_required_for_completed_verification_or_backup": false
 }

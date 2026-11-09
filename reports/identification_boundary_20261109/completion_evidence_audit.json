@@ -8,46 +8,74 @@
     {
       "requirement": "Independently meaningful originality, without relabelling or stitching established theories",
       "state": "contradicted_for_current_method_candidate_and_unproven_for_current_application_candidate",
-      "evidence": ["../method_decision_20261109/classical_equivalence_proof.md", "../application_rebuild_20261109/closest_prior_work.md", "../application_extensions_20261109/background_contrasts.csv"],
+      "evidence": [
+        "../method_decision_20261109/classical_equivalence_proof.md",
+        "../application_rebuild_20261109/closest_prior_work.md",
+        "../application_extensions_20261109/background_contrasts.csv"
+      ],
       "finding": "Fibre ranks/information coincide with classical lack-of-fit constructions. Nearby app/health-data papers already cover the proposed attribute and subgroup themes. No new substantive mechanism has stable support."
     },
     {
       "requirement": "Retest existing records and rebuild identified models",
       "state": "completed_with_scope_limits",
-      "evidence": ["../application_rebuild_20261109/panel_model_comparison.csv", "../application_extensions_20261109/extension_numerical_checks.json", "boundary_numerical_audit.json"],
+      "evidence": [
+        "../application_rebuild_20261109/panel_model_comparison.csv",
+        "../application_extensions_20261109/extension_numerical_checks.json",
+        "boundary_numerical_audit.json"
+      ],
       "finding": "Pooled 360-record analyses, source sensitivities, panel/mixture comparisons, ten background contrasts and instrument-driven paired checks are complete. Numerical validity is not publication readiness."
     },
     {
       "requirement": "Evidence can support the central substantive claim",
       "state": "incomplete_and_contradicted_for_stronger_causal_interpretations",
-      "evidence": ["all_28_menu_pairs.csv", "direct_task_logodds_contrasts.csv", "net_share_decomposition.csv", "conditional_rule_offset_sensitivity.csv"],
+      "evidence": [
+        "all_28_menu_pairs.csv",
+        "direct_task_logodds_contrasts.csv",
+        "net_share_decomposition.csv",
+        "conditional_rule_offset_sensitivity.csv"
+      ],
       "finding": "No direct single-rule-only matched menu pair; task order fixed; within-version conditional free-cell representation saturated. Descriptive price-menu shifts are available, but they do not identify a pure control mechanism or causal price response."
     },
     {
       "requirement": "Empirical evidence appropriate to the central contribution actually claimed",
       "state": "exploratory_application_available_stronger_method_and_causal_validation_missing",
-      "evidence": ["../application_extensions_20261109/public_healthcare_design_audit.json"],
+      "evidence": [
+        "../application_extensions_20261109/public_healthcare_design_audit.json"
+      ],
       "finding": "The 360-record questionnaire supplies exploratory application evidence subject to the stated source and modeling conditions. It does not establish an independently new method or identify the stronger causal mechanisms. The attempted public archive was not counted as validation success. A second external dataset is not treated as a universal journal requirement; evidence must match the particular contribution."
     },
     {
       "requirement": "Accurate respondent provenance and research statements",
-      "state": "reported_provenance_retained_fresh_platform_verification_pending",
-      "evidence": ["../application_rebuild_20261109/source_statement.json", "access_snapshot.json"],
-      "finding": "Researcher reports platform human recruitment. Original source labels and all 360 records remain retained. Live UI access is currently prevented by the locked Mac, following an unauthenticated questionnaire-platform session. No provenance or approval statement is fabricated."
+      "state": "authenticated_tasks_and_point_usage_verified_respondent_origin_unresolved",
+      "evidence": [
+        "../platform_source_verification_20261109/source_evidence.json",
+        "../application_rebuild_20261109/source_statement.json",
+        "access_snapshot.json"
+      ],
+      "finding": "Access restored. Two 30-record AI-sample task notices and all 60 corresponding 0.5-point log entries inspected. Applicability of the researcher-reported human-recruitment description remains unverified. No label- or model-based identity finding is made."
     },
     {
       "requirement": "Coherent manuscript, appendix, reproducible code and submission materials aligned to established claims",
       "state": "exploratory_draft_and_analysis_resources_completed_submission_package_not_ready",
-      "evidence": ["../application_rebuild_20261109/application_evidence_draft.md", "识别边界与研究决策.md", "conditional_path_identity.md"],
+      "evidence": [
+        "../application_rebuild_20261109/application_evidence_draft.md",
+        "识别边界与研究决策.md",
+        "conditional_path_identity.md"
+      ],
       "finding": "Drafts and appendices match the observed evidence. A formal new-method submission package is not labelled ready when its central contribution has not been established."
     }
   ],
   "remaining_work_requires": [
-    "Manual Mac unlock and platform login to resume source/service explanation verification",
+    "Task-specific service description or execution evidence resolving the two 30-record AI-sample tasks; no further unlock or login is currently required",
     "Verifiable evidence for a distinct, identified substantive contribution; current paired and model results do not supply it",
     "Design variation or appropriate independent validation if causal control/price interpretations remain intended"
   ],
   "external_communications_sent": false,
   "new_survey_fielded_or_samples_purchased": false,
-  "scope_not_redefined_as_resource_only_success": true
+  "scope_not_redefined_as_resource_only_success": true,
+  "source_verification_followup": {
+    "status": "meaningful progress after access restoration",
+    "evidence": "../platform_source_verification_20261109/source_evidence.json",
+    "completion_proven": false
+  }
 }
