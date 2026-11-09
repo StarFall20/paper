@@ -1,0 +1,22 @@
+{
+  "order": [
+    "preserve exploratory evidence",
+    "independent methodological increment assessment",
+    "published design audit and strong classical baselines",
+    "new survey only if increment passes",
+    "new-design power only if survey proceeds"
+  ],
+  "hard_constraints": [
+    "no fabricated participant provenance",
+    "no relabelling generated designs as published field designs",
+    "no new fielding or spending before contribution gate",
+    "no novelty or acceptance guarantees",
+    "no choosing a new statistic solely for significance"
+  ],
+  "contribution_pass_conditions": [
+    "a useful operation or result not supplied by equivalent classical lack-of-fit/discrimination formulation",
+    "verified scope on reproducible published designs",
+    "fair comparison under the same alternative, budget and response metric"
+  ],
+  "failure_action": "stop repackaging current framework; provide a concrete research-pivot decision and do not collect redundant questionnaires"
+}

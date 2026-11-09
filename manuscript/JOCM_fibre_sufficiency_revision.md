@@ -1,3 +1,5 @@
+> Archived working draft — 2026-11-09: the independent-new-method submission claim is retired following the matched classical-equivalence and published-support audit. See [current research status](../CURRENT_RESEARCH_STATUS.md) and [the design-audit resource note](design_testability_audit_note_20261109.md). The historical text below is retained for provenance.
+
 # Testing Utility Basis Sufficiency in Discrete Choice Experiments
 
 A support complete fibre design and finite support audit

@@ -1,0 +1,30 @@
+{
+  "scope": "Complete the agreed sequential research decision; new survey and field power are conditional on methodological increment.",
+  "requirements": [
+    {
+      "step": 1,
+      "status": "completed",
+      "evidence": "Exploratory original and analysis snapshots verified; no source metadata changed."
+    },
+    {
+      "step": 2,
+      "status": "completed with negative independent-method decision",
+      "evidence": "Primary literature comparison; two published released SP supports; fourteen map cases; classical Schur/KL identity; fixed-budget repair; nine thousand matched replications."
+    },
+    {
+      "step": 3,
+      "status": "not triggered by failed prerequisite; decision completed",
+      "evidence": "No independent increment established; no additional field questionnaire published. Generated diagnostic probes explicitly not field validated."
+    },
+    {
+      "step": 4,
+      "status": "not triggered by failed prerequisite; decision completed",
+      "evidence": "No new human design proceeds, so no additional sample-size recommendation or reuse of old planning results."
+    }
+  ],
+  "pivot_completed": "Generic classical-support audit tool and technical resource note delivered. Independent-new-method submission claim retired.",
+  "final_decision": "stop current new-method JOCM submission; preserve exploratory data; retain reproducibility resource; no new field spending on this claim",
+  "claim_of_publication_readiness": false,
+  "all_required_decisions_resolved": true,
+  "no_success_or_originality_guarantee": true
+}

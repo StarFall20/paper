@@ -1,0 +1,17 @@
+{
+  "positive_mass_raw_menus": 3,
+  "candidate_fibres": 2,
+  "non_singleton_fibres": 1,
+  "menu_contrast_rank": 1,
+  "saturated_probability_contrast_df": 2,
+  "null_probability_dimensions": 4,
+  "full_probability_dimensions": 6,
+  "candidate_representation": "utility_difference_vector",
+  "within_fibre_structural_contrasts_available": true,
+  "candidate_sufficiency_verified": false,
+  "statistical_power_verified": false,
+  "feasible_original_design_universe_verified": false,
+  "interpretation": "classic finite-support lack-of-fit dimensions for the declared map and positive-mass support",
+  "input_menu_count": 3,
+  "input_sha256": "a426471e2179110b059bf58bf9eae4fd3f3116e4048795f98c89a09c1c5291a1"
+}

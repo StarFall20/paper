@@ -1,0 +1,16 @@
+{
+  "route": {
+    "support_model": "attribute ticks and global marginal min/max from the archive; other attributes fixed",
+    "original_joint_design_constraints_recovered": false,
+    "respondent_plausibility_checked": false,
+    "type": "generated diagnostic probes, never original field tasks",
+    "pairs": 16
+  },
+  "vehicle": {
+    "support_model": "attribute ticks and global marginal min/max from the archive; other attributes fixed",
+    "original_joint_design_constraints_recovered": false,
+    "respondent_plausibility_checked": false,
+    "type": "generated diagnostic probes, never original field tasks",
+    "pairs": 16
+  }
+}

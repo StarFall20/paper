@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-09",
+  "records": 360,
+  "use": "exploratory only; recruitment facts retained; not a confirmed randomized human experiment",
+  "exports": [
+    {
+      "version": "V1",
+      "sha256": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13",
+      "records": 180,
+      "original_unchanged": true,
+      "snapshot_verified": true
+    },
+    {
+      "version": "V2",
+      "sha256": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01",
+      "records": 180,
+      "original_unchanged": true,
+      "snapshot_verified": true
+    }
+  ],
+  "analysis_snapshot_sha256": "8548476223fbfaba6f99cc99ded70ec1905b08da3aa8d86eacff2e68a751aafb",
+  "analysis_commit": "bbf3ceca96950c958ecb660b6a79a8497dfd71b8",
+  "private_exports_published": false
+}

@@ -1,0 +1,8 @@
+{
+  "generic_tool_example": true,
+  "duplicate_support_invariance": true,
+  "zero_mass_support_omitted": true,
+  "injective_map_reports_zero_rank": true,
+  "inconsistent_map_rejected": true,
+  "report_math_control_characters_absent": true
+}

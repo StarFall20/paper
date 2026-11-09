@@ -1,0 +1,11 @@
+{
+  "status": "synthetic teaching example; not a published or human-validated questionnaire",
+  "choice_categories": 3,
+  "candidate_representation": "utility_difference_vector",
+  "candidate_definition": "time/10 + monetary cost; outside alternative retained; supplied as a declared hypothetical map",
+  "menus": [
+    {"raw_menu": [[20,4],[30,3],[0,0]], "candidate_menu": [[6],[6],[0]], "weight": "0.3"},
+    {"raw_menu": [[30,3],[20,4],[0,0]], "candidate_menu": [[6],[6],[0]], "weight": "0.3"},
+    {"raw_menu": [[10,2],[30,5],[0,0]], "candidate_menu": [[3],[8],[0]], "weight": "0.4"}
+  ]
+}

@@ -1,0 +1,6 @@
+CHF_per_hour_exact,CHF_per_hour_decimal,raw_menus,candidate_fibres_absolute_summary,menu_contrast_rank,changes_the_candidate_null,interpretation
+5,5.0,3417,3414,3,True,different maps define different nulls; not evidence that the original fixed-weight test is invalid
+10,10.0,3417,3400,17,False,different maps define different nulls; not evidence that the original fixed-weight test is invalid
+20,20.0,3417,3355,62,True,different maps define different nulls; not evidence that the original fixed-weight test is invalid
+40,40.0,3417,3374,43,True,different maps define different nulls; not evidence that the original fixed-weight test is invalid
+10000001/1000000,10.000001,3417,3417,0,True,different maps define different nulls; not evidence that the original fixed-weight test is invalid

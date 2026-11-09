@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-09",
+  "search_units": [
+    "Goos Kobilinsky O'Brien Vandebroek model robust model sensitive lack of fit",
+    "Wiens nonlinear binary response maximin lack of fit design",
+    "Atkinson Fedorov rival model discrimination",
+    "conditional sufficiency level set experimental design choice",
+    "sufficient dimension reduction lack of fit single index",
+    "JOCM 2024 2025 2026 design misspecification robust partial profiles",
+    "published Apollo Swiss route SC and Train vehicle stated choice data"
+  ],
+  "primary_materials": "Author-hosted papers, publisher records, university repositories, official data dictionaries and source archives; exact reading level is recorded in novelty_comparison.csv.",
+  "google_scholar": {
+    "attempted_url": "https://scholar.google.com/scholar?q=%22conditional+sufficiency%22+%22experimental+design%22",
+    "result": "not accessible through the available web tool",
+    "completed_systematic_database_search": false
+  },
+  "scopus": {
+    "attempted_url": "https://www.scopus.com/search/form.uri?display=basic",
+    "result": "HTTP 403",
+    "completed_systematic_database_search": false
+  },
+  "publisher_limits": "Some ScienceDirect and DOI pages returned 403; accessible primary author or university versions were used with the inspected scope stated.",
+  "priority_claim": "No worldwide priority or absence-of-similar-paper guarantee. The current no-go decision rests on an explicit matched-model equivalence and direct benchmarks, not on absence of search hits."
+}

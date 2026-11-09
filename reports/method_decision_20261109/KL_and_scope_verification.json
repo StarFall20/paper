@@ -1,0 +1,8 @@
+{
+  "matched_directional_information_max_error": 1.485356976305141e-17,
+  "profiled_KL_second_order_max_relative_error_eta_0_002": 0.00015833594896275116,
+  "KL_cells": 40,
+  "noncommensurate_weight_finite_catalogue_injective": true,
+  "fixed_candidate_nulls_changed_not_posthoc_rejected": true,
+  "scope": "finite released menus only; no assertion that a finite observed sample saturates a continuous-population model"
+}

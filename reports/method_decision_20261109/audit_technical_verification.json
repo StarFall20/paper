@@ -1,0 +1,24 @@
+{
+  "real_archive_cases": 2,
+  "published_map_cases": 14,
+  "all_fibre_Schur_checks_passed": true,
+  "all_saturated_rank_checks_passed": true,
+  "fixed_budget_information_checks_passed": true,
+  "equal_pair_allocation_Loewner_dominance_checked": true,
+  "simulations": {
+    "route": {
+      "max_score_CMH_statistic_difference": 2.842170943040401e-14,
+      "max_score_CMH_p_difference": 0.0,
+      "response_metric_and_alternative_space_matched": true,
+      "repeated_human_records_modeled": false
+    },
+    "vehicle": {
+      "max_score_CMH_statistic_difference": 4.973799150320701e-14,
+      "max_score_CMH_p_difference": 0.0,
+      "response_metric_and_alternative_space_matched": true,
+      "repeated_human_records_modeled": false
+    }
+  },
+  "no_independent_new_method_claim_established": true,
+  "raw_source_hashes_preserved": true
+}

@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "case": "Swiss public transport route SC",
+      "observed_tasks": 3492,
+      "persons": 388,
+      "sha256": "80ed1a1fd213d2baafbe946e2b1cd4740ce1f73374edca12f4d562cdd70bd028",
+      "data_url": "https://apollochoicemodelling.com/files/examples/data/apollo_swissRouteChoiceData.csv",
+      "dictionary": "https://apollochoicemodelling.com/files/examples/data/apollo_swissRouteChoiceData_dictionary.pdf",
+      "study_reference": "Axhausen et al. 2008, Transport Policy, 10.1016/j.tranpol.2008.02.001",
+      "candidate_map": "analyst-defined generalized cost at 5/10/20/40 CHF per hour; not the original authors claim"
+    },
+    {
+      "case": "Train vehicle stated choice public subset",
+      "observed_tasks": 1484,
+      "persons": 100,
+      "sha256": "81d87eb6008bab4b96ed6384038aaa7db9a3cb93aeba69ac15fd91e56f80575f",
+      "archive_url": "https://eml.berkeley.edu/Software/source_code/train_mxlmsl_06.zip",
+      "source_readme": "Train and Sonnier 2005 chapter, public software archive, version September 2006",
+      "candidate_map": "analyst-defined undiscounted ownership cost at 48/60/84 months; not the original authors claim"
+    }
+  ],
+  "choices_and_person_covariates_used_for_rejections": false,
+  "scope": "audit of released displayed task support; not full original design generation or causal sufficiency validation",
+  "synthetic_examples_counted_as_published_field_designs": false
+}

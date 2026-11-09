@@ -1,0 +1,20 @@
+{
+  "method_contribution_gate": "not passed for the current independent-new-method claim",
+  "decision": "do not field another questionnaire to validate this framework; pivot the output to a classical-method design-audit resource and retain exploratory materials",
+  "new_human_questionnaire_prepared_for_fielding": false,
+  "new_human_questionnaire_published": false,
+  "recommended_additional_respondents": null,
+  "old_power_curve_reused_to_size_new_questionnaire": false,
+  "reason_steps_3_and_4_not_triggered": "The agreed sequence makes a new survey conditional on a defensible methodological increment. Direct equivalence and matched benchmarks did not establish that increment. A new field sample would not repair this contribution gap.",
+  "computational_probes": "generated diagnostic menus were checked only against stated marginal ranges and ticks, not original joint feasibility or human understanding; not a deployable instrument",
+  "future_reentry_conditions": [
+    "an independently justified scientific question or methodological operation beyond the equivalent classical formulation",
+    "a substantively meaningful candidate representation frozen before outcome analysis",
+    "independent raw attribute variation directions and a verified identifiable model",
+    "complete-menu candidate preservation or an explicitly different stated target",
+    "documented random allocation within each recruitment channel, allocation logs and appropriate order balance",
+    "responsible researcher/contact and applicable ethics approval or exemption addressed before human fielding",
+    "comprehension pilot with actual volunteers after those arrangements",
+    "a prespecified smallest effect of scientific interest and fresh respondent-cluster power simulation under the new design"
+  ]
+}
