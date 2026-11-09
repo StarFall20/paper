@@ -1,16 +1,18 @@
 # AI pretest answer pairing and inferred participation heterogeneity: a health-service DCE case audit
 
-*Exploratory research manuscript, 9 November 2026. A bounded computational case study; independent novelty and submission readiness remain under assessment.*
+*Exploratory case record, 9 November 2026. Human negative controls and the closest literature do not support an independently new method. This case remains a research note; the JOCM submission objective is unachieved.*
 
 ## Abstract
 
-Synthetic pretest responses may enter a panel choice dataset with dependence patterns that differ from human submissions. We audit 300 human-recruitment records and 60 platform AI-pretest records, each containing eight health-service choices. All AI vectors select one option throughout; none of the human vectors do. Adding the original AI batch worsens human-target joint negative log scores from 1.031899 to 1.064631 for a random service-intercept model and from 1.031745 to 1.049832 for an outside-component model. A computational control re-pairs only training AI answers within version and task, preserving every task's choice counts. Ordinary MNL estimates and human predictions remain invariant. Across ten fixed re-pairings, human-target scores average 1.044161 and 1.042139 for the two panel models; the fitted outside weight falls from 11.66% to 1.14%. Thus the pairing of synthetic answers changes inferred heterogeneity and predictive performance at fixed margins. The result concerns one pretest deployment and does not establish a general AI-generator mechanism.
+Synthetic pretest responses may enter a panel choice dataset with dependence patterns that differ from human submissions. We audit 300 human-recruitment records and 60 platform AI-pretest records, each containing eight health-service choices. All AI vectors select one option throughout; none of the human vectors do. Adding the original AI batch worsens human-target joint negative log scores from 1.031899 to 1.064631 for a random service-intercept model and from 1.031745 to 1.049832 for an outside-component model. A computational control re-pairs only training AI answers within version and task, preserving every task's choice counts. Ordinary MNL estimates and human predictions remain invariant. Across ten fixed re-pairings, human-target scores average 1.044161 and 1.042139 for the two panel models; the fitted outside weight falls from 11.66% to 1.14%. Human-only fixed-margin controls reproduce the general sensitivity: deliberately rank-aligning human training answers worsens the same two panel scores to 1.220683 and 1.253002. The rank-aligned random-intercept fit reaches its prespecified upper bound. The empirical result concerns sensitivity in one pretest deployment.
 
 ## 1. Question
 
 Panel choice models use the joint sequence of an individual's answers. AI pretests provide complete answer vectors whose joint structure can differ from human submissions. The question here is what changes in panel estimation when synthetic answer pairing changes and every observed task margin remains fixed.
 
-Recent DCE work already compares synthetic and human choices, including utility-scale differences and pretest design uses. [Califano and Caracciolo (2026)](https://doi.org/10.1016/j.foodqual.2026.105930) supplies a close comparison across three food DCEs. [Barrie and Cerina's 2026 working paper](https://csmapnyu.org/research/academic-research) also documents dependence differences in synthetic survey belief systems. Non-trading rules are established in [Kazagli and de Lapparent (2023)](https://doi.org/10.1016/j.jocm.2023.100413). The present operation isolates the consequence of answer pairing for specified panel choice models and a human prediction target. It is not a new conditioning theorem or a first claim that synthetic answers differ from humans.
+Recent DCE work already compares synthetic and human choices, including utility-scale differences and pretest design uses. [Califano and Caracciolo (2026)](https://doi.org/10.1016/j.foodqual.2026.105930) supplies a close comparison across three food DCEs. [Barrie and Cerina's 2026 working paper](https://csmapnyu.org/research/academic-research) also documents dependence differences in synthetic survey belief systems. Non-trading rules are established in [Kazagli and de Lapparent (2023)](https://doi.org/10.1016/j.jocm.2023.100413).
+
+[Doudkin (2026), Appendix A.8](https://arxiv.org/html/2609.07305v1), already shuffles synthetic probability columns across personas before realizing multiselect responses. Our control fixes realized DCE counts exactly and measures downstream panel estimation. This is a case-specific extension of a close control idea. The dependence itself follows the sequence likelihood in [Train (2009), Section 6.7](https://eml.berkeley.edu/books/choice 2nd/Ch06_p134-150.pdf).
 
 ## 2. Data and source definition
 
@@ -50,11 +52,33 @@ Re-pairing changes none of MNL's task counts or human predictions. It reduces th
 
 The remaining human loss after re-pairing shows that changing dependence does not make the AI margins a suitable human data source. The computational comparison isolates one sensitivity of panel estimates; it does not authorize pooling repaired AI records into human inference.
 
-## 5. Interpretation and scope
+## 5. Human negative controls
+
+We repeat the operation using only the 300 human-recruitment records. Original human test vectors remain fixed. Within each version and training fold, we either independently permute each task column using the same ten fixed seeds, or sort each task's alternatives into a common row order. Rank alignment is a deliberately extreme dependence stress control. All 55 additional fixed-margin controls preserve MNL's objective and gradient, within numerical precision.
+
+| Human training control | Model | Mean human joint NLL | Minimum | Maximum |
+| --- | --- | --- | --- | --- |
+| Original human vectors | MNL | 1.031745 | 1.031745 | 1.031745 |
+| Original human vectors | Random service intercept | 1.031899 | 1.031899 | 1.031899 |
+| Original human vectors | Outside component | 1.031745 | 1.031745 | 1.031745 |
+| Randomly re-paired human answers | MNL | 1.031745 | 1.031745 | 1.031745 |
+| Randomly re-paired human answers | Random service intercept | 1.031470 | 1.030981 | 1.031772 |
+| Randomly re-paired human answers | Outside component | 1.031745 | 1.031745 | 1.031745 |
+| Rank-aligned human answers | MNL | 1.031745 | 1.031745 | 1.031745 |
+| Rank-aligned human answers | Random service intercept | 1.220683 | 1.220683 | 1.220683 |
+| Rank-aligned human answers | Outside component | 1.253002 | 1.253002 | 1.253002 |
+
+Random human re-pairings give random-intercept scores from 1.030981 to 1.031772; the outside-component estimate remains at its near-zero lower bound. Rank alignment yields an outside-component mean weight of 0.236533 and human score 1.253002. Every rank-aligned random-intercept fit reaches the fixed upper log-standard-deviation bound of 2 (standard deviation 7.389056); its score is 1.220683. The boundary limits the interpretation of its magnitude. These constructed controls demonstrate generic dependence sensitivity and do not identify an AI-specific mechanism. Different source margins prevent the smaller random-human effect from establishing AI specificity.
+
+The initial 61-node quadrature was inadequate for the extreme rank-aligned random-intercept fits. Re-estimation at 1281 stable Gaussian nodes, checked against 2561, limits the maximum training log-likelihood discrepancy to 7.3e-7 and held-out discrepancy to 4.6e-7. Original 61-node stress results remain an audit trail; the validated table uses the higher-order fits. The human primary fits and original AI-pairing results are unchanged.
+
+## 6. Interpretation and scope
 
 This case distinguishes task margins, answer pairing and the prediction population. The fitted heterogeneity from mixed records partly represents the construction of the synthetic pretest batch. A corresponding improvement on a mixed validation target does not establish improved human preference recovery.
 
-Ten re-pairings measure sensitivity to the stated operation, without a permutation p-value or a claim of ten independent AI deployments. The questionnaire, service and two batches are fixed. Unreported generator settings, convenience recruitment and reused folds limit transfer. The note's proposed empirical contribution is the measured panel-estimation consequence at exactly preserved margins. Its difference from existing synthetic-response and non-trading studies requires continued assessment; no worldwide-priority or acceptance claim is made.
+The case quantifies a downstream consequence for this questionnaire. Known panel-likelihood dependence, the close synthetic shuffle precedent and the human negative controls remove the basis for presenting the operation as an independent methodological innovation. Its present role is an exploratory case record alongside the corrected human application.
+
+Ten re-pairings measure procedural sensitivity. The questionnaire, service and two batches are fixed. Unreported generator settings, convenience recruitment and reused folds limit transfer. The computational controls support neither a permutation p-value nor an inference across ten independent AI deployments. A submission contribution still needs a substantive choice-research finding beyond these generic sensitivities.
 
 ## Reproducibility
 

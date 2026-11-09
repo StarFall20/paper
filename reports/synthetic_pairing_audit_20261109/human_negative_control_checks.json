@@ -1,0 +1,76 @@
+{
+  "human_records": 300,
+  "AI_records_used": 0,
+  "original_raw_hashes": {
+    "V1": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13",
+    "V2": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01"
+  },
+  "fixed_marginal_controls": 55,
+  "maximum_MNL_objective_error": 2.2737367544323206e-13,
+  "maximum_MNL_gradient_error": 1.1164402735630574e-12,
+  "higher_quadrature_checks": [
+    {
+      "condition": "human_rank_aligned",
+      "seed": -1,
+      "fold": 0,
+      "loglik_difference_61_vs_161": 4.51547787943673
+    },
+    {
+      "condition": "human_rank_aligned",
+      "seed": -1,
+      "fold": 1,
+      "loglik_difference_61_vs_161": 1.7905193580872947
+    },
+    {
+      "condition": "human_rank_aligned",
+      "seed": -1,
+      "fold": 2,
+      "loglik_difference_61_vs_161": 3.12936870294493
+    },
+    {
+      "condition": "human_rank_aligned",
+      "seed": -1,
+      "fold": 3,
+      "loglik_difference_61_vs_161": 1.3254831160647882
+    },
+    {
+      "condition": "human_rank_aligned",
+      "seed": -1,
+      "fold": 4,
+      "loglik_difference_61_vs_161": 1.342101534838548
+    },
+    {
+      "condition": "human_random_repaired",
+      "seed": 202611090,
+      "fold": 0,
+      "loglik_difference_61_vs_161": 2.2737367544323206e-13
+    },
+    {
+      "condition": "human_random_repaired",
+      "seed": 202611090,
+      "fold": 1,
+      "loglik_difference_61_vs_161": 0.0
+    },
+    {
+      "condition": "human_random_repaired",
+      "seed": 202611090,
+      "fold": 2,
+      "loglik_difference_61_vs_161": 0.0
+    },
+    {
+      "condition": "human_random_repaired",
+      "seed": 202611090,
+      "fold": 3,
+      "loglik_difference_61_vs_161": 0.0
+    },
+    {
+      "condition": "human_random_repaired",
+      "seed": 202611090,
+      "fold": 4,
+      "loglik_difference_61_vs_161": 0.0
+    }
+  ],
+  "raw_records_changed": false,
+  "controls_presented_as_observations": false,
+  "formal_permutation_test": false
+}

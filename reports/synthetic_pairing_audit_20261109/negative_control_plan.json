@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-09",
+  "stage": "Exploratory originality audit; fixed before the new negative-control fits",
+  "question": "Is the re-pairing phenomenon unique to AI data, or an expected property of fitting panel models to differently grouped choices?",
+  "population": "The300 human-recruitment records only; the60 AI pretests do not enter these fits",
+  "conditions": ["original human training vectors", "human training answers independently re-paired within version and task", "human training answers rank-aligned by alternative within version and task"],
+  "random_seeds": [202611090,202611091,202611092,202611093,202611094,202611095,202611096,202611097,202611098,202611099],
+  "models": ["MNL_linear", "RI_linear", "spike_linear"],
+  "target": "Unchanged original held-out human vectors in the existing five folds",
+  "fixed_quantities": ["training sample size", "all task-by-version alternative counts", "menus and covariates", "original human held-out data"],
+  "rank_alignment_role": "Deliberately constructed dependence stress control, not observed behavior or a proposed data repair",
+  "checks": ["MNL objective/gradient invariance", "all fixed margins", "optimization diagnostics and bounds", "higher-node quadrature check for representative fitted random-intercept parameters"],
+  "interpretation": "A large generic response to re-grouping cannot establish AI-specific originality. A small random-human effect does not prove AI specificity; the source groups have different margins and constructions. No permutation p-value or independent-human replication claim.",
+  "stopping_rule": "Retain every fixed control and fit. Assess the incremental contribution against primary literature; do not label standard panel likelihood behavior a new theory."
+}

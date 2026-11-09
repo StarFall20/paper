@@ -97,19 +97,44 @@ The positive same-fee package association has intervals above zero in ordinary a
 App fees, privacy, sharing and usage-history heterogeneity have close prior applications, including [Nittas et al. (2020)](https://www.jmir.org/2020/11/e18889/) and [Xie and Or (2023)](https://mhealth.jmir.org/2023/1/e25908/). The current positive package estimate is retained as an application result. It does not by itself establish an independently innovative JOCM submission. Applicable recruitment, consent and research statements must follow the actual materials, with no invented approval.
 '''
     (primary/'human_application_draft.md').write_text(prose(human_note))
+    negative_path=pair/'human_negative_control_validated_summary.csv'
+    negative_section=''
+    negative_abstract=''
+    originality_status='Independent originality and submission readiness remain under assessment.'
+    if negative_path.exists():
+        negative=pd.read_csv(negative_path)
+        high=json.loads((pair/'human_rank_alignment_quadrature_audit.json').read_text())
+        assert high['all_five_boundary_stress_fits_validated']
+        negative_pretty=negative.groupby(['condition','model'],as_index=False).agg(mean=('joint_nll_per_choice','mean'),min=('joint_nll_per_choice','min'),max=('joint_nll_per_choice','max'))
+        negative_pretty=negative_pretty.rename(columns={'condition':'Human training control','model':'Model','mean':'Mean human joint NLL','min':'Minimum','max':'Maximum'}).replace({'Human training control':{'human_original':'Original human vectors','human_random_repaired':'Randomly re-paired human answers','human_rank_aligned':'Rank-aligned human answers'},'Model':{'RI':'Random service intercept','spike':'Outside component'}})
+        negative_abstract=' Human-only fixed-margin controls reproduce the general sensitivity: deliberately rank-aligning human training answers worsens the same two panel scores to 1.220683 and 1.253002. The rank-aligned random-intercept fit reaches its prespecified upper bound. '
+        originality_status='Human negative controls and the closest literature do not support an independently new method. This case remains a research note; the JOCM submission objective is unachieved.'
+        negative_section=f'''## 5. Human negative controls
+
+We repeat the operation using only the 300 human-recruitment records. Original human test vectors remain fixed. Within each version and training fold, we either independently permute each task column using the same ten fixed seeds, or sort each task's alternatives into a common row order. Rank alignment is a deliberately extreme dependence stress control. All 55 additional fixed-margin controls preserve MNL's objective and gradient, within numerical precision.
+
+{table(negative_pretty)}
+
+Random human re-pairings give random-intercept scores from 1.030981 to 1.031772; the outside-component estimate remains at its near-zero lower bound. Rank alignment yields an outside-component mean weight of 0.236533 and human score 1.253002. Every rank-aligned random-intercept fit reaches the fixed upper log-standard-deviation bound of 2 (standard deviation 7.389056); its score is 1.220683. The boundary limits the interpretation of its magnitude. These constructed controls demonstrate generic dependence sensitivity and do not identify an AI-specific mechanism. Different source margins prevent the smaller random-human effect from establishing AI specificity.
+
+The initial 61-node quadrature was inadequate for the extreme rank-aligned random-intercept fits. Re-estimation at 1281 stable Gaussian nodes, checked against 2561, limits the maximum training log-likelihood discrepancy to 7.3e-7 and held-out discrepancy to 4.6e-7. Original 61-node stress results remain an audit trail; the validated table uses the higher-order fits. The human primary fits and original AI-pairing results are unchanged.
+
+'''
     case_note=f'''# AI pretest answer pairing and inferred participation heterogeneity: a health-service DCE case audit
 
-*Exploratory research manuscript, 9 November 2026. A bounded computational case study; independent novelty and submission readiness remain under assessment.*
+*Exploratory case record, 9 November 2026. {originality_status}*
 
 ## Abstract
 
-Synthetic pretest responses may enter a panel choice dataset with dependence patterns that differ from human submissions. We audit300 human-recruitment records and60 platform AI-pretest records, each containing eight health-service choices. All AI vectors select one option throughout; none of the human vectors do. Adding the original AI batch worsens human-target joint negative log scores from1.031899 to1.064631 for a random service-intercept model and from1.031745 to1.049832 for an outside-component model. A computational control re-pairs only training AI answers within version and task, preserving every task's choice counts. Ordinary MNL estimates and human predictions remain invariant. Across ten fixed re-pairings, human-target scores average1.044161 and1.042139 for the two panel models; the fitted outside weight falls from11.66% to1.14%. Thus the pairing of synthetic answers changes inferred heterogeneity and predictive performance at fixed margins. The result concerns one pretest deployment and does not establish a general AI-generator mechanism.
+Synthetic pretest responses may enter a panel choice dataset with dependence patterns that differ from human submissions. We audit300 human-recruitment records and60 platform AI-pretest records, each containing eight health-service choices. All AI vectors select one option throughout; none of the human vectors do. Adding the original AI batch worsens human-target joint negative log scores from1.031899 to1.064631 for a random service-intercept model and from1.031745 to1.049832 for an outside-component model. A computational control re-pairs only training AI answers within version and task, preserving every task's choice counts. Ordinary MNL estimates and human predictions remain invariant. Across ten fixed re-pairings, human-target scores average1.044161 and1.042139 for the two panel models; the fitted outside weight falls from11.66% to1.14%.{negative_abstract}The empirical result concerns sensitivity in one pretest deployment.
 
 ## 1. Question
 
 Panel choice models use the joint sequence of an individual's answers. AI pretests provide complete answer vectors whose joint structure can differ from human submissions. The question here is what changes in panel estimation when synthetic answer pairing changes and every observed task margin remains fixed.
 
-Recent DCE work already compares synthetic and human choices, including utility-scale differences and pretest design uses. [Califano and Caracciolo (2026)](https://doi.org/10.1016/j.foodqual.2026.105930) supplies a close comparison across three food DCEs. [Barrie and Cerina's2026 working paper](https://csmapnyu.org/research/academic-research) also documents dependence differences in synthetic survey belief systems. Non-trading rules are established in [Kazagli and de Lapparent (2023)](https://doi.org/10.1016/j.jocm.2023.100413). The present operation isolates the consequence of answer pairing for specified panel choice models and a human prediction target. It is not a new conditioning theorem or a first claim that synthetic answers differ from humans.
+Recent DCE work already compares synthetic and human choices, including utility-scale differences and pretest design uses. [Califano and Caracciolo (2026)](https://doi.org/10.1016/j.foodqual.2026.105930) supplies a close comparison across three food DCEs. [Barrie and Cerina's2026 working paper](https://csmapnyu.org/research/academic-research) also documents dependence differences in synthetic survey belief systems. Non-trading rules are established in [Kazagli and de Lapparent (2023)](https://doi.org/10.1016/j.jocm.2023.100413).
+
+[Doudkin (2026), Appendix A.8](https://arxiv.org/html/2609.07305v1), already shuffles synthetic probability columns across personas before realizing multiselect responses. Our control fixes realized DCE counts exactly and measures downstream panel estimation. This is a case-specific extension of a close control idea. The dependence itself follows the sequence likelihood in [Train (2009), Section 6.7](https://eml.berkeley.edu/books/choice2nd/Ch06_p134-150.pdf).
 
 ## 2. Data and source definition
 
@@ -139,11 +164,13 @@ Re-pairing changes none of MNL's task counts or human predictions. It reduces th
 
 The remaining human loss after re-pairing shows that changing dependence does not make the AI margins a suitable human data source. The computational comparison isolates one sensitivity of panel estimates; it does not authorize pooling repaired AI records into human inference.
 
-## 5. Interpretation and scope
+{negative_section}## 6. Interpretation and scope
 
 This case distinguishes task margins, answer pairing and the prediction population. The fitted heterogeneity from mixed records partly represents the construction of the synthetic pretest batch. A corresponding improvement on a mixed validation target does not establish improved human preference recovery.
 
-Ten re-pairings measure sensitivity to the stated operation, without a permutation p-value or a claim of ten independent AI deployments. The questionnaire, service and two batches are fixed. Unreported generator settings, convenience recruitment and reused folds limit transfer. The note's proposed empirical contribution is the measured panel-estimation consequence at exactly preserved margins. Its difference from existing synthetic-response and non-trading studies requires continued assessment; no worldwide-priority or acceptance claim is made.
+The case quantifies a downstream consequence for this questionnaire. Known panel-likelihood dependence, the close synthetic shuffle precedent and the human negative controls remove the basis for presenting the operation as an independent methodological innovation. Its present role is an exploratory case record alongside the corrected human application.
+
+Ten re-pairings measure procedural sensitivity. The questionnaire, service and two batches are fixed. Unreported generator settings, convenience recruitment and reused folds limit transfer. The computational controls support neither a permutation p-value nor an inference across ten independent AI deployments. A submission contribution still needs a substantive choice-research finding beyond these generic sensitivities.
 
 ## Reproducibility
 
@@ -172,7 +199,7 @@ The package contains source classification, the fixed plan, aggregate fold score
 
 配对前后样本量、每题选项人数、版本组成和费用—共享规则菜单均相同。MNL的人类留出预测精确不变。这给“跨题组合影响面板模型”的解释提供了直接计算证据。重新配对并未让AI数据变成真人数据；其余误差仍在，修复AI答卷后用于真人估计不是本研究的建议。
 
-## 创新点如何表述
+## 创新性复审前的候选定位
 
 目前更具体的研究候选是：**AI预测试的答案配对结构，能够在边际选择计数不变时改变面板异质性与模型排名，混合来源验证会掩盖对真人预测的损失。**问题和对照来自同一份数据中的原生矛盾，未将旧充分性框架重新拼装为理论。
 
@@ -183,6 +210,30 @@ The package contains source classification, the fixed plan, aggregate fold score
 问卷发布档案还包含逐题渲染的服务卡，记录每版上传8张卡片。AI服务实际获得了哪些卡片内容、以什么形式获得，尚无记录。固定回答也可能涉及内容读取或解析等流程问题，不能直接归因为AI的偏好机制；这不影响已经标明的配对计算对照，但限制了它的技术解释。
 
 原始文件未变，个人信息和派生逐条答卷不进入公开包。英文稿见`pairing_case_manuscript.md`；真人应用稿与样本口径见[真人主分析](../human_primary_20261109/真人主分析与来源纠正.md)。
+'''
+    if negative_path.exists():
+        prefix=chinese.split('## 创新性复审前的候选定位')[0]
+        chinese=prefix+'''## 真人负对照与创新性复审
+
+仅用300条真人来源记录，保持每题、每版、每折的选项人数不变，再做10次随机重配及一次按选项排序的极端对齐。真人留出答卷始终保持原状。新增55组边际不变检查全部通过。
+
+| 真人训练条件 | 普通MNL | 随机服务截距 | 全程不购买成分 |
+| --- | --- | --- | --- |
+| 原始真人答卷 | 1.031745 | 1.031899 | 1.031745 |
+| 随机重配，10次均值 | 1.031745 | 1.031470 | 1.031745 |
+| 按选项极端对齐 | 1.031745 | 1.220683 | 1.253002 |
+
+极端对齐是人为构造的压力对照。它使不购买成分的平均权重升至23.65%。随机截距的5折估计全部触及预定上界，标准差7.389；这不是无约束总体异质性估计。其初始61节点积分存在误差，已用1281节点重估并以2561节点核验，训练总对数似然最大差异小于7.3×10⁻⁷。表中采用核验后的分数，原始低精度结果另存为排查记录。
+
+真人数据也能出现这种现象，说明面板模型对跨题配对的敏感性具有一般性。真人随机重配的影响较小，也不能证明AI专属性，因为两类来源的边际和构造不同。
+
+最近文献进一步收紧了增量：[Doudkin（2026）附录A.8](https://arxiv.org/html/2609.07305v1)已有保持概率边际的个体重排；本案固定的是已实现的DCE选择计数，考察的是后续面板估计。两者保留差别，但重排思路本身已有接近先例。[Train第6.7节](https://eml.berkeley.edu/books/choice2nd/Ch06_p134-150.pdf)给出了面板序列似然的经典来源。
+
+**当前决定：保留该案例审计，撤回把配对操作作为独立新方法的定位；尚未达到用户要求的独立创新与投稿完成条件。**不再通过给已知敏感性命名、增加模型或挑选结果来包装贡献。详细比对见[创新性复审](originality_review_20261109.md)。
+
+问卷发布档案记录每版上传8张服务卡。AI服务获得这些卡片的具体方式仍无记录，固定回答的流程原因尚未识别。平台明确将AI样本定位为预测试，本案审计也限于这一部署。10次配对均为计算敏感性安排。
+
+原始360条记录未变。真人主分析继续使用300条；60条AI预测试独立保存。英文案例记录见`pairing_case_manuscript.md`；真人主结果见[来源纠正与真人主分析](../human_primary_20261109/真人主分析与来源纠正.md)。
 '''
     (pair/'AI预测试配对审计.md').write_text(chinese)
     for folder,kind in [(primary,'human primary estimation'),(pair,'fixed synthetic-pretest computational control')]:
@@ -197,6 +248,8 @@ threadpoolctl. Raw exports and existing folds remain private.
 
 ```sh
 python analysis/dh36_human_and_pairing_audit.py --input-dir "$PRIVATE_DIR" --instrument survey/public_dh36/instrument.json --folds "$PRIVATE_DIR/ideal_cv_folds_private.csv" --classification data/dh36_source_classification.json --primary-out reports/human_primary_20261109 --pairing-out reports/synthetic_pairing_audit_20261109
+python analysis/pairing_negative_controls.py --input-dir "$PRIVATE_DIR" --instrument survey/public_dh36/instrument.json --folds "$PRIVATE_DIR/ideal_cv_folds_private.csv" --out reports/synthetic_pairing_audit_20261109
+python analysis/pairing_quadrature_audit.py --input-dir "$PRIVATE_DIR" --instrument survey/public_dh36/instrument.json --folds "$PRIVATE_DIR/ideal_cv_folds_private.csv" --out reports/synthetic_pairing_audit_20261109
 python analysis/write_human_ai_revision_report.py --primary-out reports/human_primary_20261109 --pairing-out reports/synthetic_pairing_audit_20261109 --classification data/dh36_source_classification.json
 ```
 
@@ -205,6 +258,20 @@ uses reused internal whole-record folds. Re-pairings are labelled controls,
 not observations or a proposal to replace humans. Their ranges are procedural
 sensitivity, not confidence intervals or formal permutation tests. No new
 AI-generation task, sample purchase or human fielding was performed.
+
+Human negative controls use the independently fixed plan in
+`reports/synthetic_pairing_audit_20261109/negative_control_plan.json`.
+All negative-control output filenames below refer to that same result directory.
+For rank-aligned RI stress results, use `human_negative_control_validated_summary.csv`
+and `human_rank_alignment_quadrature_audit.json`. The initial 61-node stress
+outputs are retained as a numerical audit trail and are superseded for those five
+boundary fits. The rank-aligned standard deviation reaches its fixed upper bound;
+its magnitude is a constrained stress result. Primary human and AI fits are unchanged.
+
+The updated originality decision is in
+`reports/synthetic_pairing_audit_20261109/originality_review_20261109.md`.
+This case is not currently presented as an independent new method or a completed
+JOCM submission.
 ''')
     plt.rcParams.update({'svg.fonttype':'none','font.size':10})
     fig,ax=plt.subplots(figsize=(8.3,4.2));labels=['MNL','Random service intercept','Outside component'];keys=['MNL_linear','RI_linear','spike_linear'];pos=np.arange(3)

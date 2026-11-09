@@ -3,7 +3,7 @@
   "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
   "source_definition_blocker": "resolved by the researcher-supplied explicit service description",
   "previous_goal_turn": "Source-definition impasse; original publication objective remained unachieved",
-  "current_turn": "Progress:60 AI pretests classified separately;300 human primary models re-estimated;50 exact marginal controls and human-target predictions completed; current manuscripts and source metadata corrected",
+  "current_turn": "Human-only negative controls and closest primary literature audited; artificial boundary fits repaired with higher-order quadrature; independent-method positioning withdrawn; corrected300-record human analysis retained",
   "completion_proven": false,
   "requirements": [
     {
@@ -26,27 +26,33 @@
     },
     {
       "requirement": "An identified contribution with independent originality and practical value",
-      "state": "specific_case_candidate_supported_originality_and_submission_threshold_unproven",
+      "state": "independent_method_claim_not_supported_case_retained",
       "evidence": [
-        "human_target_prediction.csv",
-        "exact_marginal_controls.csv",
+        "originality_review_20261109.md",
+        "human_negative_control_validated_summary.csv",
+        "human_rank_alignment_quadrature_audit.json",
         "pairing_case_manuscript.md"
       ],
-      "finding": "The explicit computational re-pairing changes inferred participation heterogeneity and human-target prediction at fixed task margins. Existing synthetic DCE, dependence and non-trading studies are close prior work. Standard MNL invariance and classical mixtures are not claimed as new theory."
+      "finding": "Generic panel-likelihood dependence, a close synthetic-shuffle precedent in Doudkin2026 AppendixA.8, and human-only dependence stress controls prevent claiming a new independent method. Exactly fixed realized DCE counts and downstream estimation are case-specific differences, not proof of a sufficient innovative application."
     },
     {
       "requirement": "Evidence matched to the actual claim",
-      "state": "fixed_case_computational_claim_supported_broader_generator_or_population_claims_not_established",
-      "finding": "The operation changes only training AI answer pairing. Ten controls are sensitivity arrangements, not ten AI deployments or a formal permutation test. AI generator settings and prompts are unavailable. No human-versus-AI recruitment causal inference is claimed."
+      "state": "bounded_computational_case_supported_AI_specific_mechanism_unidentified",
+      "finding": "All55 additional human fixed-margin controls pass. Extreme rank-aligned RI fits hit the prespecified upper bound; initial61-node results fail quadrature precision and are superseded by1281-node estimates verified at2561. The primary human and AI results are unchanged. Generator input representation and settings remain unknown, without reopening resolved source classification."
     },
     {
       "requirement": "Coherent submission manuscript, appendices and materials",
       "state": "current_exploratory_manuscripts_and_reproduction_materials_updated_final_submission_package_not_ready",
-      "finding": "The sources and analytic populations are now coherent. A publication claim needs continued novelty assessment; actual author/recruitment/consent statements cannot be invented."
+      "finding": "Exploratory manuscripts, code, aggregate controls, numerical repair records and literature comparison are updated. A sufficient submission contribution and actual recruitment/consent/research statements remain to be established."
     }
   ],
   "new_AI_generation_sample_purchase_or_fielding": false,
   "raw_records_rewritten_or_deleted": false,
   "original_objective_preserved": true,
-  "next_work": "Assess the specific fixed-margin panel consequence against the closest synthetic-choice and dependence literature, while retaining the corrected300-record human application."
+  "next_work": "Require a substantive unresolved choice-research question and a defensible identification argument before further model building; retain the300-record human application and the bounded AI-pretest case. Additional models or a new framework name do not establish innovation.",
+  "closest_source_review": {
+    "Doudkin2026": "arxiv2609.07305v1, AppendixA.8; source probability columns shuffled before categorical realization; no equivalence to exact realized counts asserted",
+    "Train2009": "Chapter6 Section6.7 panel likelihood",
+    "systematic_Scopus_Google_Scholar_review_completed": false
+  }
 }

@@ -4,7 +4,7 @@ The source-definition barrier is resolved. The researcher supplied the exact pla
 
 ## Correct analysis populations
 
-- **Human primary analysis:**300 human-recruitment records,150 per version,2400 choices. These use ordinary submission metadata and the recruitment report; demographic representativeness and all eligibility claims are not certified.
+- **Human primary analysis:** 300 human-recruitment records, 150 per version,2400 choices. These use ordinary submission metadata and the recruitment report; demographic representativeness and all eligibility claims are not certified.
 - **AI pretest records:**60,30 per version. They do not enter human preference estimates, human sample size or human significance evidence.
 - **Original mixed export:**360 records preserved unchanged. Earlier pooled fits are historical mixed-source diagnostics, not 360 human respondents.
 
@@ -12,24 +12,30 @@ The canonical definition is [data/dh36_source_classification.json](data/dh36_sou
 
 ## Completed human primary reconstruction
 
-The [human-primary report](reports/human_primary_20261109/真人主分析与来源纠正.md) re-estimates ordinary and random-intercept models with linear fees or free observed fee-rule cells. Whole-record folds are retained. Human joint NLL per choice is1.031745 for ordinary linear fees and 1.031899 for a normal random intercept; increased flexibility does not improve the current human prediction target.
+The [human-primary report](reports/human_primary_20261109/真人主分析与来源纠正.md) re-estimates ordinary and random-intercept models with linear fees or free observed fee-rule cells. Whole-record folds are retained. Human joint NLL per choice is 1.031745 for ordinary linear fees and 1.031899 for a normal random intercept; increased flexibility does not improve the current human prediction target.
 
 At CNY 89, ordinary free cells estimate G2–G1 at 0.503 with interval[0.029,0.977]; random-intercept cells give 0.499,[0.024,0.975]. Conditional A/B gives 0.787,[-0.184,1.759]. The early-record 299 sensitivity remains reported without declaring that record invalid. These are exploratory model-conditional package comparisons, not pure-control effects or established WTP.
 
 The [current human application draft](manuscript/human_service_choice_application_20261109.md) uses 300 records. Different recruitment channels administered one version each, without a retained assignment log; no causal version effect is claimed.
 
-## Current research candidate: AI-pretest answer pairing
+## AI-pretest answer pairing: retained case, independent-method positioning withdrawn
 
 The [computational audit](reports/synthetic_pairing_audit_20261109/AI预测试配对审计.md) fixes human training/test vectors, menus, AI counts and every training task-by-version choice count. It re-pairs only AI training answers. All 50 exact marginal controls pass. For the specified MNL, coefficient point estimates and human predictions remain invariant; clustered uncertainty is not asserted invariant.
 
-With original AI pretests added, human-target joint NLL is1.064631 for a random service intercept and 1.049832 for the outside component. Across ten fixed re-pairings, means are 1.044161 and 1.042139. Mean outside weight drops from 11.66% to 1.14% at unchanged margins. These are consequences of the defined data operation, not a change in human tastes or ten independent AI batches.
+With original AI pretests added, human-target joint NLL is 1.064631 for a random service intercept and 1.049832 for the outside component. Across ten fixed re-pairings, means are 1.044161 and 1.042139. Mean outside weight drops from 11.66% to 1.14% at unchanged margins. These are consequences of the defined data operation, not a change in human tastes or ten independent AI batches.
 
 The [current case manuscript](manuscript/ai_pretest_pairing_audit_20261109.md) develops this specific consequence for inferred participation heterogeneity and human prediction. AI pretests are not proposed as replacement respondents. The service is explicitly intended for pretesting; the note does not claim the provider promotes population inference from them.
+
+## Human negative controls and numerical repair
+
+The300 human-recruitment records alone supply55 additional fixed-margin controls. Independent task re-pairing leaves MNL unchanged and has a small effect on the random intercept. A deliberately extreme rank alignment gives human joint NLL1.220683 for the random intercept and1.253002 for the outside component, while MNL stays1.031745. Different source margins prevent an AI-specific causal interpretation of effect magnitudes.
+
+All five extreme random-intercept fits hit the fixed standard-deviation upper bound7.389056. Their initial61-node quadrature was inadequate. Re-estimation at1281 nodes and verification at2561 reduce maximum training log-likelihood discrepancy below7.3e-7. Use `human_negative_control_validated_summary.csv`; lower-order stress outputs remain an audit trail. These repairs do not change the primary human analysis or original AI-pairing results.
 
 ## Innovation and submission decision
 
 The original fibre-information/rank claim coincides with classical lack-of-fit constructions and remains retired. [Equivalence proof](reports/method_decision_20261109/classical_equivalence_proof.md).
 
-The fixed-margin case is a more precise empirical candidate. Synthetic human-choice comparisons, synthetic dependence failures and non-trading rules already have relevant precedents. MNL invariance, conditioning and classical mixtures are tools, not newly named theories. Independent originality and a sufficient JOCM contribution remain to be established. The goal is not declared complete; see the [current completion assessment](reports/synthetic_pairing_audit_20261109/completion_assessment.json).
+The [updated originality review](reports/synthetic_pairing_audit_20261109/originality_review_20261109.md) checks the closest synthetic shuffle precedent and the classical panel likelihood. Human-only fixed-margin stress controls also change panel estimates. This is generic dependence sensitivity. The exact realized DCE margins and downstream estimation remain case-specific differences; they do not establish an independent new method. The case record is retained and its independent-method positioning withdrawn. A sufficient innovative application remains unproven. The goal is not complete; see the [completion assessment](reports/synthetic_pairing_audit_20261109/completion_assessment.json).
 
 All raw records remain private and unchanged. No new questionnaire, AI generation, purchase or external message was made. Historical drafts have supersession notices; they retain their prior information state and numerical results. Current reproduction starts from the new human-primary and pairing-audit READMEs.

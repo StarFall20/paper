@@ -1,0 +1,353 @@
+{
+  "reason": "61-versus-161 discrepancies of 1.33 to 4.52 total training log likelihood units in artificial rank-aligned RI fits",
+  "original_61_node_outputs_retained": true,
+  "fits": [
+    {
+      "fold": 0,
+      "beta": [
+        3.4815430120217763,
+        3.3154835285010753,
+        -0.2471639164949909,
+        -0.1772839697727174,
+        0.2750772342082346,
+        -0.3885328473562115,
+        -0.6505192957542691,
+        2.0
+      ],
+      "fit": {
+        "nodes": 1281,
+        "loglik": -1256.8630701297707,
+        "solver_success": true,
+        "projected_gradient_max": 7.96398655517061e-06,
+        "at_bound": [
+          7
+        ],
+        "bounds": [
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -5,
+            2
+          ]
+        ],
+        "start_logliks": [
+          -1256.863070129774,
+          -1256.8630701297743,
+          -1256.8630701297707,
+          -1256.8630701297743
+        ]
+      },
+      "service_intercept_sd": 7.38905609893065,
+      "verification_nodes": 2561,
+      "training_loglik_absolute_difference": 6.332593329716474e-07,
+      "heldout_loglik_absolute_difference": 3.235463736928068e-07,
+      "marginal_probability_max_difference": 4.196643033083092e-14,
+      "refusal_probability_max_difference": 3.422003170411303e-09,
+      "interpretation": "Constrained artificial stress fit; do not interpret as an unconstrained population heterogeneity estimate"
+    },
+    {
+      "fold": 1,
+      "beta": [
+        3.086564100512957,
+        2.9316359211484078,
+        -0.24846416801196022,
+        -0.27908890975976075,
+        0.22585300322294669,
+        -0.2709699984543789,
+        -0.49863538396853974,
+        2.0
+      ],
+      "fit": {
+        "nodes": 1281,
+        "loglik": -1208.777102000188,
+        "solver_success": true,
+        "projected_gradient_max": 9.39676880357121e-06,
+        "at_bound": [
+          7
+        ],
+        "bounds": [
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -5,
+            2
+          ]
+        ],
+        "start_logliks": [
+          -1208.777102000191,
+          -1208.777102000196,
+          -1208.777102000188,
+          -1208.7771020001883
+        ]
+      },
+      "service_intercept_sd": 7.38905609893065,
+      "verification_nodes": 2561,
+      "training_loglik_absolute_difference": 1.446144324290799e-07,
+      "heldout_loglik_absolute_difference": 1.733748149490566e-07,
+      "marginal_probability_max_difference": 3.858025010572419e-14,
+      "refusal_probability_max_difference": 2.8882360322834977e-09,
+      "interpretation": "Constrained artificial stress fit; do not interpret as an unconstrained population heterogeneity estimate"
+    },
+    {
+      "fold": 2,
+      "beta": [
+        3.2680182130079016,
+        3.145289109228655,
+        -0.25775564487515656,
+        -0.2489128149249703,
+        0.19466180780838857,
+        -0.37473363957427525,
+        -0.7175121974002217,
+        2.0
+      ],
+      "fit": {
+        "nodes": 1281,
+        "loglik": -1213.0301487122672,
+        "solver_success": true,
+        "projected_gradient_max": 4.7128719804501173e-07,
+        "at_bound": [
+          7
+        ],
+        "bounds": [
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -5,
+            2
+          ]
+        ],
+        "start_logliks": [
+          -1213.0301487123565,
+          -1213.0301487122679,
+          -1213.0301487122672,
+          -1213.0301487122697
+        ]
+      },
+      "service_intercept_sd": 7.38905609893065,
+      "verification_nodes": 2561,
+      "training_loglik_absolute_difference": 2.8014983399771154e-07,
+      "heldout_loglik_absolute_difference": 3.588972958823433e-07,
+      "marginal_probability_max_difference": 4.0190073491430667e-14,
+      "refusal_probability_max_difference": 3.0068981263231542e-09,
+      "interpretation": "Constrained artificial stress fit; do not interpret as an unconstrained population heterogeneity estimate"
+    },
+    {
+      "fold": 3,
+      "beta": [
+        3.04575980680454,
+        2.8572946799170245,
+        -0.2577424089621221,
+        -0.24628501209913217,
+        0.18244441973755374,
+        -0.09418639338032114,
+        -0.39048870586418927,
+        2.0
+      ],
+      "fit": {
+        "nodes": 1281,
+        "loglik": -1270.2242917674057,
+        "solver_success": true,
+        "projected_gradient_max": 1.2176711454425782e-05,
+        "at_bound": [
+          7
+        ],
+        "bounds": [
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -5,
+            2
+          ]
+        ],
+        "start_logliks": [
+          -1270.2242917674096,
+          -1270.224291767406,
+          -1270.2242917674082,
+          -1270.2242917674057
+        ]
+      },
+      "service_intercept_sd": 7.38905609893065,
+      "verification_nodes": 2561,
+      "training_loglik_absolute_difference": 7.247424491652055e-07,
+      "heldout_loglik_absolute_difference": 1.2536327176349005e-07,
+      "marginal_probability_max_difference": 4.374278717023117e-14,
+      "refusal_probability_max_difference": 3.394586327309934e-09,
+      "interpretation": "Constrained artificial stress fit; do not interpret as an unconstrained population heterogeneity estimate"
+    },
+    {
+      "fold": 4,
+      "beta": [
+        2.9408507126660277,
+        2.7340622596749617,
+        -0.25456567849851697,
+        -0.2116082007302465,
+        0.2811909258543658,
+        -0.423117010748403,
+        -0.675661912022771,
+        2.0
+      ],
+      "fit": {
+        "nodes": 1281,
+        "loglik": -1255.51479270948,
+        "solver_success": true,
+        "projected_gradient_max": 7.5245166374360295e-06,
+        "at_bound": [
+          7
+        ],
+        "bounds": [
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -12.0,
+            12.0
+          ],
+          [
+            -5,
+            2
+          ]
+        ],
+        "start_logliks": [
+          -1255.5147927094808,
+          -1255.51479270948,
+          -1255.5147927094945,
+          -1255.51479270948
+        ]
+      },
+      "service_intercept_sd": 7.38905609893065,
+      "verification_nodes": 2561,
+      "training_loglik_absolute_difference": 7.286976142495405e-07,
+      "heldout_loglik_absolute_difference": 4.500660111261823e-07,
+      "marginal_probability_max_difference": 4.313216450668733e-14,
+      "refusal_probability_max_difference": 2.88622199404176e-09,
+      "interpretation": "Constrained artificial stress fit; do not interpret as an unconstrained population heterogeneity estimate"
+    }
+  ],
+  "all_five_boundary_stress_fits_validated": true,
+  "AI_or_primary_human_fits_changed": false
+}
