@@ -32,6 +32,7 @@ def main():
     tech=json.loads((out/'technical_verification.json').read_text()); panel=json.loads((out/'random_intercept_model_validation.json').read_text())
     exact=json.loads((out/'exact_marginal_validation.json').read_text())
     exact_tasks=pd.read_csv(out/'exact_marginal_task_tests.csv')
+    closure=json.loads((out/'closure_audit_verification.json').read_text()) if (out/'closure_audit_verification.json').exists() else None
     assert len(power)==60 and len(cal)==12 and len(tests)==3 and len(cv)==3
     assert power.power_or_size.between(0,1).all() and cal.rejection_rate.between(0,1).all()
     assert all(np.isfinite(df.select_dtypes(include='number').to_numpy()).all() for df in [power,cal,cv,co])
@@ -111,6 +112,11 @@ def main():
     '技术校验通过意味着实现满足列出的数值和代数检查；它不等于来源核实、原假设为真、模型全局正确、原创性成立或期刊接收。逐项完成状态见claim_and_completion_audit.csv。',
     '## 方法来源',
     '置换的联合原假设与参数弱原假设区分参照[Chung与Romano（2013）](https://arxiv.org/abs/1304.5939)。面板选择的混合积分采用[Train的Discrete Choice Methods with Simulation](https://emlab.berkeley.edu/books/choice2.html)中的标准建模思路。随机森林实现参照[scikit-learn文档](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)，扩展模型Sobol积分参照[SciPy文档](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.qmc.Sobol.html)。这些引用说明方法来源，不构成本文优先权证据。']
+    if closure is not None:
+        lines += ['## 三分类理论和属性结构的收尾核查',
+                  '收尾核查直接对8个三分类纤维建立17×17 Fisher信息矩阵，分别检查平衡、不平衡权重及原假设内部方向。Schur补与 E[κVar(h|φ)] 一致，另用5个幅度验证剖面KL二阶系数。所有四种情景通过；这说明公式在所检验模型中的实现正确，未提供新的原创性证据。',
+                  '两版所有A、B服务的原始属性变化均为(1,−1,1,−1)，只张成一个原始属性方向。同质加性模型只能识别β_D−β_S+β_I−β_E；9列原始数值属性设计秩为6。现有参数模型的信号主要位于A对B相对偏好，不能据此分离四项属性或确认机制。这个事后分解不替代整体、精确边际和留出检验。',
+                  '本例保持加权候选摘要的条件为w_D=w_S且w_I=w_E。改变这些权重就改变原假设；9格权重审计只有等权格保留二点纤维。证书须相对于声明的候选摘要解释。详细结果见[三分类理论与结构收尾核查](三分类理论与结构收尾核查.md)。']
     blocks=[]
     for line in lines:
         if line.startswith('|') and blocks and blocks[-1].startswith('|'):
@@ -139,13 +145,16 @@ The evidence is borderline under the stronger joint exchangeability scenario and
 Permutation inference follows the distinction in [Chung and Romano (2013)](https://arxiv.org/abs/1304.5939); panel mixed logit follows [Train](https://emlab.berkeley.edu/books/choice2.html). Public aggregates reproduce the observed Wald statistic, but exact respondent-level permutations and integrated panel likelihoods require controlled access to the original response vectors. Raw exports and participant-level responses are not included in this release.
 '''
     (out/'conditional_empirical_section.md').write_text(eng)
+    if closure is not None:
+        extra='''\nA closure audit constructs the full 17-by-17 Fisher information for eight three-category fibres, with 16 unrestricted nuisance probability coordinates. Balanced and unequal within-fibre weights, phi-only directions and five profiled-KL amplitudes confirm the Schur-complement identity. This is a numerical check of standard nuisance projection, not an originality claim. All raw profile changes equal (1,-1,1,-1); the additive numerical-attribute design has rank six among nine columns and identifies only beta_D-beta_S+beta_I-beta_E beyond alternative constants. An exploratory decomposition places the restricted-model version signal mainly in relative A/B utility, not the common service/outside shift. This does not identify a behavioral mechanism or supersede the main tests. Weighted candidate preservation requires w_D=w_S and w_I=w_E; changing the candidate weights changes the target null. See the structural closure supplement for covariance-based contrasts and the nine-map scope audit.\n'''
+        (out/'conditional_empirical_section.md').write_text(eng+extra)
     import scipy,sklearn,openpyxl,threadpoolctl
     versions={'numpy':np.__version__,'pandas':pd.__version__,'scipy':scipy.__version__,
               'scikit-learn':sklearn.__version__,'matplotlib':matplotlib.__version__,
               'openpyxl':openpyxl.__version__,'threadpoolctl':threadpoolctl.__version__}
     (out/'requirements.txt').write_text(''.join(f'{name}=={version}\n' for name,version in versions.items()))
     source=Path(__file__).parent
-    for name in ['dh36_observational_analysis.py','dh36_panel_model.py','dh36_assumption_conditioned_validation.py','dh36_finalize_validation.py','dh36_exact_marginal_checks.py','dh36_report_validation.py']: shutil.copy2(source/name,out/name)
+    for name in ['dh36_observational_analysis.py','dh36_panel_model.py','dh36_assumption_conditioned_validation.py','dh36_finalize_validation.py','dh36_exact_marginal_checks.py','dh36_structural_closure_audit.py','dh36_report_validation.py']: shutil.copy2(source/name,out/name)
     shutil.copy2(args.instrument,out/'instrument.json')
     readme='''# DH36 ideal-assignment scenario: 2026-11-09
 
@@ -159,6 +168,7 @@ Python 3.12 and packages in requirements.txt are required. Place controlled raw 
 python dh36_assumption_conditioned_validation.py --input-dir PRIVATE --instrument instrument.json --out RESULTS --permutations 49999 --mc-repetitions 500 --calibration-permutations 199
 python dh36_finalize_validation.py --input-dir PRIVATE --instrument instrument.json --out RESULTS --permutations 999999 --null-repetitions 5000 --null-permutations 999 --power-repetitions 1000
 python dh36_exact_marginal_checks.py --input-dir PRIVATE --instrument instrument.json --out RESULTS
+python dh36_structural_closure_audit.py --input-dir PRIVATE --instrument instrument.json --out RESULTS
 python dh36_report_validation.py --input-dir PRIVATE --instrument instrument.json --out RESULTS
 ```
 
@@ -167,9 +177,12 @@ The first stage preserves exploratory numerical outputs. The second stage suppli
 Read randomization_tests_high_precision.csv, exact_marginal_task_tests.csv, independent_start_panel_joint_CV.csv, random_intercept_model_coefficients.csv, null_calibration_extended.csv and power_DGP_calibrated.csv for final results. Finite-sample exactness under joint exchangeability is stronger than the marginal sufficiency null. The exact taskwise Bonferroni/Holm analysis addresses the marginal null under arbitrary within-record dependence. Prospective power is conditional on a simulated DGP, not a guarantee for recruitment.
 
 All outputs are aggregate-only. aggregate_cluster_moments.json permits an independent reconstruction of the observed Wald statistic; it does not encode the full participant response distribution needed for exact permutations. Raw exports, IPs, timestamps, identifiers and individual answer vectors remain private. Files referencing private input directories describe required local inputs; those directories are intentionally not part of the release.
+
+The structural closure supplement checks multinomial nuisance information and profiled KL, the one-dimensional raw profile step, exploratory version-contrast decomposition and the scope of nine candidate maps. It does not alter the main null, the primary p-values or the original provenance.
 '''
     (out/'README.md').write_text(readme)
     check={'public_aggregate_Wald':w,'matches_full_sample_statistic':True,'power_cells':60,'extended_null_rows':12,'final_panel_CV_models':3,'raw_hashes_unchanged':final['raw_hashes_unchanged'],'numerical_scope':'listed models and checks only; no factual recruitment or priority certification','unsupported_claims_not_promoted':True}
+    if closure is not None: check['structural_closure']=closure
     js(out/'release_verification.json',check)
     manifest=[]
     for p in sorted(out.iterdir()):

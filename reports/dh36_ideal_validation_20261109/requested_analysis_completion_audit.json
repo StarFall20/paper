@@ -1,0 +1,43 @@
+{
+  "scope": "Analysis of all records as the same participant-type units under the requested ideal-assignment scenario; not alteration or factual certification of raw provenance.",
+  "requirements": [
+    {
+      "item": 1,
+      "requirement": "Pool all 360 records in the same analysis without source-defined model populations.",
+      "status": "complete",
+      "evidence": [
+        "360 records, 180 per version, 2880 choices; no exclusions",
+        "Model input contains choice codes and version only, no source-type variables",
+        "Perturbing all source metadata leaves every 5/7/10-parameter model design exactly unchanged"
+      ]
+    },
+    {
+      "item": 2,
+      "requirement": "Construct and validate models under ideal allocation without channel adjustment.",
+      "status": "complete as an explicit analysis assumption",
+      "evidence": [
+        "180:180 complete record-level allocation distribution",
+        "999999 full-record permutations; all eight responses move together",
+        "No channel regressors; independent record units are an assumed condition"
+      ]
+    },
+    {
+      "item": 3,
+      "requirement": "Complete modeling, tests, technical checks and determine whether results support the proposed claim.",
+      "status": "complete; core claim not stably confirmed",
+      "evidence": [
+        "Full MNL suite and boundary-repaired panel suite",
+        "Independent likelihood, gradient, Hessian, probability and recoding checks",
+        "Respondent-level CV with fixed starts and honest train/holdout comparison",
+        "Exact taskwise marginal tests and familywise correction",
+        "Three null scenarios x 5000 replicates and 60 hypothetical power cells",
+        "Three-category information Schur/KL verification, design geometry and candidate-map scope audit"
+      ]
+    }
+  ],
+  "requested_analysis_complete": true,
+  "claim_confirmed": false,
+  "raw_provenance_edited": false,
+  "actual_human_origin_or_actual_assignment_certified": false,
+  "completion_meaning": "The requested analysis and verdict are complete. It does not claim the hypothesis is true or the manuscript is submission-ready."
+}

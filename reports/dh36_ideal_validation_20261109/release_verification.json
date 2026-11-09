@@ -6,5 +6,18 @@
   "final_panel_CV_models": 3,
   "raw_hashes_unchanged": true,
   "numerical_scope": "listed models and checks only; no factual recruitment or priority certification",
-  "unsupported_claims_not_promoted": true
+  "unsupported_claims_not_promoted": true,
+  "structural_closure": {
+    "records_used": 360,
+    "source_subgroups_or_channel_covariates": false,
+    "multinomial_scenarios_checked": 4,
+    "profiled_KL_amplitudes_per_scenario": 5,
+    "weighted_candidate_maps_checked": 9,
+    "original_menu_shift_rank": 1,
+    "additive_raw_design_rank": 6,
+    "decomposition_parameter_covariances_published": true,
+    "raw_exports_unchanged": true,
+    "primary_test_results_changed": false,
+    "supports_confirmatory_core_claim": false
+  }
 }

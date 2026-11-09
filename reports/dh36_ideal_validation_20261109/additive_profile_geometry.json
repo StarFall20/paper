@@ -1,0 +1,18 @@
+{
+  "raw_step_all_16_alternatives": [
+    1,
+    -1,
+    1,
+    -1
+  ],
+  "step_span_rank": 1,
+  "raw_linear_design_columns": 9,
+  "raw_linear_design_rank": 6,
+  "identified_additive_raw_attribute_combination": "beta_D - beta_S + beta_I - beta_E",
+  "additive_model_version_prediction": "the same shift in A and B utility relative to outside; no version shift in conditional A/B odds",
+  "candidate_weight_preservation_conditions": [
+    "w_D = w_S",
+    "w_I = w_E"
+  ],
+  "interpretation": "Weights define different candidate maps and different nulls. Loss of fibres after changing the map is a scope fact, not a failed test of the original map."
+}

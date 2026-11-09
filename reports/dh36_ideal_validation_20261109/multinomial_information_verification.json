@@ -1,0 +1,186 @@
+{
+  "cases": [
+    {
+      "categories": 3,
+      "fibres": 8,
+      "support_points": 16,
+      "conditional_fibre_weights": "1/2 each",
+      "direction": "varies inside fibres",
+      "nuisance_probability_dimensions": 16,
+      "joint_Fisher_dimensions": 17,
+      "Schur_information": 0.0037663395227347804,
+      "E_kappa_conditional_variance": 0.0037663395227347804,
+      "absolute_difference": 0.0,
+      "profiled_KL_checks": [
+        {
+          "eta": 0.1,
+          "profiled_KL": 1.8823420927494018e-05,
+          "half_eta2_information": 1.8831697613673906e-05,
+          "ratio": 0.9995604917650186
+        },
+        {
+          "eta": 0.05,
+          "profiled_KL": 4.706863242105285e-06,
+          "half_eta2_information": 4.707924403418477e-06,
+          "ratio": 0.9997746010296128
+        },
+        {
+          "eta": 0.01,
+          "profiled_KL": 1.8830831636235863e-07,
+          "half_eta2_information": 1.8831697613673904e-07,
+          "ratio": 0.9999540149031805
+        },
+        {
+          "eta": 0.005,
+          "profiled_KL": 4.707815890894842e-08,
+          "half_eta2_information": 4.707924403418476e-08,
+          "ratio": 0.999976951090473
+        },
+        {
+          "eta": 0.001,
+          "profiled_KL": 1.8831610774449563e-09,
+          "half_eta2_information": 1.8831697613673903e-09,
+          "ratio": 0.9999953886672289
+        }
+      ],
+      "scope": "local categorical iid observation information; not a repeated-record NCP and not an originality certificate"
+    },
+    {
+      "categories": 3,
+      "fibres": 8,
+      "support_points": 16,
+      "conditional_fibre_weights": "1/2 each",
+      "direction": "function of phi only",
+      "nuisance_probability_dimensions": 16,
+      "joint_Fisher_dimensions": 17,
+      "Schur_information": 1.0842021724855044e-19,
+      "E_kappa_conditional_variance": 0.0,
+      "absolute_difference": 1.0842021724855044e-19,
+      "profiled_KL_checks": [
+        {
+          "eta": 0.1,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 0.0,
+          "ratio": null
+        },
+        {
+          "eta": 0.05,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 0.0,
+          "ratio": null
+        },
+        {
+          "eta": 0.01,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 0.0,
+          "ratio": null
+        },
+        {
+          "eta": 0.005,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 0.0,
+          "ratio": null
+        },
+        {
+          "eta": 0.001,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 0.0,
+          "ratio": null
+        }
+      ],
+      "scope": "local categorical iid observation information; not a repeated-record NCP and not an originality certificate"
+    },
+    {
+      "categories": 3,
+      "fibres": 8,
+      "support_points": 16,
+      "conditional_fibre_weights": "0.2 to 0.8",
+      "direction": "varies inside fibres",
+      "nuisance_probability_dimensions": 16,
+      "joint_Fisher_dimensions": 17,
+      "Schur_information": 0.003106343733587941,
+      "E_kappa_conditional_variance": 0.0031063437335879405,
+      "absolute_difference": 4.336808689942018e-19,
+      "profiled_KL_checks": [
+        {
+          "eta": 0.1,
+          "profiled_KL": 1.551010517143372e-05,
+          "half_eta2_information": 1.5531718667939704e-05,
+          "ratio": 0.9986084285346605
+        },
+        {
+          "eta": 0.05,
+          "profiled_KL": 3.880201270716682e-06,
+          "half_eta2_information": 3.882929666984926e-06,
+          "ratio": 0.9992973356454424
+        },
+        {
+          "eta": 0.01,
+          "profiled_KL": 1.5529518763747438e-07,
+          "half_eta2_information": 1.5531718667939703e-07,
+          "ratio": 0.9998583605433953
+        },
+        {
+          "eta": 0.005,
+          "profiled_KL": 3.8826544092595744e-08,
+          "half_eta2_information": 3.882929666984926e-08,
+          "ratio": 0.9999291108134943
+        },
+        {
+          "eta": 0.001,
+          "profiled_KL": 1.5531498318147071e-09,
+          "half_eta2_information": 1.5531718667939701e-09,
+          "ratio": 0.9999858129163075
+        }
+      ],
+      "scope": "local categorical iid observation information; not a repeated-record NCP and not an originality certificate"
+    },
+    {
+      "categories": 3,
+      "fibres": 8,
+      "support_points": 16,
+      "conditional_fibre_weights": "0.2 to 0.8",
+      "direction": "function of phi only",
+      "nuisance_probability_dimensions": 16,
+      "joint_Fisher_dimensions": 17,
+      "Schur_information": 0.0,
+      "E_kappa_conditional_variance": 8.011423105416282e-37,
+      "absolute_difference": 8.011423105416282e-37,
+      "profiled_KL_checks": [
+        {
+          "eta": 0.1,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 4.0057115527081416e-39,
+          "ratio": null
+        },
+        {
+          "eta": 0.05,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 1.0014278881770354e-39,
+          "ratio": null
+        },
+        {
+          "eta": 0.01,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 4.005711552708141e-41,
+          "ratio": null
+        },
+        {
+          "eta": 0.005,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 1.0014278881770353e-41,
+          "ratio": null
+        },
+        {
+          "eta": 0.001,
+          "profiled_KL": 0.0,
+          "half_eta2_information": 4.005711552708141e-43,
+          "ratio": null
+        }
+      ],
+      "scope": "local categorical iid observation information; not a repeated-record NCP and not an originality certificate"
+    }
+  ],
+  "all_algebra_and_KL_checks_passed": true,
+  "theory_status": "standard nuisance-projection identity; no claim of a new general theorem"
+}

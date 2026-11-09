@@ -10,6 +10,7 @@ Python 3.12 and packages in requirements.txt are required. Place controlled raw 
 python dh36_assumption_conditioned_validation.py --input-dir PRIVATE --instrument instrument.json --out RESULTS --permutations 49999 --mc-repetitions 500 --calibration-permutations 199
 python dh36_finalize_validation.py --input-dir PRIVATE --instrument instrument.json --out RESULTS --permutations 999999 --null-repetitions 5000 --null-permutations 999 --power-repetitions 1000
 python dh36_exact_marginal_checks.py --input-dir PRIVATE --instrument instrument.json --out RESULTS
+python dh36_structural_closure_audit.py --input-dir PRIVATE --instrument instrument.json --out RESULTS
 python dh36_report_validation.py --input-dir PRIVATE --instrument instrument.json --out RESULTS
 ```
 
@@ -18,3 +19,5 @@ The first stage preserves exploratory numerical outputs. The second stage suppli
 Read randomization_tests_high_precision.csv, exact_marginal_task_tests.csv, independent_start_panel_joint_CV.csv, random_intercept_model_coefficients.csv, null_calibration_extended.csv and power_DGP_calibrated.csv for final results. Finite-sample exactness under joint exchangeability is stronger than the marginal sufficiency null. The exact taskwise Bonferroni/Holm analysis addresses the marginal null under arbitrary within-record dependence. Prospective power is conditional on a simulated DGP, not a guarantee for recruitment.
 
 All outputs are aggregate-only. aggregate_cluster_moments.json permits an independent reconstruction of the observed Wald statistic; it does not encode the full participant response distribution needed for exact permutations. Raw exports, IPs, timestamps, identifiers and individual answer vectors remain private. Files referencing private input directories describe required local inputs; those directories are intentionally not part of the release.
+
+The structural closure supplement checks multinomial nuisance information and profiled KL, the one-dimensional raw profile step, exploratory version-contrast decomposition and the scope of nine candidate maps. It does not alter the main null, the primary p-values or the original provenance.
