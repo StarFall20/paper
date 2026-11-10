@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "goal_complete": false,
-  "decision": "Balanced simultaneous power theorem,exact classical special-case attribution and choice-loss consequence integrated;continue full-model contribution audit",
+  "decision": "Full signal/intercept all-power boundary and strict ordinary-logit existence gain integrated;contribution sufficiency and journal submission audit remain active",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,9 +17,9 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "full_compensated_boundary_and_balanced_all_power_theorem_contribution_sufficiency_under_review",
+      "status": "general_compensated_all_power_boundary_and_strict_existence_gain_under_contribution_review",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "The symmetric unit-power Gaussian-zonotope case is exactly classical and attributed. Assess the complete signal/power increment and its choice-analysis value;extend the simultaneous result only after a valid proof and scoped verification."
+      "remaining": "Audit how far the full compensated result follows from closest prior work and establish sufficient choice-analysis value;classical symmetric zonotope and generic conic tools remain attributed."
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -29,9 +29,9 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "two_theorems_four_appendices_and_independent_geometry_checks_available",
+      "status": "general_two_theorem_proofs_with_independent_population_geometry_and_complete_phase_checks",
       "evidence": "../../submission/finite_choice_20261110/results/clean_quick_check.json",
-      "remaining": "Full signal/intercept joint-power extension is unproven. The existing general theorem concerns fixed power;the simultaneous result is balanced,fixed-zero-intercept."
+      "remaining": "These are scoped mathematical and computational checks;they do not establish priority or replace independent review. Predictor must stay fixed and strictly interior;remaining attributes are independent Gaussian."
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
@@ -62,12 +62,20 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 23,
+    "native_Word_pages": 24,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
     "independent_limiting_cone_QP_checks": 48,
     "classical_zonotope_LP_matches": 200,
-    "paired_choice_loss_shared_fits": 412
+    "paired_choice_loss_shared_fits": 412,
+    "general_Gaussian_draws": 6000,
+    "general_phase_cells": 180,
+    "general_feasibility_calls": 90000,
+    "general_raw_unknowns": 12,
+    "general_remaining_unknowns": 0,
+    "general_projection_QP_checks": 24,
+    "general_population_conditions": 30,
+    "native_math_objects": 422
   }
 }

@@ -30,7 +30,7 @@ def run(text,plain=False):
  size=OxmlElement('w:sz');size.set(qn('w:val'),'22');rpr.append(size);e.append(rpr)
  t=el('t');t.text=text;t.set('{http://www.w3.org/XML/1998/namespace}space','preserve');e.append(t);return e
 
-SYMS={'alpha':'α','nabla':'∇','lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑'}
+SYMS={'partial':'∂','alpha':'α','nabla':'∇','lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑'}
 OPS={'inf','sup','min','max','log','ker','lim','sin','cos','exp'}
 class Math:
  def __init__(self,s):self.s=s;self.i=0

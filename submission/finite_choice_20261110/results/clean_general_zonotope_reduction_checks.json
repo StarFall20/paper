@@ -1,0 +1,13 @@
+{
+  "original_corrected_objective_vs_signed_cube_LP_matches": 200,
+  "statuses": {
+    "interior": 109,
+    "outside_mean_support": 91
+  },
+  "maximum_absorption_moment_residual": 1.4491879918310246e-14,
+  "Gaussian_target_scale": "N/sqrt(m)",
+  "prior_absorption_parameter_sigma_squared": "N**2/m",
+  "scope": "unit power,constant prediction one half,balanced Gaussian slopes,fixed zero intercept,N>=p",
+  "this_special_case_is_classical": true,
+  "full_informative_signal_power_problem_reduced_to_same_prior": false
+}

@@ -2,7 +2,7 @@
 
 This compact archive accompanies **When prediction assisted logit estimates exist**. It contains one scientific argument, its completed aggregate results and the code needed to regenerate them. It excludes the historical research notebook, raw questionnaires, participant level response vectors and downloaded numeric pickle inputs. The independent 300 record questionnaire application is retained in the research archive and supplies no observations to this paper.
 
-The main result concerns independent Gaussian remaining attributes, an estimated intercept, one utility signal, a frozen predictor, fixed positive correction power and a finite auxiliary to label ratio. In the balanced fixed zero intercept model, a second result gives the simultaneous upper existence boundary over every correction power and the joint limit for strictly positive powers tending to zero. The finite design LP and the symmetric Gaussian zonotope special case are classical. Numerical agreement does not establish priority or a general categorical DCE phase theorem.
+The main result concerns independent Gaussian remaining attributes, an estimated intercept, one utility signal, a frozen predictor, fixed positive correction power and a finite auxiliary to label ratio. Under the same signal and estimated intercept assumptions, a second result gives the simultaneous upper existence boundary over every correction power and the joint limit for strictly positive powers tending to zero. Its boundary strictly exceeds ordinary logit for each fixed strictly interior predictor; one excluded hard-prediction counterexample removes that strict gain. The finite design LP and the symmetric Gaussian zonotope special case are classical. Numerical agreement does not establish priority or a general categorical DCE phase theorem.
 
 ## Start here
 
@@ -30,7 +30,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 23 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
+The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 24 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -104,9 +104,23 @@ python analysis/summarize_replayed_choice_loss.py --out regenerated/power
 
 The joint experiment reconstructs the same 6000 Gaussian samples and evaluates two additional powers, 1/sqrt(m) and 1/m. All 12 original limiting support aggregates match. Its 36 report cells retain 500 draws each; there are no unresolved classifications. The independent geometry check compares 48 limiting-cone projections with a full constrained quadratic program and checks explicit polar inequalities and orthogonality. A nonzero zero-scale face is retained in the closed cone.
 
-The [joint derivation](reports/public_conjoint_audit_20261109/joint_power_derivation_20261110.md) bounds all powers simultaneously and gives a strictly positive,data dependent vanishing-power result for the balanced fixed-zero-intercept model. It extends the earlier iterated endpoint for that model. The signal/estimated-intercept theorem still concerns fixed positive power. The exact-zero control is an analytic mixture of completed empirical frequencies added after the simulation,not a new random experiment. None of these statements is an error distribution or interval guarantee.
+The [joint derivation](reports/public_conjoint_audit_20261109/joint_power_derivation_20261110.md) bounds all powers simultaneously and gives a strictly positive,data dependent vanishing-power result for the balanced fixed-zero-intercept model. It extends the earlier iterated endpoint for that model. This was the original balanced stage;the general extension below supersedes that scope restriction. The exact-zero control is an analytic mixture of completed empirical frequencies added after the simulation,not a new random experiment. None of these statements is an error distribution or interval guarantee.
 
 The [direct-prior comparison](reports/public_conjoint_audit_20261109/joint_power_prior_scope_20261110.md) identifies the unit-power constant-one-half case with the established Gaussian zonotope absorption problem. A separate 200-case signed-cube LP verifies that algebra; the special case is not an innovation claim. The choice-loss summary reuses the 500 original support fits. It evaluates known-truth expected Bernoulli KL on the fixed 1200-row support and supplies no independent human predictive validation.
+
+## Reproduce the general simultaneous power boundary
+
+```sh
+python analysis/general_joint_power_boundary.py --out regenerated/general
+python analysis/verify_general_joint_geometry.py --out regenerated/general
+python analysis/verify_general_joint_phase.py --out regenerated/general
+```
+
+The same signal/free-intercept/frozen-predictor model now has an all-power upper bound and a strictly positive,data-dependent vanishing-power existence boundary. Its limiting value strictly exceeds ordinary logit for any fixed predictor strictly inside(0,1). This concerns finite-root existence,without coefficient-error or confidence-interval guarantees. A changing trained predictor or hard prediction is outside these conditions. The [proof record](reports/public_conjoint_audit_20261109/general_joint_power_derivation_20261110.md) and [completed result](reports/public_conjoint_audit_20261109/一般模型联合权重上界与进度_20261110.md) state the scope and prior attribution.
+
+Population checks include30conditions,120finite-power comparisons and200/400node quadrature. The initial100/200node failure remains in the archive;its follow-up increased integration order without loosening tolerance. Independent geometry uses120original/rescaled LP matches,24full constrained projections,56original-moment positive-power witnesses and64negative-cost weak separators.
+
+The complete new phase run has6000independent Gaussian draws,180aggregate cells with500repetitions and90000feasibility calls. Original unknown solver statuses are retained in the raw table and reconstructed by the separate verifier. Its certificate record and verified table accompany the unchanged raw table. One positive-power boundary/proximity call remains a separate status;the verifier does not force it into an interior or exterior class. A regenerated solver can resolve those cases directly;the verifier accepts the newly observed unknown count while retaining the full500draw denominator. No new participant or language-model responses are collected.
 
 ## Inventory and output map
 

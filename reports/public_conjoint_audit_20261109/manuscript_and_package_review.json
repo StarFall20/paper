@@ -1,15 +1,15 @@
 {
   "date": "2026-11-10",
-  "pages": 23,
-  "native_equations": 382,
+  "pages": 24,
+  "native_equations": 422,
   "main_theorems": 2,
   "main_figures": 3,
   "main_tables": 3,
   "proof_appendices": 4,
   "full_manuscript": "../../submission/finite_choice_20261110/manuscript/paper.md",
   "native_word": "../../submission/finite_choice_20261110/manuscript/paper.docx",
-  "source_sha256": "64d5e9622d40212cd85d2c824e1472406038a1a4259910819458a6f7e5547d9b",
-  "word_sha256": "25fab6dbd4a7fed5e0943cd39da41b195ffed4619d9e195d96bcae0d642de65b",
+  "source_sha256": "9c75eed49b6d9a7ce800f4f8d9c0ae611060303281fcf56f1a9b99a003bad41d",
+  "word_sha256": "4ebc2c3279224bfc095d2c175667b8ba5a00c33b814012c8d41dd6f38ca5a50c",
   "all_source_tables_equal_display_CSVs": true,
   "clean_package_numeric_checks": {
     "analytic_intercept_root_error": 1.4703560591300402e-10,
@@ -55,7 +55,7 @@
         "unresolved": 0
       }
     },
-    "full_math_checks_run": true,
+    "full_math_checks_run": false,
     "reported_table_rounding_checked": true,
     "positive_power_paired_draws": 6000,
     "raw_unknown_preserved_and_resolved": true,
@@ -66,6 +66,10 @@
     "joint_power_new_feasibility_checks": 12000,
     "classical_zonotope_reduction_checked": true,
     "paired_expected_choice_loss_checked": true,
+    "general_all_power_boundary_checked": true,
+    "excluded_hard_endpoint_scope_checked": true,
+    "general_phase_calls": 90000,
+    "general_initial_unknowns": 12,
     "requires_raw_questionnaires": false,
     "proves_novelty_or_submission_readiness": false
   },

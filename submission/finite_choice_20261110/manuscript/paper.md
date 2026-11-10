@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Predicted choices can supplement observed choices through a correction that preserves the population score. The corrected empirical logit objective can have no finite minimizer. We derive its existence boundary when labelled and auxiliary samples grow with attribute dimension, allowing a utility signal, an estimated intercept and an imperfect frozen predictor. Correction power changes the existence event. In a balanced benchmark with equal sample sizes and proxy error 0.25, the critical dimension to label ratio is 0.355 at unit power and 0.603 at the established variance reference power. Its positive power right limit is 0.664, while exactly zero power gives the ordinary logit threshold 0.5. In the balanced fixed intercept model, this right limit bounds all powers simultaneously and governs strictly positive data dependent powers tending to zero. A fixed sample result explains the coefficient growth at small power. Released vaccine choices supply verified exterior moments, and simulations on their attribute support retain seven estimation strategies. Replaying 500 existing samples shows that increased availability can accompany much larger error on shared available fits. The results connect correction weights to existence, coefficient behavior and reliable reporting in choice analysis.
+Predicted choices can supplement observed choices through a correction that preserves the population score. The corrected empirical logit objective can have no finite minimizer. We derive its existence boundary when labelled and auxiliary samples grow with attribute dimension, allowing a utility signal, an estimated intercept and an imperfect frozen predictor. Correction power changes the existence event. In a balanced benchmark with equal sample sizes and proxy error 0.25, the critical dimension to label ratio is 0.355 at unit power and 0.603 at the established variance reference power. Its positive power right limit is 0.664, while exactly zero power gives the ordinary logit threshold 0.5. The limiting boundary applies simultaneously to all powers and governs strictly positive data dependent powers tending to zero. It strictly exceeds the ordinary logit existence boundary for every frozen predictor strictly inside the unit interval. A fixed sample result explains the coefficient growth at small power. Released vaccine choices supply verified exterior moments, and simulations on their attribute support retain seven estimation strategies. Replaying 500 existing samples shows that increased availability can accompany much larger error on shared available fits. The results connect correction weights to existence, coefficient behavior and reliable reporting in choice analysis.
 
 Keywords: binary choice; prediction powered inference; logistic separation; finite auxiliary samples; existence of estimates
 
@@ -14,7 +14,7 @@ An analyst must also be able to solve the empirical estimating equation. A corre
 
 We characterize the finite solution boundary of a specified unpenalized, prediction assisted binary logit objective. Our main result treats an estimated intercept, one Gaussian utility signal and an increasing number of independent Gaussian attributes. The labelled and auxiliary samples grow at a finite ratio. Predictions are frozen functions of the signal and auxiliary information, and can be miscalibrated. An explicit variational expression gives the critical attribute dimension per labelled observation. A balanced specialization reduces the calculation to one scalar optimization.
 
-The result explains a distinction between efficiency calculations and existence calculations. At proxy error 0.25 and equal labelled and auxiliary sample sizes, the balanced unit power boundary is 0.355. Applying the established population variance reference power gives 0.603. The positive power right limit is 0.664, exceeding the ordinary logit endpoint 0.5. In the balanced fixed intercept model it also bounds all choices of power: above this dimension ratio, power selection cannot restore a finite unpenalized root. Strictly positive powers tending to zero attain the upper existence region. A fixed sample limit explains how coefficients can approach a separator as their norms grow. The finite sample support audit uses the actual design matrix and also accommodates categorical attributes.
+The result explains a distinction between efficiency calculations and existence calculations. At proxy error 0.25 and equal labelled and auxiliary sample sizes, the balanced unit power boundary is 0.355. Applying the established population variance reference power gives 0.603. The positive power right limit is 0.664, exceeding the ordinary logit endpoint 0.5. The general signal and estimated intercept model also has an upper boundary for all choices of power. Above it, power selection cannot restore a finite unpenalized root. Strictly positive powers tending to zero attain this existence region. Its boundary strictly exceeds ordinary logit even for uninformative or reversed predictions. A fixed sample limit explains how coefficients can approach a separator as their norms grow. The finite sample support audit uses the actual design matrix and also accommodates categorical attributes.
 
 The theoretical tools have clear antecedents. Logistic separation and ordinary logit existence thresholds are established (Candès and Sur, 2020). Statistical dimension locates transitions in random convex feasibility problems (Amelunxen et al., 2014). The unit power uninformative benchmark is a classical Gaussian zonotope absorption event (Kabluchko and Seidel, 2020). Koriyama and Bellec (2025) give general existence results for convex M estimators with finite rowwise loss infima. Positive power correction creates labelled row losses with infimum minus infinity; finite estimability depends on compensation by other rows. We derive the explicit finite auxiliary boundary for that corrected objective. Power tuning and one step estimation come from PPI++ and remain comparison methods throughout the paper.
 
@@ -183,15 +183,27 @@ Corollary 1. For $\tau>0$ and $0<\epsilon\leq1/2$, the boundary strictly decreas
 
 $$\kappa_c(0+)=1+\tau-\min_{v\geq0}G(v)>1/2=\kappa_c(0). \qquad (17)$$
 
-At $\tau=1$ and $\epsilon=0.25$, the right limit is 0.664488. An uninformative prediction at $\epsilon=1/2$ also has a gap, with right limit 0.608737. This gap concerns existence and auxiliary stabilization; it does not measure additional choice information. A limiting cone strengthens the right limit into the following simultaneous result.
-
-Theorem 2. Consider the balanced oracle with $p$ independent Gaussian slopes, a fixed zero intercept, $N/m\to\tau>0$ and $p/m\to\kappa$. Put $\kappa_* = \kappa_c(0+)$. For $\kappa<\kappa_*$, some fixed power in $(0,1)$ gives a unique finite root with probability tending to one. For $\kappa>\kappa_*$, the probability that any power in $[0,1]$ gives a finite root tends to zero. Every sequence of possibly data dependent powers satisfying $0<\lambda_m\leq1$ almost surely and $\lambda_m\to0$ in probability has the same strict two sided existence boundary $\kappa_*$.
-
-The simultaneous upper bound avoids a separate probability approximation for each selected weight. Appendix D constructs a closed cone containing every positive power cone, evaluates its statistical dimension and combines it with the fixed sample nesting identity. The joint result has no rate requirement on positive powers. A rule returning exactly zero with nonvanishing probability has a different event. The signal and estimated intercept result in Theorem 1 retains its fixed positive power conditions; the joint statement concerns the balanced fixed intercept model.
+At $\tau=1$ and $\epsilon=0.25$, the right limit is 0.664488. An uninformative prediction at $\epsilon=1/2$ also has a gap, with right limit 0.608737. This gap concerns existence and auxiliary stabilization; it does not measure additional choice information.
 
 A fixed sample counterpart describes the coefficient cost. On a strictly separated human sample, suppose the unit power recession function is positive on every nonzero human weak separator. Small positive powers then have finite roots whose norms diverge as power tends to zero. After division by $\log(1/\lambda)$, their limit set minimizes the corrected auxiliary recession cost subject to human margins of at least one. Appendix D states the condition, proves (17) and derives this path. The generic margin mechanism follows established vanishing regularization arguments; the cost and existence boundary belong to the specified corrected loss.
 
-The completed check uses 12 Gaussian conditions with 500 paired draws each, including informative and uninformative predictors. All positive power nesting checks agree. One original LP returns an unknown status; a separate weighted moment LP supplies a verified exterior direction for that draw. Both tables remain available. Section 5.3 evaluates the practical tradeoff on the previously generated choice samples.
+### 3.6 A simultaneous boundary with utility signal and estimated intercept
+
+Retain the model of Section 3.1. Write $h_L=s_L(\eta_0+\eta_1S)$, $h_U=s_U(\eta_0+\eta_1S)$ and $J_U=I_U/\lambda$. Dividing the positive power intervals by power leaves the auxiliary interval $J_U$ fixed. The labelled interval expands to $[r,r+1/\lambda-1]$. Its closed limit gives
+
+$$\Psi_\infty(\eta,v)=E\{1+h_L^2-f(-h_L-vr)\}$$
+
+$$\hphantom{\Psi_\infty(\eta,v)}+\tau E B(h_U,v,J_U),\qquad v\geq0. \qquad (18)$$
+
+Define the limiting and ordinary logit boundaries by
+
+$$\kappa_\infty=\inf_\eta\sup_{v\geq0}\Psi_\infty(\eta,v),\qquad \kappa_0=\inf_\eta E f(h_L). \qquad (19)$$
+
+Theorem 2. Under the assumptions of Theorem 1, $\kappa_c(\lambda)\to\kappa_\infty>\kappa_0$ as positive $\lambda\to0$. For $\kappa<\kappa_\infty$, some fixed power in $(0,1)$ gives a unique finite root with probability tending to one. For $\kappa>\kappa_\infty$, the probability that any power in $[0,1]$ gives a finite root tends to zero. Every sequence of possibly data dependent powers satisfying $0<\lambda_m\leq1$ almost surely and $\lambda_m\to0$ in probability has the same strict two sided existence boundary $\kappa_\infty$. The equality case is unspecified.
+
+The simultaneous upper bound follows from one closed cone containing all positive power cones and the ordinary logit feasibility face. The lower side combines fixed power thresholds with the nesting identity (15). Appendix D proves the required uniform controls without exchanging the infimum and supremum. No rate or independence condition is imposed on the selected positive powers. The frozen predictor remains fixed across sample sizes, strictly inside the unit interval; the result does not cover a changing sequence of trained or hard predictors.
+
+For utility signal 1.5 and proxy error 0.25, the ordinary boundary is 0.3903. With equal sample sizes, the limiting boundaries are 0.5082 for the oracle, 0.5061 for overconfident predictions and 0.4918 for shifted log odds. At auxiliary ratio four they are 0.6263, 0.6249 and 0.5875. Constant and reversed predictions also give strict existence gains, of different sizes. The strict gain establishes stabilization of this objective. Parameter error, choice probability loss and confidence interval performance still require their own evaluation, as Section 5 illustrates.
 
 ## 4 Evidence from released vaccine choices
 
@@ -296,7 +308,7 @@ The Gaussian boundary describes a controlled increasing dimension model. Actual 
 
 ## 7 Conclusion
 
-Prediction assisted binary logit has a finite solution boundary determined jointly by labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. Positive power events are nested. In the balanced fixed intercept model, their upper envelope governs positive powers tending to zero and bounds every selection of power. The fixed sample coefficient path and replayed choice samples show the estimation cost that can accompany greater availability. The finite design audit checks the objective actually fitted. These results make the consequences of prediction assistance explicit for choice analysts assessing existence, target fidelity and uncertainty.
+Prediction assisted binary logit has a finite solution boundary determined jointly by labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. Positive power events are nested. Their upper envelope governs strictly positive powers tending to zero and bounds every selection of power under the same signal and estimated intercept assumptions. It exceeds ordinary logit for every fixed strictly interior predictor, including uninformative predictions. The fixed sample coefficient path and replayed choice samples show the estimation cost that can accompany greater availability. The finite design audit checks the objective actually fitted. These results make the consequences of prediction assistance explicit for choice analysts assessing existence, target fidelity and uncertainty.
 
 ## Appendix A Proof of the finite ratio boundary
 
@@ -466,37 +478,61 @@ The minimizers are bounded on this scale. Positivity of $a$ on the unit human se
 
 For a one coordinate example with all labelled choices and features equal to one, take $g_L=0.75$ and $g_U=0.25$. The exact root is $\log(2/\lambda-1)$ at every positive power. Equal predictions in the two samples instead leave a boundary target at every power; reversing those predictions makes the target exterior. All three examples have full rank auxiliary curvature. A separate two coordinate calculation verifies (D2) by a linear program and analytic scalar score equations. The normalized coefficients approach $(1,1)$, with scaled score error below $1.6\times10^{-15}$ in the displayed path. Root existence and bounded coefficient behavior remain separate properties.
 
-### D4 All powers and joint limits in the balanced model
+### D4 All powers with signal and estimated intercept
 
-For this result all $p$ slopes are independent Gaussian attributes and the intercept is fixed at zero. Orient labelled rows by $1-2Y$ and auxiliary rows by $2Z-1$. Conditional on choices and proxies, their Gaussian matrix $A$ remains independent standard normal. Divide the positive power intervals by $\lambda$. Their labelled lower endpoints are $r_i=|Y_i-g_i|$, and their upper endpoints are $r_i+1/\lambda-1$. Write $\tau_m=N/m$, $a=-(1-\epsilon)/\tau_m$ and $b=\epsilon/\tau_m$ for the auxiliary endpoints.
+Use the signs, remaining Gaussian matrix $A$ and multiplier columns $V$ of Appendix A. Divide every positive power interval by $\lambda$. Labelled intervals become $[r_i,r_i+1/\lambda-1]$, with $r_i=|Y_i-g_i|>0$. Auxiliary intervals become $J_{Uj}$, using the observed ratio $\tau_m=N/m$. Define $K_\infty$ by the existence of a scale $v\geq0$ satisfying
 
-Let $K_*$ contain the vectors $u$ for which some scale $v\geq0$ satisfies
+$$u_{Li}\geq vr_i,\qquad u_{Uj}\in vJ_{Uj}. \qquad (D3)$$
 
-$$u_{Li}\geq v r_i,\qquad va\leq u_{Uj}\leq vb. \qquad (D3)$$
+This is a closed pointed polyhedral cone. At zero scale it includes nonnegative labelled vectors with zero auxiliary coordinates. It is the closure of the increasing union of finite positive power cones. For positive scale, all finite labelled coordinates fit in a sufficiently expanded box; zero scale points follow by approximation. Put $C_\infty=K_\infty\cap\ker(V^T)$. A finite root at any positive power supplies a nonzero point of $\ker(A)\cap C_\infty$. An ordinary logit root supplies such a point on the zero scale face. One constrained cone therefore supplies an upper bound simultaneously for all powers, including zero.
 
-This is a closed polyhedral cone containing every finite positive power interval cone. Its zero scale face includes nonnegative labelled vectors with zero auxiliary coordinates. Keeping that face is necessary for closedness. Finite feasibility at any positive power implies that $\ker(A)$ meets $K_*$ at a nonzero point.
+Polyhedral polar calculus gives the identity (A2) with $K_\infty$ and $C_\infty$. For $w=H-V\eta$, its projection norm is
 
-For an independent standard normal vector $H$, projection onto this cone gives
+$$\|\Pi_{K_\infty}(w)\|^2=\sup_{v\geq0}[\sum_{i\leq m}\{w_i^2-(vr_i-w_i)_+^2\}$$
 
-$$\|\Pi_{K_*}(H)\|^2=\sup_{v\geq0}[\sum_{i\leq m}\{H_i^2-(vr_i-H_i)_+^2\}$$
+$$\hphantom{\|\Pi_{K_\infty}(w)\|^2=}+\sum_{j>m}\{w_j^2-\operatorname{dist}(w_j,vJ_{Uj})^2\}]. \qquad (D4)$$
 
-$$\hphantom{\|\Pi_{K_*}(H)\|^2=}+\sum_{j>m}\{H_j^2-\operatorname{dist}(H_j,[va,vb])^2\}]. \qquad (D4)$$
+At zero scale the labelled contribution is $(w_i)_+^2$, and its normal expectation is $f(h_L)$. The full normal expectation divided by $m$ is (18).
 
-At zero scale the labelled contribution is $(H_i)_+^2$. The normal expectations divided by $m$ equal $1+\tau-G(v)$. The fixed lower bound $r_i\geq\epsilon>0$ makes the labelled distance grow quadratically with scale, localizing the supremum. A uniform law on bounded scales and uniform integrability from the projection bound $\|\Pi_{K_*}(H)\|^2\leq\|H\|^2$ give
+Both optimization variables need uniform control. Fix reference power $1/2$. The limiting cone contains every smaller positive power cone, each of which contains the reference cone. Projection norm onto a larger closed convex cone is at least that onto the smaller cone. The reference version of (A5) therefore bounds the empirical limiting and all smaller power objectives below by $c\|\eta\|-O_P(1)$. Their values at zero multiplier are at most $\|H\|^2/m$. This localizes their minimizing multipliers in probability. The population argument places all corresponding minimizing sets in a common compact set.
 
-$$\delta(K_*)/m\to1+\tau-\min_{v\geq0}G(v)=\kappa_*. \qquad (D5)$$
+On a compact multiplier set, the labelled distance obeys $(vr_i-w_i)_+^2\geq v^2r_i^2/2-w_i^2$. Its empirical quadratic coefficient converges to $Er^2>0$. This bounds every maximizing scale in probability, with a corresponding population bound. Strictly interior predictions give positive $Er^2$; no deterministic lower bound on $g$ or $1-g$ is required. Compact uniform laws use the integrable $H^2,S^2$ envelope. The empirical minimum is between zero and $\|H\|^2/m$, with bounded second moments. Uniform integrability and conditional expectation over $H$ yield
 
-The classical random subspace bound now makes the intersection absent with probability tending to one when $p/m>\kappa_*$. Cone inclusion gives this upper bound simultaneously for every positive power. Ordinary logit also lacks a finite root there because $\kappa_*>1/2$.
+$$\delta(C_\infty)/m\to\kappa_\infty. \qquad (D5)$$
 
-Without multiplier columns, the fixed positive power cone calculation of Appendix A gives (12) directly. For $\kappa<\kappa_*$, choose a fixed $\lambda_0\in(0,1)$ with $\kappa<\kappa_c(\lambda_0)$. The stacked design has full column rank on this side. Let $E_m(\lambda)$ be the unique finite root event. Fixed sample nesting yields, for strictly positive selected powers,
+The conditional conic kinematic bound now excludes a nonzero intersection when $q/m>\kappa_\infty$. Cone inclusion proves the simultaneous upper side of Theorem 2 without a union over powers.
 
-$$P\{E_m(\lambda_m)\}\geq P\{E_m(\lambda_0)\}-P\{\lambda_m>\lambda_0\}. \qquad (D6)$$
+For the lower side, write $v=\lambda t$ in the finite power objective. Its population expression is
 
-The right side tends to one if $\lambda_m\to0$ in probability. Dependence of the selected power on the data does not affect this inequality. This proves both the existence of an attainable positive power and the stated joint limit. The exact zero event, coefficient error and confidence interval behavior remain separate properties.
+$$\Psi_\lambda(\eta,v)=\Psi_\infty(\eta,v)-E f(h_L+v(r+1/\lambda-1)). \qquad (D6)$$
 
-The distinction at exact zero can be exhibited directly. For $1/2<\kappa<\kappa_*$, independently select power zero with probability one half and power $1/m$ otherwise. Its finite root probability tends to one half. The strictly positive sequence instead has probability tending to one.
+For every positive $v$, the remainder tends to zero by dominated convergence. Positive scales approximate a zero scale by continuity. Consequently $F_\lambda(\eta)=\sup_v\Psi_\lambda(\eta,v)$ increases pointwise to $F_\infty(\eta)=\sup_v\Psi_\infty(\eta,v)$ as positive power decreases. These functions are finite, convex and continuous in $\eta$. On the common compact set containing the minimizers, monotone convergence is uniform by Dini's theorem. This proves $\kappa_c(\lambda)\to\kappa_\infty$ while retaining the order of the two extrema.
 
-Numerical checks compare 48 projections onto the closed limiting cone using scalar minimization and an independent constrained quadratic program, with maximum coordinate difference below $7.3\times10^{-7}$. Explicit polar inequalities and projection orthogonality are checked separately. Replaying the original 6000 Gaussian samples at powers $1/\sqrt{m}$ and $1/m$ adds 12000 feasibility calculations. All 12 original limiting support aggregates agree with the reconstruction, and all 36 new report cells retain 500 draws without unresolved states. The raw and verified tables accompany the code.
+At zero multiplier the labelled contribution is at most $1/2$ and the auxiliary contribution at most $\tau$, giving $\kappa_\infty\leq1/2+\tau<1+\tau$. The stacked design has full column rank below the strict boundary. Choose a fixed $\lambda_0\in(0,1)$ with $\kappa<\kappa_c(\lambda_0)$. If $E_m(\lambda)$ denotes a unique finite root, nesting gives
+
+$$P\{E_m(\lambda_m)\}\geq P\{E_m(\lambda_0)\}-P\{\lambda_m>\lambda_0\}. \qquad (D7)$$
+
+The right side tends to one for strictly positive $\lambda_m\to0$ in probability, including data dependent powers. This proves the lower side without a rate requirement.
+
+It remains to establish the strict ordinary logit gap. Let $M(h)=E(H+h)_+=\varphi(h)+h\Phi(h)>0$ and $h=\eta_0+\eta_1S$. Differentiating (18) at zero scale and cancelling the common prediction population terms gives
+
+$$\partial_v\Psi_\infty(\eta,0)=2E\{YgM(h)+(1-Y)(1-g)M(-h)\}>0. \qquad (D8)$$
+
+Every finite multiplier thus gains strictly over its zero scale value $Ef(h_L)$. The coercive bound above ensures a finite minimizer $\eta_\infty$ of $F_\infty$. Evaluating at that minimizer gives $\kappa_\infty=F_\infty(\eta_\infty)>Ef(h_L(\eta_\infty))\geq\kappa_0$, completing the proof. In the balanced specialization, (18) reduces to $1+\tau-G(v)$ and recovers (17).
+
+### D5 Numerical checks and exact zero selection
+
+The general calculation includes 30 signal, sample ratio and prediction conditions. Two hundred versus 400 node quadrature agrees within $1.7\times10^{-9}$. Independent finite differences check its gradient and Hessian, and the zero scale derivative identity agrees within $1.2\times10^{-16}$. All 120 finite power comparisons lie below the corresponding limiting boundary. All 120 original moment and rescaled interval LPs agree. Twenty-four limiting cone projections, retaining the intercept and signal constraints, match an independent full variable quadratic program within $1.6\times10^{-13}$ in squared norm. Feasibility, orthogonality and an independent dual bound verify the values even when a dual optimizer reports precision loss. Both zero scale cases are retained.
+
+For 120 separate finite designs, the limiting LP has 56 interior moments and 64 exterior moments. Each interior case has a positive power witness checked by the original corrected moment LP. Each exterior case has an independent human weak separator with negative corrected auxiliary recession cost. The identity $Q_\lambda^\infty(d)=\lambda a(d)$ agrees within $1.3\times10^{-13}$ on those directions at three powers. These calculations separately check the two structural possibilities of Proposition 3.
+
+A separate analytic scope check uses the excluded hard predictor $g=Z=1-Y$. Here $r=1$, $s_U=s_L$ and $J_U=[-1/\tau,0]$. The scale derivative is $E\{f'(-h_L-v)-f'(-h_L+v/\tau)\}\leq0$, so the limiting supremum is attained at zero and gives $\kappa_0$. The same cone argument applies in this example because $r=1$ retains scale tightness. The uniform strict gain cannot include this hard endpoint. This check was added after the interior predictor simulation plan and changes none of its draws.
+
+The general phase experiment generates 6000 independent Gaussian model draws across 12 conditions, with 40 or 80 labels, auxiliary ratios one or four, utility signal 1.5 and three prediction calibrations. Each draw compares three dimensions and five power events, giving 180 aggregate cells with 500 repetitions and 90000 feasibility calls. The raw table retains 12 unknown solver statuses. Reconstructing their exact draws and checking the original corrected moment LP resolves every case with an explicit certificate. Raw and verified tables are separate; no solver status remains unresolved. One positive power call retains its boundary or numerical proximity classification, separately from interior and exterior calls. The paired nesting checks show no violation. These simulations evaluate existence, without generating human respondents or language model responses.
+
+A selector returning exact zero requires a separate statement. In the balanced fixed zero intercept example with $1/2<\kappa<\kappa_c(0+)$, independently choose zero with probability one half and $1/m$ otherwise. Its finite root probability tends to one half; the strictly positive sequence has probability tending to one. Coefficient error and interval behavior also remain separate from the existence theorem.
+
+The earlier balanced validation is retained: 48 independent constrained projections and 6000 original Gaussian draws replayed at powers $1/\sqrt{m}$ and $1/m$, with 12000 new feasibility calculations. All 12 original limiting aggregates agree, and all 36 new report cells retain 500 draws without unresolved states.
 
 ## Data availability
 

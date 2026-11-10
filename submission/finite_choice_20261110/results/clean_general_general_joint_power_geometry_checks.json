@@ -1,0 +1,137 @@
+{
+  "original_rescaled_LP_matches": 120,
+  "limiting_support_statuses": {
+    "interior": 56,
+    "outside_mean_support": 64
+  },
+  "independent_weak_separator_negative_cost_certificates": 64,
+  "independent_original_moment_positive_power_witnesses": 56,
+  "maximum_all_power_recession_identity_error": 1.2542744620702706e-13,
+  "independent_limiting_projection_cases": 24,
+  "maximum_projection_norm_squared_difference": 1.5276668818842154e-13,
+  "maximum_projection_constraint_error": 4.7358055068311154e-14,
+  "maximum_projection_orthogonality_error": 3.530509218307998e-14,
+  "projection_solver_statuses": [
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": true
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": true,
+      "zero_scale": false
+    },
+    {
+      "primal_success": true,
+      "dual_success": false,
+      "zero_scale": true
+    }
+  ],
+  "priority_or_inferential_guarantee_proven": false
+}

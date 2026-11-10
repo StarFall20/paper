@@ -1,3 +1,5 @@
+The [general signal/intercept simultaneous power result](一般模型联合权重上界与进度_20261110.md) is integrated in the current manuscript; earlier balanced-only scope statements record the preceding stage.
+
 The current integrated manuscript and isolated reproduction entry are [here](../../submission/finite_choice_20261110/README.md). The [10November progress report](完整论文与复现包进展_20261110.md) states the remaining contribution assessment; artifact completion is not a submission-readiness finding.
 
 # Public binary-choice audit and finite-solution candidate

@@ -18,11 +18,12 @@ def main():
  exterior=audit(x,np.array([0,0,np.nan,np.nan]),np.array([.9,.9,.1,.1]),2);assert exterior['support']['status']=='outside_mean_support'
  rank=audit(np.ones((4,2)),y,g,2);assert rank['support']['status']=='rank_deficient'
  balanced=numeric_checks()
- for script in ['verify_finite_pool_covariance.py','verify_matched_moment_proposition.py','verify_proper_augmentation_invariance.py','verify_zonotope_reduction.py']:
+ for script in ['verify_finite_pool_covariance.py','verify_matched_moment_proposition.py','verify_proper_augmentation_invariance.py','verify_zonotope_reduction.py','verify_general_hard_endpoint.py']:
   subprocess.run([sys.executable,str(root/'analysis'/script),'--out',str(a.out)],check=True,stdout=subprocess.DEVNULL)
  if a.full_math:
-  for script in ['finite_ratio_signal_boundary.py','imperfect_predictor_choice_boundary.py','vanishing_power_choice.py','joint_power_choice.py']:
+  for script in ['finite_ratio_signal_boundary.py','imperfect_predictor_choice_boundary.py','vanishing_power_choice.py','joint_power_choice.py','general_joint_power_boundary.py']:
    subprocess.run([sys.executable,str(root/'analysis'/script),'--out',str(a.out),'--checks-only'],check=True,stdout=subprocess.DEVNULL)
+  subprocess.run([sys.executable,str(root/'analysis/verify_general_joint_geometry.py'),'--out',str(a.out)],check=True,stdout=subprocess.DEVNULL)
  grids={}
  for file,expected,reps in [('finite_ratio_phase_checks.csv',80,500),('finite_ratio_signal_phase.csv',80,300),('imperfect_prediction_phase.csv',80,300)]:
   f=pd.read_csv(root/'results'/file);assert len(f)==expected and (f.replications==reps).all() and f.unresolved.sum()==0
@@ -83,7 +84,27 @@ def main():
  kl=pd.read_csv(root/'results/replayed_choice_loss_pairs.csv');assert len(kl)==4
  assert (abs(kl.mean_KL_comparator-kl.mean_KL_reference-kl.mean_KL_difference)<1e-12).all()
  assert (kl[kl.power_reference==1].shared_finite_estimates==412).all()
- report={'analytic_intercept_root_error':err,'boundary_exterior_rank_checks':True,'balanced_LP_and_quadrature':balanced,'completed_grid_consistency':grids,'full_math_checks_run':a.full_math,'reported_table_rounding_checked':True,'positive_power_paired_draws':6000,'raw_unknown_preserved_and_resolved':True,'original_draws_replayed':500,'old_support_status_matches':1000,'all_three_tables_reconciled':True,'joint_power_existing_draws_replayed':6000,'joint_power_new_feasibility_checks':12000,'classical_zonotope_reduction_checked':True,'paired_expected_choice_loss_checked':True,'requires_raw_questionnaires':False,'proves_novelty_or_submission_readiness':False}
+ general=json.loads((root/'results/general_joint_power_phase_verification.json').read_text())
+ gs=json.loads((root/'results/general_joint_power_status.json').read_text())
+ gr=pd.read_csv(root/'results/general_joint_power_phase_raw.csv');gv=pd.read_csv(root/'results/general_joint_power_phase_verified.csv')
+ assert gs['completed_DGP_blocks']==12 and len(gr)==len(gv)==180
+ assert general['complete_feasibility_calls']==90000 and general['independent_Gaussian_draws']==6000
+ assert general['initial_unknowns']==general['resolved_by_independent_certificates']==gr.unresolved.sum()
+ assert general['remaining_unresolved']==gv.unresolved.sum()==0
+ assert general['raw_aggregate_sha256']==hashlib.sha256((root/'results/general_joint_power_phase_raw.csv').read_bytes()).hexdigest()
+ assert general['source_sha256']==gs['source_sha256']==hashlib.sha256((root/'analysis/general_joint_power_boundary.py').read_bytes()).hexdigest()
+ assert (gv[['interior','outside','boundary_or_near_boundary','rank_deficient','unresolved']].sum(axis=1)==500).all()
+ for case in general['resolutions']:
+  cert=case['independent_verification']
+  if cert['status']=='outside_mean_support':assert cert['separation_gap']>1e-8
+  else:assert cert['status']=='interior' and cert['interior_margin']>1e-8 and cert['equality_residual']<1e-7
+ gp=json.loads((root/'results/general_joint_power_population_checks.json').read_text())
+ assert gp['population_conditions']==30 and gp['finite_power_comparisons']==120
+ assert gp['200_400_node_max_error']<1e-7 and gp['zero_scale_derivative_identity_error']<1e-9
+ gg=json.loads((root/'results/general_joint_power_geometry_checks.json').read_text())
+ assert gg['original_rescaled_LP_matches']==120 and gg['independent_limiting_projection_cases']==24
+ assert gg['maximum_projection_norm_squared_difference']<1e-6
+ report={'analytic_intercept_root_error':err,'boundary_exterior_rank_checks':True,'balanced_LP_and_quadrature':balanced,'completed_grid_consistency':grids,'full_math_checks_run':a.full_math,'reported_table_rounding_checked':True,'positive_power_paired_draws':6000,'raw_unknown_preserved_and_resolved':True,'original_draws_replayed':500,'old_support_status_matches':1000,'all_three_tables_reconciled':True,'joint_power_existing_draws_replayed':6000,'joint_power_new_feasibility_checks':12000,'classical_zonotope_reduction_checked':True,'paired_expected_choice_loss_checked':True,'general_all_power_boundary_checked':True,'excluded_hard_endpoint_scope_checked':True,'general_phase_calls':90000,'general_initial_unknowns':general['initial_unknowns'],'requires_raw_questionnaires':False,'proves_novelty_or_submission_readiness':False}
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True}))
 
 if __name__=='__main__':main()

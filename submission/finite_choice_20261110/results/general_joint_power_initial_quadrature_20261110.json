@@ -1,0 +1,9 @@
+{
+  "100_200_node_max_error": 4.3073334210497194e-07,
+  "gradient_error": 4.4408560054103035e-11,
+  "hessian_error": 5.764189126011843e-11,
+  "identity_error": 5.551115123125783e-17,
+  "null_error": 6.661338147750939e-16,
+  "monotonicity_excess": 8.881784197001252e-16,
+  "source_sha256": "373457c7e2aa917a039da6318ae4de5aa4517d77ce87a967901b65b2f1e94854"
+}
