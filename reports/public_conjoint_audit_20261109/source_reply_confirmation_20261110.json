@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "source": "Task-specific service explanation supplied directly by the researcher; no fresh independent platform verification claimed.",
+  "current_reply_matches_existing_source_definition": true,
+  "original_files_hash_match": true,
+  "counts": {
+    "V1": {
+      "all_records": 180,
+      "AI_pretest_records": 30,
+      "other_source_records": 150
+    },
+    "V2": {
+      "all_records": 180,
+      "AI_pretest_records": 30,
+      "other_source_records": 150
+    }
+  },
+  "current_human_primary_records": 300,
+  "current_human_choice_rows": 2400,
+  "AI_pretest_records_excluded": 60,
+  "human_models_already_use_this_split": true,
+  "version_randomized_causal_effect_identified": false,
+  "raw_rows_deleted_or_changed": false,
+  "new_samples_needed_for_source_clarification": false
+}

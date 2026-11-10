@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "goal_complete": false,
-  "decision": "Closest-prior audit expanded;omitted established labelled-only DY comparator added on unchanged draws;compensated-boundary contribution value and finite-design actionability still under assessment",
+  "decision": "Complete classical finite-design power-domain audit added as a computational supplement;all existing selected powers already admissible. Main manuscript unchanged;independent contribution and choice-analysis value remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -81,6 +81,10 @@
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
     "DY_primary_and_half_settings_both_retained": true,
-    "noisy_label_and_fitted_intercept_DY_prior_checked": true
+    "noisy_label_and_fitted_intercept_DY_prior_checked": true,
+    "finite_design_power_domain_cases": 1000,
+    "independent_endpoint_recession_certificates": 8,
+    "finite_domain_unit_state_mismatches": 0,
+    "source_reply_matches_existing_300_human_60_AI_classification": true
   }
 }

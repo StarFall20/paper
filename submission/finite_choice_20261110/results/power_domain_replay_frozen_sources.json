@@ -1,0 +1,8 @@
+{
+  "audit_public_power_domain.py": "c1d47d45da6b0d749400c83f0d616b7ea90b639feaba7af20f96ddfe508a6db9",
+  "power_domain_choice.py": "4979ee1a1f52b75f2125d5a037001aad424dbd34baaa67f808a40c75a01b1174",
+  "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+  "public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+  "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+  "reference_power_trial_diagnostics.csv": "4eb2e5fd696e481f6c7e7cbaab0e5a481951c40fe05fecf7b874530388db2d8b"
+}

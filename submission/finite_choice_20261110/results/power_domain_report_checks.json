@@ -1,0 +1,13 @@
+{
+  "completed_cases": 1000,
+  "original_exterior_cases_retained": 8,
+  "every_exterior_cutoff_and_original_selected_power_checked": true,
+  "minimum_closed_endpoint_among_exterior": 0.7093481053158127,
+  "maximum_closed_endpoint_among_exterior": 0.9809905514912118,
+  "all_original_selected_powers_remain_admissible": true,
+  "positive_power_domain_does_not_include_zero_endpoint": true,
+  "new_estimator_or_optimal_power_claim": false,
+  "classical_parametric_LP_claimed_independently_novel": false,
+  "manuscript_scientific_claims_or_main_tables_changed": false,
+  "submission_readiness_proven": false
+}

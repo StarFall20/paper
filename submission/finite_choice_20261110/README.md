@@ -135,6 +135,16 @@ The ordinary score sandwich is a diagnostic for raw DY estimates. It does not im
 
 ## Inventory and output map
 
+The [complete finite-design power-domain supplement](reports/public_conjoint_audit_20261109/完整权重区间审计_20261110.md) replays all 500 original allocations at 50 labels with both original prediction routines. It computes a closed feasible endpoint and a separate strict interior witness. The eight original unit-power exterior cases each have an independently checked recession direction and fixed-power brackets. Existing selected powers remain unchanged and admissible. Exact zero selections are checked as ordinary logit endpoints. These classical parametric LP calculations supplement the finite-design audit; the manuscript's claims and three main tables are unchanged.
+
+```sh
+python analysis/power_domain_choice.py --out regenerated/domain
+python analysis/audit_public_power_domain.py --input-dir local_inputs --reference regenerated/public/power_trial_diagnostics.csv --out regenerated/domain
+python analysis/write_power_domain_report.py --results regenerated/domain
+```
+
+Run the original public power audit above before this replay. The package supplies [aggregate results](results/power_domain_summary.csv), [eight cutoff cases](results/power_domain_exterior_table.csv), [certificates](results/power_domain_exterior_certificates.json) and [complete-case checks](results/power_domain_replay_checks.json). The 1000-row individual diagnostics are recreated locally. A closed feasible endpoint alone does not prove a finite root; a zero strict-witness optimum can occur even when the closed endpoint is one. No largest-admissible-power estimator, optimal tuning rule or inference guarantee is proposed.
+
 `analysis/` holds the independent estimator, theory, verification and figure code with their local import closure. `results/` holds the completed aggregate files. `manuscript/figures/` holds standard PNG and editable SVG plots. Tables are generated from those same aggregates. `MANIFEST.sha256` covers every shipped file except itself; `verify_package.py` verifies it and all local Markdown links without downloading inputs.
 
 ```sh

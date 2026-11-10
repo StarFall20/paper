@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-10",
+  "question": "Make the same corrected objective's entire admissible positive-power interval computable for an actual finite choice design, and evaluate decision value on unchanged public allocations.",
+  "proof_record": "power_domain_derivation_20261110.md",
+  "classical_components": [
+    "convex moment support",
+    "parametric linear programming and duality",
+    "fixed-sample coercivity nesting"
+  ],
+  "not_claimed": [
+    "new general LP",
+    "optimal inference weight",
+    "coverage guarantee",
+    "general categorical DCE Gaussian phase law"
+  ],
+  "diagnostic_checks": {
+    "analytic_cases": [
+      "rescued separated scalar",
+      "all-powers boundary scalar",
+      "all-positive-powers exterior scalar",
+      "closed endpoint0.625",
+      "endpoint1excluded",
+      "rank deficiency"
+    ],
+    "random_finite_designs": 120,
+    "seed": 20261130,
+    "fixed_comparison_powers": [
+      0.01,
+      0.1,
+      0.3,
+      0.5,
+      0.9,
+      1.0
+    ],
+    "independent_checks": [
+      "original corrected-moment LP",
+      "rescaled oriented interval LP",
+      "primal endpoint residual",
+      "endpoint direction costs computed from original loss",
+      "independent nonzero human weak-separator obstruction"
+    ],
+    "unknowns": "retain solver states;no unknown is called interior or exterior without independent evidence",
+    "tolerances": {
+      "interior_margin": 1e-08,
+      "primal_equality_or_bounds": 1e-07,
+      "dual_recession_identity": 1e-07
+    }
+  },
+  "public_replay": {
+    "original_allocation_seed": 20261109,
+    "original_allocation_rng": "numpy RandomState permutation of240source blocks of5rows",
+    "allocations": 500,
+    "labels": 50,
+    "prediction_sources": [
+      "AI",
+      "X_only"
+    ],
+    "full_cases": 1000,
+    "source_rows": 1200,
+    "original_recorded_exterior_cases": 8,
+    "prediction_routine": "unchanged public_conjoint_matched_audit.nuisance",
+    "retained_comparator": "original human-initialized PPI++ power,never retuned to known truth",
+    "validation": "match original unit support states and existing selected-power values;validate interior witnesses and strict endpoint brackets with original fixed-power LPs;independently verify negative recession directions above every endpoint below1",
+    "report": "complete-case counts and endpoint quantiles by prediction source,all8original exterior examples,paired existing selected powers,primal/dual residuals and numerical states;no population prevalence inference"
+  },
+  "data": "Public allocations replay existing observed choices;diagnostic random matrices are mathematical checks. No new human questionnaire,LLM response,or independent statistical validation sample is collected.",
+  "publication": "Only aggregate tables and allocation-level8case certificate summaries,not respondent-level vectors or original questionnaire exports"
+}

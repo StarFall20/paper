@@ -18,7 +18,7 @@ def main():
  exterior=audit(x,np.array([0,0,np.nan,np.nan]),np.array([.9,.9,.1,.1]),2);assert exterior['support']['status']=='outside_mean_support'
  rank=audit(np.ones((4,2)),y,g,2);assert rank['support']['status']=='rank_deficient'
  balanced=numeric_checks()
- for script in ['verify_finite_pool_covariance.py','verify_matched_moment_proposition.py','verify_proper_augmentation_invariance.py','verify_zonotope_reduction.py','verify_general_hard_endpoint.py']:
+ for script in ['verify_finite_pool_covariance.py','verify_matched_moment_proposition.py','verify_proper_augmentation_invariance.py','verify_zonotope_reduction.py','verify_general_hard_endpoint.py','power_domain_choice.py']:
   subprocess.run([sys.executable,str(root/'analysis'/script),'--out',str(a.out)],check=True,stdout=subprocess.DEVNULL)
  if a.full_math:
   for script in ['finite_ratio_signal_boundary.py','imperfect_predictor_choice_boundary.py','vanishing_power_choice.py','joint_power_choice.py','general_joint_power_boundary.py']:
@@ -117,7 +117,26 @@ def main():
  gg=json.loads((root/'results/general_joint_power_geometry_checks.json').read_text())
  assert gg['original_rescaled_LP_matches']==120 and gg['independent_limiting_projection_cases']==24
  assert gg['maximum_projection_norm_squared_difference']<1e-6
- report={'analytic_intercept_root_error':err,'boundary_exterior_rank_checks':True,'balanced_LP_and_quadrature':balanced,'completed_grid_consistency':grids,'full_math_checks_run':a.full_math,'reported_table_rounding_checked':True,'positive_power_paired_draws':6000,'raw_unknown_preserved_and_resolved':True,'original_draws_replayed':500,'old_support_status_matches':1000,'all_three_tables_reconciled':True,'joint_power_existing_draws_replayed':6000,'joint_power_new_feasibility_checks':12000,'classical_zonotope_reduction_checked':True,'paired_expected_choice_loss_checked':True,'DY_comparator_original_draws_replayed':1000,'DY_comparator_fits':2000,'general_all_power_boundary_checked':True,'excluded_hard_endpoint_scope_checked':True,'general_phase_calls':90000,'general_initial_unknowns':general['initial_unknowns'],'requires_raw_questionnaires':False,'proves_novelty_or_submission_readiness':False}
+ domain=json.loads((root/'results/power_domain_replay_checks.json').read_text())
+ domain_summary=pd.read_csv(root/'results/power_domain_summary.csv')
+ domain_cases=json.loads((root/'results/power_domain_exterior_certificates.json').read_text())
+ assert domain['completed_cases']==domain['interior_witnesses_independently_checked']==domain['existing_selected_power_support_interior']==1000
+ assert domain['issues']==domain['original_unit_status_mismatches']==0
+ assert len(domain_cases)==domain['interior_cutoff_certificates']==8
+ assert domain_summary.allocations.eq(500).all() and domain_summary.positive_intervals.eq(500).all()
+ assert domain_summary.unit_exterior.sum()==domain_summary.endpoint_below_one.sum()==8
+ assert domain_summary.existing_selected_power_zero.sum()==domain['existing_selected_zero_powers']
+ for name,digest in domain['source_hashes'].items():
+  if name.endswith('.py'):assert hashlib.sha256((root/'analysis'/name).read_bytes()).hexdigest()==digest
+ for case in domain_cases:
+  cut=case['closed_endpoint'];h=case['human_recession'];cost=case['unit_recession']
+  assert 0<cut<1 and h>0 and cost<0 and abs(h/(h-cost)-cut)<1e-7
+  assert 0<=case['existing_selected_power']<cut and case['above_endpoint_direct_recession']<0
+  assert case['maximum_independent_identity_error']<1e-7
+  brackets=case['fixed_power_brackets']
+  assert brackets['half_endpoint']['status']==brackets['below_endpoint']['status']=='interior'
+  assert brackets['at_endpoint']['status']=='boundary_or_near_boundary' and brackets['above_endpoint']['status']=='outside_mean_support'
+ report={'analytic_intercept_root_error':err,'boundary_exterior_rank_checks':True,'balanced_LP_and_quadrature':balanced,'completed_grid_consistency':grids,'full_math_checks_run':a.full_math,'reported_table_rounding_checked':True,'positive_power_paired_draws':6000,'raw_unknown_preserved_and_resolved':True,'original_draws_replayed':500,'old_support_status_matches':1000,'all_three_tables_reconciled':True,'joint_power_existing_draws_replayed':6000,'joint_power_new_feasibility_checks':12000,'classical_zonotope_reduction_checked':True,'paired_expected_choice_loss_checked':True,'DY_comparator_original_draws_replayed':1000,'DY_comparator_fits':2000,'general_all_power_boundary_checked':True,'excluded_hard_endpoint_scope_checked':True,'general_phase_calls':90000,'general_initial_unknowns':general['initial_unknowns'],'finite_design_power_domain_cases':1000,'independent_endpoint_recession_certificates':8,'requires_raw_questionnaires':False,'proves_novelty_or_submission_readiness':False}
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True}))
 
 if __name__=='__main__':main()

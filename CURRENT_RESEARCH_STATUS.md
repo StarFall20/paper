@@ -106,6 +106,12 @@ The [new audit](reports/public_conjoint_audit_20261109/最近前驱补查与成�
 
 The same1000draws from the two displayed support conditions now include2000raw DY fits at the published dimension rule and fixed half shrinkage. All1000human fit statuses and available errors reconstruct;the seven original method outputs remain unchanged. With150labels,the labelled-only dimension rule gives MSE0.101103 and diagnostic coverage0.945091,near one-step PPI's0.099168 and0.945091. The paired MSE difference is0.001935 with MCSE0.001399. Both DY settings return500fits per condition. Their ordinary sandwiches are not the published Gaussian HD corrections. All settings,error/choice-loss pairs,target shifts and Monte Carlo precision remain visible. These findings weaken a generic stable-estimation or auxiliary-prediction necessity claim;the candidate remains the specified compensated-loss boundary and its consequences.
 
+## Complete finite-design power-domain supplement
+
+The [supplement](reports/public_conjoint_audit_20261109/完整权重区间审计_20261110.md) computes the full admissible positive-power interval using classical parametric support LPs and a separate strict witness. All1000existing public-design cases reconstruct,with no unit-status mismatch or numerical issue. The8original unit-power exterior cases have independently verified recession ratios,lower/upper support brackets and boundary endpoints. Existing selected powers already remain admissible in every case;no largest-endpoint estimator is proposed. This deterministic audit does not require Gaussian features. It is a computational supplement,not a new core innovation. The reviewed28page Word manuscript and all three main tables remain unchanged.
+
+The [latest source explanation check](reports/public_conjoint_audit_20261109/样本来源说明确认_20261110.md) matches the current300human-recruitment/60AI-pretest classification. Both raw questionnaire hashes and the existing human-only model populations agree;no response or source field changes.
+
 ## Innovation and submission decision
 
 The original fibre-information/rank claim coincides with classical lack-of-fit constructions and remains retired. [Equivalence proof](reports/method_decision_20261109/classical_equivalence_proof.md).

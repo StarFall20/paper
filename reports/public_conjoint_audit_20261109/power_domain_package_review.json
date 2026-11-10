@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-10",
+  "complete_public_cases": 1000,
+  "independent_exterior_endpoint_certificates": 8,
+  "clean_package_checks": {
+    "analytic_intercept_root_error": 1.4703560591300402e-10,
+    "boundary_exterior_rank_checks": true,
+    "balanced_LP_and_quadrature": {
+      "normal_tail_quadrature_max_error": 8.881784197001252e-16,
+      "unit_power_reduction_error": 8.881784197001252e-16,
+      "large_auxiliary_limit_checks": [
+        {
+          "epsilon": 0.1,
+          "finite_ratio": 10000,
+          "boundary": 1.7675831087453844,
+          "population_limit": 1.768388256576615
+        },
+        {
+          "epsilon": 0.25,
+          "finite_ratio": 10000,
+          "boundary": 0.8486849212713423,
+          "population_limit": 0.8488263631567752
+        }
+      ],
+      "original_interval_LP_matches": 100,
+      "identity_status_counts": {
+        "interior": 43,
+        "outside_mean_support": 57
+      },
+      "independent_priority_verified": false
+    },
+    "completed_grid_consistency": {
+      "finite_ratio_phase_checks.csv": {
+        "cells": 80,
+        "draws_per_cell": 500,
+        "unresolved": 0
+      },
+      "finite_ratio_signal_phase.csv": {
+        "cells": 80,
+        "draws_per_cell": 300,
+        "unresolved": 0
+      },
+      "imperfect_prediction_phase.csv": {
+        "cells": 80,
+        "draws_per_cell": 300,
+        "unresolved": 0
+      }
+    },
+    "full_math_checks_run": false,
+    "reported_table_rounding_checked": true,
+    "positive_power_paired_draws": 6000,
+    "raw_unknown_preserved_and_resolved": true,
+    "original_draws_replayed": 500,
+    "old_support_status_matches": 1000,
+    "all_three_tables_reconciled": true,
+    "joint_power_existing_draws_replayed": 6000,
+    "joint_power_new_feasibility_checks": 12000,
+    "classical_zonotope_reduction_checked": true,
+    "paired_expected_choice_loss_checked": true,
+    "DY_comparator_original_draws_replayed": 1000,
+    "DY_comparator_fits": 2000,
+    "general_all_power_boundary_checked": true,
+    "excluded_hard_endpoint_scope_checked": true,
+    "general_phase_calls": 90000,
+    "general_initial_unknowns": 12,
+    "finite_design_power_domain_cases": 1000,
+    "independent_endpoint_recession_certificates": 8,
+    "requires_raw_questionnaires": false,
+    "proves_novelty_or_submission_readiness": false
+  },
+  "manuscript_unchanged": {
+    "source_sha256": "0c92f770d490b35a48deabb0d99d468ec46e18dfd54963e4c7ab30c1826c26c4",
+    "docx_sha256": "a57d879464ece69c308e513c3f0585fc34d0adbbbf1f5b1d7a97ffaf1a3c6da6",
+    "unchanged_from_visually_reviewed_manuscript": true,
+    "main_tables_changed": false,
+    "new_science_in_supplement_only": true
+  },
+  "no_raw_trial_or_questionnaire_inputs_in_public_package": true,
+  "scientific_originality_or_submission_readiness_proven": false
+}

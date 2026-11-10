@@ -1,0 +1,426 @@
+[
+  {
+    "trial": 92,
+    "prediction": "AI",
+    "closed_endpoint": 0.9809905514912118,
+    "finite_interior_power_domain": "(0, closed_endpoint)",
+    "original_unit_fit_status": "outside_mean_support",
+    "existing_selected_power": 0.13617327756225694,
+    "existing_selected_fit_status": "finite_root",
+    "endpoint_direction": [
+      -0.0,
+      0.051631081657432194,
+      0.05163108165743221,
+      -0.10326216331486443,
+      -0.10326216331486442,
+      0.05163108165743221,
+      -0.1032621633148644,
+      -0.10326216331486442,
+      0.05163108165743222,
+      0.15489324497229662,
+      0.20652432662972883
+    ],
+    "human_recession": 0.01961981102982424,
+    "unit_recession": -0.00038018897017591535,
+    "above_endpoint_direct_recession": -0.00019009448508804094,
+    "maximum_independent_identity_error": 7.771561172376096e-15,
+    "fixed_power_brackets": {
+      "half_endpoint": {
+        "power": 0.4904952757456059,
+        "status": "interior",
+        "interior_margin": 0.05446343985535239,
+        "separation_gap": null
+      },
+      "below_endpoint": {
+        "power": 0.9711806459762997,
+        "status": "interior",
+        "interior_margin": 0.0014040268935945732,
+        "separation_gap": null
+      },
+      "at_endpoint": {
+        "power": 0.9809905514912118,
+        "status": "boundary_or_near_boundary",
+        "interior_margin": -1.4322029819584776e-13,
+        "separation_gap": null
+      },
+      "above_endpoint": {
+        "power": 0.9904952757456059,
+        "status": "outside_mean_support",
+        "interior_margin": null,
+        "separation_gap": 0.00019377809990017703
+      }
+    },
+    "interpretation": "Allocation-level public-design certificate; classical parametric LP, not a tuning rule or new respondent sample."
+  },
+  {
+    "trial": 121,
+    "prediction": "AI",
+    "closed_endpoint": 0.928260683148522,
+    "finite_interior_power_domain": "(0, closed_endpoint)",
+    "original_unit_fit_status": "outside_mean_support",
+    "existing_selected_power": 0.0,
+    "existing_selected_fit_status": "finite_root",
+    "endpoint_direction": [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.464130341574261,
+      -0.0,
+      -0.0
+    ],
+    "human_recession": 0.01856521366297044,
+    "unit_recession": -0.001434786337029731,
+    "above_endpoint_direct_recession": -0.0007173931685149904,
+    "maximum_independent_identity_error": 8.43769498715119e-15,
+    "fixed_power_brackets": {
+      "half_endpoint": {
+        "power": 0.464130341574261,
+        "status": "interior",
+        "interior_margin": 0.04239579955091108,
+        "separation_gap": null
+      },
+      "below_endpoint": {
+        "power": 0.9189780763170368,
+        "status": "interior",
+        "interior_margin": 0.0010038436559819007,
+        "separation_gap": null
+      },
+      "at_endpoint": {
+        "power": 0.928260683148522,
+        "status": "boundary_or_near_boundary",
+        "interior_margin": -4.836186214508303e-13,
+        "separation_gap": null
+      },
+      "above_endpoint": {
+        "power": 0.964130341574261,
+        "status": "outside_mean_support",
+        "interior_margin": null,
+        "separation_gap": 0.0015456717741865467
+      }
+    },
+    "interpretation": "Allocation-level public-design certificate; classical parametric LP, not a tuning rule or new respondent sample."
+  },
+  {
+    "trial": 256,
+    "prediction": "AI",
+    "closed_endpoint": 0.9107788598759531,
+    "finite_interior_power_domain": "(0, closed_endpoint)",
+    "original_unit_fit_status": "outside_mean_support",
+    "existing_selected_power": 0.0,
+    "existing_selected_fit_status": "finite_root",
+    "endpoint_direction": [
+      -0.0,
+      0.11384735748449414,
+      -0.11384735748449414,
+      -0.0,
+      0.11384735748449414,
+      -0.0,
+      -0.22769471496898827,
+      -0.11384735748449414,
+      -0.3415420724534824,
+      -0.0,
+      -0.0
+    ],
+    "human_recession": 0.01821557719751906,
+    "unit_recession": -0.0017844228024811865,
+    "above_endpoint_direct_recession": -0.0008922114012406973,
+    "maximum_independent_identity_error": 1.2434497875801753e-14,
+    "fixed_power_brackets": {
+      "half_endpoint": {
+        "power": 0.45538942993797654,
+        "status": "interior",
+        "interior_margin": 0.027215729298919446,
+        "separation_gap": null
+      },
+      "below_endpoint": {
+        "power": 0.9016710712771936,
+        "status": "interior",
+        "interior_margin": 0.0007976215020740725,
+        "separation_gap": null
+      },
+      "at_endpoint": {
+        "power": 0.9107788598759531,
+        "status": "boundary_or_near_boundary",
+        "interior_margin": 1.567209053595483e-13,
+        "separation_gap": null
+      },
+      "above_endpoint": {
+        "power": 0.9553894299379766,
+        "status": "outside_mean_support",
+        "interior_margin": null,
+        "separation_gap": 0.0008707676869123271
+      }
+    },
+    "interpretation": "Allocation-level public-design certificate; classical parametric LP, not a tuning rule or new respondent sample."
+  },
+  {
+    "trial": 317,
+    "prediction": "AI",
+    "closed_endpoint": 0.8743450033379637,
+    "finite_interior_power_domain": "(0, closed_endpoint)",
+    "original_unit_fit_status": "outside_mean_support",
+    "existing_selected_power": 0.07960599564966717,
+    "existing_selected_fit_status": "finite_root",
+    "endpoint_direction": [
+      0.07286208361149696,
+      0.29144833444598783,
+      -0.0,
+      -0.07286208361149696,
+      -0.0,
+      -0.21858625083449088,
+      -0.07286208361149696,
+      -0.07286208361149696,
+      -0.14572416722299392,
+      -0.0,
+      -0.0
+    ],
+    "human_recession": 0.017486900066759268,
+    "unit_recession": -0.002513099933240809,
+    "above_endpoint_direct_recession": -0.0012565499666203767,
+    "maximum_independent_identity_error": 3.774758283725532e-15,
+    "fixed_power_brackets": {
+      "half_endpoint": {
+        "power": 0.43717250166898186,
+        "status": "interior",
+        "interior_margin": 0.030208678720370266,
+        "separation_gap": null
+      },
+      "below_endpoint": {
+        "power": 0.8656015533045841,
+        "status": "interior",
+        "interior_margin": 0.0007947323211927329,
+        "separation_gap": null
+      },
+      "at_endpoint": {
+        "power": 0.8743450033379637,
+        "status": "boundary_or_near_boundary",
+        "interior_margin": 5.083725082219733e-14,
+        "separation_gap": null
+      },
+      "above_endpoint": {
+        "power": 0.9371725016689818,
+        "status": "outside_mean_support",
+        "interior_margin": null,
+        "separation_gap": 0.001422224100243702
+      }
+    },
+    "interpretation": "Allocation-level public-design certificate; classical parametric LP, not a tuning rule or new respondent sample."
+  },
+  {
+    "trial": 317,
+    "prediction": "X_only",
+    "closed_endpoint": 0.760976573508726,
+    "finite_interior_power_domain": "(0, closed_endpoint)",
+    "original_unit_fit_status": "outside_mean_support",
+    "existing_selected_power": 0.1336495696939536,
+    "existing_selected_fit_status": "finite_root",
+    "endpoint_direction": [
+      0.04227647630604034,
+      0.2113823815302017,
+      -0.0,
+      -0.08455295261208068,
+      -0.0,
+      -0.16910590522416136,
+      -0.04227647630604034,
+      -0.04227647630604034,
+      -0.08455295261208068,
+      0.04227647630604034,
+      -0.0
+    ],
+    "human_recession": 0.01521953147017452,
+    "unit_recession": -0.004780468529825582,
+    "above_endpoint_direct_recession": -0.0023902342649128466,
+    "maximum_independent_identity_error": 5.10702591327572e-15,
+    "fixed_power_brackets": {
+      "half_endpoint": {
+        "power": 0.380488286754363,
+        "status": "interior",
+        "interior_margin": 0.03295007170971436,
+        "separation_gap": null
+      },
+      "below_endpoint": {
+        "power": 0.7533668077736387,
+        "status": "interior",
+        "interior_margin": 0.0008698069183320805,
+        "separation_gap": null
+      },
+      "at_endpoint": {
+        "power": 0.760976573508726,
+        "status": "boundary_or_near_boundary",
+        "interior_margin": -6.260902575591771e-13,
+        "separation_gap": null
+      },
+      "above_endpoint": {
+        "power": 0.8804882867543631,
+        "status": "outside_mean_support",
+        "interior_margin": null,
+        "separation_gap": 0.003325774233530865
+      }
+    },
+    "interpretation": "Allocation-level public-design certificate; classical parametric LP, not a tuning rule or new respondent sample."
+  },
+  {
+    "trial": 337,
+    "prediction": "AI",
+    "closed_endpoint": 0.8777111223891968,
+    "finite_interior_power_domain": "(0, closed_endpoint)",
+    "original_unit_fit_status": "outside_mean_support",
+    "existing_selected_power": 0.0,
+    "existing_selected_fit_status": "finite_root",
+    "endpoint_direction": [
+      -0.15021230618070144,
+      -0.026508054031888488,
+      0.06774280474815948,
+      0.011781357347505995,
+      -0.06185212607440647,
+      0.08836018010629496,
+      0.011781357347505995,
+      0.008836018010629491,
+      0.038289411379394483,
+      0.20911909291823141,
+      0.11781357347505995
+    ],
+    "human_recession": 0.017554222447783933,
+    "unit_recession": -0.0024457775522161926,
+    "above_endpoint_direct_recession": -0.0012228887761081275,
+    "maximum_independent_identity_error": 6.217248937900877e-15,
+    "fixed_power_brackets": {
+      "half_endpoint": {
+        "power": 0.4388555611945984,
+        "status": "interior",
+        "interior_margin": 0.04600933175561025,
+        "separation_gap": null
+      },
+      "below_endpoint": {
+        "power": 0.8689340111653048,
+        "status": "interior",
+        "interior_margin": 0.0012210604120505937,
+        "separation_gap": null
+      },
+      "at_endpoint": {
+        "power": 0.8777111223891968,
+        "status": "boundary_or_near_boundary",
+        "interior_margin": -2.0349305080342176e-13,
+        "separation_gap": null
+      },
+      "above_endpoint": {
+        "power": 0.9388555611945983,
+        "status": "outside_mean_support",
+        "interior_margin": null,
+        "separation_gap": 0.0015945997567312908
+      }
+    },
+    "interpretation": "Allocation-level public-design certificate; classical parametric LP, not a tuning rule or new respondent sample."
+  },
+  {
+    "trial": 483,
+    "prediction": "AI",
+    "closed_endpoint": 0.7416848236190634,
+    "finite_interior_power_domain": "(0, closed_endpoint)",
+    "original_unit_fit_status": "outside_mean_support",
+    "existing_selected_power": 0.0,
+    "existing_selected_fit_status": "finite_root",
+    "endpoint_direction": [
+      -0.08240942484656262,
+      0.1236141372698439,
+      0.041204712423281276,
+      0.016481884969312577,
+      -0.09065036733121887,
+      0.016481884969312577,
+      -0.22250544708571907,
+      -0.2966739294476254,
+      0.04944565490793759,
+      0.2142645046010629,
+      0.09889130981587517
+    ],
+    "human_recession": 0.01483369647238127,
+    "unit_recession": -0.005166303527618987,
+    "above_endpoint_direct_recession": -0.0025831517638095908,
+    "maximum_independent_identity_error": 1.2878587085651816e-14,
+    "fixed_power_brackets": {
+      "half_endpoint": {
+        "power": 0.3708424118095317,
+        "status": "interior",
+        "interior_margin": 0.0273837515951639,
+        "separation_gap": null
+      },
+      "below_endpoint": {
+        "power": 0.7342679753828728,
+        "status": "interior",
+        "interior_margin": 0.000679832493063388,
+        "separation_gap": null
+      },
+      "at_endpoint": {
+        "power": 0.7416848236190634,
+        "status": "boundary_or_near_boundary",
+        "interior_margin": -1.7224842104385233e-13,
+        "separation_gap": null
+      },
+      "above_endpoint": {
+        "power": 0.8708424118095317,
+        "status": "outside_mean_support",
+        "interior_margin": null,
+        "separation_gap": 0.002367375907429553
+      }
+    },
+    "interpretation": "Allocation-level public-design certificate; classical parametric LP, not a tuning rule or new respondent sample."
+  },
+  {
+    "trial": 483,
+    "prediction": "X_only",
+    "closed_endpoint": 0.7093481053158127,
+    "finite_interior_power_domain": "(0, closed_endpoint)",
+    "original_unit_fit_status": "outside_mean_support",
+    "existing_selected_power": 0.0,
+    "existing_selected_fit_status": "finite_root",
+    "endpoint_direction": [
+      -0.0846982812317388,
+      0.12704742184760826,
+      0.052936425769836766,
+      0.02117457030793469,
+      -0.1164601366936409,
+      0.03176185546190208,
+      -0.24350755854124914,
+      -0.32820583977298795,
+      0.0423491406158694,
+      0.23292027338728177,
+      0.1164601366936409
+    ],
+    "human_recession": 0.014186962106316257,
+    "unit_recession": -0.0058130378936840366,
+    "above_endpoint_direct_recession": -0.002906518946842143,
+    "maximum_independent_identity_error": 1.4654943925052066e-14,
+    "fixed_power_brackets": {
+      "half_endpoint": {
+        "power": 0.35467405265790636,
+        "status": "interior",
+        "interior_margin": 0.02656276155064157,
+        "separation_gap": null
+      },
+      "below_endpoint": {
+        "power": 0.7022546242626546,
+        "status": "interior",
+        "interior_margin": 0.0006012708740910449,
+        "separation_gap": null
+      },
+      "at_endpoint": {
+        "power": 0.7093481053158127,
+        "status": "boundary_or_near_boundary",
+        "interior_margin": -4.08304755941869e-14,
+        "separation_gap": null
+      },
+      "above_endpoint": {
+        "power": 0.8546740526579064,
+        "status": "outside_mean_support",
+        "interior_margin": null,
+        "separation_gap": 0.0022872189682495297
+      }
+    },
+    "interpretation": "Allocation-level public-design certificate; classical parametric LP, not a tuning rule or new respondent sample."
+  }
+]
