@@ -1,14 +1,15 @@
 {
   "date": "2026-11-10",
-  "full_manuscript": "../../submission/finite_choice_20261110/manuscript/paper.md",
-  "native_word": "../../submission/finite_choice_20261110/manuscript/paper.docx",
-  "source_sha256": "411e7f8bde3ff289e96182fc28325b312a8adc838e6ddb0b98b6bcf62dd0ee22",
-  "word_sha256": "8464266a13ba0dcd68c9292332a58e515e9229d7ccdefe5b6a14adcf7700e289",
-  "pages": 20,
-  "native_equations": 328,
+  "pages": 23,
+  "native_equations": 382,
+  "main_theorems": 2,
   "main_figures": 3,
   "main_tables": 3,
   "proof_appendices": 4,
+  "full_manuscript": "../../submission/finite_choice_20261110/manuscript/paper.md",
+  "native_word": "../../submission/finite_choice_20261110/manuscript/paper.docx",
+  "source_sha256": "64d5e9622d40212cd85d2c824e1472406038a1a4259910819458a6f7e5547d9b",
+  "word_sha256": "25fab6dbd4a7fed5e0943cd39da41b195ffed4619d9e195d96bcae0d642de65b",
   "all_source_tables_equal_display_CSVs": true,
   "clean_package_numeric_checks": {
     "analytic_intercept_root_error": 1.4703560591300402e-10,
@@ -61,9 +62,12 @@
     "original_draws_replayed": 500,
     "old_support_status_matches": 1000,
     "all_three_tables_reconciled": true,
+    "joint_power_existing_draws_replayed": 6000,
+    "joint_power_new_feasibility_checks": 12000,
+    "classical_zonotope_reduction_checked": true,
+    "paired_expected_choice_loss_checked": true,
     "requires_raw_questionnaires": false,
     "proves_novelty_or_submission_readiness": false
   },
-  "novelty_and_submission_readiness_proven": false,
-  "new_simulated_or_human_responses_this_packaging_step": false
+  "novelty_and_submission_readiness_proven": false
 }

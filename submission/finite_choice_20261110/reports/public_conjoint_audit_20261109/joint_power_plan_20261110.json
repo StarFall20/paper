@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-10",
+  "question": "Does the balanced corrected-logit positive-power right limit also bound all powers simultaneously and govern arbitrary strictly positive powers tending to zero?",
+  "scope": "Balanced binary oracle, independent Gaussian slopes, fixed zero intercept, finite auxiliary to label ratio, fixed proxy error in (0,0.5]",
+  "theory_before_runs": "joint_power_derivation_20261110.md",
+  "original_draw_replay": {
+    "seed": 20261123,
+    "labels": [40,80],
+    "auxiliary_to_label_ratio": 1,
+    "proxy_error": [0.25,0.5],
+    "dimension_to_label_ratio": [0.45,0.6,0.7],
+    "replications_per_block": 500,
+    "total_original_draws_replayed": 6000,
+    "positive_power_sequences": ["1/sqrt(m)","1/m"],
+    "original_limit_aggregate_reference": "vanishing_power_phase_verified.csv",
+    "new_independent_response_samples": false
+  },
+  "independent_geometry_checks": [
+    "Limiting cone projection by scalar minimization versus constrained quadratic optimization",
+    "Explicit polar inequalities and Moreau orthogonality",
+    "Closed-cone zero-scale rays, including nonzero labelled coordinates at scale zero",
+    "Every original limiting support aggregate must match the reconstruction"
+  ],
+  "reporting": "Keep raw unknowns and independent resolutions separately; retain every planned cell; do not claim a coefficient error or coverage theorem, an optimal inference weight, general categorical DCE validity, or priority from these checks.",
+  "generic_machinery": "Classical polyhedral cone projection, Gaussian random-nullspace bounds and probability sandwich; the specified corrected-loss boundary is the candidate increment."
+}

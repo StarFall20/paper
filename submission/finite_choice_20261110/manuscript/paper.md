@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Predicted choices can supplement observed choices through a correction that preserves the population score. The corrected empirical logit objective can have no finite minimizer. We derive its existence boundary when labelled and auxiliary samples grow with attribute dimension, allowing a utility signal, an estimated intercept and an imperfect frozen predictor. Correction power changes the existence event. In a balanced benchmark with equal sample sizes and proxy error 0.25, the critical dimension to label ratio is 0.355 at unit power and 0.603 at the established variance reference power. Its positive power right limit is 0.664, while exactly zero power gives the ordinary logit threshold 0.5. A fixed sample result explains how finite coefficients can diverge as power decreases. Released vaccine choices supply verified exterior moments, and simulations on their attribute support retain seven estimation strategies. Replaying 500 existing samples shows that increased availability at small power can accompany much larger error on shared available fits. A finite objective audit checks the estimator actually specified. The results connect correction weights to existence, coefficient behavior and reliable reporting in choice analysis.
+Predicted choices can supplement observed choices through a correction that preserves the population score. The corrected empirical logit objective can have no finite minimizer. We derive its existence boundary when labelled and auxiliary samples grow with attribute dimension, allowing a utility signal, an estimated intercept and an imperfect frozen predictor. Correction power changes the existence event. In a balanced benchmark with equal sample sizes and proxy error 0.25, the critical dimension to label ratio is 0.355 at unit power and 0.603 at the established variance reference power. Its positive power right limit is 0.664, while exactly zero power gives the ordinary logit threshold 0.5. In the balanced fixed intercept model, this right limit bounds all powers simultaneously and governs strictly positive data dependent powers tending to zero. A fixed sample result explains the coefficient growth at small power. Released vaccine choices supply verified exterior moments, and simulations on their attribute support retain seven estimation strategies. Replaying 500 existing samples shows that increased availability can accompany much larger error on shared available fits. The results connect correction weights to existence, coefficient behavior and reliable reporting in choice analysis.
 
 Keywords: binary choice; prediction powered inference; logistic separation; finite auxiliary samples; existence of estimates
 
@@ -14,9 +14,9 @@ An analyst must also be able to solve the empirical estimating equation. A corre
 
 We characterize the finite solution boundary of a specified unpenalized, prediction assisted binary logit objective. Our main result treats an estimated intercept, one Gaussian utility signal and an increasing number of independent Gaussian attributes. The labelled and auxiliary samples grow at a finite ratio. Predictions are frozen functions of the signal and auxiliary information, and can be miscalibrated. An explicit variational expression gives the critical attribute dimension per labelled observation. A balanced specialization reduces the calculation to one scalar optimization.
 
-The result explains a distinction between efficiency calculations and existence calculations. At proxy error 0.25 and equal labelled and auxiliary sample sizes, the balanced unit power boundary is 0.355. Applying the established population variance reference power gives 0.603. The positive power right limit is 0.664, exceeding the ordinary logit endpoint 0.5. Small positive weights can retain auxiliary stabilization after the human sample becomes separable. A fixed sample limit shows how the resulting coefficients approach a separator as their norms grow. These values describe a Gaussian benchmark; the finite sample support audit uses the actual design matrix and also accommodates categorical attributes.
+The result explains a distinction between efficiency calculations and existence calculations. At proxy error 0.25 and equal labelled and auxiliary sample sizes, the balanced unit power boundary is 0.355. Applying the established population variance reference power gives 0.603. The positive power right limit is 0.664, exceeding the ordinary logit endpoint 0.5. In the balanced fixed intercept model it also bounds all choices of power: above this dimension ratio, power selection cannot restore a finite unpenalized root. Strictly positive powers tending to zero attain the upper existence region. A fixed sample limit explains how coefficients can approach a separator as their norms grow. The finite sample support audit uses the actual design matrix and also accommodates categorical attributes.
 
-The theoretical tools have clear antecedents. Logistic separation and ordinary logit existence thresholds are established (Candès and Sur, 2020). Statistical dimension locates transitions in random convex feasibility problems (Amelunxen et al., 2014). Koriyama and Bellec (2025) give general existence results for convex M estimators with finite rowwise loss infima. Positive power correction creates labelled row losses with infimum minus infinity; finite estimability depends on compensation by other rows. We derive the explicit finite auxiliary boundary for that corrected objective. Power tuning and one step estimation come from PPI++ and remain comparison methods throughout the paper.
+The theoretical tools have clear antecedents. Logistic separation and ordinary logit existence thresholds are established (Candès and Sur, 2020). Statistical dimension locates transitions in random convex feasibility problems (Amelunxen et al., 2014). The unit power uninformative benchmark is a classical Gaussian zonotope absorption event (Kabluchko and Seidel, 2020). Koriyama and Bellec (2025) give general existence results for convex M estimators with finite rowwise loss infima. Positive power correction creates labelled row losses with infimum minus infinity; finite estimability depends on compensation by other rows. We derive the explicit finite auxiliary boundary for that corrected objective. Power tuning and one step estimation come from PPI++ and remain comparison methods throughout the paper.
 
 Corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are established for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. The two sample geometry gives the probability boundary for this event. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
 
@@ -183,7 +183,11 @@ Corollary 1. For $\tau>0$ and $0<\epsilon\leq1/2$, the boundary strictly decreas
 
 $$\kappa_c(0+)=1+\tau-\min_{v\geq0}G(v)>1/2=\kappa_c(0). \qquad (17)$$
 
-At $\tau=1$ and $\epsilon=0.25$, the right limit is 0.664488. An uninformative prediction at $\epsilon=1/2$ also has a gap, with right limit 0.608737. This gap concerns existence and auxiliary stabilization; it does not measure additional choice information. Equation (17) first takes the increasing dimension limit at each fixed positive power, then lets power tend to zero. It does not establish a result for an arbitrary joint sequence of powers and sample sizes.
+At $\tau=1$ and $\epsilon=0.25$, the right limit is 0.664488. An uninformative prediction at $\epsilon=1/2$ also has a gap, with right limit 0.608737. This gap concerns existence and auxiliary stabilization; it does not measure additional choice information. A limiting cone strengthens the right limit into the following simultaneous result.
+
+Theorem 2. Consider the balanced oracle with $p$ independent Gaussian slopes, a fixed zero intercept, $N/m\to\tau>0$ and $p/m\to\kappa$. Put $\kappa_* = \kappa_c(0+)$. For $\kappa<\kappa_*$, some fixed power in $(0,1)$ gives a unique finite root with probability tending to one. For $\kappa>\kappa_*$, the probability that any power in $[0,1]$ gives a finite root tends to zero. Every sequence of possibly data dependent powers satisfying $0<\lambda_m\leq1$ almost surely and $\lambda_m\to0$ in probability has the same strict two sided existence boundary $\kappa_*$.
+
+The simultaneous upper bound avoids a separate probability approximation for each selected weight. Appendix D constructs a closed cone containing every positive power cone, evaluates its statistical dimension and combines it with the fixed sample nesting identity. The joint result has no rate requirement on positive powers. A rule returning exactly zero with nonvanishing probability has a different event. The signal and estimated intercept result in Theorem 1 retains its fixed positive power conditions; the joint statement concerns the balanced fixed intercept model.
 
 A fixed sample counterpart describes the coefficient cost. On a strictly separated human sample, suppose the unit power recession function is positive on every nonzero human weak separator. Small positive powers then have finite roots whose norms diverge as power tends to zero. After division by $\log(1/\lambda)$, their limit set minimizes the corrected auxiliary recession cost subject to human margins of at least one. Appendix D states the condition, proves (17) and derives this path. The generic margin mechanism follows established vanishing regularization arguments; the cost and existence boundary belong to the specified corrected loss.
 
@@ -272,6 +276,8 @@ MSE and its quantiles in Table 3 condition on each method's available estimates.
 
 The shared samples isolate the weight comparison from availability selection. Among the same 412 repetitions with an available unit power estimate, mean MSE is 4.836 at unit power, 1.615 at power 0.5, 9.571 at power 0.1 and 153.487 at power 0.01. The paired mean difference between powers 0.01 and one is 148.650, with Monte Carlo standard error 10.180; 94.66% of these samples have greater MSE at the smaller power. Among the 116 samples where the human MLE exists, power 0.01 instead reduces mean MSE from 8.560 to 4.899. The human separation stratum materially changes the comparison.
 
+The choice probabilities also change materially on those same 412 repetitions. Mean expected excess log loss is 0.715 nats per choice at unit power, 0.434 at power 0.5, 1.475 at power 0.1 and 6.866 at power 0.01. This quantity is the Bernoulli Kullback–Leibler divergence from the known choice probabilities, averaged over the fixed 1200 row support. It evaluates the generated choice population exactly; it supplies no additional human validation sample.
+
 ![Figure 3](figures/figure3_power_endpoint.png)
 
 Figure 3  Existence and error respond differently to power. The left panel gives the balanced Gaussian boundary at auxiliary to label ratio one. Open markers at zero give positive power right limits; the filled black marker gives exactly zero power. The right panel compares positive powers on the same 412 replayed samples with available unit power fits, using the original 11 contrast support and 20 labels. Both right panel axes are logarithmic. These are fixed power comparisons; they do not define a new optimal inference weight.
@@ -284,13 +290,13 @@ Prediction assistance introduces a sample allocation decision alongside the util
 
 For a concrete dataset, the support audit answers whether the stated unpenalized objective can have a finite root. Exterior moments identify an optimization problem that additional iterations cannot solve. Boundary proximity and small curvature identify a different numerical situation and remain separately reported. An analyst can then choose an existing alternative with its objective and initializer documented. Clipping, pooling, a penalty and a one step update each define a specific estimation operation.
 
-Reliable intervals add another requirement. The known truth experiments show both high conditional coverage with unavailable estimates and finite point outputs with lower coverage. Reporting availability, conditional coverage and issued and covers makes those differences visible. This complements work on the sequential decisions of choice modellers (Nova et al., 2025): the fitted objective and convergence criterion belong in the reproducible specification alongside the utility function.
+Reliable intervals add another requirement. The known truth experiments show both high conditional coverage with unavailable estimates and finite point outputs with lower coverage. Reporting availability, conditional coverage and issued and covers makes those differences visible. Hess et al. (2026) distinguish parameter uncertainty, preference heterogeneity and repeated choice dependence; our reported coverage uses independently generated rows under its stated model. This complements work on the sequential decisions of choice modellers (Nova et al., 2025): the fitted objective and convergence criterion belong in the reproducible specification alongside the utility function.
 
 The Gaussian boundary describes a controlled increasing dimension model. Actual DCE attributes are often discrete and choices are repeated within people. Our finite design support calculation applies to a supplied binary logit loss; the phase formula does not convert those datasets into independent Gaussian observations. Extending the probability boundary to clustered or multinomial choice is a separate theoretical task. The current result supplies an explicit baseline and a direct objective audit for the binary case.
 
 ## 7 Conclusion
 
-Prediction assisted binary logit has a finite solution boundary determined jointly by labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. Positive power events are nested, and the balanced boundary is discontinuous at zero. The fixed sample coefficient path and replayed choice samples show the estimation cost that can accompany greater availability. The finite design audit checks the objective actually fitted. These results make the consequences of prediction assistance explicit for choice analysts assessing existence, target fidelity and uncertainty.
+Prediction assisted binary logit has a finite solution boundary determined jointly by labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. Positive power events are nested. In the balanced fixed intercept model, their upper envelope governs positive powers tending to zero and bounds every selection of power. The fixed sample coefficient path and replayed choice samples show the estimation cost that can accompany greater availability. The finite design audit checks the objective actually fitted. These results make the consequences of prediction assistance explicit for choice analysts assessing existence, target fidelity and uncertainty.
 
 ## Appendix A Proof of the finite ratio boundary
 
@@ -360,6 +366,12 @@ In the balanced oracle model, sign symmetry makes the saddle objective even in b
 
 Independent numerical formulations check the algebra. The balanced experiment has 100 original moment versus oriented interval LP matches and 80 phase conditions with 500 draws each. The signal experiment has 120 LP matches, 12 direct cone projection comparisons and 80 phase conditions with 300 draws. The imperfect prediction experiment adds 120 LP matches, 12 projection comparisons and 80 phase conditions with 300 draws. All classified phase draws are retained and no case is numerically unresolved. Independent projection errors are below $4.1\times10^{-14}$ after active face refinement; 100 versus 200 node quadrature agrees within $8.1\times10^{-9}$ in the imperfect grid. These checks test the stated calculations and do not establish priority or replace the proof.
 
+One benchmark has an exact classical interpretation. At unit power with $g=1/2$ and a fixed zero intercept, put $Z_G=m^{-1/2}\sum_{i\leq m}(2Y_i-1)X_i$. This is independent standard Gaussian relative to the auxiliary rows. Finite existence is, almost surely, equivalent to
+
+$$ (N/\sqrt{m})Z_G\in\{\sum_{j=1}^N c_jX_{Uj}: -1\leq c_j\leq1\}. \qquad (A7)$$
+
+For $N\geq p$, Kabluchko and Seidel (2020, Theorem 3.3) give this Gaussian zonotope absorption probability, with squared scale $N^2/m$. This symmetric special case is established geometry. A separate 200 case signed cube LP comparison verifies the reduction; the signal, informative prediction and power dependence in the stated corrected model require the full calculation above.
+
 ## Appendix B Equal risk and covariance with distinct existence thresholds
 
 Let $Y$ be balanced and independent of Gaussian attributes. Conditional on an ancillary confidence amplitude $C\in[0,c_{max}]$, $c_{max}<1/2$, a binary proxy flips $Y$ with probability $\epsilon(C)$. Set $g=1/2+C(2Z-1)$ and define
@@ -422,7 +434,7 @@ Let $h=H^\infty$ and $a=A^\infty$ for the fixed sample losses in Section 3.5. De
 
 Proposition 3. A finite root exists at some sufficiently small positive power exactly when $a(d)>0$ for every nonzero $d\in S$. When a larger positive power already gives a coercive objective, every smaller positive power gives a coercive objective as well.
 
-Equation (15) proves the nesting statement. Necessity of the criterion follows from $Q_\lambda^\infty(d)=\lambda a(d)$ on $S$. For sufficiency, if $S$ meets the unit sphere, continuity and compactness give a positive lower bound for $a$ on that intersection. It remains positive in a neighborhood. Away from this neighborhood $h$ has a positive minimum, while $a$ is bounded below on the sphere. Every sufficiently small positive power makes $(1-\lambda)h+\lambda a$ positive throughout the sphere. If $S=\{0\}$, $h$ is already positive there. Coercivity and full rank then establish the finite root.
+Equation (15) proves the nesting statement. On $S$, the identity $Q_\lambda^\infty(d)=\lambda a(d)$ gives necessity. For sufficiency, if $S$ meets the unit sphere, continuity and compactness give a positive lower bound for $a$ on that intersection. It remains positive in a neighborhood. Away from this neighborhood $h$ has a positive minimum, while $a$ is bounded below on the sphere. Every sufficiently small positive power makes $(1-\lambda)h+\lambda a$ positive throughout the sphere. If $S=\{0\}$, $h$ is already positive there. Coercivity and full rank then establish the finite root.
 
 For comparison, proper pseudo-label augmentation $H+cB$ has $h\geq0$ and $B^\infty\geq0$. Its zero recession directions and positively weighted design rank are invariant to every $c>0$. Its finite existence event is weight invariant. Synthetic likelihood regularization, including the existence results of Li and Huang (2026), builds on that positive augmentation structure. The subtracted labelled prediction loss in (2) changes the compensation problem. This comparison is an application of classical separation geometry.
 
@@ -454,6 +466,38 @@ The minimizers are bounded on this scale. Positivity of $a$ on the unit human se
 
 For a one coordinate example with all labelled choices and features equal to one, take $g_L=0.75$ and $g_U=0.25$. The exact root is $\log(2/\lambda-1)$ at every positive power. Equal predictions in the two samples instead leave a boundary target at every power; reversing those predictions makes the target exterior. All three examples have full rank auxiliary curvature. A separate two coordinate calculation verifies (D2) by a linear program and analytic scalar score equations. The normalized coefficients approach $(1,1)$, with scaled score error below $1.6\times10^{-15}$ in the displayed path. Root existence and bounded coefficient behavior remain separate properties.
 
+### D4 All powers and joint limits in the balanced model
+
+For this result all $p$ slopes are independent Gaussian attributes and the intercept is fixed at zero. Orient labelled rows by $1-2Y$ and auxiliary rows by $2Z-1$. Conditional on choices and proxies, their Gaussian matrix $A$ remains independent standard normal. Divide the positive power intervals by $\lambda$. Their labelled lower endpoints are $r_i=|Y_i-g_i|$, and their upper endpoints are $r_i+1/\lambda-1$. Write $\tau_m=N/m$, $a=-(1-\epsilon)/\tau_m$ and $b=\epsilon/\tau_m$ for the auxiliary endpoints.
+
+Let $K_*$ contain the vectors $u$ for which some scale $v\geq0$ satisfies
+
+$$u_{Li}\geq v r_i,\qquad va\leq u_{Uj}\leq vb. \qquad (D3)$$
+
+This is a closed polyhedral cone containing every finite positive power interval cone. Its zero scale face includes nonnegative labelled vectors with zero auxiliary coordinates. Keeping that face is necessary for closedness. Finite feasibility at any positive power implies that $\ker(A)$ meets $K_*$ at a nonzero point.
+
+For an independent standard normal vector $H$, projection onto this cone gives
+
+$$\|\Pi_{K_*}(H)\|^2=\sup_{v\geq0}[\sum_{i\leq m}\{H_i^2-(vr_i-H_i)_+^2\}$$
+
+$$\hphantom{\|\Pi_{K_*}(H)\|^2=}+\sum_{j>m}\{H_j^2-\operatorname{dist}(H_j,[va,vb])^2\}]. \qquad (D4)$$
+
+At zero scale the labelled contribution is $(H_i)_+^2$. The normal expectations divided by $m$ equal $1+\tau-G(v)$. The fixed lower bound $r_i\geq\epsilon>0$ makes the labelled distance grow quadratically with scale, localizing the supremum. A uniform law on bounded scales and uniform integrability from the projection bound $\|\Pi_{K_*}(H)\|^2\leq\|H\|^2$ give
+
+$$\delta(K_*)/m\to1+\tau-\min_{v\geq0}G(v)=\kappa_*. \qquad (D5)$$
+
+The classical random subspace bound now makes the intersection absent with probability tending to one when $p/m>\kappa_*$. Cone inclusion gives this upper bound simultaneously for every positive power. Ordinary logit also lacks a finite root there because $\kappa_*>1/2$.
+
+Without multiplier columns, the fixed positive power cone calculation of Appendix A gives (12) directly. For $\kappa<\kappa_*$, choose a fixed $\lambda_0\in(0,1)$ with $\kappa<\kappa_c(\lambda_0)$. The stacked design has full column rank on this side. Let $E_m(\lambda)$ be the unique finite root event. Fixed sample nesting yields, for strictly positive selected powers,
+
+$$P\{E_m(\lambda_m)\}\geq P\{E_m(\lambda_0)\}-P\{\lambda_m>\lambda_0\}. \qquad (D6)$$
+
+The right side tends to one if $\lambda_m\to0$ in probability. Dependence of the selected power on the data does not affect this inequality. This proves both the existence of an attainable positive power and the stated joint limit. The exact zero event, coefficient error and confidence interval behavior remain separate properties.
+
+The distinction at exact zero can be exhibited directly. For $1/2<\kappa<\kappa_*$, independently select power zero with probability one half and power $1/m$ otherwise. Its finite root probability tends to one half. The strictly positive sequence instead has probability tending to one.
+
+Numerical checks compare 48 projections onto the closed limiting cone using scalar minimization and an independent constrained quadratic program, with maximum coordinate difference below $7.3\times10^{-7}$. Explicit polar inequalities and projection orthogonality are checked separately. Replaying the original 6000 Gaussian samples at powers $1/\sqrt{m}$ and $1/m$ adds 12000 feasibility calculations. All 12 original limiting support aggregates agree with the reconstruction, and all 36 new report cells retain 500 draws without unresolved states. The raw and verified tables accompany the code.
+
 ## Data availability
 
 The public vaccine inputs are available from the pinned Generative Augmented Inference repository identified in Section 4. The reproduction package contains download instructions, source hashes, analysis code and aggregate outputs. The paper uses existing released choices and simulated outcomes. The separately retained questionnaire application does not enter the estimates reported here.
@@ -467,6 +511,10 @@ Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Pr
 Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2024). PPI++: Efficient prediction-powered inference. arXiv:2311.01453, version 2. https://arxiv.org/abs/2311.01453v2
 
 Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753
+
+Hess, S., Daly, A., Bliemer, M., Guevara, A., Daziano, R., Dekker, T. (2026). Statistical significance in choice modelling: computation, usage and reporting. Journal of Choice Modelling 60, 100611. https://doi.org/10.1016/j.jocm.2026.100611
+
+Kabluchko, Z., Seidel, H. (2020). Convex cones spanned by regular polytopes. arXiv:2006.09492, version 2. https://arxiv.org/abs/2006.09492v2
 
 Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. NIPS 2017 camera ready preprint, arXiv:1703.00593v2. https://arxiv.org/abs/1703.00593v2
 

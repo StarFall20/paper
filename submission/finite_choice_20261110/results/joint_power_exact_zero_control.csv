@@ -1,0 +1,13 @@
+labels,epsilon,dimensions,ordinary_zero_frequency,strictly_positive_inverse_m_frequency,independent_half_zero_selector_expected_frequency,type
+40,0.25,18,0.742,0.974,0.858,analytic mixture of completed empirical frequencies;not a new random experiment
+40,0.25,24,0.112,0.746,0.429,analytic mixture of completed empirical frequencies;not a new random experiment
+40,0.25,28,0.004,0.434,0.219,analytic mixture of completed empirical frequencies;not a new random experiment
+40,0.5,18,0.726,0.904,0.815,analytic mixture of completed empirical frequencies;not a new random experiment
+40,0.5,24,0.108,0.578,0.34299999999999997,analytic mixture of completed empirical frequencies;not a new random experiment
+40,0.5,28,0.0,0.224,0.112,analytic mixture of completed empirical frequencies;not a new random experiment
+80,0.25,36,0.824,0.99,0.907,analytic mixture of completed empirical frequencies;not a new random experiment
+80,0.25,48,0.038,0.798,0.41800000000000004,analytic mixture of completed empirical frequencies;not a new random experiment
+80,0.25,56,0.0,0.34,0.17,analytic mixture of completed empirical frequencies;not a new random experiment
+80,0.5,36,0.824,0.988,0.9059999999999999,analytic mixture of completed empirical frequencies;not a new random experiment
+80,0.5,48,0.026,0.59,0.308,analytic mixture of completed empirical frequencies;not a new random experiment
+80,0.5,56,0.0,0.142,0.071,analytic mixture of completed empirical frequencies;not a new random experiment

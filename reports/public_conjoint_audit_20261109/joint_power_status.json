@@ -1,0 +1,14 @@
+{
+  "completed_DGP_blocks": 12,
+  "requested_DGP_blocks": 12,
+  "replications_per_block": 500,
+  "original_draws_replayed": 6000,
+  "new_positive_power_fits": 12000,
+  "original_limit_aggregate_matches": 12,
+  "interior_outside_envelope_violations": 0,
+  "raw_unresolved": 0,
+  "remaining_unresolved": 0,
+  "new_independent_response_samples": false,
+  "source_sha256": "e23e6fa75950866142408d7ac8d09df16b2d636e9532adb9349fd144938ace42",
+  "reference_sha256": "bcb9b4406505d32d463887c38fbf8e1e89733380cbb189578bb1558360861de5"
+}

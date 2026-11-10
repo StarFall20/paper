@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "goal_complete": false,
-  "decision": "Explicit positive-power endpoint and fixed-sample error evidence integrated; continue contribution and submission audit",
+  "decision": "Balanced simultaneous power theorem,exact classical special-case attribution and choice-loss consequence integrated;continue full-model contribution audit",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,9 +17,9 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "explicit_compensation_boundary_and_singular_endpoint_contribution_sufficiency_unproven",
+      "status": "full_compensated_boundary_and_balanced_all_power_theorem_contribution_sufficiency_under_review",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Assess the explicit finite auxiliary boundary and corrected cost path against closest general and synthetic regularization results; generic separation,margin limits and finite-fit availability are attributed prior"
+      "remaining": "The symmetric unit-power Gaussian-zonotope case is exactly classical and attributed. Assess the complete signal/power increment and its choice-analysis value;extend the simultaneous result only after a valid proof and scoped verification."
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -29,9 +29,9 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "four_appendices_and_independent_numerical_formulations_available",
+      "status": "two_theorems_four_appendices_and_independent_geometry_checks_available",
       "evidence": "../../submission/finite_choice_20261110/results/clean_quick_check.json",
-      "remaining": "Proof-level scrutiny remains essential; Gaussian independent rows,frozen predictor,fixed positive powers and iterated-limit qualifications are explicit"
+      "remaining": "Full signal/intercept joint-power extension is unproven. The existing general theorem concerns fixed power;the simultaneous result is balanced,fixed-zero-intercept."
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
@@ -62,7 +62,12 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 20,
-    "all_source_tables_match_CSV": true
+    "native_Word_pages": 23,
+    "all_source_tables_match_CSV": true,
+    "joint_power_original_draws_replayed": 6000,
+    "new_positive_power_feasibility_checks": 12000,
+    "independent_limiting_cone_QP_checks": 48,
+    "classical_zonotope_LP_matches": 200,
+    "paired_choice_loss_shared_fits": 412
   }
 }

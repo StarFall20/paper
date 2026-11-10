@@ -2,7 +2,7 @@
 
 This compact archive accompanies **When prediction assisted logit estimates exist**. It contains one scientific argument, its completed aggregate results and the code needed to regenerate them. It excludes the historical research notebook, raw questionnaires, participant level response vectors and downloaded numeric pickle inputs. The independent 300 record questionnaire application is retained in the research archive and supplies no observations to this paper.
 
-The main result concerns independent Gaussian remaining attributes, an estimated intercept, one utility signal, a frozen predictor, fixed positive correction power and a finite auxiliary to label ratio. The finite design LP is classical and works directly with a supplied binary loss. Numerical agreement does not establish priority or a general categorical DCE phase theorem.
+The main result concerns independent Gaussian remaining attributes, an estimated intercept, one utility signal, a frozen predictor, fixed positive correction power and a finite auxiliary to label ratio. In the balanced fixed zero intercept model, a second result gives the simultaneous upper existence boundary over every correction power and the joint limit for strictly positive powers tending to zero. The finite design LP and the symmetric Gaussian zonotope special case are classical. Numerical agreement does not establish priority or a general categorical DCE phase theorem.
 
 ## Start here
 
@@ -30,7 +30,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 20 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
+The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 23 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -91,7 +91,22 @@ Run the original 500 repetition finite pool experiment first: its locally regene
 
 The raw phase table retains one unknown solver result. The verifier reconstructs its draw and records an independently verified exterior direction in `vanishing_power_resolution.json`; `vanishing_power_phase_verified.csv` is separate from the raw table. Keep both. A new solver may resolve the original draw directly, so regenerated unresolved counts can differ without changing the mathematical event.
 
-Table 3 retains all availability counts. Figure 3 compares errors on the same 412 available unit power fits; the complete paired table and human separation strata accompany it. The positive power right limit takes the proportional sample limit first and the power limit second. It proves no arbitrary joint vanishing power theorem, new optimal inference weight or confidence interval guarantee. The [derivation](reports/public_conjoint_audit_20261109/vanishing_power_derivation_20261110.md) and [closest regularization prior comparison](reports/public_conjoint_audit_20261109/synthetic_regularization_prior_comparison_20261110.md) state these boundaries.
+Table 3 retains all availability counts. Figure 3 compares errors on the same 412 available unit power fits; the complete paired table and human separation strata accompany it. The original positive power right limit takes the proportional sample limit first and the power limit second. Its recorded derivation and status flags predate the stronger balanced joint result below; they are retained unchanged. No new optimal inference weight or confidence interval guarantee follows. The [original derivation](reports/public_conjoint_audit_20261109/vanishing_power_derivation_20261110.md) and [regularization prior comparison](reports/public_conjoint_audit_20261109/synthetic_regularization_prior_comparison_20261110.md) state that earlier step.
+
+## Reproduce the simultaneous power bound and its direct prior check
+
+```sh
+python analysis/joint_power_choice.py --out regenerated/power --reference regenerated/power/vanishing_power_phase_verified.csv
+python analysis/write_joint_power_report.py --results regenerated/power
+python analysis/verify_zonotope_reduction.py --out regenerated/power
+python analysis/summarize_replayed_choice_loss.py --out regenerated/power
+```
+
+The joint experiment reconstructs the same 6000 Gaussian samples and evaluates two additional powers, 1/sqrt(m) and 1/m. All 12 original limiting support aggregates match. Its 36 report cells retain 500 draws each; there are no unresolved classifications. The independent geometry check compares 48 limiting-cone projections with a full constrained quadratic program and checks explicit polar inequalities and orthogonality. A nonzero zero-scale face is retained in the closed cone.
+
+The [joint derivation](reports/public_conjoint_audit_20261109/joint_power_derivation_20261110.md) bounds all powers simultaneously and gives a strictly positive,data dependent vanishing-power result for the balanced fixed-zero-intercept model. It extends the earlier iterated endpoint for that model. The signal/estimated-intercept theorem still concerns fixed positive power. The exact-zero control is an analytic mixture of completed empirical frequencies added after the simulation,not a new random experiment. None of these statements is an error distribution or interval guarantee.
+
+The [direct-prior comparison](reports/public_conjoint_audit_20261109/joint_power_prior_scope_20261110.md) identifies the unit-power constant-one-half case with the established Gaussian zonotope absorption problem. A separate 200-case signed-cube LP verifies that algebra; the special case is not an innovation claim. The choice-loss summary reuses the 500 original support fits. It evaluates known-truth expected Bernoulli KL on the fixed 1200-row support and supplies no independent human predictive validation.
 
 ## Inventory and output map
 

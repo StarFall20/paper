@@ -1,0 +1,8 @@
+{
+  "stable_logistic_Bregman_vs_independent_Bernoulli_KL_checks": 25,
+  "maximum_KL_identity_difference": 1.1368683772161603e-13,
+  "original_draws": 500,
+  "paired_comparisons": 4,
+  "original_model_fits_reused": true,
+  "new_independent_human_validation": false
+}

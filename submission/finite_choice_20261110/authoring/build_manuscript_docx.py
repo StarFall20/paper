@@ -176,7 +176,7 @@ def build():
     if j==0:trpr.append(OxmlElement('w:tblHeader'))
    d.add_paragraph().paragraph_format.space_after=Pt(2);continue
   p=d.add_paragraph()
-  lead=re.match(r'^(Proposition [123]\.|Theorem 1\.|Corollary 1\.)',line)
+  lead=re.match(r'^(Proposition [123]\.|Theorem [12]\.|Corollary 1\.)',line)
   if lead:p.add_run(lead[0]).bold=True;rich(p,line[len(lead[0]):])
   else:rich(p,line)
   if re.match(r'^Figure [123] ',line):

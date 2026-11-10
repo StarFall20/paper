@@ -1,0 +1,5 @@
+power_reference,power_comparator,shared_finite_estimates,mean_KL_reference,mean_KL_comparator,mean_KL_difference,difference_MCSE,median_KL_difference,fraction_comparator_larger_KL,unit,new_independent_response_sample
+1.0,0.01,412,0.7149713462925229,6.866060233712576,6.151088887420053,0.2533283540441437,5.808654424726653,0.9466019417475728,"expected Bernoulli KL,nats per choice,uniform1200-row frozen support",False
+1.0,0.1,412,0.7149713462925229,1.4750279555061654,0.7600566092136427,0.05707817095636703,0.7431480082496069,0.8446601941747572,"expected Bernoulli KL,nats per choice,uniform1200-row frozen support",False
+1.0,0.5,412,0.7149713462925229,0.4335809593348963,-0.2813903869576266,0.04491709353329932,-0.006435940607936549,0.47815533980582525,"expected Bernoulli KL,nats per choice,uniform1200-row frozen support",False
+0.0,0.01,116,1.3456171953920653,1.0364225506912643,-0.30919464470080077,0.058636063554270375,-0.0935668884753274,0.0,"expected Bernoulli KL,nats per choice,uniform1200-row frozen support",False

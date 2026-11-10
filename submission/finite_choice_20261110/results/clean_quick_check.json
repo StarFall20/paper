@@ -49,6 +49,10 @@
   "original_draws_replayed": 500,
   "old_support_status_matches": 1000,
   "all_three_tables_reconciled": true,
+  "joint_power_existing_draws_replayed": 6000,
+  "joint_power_new_feasibility_checks": 12000,
+  "classical_zonotope_reduction_checked": true,
+  "paired_expected_choice_loss_checked": true,
   "requires_raw_questionnaires": false,
   "proves_novelty_or_submission_readiness": false
 }
