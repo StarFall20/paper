@@ -2,8 +2,8 @@
   "date": "2026-11-10",
   "objective": "那你按照已有数据及资料及成果，重新测试与构建模型与创新点，直到达到投稿门槛",
   "source_definition_blocker": "resolved by the researcher-supplied explicit service description",
-  "previous_goal_turn": "Progress:balanced all-power upper boundary and data-dependent joint-power proof added;6000original draws replayed at12000new weights;200classical zonotope reductions and48independent cone projections checked;paired expected choice-loss consequence added;23page382native-equation manuscript reviewed",
-  "current_turn": "General signal/estimated-intercept all-power theorem and strict ordinary-logit existence gain integrated;complete6000Gaussian draws,90000feasibility checks and independent geometry verified",
+  "previous_goal_turn": "General signal/estimated-intercept all-power theorem and strict ordinary-logit existence gain integrated;complete6000Gaussian draws,90000feasibility checks and independent geometry verified",
+  "current_turn": "Closest-prior review adds noisy-label correction and DY fitted-intercept theory;2000established DY fits on1000unchanged draws added to main tables/figure;low-index affine-reallocation obstruction proved",
   "completion_proven": false,
   "requirements": [
     {
@@ -51,7 +51,7 @@
   "new_AI_generation_sample_purchase_or_fielding": false,
   "raw_records_rewritten_or_deleted": false,
   "original_objective_preserved": true,
-  "next_work": "Audit the general compensated-loss result against closest prior theorem conditions and assess its substantive choice-estimation implications;complete journal-specific submission audit without inferring unread guide requirements.",
+  "next_work": "Test a finite-design characterization of the complete admissible positive-power interval using parametric support LPs and independent recession certificates;evaluate its decision value on existing public-choice cases without proposing a truth-tuned inference weight.",
   "closest_source_review": {
     "Doudkin2026": "arxiv2609.07305v1, AppendixA.8; source probability columns shuffled before categorical realization; no equivalence to exact realized counts asserted",
     "Train2009": "Chapter6 Section6.7 panel likelihood",
@@ -144,8 +144,8 @@
     "complete_manuscript_and_package": {
       "manuscript": "submission/finite_choice_20261110/manuscript/paper.md",
       "proof_appendices": 4,
-      "native_math_objects": 422,
-      "pages_rendered_inspected": 24,
+      "native_math_objects": 437,
+      "pages_rendered_inspected": 28,
       "all_recorded_exterior_cases_checked": 8,
       "all_main_table_values_reconciled": true,
       "original_objective_preserved": true,
@@ -184,6 +184,16 @@
       "remaining_unknowns": 0,
       "independent_projection_checks": 24,
       "priority_or_submission_readiness_proven": false
+    },
+    "established_DY_comparator": {
+      "original_draws_replayed": 1000,
+      "raw_DY_fits": 2000,
+      "original_human_status_matches": 1000,
+      "established_method_not_innovation": true,
+      "original_seven_strategy_outputs_preserved": true,
+      "Gaussian_HD_correction_applied": false,
+      "all_alpha_settings_reported": true,
+      "source_repository_commit": "1f68c36ba78d512c312ec4c7fcf929e1fc405bbe"
     }
   },
   "genuine_blocker": null

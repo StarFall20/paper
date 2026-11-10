@@ -1,0 +1,19 @@
+{
+  "repository": "psterzinger/MDYPL",
+  "commit": "1f68c36ba78d512c312ec4c7fcf929e1fc405bbe",
+  "inspected_blobs": {
+    "code/methods/fit-mdypl.R": "b1311632344241b72846ebea2ff49d59da4bf576",
+    "code/04-adaptive-shrinkage-table.R": "3759a7c74b90bcef97239bf288e26ce059e2381c",
+    "code/11-Bradley-Terry-with-missingness.R": "d44296193a78a6e6dc760711c33f31b9491989f7"
+  },
+  "new_estimator": "none;independent implementation of published DY pseudo-response estimator",
+  "external_R_code_executed": false,
+  "external_R_code_copied_to_package": false,
+  "Gaussian_HD_correction_reproduced": false,
+  "reading_scope": {
+    "Natarajan2013": "Lemma1andconvexitydiscussion,pages3–4",
+    "SterzingerKosmidis2026": "Section2,equation4;Gaussianassumptions;authorsRimplementation",
+    "Sterzinger2026": "PDFpages1–3,estimatordefinitionandrelatedwork;notfull135pageproof"
+  },
+  "systematic_Scopus_GoogleScholar_review_claimed": false
+}

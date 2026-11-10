@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "goal_complete": false,
-  "decision": "Full signal/intercept all-power boundary and strict ordinary-logit existence gain integrated;contribution sufficiency and journal submission audit remain active",
+  "decision": "Closest-prior audit expanded;omitted established labelled-only DY comparator added on unchanged draws;compensated-boundary contribution value and finite-design actionability still under assessment",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,15 +17,15 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "general_compensated_all_power_boundary_and_strict_existence_gain_under_contribution_review",
+      "status": "explicit_compensated_boundary_retained_generic_finite_estimation_and_correction_claims_attributed_to_prior",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Audit how far the full compensated result follows from closest prior work and establish sufficient choice-analysis value;classical symmetric zonotope and generic conic tools remain attributed."
+      "remaining": "Assess the full compensated law beyond the inspected general and DY/noisy-label theory;an affine-reallocation obstruction rules out one shortcut,not every possible equivalence. Establish sufficient practical choice-estimation value."
     },
     {
       "requirement": "Fair comparison against established methods",
-      "status": "completed_for_oracle_bias_and_stronger_signal_grids",
+      "status": "original_seven_strategy_grids_plus_established_DY_settings_on_both_displayed_conditions",
       "evidence": "预测偏差检验与创新边界深化.md",
-      "remaining": "Results are scoped to fixed generated-choice DGPs and existing comparators; no uniformly superior estimator is established"
+      "remaining": "Raw DY results use ordinary diagnostic sandwiches,not published Gaussian HD rescaling;all original outputs retained. No uniformly superior estimator claim."
     },
     {
       "requirement": "Proof and numerical validity",
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 24,
+    "native_Word_pages": 28,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,6 +76,11 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 422
+    "native_math_objects": 437,
+    "DY_original_draws_replayed": 1000,
+    "DY_new_established_method_fits": 2000,
+    "DY_human_reconstruction_matches": 1000,
+    "DY_primary_and_half_settings_both_retained": true,
+    "noisy_label_and_fitted_intercept_DY_prior_checked": true
   }
 }

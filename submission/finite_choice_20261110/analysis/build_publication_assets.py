@@ -34,16 +34,25 @@ labels=['Human MLE','Unit PPI','Power human start','Power ridge start','One step
 low=pd.read_csv(SRC/'finite_pool_summary.csv').query('label_rows==20 and auxiliary_rows==600 and epsilon==0.25').set_index('method').loc[order].reset_index()
 high=pd.read_csv(SRC/'strong_signal_pool_summary.csv').query('label_rows==150 and prediction=="overconfident"').copy()
 high['method']=high.method.replace({'soft_frozen_pool':'soft_oracle_pool'});high=high.set_index('method').loc[order].reset_index()
-fig,axs=plt.subplots(2,2,figsize=(9,6.0),sharey='row')
+dy=pd.read_csv(SRC/'dypl_comparator_summary.csv')
+for condition,frame in [('20_labels_oracle',low),('150_labels_overconfident',high)]:
+ part=dy[dy.condition==condition].copy()
+ part['method']=part.method.map({'DY_dimension_power':'DY_dimension_power','DY_half_power':'DY_half_power'})
+ part=part.rename(columns={'expected_KL':'excess_logloss'})
+ if condition=='20_labels_oracle':low=pd.concat([frame,part],ignore_index=True)
+ else:high=pd.concat([frame,part],ignore_index=True)
+order+=['DY_dimension_power','DY_half_power'];labels+=['DY dimension rule','DY alpha 0.5']
+low=low.set_index('method').loc[order].reset_index();high=high.set_index('method').loc[order].reset_index()
+fig,axs=plt.subplots(2,2,figsize=(9,7.0),sharey='row')
 for col,(part,title) in enumerate([(low,'a  20 labels and oracle predictions'),(high,'b  150 labels and overconfident predictions')]):
- y=np.arange(7);colors=['#555555']*6+['#0072B2']
+ y=np.arange(len(order));colors=['#555555']*6+['#0072B2']+['#009E73','#56B4E9']
  axs[0,col].barh(y,part.MSE,color=colors,height=.6);axs[0,col].set_xscale('log');axs[0,col].set_xlabel('Mean parameter squared error');axs[0,col].set_title(title,loc='left',fontsize=10)
  for j,row in part.iterrows():
   axs[0,col].annotate(f'{row.estimates}/500',(row.MSE,j),xytext=(4,0),textcoords='offset points',va='center',fontsize=8)
- axs[0,col].set_xlim(.003,80);axs[0,col].set_yticks(y,labels);axs[0,col].set_ylim(6.6,-.6)
+ axs[0,col].set_xlim(.003,80);axs[0,col].set_yticks(y,labels);axs[0,col].set_ylim(len(order)-.4,-.6)
  axs[1,col].plot(part.conditional_marginal_coverage,y,'o',color='#333333',label='Coverage given an interval')
  axs[1,col].plot(part.interval_and_marginal_coverage,y,'s',mfc='none',color='#D55E00',label='Issued and covers')
- axs[1,col].axvline(.95,color='#777777',ls=':',lw=1);axs[1,col].set_xlabel('Average marginal coverage');axs[1,col].set_xlim(.15,1.02);axs[1,col].set_yticks(y,labels);axs[1,col].set_ylim(6.6,-.6);axs[1,col].grid(axis='x',alpha=.15)
+ axs[1,col].axvline(.95,color='#777777',ls=':',lw=1);axs[1,col].set_xlabel('Average marginal coverage');axs[1,col].set_xlim(.15,1.02);axs[1,col].set_yticks(y,labels);axs[1,col].set_ylim(len(order)-.4,-.6);axs[1,col].grid(axis='x',alpha=.15)
 axs[1,0].legend(frameon=False,fontsize=8,loc='lower left')
 fig.tight_layout();fig.savefig(FIG/'figure2_estimates_intervals.png',dpi=220);fig.savefig(FIG/'figure2_estimates_intervals.svg');plt.close(fig)
 
@@ -65,5 +74,5 @@ for tau in [1,4]:
    rows.append([str(tau),{'oracle':'Oracle','overconfident':'Overconfident','intercept_bias':'Shifted log odds'}[pred],f'{row.power:.4f}',f'{row.critical_ratio:.4f}'])
 table=pd.DataFrame(rows,columns=['Auxiliary to label ratio','Prediction','Power','Critical slope to label ratio'])
 (OUT/'table1.md').write_text(mdtable(table)+'\n');table.to_csv(OUT/'table1.csv',index=False)
-(OUT/'asset_provenance.json').write_text(json.dumps({'new_estimates_or_simulations':False,'sources':['imperfect_prediction_phase.csv','finite_pool_summary.csv','strong_signal_pool_summary.csv','imperfect_prediction_boundaries.csv'],'all_selected_cells_completed':True,'figure2_availability_is_point_estimate_availability':'interval availability remains in underlying complete aggregate tables'},indent=2)+'\n')
+(OUT/'asset_provenance.json').write_text(json.dumps({'new_estimates_or_simulations':False,'sources':['imperfect_prediction_phase.csv','finite_pool_summary.csv','strong_signal_pool_summary.csv','imperfect_prediction_boundaries.csv','dypl_comparator_summary.csv'],'all_selected_cells_completed':True,'figure2_availability_is_point_estimate_availability':'interval availability remains in underlying complete aggregate tables'},indent=2)+'\n')
 print('Created two publication figures and two tables from completed aggregates.')

@@ -1,0 +1,27 @@
+# Closest-prior audit: corrected loss, DY regularization and claim boundaries
+
+10 November 2026. The preceding goal turn made progress: the general simultaneous-power proof, complete simulations, Word manuscript and verified GitHub backup changed authoritative state. This turn identifies an omitted established comparator and an older corrected-loss lineage; neither is treated as a new contribution.
+
+## Primary sources and actual reading scope
+
+[Natarajan et al. (2013)](https://papers.nips.cc/paper_files/paper/2013/file/3871bd64012152bfb53fdf04b401193f-Paper.pdf), pages3–4, Lemmas1–2 and convexity discussion, already constructs unbiased noisy-label losses and conditions preserving convexity. For symmetric noise, algebra gives the logistic pseudo-target (observed_y−rho)/(1−2rho), outside[0,1] for either binary response. Extending the score domain without constraints permits negative infinite row losses. Their risk/classification analysis does not itself state the present finite-auxiliary corrected-root boundary. Generic correction, convexity and problematic empirical risk are prior lineage, not a novelty claim.
+
+[Sterzinger–Kosmidis (2026)](https://arxiv.org/html/2311.07419v3), Section2 equation4, studies DY pseudo-response logistic estimation. [Sterzinger (2026)](https://arxiv.org/pdf/2609.09831), pages1–3, already handles a fitted intercept and nonzero prior direction. Interior pseudo-responses guarantee finite estimates with full design rank; their proportional Gaussian theory also develops estimation and inferential adjustments. Adding an intercept or guaranteeing finite estimates is not a generic new capability of the present manuscript. The current paper instead evaluates one unpenalized corrected target; the new comparison keeps the established DY alternative visible.
+
+The inspected [authors' repository](https://github.com/psterzinger/MDYPL/tree/1f68c36ba78d512c312ec4c7fcf929e1fc405bbe) supplies a zero-prior pseudo-response fit, the choice alpha=1/(1+kappa), and a Bradley–Terry missing-comparison example. Commit and inspected code-blob hashes are recorded separately. Its example makes finite-estimate regularization relevant to choice analysis as well. The independent Python implementation follows the estimator formula; no external R script executes. Reading scope does not include the complete135page fitted-intercept proof or a reproduction of its Gaussian HD corrections.
+
+## A concrete obstruction to a simple general-theorem reduction
+
+Koriyama–Bellec's previously inspected Assumption2.5 excludes infinite rowwise infima. That mismatch alone was insufficient to establish a contribution. One natural repair would shift each scalar loss by c_i*u while reallocating the affine parts across rows so the complete objective stays unchanged.
+
+Condition on the complete low-index data used in the manuscript, and let c be any measurable shift vector independent of the remaining Gaussian matrix W. Equality of the two objectives for all coefficients requires W^T*c=0, as well as the intercept/signal constraints. For q>=1, conditional W^T*c has distribution N(0,||c||² I_q). Its chance of being exactly zero is zero whenever c is nonzero. Thus a low-index measurable affine reallocation preserving the objective must be identically zero almost surely. It cannot repair the unbounded labelled rows. Allowing shifts fitted from W changes the conditioned-independence model and is not a direct application of that theorem's stated assumptions.
+
+This argument rules out one precise shortcut. It does not rule out every alternative reduction, establish a new general conic theorem, or prove priority. ALMT's machinery and the exact classical constant-one-half/unit-power special case remain attributed. The candidate contribution is the explicit compensated two-sample calculation and its simultaneous-power consequences, not an assumption mismatch by itself.
+
+## Matched additional comparator
+
+The plan was fixed before replay. Two existing displayed conditions each retain the same500draws and all seven original strategies. The additional raw DY settings use only the labelled rows, alpha=m/(m+11) or0.5, zero prior mode and zero initialization. No known truth or test outcomes select alpha. Diagnostic sandwiches retain shrinkage bias and are not the cited Gaussian HD corrections. Original draw reconstruction matches all1000human availability statuses and available errors; original trial files are unchanged.
+
+Both DY settings return500points and intervals in each condition. At20labels, dimension shrinkage has MSE0.927724 and marginal coverage0.736909; half shrinkage gives0.439738 and0.739818. At150labels, dimension shrinkage has MSE0.101103 and coverage0.945091 without auxiliary predictions. Its paired MSE difference from one-step PPI is0.001935 with MCSE0.001399 over the same500fits. Half shrinkage has coverage0.624909; its frozen support population-target MSE is0.087418. All settings and paired comparisons remain reported.
+
+The additional comparator weakens any suggestion that auxiliary predictions are necessary to obtain stable estimates in these examples. The manuscript does not recommend prediction assistance as uniformly preferable. Whether the complete compensated existence law is a sufficiently important independent increment for JOCM remains under assessment. No search absence, numerical pass count or self-review score substitutes for that judgment.

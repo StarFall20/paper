@@ -30,7 +30,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 24 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
+The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 28 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -121,6 +121,17 @@ The same signal/free-intercept/frozen-predictor model now has an all-power upper
 Population checks include30conditions,120finite-power comparisons and200/400node quadrature. The initial100/200node failure remains in the archive;its follow-up increased integration order without loosening tolerance. Independent geometry uses120original/rescaled LP matches,24full constrained projections,56original-moment positive-power witnesses and64negative-cost weak separators.
 
 The complete new phase run has6000independent Gaussian draws,180aggregate cells with500repetitions and90000feasibility calls. Original unknown solver statuses are retained in the raw table and reconstructed by the separate verifier. Its certificate record and verified table accompany the unchanged raw table. One positive-power boundary/proximity call remains a separate status;the verifier does not force it into an interior or exterior class. A regenerated solver can resolve those cases directly;the verifier accepts the newly observed unknown count while retaining the full500draw denominator. No new participant or language-model responses are collected.
+
+## Reproduce the established DY-prior comparator
+
+```sh
+python analysis/replay_dypl_comparator.py --input-dir local_inputs --references regenerated/pool --out regenerated/DY
+python analysis/write_dypl_comparator_report.py --results regenerated/DY
+```
+
+Run the original500repetition finite-pool and strong-signal studies first;their locally generated trial files supply both references. This additional comparison replays the same1000original draws for the two Table2conditions,without changing the seven original strategy grids. It adds raw DY pseudo-response fits using alpha=m/(m+11) and alpha=0.5,a zero prior mode and zero initialization. The comparator uses labelled rows alone. All1000human status reconstructions agree and their available MSEs agree to relative tolerance1.8e-16. Both settings retain500fits in each condition,2000fits total.
+
+The ordinary score sandwich is a diagnostic for raw DY estimates. It does not implement the cited papers' high-dimensional Gaussian bias/variance rescaling on this discrete attribute support. Shrinkage bias,population targets,paired MSE/choice-loss differences and repetition-level Monte Carlo precision remain reported. The [primary-source review](reports/public_conjoint_audit_20261109/dypl_noisy_label_prior_audit_20261110.md) and [recorded plan](reports/public_conjoint_audit_20261109/dypl_comparator_plan_20261110.json) distinguish established methods from the candidate compensated-loss result. External R code was inspected at a pinned commit and independently reimplemented from the estimator formula;none is executed by this package.
 
 ## Inventory and output map
 

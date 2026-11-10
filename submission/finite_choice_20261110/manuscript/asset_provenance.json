@@ -4,7 +4,8 @@
     "imperfect_prediction_phase.csv",
     "finite_pool_summary.csv",
     "strong_signal_pool_summary.csv",
-    "imperfect_prediction_boundaries.csv"
+    "imperfect_prediction_boundaries.csv",
+    "dypl_comparator_summary.csv"
   ],
   "all_selected_cells_completed": true,
   "figure2_availability_is_point_estimate_availability": "interval availability remains in underlying complete aggregate tables"

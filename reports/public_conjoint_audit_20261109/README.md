@@ -1,3 +1,5 @@
+The [new closest-prior and DY comparator review](最近前驱补查与成熟基线比较_20261110.md) adds established labelled-only regularization to the displayed comparisons;the original seven strategy grids remain unchanged.
+
 The [general signal/intercept simultaneous power result](一般模型联合权重上界与进度_20261110.md) is integrated in the current manuscript; earlier balanced-only scope statements record the preceding stage.
 
 The current integrated manuscript and isolated reproduction entry are [here](../../submission/finite_choice_20261110/README.md). The [10November progress report](完整论文与复现包进展_20261110.md) states the remaining contribution assessment; artifact completion is not a submission-readiness finding.

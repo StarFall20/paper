@@ -7,6 +7,8 @@
 | 20 labels oracle | One step | 500/500 | 1.5054 | 0.827 | 0.827 |
 | 20 labels oracle | Ridge PPI | 500/500 | 0.2193 | 0.961 | 0.961 |
 | 20 labels oracle | Soft pooling | 500/500 | 0.0057 | 0.942 | 0.942 |
+| 20 labels oracle | DY dimension rule | 500/500 | 0.9277 | 0.737 | 0.737 |
+| 20 labels oracle | DY alpha 0.5 | 500/500 | 0.4397 | 0.740 | 0.740 |
 | 150 labels overconfident | Human MLE | 500/500 | 0.1353 | 0.947 | 0.947 |
 | 150 labels overconfident | Unit PPI | 500/500 | 0.1326 | 0.971 | 0.971 |
 | 150 labels overconfident | Power human start | 500/500 | 0.1050 | 0.942 | 0.942 |
@@ -14,3 +16,5 @@
 | 150 labels overconfident | One step | 500/500 | 0.0992 | 0.945 | 0.945 |
 | 150 labels overconfident | Ridge PPI | 500/500 | 0.0860 | 0.958 | 0.958 |
 | 150 labels overconfident | Soft pooling | 500/500 | 0.0353 | 0.804 | 0.804 |
+| 150 labels overconfident | DY dimension rule | 500/500 | 0.1011 | 0.945 | 0.945 |
+| 150 labels overconfident | DY alpha 0.5 | 500/500 | 0.1035 | 0.625 | 0.625 |

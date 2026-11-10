@@ -1,0 +1,10 @@
+{
+  "analytic_intercept_root_max_error": 1.4180132623664576e-09,
+  "analytic_intercept_covariance_max_error": 2.1101392855271683e-10,
+  "gradient_finite_difference_max_error": 2.7932101076544313e-12,
+  "hessian_finite_difference_max_error": 2.770061957590997e-12,
+  "independent_probability_loss_max_error": 0.0,
+  "external_research_code_executed": false,
+  "HD_Gaussian_rescaling_implemented": false,
+  "priority_proven": false
+}
