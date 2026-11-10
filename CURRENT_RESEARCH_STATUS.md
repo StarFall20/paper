@@ -66,6 +66,14 @@ The [matched-risk/covariance proposition](reports/public_conjoint_audit_20261109
 
 The [nearest general-M-estimator audit](reports/public_conjoint_audit_20261109/general_M_estimator_prior_audit.md) finds thatKoriyama–Bellec2025 assumes finite rowwise loss infima,which the positive-power labelled correction violates. Other inspected CGMT formulations assume total coercivity or a bounded-below residual loss. These are bounded applicability distinctions,not an exhaustive novelty certificate. The official Elsevier journal description is now directly readable and supports the topic's scope;the latest author-guide endpoint remains403. Scholar redirected to an access-check address andScopus was unreadable;no systematic database review is claimed.
 
+## Complete manuscript and isolated reproduction package
+
+The [complete scientific manuscript](submission/finite_choice_20261110/manuscript/paper.md) now combines the single finite-solution question,main theorem and proof,matched-covariance consequence,public-choice examples and seven-method support simulations. The [native Word version](submission/finite_choice_20261110/manuscript/paper.docx) has17rendered and visually inspected pages,246native math objects,two main figures and two main tables. These artifact checks do not establish novelty or publication readiness.
+
+The [isolated reproduction package](submission/finite_choice_20261110/README.md) includes the scientific import closure,completed aggregate grids,a pinned public-input fetcher,all-table rounding checks,a CSV audit example and optional Word authoring code. Its quick check ran successfully from the isolated directory,including the full signal/imperfect-prediction numerical checks. The [analysis-decision verification](reports/public_conjoint_audit_20261109/analysis_decision_checks.json) covers all8recorded auxiliary-only exterior cases:existing human-initialized tuning solves every stated tuned objective,and soft pooling has a distinct corrected score. The classical LP and established estimators are not new-method claims.
+
+The [current progress assessment](reports/public_conjoint_audit_20261109/完整论文与复现包进展_20261110.md) identifies the remaining substantive judgment:the explicit boundary's increment over general existence theory and its value to choice analysis. Current journal-specific upload rules and actual author declarations remain unverified. The goal remains active without a genuine execution blocker.
+
 ## Innovation and submission decision
 
 The original fibre-information/rank claim coincides with classical lack-of-fit constructions and remains retired. [Equivalence proof](reports/method_decision_20261109/classical_equivalence_proof.md).

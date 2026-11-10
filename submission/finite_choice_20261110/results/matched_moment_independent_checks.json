@@ -1,0 +1,77 @@
+{
+  "prediction_state_moments": {
+    "constant_confidence": {
+      "mean_prediction": 0.5000000000000001,
+      "prediction_variance": 0.16000000000000003,
+      "label_prediction_covariance": 0.14428857715430868,
+      "Brier_risk": 0.1214228456913827
+    },
+    "mixed_confidence": {
+      "mean_prediction": 0.5,
+      "prediction_variance": 0.16000000000000003,
+      "label_prediction_covariance": 0.14428857715430862,
+      "Brier_risk": 0.12142284569138276
+    }
+  },
+  "all_fixed_power_covariance_max_difference": 2.220446049250313e-16,
+  "normal_quadrature_boundary_max_error": 9.992007221626409e-16,
+  "H_of_squared_confidence_min_checked_curvature": 2.1107866399502536e-05,
+  "label_row_tail_examples": [
+    {
+      "power": 0.3,
+      "Y": 0.0,
+      "prediction": 0.2,
+      "u": -1000.0,
+      "label_row_loss": -60.0,
+      "aggregate_loss": 500.0,
+      "aggregate_moment_status": "interior"
+    },
+    {
+      "power": 0.3,
+      "Y": 1.0,
+      "prediction": 0.8,
+      "u": 1000.0,
+      "label_row_loss": -60.0,
+      "aggregate_loss": 500.0,
+      "aggregate_moment_status": "interior"
+    },
+    {
+      "power": 0.7,
+      "Y": 0.0,
+      "prediction": 0.2,
+      "u": -1000.0,
+      "label_row_loss": -139.99999999999997,
+      "aggregate_loss": 500.0,
+      "aggregate_moment_status": "interior"
+    },
+    {
+      "power": 0.7,
+      "Y": 1.0,
+      "prediction": 0.8,
+      "u": 1000.0,
+      "label_row_loss": -140.0,
+      "aggregate_loss": 500.0,
+      "aggregate_moment_status": "interior"
+    },
+    {
+      "power": 1.0,
+      "Y": 0.0,
+      "prediction": 0.2,
+      "u": -1000.0,
+      "label_row_loss": -200.0,
+      "aggregate_loss": 500.0,
+      "aggregate_moment_status": "interior"
+    },
+    {
+      "power": 1.0,
+      "Y": 1.0,
+      "prediction": 0.8,
+      "u": 1000.0,
+      "label_row_loss": -199.99999999999994,
+      "aggregate_loss": 500.0,
+      "aggregate_moment_status": "interior"
+    }
+  ],
+  "general_prior_directly_applicable": false,
+  "novelty_proven": false
+}

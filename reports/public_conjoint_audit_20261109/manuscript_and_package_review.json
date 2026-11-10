@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-10",
+  "full_manuscript": "../../submission/finite_choice_20261110/manuscript/paper.md",
+  "native_word": "../../submission/finite_choice_20261110/manuscript/paper.docx",
+  "source_sha256": "be6d49834e05bd3e141b697f88d15ed9aae6e2514a9686e0721c62f9276a062e",
+  "word_sha256": "7d45238c9b690932d46028abc7e79d84351569bb2492fc9d99eb7ac7a1260596",
+  "pages": 17,
+  "native_equations": 246,
+  "main_figures": 2,
+  "main_tables": 2,
+  "proof_appendices": 3,
+  "clean_package_numeric_checks": {
+    "analytic_intercept_root_error": 1.4703560591300402e-10,
+    "boundary_exterior_rank_checks": true,
+    "balanced_LP_and_quadrature": {
+      "normal_tail_quadrature_max_error": 8.881784197001252e-16,
+      "unit_power_reduction_error": 8.881784197001252e-16,
+      "large_auxiliary_limit_checks": [
+        {
+          "epsilon": 0.1,
+          "finite_ratio": 10000,
+          "boundary": 1.7675831087453844,
+          "population_limit": 1.768388256576615
+        },
+        {
+          "epsilon": 0.25,
+          "finite_ratio": 10000,
+          "boundary": 0.8486849212713423,
+          "population_limit": 0.8488263631567752
+        }
+      ],
+      "original_interval_LP_matches": 100,
+      "identity_status_counts": {
+        "interior": 43,
+        "outside_mean_support": 57
+      },
+      "independent_priority_verified": false
+    },
+    "completed_grid_consistency": {
+      "finite_ratio_phase_checks.csv": {
+        "cells": 80,
+        "draws_per_cell": 500,
+        "unresolved": 0
+      },
+      "finite_ratio_signal_phase.csv": {
+        "cells": 80,
+        "draws_per_cell": 300,
+        "unresolved": 0
+      },
+      "imperfect_prediction_phase.csv": {
+        "cells": 80,
+        "draws_per_cell": 300,
+        "unresolved": 0
+      }
+    },
+    "full_math_checks_run": true,
+    "reported_table_rounding_checked": true,
+    "requires_raw_questionnaires": false,
+    "proves_novelty_or_submission_readiness": false
+  },
+  "novelty_and_submission_readiness_proven": false,
+  "new_simulated_or_human_responses_this_packaging_step": false
+}

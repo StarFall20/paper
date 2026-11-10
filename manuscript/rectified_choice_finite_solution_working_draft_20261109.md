@@ -1,3 +1,5 @@
+Superseded for integrated reading by the [complete manuscript and proofs](../submission/finite_choice_20261110/manuscript/paper.md). This earlier working draft is retained as a research record.
+
 # Label budgets and finite estimates in prediction-assisted choice modelling
 
 Working research draft, updated 10 November 2026. This version includes imperfect frozen predictions, stronger utility, and a matched-risk/covariance consequence of the boundary. The mathematical statements remain candidates pending priority and proof review. It does not replace the separately retained 300-record human application.

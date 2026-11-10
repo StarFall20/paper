@@ -1,0 +1,14 @@
+{
+  "100_200_node_max_error": 8.01998373267665e-09,
+  "envelope_gradient_finite_difference_error": 3.887472115049473e-11,
+  "envelope_hessian_finite_difference_error": 6.928646545389938e-11,
+  "original_interval_LP_matches": 120,
+  "LP_status_counts": {
+    "interior": 32,
+    "outside_mean_support": 88
+  },
+  "cone_projection_cases": 12,
+  "cone_projection_max_error": 4.085620730620576e-14,
+  "matched_moment_examples": 10,
+  "independent_priority_verified": false
+}

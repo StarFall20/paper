@@ -1,0 +1,11 @@
+{
+ "date":"2026-11-10",
+ "status_at_write":"before_operational_audit_runs",
+ "question":"Can a choice analyst distinguish nonexistence of the selected corrected objective from optimizer output and explicitly document an existing alternative?",
+ "cases":"all8 recorded exterior auxiliary-only PPI cases from the completed500-allocation audit; not a new prevalence sample",
+ "comparators":"unit-power correction,existing human-initialized power tuning,and explicit frozen-soft pooling on the same allocation and prediction",
+ "outcomes":["LP status and recession gap","finite root and score for tuned objective","own versus corrected score at soft-pooling root","no silent objective substitution"],
+ "analytic_checks":["one-dimensional known finite root","boundary target","exterior target","rank-deficient design"],
+ "novelty_scope":"The support LP and existing alternatives are classical. This audit operationalizes the theory and does not claim a new optimal estimator or confidence procedure.",
+ "new_human_or_LLM_responses":false
+}

@@ -1,0 +1,7 @@
+# Sources and reuse
+
+The independent analysis scripts in this package were written for the present study. No downloaded research script is executed. Mathematical and estimator sources are cited in the manuscript. This archive does not assign an additional software license on behalf of an unidentified author or rights holder.
+
+Public numeric inputs belong to Cheng Lu, Mengxin Wang, Dennis Zhang and Heng Zhang, Generative Augmented Inference, ICML 2026, PMLR 306, 81730–81751: https://proceedings.mlr.press/v306/lu26am.html . The pinned source repository is https://github.com/ChengLu1999/generative-augmented-inference at d18717206867c7a12ff470879a0dd5d488b300c2. Its README states MIT for code and CC BY 4.0 for datasets. Source URLs, sizes and Git blob identifiers are in reports/public_conjoint_audit_20261109/source_manifest.json. Downloading those files retains their original README and LICENSE. The present archive distributes aggregates and download metadata, without redistributing the numeric pickle files.
+
+PPI power tuning and the one step construction derive from Angelopoulos, Duchi and Zrnic, PPI++, arXiv:2311.01453v2. Generic separation/support LPs and conic kinematics are established methods, attributed in the manuscript. The original reference code was inspected and independently implemented, not copied into this archive.

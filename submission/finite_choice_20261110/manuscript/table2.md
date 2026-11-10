@@ -1,0 +1,16 @@
+| Condition | Estimator | Available | MSE | Coverage | Issued and covers |
+|---|---|---|---|---|---|
+| 20 labels oracle | Human MLE | 116/500 | 8.5602 | 0.926 | 0.215 |
+| 20 labels oracle | Unit PPI | 412/500 | 4.8362 | 0.998 | 0.822 |
+| 20 labels oracle | Power human start | 116/500 | 6.0858 | 0.907 | 0.210 |
+| 20 labels oracle | Power ridge start | 348/500 | 21.5408 | 0.801 | 0.558 |
+| 20 labels oracle | One step | 500/500 | 1.5054 | 0.827 | 0.827 |
+| 20 labels oracle | Ridge PPI | 500/500 | 0.2193 | 0.961 | 0.961 |
+| 20 labels oracle | Soft pooling | 500/500 | 0.0057 | 0.942 | 0.942 |
+| 150 labels overconfident | Human MLE | 500/500 | 0.1353 | 0.947 | 0.947 |
+| 150 labels overconfident | Unit PPI | 500/500 | 0.1326 | 0.971 | 0.971 |
+| 150 labels overconfident | Power human start | 500/500 | 0.1050 | 0.942 | 0.942 |
+| 150 labels overconfident | Power ridge start | 500/500 | 0.1042 | 0.942 | 0.942 |
+| 150 labels overconfident | One step | 500/500 | 0.0992 | 0.945 | 0.945 |
+| 150 labels overconfident | Ridge PPI | 500/500 | 0.0860 | 0.958 | 0.958 |
+| 150 labels overconfident | Soft pooling | 500/500 | 0.0353 | 0.804 | 0.804 |

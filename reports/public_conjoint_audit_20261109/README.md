@@ -1,3 +1,5 @@
+The current integrated manuscript and isolated reproduction entry are [here](../../submission/finite_choice_20261110/README.md). The [10November progress report](完整论文与复现包进展_20261110.md) states the remaining contribution assessment; artifact completion is not a submission-readiness finding.
+
 # Public binary-choice audit and finite-solution candidate
 
 Read [the Chinese progress report](公开数据重分析与创新进展.md), [clipping identity](clipping_identity.md), [candidate proof](existence_candidate_derivation.md) and [closest-prior boundary](literature_boundary.md). Independent novelty and submission readiness are unproven.

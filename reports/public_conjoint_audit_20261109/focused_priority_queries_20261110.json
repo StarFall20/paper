@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-10",
+  "queries": [
+    "\"prediction-powered\" \"logistic\" \"existence\"",
+    "\"prediction\" \"rectified loss\" \"phase transition\"",
+    "\"M-estimators\" \"unbounded below\" \"phase\"",
+    "\"logistic\" \"negative weights\" \"statistical dimension\""
+  ],
+  "source": "available web search service",
+  "reviewed_primary_units": [
+    {
+      "url": "https://arxiv.org/html/2501.03163v3",
+      "units": [
+        "Assumption2.5",
+        "Theorem2.6"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2507.21790",
+      "units": [
+        "abstract",
+        "Introduction"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2411.01704",
+      "units": [
+        "abstract",
+        "Introduction"
+      ]
+    },
+    {
+      "url": "https://proceedings.mlr.press/v306/lu26am.html",
+      "units": [
+        "published metadata",
+        "abstract"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/1703.00593v2",
+      "units": [
+        "metadata",
+        "abstract"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.20178v2",
+      "units": [
+        "metadata",
+        "abstract"
+      ]
+    }
+  ],
+  "search_absence_used_as_novelty_evidence": false,
+  "systematic_Scopus_Google_Scholar_review_completed": false,
+  "journal_specific_current_author_guide_verified": false
+}

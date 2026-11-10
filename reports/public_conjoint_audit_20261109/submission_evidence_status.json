@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "goal_complete": false,
-  "decision": "Continue substantive theory and validation; no submission-readiness claim",
+  "decision": "Full scientific manuscript and isolated reproduction package available; continue substantive contribution assessment",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,9 +17,9 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "explicit_rectified_boundary_and_matched_covariance_candidate_priority_unproven",
-      "evidence": "general_M_estimator_prior_audit.md",
-      "remaining": "Review equivalent prior results,verify the candidate proof and demonstrate an executable choice-analysis decision; matched-covariance effect sizes are small atN/m>=1"
+      "status": "explicit_boundary_with_complete_derivation_contribution_sufficiency_unproven",
+      "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
+      "remaining": "Test closest-prior equivalence and the substantive value of the explicit compensated-loss boundary; no search absence or internal score is a priority proof"
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -29,9 +29,9 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "general_frozen_predictor_candidate_and_independent_numeric_checks_available",
-      "evidence": "matched_moment_independent_checks.json",
-      "remaining": "Proof and closest-prior review; fixed-Gaussian/independent-row assumptions do not become a general categorical-DCE or fitted-predictor theorem"
+      "status": "complete_proof_appendix_and_clean_package_numeric_checks_available",
+      "evidence": "../../submission/finite_choice_20261110/results/clean_quick_check.json",
+      "remaining": "Continue proof-level closest-prior scrutiny; stated Gaussian,frozen-predictor and independent-row conditions remain essential"
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
@@ -41,15 +41,15 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "research_backup_available_clean_package_incomplete",
-      "evidence": "README.md",
-      "remaining": "Finalize a compact package and current entry points; local inherited merge conflicts and historical material are not a clean submission archive"
+      "status": "isolated_package_built_and_checked",
+      "evidence": "../../submission/finite_choice_20261110/README.md",
+      "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "incomplete",
-      "evidence": "../../manuscript/rectified_choice_finite_solution_working_draft_20261109.md",
-      "remaining": "Complete the final scientific narrative after validation, reconcile all figures/tables, then prepare journal materials without inventing author or ethics information"
+      "status": "complete_scientific_text_native_Word_and_materials_prepared",
+      "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
+      "remaining": "Current journal-specific rules and actual author,title-page and declaration facts need verification; no declarations invented"
     }
   ],
   "self_review_scores_used_as_evidence": false,

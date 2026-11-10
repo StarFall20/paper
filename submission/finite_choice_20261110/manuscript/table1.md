@@ -1,0 +1,14 @@
+| Auxiliary to label ratio | Prediction | Power | Critical slope to label ratio |
+|---|---|---|---|
+| 1 | Oracle | 1.0000 | 0.2795 |
+| 1 | Oracle | 0.5000 | 0.4637 |
+| 1 | Overconfident | 1.0000 | 0.2478 |
+| 1 | Overconfident | 0.3386 | 0.4927 |
+| 1 | Shifted log odds | 1.0000 | 0.2434 |
+| 1 | Shifted log odds | 0.3078 | 0.4810 |
+| 4 | Oracle | 1.0000 | 0.4690 |
+| 4 | Oracle | 0.8000 | 0.5487 |
+| 4 | Overconfident | 1.0000 | 0.4261 |
+| 4 | Overconfident | 0.5417 | 0.6046 |
+| 4 | Shifted log odds | 1.0000 | 0.4060 |
+| 4 | Shifted log odds | 0.4925 | 0.5729 |

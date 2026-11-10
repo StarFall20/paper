@@ -1,0 +1,12 @@
+{
+  "completed_replications": 500,
+  "requested_replications": 500,
+  "source_sha256": "691d6b4d8f6952f57a1db2a437f4dae7f5b5bcb548bbc2c26778edc30475fb39",
+  "helper_sha256": "03e50c70b94d4fa231ec74df3c7ba5ee0d89321bc9f1884c7672b74f6d6d43f4",
+  "conditions": 6,
+  "methods": 7,
+  "maximum_root_score": 9.997284701468434e-10,
+  "maximum_penalized_score": 9.991729982457287e-10,
+  "new_human_or_LLM_responses": false,
+  "independent_novelty_proven": false
+}

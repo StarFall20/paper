@@ -1,0 +1,24 @@
+{
+  "normal_tail_quadrature_max_error": 8.881784197001252e-16,
+  "unit_power_reduction_error": 8.881784197001252e-16,
+  "large_auxiliary_limit_checks": [
+    {
+      "epsilon": 0.1,
+      "finite_ratio": 10000,
+      "boundary": 1.7675831087453844,
+      "population_limit": 1.768388256576615
+    },
+    {
+      "epsilon": 0.25,
+      "finite_ratio": 10000,
+      "boundary": 0.8486849212713423,
+      "population_limit": 0.8488263631567752
+    }
+  ],
+  "original_interval_LP_matches": 100,
+  "identity_status_counts": {
+    "interior": 43,
+    "outside_mean_support": 57
+  },
+  "independent_priority_verified": false
+}

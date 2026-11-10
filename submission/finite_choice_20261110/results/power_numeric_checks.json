@@ -1,0 +1,13 @@
+{
+  "maximum_objective_identity_error": 8.881784197001252e-16,
+  "gradient_finite_difference_error": 1.8774537480226172e-11,
+  "Hessian_finite_difference_error": 1.1931081123073284e-11,
+  "lambda0_matches_human": true,
+  "analytic_intercept_root_and_exterior_ray": true,
+  "completed_allocations": 500,
+  "requested_allocations": 500,
+  "script_sha256": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+  "independent_novelty_proven": false,
+  "interval_coverage_tested": false,
+  "downloaded_reference_code_executed": false
+}

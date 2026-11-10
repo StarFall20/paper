@@ -1,0 +1,7 @@
+{
+  "original_500_run_script_sha256": "b859719384c90623fd22937d290f76ce327d9240c06d29c12f239612b9f95601",
+  "current_script_sha256": "03e50c70b94d4fa231ec74df3c7ba5ee0d89321bc9f1884c7672b74f6d6d43f4",
+  "post_run_fix": "np.atleast_2d permits one-coordinate closed-form verification; for the11-coordinate study it is the exact identity operation. A redundant scalar assertion was removed. No estimator or numerical output for the completed study changes.",
+  "eleven_coordinate_covariance_identity_verified": true,
+  "completed_study_rerun": false
+}
