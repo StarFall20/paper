@@ -4,7 +4,7 @@
 
 - Finite auxiliary samples change corrected logit existence boundaries.
 - Utility signal, prediction calibration and correction power enter the boundary.
-- A support audit distinguishes absent roots from numerical nonconvergence.
+- Positive power existence regions expand toward a singular zero endpoint.
 - Estimate availability and interval coverage are evaluated separately.
 
 ## Cover letter scientific text
@@ -15,7 +15,7 @@ Please consider “When prediction assisted logit estimates exist” for the Jou
 
 The analysis connects this result to choice estimation through a pinned vaccine choice reanalysis and known truth simulations on its attribute support. The comparisons retain established power tuning, one step estimation, penalization and soft pooling. They report unavailable estimates alongside point error and interval performance. A classical finite support audit makes the stated objective and its finite solution directly checkable. The manuscript develops a methodological contribution to prediction assisted choice estimation and relates it to recent work in the journal on machine assistance and modelling decisions.
 
-The accompanying archive contains the complete proofs, analysis code, pinned public input metadata, aggregate results and figure sources. Public numeric inputs are downloaded separately with hash verification. The paper uses released choices and simulated outcomes.
+The power analysis shows nested finite solution events at positive powers and an explicit balanced right limit that differs from exactly zero power. A fixed sample coefficient limit and paired replay expose the error cost that can accompany greater availability. The accompanying archive contains the complete proofs, analysis code, pinned public input metadata, aggregate results and figure sources. Public numeric inputs are downloaded separately with hash verification. The paper uses released choices and simulated outcomes.
 
 ## Information needed to finalize the submission record
 

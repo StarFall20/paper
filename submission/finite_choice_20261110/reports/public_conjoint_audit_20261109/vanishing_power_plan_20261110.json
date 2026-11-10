@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-10",
+  "question": "How do finite existence and coefficient behavior change when a positive correction power tends to zero?",
+  "motivation": "The existing finite-ratio formula suggests a discontinuity at exactly zero power. Initial deterministic calculations were inspected before this validation plan; they are mathematical exploration,not registered empirical evidence.",
+  "claims_to_check": [
+    "For a fixed predictor and sample,existence is nested as a strictly positive power decreases,under the stated full-rank condition",
+    "A sufficiently small positive power gives a finite root exactly when the unit-power recession function is strictly positive on nonzero human weak separators",
+    "The balanced oracle boundary has an explicit positive-power right limit exceeding the ordinary null threshold0.5",
+    "Finite roots can diverge as power tends to zero when the human MLE is unavailable"
+  ],
+  "comparisons": ["exactly zero power","positive powers0.05,0.2,0.5,1","positive-power limiting feasibility"],
+  "Gaussian_phase_validation": {
+    "labels": [40,80],
+    "auxiliary_to_label_ratio": 1,
+    "proxy_error": [0.25,0.5],
+    "dimension_to_label_ratio": [0.45,0.6,0.7],
+    "replications_per_DGP": 500,
+    "seed": 20261123,
+    "pairing": "All powers and limiting feasibility use the same X,Y,Z draw;label budgets and proxy conditions are separate blocks",
+    "intercept": "fixed zero;all feature coordinates independent standard Gaussian",
+    "zero_endpoint": "ordinary separation/support check,never the vacuous zero interval LP",
+    "error0.5_role": "uninformative oracle prediction;existence improvement must not be called information gain"
+  },
+  "independent_checks": [
+    "Normal quadrature for the right-limit formula",
+    "Finite-power monotonicity with tolerance and no forced strict ordering after floating-point saturation",
+    "Original weighted-moment versus rescaled interval LP on120 draws",
+    "Analytic one-coordinate rescued,boundary and exterior examples",
+    "A two-coordinate coefficient path against a separately solved limiting linear program"
+  ],
+  "attribute_support_reuse": {
+    "condition": "The original completed finite-pool grid's m20,N600,epsilon0.25 condition,all500 repetitions",
+    "input_source": "Reconstruct the exact RandomGenerator20261112 draws and fixed released support used in finite_pool_choice_validation.py",
+    "reconstruction_check": "Match stored human/unit statuses and point errors where available before interpreting new powers",
+    "powers": [0,0.01,0.1,0.5,1],
+    "additional_check": "limiting positive-power feasibility",
+    "outcomes": "support status,coefficient and prediction error,parameter norm and relative score accuracy;no new coverage guarantee",
+    "new_human_AI_or_stochastic_response_experiment": false
+  },
+  "source_review": {
+    "regularization_paths": "Rosset,Zhu,Hastie2003 Theorem2.1 and2004 Theorem3 are prior;generic margin convergence is not a new discovery",
+    "synthetic_regularization": "Li,Huang arxiv2407.04194v5 Sections2-4 and Huang etal2020 are relevant prior;read their precise loss before asserting a distinction",
+    "no_new_estimator": true,
+    "new_optimal_inference_rule_claimed": false
+  },
+  "reporting": "Keep unresolved and boundary cases,all paired patterns,and finite precision qualifications. The fixed-sample path and the proportional-dimension fixed-power limits have different orders of limits.",
+  "no_new_questionnaire_AI_or_purchase": true,
+  "goal_complete": false
+}

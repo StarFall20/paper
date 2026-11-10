@@ -15,7 +15,7 @@ FIG=OUT/'figures'
 FIG.mkdir(parents=True,exist_ok=True)
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False,'svg.fonttype':'none'})
 phase=pd.read_csv(SRC/'imperfect_prediction_phase.csv')
-fig,axs=plt.subplots(1,2,figsize=(8,3.9),sharey=True)
+fig,axs=plt.subplots(1,2,figsize=(8,3.6),sharey=True)
 for ax,pred,title in zip(axs,['overconfident','intercept_bias'],['a  Overconfident predictions','b  Shifted prediction log odds']):
  for power,color,label in [('unit','#333333','Unit power'),('orthogonal_optimal','#0072B2','Variance reference power')]:
   for m,mark,ls in [(40,'o','--'),(80,'s','-')]:
@@ -34,7 +34,7 @@ labels=['Human MLE','Unit PPI','Power human start','Power ridge start','One step
 low=pd.read_csv(SRC/'finite_pool_summary.csv').query('label_rows==20 and auxiliary_rows==600 and epsilon==0.25').set_index('method').loc[order].reset_index()
 high=pd.read_csv(SRC/'strong_signal_pool_summary.csv').query('label_rows==150 and prediction=="overconfident"').copy()
 high['method']=high.method.replace({'soft_frozen_pool':'soft_oracle_pool'});high=high.set_index('method').loc[order].reset_index()
-fig,axs=plt.subplots(2,2,figsize=(9,6.5),sharey='row')
+fig,axs=plt.subplots(2,2,figsize=(9,6.0),sharey='row')
 for col,(part,title) in enumerate([(low,'a  20 labels and oracle predictions'),(high,'b  150 labels and overconfident predictions')]):
  y=np.arange(7);colors=['#555555']*6+['#0072B2']
  axs[0,col].barh(y,part.MSE,color=colors,height=.6);axs[0,col].set_xscale('log');axs[0,col].set_xlabel('Mean parameter squared error');axs[0,col].set_title(title,loc='left',fontsize=10)

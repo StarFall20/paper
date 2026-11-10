@@ -8,7 +8,7 @@ The main result concerns independent Gaussian remaining attributes, an estimated
 
 - [Complete manuscript and proofs](manuscript/paper.md).
 - [Editable Word manuscript](manuscript/paper.docx), with native Word equations.
-- [Table 1 boundary values](manuscript/table1.csv) and [Table 2 estimation comparisons](manuscript/table2.csv).
+- [Table 1 boundary values](manuscript/table1.csv), [Table 2 estimation comparisons](manuscript/table2.csv) and [Table 3 fixed power replay](manuscript/table3.csv).
 - [Source attribution](ATTRIBUTION.md) and [data download manifest](reports/public_conjoint_audit_20261109/source_manifest.json).
 - [Full aggregate simulation grid](results/finite_pool_summary.csv), [imperfect predictions](results/imperfect_pool_summary.csv) and [stronger utility](results/strong_signal_pool_summary.csv).
 
@@ -22,7 +22,7 @@ python analysis/audit_binary_choice.py examples/intercept.csv --features interce
 python analysis/build_publication_assets.py --results results --manuscript manuscript
 ```
 
-The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, independent cone projections and intercept covariance formulas. It also reconciles the completed aggregate grids and displayed table rounding. `--full-math` adds the signal and imperfect prediction numerical checks. It does not rerun the full Monte Carlo grids.
+The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all three displayed tables and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
 
 Optional Word authoring uses the packages in `authoring/requirements.txt`:
 
@@ -30,7 +30,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 17 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
+The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 20 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -75,6 +75,23 @@ These are generated choices on released attribute support. They do not add respo
 The original completed oracle run predates a one dimensional covariance shape compatibility fix. [The source compatibility record](results/finite_pool_source_compatibility.json) identifies both hashes and explains why the original 11 dimensional calculations are unchanged. Do not resume an old checkpoint with a changed source hash. A clean rerun uses a new output directory. Scripts with `--resume` accept only matching checkpoints. Do not point exploratory shorter runs at the shipped aggregate directory.
 
 MSE and paired loss comparisons condition on available points. Coverage given issuance and issued and covers have different denominators. Eleven coordinate intervals are marginal, not simultaneous. Monte Carlo errors use repetition level fractions, not 5500 independent coordinates. No finite sample interval guarantee follows from the existence theorem. Ridge sandwich intervals do not remove penalty bias.
+
+## Reproduce the positive power endpoint and original draw replay
+
+```sh
+python analysis/vanishing_power_choice.py --out regenerated/power --replications 500
+python analysis/verify_vanishing_power_phase.py --out regenerated/power
+python analysis/verify_proper_augmentation_invariance.py --out regenerated/power
+python analysis/replay_choice_power_path.py --input-dir local_inputs --reference regenerated/pool/finite_pool_trial_diagnostics.csv --out regenerated/power
+python analysis/summarize_replayed_power_pairs.py --out regenerated/power
+python analysis/write_vanishing_power_report.py --results regenerated/power --manuscript manuscript
+```
+
+Run the original 500 repetition finite pool experiment first: its locally regenerated trial file supplies the replay reference. The replay reconstructs the exact 500 draws for 20 labels, 600 auxiliary rows and proxy error 0.25. All 1000 original human/unit support statuses agree. It adds no independent response sample. The separate Gaussian phase experiment has 12 conditions and 500 paired draws each; every draw compares zero, four positive powers and limiting positive feasibility. The completed source hashes are checked without altering those sources after execution.
+
+The raw phase table retains one unknown solver result. The verifier reconstructs its draw and records an independently verified exterior direction in `vanishing_power_resolution.json`; `vanishing_power_phase_verified.csv` is separate from the raw table. Keep both. A new solver may resolve the original draw directly, so regenerated unresolved counts can differ without changing the mathematical event.
+
+Table 3 retains all availability counts. Figure 3 compares errors on the same 412 available unit power fits; the complete paired table and human separation strata accompany it. The positive power right limit takes the proportional sample limit first and the power limit second. It proves no arbitrary joint vanishing power theorem, new optimal inference weight or confidence interval guarantee. The [derivation](reports/public_conjoint_audit_20261109/vanishing_power_derivation_20261110.md) and [closest regularization prior comparison](reports/public_conjoint_audit_20261109/synthetic_regularization_prior_comparison_20261110.md) state these boundaries.
 
 ## Inventory and output map
 

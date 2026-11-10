@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Predicted choices can supplement a limited set of observed choices through a correction that preserves the population score. The corrected empirical logit objective can have no finite minimizer. We derive its existence boundary when the labelled sample, auxiliary sample and attribute dimension grow together. The boundary accommodates a utility signal, an estimated intercept and a frozen predictor whose calibration may be imperfect. It quantifies the joint roles of correction power and the auxiliary to label ratio. In a balanced benchmark with equal sample sizes and proxy error 0.25, unit power admits a critical dimension to label ratio of 0.355; the established variance reference power gives 0.603. A released vaccine choice reanalysis supplies verified examples of exterior corrected moments. Simulations on its attribute support retain seven established estimation strategies and report estimate availability, interval issuance, coverage and error separately. A finite objective audit identifies which stated estimators can be computed on a given sample. The results connect prediction assistance to the existence of choice estimates and distinguish that requirement from reliable uncertainty quantification.
+Predicted choices can supplement observed choices through a correction that preserves the population score. The corrected empirical logit objective can have no finite minimizer. We derive its existence boundary when labelled and auxiliary samples grow with attribute dimension, allowing a utility signal, an estimated intercept and an imperfect frozen predictor. Correction power changes the existence event. In a balanced benchmark with equal sample sizes and proxy error 0.25, the critical dimension to label ratio is 0.355 at unit power and 0.603 at the established variance reference power. Its positive power right limit is 0.664, while exactly zero power gives the ordinary logit threshold 0.5. A fixed sample result explains how finite coefficients can diverge as power decreases. Released vaccine choices supply verified exterior moments, and simulations on their attribute support retain seven estimation strategies. Replaying 500 existing samples shows that increased availability at small power can accompany much larger error on shared available fits. A finite objective audit checks the estimator actually specified. The results connect correction weights to existence, coefficient behavior and reliable reporting in choice analysis.
 
 Keywords: binary choice; prediction powered inference; logistic separation; finite auxiliary samples; existence of estimates
 
@@ -14,11 +14,11 @@ An analyst must also be able to solve the empirical estimating equation. A corre
 
 We characterize the finite solution boundary of a specified unpenalized, prediction assisted binary logit objective. Our main result treats an estimated intercept, one Gaussian utility signal and an increasing number of independent Gaussian attributes. The labelled and auxiliary samples grow at a finite ratio. Predictions are frozen functions of the signal and auxiliary information, and can be miscalibrated. An explicit variational expression gives the critical attribute dimension per labelled observation. A balanced specialization reduces the calculation to one scalar optimization.
 
-The result explains a distinction between efficiency calculations and existence calculations. At proxy error 0.25 and equal labelled and auxiliary sample sizes, the balanced unit power boundary is 0.355. Its infinite auxiliary limit is 0.849. Applying the established population variance reference power changes the finite ratio boundary to 0.603. These values describe a Gaussian benchmark. The accompanying finite sample audit uses the actual design matrix and remains applicable to categorical attributes.
+The result explains a distinction between efficiency calculations and existence calculations. At proxy error 0.25 and equal labelled and auxiliary sample sizes, the balanced unit power boundary is 0.355. Applying the established population variance reference power gives 0.603. The positive power right limit is 0.664, exceeding the ordinary logit endpoint 0.5. Small positive weights can retain auxiliary stabilization after the human sample becomes separable. A fixed sample limit shows how the resulting coefficients approach a separator as their norms grow. These values describe a Gaussian benchmark; the finite sample support audit uses the actual design matrix and also accommodates categorical attributes.
 
 The theoretical tools have clear antecedents. Logistic separation and ordinary logit existence thresholds are established (Candès and Sur, 2020). Statistical dimension locates transitions in random convex feasibility problems (Amelunxen et al., 2014). Koriyama and Bellec (2025) give general existence results for convex M estimators with finite rowwise loss infima. Positive power correction creates labelled row losses with infimum minus infinity; finite estimability depends on compensation by other rows. We derive the explicit finite auxiliary boundary for that corrected objective. Power tuning and one step estimation come from PPI++ and remain comparison methods throughout the paper.
 
-Corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are also established for mean estimation (Mani et al., 2026). Here the object of analysis is the finite minimizer of the corrected nonlinear choice loss. The two sample geometry gives its explicit probability boundary.
+Corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are established for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. The two sample geometry gives the probability boundary for this event. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
 
 Two empirical components connect the boundary to choice analysis. First, a pinned public vaccine choice dataset provides corrected objectives whose moments are demonstrably outside their attainable support. The audit also verifies finite solutions from existing power tuning in those same cases. Second, known truth simulations on the released attribute support compare seven strategies under oracle and biased predictions. They separate availability from coverage and retain the strong point performance of soft pooling and penalized alternatives. This reporting supports an analysis decision: specify the target objective, check its finite solution, and evaluate uncertainty for the estimator actually returned.
 
@@ -161,9 +161,33 @@ Figure 1 evaluates these boundaries using 300 independent draws at each displaye
 
 ![Figure 1](figures/figure1_phase.png)
 
-Figure 1  Finite fit frequencies for overconfident and shifted predictions at auxiliary to label ratio one. Circles and dashed lines use 40 labels; squares and solid lines use 80. Vertical dotted lines give the asymptotic boundaries for unit and variance reference powers. Error bars are approximate 95% binomial Monte Carlo intervals for each point. Attributes are Gaussian and the utility signal is 1.5; these are theoretical benchmark simulations.
+Figure 1  Finite fit frequencies at auxiliary to label ratio one and utility signal 1.5. Circles and dashed lines use 40 labels; squares and solid lines use 80. Dotted lines show asymptotic boundaries. Error bars give approximate 95% binomial Monte Carlo intervals from 300 draws per point. Both panels use Gaussian attributes.
 
 The boundary can retain predictor information beyond its Brier risk and fixed dimensional covariance. Appendix B constructs two balanced predictions with the same mean, risk and complete covariance function for every fixed power, yet different existence thresholds. Greater dispersion of squared prediction confidence lowers the threshold in that construction. Its gap is about 6% at auxiliary to label ratio 0.05 and 0.12% at ratio one. This consequence distinguishes the summaries mathematically; the displayed effect at larger auxiliary ratios is small.
+
+### 3.5 Positive powers and the zero endpoint
+
+Holding the sample and predictor fixed reveals a simple ordering. Write $H=L_m(Y)$ and $A=Q_1$. For $0<\alpha<\lambda\leq1$,
+
+$$Q_\alpha/\alpha=Q_\lambda/\lambda+(1/\alpha-1/\lambda)H. \qquad (15)$$
+
+The human loss is nonnegative. A coercive objective at power $\lambda$ remains coercive at the smaller positive power $\alpha$. With the rank condition of Proposition 1 this gives nested finite solution events. Exactly zero power removes auxiliary curvature and requires its own separation check.
+
+For the balanced oracle with fixed zero intercept, put
+
+$$G(v)=(1-\epsilon)f(-\epsilon v)+\epsilon f(-(1-\epsilon)v)$$
+
+$$\hphantom{G(v)}+\tau\{f((1-\epsilon)v/\tau)+f(\epsilon v/\tau)\}. \qquad (16)$$
+
+Corollary 1. For $\tau>0$ and $0<\epsilon\leq1/2$, the boundary strictly decreases with positive power and has right limit
+
+$$\kappa_c(0+)=1+\tau-\min_{v\geq0}G(v)>1/2=\kappa_c(0). \qquad (17)$$
+
+At $\tau=1$ and $\epsilon=0.25$, the right limit is 0.664488. An uninformative prediction at $\epsilon=1/2$ also has a gap, with right limit 0.608737. This gap concerns existence and auxiliary stabilization; it does not measure additional choice information. Equation (17) first takes the increasing dimension limit at each fixed positive power, then lets power tend to zero. It does not establish a result for an arbitrary joint sequence of powers and sample sizes.
+
+A fixed sample counterpart describes the coefficient cost. On a strictly separated human sample, suppose the unit power recession function is positive on every nonzero human weak separator. Small positive powers then have finite roots whose norms diverge as power tends to zero. After division by $\log(1/\lambda)$, their limit set minimizes the corrected auxiliary recession cost subject to human margins of at least one. Appendix D states the condition, proves (17) and derives this path. The generic margin mechanism follows established vanishing regularization arguments; the cost and existence boundary belong to the specified corrected loss.
+
+The completed check uses 12 Gaussian conditions with 500 paired draws each, including informative and uninformative predictors. All positive power nesting checks agree. One original LP returns an unknown status; a separate weighted moment LP supplies a verified exterior direction for that draw. Both tables remain available. Section 5.3 evaluates the practical tradeoff on the previously generated choice samples.
 
 ## 4 Evidence from released vaccine choices
 
@@ -230,9 +254,33 @@ Soft pooling retains the smallest displayed point errors under the original, wea
 
 Figure 2  Error and coverage answer different questions. The left column uses 20 labels, oracle predictions and the original signal. The right column uses 150 labels, overconfident predictions and threefold utility. Both use 600 auxiliary rows and proxy error 0.25. MSE axes are logarithmic; annotations show available points out of 500. Coverage is averaged across 11 marginal intervals, with the reference line at 0.95. Underlying aggregate tables retain interval counts, Monte Carlo errors and all remaining conditions.
 
+### 5.3 Power changes availability and error
+
+We replay all 500 draws of the original oracle condition with 20 labels, 600 auxiliary rows and proxy error 0.25. The covariates, generated choices, proxy draws and truth vector are unchanged. All 1000 stored human and unit power support statuses match the replay. On available estimates, the largest relative MSE discrepancy from the original fits is below $4.8\times10^{-8}$. Positive power roots use a scaled score equation, avoiding an absolute stopping tolerance that becomes permissive as power decreases.
+
+Table 3  The same 500 support samples fitted at different powers
+
+| Power | Available | Mean MSE | Median MSE | 90th percentile MSE |
+|---|---|---|---|---|
+| 0 human | 116/500 | 8.560 | 4.191 | 22.106 |
+| 0.01 | 474/500 | 196.879 | 104.474 | 439.843 |
+| 0.1 | 474/500 | 14.630 | 7.147 | 27.851 |
+| 0.5 | 467/500 | 3.912 | 1.157 | 4.342 |
+| 1 | 412/500 | 4.836 | 1.030 | 7.819 |
+
+MSE and its quantiles in Table 3 condition on each method's available estimates. The human MLE is available in 116 repetitions. Powers 0.1 and 0.01 each admit 474 finite roots; the other 26 corrected objectives fail the limiting positive power feasibility check. The 0.01 fits have a median MSE of 104.474 and a 90th percentile of 439.843. Their larger mean error is accompanied by a substantial shift in the typical available fit.
+
+The shared samples isolate the weight comparison from availability selection. Among the same 412 repetitions with an available unit power estimate, mean MSE is 4.836 at unit power, 1.615 at power 0.5, 9.571 at power 0.1 and 153.487 at power 0.01. The paired mean difference between powers 0.01 and one is 148.650, with Monte Carlo standard error 10.180; 94.66% of these samples have greater MSE at the smaller power. Among the 116 samples where the human MLE exists, power 0.01 instead reduces mean MSE from 8.560 to 4.899. The human separation stratum materially changes the comparison.
+
+![Figure 3](figures/figure3_power_endpoint.png)
+
+Figure 3  Existence and error respond differently to power. The left panel gives the balanced Gaussian boundary at auxiliary to label ratio one. Open markers at zero give positive power right limits; the filled black marker gives exactly zero power. The right panel compares positive powers on the same 412 replayed samples with available unit power fits, using the original 11 contrast support and 20 labels. Both right panel axes are logarithmic. These are fixed power comparisons; they do not define a new optimal inference weight.
+
+The existence ordering supports a diagnostic interpretation of power. Lower positive power can restore a finite root while allowing coefficients to move farther along a human separating direction. Existing penalization, one step estimation and pooling remain relevant alternatives, with their full results in Table 2 and the aggregate grids. Availability alone cannot choose among their estimation targets or establish reliable intervals.
+
 ## 6 Implications for choice analysis
 
-Prediction assistance introduces a sample allocation decision alongside the utility specification. Theorem 1 shows how a finite auxiliary budget changes the existence region at a given power. Even a correctly calibrated informative predictor can produce a smaller unit power existence region than ordinary logit when the two samples have equal size. An efficiency reference can improve that region, as the displayed balanced example demonstrates. Data selected power rules require their own distributional analysis.
+Prediction assistance introduces a sample allocation decision alongside the utility specification. Theorem 1 shows how a finite auxiliary budget changes the existence region at a given power. Even a correctly calibrated informative predictor can produce a smaller unit power existence region than ordinary logit when the two samples have equal size. An efficiency reference can improve that region, as the displayed balanced example demonstrates. The positive power ordering and its zero discontinuity show why the largest existence region need not give the most accurate coefficients. Data selected power rules require their own distributional analysis.
 
 For a concrete dataset, the support audit answers whether the stated unpenalized objective can have a finite root. Exterior moments identify an optimization problem that additional iterations cannot solve. Boundary proximity and small curvature identify a different numerical situation and remain separately reported. An analyst can then choose an existing alternative with its objective and initializer documented. Clipping, pooling, a penalty and a one step update each define a specific estimation operation.
 
@@ -242,7 +290,7 @@ The Gaussian boundary describes a controlled increasing dimension model. Actual 
 
 ## 7 Conclusion
 
-Prediction assisted binary logit has a finite solution boundary determined jointly by the labelled sample, finite auxiliary sample, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. The finite design audit translates existence into a check on the objective being fitted. Released choices and known truth experiments demonstrate why availability, target fidelity and uncertainty need separate evidence. Together these results make the estimation consequences of prediction assistance explicit for choice analysts.
+Prediction assisted binary logit has a finite solution boundary determined jointly by labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. Positive power events are nested, and the balanced boundary is discontinuous at zero. The fixed sample coefficient path and replayed choice samples show the estimation cost that can accompany greater availability. The finite design audit checks the objective actually fitted. These results make the consequences of prediction assistance explicit for choice analysts assessing existence, target fidelity and uncertainty.
 
 ## Appendix A Proof of the finite ratio boundary
 
@@ -366,6 +414,46 @@ The compact reproduction package includes the manuscript source, publication fig
 
 The quick check runs analytic roots, boundary and rank cases, alternative LP formulations, finite dimensional covariance identities, and mathematical reductions. Full commands regenerate the public allocations and every simulation grid. Source hashes distinguish the completed original finite pool run from a later one dimensional covariance compatibility fix that leaves the original 11 dimensional calculations unchanged. The package documents that difference and preserves the completed aggregate outputs. Counts in the paper refer to choice rows, allocations or generated repetitions as specified, and never convert simulated responses into human respondents.
 
+## Appendix D Powers approaching zero
+
+### D1 Existence on human separating directions
+
+Let $h=H^\infty$ and $a=A^\infty$ for the fixed sample losses in Section 3.5. Define the human weak separation cone $S=\{d:h(d)=0\}$. Assume the stacked design has full column rank. For powers strictly below one this is the curvature rank condition; statements of uniqueness at unit power additionally require full auxiliary rank.
+
+Proposition 3. A finite root exists at some sufficiently small positive power exactly when $a(d)>0$ for every nonzero $d\in S$. When a larger positive power already gives a coercive objective, every smaller positive power gives a coercive objective as well.
+
+Equation (15) proves the nesting statement. Necessity of the criterion follows from $Q_\lambda^\infty(d)=\lambda a(d)$ on $S$. For sufficiency, if $S$ meets the unit sphere, continuity and compactness give a positive lower bound for $a$ on that intersection. It remains positive in a neighborhood. Away from this neighborhood $h$ has a positive minimum, while $a$ is bounded below on the sphere. Every sufficiently small positive power makes $(1-\lambda)h+\lambda a$ positive throughout the sphere. If $S=\{0\}$, $h$ is already positive there. Coercivity and full rank then establish the finite root.
+
+For comparison, proper pseudo-label augmentation $H+cB$ has $h\geq0$ and $B^\infty\geq0$. Its zero recession directions and positively weighted design rank are invariant to every $c>0$. Its finite existence event is weight invariant. Synthetic likelihood regularization, including the existence results of Li and Huang (2026), builds on that positive augmentation structure. The subtracted labelled prediction loss in (2) changes the compensation problem. This comparison is an application of classical separation geometry.
+
+### D2 Proof of the right limit
+
+Substitute $v=\lambda t$ in (12). Its minimized expression becomes $G(v)+R_\lambda(v)$, where
+
+$$R_\lambda(v)=(1-\epsilon)f((\lambda^{-1}-1+\epsilon)v)$$
+
+$$\hphantom{R_\lambda(v)}+\epsilon f((\lambda^{-1}-\epsilon)v). \qquad (D1)$$
+
+For $v>0$ this remainder strictly increases with power. The derivative of the full expression at zero is $-2\varphi(0)/\lambda$, so its minimizer is positive. Comparing the minima at two powers proves strict ordering of their boundaries.
+
+The function $G$ is coercive and has $G(0)=1/2+\tau$ and derivative $2\varphi(0)\{2\epsilon(1-\epsilon)-1\}<0$ at zero. Its minimizer is positive and finite. Nonnegativity of $R_\lambda$ bounds the minimum below by $\min G$. Evaluating at a positive minimizer of $G$, where $R_\lambda$ tends to zero, gives the reverse limiting bound. This proves (17), including its strict gap from one half. The proof concerns the stated iterated limit.
+
+### D3 Coefficient growth on a fixed separated sample
+
+If $H$ has no finite stationary point and $Q_\lambda$ has finite roots for all sufficiently small positive powers, the root norm tends to infinity. A bounded subsequence would imply a finite zero of $\nabla H$ by continuity of $(1-\lambda)\nabla H+\lambda\nabla A$.
+
+Under strict human separation and the positive recession condition of Proposition 3, the growth has a more explicit limit. Let $M$ contain vectors with $(2Y_i-1)X_i^Tv\geq1$ for every labelled row. Put
+
+$$V^*=\operatorname{argmin}_{v\in M}a(v). \qquad (D2)$$
+
+Then the distance from $\beta_\lambda/\log(1/\lambda)$ to $V^*$ tends to zero. A unique minimizer in (D2) gives point convergence. The cost $a$ may be negative away from $S$ and is not assumed to be a norm. This adapts the established vanishing regularization and margin argument of Rosset et al. (2004) to the corrected auxiliary recession cost.
+
+To prove the statement, write $L=\log(1/\lambda)$. For a feasible $v$, $H(Lv)\leq\lambda$. The auxiliary softplus remainder gives $A(Lv)=La(v)+r(Lv)$ with $0\leq r\leq\log2$. Thus $Q_\lambda(Lv)/(\lambda L)$ tends to $a(v)$. If a limiting vector violates a margin constraint, its human loss divided by $\lambda L$ diverges; a margin strictly below one supplies the required exponential lower bound. The auxiliary remainder divided by $L$ vanishes uniformly.
+
+The minimizers are bounded on this scale. Positivity of $a$ on the unit human separation cone implies that the minimum of $\{(1-\lambda)h(u)+\lambda a(u)\}/\lambda$ over unit $u$ has a positive lower bound at small powers. A counterexample sequence would converge to a unit vector in $S$ with a nonpositive limiting cost. Since $H\geq h$ and $A\geq a$, comparison with a feasible $Lv$ gives $\|\beta_\lambda\|=O(L)$. Compact subsequences and the preceding lower and upper bounds place every limit in (D2). Positivity on $S$ also makes $V^*$ compact.
+
+For a one coordinate example with all labelled choices and features equal to one, take $g_L=0.75$ and $g_U=0.25$. The exact root is $\log(2/\lambda-1)$ at every positive power. Equal predictions in the two samples instead leave a boundary target at every power; reversing those predictions makes the target exterior. All three examples have full rank auxiliary curvature. A separate two coordinate calculation verifies (D2) by a linear program and analytic scalar score equations. The normalized coefficients approach $(1,1)$, with scaled score error below $1.6\times10^{-15}$ in the displayed path. Root existence and bounded coefficient behavior remain separate properties.
+
 ## Data availability
 
 The public vaccine inputs are available from the pinned Generative Augmented Inference repository identified in Section 4. The reproduction package contains download instructions, source hashes, analysis code and aggregate outputs. The paper uses existing released choices and simulated outcomes. The separately retained questionnaire application does not enter the estimates reported here.
@@ -384,11 +472,15 @@ Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Le
 
 Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html
 
+Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5
+
 Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html
 
 Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. arXiv:2505.20178, version 2. https://arxiv.org/abs/2505.20178v2
 
 Nova, G., van Cranenburgh, S., Hess, S. (2025). Understanding the decision-making process of choice modellers. Journal of Choice Modelling 56, 100562. https://doi.org/10.1016/j.jocm.2025.100562
+
+Rosset, S., Zhu, J., Hastie, T. (2004). Boosting as a Regularized Path to a Maximum Margin Classifier. Journal of Machine Learning Research 5, 941–973. https://www.jmlr.org/papers/v5/rosset04a.html
 
 Sfeir, G., Nova, G., Hess, S., van Cranenburgh, S. (2026). Can large language models assist choice modelling? Insights into prompting strategies and current models’ capabilities. Journal of Choice Modelling 60, 100623. https://doi.org/10.1016/j.jocm.2026.100623
 

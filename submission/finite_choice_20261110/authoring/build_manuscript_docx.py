@@ -30,7 +30,7 @@ def run(text,plain=False):
  size=OxmlElement('w:sz');size.set(qn('w:val'),'22');rpr.append(size);e.append(rpr)
  t=el('t');t.text=text;t.set('{http://www.w3.org/XML/1998/namespace}space','preserve');e.append(t);return e
 
-SYMS={'lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑'}
+SYMS={'alpha':'α','nabla':'∇','lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑'}
 OPS={'inf','sup','min','max','log','ker','lim','sin','cos','exp'}
 class Math:
  def __init__(self,s):self.s=s;self.i=0
@@ -122,7 +122,7 @@ def cell_border(cell):
 
 def build():
  text=SOURCE.read_text()
- for i in [1,2]:text=text.replace('{{TABLE'+str(i)+'}}',(SOURCE.parent/f'table{i}.md').read_text().strip())
+ for i in [1,2,3]:text=text.replace('{{TABLE'+str(i)+'}}',(SOURCE.parent/f'table{i}.md').read_text().strip())
  if '{{TABLE' in text:raise ValueError('Unresolved table')
  SOURCE.write_text(text)
  d=Document();s=d.sections[0];s.page_width=Inches(8.5);s.page_height=Inches(11);s.top_margin=Inches(.8);s.bottom_margin=Inches(.8);s.left_margin=Inches(1);s.right_margin=Inches(1)
@@ -158,7 +158,7 @@ def build():
    while i<len(lines) and lines[i].strip().startswith('|'):tablelines.append(lines[i].strip());i+=1
    rows=[[x.strip() for x in row.strip('|').split('|')] for j,row in enumerate(tablelines) if j!=1]
    table=d.add_table(rows=0,cols=len(rows[0]));table.autofit=False;table.alignment=WD_TABLE_ALIGNMENT.CENTER
-   widths=[1.35,1.7,.8,2.65] if len(rows[0])==4 else [1.2,1.65,.7,.65,.8,1.5]
+   widths={4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5]}[len(rows[0])]
    widths=[x*6.5/sum(widths) for x in widths]
    for c,w in zip(table.columns,widths):c.width=Inches(w)
    for j,values in enumerate(rows):
@@ -166,6 +166,7 @@ def build():
     for k,(cell,value) in enumerate(zip(cells,values)):
      cell.width=Inches(widths[k]);cell_border(cell);cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
      p=cell.paragraphs[0];p.paragraph_format.space_after=Pt(0);p.paragraph_format.line_spacing=1.05
+     if len(rows[0])==5:p.paragraph_format.keep_with_next=j<len(rows)-1
      p.alignment=WD_ALIGN_PARAGRAPH.LEFT if k in [0,1] else WD_ALIGN_PARAGRAPH.CENTER
      rich(p,value)
      for r in p.runs:r.font.size=Pt(9.5);r.bold=j==0
@@ -175,11 +176,12 @@ def build():
     if j==0:trpr.append(OxmlElement('w:tblHeader'))
    d.add_paragraph().paragraph_format.space_after=Pt(2);continue
   p=d.add_paragraph()
-  lead=re.match(r'^(Proposition [12]\.|Theorem 1\.)',line)
+  lead=re.match(r'^(Proposition [123]\.|Theorem 1\.|Corollary 1\.)',line)
   if lead:p.add_run(lead[0]).bold=True;rich(p,line[len(lead[0]):])
   else:rich(p,line)
-  if line.startswith(('Figure 1 ','Figure 2 ')):p.paragraph_format.space_after=Pt(10)
-  if line.startswith(('Table 1 ','Table 2 ')):p.paragraph_format.keep_with_next=True
+  if re.match(r'^Figure [123] ',line):
+   p.paragraph_format.space_after=Pt(10);p.paragraph_format.keep_together=True
+  if re.match(r'^Table [123] ',line):p.paragraph_format.keep_with_next=True
  DEST.parent.mkdir(parents=True,exist_ok=True);d.save(DEST)
  from zipfile import ZipFile
  with ZipFile(DEST) as z:

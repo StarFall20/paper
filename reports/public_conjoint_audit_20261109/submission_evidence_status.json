@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "goal_complete": false,
-  "decision": "Full scientific manuscript and isolated reproduction package available; continue substantive contribution assessment",
+  "decision": "Explicit positive-power endpoint and fixed-sample error evidence integrated; continue contribution and submission audit",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,9 +17,9 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "explicit_boundary_with_complete_derivation_contribution_sufficiency_unproven",
+      "status": "explicit_compensation_boundary_and_singular_endpoint_contribution_sufficiency_unproven",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Test closest-prior equivalence and the substantive value of the explicit compensated-loss boundary; no search absence or internal score is a priority proof"
+      "remaining": "Assess the explicit finite auxiliary boundary and corrected cost path against closest general and synthetic regularization results; generic separation,margin limits and finite-fit availability are attributed prior"
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -29,9 +29,9 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "complete_proof_appendix_and_clean_package_numeric_checks_available",
+      "status": "four_appendices_and_independent_numerical_formulations_available",
       "evidence": "../../submission/finite_choice_20261110/results/clean_quick_check.json",
-      "remaining": "Continue proof-level closest-prior scrutiny; stated Gaussian,frozen-predictor and independent-row conditions remain essential"
+      "remaining": "Proof-level scrutiny remains essential; Gaussian independent rows,frozen predictor,fixed positive powers and iterated-limit qualifications are explicit"
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
@@ -54,5 +54,15 @@
   ],
   "self_review_scores_used_as_evidence": false,
   "new_questionnaire_or_AI_generation": false,
-  "genuine_blocker": null
+  "genuine_blocker": null,
+  "new_completed_evidence": {
+    "Gaussian_paired_draws": 6000,
+    "raw_LP_unknowns": 1,
+    "independently_remaining_unknowns": 0,
+    "original_draws_replayed": 500,
+    "original_support_status_matches": 1000,
+    "unit_shared_fits": 412,
+    "native_Word_pages": 20,
+    "all_source_tables_match_CSV": true
+  }
 }
