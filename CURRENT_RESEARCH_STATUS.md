@@ -1,4 +1,10 @@
-# Current research status — updated 10 November 2026
+# Current research status — updated 11 November 2026
+
+## Latest result: independent-training labels count toward the budget
+
+The [training-cost assessment](reports/training_budget_20261111/训练成本与投稿主张复核_20261111.md) completes a prespecified fully simulated comparison:800 independent model draws,4800 retained method rows,eight conditions and six methods. Predictor training and correction use disjoint subsets of the same80or160-label budget;both direct human-logit comparators use their union. Fixed powers0.1,0.5,1 return223,169,28 finite roots;all-label ordinary logit returns403,and all-label ridge returns800. Independent positive-margin linear programs certify all397 other ordinary-logit designs as strictly separated. No numerical case is unresolved.
+
+All nonempty fixed-power versus ridge cells have larger mean excess prediction loss for the corrected method on explicitly counted shared finite fits. The diagnostic does not support a label-efficiency or point-error advantage for these independently trained predictors. It does not cover externally pretrained predictors,all tuning rules or all prediction-assisted estimators. Exact existence theory remains a separate result;the conditional trained-index extension does not settle training-budget efficiency. The frozen30-page manuscript and245-file package dated10November have not been rewritten to include this later evidence. Current publication readiness remains unproven. The standalone19-file supplement includes the complete simulated trial records,independent checks and reproduction instructions;no private questionnaire data enter it.
 
 The source-definition barrier is resolved. The researcher supplied the exact platform service wording: AI samples answer the questionnaire for preliminary research/pretesting. Matching task notices and counts had already been inspected. The explanation itself is researcher-provided, without a freshly identified webpage claim.
 

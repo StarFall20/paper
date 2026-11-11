@@ -1,0 +1,31 @@
+{
+  "experiment_script_sha256": "81e35d2387c0c7241209f8816e2daf2f55842a9b182c2e50b069298e928d3b41",
+  "plan_sha256": "69051882916a4b4d1280fac156457cabaeb8e59be630d7ba1e7ef6dec750e595",
+  "verification_script_sha256": "867878b10eb1018a65df173eb380535b298089f09ca73d8ee9ba500752ede750",
+  "frozen_manuscript_backup_commit": "cfcad6fd618efab2e8326cdff62f414fffffd64b",
+  "full_trial_rows_are_simulated_not_human": true,
+  "canonical_dependencies": {
+    "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672"
+  },
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2407.10846v2",
+      "read": "Sections 1–4 and application opening; author preprint, not final journal full text"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S1755534526000412",
+      "read": "Publisher search-retrieved abstract and body fragments; direct access 403"
+    },
+    {
+      "url": "https://shop.elsevier.com/journals/journal-of-choice-modelling/1755-5345",
+      "read": "Official journal description"
+    },
+    {
+      "url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
+      "read": "Unavailable, 403"
+    }
+  ]
+}
