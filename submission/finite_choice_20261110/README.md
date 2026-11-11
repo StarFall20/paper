@@ -2,13 +2,15 @@
 
 This compact archive accompanies **When prediction assisted logit estimates exist**. It contains one scientific argument, its completed aggregate results and the code needed to regenerate them. It excludes the historical research notebook, raw questionnaires, participant level response vectors and downloaded numeric pickle inputs. The independent 300 record questionnaire application is retained in the research archive and supplies no observations to this paper.
 
+The manuscript and package were refreshed on 11 November 2026. The stable directory name is retained; the 10 November version remains in Git history and its original local archive. Section5.4,Table4 and AppendixC4 now include the independent-training label-cost diagnostic and its adverse prediction-error results. This comparison does not support a label-saving or prediction superiority claim for the examined allocation and fixed powers.
+
 The main result concerns independent Gaussian remaining attributes, an estimated intercept, one utility signal, a frozen predictor, fixed positive correction power and a finite auxiliary to label ratio. Under the same signal and estimated intercept assumptions, a second result gives the simultaneous upper existence boundary over every correction power and the joint limit for strictly positive powers tending to zero. Its boundary strictly exceeds ordinary logit for each fixed strictly interior predictor; one excluded hard-prediction counterexample removes that strict gain. The finite design LP and the symmetric Gaussian zonotope special case are classical. Numerical agreement does not establish priority or a general categorical DCE phase theorem.
 
 ## Start here
 
 - [Complete manuscript and proofs](manuscript/paper.md).
 - [Editable Word manuscript](manuscript/paper.docx), with native Word equations.
-- [Table 1 boundary values](manuscript/table1.csv), [Table 2 estimation comparisons](manuscript/table2.csv) and [Table 3 fixed power replay](manuscript/table3.csv).
+- [Table 1 boundary values](manuscript/table1.csv), [Table 2 estimation comparisons](manuscript/table2.csv), [Table 3 fixed power replay](manuscript/table3.csv) and [Table 4 training-cost comparison](manuscript/table4.csv).
 - [Source attribution](ATTRIBUTION.md) and [data download manifest](reports/public_conjoint_audit_20261109/source_manifest.json).
 - [Full aggregate simulation grid](results/finite_pool_summary.csv), [imperfect predictions](results/imperfect_pool_summary.csv) and [stronger utility](results/strong_signal_pool_summary.csv).
 
@@ -22,7 +24,7 @@ python analysis/audit_binary_choice.py examples/intercept.csv --features interce
 python analysis/build_publication_assets.py --results results --manuscript manuscript
 ```
 
-The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all three main tables and Appendix Table E1 and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
+The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all four main tables,Appendix Table E1,the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
 
 Optional Word authoring uses the packages in `authoring/requirements.txt`:
 
@@ -30,7 +32,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 30 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
+The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 32 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -164,3 +166,13 @@ python verify_package.py
 ```
 
 The paper and this archive do not assert journal acceptance or an exhaustive Scopus/Scholar search. The research archive retains the closest prior applicability review and the submission assessment separately.
+
+## Independent training label costs
+
+```sh
+python analysis/training_budget_diagnostic_20261111.py --out regenerated/training_budget
+```
+
+The plan fixes eight conditions,100 draws per condition,six methods and a total label union shared by the direct human baselines. It generates 800 statistical model draws and 4800 retained method rows,without private questionnaire records or LLM answers. Training and direct ridge use a fixed mean-loss penalty of 0.1 on all parameters,including the intercept. Fixed correction powers are diagnostic choices. The complete summaries,pairing counts and all 397 independently certified ordinary-logit separation cases are in `results/training_budget_*`.
+
+The original full simulated trial table and its independent verifier are preserved in the separate training-budget supplement in the repository. This main package ships aggregates and regenerates all trials with the command above. The packaged source only adapts its import path; its full800-design replay reproduces the original trial and aggregate CSVs byte for byte,as recorded in `results/training_budget_source_adaptation.json`. This replay adds no statistical replications.

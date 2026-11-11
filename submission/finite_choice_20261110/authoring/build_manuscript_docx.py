@@ -158,7 +158,7 @@ def build():
    while i<len(lines) and lines[i].strip().startswith('|'):tablelines.append(lines[i].strip());i+=1
    rows=[[x.strip() for x in row.strip('|').split('|')] for j,row in enumerate(tablelines) if j!=1]
    table=d.add_table(rows=0,cols=len(rows[0]));table.autofit=False;table.alignment=WD_TABLE_ALIGNMENT.CENTER
-   widths={4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5]}[len(rows[0])]
+   widths=[.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5]}[len(rows[0])]
    widths=[x*6.5/sum(widths) for x in widths]
    for c,w in zip(table.columns,widths):c.width=Inches(w)
    for j,values in enumerate(rows):
@@ -181,7 +181,7 @@ def build():
   else:rich(p,line)
   if re.match(r'^Figure [123] ',line):
    p.paragraph_format.space_after=Pt(10);p.paragraph_format.keep_together=True
-  if re.match(r'^Table [123] ',line):p.paragraph_format.keep_with_next=True
+  if re.match(r'^Table (?:[0-9]+|[A-Z][0-9]+) ',line):p.paragraph_format.keep_with_next=True
  DEST.parent.mkdir(parents=True,exist_ok=True);d.save(DEST)
  from zipfile import ZipFile
  with ZipFile(DEST) as z:

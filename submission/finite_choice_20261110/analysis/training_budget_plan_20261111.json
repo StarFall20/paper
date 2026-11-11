@@ -1,0 +1,20 @@
+{
+  "question": "After counting independent predictor-training labels in the total human-label budget, what existence and estimation gains remain relative to direct human-logit fitting?",
+  "stage": "Finite-sample diagnostic; no efficiency theorem, generic dominance claim, or simulated-human empirical claim",
+  "recorded_before_main_run": true,
+  "seed": 2026111141,
+  "repetitions_per_condition": 100,
+  "total_human_labels": [80,160],
+  "slope_dimensions_per_total_label": [0.3,0.45],
+  "independent_training_label_fractions": [0.25,0.5],
+  "auxiliary_rows_per_correction_label": 4,
+  "true_logit": "intercept zero, first slope 1.5, all other slopes zero; independent standard Gaussian attributes",
+  "training_rule": "Mean logistic loss plus 0.1/2 times squared norm of all parameters, including the intercept; independent training subset only",
+  "methods": ["training_ridge_only","all_labels_mle","all_labels_ridge_0.1","corrected_power_0.1","corrected_power_0.5","corrected_power_1.0"],
+  "label_accounting": "Training and correction label subsets are disjoint; their union is exactly the labels used by both all-label comparators. Auxiliary features carry no observed labels.",
+  "pairing": "Within a condition and repetition all methods share training, correction and auxiliary feature rows and a common independent 4096-row Gaussian integration design. Conditions use independent random-number substreams.",
+  "outcomes": ["exact convex-support classification","finite root verification","squared coefficient error","known-truth integrated excess log loss","coefficient norm","score residual"],
+  "missingness": "Retain every planned method row. Report structural nonexistence and numerical unresolved fits separately. Risk averages are conditional on returned verified fits, with paired contrasts reported only on explicitly counted shared fits.",
+  "analysis_limits": ["100 repetitions provide a diagnostic rather than a precise small-difference ranking","No training-overlap convergence or high-dimensional coverage theorem is inferred","No new human responses or LLM questionnaire responses are generated","No interval-coverage assessment in this experiment","Fixed correction powers are stress-test choices, not new tuned procedures"],
+  "package_policy": "The already verified 245-file reproduction package remains frozen until this separate exploration is reviewed."
+}

@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-10",
-  "pages": 30,
-  "native_equations": 514,
+  "date": "2026-11-11",
+  "pages": 32,
+  "native_equations": 530,
   "main_theorems": 2,
   "main_figures": 3,
-  "main_tables": 3,
+  "main_tables": 4,
   "appendix_tables": 1,
   "proof_appendices": 5,
   "propositions": 4,
   "corollaries": 2,
   "full_manuscript": "../../submission/finite_choice_20261110/manuscript/paper.md",
   "native_word": "../../submission/finite_choice_20261110/manuscript/paper.docx",
-  "source_sha256": "e9c97a3da955b659582e2441b740c0fac6d0691541ba49e2d92ee3bbb459e3bb",
-  "word_sha256": "2c9d60f092b7c12d580d709f80421cc48790757910cc73d7d35052d4e4eaa595",
+  "source_sha256": "c2cfa659c9fe48e3c25dddeb98bd8a53a06f06778f894b9dfe37a17a20efd208",
+  "word_sha256": "18625559b4c9ccea13a4e891ed69a004e6a91af598532098271b82e75f5cc255",
   "all_source_tables_equal_display_CSVs": true,
   "clean_package_numeric_checks": {
     "analytic_intercept_root_error": 1.4703560591300402e-10,
@@ -84,7 +84,29 @@
     "trained_prediction_rotation_support_matches": 180,
     "initial_rank_classification_failure_and_source_retained": true,
     "requires_raw_questionnaires": false,
-    "proves_novelty_or_submission_readiness": false
+    "proves_novelty_or_submission_readiness": false,
+    "all_four_main_tables_reconciled": true,
+    "independent_training_budget_draws": 800,
+    "training_budget_method_records": 4800,
+    "training_budget_strict_separation_certificates": 397,
+    "training_cost_adverse_results_retained": true
   },
+  "training_budget_full_replay": {
+    "original_run_source_sha256": "81e35d2387c0c7241209f8816e2daf2f55842a9b182c2e50b069298e928d3b41",
+    "packaged_source_sha256": "e7c03dbad3a556a0d44d6e746dfbe3a86fc8ba77a40d7e1b2fed2dc08b0fd556",
+    "change": "Replace workspace-only import path with the adjacent packaged analysis directory; statistical algorithm,plan and random substreams unchanged",
+    "algorithm_changes": false,
+    "all_800_design_replay_pending": false,
+    "all_800_designs_replayed": true,
+    "replayed_method_rows": 4800,
+    "all_trial_and_aggregate_CSVs_byte_identical": {
+      "training_budget_trials.csv": true,
+      "training_budget_summary.csv": true,
+      "training_budget_status.csv": true,
+      "training_budget_paired.csv": true
+    },
+    "added_statistical_repetitions": 0
+  },
+  "previous_display_equations_and_Appendix_A_B_D_proofs_unchanged": true,
   "novelty_and_submission_readiness_proven": false
 }

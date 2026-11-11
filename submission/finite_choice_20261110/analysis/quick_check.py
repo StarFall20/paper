@@ -155,7 +155,32 @@ def main():
   assert abs(row['aligned_frequency']-row['external_frequency']-row['paired_difference'])<1e-12
  initial=json.loads((root/'results/aligned_prediction_initial_diagnostic_attempt.json').read_text())
  assert initial['initial_source_sha256']==hashlib.sha256((root/'reports/public_conjoint_audit_20261109/aligned_initial_diagnostic_source.py').read_bytes()).hexdigest()
+ budget=pd.read_csv(root/'results/training_budget_summary.csv')
+ budget_status=pd.read_csv(root/'results/training_budget_status.csv')
+ budget_pairs=pd.read_csv(root/'results/training_budget_paired.csv')
+ budget_check=json.loads((root/'results/training_budget_verification.json').read_text())
+ budget_run=json.loads((root/'results/training_budget_status.json').read_text())
+ adaptation=json.loads((root/'results/training_budget_source_adaptation.json').read_text())
+ assert budget_run['state']=='complete' and budget_run['returned_method_rows']==4800 and budget_run['completed_model_draws']==800
+ assert len(budget)==48 and len(budget_pairs)==80 and budget.draws.eq(100).all()
+ assert budget_status['size'].sum()==4800 and budget_run['unresolved_method_rows']==0
+ assert budget_run['source_sha256']==adaptation['original_run_source_sha256']
+ assert adaptation['packaged_source_sha256']==hashlib.sha256((root/'analysis/training_budget_diagnostic_20261111.py').read_bytes()).hexdigest()
+ assert budget_run['plan_sha256']==hashlib.sha256((root/'analysis/training_budget_plan_20261111.json').read_bytes()).hexdigest()
+ counts=budget.groupby('method').verified_fits.sum().to_dict()
+ assert counts=={'all_labels_mle':403,'all_labels_ridge_0.1':800,'corrected_power_0.1':223,'corrected_power_0.5':169,'corrected_power_1.0':28,'training_ridge_only':800}
+ assert budget_check['ordinary_boundary_cases_separately_certified_strictly_separated']==397
+ separators=pd.read_csv(root/'results/training_budget_mle_separation.csv')
+ assert len(separators)==397 and separators.strict_separating_margin.gt(1e-9).all()
+ table4=pd.read_csv(root/'manuscript/table4.csv',dtype=str)
+ assert len(table4)==8
+ for row in table4.to_dict('records'):
+  part=budget[(budget.total_labels==int(row['Total labels']))&(budget.slope_dimension==int(row['Slopes']))&(budget.training_labels==int(row['Training labels']))].set_index('method')
+  for shown,method in [('Human MLE','all_labels_mle'),('PPI $\\lambda=0.1$','corrected_power_0.1'),('Human ridge','all_labels_ridge_0.1')]:assert row[shown]==str(int(part.loc[method,'verified_fits']))+'/100'
+ negative=budget_pairs[budget_pairs.method.str.startswith('corrected')&(budget_pairs.baseline=='all_labels_ridge_0.1')&budget_pairs.shared_verified_fits.gt(0)]
+ assert len(negative)==16 and negative.excess_loss_difference.gt(0).all()
  report={'analytic_intercept_root_error':err,'boundary_exterior_rank_checks':True,'balanced_LP_and_quadrature':balanced,'completed_grid_consistency':grids,'full_math_checks_run':a.full_math,'reported_table_rounding_checked':True,'positive_power_paired_draws':6000,'raw_unknown_preserved_and_resolved':True,'original_draws_replayed':500,'old_support_status_matches':1000,'all_three_tables_reconciled':True,'joint_power_existing_draws_replayed':6000,'joint_power_new_feasibility_checks':12000,'classical_zonotope_reduction_checked':True,'paired_expected_choice_loss_checked':True,'DY_comparator_original_draws_replayed':1000,'DY_comparator_fits':2000,'general_all_power_boundary_checked':True,'excluded_hard_endpoint_scope_checked':True,'general_phase_calls':90000,'general_initial_unknowns':general['initial_unknowns'],'finite_design_power_domain_cases':1000,'independent_endpoint_recession_certificates':8,'prediction_index_population_conditions':30,'prediction_index_paired_draws':1000,'prediction_index_phase_calls':8000,'appendix_tableE1_reconciled':True,'trained_prediction_rotation_support_matches':180,'initial_rank_classification_failure_and_source_retained':True,'requires_raw_questionnaires':False,'proves_novelty_or_submission_readiness':False}
+ report.update(all_four_main_tables_reconciled=True,independent_training_budget_draws=800,training_budget_method_records=4800,training_budget_strict_separation_certificates=397,training_cost_adverse_results_retained=True)
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True}))
 
 if __name__=='__main__':main()

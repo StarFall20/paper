@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "goal_complete": false,
-  "decision": "Fixed fitted-index extension,conditional independently-trained linear-score corollary,and exact matched calibrated example added within the same compensated-logit question. Complete population and paired phase checks retained;independent contribution importance and journal upload requirements remain under assessment.",
+  "decision": "Training-cost adverse evidence integrated into abstract,Section5.4,Table4,AppendixC4 and conclusion;all800 independent-training designs replayed exactly. Recent categorical-likelihood geometry cited. Importance of the explicit compensated existence law and complete journal-specific readiness remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -23,9 +23,9 @@
     },
     {
       "requirement": "Fair comparison against established methods",
-      "status": "original_seven_strategy_grids_plus_established_DY_settings_on_both_displayed_conditions",
-      "evidence": "预测偏差检验与创新边界深化.md",
-      "remaining": "Raw DY results use ordinary diagnostic sandwiches,not published Gaussian HD rescaling;all original outputs retained. No uniformly superior estimator claim."
+      "status": "original_grids_and_DY_retained_independent_training_total_label_cost_comparison_added",
+      "evidence": "正文整合与理论增量复核_20261111.md",
+      "remaining": "The fixed allocation and fixed-power diagnostic gives no prediction-error advantage over direct human ridge;it does not establish general tuning or externally pretrained predictor rankings."
     },
     {
       "requirement": "Proof and numerical validity",
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 30,
+    "native_Word_pages": 32,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 514,
+    "native_math_objects": 530,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -92,6 +92,13 @@
     "prediction_index_phase_calls": 8000,
     "prediction_index_unknowns": 0,
     "trained_prediction_rotation_matches": 180,
-    "proof_appendices": 5
+    "proof_appendices": 5,
+    "main_tables": 4,
+    "training_budget_draws": 800,
+    "training_budget_method_records": 4800,
+    "training_budget_full_replay_rows": 4800,
+    "training_budget_CSVs_byte_identical": true,
+    "training_budget_strict_separation_certificates": 397,
+    "new_source_2610_08100_scoped": true
   }
 }

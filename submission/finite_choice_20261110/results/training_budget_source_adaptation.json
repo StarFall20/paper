@@ -1,0 +1,16 @@
+{
+  "original_run_source_sha256": "81e35d2387c0c7241209f8816e2daf2f55842a9b182c2e50b069298e928d3b41",
+  "packaged_source_sha256": "e7c03dbad3a556a0d44d6e746dfbe3a86fc8ba77a40d7e1b2fed2dc08b0fd556",
+  "change": "Replace workspace-only import path with the adjacent packaged analysis directory; statistical algorithm,plan and random substreams unchanged",
+  "algorithm_changes": false,
+  "all_800_design_replay_pending": false,
+  "all_800_designs_replayed": true,
+  "replayed_method_rows": 4800,
+  "all_trial_and_aggregate_CSVs_byte_identical": {
+    "training_budget_trials.csv": true,
+    "training_budget_summary.csv": true,
+    "training_budget_status.csv": true,
+    "training_budget_paired.csv": true
+  },
+  "added_statistical_repetitions": 0
+}

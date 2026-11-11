@@ -42,7 +42,7 @@
       "unresolved": 0
     }
   },
-  "full_math_checks_run": true,
+  "full_math_checks_run": false,
   "reported_table_rounding_checked": true,
   "positive_power_paired_draws": 6000,
   "raw_unknown_preserved_and_resolved": true,
@@ -53,6 +53,25 @@
   "joint_power_new_feasibility_checks": 12000,
   "classical_zonotope_reduction_checked": true,
   "paired_expected_choice_loss_checked": true,
+  "DY_comparator_original_draws_replayed": 1000,
+  "DY_comparator_fits": 2000,
+  "general_all_power_boundary_checked": true,
+  "excluded_hard_endpoint_scope_checked": true,
+  "general_phase_calls": 90000,
+  "general_initial_unknowns": 12,
+  "finite_design_power_domain_cases": 1000,
+  "independent_endpoint_recession_certificates": 8,
+  "prediction_index_population_conditions": 30,
+  "prediction_index_paired_draws": 1000,
+  "prediction_index_phase_calls": 8000,
+  "appendix_tableE1_reconciled": true,
+  "trained_prediction_rotation_support_matches": 180,
+  "initial_rank_classification_failure_and_source_retained": true,
   "requires_raw_questionnaires": false,
-  "proves_novelty_or_submission_readiness": false
+  "proves_novelty_or_submission_readiness": false,
+  "all_four_main_tables_reconciled": true,
+  "independent_training_budget_draws": 800,
+  "training_budget_method_records": 4800,
+  "training_budget_strict_separation_certificates": 397,
+  "training_cost_adverse_results_retained": true
 }
