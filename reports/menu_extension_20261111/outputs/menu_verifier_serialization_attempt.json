@@ -1,0 +1,7 @@
+{
+  "state": "failed_after_numeric_checks",
+  "error": "NumPy int64 in zero-projection count was not JSON serializable",
+  "all_12_QP_results_already_saved": true,
+  "source_sha256": "05b536f9827a7fdf6a930d0acb01350a1dfab58bf9c2817ff5e5134adaadad05",
+  "statistical_sampling_affected": false
+}

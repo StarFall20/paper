@@ -1,0 +1,15 @@
+{
+  "state": "failed",
+  "failed_trial": 65,
+  "power": 1.0,
+  "original_support_status": "boundary_or_near_boundary",
+  "independent_residual_status": "feasible",
+  "cause": "The initial assertion treated feasible boundary moments as if every feasible moment were interior",
+  "initial_source_sha256": "b7934058d2958c6583178af62a51c46907bec90913eb845ef44360a272114968",
+  "failed_source_and_classification_retained": true,
+  "exact_simulated_boundary_design_retained": true,
+  "additional_pre_rerun_fixes": [
+    "NNLS generator columns corrected",
+    "Per-menu common utility levels removed internally without changing the objective"
+  ]
+}

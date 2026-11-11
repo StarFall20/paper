@@ -1,0 +1,26 @@
+{
+  "finite_menu_designs": 120,
+  "original_moment_residual_LP_matches": 360,
+  "binary_objective_support_matches": 120,
+  "states": {
+    "J2_interior": 109,
+    "J3_interior": 113,
+    "J4_interior": 118,
+    "J2_outside": 11,
+    "J3_outside": 7,
+    "J4_boundary_or_near_boundary": 1,
+    "J4_outside": 1
+  },
+  "maximum_gradient_error": 2.6956714638259882e-11,
+  "maximum_Hessian_error": 6.104583505361916e-11,
+  "maximum_binary_objective_score_identity_error": 7.771561172376096e-16,
+  "maximum_simplex_independent_QP_error": 2.6753673157409175e-07,
+  "maximum_simplex_independent_root_error": 1.6653345369377348e-15,
+  "maximum_simplex_QP_objective_gap": 1.0802470029602773e-13,
+  "maximum_vertex_cone_NNLS_error": 3.885780586188048e-16,
+  "maximum_common_menu_shift_error": 4.440892098500626e-16,
+  "analytic_uniform_root_boundary_exterior_rank_checks": true,
+  "new_human_or_LLM_responses": 0,
+  "source_sha256": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178",
+  "novelty_or_submission_readiness_established": false
+}

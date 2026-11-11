@@ -1,0 +1,8 @@
+{
+  "maximum_gradient_or_scale_derivative_error": 9.113354515477567e-11,
+  "maximum_strict_gain_derivative_identity_error": 4.440892098500626e-16,
+  "maximum_ordinary_zero_scale_identity_error": 2.220446049250313e-16,
+  "source_sha256": "ca0d7dd5288734f5248ce597349e5aa5454ba12ab706c113b06fc556ff387577",
+  "bits": 10,
+  "stage": "Integration/derivation pilot; not finite phase data or a novelty certificate"
+}

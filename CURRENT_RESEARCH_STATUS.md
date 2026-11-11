@@ -1,6 +1,12 @@
 # Current research status — updated 11 November 2026
 
-## Latest result: independent-training labels count toward the budget
+## Latest result: whole-menu candidate and the actual DCE cancellation check
+
+The [whole-menu supplement](reports/menu_extension_20261111/README.md) extends the SAME compensated-loss question to conditional logit with alternative-specific Gaussian profiles,common attribute slopes and estimated alternative constants. The candidate proof retains the menu probability simplex and the positive-power limiting tangent face. Its assumptions differ from arbitrary categorical coefficient matrices or repeated fixed-task respondent panels. Complete evidence includes72 integration evaluations,1000 independent simulated model draws with6000 support classifications,120 independent residual-LP crosschecks,and12 independent full constrained cone QPs. Every displayed phase cell has500 repetitions;no phase state is unresolved. The derivation remains separate from the unchanged32-page manuscript pending proof and substantive contribution review.
+
+The real-DCE audit uses300 human-recruitment records and60 AI pretests as a separate source. Whole-person splits preserve the same eight menus. With frozen predictions depending only on menu and version,the prediction-loss correction cancels identically for every coefficient and power. All120 allocations confirm objective,score,Hessian and returned-root invariance. This is a classical finite-design identity,not empirical validation of the Gaussian phase law or an independent innovation. The existing human preference application is retained. No raw questionnaire rows were released. The supplement preserves the initial exact support-boundary error and subsequent numerical repairs. Priority,practical method value and submission readiness remain unestablished;the goal stays active.
+
+## Independent-training labels count toward the budget
 
 The [training-cost assessment](reports/training_budget_20261111/训练成本与投稿主张复核_20261111.md) completes a prespecified fully simulated comparison:800 independent model draws,4800 retained method rows,eight conditions and six methods. Predictor training and correction use disjoint subsets of the same80or160-label budget;both direct human-logit comparators use their union. Fixed powers0.1,0.5,1 return223,169,28 finite roots;all-label ordinary logit returns403,and all-label ridge returns800. Independent positive-margin linear programs certify all397 other ordinary-logit designs as strictly separated. No numerical case is unresolved.
 

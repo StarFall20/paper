@@ -1,0 +1,22 @@
+{
+  "question": "Does the same corrected objective admit an explicit existence boundary for menu-level conditional logit,with common attribute coefficients and estimated alternative-specific constants?",
+  "stage": "Derivation and numerical validation before manuscript inclusion; priority and sufficient value unproven",
+  "unchanged_core": "Human-loss plus lambda times the auxiliary-minus-labelled prediction loss; no new estimator or framework name",
+  "design": "J alternatives; independent standard Gaussian profile attributes within each menu; one shared utility-signal slope gamma and growing common zero-slope attributes; J-1 estimated constants",
+  "predictions": "Frozen interior menu probability vectors; symmetric J-category proxy with error epsilon; conditional-mean oracle in the first population grid",
+  "diagnostics": {
+    "seed": 2026111147,
+    "finite_original_vs_residual_cases": 120,
+    "alternatives": [2,3,4],
+    "powers": [1.0,0.5,0.1],
+    "additional_checks": ["analytic intercept-only roots and boundary/exterior cases","finite differences for objective derivatives","simplex projection against an independent constrained QP","ordinary cone projection against NNLS","exact binary objective/support reduction","positive-power event nesting","menu-common utility shifts"]
+  },
+  "population_validation": {
+    "initial_target": "J=3,gamma in [0,1.5],tau in [1,4],epsilon=0.25,powers 1,tau/(1+tau),0.1",
+    "integration": "Scrambled Sobol Gaussian integration in orthonormal menu contrast coordinates; compare increasing resolutions and independent scramble seeds before phase simulation",
+    "binary_reduction": "J=2 must reproduce the existing binary thresholds after matching the signal variance convention",
+    "limit": "Retain the labelled vertex tangent cone at positive powers approaching zero; test the proposed strict-gain derivative identity separately"
+  },
+  "phase_experiment": "Specify a separate plan after population values and numerical errors have been inspected; no finite-phase sampling has yet started",
+  "limits": ["Conditional common-coefficient choice logit is different from class-specific coefficient matrices on a shared feature vector","No arbitrary discrete-design phase theorem or respondent-cluster law is implied","The finite menu audit implements classical convex support geometry","No new human responses,LLM answers or private questionnaire records","No submission-readiness inference from passing checks"]
+}

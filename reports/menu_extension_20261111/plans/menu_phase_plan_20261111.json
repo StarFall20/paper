@@ -1,0 +1,34 @@
+{
+  "stage": "Selected after the complete population grid; finite-phase mechanism illustration,not a prespecified general performance study",
+  "alternatives": 3,
+  "gamma": 1.5,
+  "tau": 1,
+  "epsilon": 0.25,
+  "label_menus": [
+    40,
+    80
+  ],
+  "replications_per_budget": 500,
+  "powers": [
+    1.0,
+    0.5
+  ],
+  "orthogonal_dimension_offsets": [
+    -0.15,
+    0.0,
+    0.15
+  ],
+  "critical_ratios": {
+    "1.0": 0.4166601156771731,
+    "0.5": 0.7023868529747181
+  },
+  "signal_slope_is_additional_to_orthogonal_dimension": true,
+  "estimated_alternative_constants": 2,
+  "seed": 2026111159,
+  "population_values_sha256": "2ea5e56e6f78b7f53e80c8e481c44e4e6ded0fcfaf2499c9207d78587a7476c5",
+  "planned_independent_menu_model_draws": 1000,
+  "planned_support_calls": 6000,
+  "pairing": "Within a budget/repetition both powers and every displayed dimension share Gaussian menus,choices,proxy categories,and frozen oracle probabilities",
+  "complete_states": "Retain interior,outside,boundary_or_near_boundary,rank_deficient,unresolved separately; no incomplete cases discarded",
+  "new_human_or_LLM_responses": 0
+}

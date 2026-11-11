@@ -1,0 +1,19 @@
+{
+  "state": "complete",
+  "completed_evaluations": 72,
+  "planned_evaluations": 72,
+  "fixed_positive_cells_per_resolution_seed": 12,
+  "limiting_cells_per_resolution_seed": 4,
+  "ordinary_cells_per_resolution_seed": 2,
+  "binary_reduction_cells": 12,
+  "maximum_binary_reduction_difference": 0.00018550130875771842,
+  "source_sha256": "2bc4da6c3619fb50678c6aa8f797d7aa817ce547c4d4eb5d40da4144d257a874",
+  "plan_sha256": "f87f38171f19f4e65bd68a695b3fb8b70f5c053b67fe308a75552994aa58a57d",
+  "helper_sha256": {
+    "menu_existence_population.py": "ca0d7dd5288734f5248ce597349e5aa5454ba12ab706c113b06fc556ff387577",
+    "menu_corrected_logit.py": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178"
+  },
+  "phase_sampling_started": false,
+  "rigorous_integration_error_bound_claimed": false,
+  "novelty_or_submission_readiness_established": false
+}

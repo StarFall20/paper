@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-11",
+  "purpose": "Bound the candidate whole-menu result against inspected primary sources; not a systematic-review completion claim",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2610.08100v1",
+      "authors": "Sablica, Hornik and Rusch",
+      "year": 2026,
+      "inspected": "Model definition, Theorem 1 and Sections 4.1-4.2; earlier scoped categorical-separation reading retained in the main project",
+      "role": "Established ordinary categorical likelihood geometry and LP separation diagnostics",
+      "limit": "No direct equivalence to the signed compensated objective is inferred; full appendix reading is not claimed"
+    },
+    {
+      "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/e0ac27bf3327c9cb99cc5f548db4f73a-Abstract-Conference.html",
+      "authors": "Tan and Bellec",
+      "year": 2023,
+      "inspected": "Official proceedings abstract",
+      "role": "High-dimensional multinomial inference prior",
+      "limit": "Main PDF and attempted arXiv HTML retrieval were unsuccessful; no full-paper proof inspection claimed"
+    },
+    {
+      "url": "https://bellecp.github.io/multinomial.html",
+      "authors": "Tan and Bellec author vignette",
+      "year": 2023,
+      "inspected": "Main vignette, including coefficient-matrix definition and inference conditional on MLE existence",
+      "role": "Disambiguates class-specific coefficient matrix on shared covariates from common coefficients on alternative-specific profiles",
+      "limit": "The vignette does not establish absence of equivalent results elsewhere"
+    },
+    {
+      "url": "https://research.google/pubs/efficient-projections-onto-the-l1-ball-for-learning-in-high-dimensions/",
+      "authors": "Duchi and coauthors",
+      "year": 2008,
+      "inspected": "Official publication metadata, also checked against Stanford and ACM listings",
+      "role": "Established projection-algorithm attribution; the usual sorting and threshold KKT calculation was derived and independently checked locally",
+      "limit": "Stanford PDF retrieval attempts failed; no copied code or full-PDF reading is claimed"
+    }
+  ],
+  "Scopus_and_Google_Scholar_systematic_review_completed_this_round": false,
+  "search_absence_used_as_originality_evidence": false,
+  "current_main_manuscript_rewritten_this_round": false,
+  "independent_expert_review_completed": false
+}

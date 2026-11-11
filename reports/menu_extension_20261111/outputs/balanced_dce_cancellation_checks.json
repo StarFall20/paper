@@ -1,0 +1,28 @@
+{
+  "human_records": 300,
+  "AI_pretest_records_excluded_from_human_labels": 60,
+  "versions": 2,
+  "tasks_per_person": 8,
+  "alternatives": 3,
+  "whole_person_allocations": 120,
+  "powers_per_allocation": 4,
+  "parameter_anchors_per_power": 3,
+  "maximum_objective_identity_error": 9.103828801926284e-15,
+  "maximum_score_identity_error": 5.484501741648273e-14,
+  "maximum_Hessian_identity_error": 1.971756091734278e-13,
+  "maximum_reused_root_score": 8.884001312381429e-10,
+  "states": {
+    "interior": 120
+  },
+  "predictions": "Task/version AI-pretest fractions with fixed Jeffreys0.5 smoothing; same frozen vector in labelled and auxiliary menus",
+  "interpretation": "Exact finite objective cancellation when both subsets repeat the same balanced menus and predictions depend only on those menus",
+  "allocation_differences_are_computational_checks_not_new_observations": true,
+  "raw_hashes": {
+    "V1": "dbe667ecc7511b69fcb5c36147f986499dbbbf23ec1d7f638eb137cfbb080e13",
+    "V2": "40b3cc7daee37b5ad0e1060b77c12cdccc9c5dff9cff1a57a75e32b8d5b7ce01"
+  },
+  "participant_rows_or_answers_written": false,
+  "source_sha256": "a0eca61b7b17d11f89c4239055b8cecb42ee81037bcca6e2d41d917ed5403db3",
+  "new_method_or_priority_claim": false,
+  "Gaussian_phase_law_empirically_validated": false
+}

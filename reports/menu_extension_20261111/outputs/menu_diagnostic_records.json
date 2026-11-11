@@ -1,0 +1,3602 @@
+[
+  {
+    "trial": 0,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 0,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 0,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 1,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 1,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 1,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 2,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 2,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 2,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 3,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 3,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 3,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 4,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 4,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 4,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 5,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 5,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 5,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 6,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 6,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 6,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 7,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 7,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 7,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 8,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 8,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 8,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 9,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 9,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 9,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 10,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 10,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 10,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 11,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 11,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 11,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 12,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 12,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 12,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 13,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 13,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 13,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 14,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 14,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 14,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 15,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 15,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 15,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 16,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 16,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 16,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 17,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 17,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 17,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 18,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 18,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 18,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 19,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 19,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 19,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 20,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 20,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 20,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 21,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 21,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 21,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 22,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 22,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 22,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 23,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 23,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 23,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 24,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 24,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 24,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 25,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 25,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 25,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 26,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 26,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 26,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 27,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 27,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 27,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 28,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 28,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 28,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 29,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 29,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 29,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 30,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 30,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 30,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 31,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 31,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 31,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 32,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 32,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 32,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 33,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 33,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 33,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 34,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 34,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 34,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 35,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 35,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 35,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 36,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 36,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 36,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 37,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 37,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 37,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 38,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 38,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 38,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 39,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 39,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 39,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 40,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 40,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 40,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 41,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 41,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 41,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 42,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 42,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 42,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 43,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 43,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 43,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 44,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 44,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 44,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 45,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 45,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 45,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 46,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 46,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 46,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 47,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 47,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 47,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 48,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 48,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 48,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 49,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 49,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 49,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 50,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 50,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 50,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 51,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 51,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 51,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 52,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 52,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 52,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 53,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 53,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 53,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 54,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 54,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 54,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 55,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 55,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 55,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 56,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 56,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 56,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 57,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 57,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 57,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 58,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 58,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 58,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 59,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 59,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 59,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 60,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 60,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 60,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 61,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 61,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 61,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 62,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 62,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 62,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 63,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 63,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 63,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 64,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 64,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 64,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 65,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "boundary_or_near_boundary",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 65,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 65,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 66,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 66,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 66,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 67,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 67,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 67,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 68,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 68,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 68,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 69,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 69,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 69,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 70,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 70,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 70,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 71,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 71,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 71,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 72,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 72,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 72,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 73,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 73,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 73,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 74,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 74,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 74,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 75,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 75,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 75,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 76,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 76,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 76,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 77,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 77,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 77,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 78,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 78,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 78,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 79,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 79,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 79,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 80,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 80,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 80,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 81,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 81,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 81,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 82,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 82,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 82,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 83,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 83,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 83,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 84,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 84,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 84,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 85,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 85,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 85,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 86,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 86,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 86,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 87,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 87,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 87,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 88,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 88,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 88,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 89,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 89,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 89,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 90,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 90,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 90,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 91,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 91,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 91,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 92,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 92,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 92,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 93,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 93,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 93,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 32,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 94,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 94,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 94,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 34,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 95,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 95,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 95,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 96,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 96,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 96,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 57,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 97,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 97,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 97,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 60,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 98,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 98,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 98,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 99,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 99,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 99,
+    "alternatives": 2,
+    "labels": 15,
+    "auxiliary": 15,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 100,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 100,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 100,
+    "alternatives": 3,
+    "labels": 16,
+    "auxiliary": 16,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 101,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 101,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 101,
+    "alternatives": 4,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 102,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 102,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 102,
+    "alternatives": 2,
+    "labels": 18,
+    "auxiliary": 36,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 103,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 103,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 103,
+    "alternatives": 3,
+    "labels": 19,
+    "auxiliary": 38,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 104,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 104,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 104,
+    "alternatives": 4,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 105,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 105,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 105,
+    "alternatives": 2,
+    "labels": 14,
+    "auxiliary": 42,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 106,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 106,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 106,
+    "alternatives": 3,
+    "labels": 15,
+    "auxiliary": 45,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 107,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 107,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 107,
+    "alternatives": 4,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 108,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 108,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 108,
+    "alternatives": 2,
+    "labels": 17,
+    "auxiliary": 17,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 109,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 109,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 109,
+    "alternatives": 3,
+    "labels": 18,
+    "auxiliary": 18,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 110,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 110,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 110,
+    "alternatives": 4,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 111,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 111,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 111,
+    "alternatives": 2,
+    "labels": 20,
+    "auxiliary": 40,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 112,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 2,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 112,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 2,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 112,
+    "alternatives": 3,
+    "labels": 14,
+    "auxiliary": 28,
+    "profile_slopes": 2,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 113,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 3,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 113,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 3,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 113,
+    "alternatives": 4,
+    "labels": 15,
+    "auxiliary": 30,
+    "profile_slopes": 3,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 114,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 4,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 114,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 4,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 114,
+    "alternatives": 2,
+    "labels": 16,
+    "auxiliary": 48,
+    "profile_slopes": 4,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 115,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 5,
+    "power": 1.0,
+    "status": "outside",
+    "residual_status": "outside"
+  },
+  {
+    "trial": 115,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 5,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 115,
+    "alternatives": 3,
+    "labels": 17,
+    "auxiliary": 51,
+    "profile_slopes": 5,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 116,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 6,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 116,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 6,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 116,
+    "alternatives": 4,
+    "labels": 18,
+    "auxiliary": 54,
+    "profile_slopes": 6,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 117,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 7,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 117,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 7,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 117,
+    "alternatives": 2,
+    "labels": 19,
+    "auxiliary": 19,
+    "profile_slopes": 7,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 118,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 8,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 118,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 8,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 118,
+    "alternatives": 3,
+    "labels": 20,
+    "auxiliary": 20,
+    "profile_slopes": 8,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 119,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 9,
+    "power": 1.0,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 119,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 9,
+    "power": 0.5,
+    "status": "interior",
+    "residual_status": "feasible"
+  },
+  {
+    "trial": 119,
+    "alternatives": 4,
+    "labels": 14,
+    "auxiliary": 14,
+    "profile_slopes": 9,
+    "power": 0.1,
+    "status": "interior",
+    "residual_status": "feasible"
+  }
+]

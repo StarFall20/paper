@@ -1,0 +1,15 @@
+{
+  "all_phase_rows_reconciled": 6000,
+  "aggregate_cells_reconciled": 12,
+  "maximum_frequency_error": 0.0,
+  "maximum_MCSE_error": 9.71445146547012e-17,
+  "samplewise_dimension_nesting_cases": 2000,
+  "independent_full_constrained_cone_QPs": 12,
+  "maximum_QP_norm_or_certificate_error": 2.135190246832508e-08,
+  "maximum_QP_point_difference": 3.3710932934027937e-09,
+  "zero_projection_cases": 3,
+  "minimum_interior_margin": 1.2913619991876792e-05,
+  "minimum_exterior_gap": 4.894504086722096e-06,
+  "source_sha256": "e2b77f65c165c17de9f6bceca1c53088ccc8319e05f19376ed686a246b1bfebd",
+  "scope": "Independent algebra,projection and phase-record checks; does not establish originality or publication readiness"
+}

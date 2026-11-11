@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "goal_complete": false,
-  "decision": "Training-cost adverse evidence integrated into abstract,Section5.4,Table4,AppendixC4 and conclusion;all800 independent-training designs replayed exactly. Recent categorical-likelihood geometry cited. Importance of the explicit compensated existence law and complete journal-specific readiness remain under assessment.",
+  "decision": "Whole-menu conditional-logit candidate and complete simulation/aggregate real-DCE audit added in a separate supplement. Balanced fixed menus and menu-only predictions make the correction identically zero on the current DCE. The 32-page binary manuscript and adverse training-budget evidence remain unchanged. Full proof review,priority and sufficient practical choice-modelling value remain open.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -19,7 +19,7 @@
       "requirement": "Independent valuable innovation",
       "status": "explicit_compensated_boundary_retained_generic_finite_estimation_and_correction_claims_attributed_to_prior",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Assess the full compensated law beyond the inspected general and DY/noisy-label theory;an affine-reallocation obstruction rules out one shortcut,not every possible equivalence. Establish sufficient practical choice-estimation value."
+      "remaining": "Assess the full compensated law beyond the inspected general and DY/noisy-label theory;an affine-reallocation obstruction rules out one shortcut,not every possible equivalence. Establish sufficient practical choice-estimation value. Assess the whole-menu compensated calculation and its positive-power limit without treating classical support geometry or exact balanced-menu cancellation as new contributions."
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -31,7 +31,7 @@
       "requirement": "Proof and numerical validity",
       "status": "two_theorems_plus_fitted_index_proposition_and_conditional_trained_linear_corollary_with_independent_checks",
       "evidence": "../../submission/finite_choice_20261110/results/clean_quick_check.json",
-      "remaining": "Gaussian remaining columns and fixed index dimension are required. Training must be independent and its signal/orthogonal/intercept quantities must converge to finite deterministic limits. Arbitrary cross-fitting and black-box predictor training remain outside the proved scope."
+      "remaining": "Gaussian remaining columns and fixed index dimension are required. Training must be independent and its signal/orthogonal/intercept quantities must converge to finite deterministic limits. Arbitrary cross-fitting and black-box predictor training remain outside the proved scope. The whole-menu extension is a separate candidate derivation with numerical checks; its full proof has not yet been incorporated into the manuscript."
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
@@ -99,6 +99,18 @@
     "training_budget_full_replay_rows": 4800,
     "training_budget_CSVs_byte_identical": true,
     "training_budget_strict_separation_certificates": 397,
-    "new_source_2610_08100_scoped": true
-  }
+    "new_source_2610_08100_scoped": true,
+    "menu_population_evaluations": 72,
+    "menu_simulated_model_draws": 1000,
+    "menu_support_classifications": 6000,
+    "menu_phase_cells": 12,
+    "menu_replications_per_cell": 500,
+    "menu_remaining_unknowns": 0,
+    "menu_independent_residual_LP_crosschecks": 120,
+    "menu_independent_full_constrained_cone_QPs": 12,
+    "real_DCE_balanced_menu_allocations": 120,
+    "real_DCE_correction_cancels_for_menu_only_predictions": true,
+    "menu_candidate_integrated_into_main_manuscript": false
+  },
+  "menu_extension_evidence": "../menu_extension_20261111/README.md"
 }

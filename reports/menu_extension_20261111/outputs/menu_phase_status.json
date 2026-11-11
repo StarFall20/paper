@@ -1,0 +1,18 @@
+{
+  "state": "complete",
+  "completed_draws": 1000,
+  "planned_draws": 1000,
+  "completed_calls": 6000,
+  "planned_calls": 6000,
+  "completed_cells": 12,
+  "replications_per_cell": 500,
+  "independent_residual_LP_crosschecks": 120,
+  "unresolved": 0,
+  "boundary": 0,
+  "rank_deficient": 0,
+  "source_sha256": "7b483518ce2553173cb737778f0e454ff8adf6ed708a6ef87f1b6bda7a50f660",
+  "helper_sha256": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178",
+  "plan_sha256": "8125a5e5a4d7596c5ed6df2ab85b57352a76f1cee8882576f2977d96f2ff6b29",
+  "independent_novelty_or_submission_readiness_established": false,
+  "new_human_or_LLM_responses": 0
+}
