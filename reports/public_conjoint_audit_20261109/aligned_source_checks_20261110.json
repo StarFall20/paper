@@ -1,0 +1,14 @@
+{
+ "date":"2026-11-10",
+ "primary_sources":[
+  {"url":"https://proceedings.neurips.cc/paper/2021/file/9704a4fc48ae88598dcbdcdf57f3fdef-Paper.pdf","inspected":"pages1–5:model,covariance/overlap quantities,main assumptions and stated result","established_scope":"correlated teacher/fitted feature spaces;main stated estimation cost coercive"},
+  {"url":"https://arxiv.org/html/2309.16598v3","inspected":"Sections2,3.2,5,5.3","established_scope":"cross-fitted learned predictions and fixed target-dimension inference"},
+  {"url":"https://arxiv.org/html/2604.21260v1","inspected":"abstract and Section3.4","established_scope":"post-hoc calibrated mean estimation,cross-fitting and cross-calibration"},
+  {"url":"https://arxiv.org/html/2610.21837v2","inspected":"Sections2.1,3.1,4.2;not the entire supplement","established_scope":"covariance-calibrated GMM,fixed-dimensional first-order conditions,and a structured logistic result conditional on finite pilot"}
+ ],
+ "GitHub":{"repository":"tijana-zrnic/cross-ppi","commit":"3516654bcd5a2c29d67d73861944312d1554ac7d","README_blob":"9b752188f0997da3015d2d6bf13484d5172b4e30","tree":"e48d4ea3f9754a7db7b9b310d4562b4f76fc85bb","inspected":"README and recursive notebook inventory","external_notebook_copied_or_executed":false},
+ "secondary_metadata_error_corrected":{"incorrect_calibration_identifier":"2610.22601","verified_covariance_calibration_identifier":"2610.21837v2","incorrect_pairing_used_in_manuscript":false},
+ "journal_submission_rules":"No current journal-specific guide text retrieved. Official general publisher support and old/third-party guideline copies do not establish current JOCM rules.",
+ "systematic_Scopus_or_Google_Scholar_search_complete":false,
+ "priority_or_submission_readiness_proven":false
+}

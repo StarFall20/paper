@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Predicted choices can supplement observed choices through a correction that preserves the population score. The corrected empirical logit objective can have no finite minimizer. We derive its existence boundary when labelled and auxiliary samples grow with attribute dimension, allowing a utility signal, an estimated intercept and an imperfect frozen predictor. Correction power changes the existence event. In a balanced benchmark with equal sample sizes and proxy error 0.25, the critical dimension to label ratio is 0.355 at unit power and 0.603 at the established variance reference power. Its positive power right limit is 0.664, while exactly zero power gives the ordinary logit threshold 0.5. The limiting boundary applies simultaneously to all powers and governs strictly positive data dependent powers tending to zero. It strictly exceeds the ordinary logit existence boundary for every frozen predictor strictly inside the unit interval. A fixed sample result explains the coefficient growth at small power. Released vaccine choices supply verified exterior moments, and simulations on their attribute support retain seven estimation strategies. Replaying 500 existing samples shows that increased availability can accompany much larger error on shared available fits. The results connect correction weights to existence, coefficient behavior and reliable reporting in choice analysis.
+Prediction assisted logit corrects machine predicted choices to preserve the human population score. Its empirical objective can still lack a finite minimizer. We derive the existence boundary when labelled and auxiliary samples grow with attribute dimension, allowing a utility signal, an estimated intercept and imperfect frozen predictions. Correction power changes this boundary. With equal sample sizes and proxy error 0.25, a balanced benchmark has critical dimension to label ratios of 0.355 at unit power and 0.603 at an established variance reference power. The positive power limit is 0.664, while exactly zero power gives the ordinary logit threshold 0.5. Under the stated Gaussian model, the limiting boundary bounds all powers simultaneously and governs strictly positive data dependent powers tending to zero. It exceeds ordinary logit for every fixed strictly interior predictor. A fixed sample result explains the coefficient growth accompanying small power. Retaining prediction indices among fitted attributes also shows that identically calibrated predictions can have distinct existence boundaries. An extension covers independently trained linear scores with convergent training quantities. Released vaccine choices supply verified exterior moments. Known truth simulations on their attribute support compare corrected, pooled, one step and penalized estimators, separating availability from error and interval coverage. The results identify when prediction assistance admits finite estimation and what that event establishes for choice analysis.
 
 Keywords: binary choice; prediction powered inference; logistic separation; finite auxiliary samples; existence of estimates
 
@@ -98,7 +98,7 @@ If $\kappa<\kappa_c$, the probability that (2) has a unique finite minimizer ten
 
 The boundary combines the finite auxiliary ratio, utility signal, predictor distribution and power. Its fixed dimensional optimizations can be evaluated by quadrature and scalar scale maximization. Under joint sign symmetry of $(S,Y,Z,U)$ and $g(-S,1-Z,U)=1-g(S,Z,U)$, convexity and symmetry allow $\eta_0=0$. An asymmetric prediction retains both multiplier coordinates.
 
-The theorem holds for independent Gaussian remaining attributes and a frozen low dimensional predictor. Fitted predictions, repeated choices from a respondent, multinomial menus and general categorical design distributions require separate arguments. For an observed categorical design, Proposition 1 directly checks the stated objective without invoking a Gaussian approximation.
+The theorem holds for independent Gaussian remaining attributes and a frozen low dimensional predictor. Section 3.7 retains prediction indices that are fitted attributes and gives a conditional result for independently trained linear scores. Repeated choices from a respondent, multinomial menus, arbitrary cross fitting and general categorical design distributions require separate arguments. For an observed categorical design, Proposition 1 directly checks the stated objective without invoking a Gaussian approximation.
 
 ### 3.2 Why the corrected loss requires a separate calculation
 
@@ -201,9 +201,23 @@ $$\kappa_\infty=\inf_\eta\sup_{v\geq0}\Psi_\infty(\eta,v),\qquad \kappa_0=\inf_\
 
 Theorem 2. Under the assumptions of Theorem 1, $\kappa_c(\lambda)\to\kappa_\infty>\kappa_0$ as positive $\lambda\to0$. For $\kappa<\kappa_\infty$, some fixed power in $(0,1)$ gives a unique finite root with probability tending to one. For $\kappa>\kappa_\infty$, the probability that any power in $[0,1]$ gives a finite root tends to zero. Every sequence of possibly data dependent powers satisfying $0<\lambda_m\leq1$ almost surely and $\lambda_m\to0$ in probability has the same strict two sided existence boundary $\kappa_\infty$. The equality case is unspecified.
 
-The simultaneous upper bound follows from one closed cone containing all positive power cones and the ordinary logit feasibility face. The lower side combines fixed power thresholds with the nesting identity (15). Appendix D proves the required uniform controls without exchanging the infimum and supremum. No rate or independence condition is imposed on the selected positive powers. The frozen predictor remains fixed across sample sizes, strictly inside the unit interval; the result does not cover a changing sequence of trained or hard predictors.
+The simultaneous upper bound follows from one closed cone containing all positive power cones and the ordinary logit feasibility face. The lower side combines fixed power thresholds with the nesting identity (15). Appendix D proves the required uniform controls without exchanging the infimum and supremum. No rate or independence condition is imposed on the selected positive powers. These assumptions keep the strictly interior predictor fixed across sample sizes. Section 3.7 states additional conditions for independently trained linear predictors.
 
 For utility signal 1.5 and proxy error 0.25, the ordinary boundary is 0.3903. With equal sample sizes, the limiting boundaries are 0.5082 for the oracle, 0.5061 for overconfident predictions and 0.4918 for shifted log odds. At auxiliary ratio four they are 0.6263, 0.6249 and 0.5875. Constant and reversed predictions also give strict existence gains, of different sizes. The strict gain establishes stabilization of this objective. Parameter error, choice probability loss and confidence interval performance still require their own evaluation, as Section 5 illustrates.
+
+### 3.7 Prediction indices among fitted attributes
+
+A prediction may use attributes whose coefficients the choice model estimates. Conditioning on that prediction then conditions on part of the fitted design. Retaining its index among the multiplier constraints preserves the independent Gaussian structure of the remaining columns. This accounts explicitly for prediction–attribute dependence.
+
+Proposition 4. Let $T$ have a fixed number $k$ of independent standard normal coordinates, independent of $S$, and let $Y$ given $(S,T)$ have probability (6). Include all coordinates of $T$ among the fitted contrasts, with true slopes zero. Suppose the remaining Gaussian vector $W$ is independent of $(S,T,Y,Z,U)$ and $g(S,T,Z,U)$ is frozen and strictly interior. Theorems 1 and 2 hold with the multiplier in $\mathbb R^{k+2}$ and
+
+$$h_\eta(S,T)=\eta_0+\eta_1S+\eta_T^T T. \qquad (20)$$
+
+In (9), (18) and (19), replace each signed affine multiplier by $s_Lh_\eta$ or $s_Uh_\eta$. The ordinary boundary is unchanged by the independent zero slope attributes $T$. Appendix E proves the extension. It uses the same compensated objective and conic calculation.
+
+Prediction accuracy and calibration do not determine this boundary. An explicit construction in Appendix E keeps the complete law of $(Y,g)$ identical while placing the prediction index outside or inside the fitted design. Both predictions are calibrated, with Brier risk 0.09. At unit power and equal sample sizes, their boundaries are 0.396628 and 0.385935. Every limiting dimension ratio strictly between them gives opposite existence conclusions. The gap is about 0.011; the example establishes a dependence on fitted attributes, without claiming a large general effect. All population cases and paired finite size results are retained.
+
+For a linear score trained independently of the audit rows, an orthogonal Gaussian rotation reduces its component outside the utility direction to one such index. Corollary 2 in Appendix E requires its signal overlap, orthogonal norm and intercept to converge to finite deterministic limits. These conditions give deterministic strict existence limits for the independently trained score. Cross prediction already provides fixed dimensional inference with learned predictors (Zrnic and Candès, 2024); the present conditional result concerns proportional dimensional existence. Correlated teacher and fitted feature spaces are established objects of high dimensional analysis (Loureiro et al., 2021). The additional calculation here concerns their role in the compensated choice loss. Training labels are additional to the $m$ audit labels and must be counted in a budget comparison.
 
 ## 4 Evidence from released vaccine choices
 
@@ -316,7 +330,7 @@ The Gaussian boundary describes a controlled increasing dimension model. Actual 
 
 ## 7 Conclusion
 
-Prediction assisted binary logit has a finite solution boundary determined jointly by labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. Positive power events are nested. Their upper envelope governs strictly positive powers tending to zero and bounds every selection of power under the same signal and estimated intercept assumptions. It exceeds ordinary logit for every fixed strictly interior predictor, including uninformative predictions. The fixed sample coefficient path and replayed choice samples show the estimation cost that can accompany greater availability. The finite design audit checks the objective actually fitted. These results make the consequences of prediction assistance explicit for choice analysts assessing existence, target fidelity and uncertainty.
+Prediction assisted binary logit has a finite solution boundary determined jointly by labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. Positive power events are nested. Their upper envelope governs strictly positive powers tending to zero and bounds every selection of power under the same signal and estimated intercept assumptions. It exceeds ordinary logit for every fixed strictly interior predictor, including uninformative predictions. The fixed sample coefficient path and replayed choice samples show the estimation cost that can accompany greater availability. Retaining fitted prediction indices extends the calculation to independently trained linear scores under explicit convergence conditions. The finite design audit checks the objective actually fitted. These results make the consequences of prediction assistance explicit for choice analysts assessing existence, target fidelity and uncertainty.
 
 ## Appendix A Proof of the finite ratio boundary
 
@@ -558,6 +572,75 @@ A selector returning exact zero requires a separate statement. In the balanced f
 
 The earlier balanced validation is retained: 48 independent constrained projections and 6000 original Gaussian draws replayed at powers $1/\sqrt{m}$ and $1/m$, with 12000 new feasibility calculations. All 12 original limiting aggregates agree, and all 36 new report cells retain 500 draws without unresolved states.
 
+## Appendix E Prediction indices in the fitted design
+
+### E1 Fixed dimensional index extension
+
+For Proposition 4 replace the multiplier matrix in (A1) by the signed columns $(1,S,T^T)$. Conditional on $(S,T,Y,Z,U)$ the remaining oriented Gaussian matrix remains independent standard normal. Every interval identity and the nonzero cone intersection event in A1 are unchanged. The fixed number of additional columns changes the curvature rank requirement by a fixed amount; the strict proportional sides retain full rank. The unit power cone span bound remains $\kappa_c\leq\tau$.
+
+For a unit multiplier $u$ define $h_u=u_0+u_1S+u_T^TT$. The interval support cancellation in A3 gives $E\{(-h_u)_++Yh_u\}$. Conditional on $(S,T)$, both responses have strictly positive probability, and every nonzero affine $h_u$ is nonzero with positive probability. This support expectation is positive on the compact unit sphere in $\mathbb R^{k+2}$. Its minimum is positive. The integrable envelope becomes $1+|S|+\|T\|$. Thus the empirical and population minimizing multipliers have a common bounded set, and zero is interior to the low dimensional interval image with probability tending to one.
+
+The scale bound in A4 still uses $Er^2>0$. Uniform laws and uniform integrability now use the integrable envelope $H^2+S^2+\|T\|^2$. The statistical dimension limit and conditional kinematic bound prove Theorem 1 with (20). For Theorem 2 use the same closed cone (D3), with the enlarged multiplier matrix. The common multiplier bound, scale bound and monotone compact convergence in D4 remain valid. Identity (D8) holds with $h=h_\eta(S,T)$ and is strictly positive. Finally, conditioning on $(S,Y)$ and applying convexity of $f$ to the zero mean $\eta_T^TT$ shows that the ordinary boundary minimizes at $\eta_T=0$. The strict ordinary gap and all positive power quantifiers follow. At zero utility signal an unused signal coordinate can be left among the independent Gaussian columns; its population multiplier is zero.
+
+### E2 Independently trained linear predictions
+
+Let an independent training sample produce a slope vector $v_m$ and intercept $c_m$. Orient the Gaussian contrasts so their true utility direction is the first unit vector $e_S$. Write
+
+$$a_m=v_m^Te_S,\qquad b_m=\|v_m-a_me_S\|. \qquad (E1)$$
+
+Condition on training. When $b_m>0$, take the second rotation direction to be $(v_m-a_me_S)/b_m$; when it is zero take any orthogonal unit direction. Isotropic audit rows give independent standard normal indices $S,T$ and independent remaining Gaussian columns. The fitted prediction is exactly
+
+$$g_m=\sigma(c_m+a_mS+b_mT). \qquad (E2)$$
+
+Corollary 2. Suppose $(a_m,b_m,c_m)$ converges in probability to finite deterministic $(a,b,c)$. For fixed positive power, the strict existence sides are given by Proposition 4 with $k=1$ and $g=\sigma(c+aS+bT)$. Theorem 2 also holds for strictly positive powers converging to zero in probability, with this limiting predictor and its constrained indices. No rate of convergence of the training parameters is required. The training sample must be independent of all audit rows.
+
+To justify passage from conditional training to a deterministic threshold, restrict the training parameters to a compact set whose probability tends to one. The support lower bound in E1 is independent of these parameters because the prediction terms cancel. Conditional Bernoulli variance gives $E(Y-g_m)^2\geq E\{\sigma(\gamma S)[1-\sigma(\gamma S)]\}>0$, uniformly over the set. It provides a uniform scale bound at fixed positive power and in the closed limiting cone. The logistic map is continuous in $(a,b,c)$ with derivative bounded by a constant times $1+|S|+|T|$. Compact uniform laws and localization therefore give continuous population thresholds and uniform convergence of the empirical extrema. Conditional kinematic bounds hold on these same sets. Parameter convergence then gives the strict probability limits; nesting supplies the data dependent positive power lower side as in (D7). This argument assumes convergence of the three training quantities; it does not prove that condition for an arbitrary learning algorithm.
+
+Sixty independent simulated logistic training fits check the rotation directly. Prediction, objective, rotated score and rotated Hessian identities have maximum errors below $5.6\times10^{-16}$. All 180 original and rotated support statuses agree, including 12 exterior cases. These finite algebra checks do not establish training parameter convergence or cross fitting validity.
+
+### E3 Identical calibrated predictions with distinct boundaries
+
+Let $Y$ be a fair binary response independent of standard normals $T,R$ and the remaining fitted columns $W$. For $0<\epsilon<1/2$ define a proxy by
+
+$$Z=1\{T>\Phi^{-1}(\epsilon)\}\quad\text{if }Y=1,$$
+
+$$Z=1\{T>\Phi^{-1}(1-\epsilon)\}\quad\text{if }Y=0,\qquad g=\epsilon+(1-2\epsilon)Z. \qquad (E3)$$
+
+This is a joint generative model of the proxy and outcome. The predictor observes $Z$. The proxy flips each response with probability $\epsilon$, and $E(Y\mid g)=g$. Compare fitted contrasts $(1,R,W)$ and $(1,T,W)$, sharing the identical response and prediction in each pair. The marginal Gaussian contrast law, complete $(Y,Z,g)$ law, calibration and Brier risk $\epsilon(1-\epsilon)$ agree exactly. Both human population targets are zero. In the first model $T$ is external prediction information; in the second it is a fitted attribute.
+
+At unit power, let $t_*>0$ be the external model's optimal cone scale. The external boundary minimizes its index multiplier at zero. The derivative of the aligned envelope there is
+
+$$2\varphi(\Phi^{-1}(1-\epsilon))[-t_*(1-2\epsilon)$$
+
+$$\hphantom{2\varphi(\Phi^{-1}(1-\epsilon))[}+\tau\{f'(t_*(1-\epsilon)/\tau)-f'(t_*\epsilon/\tau)\}]. \qquad (E4)$$
+
+For $x>0$, $f''(x)=2\Phi(-x)<1$. Integrating between the two positive arguments makes the bracket in (E4) strictly negative. The scale maximum is unique because the labelled second derivative is $-2\epsilon(1-\epsilon)<0$. The envelope derivative is thus (E4), and a positive index multiplier lowers the boundary strictly. Calibration and the complete response–prediction law cannot determine existence without their dependence on fitted attributes. The asymptotic ordering does not impose a samplewise ordering on paired finite designs.
+
+The calibrated grid retains 12 conditions. An independent 18 condition grid uses the uninformative prediction $g=1/2+c\operatorname{sign}(T)$, keeping its marginals identical between models. Its largest computed gap is 0.005971.
+
+### E4 Numerical and finite size checks
+
+Integration on each side of the proxy thresholds uses 80 and 160 Legendre nodes, with normal truncation at 12. Boundary values agree within $5.6\times10^{-15}$; omitted normal mass is below $3.6\times10^{-33}$. Independent scalar formulas, analytic derivatives, finite differences and intercept symmetry agree within $1.7\times10^{-11}$.
+
+For 120 separate paired finite designs, 234 original corrected moment and oriented box LPs agree. Six additional unit power cases have independently verified auxiliary rank deficiency and retain their separate infeasible box states. Sixteen independent constrained cone projections agree in squared norm within $2.2\times10^{-14}$.
+
+The illustrative finite size check uses $\epsilon=0.1$, $\tau=1$ and unit power, selected after the population grid for its largest calibrated gap. Each label budget has 500 paired draws shared across dimensions. All 8000 support calculations resolve, and Table E1 retains every paired result. Both models fit $d$ slopes; their conditional Gaussian remainder counts differ by one.
+
+Table E1  Paired finite solution frequencies with identical calibrated predictions
+
+| Labels | Slopes | External | Aligned | Difference | MCSE |
+| --- | --- | --- | --- | --- | --- |
+| 80 | 24 | 0.916 | 0.862 | -0.054 | 0.0112 |
+| 80 | 31 | 0.550 | 0.500 | -0.050 | 0.0135 |
+| 80 | 32 | 0.486 | 0.430 | -0.056 | 0.0130 |
+| 80 | 38 | 0.128 | 0.138 | 0.010 | 0.0082 |
+| 160 | 49 | 0.974 | 0.918 | -0.056 | 0.0103 |
+| 160 | 62 | 0.588 | 0.522 | -0.066 | 0.0154 |
+| 160 | 63 | 0.536 | 0.446 | -0.090 | 0.0148 |
+| 160 | 76 | 0.066 | 0.060 | -0.006 | 0.0066 |
+
+The difference is aligned minus external. Monte Carlo standard errors use repetition level paired indicators; rows share draws. The last 80 label row has the reverse ordering. These probabilities do not establish general prediction superiority or interval validity.
+
 ## Data availability
 
 The public vaccine inputs are available from the pinned Generative Augmented Inference repository identified in Section 4. The reproduction package contains download instructions, source hashes, analysis code and aggregate outputs. The paper uses existing released choices and simulated outcomes. The separately retained questionnaire application does not enter the estimates reported here.
@@ -582,6 +665,8 @@ Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregu
 
 Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5
 
+Loureiro, B., Gerbelot, C., Cui, H., Goldt, S., Krzakala, F., Mézard, M., Zdeborová, L. (2021). Learning curves of generic features maps for realistic datasets with a teacher-student model. Advances in Neural Information Processing Systems 34. https://proceedings.neurips.cc/paper/2021/hash/9704a4fc48ae88598dcbdcdf57f3fdef-Abstract.html
+
 Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html
 
 Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. arXiv:2505.20178, version 2. https://arxiv.org/abs/2505.20178v2
@@ -599,3 +684,5 @@ Sterzinger, P. (2026). Proportional-limit asymptotics for Diaconis–Ylvisaker-p
 Sterzinger, P., Kosmidis, I. (2026). Diaconis–Ylvisaker prior penalized likelihood for p/n → κ ∈ (0,1) logistic regression. Biometrika 113(2), asag014. https://doi.org/10.1093/biomet/asag014
 
 van Cranenburgh, S., Wang, S., Vij, A., Pereira, F., Walker, J. (2022). Choice modelling in the age of machine learning—Discussion paper. Journal of Choice Modelling 42, 100340. https://doi.org/10.1016/j.jocm.2021.100340
+
+Zrnic, T., Candès, E.J. (2024). Cross-prediction-powered inference. Proceedings of the National Academy of Sciences 121(15), e2322083121. https://doi.org/10.1073/pnas.2322083121

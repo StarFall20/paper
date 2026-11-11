@@ -22,7 +22,7 @@ python analysis/audit_binary_choice.py examples/intercept.csv --features interce
 python analysis/build_publication_assets.py --results results --manuscript manuscript
 ```
 
-The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all three displayed tables and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
+The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all three main tables and Appendix Table E1 and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
 
 Optional Word authoring uses the packages in `authoring/requirements.txt`:
 
@@ -30,7 +30,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 28 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
+The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 30 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -135,7 +135,19 @@ The ordinary score sandwich is a diagnostic for raw DY estimates. It does not im
 
 ## Inventory and output map
 
-The [complete finite-design power-domain supplement](reports/public_conjoint_audit_20261109/完整权重区间审计_20261110.md) replays all 500 original allocations at 50 labels with both original prediction routines. It computes a closed feasible endpoint and a separate strict interior witness. The eight original unit-power exterior cases each have an independently checked recession direction and fixed-power brackets. Existing selected powers remain unchanged and admissible. Exact zero selections are checked as ordinary logit endpoints. These classical parametric LP calculations supplement the finite-design audit; the manuscript's claims and three main tables are unchanged.
+The manuscript's Section3.7 and AppendixE retain a fixed number of prediction indices among fitted Gaussian attributes. A conditional corollary covers independently trained linear logistic scores when their signal overlap,orthogonal norm and intercept converge to finite deterministic limits. It does not supply arbitrary cross-fitting or black-box training guarantees. Identical calibrated response/prediction laws can have different existence boundaries when their relationship to fitted attributes changes. The generic alignment principle and Gaussian rotation are established tools;the paper calculates their role in its compensated objective.
+
+```sh
+python analysis/attribute_aligned_prediction.py --out regenerated/alignment
+python analysis/calibrated_aligned_prediction.py --out regenerated/alignment
+python analysis/verify_trained_prediction_rotation.py --out regenerated/alignment
+python analysis/aligned_prediction_phase.py --out regenerated/alignment
+python analysis/write_aligned_prediction_report.py --results regenerated/alignment
+```
+
+These commands require no public input download. The two population grids retain18and12conditions. The finite-size illustration was selected AFTER inspecting the calibrated grid and retains all16cells,500draws per cell and8000support calculations. Its [complete paired table](results/aligned_phase_paired_summary.csv) includes a reversed finite-sample ordering;rows share draws. The manuscript reports it in [TableE1](manuscript/tableE1.csv). The initial rank/feasibility classification assertion and exact original source are retained in the results and report folders. Six rank-deficient diagnostic cases remain separate. The60training fits check only exact rotations,not convergence of training quantities. [Primary-source scope](reports/public_conjoint_audit_20261109/aligned_prediction_prior_scope_20261110.md) states the nearest inspected literature and actual reading units.
+
+The [complete finite-design power-domain supplement](reports/public_conjoint_audit_20261109/完整权重区间审计_20261110.md) replays all 500 original allocations at 50 labels with both original prediction routines. It computes a closed feasible endpoint and a separate strict interior witness. The eight original unit-power exterior cases each have an independently checked recession direction and fixed-power brackets. Existing selected powers remain unchanged and admissible. Exact zero selections are checked as ordinary logit endpoints. These classical parametric LP calculations supplement the finite-design audit and do not change the three main comparison tables.
 
 ```sh
 python analysis/power_domain_choice.py --out regenerated/domain

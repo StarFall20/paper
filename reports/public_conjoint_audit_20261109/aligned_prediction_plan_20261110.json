@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-10",
+  "question": "Does identical prediction quality determine corrected-logit existence when the prediction index is either external or an actual fitted attribute?",
+  "same_loss_and_target": true,
+  "analytic_construction": "Y independent Bernoulli(0.5),T and R independent standard normal,g=0.5+c sign(T);contrasts(1,R,W) versus(1,T,W)",
+  "confidence_amplitudes": [0.1,0.25,0.4],
+  "auxiliary_ratios": [1,4],
+  "powers": [1,0.5,0.1],
+  "population_conditions": 18,
+  "quadrature": {"positive_normal_truncation":12,"nodes_per_half":[80,160],"boundary_tolerance":1e-7},
+  "independent_checks": ["external unit-power scalar formula","strict negative envelope derivative at the external optimum","saddle gradient finite differences","intercept sign symmetry","original-moment and oriented-box LPs on120paired finite designs"],
+  "finite_diagnostic_seed":20261201,
+  "diagnostic_designs":120,
+  "phase_experiment": "not yet specified;population gap and numerical checks must be inspected first;any subsequent plan is recorded separately",
+  "new_human_or_AI_responses":0,
+  "private_questionnaire_records_used":0,
+  "not_claimed":["new cross-fitting algorithm","arbitrary trained black-box theorem","prediction quality alone determines geometry","new generic random-subspace theorem","submission readiness"]
+}

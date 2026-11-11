@@ -1,0 +1,17 @@
+{
+ "date":"2026-11-10",
+ "stage":"Recorded after inspecting all18uninformative and12calibrated population conditions,before the paired phase experiment",
+ "purpose":"Check the conditional fitted-index phase calculation,including finite-size behavior,not claim a large practical gain or estimate a novel tuning rule",
+ "condition":{"epsilon":0.1,"tau":1,"power":1},
+ "condition_selection":"Illustrative condition chosen after the population grid because it has that grid's largest gap;not a prespecified main performance result",
+ "labels":[80,160],
+ "dimension_rule":"Round m times each of aligned_boundary-0.08,aligned_boundary,midpoint,external_boundary,external_boundary+0.08;retain all distinct positive slope counts. Same total slope count in each paired model.",
+ "replications_per_dimension":500,
+ "seed":20261202,
+ "coupling":"For each label budget and repetition,share Y,T,R,proxy Z and all Gaussian W columns across dimensions and external/aligned models;g is exactly identical within a pair",
+ "finite_dimension_convention":"Model has intercept,one displayed index and d-1remaining slopes. Internal remaining ratio is(d-1)/m;external independent Gaussian slope ratio is d/m. Both converge to the same total-slope ratio,but finite one-column differences are retained.",
+ "solver":"Original corrected-moment slack and independent exterior-ray check;retain boundary,rank and unresolved states separately",
+ "report":"All cells retain500draws,full status counts,finite frequencies,repetition-level paired difference and Monte Carlo standard error. Population gap is analytic;small finite samples are not claimed to resolve it statistically.",
+ "new_human_or_AI_responses":0,
+ "private_questionnaire_records_used":0
+}

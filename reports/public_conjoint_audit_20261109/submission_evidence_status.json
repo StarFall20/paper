@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "goal_complete": false,
-  "decision": "Complete classical finite-design power-domain audit added as a computational supplement;all existing selected powers already admissible. Main manuscript unchanged;independent contribution and choice-analysis value remain under assessment.",
+  "decision": "Fixed fitted-index extension,conditional independently-trained linear-score corollary,and exact matched calibrated example added within the same compensated-logit question. Complete population and paired phase checks retained;independent contribution importance and journal upload requirements remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -29,9 +29,9 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "general_two_theorem_proofs_with_independent_population_geometry_and_complete_phase_checks",
+      "status": "two_theorems_plus_fitted_index_proposition_and_conditional_trained_linear_corollary_with_independent_checks",
       "evidence": "../../submission/finite_choice_20261110/results/clean_quick_check.json",
-      "remaining": "These are scoped mathematical and computational checks;they do not establish priority or replace independent review. Predictor must stay fixed and strictly interior;remaining attributes are independent Gaussian."
+      "remaining": "Gaussian remaining columns and fixed index dimension are required. Training must be independent and its signal/orthogonal/intercept quantities must converge to finite deterministic limits. Arbitrary cross-fitting and black-box predictor training remain outside the proved scope."
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 28,
+    "native_Word_pages": 30,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 437,
+    "native_math_objects": 514,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -85,6 +85,13 @@
     "finite_design_power_domain_cases": 1000,
     "independent_endpoint_recession_certificates": 8,
     "finite_domain_unit_state_mismatches": 0,
-    "source_reply_matches_existing_300_human_60_AI_classification": true
+    "source_reply_matches_existing_300_human_60_AI_classification": true,
+    "prediction_index_population_conditions": 30,
+    "prediction_index_paired_draws": 1000,
+    "prediction_index_phase_cells": 16,
+    "prediction_index_phase_calls": 8000,
+    "prediction_index_unknowns": 0,
+    "trained_prediction_rotation_matches": 180,
+    "proof_appendices": 5
   }
 }

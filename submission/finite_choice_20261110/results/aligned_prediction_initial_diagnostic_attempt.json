@@ -1,0 +1,7 @@
+{
+  "initial_source_sha256": "5241000ea867895ce91fdc76b392a53f944b19937fd6145601015452dd7379e4",
+  "population_stage_completed": true,
+  "finite_diagnostic_terminal": "AssertionError at trial27,external:original rank_deficient;oriented moment constraints infeasible",
+  "cause": "Unit power curvature uses auxiliary rows only. This diagnostic has more fitted columns than auxiliary rank;rank failure and moment infeasibility are compatible,not alternative evaluations of the same uniqueness condition.",
+  "resolution_plan": "Retain every original120diagnostic design. Check rank separately on these cases and report their box states;do not count them as interior/exterior agreement or change the generated dimensions."
+}

@@ -8,5 +8,8 @@
     "dypl_comparator_summary.csv"
   ],
   "all_selected_cells_completed": true,
-  "figure2_availability_is_point_estimate_availability": "interval availability remains in underlying complete aggregate tables"
+  "figure2_availability_is_point_estimate_availability": "interval availability remains in underlying complete aggregate tables",
+  "appendix_table_E1_source": "aligned_phase_paired_summary.csv",
+  "table_E1_new_simulations_generated_by_asset_build": false,
+  "main_figures_unchanged_for_prediction_index_extension": true
 }

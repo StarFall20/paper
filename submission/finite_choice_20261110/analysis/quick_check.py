@@ -18,7 +18,7 @@ def main():
  exterior=audit(x,np.array([0,0,np.nan,np.nan]),np.array([.9,.9,.1,.1]),2);assert exterior['support']['status']=='outside_mean_support'
  rank=audit(np.ones((4,2)),y,g,2);assert rank['support']['status']=='rank_deficient'
  balanced=numeric_checks()
- for script in ['verify_finite_pool_covariance.py','verify_matched_moment_proposition.py','verify_proper_augmentation_invariance.py','verify_zonotope_reduction.py','verify_general_hard_endpoint.py','power_domain_choice.py']:
+ for script in ['verify_finite_pool_covariance.py','verify_matched_moment_proposition.py','verify_proper_augmentation_invariance.py','verify_zonotope_reduction.py','verify_general_hard_endpoint.py','power_domain_choice.py','attribute_aligned_prediction.py','calibrated_aligned_prediction.py','verify_trained_prediction_rotation.py']:
   subprocess.run([sys.executable,str(root/'analysis'/script),'--out',str(a.out)],check=True,stdout=subprocess.DEVNULL)
  if a.full_math:
   for script in ['finite_ratio_signal_boundary.py','imperfect_predictor_choice_boundary.py','vanishing_power_choice.py','joint_power_choice.py','general_joint_power_boundary.py']:
@@ -136,7 +136,26 @@ def main():
   brackets=case['fixed_power_brackets']
   assert brackets['half_endpoint']['status']==brackets['below_endpoint']['status']=='interior'
   assert brackets['at_endpoint']['status']=='boundary_or_near_boundary' and brackets['above_endpoint']['status']=='outside_mean_support'
- report={'analytic_intercept_root_error':err,'boundary_exterior_rank_checks':True,'balanced_LP_and_quadrature':balanced,'completed_grid_consistency':grids,'full_math_checks_run':a.full_math,'reported_table_rounding_checked':True,'positive_power_paired_draws':6000,'raw_unknown_preserved_and_resolved':True,'original_draws_replayed':500,'old_support_status_matches':1000,'all_three_tables_reconciled':True,'joint_power_existing_draws_replayed':6000,'joint_power_new_feasibility_checks':12000,'classical_zonotope_reduction_checked':True,'paired_expected_choice_loss_checked':True,'DY_comparator_original_draws_replayed':1000,'DY_comparator_fits':2000,'general_all_power_boundary_checked':True,'excluded_hard_endpoint_scope_checked':True,'general_phase_calls':90000,'general_initial_unknowns':general['initial_unknowns'],'finite_design_power_domain_cases':1000,'independent_endpoint_recession_certificates':8,'requires_raw_questionnaires':False,'proves_novelty_or_submission_readiness':False}
+ ap=json.loads((root/'results/aligned_prediction_numeric_checks.json').read_text())
+ cp=json.loads((root/'results/calibrated_aligned_numeric_checks.json').read_text())
+ phase=json.loads((root/'results/aligned_phase_status.json').read_text())
+ rotation=json.loads((root/'results/trained_prediction_rotation_checks.json').read_text())
+ assert ap['population_conditions']==18 and cp['population_conditions']==12
+ assert ap['original_oriented_LP_matches']==234 and len(ap['separately_verified_rank_deficient_cases'])==6
+ assert rotation['corrected_objective_support_rotation_matches']==180
+ for name,record in [('attribute_aligned_prediction.py',ap),('calibrated_aligned_prediction.py',cp),('aligned_prediction_phase.py',phase),('verify_trained_prediction_rotation.py',rotation)]:
+  assert hashlib.sha256((root/'analysis'/name).read_bytes()).hexdigest()==record['source_sha256']
+ assert phase['paired_draws']==1000 and phase['completed_cells']==16 and phase['feasibility_calls']==8000 and phase['unknowns']==0
+ assert phase['population_sha256']==hashlib.sha256((root/'results/calibrated_aligned_boundaries.csv').read_bytes()).hexdigest()
+ table=pd.read_csv(root/'manuscript/tableE1.csv',dtype=str);paired=pd.read_csv(root/'results/aligned_phase_paired_summary.csv')
+ assert len(table)==len(paired)==8 and paired.paired_difference.gt(0).sum()==1
+ for row in paired.to_dict('records'):
+  shown=table[(table.Labels==str(int(row['labels'])))&(table.Slopes==str(int(row['total_slopes'])))].iloc[0]
+  for column,field,decimals in [('External','external_frequency',3),('Aligned','aligned_frequency',3),('Difference','paired_difference',3),('MCSE','paired_MCSE',4)]:assert shown[column]==f'{row[field]:.{decimals}f}'
+  assert abs(row['aligned_frequency']-row['external_frequency']-row['paired_difference'])<1e-12
+ initial=json.loads((root/'results/aligned_prediction_initial_diagnostic_attempt.json').read_text())
+ assert initial['initial_source_sha256']==hashlib.sha256((root/'reports/public_conjoint_audit_20261109/aligned_initial_diagnostic_source.py').read_bytes()).hexdigest()
+ report={'analytic_intercept_root_error':err,'boundary_exterior_rank_checks':True,'balanced_LP_and_quadrature':balanced,'completed_grid_consistency':grids,'full_math_checks_run':a.full_math,'reported_table_rounding_checked':True,'positive_power_paired_draws':6000,'raw_unknown_preserved_and_resolved':True,'original_draws_replayed':500,'old_support_status_matches':1000,'all_three_tables_reconciled':True,'joint_power_existing_draws_replayed':6000,'joint_power_new_feasibility_checks':12000,'classical_zonotope_reduction_checked':True,'paired_expected_choice_loss_checked':True,'DY_comparator_original_draws_replayed':1000,'DY_comparator_fits':2000,'general_all_power_boundary_checked':True,'excluded_hard_endpoint_scope_checked':True,'general_phase_calls':90000,'general_initial_unknowns':general['initial_unknowns'],'finite_design_power_domain_cases':1000,'independent_endpoint_recession_certificates':8,'prediction_index_population_conditions':30,'prediction_index_paired_draws':1000,'prediction_index_phase_calls':8000,'appendix_tableE1_reconciled':True,'trained_prediction_rotation_support_matches':180,'initial_rank_classification_failure_and_source_retained':True,'requires_raw_questionnaires':False,'proves_novelty_or_submission_readiness':False}
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True}))
 
 if __name__=='__main__':main()

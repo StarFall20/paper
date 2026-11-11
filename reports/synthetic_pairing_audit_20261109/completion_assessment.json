@@ -143,15 +143,16 @@
     },
     "complete_manuscript_and_package": {
       "manuscript": "submission/finite_choice_20261110/manuscript/paper.md",
-      "proof_appendices": 4,
-      "native_math_objects": 437,
-      "pages_rendered_inspected": 28,
+      "proof_appendices": 5,
+      "native_math_objects": 514,
+      "pages_rendered_inspected": 30,
       "all_recorded_exterior_cases_checked": 8,
       "all_main_table_values_reconciled": true,
       "original_objective_preserved": true,
       "main_figures": 3,
       "main_tables": 3,
-      "main_theorems": 2
+      "main_theorems": 2,
+      "appendix_tables": 1
     },
     "positive_power_extension": {
       "paired_Gaussian_draws": 6000,
@@ -194,6 +195,20 @@
       "Gaussian_HD_correction_applied": false,
       "all_alpha_settings_reported": true,
       "source_repository_commit": "1f68c36ba78d512c312ec4c7fcf929e1fc405bbe"
+    },
+    "prediction_index_extension": {
+      "fixed_fitted_index_proposition": true,
+      "conditional_independent_linear_training_corollary": true,
+      "training_parameter_convergence_assumed_not_generic_algorithm_proven": true,
+      "matched_complete_response_prediction_law": true,
+      "calibrated_example_unit_boundary_gap": 0.0106926725604694,
+      "population_conditions": 30,
+      "paired_phase_draws": 1000,
+      "phase_calls": 8000,
+      "all_cells_500_draws": true,
+      "unknowns": 0,
+      "finite_reverse_order_rows_retained": 1,
+      "priority_or_submission_readiness_proven": false
     }
   },
   "genuine_blocker": null

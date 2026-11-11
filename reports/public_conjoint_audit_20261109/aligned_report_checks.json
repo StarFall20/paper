@@ -1,0 +1,23 @@
+{
+  "new_population_conditions": 30,
+  "paired_Gaussian_draws": 1000,
+  "complete_phase_cells": 16,
+  "phase_support_checks": 8000,
+  "phase_unknowns": 0,
+  "all_8000_local_raw_statuses_reconciled": true,
+  "same_response_prediction_law_by_construction": true,
+  "calibrated_example_Brier": 0.09,
+  "external_unit_boundary": 0.3966275839307917,
+  "aligned_unit_boundary": 0.3859349113703223,
+  "unit_boundary_gap": 0.0106926725604694,
+  "finite_reverse_order_rows": 1,
+  "original_box_checks": 234,
+  "rank_cases_separately_retained": 6,
+  "independent_cone_projection_cases": 16,
+  "independent_trained_rotation_fits": 60,
+  "trained_support_identity_checks": 180,
+  "independent_training_parameters_must_converge": true,
+  "arbitrary_cross_fitting_proven": false,
+  "new_behavioral_framework_or_training_method": false,
+  "priority_or_submission_readiness_proven": false
+}

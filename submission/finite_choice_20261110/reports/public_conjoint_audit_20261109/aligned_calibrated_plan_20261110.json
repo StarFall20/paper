@@ -1,0 +1,18 @@
+{
+  "date":"2026-11-10",
+  "stage":"Recorded after the complete18condition uninformative-index population check;before this calibrated-proxy evaluation",
+  "motivation":"The initial strict difference is numerically small. Retain that complete grid and test whether the same scope issue matters for an informative calibrated prediction.",
+  "generative_law":"Y~Bernoulli(0.5) independent of T,R,W. Z=1[T>Phi_inverse(epsilon)] when Y=1;Z=1[T>Phi_inverse(1-epsilon)] when Y=0. g=epsilon+(1-2epsilon)Z. This defines a proxy jointly with outcomes;the predictor observes Z,not Y.",
+  "exact_matches":"Both models share the entire(Y,Z,g)law,calibration E[Y|g]=g,Brier epsilon(1-epsilon),confidence distribution and marginal Gaussian contrast law. Contrasts are(1,R,W) or(1,T,W).",
+  "proxy_error_rates":[0.05,0.1,0.25],
+  "auxiliary_ratios":[1,4],
+  "powers":[1,0.5],
+  "population_conditions":12,
+  "quadrature":"80and160Legendre nodes separately on each side of the Y-dependent proxy threshold;normal truncation at12",
+  "boundary_tolerance":1e-7,
+  "independent_checks":["external boundary equals existing balanced-oracle scalar formula","negative unit-power index derivative identity","envelope finite differences","intercept symmetry","calibration and exact marginal probabilities"],
+  "phase":"A separate plan is required after all12population cases are inspected;no case will be reported as a prespecified main finding if selected after this grid",
+  "private_questionnaire_data":0,
+  "new_human_or_LLM_responses":0,
+  "novelty_or_practical_importance_assumed":false
+}
