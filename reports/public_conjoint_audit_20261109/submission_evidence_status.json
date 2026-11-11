@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "goal_complete": false,
-  "decision": "Whole-menu conditional-logit candidate and complete simulation/aggregate real-DCE audit added in a separate supplement. Balanced fixed menus and menu-only predictions make the correction identically zero on the current DCE. The 32-page binary manuscript and adverse training-budget evidence remain unchanged. Full proof review,priority and sufficient practical choice-modelling value remain open.",
+  "decision": "Whole-menu candidate now includes hard predictions,a binary-versus-larger-menu strict-gap condition and an exact perfect-label reduction. Common-coefficient MNL correction and multiPPI++ are explicitly attributed.320integration evaluations,32existing-criterion references,and1000matched model draws/9000classifications are complete with all1090ordinary boundary directions checked. The main manuscript is unchanged. Priority,full integration and sufficient practical contribution remain open.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -110,7 +110,22 @@
     "menu_independent_full_constrained_cone_QPs": 12,
     "real_DCE_balanced_menu_allocations": 120,
     "real_DCE_correction_cancels_for_menu_only_predictions": true,
-    "menu_candidate_integrated_into_main_manuscript": false
+    "menu_candidate_integrated_into_main_manuscript": false,
+    "hard_menu_population_evaluations": 320,
+    "hard_menu_population_event_conditions": 80,
+    "hard_menu_variance_reference_conditions": 32,
+    "hard_menu_matched_model_draws": 1000,
+    "hard_menu_matched_support_classifications": 9000,
+    "hard_menu_matched_cells": 18,
+    "hard_menu_ordinary_boundary_directions_verified": 1090,
+    "hard_menu_unresolved": 0,
+    "hard_menu_independent_crosschecks_unresolved": 0,
+    "hard_menu_interrupted_prefix_records_preserved": 7200,
+    "hard_menu_residual_fallbacks_retained": 1,
+    "hard_menu_simplex_face_and_perfect_label_addendum": true,
+    "common_coefficient_MNL_prediction_correction_prior_explicit": true,
+    "Scopus_and_Google_Scholar_systematic_review_completed": false
   },
-  "menu_extension_evidence": "../menu_extension_20261111/README.md"
+  "menu_extension_evidence": "../menu_extension_20261111/README.md",
+  "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md"
 }

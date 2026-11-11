@@ -1,0 +1,16 @@
+{
+  "finite_designs": 80,
+  "support_classifications": 240,
+  "original_vs_residual_matches": 240,
+  "support_states": {
+    "boundary_or_near_boundary": 3,
+    "interior": 63,
+    "outside": 174
+  },
+  "independent_NNLS_derivative_cases": 240,
+  "maximum_smallest_step_derivative_error": 5.85630459221464e-06,
+  "perfect_hard_label_objective_score_identity_error": 7.771561172376096e-16,
+  "source_sha256": "0818caa618d97097efbffef9ee3f6a0cc8bc6bcef0c5c560c62f143f1431a3d0",
+  "new_human_or_LLM_responses": 0,
+  "scope": "Finite support and independent projection identities; no proof of originality or publication readiness"
+}

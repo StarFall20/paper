@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-11",
+  "stage": "Derived from the retained whole-menu derivative identity before hard-prediction computations; exploratory theoretical extension",
+  "question": "Does allowing hard category predictions yield a menu-specific strict-gap condition that is absent in binary choice?",
+  "unchanged_objective": "Human loss plus lambda times auxiliary-minus-labelled frozen prediction loss",
+  "candidate_conditions": {
+    "predictions": "Any simplex-valued g, independent of the Gaussian projection normal conditional on the fixed low-dimensional variables",
+    "positive_prediction_error": "E||g-eY||^2>0 to retain the scale and pointed-cone arguments",
+    "binary": "Strict limiting gap iff P(g_Y>0)>0; always-opposite hard labels have the ordinary boundary",
+    "three_or_more": "A positive derivative for every finite nuisance multiplier for any simplex g; use at least two unchosen alternatives"
+  },
+  "population": {
+    "alternatives": [
+      2,
+      3
+    ],
+    "gamma": [
+      0,
+      1.5
+    ],
+    "tau": [
+      1,
+      4
+    ],
+    "proxy_error": [
+      0.25,
+      1
+    ],
+    "powers": [
+      1,
+      0.5,
+      0.1
+    ],
+    "prediction": "One-hot proxy category Z, NOT the posterior predictor used in the previous grid",
+    "bits": [
+      12,
+      14
+    ],
+    "seeds": [
+      2026111171,
+      2026111173
+    ]
+  },
+  "finite_phase": "Plan separately after population audit if the candidate identity survives; no new finite phase yet",
+  "scope": "Existence only, not coefficient efficiency, validity of intervals or a recommendation to use a known wrong predictor",
+  "new_human_or_LLM_responses": 0
+}

@@ -51,3 +51,33 @@ python analysis/write_menu_extension_report.py --out /tmp/menu-extension-replay
 The final report writer expects both simulation outputs and the DCE aggregate check. To recreate the public figure/report without access to exports, copy the retained aggregate `outputs/balanced_dce_cancellation_checks.json` into the replay directory. This reuses the recorded DCE evidence; it does not reanalyse private data.
 
 `MANIFEST.sha256` hashes supplement files relative to this directory. `source_hashes.json` hashes code relative to the repository root. Original Monte Carlo outputs are retained; exact bytes can depend on the stated numerical software. No extra questionnaire, LLM responses, recruitment or payment was used for this supplement.
+
+## Follow-up: hard category predictions
+
+[Hard-prediction derivation](hard_prediction_derivation.md) extends the candidate scope to simplex faces,provides a separate exact perfect-label reduction,and isolates a binary versus larger-menu strict-gap condition. The [Chinese follow-up report](硬类别预测与创新复核_20261111.md) distinguishes the candidate from existing multiPPI++ and common-coefficient MNL prediction correction. `hard_outputs/` retains the complete integration and matched availability records,including the actual established fixed-dimensional variance reference for the hard proxy. The earlier posterior-prediction results in `outputs/` remain unchanged.
+
+Run from the repository root,using a fresh output directory:
+
+```sh
+python analysis/menu_hard_prediction_boundary.py --out /tmp/hard-menu-replay --plan reports/menu_extension_20261111/plans/menu_hard_prediction_plan_20261111.json
+python analysis/hard_menu_variance_reference.py --out /tmp/hard-menu-replay --plan reports/menu_extension_20261111/plans/hard_menu_variance_plan_20261111.json
+python analysis/verify_hard_menu_prediction.py --out /tmp/hard-menu-replay
+python analysis/hard_menu_matched_phase.py --out /tmp/hard-menu-replay --plan reports/menu_extension_20261111/plans/hard_menu_phase_plan_20261111.json
+```
+
+The independent follow-up verifier also checks five frozen historical inputs: the interrupted checkpoint,the exact finite boundary designs,their saved certificates,the interrupted crosscheck design and its initial solver diagnostics. Copy these supplied files before running it;this preserves the historical failure evidence rather than inducing a failure in a different solver version:
+
+```sh
+python - <<'PY'
+from pathlib import Path
+import shutil
+source=Path('reports/menu_extension_20261111/hard_outputs')
+target=Path('/tmp/hard-menu-replay')
+for name in ['hard_menu_matched_phase_interrupted_trials.csv','hard_menu_retained_boundary_designs.json','hard_menu_boundary_certificates.json','hard_menu_interrupted_crosscheck_case.json','hard_menu_initial_phase_attempt.json']:
+    shutil.copyfile(source/name,target/name)
+PY
+python analysis/verify_hard_menu_phase.py --out /tmp/hard-menu-replay --plan reports/menu_extension_20261111/plans/hard_menu_phase_plan_20261111.json
+python analysis/write_hard_menu_report.py --out /tmp/hard-menu-replay
+```
+
+An interrupted current run can continue with `hard_menu_matched_phase.py --resume` and the same arguments. It restores whole completed draws and saved certificates,then regenerates the random-number prefix to reach the next draw. The recorded run resumed at800completed draws after a solver-unknown crosscheck and a diagnostic-key repair. Initial sources and diagnostics remain in `history/` and `hard_outputs/`. Replaying or resuming does not add statistical replications. The new generalization remains separate from the main manuscript pending proof,priority and practical-contribution assessment. Google Scholar/Scopus access was unsuccessful;`reading_scope.json` records the actual inspected primary units and the unresolved close-title lead.

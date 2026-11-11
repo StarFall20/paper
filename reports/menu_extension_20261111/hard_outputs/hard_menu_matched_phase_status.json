@@ -1,0 +1,19 @@
+{
+  "state": "complete",
+  "model_draws": 1000,
+  "support_classifications": 9000,
+  "cells": 18,
+  "replications_per_cell": 500,
+  "independent_residual_LP_checks": 120,
+  "resumed_completed_model_draws": 800,
+  "ordinary_boundary_certificates": 1090,
+  "unresolved": 0,
+  "unresolved_independent_crosschecks": 0,
+  "residual_fallbacks": 1,
+  "rank_deficient": 0,
+  "positive_power_boundary": 0,
+  "source_sha256": "196647ea2e78b56eeb55876efde72a2138fab4c842b94c69ce1ebadd0ce4a97e",
+  "plan_sha256": "aacf99fcb91bf718f7653e5c4845663f0d205bad2903fa4b7e2b9f55291b27be",
+  "scope": "Matched availability illustration for hard predicted categories; no coefficient accuracy or interval validation",
+  "new_human_or_LLM_responses": 0
+}
