@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "purpose": "Evaluate the same observable score-preserving path near the data's low-label estimation boundary using a finite ridge anchor. This is a distinct follow-up after the original 50-label path showed no exterior moment in its first 260 retained allocations; the complete original 500-allocation result remains required and will be reported.",
+  "prefix_rows": 1200,
+  "label_rows": 20,
+  "allocations": 500,
+  "seed": 20261109,
+  "allocation": "Original 240 five-row block permutation; blocks are the released source convention and not verified participant identifiers",
+  "predictors": ["AI", "X_only"],
+  "anchor": "Human ridge logit minimizing labelled mean loss + ||beta||^2/(2*m), on all 11 coefficients, using only the same 20 labelled rows",
+  "anchor_penalty": "1/m; fixed before this follow-up, matching the already-used ridge scale in the paper's finite-support comparator",
+  "base_power": "Existing pooled-information scalar variance rule at the fixed ridge anchor; retain zero, one and unresolved values explicitly",
+  "path_fractions": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "path": "lambda_t=alpha+t*(1-alpha); g_t=mu_anchor+(alpha/lambda_t)*(g-mu_anchor) for positive lambda_t; exact zero uses ordinary human logit",
+  "requested_path_records": 5000,
+  "requested_ordinary_support_checks": 500,
+  "nuisance_fallbacks": "Retain all prior fallbacks from the original nuisance function at this smaller budget; do not delete any allocation",
+  "endpoints": "Separate alpha=0, alpha=1 and 0<alpha<1. Positive powers when alpha=0 have zero surrogate-score variance and do not count as defined recomputed variance optima.",
+  "interpretation": "Allocation-conditional descriptive availability diagnostic. No new estimator recommendation, optimality, inference coverage, independent test sample or Gaussian phase validation.",
+  "new_human_or_LLM_responses": 0
+}

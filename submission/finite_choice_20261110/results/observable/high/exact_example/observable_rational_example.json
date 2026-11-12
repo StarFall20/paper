@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-12",
+  "x": [
+    "2",
+    "4",
+    "1",
+    "1"
+  ],
+  "labelled_y": [
+    1,
+    1
+  ],
+  "base_prediction": [
+    "9/10",
+    "9/10",
+    "1/2",
+    "1/2"
+  ],
+  "observed_anchor": 0,
+  "anchor_probability": "1/2",
+  "base_variance_power": "15/88",
+  "finite_power_cutoff": "9/44",
+  "finite_region": "15/88 <= power < 9/44",
+  "boundary_power": "9/44 has no finite stationary point",
+  "exterior_region": "9/44 < power <= 1 is unbounded below",
+  "all_computed_score_rows_identical": true,
+  "all_empirical_score_middles_identical": true,
+  "all_recomputed_variance_powers_equal_path_powers": true,
+  "all_predictors_strictly_inside_unit_interval": true,
+  "true_parameter_or_oracle_prediction_used": false,
+  "rows": [
+    {
+      "fraction": "0",
+      "power": "15/88",
+      "prediction": [
+        "9/10",
+        "9/10",
+        "1/2",
+        "1/2"
+      ],
+      "score": "-57/44",
+      "empirical_score_middle": "361/1936",
+      "recomputed_variance_power": "15/88",
+      "moment": "21/8",
+      "upper_support": "117/44",
+      "positive_recession_cost": "3/88",
+      "finite_unique_minimizer": true
+    },
+    {
+      "fraction": "1/4",
+      "power": "133/352",
+      "prediction": [
+        "181/266",
+        "181/266",
+        "1/2",
+        "1/2"
+      ],
+      "score": "-57/44",
+      "empirical_score_middle": "361/1936",
+      "recomputed_variance_power": "133/352",
+      "moment": "851/352",
+      "upper_support": "395/176",
+      "positive_recession_cost": "-61/352",
+      "finite_unique_minimizer": false
+    },
+    {
+      "fraction": "1/2",
+      "power": "103/176",
+      "prediction": [
+        "127/206",
+        "127/206",
+        "1/2",
+        "1/2"
+      ],
+      "score": "-57/44",
+      "empirical_score_middle": "361/1936",
+      "recomputed_variance_power": "103/176",
+      "moment": "389/176",
+      "upper_support": "161/88",
+      "positive_recession_cost": "-67/176",
+      "finite_unique_minimizer": false
+    },
+    {
+      "fraction": "3/4",
+      "power": "279/352",
+      "prediction": [
+        "109/186",
+        "109/186",
+        "1/2",
+        "1/2"
+      ],
+      "score": "-57/44",
+      "empirical_score_middle": "361/1936",
+      "recomputed_variance_power": "279/352",
+      "moment": "705/352",
+      "upper_support": "249/176",
+      "positive_recession_cost": "-207/352",
+      "finite_unique_minimizer": false
+    },
+    {
+      "fraction": "1",
+      "power": "1",
+      "prediction": [
+        "25/44",
+        "25/44",
+        "1/2",
+        "1/2"
+      ],
+      "score": "-57/44",
+      "empirical_score_middle": "361/1936",
+      "recomputed_variance_power": "1",
+      "moment": "79/44",
+      "upper_support": "1",
+      "positive_recession_cost": "-35/44",
+      "finite_unique_minimizer": false
+    }
+  ],
+  "source_sha256": "6d3ee1798e324ebfcebc4aa75edb471b82b76e0c9d9016f1f76a1390d95a2406",
+  "scope": "Deterministic scalar finite-design illustration at an observed reference point. It does not establish common sampling covariance, predictor consistency, inference validity or novelty of general convex support geometry."
+}

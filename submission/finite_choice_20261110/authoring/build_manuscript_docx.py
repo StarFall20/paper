@@ -166,7 +166,7 @@ def build():
    while i<len(lines) and lines[i].strip().startswith('|'):tablelines.append(lines[i].strip());i+=1
    rows=[[x.strip() for x in row.strip('|').split('|')] for j,row in enumerate(tablelines) if j!=1]
    table=d.add_table(rows=0,cols=len(rows[0]));table.autofit=False;table.alignment=WD_TABLE_ALIGNMENT.CENTER
-   widths=[.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else [.75,.55,.75,1.05,1.05,1.05] if rows[0][0]=='Alternatives' else [.55,1.05,.75,1.2,1.2,1.3] if rows[0][:2]==['Labels','Noise slopes per label'] else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5]}[len(rows[0])]
+   widths=[.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else [.75,.55,.75,1.05,1.05,1.05] if rows[0][0]=='Alternatives' else [.55,1.05,.75,1.2,1.2,1.3] if rows[0][:2]==['Labels','Noise slopes per label'] else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5],7:[.55,.85,.95,1.05,1.05,1.025,1.025]}[len(rows[0])]
    widths=[x*6.5/sum(widths) for x in widths]
    for c,w in zip(table.columns,widths):c.width=Inches(w)
    for j,values in enumerate(rows):

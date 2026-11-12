@@ -1,0 +1,33 @@
+{
+  "old_source_sha256": "2c696e9312dd4bfa9e1c9760dadbd476941d01153c58f458f16fe829d0c82e17",
+  "new_source_sha256": "0da9f042d5611f96ec85e0dd9c507961588805dcf5d8b49f59639255f83fe560",
+  "abstract_words": 226,
+  "preexisting_tables_preserved": 8,
+  "total_tables": 9,
+  "main_equations": 28,
+  "new_appendix_equations": [
+    "B7",
+    "B8",
+    "B9"
+  ],
+  "new_main_sections": [
+    "4.3"
+  ],
+  "observed_reference_appendix": "B5",
+  "main_theorems": 3,
+  "propositions": 5,
+  "corollaries": 3,
+  "new_human_or_LLM_responses": 0,
+  "scientific_run_sources_changed": false,
+  "native_structure": {
+    "source_sha256": "0da9f042d5611f96ec85e0dd9c507961588805dcf5d8b49f59639255f83fe560",
+    "native_math_count": 794,
+    "display_equation_paragraphs": 96,
+    "rasterized_equations": 0,
+    "raw_tex_commands_left_in_text": false,
+    "tables": 9
+  },
+  "docx_sha256": "3b61baff4768d550036e50b09a5fcc0316e3c724fdb9a6568d9ca26eb8dbaa06",
+  "visual_review_status": "passed",
+  "pages": 45
+}

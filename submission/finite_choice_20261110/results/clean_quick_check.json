@@ -83,5 +83,11 @@
   "appendix_tableB1_reconciled": true,
   "appendix_tablesF1F2_regenerated_and_reconciled": true,
   "all_eight_manuscript_tables_reconciled": true,
-  "all_original_Monte_Carlo_LPs_rerun": false
+  "all_original_Monte_Carlo_LPs_rerun": false,
+  "observed_reference_source_closure_files": 9,
+  "observable_reference_records_reconciled": 10000,
+  "observable_exact_scalar_example_checked": true,
+  "appendix_tableB2_reconciled": true,
+  "all_nine_manuscript_tables_reconciled": true,
+  "original_public_path_support_programs_all_rerun": false
 }

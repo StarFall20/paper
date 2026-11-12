@@ -200,6 +200,35 @@ def main():
  menu_publication=a.out/'menu_publication';shutil.copytree(root/'manuscript',menu_publication,dirs_exist_ok=True)
  subprocess.run([sys.executable,str(root/'analysis/build_menu_publication_assets.py'),'--results',str(root/'results/menu'),'--manuscript',str(menu_publication)],check=True,stdout=subprocess.DEVNULL)
  report.update(score_identity_source_closure_files=len(score['sha256']),identical_score_phase_records_reconciled=16000,identical_truth_score_groups=4000,independent_score_path_separator_directions=2355,score_path_remaining_unknowns=0,oracle_counterexample_rational_bounds_checked=True,appendix_tableB1_reconciled=True,appendix_tablesF1F2_regenerated_and_reconciled=True,all_eight_manuscript_tables_reconciled=True,all_original_Monte_Carlo_LPs_rerun=False)
- (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'all_eight_tables_reconciled':True}))
+ observed=json.loads((root/'results/observable/source_hashes.json').read_text())
+ for path,digest in observed['sha256'].items():assert hashlib.sha256((root/path).read_bytes()).hexdigest()==digest,path
+ subprocess.run([sys.executable,str(root/'analysis/certify_observable_score_path.py'),'--out',str(a.out/'observable_exact')],check=True,stdout=subprocess.DEVNULL)
+ exact=json.loads((a.out/'observable_exact/observable_rational_example.json').read_text())
+ assert exact['base_variance_power']=='15/88' and exact['finite_power_cutoff']=='9/44'
+ assert exact['all_computed_score_rows_identical'] and exact['all_empirical_score_middles_identical'] and exact['all_recomputed_variance_powers_equal_path_powers']
+ observed_pairs=pd.read_csv(root/'results/observable/high/verification/power_stratified_pairs.csv')
+ checked_records=0
+ for budget,folder,statusname in [(50,'high','observable_score_path_status.json'),(20,'low','observable_low_label_status.json')]:
+  status=json.loads((root/f'results/observable/{folder}'/statusname).read_text());assert status['state']=='complete' and status['completed_allocations']==500
+  frame=pd.read_csv(root/f'results/observable/{folder}/observable_score_path_records.csv');assert len(frame)==5000 and frame.groupby(['trial','prediction']).size().eq(5).all()
+  assert frame.status.isin(['interior','outside_mean_support','boundary_or_near_boundary']).all()
+  frame['base_power_stratum']=frame.base_power.map(lambda v:'zero' if v==0 else ('one' if v==1 else 'interior'))
+  for (pred,stratum),part in frame.groupby(['prediction','base_power_stratum']):
+   pivot=part.assign(finite=part.status.eq('interior')).pivot(index='trial',columns='fraction',values='finite')
+   base=pivot[0.].to_numpy(int);end=pivot[1.].to_numpy(int)
+   r=observed_pairs[(observed_pairs.label_rows==budget)&(observed_pairs.prediction==pred)&(observed_pairs.base_power_stratum==stratum)].iloc[0]
+   assert (len(base),int(((base==1)&(end==1)).sum()),int(((base==1)&(end==0)).sum()),int(((base==0)&(end==1)).sum()),int(((base==0)&(end==0)).sum()))==(r.allocations,r.both_finite,r.base_only,r.endpoint_only,r.neither_finite)
+  checked_records+=len(frame)
+ tB2=pd.read_csv(root/'manuscript/tableB2.csv',dtype=str);assert len(tB2)==4
+ for r in tB2.to_dict('records'):
+  pred='AI' if r['Prediction']=='AI aided' else 'X_only';v=observed_pairs[(observed_pairs.label_rows==int(r['Labels']))&(observed_pairs.prediction==pred)&(observed_pairs.base_power_stratum=='interior')].iloc[0]
+  assert [int(r[k]) for k in ['Allocations','Base finite','End finite','Base only','End only']]==[v.allocations,v.both_finite+v.base_only,v.both_finite+v.endpoint_only,v.base_only,v.endpoint_only]
+ assert (root/'manuscript/tableB2.md').read_text().strip() in (root/'manuscript/paper.md').read_text()
+ observed_verification=json.loads((root/'results/observable/high/verification/observable_path_complete_verification.json').read_text())
+ assert observed_verification['retained_path_records']==10000 and observed_verification['replayed_support_classifications']==observed_verification['independent_residual_interior_LPs']==870
+ assert observed_verification['all_low_label_exterior_directions_verified']==490 and observed_verification['all_ordinary_weak_separators_verified']==391 and observed_verification['all_unresolved']==0
+ assert observed_verification['source_sha256']==hashlib.sha256((root/'analysis/verify_observable_score_path.py').read_bytes()).hexdigest()
+ report.update(observed_reference_source_closure_files=len(observed['sha256']),observable_reference_records_reconciled=checked_records,observable_exact_scalar_example_checked=True,appendix_tableB2_reconciled=True,all_nine_manuscript_tables_reconciled=True,original_public_path_support_programs_all_rerun=False)
+ (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_nine_tables_reconciled':True}))
 
 if __name__=='__main__':main()

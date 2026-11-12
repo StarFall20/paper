@@ -6,7 +6,7 @@
 - Equal truth scores and local covariances can yield opposite existence limits.
 - Whole menus retain joint probability constraints in the boundary calculation.
 - A common upper boundary limits every correction power selection.
-- Matched comparisons separate availability, error, coverage and training cost.
+- Equal observed reference scores can accompany different finite choice targets.
 
 ## Cover letter scientific text
 
@@ -14,7 +14,7 @@ Dear Editors,
 
 Please consider “When prediction assisted logit estimates exist” for the Journal of Choice Modelling. The paper studies finite estimation of an existing prediction corrected choice objective with scarce human labels. We derive its existence boundary for binary logit and common coefficient multinomial choice with finite auxiliary samples, fitted choice constants, a utility signal and independent Gaussian remaining attributes.
 
-An oracle prediction path holds the finite sample gradient at the true parameter exactly identical and preserves the full fixed dimensional asymptotic covariance. Its corrected objectives have opposite finite solution limits in a strict scalar construction. Known population predictions and weights isolate empirical curvature. A nonzero signal experiment retains 1000 independent model draws and 16000 matched classifications; in one condition the two oracle references have finite root frequencies of 0.924 and 0.012. The construction supplies an existence comparison for the same corrected objective.
+An oracle prediction path holds the finite sample gradient at the true parameter exactly identical and preserves the full fixed dimensional asymptotic covariance. Its corrected objectives have opposite finite solution limits in a strict scalar construction. Known population predictions and weights isolate empirical curvature. A nonzero signal experiment retains 1000 independent model draws and 16000 matched classifications; in one condition the two oracle references have finite root frequencies of 0.924 and 0.012. The construction supplies an existence comparison for the same corrected objective. An observed-reference counterpart holds every empirical score row fixed and recomputes the existing variance weights. On released choices, nine strictly interior-weight comparisons change availability in both directions across six block permutations; all zero-weight degeneracy cases are reported separately.
 
 The whole menu calculation retains joint probability constraints. Its positive power upper envelope bounds every power selection, and the hard prediction strict gain condition changes with menu size. The proof treats the zero scale face and the perfect prediction endpoint explicitly. Existing prediction correction, variance tuning, general support geometry and conic machinery retain their source attribution.
 
