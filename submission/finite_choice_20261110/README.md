@@ -33,7 +33,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter emits native OMML equations. The current native Word has45pages,794native mathematical objects,nine tables and five figures. The observed-reference integration has its final visual review recorded in [the current layout review](reports/observable_visual_qa_20261112.json). The earlier 42-page score integration remains in its original archive. The [current integration record](reports/observable_integration_20261112.json) identifies the exact manuscript source and preserves all previous eight tables. Earlier 32 and 38 page reviews remain historical records. Fraction arguments must be braced in this strict subset. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
+The strict TeX subset converter emits native OMML equations. The current native Word has 46 pages, 823 native mathematical objects, nine tables and five figures. The observed-reference integration has its final visual review recorded in [the current layout review](reports/complete_gmm_visual_qa_20261112.json). The earlier 42-page score integration remains in its original archive. The [current integration record](reports/complete_gmm_integration_20261112.json) identifies the exact manuscript source and preserves all previous eight tables. Earlier 32 and 38 page reviews remain historical records. Fraction arguments must be braced in this strict subset. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -251,4 +251,18 @@ The already documented input fetcher prepares local_inputs. To verify retained r
 
 The same500block permutations supply both label budgets and prediction routines. Strictly interior base powers have201and176allocations at50labels,80and65at20labels. Nine prediction-by-allocation comparisons change finite availability in six distinct permutations,with seven exterior-to-finite changes and two in reverse. Zero-power cases are separate because recomputed prediction-score variance can vanish. The ridge reference remains finite on all500low-budget allocations;these comparisons assert no prediction-error or inference advantage. The [closer-prior scope](reports/observable/closest_prior_scope.json) retains current reading limits.
 
-The current isolated-package validation is recorded in [the observed-reference clean check](reports/observable_clean_validation_20261112.json). It passes the full mathematical quick check and a separate public-record verification. The previous validation records describe their dated stages. Publication sufficiency and exhaustive literature priority remain open.
+The current isolated-package validation is recorded in [the current clean check](reports/complete_gmm_clean_validation_20261112.json). It passes the full mathematical quick check and a separate public-record verification. The previous validation records describe their dated stages. Publication sufficiency and exhaustive literature priority remain open.
+
+
+## Complete moments and objective-specific existence
+
+Appendix B6 compares the existing complete GMM criterion with the compensated loss on the same retained scalar design. The complete criterion attains a finite global minimum although the human MLE is separated and unit-power compensation is unbounded below. A fraction witness below both coefficient-tail limits proves attainment; seven numerical starts remain diagnostics. The specified reference is zero, and the weight is the uncalibrated centered covariance inverse with covariance ridge. CC-PPI additionally specifies its supervised pilot, protected covariance update and final fitting procedure. No comparative risk or new-estimator claim is made.
+
+```sh
+python analysis/certify_complete_gmm_comparison.py --out regenerated/complete_gmm
+python analysis/verify_complete_gmm_comparison.py --certificate regenerated/complete_gmm/complete_gmm_exact_comparison.json --out regenerated/complete_gmm/verification
+```
+
+The [derivation](reports/complete_gmm/derivation.md) proves the exact comparison and the human-MLE implication of the inspected prior sufficient certificate. All nine manuscript tables and original simulated/public-data records are preserved. The current layout and clean-package records supersede the dated 45-page integration stage without changing those historical files.
+
+The current [complete-GMM clean validation](reports/complete_gmm_clean_validation_20261112.json) reruns the full mathematical quick check and exact comparison from a fresh extraction. All 64 analysis files match that tested package. It preserves all nine table blocks and distinguishes complete-moment existence from the compensated-loss boundary.

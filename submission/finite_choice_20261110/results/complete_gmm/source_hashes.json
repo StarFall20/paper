@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-12",
+  "sha256": {
+    "analysis/certify_complete_gmm_comparison.py": "ec8a982fd2dc230bc01fe255a2893194b71393e36f1b068854ab66b0abbf8264",
+    "analysis/verify_complete_gmm_comparison.py": "b8b6428d757e75771dc4137dd8be8e0b535508d50b494b6c7d51d8a1465bfe2e"
+  },
+  "reference": "manuscript Appendix B5 endpoint",
+  "proof": "Exact finite value below both infinite-coefficient limits; optimizer status is not used as global evidence."
+}

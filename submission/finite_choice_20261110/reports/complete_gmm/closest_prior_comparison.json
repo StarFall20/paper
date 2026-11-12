@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-12",
+  "source": "https://arxiv.org/html/2610.21837v2",
+  "version": "v2,6 November2026",
+  "units_inspected": [
+    "2.1-2.3 complete moments and covariance",
+    "S3.10 PropositionS3.3 and proof",
+    "S2.11 PropositionS2.5 and CorollaryS2.6",
+    "S6.4 and S6.6 numerical conventions"
+  ],
+  "established": "Complete moment fitting, covariance calibration, sufficient finite-global-solution conditions and fixed-dimensional regular numerical equivalence.",
+  "new_applicability_derivation": "The displayed a_r and L_r conditions imply a finite human MLE through an outward human-score bound on a closed ball.",
+  "our_exact_comparison": "A finite complete-GMM minimum with specified zero reference and covariance inverse coexists with separated human MLE and unbounded compensated unit-power loss.",
+  "production_CC_PPI_reproduced": false,
+  "new_global_certificate_or_estimator_claim": false,
+  "priority_review_complete": false
+}

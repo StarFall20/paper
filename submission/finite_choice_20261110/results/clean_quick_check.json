@@ -89,5 +89,7 @@
   "observable_exact_scalar_example_checked": true,
   "appendix_tableB2_reconciled": true,
   "all_nine_manuscript_tables_reconciled": true,
-  "original_public_path_support_programs_all_rerun": false
+  "original_public_path_support_programs_all_rerun": false,
+  "exact_complete_GMM_and_compensated_loss_comparison_checked": true,
+  "complete_GMM_comparison_is_not_production_CC_PPI": true
 }

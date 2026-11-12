@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-12",
+  "previous_source_sha256": "0da9f042d5611f96ec85e0dd9c507961588805dcf5d8b49f59639255f83fe560",
+  "new_source_sha256": "1be6a5b343896bd8a363599ff81290fbfcf2047548b1f2e918dbe6500cce4fe1",
+  "preexisting_tables_preserved": 9,
+  "total_tables": 9,
+  "new_appendix": "B6",
+  "new_equations": [
+    "B10",
+    "B11",
+    "B12"
+  ],
+  "main_equations": 28,
+  "new_analysis_files": 2,
+  "original_scientific_sources_changed": false,
+  "production_CC_PPI_reproduced": false,
+  "new_estimator_or_superiority_claimed": false,
+  "visual_review_status": "passed",
+  "docx_sha256": "a2c0ec07ce78befd8d0d76e67a59f643b8cf48671765456ec235573052ffba98",
+  "native_structure": {
+    "source_sha256": "1be6a5b343896bd8a363599ff81290fbfcf2047548b1f2e918dbe6500cce4fe1",
+    "native_math_count": 823,
+    "display_equation_paragraphs": 100,
+    "rasterized_equations": 0,
+    "raw_tex_commands_left_in_text": false,
+    "tables": 9
+  },
+  "pages": 46
+}

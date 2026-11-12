@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "pages": 45,
-  "native_equations": 794,
+  "pages": 46,
+  "native_equations": 823,
   "main_theorems": 3,
   "propositions": 5,
   "corollaries": 3,
@@ -9,11 +9,12 @@
   "main_figures": 5,
   "main_tables": 4,
   "appendix_tables": 5,
-  "source_sha256": "0da9f042d5611f96ec85e0dd9c507961588805dcf5d8b49f59639255f83fe560",
-  "word_sha256": "3b61baff4768d550036e50b09a5fcc0316e3c724fdb9a6568d9ca26eb8dbaa06",
+  "source_sha256": "1be6a5b343896bd8a363599ff81290fbfcf2047548b1f2e918dbe6500cce4fe1",
+  "word_sha256": "a2c0ec07ce78befd8d0d76e67a59f643b8cf48671765456ec235573052ffba98",
   "all_pages_visually_inspected": true,
   "all_eight_tables_reconciled": true,
-  "clean_validation": "../../submission/finite_choice_20261110/reports/observable_clean_validation_20261112.json",
+  "clean_validation": "../../submission/finite_choice_20261110/reports/complete_gmm_clean_validation_20261112.json",
   "novelty_and_submission_readiness_proven": false,
-  "all_nine_tables_reconciled": true
+  "all_nine_tables_reconciled": true,
+  "complete_GMM_comparison_integrated": true
 }

@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-12",
+  "independent_extraction": true,
+  "initial_inventory_verification_passed": true,
+  "initial_manifest_entries_verified": 381,
+  "broken_local_links": 0,
+  "tested_analysis_files": 64,
+  "current_analysis_sources_equal_tested_sources": true,
+  "source_sha256": "1be6a5b343896bd8a363599ff81290fbfcf2047548b1f2e918dbe6500cce4fe1",
+  "docx_sha256": "a2c0ec07ce78befd8d0d76e67a59f643b8cf48671765456ec235573052ffba98",
+  "full_mathematical_quick_check": {
+    "analytic_intercept_root_error": 1.4703560591300402e-10,
+    "boundary_exterior_rank_checks": true,
+    "balanced_LP_and_quadrature": {
+      "normal_tail_quadrature_max_error": 8.881784197001252e-16,
+      "unit_power_reduction_error": 8.881784197001252e-16,
+      "large_auxiliary_limit_checks": [
+        {
+          "epsilon": 0.1,
+          "finite_ratio": 10000,
+          "boundary": 1.7675831087453844,
+          "population_limit": 1.768388256576615
+        },
+        {
+          "epsilon": 0.25,
+          "finite_ratio": 10000,
+          "boundary": 0.8486849212713423,
+          "population_limit": 0.8488263631567752
+        }
+      ],
+      "original_interval_LP_matches": 100,
+      "identity_status_counts": {
+        "interior": 43,
+        "outside_mean_support": 57
+      },
+      "independent_priority_verified": false
+    },
+    "completed_grid_consistency": {
+      "finite_ratio_phase_checks.csv": {
+        "cells": 80,
+        "draws_per_cell": 500,
+        "unresolved": 0
+      },
+      "finite_ratio_signal_phase.csv": {
+        "cells": 80,
+        "draws_per_cell": 300,
+        "unresolved": 0
+      },
+      "imperfect_prediction_phase.csv": {
+        "cells": 80,
+        "draws_per_cell": 300,
+        "unresolved": 0
+      }
+    },
+    "full_math_checks_run": true,
+    "reported_table_rounding_checked": true,
+    "positive_power_paired_draws": 6000,
+    "raw_unknown_preserved_and_resolved": true,
+    "original_draws_replayed": 500,
+    "old_support_status_matches": 1000,
+    "all_three_tables_reconciled": true,
+    "joint_power_existing_draws_replayed": 6000,
+    "joint_power_new_feasibility_checks": 12000,
+    "classical_zonotope_reduction_checked": true,
+    "paired_expected_choice_loss_checked": true,
+    "DY_comparator_original_draws_replayed": 1000,
+    "DY_comparator_fits": 2000,
+    "general_all_power_boundary_checked": true,
+    "excluded_hard_endpoint_scope_checked": true,
+    "general_phase_calls": 90000,
+    "general_initial_unknowns": 12,
+    "finite_design_power_domain_cases": 1000,
+    "independent_endpoint_recession_certificates": 8,
+    "prediction_index_population_conditions": 30,
+    "prediction_index_paired_draws": 1000,
+    "prediction_index_phase_calls": 8000,
+    "appendix_tableE1_reconciled": true,
+    "trained_prediction_rotation_support_matches": 180,
+    "initial_rank_classification_failure_and_source_retained": true,
+    "requires_raw_questionnaires": false,
+    "proves_novelty_or_submission_readiness": false,
+    "all_four_main_tables_reconciled": true,
+    "independent_training_budget_draws": 800,
+    "training_budget_method_records": 4800,
+    "training_budget_strict_separation_certificates": 397,
+    "training_cost_adverse_results_retained": true,
+    "score_identity_source_closure_files": 13,
+    "identical_score_phase_records_reconciled": 16000,
+    "identical_truth_score_groups": 4000,
+    "independent_score_path_separator_directions": 2355,
+    "score_path_remaining_unknowns": 0,
+    "oracle_counterexample_rational_bounds_checked": true,
+    "appendix_tableB1_reconciled": true,
+    "appendix_tablesF1F2_regenerated_and_reconciled": true,
+    "all_eight_manuscript_tables_reconciled": true,
+    "all_original_Monte_Carlo_LPs_rerun": false,
+    "observed_reference_source_closure_files": 9,
+    "observable_reference_records_reconciled": 10000,
+    "observable_exact_scalar_example_checked": true,
+    "appendix_tableB2_reconciled": true,
+    "all_nine_manuscript_tables_reconciled": true,
+    "original_public_path_support_programs_all_rerun": false,
+    "exact_complete_GMM_and_compensated_loss_comparison_checked": true,
+    "complete_GMM_comparison_is_not_production_CC_PPI": true
+  },
+  "complete_GMM_exact_and_independent_outputs_byte_identical": true,
+  "complete_GMM_independent_verification": {
+    "date": "2026-11-12",
+    "weight_matrix_error": 4.440892098500626e-16,
+    "witness_error": 6.661338147750939e-16,
+    "tail_error": 1.7763568394002505e-15,
+    "finite_difference_gradient_error": 2.3628228262850826e-09,
+    "certificate_arithmetic_grid": {
+      "grid_pairs": 4941,
+      "positive_ar": 1907,
+      "positive_ar_and_Lr": 0
+    },
+    "finite_global_attainment_evidence": "Exact rational witness below both tails, not optimizer status or finite grid.",
+    "numerical_returns": 7,
+    "new_sampling_or_risk_claim": false,
+    "numerical_returns_dominated_by_exact_finite_witness": 4,
+    "all_numerical_returns_reported_success": true,
+    "numpy_version": "2.5.3",
+    "scipy_version": "1.18.1",
+    "certificate_sha256": "f293b8eccc5ef41d47d06fe4caa0701d48c5a4e09b6e35276e79c67cd1267cda",
+    "source_sha256": "b8b6428d757e75771dc4137dd8be8e0b535508d50b494b6c7d51d8a1465bfe2e"
+  },
+  "candidate_archive_sha256": "38bd42b9ae06fe84ea4d5072f2a33c01e8877006fa7d8d8f4450faf739fd5927",
+  "visual_review": "complete_gmm_visual_qa_20261112.json",
+  "final_changes_after_numerical_checks": "Validation records and documentation. Analysis sources, manuscript source and native Word match the tested candidate.",
+  "all_original_Monte_Carlo_classifications_rerun": false,
+  "priority_or_submission_readiness_proven": false
+}

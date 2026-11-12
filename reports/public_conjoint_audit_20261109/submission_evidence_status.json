@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "goal_complete": false,
-  "decision": "The 45-page native manuscript integrates the observable-reference identity, exact scalar example and all 10000 retained public path targets. All nine tables, full mathematical quick checks and independent residual/ray verification pass from a fresh extraction. Specific-theorem priority, sufficient choice-analysis value and the current author-guide audit remain open.",
+  "decision": "The 46-page manuscript now distinguishes its compensated-loss existence boundary from the established complete-GMM criterion and global sufficient certificate. An exact same-design comparison and independent checks pass. Existing nine tables and scientific runs are retained. Specific-theorem priority and sufficient choice-modelling contribution remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -30,7 +30,7 @@
     {
       "requirement": "Proof and numerical validity",
       "status": "observable_and_oracle_score_menu_source_closures_integrated_clean_checks_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/observable_clean_validation_20261112.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/complete_gmm_clean_validation_20261112.json",
       "remaining": "Independent proof and closest-prior equivalence assessment remain open. The menu theorem requires independent Gaussian profile columns,fixed menu size,frozen low-index predictions and positive mean squared prediction error. Perfect predictions are a separate pooled-likelihood reduction. Arbitrary categorical supports,repeated respondent panels and black-box cross-fitting are outside the proved probability boundary."
     },
     {
@@ -42,12 +42,12 @@
     {
       "requirement": "Reproducible submission package",
       "status": "observable_and_oracle_score_menu_source_closures_integrated_clean_checks_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/observable_clean_validation_20261112.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/complete_gmm_clean_validation_20261112.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "45_page_native_Word_with_observable_and_oracle_score_menu_results_visually_verified",
+      "status": "46_page_native_Word_complete_GMM_comparison_integrated_visual_review_passed",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Current author-guide rules and actual author/declaration facts remain unverified. Independent contribution sufficiency remains under assessment."
     }
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 45,
+    "native_Word_pages": 46,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 794,
+    "native_math_objects": 823,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -146,14 +146,19 @@
     "observable_main_42_page_artifact_unchanged": true,
     "observable_result_integrated_in_current_45_page_main": true,
     "observable_all_nine_tables_reconciled": true,
-    "observable_clean_directory_verification_passed": true
+    "observable_clean_directory_verification_passed": true,
+    "complete_GMM_exact_same_design_comparison": true,
+    "complete_GMM_numerical_returns_retained": 7,
+    "complete_GMM_returns_dominated_by_finite_witness": 4,
+    "complete_GMM_prior_certificate_human_MLE_implication_proved": true
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "可观察得分正文整合与复现核对_20261112.md",
+  "latest_progress_report": "完整矩近邻定理与目标比较_20261112.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
-  "observable_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/observable_integration_20261112.json"
+  "observable_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/observable_integration_20261112.json",
+  "complete_GMM_scope_evidence": "../complete_gmm_scope_20261112/README.md"
 }

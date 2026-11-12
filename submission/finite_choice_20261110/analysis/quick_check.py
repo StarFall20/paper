@@ -229,6 +229,13 @@ def main():
  assert observed_verification['all_low_label_exterior_directions_verified']==490 and observed_verification['all_ordinary_weak_separators_verified']==391 and observed_verification['all_unresolved']==0
  assert observed_verification['source_sha256']==hashlib.sha256((root/'analysis/verify_observable_score_path.py').read_bytes()).hexdigest()
  report.update(observed_reference_source_closure_files=len(observed['sha256']),observable_reference_records_reconciled=checked_records,observable_exact_scalar_example_checked=True,appendix_tableB2_reconciled=True,all_nine_manuscript_tables_reconciled=True,original_public_path_support_programs_all_rerun=False)
+ complete_dir=a.out/'complete_gmm'
+ subprocess.run([sys.executable,str(root/'analysis/certify_complete_gmm_comparison.py'),'--out',str(complete_dir)],check=True,stdout=subprocess.DEVNULL)
+ subprocess.run([sys.executable,str(root/'analysis/verify_complete_gmm_comparison.py'),'--certificate',str(complete_dir/'complete_gmm_exact_comparison.json'),'--out',str(complete_dir/'verification')],check=True,stdout=subprocess.DEVNULL)
+ complete=json.loads((complete_dir/'complete_gmm_exact_comparison.json').read_text())
+ assert complete['complete_criterion_has_finite_global_minimizer'] and complete['unit_corrected_loss_unbounded_below'] and not complete['supervised_MLE_has_finite_minimizer']
+ report['exact_complete_GMM_and_compensated_loss_comparison_checked']=True
+ report['complete_GMM_comparison_is_not_production_CC_PPI']=True
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_nine_tables_reconciled':True}))
 
 if __name__=='__main__':main()
