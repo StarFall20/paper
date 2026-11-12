@@ -33,4 +33,8 @@ for plan,key in [('analysis/observable_score_plan_20261112.json','plan_sha256'),
 assert hashlib.sha256((ROOT/'results/observable/reference_power_weights.csv').read_bytes()).hexdigest()==observed['reference_weights_sha256']
 complete=json.loads((ROOT/'results/complete_gmm/source_hashes.json').read_text())
 for path,sha in complete['sha256'].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==sha,path
+risk=json.loads((ROOT/'results/probability_risk/current_source_hashes.json').read_text())
+for path,sha in risk['sha256'].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==sha,path
+paper=(ROOT/'manuscript/paper.md').read_text()
+assert (ROOT/'manuscript/main_text.md').read_text()==paper[:paper.index('## Appendix A')]+paper[paper.index('## Data availability'):]
 print(json.dumps({'manifest_entries_verified':len(listed),'broken_local_markdown_links':len(missing),'science_import_closure_present':True,'menu_source_closure_files':len(menu['sha256']),'score_source_closure_files':len(score['sha256']),'observed_reference_source_closure_files':len(observed['sha256']),'raw_pickle_inputs_shipped':False}))

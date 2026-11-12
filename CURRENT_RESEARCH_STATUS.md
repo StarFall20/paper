@@ -1,6 +1,14 @@
 # Current research status — updated 12 November 2026
 
-## Latest follow-up: finite roots and probability loss
+## Current manuscript integration and verification
+
+The [new integration](reports/probability_risk_integration_20261112/README.md) places the probability-loss consequence in the same compensated-logit paper. Proposition6 and AppendixD6 connect the positive-power existence envelope to a gradient-aware coefficient bound and diverging human new-row log loss. Existing Gaussian maximum-margin results are explicit inputs. The49-page full Word and24-page main reading version contain11tables; all9previous table blocks and100existing displayed mathematical bodies are preserved. The main text has8727words and the abstract206. Complete menu equations are grouped in AppendixF0.
+
+An independently extracted package passes the full mathematical quick check and reconciles all11tables. All68analysis files match the tested sources. Every Word page is visually checked with explicit byte-identical inheritance. All1920planned risk records,paired denominators,one decrease in each public path group,nonmonotone simulated mean changes,and numerical repair records remain available. The300human-recruitment/60AI-pretest classification is unchanged. No questionnaire responses enter the reported public-data manuscript estimates.
+
+The [progress report](reports/public_conjoint_audit_20261109/概率损失正文整合与近邻核对_20261112.md) separates completed evidence from outstanding work. Current author-guide facts,actual author declarations,specific-theorem priority and sufficient journal value remain unverified in full. Scopus/Scholar systematic review is not complete. The goal remains active; no submission-readiness score is used. The preceding46-page manuscript and standalone risk supplement remain frozen historical artifacts.
+
+## Preceding standalone follow-up: finite roots and probability loss
 
 The [probability-loss follow-up](reports/vanishing_power_risk_20261112/README.md) keeps the same binary compensated objective and derives a gradient-aware coefficient lower bound. In the Gaussian dimension interval above ordinary separation and below the positive-power envelope, strictly positive possibly data-dependent powers tending to zero give finite unique roots with probability tending to one and diverging new-row human log loss. Existing Gaussian margin theory is an explicit input. At null signal, Brier loss tends to one half while classification error stays one half. This consequence is not a new estimator or a risk ordering against all tuning, ridge or complete-GMM procedures.
 
@@ -34,9 +42,9 @@ The completed matched experiment retains1000independent simulated draws,16000cla
 
 The [derivation](reports/variance_reference_audit_20261112/score_identity_derivation.md) attributes the variance rule and generic finite-sample distinctions to existing PPI/GMM work. Closest-prior equivalence and substantive journal contribution remain under review. The preceding 42-page manuscript and native Word integrated this result in the abstract, introduction, Section 3.5, Proposition 2, Figure 2, Appendix B and conclusion. The former 38-page version remains in its original archive. No questionnaire,participant label or AI-pretest provenance changes.
 
-## Current manuscript integration and clean-directory verification
+## Preceding manuscript integration and clean-directory verification
 
-The [current manuscript](submission/finite_choice_20261110/manuscript/paper.md) integrates the exact score-equivalence path, its strict existence counterexample and matched simulation into the same compensated-logit question. Whole menus, hard-prediction conditions and the perfect-label reduction remain in Section 3.9 and Appendix F. The native Word has46visually reviewed pages,823native mathematical objects,five figures and nine tables. All eight preexisting tables are preserved;TableB2 reports the observable-reference comparison. The 32- and 38-page versions remain in their dated archives.
+The [current manuscript](submission/finite_choice_20261110/manuscript/paper.md) integrates the exact score-equivalence path, its strict existence counterexample and matched simulation into the same compensated-logit question. Whole menus, hard-prediction conditions and the perfect-label reduction remain in Section 3.9 and Appendix F. At the preceding complete-GMM stage,the native Word had46visually reviewed pages,823native mathematical objects,five figures and nine tables. All eight preexisting tables are preserved;TableB2 reports the observable-reference comparison. The 32- and 38-page versions remain in their dated archives.
 
 The [clean validation](submission/finite_choice_20261110/reports/complete_gmm_clean_validation_20261112.json) passes the full mathematical quick check in an independent extracted package. All nine manuscript tables reconcile. The new observed-reference check reconciles10000retained records,reconstructs870support classifications and independently verifies490exterior rays and391ordinary weak separators. Exact rational bounds and full covariance/objective identities pass; retained-record verification checks all 16000 score-path classifications, regenerates 4000 truth-score groups and verifies 2355 ordinary separators. Existing menu checks and their completed records remain available. This does not rerun every original Monte Carlo classification or replace independent proof review.
 

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-12",
+  "primary_examples": [
+    {
+      "title": "Can large language models assist choice modelling?",
+      "published_DOI": "https://doi.org/10.1016/j.jocm.2026.100623",
+      "inspected_text": "https://arxiv.org/html/2507.21790v3",
+      "read_units": [
+        "Abstract",
+        "Section 1",
+        "Section 3.1"
+      ],
+      "lesson": "Separate suggested utility specifications, successful estimation, behavioural plausibility and fit. Application here: finite-root availability, proper loss and interval output each have their own evidence.",
+      "different_question": "The present paper studies predicted responses in a corrected estimating objective, not an LLM agent selecting utilities."
+    },
+    {
+      "title": "Statistical significance in choice modelling computation usage and reporting",
+      "published_DOI": "https://doi.org/10.1016/j.jocm.2026.100611",
+      "inspected_text": "https://arxiv.org/html/2506.05996v5",
+      "read_units": [
+        "Abstract",
+        "Section 1",
+        "Section 2.5"
+      ],
+      "lesson": "Preserve the distinction between parameter uncertainty, preference heterogeneity and repeated-choice dependence. The public allocation follow-up provides no participant-level confidence statement.",
+      "different_question": "The current Gaussian probability theorem uses independent menus/rows; its finite-design audit can still use the actual categorical support."
+    },
+    {
+      "title": "Understanding the decision-making process of choice modellers",
+      "published_DOI": "https://doi.org/10.1016/j.jocm.2025.100562",
+      "inspected_text": "https://eprints.whiterose.ac.uk/id/eprint/233154/1/1-s2.0-S1755534525000259-main.pdf",
+      "read_units": [
+        "Previously inspected journal abstract and modelling-workflow material"
+      ],
+      "lesson": "Explain the analyst decision affected by the theorem: declare the target objective, budget, finite solution and statistical output.",
+      "current_full_text_reread_claimed": false
+    }
+  ],
+  "author_guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/about/guide-for-authors",
+  "author_guide_access": "403 in this turn; no current length, highlight, anonymity or declaration requirement is inferred from third-party descriptions.",
+  "scope_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/about/aims-and-scope",
+  "scope_access": "403 in this turn. Earlier official publisher remit verification is preserved; this is not a new full author-guide verification.",
+  "writing_practices_applied": [
+    "State the exact change in the analysed objective class",
+    "Keep Gaussian and frozen-predictor conditions next to conclusions",
+    "Use the same finite-fit cohort for paired empirical loss comparisons"
+  ],
+  "source_of_editorial_practices": "Previously installed oral-paper-skill, selected abstract-derived contribution, evidence and scope practices; journal examples above provide the domain-specific application.",
+  "conceal_adverse_results": false,
+  "journal_acceptance_predicted": false
+}

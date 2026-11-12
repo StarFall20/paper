@@ -1,0 +1,7 @@
+{
+  "prefix_rows": 1200,
+  "evaluation_rows": 3405,
+  "source_manifest_sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e",
+  "ordinary_directions_sha256": "82241d0ed5b8f99ab6966efdf226084c71623286ec29b2f1fcf1c88c54409c9e",
+  "input_scope": "Released rows and source-script block convention; no verified respondent IDs."
+}

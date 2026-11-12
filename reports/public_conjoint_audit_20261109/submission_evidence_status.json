@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "goal_complete": false,
-  "decision": "The 46-page main manuscript is preserved. A separately reproduced probability-loss supplement derives a gradient-aware coefficient bound and a joint finite-existence/diverging-log-loss consequence for the same compensated binary objective. All 1920 planned records, adverse findings and numerical repairs are retained. Specific-theorem priority, concise main-text integration and sufficient choice-modelling value remain under assessment.",
+  "decision": "Probability loss and its proof are integrated in the 49-page complete manuscript and 24-page main reading Word. Isolated full checks reconcile all 11 tables and preserve every adverse result. Specific-theorem priority, sufficient choice-modelling value and current submission facts remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -29,8 +29,8 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "observable_and_oracle_score_menu_source_closures_integrated_clean_checks_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/complete_gmm_clean_validation_20261112.json",
+      "status": "probability_loss_integrated_isolated_full_checks_all_eleven_tables_passed",
+      "evidence": "../../submission/finite_choice_20261110/reports/probability_integration_clean_validation_20261112.json",
       "remaining": "Independent proof and closest-prior equivalence assessment remain open. The menu theorem requires independent Gaussian profile columns,fixed menu size,frozen low-index predictions and positive mean squared prediction error. Perfect predictions are a separate pooled-likelihood reduction. Arbitrary categorical supports,repeated respondent panels and black-box cross-fitting are outside the proved probability boundary."
     },
     {
@@ -41,13 +41,13 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "observable_and_oracle_score_menu_source_closures_integrated_clean_checks_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/complete_gmm_clean_validation_20261112.json",
+      "status": "probability_loss_integrated_isolated_full_checks_all_eleven_tables_passed",
+      "evidence": "../../submission/finite_choice_20261110/reports/probability_integration_clean_validation_20261112.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "46_page_native_Word_complete_GMM_comparison_integrated_visual_review_passed",
+      "status": "49_page_full_24_page_reading_Word_reviewed_submission_materials_drafted",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Current author-guide rules and actual author/declaration facts remain unverified. Independent contribution sufficiency remains under assessment."
     }
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 46,
+    "native_Word_pages": 49,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 823,
+    "native_math_objects": 891,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -93,7 +93,7 @@
     "prediction_index_unknowns": 0,
     "trained_prediction_rotation_matches": 180,
     "proof_appendices": 6,
-    "main_tables": 4,
+    "main_tables": 5,
     "training_budget_draws": 800,
     "training_budget_method_records": 4800,
     "training_budget_full_replay_rows": 4800,
@@ -125,7 +125,7 @@
     "hard_menu_simplex_face_and_perfect_label_addendum": true,
     "common_coefficient_MNL_prediction_correction_prior_explicit": true,
     "Scopus_and_Google_Scholar_systematic_review_completed": false,
-    "manuscript_tables": 9,
+    "manuscript_tables": 11,
     "main_figures": 5,
     "score_oracle_path_integrated_into_main_manuscript": true,
     "score_matched_model_draws": 1000,
@@ -161,16 +161,19 @@
     "probability_risk_raw_support_flags_resolved": 6,
     "probability_risk_Gaussian_integration_repairs": 6,
     "probability_risk_clean_directory_replay_passed": true,
-    "probability_risk_main_manuscript_integrated": false
+    "probability_risk_main_manuscript_integrated": true,
+    "main_reading_Word_pages": 24,
+    "all_eleven_tables_reconciled": true
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "有限解与概率损失复核_20261112.md",
+  "latest_progress_report": "概率损失正文整合与近邻核对_20261112.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
   "observable_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/observable_integration_20261112.json",
   "complete_GMM_scope_evidence": "../complete_gmm_scope_20261112/README.md",
-  "probability_risk_evidence": "../vanishing_power_risk_20261112/README.md"
+  "probability_risk_evidence": "../vanishing_power_risk_20261112/README.md",
+  "probability_risk_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/probability_risk_integration_20261112.json"
 }

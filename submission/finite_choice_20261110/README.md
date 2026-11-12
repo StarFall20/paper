@@ -25,7 +25,7 @@ python analysis/audit_binary_choice.py examples/intercept.csv --features interce
 python analysis/build_publication_assets.py --results results --manuscript manuscript
 ```
 
-The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all eight manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
+The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all eleven manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
 
 Optional Word authoring uses the packages in `authoring/requirements.txt`:
 
@@ -33,7 +33,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter emits native OMML equations. The current native Word has 46 pages, 823 native mathematical objects, nine tables and five figures. The observed-reference integration has its final visual review recorded in [the current layout review](reports/complete_gmm_visual_qa_20261112.json). The earlier 42-page score integration remains in its original archive. The [current integration record](reports/complete_gmm_integration_20261112.json) identifies the exact manuscript source and preserves all previous eight tables. Earlier 32 and 38 page reviews remain historical records. Fraction arguments must be braced in this strict subset. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
+The strict TeX subset converter emits native OMML equations. The current full Word has 49 pages, 891 native mathematical objects, eleven tables and five figures. The 24-page [main reading Word](manuscript/main_text.docx) contains the same main text, data availability and references. The [current visual review](reports/probability_integration_visual_qa_20261112.json) records inspection of every page, with byte-identical inheritance stated explicitly. The [integration record](reports/probability_risk_integration_20261112.json) identifies the exact source. The [isolated validation](reports/probability_integration_clean_validation_20261112.json) passes the full mathematical quick check and reconciles all eleven tables. The previous 46-page manuscript remains in its separate dated archive. Fraction arguments must be braced in this strict subset. Source changes require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -266,3 +266,18 @@ python analysis/verify_complete_gmm_comparison.py --certificate regenerated/comp
 The [derivation](reports/complete_gmm/derivation.md) proves the exact comparison and the human-MLE implication of the inspected prior sufficient certificate. All nine manuscript tables and original simulated/public-data records are preserved. The current layout and clean-package records supersede the dated 45-page integration stage without changing those historical files.
 
 The current [complete-GMM clean validation](reports/complete_gmm_clean_validation_20261112.json) reruns the full mathematical quick check and exact comparison from a fresh extraction. All 64 analysis files match that tested package. It preserves all nine table blocks and distinguishes complete-moment existence from the compensated-loss boundary.
+
+
+## Probability loss and the current reading versions
+
+The current full manuscript integrates Proposition 6 and its proof in Appendix D6, public paired loss Table5 and null-Gaussian TableD1. It contains11tables, preserving the previous9blocks and all preexisting displayed mathematical bodies. Complete menu definitions and theorems are in AppendixF0; main Section3.9 retains their assumptions, consequences and matched evidence. The [main text](manuscript/main_text.md) and native main_text.docx provide a reading version with data availability and references. The [technical appendix text](manuscript/technical_appendices.md) and the full paper retain the complete argument.
+
+The [closest-theorem comparison](reports/probability_integration/closest_theorem_comparison.json) specifies exactly which source versions and theorem units were read. The [journal reading record](reports/probability_integration/journal_readership_and_writing.json) distinguishes methodological relevance from publication prediction. The original [standalone probability-loss report](results/probability_risk/README.md) and its clean validation are frozen records from the immediately preceding, separate-supplement stage. The current integration records supersede their historical statement that the main manuscript had not yet been changed. Their numerical source closure and retained coefficients are unchanged.
+
+```sh
+python analysis/reconcile_probability_risk_tables.py --out regenerated/probability_risk_tables
+python analysis/verify_vanishing_power_risk.py --root results/probability_risk --input-dir local_inputs --out regenerated/probability_risk_verification
+python analysis/summarize_vanishing_power_risk.py --root results/probability_risk --out regenerated/probability_risk_summary
+```
+
+The first command also runs inside quick_check.py and reconciles both new tables against all1920verified records, checking common public-fit cohorts and each simulation denominator. The retained numerical fits and endpoint LPs were already replayed from an independent standalone extraction; that record remains in results/probability_risk/clean_validation.json. Full raw path optimization and download instructions remain available in the preceding standalone package; no private questionnaire or downloaded pickle input is included here.
