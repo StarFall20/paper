@@ -1,4 +1,13 @@
-# Current research status — updated 12 November 2026
+# Current research status — updated13 November2026
+
+## Latest: positive-scale proof and nested auxiliary budgets
+
+The [new proof and experiment](reports/public_conjoint_audit_20261109/尺度证明与辅助样本预算复核_20261113.md) completes the stated bounded-known-scale argument internally, including weighted nuisance support, qualified relative interior, rank and statistical-dimension limits. Along the established oracle variance rule, increasing auxiliary size can reduce local covariance while removing finite empirical minimizers. The fitted intercept is scaled; no unknown-scale identification is claimed.
+
+All12000reported criteria and10000distinct corrected objectives are independently checked, with1923negative recession directions,52independent population integrals and no unresolved state. The2000duplicated smallest-ratio records remain labelled. At160labels, the variable-scale counts are500/3/15 across4/160/640auxiliary rows; held power and constant scale each give500/500/500. Between160and640rows,13draws recover and1loses its finite estimate. Every condition and reversal is retained. An isolated extraction reruns all10000primary programs and reproduces5scientific files byte-for-byte, with11identical scientific sources.
+
+The newly inspected FPPI preprint already occupies the broad additional-predictions-can-hurt argument; the specific unrestricted-attainment,matched-covariance result is the candidate. Its priority and sufficient choice-analysis value remain under assessment. The49-page main manuscript is preserved; concise integration of this supplement remains outstanding. No new questionnaire or AI answer was generated. The goal remains active.
+
 
 ## Latest research controls at matched local information
 

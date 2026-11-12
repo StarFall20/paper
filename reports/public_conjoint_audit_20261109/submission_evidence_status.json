@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "goal_complete": false,
-  "decision": "The49-page main manuscript is preserved. New matched-local-information controls produce a candidate radial collapse theorem that also fixes the samplewise human separation event. All6000radial criteria are independently replayed. Extension proof,closest-prior equivalence,sufficient journal value and actual submission facts remain under assessment.",
+  "decision": "The known-positive-scale proof is completed internally and all nested-budget criteria are verified. FPPI narrows the novelty claim. Specific-result priority,choice-analysis value and concise main-manuscript integration remain open.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,9 +17,9 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "candidate_compensated_boundary_and_matched_information_radial_collapse_under_proof_and_prior_audit",
+      "status": "specific_compensated_attainment_and_matched_information_consequences_derived_priority_and_value_under_assessment",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Complete the bounded-positive-scale extension proof,compare closest elliptical/weighted-loss results,and assess sufficient choice-analysis value. Ordinary scale invariance,cluster sandwich formulas and generic local/global distinctions remain established."
+      "remaining": "Compare weighted/asymmetric zonotope and high-dimensional corrected-objective results. FPPI already studies harmful aggregation; broad extra-data-harm positioning is insufficient. Complete choice-analysis value assessment and concise integration."
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -29,7 +29,7 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "probability_loss_integrated_isolated_full_checks_all_eleven_tables_passed",
+      "status": "existing_main_checks_and_known_scale_proof_internal_audit_nested_budget_full_verification_completed",
       "evidence": "../../submission/finite_choice_20261110/reports/probability_integration_clean_validation_20261112.json",
       "remaining": "Independent proof and closest-prior equivalence assessment remain open. The menu theorem requires independent Gaussian profile columns,fixed menu size,frozen low-index predictions and positive mean squared prediction error. Perfect predictions are a separate pooled-likelihood reduction. Arbitrary categorical supports,repeated respondent panels and black-box cross-fitting are outside the proved probability boundary."
     },
@@ -181,7 +181,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "同信息尺度控制与创新复核_20261112.md",
+  "latest_progress_report": "尺度证明与辅助样本预算复核_20261113.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -189,5 +189,19 @@
   "complete_GMM_scope_evidence": "../complete_gmm_scope_20261112/README.md",
   "probability_risk_evidence": "../vanishing_power_risk_20261112/README.md",
   "probability_risk_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/probability_risk_integration_20261112.json",
-  "new_geometry_controls": "../../submission/choice_geometry_controls_20261112/README.md"
+  "new_geometry_controls": "../../submission/choice_geometry_controls_20261112/README.md",
+  "radial_auxiliary_budget_evidence": {
+    "report": "../radial_proof_audit_20261112/README.md",
+    "proof": "../radial_proof_audit_20261112/proof.md",
+    "internal_proof_audit_completed": true,
+    "reported_records": 12000,
+    "distinct_criteria": 10000,
+    "independent_original_objective_replays": 10000,
+    "negative_directions": 1923,
+    "population_integrals": 52,
+    "unresolved_states": 0,
+    "isolated_full_generation": true,
+    "byte_identical_scientific_outputs": 5,
+    "new_main_integration": false
+  }
 }

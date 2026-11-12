@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "records": 12000,
+  "distinct_programs": 10000,
+  "matched_original_ratio_one_records": 2000,
+  "unknowns": 0,
+  "elapsed_seconds": 135.0078833749285,
+  "source_sha256": "124ced250aaad3bdaf0da88c9824f216c0e457b22879f8c9b652bed83cd04112",
+  "plan_sha256": "3acf993f63c91931b5e1e24df0e43c264c8d2ceedb4d62d470fbc2a94fe0ce7c",
+  "new_human_or_LLM_responses": 0
+}

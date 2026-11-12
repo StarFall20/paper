@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-13",
+  "candidate_archive_sha256": "a6a58e8c975711f0080b188339c5fa39700e7652805eab7ad710b0b4fc8aef8e",
+  "independent_archive_extraction": true,
+  "scientific_source_closure_files": 11,
+  "all_distinct_primary_LPs_rerun_in_isolation": 10000,
+  "all_reported_criterion_records_rerun_in_isolation": 12000,
+  "byte_identical_scientific_generation_outputs": [
+    "nested_auxiliary_trials.csv",
+    "nested_auxiliary_summary.csv",
+    "population_budget_boundaries.csv",
+    "scaled_interval_checks.csv",
+    "geometry_checks.json"
+  ],
+  "previous_verified_states_matched": 2000,
+  "original_objective_independent_replays_before_packaging": 10000,
+  "independent_verifier_rerun_in_isolation": false,
+  "reason": "Full primary generation is rerun from the isolated archive; the independent verifier was already run on every distinct objective before packaging. All11sources and numerical inputs are unchanged. No duplicate full verification is used as extra statistical evidence.",
+  "runtime_fields_excluded_from_byte_comparison": [
+    "elapsed_seconds"
+  ],
+  "figure_visual_review": "Both plot panels inspected at native PNG resolution; labels,legend,units and all13population conditions checked.",
+  "documentation_changes_after_generation": [
+    "Primary-prior audit adds FPPI; updated proof references and progress records. No equation, model source or simulation input changed after isolated generation."
+  ],
+  "maximum_independent_integral_discrepancy": 1.2847500840962311e-12,
+  "maximum_reported_quadrature_error_estimate": 5.4023010054354665e-06,
+  "proof_internal_audit_only": true,
+  "main_manuscript_unchanged": true,
+  "goal_complete": false
+}

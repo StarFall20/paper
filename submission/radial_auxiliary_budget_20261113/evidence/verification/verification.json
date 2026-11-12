@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "reported_records": 12000,
+  "distinct_original_objective_programs": 10000,
+  "duplicated_low_ratio_records": 2000,
+  "independently_checked_negative_recession_directions": 1923,
+  "preserved_human_cohorts": 1000,
+  "matched_previous_ratio_one_states": 2000,
+  "independent_population_integrals": 52,
+  "maximum_integral_discrepancy": 1.2847500840962311e-12,
+  "maximum_quadrature_error_estimate": 5.4023010054354665e-06,
+  "model_state_mismatches": 0,
+  "unknowns": 0,
+  "scale_mixture_infinite_auxiliary_variance_rule_boundary": 0.1390923161406197,
+  "fixed_power_population_ordering_verified": true,
+  "elapsed_seconds": 496.96624537487514,
+  "source_sha256": "5b42a78adf8e8528f440627d2bcdec5e41b3a32409327c4cf30abdf2b4e4a8e2",
+  "plan_sha256": "3acf993f63c91931b5e1e24df0e43c264c8d2ceedb4d62d470fbc2a94fe0ce7c",
+  "original_trials_sha256": "a82d7f767d9419d65802d8ad4860b83be930334c08a5d06f2c0cb75d41d94786",
+  "priority_or_submission_certified": false
+}
