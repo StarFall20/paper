@@ -1,0 +1,13 @@
+{
+  "full_matrix_covariance_cases": 24,
+  "finite_objective_identity_cases": 120,
+  "full_matrix_covariance_maximum_error": 2.6201263381153694e-14,
+  "paired_covariance_maximum_difference": 1.4654943925052066e-14,
+  "minimum_covariance_improvement_eigenvalue": 0.5000000000000013,
+  "exact_truth_score_maximum_error": 4.440892098500626e-16,
+  "objective_identity_maximum_error": 6.106226635438361e-16,
+  "gradient_identity_maximum_error": 7.008282842946301e-16,
+  "hessian_identity_maximum_error": 1.5265566588595902e-16,
+  "source_sha256": "0444a95c5b90375fb3b9af7a749cb8cb479bc5286e622d69e56e864a9f709f9c",
+  "scope": "Analytic identities and exact moment quadrature. No Monte Carlo phase frequencies or independent priority claim."
+}

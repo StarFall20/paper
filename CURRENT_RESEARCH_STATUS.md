@@ -1,5 +1,15 @@
 # Current research status — updated 12 November 2026
 
+## Latest result: equal oracle covariance and opposite existence limits
+
+The [new within-model comparison](reports/variance_reference_audit_20261112/README.md) holds the finite-sample truth score and the entire fixed-dimensional oracle covariance equal. Shrinking a conditional-mean prediction toward the true attribute-only choice probability and applying the established compensating variance power changes empirical curvature. The same corrected-logit theorem gives different existence boundaries on that path. This comparison uses known population weights and isolates a mechanism beyond weight-estimation noise.
+
+An exact rational bound certifies a null-signal example: the half-shrunk unit-power boundary is below0.445257,the unshrunk half-power boundary above0.728249,and ordinary logit has boundary0.5. At dimension ratio0.47,the two oracle references have opposite existence limits while ordinary logit exists. Both references have covariance17/25of the human covariance. Nonzero signal1.5 gives computed boundaries0.3363and0.5554. The construction uses the unknown true attribute-only probability as a theoretical reference;it is not a new practical calibration method.
+
+The completed matched experiment retains1000independent simulated draws,16000classifications and32cells of500repetitions. At160labels and72noise slopes,the two variance-reference finite-root frequencies are0.012and0.924;the paired difference is0.912 with MCSE0.01268. Verification replays all4000truth-score comparisons and2355ordinary separators,checks24discordant designs with an independent interior LP,and retains240residual crosschecks. No state is unresolved. The13-file source closure also runs from a fresh isolated directory. These are availability results,without new point-error or coverage claims.
+
+The [derivation](reports/variance_reference_audit_20261112/score_identity_derivation.md) attributes the variance rule and generic finite-sample distinctions to existing PPI/GMM work. Closest-prior equivalence and substantive journal contribution remain under review. The current38-page manuscript and native Word are unchanged this round;the new result remains in the linked research supplement pending integration. No questionnaire,participant label or AI-pretest provenance changes.
+
 ## Current manuscript integration and clean-directory verification
 
 The [current manuscript](submission/finite_choice_20261110/manuscript/paper.md) integrates the whole-menu theorem, the hard-prediction strict-gap condition, the perfect-label reduction and Appendix F into the same compensated-logit question. The native Word has 38 visually inspected pages, 662 native mathematical objects, four figures and seven tables including appendices. The original four main tables and Table E1 are unchanged. The former binary-only version remains in the 11 November archive. Page and section counts in the dated records below describe earlier stages.

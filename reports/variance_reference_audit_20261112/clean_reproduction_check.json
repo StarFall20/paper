@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-12",
+  "isolated_source_closure_files": 13,
+  "source_hashes_verified": true,
+  "full_matrix_and_finite_identity_checks_identical": true,
+  "exact_rational_bounds_identical": true,
+  "phase_record_verifier_completed": {
+    "state": "complete",
+    "records_reconciled": 16000,
+    "summary_cells": 32,
+    "paired_comparisons": 24,
+    "dimension_nesting_groups": 4000,
+    "shrunk_positive_power_nesting_groups": 4000,
+    "independent_residual_checks": 240,
+    "ordinary_separator_directions_replayed": 2355,
+    "discordant_designs_independently_certified": 24,
+    "truth_score_groups_replayed": 4000,
+    "truth_score_maximum_error": 4.996003610813204e-16,
+    "minimum_checked_exterior_gap": 6.689280387123242e-05,
+    "rational_counterexample_bounds_reconciled": true,
+    "remaining_unknowns": 0,
+    "source_sha256": "c8cbf8e61e8f86790da08b9ef9537d302e8dc5ec89a9b255ad543cd50c4c1a8a",
+    "scope": "Stored result reconciliation,direct ray checks and an independent interior feasibility program. Does not replay all16000original classification LPs or assess originality."
+  },
+  "all_original_16000_classification_LPs_rerun": false,
+  "scope": "Fresh isolated imports and independent retained-result verification;no questionnaire inputs."
+}

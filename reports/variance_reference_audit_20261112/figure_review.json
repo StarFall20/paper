@@ -1,0 +1,8 @@
+{
+  "plot_sha256": "aad8f9228203c51108f2c4869e2baf54f898935bce8621ab8b1e2931c6812713",
+  "visually_opened": true,
+  "readable_axes_and_legends": true,
+  "no_clipping_or_overlap_observed": true,
+  "source": "repo/analysis/plot_variance_reference_audit.py",
+  "scope": "Static research figure;not a manuscript render or scientific novelty assessment"
+}

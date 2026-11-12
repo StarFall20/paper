@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "goal_complete": false,
-  "decision": "Whole-menu theorem,hard prediction conditions and Appendix F are integrated into the 38-page manuscript. A fresh extracted package passes full binary checks,9000-record menu reconciliation,1090 separation-direction checks,240 independent finite support matches and240 derivative checks. Established correction and tuning remain attributed. Independent priority and sufficient practical contribution remain unproven.",
+  "decision": "Same-objective theory now has an oracle variance-optimal path with identical finite-sample truth scores and full fixed-dimensional covariance but opposite existence limits. Rational bounds and1000matched simulated draws/16000classifications are complete and independently reconciled. The new result is a supplement;38-page manuscript remains unchanged. Priority,full integration and sufficient practical contribution remain open.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,9 +17,9 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "explicit_compensated_boundary_retained_generic_finite_estimation_and_correction_claims_attributed_to_prior",
+      "status": "explicit_compensated_boundary_with_identical_truth_score_oracle_counterexample_retained",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Assess the full compensated law beyond the inspected general and DY/noisy-label theory;an affine-reallocation obstruction rules out one shortcut,not every possible equivalence. Establish sufficient practical choice-estimation value. Assess the whole-menu compensated calculation and its positive-power limit without treating classical support geometry or exact balanced-menu cancellation as new contributions."
+      "remaining": "Assess closest-prior equivalence and sufficient choice-analysis value. Existing variance tuning,generic first-order/finite-sample differences and convex geometry remain attributed. The new oracle path isolates empirical curvature without estimated-weight noise;it is not a new estimator."
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -49,7 +49,7 @@
       "requirement": "Full manuscript, appendices and submission materials",
       "status": "38_page_native_Word_with_whole_menu_appendix_visually_verified_materials_updated",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Current journal-specific rules and actual author,title-page and declaration facts need verification; no declarations invented"
+      "remaining": "Integrate the new identical-score oracle comparison after substantive review;current38-page Word remains intact. Current author-guide rules and actual author/declaration facts remain unverified."
     }
   ],
   "self_review_scores_used_as_evidence": false,
@@ -129,5 +129,6 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "多选项正文整合与复现核对_20261112.md"
+  "latest_progress_report": "多选项正文整合与复现核对_20261112.md",
+  "variance_reference_evidence": "../variance_reference_audit_20261112/README.md"
 }
