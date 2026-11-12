@@ -1,0 +1,1290 @@
+[
+  {
+    "case": "public_0",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.16859214301560072,
+    "primal_residual": 5.828670879282072e-16
+  },
+  {
+    "case": "public_0",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.15385249440932444,
+    "primal_residual": 7.216449660063518e-16
+  },
+  {
+    "case": "public_1",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.17456019438219386,
+    "primal_residual": 1.3322676295501878e-15
+  },
+  {
+    "case": "public_1",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.1735331681894132,
+    "primal_residual": 6.38378239159465e-16
+  },
+  {
+    "case": "public_2",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.02976813785794654,
+    "primal_residual": 1.304512053934559e-15
+  },
+  {
+    "case": "public_2",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.03468401515039595,
+    "primal_residual": 1.3322676295501878e-15
+  },
+  {
+    "case": "public_3",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.11204325599929395,
+    "primal_residual": 1.1102230246251565e-15
+  },
+  {
+    "case": "public_3",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.1142577053083041,
+    "primal_residual": 1.1657341758564144e-15
+  },
+  {
+    "case": "public_4",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.08626761577216106,
+    "primal_residual": 5.551115123125783e-16
+  },
+  {
+    "case": "public_4",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.10210784876987646,
+    "primal_residual": 1.1102230246251565e-15
+  },
+  {
+    "case": "public_5",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.2128989100449353,
+    "primal_residual": 1.1102230246251565e-15
+  },
+  {
+    "case": "public_5",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.2307265613183534,
+    "primal_residual": 1.0547118733938987e-15
+  },
+  {
+    "case": "public_6",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.07173510308596673,
+    "primal_residual": 2.498001805406602e-16
+  },
+  {
+    "case": "public_6",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.016164886232337604,
+    "primal_residual": 6.106226635438361e-16
+  },
+  {
+    "case": "public_7",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.09804251358800617,
+    "primal_residual": 7.771561172376096e-16
+  },
+  {
+    "case": "public_7",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.08661361829041088,
+    "primal_residual": 1.4988010832439613e-15
+  },
+  {
+    "case": "public_8",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.10447936281030792,
+    "primal_residual": 5.828670879282072e-16
+  },
+  {
+    "case": "public_8",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.09576647797244699,
+    "primal_residual": 6.106226635438361e-16
+  },
+  {
+    "case": "public_9",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.038851927486860546,
+    "primal_residual": 5.273559366969494e-16
+  },
+  {
+    "case": "public_9",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.04011876897290796,
+    "primal_residual": 6.106226635438361e-16
+  },
+  {
+    "case": "public_10",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -1.0,
+      0.03448275862068971,
+      0.3793103448275862,
+      0.24137931034482762,
+      0.10344827586206906,
+      0.4137931034482758,
+      -0.03448275862068971,
+      -0.0,
+      -0.5172413793103448,
+      -0.10344827586206873,
+      0.48275862068965525
+    ],
+    "recession_cost": -1.8289320042885748e-06
+  },
+  {
+    "case": "public_10",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -1.0,
+      0.019607843137254888,
+      0.39215686274509803,
+      0.35294117647058826,
+      0.11764705882352941,
+      0.37254901960784315,
+      -0.019607843137254888,
+      0.019607843137254888,
+      -0.5490196078431373,
+      -0.07843137254901963,
+      0.37254901960784315
+    ],
+    "recession_cost": -3.897181243717185e-06
+  },
+  {
+    "case": "public_11",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.09897124179593698,
+    "primal_residual": 3.608224830031759e-16
+  },
+  {
+    "case": "public_11",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.0732251291321756,
+    "primal_residual": 5.134781488891349e-16
+  },
+  {
+    "case": "public_12",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.10695387388827998,
+    "primal_residual": 6.938893903907228e-16
+  },
+  {
+    "case": "public_12",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.09592358734318424,
+    "primal_residual": 7.494005416219807e-16
+  },
+  {
+    "case": "public_13",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.08479795179263008,
+    "primal_residual": 8.881784197001252e-16
+  },
+  {
+    "case": "public_13",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.09053811587634152,
+    "primal_residual": 1.3322676295501878e-15
+  },
+  {
+    "case": "public_14",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.16307228478838323,
+    "primal_residual": 6.245004513516506e-16
+  },
+  {
+    "case": "public_14",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.16465025665447736,
+    "primal_residual": 6.106226635438361e-16
+  },
+  {
+    "case": "public_15",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.4,
+      -0.4666666666666666,
+      -0.0,
+      -0.26666666666666716,
+      0.4,
+      -0.26666666666666683,
+      -1.0,
+      -0.0,
+      -0.13333333333333253,
+      -0.0666666666666666,
+      -0.4
+    ],
+    "recession_cost": -2.500238524549836e-07
+  },
+  {
+    "case": "public_15",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.3333333333333333,
+      -0.38888888888888884,
+      -0.0,
+      -0.25925925925925924,
+      0.3333333333333333,
+      -0.22222222222222227,
+      -1.0,
+      -0.03703703703703709,
+      -0.1851851851851852,
+      -0.0925925925925925,
+      -0.3703703703703703
+    ],
+    "recession_cost": -2.5825646192412233e-06
+  },
+  {
+    "case": "public_16",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -1.0,
+      0.5,
+      -0.0,
+      0.25,
+      0.5,
+      -1.0,
+      -0.25,
+      -1.0,
+      -1.0,
+      -0.5,
+      -1.0
+    ],
+    "recession_cost": -1.5592445138545852e-05
+  },
+  {
+    "case": "public_16",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -1.0,
+      0.5,
+      -0.0,
+      0.5,
+      0.5,
+      -1.0,
+      -0.5,
+      -1.0,
+      -1.0,
+      -0.5,
+      -1.0
+    ],
+    "recession_cost": -1.3888558030084042e-05
+  },
+  {
+    "case": "public_17",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.6666666666666666,
+      -0.3333333333333333,
+      1.0,
+      1.0,
+      -1.0,
+      1.0,
+      -0.6666666666666667,
+      0.6666666666666666,
+      -1.0,
+      0.6666666666666665,
+      -1.0
+    ],
+    "recession_cost": -3.357614509891249e-05
+  },
+  {
+    "case": "public_17",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.8571428571428572,
+      -0.42857142857142855,
+      0.8571428571428571,
+      1.0,
+      -1.0,
+      0.8571428571428572,
+      -0.7142857142857142,
+      0.5714285714285714,
+      -1.0,
+      0.5714285714285715,
+      -1.0
+    ],
+    "recession_cost": -2.0593562200188487e-05
+  },
+  {
+    "case": "public_18",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.08628568747994522,
+    "primal_residual": 2.55351295663786e-15
+  },
+  {
+    "case": "public_18",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.07919829151158225,
+    "primal_residual": 1.8596235662471372e-15
+  },
+  {
+    "case": "public_19",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.014726500931391023,
+    "primal_residual": 1.8041124150158794e-15
+  },
+  {
+    "case": "public_19",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.010692333261877499,
+    "primal_residual": 1.2212453270876722e-15
+  },
+  {
+    "case": "public_20",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.016523965541085903,
+    "primal_residual": 2.831068712794149e-15
+  },
+  {
+    "case": "public_20",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.015271315758537156,
+    "primal_residual": 6.106226635438361e-16
+  },
+  {
+    "case": "public_21",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.3018867924528303,
+      -1.0,
+      -0.471698113207547,
+      -0.6415094339622641,
+      -0.20754716981132107,
+      0.2452830188679246,
+      -0.509433962264151,
+      0.3962264150943394,
+      -0.5660377358490565,
+      -0.7169811320754715,
+      0.05660377358490559
+    ],
+    "recession_cost": -2.232770878174417e-05
+  },
+  {
+    "case": "public_21",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -0.0
+    ],
+    "recession_cost": -4.0560333793515646e-05
+  },
+  {
+    "case": "public_22",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.5,
+      -1.0,
+      1.0,
+      1.0,
+      0.5,
+      -0.5,
+      -0.0,
+      1.0,
+      -1.0,
+      0.5,
+      -0.0
+    ],
+    "recession_cost": -2.310004684225042e-05
+  },
+  {
+    "case": "public_22",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.2777777777777779,
+      -1.0,
+      1.0,
+      0.7777777777777778,
+      0.5,
+      -0.33333333333333337,
+      -0.05555555555555558,
+      1.0,
+      -0.9444444444444444,
+      0.38888888888888884,
+      -0.16666666666666663
+    ],
+    "recession_cost": -1.780258522809941e-05
+  },
+  {
+    "case": "public_23",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      0.6499999999999999,
+      -0.2,
+      -0.3500000000000001,
+      1.0,
+      0.24999999999999997,
+      -0.050000000000000044,
+      0.44999999999999996,
+      0.44999999999999996,
+      -0.0,
+      -0.95,
+      -0.5
+    ],
+    "recession_cost": -1.0786704046639173e-07
+  },
+  {
+    "case": "public_23",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      0.6183206106870227,
+      -0.2061068702290076,
+      -0.3358778625954197,
+      0.984732824427481,
+      0.2748091603053434,
+      -0.007633587786259651,
+      0.5343511450381679,
+      0.5114503816793894,
+      0.022900763358778664,
+      -1.0,
+      -0.48854961832061067
+    ],
+    "recession_cost": -2.725213121834713e-07
+  },
+  {
+    "case": "public_24",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.06611380963421333,
+    "primal_residual": 4.996003610813204e-16
+  },
+  {
+    "case": "public_24",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.05871696354372965,
+    "primal_residual": 1.1255509328386704e-15
+  },
+  {
+    "case": "public_25",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.08968387470731233,
+    "primal_residual": 1.0547118733938987e-15
+  },
+  {
+    "case": "public_25",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.09593275380535571,
+    "primal_residual": 1.27675647831893e-15
+  },
+  {
+    "case": "public_26",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.053232936143974445,
+    "primal_residual": 2.942091015256665e-15
+  },
+  {
+    "case": "public_26",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.07208317418344147,
+    "primal_residual": 1.7763568394002505e-15
+  },
+  {
+    "case": "public_27",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.10545427697419425,
+    "primal_residual": 9.159339953157541e-16
+  },
+  {
+    "case": "public_27",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.13356865073929514,
+    "primal_residual": 7.494005416219807e-16
+  },
+  {
+    "case": "public_28",
+    "prediction": "AI",
+    "power": 0.1,
+    "status": "interior",
+    "probability_margin": 0.0023068731070322772,
+    "primal_residual": 9.71445146547012e-16
+  },
+  {
+    "case": "public_28",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "outside_mean_support",
+    "direction": [
+      -1.0,
+      -1.0,
+      0.5,
+      0.5,
+      -0.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "recession_cost": -0.006532848936361579
+  },
+  {
+    "case": "public_28",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -1.0,
+      -1.0,
+      1.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      1.0,
+      1.0
+    ],
+    "recession_cost": -5.053703969526424e-06
+  },
+  {
+    "case": "public_29",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.027193621775512697,
+    "primal_residual": 3.3306690738754696e-16
+  },
+  {
+    "case": "public_29",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.03597865008958766,
+    "primal_residual": 7.494005416219807e-16
+  },
+  {
+    "case": "public_30",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      0.4615384615384614,
+      0.423076923076923,
+      -0.26923076923076916,
+      -0.03846153846153849,
+      -0.3461538461538462,
+      0.23076923076923078,
+      -0.07692307692307704,
+      0.03846153846153838,
+      -0.4230769230769231,
+      -0.4230769230769231,
+      1.0
+    ],
+    "recession_cost": -7.918109053844935e-06
+  },
+  {
+    "case": "public_30",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      0.6999999999999998,
+      0.5999999999999999,
+      -0.29999999999999993,
+      -0.19999999999999993,
+      -0.5000000000000001,
+      0.29999999999999993,
+      -0.09999999999999998,
+      0.09999999999999998,
+      -0.7000000000000001,
+      -0.8,
+      1.0
+    ],
+    "recession_cost": -1.0055371908901378e-05
+  },
+  {
+    "case": "public_31",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.000633436148947262,
+    "primal_residual": 3.885780586188048e-16
+  },
+  {
+    "case": "public_31",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -1.0,
+      -0.04999999999999993,
+      0.6000000000000001,
+      -0.65,
+      0.39999999999999997,
+      -0.5000000000000002,
+      0.15000000000000013,
+      -0.7,
+      0.30000000000000004,
+      0.2500000000000001,
+      -0.1999999999999998
+    ],
+    "recession_cost": -1.327759675262552e-06
+  },
+  {
+    "case": "public_32",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.035311615860697,
+    "primal_residual": 5.551115123125783e-16
+  },
+  {
+    "case": "public_32",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.04179168700718807,
+    "primal_residual": 1.8318679906315083e-15
+  },
+  {
+    "case": "public_33",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.06787182425144649,
+    "primal_residual": 8.326672684688674e-16
+  },
+  {
+    "case": "public_33",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.07828767726650912,
+    "primal_residual": 2.220446049250313e-15
+  },
+  {
+    "case": "public_34",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.03121726025940292,
+    "primal_residual": 8.604228440844963e-16
+  },
+  {
+    "case": "public_34",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.023785723081119738,
+    "primal_residual": 2.55351295663786e-15
+  },
+  {
+    "case": "public_35",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.02296739908379169,
+    "primal_residual": 6.938893903907228e-16
+  },
+  {
+    "case": "public_35",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.052450828552234124,
+    "primal_residual": 1.27675647831893e-15
+  },
+  {
+    "case": "public_36",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.030832762209323357,
+    "primal_residual": 3.3306690738754696e-15
+  },
+  {
+    "case": "public_36",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.04287050807297889,
+    "primal_residual": 1.887379141862766e-15
+  },
+  {
+    "case": "public_37",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.029268363735569434,
+    "primal_residual": 1.4155343563970746e-15
+  },
+  {
+    "case": "public_37",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.03438065243033622,
+    "primal_residual": 2.0816681711721685e-15
+  },
+  {
+    "case": "public_38",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.06197402249372098,
+    "primal_residual": 1.8596235662471372e-15
+  },
+  {
+    "case": "public_38",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.06527374231934463,
+    "primal_residual": 8.326672684688674e-17
+  },
+  {
+    "case": "public_39",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      0.3333333333333333,
+      -0.0,
+      -0.3333333333333335,
+      0.3333333333333333,
+      -0.33333333333333326,
+      -0.3333333333333333,
+      -1.0,
+      -0.33333333333333337,
+      -1.0,
+      -0.6666666666666667,
+      -0.3333333333333334
+    ],
+    "recession_cost": -2.1396486284630534e-05
+  },
+  {
+    "case": "public_39",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      0.33333333333333326,
+      -0.0,
+      -0.33333333333333337,
+      0.3333333333333335,
+      -0.3333333333333333,
+      -0.3333333333333333,
+      -1.0,
+      -0.3333333333333334,
+      -1.0,
+      -0.6666666666666669,
+      -0.33333333333333337
+    ],
+    "recession_cost": -2.123535153975009e-05
+  },
+  {
+    "case": "public_40",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.1425536971015063,
+    "primal_residual": 8.881784197001252e-16
+  },
+  {
+    "case": "public_40",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.14967689262494102,
+    "primal_residual": 7.494005416219807e-16
+  },
+  {
+    "case": "public_41",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.0329758024063528,
+    "primal_residual": 4.85722573273506e-16
+  },
+  {
+    "case": "public_41",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.04673773106359744,
+    "primal_residual": 2.4980018054066022e-15
+  },
+  {
+    "case": "public_42",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.069394404470908,
+    "primal_residual": 9.43689570931383e-16
+  },
+  {
+    "case": "public_42",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.08061204914387145,
+    "primal_residual": 4.579669976578771e-16
+  },
+  {
+    "case": "public_43",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.09485805304962557,
+    "primal_residual": 4.440892098500626e-16
+  },
+  {
+    "case": "public_43",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.11502007187496473,
+    "primal_residual": 8.049116928532385e-16
+  },
+  {
+    "case": "public_44",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.2724216699962701,
+    "primal_residual": 8.881784197001252e-16
+  },
+  {
+    "case": "public_44",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.3003191545963914,
+    "primal_residual": 9.43689570931383e-16
+  },
+  {
+    "case": "public_45",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.009882723184093849,
+    "primal_residual": 1.5265566588595902e-15
+  },
+  {
+    "case": "public_45",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.005962527474853312,
+    "primal_residual": 2.7755575615628914e-16
+  },
+  {
+    "case": "public_46",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.21867624010732506,
+    "primal_residual": 5.412337245047638e-16
+  },
+  {
+    "case": "public_46",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.20561240276643108,
+    "primal_residual": 9.575673587391975e-16
+  },
+  {
+    "case": "public_47",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.010537944419639343,
+    "primal_residual": 1.3322676295501878e-15
+  },
+  {
+    "case": "public_47",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.014698036967004998,
+    "primal_residual": 4.218847493575595e-15
+  },
+  {
+    "case": "public_48",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.14186886329172246,
+    "primal_residual": 5.342948306008566e-16
+  },
+  {
+    "case": "public_48",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.13785874053444297,
+    "primal_residual": 3.95516952522712e-16
+  },
+  {
+    "case": "public_49",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.056317616214418206,
+    "primal_residual": 4.440892098500626e-16
+  },
+  {
+    "case": "public_49",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.05775068735656146,
+    "primal_residual": 7.494005416219807e-16
+  },
+  {
+    "case": "public_50",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      0.4347826086956521,
+      1.0,
+      -0.26086956521739113,
+      -0.08695652173913038,
+      0.17391304347826086,
+      -0.26086956521739135,
+      -0.5217391304347826,
+      -0.5652173913043478,
+      0.608695652173913,
+      1.0,
+      0.5652173913043479
+    ],
+    "recession_cost": -1.3947347272558197e-05
+  },
+  {
+    "case": "public_50",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      0.2222222222222221,
+      1.0,
+      -0.48148148148148157,
+      -0.037037037037037084,
+      0.07407407407407418,
+      -0.07407407407407396,
+      -0.8148148148148147,
+      -0.8518518518518519,
+      0.5185185185185183,
+      1.0,
+      0.4444444444444444
+    ],
+    "recession_cost": -2.9957906668820478e-05
+  },
+  {
+    "case": "public_51",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.09497222696358627,
+    "primal_residual": 2.0539125955565396e-15
+  },
+  {
+    "case": "public_51",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.06628311300954914,
+    "primal_residual": 6.106226635438361e-16
+  },
+  {
+    "case": "public_52",
+    "prediction": "AI",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.39999999999999997,
+      -0.19999999999999984,
+      0.7333333333333334,
+      -0.5333333333333332,
+      -0.4000000000000001,
+      -0.0,
+      -1.0,
+      -1.0,
+      -0.1999999999999999,
+      -0.13333333333333344,
+      -0.5999999999999999
+    ],
+    "recession_cost": -1.1623307786812198e-05
+  },
+  {
+    "case": "public_52",
+    "prediction": "X_only",
+    "power": 0.0002,
+    "status": "outside_mean_support",
+    "direction": [
+      -0.375,
+      -0.12500000000000003,
+      0.75,
+      -0.5,
+      -0.375,
+      -0.0,
+      -1.0,
+      -1.0,
+      -0.25,
+      -0.125,
+      -0.625
+    ],
+    "recession_cost": -5.3261794603631785e-06
+  },
+  {
+    "case": "public_53",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.13391258244402834,
+    "primal_residual": 1.5265566588595902e-15
+  },
+  {
+    "case": "public_53",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.12683231828462616,
+    "primal_residual": 3.219646771412954e-15
+  },
+  {
+    "case": "public_54",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.02984847593397908,
+    "primal_residual": 9.159339953157541e-16
+  },
+  {
+    "case": "public_54",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.04229577450644337,
+    "primal_residual": 8.881784197001252e-16
+  },
+  {
+    "case": "public_55",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.0465746200458958,
+    "primal_residual": 1.942890293094024e-16
+  },
+  {
+    "case": "public_55",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.04105007945283509,
+    "primal_residual": 7.494005416219807e-16
+  },
+  {
+    "case": "public_56",
+    "prediction": "AI",
+    "power": 0.1,
+    "status": "interior",
+    "probability_margin": 0.002614704490808252,
+    "primal_residual": 2.166669621495032e-15
+  },
+  {
+    "case": "public_56",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "outside_mean_support",
+    "direction": [
+      1.0,
+      0.7741935483870969,
+      0.38709677419354793,
+      -0.2580645161290314,
+      0.8387096774193542,
+      -0.12903225806451568,
+      0.9354838709677409,
+      0.4516129032258054,
+      -0.25806451612903225,
+      -0.06451612903225834,
+      -0.7096774193548385
+    ],
+    "recession_cost": -0.006637779362740681
+  },
+  {
+    "case": "public_56",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.0021540767054374446,
+    "primal_residual": 6.38378239159465e-16
+  },
+  {
+    "case": "public_57",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.10834390399197784,
+    "primal_residual": 5.551115123125783e-16
+  },
+  {
+    "case": "public_57",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.1181977010274945,
+    "primal_residual": 4.440892098500626e-16
+  },
+  {
+    "case": "public_58",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.0636060857973312,
+    "primal_residual": 6.38378239159465e-16
+  },
+  {
+    "case": "public_58",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.06811845704841708,
+    "primal_residual": 2.0816681711721685e-15
+  },
+  {
+    "case": "public_59",
+    "prediction": "AI",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.11041459110446125,
+    "primal_residual": 1.0824674490095276e-15
+  },
+  {
+    "case": "public_59",
+    "prediction": "X_only",
+    "power": 0.5,
+    "status": "interior",
+    "probability_margin": 0.12593147572490232,
+    "primal_residual": 6.938893903907228e-16
+  }
+]

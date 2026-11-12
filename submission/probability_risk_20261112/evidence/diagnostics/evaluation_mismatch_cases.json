@@ -1,0 +1,74 @@
+{
+  "maximum_errors": [
+    5.397765789894038e-09,
+    0.0016812761089210482
+  ],
+  "cases": [
+    {
+      "case": "gaussian_80_17",
+      "power": 0.005,
+      "norm": 874.7046359207397,
+      "coefficient_intercept": 52.39383634861622,
+      "coefficient_slope_norm": 873.134059588737,
+      "original_log_loss": 348.9577877795784,
+      "independent_log_loss": 348.9577877795784,
+      "original_Brier": 0.4999999999999963,
+      "independent_Brier": 0.49954391446405005
+    },
+    {
+      "case": "gaussian_80_17",
+      "power": 0.001,
+      "norm": 1165.9563985551752,
+      "coefficient_intercept": 69.61908379338587,
+      "coefficient_slope_norm": 1163.876070079424,
+      "original_log_loss": 465.15036143794424,
+      "independent_log_loss": 465.15036143794424,
+      "original_Brier": 0.5,
+      "independent_Brier": 0.49965784267371727
+    },
+    {
+      "case": "gaussian_80_17",
+      "power": 0.0002,
+      "norm": 1454.7010667332072,
+      "coefficient_intercept": 86.71789520915027,
+      "coefficient_slope_norm": 1452.1140451786928,
+      "original_log_loss": 580.3428244369208,
+      "independent_log_loss": 580.3428244369206,
+      "original_Brier": 0.5,
+      "independent_Brier": 0.49972575760480437
+    },
+    {
+      "case": "gaussian_80_60",
+      "power": 0.0002,
+      "norm": 236.99541310765775,
+      "coefficient_intercept": -60.900340401357155,
+      "coefficient_slope_norm": 229.0370589513151,
+      "original_log_loss": 94.58651848616188,
+      "independent_log_loss": 94.58651848616192,
+      "original_Brier": 0.4999999999989749,
+      "independent_Brier": 0.4983187238900538
+    },
+    {
+      "case": "gaussian_160_53",
+      "power": 0.0002,
+      "norm": 401.68919379722166,
+      "coefficient_intercept": 34.798929024257816,
+      "coefficient_slope_norm": 400.1790136329323,
+      "original_log_loss": 160.25319335790635,
+      "independent_log_loss": 160.25319335790618,
+      "original_Brier": 0.4999999999992097,
+      "independent_Brier": 0.49900686265495653
+    },
+    {
+      "case": "gaussian_160_78",
+      "power": 0.0002,
+      "norm": 640.9989655648227,
+      "coefficient_intercept": -72.46601232904699,
+      "coefficient_slope_norm": 636.8895908336854,
+      "original_log_loss": 255.72612963022044,
+      "independent_log_loss": 255.72612963022038,
+      "original_Brier": 0.4999999999998868,
+      "independent_Brier": 0.49937765248881727
+    }
+  ]
+}

@@ -1,6 +1,14 @@
 # Current research status — updated 12 November 2026
 
-## Latest result: complete moments and the exact objective being studied
+## Latest follow-up: finite roots and probability loss
+
+The [probability-loss follow-up](reports/vanishing_power_risk_20261112/README.md) keeps the same binary compensated objective and derives a gradient-aware coefficient lower bound. In the Gaussian dimension interval above ordinary separation and below the positive-power envelope, strictly positive possibly data-dependent powers tending to zero give finite unique roots with probability tending to one and diverging new-row human log loss. Existing Gaussian margin theory is an explicit input. At null signal, Brier loss tends to one half while classification error stays one half. This consequence is not a new estimator or a risk ordering against all tuning, ridge or complete-GMM procedures.
+
+All 1920 planned path records are retained:720 from60 existing public block allocations and1200 from200 independent simulated model draws. Independent replay verifies1401 numerical finite fits and389 support endpoint programs;519 objectives are exterior and no final support state is unresolved. Six initial support flags and six distinct Gaussian integration discrepancies are resolved with their original records preserved. Verified summaries report paired denominators, medians and every adverse result. Shared47 public fits show mean log loss increasing from1.5729to28.9954 for AI and1.4884to29.3629 for X-only when power changes from0.5to0.0002. Each group retains one decrease. Initial simulated power reductions can improve the conditional mean; monotone loss is not claimed.
+
+The [standalone reproduction package](submission/probability_risk_20261112/README.md) includes12 scientific source files and the complete evidence. A fresh extraction reproduces all independent verification and summary files byte-for-byte. The46-page main manuscript and its Word are unchanged; this follow-up is explicitly separate pending concise editorial integration. No new questionnaire, human label or AI response was generated. Specific-theorem priority, journal value and current submission requirements remain open. The research goal remains active.
+
+## Earlier result: complete moments and the exact objective being studied
 
 The [complete-GMM comparison](reports/complete_gmm_scope_20261112/README.md) reads the existing full-moment objective and global sufficient certificate in CC-PPI, including SupplementS3.10 PropositionS3.3. Its displayed outward-score conditions imply a finite human MLE. A retained scalar design instead has a separated human likelihood,an unbounded unit-power compensated loss,and a finite global minimum of the complete criterion with an explicitly specified zero reference and centered covariance weight. Exact fractions compare a finite point against both infinite-coefficient limits. This is an illustration of an existing GMM objective,not a new estimator or risk ranking. The specified reference and uncalibrated weight are distinct from the full CC-PPI fitting procedure.
 

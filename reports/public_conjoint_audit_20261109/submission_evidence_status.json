@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "goal_complete": false,
-  "decision": "The 46-page manuscript now distinguishes its compensated-loss existence boundary from the established complete-GMM criterion and global sufficient certificate. An exact same-design comparison and independent checks pass. Existing nine tables and scientific runs are retained. Specific-theorem priority and sufficient choice-modelling contribution remain under assessment.",
+  "decision": "The 46-page main manuscript is preserved. A separately reproduced probability-loss supplement derives a gradient-aware coefficient bound and a joint finite-existence/diverging-log-loss consequence for the same compensated binary objective. All 1920 planned records, adverse findings and numerical repairs are retained. Specific-theorem priority, concise main-text integration and sufficient choice-modelling value remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -150,15 +150,27 @@
     "complete_GMM_exact_same_design_comparison": true,
     "complete_GMM_numerical_returns_retained": 7,
     "complete_GMM_returns_dominated_by_finite_witness": 4,
-    "complete_GMM_prior_certificate_human_MLE_implication_proved": true
+    "complete_GMM_prior_certificate_human_MLE_implication_proved": true,
+    "probability_risk_path_records": 1920,
+    "probability_risk_public_allocations": 60,
+    "probability_risk_independent_simulated_draws": 200,
+    "probability_risk_numerical_fits_replayed": 1401,
+    "probability_risk_independent_endpoint_LPs": 389,
+    "probability_risk_final_exterior_records": 519,
+    "probability_risk_unresolved": 0,
+    "probability_risk_raw_support_flags_resolved": 6,
+    "probability_risk_Gaussian_integration_repairs": 6,
+    "probability_risk_clean_directory_replay_passed": true,
+    "probability_risk_main_manuscript_integrated": false
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "完整矩近邻定理与目标比较_20261112.md",
+  "latest_progress_report": "有限解与概率损失复核_20261112.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
   "observable_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/observable_integration_20261112.json",
-  "complete_GMM_scope_evidence": "../complete_gmm_scope_20261112/README.md"
+  "complete_GMM_scope_evidence": "../complete_gmm_scope_20261112/README.md",
+  "probability_risk_evidence": "../vanishing_power_risk_20261112/README.md"
 }

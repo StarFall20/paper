@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-12",
+  "planned_records": 1920,
+  "finite_root_records": 1401,
+  "outside_records": 519,
+  "unresolved": 0,
+  "verified_inputs_sha256": {
+    "verification_final/public/path_records_verified.csv": "932e2bb0d7835b3eda5447ad9d87cde13458c13448980004c0dfed1e943c009f",
+    "verification_final/gaussian/path_records_verified.csv": "51b57d0cfaf67ff040f54d38a845a2cdb5f86f5e11ad673434fd3895916d477f"
+  },
+  "source_sha256": "4487ec9eab3e0c20471c44405172727343a4a4ff188ae3dc7700d8390bbea3e3",
+  "original_records_modified": false,
+  "public_MCSE_or_participant_inference": false,
+  "paired_denominators_explicit": true,
+  "corrected_Gaussian_metrics_used": true
+}

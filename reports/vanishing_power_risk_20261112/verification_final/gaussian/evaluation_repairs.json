@@ -1,0 +1,56 @@
+[
+  {
+    "case": "gaussian_80_17",
+    "prediction": "oracle",
+    "power": 0.005,
+    "original_log_loss": 348.9577877795784,
+    "verified_log_loss": 348.9577877795784,
+    "original_Brier_loss": 0.4999999999999963,
+    "verified_Brier_loss": 0.49954391446405005
+  },
+  {
+    "case": "gaussian_80_17",
+    "prediction": "oracle",
+    "power": 0.001,
+    "original_log_loss": 465.15036143794424,
+    "verified_log_loss": 465.15036143794424,
+    "original_Brier_loss": 0.5,
+    "verified_Brier_loss": 0.49965784267371727
+  },
+  {
+    "case": "gaussian_80_17",
+    "prediction": "oracle",
+    "power": 0.0002,
+    "original_log_loss": 580.3428244369208,
+    "verified_log_loss": 580.3428244369206,
+    "original_Brier_loss": 0.5,
+    "verified_Brier_loss": 0.49972575760480437
+  },
+  {
+    "case": "gaussian_80_60",
+    "prediction": "oracle",
+    "power": 0.0002,
+    "original_log_loss": 94.58651848616188,
+    "verified_log_loss": 94.58651848616192,
+    "original_Brier_loss": 0.4999999999989749,
+    "verified_Brier_loss": 0.4983187238900538
+  },
+  {
+    "case": "gaussian_160_53",
+    "prediction": "oracle",
+    "power": 0.0002,
+    "original_log_loss": 160.25319335790635,
+    "verified_log_loss": 160.25319335790618,
+    "original_Brier_loss": 0.4999999999992097,
+    "verified_Brier_loss": 0.49900686265495653
+  },
+  {
+    "case": "gaussian_160_78",
+    "prediction": "oracle",
+    "power": 0.0002,
+    "original_log_loss": 255.72612963022044,
+    "verified_log_loss": 255.72612963022038,
+    "original_Brier_loss": 0.4999999999998868,
+    "verified_Brier_loss": 0.49937765248881727
+  }
+]

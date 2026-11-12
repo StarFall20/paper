@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-12",
+  "mode": "public",
+  "retained_rows": 720,
+  "root_records_independently_replayed": 574,
+  "independent_support_endpoint_programs": 122,
+  "all_intermediate_powers_covered_by_same_prediction_coercivity_nesting": true,
+  "initial_nonstandard_support_states": 0,
+  "resolved_support_states": 0,
+  "remaining_unresolved": 0,
+  "original_records_unchanged": true,
+  "original_records_sha256": "637d919dc936718167c2b0ecf797297ff4a2960e9a8f2083b7fe37e890ff58dc",
+  "maxima": {
+    "gradient_difference": 1.5585407222805327e-15,
+    "replayed_gradient_over_power": 9.748534752780313e-08,
+    "bound_violation": 0.0,
+    "test_log_loss_difference": 2.842170943040401e-14,
+    "test_Brier_difference": 5.551115123125783e-17,
+    "positive_Jensen_violation": 0.0
+  },
+  "source_sha256": "f42355fcf236bbce378a73cc7c894619f9718352886b3a3993ec9afd61eaa8b2"
+}

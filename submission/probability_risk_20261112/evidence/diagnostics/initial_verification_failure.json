@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-12",
+  "failure": "Independent logit-coordinate integration disagreed with Gaussian-coordinate Brier integration at six retained finite fits.",
+  "cause": "Adaptive quadrature missed a narrow sigmoid-derivative peak at large fitted coefficient norms.",
+  "original_model_and_public_path_records_preserved": true,
+  "original_fitted_coefficients_preserved": true,
+  "original_verifier_sha256": "f42355fcf236bbce378a73cc7c894619f9718352886b3a3993ec9afd61eaa8b2",
+  "details": "evaluation_mismatch_cases.json",
+  "support_issues_separate": "Five raw unknown support states and one negative-slack boundary state require independent classification; they are not the six integration discrepancies."
+}

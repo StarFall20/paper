@@ -16,5 +16,8 @@
   "clean_validation": "../../submission/finite_choice_20261110/reports/complete_gmm_clean_validation_20261112.json",
   "novelty_and_submission_readiness_proven": false,
   "all_nine_tables_reconciled": true,
-  "complete_GMM_comparison_integrated": true
+  "complete_GMM_comparison_integrated": true,
+  "probability_loss_supplement": "../../submission/probability_risk_20261112/evidence/clean_validation.json",
+  "probability_loss_integrated_in_main": false,
+  "main_manuscript_unchanged_in_probability_risk_followup": true
 }
