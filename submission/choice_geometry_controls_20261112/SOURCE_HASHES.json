@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "sha256": {
+    "analysis/choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+    "analysis/cluster_compensated_boundary.py": "d2a54776ef8019b5659861f2c97f04c362e85ddaf6d526bc1175b8705049ff72",
+    "analysis/cluster_compensation_phase.py": "b01e25d7970d5b2262e84b041883647fe5fb2644d5e2e1b61f98d11288bed224",
+    "analysis/cluster_compensation_plan_20261112.json": "72850b1ca2efcb2405a98e571f61e4384c25e5ae7a97b25da8e97846abc12dbe",
+    "analysis/finite_ratio_choice_boundary.py": "2dbc3dd9d69a16456315eb8b20126c5125892efe615a53b63320a6989e15b5ab",
+    "analysis/power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "analysis/public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "analysis/public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "analysis/radial_compensation_audit.py": "44293e63fc7369dc40fd3d4de0d778bff8e10f6702a4ab8b7e08990c25cc6dca",
+    "analysis/radial_compensation_plan_20261112.json": "77f66f5df3c9c00cf30ff389a40ce36fc0899c8cc32ecfa0a31ebf2e2a719556",
+    "analysis/replay_cluster_population_followups.py": "ac3496368f657bd6aa171db1fc5b98e4ef98bf05a2ce427343038d4a62a5e401",
+    "analysis/verify_cluster_compensation.py": "e408e6392f81d626f852c000ba399163d8b83ea8c64a089d78de499e3da630f0",
+    "analysis/verify_radial_compensation.py": "03a670423162bfe6a77505c5ba2ee2be7c9e49f97426816ef2780735118a9dce"
+  },
+  "entry_points": [
+    "cluster_compensated_boundary",
+    "cluster_compensation_phase",
+    "verify_cluster_compensation",
+    "replay_cluster_population_followups",
+    "radial_compensation_audit",
+    "verify_radial_compensation"
+  ],
+  "private_questionnaires_included": false,
+  "external_author_code_copied": false
+}

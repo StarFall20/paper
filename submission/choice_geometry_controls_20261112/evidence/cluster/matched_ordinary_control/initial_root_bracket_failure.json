@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-12",
+  "attempted_first_correlation": 0.7,
+  "attempted_root_bracket": [
+    0.05,
+    0.07
+  ],
+  "failure": "The .05 endpoint gives an indefinite covariance and NaN in the ordinary angle formula. brentq stopped before any matched-control population result or phase plan was generated.",
+  "primary_population_and_24000_phase_records_affected": false,
+  "correction": "Validate positive definiteness at both endpoints and use two admissible nonexchangeable structures. No arcsin clipping or tolerance relaxation."
+}

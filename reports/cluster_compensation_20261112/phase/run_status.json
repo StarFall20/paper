@@ -1,0 +1,9 @@
+{
+  "completed_records": 24000,
+  "requested_records": 24000,
+  "elapsed_seconds": 765.9926952080568,
+  "complete": true,
+  "unknowns": 0,
+  "all_records_retained": true,
+  "source_sha256": "b01e25d7970d5b2262e84b041883647fe5fb2644d5e2e1b61f98d11288bed224"
+}

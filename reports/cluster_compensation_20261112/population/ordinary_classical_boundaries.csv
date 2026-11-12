@@ -1,0 +1,7 @@
+model,outcome_dependence,ordinary_slopes_per_person
+independent_attributes,0.75,1.5
+independent_attributes,1.0,1.5
+equal_correlation,0.75,1.1908048710344332
+equal_correlation,1.0,1.087739828045911
+concentrated_correlation,0.75,1.0933488586871352
+concentrated_correlation,1.0,0.9577984782495135

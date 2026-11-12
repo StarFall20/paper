@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-12",
+  "all_planned_phase_records_retained": 24000,
+  "independent_support_replays": 384,
+  "verified_exterior_directions": 192,
+  "finite_interior_replays": 192,
+  "unknown_phase_records": 0,
+  "independent_status_mismatches": 0,
+  "all_discrete_states_enumerated": true,
+  "maximum_formula_vs_enumeration_error": 1.3877787807814457e-16,
+  "matched_covariance_checks": [
+    {
+      "outcome_dependence": 0.75,
+      "complete_joint_score_matrix_dimension": 10,
+      "covariance_difference": 1.942890293094024e-16
+    },
+    {
+      "outcome_dependence": 1.0,
+      "complete_joint_score_matrix_dimension": 10,
+      "covariance_difference": 1.3877787807814457e-17
+    }
+  ],
+  "source_sha256": "e408e6392f81d626f852c000ba399163d8b83ea8c64a089d78de499e3da630f0",
+  "independent_theorem_priority_or_publication_certified": false
+}

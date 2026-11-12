@@ -1,0 +1,6 @@
+{
+  "independent_box_projection_comparisons": 90,
+  "maximum_projection_value_error": 2.220446049250313e-15,
+  "matched_population_score_covariance_error": 0.0,
+  "prior_ordinary_boundary_is_not_a_novelty_claim": true
+}

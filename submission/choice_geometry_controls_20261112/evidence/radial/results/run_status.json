@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "records": 6000,
+  "requested_records": 6000,
+  "human_separation_invariance_mismatches": 2,
+  "unknowns": 2,
+  "elapsed_seconds": 31.120008541969582,
+  "source_sha256": "44293e63fc7369dc40fd3d4de0d778bff8e10f6702a4ab8b7e08990c25cc6dca",
+  "plan_sha256": "77f66f5df3c9c00cf30ff389a40ce36fc0899c8cc32ecfa0a31ebf2e2a719556",
+  "new_human_or_LLM_answers": 0
+}

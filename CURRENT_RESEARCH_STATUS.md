@@ -1,5 +1,13 @@
 # Current research status — updated 12 November 2026
 
+## Latest research controls at matched local information
+
+The [new control study](reports/public_conjoint_audit_20261109/同信息尺度控制与创新复核_20261112.md) reads cluster-robust PPI++, classical correlated-pattern capacity, elliptical separation and the target journal's scale-identification guidance. A fixed-three-task extension retains24000support events,48cells of500repetitions,and384independent original-objective replays. The first covariance match also changes ordinary capacity,so it is insufficient on its own. Ordinary-capacity-matched screening and all reverse discordances remain retained.
+
+The [stronger positive-scale construction](reports/radial_compensation_20261112/theory.md) preserves the full regular oracle covariance and the human separation event on every paired sample. It proposes an explicit radial compensation boundary,a strict heterogeneity cost and arbitrary collapse. Exact elementary bounds place two boundaries on opposite sides of ratio1/4. In the milder simulated scale mixture,160labels give500/500constant-scale versus3/500heterogeneous-scale feasible objectives at the existing oracle variance power. Both human objectives are finite on500/500draws. The scale is a specified positive multiplier on the complete utility,including intercept;unknown scale is not identified or estimated from null choices.
+
+All6000radial criterion events are independently replayed,including2042negative-cost exterior directions and39normal integrals. Two initial numerical unknowns are retained and resolved. A fresh standalone extraction reproduces9verification outputs and the4ordinary-matched screening outputs byte-for-byte. The [11-source package](submission/choice_geometry_controls_20261112/README.md) includes all generated records and plans. The49-page main paper remains frozen pending proof and closest-prior audit. No new human or LLM answers were obtained. Specific-theorem originality,adequate choice-modelling value and complete submission requirements remain open;the goal is active.
+
 ## Current manuscript integration and verification
 
 The [new integration](reports/probability_risk_integration_20261112/README.md) places the probability-loss consequence in the same compensated-logit paper. Proposition6 and AppendixD6 connect the positive-power existence envelope to a gradient-aware coefficient bound and diverging human new-row log loss. Existing Gaussian maximum-margin results are explicit inputs. The49-page full Word and24-page main reading version contain11tables; all9previous table blocks and100existing displayed mathematical bodies are preserved. The main text has8727words and the abstract206. Complete menu equations are grouped in AppendixF0.

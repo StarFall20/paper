@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-12",
+  "question": "Does a positive-power boundary difference remain after matching the entire cluster score covariance AND the ordinary-logit boundary?",
+  "motivation": "The first comparison also changes ordinary correlated-pattern capacity, so it cannot by itself establish a specifically compensated dependence increment.",
+  "fixed_first_correlations": [
+    0.8,
+    0.9
+  ],
+  "root_brackets": [
+    [
+      0.064,
+      0.066
+    ],
+    [
+      0.117,
+      0.119
+    ]
+  ],
+  "total_pairwise_correlation": 1.5,
+  "ordinary_boundary_at_shared_outcomes": 1.0,
+  "powers": [
+    1.0,
+    0.5
+  ],
+  "outcome_dependence": 0.75,
+  "epsilon": 0.25,
+  "tau": 1.0,
+  "normal_exponent": 12,
+  "normal_seed": 9512,
+  "all_conditions_retained": true,
+  "stage": "Population screening; no rigorous strict-gap certification.",
+  "formal_matching": "Define the third correlation through the stated ordinary-boundary scalar root."
+}

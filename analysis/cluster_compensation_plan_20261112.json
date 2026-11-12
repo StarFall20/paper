@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-12",
+  "role": "Exploratory theory extension plan fixed before these population calculations, not an external preregistration.",
+  "question": "Can the same compensated choice objective have different proportional finite-estimation boundaries under three-task Gaussian dependence structures with the same rowwise marginals and entire cluster score covariance?",
+  "cluster_size": 3,
+  "model": "Independent persons; Gaussian feature columns have the specified within-person covariance. All true slopes and the true fitted intercept are zero. Outcomes are independent of attributes. With probability outcome_dependence one fair choice is shared across the three tasks; otherwise all three choices are independent fair Bernoulli. Proxy flips are independent per task, with frozen prediction epsilon+(1-2*epsilon)*Z. All persons are fully labelled or fully auxiliary, and the two samples are independent.",
+  "models": [
+    {"name": "independent_attributes", "covariance": [[1,0,0],[0,1,0],[0,0,1]]},
+    {"name": "equal_correlation", "covariance": [[1,0.5,0.5],[0.5,1,0.5],[0.5,0.5,1]]},
+    {"name": "concentrated_correlation", "covariance": [[1,0.99,0.255],[0.99,1,0.255],[0.255,0.255,1]]}
+  ],
+  "outcome_dependences": [0.75,1.0],
+  "epsilon": 0.25,
+  "tau": 1.0,
+  "powers": [1.0,0.8,0.5,0.1],
+  "normal_exponents": [12,14],
+  "normal_seeds": [5093,5094],
+  "all_conditions_retained": true,
+  "independent_checks": ["box projection against independent bounded optimization", "independent-attribute reduction to three times the existing binary boundary", "analytic equality of human/prediction score covariance including intercept", "classical three-dimensional cone-angle ordinary-logit reduction"],
+  "phase_selection_rule": "After the population calculation, compare both correlated structures at each power using the fine-resolution two-seed mean boundary. Use slope-to-person ratios at their midpoint and midpoint plus or minus 0.12, with 40 and 80 labelled persons, equal auxiliary persons, outcome dependence 0.75, and 500 independent draws per condition. Same random draws across compared covariance structures, powers and dimensions. This is an illustrative design chosen from population theory, not confirmatory evaluation.",
+  "claims_excluded": ["new cluster-robust covariance estimator", "new ordinary perceptron capacity formula", "arbitrary within-person dependence", "mixed-logit inference", "partial labelling", "new empirical respondents", "independent novelty or publication certification"]
+}

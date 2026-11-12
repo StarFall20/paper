@@ -1,0 +1,9 @@
+# Dependence controls for compensated choice logit
+
+This exploratory follow-up keeps the same compensated marginal criterion and studies fixed three-task Gaussian blocks. The [derivation](theory.md) states the model and proof obligations. The [primary-source audit](closest_prior_and_access.json) attributes cluster-robust PPI and ordinary correlated-pattern capacity to existing work.
+
+The population plan has24conditions, evaluated at2normal resolutions and2seeds, for96records. Eight retained refinements use262144antithetic Sobol normals. The matched experiment retains24000support classifications,48cells of500repetitions and1000independent model draws. Every planned record is present and no classification is unknown. Independent original-objective replay checks384stratified cases, including192interior witnesses and192negative-cost exterior directions. All64discrete outcome/proxy states are enumerated to check the joint score moments.
+
+The initial covariance-matched comparison has different ordinary-logit boundaries. It is consequently insufficient to establish a specifically compensated increment. A separate ordinary-boundary-matched population screening retains all four calculations and the failed initial root bracket. That bracket was outside the positive-definite domain and produced no population output; it was repaired through input-domain validation. The screening gaps are small and have no rigorous numerical interval certificate. The radial follow-up preserves the human separation event samplewise and is the stronger control.
+
+All code and outputs are numerical research materials. The delivered49-page manuscript is unchanged. The first comparison, ordinary controls, reverse discordances and numerical failure record remain available; none is treated as an independent novelty or submission certificate.

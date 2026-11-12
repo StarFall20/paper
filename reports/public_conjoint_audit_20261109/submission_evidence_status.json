@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "goal_complete": false,
-  "decision": "Probability loss and its proof are integrated in the 49-page complete manuscript and 24-page main reading Word. Isolated full checks reconcile all 11 tables and preserve every adverse result. Specific-theorem priority, sufficient choice-modelling value and current submission facts remain under assessment.",
+  "decision": "The49-page main manuscript is preserved. New matched-local-information controls produce a candidate radial collapse theorem that also fixes the samplewise human separation event. All6000radial criteria are independently replayed. Extension proof,closest-prior equivalence,sufficient journal value and actual submission facts remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,9 +17,9 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "explicit_compensated_boundary_with_exact_score_equivalence_counterexample_integrated",
+      "status": "candidate_compensated_boundary_and_matched_information_radial_collapse_under_proof_and_prior_audit",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Assess closest-prior equivalence and sufficient choice-analysis value. Existing variance tuning,generic first-order/finite-sample differences and convex geometry remain attributed. The new oracle path isolates empirical curvature without estimated-weight noise;it is not a new estimator."
+      "remaining": "Complete the bounded-positive-scale extension proof,compare closest elliptical/weighted-loss results,and assess sufficient choice-analysis value. Ordinary scale invariance,cluster sandwich formulas and generic local/global distinctions remain established."
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -163,17 +163,31 @@
     "probability_risk_clean_directory_replay_passed": true,
     "probability_risk_main_manuscript_integrated": true,
     "main_reading_Word_pages": 24,
-    "all_eleven_tables_reconciled": true
+    "all_eleven_tables_reconciled": true,
+    "cluster_controls_support_records": 24000,
+    "cluster_controls_independent_support_replays": 384,
+    "radial_control_support_and_separation_records": 6000,
+    "radial_control_all_records_independently_replayed": true,
+    "radial_control_negative_directions": 2042,
+    "radial_control_independent_integrals": 39,
+    "radial_control_exact_opposite_boundary_bounds": true,
+    "radial_control_initial_unknowns_preserved": 2,
+    "radial_control_final_unknowns": 0,
+    "radial_control_samplewise_human_separation_fixed": true,
+    "radial_control_full_regular_covariance_fixed": true,
+    "radial_control_proof_and_priority_certified": false,
+    "new_controls_main_manuscript_integrated": false
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "概率损失正文整合与近邻核对_20261112.md",
+  "latest_progress_report": "同信息尺度控制与创新复核_20261112.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
   "observable_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/observable_integration_20261112.json",
   "complete_GMM_scope_evidence": "../complete_gmm_scope_20261112/README.md",
   "probability_risk_evidence": "../vanishing_power_risk_20261112/README.md",
-  "probability_risk_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/probability_risk_integration_20261112.json"
+  "probability_risk_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/probability_risk_integration_20261112.json",
+  "new_geometry_controls": "../../submission/choice_geometry_controls_20261112/README.md"
 }

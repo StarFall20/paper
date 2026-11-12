@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-12",
+  "maximum_population_moment_error": 5.551115123125783e-17,
+  "full_matrix_extension": "Every fitted coefficient has the same two-by-two block; cross-coordinate entries are zero, including intercept/Gaussian terms.",
+  "moments": [
+    {
+      "large_probability": 1.0,
+      "small_scale": 1.0,
+      "joint_score_covariance": [
+        [
+          0.25,
+          0.0625
+        ],
+        [
+          0.0625,
+          0.0625
+        ]
+      ],
+      "population_Hessian": 0.25
+    },
+    {
+      "large_probability": 0.1,
+      "small_scale": 0.1,
+      "joint_score_covariance": [
+        [
+          0.25000000000000006,
+          0.0625
+        ],
+        [
+          0.0625,
+          0.06250000000000001
+        ]
+      ],
+      "population_Hessian": 0.25000000000000006
+    },
+    {
+      "large_probability": 0.01,
+      "small_scale": 0.001,
+      "joint_score_covariance": [
+        [
+          0.25,
+          0.0625
+        ],
+        [
+          0.0625,
+          0.0625
+        ]
+      ],
+      "population_Hessian": 0.25
+    }
+  ],
+  "oracle_power": 0.5,
+  "oracle_first_order_covariance_per_label": 3.5,
+  "all_coefficient_score_covariances_match": true,
+  "finite_difference_derivative_error": 7.074227426073776e-09,
+  "ordinary_samplewise_separation_fixed_by_positive_whole_row_scaling": true,
+  "known_scale_multiplies_fitted_intercept": true,
+  "unknown_scale_identification_claim": false
+}

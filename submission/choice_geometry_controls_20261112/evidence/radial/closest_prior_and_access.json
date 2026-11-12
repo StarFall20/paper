@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-12",
+  "scope": "Targeted primary-source audit, not exhaustive priority clearance.",
+  "sources": [
+    {
+      "title": "Cluster-Robust Prediction-Powered Inference",
+      "authors": [
+        "David Broska",
+        "Michael Howes"
+      ],
+      "url": "https://arxiv.org/html/2610.09601v1",
+      "read_units": [
+        "Sections 1,2.2,2.4,2.7",
+        "Appendix A.1-A.4",
+        "Theorems 2 and 3"
+      ],
+      "established": "Cluster-robust PPI++ covariance and power tuning, including partially labelled clusters.",
+      "difference": "The new controls concern proportional finite minimizer events for specified losses. No new cluster standard error, partial-labelling method or generic local/global distinction is claimed."
+    },
+    {
+      "title": "Storage of correlated patterns in a perceptron",
+      "authors": [
+        "B Lopez",
+        "M Schroeder",
+        "M Opper"
+      ],
+      "url": "https://arxiv.org/html/cond-mat/9505093",
+      "read_units": [
+        "Pair construction",
+        "Equations 10 and 12-16"
+      ],
+      "established": "Correlated ordinary-pattern capacity and correlation mixtures.",
+      "difference": "The first matched-covariance cluster contrast also changes ordinary capacity, so it cannot alone establish a specifically compensated increment. The ordinary-boundary-matched screening and the stronger samplewise human-invariant radial construction address this alternative."
+    },
+    {
+      "title": "The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models",
+      "authors": [
+        "Wenpin Tang",
+        "Yuting Ye"
+      ],
+      "url": "https://arxiv.org/html/1908.06208",
+      "read_units": [
+        "Section 2.2 elliptical distributions",
+        "Assumptions 2.3-2.6",
+        "Theorem 2.7"
+      ],
+      "established": "Ordinary binary-response existence with elliptical covariates under the stated conditions.",
+      "difference": "The radial construction concerns a two-sample subtracted prediction loss and scales the full utility, including its fitted intercept. Ordinary row-scale invariance is explicitly an established control."
+    },
+    {
+      "title": "Correlation and scale in mixed logit models",
+      "authors": [
+        "Stephane Hess",
+        "Kenneth Train"
+      ],
+      "url": "https://eml.berkeley.edu/~train/papers/scale.pdf",
+      "DOI": "10.1016/j.jocm.2017.03.001",
+      "read_units": [
+        "Abstract",
+        "Section 5 conclusions and guidance",
+        "Published pages 6-7"
+      ],
+      "established": "Scale-related coefficient correlation and the identification limits of separating scale and taste heterogeneity.",
+      "application": "The extension specifies the positive precision exogenously and scales every coefficient. It does not infer an unknown scale from null choices or claim to disentangle taste and scale."
+    },
+    {
+      "title": "Phase transitions for the existence of unregularized M-estimators in single index models",
+      "url": "https://arxiv.org/html/2501.03163v2",
+      "read_units": [
+        "Assumption 2 item2",
+        "Theorems 2.4,2.5,3.1,3.4 and Appendix C.1"
+      ],
+      "difference": "The finite-infimum condition remains outside the subtracted labelled losses. Failure of a cited assumption is not an originality certificate."
+    }
+  ],
+  "author_code": {
+    "repository": "Michael-Howes/ppi_py",
+    "commit": "2dc0ceede320ddf81b4d1050df04fbd1f48bd31b",
+    "path": "ppi_py/cluster_ppi.py",
+    "blob": "0015d288c70851dcf3501cdf452c82edbdd3be2f",
+    "read_functions": [
+      "_ppi_cov",
+      "_calc_lam_opt",
+      "mean and OLS entry-point signatures"
+    ],
+    "external_code_executed": false,
+    "external_code_copied_into_analysis": false
+  },
+  "search_access": {
+    "Google_Scholar": "Direct title query for Cluster-Robust PPI was inaccessible through the current tool.",
+    "Scopus": "Direct TITLE-ABS-KEY query for prediction-powered inference and cluster was inaccessible through the current tool.",
+    "systematic_search_completed": false,
+    "search_absence_treated_as_novelty_evidence": false
+  },
+  "remaining": [
+    "Complete proof audit of the radial and fixed-cluster extensions.",
+    "Deepen closest-theorem comparison for compensated elliptical and weighted-loss models.",
+    "Assess adequate substantive value and integrate only the surviving increment into the 49-page manuscript.",
+    "Verify current author-guide rules and actual author/declaration facts."
+  ],
+  "goal_complete": false
+}

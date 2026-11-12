@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-12",
+  "independent_archive_extraction": true,
+  "candidate_archive_sha256": "35608759be7b7dcaa19d4c1124b116ea11b8d37007352e153aae31a2b402840a",
+  "initial_manifest_entries": 54,
+  "broken_local_links": 0,
+  "scientific_source_closure_files": 11,
+  "current_sources_equal_tested_isolated_sources": true,
+  "byte_identical_replay_outputs": [
+    "cluster/exterior_directions.json",
+    "cluster/independent_support_replays.csv",
+    "cluster/verification.json",
+    "radial/phase_trials_verified.csv",
+    "radial/exterior_directions.json",
+    "radial/independent_support_replays.csv",
+    "radial/verification.json",
+    "radial/phase_summary_verified.csv",
+    "radial/independent_population_integrals.csv"
+  ],
+  "ordinary_boundary_matched_four_population_outputs_reproduced_byte_for_byte": true,
+  "cluster_original_objective_replays": 384,
+  "radial_original_objective_replays": 6000,
+  "radial_independent_integrals": 39,
+  "radial_verified_negative_directions": 2042,
+  "radial_initial_solver_unknowns_preserved": 2,
+  "final_radial_unknowns": 0,
+  "full_primary_30000_simulation_LPs_rerun_in_isolation": false,
+  "all_6000_radial_verification_events_rerun": true,
+  "changes_after_numerical_checks": "Documentation and validation records. The follow-up writer CSV schema was checked by a fresh four-condition population replay.",
+  "main_49_page_manuscript_unchanged": true,
+  "proof_priority_or_submission_certified": false
+}

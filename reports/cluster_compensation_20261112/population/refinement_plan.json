@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-12",
+  "reason": "Check numerical integration stability of the matched-covariance candidate before making any strict-gap claim.",
+  "models": [
+    "equal_correlation",
+    "concentrated_correlation"
+  ],
+  "powers": [
+    0.8,
+    0.5
+  ],
+  "outcome_dependence": 0.75,
+  "normal_exponent": 18,
+  "seeds": [
+    5093,
+    5094
+  ],
+  "rigorous_interval_bound": false,
+  "created_before_these_refinement_evaluations": true
+}

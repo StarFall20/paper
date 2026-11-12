@@ -1,0 +1,13 @@
+labels,model,power,criterion,replications,finite,outside_or_separated,unknown,finite_frequency
+80,constant_scale,0.0,human_separation,500,500,0,0,1.0
+80,constant_scale,1.0,compensated_residual_support,500,452,48,0,0.904
+80,constant_scale,0.5,compensated_residual_support,500,499,1,0,0.998
+80,two_point_scale,0.0,human_separation,500,500,0,0,1.0
+80,two_point_scale,1.0,compensated_residual_support,500,0,500,0,0.0
+80,two_point_scale,0.5,compensated_residual_support,500,17,483,0,0.034
+160,constant_scale,0.0,human_separation,500,500,0,0,1.0
+160,constant_scale,1.0,compensated_residual_support,500,487,13,0,0.974
+160,constant_scale,0.5,compensated_residual_support,500,500,0,0,1.0
+160,two_point_scale,0.0,human_separation,500,500,0,0,1.0
+160,two_point_scale,1.0,compensated_residual_support,500,0,500,0,0.0
+160,two_point_scale,0.5,compensated_residual_support,500,3,497,0,0.006

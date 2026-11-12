@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-12",
+  "base_plan_sha256": "72850b1ca2efcb2405a98e571f61e4384c25e5ae7a97b25da8e97846abc12dbe",
+  "population_sha256": "aa8da2fffca056f46d970c510ed149cb370cea6f03a70fd07522338382d79d37",
+  "seed": 2026111209,
+  "replications": 500,
+  "persons": [
+    40,
+    80
+  ],
+  "outcome_dependence": 0.75,
+  "epsilon": 0.25,
+  "tau": 1,
+  "powers": [
+    1.0,
+    0.8,
+    0.5,
+    0.1
+  ],
+  "noise_dimensions": {
+    "40": {
+      "1.0": [
+        25,
+        29,
+        34
+      ],
+      "0.8": [
+        32,
+        37,
+        42
+      ],
+      "0.5": [
+        44,
+        49,
+        53
+      ],
+      "0.1": [
+        52,
+        57,
+        62
+      ]
+    },
+    "80": {
+      "1.0": [
+        49,
+        59,
+        68
+      ],
+      "0.8": [
+        64,
+        74,
+        84
+      ],
+      "0.5": [
+        88,
+        97,
+        107
+      ],
+      "0.1": [
+        105,
+        114,
+        124
+      ]
+    }
+  },
+  "paired_models": [
+    "equal_correlation",
+    "concentrated_correlation"
+  ],
+  "fit_intercept": true,
+  "fit_unused_signal": true,
+  "method": "Bounded residual feasibility; independent strict-interior and exterior-ray verification follows. Generic Gaussian position is invoked for the theoretical interior equivalence.",
+  "theory_selected_illustration": true,
+  "new_human_outcomes": 0
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-12",
+  "arithmetic": "Exact rational arithmetic; the elementary analytic inequalities are 3<pi<4 and 1/sqrt(2)>7/10.",
+  "constant_scale_boundary_lower": "213/640",
+  "heterogeneous_scale_boundary_upper": "10201/140625",
+  "dimension_ratio": "1/4",
+  "both_bounds_strict_on_opposite_sides": true,
+  "second_moment_exactly_one": true,
+  "large_scale_squared": "99999901/1000000",
+  "covariance_per_label": "7/2 times the identity",
+  "population_bound_requires_radial_extension_proof": true,
+  "independent_priority_certified": false
+}

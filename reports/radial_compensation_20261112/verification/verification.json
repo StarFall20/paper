@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-12",
+  "all_support_events_replayed": 6000,
+  "independent_exterior_directions": 2042,
+  "independent_population_integrals": 39,
+  "maximum_integral_formula_discrepancy": 6.733155699656379e-14,
+  "maximum_reported_quadrature_error": 1.8305461541394206e-08,
+  "original_unknowns_retained": 2,
+  "final_unknowns": 0,
+  "initial_human_invariance_flags": 2,
+  "human_invariance_flags_explanation": "The initial strict-margin solver returned unknown on two different rows of the paired human comparisons. Every human objective is independently replayed; original unknowns are retained in initial_status.",
+  "final_human_separation_invariance_mismatches": 0,
+  "source_sha256": "03a670423162bfe6a77505c5ba2ee2be7c9e49f97426816ef2780735118a9dce",
+  "originality_or_submission_certified": false
+}
