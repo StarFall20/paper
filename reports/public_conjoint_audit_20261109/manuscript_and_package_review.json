@@ -1,112 +1,18 @@
 {
-  "date": "2026-11-11",
-  "pages": 32,
-  "native_equations": 530,
-  "main_theorems": 2,
-  "main_figures": 3,
+  "date": "2026-11-12",
+  "pages": 42,
+  "native_equations": 746,
+  "main_theorems": 3,
+  "propositions": 5,
+  "corollaries": 3,
+  "proof_appendices": 6,
+  "main_figures": 5,
   "main_tables": 4,
-  "appendix_tables": 1,
-  "proof_appendices": 5,
-  "propositions": 4,
-  "corollaries": 2,
-  "full_manuscript": "../../submission/finite_choice_20261110/manuscript/paper.md",
-  "native_word": "../../submission/finite_choice_20261110/manuscript/paper.docx",
-  "source_sha256": "c2cfa659c9fe48e3c25dddeb98bd8a53a06f06778f894b9dfe37a17a20efd208",
-  "word_sha256": "18625559b4c9ccea13a4e891ed69a004e6a91af598532098271b82e75f5cc255",
-  "all_source_tables_equal_display_CSVs": true,
-  "clean_package_numeric_checks": {
-    "analytic_intercept_root_error": 1.4703560591300402e-10,
-    "boundary_exterior_rank_checks": true,
-    "balanced_LP_and_quadrature": {
-      "normal_tail_quadrature_max_error": 8.881784197001252e-16,
-      "unit_power_reduction_error": 8.881784197001252e-16,
-      "large_auxiliary_limit_checks": [
-        {
-          "epsilon": 0.1,
-          "finite_ratio": 10000,
-          "boundary": 1.7675831087453844,
-          "population_limit": 1.768388256576615
-        },
-        {
-          "epsilon": 0.25,
-          "finite_ratio": 10000,
-          "boundary": 0.8486849212713423,
-          "population_limit": 0.8488263631567752
-        }
-      ],
-      "original_interval_LP_matches": 100,
-      "identity_status_counts": {
-        "interior": 43,
-        "outside_mean_support": 57
-      },
-      "independent_priority_verified": false
-    },
-    "completed_grid_consistency": {
-      "finite_ratio_phase_checks.csv": {
-        "cells": 80,
-        "draws_per_cell": 500,
-        "unresolved": 0
-      },
-      "finite_ratio_signal_phase.csv": {
-        "cells": 80,
-        "draws_per_cell": 300,
-        "unresolved": 0
-      },
-      "imperfect_prediction_phase.csv": {
-        "cells": 80,
-        "draws_per_cell": 300,
-        "unresolved": 0
-      }
-    },
-    "full_math_checks_run": false,
-    "reported_table_rounding_checked": true,
-    "positive_power_paired_draws": 6000,
-    "raw_unknown_preserved_and_resolved": true,
-    "original_draws_replayed": 500,
-    "old_support_status_matches": 1000,
-    "all_three_tables_reconciled": true,
-    "joint_power_existing_draws_replayed": 6000,
-    "joint_power_new_feasibility_checks": 12000,
-    "classical_zonotope_reduction_checked": true,
-    "paired_expected_choice_loss_checked": true,
-    "DY_comparator_original_draws_replayed": 1000,
-    "DY_comparator_fits": 2000,
-    "general_all_power_boundary_checked": true,
-    "excluded_hard_endpoint_scope_checked": true,
-    "general_phase_calls": 90000,
-    "general_initial_unknowns": 12,
-    "finite_design_power_domain_cases": 1000,
-    "independent_endpoint_recession_certificates": 8,
-    "prediction_index_population_conditions": 30,
-    "prediction_index_paired_draws": 1000,
-    "prediction_index_phase_calls": 8000,
-    "appendix_tableE1_reconciled": true,
-    "trained_prediction_rotation_support_matches": 180,
-    "initial_rank_classification_failure_and_source_retained": true,
-    "requires_raw_questionnaires": false,
-    "proves_novelty_or_submission_readiness": false,
-    "all_four_main_tables_reconciled": true,
-    "independent_training_budget_draws": 800,
-    "training_budget_method_records": 4800,
-    "training_budget_strict_separation_certificates": 397,
-    "training_cost_adverse_results_retained": true
-  },
-  "training_budget_full_replay": {
-    "original_run_source_sha256": "81e35d2387c0c7241209f8816e2daf2f55842a9b182c2e50b069298e928d3b41",
-    "packaged_source_sha256": "e7c03dbad3a556a0d44d6e746dfbe3a86fc8ba77a40d7e1b2fed2dc08b0fd556",
-    "change": "Replace workspace-only import path with the adjacent packaged analysis directory; statistical algorithm,plan and random substreams unchanged",
-    "algorithm_changes": false,
-    "all_800_design_replay_pending": false,
-    "all_800_designs_replayed": true,
-    "replayed_method_rows": 4800,
-    "all_trial_and_aggregate_CSVs_byte_identical": {
-      "training_budget_trials.csv": true,
-      "training_budget_summary.csv": true,
-      "training_budget_status.csv": true,
-      "training_budget_paired.csv": true
-    },
-    "added_statistical_repetitions": 0
-  },
-  "previous_display_equations_and_Appendix_A_B_D_proofs_unchanged": true,
+  "appendix_tables": 4,
+  "source_sha256": "2c696e9312dd4bfa9e1c9760dadbd476941d01153c58f458f16fe829d0c82e17",
+  "word_sha256": "59fab4dad47d7045e1a6abecab142ae5002206922dca7a7a98edbf9459dbcf02",
+  "all_pages_visually_inspected": true,
+  "all_eight_tables_reconciled": true,
+  "clean_validation": "../../submission/finite_choice_20261110/reports/score_clean_validation_20261112.json",
   "novelty_and_submission_readiness_proven": false
 }

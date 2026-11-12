@@ -22,4 +22,8 @@ assert not any('trial_diagnostics' in x or 'unavailable_cases' in x or x.endswit
 menu=json.loads((ROOT/'results/menu/source_hashes.json').read_text())
 for path,sha in menu['sha256'].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==sha,path
 for script in menu['current_entry_points']:assert (ROOT/'analysis'/f'{script}.py').is_file(),script
-print(json.dumps({'manifest_entries_verified':len(listed),'broken_local_markdown_links':len(missing),'science_import_closure_present':True,'menu_source_closure_files':len(menu['sha256']),'raw_pickle_inputs_shipped':False}))
+score=json.loads((ROOT/'results/score/source_hashes.json').read_text())
+for path,sha in score['sha256'].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==sha,path
+for script in score['current_entry_points']:assert (ROOT/'analysis'/f'{script}.py').is_file(),script
+for key in ['population','phase']:assert hashlib.sha256((ROOT/score[key+'_plan']).read_bytes()).hexdigest()==score[key+'_plan_sha256']
+print(json.dumps({'manifest_entries_verified':len(listed),'broken_local_markdown_links':len(missing),'science_import_closure_present':True,'menu_source_closure_files':len(menu['sha256']),'score_source_closure_files':len(score['sha256']),'raw_pickle_inputs_shipped':False}))

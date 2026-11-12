@@ -2,23 +2,25 @@
 
 ## Highlights
 
-- Finite auxiliary budgets change corrected logit existence boundaries.
-- Whole menus change the strict gain condition for hard predicted choices.
-- A joint upper boundary limits every selection of correction power.
-- Matched simulations separate finite fits from error and interval coverage.
-- Prediction training labels count toward the total human label budget.
+- Oracle variance tuning can leave corrected choice logit without a finite root.
+- Equal truth scores and local covariances can yield opposite existence limits.
+- Whole menus retain joint probability constraints in the boundary calculation.
+- A common upper boundary limits every correction power selection.
+- Matched comparisons separate availability, error, coverage and training cost.
 
 ## Cover letter scientific text
 
 Dear Editors,
 
-Please consider “When prediction assisted logit estimates exist” for the Journal of Choice Modelling. The paper studies when an existing prediction corrected choice objective admits finite estimation with scarce human labels. We derive its existence boundary with finite auxiliary samples for binary logit and common coefficient multinomial choice, under independent Gaussian profile assumptions. The models estimate a utility signal and choice constants and use frozen predictions. The binary model supplies explicit scalar benchmarks; the menu model retains its joint probability constraints.
+Please consider “When prediction assisted logit estimates exist” for the Journal of Choice Modelling. The paper studies finite estimation of an existing prediction corrected choice objective with scarce human labels. We derive its existence boundary for binary logit and common coefficient multinomial choice with finite auxiliary samples, fitted choice constants, a utility signal and independent Gaussian remaining attributes.
 
-The positive power upper envelope bounds every power selection and governs strictly positive data dependent powers tending to zero. Hard category predictions expose a condition that changes with menu size: always wrong binary predictions have the ordinary limiting boundary, while larger menus retain a strict gap under the stated assumptions. The proof treats the zero scale face and the perfect prediction endpoint explicitly. Existing categorical prediction correction and common coefficient MNL constructions are attributed to Fan et al. and Ye and Yoganarasimhan. Generic support geometry, conic kinematics and the classical Gaussian zonotope special case retain their established attribution.
+An oracle prediction path holds the finite sample gradient at the true parameter exactly identical and preserves the full fixed dimensional asymptotic covariance. Its corrected objectives have opposite finite solution limits in a strict scalar construction. Known population predictions and weights isolate empirical curvature. A nonzero signal experiment retains 1000 independent model draws and 16000 matched classifications; in one condition the two oracle references have finite root frequencies of 0.924 and 0.012. The construction supplies an existence comparison for the same corrected objective.
 
-The empirical evidence uses pinned released vaccine choices and known truth simulations on their attribute support. Comparisons retain established power tuning, one step estimation, soft pooling, ridge and DY prior alternatives. A matched menu experiment compares identical draws and attribute dimensions using the hard predictor's actual existing variance criterion. Availability, error and interval performance are reported separately. A fixed total label experiment counts independent predictor training and gives no prediction error advantage over direct human ridge in its examined grid. The archive provides complete proofs, code, numerical records, figure sources and hash verified public input metadata. The paper uses released choices and simulated outcomes.
+The whole menu calculation retains joint probability constraints. Its positive power upper envelope bounds every power selection, and the hard prediction strict gain condition changes with menu size. The proof treats the zero scale face and the perfect prediction endpoint explicitly. Existing prediction correction, variance tuning, general support geometry and conic machinery retain their source attribution.
 
-The binary fitted index extension clarifies when independently trained linear scores enter the same existence calculation. Its convergence conditions, complete matched calibrated examples and finite sample reversals remain reported. The manuscript connects finite estimability to the specification and computational decisions of choice analysts.
+Pinned released vaccine choices and known truth support simulations connect the result to choice estimation. Comparisons retain established power tuning, one step estimation, soft pooling, ridge and DY prior alternatives. Availability, error and interval performance are reported separately. A fixed total label experiment counts independent predictor training and gives no prediction error advantage over direct human ridge in its examined grid. The reproduction archive includes complete proofs, scientific source hashes, original numerical records and editable figure sources. No new human or language model responses were generated.
+
+The manuscript gives choice analysts an explicit finite estimation calculation alongside target specification and variance analysis.
 
 ## Information needed to finalize the submission record
 

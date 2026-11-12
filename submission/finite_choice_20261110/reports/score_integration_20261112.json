@@ -1,0 +1,39 @@
+{
+  "old_source_sha256": "2d0220e72eac3c1219f13f37e8fe07bedb71b4bbb537729398826152f79c3b9c",
+  "new_source_sha256": "2c696e9312dd4bfa9e1c9760dadbd476941d01153c58f458f16fe829d0c82e17",
+  "abstract_words": 211,
+  "preexisting_tables_preserved": 7,
+  "total_tables": 8,
+  "figure_caption_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "proposition_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "main_equations": 28,
+  "proof_appendices": 6,
+  "main_theorems": 3,
+  "corollaries": 3,
+  "new_human_or_LLM_responses": 0,
+  "native_structure": {
+    "source_sha256": "2c696e9312dd4bfa9e1c9760dadbd476941d01153c58f458f16fe829d0c82e17",
+    "native_math_count": 746,
+    "display_equation_paragraphs": 92,
+    "rasterized_equations": 0,
+    "raw_tex_commands_left_in_text": false,
+    "tables": 8
+  },
+  "docx_sha256": "59fab4dad47d7045e1a6abecab142ae5002206922dca7a7a98edbf9459dbcf02",
+  "visual_review_status": "passed",
+  "rendered_pages": 42,
+  "all_pages_visually_inspected": true,
+  "full_math_and_all_eight_tables_verified": true
+}

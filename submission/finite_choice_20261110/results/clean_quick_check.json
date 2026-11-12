@@ -73,5 +73,15 @@
   "independent_training_budget_draws": 800,
   "training_budget_method_records": 4800,
   "training_budget_strict_separation_certificates": 397,
-  "training_cost_adverse_results_retained": true
+  "training_cost_adverse_results_retained": true,
+  "score_identity_source_closure_files": 13,
+  "identical_score_phase_records_reconciled": 16000,
+  "identical_truth_score_groups": 4000,
+  "independent_score_path_separator_directions": 2355,
+  "score_path_remaining_unknowns": 0,
+  "oracle_counterexample_rational_bounds_checked": true,
+  "appendix_tableB1_reconciled": true,
+  "appendix_tablesF1F2_regenerated_and_reconciled": true,
+  "all_eight_manuscript_tables_reconciled": true,
+  "all_original_Monte_Carlo_LPs_rerun": false
 }

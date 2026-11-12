@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "goal_complete": false,
-  "decision": "Same-objective theory now has an oracle variance-optimal path with identical finite-sample truth scores and full fixed-dimensional covariance but opposite existence limits. Rational bounds and1000matched simulated draws/16000classifications are complete and independently reconciled. The new result is a supplement;38-page manuscript remains unchanged. Priority,full integration and sufficient practical contribution remain open.",
+  "decision": "The identical-truth-score oracle path and strict counterexample are integrated into the 42-page native manuscript. All eight tables and full mathematical checks pass in an independent extracted package; all pages are visually inspected. Closest-prior equivalence, sufficient practical contribution, current journal author-guide rules and actual author declarations remain open.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -17,7 +17,7 @@
     },
     {
       "requirement": "Independent valuable innovation",
-      "status": "explicit_compensated_boundary_with_identical_truth_score_oracle_counterexample_retained",
+      "status": "explicit_compensated_boundary_with_exact_score_equivalence_counterexample_integrated",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Assess closest-prior equivalence and sufficient choice-analysis value. Existing variance tuning,generic first-order/finite-sample differences and convex geometry remain attributed. The new oracle path isolates empirical curvature without estimated-weight noise;it is not a new estimator."
     },
@@ -29,8 +29,8 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "three_theorems_integrated_with_full_menu_proof_and_clean_directory_numerical_checks",
-      "evidence": "../../submission/finite_choice_20261110/reports/menu_clean_validation_20261112.json",
+      "status": "three_theorems_and_oracle_score_proposition_integrated_clean_checks_passed",
+      "evidence": "../../submission/finite_choice_20261110/reports/score_clean_validation_20261112.json",
       "remaining": "Independent proof and closest-prior equivalence assessment remain open. The menu theorem requires independent Gaussian profile columns,fixed menu size,frozen low-index predictions and positive mean squared prediction error. Perfect predictions are a separate pooled-likelihood reduction. Arbitrary categorical supports,repeated respondent panels and black-box cross-fitting are outside the proved probability boundary."
     },
     {
@@ -41,15 +41,15 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "whole_menu_sources_and_results_integrated_fresh_extraction_verified",
-      "evidence": "../../submission/finite_choice_20261110/reports/menu_clean_validation_20261112.json",
+      "status": "score_and_menu_source_closures_integrated_independent_extraction_verified",
+      "evidence": "../../submission/finite_choice_20261110/reports/score_clean_validation_20261112.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "38_page_native_Word_with_whole_menu_appendix_visually_verified_materials_updated",
+      "status": "42_page_native_Word_with_score_and_menu_results_visually_verified_materials_updated",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Integrate the new identical-score oracle comparison after substantive review;current38-page Word remains intact. Current author-guide rules and actual author/declaration facts remain unverified."
+      "remaining": "Current author-guide rules and actual author/declaration facts remain unverified. Independent contribution sufficiency remains under assessment."
     }
   ],
   "self_review_scores_used_as_evidence": false,
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 32,
+    "native_Word_pages": 42,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 530,
+    "native_math_objects": 746,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -92,7 +92,7 @@
     "prediction_index_phase_calls": 8000,
     "prediction_index_unknowns": 0,
     "trained_prediction_rotation_matches": 180,
-    "proof_appendices": 5,
+    "proof_appendices": 6,
     "main_tables": 4,
     "training_budget_draws": 800,
     "training_budget_method_records": 4800,
@@ -110,7 +110,7 @@
     "menu_independent_full_constrained_cone_QPs": 12,
     "real_DCE_balanced_menu_allocations": 120,
     "real_DCE_correction_cancels_for_menu_only_predictions": true,
-    "menu_candidate_integrated_into_main_manuscript": false,
+    "menu_candidate_integrated_into_main_manuscript": true,
     "hard_menu_population_evaluations": 320,
     "hard_menu_population_event_conditions": 80,
     "hard_menu_variance_reference_conditions": 32,
@@ -124,11 +124,23 @@
     "hard_menu_residual_fallbacks_retained": 1,
     "hard_menu_simplex_face_and_perfect_label_addendum": true,
     "common_coefficient_MNL_prediction_correction_prior_explicit": true,
-    "Scopus_and_Google_Scholar_systematic_review_completed": false
+    "Scopus_and_Google_Scholar_systematic_review_completed": false,
+    "manuscript_tables": 8,
+    "main_figures": 5,
+    "score_oracle_path_integrated_into_main_manuscript": true,
+    "score_matched_model_draws": 1000,
+    "score_support_classifications": 16000,
+    "score_phase_cells": 32,
+    "score_truth_score_groups_replayed": 4000,
+    "score_ordinary_separator_directions_checked": 2355,
+    "score_all_eight_tables_reconciled": true,
+    "score_exact_rational_bounds_checked": true,
+    "all_pages_visually_inspected": true
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "多选项正文整合与复现核对_20261112.md",
-  "variance_reference_evidence": "../variance_reference_audit_20261112/README.md"
+  "latest_progress_report": "局部得分结果正文整合与复现核对_20261112.md",
+  "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
+  "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json"
 }

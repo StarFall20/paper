@@ -3,7 +3,8 @@
 Run without public input downloads. This is not an originality or acceptance test.
 """
 from pathlib import Path
-import argparse,json,subprocess,sys,hashlib
+import argparse,json,subprocess,sys,hashlib,shutil
+from fractions import Fraction
 import numpy as np
 import pandas as pd
 from audit_binary_choice import audit
@@ -181,6 +182,24 @@ def main():
  assert len(negative)==16 and negative.excess_loss_difference.gt(0).all()
  report={'analytic_intercept_root_error':err,'boundary_exterior_rank_checks':True,'balanced_LP_and_quadrature':balanced,'completed_grid_consistency':grids,'full_math_checks_run':a.full_math,'reported_table_rounding_checked':True,'positive_power_paired_draws':6000,'raw_unknown_preserved_and_resolved':True,'original_draws_replayed':500,'old_support_status_matches':1000,'all_three_tables_reconciled':True,'joint_power_existing_draws_replayed':6000,'joint_power_new_feasibility_checks':12000,'classical_zonotope_reduction_checked':True,'paired_expected_choice_loss_checked':True,'DY_comparator_original_draws_replayed':1000,'DY_comparator_fits':2000,'general_all_power_boundary_checked':True,'excluded_hard_endpoint_scope_checked':True,'general_phase_calls':90000,'general_initial_unknowns':general['initial_unknowns'],'finite_design_power_domain_cases':1000,'independent_endpoint_recession_certificates':8,'prediction_index_population_conditions':30,'prediction_index_paired_draws':1000,'prediction_index_phase_calls':8000,'appendix_tableE1_reconciled':True,'trained_prediction_rotation_support_matches':180,'initial_rank_classification_failure_and_source_retained':True,'requires_raw_questionnaires':False,'proves_novelty_or_submission_readiness':False}
  report.update(all_four_main_tables_reconciled=True,independent_training_budget_draws=800,training_budget_method_records=4800,training_budget_strict_separation_certificates=397,training_cost_adverse_results_retained=True)
- (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True}))
+ score=json.loads((root/'results/score/source_hashes.json').read_text())
+ for path,digest in score['sha256'].items():assert hashlib.sha256((root/path).read_bytes()).hexdigest()==digest,path
+ for key in ['population','phase']:assert hashlib.sha256((root/score[key+'_plan']).read_bytes()).hexdigest()==score[key+'_plan_sha256']
+ for script in ['verify_variance_score_identity.py','certify_variance_reference_counterexample.py']:
+  subprocess.run([sys.executable,str(root/'analysis'/script),'--out',str(a.out/'score_identity')],check=True,stdout=subprocess.DEVNULL)
+ score_phase=a.out/'score_phase';shutil.copytree(root/'results/score/phase',score_phase,dirs_exist_ok=True)
+ subprocess.run([sys.executable,str(root/'analysis/verify_variance_reference_phase.py'),'--plan',str(root/score['phase_plan']),'--out',str(score_phase),'--population',str(root/'results/score/population_clean'),'--certificate',str(root/'results/score/certified_bounds/rational_counterexample_certificate.json')],check=True,stdout=subprocess.DEVNULL)
+ certificate=json.loads((a.out/'score_identity/rational_counterexample_certificate.json').read_text())
+ assert Fraction(certificate['unit_criterion_at_one']['lower_rational'])>Fraction(57,100)
+ derivative=certificate['unit_criterion_derivative_at_one'];assert -Fraction(11,100)<Fraction(derivative['lower_rational'])<=Fraction(derivative['upper_rational'])<Fraction(11,100)
+ assert Fraction(certificate['oracle_criterion_at_one']['upper_rational'])<Fraction(32,25)
+ summary=pd.read_csv(root/'results/score/phase/variance_reference_phase_summary.csv')
+ expected=summary.pivot(index=['label_rows','dimension_ratio'],columns='method',values='finite_frequency').reset_index()
+ table=pd.read_csv(root/'manuscript/tableB1.csv');assert list(table.columns)==list(expected.columns) and np.allclose(table.to_numpy(float),expected.to_numpy(float),rtol=0,atol=1e-14)
+ assert (root/'manuscript/tableB1.md').read_text().strip() in (root/'manuscript/paper.md').read_text()
+ menu_publication=a.out/'menu_publication';shutil.copytree(root/'manuscript',menu_publication,dirs_exist_ok=True)
+ subprocess.run([sys.executable,str(root/'analysis/build_menu_publication_assets.py'),'--results',str(root/'results/menu'),'--manuscript',str(menu_publication)],check=True,stdout=subprocess.DEVNULL)
+ report.update(score_identity_source_closure_files=len(score['sha256']),identical_score_phase_records_reconciled=16000,identical_truth_score_groups=4000,independent_score_path_separator_directions=2355,score_path_remaining_unknowns=0,oracle_counterexample_rational_bounds_checked=True,appendix_tableB1_reconciled=True,appendix_tablesF1F2_regenerated_and_reconciled=True,all_eight_manuscript_tables_reconciled=True,all_original_Monte_Carlo_LPs_rerun=False)
+ (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'all_eight_tables_reconciled':True}))
 
 if __name__=='__main__':main()

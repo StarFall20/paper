@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-12",
+  "selection": "Mechanism illustration selected after the 40-condition population audit. Primary comparison holds the finite-sample truth score and full fixed-dimensional oracle covariance equal; it is not a comparison of fitted PPI++ tuning algorithms.",
+  "seed": 2026111217,
+  "gamma": 1.5,
+  "epsilon": 0.1,
+  "tau": 1.0,
+  "label_rows": [80, 160],
+  "dimension_ratios": [0.25, 0.36, 0.45, 0.65],
+  "replications": 500,
+  "methods": [
+    {"name": "ordinary", "strength": 1.0, "power": 0.0},
+    {"name": "oracle_variance_reference", "strength": 1.0, "power": 0.5},
+    {"name": "shrunk_variance_reference", "strength": 0.5, "power": 1.0},
+    {"name": "shrunk_fixed_half", "strength": 0.5, "power": 0.5}
+  ],
+  "unit": "Independent simulated model draw; the four dimensions and all four methods share each draw.",
+  "requested_model_draws": 1000,
+  "requested_support_classifications": 16000,
+  "independent_residual_check_every_trials": 50,
+  "recording": "Keep every classification including boundary and unresolved states. Directly verify every exterior recession direction and every ordinary separation direction. On an unresolved case retain the exact design and completed prefix and stop; do not resample.",
+  "estimand": "Finite unpenalized root availability; paired differences and Monte Carlo standard errors use complete matched draws.",
+  "nonclaims": "No new respondents,questionnaire edits,LLM answers,new estimator,universal accuracy ranking,or growing-dimension interval guarantee. The g_s construction uses the true attribute-only probability as an analytical reference."
+}

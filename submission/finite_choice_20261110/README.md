@@ -2,7 +2,7 @@
 
 This archive accompanies **When prediction assisted logit estimates exist**. It contains one compensated choice objective, its completed results and the code needed to regenerate them. It excludes the historical research notebook, raw questionnaires, human participant response vectors and downloaded numeric pickle inputs. Complete generated menu records are included for numerical verification. The separate questionnaire application with 300 records supplies no observations to this paper.
 
-The manuscript and package were refreshed on 12 November 2026. The stable directory name is retained. The original 10 November archive and the 32 page binary manuscript of 11 November remain preserved. The current text adds Section 3.8, Theorem 3, Corollary 3 and Appendix F for whole menus. Section 5.4, Table 4 and Appendix C4 retain the adverse independent training evidence; all previous main comparison tables are unchanged. This comparison does not support a label saving or prediction superiority claim for the examined allocation and fixed powers.
+The manuscript and package were refreshed on 12 November 2026. The stable directory name is retained. The original 10 November archive, the 32 page binary manuscript and the 38 page menu integration remain preserved. Section 3.5, Proposition 2 and Appendix B now integrate the oracle local score equivalence path and its strict existence counterexample. Whole menus are in Section 3.9, Theorem 3, Corollary 3 and Appendix F. Section 5.4, Table 4 and Appendix C4 retain the adverse independent training evidence. All seven preexisting tables are unchanged; Table B1 adds the complete matched score-path frequencies.
 
 The binary results concern independent Gaussian remaining attributes,an estimated intercept,one utility signal,a frozen predictor and a finite auxiliary ratio. The menu result uses alternative-specific Gaussian profiles,common slopes and fitted alternative constants. Theorem3 allows simplex-face predictions with positive mean squared error;AppendixF treats perfect hard labels by an exact weighted likelihood reduction. The positive power upper envelope also bounds every power simultaneously. The binary strict-gap condition and the larger-menu condition differ. Clustered respondent choices and arbitrary categorical designs are not covered by this Gaussian phase law. The finite-design support LP,projection routines and symmetric zonotope special case are classical. Numerical agreement does not establish priority.
 
@@ -25,7 +25,7 @@ python analysis/audit_binary_choice.py examples/intercept.csv --features interce
 python analysis/build_publication_assets.py --results results --manuscript manuscript
 ```
 
-The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all four main tables,Appendix Table E1,the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
+The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all eight manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
 
 Optional Word authoring uses the packages in `authoring/requirements.txt`:
 
@@ -33,7 +33,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document has 38 rendered and visually inspected pages and 662 native mathematical objects. The [current integration record](reports/menu_integration_20261112.json) and [page review](reports/menu_visual_qa_20261112.json) identify the source, Word and page hashes. The earlier 32 page review remains in `results/manuscript_render_review.json` as a historical record. Fraction arguments must be braced in the strict authoring subset. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
+The strict TeX subset converter emits native OMML equations. The current Word has 42 rendered pages, with its final visual review recorded in [the score integration review](reports/score_visual_qa_20261112.json). The [integration record](reports/score_integration_20261112.json) identifies the exact manuscript source and preserves the previous seven tables. Earlier 32 and 38 page reviews remain historical records. Fraction arguments must be braced in this strict subset. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -94,7 +94,7 @@ Run the original 500 repetition finite pool experiment first: its locally regene
 
 The raw phase table retains one unknown solver result. The verifier reconstructs its draw and records an independently verified exterior direction in `vanishing_power_resolution.json`; `vanishing_power_phase_verified.csv` is separate from the raw table. Keep both. A new solver may resolve the original draw directly, so regenerated unresolved counts can differ without changing the mathematical event.
 
-Table 3 retains all availability counts. Figure 4 compares errors on the same 412 available unit power fits; the complete paired table and human separation strata accompany it. The original positive power right limit takes the proportional sample limit first and the power limit second. Its recorded derivation and status flags predate the stronger balanced joint result below; they are retained unchanged. No new optimal inference weight or confidence interval guarantee follows. The [original derivation](reports/public_conjoint_audit_20261109/vanishing_power_derivation_20261110.md) and [regularization prior comparison](reports/public_conjoint_audit_20261109/synthetic_regularization_prior_comparison_20261110.md) state that earlier step.
+Table 3 retains all availability counts. Figure 5 compares errors on the same 412 available unit power fits; the complete paired table and human separation strata accompany it. The original positive power right limit takes the proportional sample limit first and the power limit second. Its recorded derivation and status flags predate the stronger balanced joint result below; they are retained unchanged. No new optimal inference weight or confidence interval guarantee follows. The [original derivation](reports/public_conjoint_audit_20261109/vanishing_power_derivation_20261110.md) and [regularization prior comparison](reports/public_conjoint_audit_20261109/synthetic_regularization_prior_comparison_20261110.md) state that earlier step.
 
 ## Reproduce the simultaneous power bound and its direct prior check
 
@@ -138,7 +138,7 @@ The ordinary score sandwich is a diagnostic for raw DY estimates. It does not im
 
 ## Inventory and output map
 
-The manuscript's Section3.7 and AppendixE retain a fixed number of prediction indices among fitted Gaussian attributes. A conditional corollary covers independently trained linear logistic scores when their signal overlap,orthogonal norm and intercept converge to finite deterministic limits. It does not supply arbitrary cross-fitting or black-box training guarantees. Identical calibrated response/prediction laws can have different existence boundaries when their relationship to fitted attributes changes. The generic alignment principle and Gaussian rotation are established tools;the paper calculates their role in its compensated objective.
+The manuscript's Section 3.8 and Appendix E retain a fixed number of prediction indices among fitted Gaussian attributes. A conditional corollary covers independently trained linear logistic scores when their signal overlap,orthogonal norm and intercept converge to finite deterministic limits. It does not supply arbitrary cross-fitting or black-box training guarantees. Identical calibrated response/prediction laws can have different existence boundaries when their relationship to fitted attributes changes. The generic alignment principle and Gaussian rotation are established tools;the paper calculates their role in its compensated objective.
 
 ```sh
 python analysis/attribute_aligned_prediction.py --out regenerated/alignment
@@ -213,4 +213,25 @@ python analysis/build_menu_publication_assets.py --results results/menu --manusc
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out regenerated/paper.docx --report regenerated/docx_structure.json
 ```
 
-Figure 2 uses `figure_menu_phase.png` and its editable SVG. The retained legacy assets `figure2_estimates_intervals.png` and `figure3_power_endpoint.png` now appear as Figures 3 and 4 in the text; their numerical content is unchanged. Tables F1 and F2 are generated from the same complete menu CSVs. Every new scientific source is unchanged from its recorded research version, as checked by [source hashes](results/menu/source_hashes.json). The Word source uses native equations. The earlier manuscript and numerical failures remain preserved without being treated as novelty or publication-readiness evidence.
+Figure 3 uses `figure_menu_phase.png` and its editable SVG. The retained legacy assets `figure2_estimates_intervals.png` and `figure3_power_endpoint.png` appear as Figures 4 and 5. Their numerical content is unchanged. Tables F1 and F2 come from the same complete menu CSVs. The menu scientific source hashes remain checked in [source hashes](results/menu/source_hashes.json). The earlier manuscript and numerical failure records retain their dated scope.
+
+## Oracle local score equivalence
+
+Section 3.5 and Appendix B hold the finite sample truth score and the full fixed dimensional asymptotic covariance equal along a prediction and power path. The same corrected objective has different finite solution boundaries. The strict null example uses rational bounds; the nonzero signal illustration uses matched Gaussian draws. The construction uses the true attribute-only probability as a theoretical reference. It introduces no fitted calibration or new weight selection algorithm.
+
+The package retains the [completed population calculation](results/score/population_clean/variance_reference_population_primary.csv), [complete matched records](results/score/phase/variance_reference_phase_trials.csv), [independent verification](results/score/phase/variance_reference_complete_verification.json) and [rational bounds](results/score/certified_bounds/rational_counterexample_certificate.json). Figure 2 uses `identical_score_phase.png` and its editable SVG. Table B1 contains every displayed frequency. The [scientific source closure](results/score/source_hashes.json) has 13 unchanged files and identifies both frozen plans. The [derivation record](reports/score/score_identity_derivation.md) and [prior reading scope](reports/score/source_scope.json) distinguish the oracle comparison from existing PPI and GMM results.
+
+The [clean-directory validation](reports/score_clean_validation_20261112.json) records the completed full mathematical quick check. The standard quick check verifies all eight manuscript tables, the exact rational inequalities used in Proposition 2, the full covariance and objective identities, and the 16000 retained score-path records. It regenerates all 4000 matched truth scores and 2355 ordinary separators. It does not rerun all original Monte Carlo classification programs.
+
+Regenerate the new analysis in fresh output directories:
+
+```sh
+python analysis/variance_reference_existence_audit.py --plan analysis/variance_reference_population_plan_20261112.json --out regenerated/score_population
+python analysis/verify_variance_score_identity.py --out regenerated/score_identity
+python analysis/certify_variance_reference_counterexample.py --out regenerated/score_bounds
+python analysis/variance_reference_matched_phase.py --plan analysis/variance_reference_phase_plan_20261112.json --out regenerated/score_phase
+python analysis/verify_variance_reference_phase.py --plan analysis/variance_reference_phase_plan_20261112.json --out regenerated/score_phase --population regenerated/score_population --certificate regenerated/score_bounds/rational_counterexample_certificate.json
+python analysis/plot_variance_reference_audit.py --phase regenerated/score_phase --population regenerated/score_population --out regenerated/score_publication
+```
+
+The last command writes the figure, editable SVG and full table to the temporary output directory. The complete simulator supports resuming only with the same source and plan hashes. No questionnaire inputs enter this analysis.
