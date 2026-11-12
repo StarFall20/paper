@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-12",
+  "purpose": "Claim-level comparison for the same corrected-logit existence question; not an exhaustive database review or novelty certificate",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2610.21837v2",
+      "title": "Covariance-Calibrated Prediction-Powered Inference",
+      "newly_inspected_units": ["Supplement S2.10 Proposition S2.4", "S2.11 Proposition S2.5 and one-step corollary", "S5.5-S5.7", "Main Theorem 4.2"],
+      "established": "Same first-order-efficient limits can coexist with very different conditional finite-design risks. Regular fixed-dimensional logistic existence and numerical accuracy are also treated under stated pilot and weight conditions.",
+      "effect_on_our_claim": "Generic first-order versus finite-sample differences and generic pilot/global-solution diagnostics are not new claims. The comparison must concern our specified convex corrected loss and proportional-dimension existence boundary. The observable-reference identity is not itself a sampling theorem.",
+      "remaining": "No claim of theorem-by-theorem equivalence exclusion beyond the inspected units; no complete full-paper rereading asserted"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00362-026-01902-2",
+      "secondary_primary_record": "https://scholar.nycu.edu.tw/en/publications/on-the-existence-of-maximum-likelihood-estimators-in-a-multinomia/",
+      "title": "On the existence of maximum likelihood estimators in a multinomial choice model under positivity constraints",
+      "authors": ["Cheng-Der Fuh", "Chu-Lan Michael Kao", "Tianxiao Pang"],
+      "publisher_online_date": "2026-09-10",
+      "issue": "Statistical Papers 67, article 120, issue 5, October 2026",
+      "inspected_units": ["Publisher abstract and bibliography", "Author institution bibliographic record"],
+      "established": "MLE existence under positivity constraints, additional monotonicity conditions, and an operational multinomial criterion are within the stated scope.",
+      "effect_on_our_claim": "Multinomial existence criteria and finite-iteration/boundary distinctions cannot be claimed generically new. Our current loss uses unconstrained coefficients and labelled subtraction; exact correspondence requires the unavailable full theorem statements.",
+      "full_text_status": "Subscription preview; no purchase or institutional-access bypass attempted",
+      "equivalence_excluded": false
+    },
+    {
+      "url": "https://arxiv.org/html/2604.21260",
+      "title": "Calibeating Prediction-Powered Inference",
+      "authors": ["Lars van der Laan", "Mark van der Laan"],
+      "inspected_units": ["Abstract", "Section 3.3 and Remark 3", "Appendix E Theorem 4"],
+      "established": "Post-processing prediction scores, linear-calibration equivalence to PPI++, and the classical general AIPW estimating-function class are treated. The general moment result assumes a regular consistent solution.",
+      "effect_on_our_claim": "Prediction recalibration and fixed-dimensional variance equivalence are not innovations here. The current observable path is a controlled score-preserving diagnostic, not a proposed superior calibrator or a new AIPW class."
+    },
+    {
+      "url": "https://proceedings.mlr.press/v267/li25ak.html",
+      "title": "Prediction-Powered Adaptive Shrinkage Estimation",
+      "authors": ["Sida Li", "Nikolaos Ignatiadis"],
+      "inspected_units": ["Official proceedings abstract and bibliographic record"],
+      "established": "Prediction-based shrinkage across multiple mean-estimation tasks and risk tuning are already studied.",
+      "effect_on_our_claim": "No generic innovation claim for combining prediction assistance and shrinkage; no full theorem-equivalence assessment inferred from the abstract."
+    },
+    {
+      "url": "https://openreview.net/forum?id=TPuLYAtiqz",
+      "unverified_title_lead": "A Sharp Phase Transition for MLE Existence in Multinomial Logistic Regression",
+      "status": "Official forum, PDF and notes endpoints inaccessible; a direct public notes request returned ChallengeRequiredError, status403. No challenge bypass attempted.",
+      "official_paper_content_read": false,
+      "equivalence_excluded": false
+    }
+  ],
+  "systematic_Scopus_and_Google_Scholar_review_completed": false,
+  "absence_of_search_results_is_novelty_evidence": false,
+  "new_general_calibration_or_shrinkage_method_claim": false,
+  "submission_threshold_certified": false
+}

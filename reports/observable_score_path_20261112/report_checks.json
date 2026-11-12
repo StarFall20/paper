@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-12",
+  "all_four_display_rows_match_verified_pairs": true,
+  "low_label_strictly_interior_weight_cases": 145,
+  "finite_to_exterior_comparisons": 2,
+  "exterior_to_finite_comparisons": 7,
+  "discordant_prediction_allocation_comparisons": 9,
+  "distinct_discordant_allocations": 6,
+  "high_label_all_5000_targets_finite": true,
+  "low_label_zero_weights_reported_separately": true,
+  "original_manuscript_and_Word_unchanged": true,
+  "original_response_files_changed": false,
+  "scientific_priority_or_submission_readiness_proven": false
+}

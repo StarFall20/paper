@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "completed_allocations": 500,
+  "records": 5000,
+  "requested_allocations": 500,
+  "requested_support_calls": 5000,
+  "source_sha256": "d61cc6b68cc4d17c4e1c5b492ec85b7ffdc146c4105acc50a9d89b383d37d6d5",
+  "plan_sha256": "3967b9c1838a3282ae60da034ded2831673b9314e4e2d595aad88f646f09268e",
+  "reference_sha256": "4eb2e5fd696e481f6c7e7cbaab0e5a481951c40fe05fecf7b874530388db2d8b",
+  "new_human_or_LLM_responses": 0
+}

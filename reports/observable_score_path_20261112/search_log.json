@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "provider": "Web search service",
+  "queries": [
+    "\"TPuLYAtiqz\"",
+    "\"prediction-powered\" \"existence\" logistic",
+    "\"prediction-powered\" \"phase transition\"",
+    "\"multinomial logistic\" \"phase transition\" existence estimator",
+    "\"A Sharp Phase Transition for MLE Existence in Multinomial Logistic Regression\"",
+    "\"On the existence of maximum likelihood estimators in a multinomial choice model under positivity constraints\"",
+    "\"prediction-powered\" \"separation\" \"logistic\" -\"mixture of experts\"",
+    "\"prediction-powered\" \"unbounded\" logistic",
+    "\"prediction-powered\" \"anchor\" \"curvature\"",
+    "\"prediction-powered\" \"shrink\" \"predictions\" logistic",
+    "\"prediction-powered\" \"Bregman\"",
+    "\"prediction-powered\" \"logistic regression\" \"high-dimensional\" \"existence\"",
+    "\"semi-supervised\" logistic \"existence\" \"maximum likelihood\"",
+    "\"rectified\" logistic \"unbounded\" inference",
+    "\"Calibeating Prediction-Powered Inference\""
+  ],
+  "query_count": 15,
+  "purpose": "Find exact-objective, phase-boundary, calibration and generic-equivalence overlap; follow primary sources where accessible",
+  "Scopus_or_Google_Scholar_systematic_search": false,
+  "database_access": "Previous Scopus403 and Scholar challenge remain uncompleted; this log does not substitute database searching",
+  "primary_source_scope": "closest_prior_scope.json",
+  "no_search_results_means_no_overlap": false,
+  "OpenReview_public_notes_response": "403 ChallengeRequiredError; no paper contents read; no bypass attempted"
+}

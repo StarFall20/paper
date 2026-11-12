@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-12",
+  "sha256": {
+    "analysis/choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+    "analysis/observable_score_path_audit.py": "d61cc6b68cc4d17c4e1c5b492ec85b7ffdc146c4105acc50a9d89b383d37d6d5",
+    "analysis/power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "analysis/public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "analysis/public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867"
+  },
+  "plan_sha256": "3967b9c1838a3282ae60da034ded2831673b9314e4e2d595aad88f646f09268e",
+  "original_reference_sha256": "4eb2e5fd696e481f6c7e7cbaab0e5a481951c40fe05fecf7b874530388db2d8b",
+  "new_human_or_LLM_responses": 0
+}

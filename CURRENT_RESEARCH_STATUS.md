@@ -1,5 +1,13 @@
 # Current research status — updated 12 November 2026
 
+## Latest follow-up: observable reference and public low-label targets
+
+The [observable-reference follow-up](reports/observable_score_path_20261112/README.md) replaces the unknown true reference by a frozen observed coefficient for a samplewise identity. Separate score rows and the empirical covariance middle remain identical along the path; actual Hessians can differ. Recomputed existing variance weights follow the same path for strictly interior positive base weights. This is not an inference theorem for a learned reference. An exact rational scalar example has finite region[15/88,9/44),a boundary at9/44 and an unbounded objective above it.
+
+The same500 public block permutations are replayed at50and20labelled choices,with10000path targets and all outcomes retained. All5000higher-budget targets are finite. At20labels,the strictly interior-weight strata have80AI and65X-only allocations:7comparison cases change from exterior to finite,and2in the other direction,in6distinct block permutations. Zero-weight degeneracy is reported separately. The ridge reference remains finite on all500allocations; no superiority or interval claim is made. Independent verification reconstructs870support classifications,checks all490exterior rays and391ordinary weak separators. A scalar-interface verification failure and its correction are retained; the original11-coordinate dependencies are unchanged.
+
+The [closer-prior audit](reports/observable_score_path_20261112/closest_prior_scope.json) reads additional CC-PPI and calibration units and identifies a recent positivity-constrained choice-model paper. One full theorem source and an OpenReview title lead remain unavailable. Generic first-order/finite-sample distinctions, recalibration and shrinkage are established. Current42-page Word and its archive remain unchanged; this supplement awaits substantive integration. Publication sufficiency remains under assessment.
+
 ## Latest result: equal oracle covariance and opposite existence limits
 
 The [new within-model comparison](reports/variance_reference_audit_20261112/README.md) holds the finite-sample truth score and the entire fixed-dimensional oracle covariance equal. Shrinking a conditional-mean prediction toward the true attribute-only choice probability and applying the established compensating variance power changes empirical curvature. The same corrected-logit theorem gives different existence boundaries on that path. This comparison uses known population weights and isolates a mechanism beyond weight-estimation noise.

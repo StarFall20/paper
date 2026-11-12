@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
   "goal_complete": false,
-  "decision": "The identical-truth-score oracle path and strict counterexample are integrated into the 42-page native manuscript. All eight tables and full mathematical checks pass in an independent extracted package; all pages are visually inspected. Closest-prior equivalence, sufficient practical contribution, current journal author-guide rules and actual author declarations remain open.",
+  "decision": "The 42-page manuscript remains preserved. New observable-reference identities, an exact scalar finite-design example and 10000 retained public path targets strengthen the mechanism-to-data connection. Nine strictly interior-weight comparisons change availability in six block allocations, in both directions. Independent residual and ray checks pass. Specific-theorem priority and sufficient practical contribution remain open.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -135,12 +135,21 @@
     "score_ordinary_separator_directions_checked": 2355,
     "score_all_eight_tables_reconciled": true,
     "score_exact_rational_bounds_checked": true,
-    "all_pages_visually_inspected": true
+    "all_pages_visually_inspected": true,
+    "observable_path_targets": 10000,
+    "observable_independent_support_replays": 870,
+    "observable_exterior_rays_verified": 490,
+    "observable_ordinary_separators_verified": 391,
+    "observable_interior_weight_discordant_comparisons": 9,
+    "observable_distinct_discordant_allocations": 6,
+    "observable_exact_rational_finite_design_example": true,
+    "observable_main_42_page_artifact_unchanged": true
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "局部得分结果正文整合与复现核对_20261112.md",
+  "latest_progress_report": "可观察得分路径与公开数据核对_20261112.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
-  "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json"
+  "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
+  "observable_score_path_evidence": "../observable_score_path_20261112/README.md"
 }

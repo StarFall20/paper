@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-12",
+  "retained_path_records": 10000,
+  "completed_allocations_per_budget": 500,
+  "replayed_support_classifications": 870,
+  "independent_residual_interior_LPs": 870,
+  "all_low_label_exterior_directions_verified": 490,
+  "all_ordinary_weak_separators_verified": 391,
+  "maximum_score_row_error": 2.220446049250313e-16,
+  "maximum_middle_matrix_error": 2.168404344971009e-18,
+  "maximum_gradient_error": 3.923456611681919e-16,
+  "maximum_existing_weight_recomputation_error": 5.162537064506978e-13,
+  "maximum_ridge_anchor_score_error": 9.915721022046853e-12,
+  "maximum_independent_primal_residual": 1.3500311979441904e-13,
+  "exact_scalar_example_numerically_crosschecked": true,
+  "all_unresolved": 0,
+  "scalar_example_variance_rule_evaluated_directly": true,
+  "common_covariance_at_unknown_truth_claimed": false,
+  "new_method_superiority_claimed": false,
+  "source_sha256": "4e575d7770ba2ccc71105a4f638cbee4e8cdd7e0e297425c8635a02db3f4f357",
+  "source_state_hashes": {
+    "outputs/observable_score_path_20261112/observable_score_path_status.json": "d8a775257b49884c7a5e56432ba448df4036f334aed068fea26144a40970170e",
+    "outputs/observable_low_label_20261112/observable_low_label_status.json": "96bcdcdb90df6d8adba111e5cda5c10d1521b9fbbfc084ffd3ffc77ed6906187"
+  }
+}

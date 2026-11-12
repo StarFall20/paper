@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "completed_allocations": 500,
+  "path_records": 5000,
+  "ordinary_checks": 500,
+  "source_sha256": "4fcb53bb62b7f53ad9918259b900cb724e395efd836f046abe817737fdfe041a",
+  "plan_sha256": "f0c31038bb8d1d5e2e25f4078988fd573e6bdc70ae4ab5f79b06930ae743bb63",
+  "new_human_or_LLM_responses": 0
+}

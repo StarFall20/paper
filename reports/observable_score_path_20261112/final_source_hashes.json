@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-12",
+  "current_entry_points": [
+    "observable_score_path_audit",
+    "observable_low_label_path",
+    "certify_observable_score_path",
+    "verify_observable_score_path",
+    "fetch_public_conjoint_audit"
+  ],
+  "sha256": {
+    "analysis/certify_observable_score_path.py": "6d3ee1798e324ebfcebc4aa75edb471b82b76e0c9d9016f1f76a1390d95a2406",
+    "analysis/choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+    "analysis/fetch_public_conjoint_audit.py": "0d9173a837c195d1341b94dcec08f061570ccb6af06c8aaf418e453b281b4cef",
+    "analysis/observable_low_label_path.py": "4fcb53bb62b7f53ad9918259b900cb724e395efd836f046abe817737fdfe041a",
+    "analysis/observable_score_path_audit.py": "d61cc6b68cc4d17c4e1c5b492ec85b7ffdc146c4105acc50a9d89b383d37d6d5",
+    "analysis/power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "analysis/public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "analysis/public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "analysis/verify_observable_score_path.py": "4e575d7770ba2ccc71105a4f638cbee4e8cdd7e0e297425c8635a02db3f4f357"
+  },
+  "plan_sha256": "3967b9c1838a3282ae60da034ded2831673b9314e4e2d595aad88f646f09268e",
+  "low_label_plan_sha256": "f0c31038bb8d1d5e2e25f4078988fd573e6bdc70ae4ab5f79b06930ae743bb63",
+  "reference_weights_sha256": "ec6eab35aa6a3b971b6d2aa64d6495630ee65232b1de8a303d861bbe8486a1f0",
+  "source_manifest_sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e",
+  "original_11_coordinate_analysis_unchanged": true,
+  "new_human_or_LLM_responses": 0
+}
