@@ -1,0 +1,18 @@
+{
+  "stage": "Population integration validation after the explicitly labelled six-condition 2048-node pilot; before finite-phase simulation",
+  "alternatives": 3,
+  "gamma": [0.0,1.5],
+  "tau": [1.0,4.0],
+  "epsilon": 0.25,
+  "powers": "1,tau/(1+tau),0.1",
+  "integration_bits": [12,14],
+  "integration_scramble_seeds": [2026111149,2026111151],
+  "antithetic_nodes": "2^(bits+1),jointly sign-flipped signal and projection-normal contrast coordinates",
+  "population_critical_cells": 12,
+  "limiting_cells": 4,
+  "ordinary_cells": 2,
+  "binary_reduction": "J=2,gamma in [0,1.5],tau in [1,4],same three powers and epsilon; compare to existing binary formula with gamma_binary=sqrt(2)*gamma_menu",
+  "report": "Retain all resolutions and both seeds. Differences between resolutions/seeds are integration diagnostics,not rigorous error bounds or additional respondents.",
+  "phase_sampling_started": false,
+  "new_human_or_LLM_responses": 0
+}

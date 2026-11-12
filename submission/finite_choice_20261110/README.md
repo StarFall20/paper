@@ -1,16 +1,17 @@
-# Finite solutions in prediction assisted binary logit
+# Finite solutions in prediction assisted choice logit
 
-This compact archive accompanies **When prediction assisted logit estimates exist**. It contains one scientific argument, its completed aggregate results and the code needed to regenerate them. It excludes the historical research notebook, raw questionnaires, participant level response vectors and downloaded numeric pickle inputs. The independent 300 record questionnaire application is retained in the research archive and supplies no observations to this paper.
+This archive accompanies **When prediction assisted logit estimates exist**. It contains one compensated choice objective, its completed results and the code needed to regenerate them. It excludes the historical research notebook, raw questionnaires, human participant response vectors and downloaded numeric pickle inputs. Complete generated menu records are included for numerical verification. The separate questionnaire application with 300 records supplies no observations to this paper.
 
-The manuscript and package were refreshed on 11 November 2026. The stable directory name is retained; the 10 November version remains in Git history and its original local archive. Section5.4,Table4 and AppendixC4 now include the independent-training label-cost diagnostic and its adverse prediction-error results. This comparison does not support a label-saving or prediction superiority claim for the examined allocation and fixed powers.
+The manuscript and package were refreshed on 12 November 2026. The stable directory name is retained. The original 10 November archive and the 32 page binary manuscript of 11 November remain preserved. The current text adds Section 3.8, Theorem 3, Corollary 3 and Appendix F for whole menus. Section 5.4, Table 4 and Appendix C4 retain the adverse independent training evidence; all previous main comparison tables are unchanged. This comparison does not support a label saving or prediction superiority claim for the examined allocation and fixed powers.
 
-The main result concerns independent Gaussian remaining attributes, an estimated intercept, one utility signal, a frozen predictor, fixed positive correction power and a finite auxiliary to label ratio. Under the same signal and estimated intercept assumptions, a second result gives the simultaneous upper existence boundary over every correction power and the joint limit for strictly positive powers tending to zero. Its boundary strictly exceeds ordinary logit for each fixed strictly interior predictor; one excluded hard-prediction counterexample removes that strict gain. The finite design LP and the symmetric Gaussian zonotope special case are classical. Numerical agreement does not establish priority or a general categorical DCE phase theorem.
+The binary results concern independent Gaussian remaining attributes,an estimated intercept,one utility signal,a frozen predictor and a finite auxiliary ratio. The menu result uses alternative-specific Gaussian profiles,common slopes and fitted alternative constants. Theorem3 allows simplex-face predictions with positive mean squared error;AppendixF treats perfect hard labels by an exact weighted likelihood reduction. The positive power upper envelope also bounds every power simultaneously. The binary strict-gap condition and the larger-menu condition differ. Clustered respondent choices and arbitrary categorical designs are not covered by this Gaussian phase law. The finite-design support LP,projection routines and symmetric zonotope special case are classical. Numerical agreement does not establish priority.
 
 ## Start here
 
 - [Complete manuscript and proofs](manuscript/paper.md).
 - [Editable Word manuscript](manuscript/paper.docx), with native Word equations.
 - [Table 1 boundary values](manuscript/table1.csv), [Table 2 estimation comparisons](manuscript/table2.csv), [Table 3 fixed power replay](manuscript/table3.csv) and [Table 4 training-cost comparison](manuscript/table4.csv).
+- [Menu endpoint table F1](manuscript/tableF1.csv),[matched menu table F2](manuscript/tableF2.csv) and [complete menu records](results/menu/hard_menu_matched_phase_trials.csv).
 - [Source attribution](ATTRIBUTION.md) and [data download manifest](reports/public_conjoint_audit_20261109/source_manifest.json).
 - [Full aggregate simulation grid](results/finite_pool_summary.csv), [imperfect predictions](results/imperfect_pool_summary.csv) and [stronger utility](results/strong_signal_pool_summary.csv).
 
@@ -32,7 +33,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document was rendered and all 32 pages inspected; equation structure and page checks are recorded in `results/manuscript_render_review.json`. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
+The strict TeX subset converter is written for this manuscript and emits native OMML equations. It is not a general TeX conversion service. The shipped Word document has 38 rendered and visually inspected pages and 662 native mathematical objects. The [current integration record](reports/menu_integration_20261112.json) and [page review](reports/menu_visual_qa_20261112.json) identify the source, Word and page hashes. The earlier 32 page review remains in `results/manuscript_render_review.json` as a historical record. Fraction arguments must be braced in the strict authoring subset. Changes to the source require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when its text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -93,7 +94,7 @@ Run the original 500 repetition finite pool experiment first: its locally regene
 
 The raw phase table retains one unknown solver result. The verifier reconstructs its draw and records an independently verified exterior direction in `vanishing_power_resolution.json`; `vanishing_power_phase_verified.csv` is separate from the raw table. Keep both. A new solver may resolve the original draw directly, so regenerated unresolved counts can differ without changing the mathematical event.
 
-Table 3 retains all availability counts. Figure 3 compares errors on the same 412 available unit power fits; the complete paired table and human separation strata accompany it. The original positive power right limit takes the proportional sample limit first and the power limit second. Its recorded derivation and status flags predate the stronger balanced joint result below; they are retained unchanged. No new optimal inference weight or confidence interval guarantee follows. The [original derivation](reports/public_conjoint_audit_20261109/vanishing_power_derivation_20261110.md) and [regularization prior comparison](reports/public_conjoint_audit_20261109/synthetic_regularization_prior_comparison_20261110.md) state that earlier step.
+Table 3 retains all availability counts. Figure 4 compares errors on the same 412 available unit power fits; the complete paired table and human separation strata accompany it. The original positive power right limit takes the proportional sample limit first and the power limit second. Its recorded derivation and status flags predate the stronger balanced joint result below; they are retained unchanged. No new optimal inference weight or confidence interval guarantee follows. The [original derivation](reports/public_conjoint_audit_20261109/vanishing_power_derivation_20261110.md) and [regularization prior comparison](reports/public_conjoint_audit_20261109/synthetic_regularization_prior_comparison_20261110.md) state that earlier step.
 
 ## Reproduce the simultaneous power bound and its direct prior check
 
@@ -176,3 +177,40 @@ python analysis/training_budget_diagnostic_20261111.py --out regenerated/trainin
 The plan fixes eight conditions,100 draws per condition,six methods and a total label union shared by the direct human baselines. It generates 800 statistical model draws and 4800 retained method rows,without private questionnaire records or LLM answers. Training and direct ridge use a fixed mean-loss penalty of 0.1 on all parameters,including the intercept. Fixed correction powers are diagnostic choices. The complete summaries,pairing counts and all 397 independently certified ordinary-logit separation cases are in `results/training_budget_*`.
 
 The original full simulated trial table and its independent verifier are preserved in the separate training-budget supplement in the repository. This main package ships aggregates and regenerates all trials with the command above. The packaged source only adapts its import path; its full800-design replay reproduces the original trial and aggregate CSVs byte for byte,as recorded in `results/training_budget_source_adaptation.json`. This replay adds no statistical replications.
+
+## Whole menu reproduction
+
+Theorem 3 and Appendix F concern independent Gaussian alternative profiles, common attribute coefficients, fitted alternative constants and a fixed prediction law. The probability vector can lie on simplex faces. Positive mean squared prediction error supplies the scale bound; perfect hard predictions have their separate exact ordinary likelihood reduction. The strict gap for always wrong binary predictions is zero, and the larger-menu gap is strictly positive under the stated assumptions. This result does not validate clustered fixed-task DCE data or provide an accuracy guarantee.
+
+The [complete menu records](results/menu/hard_menu_matched_phase_trials.csv) contain 1000 generated model draws and 9000 classifications, with 18 cells of 500 repetitions. The [saved ordinary separators](results/menu/hard_menu_ordinary_separation_certificates.json) certify 1090 boundary cases. The matched experiment uses the actual existing variance reference of the hard predictor for one orthogonal coefficient; all methods share each menu sample and dimension. It was selected after the population calculation as a mechanism illustration. The [reading scope](reports/menu/reading_scope.json) records the inspected multiPPI++, common coefficient MNL and categorical theory sources.
+
+Verify the retained records in a separate directory:
+
+```sh
+python - <<'PY'
+import shutil
+shutil.copytree('results/menu', 'regenerated/menu_checks', dirs_exist_ok=True)
+PY
+python analysis/verify_hard_menu_phase.py --out regenerated/menu_checks --plan analysis/hard_menu_phase_plan_20261111.json
+python analysis/verify_hard_menu_prediction.py --out regenerated/menu_diagnostics
+```
+
+Recompute the population and finite experiment using the fixed plans:
+
+```sh
+python analysis/menu_hard_prediction_boundary.py --out regenerated/menu --plan analysis/menu_hard_prediction_plan_20261111.json
+python analysis/hard_menu_variance_reference.py --out regenerated/menu --plan analysis/hard_menu_variance_plan_20261111.json
+python analysis/hard_menu_matched_phase.py --out regenerated/menu --plan analysis/hard_menu_phase_plan_20261111.json
+python analysis/menu_population_grid.py --out regenerated/menu_reduction --plan analysis/menu_population_grid_plan_20261111.json
+```
+
+The last command recreates the separately recorded 12 binary reductions as part of the posterior-prediction integration diagnostic. It uses the signal convention stated in Appendix F. The hard-prediction population and phase files are a different predictor rule and remain distinct. Regeneration on another solver version can change diagnostic margins and fallback metadata; the supplied historical checkpoint remains the original reference. No interrupted draw is counted twice. The exact failed sources and case inputs are preserved for audit.
+
+Rebuild the publication figure and tables from completed aggregates:
+
+```sh
+python analysis/build_menu_publication_assets.py --results results/menu --manuscript manuscript
+python authoring/build_manuscript_docx.py --source manuscript/paper.md --out regenerated/paper.docx --report regenerated/docx_structure.json
+```
+
+Figure 2 uses `figure_menu_phase.png` and its editable SVG. The retained legacy assets `figure2_estimates_intervals.png` and `figure3_power_endpoint.png` now appear as Figures 3 and 4 in the text; their numerical content is unchanged. Tables F1 and F2 are generated from the same complete menu CSVs. Every new scientific source is unchanged from its recorded research version, as checked by [source hashes](results/menu/source_hashes.json). The Word source uses native equations. The earlier manuscript and numerical failures remain preserved without being treated as novelty or publication-readiness evidence.

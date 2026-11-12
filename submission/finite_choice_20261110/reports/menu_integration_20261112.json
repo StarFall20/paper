@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-12",
+  "old_source_sha256": "c2cfa659c9fe48e3c25dddeb98bd8a53a06f06778f894b9dfe37a17a20efd208",
+  "new_source_sha256": "2d0220e72eac3c1219f13f37e8fe07bedb71b4bbb537729398826152f79c3b9c",
+  "docx_sha256": "f4c0fa91d70385a9fa3fe1d6c3cf27b07dc34b899391da850d411d8f65f17d0d",
+  "abstract_words": 222,
+  "preexisting_tables_preserved": 5,
+  "total_tables": 7,
+  "main_theorems": 3,
+  "corollaries": 3,
+  "proof_appendices": 6,
+  "figure_caption_order": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "proposition_order": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "raw_human_data_changed": false,
+  "native_structure": {
+    "source_sha256": "2d0220e72eac3c1219f13f37e8fe07bedb71b4bbb537729398826152f79c3b9c",
+    "native_math_count": 662,
+    "display_equation_paragraphs": 84,
+    "rasterized_equations": 0,
+    "raw_tex_commands_left_in_text": false,
+    "tables": 7
+  }
+}

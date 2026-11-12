@@ -30,7 +30,7 @@ def run(text,plain=False):
  size=OxmlElement('w:sz');size.set(qn('w:val'),'22');rpr.append(size);e.append(rpr)
  t=el('t');t.text=text;t.set('{http://www.w3.org/XML/1998/namespace}space','preserve');e.append(t);return e
 
-SYMS={'partial':'∂','alpha':'α','nabla':'∇','lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑'}
+SYMS={'partial':'∂','alpha':'α','nabla':'∇','lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','Delta':'Δ','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑','prod':'∏'}
 OPS={'inf','sup','min','max','log','ker','lim','sin','cos','exp'}
 class Math:
  def __init__(self,s):self.s=s;self.i=0
@@ -67,7 +67,13 @@ class Math:
     mp={'R':'ℝ','N':'ℕ','E':'𝔼'} if cmd=='mathbb' else {'Z':'𝒵','Q':'𝒬','C':'𝒞'}
     if text not in mp:raise ValueError('Unsupported alphabet '+text)
     return [run(mp[text])]
-   if cmd=='frac':return [seq('f',[seq('num',self.atom()),seq('den',self.atom())])]
+   if cmd in ['frac','tfrac']:
+    parts=[]
+    for tag in ['num','den']:
+     self.spaces()
+     if self.i>=len(self.s) or self.s[self.i]!='{':raise ValueError('Fraction arguments must be braced in this strict TeX subset')
+     parts.append(seq(tag,self.atom()))
+    return [seq('f',parts)]
    if cmd=='sqrt':
     pr=el('radPr');pr.append(el('degHide',val='1'))
     return [seq('rad',[pr,el('deg'),seq('e',self.atom())])]
@@ -134,7 +140,7 @@ def build():
   for border in list(pr.findall(qn('w:pBdr'))):pr.remove(border)
  footer=s.footer.paragraphs[0];footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
  field=OxmlElement('w:fldSimple');field.set(qn('w:instr'),'PAGE');footer._p.append(field)
- d.core_properties.title='When prediction assisted logit estimates exist';d.core_properties.author='';d.core_properties.subject='Binary choice estimation with finite auxiliary data'
+ d.core_properties.title='When prediction assisted logit estimates exist';d.core_properties.author='';d.core_properties.subject='Binary and multinomial choice estimation with finite auxiliary data'
  lines=text.splitlines();i=0;mathcount=0
  while i<len(lines):
   line=lines[i].strip();i+=1
@@ -158,7 +164,7 @@ def build():
    while i<len(lines) and lines[i].strip().startswith('|'):tablelines.append(lines[i].strip());i+=1
    rows=[[x.strip() for x in row.strip('|').split('|')] for j,row in enumerate(tablelines) if j!=1]
    table=d.add_table(rows=0,cols=len(rows[0]));table.autofit=False;table.alignment=WD_TABLE_ALIGNMENT.CENTER
-   widths=[.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5]}[len(rows[0])]
+   widths=[.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else [.75,.55,.75,1.05,1.05,1.05] if rows[0][0]=='Alternatives' else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5]}[len(rows[0])]
    widths=[x*6.5/sum(widths) for x in widths]
    for c,w in zip(table.columns,widths):c.width=Inches(w)
    for j,values in enumerate(rows):
@@ -179,7 +185,7 @@ def build():
   lead=re.match(r'^((?:Proposition|Theorem|Corollary) [0-9]+\.)',line)
   if lead:p.add_run(lead[0]).bold=True;rich(p,line[len(lead[0]):])
   else:rich(p,line)
-  if re.match(r'^Figure [123] ',line):
+  if re.match(r'^Figure [0-9]+ ',line):
    p.paragraph_format.space_after=Pt(10);p.paragraph_format.keep_together=True
   if re.match(r'^Table (?:[0-9]+|[A-Z][0-9]+) ',line):p.paragraph_format.keep_with_next=True
  DEST.parent.mkdir(parents=True,exist_ok=True);d.save(DEST)

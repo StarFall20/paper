@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "goal_complete": false,
-  "decision": "Whole-menu candidate now includes hard predictions,a binary-versus-larger-menu strict-gap condition and an exact perfect-label reduction. Common-coefficient MNL correction and multiPPI++ are explicitly attributed.320integration evaluations,32existing-criterion references,and1000matched model draws/9000classifications are complete with all1090ordinary boundary directions checked. The main manuscript is unchanged. Priority,full integration and sufficient practical contribution remain open.",
+  "decision": "Whole-menu theorem,hard prediction conditions and Appendix F are integrated into the 38-page manuscript. A fresh extracted package passes full binary checks,9000-record menu reconciliation,1090 separation-direction checks,240 independent finite support matches and240 derivative checks. Established correction and tuning remain attributed. Independent priority and sufficient practical contribution remain unproven.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -29,9 +29,9 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "two_theorems_plus_fitted_index_proposition_and_conditional_trained_linear_corollary_with_independent_checks",
-      "evidence": "../../submission/finite_choice_20261110/results/clean_quick_check.json",
-      "remaining": "Gaussian remaining columns and fixed index dimension are required. Training must be independent and its signal/orthogonal/intercept quantities must converge to finite deterministic limits. Arbitrary cross-fitting and black-box predictor training remain outside the proved scope. The whole-menu extension is a separate candidate derivation with numerical checks; its full proof has not yet been incorporated into the manuscript."
+      "status": "three_theorems_integrated_with_full_menu_proof_and_clean_directory_numerical_checks",
+      "evidence": "../../submission/finite_choice_20261110/reports/menu_clean_validation_20261112.json",
+      "remaining": "Independent proof and closest-prior equivalence assessment remain open. The menu theorem requires independent Gaussian profile columns,fixed menu size,frozen low-index predictions and positive mean squared prediction error. Perfect predictions are a separate pooled-likelihood reduction. Arbitrary categorical supports,repeated respondent panels and black-box cross-fitting are outside the proved probability boundary."
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
@@ -41,20 +41,20 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "isolated_package_built_and_checked",
-      "evidence": "../../submission/finite_choice_20261110/README.md",
+      "status": "whole_menu_sources_and_results_integrated_fresh_extraction_verified",
+      "evidence": "../../submission/finite_choice_20261110/reports/menu_clean_validation_20261112.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "complete_scientific_text_native_Word_and_materials_prepared",
+      "status": "38_page_native_Word_with_whole_menu_appendix_visually_verified_materials_updated",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Current journal-specific rules and actual author,title-page and declaration facts need verification; no declarations invented"
     }
   ],
   "self_review_scores_used_as_evidence": false,
   "new_questionnaire_or_AI_generation": false,
-  "genuine_blocker": null,
+  "genuine_blocker": false,
   "new_completed_evidence": {
     "Gaussian_paired_draws": 6000,
     "raw_LP_unknowns": 1,
@@ -127,5 +127,7 @@
     "Scopus_and_Google_Scholar_systematic_review_completed": false
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
-  "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md"
+  "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
+  "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
+  "latest_progress_report": "多选项正文整合与复现核对_20261112.md"
 }

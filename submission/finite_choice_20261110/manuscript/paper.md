@@ -2,29 +2,29 @@
 
 ## Abstract
 
-Prediction assisted logit corrects machine predicted choices to preserve the human population score. Its empirical objective can still lack a finite minimizer. We derive the existence boundary when labelled and auxiliary samples grow with attribute dimension, allowing a utility signal, an estimated intercept and imperfect frozen predictions. Correction power changes this boundary. With equal sample sizes and proxy error 0.25, a balanced benchmark has critical dimension to label ratios of 0.355 at unit power and 0.603 at an established variance reference power. The positive power limit is 0.664, while exactly zero power gives the ordinary logit threshold 0.5. Under the stated Gaussian model, the limiting boundary bounds all powers simultaneously and governs strictly positive data dependent powers tending to zero. It exceeds ordinary logit for every fixed strictly interior predictor. A fixed sample result explains the coefficient growth accompanying small power. Retaining prediction indices among fitted attributes also shows that identically calibrated predictions can have distinct existence boundaries. An extension covers independently trained linear scores with convergent training quantities. Released vaccine choices supply verified exterior moments. Known truth simulations on their attribute support compare corrected, pooled, one step and penalized estimators, separating availability from error and interval coverage. Counting independent predictor training within a fixed label budget reveals no prediction error advantage over a direct ridge baseline in the examined grid. The results identify when prediction assistance admits finite estimation and what that event establishes for choice analysis.
+Prediction assisted logit corrects machine predicted choices while retaining the human population score. Its empirical objective can still lack a finite minimizer. We derive existence boundaries for binary and common coefficient multinomial logit when labelled and auxiliary samples grow with Gaussian attribute dimension. The models estimate utility signal coefficients and choice constants and use frozen predictions. Binary choice gives an explicit scalar benchmark. The menu calculation retains joint probability constraints and permits hard category predictions. The positive power limit bounds every power selection and governs strictly positive data dependent powers tending to zero. Menu size changes its strict gain condition: always wrong binary hard predictions return the ordinary boundary, while larger menus retain a strict gap under the stated assumptions. With three alternatives, equal sample sizes and proxy error 0.25, unit power has boundary 0.2164; an established orthogonal score variance reference gives 0.7039, compared with 0.5594 for ordinary logit. A fixed sample result explains coefficient growth as power decreases. Released vaccine choices and matched simulations separate estimate availability from point error and interval coverage. Retaining fitted prediction indices gives a conditional result for independently trained linear scores. Charging their training labels to a fixed total budget reveals no prediction error advantage over direct human ridge in the examined grid. The results make the finite solution event explicit for prediction assisted choice estimation.
 
-Keywords: binary choice; prediction powered inference; logistic separation; finite auxiliary samples; existence of estimates
+Keywords: discrete choice; multinomial logit; prediction powered inference; logistic separation; finite auxiliary samples
 
 ## 1 Introduction
 
-Choice analysts increasingly use machine predictions in model development and estimation. Recent work in the Journal of Choice Modelling examines both machine learning in choice analysis and language models as assistants for utility specification (van Cranenburgh et al., 2022; Sfeir et al., 2026). A related use supplies predicted responses for observations without human choice labels. Prediction powered inference corrects these responses using a labelled sample, allowing the population estimating equation to retain its human choice target (Angelopoulos et al., 2023, 2024).
+Choice analysts increasingly use machine predictions in model development and estimation. Recent work in the Journal of Choice Modelling examines both machine learning in choice analysis and language models as assistants for utility specification (van Cranenburgh et al., 2022; Sfeir et al., 2026). A related use supplies predicted responses for observations without human choice labels. Prediction powered inference corrects these responses using a labelled sample, allowing the population estimating equation to retain its human choice target (Angelopoulos et al., 2023, 2024). Fan et al. (2024) derive categorical prediction correction, and Ye and Yoganarasimhan (2026) include common coefficient choice logit in survey allocation. These constructions specify the estimator analysed here.
 
 An analyst must also be able to solve the empirical estimating equation. A corrected logit objective can decrease indefinitely along a coefficient direction. Continued optimization then produces increasingly extreme coefficients without reaching a finite optimum. This event is consequential when the human label budget is small relative to the utility specification. Prediction quality, correction power and the number of auxiliary observations all enter the event.
 
-We characterize the finite solution boundary of a specified unpenalized, prediction assisted binary logit objective. Our main result treats an estimated intercept, one Gaussian utility signal and an increasing number of independent Gaussian attributes. The labelled and auxiliary samples grow at a finite ratio. Predictions are frozen functions of the signal and auxiliary information, and can be miscalibrated. An explicit variational expression gives the critical attribute dimension per labelled observation. A balanced specialization reduces the calculation to one scalar optimization.
+We characterize finite estimation of this unpenalized corrected logit objective. The binary calculation treats an estimated intercept, one Gaussian utility signal and increasing independent Gaussian attributes. Its explicit benchmark shows how finite auxiliary budgets change the boundary. The same calculation extends to whole choice menus with common attribute slopes and fitted alternative constants. It retains the probability simplex and isolates how competing alternatives change the positive power limit. Both models condition on fixed dimensional prediction information and keep the remaining Gaussian attributes independent of it.
 
-The result explains a distinction between efficiency calculations and existence calculations. At proxy error 0.25 and equal labelled and auxiliary sample sizes, the balanced unit power boundary is 0.355. Applying the established population variance reference power gives 0.603. The positive power right limit is 0.664, exceeding the ordinary logit endpoint 0.5. The general signal and estimated intercept model also has an upper boundary for all choices of power. Above it, power selection cannot restore a finite unpenalized root. Strictly positive powers tending to zero attain this existence region. Its boundary strictly exceeds ordinary logit even for uninformative or reversed predictions. A fixed sample limit explains how coefficients can approach a separator as their norms grow. The finite sample support audit uses the actual design matrix and also accommodates categorical attributes.
+The result explains a distinction between efficiency calculations and existence calculations. In a balanced binary benchmark with proxy error 0.25 and equal sample sizes, the unit power boundary is 0.355. Applying the established population variance reference power gives 0.603. The positive power right limit is 0.664, exceeding the ordinary logit endpoint 0.5. The general signal and estimated intercept model also has an upper boundary for all choices of power. Above it, power selection cannot restore a finite unpenalized root. Strictly positive powers tending to zero attain this existence region. For the fixed strictly interior binary predictor, its boundary strictly exceeds ordinary logit even for uninformative or reversed predictions. Hard predictions reveal a menu size distinction: an always wrong binary classifier loses that strict gap, while three or more alternatives retain it. A fixed sample limit explains how coefficients can approach a separator as their norms grow. The finite sample support audit uses the actual design matrix and also accommodates categorical attributes.
 
 Logistic separation and ordinary logit existence thresholds are established (Candès and Sur, 2020). Statistical dimension locates transitions in random convex feasibility problems (Amelunxen et al., 2014). Recent categorical response theory also unifies finite likelihood existence and separation diagnostics (Sablica et al., 2026). The unit power uninformative benchmark is a classical Gaussian zonotope absorption event (Kabluchko and Seidel, 2020). Koriyama and Bellec (2025) give general existence results for convex M estimators with finite rowwise loss infima. Positive power correction creates labelled row losses with infimum minus infinity; finite estimability depends on compensation by other rows. We derive the explicit finite auxiliary boundary for that corrected objective. Power tuning and one step estimation come from PPI++ and remain comparison methods throughout the paper.
 
-Unbiased noisy label correction and preservation of convexity are established (Natarajan et al., 2013); corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are established for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). DY prior penalized logit guarantees finite estimates for full rank designs and has proportional dimensional theory, including a recent fitted intercept treatment (Sterzinger and Kosmidis, 2026; Sterzinger, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. The two sample geometry gives the probability boundary for this event. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
-
 Empirical analyses connect the boundary to choice analysis. First, a pinned public vaccine choice dataset provides corrected objectives whose moments are demonstrably outside their attainable support. The audit also verifies finite solutions from existing power tuning in those same cases. Second, known truth simulations on the released attribute support compare seven strategies under oracle and biased predictions. They separate availability from coverage and retain the strong point performance of soft pooling and penalized alternatives. A separate independent training experiment charges predictor training labels to the same total budget as direct human logit fitting. In its examined grid, fixed power correction gives no prediction error advantage over the ridge baseline. This reporting supports an analysis decision: specify the target objective, check its finite solution, and evaluate error and uncertainty for the estimator actually returned.
 
-## 2 Prediction assisted binary logit
+## 2 Prediction assisted choice logit
 
 ### 2.1 Choice target and correction
+
+The correction combines a labelled choice loss with the difference between auxiliary and labelled prediction losses. It applies to binary contrasts and to a whole menu loss with a predicted probability vector. We first use binary logit to obtain explicit formulas, then retain the entire menu simplex in Section 3.8.
 
 Let $X$ contain attribute contrasts and any estimated intercept. A binary choice $Y$ has logit probability $\sigma(X^T\beta)$, where $\sigma(u)=(1+e^{-u})^{-1}$. Write the negative log likelihood contribution as
 
@@ -98,7 +98,7 @@ If $\kappa<\kappa_c$, the probability that (2) has a unique finite minimizer ten
 
 The boundary combines the finite auxiliary ratio, utility signal, predictor distribution and power. Its fixed dimensional optimizations can be evaluated by quadrature and scalar scale maximization. Under joint sign symmetry of $(S,Y,Z,U)$ and $g(-S,1-Z,U)=1-g(S,Z,U)$, convexity and symmetry allow $\eta_0=0$. An asymmetric prediction retains both multiplier coordinates.
 
-The theorem holds for independent Gaussian remaining attributes and a frozen low dimensional predictor. Section 3.7 retains prediction indices that are fitted attributes and gives a conditional result for independently trained linear scores. Repeated choices from a respondent, multinomial menus, arbitrary cross fitting and general categorical design distributions require separate arguments. For an observed categorical design, Proposition 1 directly checks the stated objective without invoking a Gaussian approximation.
+The theorem holds for independent Gaussian remaining attributes and a frozen low dimensional predictor. Section 3.7 retains prediction indices that are fitted attributes and gives a conditional result for independently trained linear scores. Section 3.8 treats independent Gaussian choice menus. Repeated choices from a respondent, arbitrary cross fitting and general categorical design distributions require separate arguments. For an observed categorical design, Proposition 1 directly checks the stated objective without invoking a Gaussian approximation.
 
 ### 3.2 Why the corrected loss requires a separate calculation
 
@@ -107,6 +107,8 @@ The labelled contribution in (2), up to its averaging factor, is
 $$\ell_L(u)=(1-\lambda)\log(1+e^u)-(Y-\lambda g)u. \qquad (11)$$
 
 For $Y=0$, taking $u\to-\infty$ sends this contribution to minus infinity. For $Y=1$, taking $u\to+\infty$ has the same effect. At unit power it is affine. The complete objective can still be coercive because auxiliary rows offset those directions. The finite rowwise infimum assumption in Koriyama and Bellec (2025, Assumption 2.5) excludes these labelled losses. Theorem 1 evaluates the compensation using the actual two sample loss structure.
+
+Unbiased noisy label correction and preservation of convexity are established (Natarajan et al., 2013); corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are established for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). DY prior penalized logit guarantees finite estimates for full rank designs and has proportional dimensional theory, including a recent fitted intercept treatment (Sterzinger and Kosmidis, 2026; Sterzinger, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. The two sample geometry gives the probability boundary for this event. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
 
 The proof conditions on $(S,Y,Z,U)$ and orients the remaining Gaussian rows by $s_L$ and $s_U$. A finite corrected moment becomes a Gaussian nullspace intersection with the cone generated by the product of (7), subject to the intercept and signal constraints. Classical random subspace theory locates the transition at the statistical dimension of that constrained cone. The new calculation is its limit (10) for the specified corrected logit objective. Appendix A gives the derivation, including tightness of both optimization variables and the connection from feasibility to an interior moment.
 
@@ -205,11 +207,11 @@ The simultaneous upper bound follows from one closed cone containing all positiv
 
 For utility signal 1.5 and proxy error 0.25, the ordinary boundary is 0.3903. With equal sample sizes, the limiting boundaries are 0.5082 for the oracle, 0.5061 for overconfident predictions and 0.4918 for shifted log odds. At auxiliary ratio four they are 0.6263, 0.6249 and 0.5875. Constant and reversed predictions also give strict existence gains, of different sizes. The strict gain establishes stabilization of this objective. Parameter error, choice probability loss and confidence interval performance still require their own evaluation, as Section 5 illustrates.
 
-### 3.7 Prediction indices among fitted attributes
+### 3.7 Prediction indices in the binary fitted design
 
 A prediction may use attributes whose coefficients the choice model estimates. Conditioning on that prediction then conditions on part of the fitted design. Retaining its index among the multiplier constraints preserves the independent Gaussian structure of the remaining columns. This accounts explicitly for prediction–attribute dependence.
 
-Proposition 4. Let $T$ have a fixed number $k$ of independent standard normal coordinates, independent of $S$, and let $Y$ given $(S,T)$ have probability (6). Include all coordinates of $T$ among the fitted contrasts, with true slopes zero. Suppose the remaining Gaussian vector $W$ is independent of $(S,T,Y,Z,U)$ and $g(S,T,Z,U)$ is frozen and strictly interior. Theorems 1 and 2 hold with the multiplier in $\mathbb R^{k+2}$ and
+Proposition 2. Let $T$ have a fixed number $k$ of independent standard normal coordinates, independent of $S$, and let $Y$ given $(S,T)$ have probability (6). Include all coordinates of $T$ among the fitted contrasts, with true slopes zero. Suppose the remaining Gaussian vector $W$ is independent of $(S,T,Y,Z,U)$ and $g(S,T,Z,U)$ is frozen and strictly interior. Theorems 1 and 2 hold with the multiplier in $\mathbb R^{k+2}$ and
 
 $$h_\eta(S,T)=\eta_0+\eta_1S+\eta_T^T T. \qquad (20)$$
 
@@ -218,6 +220,56 @@ In (9), (18) and (19), replace each signed affine multiplier by $s_Lh_\eta$ or $
 Prediction accuracy and calibration do not determine this boundary. An explicit construction in Appendix E keeps the complete law of $(Y,g)$ identical while placing the prediction index outside or inside the fitted design. Both predictions are calibrated, with Brier risk 0.09. At unit power and equal sample sizes, their boundaries are 0.396628 and 0.385935. Every limiting dimension ratio strictly between them gives opposite existence conclusions. The gap is about 0.011 in this construction. All population cases and paired finite size results are retained.
 
 For a linear score trained independently of the audit rows, an orthogonal Gaussian rotation reduces its component outside the utility direction to one such index. Corollary 2 in Appendix E requires its signal overlap, orthogonal norm and intercept to converge to finite deterministic limits. These conditions give deterministic strict existence limits for the independently trained score. Cross prediction already provides fixed dimensional inference with learned predictors (Zrnic and Candès, 2024); the present conditional result concerns proportional dimensional existence. Correlated teacher and fitted feature spaces are established objects of high dimensional analysis (Loureiro et al., 2021). The additional calculation here concerns their role in the compensated choice loss. Training labels are additional to the $m$ audit labels. Section 5.4 counts both subsets in a fixed total budget comparison.
+
+### 3.8 Whole choice menus
+
+The same correction applies to a menu of $J$ alternatives with common attribute coefficients. Let $F_i$ be its matrix of alternative attributes and let $e_Y$ identify the chosen alternative. The menu loss is $\ell_J(F_i\beta,y)=\log\sum_j e^{F_{ij}^T\beta}-y^TF_i\beta$, for either the observed choice vector or a predicted probability vector. This prediction assisted MNL construction is established in Fan et al. (2024) and Ye and Yoganarasimhan (2026). We calculate its finite solution boundary while preserving the constraint that probabilities within each menu sum to one.
+
+Fix $J$ and work in the contrast space $E=\{u\in\mathbb R^J:\sum_j u_j=0\}$. Center independent standard normal signal profiles across alternatives to obtain $S\in E$. True choice probabilities are
+
+$$P(Y=j\mid S)=e^{\gamma S_j}/\sum_k e^{\gamma S_k},\qquad |\gamma|<\infty. \qquad (21)$$
+
+Estimate $J-1$ alternative constants, one common signal slope and $q$ common noise slopes. Each remaining profile column is independent standard Gaussian across menus and alternatives, independent of the fixed dimensional tuple supplying $(S,Y,g)$. The two samples are independent draws from this joint law. The frozen prediction satisfies $g\in\Delta_J$, where $\Delta_J$ is the probability simplex. Assume $a_*=E\|g-e_Y\|^2>0$, $N/m\to\tau>0$ and $q/m\to\kappa$. Prediction vectors can lie on simplex faces, including hard category predictions.
+
+The oriented binary intervals become zero sum residual sets
+
+$$D_L=(1-\lambda)\Delta_J-e_Y+\lambda g,$$
+
+$$D_U=(\lambda/\tau)(\Delta_J-g). \qquad (22)$$
+
+For an independent standard Gaussian $H$ in $E$, let $B_J(w,D)=\|w\|^2-\operatorname{dist}^2(w,D)$. A multiplier $\eta=(a,b)\in E\times\mathbb R$ gives $h_\eta=a+bS$. Define
+
+$$\Psi_J(\eta,t)=E B_J(H-h_\eta,tD_L)+\tau E B_J(H-h_\eta,tD_U). \qquad (23)$$
+
+Theorem 3. Under these assumptions, for every fixed $0<\lambda\leq1$ the boundary is
+
+$$\kappa_{J,c}(\lambda)=\inf_{\eta\in E\times\mathbb R}\ \sup_{t\geq0}\Psi_J(\eta,t). \qquad (24)$$
+
+Below this ratio, the probability of a unique finite minimizer of (2) tends to one; above it, the probability of a finite minimizer tends to zero. The dimension ratio counts common noise slopes per labelled menu. The fitted constants and signal slope are additional fixed dimensional parameters. The equality case is unspecified.
+
+The positive power limit retains the chosen vertex tangent cone $C_Y=\operatorname{cone}\{e_j-e_Y:j≠Y\}$. At a common scale $v\geq0$, its residual sets are
+
+$$D_{L,\infty}(v)=v(g-e_Y)+C_Y,$$
+
+$$D_{U,\infty}(v)=(v/\tau)(\Delta_J-g). \qquad (25)$$
+
+Let $\Psi_{J,\infty}(\eta,v)$ replace the scaled sets in (23) by (25), and put
+
+$$\kappa_{J,\infty}=\inf_\eta\ \sup_{v\geq0}\Psi_{J,\infty}(\eta,v). \qquad (26)$$
+
+The ordinary boundary is $\kappa_{J,0}=\inf_\eta E\|\Pi_{C_Y}(H-h_\eta)\|^2$.
+
+Corollary 3. Under Theorem 3, $\kappa_{J,c}(\lambda)$ increases to $\kappa_{J,\infty}$ as positive power decreases to zero. This limit bounds the existence region for every power in $[0,1]$ simultaneously. Every sequence of possibly data dependent powers with $0<\lambda_m\leq1$ almost surely and $\lambda_m\to0$ in probability has this same strict two sided boundary, without a rate requirement. For $J\geq3$, $\kappa_{J,\infty}>\kappa_{J,0}$. For $J=2$, this strict inequality holds exactly when $P(g_Y>0)>0$.
+
+The final condition distinguishes binary choice from larger menus. An always wrong binary hard predictor has the ordinary limiting boundary. With at least three alternatives, the Gaussian tangent projection can concentrate on different unchosen competitors, giving a positive derivative for every fixed prediction vector. Appendix F proves this condition and treats the perfect hard prediction endpoint separately. For two alternatives the formula reduces to Theorem 1 with binary signal coefficient $\sqrt2\gamma$; alternative profile differences have variance two. These results concern common coefficients on alternative profiles. Tan and Bellec (2023) study a class specific coefficient matrix on shared covariates and impose existence in Assumption 2.4.
+
+Figure 2 shows a matched hard prediction illustration with three alternatives, signal 1.5, proxy error 0.25 and auxiliary ratio one. The established fixed dimensional variance criterion for one orthogonal common slope gives power 0.219576. The corresponding boundary is 0.7039, compared with 0.2164 at unit power and 0.5594 for ordinary logit. This reference uses the hard predictor's actual score covariance, derived in Appendix F. Its population value is available in the simulation; it is not a newly estimated tuning algorithm.
+
+All methods share each Gaussian menu sample, observed choices, predictions and attribute dimensions. Each budget supplies 500 independent draws. At 80 labelled menus and 52 orthogonal attributes, finite fit frequencies are 0.538 for the variance reference, 0.064 for ordinary logit and zero at unit power. The paired reference minus ordinary difference is 0.474 with Monte Carlo standard error 0.02235. Boundary locations at these finite budgets remain shifted from the asymptotic limits. The complete 18 cells, 9000 classifications and 1090 independently checked ordinary boundary directions accompany the figure. Accuracy, interval performance and training costs retain their separate comparisons in Section 5.
+
+![Figure 2](figures/figure_menu_phase.png)
+
+Figure 2  Finite estimation with hard category predictions on identical menus and dimensions. Each point uses 500 draws; circles and dashed lines use 40 labelled menus, and squares and solid lines use 80. Dotted lines mark the corresponding boundaries. Error bars are 95% Wilson binomial intervals. The variance reference is the existing oracle criterion for one orthogonal slope, with power 0.219576. The experiment was selected after the population grid as a mechanism illustration. Lines connect the observed frequencies; they do not estimate a transition rate.
 
 ## 4 Evidence from released vaccine choices
 
@@ -288,9 +340,9 @@ Both DY settings return 500 estimates and intervals in each condition. With 20 l
 
 Soft pooling retains the smallest displayed point errors under the original, weaker signal, including the imperfect predictions. Its coverage in the 150 label cases remains around 0.94. The complete results support distinct choices for distinct objectives: an analyst focused on prediction or parameter error may favor pooling in these conditions, while inference on the human logistic target requires its target discrepancy and coverage to be assessed. Existing ridge and one step procedures also handle many finite computation cases.
 
-![Figure 2](figures/figure2_estimates_intervals.png)
+![Figure 3](figures/figure2_estimates_intervals.png)
 
-Figure 2  Error and coverage answer different questions. The left column uses 20 labels, oracle predictions and the original signal. The right column uses 150 labels, overconfident predictions and threefold utility. The PPI and pooling methods use 600 auxiliary rows and proxy error 0.25; both DY settings use labelled rows alone. MSE axes are logarithmic; annotations show available points out of 500. Coverage is averaged across 11 marginal intervals, with the reference line at 0.95. Underlying aggregate tables retain interval counts, Monte Carlo errors and all remaining conditions.
+Figure 3  Error and coverage answer different questions. The left column uses 20 labels, oracle predictions and the original signal. The right column uses 150 labels, overconfident predictions and threefold utility. The PPI and pooling methods use 600 auxiliary rows and proxy error 0.25; both DY settings use labelled rows alone. MSE axes are logarithmic; annotations show available points out of 500. Coverage is averaged across 11 marginal intervals, with the reference line at 0.95. Underlying aggregate tables retain interval counts, Monte Carlo errors and all remaining conditions.
 
 ### 5.3 Power changes availability and error
 
@@ -312,9 +364,9 @@ The shared samples isolate the weight comparison from availability selection. Am
 
 The choice probabilities also change materially on those same 412 repetitions. Mean expected excess log loss is 0.715 nats per choice at unit power, 0.434 at power 0.5, 1.475 at power 0.1 and 6.866 at power 0.01. This quantity is the Bernoulli Kullback–Leibler divergence from the known choice probabilities, averaged over the fixed 1200 row support. It evaluates the generated choice population exactly; it supplies no additional human validation sample.
 
-![Figure 3](figures/figure3_power_endpoint.png)
+![Figure 4](figures/figure3_power_endpoint.png)
 
-Figure 3  Existence and error respond differently to power. The left panel gives the balanced Gaussian boundary at auxiliary to label ratio one. Open markers at zero give positive power right limits; the filled black marker gives exactly zero power. The right panel compares positive powers on the same 412 replayed samples with available unit power fits, using the original 11 contrast support and 20 labels. Both right panel axes are logarithmic.
+Figure 4  Existence and error respond differently to power. The left panel gives the balanced Gaussian boundary at auxiliary to label ratio one. Open markers at zero give positive power right limits; the filled black marker gives exactly zero power. The right panel compares positive powers on the same 412 replayed samples with available unit power fits, using the original 11 contrast support and 20 labels. Both right panel axes are logarithmic.
 
 The existence ordering supports a diagnostic interpretation of power. Lower positive power can restore a finite root while allowing coefficients to move farther along a human separating direction. Existing penalization, one step estimation and pooling remain relevant alternatives, with their full results in Table 2 and the aggregate grids. Availability alone cannot choose among their estimation targets or establish reliable intervals.
 
@@ -351,11 +403,11 @@ For a concrete dataset, the support audit answers whether the stated unpenalized
 
 Reliable intervals add another requirement. The known truth experiments show both high conditional coverage with unavailable estimates and finite point outputs with lower coverage. Reporting availability, conditional coverage and issued and covers makes those differences visible. Hess et al. (2026) distinguish parameter uncertainty, preference heterogeneity and repeated choice dependence; our reported coverage uses independently generated rows under its stated model. This complements work on the sequential decisions of choice modellers (Nova et al., 2025): the fitted objective and convergence criterion belong in the reproducible specification alongside the utility function.
 
-The Gaussian boundary describes a controlled increasing dimension model. Actual DCE attributes are often discrete and choices are repeated within people. Our finite design support calculation applies to a supplied binary logit loss; the phase formula does not convert those datasets into independent Gaussian observations. Extending the probability boundary to clustered or multinomial choice is a separate theoretical task. The current result supplies an explicit baseline and a direct objective audit for the binary case.
+The Gaussian boundaries describe controlled increasing dimension models. Actual DCE attributes are often discrete and choices repeat within people. The finite support condition applies to the supplied binary or menu logit objective; the probability calculation requires its independent Gaussian profile assumptions. Balanced fixed tasks provide another check: if both samples have identical menu frequencies and predictions depend only on those menus, their prediction loss averages are identical for every coefficient. The correction then vanishes at every power. This identity can be checked before fitting and keeps the model's information source explicit.
 
 ## 7 Conclusion
 
-Prediction assisted binary logit has a finite solution boundary determined jointly by labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive that boundary for a frozen low dimensional predictor with Gaussian remaining attributes and an estimated intercept. Positive power events are nested. Their upper envelope governs strictly positive powers tending to zero and bounds every selection of power under the same signal and estimated intercept assumptions. It exceeds ordinary logit for every fixed strictly interior predictor, including uninformative predictions. The fixed sample coefficient path and replayed choice samples show the estimation cost that can accompany greater availability. Retaining fitted prediction indices extends the calculation to independently trained linear scores under explicit convergence conditions. The finite design audit checks the objective actually fitted.
+Finite estimation of prediction assisted choice logit depends jointly on the labelled and auxiliary samples, utility signal, prediction distribution and correction power. We derive explicit boundaries for a binary model and for whole menus with common attribute coefficients and fitted choice constants. The positive power upper envelope governs strictly positive powers tending to zero and bounds every power selection. Hard predictions expose a strict gain condition that changes between binary and larger menus. The fixed sample coefficient path and replayed choice samples quantify costs that can accompany greater availability. Fitted prediction indices extend the binary calculation to independently trained linear scores under explicit convergence conditions. The finite design audit checks the objective actually fitted.
 
 The choice support experiments retain strong pooling, one step and penalized alternatives. A separate fixed total label comparison finds no prediction error advantage for the examined independent training allocation and fixed powers over direct human ridge. These results support explicit reporting of the fitted target, training budget, finite solution, prediction error and uncertainty.
 
@@ -457,7 +509,7 @@ $$\kappa_c=\tau[1-\min_{u\geq0}\{\tau Ru^2+E h_u(C)\}],$$
 
 $$h_u(c)=f((1/2+c)u)+f((1/2-c)u). \qquad (B2)$$
 
-Proposition 2. At fixed $R$ and $v$, a strictly larger distribution of $C^2$ in convex order gives a strictly smaller boundary in (B2), provided the two distributions differ.
+Proposition 3. At fixed $R$ and $v$, a strictly larger distribution of $C^2$ in convex order gives a strictly smaller boundary in (B2), provided the two distributions differ.
 
 For $u>0$, define $H_u(x)=h_u(\sqrt{x})$. The identities $f''(a)=2\Phi(-a)$ and $f'''(a)=-2\varphi(a)$ imply
 
@@ -519,7 +571,7 @@ The soft response notation in (1) gives the conditional expected Bernoulli loss.
 
 Let $h=H^\infty$ and $a=A^\infty$ for the fixed sample losses in Section 3.5. Define the human weak separation cone $S=\{d:h(d)=0\}$. Assume the stacked design has full column rank. For powers strictly below one this is the curvature rank condition; statements of uniqueness at unit power additionally require full auxiliary rank.
 
-Proposition 3. A finite root exists at some sufficiently small positive power exactly when $a(d)>0$ for every nonzero $d\in S$. When a larger positive power already gives a coercive objective, every smaller positive power gives a coercive objective as well.
+Proposition 4. A finite root exists at some sufficiently small positive power exactly when $a(d)>0$ for every nonzero $d\in S$. When a larger positive power already gives a coercive objective, every smaller positive power gives a coercive objective as well.
 
 Equation (15) proves the nesting statement. On $S$, the identity $Q_\lambda^\infty(d)=\lambda a(d)$ gives necessity. For sufficiency, if $S$ meets the unit sphere, continuity and compactness give a positive lower bound for $a$ on that intersection. It remains positive in a neighborhood. Away from this neighborhood $h$ has a positive minimum, while $a$ is bounded below on the sphere. Every sufficiently small positive power makes $(1-\lambda)h+\lambda a$ positive throughout the sphere. If $S=\{0\}$, $h$ is already positive there. Coercivity and full rank then establish the finite root.
 
@@ -541,7 +593,7 @@ The function $G$ is coercive and has $G(0)=1/2+\tau$ and derivative $2\varphi(0)
 
 If $H$ has no finite stationary point and $Q_\lambda$ has finite roots for all sufficiently small positive powers, the root norm tends to infinity. A bounded subsequence would imply a finite zero of $\nabla H$ by continuity of $(1-\lambda)\nabla H+\lambda\nabla A$.
 
-Under strict human separation and the positive recession condition of Proposition 3, the growth has a more explicit limit. Let $M$ contain vectors with $(2Y_i-1)X_i^Tv\geq1$ for every labelled row. Put
+Under strict human separation and the positive recession condition of Proposition 4, the growth has a more explicit limit. Let $M$ contain vectors with $(2Y_i-1)X_i^Tv\geq1$ for every labelled row. Put
 
 $$V^*=\operatorname{argmin}_{v\in M}a(v). \qquad (D2)$$
 
@@ -599,7 +651,7 @@ Every finite multiplier thus gains strictly over its zero scale value $Ef(h_L)$.
 
 The general calculation includes 30 signal, sample ratio and prediction conditions. Two hundred versus 400 node quadrature agrees within $1.7\times10^{-9}$. Independent finite differences check its gradient and Hessian, and the zero scale derivative identity agrees within $1.2\times10^{-16}$. All 120 finite power comparisons lie below the corresponding limiting boundary. All 120 original moment and rescaled interval LPs agree. Twenty-four limiting cone projections, retaining the intercept and signal constraints, match an independent full variable quadratic program within $1.6\times10^{-13}$ in squared norm. Feasibility, orthogonality and an independent dual bound verify the values even when a dual optimizer reports precision loss. Both zero scale cases are retained.
 
-For 120 separate finite designs, the limiting LP has 56 interior moments and 64 exterior moments. Each interior case has a positive power witness checked by the original corrected moment LP. Each exterior case has an independent human weak separator with negative corrected auxiliary recession cost. The identity $Q_\lambda^\infty(d)=\lambda a(d)$ agrees within $1.3\times10^{-13}$ on those directions at three powers. These calculations separately check the two structural possibilities of Proposition 3.
+For 120 separate finite designs, the limiting LP has 56 interior moments and 64 exterior moments. Each interior case has a positive power witness checked by the original corrected moment LP. Each exterior case has an independent human weak separator with negative corrected auxiliary recession cost. The identity $Q_\lambda^\infty(d)=\lambda a(d)$ agrees within $1.3\times10^{-13}$ on those directions at three powers. These calculations separately check the two structural possibilities of Proposition 4.
 
 A separate analytic scope check uses the excluded hard predictor $g=Z=1-Y$. Here $r=1$, $s_U=s_L$ and $J_U=[-1/\tau,0]$. The scale derivative is $E\{f'(-h_L-v)-f'(-h_L+v/\tau)\}\leq0$, so the limiting supremum is attained at zero and gives $\kappa_0$. The same cone argument applies in this example because $r=1$ retains scale tightness. The uniform strict gain cannot include this hard endpoint.
 
@@ -613,7 +665,7 @@ The earlier balanced validation is retained: 48 independent constrained projecti
 
 ### E1 Fixed dimensional index extension
 
-For Proposition 4 replace the multiplier matrix in (A1) by the signed columns $(1,S,T^T)$. Conditional on $(S,T,Y,Z,U)$ the remaining oriented Gaussian matrix remains independent standard normal. Every interval identity and the nonzero cone intersection event in A1 are unchanged. The fixed number of additional columns changes the curvature rank requirement by a fixed amount; the strict proportional sides retain full rank. The unit power cone span bound remains $\kappa_c\leq\tau$.
+For Proposition 2 replace the multiplier matrix in (A1) by the signed columns $(1,S,T^T)$. Conditional on $(S,T,Y,Z,U)$ the remaining oriented Gaussian matrix remains independent standard normal. Every interval identity and the nonzero cone intersection event in A1 are unchanged. The fixed number of additional columns changes the curvature rank requirement by a fixed amount; the strict proportional sides retain full rank. The unit power cone span bound remains $\kappa_c\leq\tau$.
 
 For a unit multiplier $u$ define $h_u=u_0+u_1S+u_T^TT$. The interval support cancellation in A3 gives $E\{(-h_u)_++Yh_u\}$. Conditional on $(S,T)$, both responses have strictly positive probability, and every nonzero affine $h_u$ is nonzero with positive probability. This support expectation is positive on the compact unit sphere in $\mathbb R^{k+2}$. Its minimum is positive. The integrable envelope becomes $1+|S|+\|T\|$. Thus the empirical and population minimizing multipliers have a common bounded set, and zero is interior to the low dimensional interval image with probability tending to one.
 
@@ -629,7 +681,7 @@ Condition on training. When $b_m>0$, take the second rotation direction to be $(
 
 $$g_m=\sigma(c_m+a_mS+b_mT). \qquad (E2)$$
 
-Corollary 2. Suppose $(a_m,b_m,c_m)$ converges in probability to finite deterministic $(a,b,c)$. For fixed positive power, the strict existence sides are given by Proposition 4 with $k=1$ and $g=\sigma(c+aS+bT)$. Theorem 2 also holds for strictly positive powers converging to zero in probability, with this limiting predictor and its constrained indices. No rate of convergence of the training parameters is required. The training sample must be independent of all audit rows.
+Corollary 2. Suppose $(a_m,b_m,c_m)$ converges in probability to finite deterministic $(a,b,c)$. For fixed positive power, the strict existence sides are given by Proposition 2 with $k=1$ and $g=\sigma(c+aS+bT)$. Theorem 2 also holds for strictly positive powers converging to zero in probability, with this limiting predictor and its constrained indices. No rate of convergence of the training parameters is required. The training sample must be independent of all audit rows.
 
 To justify passage from conditional training to a deterministic threshold, restrict the training parameters to a compact set whose probability tends to one. The support lower bound in E1 is independent of these parameters because the prediction terms cancel. Conditional Bernoulli variance gives $E(Y-g_m)^2\geq E\{\sigma(\gamma S)[1-\sigma(\gamma S)]\}>0$, uniformly over the set. It provides a uniform scale bound at fixed positive power and in the closed limiting cone. The logistic map is continuous in $(a,b,c)$ with derivative bounded by a constant times $1+|S|+|T|$. Compact uniform laws and localization therefore give continuous population thresholds and uniform convergence of the empirical extrema. Conditional kinematic bounds hold on these same sets. Parameter convergence then gives the strict probability limits; nesting supplies the data dependent positive power lower side as in (D7). This argument assumes convergence of the three training quantities; it does not prove that condition for an arbitrary learning algorithm.
 
@@ -678,6 +730,110 @@ Table E1  Paired finite solution frequencies with identical calibrated predictio
 
 The difference is aligned minus external. Monte Carlo standard errors use repetition level paired indicators; rows share draws. The last 80 label row has the reverse ordering. These probabilities do not establish general prediction superiority or interval validity.
 
+## Appendix F Whole menu boundary and hard predictions
+
+### F1 Finite residual cone and probability boundary
+
+Choose an orthonormal basis for $E$, whose dimension is $r=J-1$. In these coordinates each remaining profile column is standard Gaussian on $E$. Stack the $n=m+N$ menus. The remaining design is an $nr$ by $q$ independent standard Gaussian matrix, independent of the fixed dimensional observations on which we condition. Let $V$ contain the $r$ fitted constant columns and the common signal column. The finite moment equation is a Gaussian nullspace intersection with
+
+$$K=\operatorname{cone}(D),\qquad D=\prod_iD_i,\qquad C=K\cap\ker(V^T). \qquad (F1)$$
+
+Each menu retains one probability simplex. The moment support is $\{\sum_iw_iF_i^Tp_i:p_i\in\Delta_J\}$. Under full rank of the positively weighted attribute contrasts, its interior is the finite root condition, as in Proposition 1. This is ordinary convex support geometry. In particular, a feasible boundary moment and an exterior corrected moment describe distinct events.
+
+Assumption $a_*>0$ implies $P(g_Y<1)>0$. With probability tending to one, at least one labelled menu has a strictly negative chosen residual coordinate before common scaling. That coordinate bounds the scale of any bounded residual sequence, making $K$ closed and pointed. This argument allows other labelled menus to have exactly correct hard predictions. The exceptional sample with no such anchor has probability tending to zero and is not silently assumed impossible.
+
+For independent standard Gaussian menu normals $H_i$ in $E$, polyhedral polar calculus gives
+
+$$\delta(C)=E_H\inf_\eta\sup_{t\geq0}\sum_i B_J(H_i-V_i\eta,tD_i). \qquad (F2)$$
+
+Indeed $C^\circ=K^\circ+\operatorname{range}(V)$ is closed, and projection onto $K$ maximizes $2w^Tu-\|u\|^2$ over $u\in K$. The order of infimum and supremum is preserved.
+
+The support functions of labelled and auxiliary residuals cancel their prediction terms in expectation. For a unit nuisance direction they sum, per labelled menu, to
+
+$$\rho(\eta)=E[\max_j(-h_{\eta,j})+h_{\eta,Y}]. \qquad (F3)$$
+
+Finite signal gives every true category positive conditional probability. Every nonzero multiplier produces a nonconstant contrast with positive probability. Continuity and compactness of the multiplier unit sphere give a strictly positive minimum of (F3). The support envelope is integrable, bounded by a constant times $1+\|S\|$. Its uniform law places zero inside the low dimensional residual image and gives the relative interior qualification used to link a nonzero generic cone intersection to an interior moment. Evaluating a support maximizing residual at fixed scale bounds minimizing multipliers, exactly as in Appendix A3.
+
+For a labelled menu, the minimum residual norm is $\lambda\|g-e_Y\|$. To check this, write the unchosen components as $u_j\geq\lambda g_j$ and the chosen component as minus their sum. Increasing any nonnegative unchosen component increases the squared norm. The minimum occurs at the translated chosen vertex. Thus, on a compact multiplier set,
+
+$$\operatorname{dist}^2(w,tD_L)\geq t^2\lambda^2\|g-e_Y\|^2/2-\|w\|^2. \qquad (F4)$$
+
+The positive mean $a_*$ localizes maximizing scales. Uniform laws on the resulting compact sets use the squared Gaussian and signal envelopes. Empirical extrema converge to (24); uniform integrability follows from the upper bound $\sum_i\|H_i\|^2/m$. Conditional expectation over the Gaussian normals therefore gives $\delta(C)/m\to\kappa_{J,c}(\lambda)$. Generic Gaussian position and the relative interior event supply the finite moment implication. At unit power the cone span has dimension at most $Nr+1$ before the fixed constraints, so $\kappa_{J,c}(1)\leq\tau r$. The strict lower region has sufficient auxiliary contrast rank. At smaller positive power all menus supply curvature. Conditional conic kinematics now gives both strict sides of Theorem 3. No equality case follows.
+
+### F2 All positive powers and the zero face
+
+Rescale $v=\lambda t$. The labelled residual set is $v(g-e_Y)+v(1-\lambda)(\Delta_J-e_Y)/\lambda$, and the auxiliary set is unchanged at $(v/\tau)(\Delta_J-g)$. As power decreases the labelled sets increase. The closed limiting cone retains all the labelled tangent cones at $v=0$, with zero auxiliary components. This is the ordinary likelihood face.
+
+The bounds can be chosen jointly across powers. After rescaling, every finite positive power cone contains the unit power residual section. Its support lower bound (F3) makes all minimizing multipliers lie in one compact set. The labelled minimum norm in the rescaled sets, including the limit, is $v\|g-e_Y\|$; (F4) therefore localizes $v$ uniformly on that multiplier set.
+
+For each fixed $v>0$, the sets increase to (25), and their expected projection values converge monotonically. The limiting value is continuous down to $v=0$. Taking suprema over positive scales therefore recovers the retained zero face as well. This argument does not assert pointwise convergence of the finite power integrand at zero scale: its finite power value there is zero, while the limiting labelled projection can be nonzero. The maximized functions of the multiplier are continuous and increase to their continuous limit on the common compact set. Monotone compact convergence passes their minima to (26).
+
+The limiting constrained cone contains every positive power cone and the ordinary likelihood face. Conic kinematics excludes a nonzero intersection above (26), giving an upper bound for all powers without a union over selected weights. Below it, choose a fixed positive power whose boundary exceeds the dimension ratio. Identity (15) nests the finite coercive events at smaller powers. For any almost surely positive $\lambda_m\to0$ in probability, the chance of exceeding that fixed power tends to zero. This proves the two strict sides of Corollary 3 without a rate or independence requirement on the selected powers.
+
+### F3 Strict gap and number of alternatives
+
+Fix a finite multiplier and put $w=H-h_\eta$, $p=\Pi_{C_Y}w$ and $z=w-p$. The normal component satisfies $z_Y=\max_jz_j$, with equality at every active unchosen coordinate of $p$. Consequently
+
+$$\max_jw_j-w_Y-(g-e_Y)^Tp=\max_jp_j-g^Tp.$$
+
+Differentiation of the shifted labelled tangent cone and auxiliary simplex at zero gives
+
+$$\tfrac{1}{2}\partial_v\Psi_{J,\infty}(\eta,0+)=E[\max_jp_j-g^Tp]. \qquad (F5)$$
+
+The integrand is nonnegative. For two alternatives, $p=c(e_{1-Y}-e_Y)$ with $c\geq0$, so it equals $2cg_Y$. Conditional Gaussian full support gives $c>0$ with positive probability at every finite multiplier. The derivative is strictly positive exactly when $P(g_Y>0)>0$. If $g=e_{1-Y}$ almost surely, it is zero for every multiplier. Concavity in scale then maximizes at zero, making (26) equal to the ordinary boundary.
+
+For $J\geq3$, fix $(S,Y,g)$. If $g_Y>0$, every nonzero tangent projection makes the integrand positive. If $g_Y=0$, take an unchosen category $a$ with $g_a>0$ and a different unchosen category $b$. An open Gaussian projection cell has $p=c(e_b-e_Y)$ for $c>0$: the normal has equal chosen and $b$ coordinates, while the other coordinates are strictly smaller. Strict inactive inequalities and a positive ray coefficient define an open cell in the contrast space. On it the integrand is $c(1-g_b)\geq cg_a>0$. Thus the conditional expectation is positive for every fixed prediction vector. Its integrated derivative is positive at every finite multiplier.
+
+The limiting multiplier minimum is attained by the common coercivity bound. At its minimizer, a positive scale gives a value strictly larger than the zero scale value, which is at least the ordinary minimum. This proves the strict gap claimed for larger menus and for the specified binary prediction class. It is a consequence of the compensated objective and its menu constraints. Generic conic projection is an established tool.
+
+If $a_*=0$, then $g=e_Y$ almost surely. The objective instead reduces exactly to $(1-\lambda)L_m(Y)+\lambda L_N(Y)$. For $0<\lambda<1$ all likelihood rows have positive weights, so the existence event is ordinary pooled separation and has boundary $(1+\tau)\kappa_{J,0}$. At unit power only auxiliary rows remain, giving $\tau\kappa_{J,0}$; zero power gives $\kappa_{J,0}$. Every positive sequence strictly below one has the same pooled event, whatever its approach to zero. This treats the zero error endpoint by its exact ordinary likelihood reduction.
+
+### F4 Variance reference and numerical evidence
+
+The numerical hard proxy chooses the true alternative with probability $1-\epsilon$ and each other alternative with probability $\epsilon/(J-1)$. Its fixed prediction is $g=e_Z$. For one orthogonal Gaussian common slope in a fixed dimensional model, let $\mu$ be the true menu probabilities and put
+
+$$R=E(1-\|\mu\|^2),\qquad a=1-\epsilon J/(J-1),$$
+
+$$K=aR,\qquad V_g=2\epsilon+(2a-1)R. \qquad (F6)$$
+
+Exact conditional summation of $(Y,Z)$ gives human score variance $R$, covariance with the surrogate score $K$ and surrogate score variance $V_g$. The usual coordinate sandwich is $[R-2\lambda K+(1+1/\tau)\lambda^2V_g]/R^2$. The existing PPI++ control variate criterion therefore gives
+
+$$\lambda_{\text{var}}=\operatorname{clip}_{[0,1]}\{\tau K/[(1+\tau)V_g]\}. \qquad (F7)$$
+
+This oracle scalar reference uses known simulation quantities. It is a fixed dimensional criterion for the stated coordinate, not an optimum for every utility coefficient or a high dimensional risk guarantee. The posterior oracle value $\tau/(1+\tau)$ generally differs. At error one, $K<0$ and (F7) selects exactly zero; the menu strict gap still concerns the distinct positive power limit. No accuracy benefit from an always wrong predictor is inferred.
+
+The complete population calculation retains 320 evaluations across 80 event conditions, two Sobol resolutions and two scramble seeds. The largest range across resolutions and seeds is 0.001436; the largest difference between the two fine resolution seeds is 0.000567. These are stability diagnostics, without a rigorous integration error bound. Table F1 displays the fine primary values for always wrong hard predictions. Signal follows (21), so its binary rows have contrast signal $\sqrt2\gamma$.
+
+Table F1  Ordinary and positive power limits for always wrong hard predictions
+
+|Alternatives|Signal|Auxiliary ratio|Ordinary|Positive limit|Difference|
+|---|---|---|---|---|---|
+|2|0|1|0.499962|0.499962|0.000000|
+|2|0|4|0.499962|0.499962|0.000000|
+|2|1.5|1|0.334899|0.334899|0.000000|
+|2|1.5|4|0.334899|0.334899|0.000000|
+|3|0|1|0.833448|0.846956|0.013508|
+|3|0|4|0.833448|0.856080|0.022632|
+|3|1.5|1|0.559383|0.565067|0.005684|
+|3|1.5|4|0.559383|0.568725|0.009343|
+
+For a separate check, the two alternative reduction matches the binary signal convention $\sqrt2\gamma$ in 12 comparisons, with maximum numerical difference below 0.000186. At zero signal and three alternatives, the ordinary tangent cone is a planar wedge of angle $\pi/3$. Its classical statistical dimension is $1/2+1/3=5/6$, providing another independent check. The source records distinguish this existing geometric reduction from the compensated calculation.
+
+The matched finite experiment was selected after the population and variance reference calculations. All three methods and every displayed dimension share each draw. It retains 1000 independent model draws, 18 cells of 500 repetitions, 9000 classifications and 120 independent residual LP crosschecks. All 1090 ordinary boundary moments have separately verified weak separating directions. No classification or independent crosscheck remains unresolved. Table F2 includes every displayed frequency; the complete paired differences and Monte Carlo errors are in the archive.
+
+Table F2  Matched finite fit frequencies with hard predicted categories
+
+|Labelled menus|Slopes per menu|Ordinary|Unit|Variance reference|
+|---|---|---|---|---|
+|40|0.15|0.996|0.536|0.998|
+|40|0.40|0.762|0.086|0.894|
+|40|0.65|0.082|0.002|0.520|
+|80|0.15|1.000|0.622|1.000|
+|80|0.40|0.916|0.040|0.980|
+|80|0.65|0.064|0.000|0.538|
+
+Independent finite support and NNLS checks include hard predictions and exact boundary cases. One residual LP initially reported an unknown solver status. A separately formulated nonnegative variable program with an interior point algorithm confirms infeasibility; direct evaluation of its saved direction gives recession cost $-0.002705354$. Original outputs and the interrupted checkpoint are preserved. The completed run retains every planned draw. These checks establish numerical consistency for the displayed calculations, without asserting an independent proof review or priority certificate.
+
 ## Data availability
 
 The public vaccine inputs are available from the pinned Generative Augmented Inference repository identified in Section 4. The reproduction package contains download instructions, source hashes, analysis code and aggregate outputs. The paper uses existing released choices and simulated outcomes. The separately retained questionnaire application does not enter the estimates reported here.
@@ -691,6 +847,8 @@ Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Pr
 Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2024). PPI++: Efficient prediction-powered inference. arXiv:2311.01453, version 2. https://arxiv.org/abs/2311.01453v2
 
 Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753
+
+Fan, S., Visokay, A., Hoffman, K., Salerno, S., Liu, L., Leek, J.T., McCormick, T.H. (2024). From Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsy Narratives. Conference on Language Modeling. https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf
 
 Hess, S., Daly, A., Bliemer, M., Guevara, A., Daziano, R., Dekker, T. (2026). Statistical significance in choice modelling: computation, usage and reporting. Journal of Choice Modelling 60, 100611. https://doi.org/10.1016/j.jocm.2026.100611
 
@@ -722,6 +880,10 @@ Sterzinger, P. (2026). Proportional-limit asymptotics for Diaconis–Ylvisaker-p
 
 Sterzinger, P., Kosmidis, I. (2026). Diaconis–Ylvisaker prior penalized likelihood for p/n → κ ∈ (0,1) logistic regression. Biometrika 113(2), asag014. https://doi.org/10.1093/biomet/asag014
 
+Tan, K., Bellec, P.C. (2023). Multinomial Logistic Regression: Asymptotic Normality on Null Covariates in High-Dimensions. Advances in Neural Information Processing Systems 36. https://proceedings.neurips.cc/paper_files/paper/2023/file/e0ac27bf3327c9cb99cc5f548db4f73a-Paper-Conference.pdf
+
 van Cranenburgh, S., Wang, S., Vij, A., Pereira, F., Walker, J. (2022). Choice modelling in the age of machine learning—Discussion paper. Journal of Choice Modelling 42, 100340. https://doi.org/10.1016/j.jocm.2021.100340
+
+Ye, Z., Yoganarasimhan, H. (2026). Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys. Preprint, arXiv:2604.17267v2. https://arxiv.org/abs/2604.17267v2
 
 Zrnic, T., Candès, E.J. (2024). Cross-prediction-powered inference. Proceedings of the National Academy of Sciences 121(15), e2322083121. https://doi.org/10.1073/pnas.2322083121

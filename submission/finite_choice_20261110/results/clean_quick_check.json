@@ -42,7 +42,7 @@
       "unresolved": 0
     }
   },
-  "full_math_checks_run": false,
+  "full_math_checks_run": true,
   "reported_table_rounding_checked": true,
   "positive_power_paired_draws": 6000,
   "raw_unknown_preserved_and_resolved": true,

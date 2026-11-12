@@ -2,23 +2,23 @@
 
 ## Highlights
 
-- Finite auxiliary samples change corrected logit existence boundaries.
-- Utility signal, prediction calibration and correction power enter the boundary.
-- A general boundary limits every selection of correction power.
-- Identically calibrated predictions can have different existence boundaries.
-- Estimate availability and interval coverage are evaluated separately.
+- Finite auxiliary budgets change corrected logit existence boundaries.
+- Whole menus change the strict gain condition for hard predicted choices.
+- A joint upper boundary limits every selection of correction power.
+- Matched simulations separate finite fits from error and interval coverage.
+- Prediction training labels count toward the total human label budget.
 
 ## Cover letter scientific text
 
 Dear Editors,
 
-Please consider “When prediction assisted logit estimates exist” for the Journal of Choice Modelling. The paper studies whether a prediction assisted binary logit objective has a finite minimizer when observed choice labels are scarce. It derives an explicit existence boundary with a finite auxiliary sample, utility signal, an estimated intercept and a frozen predictor. The derivation addresses compensation between labelled losses that are individually unbounded below and auxiliary losses that supply curvature. A fixed number of prediction indices can enter the fitted attributes. Under explicit convergence conditions, a further result covers independently trained linear prediction scores.
+Please consider “When prediction assisted logit estimates exist” for the Journal of Choice Modelling. The paper studies when an existing prediction corrected choice objective admits finite estimation with scarce human labels. We derive its existence boundary with finite auxiliary samples for binary logit and common coefficient multinomial choice, under independent Gaussian profile assumptions. The models estimate a utility signal and choice constants and use frozen predictions. The binary model supplies explicit scalar benchmarks; the menu model retains its joint probability constraints.
 
-The analysis connects this result to choice estimation through a pinned vaccine choice reanalysis and known truth simulations on its attribute support. The comparisons retain established power tuning, one step estimation, penalization, soft pooling and two labelled only DY prior settings. They report unavailable estimates alongside point error and interval performance. A separate fixed label budget experiment counts independent predictor training and retains the stronger prediction performance of direct human ridge in the examined grid. A classical finite support audit makes the stated objective and its finite solution directly checkable. The manuscript develops a methodological contribution to prediction assisted choice estimation and relates it to recent work in the journal on machine assistance and modelling decisions.
+The positive power upper envelope bounds every power selection and governs strictly positive data dependent powers tending to zero. Hard category predictions expose a condition that changes with menu size: always wrong binary predictions have the ordinary limiting boundary, while larger menus retain a strict gap under the stated assumptions. The proof treats the zero scale face and the perfect prediction endpoint explicitly. Existing categorical prediction correction and common coefficient MNL constructions are attributed to Fan et al. and Ye and Yoganarasimhan. Generic support geometry, conic kinematics and the classical Gaussian zonotope special case retain their established attribution.
 
-The power analysis shows nested finite solution events at positive powers. Under the same signal and estimated intercept assumptions, their explicit upper envelope bounds every power selection and governs strictly positive powers tending to zero with sample size. It strictly exceeds the ordinary logit existence boundary for any fixed predictor strictly inside the unit interval. A fixed sample coefficient limit and paired replay expose the parameter and choice probability cost that can accompany greater availability. The unit power uninformative Gaussian zonotope special case is explicitly attributed to existing geometry. The accompanying archive contains the complete proofs, analysis code, pinned public input metadata, aggregate results and figure sources. Public numeric inputs are downloaded separately with hash verification. The paper uses released choices and simulated outcomes.
+The empirical evidence uses pinned released vaccine choices and known truth simulations on their attribute support. Comparisons retain established power tuning, one step estimation, soft pooling, ridge and DY prior alternatives. A matched menu experiment compares identical draws and attribute dimensions using the hard predictor's actual existing variance criterion. Availability, error and interval performance are reported separately. A fixed total label experiment counts independent predictor training and gives no prediction error advantage over direct human ridge in its examined grid. The archive provides complete proofs, code, numerical records, figure sources and hash verified public input metadata. The paper uses released choices and simulated outcomes.
 
-An exact calibrated example holds the complete response–prediction law fixed while changing the prediction index's relationship to fitted attributes. Its existence boundaries differ strictly. The complete population grids and paired finite size illustration quantify this effect and retain finite sample reversals. The result clarifies a conditioning requirement for the same corrected choice objective; generic feature alignment, Gaussian rotation and cross prediction are attributed to prior work.
+The binary fitted index extension clarifies when independently trained linear scores enter the same existence calculation. Its convergence conditions, complete matched calibrated examples and finite sample reversals remain reported. The manuscript connects finite estimability to the specification and computational decisions of choice analysts.
 
 ## Information needed to finalize the submission record
 

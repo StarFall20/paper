@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-11",
+  "stage": "Selected after complete hard-prediction population and existing variance-reference calculations; mechanism illustration,not preregistered general performance study",
+  "alternatives": 3,
+  "gamma": 1.5,
+  "tau": 1,
+  "epsilon": 0.25,
+  "prediction": "one-hot proxy category",
+  "label_menus": [
+    40,
+    80
+  ],
+  "replications_per_budget": 500,
+  "dimension_ratios": [
+    0.15,
+    0.4,
+    0.65
+  ],
+  "powers": {
+    "ordinary": 0.0,
+    "oracle_null_slope_variance": 0.2195760406786864,
+    "unit": 1.0
+  },
+  "critical_ratios": {
+    "ordinary": 0.5593827252535405,
+    "oracle_null_slope_variance": 0.7038819615796961,
+    "unit": 0.2163641366585633
+  },
+  "seed": 2026111179,
+  "planned_independent_model_draws": 1000,
+  "planned_support_classifications": 9000,
+  "pairing": "Every method and dimension shares the same draw; identical q across methods",
+  "ordinary_boundary": "Retain boundary support states and independently verify weak human separators; do not recode them as exterior corrected moments",
+  "scope": "Availability only; oracle scalar fixed-dimensional variance reference is not a new estimated tuning algorithm or high-dimensional risk optimum",
+  "population_csv_sha256": "d09e1b7eda4e03d3a22b9d75603269cfca69738b6d7812f7addc6681fdb7f256",
+  "variance_csv_sha256": "aa3afbc0413823bb418e217f6d6021a0a1f18a1d841b0108dc756509d654151c",
+  "new_human_or_LLM_responses": 0
+}
