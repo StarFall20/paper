@@ -1,5 +1,14 @@
 # Current research status — updated13 November2026
 
+## Calibrated conditional-moment counterexample checked separately
+
+The [new same-model follow-up](reports/calibrated_pair_20261113/README.md) matches conditional calibration, conditional Brier risk and the entire fixed-dimensional score covariance function for two frozen posterior signals on identical X,Y. A balanced construction gives a strict unit-power inequality by the existing convex-order argument. The nonzero-signal computed boundaries are 1.1886304119 and 1.2192432437 at the common variance reference power 0.8. These are generating-law signals, not a fitted predictor-selection pipeline.
+
+All 36 exploratory pairs, 216 quadrature records and 2400 finite-size classifications remain. At 80 labels and nuisance-dimension ratio 1.2, feasible frequencies are 53.0% and 53.5%; both upper-ratio comparisons reverse direction. The finite-size evidence does not establish a large or uniform practical gain. Conditional moments, full covariance blocks, adaptive quadrature and 60 original support LPs pass. A fresh independent copy regenerates all eight scientific outputs byte-for-byte with nine identical analysis sources.
+
+The reviewed 58-page full manuscript and 28-page reading version remain unchanged. This calibrated example strengthens one theoretical statement within the same objective; it introduces no estimator or stitched framework. Updated primary readings delimit calibration, distribution-informed PPI, complete GMM and PP-Rank. Specific-result priority and sufficient choice-analysis value remain under assessment. Current author-guide rules and real author declarations are outstanding; the author-information question is pending. The goal remains active.
+
+
 ## Categorical face consequence integrated into the same manuscript
 
 The [categorical face follow-up](reports/categorical_face_path_20261113/README.md) extends the same corrected-recession coefficient path to partially separated fixed designs. Classical maximal separable subsets and margin limits retain their attribution. It identifies39complete,10quasi-complete,and11overlap human designs among the60existing public allocations;9quasi-separated allocations per routine satisfy the corrected condition. All720old paths remain,including574finite roots and146unavailable records. No new choice coefficient or response was fitted or generated.
