@@ -10,10 +10,14 @@ Released vaccine choices and matched known-truth experiments connect these resul
 
 The manuscript addresses methodological choice analysis and prediction-assisted estimation. Recent Journal of Choice Modelling work on assisted specification and uncertainty reporting provides the disciplinary context. The empirical reanalysis uses existing released data; the separately retained questionnaire application does not enter the paper's estimates.
 
+This research received no funding.
+
 Sincerely,
 
-Corresponding author details to be supplied by the authors before sending.
+LU JIAHANG
+
+Shandong University of Finance and Economics
 
 ## Author confirmation before sending
 
-This draft does not assert facts that have not been provided. The authors must supply their names, affiliations and correspondence details; confirm authorship approval, manuscript originality and exclusive submission; and state actual funding, competing interests, acknowledgments and any generative-AI assistance in preparation. The current journal-specific author guide still needs verification. This letter is a reviewable draft and has not been sent.
+The name LU JIAHANG, affiliation Shandong University of Finance and Economics, and absence of research funding were supplied by the user on 13 November 2026. The complete author list, corresponding author and email, actual contributions, competing interests, authorship approval, manuscript originality, exclusive submission, acknowledgments and disclosure of AI assistance still need author confirmation. The current journal-specific author guide still needs verification. This letter has not been sent.

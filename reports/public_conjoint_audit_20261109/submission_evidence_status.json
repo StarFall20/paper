@@ -200,7 +200,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../core_revision_20261113/README.md",
+  "latest_progress_report": "../author_update_20261113/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -272,5 +272,19 @@
     "new_framework_or_estimator_claimed": false,
     "specific_priority_certified": false,
     "authors_and_current_guide_pending": true
+  },
+  "author_information": {
+    "record": "../../submission/finite_choice_20261110/submission_materials/author_facts_20261113.json",
+    "name_affiliation_and_no_funding_supplied": true,
+    "remaining_author_declarations_pending": true,
+    "email_supplied": false,
+    "submission_made": false
+  },
+  "proof_scope_followup": {
+    "report": "../../submission/finite_choice_20261110/reports/proof_scope_followup_20261113.md",
+    "latest_Koriyama_Bellec_v3_checked": true,
+    "direct_coverage_excluded_by_row_infimum_condition": true,
+    "independent_peer_review": false,
+    "specific_priority_certified": false
   }
 }

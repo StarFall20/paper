@@ -1,5 +1,12 @@
 # Current research status — updated13 November2026
 
+## Author facts supplied and latest general theorem checked
+
+The [author update](reports/author_update_20261113/README.md) records LU JIAHANG, Shandong University of Finance and Economics, and no research funding. The separate author page, funding statement and cover letter now use the supplied facts. Correspondence, complete authorship, contributions, competing interests and final declarations are outstanding. No author role or declaration has been inferred from a name and affiliation.
+
+The latest v3 of Koriyama and Bellec retains the finite row-infimum and strict row-convexity conditions. These prevent direct coverage of the corrected labelled loss; they do not alone establish originality. The internal proof review found no algebraic change to make, while one bibliography-only entry still requires exact primary verification or removal. The current reviewed manuscript and all 79 science sources remain unchanged. No new model draw or empirical estimate is reported. The research goal remains active.
+
+
 ## Focused current manuscript integrates the calibrated comparison
 
 The [current revision](reports/core_revision_20261113/README.md) centers the same compensated-attainment question. The abstract is 159 words and the introduction is 616 words, reduced from 199 and 724. Appendix B4 now gives a calibrated specialization and a nonzero-signal conditional-moment construction, with the small and adverse finite-size comparisons retained. No estimator or extra framework is added. PP-Rank's bounded approximate-root theorem is cited accurately.

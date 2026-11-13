@@ -330,3 +330,10 @@ The snapshot also has its own `run_reproduction.py` command for regenerating the
 
 
 The current [runtime record](reports/core_revision_runtime_versions_20261113.json) covers scientific checks and Word authoring. requirements.txt now includes the tested python-docx and lxml versions required by both authoring entry points. LibreOffice and Poppler are needed for rendering review, separately from the scientific calculations.
+
+
+## Author information update on 13 November 2026
+
+The [author facts](submission_materials/author_facts_20261113.json) record LU JIAHANG, Shandong University of Finance and Economics, and no research funding. The [separate author page](submission_materials/title_page.docx), [funding statement](submission_materials/funding_statement.md) and cover letter use those facts. Correspondence and the remaining author declarations are still required. The author page is reproducible with `python authoring/build_title_page_docx.py --facts submission_materials/author_facts_20261113.json --out regenerated/title_page.docx` after creating the regenerated directory. Its [one-page visual review](reports/author_page_visual_qa_20261113.json) is complete.
+
+The [current proof scope follow-up](reports/proof_scope_followup_20261113.md) verifies the latest version of the closest general M-estimator theorem and records open citation and priority checks. The manuscript and scientific results retain their preceding reviewed bytes. This author update adds no new scientific run and does not establish a submission threshold.

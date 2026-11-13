@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-13",
+  "status": "complete",
+  "pages": 1,
+  "all_pages_visually_inspected": true,
+  "observed_layout_defects": [],
+  "docx_sha256": "0dc2c7a5594d8a8b9711b87bff549a50fbf43ee1cb93a6fd0371057dd736ac4f",
+  "source_sha256": "9af9e552be7e243f5252e47e0e41bea9d3ab5acba44cac1c9bf4e5efa672b8b6",
+  "facts_sha256": "96f40b6fce0f5cf7e98485a1cf2137ae13a7568656f957290f2f87e83880aded",
+  "reviewed_page_sha256": "7641276b41ce6b726ba675c2d1ece23d41f0652eb54dc08b25760a9dcb891e49",
+  "confirmed_fields_only": true,
+  "corresponding_email_supplied": false,
+  "submission_ready_author_page": false
+}

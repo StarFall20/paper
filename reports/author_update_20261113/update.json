@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-13",
+  "provided_name": "LU JIAHANG",
+  "provided_affiliation": "山东财经大学",
+  "official_english_affiliation": "Shandong University of Finance and Economics",
+  "official_translation_source": "https://www.sdufe.edu.cn/xxgk_/cdzc.htm",
+  "funding_confirmed_none": true,
+  "complete_author_list_confirmed": false,
+  "corresponding_email_supplied": false,
+  "contributions_confirmed": false,
+  "competing_interests_confirmed": false,
+  "author_page_visual_qa": {
+    "date": "2026-11-13",
+    "status": "complete",
+    "pages": 1,
+    "all_pages_visually_inspected": true,
+    "observed_layout_defects": [],
+    "docx_sha256": "0dc2c7a5594d8a8b9711b87bff549a50fbf43ee1cb93a6fd0371057dd736ac4f",
+    "source_sha256": "9af9e552be7e243f5252e47e0e41bea9d3ab5acba44cac1c9bf4e5efa672b8b6",
+    "facts_sha256": "96f40b6fce0f5cf7e98485a1cf2137ae13a7568656f957290f2f87e83880aded",
+    "reviewed_page_sha256": "7641276b41ce6b726ba675c2d1ece23d41f0652eb54dc08b25760a9dcb891e49",
+    "confirmed_fields_only": true,
+    "corresponding_email_supplied": false,
+    "submission_ready_author_page": false
+  },
+  "unchanged_manuscript_sha256": {
+    "manuscript/paper.md": "ff2cafbdb859e91c26553e4e6ce68e8a3e140411f90862990f943b497ef3d84f",
+    "manuscript/main_text.md": "2c8d25cc9be16f1d4a39fc1bf45cd71f3d89b15e0378e1d08306369da127fd05",
+    "manuscript/paper.docx": "7fa5d7ae01b210193e7135dfbce118447639d2f25c73e2f24203217718d262c2",
+    "manuscript/main_text.docx": "b2d93d60d646166abb9fb2191888c1e406d0ddc7bcab6cb0f1a0b0e3a95e17bf"
+  },
+  "all_79_science_sources_unchanged": true,
+  "new_scientific_conditions_or_draws": 0,
+  "latest_general_existence_prior": {
+    "source": "https://arxiv.org/pdf/2501.03163",
+    "version": "v3",
+    "revision_date": "2025-05-25",
+    "printed_pages": [
+      3,
+      4
+    ],
+    "finite_row_infimum_assumption": "Assumption 2.5(2)",
+    "strict_row_convexity_assumption": "Assumption 2.5(1)",
+    "existence_transition": "Theorem 2.6",
+    "direct_coverage_of_corrected_labelled_rows": false,
+    "establishes_originality": false
+  },
+  "main_proof_internal_review": "no algebraic change identified; not independent peer review",
+  "unused_bibliography_entry_for_verification": "Sablica, Hornik and Rusch (2026)",
+  "goal_complete": false,
+  "submission_made": false
+}

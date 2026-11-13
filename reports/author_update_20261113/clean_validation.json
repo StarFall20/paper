@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-13",
+  "isolated_archive_verifier_exit_code": 0,
+  "manifest_entries_verified": 586,
+  "archive_files": 587,
+  "broken_local_markdown_links": 0,
+  "current_manuscript_sources_and_reviewed_Word_match": true,
+  "science_sources_unchanged": 79,
+  "new_scientific_run": false,
+  "archive_sha256": "d922a233fce23a3e6c1b2cf75f884203c5f326579024cfe9594e53cbe512cb16",
+  "author_page_sha256": "0dc2c7a5594d8a8b9711b87bff549a50fbf43ee1cb93a6fd0371057dd736ac4f",
+  "goal_complete": false
+}
