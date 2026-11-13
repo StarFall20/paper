@@ -1,0 +1,16 @@
+{
+  "conditional_joint_moment_max_error": 4.440892098500626e-16,
+  "complete_covariance_block_max_error": 7.494005416219807e-16,
+  "240_400_node_boundary_max_difference": 2.4424906541753444e-15,
+  "adaptive_integral_max_difference": 2.4424906541753444e-15,
+  "original_LP_crosschecks": 60,
+  "original_support_statuses": {
+    "interior": 56,
+    "outside_mean_support": 4
+  },
+  "LP_max_equality_residual": 2.679664225996411e-15,
+  "phase_records": 2400,
+  "unresolved_phase_records": 0,
+  "independent_priority_verified": false,
+  "rigorous_interval_bounds": false
+}

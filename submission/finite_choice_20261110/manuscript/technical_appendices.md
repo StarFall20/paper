@@ -1,6 +1,4 @@
-# Technical appendices for When prediction assisted logit estimates exist
-
-Companion to the main text. Equations, propositions and tables retain their cross references.
+# Technical appendices
 
 ## Appendix A Proof of the finite ratio boundary
 
@@ -173,7 +171,13 @@ $$H_u''(x)=\{c h_u''(c)-h_u'(c)\}/(4c^3)>0,\qquad c=\sqrt{x}.$$
 
 The numerator is the integral from zero to $c$ of $h_u''(c)-h_u''(s)$. A Taylor expansion gives its positive continuous limit at zero. Strict convex order increases $E h_u(C)$ for every positive $u$. The bracket in (B6) has negative derivative at zero and grows quadratically, so its minimizer is positive and finite. Evaluating the strict comparison at the larger dispersion minimizer proves the boundary inequality.
 
-An explicit construction sets $c=0.4$, $h=0.499$, $p=c^2/h^2$ and $K=0.9ph/2$. Prediction A has constant $C=c$ and error $1/2-K/c$. Prediction B has $C=h$ with probability $p$ and error 0.05, and $C=0$ otherwise. Both have $v=0.16$, $K=0.14428858$ and $R=0.12142285$. At $\tau=0.05$ the boundaries are 0.0325295 and 0.0305837; at $\tau=1$ they are 0.3598865 and 0.3594589. All predictions lie strictly inside the unit interval. Convex order is an established tool; the proposition describes its consequence for this corrected objective.
+A calibrated specialization takes $\epsilon(C)=1/2-C$, so $E(Y\mid g)=g$ and $K=v$. Set $c=0.4$, $c_{max}=0.499$ and $p=c^2/c_{max}^2$. Prediction A has constant $C=c$; prediction B has $C=c_{max}$ with probability $p$ and $C=0$ otherwise. Both have $v=K=0.16$ and Brier risk $R=0.09$. At $\tau=0.1$ their unit power boundaries are 0.0616361 and 0.0592898. Proposition 4 gives the strict ordering analytically. Coupling them on the same $X,Y$ holds ordinary human separation identical on every sample. Calibration and the matched full covariance function coexist with opposite corrected attainment limits at any ratio between these boundaries. The calibration identity is established (van der Laan and van der Laan, 2026); the example sharpens its boundary consequence for (2).
+
+For a nonzero signal, let $g_e=E(Y\mid S,Z_e)$ use a binary symmetric signal with error $e$, and put $V_e(S)=\operatorname{Var}(g_e\mid S)$. Prediction A returns $g_e$. Prediction B returns a stronger signal posterior $g_h$, $0<h<e<1/2$, with probability $V_e(S)/V_h(S)$, and returns $\mu(S)$ otherwise. Conditional on $S$ the selector is independent of $Y$. Garbling the stronger signal into the weaker one proves $V_h\geq V_e$. Both predictions satisfy $E(Y\mid S,g)=g$, have conditional variance $V_e(S)$ and have conditional Brier risk $\mu(1-\mu)-V_e(S)$. The identities $E[(\mu-Y)(\mu-g)\mid S]=E[(\mu-g)^2\mid S]=V_e(S)$ match every score covariance entry. With $M=E[XX^TV_e(S)]$, their full regular covariance functions are
+
+$$V_\lambda=H_0^{-1}[H_0-\{2\lambda-\lambda^2(1+1/\tau)\}M]H_0^{-1}/m. \qquad (B6a)$$
+
+Their common variance reference power is $\tau/(1+\tau)$. For $\gamma=1$, $e=0.05$, $h=0.001$ and $\tau=4$, the computed boundaries at power 0.8 are 1.1886304 and 1.2192432, with Brier risk 0.0451020 for both. The signals use the known generating law. Independent adaptive integration and 60 original support programs check the calculation. The retained finite size experiment has 200 paired draws per condition; at 80 labels and noise dimension ratio 1.2 the finite counts are 106 and 107. At ratio 1.35 they are 62 and 51. All 36 exploratory pairs and all 2400 classifications accompany the reproduction package. The result is a calibrated matched information counterexample; these small sample frequencies establish no uniform practical predictor ordering. Classification accuracy and logarithmic prediction loss are separate, unmatched properties.
 
 ### B5 An observed reference coefficient
 
@@ -308,21 +312,29 @@ For $v>0$ this remainder strictly increases with power. The derivative of the fu
 
 The function $G$ is coercive and has $G(0)=1/2+\tau$ and derivative $2\varphi(0)\{2\epsilon(1-\epsilon)-1\}<0$ at zero. Its minimizer is positive and finite. Nonnegativity of $R_\lambda$ bounds the minimum below by $\min G$. Evaluating at a positive minimizer of $G$, where $R_\lambda$ tends to zero, gives the reverse limiting bound. This proves (19), including its strict gap from one half. The proof concerns the stated iterated limit.
 
-### D3 Coefficient growth on a fixed separated sample
+### D3 Coefficient growth on a partially separated sample
 
 If $H$ has no finite stationary point and $Q_\lambda$ has finite roots for all sufficiently small positive powers, the root norm tends to infinity. A bounded subsequence would imply a finite zero of $\nabla H$ by continuity of $(1-\lambda)\nabla H+\lambda\nabla A$.
 
-Under strict human separation and the positive recession condition of Proposition 5, the growth has a more explicit limit. Let $M$ contain vectors with $(2Y_i-1)X_i^Tv\geq1$ for every labelled row. Put
+For the coefficient direction, retain Proposition 5's positive recession condition and full stacked rank. Put $u_i=(2Y_i-1)X_i$. Let $I_+$ contain each labelled row with $u_i^Tv>0$ for some $v\in S$, and let $I_0$ contain the remaining rows. Every vector in $S$ has zero margins on $I_0$. Adding exposing directions supplies one vector with margins at least one on all $I_+$. This is the classical maximal separable face (Albert and Anderson, 1984; Ji and Telgarsky, 2019). It can be checked by maximizing $\sum_i s_i$ subject to $u_i^Tv\geq s_i$ and $0\leq s_i\leq1$. A nonnegative dual annihilator with positive entries on $I_0$ certifies the neutral rows.
+
+Let $M$ consist of vectors satisfying $u_i^Tv\geq1$ on $I_+$ and $u_i^Tv=0$ on $I_0$. Define
 
 $$V^*=\operatorname{argmin}_{v\in M}a(v). \qquad (D2)$$
 
-Then the distance from $\beta_\lambda/\log(1/\lambda)$ to $V^*$ tends to zero. A unique minimizer in (D2) gives point convergence. The cost $a$ may be negative away from $S$ and is not assumed to be a norm. This adapts the established vanishing regularization and margin argument of Rosset et al. (2004) to the corrected auxiliary recession cost.
+The set is nonempty and compact. The distance from $\beta_\lambda/\log(1/\lambda)$ to $V^*$ tends to zero. A unique minimizer gives point convergence. The signed cost $a$ can be negative away from $S$. The result adapts established margin arguments to the corrected objective (Rosset et al., 2003, 2004). It conditions on the realized design and frozen predictions; it requires no Gaussian attribute law.
 
-To prove the statement, write $L=\log(1/\lambda)$. For a feasible $v$, $H(Lv)\leq\lambda$. The auxiliary softplus remainder gives $A(Lv)=La(v)+r(Lv)$ with $0\leq r\leq\log2$. Thus $Q_\lambda(Lv)/(\lambda L)$ tends to $a(v)$. If a limiting vector violates a margin constraint, its human loss divided by $\lambda L$ diverges; a margin strictly below one supplies the required exponential lower bound. The auxiliary remainder divided by $L$ vanishes uniformly.
+To prove the statement, write $L=\log(1/\lambda)$ and let $H_0$ retain the $I_0$ human loss terms with their original divisor $m$. Its minimum $h_0$ is attained at some $b_0$ on its identified row space. A weak separator of this neutral design with any positive margin, added to a sufficiently large exposing direction on $I_+$, would expose a neutral row and contradict its definition. Thus the neutral rows have overlap. Also $\inf H=h_0$. For each $v\in M$, the candidate $Lv+b_0$ has neutral loss $h_0$ and separable loss $O(\lambda)$. The auxiliary softplus remainder gives $A(Lv+b_0)=La(v)+O(1)$. Its criterion excess above $(1-\lambda)h_0$, divided by $\lambda L$, tends to $a(v)$.
 
-The minimizers are bounded on this scale. Positivity of $a$ on the unit human separation cone implies that the minimum of $\{(1-\lambda)h(u)+\lambda a(u)\}/\lambda$ over unit $u$ has a positive lower bound at small powers. A counterexample sequence would converge to a unit vector in $S$ with a nonpositive limiting cost. Since $H\geq h$ and $A\geq a$, comparison with a feasible $Lv$ gives $\|\beta_\lambda\|=O(L)$. Compact subsequences and the preceding lower and upper bounds place every limit in (D2). Positivity on $S$ also makes $V^*$ compact.
+Positivity of $a$ on the unit slice of $S$, continuity and homogeneity give constants $c>0$ and $K<\infty$ with $a(v)\geq c\|v\|-Kh(v)$ everywhere. Near $S$ the cost has a positive lower bound; on the remaining unit sphere $h$ is bounded away from zero. Since $H\geq h$ and $H\geq h_0$, for small powers
 
-For a one coordinate example with all labelled choices and features equal to one, take $g_L=0.75$ and $g_U=0.25$. The exact root is $\log(2/\lambda-1)$ at every positive power. Equal predictions in the two samples instead leave a boundary target at every power; reversing those predictions makes the target exterior. All three examples have full rank auxiliary curvature. A separate two coordinate calculation verifies (D2) by a linear program and analytic scalar score equations. The normalized coefficients approach $(1,1)$, with scaled score error below $1.6\times10^{-15}$ in the displayed path. Root existence and bounded coefficient behavior remain separate properties.
+$$Q_\lambda(\beta)-(1-\lambda)h_0\geq\lambda c\|\beta\|-\lambda Kh_0. \qquad (D2a)$$
+
+Comparison with $Lv+b_0$ gives $\|\beta_\lambda\|=O(L)$. Every scaled limit lies in $S$: a negative human margin would make its loss grow linearly in $L$. Hence its neutral margins are zero. If any $I_+$ margin is strictly below one, that row's loss divided by $\lambda L$ diverges. The neutral loss exceeds $h_0$ and the scaled auxiliary cost remains bounded, contradicting the recovery bound. Each limit is feasible in (D2). The nonnegative excess human loss supplies the lower bound $a(v)$; recovery at a minimizer supplies the reverse bound. Compactness of $V^*$ completes the set convergence.
+
+Under complete separation $I_0$ is empty, recovering the strict-margin formula. With overlap and full labelled rank, $V^*=\{0\}$. A nonunique limiting set requires set-valued comparison; an arbitrary LP vertex need not be the path limit. For example, labelled row $(1,0)$ with choice one and prediction $0.75$, auxiliary rows $(1,1),(1,-1),(-1,1),(-1,-1)$ with predictions one half, gives $a(v)=\max(|v_1|,|v_2|)/2-v_1/4$. Its limiting set is $\{(1,t):|t|\leq1\}$, while the finite path is $(\log(4/\lambda-1),0)$.
+
+The earlier scalar checks remain: all-one labelled features and choices, with $g_L=0.75$ and $g_U=0.25$, have root $\log(2/\lambda-1)$; equal predictions give a boundary target, and reversed predictions give an exterior target. The existing two-coordinate strict-separation calculation approaches $(1,1)$. A quasi-separated example with opposing neutral rows additionally verifies (D2) and a recession that is negative away from $S$. All exact examples and retained paths accompany the reproduction package.
 
 ### D4 All powers with signal and estimated intercept
 
@@ -764,70 +776,3 @@ If $(ED)^2/(ED^2)<\pi e(1-e)$, the second limit is below $1/2$. For any dimensio
 
 For comparison, at any held positive power the balanced boundary is nondecreasing with the auxiliary ratio. The auxiliary term is the perspective $\tau K(Dv/\tau)$ of the concave function $K(x)=1-f((1-e)x)-f(ex)$ with $K(0)=0$. Concavity makes this perspective nondecreasing in $\tau$, and the labelled terms are unchanged. Taking a supremum preserves the ordering. Thus the additional-data comparison specifically concerns moving along the variance-selected powers. It does not assert a finite-sample monotonicity law for arbitrary new rows or a general ranking of estimators.
 
-## References
-
-Amelunxen, D., Lotz, M., McCoy, M.B., Tropp, J.A. (2014). Living on the edge: Phase transitions in convex programs with random data. Information and Inference 3, 224–294. https://doi.org/10.1093/imaiai/iau005
-
-Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Prediction-powered inference. Science 382, 669–674. Preprint: https://arxiv.org/abs/2301.09633
-
-Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2024). PPI++: Efficient prediction-powered inference. arXiv:2311.01453, version 2. https://arxiv.org/abs/2311.01453v2
-
-Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753
-
-Chen, S., Bai, Y., Zhu, H. (2026). Covariance-Calibrated Prediction-Powered Inference. Preprint, arXiv:2610.21837v2. https://arxiv.org/abs/2610.21837v2
-
-Fan, S., Visokay, A., Hoffman, K., Salerno, S., Liu, L., Leek, J.T., McCormick, T.H. (2024). From Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsy Narratives. Conference on Language Modeling. https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf
-
-Fuh, C.D., Kao, C.L.M., Pang, T. (2026). On the existence of maximum likelihood estimators in a multinomial choice model under positivity constraints. Statistical Papers 67, 120. https://doi.org/10.1007/s00362-026-01902-2
-
-Götze, F., Kabluchko, Z., Zaporozhets, D. (2020). Grassmann angles and absorption probabilities of Gaussian convex hulls. Inspected preprint version2. https://arxiv.org/abs/1911.04184v2
-
-Hess, S., Daly, A., Bliemer, M., Guevara, A., Daziano, R., Dekker, T. (2026). Statistical significance in choice modelling: computation, usage and reporting. Journal of Choice Modelling 60, 100611. https://doi.org/10.1016/j.jocm.2026.100611
-
-Hess, S., Train, K. (2017). Correlation and scale in mixed logit models. Journal of Choice Modelling 23, 1–8. https://doi.org/10.1016/j.jocm.2017.03.001
-
-Kabluchko, Z., Seidel, H. (2020). Convex cones spanned by regular polytopes. arXiv:2006.09492, version 2. https://arxiv.org/abs/2006.09492v2
-
-Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. NIPS 2017 camera ready preprint, arXiv:1703.00593v2. https://arxiv.org/abs/1703.00593v2
-
-Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html. Inspected assumption numbering: https://arxiv.org/html/2501.03163v2
-
-Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5
-
-Loureiro, B., Gerbelot, C., Cui, H., Goldt, S., Krzakala, F., Mézard, M., Zdeborová, L. (2021). Learning curves of generic features maps for realistic datasets with a teacher-student model. Advances in Neural Information Processing Systems 34. https://proceedings.neurips.cc/paper/2021/hash/9704a4fc48ae88598dcbdcdf57f3fdef-Abstract.html
-
-Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html
-
-Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. arXiv:2505.20178, version 2. https://arxiv.org/abs/2505.20178v2
-
-Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Inspected preprint: https://arxiv.org/html/1911.01544v3
-
-Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html
-
-Nova, G., van Cranenburgh, S., Hess, S. (2025). Understanding the decision-making process of choice modellers. Journal of Choice Modelling 56, 100562. https://doi.org/10.1016/j.jocm.2025.100562
-
-Rosset, S., Zhu, J., Hastie, T. (2004). Boosting as a Regularized Path to a Maximum Margin Classifier. Journal of Machine Learning Research 5, 941–973. https://www.jmlr.org/papers/v5/rosset04a.html
-
-Sablica, L., Hornik, K., Rusch, T. (2026). The Geometry of Existence and Uniqueness of Maximum Likelihood Estimation in Categorical Response Models. Preprint, arXiv:2610.08100v1. https://arxiv.org/abs/2610.08100v1
-
-Sfeir, G., Nova, G., Hess, S., van Cranenburgh, S. (2026). Can large language models assist choice modelling? Insights into prompting strategies and current models’ capabilities. Journal of Choice Modelling 60, 100623. https://doi.org/10.1016/j.jocm.2026.100623
-
-Shoham, N., Dorfman, R., Shaer, S., Levy, K.Y., Romano, Y. (2025). Prediction-Powered Semi-Supervised Learning with Online Power Tuning. Inspected preprint version1. https://arxiv.org/abs/2510.22586v1
-
-Sterzinger, P. (2026). Proportional-limit asymptotics for Diaconis–Ylvisaker-penalised logistic regression with fitted intercept. arXiv:2609.09831, version 1. https://arxiv.org/abs/2609.09831v1
-
-Sterzinger, P., Kosmidis, I. (2026). Diaconis–Ylvisaker prior penalized likelihood for p/n → κ ∈ (0,1) logistic regression. Biometrika 113(2), asag014. https://doi.org/10.1093/biomet/asag014
-
-Tan, K., Bellec, P.C. (2023). Multinomial Logistic Regression: Asymptotic Normality on Null Covariates in High-Dimensions. Advances in Neural Information Processing Systems 36. https://proceedings.neurips.cc/paper_files/paper/2023/file/e0ac27bf3327c9cb99cc5f548db4f73a-Paper-Conference.pdf
-
-Tang, W., Ye, Y. (2020). The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models. Inspected preprint version2. https://arxiv.org/abs/1908.06208v2
-
-van Cranenburgh, S., Wang, S., Vij, A., Pereira, F., Walker, J. (2022). Choice modelling in the age of machine learning—Discussion paper. Journal of Choice Modelling 42, 100340. https://doi.org/10.1016/j.jocm.2021.100340
-
-van der Laan, L., van der Laan, M. (2026). Calibeating Prediction-Powered Inference. Preprint, arXiv:2604.21260. https://arxiv.org/abs/2604.21260
-
-Xu, S., Sun, W.W. (2026). Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference. Preprint version1. https://arxiv.org/abs/2602.10464v1
-
-Ye, Z., Yoganarasimhan, H. (2026). Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys. Preprint, arXiv:2604.17267v2. https://arxiv.org/abs/2604.17267v2
-
-Zrnic, T., Candès, E.J. (2024). Cross-prediction-powered inference. Proceedings of the National Academy of Sciences 121(17), e2322083121. https://doi.org/10.1073/pnas.2322083121

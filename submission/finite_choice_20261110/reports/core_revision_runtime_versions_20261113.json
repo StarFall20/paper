@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.9.1",
+  "matplotlib": "3.11.2",
+  "threadpoolctl": "3.7.0",
+  "python_docx": "1.2.0",
+  "lxml": "6.1.1",
+  "bundle": "26.1112.11217",
+  "scope": "Current isolated scientific validation and native Word authoring. Historical version records remain frozen."
+}

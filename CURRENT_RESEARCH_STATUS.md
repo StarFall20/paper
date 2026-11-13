@@ -1,5 +1,14 @@
 # Current research status — updated13 November2026
 
+## Focused current manuscript integrates the calibrated comparison
+
+The [current revision](reports/core_revision_20261113/README.md) centers the same compensated-attainment question. The abstract is 159 words and the introduction is 616 words, reduced from 199 and 724. Appendix B4 now gives a calibrated specialization and a nonzero-signal conditional-moment construction, with the small and adverse finite-size comparisons retained. No estimator or extra framework is added. PP-Rank's bounded approximate-root theorem is cited accurately.
+
+The full Word remains 58 pages, with 1179 native mathematical objects, 12 tables and seven appendices; the main reading version remains 28 pages. All 12 old table blocks and 127 display bodies are preserved, with one covariance display and one reference added. Every final page has direct image inspection or exact PNG inheritance. Five editable highlights of 75–76 characters follow the publisher's generic support instructions. The current journal guide remains inaccessible.
+
+A separate extraction passes inventory, full mathematical checks and all 12 table reconciliations. All 79 current analysis sources match that extraction; the calibrated independent verifier's two outputs reproduce byte-for-byte. The previous complete standalone primary run remains retained, and this editorial turn does not claim another full historical Monte Carlo rerun. Actual author and declaration facts remain pending. Specific-result priority and sufficient journal value remain under assessment; the goal remains active. Earlier entries below describe their dated stages.
+
+
 ## Calibrated conditional-moment counterexample checked separately
 
 The [new same-model follow-up](reports/calibrated_pair_20261113/README.md) matches conditional calibration, conditional Brier risk and the entire fixed-dimensional score covariance function for two frozen posterior signals on identical X,Y. A balanced construction gives a strict unit-power inequality by the existing convex-order argument. The nonzero-signal computed boundaries are 1.1886304119 and 1.2192432437 at the common variance reference power 0.8. These are generating-law signals, not a fitted predictor-selection pipeline.

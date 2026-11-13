@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-13",
+  "status": "complete",
+  "isolated_inventory_passed": true,
+  "all_79_current_analysis_sources_match_tested_extraction": true,
+  "full_mathematical_quick_check_passed": true,
+  "all_twelve_tables_reconciled": true,
+  "new_calibrated_independent_verifier_rerun": true,
+  "new_verifier_outputs_byte_identical": [
+    {
+      "path": "adaptive.csv",
+      "sha256": "716c64591a73d49f2a6f30d92d2ad14903fe48a9b47ef3d70906204c3aa126a8"
+    },
+    {
+      "path": "checks.json",
+      "sha256": "2a8173fb5609fc1bb0da84f61dbd67c7b16e2cf2cc495ba51923f807183cc21f"
+    }
+  ],
+  "analysis_sources": [
+    {
+      "path": "analysis/aligned_prediction_phase.py",
+      "sha256": "1c7c367f53e6b97568acffc854e5781c75e2304f3bb4f429bbacfdfc85d9ea21"
+    },
+    {
+      "path": "analysis/attribute_aligned_prediction.py",
+      "sha256": "6a37e185e5092fdd116f46b6ecfb1c076233408210ef2f14afc0b82482eee885"
+    },
+    {
+      "path": "analysis/audit_binary_choice.py",
+      "sha256": "dc79ae60d7b609dde8528675c751bb011bbb244cfa4f44f9a41cd54a78a29672"
+    },
+    {
+      "path": "analysis/audit_public_power_domain.py",
+      "sha256": "c1d47d45da6b0d749400c83f0d616b7ea90b639feaba7af20f96ddfe508a6db9"
+    },
+    {
+      "path": "analysis/build_menu_publication_assets.py",
+      "sha256": "e60b3772e6159b0fdd6ce973d4714befbaa4dd3825e65096f2e2c1fdb08886ea"
+    },
+    {
+      "path": "analysis/build_publication_assets.py",
+      "sha256": "e8dd27595e565bd1d3a55a1476dc3167423a01cfca1fc42457e56fa3f6f3c490"
+    },
+    {
+      "path": "analysis/build_radial_publication_assets.py",
+      "sha256": "771ede02120bfa11993af261e587c18b26f546b920b980819f348b0b87277570"
+    },
+    {
+      "path": "analysis/calibrated_aligned_prediction.py",
+      "sha256": "dee6eac6b4cac36b5528720963d4b6eaeab1f1d143a0ff842d0209a3db56db08"
+    },
+    {
+      "path": "analysis/calibrated_choice_pair.py",
+      "sha256": "57839b65b3191fd1fe35838efddcd445687b623479a8a213ad9c29f9909cb3c2"
+    },
+    {
+      "path": "analysis/categorical_face_path.py",
+      "sha256": "3a18db282ae3acb9aa63ca2b1010faf4205c1f462e93b267a6b7aeb211e6d08e"
+    },
+    {
+      "path": "analysis/certify_complete_gmm_comparison.py",
+      "sha256": "ec8a982fd2dc230bc01fe255a2893194b71393e36f1b068854ab66b0abbf8264"
+    },
+    {
+      "path": "analysis/certify_observable_score_path.py",
+      "sha256": "6d3ee1798e324ebfcebc4aa75edb471b82b76e0c9d9016f1f76a1390d95a2406"
+    },
+    {
+      "path": "analysis/certify_variance_reference_counterexample.py",
+      "sha256": "0cb4155ad0da6820ff59082fa013fe8adfc3a3bc79ca611fd2eeefa6b71c114e"
+    },
+    {
+      "path": "analysis/choice_moment_support.py",
+      "sha256": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672"
+    },
+    {
+      "path": "analysis/fetch_public_conjoint_audit.py",
+      "sha256": "0d9173a837c195d1341b94dcec08f061570ccb6af06c8aaf418e453b281b4cef"
+    },
+    {
+      "path": "analysis/finite_pool_choice_validation.py",
+      "sha256": "03e50c70b94d4fa231ec74df3c7ba5ee0d89321bc9f1884c7672b74f6d6d43f4"
+    },
+    {
+      "path": "analysis/finite_ratio_choice_boundary.py",
+      "sha256": "2dbc3dd9d69a16456315eb8b20126c5125892efe615a53b63320a6989e15b5ab"
+    },
+    {
+      "path": "analysis/finite_ratio_signal_boundary.py",
+      "sha256": "45b45bde3329db643447f7970e13742e5a9b0c0668fe9f5c9bc24c4c42921f06"
+    },
+    {
+      "path": "analysis/general_joint_power_boundary.py",
+      "sha256": "aeb4eba2306e3228a730428faf59326c24e6ae0e412311fa11380f57a3823f11"
+    },
+    {
+      "path": "analysis/hard_menu_matched_phase.py",
+      "sha256": "196647ea2e78b56eeb55876efde72a2138fab4c842b94c69ce1ebadd0ce4a97e"
+    },
+    {
+      "path": "analysis/hard_menu_variance_reference.py",
+      "sha256": "304b7e6e4a6f1358e0f03a3ded019510c35f5c6a69645a5884e14288ae9564c4"
+    },
+    {
+      "path": "analysis/imperfect_finite_pool_validation.py",
+      "sha256": "50258a46961eaf65cb5d60397f047a1d60dc4e29fd7ddd6399592de97aba12ae"
+    },
+    {
+      "path": "analysis/imperfect_population_targets.py",
+      "sha256": "bfbf31b541f7c7b29db463481b9667bcc18f10a8f7c581a5dff313c7ebb66c63"
+    },
+    {
+      "path": "analysis/imperfect_predictor_choice_boundary.py",
+      "sha256": "542529a2ad76f7b972643b3319e4e3d04f0396ee46cf9a9aca2033e0c3ab14ee"
+    },
+    {
+      "path": "analysis/imperfect_strong_signal_validation.py",
+      "sha256": "691d6b4d8f6952f57a1db2a437f4dae7f5b5bcb548bbc2c26778edc30475fb39"
+    },
+    {
+      "path": "analysis/joint_power_choice.py",
+      "sha256": "e23e6fa75950866142408d7ac8d09df16b2d636e9532adb9349fd144938ace42"
+    },
+    {
+      "path": "analysis/menu_corrected_logit.py",
+      "sha256": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178"
+    },
+    {
+      "path": "analysis/menu_existence_population.py",
+      "sha256": "ca0d7dd5288734f5248ce597349e5aa5454ba12ab706c113b06fc556ff387577"
+    },
+    {
+      "path": "analysis/menu_hard_prediction_boundary.py",
+      "sha256": "dbd6e9b55aa32be1baae1405c458ea8ff31fdd0d59d409a4b01534fc390925e1"
+    },
+    {
+      "path": "analysis/menu_population_grid.py",
+      "sha256": "2bc4da6c3619fb50678c6aa8f797d7aa817ce547c4d4eb5d40da4144d257a874"
+    },
+    {
+      "path": "analysis/observable_low_label_path.py",
+      "sha256": "4fcb53bb62b7f53ad9918259b900cb724e395efd836f046abe817737fdfe041a"
+    },
+    {
+      "path": "analysis/observable_score_path_audit.py",
+      "sha256": "d61cc6b68cc4d17c4e1c5b492ec85b7ffdc146c4105acc50a9d89b383d37d6d5"
+    },
+    {
+      "path": "analysis/plot_radial_auxiliary_budget.py",
+      "sha256": "13252baa51d655c36a886d14e028a959245f3ce6fbd00d96e2c3e6dd2d8b0105"
+    },
+    {
+      "path": "analysis/plot_variance_reference_audit.py",
+      "sha256": "b3e6d9fbf947b06fe231379cb21e3f94ae082cd5960f8757dc5d1c42c9d84a67"
+    },
+    {
+      "path": "analysis/power_domain_choice.py",
+      "sha256": "4979ee1a1f52b75f2125d5a037001aad424dbd34baaa67f808a40c75a01b1174"
+    },
+    {
+      "path": "analysis/power_tuned_choice_audit.py",
+      "sha256": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01"
+    },
+    {
+      "path": "analysis/public_conjoint_matched_audit.py",
+      "sha256": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce"
+    },
+    {
+      "path": "analysis/public_conjoint_optimizer_audit.py",
+      "sha256": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867"
+    },
+    {
+      "path": "analysis/quick_check.py",
+      "sha256": "17186af5dfaade9e7716542565b6f02469d985bd0488e5a35b56fb4953810641"
+    },
+    {
+      "path": "analysis/radial_auxiliary_budget_audit.py",
+      "sha256": "124ced250aaad3bdaf0da88c9824f216c0e457b22879f8c9b652bed83cd04112"
+    },
+    {
+      "path": "analysis/radial_compensation_audit.py",
+      "sha256": "44293e63fc7369dc40fd3d4de0d778bff8e10f6702a4ab8b7e08990c25cc6dca"
+    },
+    {
+      "path": "analysis/reconcile_probability_risk_tables.py",
+      "sha256": "ba561e9b27df0a6d8a412d1e635101b87797449a09162b0bd3af45ed01866067"
+    },
+    {
+      "path": "analysis/replay_choice_power_path.py",
+      "sha256": "d298b4f23b4bb20bbbec8ccd9341089fcaa9a323a19ba6e877f8c49e6e0b7f4e"
+    },
+    {
+      "path": "analysis/replay_dypl_comparator.py",
+      "sha256": "e4ccf54aabcb35f8d86e7bfc326bf3c4adc33dcb2eafdd65c8d42c11eb3b90e2"
+    },
+    {
+      "path": "analysis/summarize_categorical_face_path.py",
+      "sha256": "ae712fe54406272c0fa91df844f8286789648c765d1d9a303a9bf88ac32c8dea"
+    },
+    {
+      "path": "analysis/summarize_replayed_choice_loss.py",
+      "sha256": "994c5fe061d56442f73981495ea6115e1b21160a24e7cb5d42cbfd135d55a6d3"
+    },
+    {
+      "path": "analysis/summarize_replayed_power_pairs.py",
+      "sha256": "c8437981e47e8e57c4f115a3891fb41d0d79a91d4a9d7e500a8fba4402bbb18b"
+    },
+    {
+      "path": "analysis/summarize_vanishing_power_risk.py",
+      "sha256": "4487ec9eab3e0c20471c44405172727343a4a4ff188ae3dc7700d8390bbea3e3"
+    },
+    {
+      "path": "analysis/training_budget_diagnostic_20261111.py",
+      "sha256": "e7c03dbad3a556a0d44d6e746dfbe3a86fc8ba77a40d7e1b2fed2dc08b0fd556"
+    },
+    {
+      "path": "analysis/vanishing_power_choice.py",
+      "sha256": "cd1b28cd7e5d7d6dd12ed5781202084104bc5cc915c3537ed1bc6f7ddb9bf663"
+    },
+    {
+      "path": "analysis/vanishing_power_risk_audit.py",
+      "sha256": "2494d803b9ebf2f1804155516ddcadd5936c6d77a8bef2d5b4aa80af26e3d26b"
+    },
+    {
+      "path": "analysis/variance_reference_existence_audit.py",
+      "sha256": "d1f49617017cacd9ac2085498f8bc083cec3c26ca2e800249c38bda533319ccd"
+    },
+    {
+      "path": "analysis/variance_reference_matched_phase.py",
+      "sha256": "ddb10beb8edbfbdd0d69b181ef1f4821b401eab72664d67abf628fed50d4b87a"
+    },
+    {
+      "path": "analysis/verify_analysis_decision.py",
+      "sha256": "45c35e11ec5c6e5e471703da19ecf819dbecf78121311174b0c4b0bf9b8f03b5"
+    },
+    {
+      "path": "analysis/verify_calibrated_choice_pair.py",
+      "sha256": "acf07ccd1a4fadf9347ca81015af3e18f806f537c4c804797f52f2d5f99d1adf"
+    },
+    {
+      "path": "analysis/verify_categorical_face_path.py",
+      "sha256": "95a80d858ecc4be0a0e622a42ea275d1bd87ca57c6edf7f65043565913dbbd3b"
+    },
+    {
+      "path": "analysis/verify_complete_gmm_comparison.py",
+      "sha256": "b8b6428d757e75771dc4137dd8be8e0b535508d50b494b6c7d51d8a1465bfe2e"
+    },
+    {
+      "path": "analysis/verify_finite_pool_covariance.py",
+      "sha256": "d2828151163ef8ab669b28761c9358b0002687b606553b150d71d2e365dfd239"
+    },
+    {
+      "path": "analysis/verify_general_hard_endpoint.py",
+      "sha256": "76b118d58e310c5a843766c4cca342db9abb7d67d2e3090751afb4b2740ad5bc"
+    },
+    {
+      "path": "analysis/verify_general_joint_geometry.py",
+      "sha256": "bcf48aecd158cacf41638622588bc1d0706165d42d0157572b607e4f71401b8b"
+    },
+    {
+      "path": "analysis/verify_general_joint_phase.py",
+      "sha256": "2eb02b7a4b0d2c11bd435cbb2c68eaa33193073b6e5328e089d9ad13beca74be"
+    },
+    {
+      "path": "analysis/verify_hard_menu_phase.py",
+      "sha256": "ddffcfe8236e7c944359e409ef0aac6d17aca422ecb18ba38a8300c8124fb18c"
+    },
+    {
+      "path": "analysis/verify_hard_menu_prediction.py",
+      "sha256": "0818caa618d97097efbffef9ee3f6a0cc8bc6bcef0c5c560c62f143f1431a3d0"
+    },
+    {
+      "path": "analysis/verify_matched_moment_proposition.py",
+      "sha256": "29da888ba94aba954e051f9cb285d8b47993a63c60b537a2211e8db94fabdf60"
+    },
+    {
+      "path": "analysis/verify_observable_score_path.py",
+      "sha256": "4e575d7770ba2ccc71105a4f638cbee4e8cdd7e0e297425c8635a02db3f4f357"
+    },
+    {
+      "path": "analysis/verify_proper_augmentation_invariance.py",
+      "sha256": "828ae7005f6d8a8f3705a60485ec1b4c32d0653265ace017b7127991435e12db"
+    },
+    {
+      "path": "analysis/verify_radial_auxiliary_budget.py",
+      "sha256": "5b42a78adf8e8528f440627d2bcdec5e41b3a32409327c4cf30abdf2b4e4a8e2"
+    },
+    {
+      "path": "analysis/verify_radial_compensation.py",
+      "sha256": "03a670423162bfe6a77505c5ba2ee2be7c9e49f97426816ef2780735118a9dce"
+    },
+    {
+      "path": "analysis/verify_trained_prediction_rotation.py",
+      "sha256": "539c6ed14ae7b5d569614ca66db2022b014e24f1d9302408d523418cb467b0b1"
+    },
+    {
+      "path": "analysis/verify_vanishing_power_phase.py",
+      "sha256": "202ead4cf6da82e080dc5228fc48b67862dca39ed9217cddac1e100fd6db91d5"
+    },
+    {
+      "path": "analysis/verify_vanishing_power_risk.py",
+      "sha256": "935a75ae47bfc0f42d423f4d00e89faee3058dba373ac3159df90f4600c28a9e"
+    },
+    {
+      "path": "analysis/verify_variance_reference_phase.py",
+      "sha256": "c8cbf8e61e8f86790da08b9ef9537d302e8dc5ec89a9b255ad543cd50c4c1a8a"
+    },
+    {
+      "path": "analysis/verify_variance_score_identity.py",
+      "sha256": "0444a95c5b90375fb3b9af7a749cb8cb479bc5286e622d69e56e864a9f709f9c"
+    },
+    {
+      "path": "analysis/verify_zonotope_reduction.py",
+      "sha256": "0a45ebc65af79a94bd9c78d62738269b944469bdd56eb304706e0af3729afd9b"
+    },
+    {
+      "path": "analysis/write_aligned_prediction_report.py",
+      "sha256": "c8f567233e4bcacac63a550d4d6c25667c6a561ad6d81b9705927f9fdcc02935"
+    },
+    {
+      "path": "analysis/write_dypl_comparator_report.py",
+      "sha256": "945f57f4c12129063af3b08fd13d413059333531ef0e77fdb4ab5f554f70a66b"
+    },
+    {
+      "path": "analysis/write_joint_power_report.py",
+      "sha256": "d01ad89d75803f507e986798a30021480252745974289ba29236af39395f5db0"
+    },
+    {
+      "path": "analysis/write_power_domain_report.py",
+      "sha256": "6633d7cdc6ee3120d24ba70a2913c289567322ff343e17ae22716240c92037db"
+    },
+    {
+      "path": "analysis/write_vanishing_power_report.py",
+      "sha256": "8dff0d8ecf0bb04dfc3e5ec972fe9a193d3c7ae3200f9645da089a99e2c5f807"
+    }
+  ],
+  "all_original_Monte_Carlo_draws_rerun_this_turn": false,
+  "preceding_standalone_primary_and_verification_clean_run": "results/calibrated_pair/clean_validation.json",
+  "previous_standalone_scientific_outputs_byte_identical": 8,
+  "manuscript_source_and_visual_review_identity_checked": true,
+  "scope": "Current integrated package inventory, full analytic/table checks and calibrated independent verification. Historical complete simulations and their diagnostics remain unchanged.",
+  "proves_novelty_or_submission_threshold": false,
+  "root_inventory_covers_nested_manifests": true
+}

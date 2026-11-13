@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-13",
+  "official_guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
+  "guide_status": "403 Forbidden",
+  "journal_specific_current_requirements_verified": false,
+  "generic_highlights_source": "https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript",
+  "source_last_updated": "2026-06-01",
+  "generic_rules": {
+    "minimum_items": 3,
+    "maximum_items": 5,
+    "maximum_characters_including_spaces": 85,
+    "separate_editable_file": true
+  },
+  "applied_file": "submission_materials/Highlights.docx",
+  "authors_and_declarations": "pending user-supplied facts",
+  "submission_performed": false
+}

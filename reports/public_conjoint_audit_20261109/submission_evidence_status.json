@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "goal_complete": false,
-  "decision": "The global covariance-budget attainment curve and a complete selected illustration are verified and reproducible. The stronger ordinary baseline limits promotion as a new estimator. Specific-result priority,choice-analysis value and submission requirements remain under assessment.",
+  "decision": "The main argument and calibrated counterexample are integrated into a reviewed58-page manuscript. All12tables and current79analysis sources pass isolated checks. Specific-result priority,choice-analysis value,current journal-guide rules and real author declarations remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -41,8 +41,8 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "categorical_face_integrated_isolated_full_math_and_new_workflow_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/categorical_face_clean_validation_20261113.json",
+      "status": "current_core_revision_isolated_inventory_full_math_and_calibrated_verifier_passed",
+      "evidence": "../../submission/finite_choice_20261110/reports/core_revision_clean_validation_20261113.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 1157,
+    "native_math_objects": 1179,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -188,12 +188,19 @@
     "categorical_final_unknowns": 0,
     "categorical_clean_workflow_passed": true,
     "categorical_byte_identical_outputs": 20,
-    "categorical_main_manuscript_integrated": true
+    "categorical_main_manuscript_integrated": true,
+    "calibrated_conditional_moment_pairs": 36,
+    "calibrated_quadrature_records": 216,
+    "calibrated_phase_classifications": 2400,
+    "calibrated_original_support_crosschecks": 60,
+    "calibrated_integrated_into_manuscript": true,
+    "core_revision_full_math_passed": true,
+    "core_revision_visual_QA_complete": true
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../categorical_face_path_20261113/README.md",
+  "latest_progress_report": "../core_revision_20261113/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -255,5 +262,15 @@
     "new_estimator_or_general_margin_theory_claimed": false,
     "specific_priority_certified": false,
     "new_choices_fitted": 0
+  },
+  "core_revision_evidence": {
+    "report": "../core_revision_20261113/README.md",
+    "integration": "../../submission/finite_choice_20261110/reports/core_revision_integration_20261113.json",
+    "full_math_and_12_table_checks": true,
+    "all_79_science_sources_match_isolated_copy": true,
+    "new_calibrated_verification_outputs_byte_identical": 2,
+    "new_framework_or_estimator_claimed": false,
+    "specific_priority_certified": false,
+    "authors_and_current_guide_pending": true
   }
 }

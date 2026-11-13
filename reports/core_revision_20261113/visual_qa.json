@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-13",
+  "status": "complete",
+  "method": "Original-size page images inspected; unchanged pages have exact full-PNG inheritance, never a text-only layout check.",
+  "bundle": "26.1112.11217",
+  "full": {
+    "pages": 58,
+    "native_math": 1179,
+    "tables": 12,
+    "source_sha256": "ff2cafbdb859e91c26553e4e6ce68e8a3e140411f90862990f943b497ef3d84f",
+    "docx_sha256": "7fa5d7ae01b210193e7135dfbce118447639d2f25c73e2f24203217718d262c2",
+    "pages_reviewed": [
+      {
+        "page": 1,
+        "sha256": "2e69318fe0d9f37d8b08aebd11f90154d5c796902f1967f5b50955f16981e6b8",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 2,
+        "sha256": "2524a7227e220b4464fd4ba040f6e9aa4ed05c402735dcdb6f2313a589302d9a",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 3,
+        "sha256": "9e69da04468d4efaf7ab0d5629a37af99278108cd6ef029c225f23f7e6074cb9",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 4,
+        "sha256": "814d96c3c58a539fef4a1c299b726e1771af219c874ce21b6dd0ae64797238b9",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 5,
+        "sha256": "91f3bb76a45014774bf4256e27307dab4893d8024ab65d72a58823ecd3590ab9",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 6,
+        "sha256": "fddfb6b3da2289ab7400445151da97a0e6a932e1ffd81e43fd847fc3a8e93e5f",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 7,
+        "sha256": "07803549465b9a68f4373fd839094bc67bf23d04f2e66e0ad896cb8b570509b2",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 8,
+        "sha256": "e4cd4252db692ad521a84863aeb27771248cadf6f7b7287ef29b1ec59a6558d4",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 9,
+        "sha256": "59eb2679638df6667865ef674bee655a8f1b5062ea9a7900514b390a0a5459a9",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 10,
+        "sha256": "f5abac6e6a4a28be44638438b2f086bf7d1cef24af0d772097290b98ec8804ca",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 11,
+        "sha256": "b143c169f21e7b5c409caf5c792be1fe4a3b30cfbd6023e85fc79cfdfb086fda",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 12,
+        "sha256": "0f297a29a6b6d899abab1077aa4bd0d5898d507f6c434cc33f88151246ef416c",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 13,
+        "sha256": "d52d29c488ba829558788ec5fed555197064578435fd20bb25bf39fe18966238",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 14,
+        "sha256": "f5c9241706d3240c571b1a96ea070ba6f8bdcc036f983b1a356169bccb430d31",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 15,
+        "sha256": "e4d52d12d164816493743db4c9f2c42a0dde183ee907e262bf045e15ab390d00",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 16,
+        "sha256": "2b6b35d8295519d122b943ca4526a4d304421cf2d3e52573fc0931a9f681ab85",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 17,
+        "sha256": "1afb52e774af9eece68e8ecb06caca244e19985e43ac109217f1118d0d64124e",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 18,
+        "sha256": "7cc2b06cc8a73fefed857493a12159abdff685a45df294dea0f03a64411df1c5",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 19,
+        "sha256": "56d46882e3768e5ffb1bfd536d34effa4c55cbc0b735cd1f72d3ece22ace035d",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 20,
+        "sha256": "10a3d9e5a74b1c8cb69acbb16dc6258488af516e444db51034a4dd3d4ff1ddf3",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 21,
+        "sha256": "64dc1e822b24475229ff714395963bd6b0f203b0629b97e2675a0d79b519c297",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 22,
+        "sha256": "6c4426a5372c88a0c5e74f4f9ab2bed30999dd3f64091b3b3c78da6500e9b9b2",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 23,
+        "sha256": "2fe94a1712a763266afae1e1a8c43ed7921dbd10f4edc869f7e0a50f4f1e6dfb",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 24,
+        "sha256": "dbc21f12f96a4c56e319802782a7312f5693101f4d680f9a255db05a704d1254",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 25,
+        "sha256": "733e4f6d53be5cd4ff40dfdb52b8dd4677c43f3b5c85a81053908d96832ff7a3",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 26,
+        "sha256": "73d152a26c050e296cd255d1636bc1e108058b41c985327ff6511270caa39ce5",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 27,
+        "sha256": "e84303928954965c32ba902a5bc25b7adb2de4e68b82680e947ba2cb62af992f",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 28,
+        "sha256": "66f0c70e48dff0709cf2bf57067dbab0e8c1b8e91f3af5da79c8bf7fe3da0a23",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 29,
+        "sha256": "892617df1a7ece43ba2121f458825f5242d37dd8eadc4fb3ecd2520832d57147",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 30,
+        "sha256": "b0c416421fd5316e2ceb2253aa86e111958e40bd63c11962585cd4151aa80813",
+        "basis": "exact PNG inheritance from prior completed categorical review"
+      },
+      {
+        "page": 31,
+        "sha256": "4a5fd9cf6efc760e96d5955be072d71570b4a8114c131ecb10e12046c89e2f95",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 32,
+        "sha256": "669812da46235f260a38e77ca153cd5186e503e653ac2da37d1de4c9272794ca",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 33,
+        "sha256": "b65f3c58a7d8bc1e4a23e80b82a3579750964920f74a8950b6200694ed8fde4a",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 34,
+        "sha256": "5f1677006547f29698e787e8f6c1ad0c221814075f3094ee339517c35851ab83",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 35,
+        "sha256": "39a82a1a6dc0a307d295b9c1457987cca391102acf917fa9e2a20e4398f1f0b0",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 36,
+        "sha256": "e03c00c25a01bfe3edbd137ba71124899cb163cc6b4b300576a3b826fd8e29e4",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 37,
+        "sha256": "15ed6b58d7c02b5569456755aada509f4b41f4e1c8e397cf267df3b920a11037",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 38,
+        "sha256": "54b1a8bd37116821eb51916d658f7ba8734be2009a37285731ef0c55c7f55e7c",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 39,
+        "sha256": "c8cef0aa0752d72347f8897f754a5cf39ad8052cdbede704558edaab875b0479",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 40,
+        "sha256": "3a876c256f12e5c140282846320bd8ebb16b3cd99df499a4260fbba5995e71ed",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 41,
+        "sha256": "48c496e9733c36f9c9cdc6f7b24ec5864a8d73f5fa1e2e4536254bf4820f9206",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 42,
+        "sha256": "3ff696c2c13c22d62ec64dd2416dcf48434c767bf8887b57ff1de7c299126760",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 43,
+        "sha256": "f7a13be5db29008c40d0e469ccde7a1df16d0e0dd276ac4d7a67803110484d09",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 44,
+        "sha256": "71beae0bd9b9c266cc42f8a2c45f9fd47d126e92270882a27253f26aeff19ef8",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 45,
+        "sha256": "23e6c15d8791713a22d5c2b4278e6d99351fc9563104c17b2700a253af668ee2",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 46,
+        "sha256": "f691601424b4adf3432b26a95e61737c3211525dfe6951835ec3c088c7f32311",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 47,
+        "sha256": "1dbeb11309fec49f783726b984064d2520f571fa09d6565c08c85e2fa5a2ee4b",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 48,
+        "sha256": "920c6bad60beeff5a148cb559de70916e8e310b9f3d9fa5b7170a8ff074ce43f",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 49,
+        "sha256": "b56803d26b4757ff86f406e8a3ea32583471bc726775e3a18f187475cb008895",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 50,
+        "sha256": "58951c324c98a035f0bea823a32d7e040236083e6f719c4f54c0465db49541b2",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 51,
+        "sha256": "10608ecfc3cfb4a9af4aae391c54e5f950139d09db7ce98cb7b51e6318b24060",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 52,
+        "sha256": "094f5f0a5d51adbb6baccae428ac1464f5d2186ea2f91f4a30cd7bd3c183321a",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 53,
+        "sha256": "fcb5c130a6d14779b760ec781cd8d57ae39aa4cdd418fe451a16fb542442da24",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 54,
+        "sha256": "3998188639637b846288f571ae57c559e8e214d7b53da178c2afaabfa709847e",
+        "basis": "exact PNG inheritance from directly reviewed initial core render"
+      },
+      {
+        "page": 55,
+        "sha256": "ec5593c244046f8d89615f912aa8c267c66c8b18f6b5153abb72a13ef4e57ee1",
+        "basis": "direct final image review"
+      },
+      {
+        "page": 56,
+        "sha256": "53b537660162e64a682a6c40b4e963eacbf11026de1cfbe87e145dd5ab55a328",
+        "basis": "direct final image review"
+      },
+      {
+        "page": 57,
+        "sha256": "06634d26f31c32117133dd18460a1e0eeb548b04ca5745124981c51750a35113",
+        "basis": "direct final image review"
+      },
+      {
+        "page": 58,
+        "sha256": "33a74917239fec799f6feb03c1e84e2e47e1a530f08318134c958f4764c5b4ec",
+        "basis": "direct final image review"
+      }
+    ]
+  },
+  "main": {
+    "pages": 28,
+    "native_math": 238,
+    "tables": 6,
+    "source_sha256": "2c8d25cc9be16f1d4a39fc1bf45cd71f3d89b15e0378e1d08306369da127fd05",
+    "docx_sha256": "b2d93d60d646166abb9fb2191888c1e406d0ddc7bcab6cb0f1a0b0e3a95e17bf",
+    "pages_reviewed": [
+      {
+        "page": 1,
+        "sha256": "2e69318fe0d9f37d8b08aebd11f90154d5c796902f1967f5b50955f16981e6b8",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 2,
+        "sha256": "2524a7227e220b4464fd4ba040f6e9aa4ed05c402735dcdb6f2313a589302d9a",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 3,
+        "sha256": "9e69da04468d4efaf7ab0d5629a37af99278108cd6ef029c225f23f7e6074cb9",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 4,
+        "sha256": "814d96c3c58a539fef4a1c299b726e1771af219c874ce21b6dd0ae64797238b9",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 5,
+        "sha256": "91f3bb76a45014774bf4256e27307dab4893d8024ab65d72a58823ecd3590ab9",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 6,
+        "sha256": "fddfb6b3da2289ab7400445151da97a0e6a932e1ffd81e43fd847fc3a8e93e5f",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 7,
+        "sha256": "07803549465b9a68f4373fd839094bc67bf23d04f2e66e0ad896cb8b570509b2",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 8,
+        "sha256": "e4cd4252db692ad521a84863aeb27771248cadf6f7b7287ef29b1ec59a6558d4",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 9,
+        "sha256": "59eb2679638df6667865ef674bee655a8f1b5062ea9a7900514b390a0a5459a9",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 10,
+        "sha256": "f5abac6e6a4a28be44638438b2f086bf7d1cef24af0d772097290b98ec8804ca",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 11,
+        "sha256": "b143c169f21e7b5c409caf5c792be1fe4a3b30cfbd6023e85fc79cfdfb086fda",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 12,
+        "sha256": "0f297a29a6b6d899abab1077aa4bd0d5898d507f6c434cc33f88151246ef416c",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 13,
+        "sha256": "d52d29c488ba829558788ec5fed555197064578435fd20bb25bf39fe18966238",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 14,
+        "sha256": "f5c9241706d3240c571b1a96ea070ba6f8bdcc036f983b1a356169bccb430d31",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 15,
+        "sha256": "e4d52d12d164816493743db4c9f2c42a0dde183ee907e262bf045e15ab390d00",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 16,
+        "sha256": "2b6b35d8295519d122b943ca4526a4d304421cf2d3e52573fc0931a9f681ab85",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 17,
+        "sha256": "1afb52e774af9eece68e8ecb06caca244e19985e43ac109217f1118d0d64124e",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 18,
+        "sha256": "7cc2b06cc8a73fefed857493a12159abdff685a45df294dea0f03a64411df1c5",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 19,
+        "sha256": "56d46882e3768e5ffb1bfd536d34effa4c55cbc0b735cd1f72d3ece22ace035d",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 20,
+        "sha256": "10a3d9e5a74b1c8cb69acbb16dc6258488af516e444db51034a4dd3d4ff1ddf3",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 21,
+        "sha256": "64dc1e822b24475229ff714395963bd6b0f203b0629b97e2675a0d79b519c297",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 22,
+        "sha256": "6c4426a5372c88a0c5e74f4f9ab2bed30999dd3f64091b3b3c78da6500e9b9b2",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 23,
+        "sha256": "2fe94a1712a763266afae1e1a8c43ed7921dbd10f4edc869f7e0a50f4f1e6dfb",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 24,
+        "sha256": "dbc21f12f96a4c56e319802782a7312f5693101f4d680f9a255db05a704d1254",
+        "basis": "exact PNG inheritance from current reviewed full manuscript"
+      },
+      {
+        "page": 25,
+        "sha256": "3aa7126ab77fc6a1495b6ed41678fbb4ed9d145e139be0f1d130bfa82f14463b",
+        "basis": "direct final main image review"
+      },
+      {
+        "page": 26,
+        "sha256": "c2bb49d5008119b115c82cdf49c9f1336e6de100fac8833aa4ea21623af7875e",
+        "basis": "exact PNG inheritance from prior completed main reading review"
+      },
+      {
+        "page": 27,
+        "sha256": "02963dacc171bfe3fedf23dec093f16c8fbaa93236d34ef2204289ea00395f7d",
+        "basis": "direct final main image review"
+      },
+      {
+        "page": 28,
+        "sha256": "8fb920033353f80581e4510edde15cd449ccd41b2ccd2199c2bad1dbb0f0c648",
+        "basis": "direct final main image review"
+      }
+    ]
+  },
+  "highlights": {
+    "pages": 1,
+    "direct_image_review": true,
+    "source_sha256": "0b8a20a30d10cc87331962623069bae0c0ca018d7612983b175e9fcbf6e24125",
+    "docx_sha256": "229dbe7e150fc35cc92134c4923cf5cbc3ed6aebbf9b4e641b2ff130a86a9aa8",
+    "characters": [
+      75,
+      75,
+      75,
+      76,
+      75
+    ],
+    "page_png_sha256": "505db6247f7406dbd842dafb2a361ef74d9ecedf56e3b43d8b9ba82eb709f78a"
+  },
+  "layout_repair": "An initial 59-page render left an orphan continuation of data availability. A concise equivalent data statement removes that page without changing references, tables, display equations or font sizing; final full render has58pages."
+}
