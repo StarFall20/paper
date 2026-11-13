@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "goal_complete": false,
-  "decision": "Known-scale and nested-budget results are integrated into the reviewed 57-page manuscript; isolated full mathematical checks and all twelve table reconciliations pass. Specific-result priority, sufficient choice-analysis value and current submission/author requirements remain unproven.",
+  "decision": "The reviewed 57-page scale-integrated manuscript is preserved. A derived row-weight attainment/covariance trade-off now has full existing-cohort verification and isolated regeneration. Its specific priority and choice-analysis value require assessment before concise integration; submission requirements remain unverified.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -182,7 +182,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "尺度正文整合与复现核对_20261113.md",
+  "latest_progress_report": "行权重与有限估计代价_20261113.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -206,5 +206,18 @@
     "new_main_integration": true,
     "integration_evidence": "../../submission/finite_choice_20261110/reports/radial_integration_20261113.json",
     "new_absorption_principle_claimed": false
+  },
+  "row_weight_tradeoff_evidence": {
+    "report": "../row_weight_attainment_20261113/README.md",
+    "weighted_criteria": 5000,
+    "reused_cohorts": 1000,
+    "original_loss_checks": 5000,
+    "negative_directions": 1762,
+    "population_rows": 132,
+    "finite_design_cases": 108,
+    "isolated_full_primary_regeneration": true,
+    "main_manuscript_integrated": false,
+    "new_weighted_PPI_family_claimed": false,
+    "specific_priority_certified": false
   }
 }

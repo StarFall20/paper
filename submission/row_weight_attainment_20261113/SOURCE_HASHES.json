@@ -1,0 +1,16 @@
+{
+  "scientific_source_files": 9,
+  "sha256": {
+    "analysis/row_weight_attainment_audit.py": "1a1797e6009bc805168635fc12a36e2d4b2c8a3cc78d681f2b780ec471d284c7",
+    "analysis/verify_row_weight_attainment.py": "739e0075e69ba96e6906e09138355d564922ffbfefb3313e28524b136a60df06",
+    "analysis/summarize_row_weight_attainment.py": "4d3dc03e0cc622a0ef50b175fc4e5417d233c4a679e461fded7d1a069268f845",
+    "analysis/radial_compensation_audit.py": "44293e63fc7369dc40fd3d4de0d778bff8e10f6702a4ab8b7e08990c25cc6dca",
+    "analysis/verify_radial_compensation.py": "03a670423162bfe6a77505c5ba2ee2be7c9e49f97426816ef2780735118a9dce",
+    "analysis/power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "analysis/public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "analysis/public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "analysis/choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672"
+  },
+  "plan_sha256": "2e808c7a0eab58ce1825f0aa3c71adb84b304c85f5eba830e733a7f348de86fe",
+  "reference_sha256": "f6e2d8dac538c6d889560e0f5d63be6415de1cab86cced0276097eed476695f4"
+}

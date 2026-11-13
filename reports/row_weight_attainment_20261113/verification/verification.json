@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-13",
+  "all_weighted_criteria_independently_checked": 5000,
+  "reused_cohort_hashes_checked": 1000,
+  "negative_recession_directions": 1762,
+  "independent_population_rows": 132,
+  "finite_design_identity_cases": 108,
+  "maximum_integral_discrepancy": 4.413136522884997e-15,
+  "maximum_reported_quadrature_error": 5.547992463298855e-08,
+  "maximum_envelope_derivative_error": 6.605829514090473e-10,
+  "maximum_covariance_enumeration_error": 8.881784197001252e-15,
+  "initial_unknowns": 0,
+  "final_unknowns": 0,
+  "source_sha256": "739e0075e69ba96e6906e09138355d564922ffbfefb3313e28524b136a60df06",
+  "plan_sha256": "2e808c7a0eab58ce1825f0aa3c71adb84b304c85f5eba830e733a7f348de86fe",
+  "trials_sha256": "77a4b5a0eb9f669b905dbae005a030351152e09211b01281242ea09dbbe7c274",
+  "priority_or_submission_certified": false
+}

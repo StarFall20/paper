@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-13",
+  "status": "Internal plan fixed after algebraic derivation, before any new numerical population calculation or replay. Existing unweighted endpoint results were already known. No external preregistration.",
+  "question": "For a specified positive whole-utility scale, quantify the trade-off between compensated finite attainment and fixed-dimensional oracle variance along fixed row weights w(D)=D^(-r).",
+  "epsilon": 0.25,
+  "population_auxiliary_ratios": [0.25, 1.0, 4.0],
+  "population_exponents": [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0],
+  "population_scale_laws": [
+    {"name":"constant","large_probability":1.0,"small_scale":1.0},
+    {"name":"mild","large_probability":0.5,"small_scale":0.7},
+    {"name":"moderate","large_probability":0.5,"small_scale":0.3},
+    {"name":"previous_two_point","large_probability":0.1,"small_scale":0.1}
+  ],
+  "simulation_exponents": [0.0,0.25,0.5,0.75,1.0],
+  "label_budgets": [80,160],
+  "replications":500,
+  "noise_label_ratio":0.25,
+  "source_seed":2026111244,
+  "simulation_large_probability":0.1,
+  "simulation_small_scale":0.1,
+  "simulation_auxiliary_ratio":1.0,
+  "simulation_power":0.5,
+  "expected_reused_cohorts":1000,
+  "expected_weighted_criteria":5000,
+  "normalization":"Each weighted loss divides by the original sample count. A single common positive normalization of the complete objective is permitted. Separate labelled and auxiliary weight normalization changes the finite objective.",
+  "pairing":"Reuse every previous radial Gaussian design, choice, proxy and scale. r=0 must agree with the previous variable-scale status; r=1 must agree with previous constant-scale status. All new exponents and reverse transitions are retained.",
+  "primary_classifier":"Residual feasibility with effective scale D^(1-r), using the exact recession identity.",
+  "independent_verifier":"Reconstruct the original D-scaled design and the actual row-weighted logit objective; independently classify every criterion through its weighted attainable moment. Store all negative recession directions.",
+  "additional_checks":["independent Gaussian integration for every population row","envelope derivative vs symmetric difference","covariance log-moment derivatives and second-order cost","recession identity on fixed arbitrary designs, powers and directions","no replacement of weighted loss by a coefficient-equivalent virtual likelihood"],
+  "new_human_or_LLM_responses":0,
+  "all_results_retained":true,
+  "excluded_claims":["new weighted PPI estimator family","general optimality of intermediate power weights","same projection target under misspecification","high-dimensional MSE or interval benefit","unknown/estimated utility scale","population monotonicity implies nested finite-sample events","exhaustive priority or journal-readiness certificate"]
+}

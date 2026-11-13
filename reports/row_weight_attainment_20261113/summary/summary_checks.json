@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-13",
+  "retained_records": 5000,
+  "source_cohorts": 1000,
+  "paired_transition_rows_checked": 8,
+  "covariance_local_cost_checks": 12,
+  "maximum_quadratic_cost_discrepancy": 7.028933495800693e-07,
+  "table_rows": [
+    {
+      "row_exponent": 0.0,
+      "finite_m80": "17/500",
+      "finite_m160": "3/500",
+      "regular_covariance_multiplier": 1.0
+    },
+    {
+      "row_exponent": 0.25,
+      "finite_m80": "143/500",
+      "finite_m160": "126/500",
+      "regular_covariance_multiplier": 1.0163040540162747
+    },
+    {
+      "row_exponent": 0.5,
+      "finite_m80": "458/500",
+      "finite_m160": "493/500",
+      "regular_covariance_multiplier": 1.1747984684439257
+    },
+    {
+      "row_exponent": 0.75,
+      "finite_m80": "499/500",
+      "finite_m160": "500/500",
+      "regular_covariance_multiplier": 2.092199341952388
+    },
+    {
+      "row_exponent": 1.0,
+      "finite_m80": "499/500",
+      "finite_m160": "500/500",
+      "regular_covariance_multiplier": 6.102611464882271
+    }
+  ],
+  "figure_intervals": "Marginal 95% Wilson Monte Carlo intervals over 500 independent cohorts per label budget; paired transition uncertainty is reported separately.",
+  "source_sha256": "4d3dc03e0cc622a0ef50b175fc4e5417d233c4a679e461fded7d1a069268f845",
+  "population_curves_not_finite_sample_risk_guarantees": true
+}

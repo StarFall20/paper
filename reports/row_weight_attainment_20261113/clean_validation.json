@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-13",
+  "independent_extraction": true,
+  "candidate_archive_sha256": "481d5a918b35b6321a39c4fb2e038fe03546e0bb9badbb0544932c15a21ca6c2",
+  "all_5000_primary_programs_rerun": true,
+  "reused_cohorts": 1000,
+  "byte_identical_primary_scientific_outputs": [
+    "population_weight_path.csv",
+    "weight_path_trials.csv",
+    "weight_path_summary.csv",
+    "source_draw_hashes.csv",
+    "paired_weight_transitions.csv"
+  ],
+  "byte_identical_summary_outputs": [
+    "weight_tradeoff_table.csv",
+    "local_variance_cost_checks.csv",
+    "summary_checks.json"
+  ],
+  "scientific_sources_identical": 9,
+  "independent_original_loss_verifier_run_before_packaging": 5000,
+  "independent_verifier_rerun_in_isolation": false,
+  "reason": "The isolated package reruns full primary generation and independent table/cost reconciliation. The already completed independent original-loss verifier covers every criterion; its source,plan,inputs and retained outputs are unchanged. Repeating the same verifier does not add statistical replications.",
+  "full_57_page_manuscript_unchanged": true,
+  "figure_visual_qa": "Native-resolution inspection of both final panels; shortened titles and marginal Wilson Monte Carlo intervals fit the page. No equation raster artifacts are shipped.",
+  "priority_or_submission_certified": false,
+  "goal_complete": false
+}

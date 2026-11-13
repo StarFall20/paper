@@ -1,5 +1,12 @@
 # Current research status — updated13 November2026
 
+## New derived result: row weights trade finite attainment against regular covariance
+
+The [new derivation and replay](reports/public_conjoint_audit_20261109/行权重与有限估计代价_20261113.md) stays within the known-scale compensated model. Constant row weights minimize full regular covariance, while inverse utility-scale weights maximize the existence boundary. A fixed power-weight path increases the latter with first-order initial gain and second-order initial covariance cost. These conclusions use the existing scale profile and elementary support/differentiation arguments; weighted PPI itself is prior.
+
+All5000weighted objectives on1000previous cohorts receive independent original-loss checks, with1762negative directions and no unresolved event. At160labels, finite counts3/493/500at exponents0/0.5/1correspond to regular covariance multipliers1/1.1748/6.1026. All conditions,8paired transitions,132population integrals,108finite-design cases and12local cost checks are retained. An independent extraction regenerates all5000primary programs; five scientific outputs and three summaries match byte-for-byte, with9identical source files. The57-page manuscript remains unchanged pending contribution assessment and integration. New primary readings cover noisy-label surrogate estimation, general Gaussian convex-loss performance and weighted PPI; their exact statements and code units delimit this increment. Specific-result priority,choice-analysis value and submission requirements remain under assessment. The goal remains active.
+
+
 ## Current integrated manuscript: 57 pages, with scale and auxiliary-budget consequences
 
 The [new integration record](reports/public_conjoint_audit_20261109/尺度正文整合与复现核对_20261113.md) integrates Proposition7, Sections3.10/5.6 and AppendixG into the same compensated-objective paper. The full native Word has57pages,1117mathematical objects,12tables and6main figures; the reading version has28pages. All11preceding table blocks and106preceding display bodies remain unchanged. The visual review covers all pages, with byte-identical inheritance recorded.

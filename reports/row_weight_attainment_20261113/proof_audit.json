@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-13",
+  "review_type": "Internal derivation audit; no independent referee or priority certificate",
+  "theory_sha256": "681454c1a3e6b6d642f9a50ea48229877d6e989d2571f1193e968b9502a486bc",
+  "steps_checked": [
+    "Actual weighted recession and attainable moment equal virtual effective-scale support; coefficients generally differ",
+    "Balanced known-scale phase reduction uses established Appendix G result",
+    "Full fixed-dimensional weighted covariance and unchanged existing variance-optimal power",
+    "Unique attainment and covariance optima from strict concavity and Cauchy-Schwarz",
+    "Strict capacity-path derivative from tilted covariance and envelope theorem",
+    "Covariance log-moment derivative and second-order initial cost"
+  ],
+  "numerical_check_record": "verification/verification.json",
+  "scope": [
+    "fixed known bounded positive utility scales and fixed bounded positive row weights",
+    "scaled fitted intercept",
+    "two independent IID samples and frozen oracle prediction in balanced Gaussian law",
+    "original sample-count denominators; common global normalization only"
+  ],
+  "excluded_claims": [
+    "arbitrary learned scales/weights",
+    "same misspecified projection target",
+    "new weighted PPI family",
+    "high-dimensional risk or coverage benefit",
+    "general Pareto optimality of intermediate power weights",
+    "new Gaussian or convex-support principle"
+  ],
+  "priority_certified": false,
+  "goal_complete": false
+}

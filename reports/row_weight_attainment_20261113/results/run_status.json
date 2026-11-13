@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "weighted_criteria": 5000,
+  "reused_cohorts": 1000,
+  "endpoint_matches": 2000,
+  "unknowns": 0,
+  "elapsed_seconds": 36.67310200002976,
+  "source_sha256": "1a1797e6009bc805168635fc12a36e2d4b2c8a3cc78d681f2b780ec471d284c7",
+  "plan_sha256": "2e808c7a0eab58ce1825f0aa3c71adb84b304c85f5eba830e733a7f348de86fe",
+  "reference_sha256": "f6e2d8dac538c6d889560e0f5d63be6415de1cab86cced0276097eed476695f4",
+  "new_human_or_LLM_responses": 0
+}
