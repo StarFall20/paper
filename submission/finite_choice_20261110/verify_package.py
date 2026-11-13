@@ -37,4 +37,14 @@ risk=json.loads((ROOT/'results/probability_risk/current_source_hashes.json').rea
 for path,sha in risk['sha256'].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==sha,path
 paper=(ROOT/'manuscript/paper.md').read_text()
 assert (ROOT/'manuscript/main_text.md').read_text()==paper[:paper.index('## Appendix A')]+paper[paper.index('## Data availability'):]
-print(json.dumps({'manifest_entries_verified':len(listed),'broken_local_markdown_links':len(missing),'science_import_closure_present':True,'menu_source_closure_files':len(menu['sha256']),'score_source_closure_files':len(score['sha256']),'observed_reference_source_closure_files':len(observed['sha256']),'raw_pickle_inputs_shipped':False}))
+radial=json.loads((ROOT/'results/radial_budget/source_hashes.json').read_text())
+for group in ['sha256','plans_sha256','inputs_sha256']:
+ for path,sha in radial[group].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==sha,path
+assert hashlib.sha256((ROOT/'analysis/build_radial_publication_assets.py').read_bytes()).hexdigest()==radial['publication_builder_sha256']
+integration=json.loads((ROOT/'reports/radial_integration_20261113.json').read_text())
+qa=json.loads((ROOT/'reports/radial_integration_visual_qa_20261113.json').read_text())
+for name,word_key,source_key,qa_key in [('paper','full_word_sha256','new_manuscript_sha256','full'),('main_text','main_word_sha256','main_text_sha256','main')]:
+ assert hashlib.sha256((ROOT/f'manuscript/{name}.md').read_bytes()).hexdigest()==integration[source_key]==qa[qa_key]['source_sha256']
+ assert hashlib.sha256((ROOT/f'manuscript/{name}.docx').read_bytes()).hexdigest()==integration[word_key]==qa[qa_key]['docx_sha256']
+assert qa['status']=='complete'
+print(json.dumps({'manifest_entries_verified':len(listed),'broken_local_markdown_links':len(missing),'science_import_closure_present':True,'menu_source_closure_files':len(menu['sha256']),'score_source_closure_files':len(score['sha256']),'observed_reference_source_closure_files':len(observed['sha256']),'radial_source_closure_files':len(radial['sha256']),'current_manuscript_sources_and_reviewed_Word_match':True,'raw_pickle_inputs_shipped':False}))

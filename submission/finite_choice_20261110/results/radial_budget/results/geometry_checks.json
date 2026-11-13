@@ -1,0 +1,6 @@
+{
+  "original_to_scaled_interval_matches": 120,
+  "nonzero_signal_cases": 80,
+  "independent_constrained_projection_cases": 12,
+  "maximum_projection_identity_error": 6.217248937900877e-15
+}

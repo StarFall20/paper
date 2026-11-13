@@ -2,7 +2,8 @@
 
 Optional concise findings for author review. Current journal-specific requirements remain unverified.
 
-- Explicit existence boundaries retain finite auxiliary sample budgets.
-- Equal truth scores and oracle covariances can yield opposite existence limits.
-- Vanishing powers can restore roots while probability log loss diverges.
-- Choice evidence separates availability, probability quality and uncertainty.
+- Finite auxiliary budgets enter binary and common coefficient logit boundaries.
+- Equal truth scores and local covariances can give opposite existence limits.
+- More auxiliary data can remove finite estimates along a variance power rule.
+- Vanishing positive powers can yield finite roots with diverging log loss.
+- Matched choice evidence retains strong pooling and penalized alternatives.

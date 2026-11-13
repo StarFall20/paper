@@ -2,7 +2,7 @@
 
 This archive accompanies **When prediction assisted logit estimates exist**. It contains one compensated choice objective, its completed results and the code needed to regenerate them. It excludes the historical research notebook, raw questionnaires, human participant response vectors and downloaded numeric pickle inputs. Complete generated menu records are included for numerical verification. The separate questionnaire application with 300 records supplies no observations to this paper.
 
-The manuscript and package were refreshed on 12 November 2026. Section 4.3 and Appendix B5 now integrate the observed-reference score path, its exact scalar example and the complete public low-label comparison; Table B2 retains all strictly interior-weight denominators. The stable directory name is retained. The original 10 November archive, the 32 page binary manuscript and the 38 page menu integration remain preserved. Section 3.5, Proposition 2 and Appendix B now integrate the oracle local score equivalence path and its strict existence counterexample. Whole menus are in Section 3.9, Theorem 3, Corollary 3 and Appendix F. Section 5.4, Table 4 and Appendix C4 retain the adverse independent training evidence. All eight tables from the 42-page version are preserved; Table B2 adds the observed-reference comparisons.
+The manuscript and package were refreshed on 13 November 2026. Section 3.10, Proposition 7 and Appendix G integrate the known positive-scale boundary and its auxiliary-budget consequence. Section 5.6, Table 6 and Figure 6 report the complete nested comparison. The earlier 49-page probability-loss manuscript and its dated archive remain preserved. The stable package directory name is retained. All eleven preceding table blocks and all 106 preceding displayed mathematical bodies remain unchanged.
 
 The binary results concern independent Gaussian remaining attributes,an estimated intercept,one utility signal,a frozen predictor and a finite auxiliary ratio. The menu result uses alternative-specific Gaussian profiles,common slopes and fitted alternative constants. Theorem3 allows simplex-face predictions with positive mean squared error;AppendixF treats perfect hard labels by an exact weighted likelihood reduction. The positive power upper envelope also bounds every power simultaneously. The binary strict-gap condition and the larger-menu condition differ. Clustered respondent choices and arbitrary categorical designs are not covered by this Gaussian phase law. The finite-design support LP,projection routines and symmetric zonotope special case are classical. Numerical agreement does not establish priority.
 
@@ -25,7 +25,7 @@ python analysis/audit_binary_choice.py examples/intercept.csv --features interce
 python analysis/build_publication_assets.py --results results --manuscript manuscript
 ```
 
-The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all eleven manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
+The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all twelve manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
 
 Optional Word authoring uses the packages in `authoring/requirements.txt`:
 
@@ -33,7 +33,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter emits native OMML equations. The current full Word has 49 pages, 891 native mathematical objects, eleven tables and five figures. The 24-page [main reading Word](manuscript/main_text.docx) contains the same main text, data availability and references. The [current visual review](reports/probability_integration_visual_qa_20261112.json) records inspection of every page, with byte-identical inheritance stated explicitly. The [integration record](reports/probability_risk_integration_20261112.json) identifies the exact source. The [isolated validation](reports/probability_integration_clean_validation_20261112.json) passes the full mathematical quick check and reconciles all eleven tables. The previous 46-page manuscript remains in its separate dated archive. Fraction arguments must be braced in this strict subset. Source changes require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
+The strict TeX subset converter emits native OMML equations. The current full Word has 57 pages, 1117 native mathematical objects, twelve tables, six main figures and seven appendices. The 28-page [main reading Word](manuscript/main_text.docx) contains the same main text, data availability and references, with six tables and 237 native mathematical objects. The [current visual review](reports/radial_integration_visual_qa_20261113.json) covers every page, with byte-identical inheritance stated explicitly. The [integration record](reports/radial_integration_20261113.json) identifies the exact sources. The [current isolated validation](reports/radial_integration_clean_validation_20261113.json) records the full mathematical quick check and all twelve table reconciliations. Previous dated visual and clean-validation records describe their historical stages. Fraction arguments must be braced in this strict subset. Source changes require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -238,7 +238,7 @@ The last command writes the figure, editable SVG and full table to the temporary
 
 ## Reproduce the observed reference comparison
 
-Section4.3and AppendixB5 extend the within-objective comparison to a frozen observed reference. The source closure is byte-identical to the completed public-design runs. The current mathematical quick check reconciles all nine manuscript tables and the10000retained path targets; its exact scalar illustration uses fraction arithmetic. It does not rerun every public path classifier.
+Section4.3and AppendixB5 extend the within-objective comparison to a frozen observed reference. The source closure is byte-identical to the completed public-design runs. The observed-reference stage reconciled all nine manuscript tables and the10000retained path targets; its exact scalar illustration uses fraction arithmetic. It does not rerun every public path classifier.
 
 ```sh
 python analysis/observable_score_path_audit.py --plan analysis/observable_score_plan_20261112.json --input-dir local_inputs --reference results/observable/reference_power_weights.csv --out regenerated/observable_high
@@ -251,7 +251,7 @@ The already documented input fetcher prepares local_inputs. To verify retained r
 
 The same500block permutations supply both label budgets and prediction routines. Strictly interior base powers have201and176allocations at50labels,80and65at20labels. Nine prediction-by-allocation comparisons change finite availability in six distinct permutations,with seven exterior-to-finite changes and two in reverse. Zero-power cases are separate because recomputed prediction-score variance can vanish. The ridge reference remains finite on all500low-budget allocations;these comparisons assert no prediction-error or inference advantage. The [closer-prior scope](reports/observable/closest_prior_scope.json) retains current reading limits.
 
-The current isolated-package validation is recorded in [the current clean check](reports/complete_gmm_clean_validation_20261112.json). It passes the full mathematical quick check and a separate public-record verification. The previous validation records describe their dated stages. Publication sufficiency and exhaustive literature priority remain open.
+The complete-GMM stage validation is recorded in [its clean check](reports/complete_gmm_clean_validation_20261112.json). It passes the full mathematical quick check and a separate public-record verification. The previous validation records describe their dated stages. Publication sufficiency and exhaustive literature priority remain open.
 
 
 ## Complete moments and objective-specific existence
@@ -265,12 +265,12 @@ python analysis/verify_complete_gmm_comparison.py --certificate regenerated/comp
 
 The [derivation](reports/complete_gmm/derivation.md) proves the exact comparison and the human-MLE implication of the inspected prior sufficient certificate. All nine manuscript tables and original simulated/public-data records are preserved. The current layout and clean-package records supersede the dated 45-page integration stage without changing those historical files.
 
-The current [complete-GMM clean validation](reports/complete_gmm_clean_validation_20261112.json) reruns the full mathematical quick check and exact comparison from a fresh extraction. All 64 analysis files match that tested package. It preserves all nine table blocks and distinguishes complete-moment existence from the compensated-loss boundary.
+The earlier [complete-GMM clean validation](reports/complete_gmm_clean_validation_20261112.json) reruns the full mathematical quick check and exact comparison from a fresh extraction. All 64 analysis files match that tested package. It preserves all nine table blocks and distinguishes complete-moment existence from the compensated-loss boundary.
 
 
 ## Probability loss and the current reading versions
 
-The current full manuscript integrates Proposition 6 and its proof in Appendix D6, public paired loss Table5 and null-Gaussian TableD1. It contains11tables, preserving the previous9blocks and all preexisting displayed mathematical bodies. Complete menu definitions and theorems are in AppendixF0; main Section3.9 retains their assumptions, consequences and matched evidence. The [main text](manuscript/main_text.md) and native main_text.docx provide a reading version with data availability and references. The [technical appendix text](manuscript/technical_appendices.md) and the full paper retain the complete argument.
+The current full manuscript integrates Proposition 6 and its proof in Appendix D6, public paired loss Table5 and null-Gaussian TableD1. That integration stage contained eleven tables, preserving the previous nine blocks and all preexisting displayed mathematical bodies. Complete menu definitions and theorems are in AppendixF0; main Section3.9 retains their assumptions, consequences and matched evidence. The [main text](manuscript/main_text.md) and native main_text.docx provide a reading version with data availability and references. The [technical appendix text](manuscript/technical_appendices.md) and the full paper retain the complete argument.
 
 The [closest-theorem comparison](reports/probability_integration/closest_theorem_comparison.json) specifies exactly which source versions and theorem units were read. The [journal reading record](reports/probability_integration/journal_readership_and_writing.json) distinguishes methodological relevance from publication prediction. The original [standalone probability-loss report](results/probability_risk/README.md) and its clean validation are frozen records from the immediately preceding, separate-supplement stage. The current integration records supersede their historical statement that the main manuscript had not yet been changed. Their numerical source closure and retained coefficients are unchanged.
 
@@ -281,3 +281,18 @@ python analysis/summarize_vanishing_power_risk.py --root results/probability_ris
 ```
 
 The first command also runs inside quick_check.py and reconciles both new tables against all1920verified records, checking common public-fit cohorts and each simulation denominator. The retained numerical fits and endpoint LPs were already replayed from an independent standalone extraction; that record remains in results/probability_risk/clean_validation.json. Full raw path optimization and download instructions remain available in the preceding standalone package; no private questionnaire or downloaded pickle input is included here.
+
+
+## Known positive scales and nested auxiliary budgets
+
+Section 3.10 and Appendix G extend the same objective to a fixed bounded known positive multiplier of the entire utility, including its fitted intercept. The comparison matches full regular information and keeps ordinary human separation identical on each paired sample. Along an established variance rule, a growing auxiliary sample can improve regular covariance while removing the unrestricted finite estimate. The later partial recovery and both transition directions remain in Table 6 and the retained paired records. At held power the balanced population boundary is nondecreasing with the auxiliary ratio. No arbitrary finite-sample monotonicity or general estimator ranking follows.
+
+The [evidence snapshot](results/radial_budget/README.md) contains all 12000 criterion records, representing 10000 distinct objectives; 2000 smallest-ratio duplicate records are labelled. All distinct objectives already received independent original-loss verification. [Scientific source hashes](results/radial_budget/source_hashes.json) identify the eleven unchanged source files, plans and numerical input. The publication builder separately reconciles every cell and transition, then generates Table 6 and the manuscript-sized Figure 6.
+
+```sh
+python analysis/build_radial_publication_assets.py --out regenerated/radial_tables
+python analysis/verify_radial_auxiliary_budget.py --root results/radial_budget --plan analysis/radial_auxiliary_budget_plan_20261112.json --reference inputs/radial_budget/previous_radial_verified.csv --out regenerated/radial_verification
+python analysis/radial_auxiliary_budget_audit.py --plan analysis/radial_auxiliary_budget_plan_20261112.json --reference inputs/radial_budget/previous_radial_verified.csv --out regenerated/radial_generation
+```
+
+Use a fresh output directory for each generation. These are generated model data; no questionnaire inputs are required. The [nearest-prior mapping](reports/closest_prior_equivalence_20261113.md) identifies the Gaussian absorption step already covered by general prior theory. The proposed increment is its explicit compensated profile and the matched-information and auxiliary-budget consequences. Internal checks establish consistency of this evidence; originality, sufficient choice-analysis value and current submission rules remain separate assessment questions.

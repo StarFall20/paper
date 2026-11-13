@@ -30,8 +30,8 @@ def run(text,plain=False):
  size=OxmlElement('w:sz');size.set(qn('w:val'),'22');rpr.append(size);e.append(rpr)
  t=el('t');t.text=text;t.set('{http://www.w3.org/XML/1998/namespace}space','preserve');e.append(t);return e
 
-SYMS={'partial':'∂','alpha':'α','nabla':'∇','lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','Sigma':'Σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','Delta':'Δ','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑','prod':'∏'}
-OPS={'inf','sup','min','max','log','ker','lim','sin','cos','exp'}
+SYMS={'downarrow':'↓','partial':'∂','alpha':'α','nabla':'∇','lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','Sigma':'Σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','Delta':'Δ','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑','prod':'∏'}
+OPS={'dim','inf','sup','min','max','log','ker','lim','sin','cos','exp'}
 class Math:
  def __init__(self,s):self.s=s;self.i=0
  def spaces(self):
@@ -64,7 +64,7 @@ class Math:
    if cmd in ['text','operatorname']:return [run(self.group_text(),True)]
    if cmd in ['mathbb','mathcal']:
     nodes=self.atom();text=''.join(''.join(n.itertext()) for n in nodes).strip()
-    mp={'R':'ℝ','N':'ℕ','E':'𝔼'} if cmd=='mathbb' else {'Z':'𝒵','Q':'𝒬','C':'𝒞'}
+    mp={'R':'ℝ','N':'ℕ','E':'𝔼'} if cmd=='mathbb' else {'Z':'𝒵','Q':'𝒬','C':'𝒞','B':'ℬ'}
     if text not in mp:raise ValueError('Unsupported alphabet '+text)
     return [run(mp[text])]
    if cmd in ['frac','tfrac']:
@@ -166,7 +166,7 @@ def build():
    while i<len(lines) and lines[i].strip().startswith('|'):tablelines.append(lines[i].strip());i+=1
    rows=[[x.strip() for x in row.strip('|').split('|')] for j,row in enumerate(tablelines) if j!=1]
    table=d.add_table(rows=0,cols=len(rows[0]));table.autofit=False;table.alignment=WD_TABLE_ALIGNMENT.CENTER
-   widths=[1.25,.7,1.05,1.2,1.1,1.2] if rows[0][0]=='Prediction' and 'Shared fits' in rows[0] else [.65,.65,.8,1.25,1.25,1.25] if rows[0][:2]==['Labels','Power'] else [.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else [.75,.55,.75,1.05,1.05,1.05] if rows[0][0]=='Alternatives' else [.55,1.05,.75,1.2,1.2,1.3] if rows[0][:2]==['Labels','Noise slopes per label'] else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5],7:[.55,.85,.95,1.05,1.05,1.025,1.025]}[len(rows[0])]
+   widths=[.52,.8,.8,1.05,1.05,1.25] if rows[0][:2]==['Labels','Auxiliary rows'] else [1.25,.7,1.05,1.2,1.1,1.2] if rows[0][0]=='Prediction' and 'Shared fits' in rows[0] else [.65,.65,.8,1.25,1.25,1.25] if rows[0][:2]==['Labels','Power'] else [.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else [.75,.55,.75,1.05,1.05,1.05] if rows[0][0]=='Alternatives' else [.55,1.05,.75,1.2,1.2,1.3] if rows[0][:2]==['Labels','Noise slopes per label'] else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5],7:[.55,.85,.95,1.05,1.05,1.025,1.025]}[len(rows[0])]
    widths=[x*6.5/sum(widths) for x in widths]
    for c,w in zip(table.columns,widths):c.width=Inches(w)
    for j,values in enumerate(rows):
@@ -174,7 +174,7 @@ def build():
     for k,(cell,value) in enumerate(zip(cells,values)):
      cell.width=Inches(widths[k]);cell_border(cell);cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
      p=cell.paragraphs[0];p.paragraph_format.space_after=Pt(0);p.paragraph_format.line_spacing=1.05
-     if len(rows[0])==5:p.paragraph_format.keep_with_next=j<len(rows)-1
+     if len(rows[0])==5 or rows[0][:2]==['Labels','Auxiliary rows']:p.paragraph_format.keep_with_next=j<len(rows)-1
      p.alignment=WD_ALIGN_PARAGRAPH.LEFT if k in [0,1] else WD_ALIGN_PARAGRAPH.CENTER
      rich(p,value)
      for r in p.runs:r.font.size=Pt(9.5);r.bold=j==0

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "goal_complete": false,
-  "decision": "The known-positive-scale proof is completed internally and all nested-budget criteria are verified. FPPI narrows the novelty claim. Specific-result priority,choice-analysis value and concise main-manuscript integration remain open.",
+  "decision": "Known-scale and nested-budget results are integrated into the reviewed 57-page manuscript; isolated full mathematical checks and all twelve table reconciliations pass. Specific-result priority, sufficient choice-analysis value and current submission/author requirements remain unproven.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -19,7 +19,7 @@
       "requirement": "Independent valuable innovation",
       "status": "specific_compensated_attainment_and_matched_information_consequences_derived_priority_and_value_under_assessment",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Compare weighted/asymmetric zonotope and high-dimensional corrected-objective results. FPPI already studies harmful aggregation; broad extra-data-harm positioning is insufficient. Complete choice-analysis value assessment and concise integration."
+      "remaining": "Complete specific-result priority and sufficient choice-analysis value assessment. General Gaussian absorption and harmful prediction aggregation are established prior and explicitly attributed."
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -41,13 +41,13 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "probability_loss_integrated_isolated_full_checks_all_eleven_tables_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/probability_integration_clean_validation_20261112.json",
+      "status": "scale_integrated_isolated_full_math_checks_and_all_twelve_tables_passed",
+      "evidence": "../../submission/finite_choice_20261110/reports/radial_integration_clean_validation_20261113.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "49_page_full_24_page_reading_Word_reviewed_submission_materials_drafted",
+      "status": "57_page_full_28_page_reading_Word_reviewed_12_tables_7_appendices_materials_drafted",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Current author-guide rules and actual author/declaration facts remain unverified. Independent contribution sufficiency remains under assessment."
     }
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 49,
+    "native_Word_pages": 57,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 891,
+    "native_math_objects": 1117,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -92,8 +92,8 @@
     "prediction_index_phase_calls": 8000,
     "prediction_index_unknowns": 0,
     "trained_prediction_rotation_matches": 180,
-    "proof_appendices": 6,
-    "main_tables": 5,
+    "proof_appendices": 7,
+    "main_tables": 6,
     "training_budget_draws": 800,
     "training_budget_method_records": 4800,
     "training_budget_full_replay_rows": 4800,
@@ -125,8 +125,8 @@
     "hard_menu_simplex_face_and_perfect_label_addendum": true,
     "common_coefficient_MNL_prediction_correction_prior_explicit": true,
     "Scopus_and_Google_Scholar_systematic_review_completed": false,
-    "manuscript_tables": 11,
-    "main_figures": 5,
+    "manuscript_tables": 12,
+    "main_figures": 6,
     "score_oracle_path_integrated_into_main_manuscript": true,
     "score_matched_model_draws": 1000,
     "score_support_classifications": 16000,
@@ -162,7 +162,7 @@
     "probability_risk_Gaussian_integration_repairs": 6,
     "probability_risk_clean_directory_replay_passed": true,
     "probability_risk_main_manuscript_integrated": true,
-    "main_reading_Word_pages": 24,
+    "main_reading_Word_pages": 28,
     "all_eleven_tables_reconciled": true,
     "cluster_controls_support_records": 24000,
     "cluster_controls_independent_support_replays": 384,
@@ -176,12 +176,13 @@
     "radial_control_samplewise_human_separation_fixed": true,
     "radial_control_full_regular_covariance_fixed": true,
     "radial_control_proof_and_priority_certified": false,
-    "new_controls_main_manuscript_integrated": false
+    "new_controls_main_manuscript_integrated": true,
+    "all_twelve_tables_reconciled": true
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "尺度证明与辅助样本预算复核_20261113.md",
+  "latest_progress_report": "尺度正文整合与复现核对_20261113.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -202,6 +203,8 @@
     "unresolved_states": 0,
     "isolated_full_generation": true,
     "byte_identical_scientific_outputs": 5,
-    "new_main_integration": false
+    "new_main_integration": true,
+    "integration_evidence": "../../submission/finite_choice_20261110/reports/radial_integration_20261113.json",
+    "new_absorption_principle_claimed": false
   }
 }

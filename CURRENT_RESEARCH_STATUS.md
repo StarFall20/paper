@@ -1,5 +1,14 @@
 # Current research status — updated13 November2026
 
+## Current integrated manuscript: 57 pages, with scale and auxiliary-budget consequences
+
+The [new integration record](reports/public_conjoint_audit_20261109/尺度正文整合与复现核对_20261113.md) integrates Proposition7, Sections3.10/5.6 and AppendixG into the same compensated-objective paper. The full native Word has57pages,1117mathematical objects,12tables and6main figures; the reading version has28pages. All11preceding table blocks and106preceding display bodies remain unchanged. The visual review covers all pages, with byte-identical inheritance recorded.
+
+A fresh isolated archive passes the full mathematical quick check, all12table reconciliations and source/Word identity checks. All74analysis files match the tested extraction. It reconciles all12000nested-budget criterion records and24paired transition rows without counting2000duplicate criteria as replication. Full original-objective verification and all10000primary programs were already completed in the independently extracted standalone supplement; this integration does not claim another full historical simulation rerun.
+
+The [closest-prior mapping](reports/radial_manuscript_integration_20261113/closest_prior_equivalence.md) explicitly applies the existing arbitrary-set Gaussian absorption theorem to the geometric step. The candidate increment is the explicit compensated profile and its matched-information and auxiliary-budget consequences. Broad harmful-prediction aggregation is already prior. Specific-result priority and sufficient choice-analysis value remain under assessment, together with current author-guide rules and actual author declarations. No private questionnaire or participant information enters the public package. The goal remains active. The dated entries below preserve their historical information states.
+
+
 ## Latest: positive-scale proof and nested auxiliary budgets
 
 The [new proof and experiment](reports/public_conjoint_audit_20261109/尺度证明与辅助样本预算复核_20261113.md) completes the stated bounded-known-scale argument internally, including weighted nuisance support, qualified relative interior, rank and statistical-dimension limits. Along the established oracle variance rule, increasing auxiliary size can reduce local covariance while removing finite empirical minimizers. The fitted intercept is scaled; no unknown-scale identification is claimed.
