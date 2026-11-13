@@ -1,5 +1,14 @@
 # Current research status — updated13 November2026
 
+## Categorical face consequence integrated into the same manuscript
+
+The [categorical face follow-up](reports/categorical_face_path_20261113/README.md) extends the same corrected-recession coefficient path to partially separated fixed designs. Classical maximal separable subsets and margin limits retain their attribution. It identifies39complete,10quasi-complete,and11overlap human designs among the60existing public allocations;9quasi-separated allocations per routine satisfy the corrected condition. All720old paths remain,including574finite roots and146unavailable records. No new choice coefficient or response was fitted or generated.
+
+Independent verification checks1200row programs,120original support programs,96uncompressed selector programs,and574root/distance records. Six initial row-solver errors remain with their simplex and neutral-annihilator resolutions. The entire optimal selector set is used,with numerical objective slack1e−8; arbitrary LP vertices are not assumed unique limits. Finite endpoint distances and slow complete-separation paths remain available.
+
+Sections3.6and5.5andAppendixD3now contain this consequence. The full native Word has58pages,1157math objects,12tables and7appendices;the reading version remains28pages. All12old table blocks,126old display bodies and33old reference paragraphs are preserved. Every page has a visual review or explicit byte-identical inheritance. A fresh extraction passes the full mathematical quick check and regenerates the full new categorical workflow:20scientific outputs are byte-identical and77analysis files match. This reinforces the existing choice-attainment argument. Specific-result priority,sufficient journal value,current author-guide rules and actual author declarations remain outstanding;the goal remains active.
+
+
 ## New global covariance-budget calculation and stronger-control decision
 
 The [new derivation and audit](reports/public_conjoint_audit_20261109/协方差预算与独立增量检验_20261113.md) maximizes the same compensated existence profile under a regular covariance budget. It proves the finite-support convex reduction,positive unique optimizing shape,KKT diagnostic,and an iterated auxiliary-limit closed form/inverse. Classical convex optimization remains attributed. All195population conditions receive independent checks,including105KKT systems and390profile integrals.

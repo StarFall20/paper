@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "face_allocations": 60,
+  "predictor_allocations": 120,
+  "path_records": 720,
+  "plan_sha256": "5e12dcd764d0978208265753a0cc0270fc250c2e96d7c6b48dc6be47d08ef467",
+  "source_sha256": "3a18db282ae3acb9aa63ca2b1010faf4205c1f462e93b267a6b7aeb211e6d08e",
+  "existing_coefficients_sha256": "59ba4976ab464ab5e9f6b7053b5c2f56f691c85814d4c1fa164b75d83504dea5",
+  "new_fits": 0,
+  "new_human_or_AI_responses": 0
+}

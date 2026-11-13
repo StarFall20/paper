@@ -1,0 +1,61 @@
+{
+  "state": "passed",
+  "scientific_source_files": 77,
+  "byte_identical_outputs": [
+    "results/certificates.json",
+    "results/face_summary.csv",
+    "results/input_hashes.csv",
+    "results/path_records.csv",
+    "results/run_status.json",
+    "results/selector_summary.csv",
+    "verification/analytic_examples.csv",
+    "verification/path_checks.csv",
+    "verification/row_exposure_checks.csv",
+    "verification/selector_checks.csv",
+    "verification/support_witnesses.json",
+    "verification/verification.json",
+    "summary/all_path_summary.csv",
+    "summary/categorical_face_paths.png",
+    "summary/categorical_face_paths.svg",
+    "summary/common_cohort_plot_data.csv",
+    "summary/common_cohort_records.csv",
+    "summary/face_counts.csv",
+    "summary/paired_distance_endpoints.csv",
+    "summary/summary_checks.json"
+  ],
+  "different_outputs": [],
+  "isolated_workflow": {
+    "state": "complete",
+    "steps": [
+      {
+        "name": "inventory",
+        "exit_code": 0,
+        "seconds": 0.3028906669933349
+      },
+      {
+        "name": "full_mathematical_quick_check",
+        "exit_code": 0,
+        "seconds": 90.36787537508644
+      },
+      {
+        "name": "all_categorical_paths",
+        "exit_code": 0,
+        "seconds": 24.74379774997942
+      },
+      {
+        "name": "independent_categorical_checks",
+        "exit_code": 0,
+        "seconds": 49.65398187516257
+      },
+      {
+        "name": "summaries",
+        "exit_code": 0,
+        "seconds": 0.8875252921134233
+      }
+    ]
+  },
+  "main_Word_and_sources_unchanged_after_testing": true,
+  "all_twelve_tables_reconciled": true,
+  "new_public_response_generation": false,
+  "scope": "Regenerates this categorical follow-up and the documented full mathematical quick check. Does not rerun every historical Monte Carlo grid."
+}

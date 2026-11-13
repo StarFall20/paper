@@ -214,7 +214,7 @@ $$\kappa_c(0+)=1+\tau-\min_{v\geq0}G(v)>1/2=\kappa_c(0). \qquad (19)$$
 
 At $\tau=1$ and $\epsilon=0.25$, the right limit is 0.664488. An uninformative prediction at $\epsilon=1/2$ also has a gap, with right limit 0.608737. This gap concerns existence and auxiliary stabilization; it does not measure additional choice information.
 
-A fixed sample counterpart describes the coefficient cost. On a strictly separated human sample, suppose the unit power recession function is positive on every nonzero human weak separator. Small positive powers then have finite roots whose norms diverge as power tends to zero. After division by $\log(1/\lambda)$, their limit set minimizes the corrected auxiliary recession cost subject to human margins of at least one. Appendix D states the condition, proves (19) and derives this path. The generic margin mechanism follows established vanishing regularization arguments; the cost and existence boundary belong to the specified corrected loss.
+A fixed sample counterpart describes the coefficient cost on categorical designs. Suppose the unit power recession is positive on every nonzero human weak separator. Small positive powers then have finite roots. After division by $\log(1/\lambda)$, the coefficients approach the set minimizing corrected auxiliary recession, with human margins of at least one on maximally separable rows and zero on the remaining rows. Appendix D3 proves this result for complete and quasi-complete separation. Classical separation faces and margin arguments supply the foundation; the specified corrected loss determines the limiting cost.
 
 ### 3.7 A simultaneous boundary with utility signal and estimated intercept
 
@@ -435,6 +435,8 @@ Table 5  Public evaluation log loss on the same finite-fit allocations
 |Attributes only|47/60|1.4884|29.3629|1.2752|18.5726|
 
 Means and medians use the common 47/60 denominator. The six powers share each allocation's prediction and 3405 evaluation rows. Repeated allocations overlap; no participant-level uncertainty is inferred.
+
+The same 60 categorical allocations have 39 completely separated human designs, ten quasi-completely separated designs and eleven with overlap. Nine of the ten quasi-separated designs satisfy the corrected recession condition for each prediction routine. On those same nine allocations, the median infinity distance from the scaled coefficient to the entire limiting selector set decreases from 2.6244 to 0.3832 for AI aided predictions and from 2.8398 to 0.3832 for attributes only predictions. Each paired endpoint distance decreases. The numerical selector set permits objective slack $10^{-8}$; positive endpoint distances remain. Complete paths preserve all 720 planned records, including 574 retained finite roots. Appendix D3 supplies the categorical face calculation; the Gaussian probability-loss statement has its separate assumptions.
 
 A known-truth Gaussian diagnostic illustrates Proposition 6 at zero utility signal. Each label budget of 80 and 160 supplies 100 independent model draws, with equal auxiliary size, noise slope ratio 0.6 and a calibrated proxy with flip probability 0.25. We compute new-row expected loss by one-dimensional normal integration, without generating test choices. At power 0.0002 the conditional median log losses are 34.4706 and 35.4378, with 67 and 82 finite fits out of 100. Classification error remains one half. Appendix D6 reports every denominator, paired comparison and the nonmonotone finite-power mean changes. Independent replay verifies all 1401 numerical finite fits across both diagnostics and 389 support endpoint programs. The raw support flags and integral repairs remain in the archive.
 
@@ -785,21 +787,29 @@ For $v>0$ this remainder strictly increases with power. The derivative of the fu
 
 The function $G$ is coercive and has $G(0)=1/2+\tau$ and derivative $2\varphi(0)\{2\epsilon(1-\epsilon)-1\}<0$ at zero. Its minimizer is positive and finite. Nonnegativity of $R_\lambda$ bounds the minimum below by $\min G$. Evaluating at a positive minimizer of $G$, where $R_\lambda$ tends to zero, gives the reverse limiting bound. This proves (19), including its strict gap from one half. The proof concerns the stated iterated limit.
 
-### D3 Coefficient growth on a fixed separated sample
+### D3 Coefficient growth on a partially separated sample
 
 If $H$ has no finite stationary point and $Q_\lambda$ has finite roots for all sufficiently small positive powers, the root norm tends to infinity. A bounded subsequence would imply a finite zero of $\nabla H$ by continuity of $(1-\lambda)\nabla H+\lambda\nabla A$.
 
-Under strict human separation and the positive recession condition of Proposition 5, the growth has a more explicit limit. Let $M$ contain vectors with $(2Y_i-1)X_i^Tv\geq1$ for every labelled row. Put
+For the coefficient direction, retain Proposition 5's positive recession condition and full stacked rank. Put $u_i=(2Y_i-1)X_i$. Let $I_+$ contain each labelled row with $u_i^Tv>0$ for some $v\in S$, and let $I_0$ contain the remaining rows. Every vector in $S$ has zero margins on $I_0$. Adding exposing directions supplies one vector with margins at least one on all $I_+$. This is the classical maximal separable face (Albert and Anderson, 1984; Ji and Telgarsky, 2019). It can be checked by maximizing $\sum_i s_i$ subject to $u_i^Tv\geq s_i$ and $0\leq s_i\leq1$. A nonnegative dual annihilator with positive entries on $I_0$ certifies the neutral rows.
+
+Let $M$ consist of vectors satisfying $u_i^Tv\geq1$ on $I_+$ and $u_i^Tv=0$ on $I_0$. Define
 
 $$V^*=\operatorname{argmin}_{v\in M}a(v). \qquad (D2)$$
 
-Then the distance from $\beta_\lambda/\log(1/\lambda)$ to $V^*$ tends to zero. A unique minimizer in (D2) gives point convergence. The cost $a$ may be negative away from $S$ and is not assumed to be a norm. This adapts the established vanishing regularization and margin argument of Rosset et al. (2004) to the corrected auxiliary recession cost.
+The set is nonempty and compact. The distance from $\beta_\lambda/\log(1/\lambda)$ to $V^*$ tends to zero. A unique minimizer gives point convergence. The signed cost $a$ can be negative away from $S$. The result adapts established margin arguments to the corrected objective (Rosset et al., 2003, 2004). It conditions on the realized design and frozen predictions; it requires no Gaussian attribute law.
 
-To prove the statement, write $L=\log(1/\lambda)$. For a feasible $v$, $H(Lv)\leq\lambda$. The auxiliary softplus remainder gives $A(Lv)=La(v)+r(Lv)$ with $0\leq r\leq\log2$. Thus $Q_\lambda(Lv)/(\lambda L)$ tends to $a(v)$. If a limiting vector violates a margin constraint, its human loss divided by $\lambda L$ diverges; a margin strictly below one supplies the required exponential lower bound. The auxiliary remainder divided by $L$ vanishes uniformly.
+To prove the statement, write $L=\log(1/\lambda)$ and let $H_0$ retain the $I_0$ human loss terms with their original divisor $m$. Its minimum $h_0$ is attained at some $b_0$ on its identified row space. A weak separator of this neutral design with any positive margin, added to a sufficiently large exposing direction on $I_+$, would expose a neutral row and contradict its definition. Thus the neutral rows have overlap. Also $\inf H=h_0$. For each $v\in M$, the candidate $Lv+b_0$ has neutral loss $h_0$ and separable loss $O(\lambda)$. The auxiliary softplus remainder gives $A(Lv+b_0)=La(v)+O(1)$. Its criterion excess above $(1-\lambda)h_0$, divided by $\lambda L$, tends to $a(v)$.
 
-The minimizers are bounded on this scale. Positivity of $a$ on the unit human separation cone implies that the minimum of $\{(1-\lambda)h(u)+\lambda a(u)\}/\lambda$ over unit $u$ has a positive lower bound at small powers. A counterexample sequence would converge to a unit vector in $S$ with a nonpositive limiting cost. Since $H\geq h$ and $A\geq a$, comparison with a feasible $Lv$ gives $\|\beta_\lambda\|=O(L)$. Compact subsequences and the preceding lower and upper bounds place every limit in (D2). Positivity on $S$ also makes $V^*$ compact.
+Positivity of $a$ on the unit slice of $S$, continuity and homogeneity give constants $c>0$ and $K<\infty$ with $a(v)\geq c\|v\|-Kh(v)$ everywhere. Near $S$ the cost has a positive lower bound; on the remaining unit sphere $h$ is bounded away from zero. Since $H\geq h$ and $H\geq h_0$, for small powers
 
-For a one coordinate example with all labelled choices and features equal to one, take $g_L=0.75$ and $g_U=0.25$. The exact root is $\log(2/\lambda-1)$ at every positive power. Equal predictions in the two samples instead leave a boundary target at every power; reversing those predictions makes the target exterior. All three examples have full rank auxiliary curvature. A separate two coordinate calculation verifies (D2) by a linear program and analytic scalar score equations. The normalized coefficients approach $(1,1)$, with scaled score error below $1.6\times10^{-15}$ in the displayed path. Root existence and bounded coefficient behavior remain separate properties.
+$$Q_\lambda(\beta)-(1-\lambda)h_0\geq\lambda c\|\beta\|-\lambda Kh_0. \qquad (D2a)$$
+
+Comparison with $Lv+b_0$ gives $\|\beta_\lambda\|=O(L)$. Every scaled limit lies in $S$: a negative human margin would make its loss grow linearly in $L$. Hence its neutral margins are zero. If any $I_+$ margin is strictly below one, that row's loss divided by $\lambda L$ diverges. The neutral loss exceeds $h_0$ and the scaled auxiliary cost remains bounded, contradicting the recovery bound. Each limit is feasible in (D2). The nonnegative excess human loss supplies the lower bound $a(v)$; recovery at a minimizer supplies the reverse bound. Compactness of $V^*$ completes the set convergence.
+
+Under complete separation $I_0$ is empty, recovering the strict-margin formula. With overlap and full labelled rank, $V^*=\{0\}$. A nonunique limiting set requires set-valued comparison; an arbitrary LP vertex need not be the path limit. For example, labelled row $(1,0)$ with choice one and prediction $0.75$, auxiliary rows $(1,1),(1,-1),(-1,1),(-1,-1)$ with predictions one half, gives $a(v)=\max(|v_1|,|v_2|)/2-v_1/4$. Its limiting set is $\{(1,t):|t|\leq1\}$, while the finite path is $(\log(4/\lambda-1),0)$.
+
+The earlier scalar checks remain: all-one labelled features and choices, with $g_L=0.75$ and $g_U=0.25$, have root $\log(2/\lambda-1)$; equal predictions give a boundary target, and reversed predictions give an exterior target. The existing two-coordinate strict-separation calculation approaches $(1,1)$. A quasi-separated example with opposing neutral rows additionally verifies (D2) and a recession that is negative away from $S$. All exact examples and retained paths accompany the reproduction package.
 
 ### D4 All powers with signal and estimated intercept
 
@@ -1247,6 +1257,8 @@ The public vaccine inputs are available from the pinned Generative Augmented Inf
 
 ## References
 
+Albert, A., Anderson, J. A. (1984). On the existence of maximum likelihood estimates in logistic regression models. Biometrika 71(1), 1–10. https://doi.org/10.1093/biomet/71.1.1
+
 Amelunxen, D., Lotz, M., McCoy, M.B., Tropp, J.A. (2014). Living on the edge: Phase transitions in convex programs with random data. Information and Inference 3, 224–294. https://doi.org/10.1093/imaiai/iau005
 
 Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Prediction-powered inference. Science 382, 669–674. Preprint: https://arxiv.org/abs/2301.09633
@@ -1267,6 +1279,8 @@ Hess, S., Daly, A., Bliemer, M., Guevara, A., Daziano, R., Dekker, T. (2026). St
 
 Hess, S., Train, K. (2017). Correlation and scale in mixed logit models. Journal of Choice Modelling 23, 1–8. https://doi.org/10.1016/j.jocm.2017.03.001
 
+Ji, Z., Telgarsky, M. (2019). Risk and parameter convergence of logistic regression. arXiv:1803.07300v3. https://arxiv.org/abs/1803.07300
+
 Kabluchko, Z., Seidel, H. (2020). Convex cones spanned by regular polytopes. arXiv:2006.09492, version 2. https://arxiv.org/abs/2006.09492v2
 
 Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. NIPS 2017 camera ready preprint, arXiv:1703.00593v2. https://arxiv.org/abs/1703.00593v2
@@ -1286,6 +1300,8 @@ Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of m
 Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html
 
 Nova, G., van Cranenburgh, S., Hess, S. (2025). Understanding the decision-making process of choice modellers. Journal of Choice Modelling 56, 100562. https://doi.org/10.1016/j.jocm.2025.100562
+
+Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advances in Neural Information Processing Systems 16. https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html
 
 Rosset, S., Zhu, J., Hastie, T. (2004). Boosting as a Regularized Path to a Maximum Margin Classifier. Journal of Machine Learning Research 5, 941–973. https://www.jmlr.org/papers/v5/rosset04a.html
 

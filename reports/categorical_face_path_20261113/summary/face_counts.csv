@@ -1,0 +1,4 @@
+type,allocations,min_exposed,max_exposed
+complete,39,20,20
+overlap,11,0,0
+quasi,10,3,19

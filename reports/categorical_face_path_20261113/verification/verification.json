@@ -1,0 +1,29 @@
+{
+  "state": "passed",
+  "row_programs": 1200,
+  "original_support_programs": 120,
+  "original_row_selector_programs": 96,
+  "paths": 720,
+  "finite_roots": 574,
+  "maxima": {
+    "dual_annihilator_residual": 6.394884621840902e-14,
+    "selector_value_difference": 7.815970093361102e-14,
+    "distance_difference": 3.191956921000383e-09,
+    "gradient_over_power": 9.748534750190605e-08,
+    "recession_identity_difference": 7.105427357601002e-15,
+    "softplus_gap_violation": 0.0,
+    "closest_set_primal_violation": 3.552713678800501e-14
+  },
+  "input_results_sha256": {
+    "certificates.json": "a370f697214fcf88c180822bd8ca37afd3a7c5399a85d0a8e7a7d129fd2e0de7",
+    "face_summary.csv": "e893bf2123c7204cdd2d666597e535128619b5505664a24c3740032d17808b59",
+    "input_hashes.csv": "92cbc6cd0346d46e9e4cfa89a12cdb0da4a1a45c72b7001513dfb7e49bc637cc",
+    "path_records.csv": "c84543cad3f0328ca3998a0bf65a06446193df27da0d85368edf31b605b0c4cf",
+    "run_status.json": "63b080f09a3c817248f250daded5a888521e3818b47ca35c7cb415ecfcc82ef7",
+    "selector_summary.csv": "72b02f25dae4fe6389eda2cae5188b6eb3c62c90d08b926430f9ec3c54bffb86"
+  },
+  "source_sha256": "95a80d858ecc4be0a0e622a42ea275d1bd87ca57c6edf7f65043565913dbbd3b",
+  "newly_fitted_paths": 0,
+  "existing_raw_coefficients_modified": false,
+  "priority_or_journal_readiness_proven": false
+}

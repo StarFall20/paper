@@ -214,7 +214,7 @@ $$\kappa_c(0+)=1+\tau-\min_{v\geq0}G(v)>1/2=\kappa_c(0). \qquad (19)$$
 
 At $\tau=1$ and $\epsilon=0.25$, the right limit is 0.664488. An uninformative prediction at $\epsilon=1/2$ also has a gap, with right limit 0.608737. This gap concerns existence and auxiliary stabilization; it does not measure additional choice information.
 
-A fixed sample counterpart describes the coefficient cost. On a strictly separated human sample, suppose the unit power recession function is positive on every nonzero human weak separator. Small positive powers then have finite roots whose norms diverge as power tends to zero. After division by $\log(1/\lambda)$, their limit set minimizes the corrected auxiliary recession cost subject to human margins of at least one. Appendix D states the condition, proves (19) and derives this path. The generic margin mechanism follows established vanishing regularization arguments; the cost and existence boundary belong to the specified corrected loss.
+A fixed sample counterpart describes the coefficient cost on categorical designs. Suppose the unit power recession is positive on every nonzero human weak separator. Small positive powers then have finite roots. After division by $\log(1/\lambda)$, the coefficients approach the set minimizing corrected auxiliary recession, with human margins of at least one on maximally separable rows and zero on the remaining rows. Appendix D3 proves this result for complete and quasi-complete separation. Classical separation faces and margin arguments supply the foundation; the specified corrected loss determines the limiting cost.
 
 ### 3.7 A simultaneous boundary with utility signal and estimated intercept
 
@@ -436,6 +436,8 @@ Table 5  Public evaluation log loss on the same finite-fit allocations
 
 Means and medians use the common 47/60 denominator. The six powers share each allocation's prediction and 3405 evaluation rows. Repeated allocations overlap; no participant-level uncertainty is inferred.
 
+The same 60 categorical allocations have 39 completely separated human designs, ten quasi-completely separated designs and eleven with overlap. Nine of the ten quasi-separated designs satisfy the corrected recession condition for each prediction routine. On those same nine allocations, the median infinity distance from the scaled coefficient to the entire limiting selector set decreases from 2.6244 to 0.3832 for AI aided predictions and from 2.8398 to 0.3832 for attributes only predictions. Each paired endpoint distance decreases. The numerical selector set permits objective slack $10^{-8}$; positive endpoint distances remain. Complete paths preserve all 720 planned records, including 574 retained finite roots. Appendix D3 supplies the categorical face calculation; the Gaussian probability-loss statement has its separate assumptions.
+
 A known-truth Gaussian diagnostic illustrates Proposition 6 at zero utility signal. Each label budget of 80 and 160 supplies 100 independent model draws, with equal auxiliary size, noise slope ratio 0.6 and a calibrated proxy with flip probability 0.25. We compute new-row expected loss by one-dimensional normal integration, without generating test choices. At power 0.0002 the conditional median log losses are 34.4706 and 35.4378, with 67 and 82 finite fits out of 100. Classification error remains one half. Appendix D6 reports every denominator, paired comparison and the nonmonotone finite-power mean changes. Independent replay verifies all 1401 numerical finite fits across both diagnostics and 389 support endpoint programs. The raw support flags and integral repairs remain in the archive.
 
 ### 5.6 Auxiliary size and an existing variance rule
@@ -485,6 +487,8 @@ The public vaccine inputs are available from the pinned Generative Augmented Inf
 
 ## References
 
+Albert, A., Anderson, J. A. (1984). On the existence of maximum likelihood estimates in logistic regression models. Biometrika 71(1), 1–10. https://doi.org/10.1093/biomet/71.1.1
+
 Amelunxen, D., Lotz, M., McCoy, M.B., Tropp, J.A. (2014). Living on the edge: Phase transitions in convex programs with random data. Information and Inference 3, 224–294. https://doi.org/10.1093/imaiai/iau005
 
 Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Prediction-powered inference. Science 382, 669–674. Preprint: https://arxiv.org/abs/2301.09633
@@ -505,6 +509,8 @@ Hess, S., Daly, A., Bliemer, M., Guevara, A., Daziano, R., Dekker, T. (2026). St
 
 Hess, S., Train, K. (2017). Correlation and scale in mixed logit models. Journal of Choice Modelling 23, 1–8. https://doi.org/10.1016/j.jocm.2017.03.001
 
+Ji, Z., Telgarsky, M. (2019). Risk and parameter convergence of logistic regression. arXiv:1803.07300v3. https://arxiv.org/abs/1803.07300
+
 Kabluchko, Z., Seidel, H. (2020). Convex cones spanned by regular polytopes. arXiv:2006.09492, version 2. https://arxiv.org/abs/2006.09492v2
 
 Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. NIPS 2017 camera ready preprint, arXiv:1703.00593v2. https://arxiv.org/abs/1703.00593v2
@@ -524,6 +530,8 @@ Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of m
 Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html
 
 Nova, G., van Cranenburgh, S., Hess, S. (2025). Understanding the decision-making process of choice modellers. Journal of Choice Modelling 56, 100562. https://doi.org/10.1016/j.jocm.2025.100562
+
+Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advances in Neural Information Processing Systems 16. https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html
 
 Rosset, S., Zhu, J., Hastie, T. (2004). Boosting as a Regularized Path to a Maximum Margin Classifier. Journal of Machine Learning Research 5, 941–973. https://www.jmlr.org/papers/v5/rosset04a.html
 

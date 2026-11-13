@@ -1,0 +1,7 @@
+{
+  "stage": "independent verification",
+  "initial_source_sha256": "0b477ad76104f8d8744de8bca5f7e9c2b21f5387617ced0fb4b682a73f7f1247",
+  "failure": "HiGHS interior-point status4 on neutral row trial54,row11",
+  "isolated_recheck": "Six row programs (54:11,17,19;57:0,13,19) return status4 by interior-point and infeasible by dual simplex. Their retained nonnegative annihilators independently force zero margin.",
+  "correction": "Retain initial status and message; retry only these unresolved row feasibility programs with dual simplex. Do not count unresolved as infeasible."
+}

@@ -1,0 +1,7 @@
+{
+  "stage": "primary run",
+  "completed": false,
+  "failure": "KeyError: fit_status on an unavailable old path; those records intentionally contain support and no fit result",
+  "correction": "Read absence as not_fitted_<original support status>, preserving every path. No old coefficient, support event or data modified.",
+  "initial_source_sha256": "0b6cbe5a2b7bac4515c870f9c0b1299d28485fd496a46f3816e9ee5b3ea5d9d5"
+}

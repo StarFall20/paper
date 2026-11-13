@@ -242,6 +242,23 @@ def main():
  report.update(probability_risk_path_records_reconciled=1920,probability_risk_numerical_fits=1401,new_probability_loss_tables_reconciled=['5','D1'],all_eleven_manuscript_tables_reconciled=True)
  subprocess.run([sys.executable,str(root/'analysis/build_radial_publication_assets.py'),'--out',str(a.out/'radial_publication')],check=True,stdout=subprocess.DEVNULL)
  report.update(all_twelve_manuscript_tables_reconciled=True,radial_nested_records=12000,radial_distinct_objectives=10000,radial_paired_transition_rows=24,radial_table6_reconciled=True)
+ from verify_categorical_face_path import exact_examples
+ examples=exact_examples();assert len(examples)==10
+ pd.DataFrame(examples).to_csv(a.out/'categorical_analytic_examples.csv',index=False)
+ categorical=root/'results/categorical_face'
+ verification=json.loads((categorical/'verification/verification.json').read_text())
+ assert verification['state']=='passed' and verification['paths']==720 and verification['finite_roots']==574
+ assert verification['row_programs']==1200 and verification['original_support_programs']==120 and verification['original_row_selector_programs']==96
+ faces=pd.read_csv(categorical/'results/face_summary.csv')
+ assert faces.groupby('type').size().to_dict()=={'complete':39,'overlap':11,'quasi':10}
+ pairs=pd.read_csv(categorical/'summary/paired_distance_endpoints.csv')
+ for pred in ['AI','X_only']:
+  row=pairs[(pairs.face_type=='quasi')&(pairs.prediction==pred)].iloc[0]
+  assert row.shared_all_six==row.decreased==9 and row.increased==row.unchanged==0
+  for field in ['median_initial','median_endpoint']:assert f'{row[field]:.4f}' in (root/'manuscript/paper.md').read_text()
+ for name,digest in json.loads((categorical/'current_source_hashes.json').read_text()).items():
+  assert hashlib.sha256((root/'analysis'/name).read_bytes()).hexdigest()==digest,name
+ report.update(categorical_analytic_examples=10,categorical_face_allocations=60,categorical_path_records_reconciled=720,categorical_retained_roots=574,categorical_original_public_programs_rerun_by_quick_check=False)
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_nine_tables_reconciled':True}))
 
 if __name__=='__main__':main()

@@ -1,0 +1,1201 @@
+trial,row,exposed,LP_status,initial_status,initial_message,simplex_fallback
+0,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+0,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+1,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+1,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+2,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+2,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+3,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+4,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+5,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+5,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+6,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+6,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+7,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+7,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+8,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+8,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+8,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+8,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+8,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+8,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+9,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+9,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+10,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+11,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+12,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+13,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+14,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+14,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+15,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+15,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+16,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+17,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+18,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+18,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+19,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+19,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+20,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+21,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+22,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+23,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+24,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+24,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+24,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+24,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+24,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+24,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+24,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+24,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+25,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+25,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+26,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+26,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+26,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+26,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+27,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+27,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+28,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+29,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+30,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+31,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+32,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+32,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+32,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+33,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+34,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+35,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+35,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+36,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+36,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+37,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+38,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+38,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+39,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+40,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+41,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+42,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+43,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+43,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+44,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+45,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+45,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+46,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+46,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+47,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+47,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+48,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+49,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+50,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+51,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+51,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+52,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+52,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+52,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+53,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+53,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+53,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+53,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+53,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+54,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+54,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+54,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+54,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+54,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+54,11,False,2,4,(HiGHS Status 4: Solve error),True
+54,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+54,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+54,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,17,False,2,4,(HiGHS Status 4: Solve error),True
+54,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+54,19,False,2,4,(HiGHS Status 4: Solve error),True
+55,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+55,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+56,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+57,0,False,2,4,(HiGHS Status 4: Solve error),True
+57,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+57,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+57,13,False,2,4,(HiGHS Status 4: Solve error),True
+57,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+57,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+57,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+57,19,False,2,4,(HiGHS Status 4: Solve error),True
+58,0,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,1,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,2,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,3,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,4,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,5,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,6,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,7,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,8,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,9,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,10,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,11,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,12,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,13,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,14,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,15,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,16,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,17,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,18,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+58,19,True,0,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False
+59,0,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,1,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,2,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,3,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,4,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,5,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,6,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,7,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,8,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,9,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,10,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,11,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,12,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,13,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,14,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,15,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,16,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,17,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,18,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False
+59,19,False,2,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),False

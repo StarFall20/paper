@@ -41,13 +41,13 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "scale_integrated_isolated_full_math_checks_and_all_twelve_tables_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/radial_integration_clean_validation_20261113.json",
+      "status": "categorical_face_integrated_isolated_full_math_and_new_workflow_passed",
+      "evidence": "../../submission/finite_choice_20261110/reports/categorical_face_clean_validation_20261113.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "57_page_full_28_page_reading_Word_reviewed_12_tables_7_appendices_materials_drafted",
+      "status": "58_page_full_28_page_reading_Word_reviewed_12_tables_7_appendices_materials_drafted",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Current author-guide rules and actual author/declaration facts remain unverified. Independent contribution sufficiency remains under assessment."
     }
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 57,
+    "native_Word_pages": 58,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 1117,
+    "native_math_objects": 1157,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -177,12 +177,23 @@
     "radial_control_full_regular_covariance_fixed": true,
     "radial_control_proof_and_priority_certified": false,
     "new_controls_main_manuscript_integrated": true,
-    "all_twelve_tables_reconciled": true
+    "all_twelve_tables_reconciled": true,
+    "categorical_face_allocations": 60,
+    "categorical_row_programs": 1200,
+    "categorical_original_support_programs": 120,
+    "categorical_uncompressed_selector_programs": 96,
+    "categorical_path_records": 720,
+    "categorical_retained_roots": 574,
+    "categorical_initial_row_solver_errors_preserved": 6,
+    "categorical_final_unknowns": 0,
+    "categorical_clean_workflow_passed": true,
+    "categorical_byte_identical_outputs": 20,
+    "categorical_main_manuscript_integrated": true
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "协方差预算与独立增量检验_20261113.md",
+  "latest_progress_report": "../categorical_face_path_20261113/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -236,5 +247,13 @@
     "main_manuscript_integrated": false,
     "new_PP_Rank_primary_statement_read": true,
     "specific_priority_certified": false
+  },
+  "categorical_face_evidence": {
+    "report": "../categorical_face_path_20261113/README.md",
+    "integration": "../../submission/finite_choice_20261110/reports/categorical_face_integration_20261113.json",
+    "same_compensated_objective": true,
+    "new_estimator_or_general_margin_theory_claimed": false,
+    "specific_priority_certified": false,
+    "new_choices_fitted": 0
   }
 }
