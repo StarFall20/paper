@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "population_cells": 195,
+  "solver_returns": 210,
+  "unresolved_cells": 0,
+  "maximum_computed_upper_gap": 3.2759491589476895e-11,
+  "minimum_same_budget_gain": -3.264005732361852e-11,
+  "maximum_same_budget_gain": 0.06849035042737911,
+  "elapsed_seconds": 1.8192935839761049,
+  "source_sha256": "176d98fab1a491c834483feefa2d6b847aa32d5c07d57a624caf9727cf4a3ff4",
+  "plan_sha256": "b74d0cb28febd91fad6b0a90c9a17a0fa96a0d00f914793c632e3c91b6261256",
+  "new_human_or_LLM_responses": 0
+}

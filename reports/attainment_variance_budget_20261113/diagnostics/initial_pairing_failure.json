@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-13",
+  "initial_source_sha256": "90badaee476729b307bf7867d94d45885e4b0ce1e3343f8de60a00dbb5730857",
+  "failure_stage": "After all5000actual objectives were classified and saved, paired-table reconciliation rejected raw unknown-as-failure summaries.",
+  "raw_undetermined_human_only_states": 19,
+  "resolution": "All19are independently interior human objectives. Preserve raw5000records and regenerate final summaries and paired transitions from verified states.",
+  "classification_code_changed": false,
+  "all_initial_classification_outputs_retained_locally": true,
+  "initial_source_snapshot": "verify_budgeted_attainment_phase_initial.py",
+  "full_original_loss_replay_completed_after_fix": true,
+  "byte_identical_classification_outputs": [
+    "phase_trials_verified.csv",
+    "original_loss_checks.csv",
+    "negative_recession_directions.json",
+    "human_separators.json"
+  ],
+  "corrected_pairing_source_sha256": "a96d9541814d42e60c60cdf2afc7ca73399185a356c9969073ed93baac4adf2e",
+  "entire_corrected_workflow_passed_in_isolation": true
+}

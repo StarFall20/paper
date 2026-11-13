@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "goal_complete": false,
-  "decision": "The reviewed 57-page scale-integrated manuscript is preserved. A derived row-weight attainment/covariance trade-off now has full existing-cohort verification and isolated regeneration. Its specific priority and choice-analysis value require assessment before concise integration; submission requirements remain unverified.",
+  "decision": "The global covariance-budget attainment curve and a complete selected illustration are verified and reproducible. The stronger ordinary baseline limits promotion as a new estimator. Specific-result priority,choice-analysis value and submission requirements remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -182,7 +182,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "行权重与有限估计代价_20261113.md",
+  "latest_progress_report": "协方差预算与独立增量检验_20261113.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -218,6 +218,23 @@
     "isolated_full_primary_regeneration": true,
     "main_manuscript_integrated": false,
     "new_weighted_PPI_family_claimed": false,
+    "specific_priority_certified": false
+  },
+  "global_budget_evidence": {
+    "report": "../attainment_variance_budget_20261113/README.md",
+    "population_conditions": 195,
+    "independent_KKT_systems": 105,
+    "independent_integrals": 390,
+    "illustration_records": 5000,
+    "actual_objective_checks": 5000,
+    "negative_directions": 2192,
+    "ordinary_separators": 53,
+    "raw_undetermined_resolved": 19,
+    "full_isolated_workflow_passed": true,
+    "current_scientific_sources": 11,
+    "general_estimator_superiority_supported": false,
+    "main_manuscript_integrated": false,
+    "new_PP_Rank_primary_statement_read": true,
     "specific_priority_certified": false
   }
 }

@@ -1,0 +1,9 @@
+labels,first_method,second_method,paired_draws,raw_undetermined_records,finite_to_outside,outside_to_finite,finite_frequency_change,paired_Monte_Carlo_SE
+80,power_at_budget,optimized_at_budget,500,0,0,172,0.344,0.021265758037978793
+80,human_only,optimized_at_budget,500,1,162,6,-0.312,0.02186935154672283
+80,optimized_at_budget,inverse_scale,500,0,0,173,0.346,0.021294951277234693
+80,unweighted_compensation,power_at_budget,500,0,0,115,0.23,0.018839050391123182
+160,power_at_budget,optimized_at_budget,500,0,0,250,0.5,0.022383074051792257
+160,human_only,optimized_at_budget,500,18,162,0,-0.324,0.020950557312477556
+160,optimized_at_budget,inverse_scale,500,0,0,164,0.328,0.021017027165175464
+160,unweighted_compensation,power_at_budget,500,0,0,86,0.172,0.01689386887634749

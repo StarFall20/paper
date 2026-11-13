@@ -1,0 +1,7277 @@
+[
+  {
+    "cell_id": "constant_tau0.25_C1",
+    "model": "constant",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.3847248353309188
+    ],
+    "power_x": [
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau0.25_C1.01",
+    "model": "constant",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.01,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.3847248353309188
+    ],
+    "power_x": [
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau0.25_C1.05",
+    "model": "constant",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.05,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.3847248353309188
+    ],
+    "power_x": [
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau0.25_C1.1",
+    "model": "constant",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.1,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.3847248353309188
+    ],
+    "power_x": [
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau0.25_C1.25",
+    "model": "constant",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.25,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.3847248353309188
+    ],
+    "power_x": [
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau0.25_C1.5",
+    "model": "constant",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.5,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.3847248353309188
+    ],
+    "power_x": [
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau0.25_C2",
+    "model": "constant",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 2.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.3847248353309188
+    ],
+    "power_x": [
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau1_C1",
+    "model": "constant",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      0.9113729767658976
+    ],
+    "power_x": [
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau1_C1.01",
+    "model": "constant",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.01,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      0.9113729767658976
+    ],
+    "power_x": [
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau1_C1.05",
+    "model": "constant",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.05,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      0.9113729767658976
+    ],
+    "power_x": [
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau1_C1.1",
+    "model": "constant",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.1,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      0.9113729767658976
+    ],
+    "power_x": [
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau1_C1.25",
+    "model": "constant",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.25,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      0.9113729767658976
+    ],
+    "power_x": [
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau1_C1.5",
+    "model": "constant",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.5,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      0.9113729767658976
+    ],
+    "power_x": [
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau1_C2",
+    "model": "constant",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 2.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      0.9113729767658976
+    ],
+    "power_x": [
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau4_C1",
+    "model": "constant",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      1.5444551110311515
+    ],
+    "power_x": [
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau4_C1.01",
+    "model": "constant",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.01,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      1.5444551110311515
+    ],
+    "power_x": [
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau4_C1.05",
+    "model": "constant",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.05,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      1.5444551110311515
+    ],
+    "power_x": [
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau4_C1.1",
+    "model": "constant",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.1,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      1.5444551110311515
+    ],
+    "power_x": [
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau4_C1.25",
+    "model": "constant",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.25,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      1.5444551110311515
+    ],
+    "power_x": [
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau4_C1.5",
+    "model": "constant",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.5,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      1.5444551110311515
+    ],
+    "power_x": [
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau4_C2",
+    "model": "constant",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 2.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      1.5444551110311515
+    ],
+    "power_x": [
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau16_C1",
+    "model": "constant",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      1.933635173076753
+    ],
+    "power_x": [
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau16_C1.01",
+    "model": "constant",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.01,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      1.933635173076753
+    ],
+    "power_x": [
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau16_C1.05",
+    "model": "constant",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.05,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      1.933635173076753
+    ],
+    "power_x": [
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau16_C1.1",
+    "model": "constant",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.1,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      1.933635173076753
+    ],
+    "power_x": [
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau16_C1.25",
+    "model": "constant",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.25,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      1.933635173076753
+    ],
+    "power_x": [
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau16_C1.5",
+    "model": "constant",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.5,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      1.933635173076753
+    ],
+    "power_x": [
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau16_C2",
+    "model": "constant",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 2.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      1.933635173076753
+    ],
+    "power_x": [
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau256_C1",
+    "model": "constant",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      2.1140842445007495
+    ],
+    "power_x": [
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau256_C1.01",
+    "model": "constant",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.01,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      2.1140842445007495
+    ],
+    "power_x": [
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau256_C1.05",
+    "model": "constant",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.05,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      2.1140842445007495
+    ],
+    "power_x": [
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau256_C1.1",
+    "model": "constant",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.1,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      2.1140842445007495
+    ],
+    "power_x": [
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau256_C1.25",
+    "model": "constant",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.25,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      2.1140842445007495
+    ],
+    "power_x": [
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau256_C1.5",
+    "model": "constant",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.5,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      2.1140842445007495
+    ],
+    "power_x": [
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "constant_tau256_C2",
+    "model": "constant",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 2.0,
+    "scales": [
+      1.0
+    ],
+    "probabilities": [
+      1.0
+    ],
+    "optimized_x": [
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      2.1140842445007495
+    ],
+    "power_x": [
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.18694838265424055,
+      0.2991174122467849,
+      0.44867611837017735,
+      0.673014177555266
+    ],
+    "optimized_row_weights": [
+      0.4412140258628373,
+      0.4412140258628373,
+      0.4412140258628373,
+      0.4412140258628373
+    ],
+    "power_x": [
+      0.18694838265424055,
+      0.2991174122467849,
+      0.44867611837017735,
+      0.673014177555266
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.01",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.01,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.24883100172872247,
+      0.31470650818627255,
+      0.4200120260518304,
+      0.6083631398447709
+    ],
+    "optimized_row_weights": [
+      0.5872622510742109,
+      0.46420876805239797,
+      0.41302665628448243,
+      0.39883015702953134
+    ],
+    "power_x": [
+      0.23057524690272752,
+      0.325846662587688,
+      0.43912593350764917,
+      0.5917862836083884
+    ],
+    "power_exponent": 0.2641553615810864,
+    "limiting_effective_scale": [
+      0.5697425586402801,
+      0.7668347676737208,
+      1.0296243797183084,
+      1.4238087977851899
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.05",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.05,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.30298172583764643,
+      0.33967687695286436,
+      0.39930232189678533,
+      0.5195882053816735
+    ],
+    "optimized_row_weights": [
+      0.7150625489332959,
+      0.5010413845424667,
+      0.3926613826036198,
+      0.3406311657802626
+    ],
+    "power_x": [
+      0.28402138209903993,
+      0.35074397140195457,
+      0.4207711599711438,
+      0.504779507273593
+    ],
+    "power_exponent": 0.5510523886161272,
+    "limiting_effective_scale": [
+      0.7383643846845444,
+      0.8639299017017243,
+      1.0313505910579646,
+      1.2824816250923246
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.1,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.3361759114903293,
+      0.3584295543677259,
+      0.3928856169470551,
+      0.4589946943670521
+    ],
+    "optimized_row_weights": [
+      0.7934036400897025,
+      0.5287025769677736,
+      0.38635139616188846,
+      0.30090732662870195
+    ],
+    "power_x": [
+      0.32427087295813617,
+      0.36581254389106665,
+      0.40590155916924275,
+      0.45038388783377553
+    ],
+    "power_exponent": 0.7435299955814114,
+    "limiting_effective_scale": [
+      0.852856771659452,
+      0.9259463246446106,
+      1.0233990619581552,
+      1.1695781679284725
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.20497566252",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.2049756625202812,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.9079832145952051,
+      0.5674895091220031,
+      0.3783263394146688,
+      0.2522175596097792
+    ],
+    "power_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.25",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.25,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.9079832145952051,
+      0.5674895091220031,
+      0.3783263394146688,
+      0.2522175596097792
+    ],
+    "power_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.5",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.5,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.9079832145952051,
+      0.5674895091220031,
+      0.3783263394146688,
+      0.2522175596097792
+    ],
+    "power_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C2",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 2.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      0.9079832145952051,
+      0.5674895091220031,
+      0.3783263394146688,
+      0.2522175596097792
+    ],
+    "power_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.38067488119067305,
+      0.6090798099050769,
+      0.9136197148576154,
+      1.370429572286423
+    ],
+    "optimized_row_weights": [
+      0.8984249796139347,
+      0.8984249796139347,
+      0.8984249796139347,
+      0.8984249796139347
+    ],
+    "power_x": [
+      0.38067488119067305,
+      0.6090798099050769,
+      0.9136197148576154,
+      1.370429572286423
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.01",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.5267496893184593,
+      0.6913726047220919,
+      0.9253278488309752,
+      1.3021606577090477
+    ],
+    "optimized_row_weights": [
+      1.243173905794282,
+      1.0198112106193145,
+      0.9099383914364592,
+      0.8536693063361657
+    ],
+    "power_x": [
+      0.499324911216242,
+      0.7056410349864899,
+      0.9509542793808998,
+      1.2815496784284388
+    ],
+    "power_exponent": 0.2641553615810864,
+    "limiting_effective_scale": [
+      0.5697425586402801,
+      0.7668347676737208,
+      1.0296243797183084,
+      1.4238087977851899
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.05",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.6813773487144453,
+      0.7830632840459403,
+      0.9301336651783302,
+      1.1762323655638114
+    ],
+    "optimized_row_weights": [
+      1.6081082857724713,
+      1.1550598190326429,
+      0.9146642805385498,
+      0.7711133504582991
+    ],
+    "power_x": [
+      0.6492054093832845,
+      0.8017173983870093,
+      0.9617829162963899,
+      1.1538060418055875
+    ],
+    "power_exponent": 0.5510523886161272,
+    "limiting_effective_scale": [
+      0.7383643846845444,
+      0.8639299017017243,
+      1.0313505910579646,
+      1.2824816250923246
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.7814034964519293,
+      0.8419823101683968,
+      0.9280382085931096,
+      1.0694331675055593
+    ],
+    "optimized_row_weights": [
+      1.8441784710729228,
+      1.2419685032183665,
+      0.9126036742389668,
+      0.7010980287820563
+    ],
+    "power_x": [
+      0.7590096632576833,
+      0.8562448215632389,
+      0.950079798812487,
+      1.0541980533833915
+    ],
+    "power_exponent": 0.7435299955814114,
+    "limiting_effective_scale": [
+      0.852856771659452,
+      0.9259463246446106,
+      1.0233990619581552,
+      1.1695781679284725
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.20497566252",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.2049756625202812,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      2.1509174587788746,
+      1.3443234117367966,
+      0.8962156078245311,
+      0.5974770718830208
+    ],
+    "power_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.25",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      2.1509174587788746,
+      1.3443234117367966,
+      0.8962156078245311,
+      0.5974770718830208
+    ],
+    "power_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.5",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      2.1509174587788746,
+      1.3443234117367966,
+      0.8962156078245311,
+      0.5974770718830208
+    ],
+    "power_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C2",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      2.1509174587788746,
+      1.3443234117367966,
+      0.8962156078245311,
+      0.5974770718830208
+    ],
+    "power_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.6068858371262891,
+      0.9710173394020626,
+      1.4565260091030938,
+      2.184789013654641
+    ],
+    "optimized_row_weights": [
+      1.432302005697798,
+      1.432302005697798,
+      1.432302005697798,
+      1.4323020056977982
+    ],
+    "power_x": [
+      0.6068858371262891,
+      0.9710173394020626,
+      1.4565260091030938,
+      2.184789013654641
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.01",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.847305039384037,
+      1.1330174466477925,
+      1.5202601436176677,
+      2.1110279408191523
+    ],
+    "optimized_row_weights": [
+      1.999711697168946,
+      1.6712607442453502,
+      1.4949761550958238,
+      1.3839457882761592
+    ],
+    "power_x": [
+      0.8140973581637936,
+      1.1504743494475596,
+      1.5504320917873775,
+      2.08943352139791
+    ],
+    "power_exponent": 0.2641553615810864,
+    "limiting_effective_scale": [
+      0.5697425586402801,
+      0.7668347676737208,
+      1.0296243797183084,
+      1.4238087977851899
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.05",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.125442096352166,
+      1.3108510245607325,
+      1.563338680266603,
+      1.9515717161427004
+    ],
+    "optimized_row_weights": [
+      2.65613872212757,
+      1.9335746906491982,
+      1.5373382372414017,
+      1.2794096207113843
+    ],
+    "power_x": [
+      1.0822965126758743,
+      1.3365507001090862,
+      1.6033974474236978,
+      1.9235210263217102
+    ],
+    "power_exponent": 0.5510523886161272,
+    "limiting_effective_scale": [
+      0.7383643846845444,
+      0.8639299017017243,
+      1.0313505910579646,
+      1.2824816250923246
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.3117479724386047,
+      1.4215101805934136,
+      1.570229470739038,
+      1.7979497636234172
+    ],
+    "optimized_row_weights": [
+      3.095836378041663,
+      2.0968028068762834,
+      1.544114424520467,
+      1.178698280011022
+    ],
+    "power_x": [
+      1.2789785742955546,
+      1.4428258744831166,
+      1.6009436577353107,
+      1.776389403995892
+    ],
+    "power_exponent": 0.7435299955814114,
+    "limiting_effective_scale": [
+      0.852856771659452,
+      0.9259463246446106,
+      1.0233990619581552,
+      1.1695781679284725
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.20497566252",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.2049756625202812,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      3.645044945709953,
+      2.27815309106872,
+      1.518768727379147,
+      1.0125124849194314
+    ],
+    "power_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.25",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      3.645044945709953,
+      2.27815309106872,
+      1.518768727379147,
+      1.0125124849194314
+    ],
+    "power_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.5",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      3.645044945709953,
+      2.27815309106872,
+      1.518768727379147,
+      1.0125124849194314
+    ],
+    "power_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C2",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      3.645044945709953,
+      2.27815309106872,
+      1.518768727379147,
+      1.0125124849194314
+    ],
+    "power_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.7490190972459058,
+      1.1984305555934494,
+      1.797645833390174,
+      2.696468750085261
+    ],
+    "optimized_row_weights": [
+      1.76774854455537,
+      1.76774854455537,
+      1.76774854455537,
+      1.76774854455537
+    ],
+    "power_x": [
+      0.7490190972459058,
+      1.1984305555934494,
+      1.797645833390174,
+      2.696468750085261
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.01",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.0471983220598526,
+      1.4074973530939057,
+      1.8896578462564875,
+      2.615264303525911
+    ],
+    "optimized_row_weights": [
+      2.4714767840884297,
+      2.076133144122988,
+      1.8582302728273328,
+      1.7145126069194614
+    ],
+    "power_x": [
+      1.0098539248764942,
+      1.4271155969352711,
+      1.923246547166587,
+      2.591855410403708
+    ],
+    "power_exponent": 0.2641553615810864,
+    "limiting_effective_scale": [
+      0.5697425586402801,
+      0.7668347676737208,
+      1.0296243797183084,
+      1.4238087977851899
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.05",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.3999696174330387,
+      1.6365368507670301,
+      1.9533637913184032,
+      2.4308103206867657
+    ],
+    "optimized_row_weights": [
+      3.304046936504889,
+      2.413978534302367,
+      1.920876701601539,
+      1.593588431665797
+    ],
+    "power_x": [
+      1.3496136314080507,
+      1.6666662257604499,
+      1.999421624539559,
+      2.398612734143805
+    ],
+    "power_exponent": 0.5510523886161272,
+    "limiting_effective_scale": [
+      0.7383643846845444,
+      0.8639299017017243,
+      1.0313505910579646,
+      1.2824816250923246
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.638399033941429,
+      1.7781595041243239,
+      1.9651096696302868,
+      2.2466108585751807
+    ],
+    "optimized_row_weights": [
+      3.866760564984669,
+      2.622879449069559,
+      1.9324272300230347,
+      1.4728311148805233
+    ],
+    "power_x": [
+      1.599028472959282,
+      1.8038767037920171,
+      2.0015616709860304,
+      2.220910727622713
+    ],
+    "power_exponent": 0.7435299955814114,
+    "limiting_effective_scale": [
+      0.852856771659452,
+      0.9259463246446106,
+      1.0233990619581552,
+      1.1695781679284725
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.20497566252",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.2049756625202812,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      4.563542872906616,
+      2.8522142955666347,
+      1.9014761970444234,
+      1.2676507980296157
+    ],
+    "power_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.25",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      4.563542872906616,
+      2.8522142955666347,
+      1.9014761970444234,
+      1.2676507980296157
+    ],
+    "power_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.5",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      4.563542872906616,
+      2.8522142955666347,
+      1.9014761970444234,
+      1.2676507980296157
+    ],
+    "power_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C2",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      4.563542872906616,
+      2.8522142955666347,
+      1.9014761970444234,
+      1.2676507980296157
+    ],
+    "power_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      0.8161811670962181,
+      1.3058898673539492,
+      1.9588348010309238,
+      2.9382522015463857
+    ],
+    "optimized_row_weights": [
+      1.9262567210007533,
+      1.9262567210007535,
+      1.9262567210007535,
+      1.9262567210007535
+    ],
+    "power_x": [
+      0.8161811670962181,
+      1.3058898673539492,
+      1.9588348010309238,
+      2.9382522015463857
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.01",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.141444372143152,
+      1.5361889200741143,
+      2.062624777461261,
+      2.8524101999142735
+    ],
+    "optimized_row_weights": [
+      2.693905449095016,
+      2.2659600215870404,
+      2.0283205293250837,
+      1.8699804992043438
+    ],
+    "power_x": [
+      1.1017418545493567,
+      1.556970711992898,
+      2.0982452664033637,
+      2.8276917247523707
+    ],
+    "power_exponent": 0.2641553615810864,
+    "limiting_effective_scale": [
+      0.5697425586402801,
+      0.7668347676737208,
+      1.0296243797183084,
+      1.4238087977851899
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.05",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.528355912845915,
+      1.7881797152234113,
+      2.1346948427601666,
+      2.6545877206734545
+    ],
+    "optimized_row_weights": [
+      3.607049473678461,
+      2.6376597911627044,
+      2.0991919716702556,
+      1.7402922171698365
+    ],
+    "power_x": [
+      1.4742260386483304,
+      1.8205527052867427,
+      2.184032046310569,
+      2.6200812343745037
+    ],
+    "power_exponent": 0.5510523886161272,
+    "limiting_effective_scale": [
+      0.7383643846845444,
+      0.8639299017017243,
+      1.0313505910579646,
+      1.2824816250923246
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.1",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      1.7903418917796983,
+      1.9437371478268932,
+      2.148298737997451,
+      2.455199563564744
+    ],
+    "optimized_row_weights": [
+      4.225358585765176,
+      2.8671152433757072,
+      2.11256961567516,
+      1.6095775094546607
+    ],
+    "power_x": [
+      1.7477049734917598,
+      1.9715998433403195,
+      2.1876654145243855,
+      2.4274093863782364
+    ],
+    "power_exponent": 0.7435299955814114,
+    "limiting_effective_scale": [
+      0.852856771659452,
+      0.9259463246446106,
+      1.0233990619581552,
+      1.1695781679284725
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.20497566252",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.2049756625202812,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      4.989417973486879,
+      3.118386233429299,
+      2.078924155619533,
+      1.3859494370796888
+    ],
+    "power_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.25",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      4.989417973486879,
+      3.118386233429299,
+      2.078924155619533,
+      1.3859494370796888
+    ],
+    "power_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.5",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      4.989417973486879,
+      3.118386233429299,
+      2.078924155619533,
+      1.3859494370796888
+    ],
+    "power_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C2",
+    "model": "four_level_mild",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.4237135986070358,
+      0.6779417577712573,
+      1.016912636656886,
+      1.5253689549853289
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "optimized_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      4.989417973486879,
+      3.118386233429299,
+      2.078924155619533,
+      1.3859494370796888
+    ],
+    "power_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.06059204857931425,
+      1.9074469281945008
+    ],
+    "optimized_row_weights": [
+      0.6059204857931425,
+      0.6059204857931425
+    ],
+    "power_x": [
+      0.06059204857931425,
+      1.9074469281945008
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.1,
+      3.148015247739439
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.01",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.01,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.14672996645134426,
+      2.2324583837230327
+    ],
+    "optimized_row_weights": [
+      1.4672996645134424,
+      0.7091637771850503
+    ],
+    "power_x": [
+      0.14672996647334205,
+      2.232458383699006
+    ],
+    "power_exponent": 0.21079072827765197,
+    "limiting_effective_scale": [
+      0.20391679391596076,
+      3.102541131142555
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.05",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.05,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.2163221328428625,
+      1.991619741416101
+    ],
+    "optimized_row_weights": [
+      2.163221328428625,
+      0.632658861117736
+    ],
+    "power_x": [
+      0.21632213284962012,
+      1.9916197413791035
+    ],
+    "power_exponent": 0.35642071765969263,
+    "limiting_effective_scale": [
+      0.3265744225589985,
+      3.006682942841215
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.1,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.25087356134125316,
+      1.7737395308825137
+    ],
+    "optimized_row_weights": [
+      2.5087356134125316,
+      0.5634469312549295
+    ],
+    "power_x": [
+      0.25087356134513134,
+      1.7737395308549269
+    ],
+    "power_exponent": 0.4329679119477112,
+    "limiting_effective_scale": [
+      0.4117336956236326,
+      2.9110613657209212
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.25",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.25,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.2949346504353637,
+      1.4154989038117018
+    ],
+    "optimized_row_weights": [
+      2.949346504353637,
+      0.4496480456465891
+    ],
+    "power_x": [
+      0.29493465043714806,
+      1.4154989037953998
+    ],
+    "power_exponent": 0.5452823813887978,
+    "limiting_effective_scale": [
+      0.5587211249767399,
+      2.681506356610503
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.5",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.5,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.32355387721284895,
+      1.1281743663312653
+    ],
+    "optimized_row_weights": [
+      3.235538772128489,
+      0.3583763983168115
+    ],
+    "power_x": [
+      0.3235538772137868,
+      1.1281743663208286
+    ],
+    "power_exponent": 0.6379063522098739,
+    "limiting_effective_scale": [
+      0.6874854749912431,
+      2.3971386057307127
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C2",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 2.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.34618737559067775,
+      0.8578386579749615
+    ],
+    "optimized_row_weights": [
+      3.4618737559067774,
+      0.2725014304142801
+    ],
+    "power_x": [
+      0.34618737559117563,
+      0.857838657968494
+    ],
+    "power_exponent": 0.7369261022356967,
+    "limiting_effective_scale": [
+      0.8127049877703902,
+      2.013850894599242
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C6.10261146488",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 6.10261146488227,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      3.8472483533091877,
+      0.12221187162520453
+    ],
+    "power_x": [
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.046791094524880186,
+      1.472990790227402
+    ],
+    "optimized_row_weights": [
+      0.46791094524880184,
+      0.4679109452488018
+    ],
+    "power_x": [
+      0.046791094524880186,
+      1.472990790227402
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.1,
+      3.148015247739439
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.01",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.13802235183887762,
+      2.099974285819659
+    ],
+    "optimized_row_weights": [
+      1.380223518388776,
+      0.6670788165106987
+    ],
+    "power_x": [
+      0.13802235187368428,
+      2.0999742859904607
+    ],
+    "power_exponent": 0.21079072827765197,
+    "limiting_effective_scale": [
+      0.20391679391596076,
+      3.102541131142555
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.05",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.27414491269025587,
+      2.5239785358143556
+    ],
+    "optimized_row_weights": [
+      2.7414491269025585,
+      0.801768205419844
+    ],
+    "power_x": [
+      0.27414491270343105,
+      2.5239785358364593
+    ],
+    "power_exponent": 0.35642071765969263,
+    "limiting_effective_scale": [
+      0.3265744225589985,
+      3.006682942841215
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.3695138372284164,
+      2.612556288472587
+    ],
+    "optimized_row_weights": [
+      3.695138372284164,
+      0.8299058558717717
+    ],
+    "power_x": [
+      0.3695138372364765,
+      2.6125562884745617
+    ],
+    "power_exponent": 0.4329679119477112,
+    "limiting_effective_scale": [
+      0.4117336956236326,
+      2.9110613657209212
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.25",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.5226909465816674,
+      2.508584395969892
+    ],
+    "optimized_row_weights": [
+      5.226909465816673,
+      0.7968780957370786
+    ],
+    "power_x": [
+      0.5226909465855892,
+      2.5085843959638474
+    ],
+    "power_exponent": 0.5452823813887978,
+    "limiting_effective_scale": [
+      0.5587211249767399,
+      2.681506356610503
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.5",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.6434953903887468,
+      2.243753066840703
+    ],
+    "optimized_row_weights": [
+      6.434953903887468,
+      0.7127516515213582
+    ],
+    "power_x": [
+      0.6434953903909121,
+      2.2437530668345436
+    ],
+    "power_exponent": 0.6379063522098739,
+    "limiting_effective_scale": [
+      0.6874854749912431,
+      2.3971386057307127
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C2",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.7516510128424867,
+      1.8625615536066926
+    ],
+    "optimized_row_weights": [
+      7.5165101284248665,
+      0.5916621766505676
+    ],
+    "power_x": [
+      0.7516510128436302,
+      1.8625615536018263
+    ],
+    "power_exponent": 0.7369261022356967,
+    "limiting_effective_scale": [
+      0.8127049877703902,
+      2.013850894599242
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C6.10261146488",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 6.10261146488227,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      9.113729767658976,
+      0.2895071672287312
+    ],
+    "power_x": [
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.06544681571177605,
+      2.0602757377666405
+    ],
+    "optimized_row_weights": [
+      0.6544681571177604,
+      0.6544681571177603
+    ],
+    "power_x": [
+      0.06544681571177605,
+      2.0602757377666405
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.1,
+      3.148015247739439
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.01",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.16765265573752144,
+      2.5507916746594725
+    ],
+    "optimized_row_weights": [
+      1.6765265573752144,
+      0.810285679680609
+    ],
+    "power_x": [
+      0.16765265576899635,
+      2.55079167477966
+    ],
+    "power_exponent": 0.21079072827765197,
+    "limiting_effective_scale": [
+      0.20391679391596076,
+      3.102541131142555
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.05",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.3274049360737725,
+      3.014329257673514
+    ],
+    "optimized_row_weights": [
+      3.2740493607377252,
+      0.957533245697611
+    ],
+    "power_x": [
+      0.3274049360878624,
+      3.0143292577040413
+    ],
+    "power_exponent": 0.35642071765969263,
+    "limiting_effective_scale": [
+      0.3265744225589985,
+      3.006682942841215
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.4582277364322932,
+      3.2397859937890385
+    ],
+    "optimized_row_weights": [
+      4.582277364322931,
+      1.0291519382301273
+    ],
+    "power_x": [
+      0.45822773644186165,
+      3.2397859938016786
+    ],
+    "power_exponent": 0.4329679119477112,
+    "limiting_effective_scale": [
+      0.4117336956236326,
+      2.9110613657209212
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.25",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.7114133656909711,
+      3.414332082702829
+    ],
+    "optimized_row_weights": [
+      7.114133656909711,
+      1.0845983306957072
+    ],
+    "power_x": [
+      0.7114133656962759,
+      3.4143320827034254
+    ],
+    "power_exponent": 0.5452823813887978,
+    "limiting_effective_scale": [
+      0.5587211249767399,
+      2.681506356610503
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.5",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.9521296401071708,
+      3.3199053667277583
+    ],
+    "optimized_row_weights": [
+      9.521296401071707,
+      1.0546026958134183
+    ],
+    "power_x": [
+      0.9521296401102981,
+      3.319905366724943
+    ],
+    "power_exponent": 0.6379063522098739,
+    "limiting_effective_scale": [
+      0.6874854749912431,
+      2.3971386057307127
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C2",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      1.1951930759611649,
+      2.961641286160645
+    ],
+    "optimized_row_weights": [
+      11.951930759611647,
+      0.9407963599564432
+    ],
+    "power_x": [
+      1.19519307596284,
+      2.9616412861570955
+    ],
+    "power_exponent": 0.7369261022356967,
+    "limiting_effective_scale": [
+      0.8127049877703902,
+      2.013850894599242
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C6.10261146488",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 6.10261146488227,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      15.444551110311515,
+      0.49061233491172274
+    ],
+    "power_x": [
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.07904394985637087,
+      2.4883155938940713
+    ],
+    "optimized_row_weights": [
+      0.7904394985637087,
+      0.7904394985637087
+    ],
+    "power_x": [
+      0.07904394985637087,
+      2.4883155938940713
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.1,
+      3.148015247739439
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.01",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.1977256625250156,
+      3.008344673132854
+    ],
+    "optimized_row_weights": [
+      1.977256625250156,
+      0.9556321797656853
+    ],
+    "power_x": [
+      0.19772566255575097,
+      3.0083446732418033
+    ],
+    "power_exponent": 0.21079072827765197,
+    "limiting_effective_scale": [
+      0.20391679391596076,
+      3.102541131142555
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.05",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.38209591035800916,
+      3.5178543599128975
+    ],
+    "optimized_row_weights": [
+      3.8209591035800914,
+      1.1174832658256775
+    ],
+    "power_x": [
+      0.38209591037204554,
+      3.517854359942914
+    ],
+    "power_exponent": 0.35642071765969263,
+    "limiting_effective_scale": [
+      0.3265744225589985,
+      3.006682942841215
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.5356976814548707,
+      3.7875180991688575
+    ],
+    "optimized_row_weights": [
+      5.356976814548707,
+      1.2031447757086435
+    ],
+    "power_x": [
+      0.5356976814645885,
+      3.7875180991825603
+    ],
+    "power_exponent": 0.4329679119477112,
+    "limiting_effective_scale": [
+      0.4117336956236326,
+      2.9110613657209212
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.25",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.8437901876548018,
+      4.049656708344449
+    ],
+    "optimized_row_weights": [
+      8.437901876548018,
+      1.286415849241032
+    ],
+    "power_x": [
+      0.8437901876603818,
+      4.049656708346359
+    ],
+    "power_exponent": 0.5452823813887978,
+    "limiting_effective_scale": [
+      0.5587211249767399,
+      2.681506356610503
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.5",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      1.1506350698250454,
+      4.012058214073288
+    ],
+    "optimized_row_weights": [
+      11.506350698250452,
+      1.2744722939173532
+    ],
+    "power_x": [
+      1.1506350698284118,
+      4.012058214071302
+    ],
+    "power_exponent": 0.6379063522098739,
+    "limiting_effective_scale": [
+      0.6874854749912431,
+      2.3971386057307127
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C2",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      1.471504460075881,
+      3.6463299941922838
+    ],
+    "optimized_row_weights": [
+      14.71504460075881,
+      1.1582948960652844
+    ],
+    "power_x": [
+      1.4715044600776983,
+      3.6463299941890854
+    ],
+    "power_exponent": 0.7369261022356967,
+    "limiting_effective_scale": [
+      0.8127049877703902,
+      2.013850894599242
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C6.10261146488",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 6.10261146488227,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      19.33635173076753,
+      0.614239455944592
+    ],
+    "power_x": [
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.08562634995045539,
+      2.695530552523067
+    ],
+    "optimized_row_weights": [
+      0.8562634995045538,
+      0.8562634995045538
+    ],
+    "power_x": [
+      0.08562634995045539,
+      2.695530552523067
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.1,
+      3.148015247739439
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.01",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.2130502422639415,
+      3.2415041792454033
+    ],
+    "optimized_row_weights": [
+      2.130502422639415,
+      1.0296977378280165
+    ],
+    "power_x": [
+      0.21305024229452554,
+      3.241504179352007
+    ],
+    "power_exponent": 0.21079072827765197,
+    "limiting_effective_scale": [
+      0.20391679391596076,
+      3.102541131142555
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.05",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.41089607527233113,
+      3.783009738342023
+    ],
+    "optimized_row_weights": [
+      4.108960752723311,
+      1.201712647693993
+    ],
+    "power_x": [
+      0.41089607528636696,
+      3.7830097383720385
+    ],
+    "power_exponent": 0.35642071765969263,
+    "limiting_effective_scale": [
+      0.3265744225589985,
+      3.006682942841215
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.1",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.5764575063809403,
+      4.075700370566667
+    ],
+    "optimized_row_weights": [
+      5.764575063809403,
+      1.2946888911968866
+    ],
+    "power_x": [
+      0.5764575063907014,
+      4.075700370580668
+    ],
+    "power_exponent": 0.4329679119477112,
+    "limiting_effective_scale": [
+      0.4117336956236326,
+      2.9110613657209212
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.25",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      0.9113009836806061,
+      4.373665629057025
+    ],
+    "optimized_row_weights": [
+      9.11300983680606,
+      1.3893406749531199
+    ],
+    "power_x": [
+      0.9113009836862526,
+      4.373665629059253
+    ],
+    "power_exponent": 0.5452823813887978,
+    "limiting_effective_scale": [
+      0.5587211249767399,
+      2.681506356610503
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.5",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      1.2481920819637977,
+      4.352222026349497
+    ],
+    "optimized_row_weights": [
+      12.481920819637976,
+      1.3825288900601063
+    ],
+    "power_x": [
+      1.2481920819672188,
+      4.352222026347702
+    ],
+    "power_exponent": 0.6379063522098739,
+    "limiting_effective_scale": [
+      0.6874854749912431,
+      2.3971386057307127
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C2",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      1.6030024564738938,
+      3.9721768410421507
+    ],
+    "optimized_row_weights": [
+      16.030024564738937,
+      1.2618035582561216
+    ],
+    "power_x": [
+      1.603002456475741,
+      3.9721768410390323
+    ],
+    "power_exponent": 0.7369261022356967,
+    "limiting_effective_scale": [
+      0.8127049877703902,
+      2.013850894599242
+    ]
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C6.10261146488",
+    "model": "previous_two_point",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 6.10261146488227,
+    "scales": [
+      0.1,
+      3.148015247739439
+    ],
+    "probabilities": [
+      0.9,
+      0.1
+    ],
+    "optimized_x": [
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      21.140842445007493,
+      0.6715609926028325
+    ],
+    "power_x": [
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1",
+    "model": "three_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.03367914681859607,
+      0.33679146818596073,
+      1.347165872743843
+    ],
+    "optimized_row_weights": [
+      0.4649674265361839,
+      0.4649674265361839,
+      0.4649674265361839
+    ],
+    "power_x": [
+      0.03367914681859607,
+      0.33679146818596073,
+      1.347165872743843
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ]
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.01",
+    "model": "three_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.01,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.11810661253242592,
+      0.42546847008701694,
+      1.6884541537677626
+    ],
+    "optimized_row_weights": [
+      1.630555785213251,
+      0.587393085324286,
+      0.5827613351745032
+    ],
+    "power_x": [
+      0.0648690299995811,
+      0.44273852585760387,
+      1.4071212457344007
+    ],
+    "power_exponent": 0.16589008917701406,
+    "limiting_effective_scale": [
+      0.1865103618407441,
+      0.7924022435804744,
+      2.8120418493795754
+    ]
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.05",
+    "model": "three_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.05,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.20070901554185613,
+      0.41281331559762857,
+      1.5845448960818136
+    ],
+    "optimized_row_weights": [
+      2.7709477007172594,
+      0.5699216373477604,
+      0.5468975851218713
+    ],
+    "power_x": [
+      0.11847779322895893,
+      0.55591883285534,
+      1.4099998636668432
+    ],
+    "power_exponent": 0.3286255695295332,
+    "limiting_effective_scale": [
+      0.32165409666751366,
+      0.8640396413870923,
+      2.671991457119021
+    ]
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.1",
+    "model": "three_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.1,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.2428904821546529,
+      0.3963641529086651,
+      1.4244782930078872
+    ],
+    "optimized_row_weights": [
+      3.3532964188755434,
+      0.5472122590925508,
+      0.4916514138734224
+    ],
+    "power_x": [
+      0.15898114277057487,
+      0.5942952440439913,
+      1.314546359184799
+    ],
+    "power_exponent": 0.42734335965486864,
+    "limiting_effective_scale": [
+      0.4158223835152485,
+      0.9077761429789053,
+      2.547622007857761
+    ]
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.25",
+    "model": "three_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.25,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.2947194580484553,
+      0.3840279726288304,
+      1.1262017271495628
+    ],
+    "optimized_row_weights": [
+      4.068836680959646,
+      0.5301811803989717,
+      0.3887027792403904
+    ],
+    "power_x": [
+      0.22339123978124034,
+      0.5865698287180567,
+      1.0489034853329322
+    ],
+    "power_exponent": 0.5807464178935197,
+    "limiting_effective_scale": [
+      0.5791143998486028,
+      0.9699509470697729,
+      2.2727394378070063
+    ]
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.5",
+    "model": "three_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.5,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.3262670928281811,
+      0.3839467542163768,
+      0.8728556870507734
+    ],
+    "optimized_row_weights": [
+      4.504376887362179,
+      0.5300690519165332,
+      0.30126168629766137
+    ],
+    "power_x": [
+      0.27337276552818446,
+      0.535561954493061,
+      0.8028677816571937
+    ],
+    "power_exponent": 0.7079455284436172,
+    "limiting_effective_scale": [
+      0.7231362308762286,
+      1.0072288431002576,
+      1.954204217180355
+    ]
+  },
+  {
+    "cell_id": "three_level_tau0.25_C2",
+    "model": "three_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 2.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.35140824169404705,
+      0.387249626227612,
+      0.6288822060468536
+    ],
+    "optimized_row_weights": [
+      4.851470456902076,
+      0.5346289295984538,
+      0.21705548429937402
+    ],
+    "power_x": [
+      0.3222874281063023,
+      0.46646998956244445,
+      0.5827774099358547
+    ],
+    "power_exponent": 0.8394196561799127,
+    "limiting_effective_scale": [
+      0.8644421540136127,
+      1.0214459992098013,
+      1.544792149863763
+    ]
+  },
+  {
+    "cell_id": "three_level_tau0.25_C3.29986149584",
+    "model": "three_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 3.2998614958448744,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      5.311432548214156,
+      0.5311432548214157,
+      0.13278581370535392
+    ],
+    "power_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "three_level_tau1_C1",
+    "model": "three_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.047444152289469514,
+      0.4744415228946951,
+      1.8977660915787804
+    ],
+    "optimized_row_weights": [
+      0.6550042824138564,
+      0.6550042824138564,
+      0.6550042824138564
+    ],
+    "power_x": [
+      0.047444152289469514,
+      0.4744415228946951,
+      1.8977660915787804
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ]
+  },
+  {
+    "cell_id": "three_level_tau1_C1.01",
+    "model": "three_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.1537096430730106,
+      0.603278920819545,
+      2.2331379112043006
+    ],
+    "optimized_row_weights": [
+      2.12208395772041,
+      0.8328745642158255,
+      0.770756154591579
+    ],
+    "power_x": [
+      0.09194619434681126,
+      0.6275432597587299,
+      1.9944716844179395
+    ],
+    "power_exponent": 0.16589008917701406,
+    "limiting_effective_scale": [
+      0.1865103618407441,
+      0.7924022435804744,
+      2.8120418493795754
+    ]
+  },
+  {
+    "cell_id": "three_level_tau1_C1.05",
+    "model": "three_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.299024027836894,
+      0.7125773369328661,
+      2.3914225256051376
+    ],
+    "optimized_row_weights": [
+      4.1282646928287186,
+      0.9837697265500189,
+      0.8253872815428059
+    ],
+    "power_x": [
+      0.17225532380404046,
+      0.8082525505619791,
+      2.0500042789471795
+    ],
+    "power_exponent": 0.3286255695295332,
+    "limiting_effective_scale": [
+      0.32165409666751366,
+      0.8640396413870923,
+      2.671991457119021
+    ]
+  },
+  {
+    "cell_id": "three_level_tau1_C1.1",
+    "model": "three_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.3991519927732958,
+      0.7668409831727339,
+      2.368303646775951
+    ],
+    "optimized_row_weights": [
+      5.5106109390548195,
+      1.0586850089427722,
+      0.8174079184880437
+    ],
+    "power_x": [
+      0.2466296810394991,
+      0.9219385640810037,
+      2.0392742411296068
+    ],
+    "power_exponent": 0.42734335965486864,
+    "limiting_effective_scale": [
+      0.4158223835152485,
+      0.9077761429789053,
+      2.547622007857761
+    ]
+  },
+  {
+    "cell_id": "three_level_tau1_C1.25",
+    "model": "three_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.5585969929295632,
+      0.8370175682464747,
+      2.1524366451323305
+    ],
+    "optimized_row_weights": [
+      7.711876065990464,
+      1.1555693698815657,
+      0.7429025244166475
+    ],
+    "power_x": [
+      0.40464799030319903,
+      1.0625049692892459,
+      1.8999701500274984
+    ],
+    "power_exponent": 0.5807464178935197,
+    "limiting_effective_scale": [
+      0.5791143998486028,
+      0.9699509470697729,
+      2.2727394378070063
+    ]
+  },
+  {
+    "cell_id": "three_level_tau1_C1.5",
+    "model": "three_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.6836907909959016,
+      0.8836214982468037,
+      1.8351219372851886
+    ],
+    "optimized_row_weights": [
+      9.438895508490909,
+      1.2199098043808168,
+      0.633382972225749
+    ],
+    "power_x": [
+      0.5635403976486446,
+      1.104026570523129,
+      1.6550603644082942
+    ],
+    "power_exponent": 0.7079455284436172,
+    "limiting_effective_scale": [
+      0.7231362308762286,
+      1.0072288431002576,
+      1.954204217180355
+    ]
+  },
+  {
+    "cell_id": "three_level_tau1_C2",
+    "model": "three_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.7977083928233901,
+      0.9151237424404538,
+      1.4259659183350688
+    ],
+    "optimized_row_weights": [
+      11.012999246542922,
+      1.263401159704427,
+      0.4921648601639084
+    ],
+    "power_x": [
+      0.731874952171622,
+      1.0592957451257003,
+      1.3234155347903405
+    ],
+    "power_exponent": 0.8394196561799127,
+    "limiting_effective_scale": [
+      0.8644421540136127,
+      1.0214459992098013,
+      1.544792149863763
+    ]
+  },
+  {
+    "cell_id": "three_level_tau1_C3.29986149584",
+    "model": "three_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 3.2998614958448744,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      12.582229291731364,
+      1.2582229291731366,
+      0.31455573229328415
+    ],
+    "power_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "three_level_tau4_C1",
+    "model": "three_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.06509688571652111,
+      0.650968857165211,
+      2.603875428660844
+    ],
+    "optimized_row_weights": [
+      0.8987143169083587,
+      0.8987143169083585,
+      0.8987143169083585
+    ],
+    "power_x": [
+      0.06509688571652111,
+      0.650968857165211,
+      2.603875428660844
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ]
+  },
+  {
+    "cell_id": "three_level_tau4_C1.01",
+    "model": "three_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.1964553403746759,
+      0.8174700296984486,
+      2.9296066082626933
+    ],
+    "optimized_row_weights": [
+      2.7122223296008925,
+      1.1285824371580384,
+      1.0111387713770517
+    ],
+    "power_x": [
+      0.12747354340826683,
+      0.8700214677911138,
+      2.7651212173201443
+    ],
+    "power_exponent": 0.16589008917701406,
+    "limiting_effective_scale": [
+      0.1865103618407441,
+      0.7924022435804744,
+      2.8120418493795754
+    ]
+  },
+  {
+    "cell_id": "three_level_tau4_C1.05",
+    "model": "three_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.3865897801253094,
+      1.0077678775661931,
+      3.1750796448666083
+    ],
+    "optimized_row_weights": [
+      5.3371795953810715,
+      1.391303761647124,
+      1.0958625373386077
+    ],
+    "power_x": [
+      0.24317992006100048,
+      1.1410433436493386,
+      2.8940752928263955
+    ],
+    "power_exponent": 0.3286255695295332,
+    "limiting_effective_scale": [
+      0.32165409666751366,
+      0.8640396413870923,
+      2.671991457119021
+    ]
+  },
+  {
+    "cell_id": "three_level_tau4_C1.1",
+    "model": "three_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.5351510218936819,
+      1.131990319803673,
+      3.247280077886207
+    ],
+    "optimized_row_weights": [
+      7.3881857755589895,
+      1.5628027298255835,
+      1.1207821483643425
+    ],
+    "power_x": [
+      0.3545348217077733,
+      1.3253040877494013,
+      2.9314952135722403
+    ],
+    "power_exponent": 0.42734335965486864,
+    "limiting_effective_scale": [
+      0.4158223835152485,
+      0.9077761429789053,
+      2.547622007857761
+    ]
+  },
+  {
+    "cell_id": "three_level_tau4_C1.25",
+    "model": "three_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.8123470518460341,
+      1.3242936070143365,
+      3.1708271763480624
+    ],
+    "optimized_row_weights": [
+      11.215097585029964,
+      1.8282927229373456,
+      1.0943948195293174
+    ],
+    "power_x": [
+      0.6092440027644791,
+      1.5997232062412954,
+      2.8606231763771834
+    ],
+    "power_exponent": 0.5807464178935197,
+    "limiting_effective_scale": [
+      0.5791143998486028,
+      0.9699509470697729,
+      2.2727394378070063
+    ]
+  },
+  {
+    "cell_id": "three_level_tau4_C1.5",
+    "model": "three_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.0675009584343136,
+      1.460602307441327,
+      2.8791514465437262
+    ],
+    "optimized_row_weights": [
+      14.737700338479158,
+      2.0164777324727843,
+      0.9937244297769687
+    ],
+    "power_x": [
+      0.8930244225424899,
+      1.7495155533245097,
+      2.62272116136772
+    ],
+    "power_exponent": 0.7079455284436172,
+    "limiting_effective_scale": [
+      0.7231362308762286,
+      1.0072288431002576,
+      1.954204217180355
+    ]
+  },
+  {
+    "cell_id": "three_level_tau4_C2",
+    "model": "three_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.3180836176214368,
+      1.546796621860289,
+      2.355534282283079
+    ],
+    "optimized_row_weights": [
+      18.19719338337118,
+      2.135475843598647,
+      0.8130006374940112
+    ],
+    "power_x": [
+      1.2142536463525957,
+      1.7574774451128499,
+      2.1956785568226613
+    ],
+    "power_exponent": 0.8394196561799127,
+    "limiting_effective_scale": [
+      0.8644421540136127,
+      1.0214459992098013,
+      1.544792149863763
+    ]
+  },
+  {
+    "cell_id": "three_level_tau4_C3.29986149584",
+    "model": "three_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 3.2998614958448744,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      21.322432015418432,
+      2.132243201541843,
+      0.5330608003854608
+    ],
+    "power_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "three_level_tau16_C1",
+    "model": "three_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.07796532928699598,
+      0.7796532928699598,
+      3.118613171479839
+    ],
+    "optimized_row_weights": [
+      1.0763734221914545,
+      1.0763734221914545,
+      1.0763734221914545
+    ],
+    "power_x": [
+      0.07796532928699598,
+      0.7796532928699598,
+      3.118613171479839
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ]
+  },
+  {
+    "cell_id": "three_level_tau16_C1.01",
+    "model": "three_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.23115983077128716,
+      0.9773022735573573,
+      3.475988715367711
+    ],
+    "optimized_row_weights": [
+      3.1913454402864705,
+      1.3492435706032189,
+      1.199719767515709
+    ],
+    "power_x": [
+      0.1527790394550828,
+      1.0427343635432944,
+      3.3140411120920037
+    ],
+    "power_exponent": 0.16589008917701406,
+    "limiting_effective_scale": [
+      0.1865103618407441,
+      0.7924022435804744,
+      2.8120418493795754
+    ]
+  },
+  {
+    "cell_id": "three_level_tau16_C1.05",
+    "model": "three_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.45455238881934074,
+      1.2129371131508846,
+      3.7660960452930494
+    ],
+    "optimized_row_weights": [
+      6.275457498777993,
+      1.6745562204699118,
+      1.299848832053196
+    ],
+    "power_x": [
+      0.2923103608248818,
+      1.3715720912125526,
+      3.4787748630242676
+    ],
+    "power_exponent": 0.3286255695295332,
+    "limiting_effective_scale": [
+      0.32165409666751366,
+      0.8640396413870923,
+      2.671991457119021
+    ]
+  },
+  {
+    "cell_id": "three_level_tau16_C1.1",
+    "model": "three_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.6331858087012209,
+      1.373026936578777,
+      3.8710312278176158
+    ],
+    "optimized_row_weights": [
+      8.741634031788449,
+      1.8955729630104288,
+      1.3360666748286936
+    ],
+    "power_x": [
+      0.427659230631538,
+      1.598654044163004,
+      3.5361293471750765
+    ],
+    "power_exponent": 0.42734335965486864,
+    "limiting_effective_scale": [
+      0.4158223835152485,
+      0.9077761429789053,
+      2.547622007857761
+    ]
+  },
+  {
+    "cell_id": "three_level_tau16_C1.25",
+    "model": "three_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.9784399436622394,
+      1.629937553465168,
+      3.8355423156004513
+    ],
+    "optimized_row_weights": [
+      13.508142147283904,
+      2.2502585167357125,
+      1.3238178578730095
+    ],
+    "power_x": [
+      0.7419947667730968,
+      1.9482936917400966,
+      3.483936513039823
+    ],
+    "power_exponent": 0.5807464178935197,
+    "limiting_effective_scale": [
+      0.5791143998486028,
+      0.9699509470697729,
+      2.2727394378070063
+    ]
+  },
+  {
+    "cell_id": "three_level_tau16_C1.5",
+    "model": "three_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.3087912736156586,
+      1.8167941943112444,
+      3.5354966397988212
+    ],
+    "optimized_row_weights": [
+      18.068905178740355,
+      2.5082289810511083,
+      1.2202586239706217
+    ],
+    "power_x": [
+      1.1001263454445867,
+      2.1552469377015053,
+      3.2309582734153817
+    ],
+    "power_exponent": 0.7079455284436172,
+    "limiting_effective_scale": [
+      0.7231362308762286,
+      1.0072288431002576,
+      1.954204217180355
+    ]
+  },
+  {
+    "cell_id": "three_level_tau16_C2",
+    "model": "three_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.6397428533091993,
+      1.935107982979255,
+      2.930294699280169
+    ],
+    "optimized_row_weights": [
+      22.637955135588548,
+      2.671570582716432,
+      1.0113762624804794
+    ],
+    "power_x": [
+      1.5123077556417281,
+      2.1888727932531036,
+      2.7346359801788287
+    ],
+    "power_exponent": 0.8394196561799127,
+    "limiting_effective_scale": [
+      0.8644421540136127,
+      1.0214459992098013,
+      1.544792149863763
+    ]
+  },
+  {
+    "cell_id": "three_level_tau16_C3.29986149584",
+    "model": "three_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 3.2998614958448744,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      26.695372514273945,
+      2.6695372514273945,
+      0.6673843128568486
+    ],
+    "power_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "three_level_tau256_C1",
+    "model": "three_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.08434800298506041,
+      0.8434800298506041,
+      3.3739201194024164
+    ],
+    "optimized_row_weights": [
+      1.1644913124632639,
+      1.1644913124632639,
+      1.1644913124632639
+    ],
+    "power_x": [
+      0.08434800298506041,
+      0.8434800298506041,
+      3.3739201194024164
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ]
+  },
+  {
+    "cell_id": "three_level_tau256_C1.01",
+    "model": "three_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.24895295593510774,
+      1.0573865121245942,
+      3.7529014594935868
+    ],
+    "optimized_row_weights": [
+      3.436993694442653,
+      1.459806235724408,
+      1.2952947880950518
+    ],
+    "power_x": [
+      0.1653290805503269,
+      1.128389824924428,
+      3.586273168900497
+    ],
+    "power_exponent": 0.16589008917701406,
+    "limiting_effective_scale": [
+      0.1865103618407441,
+      0.7924022435804744,
+      2.8120418493795754
+    ]
+  },
+  {
+    "cell_id": "three_level_tau256_C1.05",
+    "model": "three_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.48961185358151565,
+      1.3147146161697956,
+      4.066607500810229
+    ],
+    "optimized_row_weights": [
+      6.759481313098716,
+      1.8150681636995782,
+      1.4035688274475824
+    ],
+    "power_x": [
+      0.31654308617846305,
+      1.4852763393110402,
+      3.7671676370084644
+    ],
+    "power_exponent": 0.3286255695295332,
+    "limiting_effective_scale": [
+      0.32165409666751366,
+      0.8640396413870923,
+      2.671991457119021
+    ]
+  },
+  {
+    "cell_id": "three_level_tau256_C1.1",
+    "model": "three_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      0.6831898336780414,
+      1.4909058153289503,
+      4.185200909463054
+    ],
+    "optimized_row_weights": [
+      9.431979394013766,
+      2.0583141369203792,
+      1.4445007372748018
+    ],
+    "power_x": [
+      0.4634931902305663,
+      1.7326067343616092,
+      3.83242487194719
+    ],
+    "power_exponent": 0.42734335965486864,
+    "limiting_effective_scale": [
+      0.4158223835152485,
+      0.9077761429789053,
+      2.547622007857761
+    ]
+  },
+  {
+    "cell_id": "three_level_tau256_C1.25",
+    "model": "three_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.0604098858513753,
+      1.7755612532002036,
+      4.161336825854286
+    ],
+    "optimized_row_weights": [
+      14.639802437798089,
+      2.451303624182113,
+      1.4362641705930659
+    ],
+    "power_x": [
+      0.8060338495969415,
+      2.116444393979041,
+      3.7846234031669073
+    ],
+    "power_exponent": 0.5807464178935197,
+    "limiting_effective_scale": [
+      0.5791143998486028,
+      0.9699509470697729,
+      2.2727394378070063
+    ]
+  },
+  {
+    "cell_id": "three_level_tau256_C1.5",
+    "model": "three_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.4243502381853566,
+      1.9835841491358832,
+      3.8490892303438633
+    ],
+    "optimized_row_weights": [
+      19.664288656195033,
+      2.7384957882377976,
+      1.3284935063682615
+    ],
+    "power_x": [
+      1.1983671296853133,
+      2.347709512812962,
+      3.519481383459727
+    ],
+    "power_exponent": 0.7079455284436172,
+    "limiting_effective_scale": [
+      0.7231362308762286,
+      1.0072288431002576,
+      1.954204217180355
+    ]
+  },
+  {
+    "cell_id": "three_level_tau256_C2",
+    "model": "three_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      1.790309500447861,
+      2.115342092064565,
+      3.1993539897877836
+    ],
+    "optimized_row_weights": [
+      24.716647532974036,
+      2.920398114859159,
+      1.1042407036188018
+    ],
+    "power_x": [
+      1.6515210324008658,
+      2.3903662742069107,
+      2.9863688924276235
+    ],
+    "power_exponent": 0.8394196561799127,
+    "limiting_effective_scale": [
+      0.8644421540136127,
+      1.0214459992098013,
+      1.544792149863763
+    ]
+  },
+  {
+    "cell_id": "three_level_tau256_C3.29986149584",
+    "model": "three_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 3.2998614958448744,
+    "scales": [
+      0.07243334671740742,
+      0.7243334671740742,
+      2.897333868696297
+    ],
+    "probabilities": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "optimized_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      29.186615561871943,
+      2.9186615561871943,
+      0.7296653890467986
+    ],
+    "power_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1",
+    "model": "five_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.028557946733950304,
+      0.11423178693580122,
+      0.45692714774320486,
+      1.142317869358012,
+      2.284635738716024
+    ],
+    "optimized_row_weights": [
+      0.5047571642743828,
+      0.5047571642743828,
+      0.5047571642743828,
+      0.5047571642743828,
+      0.5047571642743828
+    ],
+    "power_x": [
+      0.028557946733950304,
+      0.11423178693580122,
+      0.45692714774320486,
+      1.142317869358012,
+      2.284635738716024
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ]
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.01",
+    "model": "five_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.01,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.11832168663798698,
+      0.1867004516139019,
+      0.5393245434065617,
+      1.3499838599483645,
+      2.7065474626592647
+    ],
+    "optimized_row_weights": [
+      2.091316983533399,
+      0.8249751934489314,
+      0.595779717834725,
+      0.5965187477516042,
+      0.5979724465807834
+    ],
+    "power_x": [
+      0.051927514493686815,
+      0.17021825522953768,
+      0.5579749906364307,
+      1.222963456559299,
+      2.214204757353329
+    ],
+    "power_exponent": 0.14359265454677367,
+    "limiting_effective_scale": [
+      0.17116283144794092,
+      0.32912809717770547,
+      0.9609891600967636,
+      2.2247112859348794,
+      4.330914828998407
+    ]
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.05",
+    "model": "five_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.05,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.2000400485628918,
+      0.24249847236563185,
+      0.4946981053826975,
+      1.2289960025869058,
+      2.4823060860337733
+    ],
+    "optimized_row_weights": [
+      3.535676027222146,
+      1.071530477947763,
+      0.5464818934006829,
+      0.5430577195811137,
+      0.5484295634592584
+    ],
+    "power_x": [
+      0.09060963775331063,
+      0.2407652672078753,
+      0.639754394024841,
+      1.2205041751155186,
+      1.9895231191886176
+    ],
+    "power_exponent": 0.2950545663964413,
+    "limiting_effective_scale": [
+      0.3071224577695781,
+      0.4488051153575294,
+      1.0155357457093346,
+      2.148997006412945,
+      4.038099107585628
+    ]
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.1",
+    "model": "five_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.1,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.2413320352148995,
+      0.27257934459263167,
+      0.4568048190759197,
+      1.0978702670738865,
+      2.2390700589428643
+    ],
+    "optimized_row_weights": [
+      4.265505320759736,
+      1.2044491354553593,
+      0.5046220305413286,
+      0.4851170568318374,
+      0.49469008753178545
+    ],
+    "power_x": [
+      0.12277089417605273,
+      0.2853903014726865,
+      0.6634115090656216,
+      1.1585721285002726,
+      1.7664240628896417
+    ],
+    "power_exponent": 0.3915161336670554,
+    "limiting_effective_scale": [
+      0.4020060639007635,
+      0.5307350070933532,
+      1.045650779863712,
+      2.0754823254044292,
+      3.7918682346389585
+    ]
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.25",
+    "model": "five_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.25,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.2936684899671042,
+      0.3129817779547744,
+      0.41709290808801863,
+      0.8588217442255485,
+      1.8019513002954808
+    ],
+    "optimized_row_weights": [
+      5.19054383053089,
+      1.3829757806274343,
+      0.4607531738161971,
+      0.3794884417557909,
+      0.39811503124294717
+    ],
+    "power_x": [
+      0.18344151716062004,
+      0.3435831064009369,
+      0.6435258104671823,
+      0.9743191917386034,
+      1.3334242263422078
+    ],
+    "power_exponent": 0.5473305447195839,
+    "limiting_effective_scale": [
+      0.566863089444931,
+      0.6695741787873115,
+      1.0804185361568333,
+      1.9021072508958765,
+      3.271588442127616
+    ]
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.5",
+    "model": "five_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 1.5,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.32674598807015287,
+      0.33961064551387726,
+      0.40339926030349793,
+      0.6592071852309723,
+      1.4133623338369705
+    ],
+    "optimized_row_weights": [
+      5.775183346086028,
+      1.5006410298327613,
+      0.44562610846578943,
+      0.2912845525855991,
+      0.31226192938779357
+    ],
+    "power_x": [
+      0.2390310522155888,
+      0.37211522027638827,
+      0.5792960198177733,
+      0.7761633108411037,
+      0.9684220407182198
+    ],
+    "power_exponent": 0.6807243240864178,
+    "limiting_effective_scale": [
+      0.7126823349199429,
+      0.7878774808444884,
+      1.08865806454267,
+      1.6902192319390332,
+      2.6928211775996385
+    ]
+  },
+  {
+    "cell_id": "five_level_tau0.25_C2",
+    "model": "five_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 2.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.35367588695498603,
+      0.3615288172314354,
+      0.3975333816702669,
+      0.5078679266617498,
+      0.9493684715370199
+    ],
+    "optimized_row_weights": [
+      6.251165023688379,
+      1.5974910791841845,
+      0.4391462040006877,
+      0.22441211974716366,
+      0.2097492083415644
+    ],
+    "power_x": [
+      0.29905291897812547,
+      0.38340658055625776,
+      0.49155382437378803,
+      0.5792909079283285,
+      0.655922412280049
+    ],
+    "power_exponent": 0.8207628503460808,
+    "limiting_effective_scale": [
+      0.856282840526458,
+      0.8986641275567129,
+      1.0681892756777327,
+      1.4072395719197721,
+      1.9723233989898377
+    ]
+  },
+  {
+    "cell_id": "five_level_tau0.25_C3.38975694444",
+    "model": "five_level",
+    "auxiliary_ratio": 0.25,
+    "variance_budget": 3.389756944444445,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "optimized_row_weights": [
+      6.799950245607225,
+      1.6999875614018063,
+      0.4249968903504516,
+      0.16999875614018065,
+      0.08499937807009032
+    ],
+    "power_x": [
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188,
+      0.3847248353309188
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "five_level_tau1_C1",
+    "model": "five_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.03783547250600409,
+      0.15134189002401635,
+      0.6053675600960654,
+      1.5134189002401635,
+      3.026837800480327
+    ],
+    "optimized_row_weights": [
+      0.6687359560205429,
+      0.6687359560205429,
+      0.6687359560205429,
+      0.6687359560205429,
+      0.6687359560205429
+    ],
+    "power_x": [
+      0.03783547250600409,
+      0.15134189002401635,
+      0.6053675600960654,
+      1.5134189002401635,
+      3.026837800480327
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ]
+  },
+  {
+    "cell_id": "five_level_tau1_C1.01",
+    "model": "five_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.1457849358798145,
+      0.26066045040421665,
+      0.741212068902848,
+      1.7676091765301625,
+      3.5228627940166883
+    ],
+    "optimized_row_weights": [
+      2.576725543826905,
+      1.1517829959051489,
+      0.8188003358373749,
+      0.7810552731633006,
+      0.7783254914128865
+    ],
+    "power_x": [
+      0.07046049974263861,
+      0.2309693318799494,
+      0.7571168592888617,
+      1.6594404172113661,
+      3.004456794376536
+    ],
+    "power_exponent": 0.14359265454677367,
+    "limiting_effective_scale": [
+      0.17116283144794092,
+      0.32912809717770547,
+      0.9609891600967636,
+      2.2247112859348794,
+      4.330914828998407
+    ]
+  },
+  {
+    "cell_id": "five_level_tau1_C1.05",
+    "model": "five_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.2932090892537385,
+      0.3946689908074794,
+      0.841943390467312,
+      1.885437460898697,
+      3.7387701151690913
+    ],
+    "optimized_row_weights": [
+      5.182423996023726,
+      1.7439279028259778,
+      0.9300759658313819,
+      0.833120177586622,
+      0.8260270857301554
+    ],
+    "power_x": [
+      0.13202813312152134,
+      0.35082127617046543,
+      0.9321919874500744,
+      1.7784078129330854,
+      2.898952360274521
+    ],
+    "power_exponent": 0.2950545663964413,
+    "limiting_effective_scale": [
+      0.3071224577695781,
+      0.4488051153575294,
+      1.0155357457093346,
+      2.148997006412945,
+      4.038099107585628
+    ]
+  },
+  {
+    "cell_id": "five_level_tau1_C1.1",
+    "model": "five_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.3947395932051097,
+      0.48340008508827625,
+      0.8833561611943901,
+      1.8690665534058275,
+      3.683094206839601
+    ],
+    "optimized_row_weights": [
+      6.976959497447507,
+      2.136004895872657,
+      0.9758237241341845,
+      0.8258863479632239,
+      0.813726300475615
+    ],
+    "power_x": [
+      0.19211745782003112,
+      0.4465916744631763,
+      1.0381363878271588,
+      1.8129861602981698,
+      2.764180408329088
+    ],
+    "power_exponent": 0.3915161336670554,
+    "limiting_effective_scale": [
+      0.4020060639007635,
+      0.5307350070933532,
+      1.045650779863712,
+      2.0754823254044292,
+      3.7918682346389585
+    ]
+  },
+  {
+    "cell_id": "five_level_tau1_C1.25",
+    "model": "five_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.556633718173585,
+      0.6230481452657629,
+      0.9255636138079352,
+      1.716658402787643,
+      3.3000963456597505
+    ],
+    "optimized_row_weights": [
+      9.838412395061567,
+      2.753069206450424,
+      1.0224493496801448,
+      0.7585416027028068,
+      0.7291084723219933
+    ],
+    "power_x": [
+      0.33090405564128617,
+      0.619778145741963,
+      1.16083482021675,
+      1.7575420058979738,
+      2.4053196420123277
+    ],
+    "power_exponent": 0.5473305447195839,
+    "limiting_effective_scale": [
+      0.566863089444931,
+      0.6695741787873115,
+      1.0804185361568333,
+      1.9021072508958765,
+      3.271588442127616
+    ]
+  },
+  {
+    "cell_id": "five_level_tau1_C1.5",
+    "model": "five_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.6833109526161084,
+      0.7311986279280888,
+      0.9456581727248501,
+      1.503908152083609,
+      2.72296954721861
+    ],
+    "optimized_row_weights": [
+      12.07741235647387,
+      3.2309548493864053,
+      1.0446473578885493,
+      0.6645334320135184,
+      0.6016006682238134
+    ],
+    "power_x": [
+      0.48778035363102,
+      0.75935947256841,
+      1.182144389963605,
+      1.5838829755726858,
+      1.9762170693184962
+    ],
+    "power_exponent": 0.6807243240864178,
+    "limiting_effective_scale": [
+      0.7126823349199429,
+      0.7878774808444884,
+      1.08865806454267,
+      1.6902192319390332,
+      2.6928211775996385
+    ]
+  },
+  {
+    "cell_id": "five_level_tau1_C2",
+    "model": "five_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.7962256150877324,
+      0.8251474529537345,
+      0.9500351142905663,
+      1.252108078378715,
+      1.929416630329607
+    ],
+    "optimized_row_weights": [
+      14.07316104825288,
+      3.6460874825956373,
+      1.049482466994711,
+      0.5532702761296028,
+      0.4262766490628114
+    ],
+    "power_x": [
+      0.6746052451190924,
+      0.8648907061005693,
+      1.1088498628069305,
+      1.3067676659823424,
+      1.4796334415570611
+    ],
+    "power_exponent": 0.8207628503460808,
+    "limiting_effective_scale": [
+      0.856282840526458,
+      0.8986641275567129,
+      1.0681892756777327,
+      1.4072395719197721,
+      1.9723233989898377
+    ]
+  },
+  {
+    "cell_id": "five_level_tau1_C3.38975694444",
+    "model": "five_level",
+    "auxiliary_ratio": 1.0,
+    "variance_budget": 3.389756944444445,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "optimized_row_weights": [
+      16.108372343231988,
+      4.027093085807997,
+      1.0067732714519992,
+      0.4027093085807998,
+      0.2013546542903999
+    ],
+    "power_x": [
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976,
+      0.9113729767658976
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "five_level_tau4_C1",
+    "model": "five_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.050782770726303834,
+      0.20313108290521534,
+      0.8125243316208614,
+      2.031310829052153,
+      4.062621658104306
+    ],
+    "optimized_row_weights": [
+      0.8975773918414182,
+      0.8975773918414182,
+      0.8975773918414182,
+      0.8975773918414182,
+      0.8975773918414182
+    ],
+    "power_x": [
+      0.050782770726303834,
+      0.20313108290521534,
+      0.8125243316208614,
+      2.031310829052153,
+      4.062621658104306
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ]
+  },
+  {
+    "cell_id": "five_level_tau4_C1.01",
+    "model": "five_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.18141685768055374,
+      0.3420609821807884,
+      0.9907538168143025,
+      2.307955929230762,
+      4.526676339501379
+    ],
+    "optimized_row_weights": [
+      3.2065140917691903,
+      1.511468357502972,
+      1.094463503731806,
+      1.0198188449625487,
+      1.0001035499859459
+    ],
+    "power_x": [
+      0.09599034146966602,
+      0.3146560855679038,
+      1.0314418166353094,
+      2.260702845970462,
+      4.093056885438744
+    ],
+    "power_exponent": 0.14359265454677367,
+    "limiting_effective_scale": [
+      0.17116283144794092,
+      0.32912809717770547,
+      0.9609891600967636,
+      2.2247112859348794,
+      4.330914828998407
+    ]
+  },
+  {
+    "cell_id": "five_level_tau4_C1.05",
+    "model": "five_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.3716144970861787,
+      0.5310528203093723,
+      1.183024890835346,
+      2.5322273643991875,
+      4.837184984341394
+    ],
+    "optimized_row_weights": [
+      6.568227103297911,
+      2.3465685239601384,
+      1.3068610436332753,
+      1.118917893204682,
+      1.0687059360889537
+    ],
+    "power_x": [
+      0.18401308137977468,
+      0.4889541532962062,
+      1.299234610023151,
+      2.478640679607847,
+      4.040390059111808
+    ],
+    "power_exponent": 0.2950545663964413,
+    "limiting_effective_scale": [
+      0.3071224577695781,
+      0.4488051153575294,
+      1.0155357457093346,
+      2.148997006412945,
+      4.038099107585628
+    ]
+  },
+  {
+    "cell_id": "five_level_tau4_C1.1",
+    "model": "five_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.5205177554682816,
+      0.6730192872523205,
+      1.3012384753426975,
+      2.616321334156573,
+      4.886372483416414
+    ],
+    "optimized_row_weights": [
+      9.200068501153526,
+      2.9738772022043816,
+      1.4374489371067776,
+      1.1560765815574863,
+      1.0795732013295865
+    ],
+    "power_x": [
+      0.27357917990308794,
+      0.6359556566984913,
+      1.4783273984156144,
+      2.5817292844602,
+      3.936249301837301
+    ],
+    "power_exponent": 0.3915161336670554,
+    "limiting_effective_scale": [
+      0.4020060639007635,
+      0.5307350070933532,
+      1.045650779863712,
+      2.0754823254044292,
+      3.7918682346389585
+    ]
+  },
+  {
+    "cell_id": "five_level_tau4_C1.25",
+    "model": "five_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.7984700268760314,
+      0.9289599753731054,
+      1.4699410723758275,
+      2.616931035337555,
+      4.630812784797072
+    ],
+    "optimized_row_weights": [
+      14.112830669471798,
+      4.10480493627621,
+      1.62381090947972,
+      1.1563459908413838,
+      1.023110988736164
+    ],
+    "power_x": [
+      0.49520737976849893,
+      0.9275157144745578,
+      1.7372224965617802,
+      2.6302118597098754,
+      3.5996296120282842
+    ],
+    "power_exponent": 0.5473305447195839,
+    "limiting_effective_scale": [
+      0.566863089444931,
+      0.6695741787873115,
+      1.0804185361568333,
+      1.9021072508958765,
+      3.271588442127616
+    ]
+  },
+  {
+    "cell_id": "five_level_tau4_C1.5",
+    "model": "five_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.0543448621677995,
+      1.1552650748003859,
+      1.5724601736950328,
+      2.457284691272021,
+      4.026126242195407
+    ],
+    "optimized_row_weights": [
+      18.635377667484992,
+      5.104781591740276,
+      1.7370614596416516,
+      1.085802897645635,
+      0.8895142584801485
+    ],
+    "power_x": [
+      0.769055827455103,
+      1.1972393376747734,
+      1.8638205192712225,
+      2.4972191341935974,
+      3.115790216153927
+    ],
+    "power_exponent": 0.6807243240864178,
+    "limiting_effective_scale": [
+      0.7126823349199429,
+      0.7878774808444884,
+      1.08865806454267,
+      1.6902192319390332,
+      2.6928211775996385
+    ]
+  },
+  {
+    "cell_id": "five_level_tau4_C2",
+    "model": "five_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.3061869912538424,
+      1.3665008504280918,
+      1.6130776966711604,
+      2.128465756460944,
+      3.037623052561642
+    ],
+    "optimized_row_weights": [
+      23.08664722501141,
+      6.038171272136881,
+      1.7819307256035026,
+      0.9405073388987161,
+      0.6711188011998838
+    ],
+    "power_x": [
+      1.1157520289658907,
+      1.4304714752033891,
+      1.8339636301330138,
+      2.161306460713072,
+      2.447214910479431
+    ],
+    "power_exponent": 0.8207628503460808,
+    "limiting_effective_scale": [
+      0.856282840526458,
+      0.8986641275567129,
+      1.0681892756777327,
+      1.4072395719197721,
+      1.9723233989898377
+    ]
+  },
+  {
+    "cell_id": "five_level_tau4_C3.38975694444",
+    "model": "five_level",
+    "auxiliary_ratio": 4.0,
+    "variance_budget": 3.389756944444445,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "optimized_row_weights": [
+      27.29799832795352,
+      6.82449958198838,
+      1.706124895497095,
+      0.682449958198838,
+      0.341224979099419
+    ],
+    "power_x": [
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515,
+      1.5444551110311515
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "five_level_tau16_C1",
+    "model": "five_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.06022411340159857,
+      0.24089645360639428,
+      0.9635858144255771,
+      2.4089645360639427,
+      4.817929072127885
+    ],
+    "optimized_row_weights": [
+      1.0644516212851987,
+      1.0644516212851987,
+      1.0644516212851987,
+      1.0644516212851987,
+      1.0644516212851987
+    ],
+    "power_x": [
+      0.06022411340159857,
+      0.24089645360639428,
+      0.9635858144255771,
+      2.4089645360639427,
+      4.817929072127885
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ]
+  },
+  {
+    "cell_id": "five_level_tau16_C1.01",
+    "model": "five_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.2105799512582783,
+      0.403042056374368,
+      1.174741905195882,
+      2.7234393982030296,
+      5.3099538840301115
+    ],
+    "optimized_row_weights": [
+      3.7219671302140354,
+      1.7809260532112239,
+      1.2977110153109246,
+      1.2034089499822556,
+      1.1731573745043005
+    ],
+    "power_x": [
+      0.1142448177904208,
+      0.3744942106879798,
+      1.2275910325848698,
+      2.690620543294956,
+      4.871433218419653
+    ],
+    "power_exponent": 0.14359265454677367,
+    "limiting_effective_scale": [
+      0.17116283144794092,
+      0.32912809717770547,
+      0.9609891600967636,
+      2.2247112859348794,
+      4.330914828998407
+    ]
+  },
+  {
+    "cell_id": "five_level_tau16_C1.05",
+    "model": "five_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.43167236424468713,
+      0.627588876614972,
+      1.4155804785088653,
+      3.0030422841721562,
+      5.661023970905187
+    ],
+    "optimized_row_weights": [
+      7.629740348690221,
+      2.773133382465167,
+      1.5637599815712298,
+      1.3269573629332205,
+      1.2507212235283092
+    ],
+    "power_x": [
+      0.2201741465239089,
+      0.5850402731375887,
+      1.554551824529211,
+      2.965727175916321,
+      4.834381481024453
+    ],
+    "power_exponent": 0.2950545663964413,
+    "limiting_effective_scale": [
+      0.3071224577695781,
+      0.4488051153575294,
+      1.0155357457093346,
+      2.148997006412945,
+      4.038099107585628
+    ]
+  },
+  {
+    "cell_id": "five_level_tau16_C1.1",
+    "model": "five_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.6094040053035119,
+      0.8007962925382572,
+      1.5719402741467574,
+      3.1286873577007563,
+      5.739794028968498
+    ],
+    "optimized_row_weights": [
+      10.771118823075918,
+      3.5384867612218684,
+      1.7364871382799398,
+      1.3824762799707215,
+      1.268124326554313
+    ],
+    "power_x": [
+      0.32891763927941153,
+      0.7645941235797038,
+      1.7773573198851802,
+      3.1039507531383914,
+      4.732457449555149
+    ],
+    "power_exponent": 0.3915161336670554,
+    "limiting_effective_scale": [
+      0.4020060639007635,
+      0.5307350070933532,
+      1.045650779863712,
+      2.0754823254044292,
+      3.7918682346389585
+    ]
+  },
+  {
+    "cell_id": "five_level_tau16_C1.25",
+    "model": "five_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.9545933686785973,
+      1.123922714507768,
+      1.807018355682657,
+      3.1886677462223707,
+      5.512403275152902
+    ],
+    "optimized_row_weights": [
+      16.872285892897192,
+      4.966288784025915,
+      1.9961726185696964,
+      1.4089798755410692,
+      1.217885634174109
+    ],
+    "power_x": [
+      0.6019828395643165,
+      1.1275044887274066,
+      2.111798357940778,
+      3.1973320040264306,
+      4.375773350230729
+    ],
+    "power_exponent": 0.5473305447195839,
+    "limiting_effective_scale": [
+      0.566863089444931,
+      0.6695741787873115,
+      1.0804185361568333,
+      1.9021072508958765,
+      3.271588442127616
+    ]
+  },
+  {
+    "cell_id": "five_level_tau16_C1.5",
+    "model": "five_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.2867802288311476,
+      1.4200008347202664,
+      1.956824092687438,
+      3.0422277890445506,
+      4.870331447814647
+    ],
+    "optimized_row_weights": [
+      22.743635787267507,
+      6.2745721994481105,
+      2.1616596538137998,
+      1.3442723020150766,
+      1.076029166932697
+    ],
+    "power_x": [
+      0.9461669484117881,
+      1.4729597646959147,
+      2.2930524809124835,
+      3.0723207904609784,
+      3.833346833174829
+    ],
+    "power_exponent": 0.6807243240864178,
+    "limiting_effective_scale": [
+      0.7126823349199429,
+      0.7878774808444884,
+      1.08865806454267,
+      1.6902192319390332,
+      2.6928211775996385
+    ]
+  },
+  {
+    "cell_id": "five_level_tau16_C2",
+    "model": "five_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.6219354288598895,
+      1.7011884283872918,
+      2.019637488249941,
+      2.6616929358178902,
+      3.7418820130030515
+    ],
+    "optimized_row_weights": [
+      28.667450616616076,
+      7.517058693056682,
+      2.231048202030227,
+      1.1761249775490714,
+      0.8267146144681344
+    ],
+    "power_x": [
+      1.3885646253636432,
+      1.7802361425236493,
+      2.2823861887720986,
+      2.6897676347472856,
+      3.045583576938381
+    ],
+    "power_exponent": 0.8207628503460808,
+    "limiting_effective_scale": [
+      0.856282840526458,
+      0.8986641275567129,
+      1.0681892756777327,
+      1.4072395719197721,
+      1.9723233989898377
+    ]
+  },
+  {
+    "cell_id": "five_level_tau16_C3.38975694444",
+    "model": "five_level",
+    "auxiliary_ratio": 16.0,
+    "variance_budget": 3.389756944444445,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "optimized_row_weights": [
+      34.17669399681028,
+      8.54417349920257,
+      2.1360433748006424,
+      0.8544173499202571,
+      0.42720867496012854
+    ],
+    "power_x": [
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753,
+      1.933635173076753
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "cell_id": "five_level_tau256_C1",
+    "model": "five_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.065011859639848,
+      0.260047438559392,
+      1.040189754237568,
+      2.6004743855939196,
+      5.200948771187839
+    ],
+    "optimized_row_weights": [
+      1.1490742742020192,
+      1.1490742742020192,
+      1.1490742742020192,
+      1.1490742742020192,
+      1.1490742742020192
+    ],
+    "power_x": [
+      0.065011859639848,
+      0.260047438559392,
+      1.040189754237568,
+      2.6004743855939196,
+      5.200948771187839
+    ],
+    "power_exponent": 0.0,
+    "limiting_effective_scale": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ]
+  },
+  {
+    "cell_id": "five_level_tau256_C1.01",
+    "model": "five_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.01,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.22603291509654877,
+      0.4345170340073112,
+      1.2685816164033377,
+      2.9370463835616136,
+      5.718100644093176
+    ],
+    "optimized_row_weights": [
+      3.99509580712158,
+      1.9200048585225047,
+      1.4013736380273634,
+      1.297795686888852,
+      1.2633314874825867
+    ],
+    "power_x": [
+      0.12342913853930047,
+      0.404600389822219,
+      1.3262790081952014,
+      2.9069237644045423,
+      5.263055403565846
+    ],
+    "power_exponent": 0.14359265454677367,
+    "limiting_effective_scale": [
+      0.17116283144794092,
+      0.32912809717770547,
+      0.9609891600967636,
+      2.2247112859348794,
+      4.330914828998407
+    ]
+  },
+  {
+    "cell_id": "five_level_tau256_C1.05",
+    "model": "five_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.05,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.46358611972728436,
+      0.6772474233564189,
+      1.5321885547290586,
+      3.2427689100442527,
+      6.094347258055233
+    ],
+    "optimized_row_weights": [
+      8.193810898607992,
+      2.992560110415125,
+      1.6925743060759204,
+      1.4328856120853326,
+      1.3464577253825762
+    ],
+    "power_x": [
+      0.23816976547124527,
+      0.6328577030695193,
+      1.6816108944054116,
+      3.2081266447102403,
+      5.229512736678616
+    ],
+    "power_exponent": 0.2950545663964413,
+    "limiting_effective_scale": [
+      0.3071224577695781,
+      0.4488051153575294,
+      1.0155357457093346,
+      2.148997006412945,
+      4.038099107585628
+    ]
+  },
+  {
+    "cell_id": "five_level_tau256_C1.1",
+    "model": "five_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.1,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      0.655849517517251,
+      0.8656332774080356,
+      1.7051449600720365,
+      3.3850228649486476,
+      6.185630084909785
+    ],
+    "optimized_row_weights": [
+      11.592035860868686,
+      3.8249826088388112,
+      1.8836353650110218,
+      1.4957435125090668,
+      1.3666253433749078
+    ],
+    "power_x": [
+      0.35620802575632,
+      0.8280327070992023,
+      1.9248251427526082,
+      3.3614863959333934,
+      5.125110738283677
+    ],
+    "power_exponent": 0.3915161336670554,
+    "limiting_effective_scale": [
+      0.4020060639007635,
+      0.5307350070933532,
+      1.045650779863712,
+      2.0754823254044292,
+      3.7918682346389585
+    ]
+  },
+  {
+    "cell_id": "five_level_tau256_C1.25",
+    "model": "five_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.25,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.03276177288141,
+      1.2196760027423663,
+      1.9677092606871505,
+      3.4646466546566317,
+      5.960558392528236
+    ],
+    "optimized_row_weights": [
+      18.253899998730624,
+      5.389394817256458,
+      2.1736842545829202,
+      1.5309269578353395,
+      1.316899014017566
+    ],
+    "power_x": [
+      0.6536638355345581,
+      1.2243021897723794,
+      2.2930989453556787,
+      3.4718270420165624,
+      4.751439083565646
+    ],
+    "power_exponent": 0.5473305447195839,
+    "limiting_effective_scale": [
+      0.566863089444931,
+      0.6695741787873115,
+      1.0804185361568333,
+      1.9021072508958765,
+      3.271588442127616
+    ]
+  },
+  {
+    "cell_id": "five_level_tau256_C1.5",
+    "model": "five_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 1.5,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.3989652995776702,
+      1.546426490358375,
+      2.136515039375545,
+      3.317332372283924,
+      5.286295046439698
+    ],
+    "optimized_row_weights": [
+      24.726489061400738,
+      6.83321053596722,
+      2.3601602094144973,
+      1.4658330453420043,
+      1.167930297132712
+    ],
+    "power_x": [
+      1.0303439513896193,
+      1.6040035923281937,
+      2.497056949508745,
+      3.3456539022987966,
+      4.174385640684285
+    ],
+    "power_exponent": 0.6807243240864178,
+    "limiting_effective_scale": [
+      0.7126823349199429,
+      0.7878774808444884,
+      1.08865806454267,
+      1.6902192319390332,
+      2.6928211775996385
+    ]
+  },
+  {
+    "cell_id": "five_level_tau256_C2",
+    "model": "five_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 2.0,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      1.7701822363087012,
+      1.8577408440051397,
+      2.2080589721208446,
+      2.908971602037499,
+      4.07766011725902
+    ],
+    "optimized_row_weights": [
+      31.287689348682715,
+      8.208818451765348,
+      2.4391931860977953,
+      1.285390254487012,
+      0.9008999214987086
+    ],
+    "power_x": [
+      1.5161203316146028,
+      1.943771403544446,
+      2.4920497340824355,
+      2.9368538733235505,
+      3.3253556213982938
+    ],
+    "power_exponent": 0.8207628503460808,
+    "limiting_effective_scale": [
+      0.856282840526458,
+      0.8986641275567129,
+      1.0681892756777327,
+      1.4072395719197721,
+      1.9723233989898377
+    ]
+  },
+  {
+    "cell_id": "five_level_tau256_C3.38975694444",
+    "model": "five_level",
+    "auxiliary_ratio": 256.0,
+    "variance_budget": 3.389756944444445,
+    "scales": [
+      0.05657759563453445,
+      0.2263103825381378,
+      0.9052415301525512,
+      2.2631038253813776,
+      4.526207650762755
+    ],
+    "probabilities": [
+      0.4,
+      0.3,
+      0.2,
+      0.08,
+      0.02
+    ],
+    "optimized_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "optimized_row_weights": [
+      37.36610262049262,
+      9.341525655123155,
+      2.3353814137807887,
+      0.9341525655123156,
+      0.4670762827561578
+    ],
+    "power_x": [
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495,
+      2.1140842445007495
+    ],
+    "power_exponent": 1.0,
+    "limiting_effective_scale": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+]

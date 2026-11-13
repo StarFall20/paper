@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-13",
+  "population_conditions": 195,
+  "independent_intermediate_KKT_roots": 105,
+  "independent_Gaussian_profile_integrals": 390,
+  "unique_limiting_ball_comparisons": 39,
+  "inverse_budget_conditions": 20,
+  "maximum_population_integral_discrepancy": 1.6255885526561542e-12,
+  "maximum_reported_quadrature_error": 1.4778267677052247e-06,
+  "maximum_independent_root_capacity_difference": 3.2835734131708705e-11,
+  "maximum_recomputed_upper_gap": 3.2759491589476895e-11,
+  "unresolved": 0,
+  "source_sha256": "99ffc31c8119cd35c92a7e856f283701fb0583015afad49691a29d6f4d119f33",
+  "plan_sha256": "b74d0cb28febd91fad6b0a90c9a17a0fa96a0d00f914793c632e3c91b6261256",
+  "priority_or_submission_certified": false
+}

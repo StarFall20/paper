@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "cohorts": 1000,
+  "records": 5000,
+  "previous_cohort_hashes_matched": 1000,
+  "unknowns": 19,
+  "source_sha256": "def64371aff921f6491ed26ab33b5b568dd9dcf227dff33e2d67e64b1e2964e7",
+  "plan_sha256": "d20b02bdd0a412a22f6197f767730c651c6f3f1577b5028b7856b947b137083d",
+  "population_weights_sha256": "a439ef48efc27cc3b83683eb32610efd35c098807602b0b64c72aa7b9962c8d4",
+  "reference_hashes_sha256": "782c71f77080264627d4ed730f137064f417955214f161dd401cff082579a1a6",
+  "elapsed_seconds": 31.793350249994546,
+  "new_human_or_LLM_responses": 0
+}

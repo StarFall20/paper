@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-13",
+  "population_conditions": 195,
+  "raw_phase_records": 5000,
+  "verified_phase_records": 5000,
+  "previous_cohorts": 1000,
+  "raw_undetermined_states_preserved": 19,
+  "undetermined_human_states_resolved_as_interior": 19,
+  "paired_transition_rows_reconciled": 8,
+  "selected_cell": "five_level_tau0.25_C1.05",
+  "population_capacity_gain": 0.0684903504273791,
+  "table_rows": [
+    {
+      "method": "human_only",
+      "finite_m80": "449/500",
+      "finite_m160": "498/500",
+      "regular_covariance_factor": 4.0
+    },
+    {
+      "method": "unweighted_compensation",
+      "finite_m80": "6/500",
+      "finite_m160": "0/500",
+      "regular_covariance_factor": 3.8
+    },
+    {
+      "method": "power_at_budget",
+      "finite_m80": "121/500",
+      "finite_m160": "86/500",
+      "regular_covariance_factor": 3.9899999999999998
+    },
+    {
+      "method": "optimized_at_budget",
+      "finite_m80": "293/500",
+      "finite_m160": "336/500",
+      "regular_covariance_factor": 3.9899999999696547
+    },
+    {
+      "method": "inverse_scale",
+      "finite_m80": "466/500",
+      "finite_m160": "500/500",
+      "regular_covariance_factor": 12.881076388888891
+    }
+  ],
+  "figure_scope": "PanelA uses all seven standard budgets at auxiliary ratio0.25; the complete195conditions and model-specific inverse endpoints remain archived. PanelB uses all five methods and both label budgets, with marginal95%Wilson Monte Carlo intervals.",
+  "ordinary_baseline_more_finite_in_this_illustration": true,
+  "estimator_superiority_claimed": false,
+  "high_dimensional_risk_gain_claimed": false,
+  "source_sha256": "82273aaf3d28e8dcf21597f0566cc3305a810b74b745eed5b87ed3929846ca47"
+}

@@ -1,0 +1,5642 @@
+[
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.24883100171706277,
+      0.3147065081401962,
+      0.42001202596560794,
+      0.6083631397083193
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.998676807724375e-10,
+    "x": [
+      0.24883100172872247,
+      0.31470650818627255,
+      0.4200120260518304,
+      0.6083631398447709
+    ],
+    "capacity": 0.505557510052097,
+    "cone_residual": -2.1944668304740844e-12,
+    "stationarity_norm": 1.3036876800574052e-09,
+    "multiplier": 3.655901884946916,
+    "computed_upper_gap": 8.022759954254534e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.24883100169658032,
+      0.31470650850223403,
+      0.4200120260053438,
+      0.6083631399388806
+    ],
+    "raw_cone_residual": 1.609823385706477e-15,
+    "feasibility_mixing_fraction": 5.005992250286771e-10,
+    "x": [
+      0.24883100160758437,
+      0.314706508421053,
+      0.42001202592176284,
+      0.6083631398293986
+    ],
+    "capacity": 0.505557510052091,
+    "cone_residual": -2.196132165011022e-12,
+    "stationarity_norm": 7.175173759850341e-10,
+    "multiplier": 3.655901886404688,
+    "computed_upper_gap": 8.028845097740966e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.3029817324727665,
+      0.3396768843824724,
+      0.3993023306206753,
+      0.5195882167244706
+    ],
+    "raw_cone_residual": 9.2148511043888e-15,
+    "feasibility_mixing_fraction": 1.018019245206147e-10,
+    "x": [
+      0.30298172583764643,
+      0.33967687695286436,
+      0.39930232189678533,
+      0.5195882053816735
+    ],
+    "capacity": 0.5193144458248824,
+    "cone_residual": -2.182531932959364e-12,
+    "stationarity_norm": 1.1141277531943926e-08,
+    "multiplier": 0.9175761232121549,
+    "computed_upper_gap": 2.002970198005034e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 8,
+    "raw_x": [
+      0.3029817252714936,
+      0.33967688567044335,
+      0.3993023150459633,
+      0.5195882109659458
+    ],
+    "raw_cone_residual": 4.2021941482062175e-14,
+    "feasibility_mixing_fraction": 1.0481290560754618e-10,
+    "x": [
+      0.3029817239642027,
+      0.33967688421420555,
+      0.3993023133442762,
+      0.5195882087609892
+    ],
+    "capacity": 0.5193144458248531,
+    "cone_residual": -2.2145063560685685e-12,
+    "stationarity_norm": 2.8381717829550973e-08,
+    "multiplier": 0.9175761170705091,
+    "computed_upper_gap": 2.034126201847909e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.33617591153049936,
+      0.35842955440545715,
+      0.39288561698224217,
+      0.4589946944005565
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 5.108444120866323e-11,
+    "x": [
+      0.3361759114903293,
+      0.3584295543677259,
+      0.3928856169470551,
+      0.4589946943670521
+    ],
+    "capacity": 0.5247950774028436,
+    "cone_residual": -2.1490031976156843e-12,
+    "stationarity_norm": 4.567731566051286e-11,
+    "multiplier": 0.3747991062278973,
+    "computed_upper_gap": 8.054444833110309e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 7,
+    "raw_x": [
+      0.3361759114891443,
+      0.3584295547498609,
+      0.39288561661006505,
+      0.45899469458160985
+    ],
+    "raw_cone_residual": 3.3306690738754696e-16,
+    "feasibility_mixing_fraction": 5.109475200851475e-11,
+    "x": [
+      0.33617591142578135,
+      0.35842955468740245,
+      0.392885616547775,
+      0.45899469451644354
+    ],
+    "capacity": 0.5247950774028436,
+    "cone_residual": -2.1491142199181468e-12,
+    "stationarity_norm": 1.0212754006086302e-09,
+    "multiplier": 0.3747991060466284,
+    "computed_upper_gap": 8.054888697599356e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.5267496895102716,
+      0.6913726049469807,
+      0.9253278491077963,
+      1.3021606580777945
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 2.4553319031069795e-10,
+    "x": [
+      0.5267496893184593,
+      0.6913726047220919,
+      0.9253278488309752,
+      1.3021606577090477
+    ],
+    "capacity": 0.5588437937414793,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 4.2749722845640096e-09,
+    "multiplier": 3.110741645402955,
+    "computed_upper_gap": 6.8271588167789285e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.5267496890562803,
+      0.6913726090667168,
+      0.9253278517947651,
+      1.3021606604964493
+    ],
+    "raw_cone_residual": 3.3306690738754696e-16,
+    "feasibility_mixing_fraction": 2.4555796681853674e-10,
+    "x": [
+      0.5267496875013246,
+      0.6913726070526696,
+      0.9253278491233503,
+      1.3021606567579307
+    ],
+    "capacity": 0.5588437937414793,
+    "cone_residual": -2.194799897381472e-12,
+    "stationarity_norm": 5.310526133306109e-09,
+    "multiplier": 3.110741648812114,
+    "computed_upper_gap": 6.827530656093932e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      0.6813773484431443,
+      0.7830632890752267,
+      0.9301336651426765,
+      1.176232368244418
+    ],
+    "raw_cone_residual": 9.992007221626409e-16,
+    "feasibility_mixing_fraction": 4.962434731046882e-11,
+    "x": [
+      0.6813773470144688,
+      0.7830632874418567,
+      0.9301336632119723,
+      1.1762323658135532
+    ],
+    "capacity": 0.585782987965044,
+    "cone_residual": -2.1744828160308316e-12,
+    "stationarity_norm": 3.75702596602273e-09,
+    "multiplier": 0.8259621985692368,
+    "computed_upper_gap": 1.7960782481308093e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.6813773498111562,
+      0.7830632852978122,
+      0.930133666655894,
+      1.176232367421652
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.9579311234480314e-11,
+    "x": [
+      0.6813773487144453,
+      0.7830632840459403,
+      0.9301336651783302,
+      1.1762323655638114
+    ],
+    "capacity": 0.5857829879650446,
+    "cone_residual": -2.173483615308669e-12,
+    "stationarity_norm": 7.13956696109078e-10,
+    "multiplier": 0.8259621982703946,
+    "computed_upper_gap": 1.7952166640961369e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.7814034628392591,
+      0.8419823244435921,
+      0.9280381248070948,
+      1.0694331516240425
+    ],
+    "raw_cone_residual": 2.475797344914099e-14,
+    "feasibility_mixing_fraction": 2.5649488163624508e-11,
+    "x": [
+      0.7814034885412803,
+      0.8419823521432825,
+      0.9280381553440794,
+      1.0694331868217601
+    ],
+    "capacity": 0.597153471297377,
+    "cone_residual": -2.172373392284044e-12,
+    "stationarity_norm": 4.77006909143957e-08,
+    "multiplier": 0.3328732226338485,
+    "computed_upper_gap": 7.291925476235105e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.781403499191181,
+      0.8419823131149803,
+      0.9280382118347245,
+      1.06943317123303
+    ],
+    "raw_cone_residual": 9.103828801926284e-15,
+    "feasibility_mixing_fraction": 2.5292503988087654e-11,
+    "x": [
+      0.7814034964519293,
+      0.8419823101683968,
+      0.9280382085931096,
+      1.0694331675055593
+    ],
+    "capacity": 0.5971534712973828,
+    "cone_residual": -2.1577184483589917e-12,
+    "stationarity_norm": 2.8218678330656074e-09,
+    "multiplier": 0.3328732262120451,
+    "computed_upper_gap": 7.182679356640184e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.8473050271730106,
+      1.1330174167602884,
+      1.5202601199316543,
+      2.1110278996268925
+    ],
+    "raw_cone_residual": 4.218847493575595e-15,
+    "feasibility_mixing_fraction": 1.5457250260529986e-10,
+    "x": [
+      0.8473050433005186,
+      1.1330174383506664,
+      1.5202601489249394,
+      2.111027939911948
+    ],
+    "capacity": 0.6548471822618255,
+    "cone_residual": -2.198463633362735e-12,
+    "stationarity_norm": 1.4028407396530721e-08,
+    "multiplier": 2.7638898430554364,
+    "computed_upper_gap": 6.076836096482235e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.8473050396545214,
+      1.1330174469849363,
+      1.520260144046393,
+      2.1110279413895037
+    ],
+    "raw_cone_residual": -4.440892098500626e-16,
+    "feasibility_mixing_fraction": 1.5391976805248571e-10,
+    "x": [
+      0.847305039384037,
+      1.1330174466477925,
+      1.5202601436176677,
+      2.1110279408191523
+    ],
+    "capacity": 0.6548471822618369,
+    "cone_residual": -2.1938006966593093e-12,
+    "stationarity_norm": 1.0254845652451493e-09,
+    "multiplier": 2.7638898433939945,
+    "computed_upper_gap": 6.063426268243584e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 16,
+    "raw_x": [
+      1.125442096074428,
+      1.3108510242290194,
+      1.5633386798617095,
+      1.9515717156258507
+    ],
+    "raw_cone_residual": 6.661338147750939e-16,
+    "feasibility_mixing_fraction": 3.111792475672632e-11,
+    "x": [
+      1.125442096352166,
+      1.3108510245607325,
+      1.563338680266603,
+      1.9515717161427004
+    ],
+    "capacity": 0.6953058711834631,
+    "cone_residual": -2.1738166822160565e-12,
+    "stationarity_norm": 4.1209926170988815e-09,
+    "multiplier": 0.7712545304106,
+    "computed_upper_gap": 1.6766112513216736e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 14,
+    "raw_x": [
+      1.1254421132802384,
+      1.3108510109663463,
+      1.5633387003250763,
+      1.951571725571196
+    ],
+    "raw_cone_residual": 6.661338147750939e-15,
+    "feasibility_mixing_fraction": 3.1287420584386895e-11,
+    "x": [
+      1.1254421070629226,
+      1.3108510037330348,
+      1.5633386917078693,
+      1.9515717148254965
+    ],
+    "capacity": 0.6953058711834585,
+    "cone_residual": -2.1802559757588824e-12,
+    "stationarity_norm": 9.880484319110382e-09,
+    "multiplier": 0.7712545301396699,
+    "computed_upper_gap": 1.681792628755805e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 16,
+    "raw_x": [
+      1.3117479715688038,
+      1.4215101796458935,
+      1.5702294696863381,
+      1.7979497624099043
+    ],
+    "raw_cone_residual": 1.5543122344752192e-15,
+    "feasibility_mixing_fraction": 1.575697173269265e-11,
+    "x": [
+      1.3117479724386047,
+      1.4215101805934136,
+      1.570229470739038,
+      1.7979497636234172
+    ],
+    "capacity": 0.7132310627312565,
+    "cone_residual": -2.149835864884153e-12,
+    "stationarity_norm": 6.090375959027715e-09,
+    "multiplier": 0.3149948034692497,
+    "computed_upper_gap": 6.772860395618544e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      1.3117480026087267,
+      1.4215101864156072,
+      1.5702295927769678,
+      1.7979497826622013
+    ],
+    "raw_cone_residual": 4.3520742565306136e-14,
+    "feasibility_mixing_fraction": 1.6357272461480814e-11,
+    "x": [
+      1.3117479645383137,
+      1.4215101451647296,
+      1.5702295472166738,
+      1.7979497305030512
+    ],
+    "capacity": 0.7132310627312438,
+    "cone_residual": -2.190247982980509e-12,
+    "stationarity_norm": 2.989115476909983e-08,
+    "multiplier": 0.3149948045271054,
+    "computed_upper_gap": 6.922993516206463e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      1.0471983152195619,
+      1.4074973438760292,
+      1.8896578338571473,
+      2.6152642863391344
+    ],
+    "raw_cone_residual": 9.103828801926284e-15,
+    "feasibility_mixing_fraction": 1.257950056689674e-10,
+    "x": [
+      1.0471983220598526,
+      1.4074973530939057,
+      1.8896578462564875,
+      2.615264303525911
+    ],
+    "capacity": 0.7249369812887356,
+    "cone_residual": -2.2035706592760107e-12,
+    "stationarity_norm": 1.765662451928756e-08,
+    "multiplier": 2.61688065271027,
+    "computed_upper_gap": 5.76731277551118e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      1.0471983020787705,
+      1.4074973465974285,
+      1.8896578362354168,
+      2.6152642711745115
+    ],
+    "raw_cone_residual": 9.547918011776346e-15,
+    "feasibility_mixing_fraction": 1.2584537444708617e-10,
+    "x": [
+      1.0471983124155564,
+      1.4074973605148138,
+      1.8896578549441665,
+      2.6152642970934465
+    ],
+    "capacity": 0.7249369812887339,
+    "cone_residual": -2.2037927038809357e-12,
+    "stationarity_norm": 2.1131055211387686e-08,
+    "multiplier": 2.616880653173611,
+    "computed_upper_gap": 5.768253214376106e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      1.3999695498686395,
+      1.6365367654458747,
+      1.9533636564430736,
+      2.4308102011377626
+    ],
+    "raw_cone_residual": 8.215650382226158e-15,
+    "feasibility_mixing_fraction": 2.5385949580282835e-11,
+    "x": [
+      1.3999696266933717,
+      1.6365368552606656,
+      1.9533637636549663,
+      2.4308103345663454
+    ],
+    "capacity": 0.7729632726454976,
+    "cone_residual": -2.1815882433884326e-12,
+    "stationarity_norm": 1.2030740793392907e-08,
+    "multiplier": 0.7421114109962623,
+    "computed_upper_gap": 1.6193674994446146e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      1.3999696184207762,
+      1.6365368519134884,
+      1.9533637926774985,
+      2.430810322366403
+    ],
+    "raw_cone_residual": 7.105427357601002e-15,
+    "feasibility_mixing_fraction": 2.536051764768419e-11,
+    "x": [
+      1.3999696174330387,
+      1.6365368507670301,
+      1.9533637913184032,
+      2.4308103206867657
+    ],
+    "capacity": 0.7729632726455002,
+    "cone_residual": -2.1802559757588824e-12,
+    "stationarity_norm": 9.518011626613287e-09,
+    "multiplier": 0.7421114111854132,
+    "computed_upper_gap": 1.6182344190367192e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      1.6383990088689118,
+      1.7781595387789977,
+      1.9651096637887497,
+      2.246610852627963
+    ],
+    "raw_cone_residual": 1.3100631690576847e-14,
+    "feasibility_mixing_fraction": 1.290076255548379e-11,
+    "x": [
+      1.6383990093365792,
+      1.7781595392915321,
+      1.9651096643612753,
+      2.246610853290776
+    ],
+    "capacity": 0.7945658119595098,
+    "cone_residual": -2.1609380951304047e-12,
+    "stationarity_norm": 3.262508047175538e-11,
+    "multiplier": 0.3049065201062308,
+    "computed_upper_gap": 6.588841175895879e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      1.6383990482947262,
+      1.7781595196970499,
+      1.9651096868342026,
+      2.2466108782353142
+    ],
+    "raw_cone_residual": 8.215650382226158e-15,
+    "feasibility_mixing_fraction": 1.2844145945851214e-11,
+    "x": [
+      1.638399033941429,
+      1.7781595041243239,
+      1.9651096696302868,
+      2.2466108585751807
+    ],
+    "capacity": 0.7945658119595107,
+    "cone_residual": -2.156275158426979e-12,
+    "stationarity_norm": 1.26849685514993e-08,
+    "multiplier": 0.3049065200363143,
+    "computed_upper_gap": 6.578914439357959e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      1.1414443721789365,
+      1.5361889200985317,
+      2.0626247774705346,
+      2.8524101999008455
+    ],
+    "raw_cone_residual": -4.440892098500626e-16,
+    "feasibility_mixing_fraction": 1.1444974602532977e-10,
+    "x": [
+      1.141444372143152,
+      1.5361889200741143,
+      2.062624777461261,
+      2.8524101999142735
+    ],
+    "capacity": 0.7594036727985696,
+    "cone_residual": -2.1942447858691594e-12,
+    "stationarity_norm": 9.101825196306197e-10,
+    "multiplier": 2.5557253530375283,
+    "computed_upper_gap": 5.607889239168797e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      1.1414442563850644,
+      1.5361892530768924,
+      2.0626246069129386,
+      2.8524102961114712
+    ],
+    "raw_cone_residual": 1.021405182655144e-14,
+    "feasibility_mixing_fraction": 1.1555912256781115e-10,
+    "x": [
+      1.141444234875415,
+      1.536189224152546,
+      2.0626245681002726,
+      2.852410242463815
+    ],
+    "capacity": 0.7594036727985056,
+    "cone_residual": -2.204458837695711e-12,
+    "stationarity_norm": 3.267291420380655e-07,
+    "multiplier": 2.5557253531441546,
+    "computed_upper_gap": 5.918663160813438e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      1.5283559134863387,
+      1.7881797159645927,
+      2.1346948436357276,
+      2.6545877217506373
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 2.3124275803678543e-11,
+    "x": [
+      1.528355912845915,
+      1.7881797152234113,
+      2.1346948427601666,
+      2.6545877206734545
+    ],
+    "capacity": 0.810720917184149,
+    "cone_residual": -2.1738166822160565e-12,
+    "stationarity_norm": 5.538160890900074e-09,
+    "multiplier": 0.7279736508195617,
+    "computed_upper_gap": 1.5825630563014322e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 14,
+    "raw_x": [
+      1.5283558191811708,
+      1.7881796525862972,
+      2.1346947545172092,
+      2.6545875846552693
+    ],
+    "raw_cone_residual": 5.773159728050814e-15,
+    "feasibility_mixing_fraction": 2.32456395653213e-11,
+    "x": [
+      1.5283558909252266,
+      1.7881797365351575,
+      2.1346948547430524,
+      2.6545877093022274
+    ],
+    "capacity": 0.810720917184149,
+    "cone_residual": -2.1791457527342573e-12,
+    "stationarity_norm": 1.1389232001400759e-08,
+    "multiplier": 0.7279736508308015,
+    "computed_upper_gap": 1.5867065949252767e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      1.790341891789134,
+      1.943737147832226,
+      2.148298737997314,
+      2.4551995635564023
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 1.1699840983897001e-11,
+    "x": [
+      1.7903418917796983,
+      1.9437371478268932,
+      2.148298737997451,
+      2.455199563564744
+    ],
+    "capacity": 0.8338955438239708,
+    "cone_residual": -2.149391775674303e-12,
+    "stationarity_norm": 1.4646589752431864e-09,
+    "multiplier": 0.2996004118280412,
+    "computed_upper_gap": 6.439643817742627e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      1.790341864340735,
+      1.9437372664009516,
+      2.148298544579211,
+      2.455199616126094
+    ],
+    "raw_cone_residual": 3.064215547965432e-14,
+    "feasibility_mixing_fraction": 1.2025757662543812e-11,
+    "x": [
+      1.7903418750086018,
+      1.9437372779878828,
+      2.1482985573917643,
+      2.455199630777433
+    ],
+    "capacity": 0.8338955438239424,
+    "cone_residual": -2.177813485104707e-12,
+    "stationarity_norm": 5.9300766337549155e-08,
+    "multiplier": 0.29960041181718927,
+    "computed_upper_gap": 6.618513660336534e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.14672996551160142,
+      2.232458369066358
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 3.639893963044233e-10,
+    "x": [
+      0.14672996645134426,
+      2.2324583837230327
+    ],
+    "capacity": 0.29464180655493494,
+    "cone_residual": -2.194577852776547e-12,
+    "stationarity_norm": 4.5358915398919094e-11,
+    "multiplier": 14.873940391897818,
+    "computed_upper_gap": 3.264202017306395e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.14672996647334205,
+      2.232458383699006
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 3.6402613352336415e-10,
+    "x": [
+      0.14672996645134115,
+      2.2324583837230363
+    ],
+    "capacity": 0.29464180655493033,
+    "cone_residual": -2.194799897381472e-12,
+    "stationarity_norm": 4.536725450914736e-11,
+    "multiplier": 14.873940391898804,
+    "computed_upper_gap": 3.264532285128612e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.2163221297735171,
+      1.9916197130582458
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 7.352084713389658e-11,
+    "x": [
+      0.21632213284286206,
+      1.9916197414161032
+    ],
+    "capacity": 0.38891587283508755,
+    "cone_residual": -2.1738166822160565e-12,
+    "stationarity_norm": 1.2403427064116945e-11,
+    "multiplier": 3.7799339326838624,
+    "computed_upper_gap": 8.216883440952978e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.21632213284962012,
+      1.9916197413791035
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 7.351342747027925e-11,
+    "x": [
+      0.2163221328428625,
+      1.991619741416101
+    ],
+    "capacity": 0.38891587283508816,
+    "cone_residual": -2.1735946376111315e-12,
+    "stationarity_norm": 1.2402361873403321e-11,
+    "multiplier": 3.7799339326838295,
+    "computed_upper_gap": 8.21604412701611e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.2508735822542385,
+      1.773739678687605
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 3.719447990006638e-11,
+    "x": [
+      0.25087356134125205,
+      1.773739530882514
+    ],
+    "capacity": 0.42840588599228857,
+    "cone_residual": -2.1488366641619905e-12,
+    "stationarity_norm": 6.813601612335354e-12,
+    "multiplier": 1.931523501229937,
+    "computed_upper_gap": 4.150528517257227e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.25087356134513134,
+      1.7737395308549269
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 3.719072588479616e-11,
+    "x": [
+      0.25087356134125316,
+      1.7737395308825137
+    ],
+    "capacity": 0.42840588599228907,
+    "cone_residual": -2.1483925749521404e-12,
+    "stationarity_norm": 6.811171735490633e-12,
+    "multiplier": 1.9315235012299052,
+    "computed_upper_gap": 4.149670748511602e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.2949346504535014,
+      1.4154989038738863
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 1.538048270195156e-11,
+    "x": [
+      0.2949346504353637,
+      1.4154989038117018
+    ],
+    "capacity": 0.47148033439241493,
+    "cone_residual": -2.083888617221419e-12,
+    "stationarity_norm": 2.9827388555490252e-12,
+    "multiplier": 0.7557253917004603,
+    "computed_upper_gap": 1.5748475415335119e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.29493465043714806,
+      1.4154989037953998
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 1.538048270195156e-11,
+    "x": [
+      0.2949346504353636,
+      1.4154989038117003
+    ],
+    "capacity": 0.4714803343924148,
+    "cone_residual": -2.0836665726164938e-12,
+    "stationarity_norm": 2.9830868198832935e-12,
+    "multiplier": 0.75572539170046,
+    "computed_upper_gap": 1.574679736787485e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.3235537957055786,
+      1.1281740821163235
+    ],
+    "raw_cone_residual": 5.551115123125783e-17,
+    "feasibility_mixing_fraction": 8.078099070957176e-12,
+    "x": [
+      0.32355387721284895,
+      1.1281743663312653
+    ],
+    "capacity": 0.49523050351713427,
+    "cone_residual": -1.9982904220228193e-12,
+    "stationarity_norm": 1.5562089207266043e-12,
+    "multiplier": 0.3666016138696994,
+    "computed_upper_gap": 7.325764937003864e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.3235538772137868,
+      1.1281743663208286
+    ],
+    "raw_cone_residual": 7.216449660063518e-16,
+    "feasibility_mixing_fraction": 8.082990728601428e-12,
+    "x": [
+      0.32355387721284856,
+      1.1281743663312673
+    ],
+    "capacity": 0.49523050351713405,
+    "cone_residual": -1.998679000081438e-12,
+    "stationarity_norm": 1.5571705277995698e-12,
+    "multiplier": 0.36660161386970225,
+    "computed_upper_gap": 7.32718947043804e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.3461872737572731,
+      0.8578384056281018
+    ],
+    "raw_cone_residual": -1.6653345369377348e-16,
+    "feasibility_mixing_fraction": 4.382147383269671e-12,
+    "x": [
+      0.34618737559067775,
+      0.8578386579749615
+    ],
+    "capacity": 0.5116915633290399,
+    "cone_residual": -1.8777757126997585e-12,
+    "stationarity_norm": 7.893084857935673e-13,
+    "multiplier": 0.17907021823192545,
+    "computed_upper_gap": 3.362537066654165e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.34618737559117563,
+      0.857838657968494
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 4.382368560432858e-12,
+    "x": [
+      0.3461873755906777,
+      0.8578386579749614
+    ],
+    "capacity": 0.5116915633290398,
+    "cone_residual": -1.8777757126997585e-12,
+    "stationarity_norm": 7.892343458591791e-13,
+    "multiplier": 0.1790702182319254,
+    "computed_upper_gap": 3.3625370666541605e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.1380223496729607,
+      2.0999742525070273
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 4.713950248558247e-10,
+    "x": [
+      0.13802235183887762,
+      2.099974285819659
+    ],
+    "capacity": 0.18647948421481492,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 3.8875999670197575e-11,
+    "multiplier": 11.988996571302492,
+    "computed_upper_gap": 2.6312117402428216e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.13802235187368428,
+      2.0999742859904607
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 4.714425976552452e-10,
+    "x": [
+      0.13802235183887457,
+      2.099974285819644
+    ],
+    "capacity": 0.1864794842148126,
+    "cone_residual": -2.1949109196839345e-12,
+    "stationarity_norm": 3.887925012405887e-11,
+    "multiplier": 11.988996571302899,
+    "computed_upper_gap": 2.6314779494436904e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.27414488169968476,
+      2.523978250393303
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 9.517687219106154e-11,
+    "x": [
+      0.27414491269025587,
+      2.5239785358143556
+    ],
+    "capacity": 0.2842494309427223,
+    "cone_residual": -2.1731505484012814e-12,
+    "stationarity_norm": 1.0793212097414864e-11,
+    "multiplier": 4.169275915381655,
+    "computed_upper_gap": 9.060464242258548e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.27414491270343105,
+      2.5239785358364593
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 9.518648027189184e-11,
+    "x": [
+      0.2741449126902551,
+      2.5239785358143547
+    ],
+    "capacity": 0.2842494309427219,
+    "cone_residual": -2.173261570703744e-12,
+    "stationarity_norm": 1.0794211275404413e-11,
+    "multiplier": 4.169275915381675,
+    "computed_upper_gap": 9.060927124870375e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.3695138371446859,
+      2.6125562878255786
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 4.816978998566281e-11,
+    "x": [
+      0.3695138372284156,
+      2.6125562884725864
+    ],
+    "capacity": 0.3479627041966163,
+    "cone_residual": -2.148947686464453e-12,
+    "stationarity_norm": 5.820431595370472e-12,
+    "multiplier": 2.430778147104579,
+    "computed_upper_gap": 5.223615075619074e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.3695138372364765,
+      2.6125562884745617
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.816492872994891e-11,
+    "x": [
+      0.3695138372284164,
+      2.612556288472587
+    ],
+    "capacity": 0.3479627041966171,
+    "cone_residual": -2.1486146195570655e-12,
+    "stationarity_norm": 5.81976756832488e-12,
+    "multiplier": 2.4307781471045686,
+    "computed_upper_gap": 5.2228054638590305e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.5226909465735342,
+      2.5085843959059906
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 1.9918940219669663e-11,
+    "x": [
+      0.5226909465816674,
+      2.508584395969892
+    ],
+    "capacity": 0.44182300342490216,
+    "cone_residual": -2.084110661826344e-12,
+    "stationarity_norm": 2.4104949267908018e-12,
+    "multiplier": 1.0823057937853473,
+    "computed_upper_gap": 2.2556450441999614e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.5226909465855892,
+      2.5085843959638474
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.992095042278637e-11,
+    "x": [
+      0.522690946581667,
+      2.508584395969893
+    ],
+    "capacity": 0.44182300342490155,
+    "cone_residual": -2.0842216841288064e-12,
+    "stationarity_norm": 2.4108466051124007e-12,
+    "multiplier": 1.0823057937853493,
+    "computed_upper_gap": 2.2557652042811644e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.6434952918359368,
+      2.2437527231910224
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 1.0459137094694846e-11,
+    "x": [
+      0.6434953903887468,
+      2.243753066840703
+    ],
+    "capacity": 0.5072143788988348,
+    "cone_residual": -1.9979573551154317e-12,
+    "stationarity_norm": 1.1630172886571597e-12,
+    "multiplier": 0.5458723809203571,
+    "computed_upper_gap": 1.090629738417807e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.6434953903909121,
+      2.2437530668345436
+    ],
+    "raw_cone_residual": 1.4432899320127035e-15,
+    "feasibility_mixing_fraction": 1.0473917463511887e-11,
+    "x": [
+      0.6434953903887451,
+      2.2437530668407075
+    ],
+    "capacity": 0.5072143788988336,
+    "cone_residual": -1.9994006450474444e-12,
+    "stationarity_norm": 1.1638286574850763e-12,
+    "multiplier": 0.5458723809203612,
+    "computed_upper_gap": 1.0914175905293665e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.751651012778499,
+      1.862561553440433
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 5.674940742517013e-12,
+    "x": [
+      0.7516510128424866,
+      1.8625615536066928
+    ],
+    "capacity": 0.5575798641382008,
+    "cone_residual": -1.8774981569436022e-12,
+    "stationarity_norm": 5.199694200466933e-13,
+    "multiplier": 0.2561010078712624,
+    "computed_upper_gap": 4.80829170270415e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.7516510128436302,
+      1.8625615536018263
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 5.674367916531532e-12,
+    "x": [
+      0.7516510128424867,
+      1.8625615536066926
+    ],
+    "capacity": 0.5575798641382012,
+    "cone_residual": -1.8774981569436022e-12,
+    "stationarity_norm": 5.199085147711544e-13,
+    "multiplier": 0.25610100787126233,
+    "computed_upper_gap": 4.808291702704148e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.16765265575173172,
+      2.5507916745169825
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 3.37023106880027e-10,
+    "x": [
+      0.16765265573751514,
+      2.550791674659449
+    ],
+    "capacity": 0.1866334903489217,
+    "cone_residual": -2.194799897381472e-12,
+    "stationarity_norm": 2.2435275989255918e-11,
+    "multiplier": 8.404902871982689,
+    "computed_upper_gap": 1.8447079962271086e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.16765265576899635,
+      2.55079167477966
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 3.369550826887632e-10,
+    "x": [
+      0.16765265573752144,
+      2.5507916746594725
+    ],
+    "capacity": 0.18663349034892573,
+    "cone_residual": -2.1944668304740844e-12,
+    "stationarity_norm": 2.2430422143353342e-11,
+    "multiplier": 8.404902871982202,
+    "computed_upper_gap": 1.8444280567262976e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.32740493597865394,
+      3.0143292566985895
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 6.804655008559934e-11,
+    "x": [
+      0.3274049360737725,
+      3.014329257673514
+    ],
+    "capacity": 0.2741537871978166,
+    "cone_residual": -2.1733725930062064e-12,
+    "stationarity_norm": 7.274313394796758e-12,
+    "multiplier": 3.3571228509992252,
+    "computed_upper_gap": 7.296278795857684e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.3274049360878624,
+      3.0143292577040413
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 6.806028864914766e-11,
+    "x": [
+      0.32740493607376997,
+      3.014329257673509
+    ],
+    "capacity": 0.27415378719781536,
+    "cone_residual": -2.1735946376111315e-12,
+    "stationarity_norm": 7.276044704996915e-12,
+    "multiplier": 3.357122850999257,
+    "computed_upper_gap": 7.297024226874952e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.45822770887239683,
+      3.239785798878589
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 3.4435437514825305e-11,
+    "x": [
+      0.4582277364322932,
+      3.2397859937890385
+    ],
+    "capacity": 0.3395174807061786,
+    "cone_residual": -2.148503597254603e-12,
+    "stationarity_norm": 4.153158446508814e-12,
+    "multiplier": 2.151933470223158,
+    "computed_upper_gap": 4.623436801873032e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.45822773644186165,
+      3.2397859938016786
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 3.444238860856907e-11,
+    "x": [
+      0.45822773643229114,
+      3.2397859937890363
+    ],
+    "capacity": 0.3395174807061772,
+    "cone_residual": -2.148947686464453e-12,
+    "stationarity_norm": 4.15418680671634e-12,
+    "multiplier": 2.1519334702231703,
+    "computed_upper_gap": 4.624392452307523e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.7114133647332097,
+      3.4143320780813227
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.4236702362193046e-11,
+    "x": [
+      0.7114133656909711,
+      3.414332082702829
+    ],
+    "capacity": 0.45511517654640815,
+    "cone_residual": -2.0834445280115688e-12,
+    "stationarity_norm": 1.7978897335594297e-12,
+    "multiplier": 1.0988517536485336,
+    "computed_upper_gap": 2.2893966732435733e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.7114133656962759,
+      3.4143320827034254
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.4242451127997809e-11,
+    "x": [
+      0.7114133656909697,
+      3.4143320827028285
+    ],
+    "capacity": 0.4551151765464078,
+    "cone_residual": -2.084110661826344e-12,
+    "stationarity_norm": 1.7983865506088453e-12,
+    "multiplier": 1.098851753648537,
+    "computed_upper_gap": 2.2901286555541152e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 8,
+    "raw_x": [
+      0.9521295907146884,
+      3.3199051944913225
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 7.480007467151211e-12,
+    "x": [
+      0.9521296401071708,
+      3.3199053667277583
+    ],
+    "capacity": 0.5534713346568759,
+    "cone_residual": -1.998623488930207e-12,
+    "stationarity_norm": 8.682826182522283e-13,
+    "multiplier": 0.6017311810844603,
+    "computed_upper_gap": 1.2026340725391286e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.9521296401102981,
+      3.319905366724943
+    ],
+    "raw_cone_residual": 1.9984014443252818e-15,
+    "feasibility_mixing_fraction": 7.492084267909834e-12,
+    "x": [
+      0.9521296401071694,
+      3.3199053667277596
+    ],
+    "capacity": 0.5534713346568749,
+    "cone_residual": -1.999511667349907e-12,
+    "stationarity_norm": 8.687471047797129e-13,
+    "multiplier": 0.6017311810844623,
+    "computed_upper_gap": 1.2031685171886348e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 7,
+    "raw_x": [
+      1.195192975311351,
+      2.9616410367466774
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 4.056880119586938e-12,
+    "x": [
+      1.1951930759611649,
+      2.961641286160645
+    ],
+    "capacity": 0.6403833876196204,
+    "cone_residual": -1.8773871346411397e-12,
+    "stationarity_norm": 3.7216464877847003e-13,
+    "multiplier": 0.29148304644984424,
+    "computed_upper_gap": 5.472265213713126e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      1.19519307596284,
+      2.9616412861570955
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 4.056880119586938e-12,
+    "x": [
+      1.1951930759611646,
+      2.9616412861606443
+    ],
+    "capacity": 0.6403833876196204,
+    "cone_residual": -1.8773871346411397e-12,
+    "stationarity_norm": 3.7237383384746067e-13,
+    "multiplier": 0.29148304644984413,
+    "computed_upper_gap": 5.472265213713128e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.1977256607205981,
+      3.008344645320451
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 2.789639340719979e-10,
+    "x": [
+      0.1977256625250156,
+      3.008344673132854
+    ],
+    "capacity": 0.19916870850834983,
+    "cone_residual": -2.194133763566697e-12,
+    "stationarity_norm": 1.6552493137976597e-11,
+    "multiplier": 7.314841765521623,
+    "computed_upper_gap": 1.6049741293609446e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.19772566255575097,
+      3.0083446732418033
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 2.789920954095698e-10,
+    "x": [
+      0.19772566252501442,
+      3.00834467313285
+    ],
+    "capacity": 0.19916870850834822,
+    "cone_residual": -2.1942447858691594e-12,
+    "stationarity_norm": 1.6553481129678358e-11,
+    "multiplier": 7.314841765521695,
+    "computed_upper_gap": 1.605055340418465e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.38209591036016444,
+      3.5178543598335272
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 5.63525630564382e-11,
+    "x": [
+      0.38209591035800916,
+      3.5178543599128975
+    ],
+    "capacity": 0.28956131238608285,
+    "cone_residual": -2.1735946376111315e-12,
+    "stationarity_norm": 5.574833287132075e-12,
+    "multiplier": 3.0009753485433106,
+    "computed_upper_gap": 6.522903925279812e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.38209591037204554,
+      3.517854359942914
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 5.63525630564382e-11,
+    "x": [
+      0.3820959103580091,
+      3.5178543599128975
+    ],
+    "capacity": 0.28956131238608285,
+    "cone_residual": -2.1735946376111315e-12,
+    "stationarity_norm": 5.574867415236601e-12,
+    "multiplier": 3.0009753485433115,
+    "computed_upper_gap": 6.522903925279816e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.535697681456662,
+      3.7875180991265203
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 2.8506100848075264e-11,
+    "x": [
+      0.5356976814548707,
+      3.7875180991688575
+    ],
+    "capacity": 0.358525573843688,
+    "cone_residual": -2.148503597254603e-12,
+    "stationarity_norm": 3.24693827822228e-12,
+    "multiplier": 1.9664349624894086,
+    "computed_upper_gap": 4.224892590703828e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.5356976814645885,
+      3.7875180991825603
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 2.851761158234582e-11,
+    "x": [
+      0.5356976814548673,
+      3.7875180991688513
+    ],
+    "capacity": 0.3585255738436867,
+    "cone_residual": -2.148947686464453e-12,
+    "stationarity_norm": 3.2481870195409113e-12,
+    "multiplier": 1.9664349624894217,
+    "computed_upper_gap": 4.2257658632525915e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 8,
+    "raw_x": [
+      0.8437901875463703,
+      4.049656707799179
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.1792465785829159e-11,
+    "x": [
+      0.8437901876548011,
+      4.049656708344448
+    ],
+    "capacity": 0.4853008826994373,
+    "cone_residual": -2.084332706431269e-12,
+    "stationarity_norm": 1.4416719093217248e-12,
+    "multiplier": 1.044536572307892,
+    "computed_upper_gap": 2.177161740730492e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.8437901876603818,
+      4.049656708346359
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.1792465785829159e-11,
+    "x": [
+      0.8437901876548018,
+      4.049656708344449
+    ],
+    "capacity": 0.4853008826994389,
+    "cone_residual": -2.083888617221419e-12,
+    "stationarity_norm": 1.4414095435904102e-12,
+    "multiplier": 1.044536572307891,
+    "computed_upper_gap": 2.1766978733094316e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 7,
+    "raw_x": [
+      1.15063506879229,
+      4.012058210458547
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 6.194547079621861e-12,
+    "x": [
+      1.1506350698250454,
+      4.012058214073288
+    ],
+    "capacity": 0.5989800836869311,
+    "cone_residual": -1.998623488930207e-12,
+    "stationarity_norm": 7.043808732931602e-13,
+    "multiplier": 0.5897182146981553,
+    "computed_upper_gap": 1.1786246757470432e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      1.1506350698284118,
+      4.012058214071302
+    ],
+    "raw_cone_residual": 2.6645352591003757e-15,
+    "feasibility_mixing_fraction": 6.207046267653878e-12,
+    "x": [
+      1.1506350698250427,
+      4.012058214073289
+    ],
+    "capacity": 0.5989800836869292,
+    "cone_residual": -2.000843934979457e-12,
+    "stationarity_norm": 7.048719706212511e-13,
+    "multiplier": 0.5897182146981578,
+    "computed_upper_gap": 1.1799341132270473e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 7,
+    "raw_x": [
+      1.4715043148912526,
+      3.646329634422799
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 3.3603722821715467e-12,
+    "x": [
+      1.471504460075881,
+      3.6463299941922838
+    ],
+    "capacity": 0.703995207046159,
+    "cone_residual": -1.8776091792460647e-12,
+    "stationarity_norm": 3.022980727313399e-13,
+    "multiplier": 0.29128800755505163,
+    "computed_upper_gap": 5.469250367899057e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      1.4715044600776983,
+      3.6463299941890854
+    ],
+    "raw_cone_residual": -4.440892098500626e-16,
+    "feasibility_mixing_fraction": 3.3583377314021303e-12,
+    "x": [
+      1.471504460075882,
+      3.6463299941922833
+    ],
+    "capacity": 0.703995207046159,
+    "cone_residual": -1.8771650900362147e-12,
+    "stationarity_norm": 3.0206858813287444e-13,
+    "multiplier": 0.2912880075550513,
+    "computed_upper_gap": 5.467956789287908e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.213050242174309,
+      3.2415041775229367
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 2.5757098365157056e-10,
+    "x": [
+      0.2130502422639415,
+      3.2415041792454033
+    ],
+    "capacity": 0.20638649281928567,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 1.4622794924542437e-11,
+    "multiplier": 6.9620350528502986,
+    "computed_upper_gap": 1.5279500878970856e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.21305024229452554,
+      3.241504179352007
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 2.5757098365157056e-10,
+    "x": [
+      0.2130502422639409,
+      3.2415041792454007
+    ],
+    "capacity": 0.20638649281928567,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 1.4622691589183444e-11,
+    "multiplier": 6.962035052850329,
+    "computed_upper_gap": 1.5279500878970914e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.41089607302671055,
+      3.783009717567985
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 5.202054240415942e-11,
+    "x": [
+      0.41089607527233113,
+      3.783009738342023
+    ],
+    "capacity": 0.29929983926970466,
+    "cone_residual": -2.1733725930062064e-12,
+    "stationarity_norm": 4.970437164898601e-12,
+    "multiplier": 2.8774475149441012,
+    "computed_upper_gap": 6.253765566859207e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.41089607528636696,
+      3.7830097383720385
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 5.201004160344531e-11,
+    "x": [
+      0.41089607527233346,
+      3.783009738342029
+    ],
+    "capacity": 0.29929983926970183,
+    "cone_residual": -2.1729285037963564e-12,
+    "stationarity_norm": 4.969604891272121e-12,
+    "multiplier": 2.8774475149440844,
+    "computed_upper_gap": 6.2524877234658514e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.5764575048663965,
+      4.075700359803445
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 2.6320049077079296e-11,
+    "x": [
+      0.5764575063809403,
+      4.075700370566667
+    ],
+    "capacity": 0.37063640609364656,
+    "cone_residual": -2.148947686464453e-12,
+    "stationarity_norm": 2.910920966788388e-12,
+    "multiplier": 1.8967184550351714,
+    "computed_upper_gap": 4.075948735844859e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.5764575063907014,
+      4.075700370580668
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 2.6320049077079296e-11,
+    "x": [
+      0.5764575063809401,
+      4.075700370566667
+    ],
+    "capacity": 0.37063640609364656,
+    "cone_residual": -2.148725641859528e-12,
+    "stationarity_norm": 2.9110502429908616e-12,
+    "multiplier": 1.8967184550351726,
+    "computed_upper_gap": 4.075527579744862e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 7,
+    "raw_x": [
+      0.911300969408043,
+      4.373665560532922
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.0885937270447567e-11,
+    "x": [
+      0.9113009836806061,
+      4.373665629057025
+    ],
+    "capacity": 0.5031464729670176,
+    "cone_residual": -2.084332706431269e-12,
+    "stationarity_norm": 1.3011601399491957e-12,
+    "multiplier": 1.018209394591315,
+    "computed_upper_gap": 2.1222871431467745e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      0.9113009836862526,
+      4.373665629059253
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 1.0883740292435464e-11,
+    "x": [
+      0.9113009836806076,
+      4.373665629057026
+    ],
+    "capacity": 0.5031464729670176,
+    "cone_residual": -2.0836665726164938e-12,
+    "stationarity_norm": 1.3008400892056862e-12,
+    "multiplier": 1.018209394591313,
+    "computed_upper_gap": 2.1216088794385086e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 6,
+    "raw_x": [
+      1.2481920287896318,
+      4.352221840927006
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 5.7183503562615076e-12,
+    "x": [
+      1.2481920819637977,
+      4.352222026349497
+    ],
+    "capacity": 0.6235960255629465,
+    "cone_residual": -1.998845533535132e-12,
+    "stationarity_norm": 6.379761898565307e-13,
+    "multiplier": 0.579581706792553,
+    "computed_upper_gap": 1.1584943059420484e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      1.2481920819672188,
+      4.352222026347702
+    ],
+    "raw_cone_residual": 2.886579864025407e-15,
+    "feasibility_mixing_fraction": 5.731042520669803e-12,
+    "x": [
+      1.2481920819637942,
+      4.352222026349498
+    ],
+    "capacity": 0.6235960255629208,
+    "cone_residual": -2.000621890374532e-12,
+    "stationarity_norm": 6.385969409748678e-13,
+    "multiplier": 0.5795817067925556,
+    "computed_upper_gap": 1.1595238498709078e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 7,
+    "raw_x": [
+      1.603002443937946,
+      3.9721768099708683
+    ],
+    "raw_cone_residual": -4.440892098500626e-16,
+    "feasibility_mixing_fraction": 3.100170442805338e-12,
+    "x": [
+      1.6030024564738938,
+      3.9721768410421507
+    ],
+    "capacity": 0.7361265083332769,
+    "cone_residual": -1.8769430454312896e-12,
+    "stationarity_norm": 2.7404316942880264e-13,
+    "multiplier": 0.2878398477922428,
+    "computed_upper_gap": 5.402590005118513e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1,
+    "raw_x": [
+      1.603002456475741,
+      3.9721768410390323
+    ],
+    "raw_cone_residual": -4.440892098500626e-16,
+    "feasibility_mixing_fraction": 3.100170442805338e-12,
+    "x": [
+      1.6030024564738934,
+      3.972176841042152
+    ],
+    "capacity": 0.7361265083332769,
+    "cone_residual": -1.8776091792460647e-12,
+    "stationarity_norm": 2.7420968975024057e-13,
+    "multiplier": 0.28783984779224314,
+    "computed_upper_gap": 5.404507403677063e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      0.11810661258238511,
+      0.4254684701647884,
+      1.688454154071357
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.743313601026451e-10,
+    "x": [
+      0.11810661253242592,
+      0.42546847008701694,
+      1.6884541537677626
+    ],
+    "capacity": 0.35105256897619674,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 1.1428683969602636e-10,
+    "multiplier": 14.926713269764456,
+    "computed_upper_gap": 3.2759491589476895e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.11810661246035195,
+      0.4254684695098242,
+      1.688454152412653
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 4.743792340660121e-10,
+    "x": [
+      0.11810661255130857,
+      0.4254684699396995,
+      1.6884541541236349
+    ],
+    "capacity": 0.3510525689761954,
+    "cone_residual": -2.194577852776547e-12,
+    "stationarity_norm": 3.2853915459189473e-09,
+    "multiplier": 14.926713267795161,
+    "computed_upper_gap": 3.2757863135709396e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      0.20070901542514835,
+      0.41281331533195614,
+      1.5845448950568408
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 9.580840478043145e-11,
+    "x": [
+      0.20070901554185613,
+      0.41281331559762857,
+      1.5845448960818136
+    ],
+    "capacity": 0.42855170680042803,
+    "cone_residual": -2.1738166822160565e-12,
+    "stationarity_norm": 6.989788745423376e-10,
+    "multiplier": 3.5368547993661266,
+    "computed_upper_gap": 7.688475268295254e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.20070901488157694,
+      0.41281331951466343,
+      1.5845448891669327
+    ],
+    "raw_cone_residual": 8.215650382226158e-15,
+    "feasibility_mixing_fraction": 9.651423489379652e-11,
+    "x": [
+      0.20070901487187523,
+      0.41281331952052885,
+      1.584544889194699
+    ],
+    "capacity": 0.4285517068004003,
+    "cone_residual": -2.1813661987835076e-12,
+    "stationarity_norm": 2.2022188165569243e-08,
+    "multiplier": 3.5368548193200016,
+    "computed_upper_gap": 7.716468824260134e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 14,
+    "raw_x": [
+      0.24289048226470802,
+      0.39636415307459977,
+      1.4244782935976035
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.84698412053555e-11,
+    "x": [
+      0.2428904821546529,
+      0.3963641529086651,
+      1.4244782930078872
+    ],
+    "capacity": 0.4598358144290467,
+    "cone_residual": -2.1486146195570655e-12,
+    "stationarity_norm": 1.0671941719699836e-09,
+    "multiplier": 1.7083603349994307,
+    "computed_upper_gap": 3.670611028326918e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.2428904842334939,
+      0.39636416993591217,
+      1.4244783031867942
+    ],
+    "raw_cone_residual": 4.218847493575595e-15,
+    "feasibility_mixing_fraction": 4.865573835814938e-11,
+    "x": [
+      0.24289047992542231,
+      0.3963641629194391,
+      1.4244782779772107
+    ],
+    "capacity": 0.4598358144290397,
+    "cone_residual": -2.1527224447481785e-12,
+    "stationarity_norm": 3.835648743410763e-08,
+    "multiplier": 1.708360369657305,
+    "computed_upper_gap": 3.681548965154997e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.29471945756725765,
+      0.3840279731594921,
+      1.126201725298716
+    ],
+    "raw_cone_residual": 5.495603971894525e-15,
+    "feasibility_mixing_fraction": 2.0143150939143163e-11,
+    "x": [
+      0.2947194577949237,
+      0.38402797346204764,
+      1.1262017261932327
+    ],
+    "capacity": 0.4924170477958487,
+    "cone_residual": -2.0887735985297695e-12,
+    "stationarity_norm": 4.586907507882601e-09,
+    "multiplier": 0.6241586184111729,
+    "computed_upper_gap": 1.3037821493533707e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.29471945839358465,
+      0.3840279730726727,
+      1.12620172844397
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 2.0045038887933144e-11,
+    "x": [
+      0.2947194580484553,
+      0.3840279726288304,
+      1.1262017271495628
+    ],
+    "capacity": 0.4924170477958518,
+    "cone_residual": -2.083888617221419e-12,
+    "stationarity_norm": 2.4385699348439197e-09,
+    "multiplier": 0.6241586168771396,
+    "computed_upper_gap": 1.3006928947131414e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.32626709191348074,
+      0.3839467545625594,
+      0.872855684610866
+    ],
+    "raw_cone_residual": 1.354472090042691e-14,
+    "feasibility_mixing_fraction": 1.0656027779594551e-11,
+    "x": [
+      0.326267092470063,
+      0.3839467552207045,
+      0.8728556861132745
+    ],
+    "capacity": 0.5098159181418823,
+    "cone_residual": -2.009226118815377e-12,
+    "stationarity_norm": 3.323549252357831e-09,
+    "multiplier": 0.2919576599463123,
+    "computed_upper_gap": 5.866384118980364e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.3262670934243786,
+      0.38394675491483005,
+      0.8728556886324684
+    ],
+    "raw_cone_residual": 5.6066262743570405e-15,
+    "feasibility_mixing_fraction": 1.0580064457005085e-11,
+    "x": [
+      0.3262670928281811,
+      0.3839467542163768,
+      0.8728556870507734
+    ],
+    "capacity": 0.5098159181418842,
+    "cone_residual": -2.00273131412132e-12,
+    "stationarity_norm": 1.1311346662523306e-09,
+    "multiplier": 0.29195765889358416,
+    "computed_upper_gap": 5.84716157772087e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.3514082416043068,
+      0.3872496261270074,
+      0.6288822058789046
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 5.7108664726117824e-12,
+    "x": [
+      0.35140824169404705,
+      0.387249626227612,
+      0.6288822060468536
+    ],
+    "capacity": 0.5215671565698244,
+    "cone_residual": -1.8777202015485273e-12,
+    "stationarity_norm": 3.6571828888292287e-10,
+    "multiplier": 0.13077789432761835,
+    "computed_upper_gap": 2.4556465076125903e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau0.25_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 9,
+    "raw_x": [
+      0.35140824287498373,
+      0.38724962619054065,
+      0.6288822082358247
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 5.712019377237064e-12,
+    "x": [
+      0.35140824205678217,
+      0.3872496252905995,
+      0.6288822067789173
+    ],
+    "capacity": 0.5215671565698243,
+    "cone_residual": -1.8777757126997585e-12,
+    "stationarity_norm": 2.1769302689087238e-09,
+    "multiplier": 0.13077789382252664,
+    "computed_upper_gap": 2.455841901790235e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 16,
+    "raw_x": [
+      0.15370964313684912,
+      0.6032789209730463,
+      2.233137911724852
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 3.367132670027019e-10,
+    "x": [
+      0.1537096430730106,
+      0.603278920819545,
+      2.2331379112043006
+    ],
+    "capacity": 0.29434179464938587,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 7.982399918974422e-10,
+    "multiplier": 9.848091946885553,
+    "computed_upper_gap": 2.1613499535750466e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.15370964246045576,
+      0.6032789209202887,
+      2.2331379054868594
+    ],
+    "raw_cone_residual": 1.7763568394002505e-15,
+    "feasibility_mixing_fraction": 3.372570151068431e-10,
+    "x": [
+      0.15370964268693607,
+      0.6032789219063862,
+      2.2331379091848005
+    ],
+    "capacity": 0.2943417946493683,
+    "cone_residual": -2.1962431873134847e-12,
+    "stationarity_norm": 1.2417083987017524e-08,
+    "multiplier": 9.848091951188296,
+    "computed_upper_gap": 2.162921601310003e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.2990240281736296,
+      0.7125773377107223,
+      2.391422528194849
+    ],
+    "raw_cone_residual": 5.551115123125783e-16,
+    "feasibility_mixing_fraction": 6.803889915313568e-11,
+    "x": [
+      0.299024027836894,
+      0.7125773369328661,
+      2.3914225256051376
+    ],
+    "capacity": 0.3813465524522112,
+    "cone_residual": -2.174149749123444e-12,
+    "stationarity_norm": 6.087950790413331e-09,
+    "multiplier": 3.3351723545460263,
+    "computed_upper_gap": 7.25126297297256e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.29902402709204184,
+      0.7125773255677659,
+      2.3914225122170865
+    ],
+    "raw_cone_residual": 4.8627768478581856e-14,
+    "feasibility_mixing_fraction": 7.101086359626519e-11,
+    "x": [
+      0.29902402965665026,
+      0.7125773317049161,
+      2.3914225328351706
+    ],
+    "capacity": 0.38134655245205545,
+    "cone_residual": -2.220668093855238e-12,
+    "stationarity_norm": 2.470960930807827e-08,
+    "multiplier": 3.3351723469350474,
+    "computed_upper_gap": 7.407938991126041e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 14,
+    "raw_x": [
+      0.3991519927197332,
+      0.7668409830566425,
+      2.368303646402534
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 3.440725188363263e-11,
+    "x": [
+      0.3991519927732958,
+      0.7668409831727339,
+      2.368303646775951
+    ],
+    "capacity": 0.4335416795288414,
+    "cone_residual": -2.148725641859528e-12,
+    "stationarity_norm": 1.541834819428746e-10,
+    "multiplier": 1.9131182102982993,
+    "computed_upper_gap": 4.110766217769821e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.3991519968086998,
+      0.7668409825465727,
+      2.3683036661068075
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 3.442114269208862e-11,
+    "x": [
+      0.3991519945229441,
+      0.7668409781684286,
+      2.3683036526002805
+    ],
+    "capacity": 0.43354167952884054,
+    "cone_residual": -2.1490587087669155e-12,
+    "stationarity_norm": 1.1026084618372579e-08,
+    "multiplier": 1.9131182059285,
+    "computed_upper_gap": 4.111727540129877e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.5585969918708524,
+      0.8370175666541906,
+      2.1524366410278017
+    ],
+    "raw_cone_residual": 2.7422508708241367e-14,
+    "feasibility_mixing_fraction": 1.45826172880873e-11,
+    "x": [
+      0.5585969929295632,
+      0.8370175682464747,
+      2.1524366451323305
+    ],
+    "capacity": 0.5064763133198162,
+    "cone_residual": -2.1084245460656348e-12,
+    "stationarity_norm": 1.101858290320617e-08,
+    "multiplier": 0.8230125332202455,
+    "computed_upper_gap": 1.7355835845457436e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.5585969863987582,
+      0.8370175836298571,
+      2.1524366275327225
+    ],
+    "raw_cone_residual": 3.197442310920451e-14,
+    "feasibility_mixing_fraction": 1.4641493907210737e-11,
+    "x": [
+      0.5585969870309366,
+      0.8370175845830369,
+      2.152436629993799
+    ],
+    "capacity": 0.506476313319813,
+    "cone_residual": -2.112532371256748e-12,
+    "stationarity_norm": 1.0245432583972847e-08,
+    "multiplier": 0.8230125398693611,
+    "computed_upper_gap": 1.7389205494611475e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.6836907525874641,
+      0.8836215711590873,
+      1.8351218507905622
+    ],
+    "raw_cone_residual": 4.4075854077618715e-14,
+    "feasibility_mixing_fraction": 7.771787016296696e-12,
+    "x": [
+      0.6836907600871568,
+      0.8836215808551164,
+      1.8351218709345485
+    ],
+    "capacity": 0.5544582671777459,
+    "cone_residual": -2.0342616480206743e-12,
+    "stationarity_norm": 7.825737741601333e-08,
+    "multiplier": 0.3918775087251607,
+    "computed_upper_gap": 8.135126323749013e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.6836907909303827,
+      0.8836214981590386,
+      1.835121937096099
+    ],
+    "raw_cone_residual": -1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 7.471622485321849e-12,
+    "x": [
+      0.6836907909959016,
+      0.8836214982468037,
+      1.8351219372851886
+    ],
+    "capacity": 0.5544582671777621,
+    "cone_residual": -1.9980683774178942e-12,
+    "stationarity_norm": 1.6386804768493289e-10,
+    "multiplier": 0.3918774912235574,
+    "computed_upper_gap": 7.829980946429472e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.7977083938806245,
+      0.915123696197138,
+      1.425965921547924
+    ],
+    "raw_cone_residual": 1.4654943925052066e-14,
+    "feasibility_mixing_fraction": 4.108393113206626e-12,
+    "x": [
+      0.7977084054636832,
+      0.9151237094868413,
+      1.4259659422609923
+    ],
+    "capacity": 0.5879722533730778,
+    "cone_residual": -1.8881562979800037e-12,
+    "stationarity_norm": 1.6606756773717143e-08,
+    "multiplier": 0.15455403598759246,
+    "computed_upper_gap": 2.925576014163112e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau1_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.7977083988611017,
+      0.9151237493651484,
+      1.4259659291205562
+    ],
+    "raw_cone_residual": 6.328271240363392e-15,
+    "feasibility_mixing_fraction": 4.077702678556868e-12,
+    "x": [
+      0.7977083928233901,
+      0.9151237424404538,
+      1.4259659183350688
+    ],
+    "capacity": 0.587972253373079,
+    "cone_residual": -1.8822721159494904e-12,
+    "stationarity_norm": 8.09185689843763e-09,
+    "multiplier": 0.15455403907868012,
+    "computed_upper_gap": 2.9108736656000694e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      0.1964553407524476,
+      0.8174700283392405,
+      2.9296066083124934
+    ],
+    "raw_cone_residual": 1.3322676295501878e-15,
+    "feasibility_mixing_fraction": 2.457018272442212e-10,
+    "x": [
+      0.19645534078826196,
+      0.8174700285816574,
+      2.9296066092478315
+    ],
+    "capacity": 0.303289474952214,
+    "cone_residual": -2.1955770534987096e-12,
+    "stationarity_norm": 5.820551108586569e-09,
+    "multiplier": 7.303412793662105,
+    "computed_upper_gap": 1.603529588550064e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.19645534075949325,
+      0.8174700312064158,
+      2.929606613600358
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 2.454541419327582e-10,
+    "x": [
+      0.1964553403746759,
+      0.8174700296984486,
+      2.9296066082626933
+    ],
+    "capacity": 0.3032894749522218,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 4.7778724626327934e-11,
+    "multiplier": 7.303412794131425,
+    "computed_upper_gap": 1.6028718815477427e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.3865897798267457,
+      1.0077678767640104,
+      3.175079642311808
+    ],
+    "raw_cone_residual": 1.3322676295501878e-15,
+    "feasibility_mixing_fraction": 4.962337815283837e-11,
+    "x": [
+      0.3865897801253094,
+      1.0077678775661931,
+      3.1750796448666083
+    ],
+    "capacity": 0.39441094470838245,
+    "cone_residual": -2.1744828160308316e-12,
+    "stationarity_norm": 2.27151041314829e-09,
+    "multiplier": 2.8162612161884293,
+    "computed_upper_gap": 6.123925379414649e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.38658978062857796,
+      1.0077678745228618,
+      3.175079643987386
+    ],
+    "raw_cone_residual": 1.7763568394002505e-15,
+    "feasibility_mixing_fraction": 4.964338774253316e-11,
+    "x": [
+      0.38658978094321067,
+      1.007767875366943,
+      3.1750796466742024
+    ],
+    "capacity": 0.3944109447083803,
+    "cone_residual": -2.1751489498456067e-12,
+    "stationarity_norm": 2.121143652942992e-09,
+    "multiplier": 2.816261215792056,
+    "computed_upper_gap": 6.1257996240220595e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.5351510220797778,
+      1.1319903188056284,
+      3.247280077820703
+    ],
+    "raw_cone_residual": 6.661338147750939e-16,
+    "feasibility_mixing_fraction": 2.5092006118233958e-11,
+    "x": [
+      0.5351510221811707,
+      1.1319903190329812,
+      3.247280078491378
+    ],
+    "capacity": 0.45718212024813826,
+    "cone_residual": -2.149613820279228e-12,
+    "stationarity_norm": 8.510194123673359e-10,
+    "multiplier": 1.7579489369286974,
+    "computed_upper_gap": 3.77891326145788e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      0.5351510220479248,
+      1.1319903201170674,
+      3.247280078766756
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 2.507682019287297e-11,
+    "x": [
+      0.5351510218936819,
+      1.131990319803673,
+      3.247280077886207
+    ],
+    "capacity": 0.45718212024814026,
+    "cone_residual": -2.148503597254603e-12,
+    "stationarity_norm": 1.6227631903491414e-10,
+    "multiplier": 1.7579489370187318,
+    "computed_upper_gap": 3.776959685197594e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.8123470517747776,
+      1.3242936066671211,
+      3.1708271759436113
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 1.0373832662122989e-11,
+    "x": [
+      0.8123470518985645,
+      1.3242936068745716,
+      3.1708271764511635
+    ],
+    "capacity": 0.5595391070311176,
+    "cone_residual": -2.084332706431269e-12,
+    "stationarity_norm": 2.1233421433433462e-11,
+    "multiplier": 0.8462983395964152,
+    "computed_upper_gap": 1.7639673098215737e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.8123470517723005,
+      1.3242936068884845,
+      3.1708271760358877
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.0371739458481312e-11,
+    "x": [
+      0.8123470518460341,
+      1.3242936070143365,
+      3.1708271763480624
+    ],
+    "capacity": 0.5595391070311184,
+    "cone_residual": -2.083888617221419e-12,
+    "stationarity_norm": 8.759004915719326e-11,
+    "multiplier": 0.8462983396045365,
+    "computed_upper_gap": 1.7635914971339915e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 42,
+    "raw_x": [
+      1.0675009585195232,
+      1.4606023057464568,
+      2.8791514463896397
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 5.448243780392426e-12,
+    "x": [
+      1.067500958885865,
+      1.4606023062507636,
+      2.879151447390929
+    ],
+    "capacity": 0.6378070022217399,
+    "cone_residual": -1.998623488930207e-12,
+    "stationarity_norm": 5.61615830349523e-10,
+    "multiplier": 0.4234667752717447,
+    "computed_upper_gap": 8.46351484939214e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      1.067500958336584,
+      1.460602307304549,
+      2.8791514462669157
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 5.446045116871748e-12,
+    "x": [
+      1.0675009584343136,
+      1.460602307441327,
+      2.8791514465437262
+    ],
+    "capacity": 0.63780700222174,
+    "cone_residual": -1.9979573551154317e-12,
+    "stationarity_norm": 9.890600619659853e-11,
+    "multiplier": 0.42346677530743254,
+    "computed_upper_gap": 8.460685844588935e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C2",
+    "start": "unweighted_ray",
+    "solver_success": false,
+    "solver_status": 8,
+    "solver_message": "Positive directional derivative for linesearch",
+    "iterations": 44,
+    "raw_x": [
+      1.3180836181494398,
+      1.546796622290859,
+      2.355534283216067
+    ],
+    "raw_cone_residual": 1.2634338020234281e-12,
+    "feasibility_mixing_fraction": 6.348885103138311e-12,
+    "x": [
+      1.3180836176698245,
+      1.546796621731669,
+      2.355534282374745
+    ],
+    "capacity": 0.6966443088428494,
+    "cone_residual": -2.7713387140693158e-12,
+    "stationarity_norm": 1.4518149944597598e-10,
+    "multiplier": 0.16417703119714788,
+    "computed_upper_gap": 4.549902187247358e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau4_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      1.318083616875275,
+      1.5467966209829547,
+      2.355534280942264
+    ],
+    "raw_cone_residual": 8.881784197001252e-16,
+    "feasibility_mixing_fraction": 2.9573125975560225e-12,
+    "x": [
+      1.3180836176214368,
+      1.546796621860289,
+      2.355534282283079
+    ],
+    "capacity": 0.696644308842996,
+    "cone_residual": -1.87871940227069e-12,
+    "stationarity_norm": 9.000012632682227e-11,
+    "multiplier": 0.1641770311982034,
+    "computed_upper_gap": 3.084425955193258e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.23115983237903168,
+      0.9773022800192626,
+      3.4759887386794315
+    ],
+    "raw_cone_residual": 1.5543122344752192e-15,
+    "feasibility_mixing_fraction": 2.051892632692212e-10,
+    "x": [
+      0.23115983080669814,
+      0.9773022734640598,
+      3.475988715435338
+    ],
+    "capacity": 0.324629968318281,
+    "cone_residual": -2.1962431873134847e-12,
+    "stationarity_norm": 4.273645945336659e-10,
+    "multiplier": 6.485662638113856,
+    "computed_upper_gap": 1.4244092871212481e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 10,
+    "raw_x": [
+      0.23115983087625866,
+      0.9773022739089842,
+      3.4759887165475623
+    ],
+    "raw_cone_residual": -4.440892098500626e-16,
+    "feasibility_mixing_fraction": 2.0481701605867604e-10,
+    "x": [
+      0.23115983077128716,
+      0.9773022735573573,
+      3.475988715367711
+    ],
+    "capacity": 0.32462996831829255,
+    "cone_residual": -2.1938006966593093e-12,
+    "stationarity_norm": 7.663834824295713e-11,
+    "multiplier": 6.485662638119541,
+    "computed_upper_gap": 1.4228251229466399e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 34,
+    "raw_x": [
+      0.4545523911968793,
+      1.2129371176280737,
+      3.7660960626583195
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.138274948708998e-11,
+    "x": [
+      0.45455238916732943,
+      1.212937112236035,
+      3.7660960459452455
+    ],
+    "capacity": 0.42211844111525904,
+    "cone_residual": -2.1735946376111315e-12,
+    "stationarity_norm": 1.20105723641516e-09,
+    "multiplier": 2.5746411831911034,
+    "computed_upper_gap": 5.596230116326255e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.4545523887568121,
+      1.2129371129603772,
+      3.766096044672657
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.138274948708998e-11,
+    "x": [
+      0.45455238881934074,
+      1.2129371131508846,
+      3.7660960452930494
+    ],
+    "capacity": 0.42211844111526164,
+    "cone_residual": -2.1733725930062064e-12,
+    "stationarity_norm": 1.6688145667227645e-10,
+    "multiplier": 2.5746411832192235,
+    "computed_upper_gap": 5.595654658698853e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.6331858085726434,
+      1.3730269362871745,
+      3.8710312269762075
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 2.094625843045602e-11,
+    "x": [
+      0.6331858087012209,
+      1.373026936578777,
+      3.8710312278176158
+    ],
+    "capacity": 0.4912695101765669,
+    "cone_residual": -2.149391775674303e-12,
+    "stationarity_norm": 6.169827671159338e-11,
+    "multiplier": 1.6413350465728744,
+    "computed_upper_gap": 3.527872060380875e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.6331858077059741,
+      1.3730269367228476,
+      3.871031223734374
+    ],
+    "raw_cone_residual": 1.5543122344752192e-15,
+    "feasibility_mixing_fraction": 2.0967390824747356e-11,
+    "x": [
+      0.6331858082184112,
+      1.3730269378468407,
+      3.871031226922594
+    ],
+    "capacity": 0.49126951017656495,
+    "cone_residual": -2.150279954094003e-12,
+    "stationarity_norm": 1.2041143858822962e-09,
+    "multiplier": 1.6413350465977072,
+    "computed_upper_gap": 3.529333715028208e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      0.9784399435434279,
+      1.6299375532616194,
+      3.835542315110348
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 8.658100765369768e-12,
+    "x": [
+      0.9784399436622394,
+      1.629937553465168,
+      3.8355423156004513
+    ],
+    "capacity": 0.6083694940438805,
+    "cone_residual": -2.0836665726164938e-12,
+    "stationarity_norm": 4.799551414711721e-11,
+    "multiplier": 0.8168872967510015,
+    "computed_upper_gap": 1.7021207599779635e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.9784399388915844,
+      1.6299375577872348,
+      3.8355423028668656
+    ],
+    "raw_cone_residual": 2.6201263381153694e-14,
+    "feasibility_mixing_fraction": 8.864330927671595e-12,
+    "x": [
+      0.9784399407979589,
+      1.6299375609687352,
+      3.835542310364902
+    ],
+    "capacity": 0.6083694940438602,
+    "cone_residual": -2.107425345343472e-12,
+    "stationarity_norm": 4.553606175826809e-09,
+    "multiplier": 0.8168872968207886,
+    "computed_upper_gap": 1.721584287820458e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 17,
+    "raw_x": [
+      1.308791274135255,
+      1.8167941950294677,
+      3.5354966411892095
+    ],
+    "raw_cone_residual": -2.220446049250313e-16,
+    "feasibility_mixing_fraction": 4.546238908339606e-12,
+    "x": [
+      1.3087912736156586,
+      1.8167941943112444,
+      3.5354966397988212
+    ],
+    "capacity": 0.7017936326706409,
+    "cone_residual": -1.9977353105105067e-12,
+    "stationarity_norm": 1.3353136123895575e-09,
+    "multiplier": 0.41731688445021864,
+    "computed_upper_gap": 8.336934305716173e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      1.3087912688463972,
+      1.816794198690214,
+      3.5354966293448395
+    ],
+    "raw_cone_residual": 3.597122599785507e-14,
+    "feasibility_mixing_fraction": 4.6958538867327135e-12,
+    "x": [
+      1.308791270865028,
+      1.8167942014955223,
+      3.5354966348115133
+    ],
+    "capacity": 0.701793632670629,
+    "cone_residual": -2.027711332175386e-12,
+    "stationarity_norm": 4.432548976372479e-09,
+    "multiplier": 0.4173168844827927,
+    "computed_upper_gap": 8.46250569081693e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 22,
+    "raw_x": [
+      1.6397428540748387,
+      1.9351079838811123,
+      2.930294700641053
+    ],
+    "raw_cone_residual": -4.440892098500626e-16,
+    "feasibility_mixing_fraction": 2.466209902333424e-12,
+    "x": [
+      1.6397428533091993,
+      1.935107982979255,
+      2.930294699280169
+    ],
+    "capacity": 0.7739497384261422,
+    "cone_residual": -1.8776091792460647e-12,
+    "stationarity_norm": 1.5607310661941648e-10,
+    "multiplier": 0.1627006073758206,
+    "computed_upper_gap": 3.054882188345897e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau16_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      1.6397428467273045,
+      1.9351080011692814,
+      2.9302946873943907
+    ],
+    "raw_cone_residual": 3.8191672047105385e-14,
+    "feasibility_mixing_fraction": 2.5528666117020077e-12,
+    "x": [
+      1.6397428464497916,
+      1.935108000843536,
+      2.930294686906068
+    ],
+    "capacity": 0.7739497384261348,
+    "cone_residual": -1.9049206656518436e-12,
+    "stationarity_norm": 5.817501437197075e-09,
+    "multiplier": 0.16270060740802125,
+    "computed_upper_gap": 3.100219982269052e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 59,
+    "raw_x": [
+      0.24895294974466053,
+      1.0573864857397757,
+      3.7529013657759323
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.8943305900051016e-10,
+    "x": [
+      0.24895295593510774,
+      1.0573865121245942,
+      3.7529014594935868
+    ],
+    "capacity": 0.336820752599084,
+    "cone_residual": -2.1944668304740844e-12,
+    "stationarity_norm": 1.0858102859110456e-07,
+    "multiplier": 6.209772609789911,
+    "computed_upper_gap": 1.3658579589690189e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 11,
+    "raw_x": [
+      0.2489529436324778,
+      1.0573865446589106,
+      3.752901438066672
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 1.8947129000028318e-10,
+    "x": [
+      0.2489529435429481,
+      1.0573865443705843,
+      3.752901437115378
+    ],
+    "capacity": 0.33682075259904987,
+    "cone_residual": -2.1953550088937845e-12,
+    "stationarity_norm": 1.345750638188727e-09,
+    "multiplier": 6.209772609919152,
+    "computed_upper_gap": 1.3632660232730186e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 12,
+    "raw_x": [
+      0.48961185439934657,
+      1.314714618342178,
+      4.0666075075003825
+    ],
+    "raw_cone_residual": 3.3306690738754696e-15,
+    "feasibility_mixing_fraction": 3.8367107588042287e-11,
+    "x": [
+      0.48961185358151565,
+      1.3147146161697956,
+      4.066607500810229
+    ],
+    "capacity": 0.43803654330973807,
+    "cone_residual": -2.176703262080082e-12,
+    "stationarity_norm": 7.639236322862457e-09,
+    "multiplier": 2.4847826009142016,
+    "computed_upper_gap": 5.408790014120698e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.48961185363827775,
+      1.3147146108620844,
+      4.0666074944933825
+    ],
+    "raw_cone_residual": 7.327471962526033e-15,
+    "feasibility_mixing_fraction": 3.850609200198944e-11,
+    "x": [
+      0.4896118546097149,
+      1.3147146134943628,
+      4.066607502664864
+    ],
+    "capacity": 0.4380365433096983,
+    "cone_residual": -2.1804780203638074e-12,
+    "stationarity_norm": 4.083372921799717e-09,
+    "multiplier": 2.4847826009099876,
+    "computed_upper_gap": 5.418058310491759e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 1435,
+    "raw_x": [
+      0.6831898364693865,
+      1.4909058214076565,
+      4.1852009265074335
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 1.9361240077613627e-11,
+    "x": [
+      0.6831898336780414,
+      1.4909058153289503,
+      4.185200909463054
+    ],
+    "capacity": 0.5104029811108488,
+    "cone_residual": -2.149391775674303e-12,
+    "stationarity_norm": 1.891718260059923e-09,
+    "multiplier": 1.5930818097074915,
+    "computed_upper_gap": 3.4241664826895517e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      0.6831898319727374,
+      1.4909058175612413,
+      4.18520090435296
+    ],
+    "raw_cone_residual": 1.5543122344752192e-15,
+    "feasibility_mixing_fraction": 1.9380773368518465e-11,
+    "x": [
+      0.68318983243088,
+      1.490905818573813,
+      4.185200907214904
+    ],
+    "capacity": 0.510402981110846,
+    "cone_residual": -2.1505019986989282e-12,
+    "stationarity_norm": 9.990302079595077e-10,
+    "multiplier": 1.593081809710794,
+    "computed_upper_gap": 3.4259282773709185e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      1.0604098840095968,
+      1.775561250524509,
+      4.16133681880771
+    ],
+    "raw_cone_residual": 4.218847493575595e-15,
+    "feasibility_mixing_fraction": 8.033629877623799e-12,
+    "x": [
+      1.0604098857545814,
+      1.7755612534519707,
+      4.16133682567995
+    ],
+    "capacity": 0.6341666486586547,
+    "cone_residual": -2.0876633755051444e-12,
+    "stationarity_norm": 7.916705243501523e-11,
+    "multiplier": 0.8000257746921026,
+    "computed_upper_gap": 1.670184525997959e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 156,
+    "raw_x": [
+      1.0604098886633033,
+      1.7755612579029023,
+      4.1613368368646935
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 8.006167014625638e-12,
+    "x": [
+      1.0604098858513753,
+      1.7755612532002036,
+      4.161336825854286
+    ],
+    "capacity": 0.6341666486586888,
+    "cone_residual": -2.084332706431269e-12,
+    "stationarity_norm": 2.1477078339245715e-10,
+    "multiplier": 0.800025774691978,
+    "computed_upper_gap": 1.6675200111824747e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      1.4243502334578901,
+      1.983584142549165,
+      3.8490892175550186
+    ],
+    "raw_cone_residual": 3.042011087472929e-14,
+    "feasibility_mixing_fraction": 4.319304604971901e-12,
+    "x": [
+      1.4243502381853566,
+      1.9835841491358832,
+      3.8490892303438633
+    ],
+    "capacity": 0.7339905267824207,
+    "cone_residual": -2.0230483954719602e-12,
+    "stationarity_norm": 1.0102683197222818e-09,
+    "multiplier": 0.4110605379345988,
+    "computed_upper_gap": 8.315980834226385e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      1.424350236933146,
+      1.9835841517167523,
+      3.8490892279238063
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.203070185820645e-12,
+    "x": [
+      1.4243502371016614,
+      1.9835841519544826,
+      3.8490892283924163
+    ],
+    "capacity": 0.7339905267824178,
+    "cone_residual": -1.9984014443252818e-12,
+    "stationarity_norm": 8.249086029360037e-11,
+    "multiplier": 0.41106053793515934,
+    "computed_upper_gap": 8.214639908607284e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      1.7903095061298036,
+      2.1153420987763685,
+      3.1993539999342686
+    ],
+    "raw_cone_residual": 3.1086244689504383e-15,
+    "feasibility_mixing_fraction": 2.2869554916045498e-12,
+    "x": [
+      1.790309500447861,
+      2.115342092064565,
+      3.1993539897877836
+    ],
+    "capacity": 0.8116329530066195,
+    "cone_residual": -1.880273714505165e-12,
+    "stationarity_norm": 2.094065525515745e-09,
+    "multiplier": 0.16061300809372597,
+    "computed_upper_gap": 3.020081109540387e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "three_level_tau256_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 13,
+    "raw_x": [
+      1.790309497772582,
+      2.1153420990260363,
+      3.1993539849643744
+    ],
+    "raw_cone_residual": 8.881784197001252e-16,
+    "feasibility_mixing_fraction": 2.282352081592614e-12,
+    "x": [
+      1.7903094977708205,
+      2.1153420990256526,
+      3.1993539849685835
+    ],
+    "capacity": 0.8116329530065939,
+    "cone_residual": -1.878941446875615e-12,
+    "stationarity_norm": 1.1675055208034373e-12,
+    "multiplier": 0.16061300809427817,
+    "computed_upper_gap": 3.0178243781934275e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.11832168665805932,
+      0.18670045161535104,
+      0.5393245433552809,
+      1.3499838598206224,
+      2.7065474624055907
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.3694007226107416e-10,
+    "x": [
+      0.11832168663798698,
+      0.1867004516139019,
+      0.5393245434065617,
+      1.3499838599483645,
+      2.7065474626592647
+    ],
+    "capacity": 0.35854838429027575,
+    "cone_residual": -2.1944668304740844e-12,
+    "stationarity_norm": 1.2332327572849874e-09,
+    "multiplier": 13.710554105260108,
+    "computed_upper_gap": 3.008736026704835e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 16,
+    "raw_x": [
+      0.1183216866105376,
+      0.18670045157366416,
+      0.5393245432883543,
+      1.3499838594108393,
+      2.7065474611714295
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.3694007226107416e-10,
+    "x": [
+      0.11832168662530673,
+      0.18670045162719157,
+      0.5393245434984467,
+      1.349983859936103,
+      2.706547462222084
+    ],
+    "capacity": 0.35854838429027536,
+    "cone_residual": -2.1944668304740844e-12,
+    "stationarity_norm": 7.438251187004811e-10,
+    "multiplier": 13.710554105915852,
+    "computed_upper_gap": 3.008735768825476e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 17,
+    "raw_x": [
+      0.2000400485585687,
+      0.2424984723533656,
+      0.4946981053379163,
+      1.2289960024750228,
+      2.482306085809788
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 8.824697267872358e-11,
+    "x": [
+      0.2000400485628918,
+      0.24249847236563185,
+      0.4946981053826975,
+      1.2289960025869058,
+      2.4823060860337733
+    ],
+    "capacity": 0.4316470943719154,
+    "cone_residual": -2.173483615308669e-12,
+    "stationarity_norm": 4.328557355356813e-10,
+    "multiplier": 3.3765767739894255,
+    "computed_upper_gap": 7.338934793735386e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 17,
+    "raw_x": [
+      0.20004004789415114,
+      0.24249847220117915,
+      0.4946981075710848,
+      1.2289959938460155,
+      2.4823060862067647
+    ],
+    "raw_cone_residual": 6.661338147750939e-16,
+    "feasibility_mixing_fraction": 8.830041294467598e-11,
+    "x": [
+      0.2000400481667169,
+      0.2424984725386267,
+      0.49469810827924937,
+      1.228995995605966,
+      2.482306089759488
+    ],
+    "capacity": 0.43164709437191306,
+    "cone_residual": -2.1742607714259066e-12,
+    "stationarity_norm": 1.6333659849012863e-08,
+    "multiplier": 3.3765767812921657,
+    "computed_upper_gap": 7.342269873121944e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 18,
+    "raw_x": [
+      0.24133203875799966,
+      0.2725793386736434,
+      0.45680482394255084,
+      1.097870262819288,
+      2.239070066793915
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 4.466701508101945e-11,
+    "x": [
+      0.241332038571364,
+      0.2725793384665041,
+      0.45680482360727304,
+      1.0978702620154641,
+      2.239070065152529
+    ],
+    "capacity": 0.46184920104748944,
+    "cone_residual": -2.149169731069378e-12,
+    "stationarity_norm": 1.5348811717421255e-09,
+    "multiplier": 1.6715740873842722,
+    "computed_upper_gap": 3.5925027141400942e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 16,
+    "raw_x": [
+      0.24133203409417356,
+      0.27257934332313416,
+      0.456804816936561,
+      1.0978702619302472,
+      2.239070048454596
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 4.466701508101945e-11,
+    "x": [
+      0.2413320352148995,
+      0.27257934459263167,
+      0.4568048190759197,
+      1.0978702670738865,
+      2.2390700589428643
+    ],
+    "capacity": 0.46184920104748955,
+    "cone_residual": -2.1490587087669155e-12,
+    "stationarity_norm": 3.711663453014842e-08,
+    "multiplier": 1.6715740941668935,
+    "computed_upper_gap": 3.595984583242116e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 18,
+    "raw_x": [
+      0.2936684896980859,
+      0.3129817776665166,
+      0.4170929076982475,
+      0.8588217434192637,
+      1.8019512986058315
+    ],
+    "raw_cone_residual": 1.6653345369377348e-16,
+    "feasibility_mixing_fraction": 1.846583090694591e-11,
+    "x": [
+      0.2936684899671042,
+      0.3129817779547744,
+      0.41709290808801863,
+      0.8588217442255485,
+      1.8019513002954808
+    ],
+    "capacity": 0.4938759614199505,
+    "cone_residual": -2.08394412837265e-12,
+    "stationarity_norm": 3.3255253758401917e-09,
+    "multiplier": 0.6154272485208127,
+    "computed_upper_gap": 1.2825454919795508e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 17,
+    "raw_x": [
+      0.29366847891682774,
+      0.31298178503628465,
+      0.41709289761175056,
+      0.8588217780465546,
+      1.8019511692074006
+    ],
+    "raw_cone_residual": 9.880984919163893e-15,
+    "feasibility_mixing_fraction": 1.8628883874525852e-11,
+    "x": [
+      0.29366848319121963,
+      0.3129817895933459,
+      0.41709290369036117,
+      0.8588217905665679,
+      1.8019511954743854
+    ],
+    "capacity": 0.4938759614199447,
+    "cone_residual": -2.0926593791159576e-12,
+    "stationarity_norm": 5.6614229836487126e-08,
+    "multiplier": 0.6154272532351368,
+    "computed_upper_gap": 1.2964267363660233e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 21,
+    "raw_x": [
+      0.32674598863952026,
+      0.33961064610484154,
+      0.4033992610023457,
+      0.6592071863691429,
+      1.4133623362788426
+    ],
+    "raw_cone_residual": 5.551115123125783e-16,
+    "feasibility_mixing_fraction": 9.70151396876397e-12,
+    "x": [
+      0.32674598807015287,
+      0.33961064551387726,
+      0.40339926030349793,
+      0.6592071852309723,
+      1.4133623338369705
+    ],
+    "capacity": 0.5108788844686001,
+    "cone_residual": -1.998623488930207e-12,
+    "stationarity_norm": 3.6118092920210997e-09,
+    "multiplier": 0.2807204209397275,
+    "computed_upper_gap": 5.610892142228129e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 18,
+    "raw_x": [
+      0.3267459971558683,
+      0.33961065121389195,
+      0.4033992561446082,
+      0.6592072023047982,
+      1.4133623746415926
+    ],
+    "raw_cone_residual": 1.1102230246251565e-14,
+    "feasibility_mixing_fraction": 9.794487976749732e-12,
+    "x": [
+      0.32674599155632333,
+      0.33961064539470964,
+      0.4033992492355632,
+      0.6592071910183892,
+      1.4133623504415413
+    ],
+    "capacity": 0.5108788844685975,
+    "cone_residual": -2.0071722062198205e-12,
+    "stationarity_norm": 1.407167881046276e-08,
+    "multiplier": 0.28072041261668274,
+    "computed_upper_gap": 5.639822423082183e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 22,
+    "raw_x": [
+      0.3536758875862815,
+      0.3615288178762993,
+      0.39753338237760494,
+      0.5078679275624614,
+      0.9493684732199519
+    ],
+    "raw_cone_residual": 2.942091015256665e-15,
+    "feasibility_mixing_fraction": 5.275284717293659e-12,
+    "x": [
+      0.35367588695498603,
+      0.3615288172314354,
+      0.3975333816702669,
+      0.5078679266617498,
+      0.9493684715370199
+    ],
+    "capacity": 0.5218462754941452,
+    "cone_residual": -1.879996158749009e-12,
+    "stationarity_norm": 1.0380900858534861e-09,
+    "multiplier": 0.11703911762339536,
+    "computed_upper_gap": 2.2003596523809362e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau0.25_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 14,
+    "raw_x": [
+      0.35367588911258036,
+      0.3615288180046962,
+      0.397533384543472,
+      0.507867936659852,
+      0.9493684606340814
+    ],
+    "raw_cone_residual": 7.494005416219807e-15,
+    "feasibility_mixing_fraction": 5.297056163563879e-12,
+    "x": [
+      0.3536758871228507,
+      0.36152881597123754,
+      0.3975333823092567,
+      0.5078679338084938,
+      0.949368455304767
+    ],
+    "capacity": 0.5218462754941449,
+    "cone_residual": -1.8831047832179593e-12,
+    "stationarity_norm": 4.138009652874171e-09,
+    "multiplier": 0.11703911906358386,
+    "computed_upper_gap": 2.204425865959504e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.14578493377298188,
+      0.26066044908067637,
+      0.7412120578535467,
+      1.767609159901903,
+      3.522862753035146
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 3.29832558994491e-10,
+    "x": [
+      0.14578493541848128,
+      0.2606604520503999,
+      0.7412120663559548,
+      1.7676091802010743,
+      3.522862793495087
+    ],
+    "capacity": 0.29748523614501043,
+    "cone_residual": -2.194577852776547e-12,
+    "stationarity_norm": 2.554109552872876e-08,
+    "multiplier": 9.707165880247187,
+    "computed_upper_gap": 2.1304870847514118e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 14,
+    "raw_x": [
+      0.1457849357920055,
+      0.2606604502196141,
+      0.7412120683201945,
+      1.7676091751176681,
+      3.522862791198084
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 3.2979927256305614e-10,
+    "x": [
+      0.1457849358798145,
+      0.26066045040421665,
+      0.741212068902848,
+      1.7676091765301625,
+      3.5228627940166883
+    ],
+    "capacity": 0.29748523614501077,
+    "cone_residual": -2.1944668304740844e-12,
+    "stationarity_norm": 3.7985816579539815e-09,
+    "multiplier": 9.707165883087763,
+    "computed_upper_gap": 2.1302092026272735e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.29320908951024005,
+      0.3946689911460498,
+      0.8419433911707613,
+      1.8854374624634829,
+      3.7387701182703017
+    ],
+    "raw_cone_residual": 1.1102230246251565e-16,
+    "feasibility_mixing_fraction": 6.661491282207348e-11,
+    "x": [
+      0.2932090892537385,
+      0.3946689908074794,
+      0.841943390467312,
+      1.885437460898697,
+      3.7387701151690913
+    ],
+    "capacity": 0.383913611834425,
+    "cone_residual": -2.1735946376111315e-12,
+    "stationarity_norm": 1.7024068593074463e-09,
+    "multiplier": 3.2837081394702254,
+    "computed_upper_gap": 7.137458131936814e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 15,
+    "raw_x": [
+      0.29320908577444954,
+      0.3946689849675014,
+      0.8419433790140051,
+      1.8854374634099986,
+      3.7387700155542953
+    ],
+    "raw_cone_residual": 3.4416913763379853e-15,
+    "feasibility_mixing_fraction": 6.681659449372532e-11,
+    "x": [
+      0.29320908941159385,
+      0.3946689898699255,
+      0.8419433894911735,
+      1.88543748688298,
+      3.738770062102286
+    ],
+    "capacity": 0.383913611834414,
+    "cone_residual": -2.176925306685007e-12,
+    "stationarity_norm": 4.4050027996122663e-08,
+    "multiplier": 3.283708141408142,
+    "computed_upper_gap": 7.1535617660428645e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 18,
+    "raw_x": [
+      0.3947395958008002,
+      0.4834000882634219,
+      0.8833561669854753,
+      1.869066565651148,
+      3.6830942309681447
+    ],
+    "raw_cone_residual": 3.4416913763379853e-15,
+    "feasibility_mixing_fraction": 3.380618434493135e-11,
+    "x": [
+      0.3947395932051097,
+      0.48340008508827625,
+      0.8833561611943901,
+      1.8690665534058275,
+      3.683094206839601
+    ],
+    "capacity": 0.4355307531818746,
+    "cone_residual": -2.151945288630941e-12,
+    "stationarity_norm": 2.2995183935097666e-08,
+    "multiplier": 1.8823807897087883,
+    "computed_upper_gap": 4.052190547781107e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 18,
+    "raw_x": [
+      0.3947395858112304,
+      0.483400086134459,
+      0.883356185019245,
+      1.8690665277106435,
+      3.6830941893616407
+    ],
+    "raw_cone_residual": 3.774758283725532e-15,
+    "feasibility_mixing_fraction": 3.381638852822255e-11,
+    "x": [
+      0.39473958576675033,
+      0.4834000860835394,
+      0.8833561849373146,
+      1.8690665275451532,
+      3.6830941890370403
+    ],
+    "capacity": 0.4355307531818732,
+    "cone_residual": -2.152611422445716e-12,
+    "stationarity_norm": 3.527677746880723e-08,
+    "multiplier": 1.8823808033833398,
+    "computed_upper_gap": 4.055352954831744e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.5566336691871172,
+      0.6230481988216695,
+      0.9255635973020677,
+      1.7166584280312607,
+      3.3000961764898555
+    ],
+    "raw_cone_residual": 2.5091040356528538e-14,
+    "feasibility_mixing_fraction": 1.425364401275977e-11,
+    "x": [
+      0.5566336754143203,
+      0.6230482057934223,
+      0.925563607664316,
+      1.716658447255865,
+      3.30009621344882
+    ],
+    "capacity": 0.5074197672768281,
+    "cone_residual": -2.106537166923772e-12,
+    "stationarity_norm": 8.090151621391741e-08,
+    "multiplier": 0.80694356505748,
+    "computed_upper_gap": 1.7173100922721143e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 19,
+    "raw_x": [
+      0.5566337096624557,
+      0.623048135737608,
+      0.9255635996481439,
+      1.716658376519773,
+      3.3000962951608726
+    ],
+    "raw_cone_residual": 4.6629367034256575e-15,
+    "feasibility_mixing_fraction": 1.3994842807453984e-11,
+    "x": [
+      0.556633718173585,
+      0.6230481452657629,
+      0.9255636138079352,
+      1.716658402787643,
+      3.3000963456597505
+    ],
+    "capacity": 0.5074197672768442,
+    "cone_residual": -2.088218487017457e-12,
+    "stationarity_norm": 2.980570370263182e-08,
+    "multiplier": 0.8069435533680805,
+    "computed_upper_gap": 1.6874434593846745e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 21,
+    "raw_x": [
+      0.6833109486188018,
+      0.7311986322213517,
+      0.9456581742802641,
+      1.503908150353491,
+      2.722969541841641
+    ],
+    "raw_cone_residual": 2.6645352591003757e-15,
+    "feasibility_mixing_fraction": 7.33666927162407e-12,
+    "x": [
+      0.6833109488141219,
+      0.7311986324311734,
+      0.9456581745546316,
+      1.5039081507938663,
+      2.7229695426410854
+    ],
+    "capacity": 0.554470563798806,
+    "cone_residual": -2.0002888234671445e-12,
+    "stationarity_norm": 2.5499166499136456e-09,
+    "multiplier": 0.38244030322755235,
+    "computed_upper_gap": 7.650084030559161e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.6833109548070356,
+      0.7311986302717469,
+      0.9456581757528943,
+      1.5039081568951564,
+      2.7229695559282736
+    ],
+    "raw_cone_residual": 2.7755575615628914e-15,
+    "feasibility_mixing_fraction": 7.33740796765436e-12,
+    "x": [
+      0.6833109526161084,
+      0.7311986279280888,
+      0.9456581727248501,
+      1.503908152083609,
+      2.72296954721861
+    ],
+    "capacity": 0.5544705637988061,
+    "cone_residual": -2.0002888234671445e-12,
+    "stationarity_norm": 6.6596971129981945e-09,
+    "multiplier": 0.38244030256082273,
+    "computed_upper_gap": 7.651093336975052e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      0.7962256145776242,
+      0.8251474524246519,
+      0.9500351136796935,
+      1.2521080775707667,
+      1.929416629081852
+    ],
+    "raw_cone_residual": 3.3306690738754696e-16,
+    "feasibility_mixing_fraction": 3.9723286737311166e-12,
+    "x": [
+      0.7962256150877324,
+      0.8251474529537345,
+      0.9500351142905663,
+      1.252108078378715,
+      1.929416630329607
+    ],
+    "capacity": 0.5873112380458095,
+    "cone_residual": -1.8781642907583773e-12,
+    "stationarity_norm": 1.1535022501374018e-09,
+    "multiplier": 0.15277334326953004,
+    "computed_upper_gap": 2.869369860884459e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau1_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 19,
+    "raw_x": [
+      0.7962256303085347,
+      0.8251474508791471,
+      0.9500351009069635,
+      1.2521080961847026,
+      1.929416659236453
+    ],
+    "raw_cone_residual": 7.66053886991358e-15,
+    "feasibility_mixing_fraction": 3.998781688602691e-12,
+    "x": [
+      0.7962256260610509,
+      0.8251474464778276,
+      0.9500350958412198,
+      1.2521080895111174,
+      1.9294166489556728
+    ],
+    "capacity": 0.5873112380458086,
+    "cone_residual": -1.8833823389741156e-12,
+    "stationarity_norm": 1.2888971234896528e-08,
+    "multiplier": 0.15277334164743525,
+    "computed_upper_gap": 2.8817361507015557e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.18141685803391205,
+      0.34206098282056363,
+      0.990753818612081,
+      2.3079559333845125,
+      4.526676347628911
+    ],
+    "raw_cone_residual": 3.9968028886505635e-15,
+    "feasibility_mixing_fraction": 2.466082455419541e-10,
+    "x": [
+      0.18141685768055374,
+      0.3420609821807884,
+      0.9907538168143025,
+      2.307955929230762,
+      4.526676339501379
+    ],
+    "capacity": 0.2998478412313248,
+    "cone_residual": -2.198463633362735e-12,
+    "stationarity_norm": 5.6883226474497884e-08,
+    "multiplier": 7.299928033814735,
+    "computed_upper_gap": 1.6057254845717894e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      0.18141685251829384,
+      0.3420609821639938,
+      0.990753830008605,
+      2.3079559223553052,
+      4.526676313312032
+    ],
+    "raw_cone_residual": 1.545430450278218e-13,
+    "feasibility_mixing_fraction": 2.802369159686525e-10,
+    "x": [
+      0.18141685260961143,
+      0.3420609823662648,
+      0.9907538306572885,
+      2.307955923905234,
+      4.526676316373972
+    ],
+    "capacity": 0.29984784123023217,
+    "cone_residual": -2.348121697082206e-12,
+    "stationarity_norm": 3.4133009249366484e-09,
+    "multiplier": 7.299928038983774,
+    "computed_upper_gap": 1.7141150483805106e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 19,
+    "raw_x": [
+      0.37161449772481836,
+      0.5310528212155231,
+      1.1830248928360734,
+      2.5322273686671553,
+      4.837184992485209
+    ],
+    "raw_cone_residual": 2.220446049250313e-15,
+    "feasibility_mixing_fraction": 4.972630395381856e-11,
+    "x": [
+      0.3716144970861787,
+      0.5310528203093723,
+      1.183024890835346,
+      2.5322273643991875,
+      4.837184984341394
+    ],
+    "capacity": 0.3908803472449707,
+    "cone_residual": -2.1755930390554568e-12,
+    "stationarity_norm": 1.2701333918442211e-08,
+    "multiplier": 2.8157546730816323,
+    "computed_upper_gap": 6.126366463466426e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 18,
+    "raw_x": [
+      0.3716144988118049,
+      0.5310528131326232,
+      1.183024900960557,
+      2.53222733512462,
+      4.837185009183749
+    ],
+    "raw_cone_residual": 2.220446049250313e-15,
+    "feasibility_mixing_fraction": 4.972630395381856e-11,
+    "x": [
+      0.37161449935329965,
+      0.5310528139129342,
+      1.183024902716756,
+      2.532227338898234,
+      4.837185016401358
+    ],
+    "capacity": 0.39088034724496995,
+    "cone_residual": -2.176037128265307e-12,
+    "stationarity_norm": 2.560349349886766e-08,
+    "multiplier": 2.815754672930887,
+    "computed_upper_gap": 6.128934816062404e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.5205177595101613,
+      0.673019292474939,
+      1.3012384854297419,
+      2.616321354427994,
+      4.88637252126958
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 2.5118720763055957e-11,
+    "x": [
+      0.5205177554682816,
+      0.6730192872523205,
+      1.3012384753426975,
+      2.616321334156573,
+      4.886372483416414
+    ],
+    "capacity": 0.45361554684225885,
+    "cone_residual": -2.149391775674303e-12,
+    "stationarity_norm": 4.7556872579535e-09,
+    "multiplier": 1.758972850851028,
+    "computed_upper_gap": 3.7807820900837035e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.52051777240218,
+      0.673019289281153,
+      1.3012384780791355,
+      2.6163212992632445,
+      4.886372677152838
+    ],
+    "raw_cone_residual": 5.551115123125783e-15,
+    "feasibility_mixing_fraction": 2.5235293662215364e-11,
+    "x": [
+      0.520517767548372,
+      0.6730192830087434,
+      1.3012384659624379,
+      2.616321274910969,
+      4.886372631678094
+    ],
+    "capacity": 0.45361554684224986,
+    "cone_residual": -2.1540547123777287e-12,
+    "stationarity_norm": 5.127277233834753e-08,
+    "multiplier": 1.7589728468545474,
+    "computed_upper_gap": 3.7959341422002e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      0.7984700156666934,
+      0.9289600124540732,
+      1.4699410483962003,
+      2.6169311210066613,
+      4.630812717987131
+    ],
+    "raw_cone_residual": 3.6637359812630166e-14,
+    "feasibility_mixing_fraction": 1.0728597145372858e-11,
+    "x": [
+      0.7984700107718563,
+      0.9289600067608427,
+      1.4699410393927785,
+      2.6169311049841735,
+      4.630812689639424
+    ],
+    "capacity": 0.5560602841823383,
+    "cone_residual": -2.1169732633552485e-12,
+    "stationarity_norm": 2.1995722274534934e-08,
+    "multiplier": 0.8494782764698022,
+    "computed_upper_gap": 1.7996129638833452e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 22,
+    "raw_x": [
+      0.7984700350862349,
+      0.9289599849235575,
+      1.4699410874828716,
+      2.6169310622264685,
+      4.630812832373694
+    ],
+    "raw_cone_residual": 5.995204332975845e-15,
+    "feasibility_mixing_fraction": 1.0439369152851257e-11,
+    "x": [
+      0.7984700268760314,
+      0.9289599753731054,
+      1.4699410723758275,
+      2.616931035337555,
+      4.630812784797072
+    ],
+    "capacity": 0.556060284182362,
+    "cone_residual": -2.0892176877396196e-12,
+    "stationarity_norm": 1.762539794649704e-08,
+    "multiplier": 0.8494782757988595,
+    "computed_upper_gap": 1.775573451556925e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 24,
+    "raw_x": [
+      1.0543448601727985,
+      1.1552650721534927,
+      1.5724601692484703,
+      2.4572847056749008,
+      4.026126203622842
+    ],
+    "raw_cone_residual": 4.463096558993129e-14,
+    "feasibility_mixing_fraction": 5.674188974629509e-12,
+    "x": [
+      1.054344861812974,
+      1.1552650739515,
+      1.5724601716988245,
+      2.4572847095083925,
+      4.026126209907975
+    ],
+    "capacity": 0.6347456849809138,
+    "cone_residual": -2.034816759532987e-12,
+    "stationarity_norm": 9.195598924318458e-09,
+    "multiplier": 0.42806157273637035,
+    "computed_upper_gap": 8.712523530882202e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 22,
+    "raw_x": [
+      1.0543448660979862,
+      1.1552650791059582,
+      1.5724601795525273,
+      2.4572847004213725,
+      4.026126257182106
+    ],
+    "raw_cone_residual": 1.7763568394002505e-15,
+    "feasibility_mixing_fraction": 5.46174919640136e-12,
+    "x": [
+      1.0543448621677995,
+      1.1552650748003859,
+      1.5724601736950328,
+      2.457284691272021,
+      4.026126242195407
+    ],
+    "capacity": 0.6347456849809283,
+    "cone_residual": -1.999733711954832e-12,
+    "stationarity_norm": 9.503932667902267e-09,
+    "multiplier": 0.428061572529365,
+    "computed_upper_gap": 8.562500233424523e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 24,
+    "raw_x": [
+      1.30618698959563,
+      1.3665008486928665,
+      1.6130776946211283,
+      2.128465753753075,
+      3.0376230486936833
+    ],
+    "raw_cone_residual": 6.661338147750939e-16,
+    "feasibility_mixing_fraction": 2.9604612728145234e-12,
+    "x": [
+      1.3061869912538424,
+      1.3665008504280918,
+      1.6130776966711604,
+      2.128465756460944,
+      3.037623052561642
+    ],
+    "capacity": 0.6946020174359393,
+    "cone_residual": -1.87827531306084e-12,
+    "stationarity_norm": 4.187105041360854e-09,
+    "multiplier": 0.16953931485195137,
+    "computed_upper_gap": 3.1848826127600897e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau4_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 21,
+    "raw_x": [
+      1.3061869886049997,
+      1.3665008566735317,
+      1.6130776815320589,
+      2.128465768721824,
+      3.0376230429568105
+    ],
+    "raw_cone_residual": 8.881784197001252e-16,
+    "feasibility_mixing_fraction": 2.961058506102185e-12,
+    "x": [
+      1.3061869898547087,
+      1.366500857981391,
+      1.6130776830776095,
+      2.128465770764027,
+      3.0376230458747706
+    ],
+    "capacity": 0.6946020174359389,
+    "cone_residual": -1.87827531306084e-12,
+    "stationarity_norm": 3.689147979271694e-09,
+    "multiplier": 0.16953931480754764,
+    "computed_upper_gap": 3.184778024304347e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 19,
+    "raw_x": [
+      0.21057994936748353,
+      0.4030420551066101,
+      1.1747419202261966,
+      2.723439409709868,
+      5.309953878006842
+    ],
+    "raw_cone_residual": 1.3322676295501878e-15,
+    "feasibility_mixing_fraction": 2.074455479417043e-10,
+    "x": [
+      0.2105799486125005,
+      0.4030420536876625,
+      1.174741916144643,
+      2.723439400283794,
+      5.309953859653729
+    ],
+    "capacity": 0.3183071911547078,
+    "cone_residual": -2.1957990981036346e-12,
+    "stationarity_norm": 3.2585580222025186e-08,
+    "multiplier": 6.521719564549471,
+    "computed_upper_gap": 1.4323217458024973e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 16,
+    "raw_x": [
+      0.21057995105165755,
+      0.4030420559528739,
+      1.1747419039131877,
+      2.7234393951930507,
+      5.30995387813639
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 2.071946037021837e-10,
+    "x": [
+      0.2105799512582783,
+      0.403042056374368,
+      1.174741905195882,
+      2.7234393982030296,
+      5.3099538840301115
+    ],
+    "capacity": 0.3183071911547173,
+    "cone_residual": -2.1944668304740844e-12,
+    "stationarity_norm": 6.063929194713283e-09,
+    "multiplier": 6.521719563804487,
+    "computed_upper_gap": 1.4311795317055602e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.43167236559387634,
+      0.6275888798976029,
+      1.4155804889045285,
+      3.00304229580376,
+      5.661024001642934
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 4.1863128111019885e-11,
+    "x": [
+      0.4316723633580131,
+      0.627588876653402,
+      1.4155804816045472,
+      3.0030422803326973,
+      5.661023972490079
+    ],
+    "capacity": 0.4156415595393311,
+    "cone_residual": -2.1740387268209815e-12,
+    "stationarity_norm": 5.832569376178414e-09,
+    "multiplier": 2.593437712818986,
+    "computed_upper_gap": 5.638324740241247e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 19,
+    "raw_x": [
+      0.43167236429545697,
+      0.6275888766823673,
+      1.4155804786432964,
+      3.003042284442076,
+      5.661023971402429
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 4.184623405555066e-11,
+    "x": [
+      0.43167236424468713,
+      0.627588876614972,
+      1.4155804785088653,
+      3.0030422841721562,
+      5.661023970905187
+    ],
+    "capacity": 0.41564155953933324,
+    "cone_residual": -2.1731505484012814e-12,
+    "stationarity_norm": 1.788058508981798e-09,
+    "multiplier": 2.5934377127714217,
+    "computed_upper_gap": 5.6359391134957306e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      0.6094040099912637,
+      0.8007962986948407,
+      1.5719402862215637,
+      3.128687381723263,
+      5.739794073031013
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 2.117658158307658e-11,
+    "x": [
+      0.6094040053035119,
+      0.8007962925382572,
+      1.5719402741467574,
+      3.1286873577007563,
+      5.739794028968498
+    ],
+    "capacity": 0.48489831255113075,
+    "cone_residual": -2.148947686464453e-12,
+    "stationarity_norm": 3.9987779653502895e-09,
+    "multiplier": 1.6559725993900647,
+    "computed_upper_gap": 3.5586411269083825e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 21,
+    "raw_x": [
+      0.6094040105532752,
+      0.8007963042823698,
+      1.5719402765076207,
+      3.1286873678104956,
+      5.73979411140156
+    ],
+    "raw_cone_residual": 8.881784197001252e-16,
+    "feasibility_mixing_fraction": 2.1189403028659047e-11,
+    "x": [
+      0.6094040060579262,
+      0.8007962983786179,
+      1.5719402649291223,
+      3.128687344775814,
+      5.739794069151282
+    ],
+    "capacity": 0.48489831255112836,
+    "cone_residual": -2.150057909489078e-12,
+    "stationarity_norm": 1.1842250514255808e-08,
+    "multiplier": 1.6559725991732623,
+    "computed_upper_gap": 3.560810955142306e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 25,
+    "raw_x": [
+      0.9545933652349955,
+      1.1239227283462259,
+      1.8070183610381811,
+      3.188667784010224,
+      5.512403252457447
+    ],
+    "raw_cone_residual": 1.1102230246251565e-15,
+    "feasibility_mixing_fraction": 8.763907465931693e-12,
+    "x": [
+      0.9545933610056193,
+      1.1239227233681168,
+      1.807018353039537,
+      3.1886677699020125,
+      5.512403228073631
+    ],
+    "capacity": 0.6026526293642314,
+    "cone_residual": -2.084776795641119e-12,
+    "stationarity_norm": 3.513114261285648e-09,
+    "multiplier": 0.8276399502936189,
+    "computed_upper_gap": 1.72547747544254e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 22,
+    "raw_x": [
+      0.9545933710148772,
+      1.123922717256977,
+      1.8070183600977276,
+      3.1886677540070054,
+      5.512403288604852
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 8.758605603329302e-12,
+    "x": [
+      0.9545933686785973,
+      1.123922714507768,
+      1.807018355682657,
+      3.1886677462223707,
+      5.512403275152902
+    ],
+    "capacity": 0.6026526293642323,
+    "cone_residual": -2.084110661826344e-12,
+    "stationarity_norm": 7.69056033738857e-09,
+    "multiplier": 0.8276399501831809,
+    "computed_upper_gap": 1.7250509635789995e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 54,
+    "raw_x": [
+      1.2867802298179578,
+      1.420000835808439,
+      1.956824094184083,
+      3.04222779136716,
+      4.870331451528513
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 4.599012866684259e-12,
+    "x": [
+      1.2867802288311476,
+      1.4200008347202664,
+      1.956824092687438,
+      3.0422277890445506,
+      4.870331447814647
+    ],
+    "capacity": 0.6972405045116198,
+    "cone_residual": -1.9984014443252818e-12,
+    "stationarity_norm": 4.670819620281465e-09,
+    "multiplier": 0.4258602463727288,
+    "computed_upper_gap": 8.510979089144488e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      1.286780264823343,
+      1.4200008808818496,
+      1.956824120760955,
+      3.0422279414793865,
+      4.870331500783536
+    ],
+    "raw_cone_residual": 2.6645352591003757e-14,
+    "feasibility_mixing_fraction": 4.709464328735632e-12,
+    "x": [
+      1.2867802285808803,
+      1.4200008408880187,
+      1.956824065650659,
+      3.0422278558050095,
+      4.870331363631143
+    ],
+    "capacity": 0.6972405045116078,
+    "cone_residual": -2.020161815607935e-12,
+    "stationarity_norm": 1.8459341539249768e-08,
+    "multiplier": 0.42586024641074977,
+    "computed_upper_gap": 8.612152680245499e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 95,
+    "raw_x": [
+      1.6219354341799337,
+      1.701188401156691,
+      2.0196375270448192,
+      2.6616929242208727,
+      3.741881978351096
+    ],
+    "raw_cone_residual": 2.808864252301646e-13,
+    "feasibility_mixing_fraction": 3.13189878170351e-12,
+    "x": [
+      1.6219354341008674,
+      1.701188401074318,
+      2.019637526949149,
+      2.661692924098355,
+      3.7418819781833403
+    ],
+    "capacity": 0.7712266762012365,
+    "cone_residual": -2.0761170560490427e-12,
+    "stationarity_norm": 8.774633492932932e-10,
+    "multiplier": 0.16938351951850575,
+    "computed_upper_gap": 3.51662067064464e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau16_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      1.6219354354785338,
+      1.7011884353288942,
+      2.0196374964892403,
+      2.6616929466736288,
+      3.7418820282607257
+    ],
+    "raw_cone_residual": 1.687538997430238e-14,
+    "feasibility_mixing_fraction": 2.533112506044233e-12,
+    "x": [
+      1.6219354288598895,
+      1.7011884283872918,
+      2.019637488249941,
+      2.6616929358178902,
+      3.7418820130030515
+    ],
+    "capacity": 0.7712266762012676,
+    "cone_residual": -1.8900436771218665e-12,
+    "stationarity_norm": 1.2349263135983706e-08,
+    "multiplier": 0.16938351947224886,
+    "computed_upper_gap": 3.2054892812051056e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.01",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 620,
+    "raw_x": [
+      0.22603291005821072,
+      0.4345170242958725,
+      1.268581587996648,
+      2.93704631775696,
+      5.718100515952365
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 1.9197466730566554e-10,
+    "x": [
+      0.22603291509654877,
+      0.4345170340073112,
+      1.2685816164033377,
+      2.9370463835616136,
+      5.718100644093176
+    ],
+    "capacity": 0.3295984980356974,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 2.434542895966377e-08,
+    "multiplier": 6.253356410966102,
+    "computed_upper_gap": 1.372575228014792e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.01",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 26,
+    "raw_x": [
+      0.22603290021786906,
+      0.43451702703572137,
+      1.268581611376507,
+      2.9370463316148547,
+      5.718100474008279
+    ],
+    "raw_cone_residual": 4.440892098500626e-16,
+    "feasibility_mixing_fraction": 1.9201341124772555e-10,
+    "x": [
+      0.22603290475415277,
+      0.43451703578203565,
+      1.2685816369655067,
+      2.937046390895941,
+      5.718100589448439
+    ],
+    "capacity": 0.32959849803569174,
+    "cone_residual": -2.1946888750790094e-12,
+    "stationarity_norm": 5.799468576433957e-08,
+    "multiplier": 6.2533564110557744,
+    "computed_upper_gap": 1.3733140770119854e-11,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.05",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.4635860868318701,
+      0.6772474799970811,
+      1.532188603989325,
+      3.2427690186676275,
+      6.0943472405849795
+    ],
+    "raw_cone_residual": 4.218847493575595e-14,
+    "feasibility_mixing_fraction": 4.0251242825005634e-11,
+    "x": [
+      0.4635860773390218,
+      0.6772474661357346,
+      1.5321885726479325,
+      3.242768952351842,
+      6.094347115966028
+    ],
+    "capacity": 0.4306467367751441,
+    "cone_residual": -2.2146728895222623e-12,
+    "stationarity_norm": 9.362204866482889e-08,
+    "multiplier": 2.5070643713101686,
+    "computed_upper_gap": 5.575701063417671e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.05",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 20,
+    "raw_x": [
+      0.4635861164018742,
+      0.6772474184919357,
+      1.532188543706162,
+      3.242768886699526,
+      6.094347214169742
+    ],
+    "raw_cone_residual": 5.551115123125783e-15,
+    "feasibility_mixing_fraction": 3.896012555444241e-11,
+    "x": [
+      0.46358611972728436,
+      0.6772474233564189,
+      1.5321885547290586,
+      3.2427689100442527,
+      6.094347258055233
+    ],
+    "capacity": 0.4306467367752401,
+    "cone_residual": -2.1789237081293322e-12,
+    "stationarity_norm": 2.3986010584927565e-08,
+    "multiplier": 2.507064371226822,
+    "computed_upper_gap": 5.4642362061492275e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.1",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      0.6558495496198623,
+      0.865633318306268,
+      1.7051450329517566,
+      3.385023127542951,
+      6.185630249070472
+    ],
+    "raw_cone_residual": 2.19824158875781e-14,
+    "feasibility_mixing_fraction": 2.000503842762689e-11,
+    "x": [
+      0.6558495162511225,
+      0.865633274267499,
+      1.705144946213707,
+      3.385022955362854,
+      6.185629934445735
+    ],
+    "capacity": 0.503155191786057,
+    "cone_residual": -2.169819879327406e-12,
+    "stationarity_norm": 1.6989160955411894e-08,
+    "multiplier": 1.61011741113507,
+    "computed_upper_gap": 3.4944344509719698e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.1",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 22,
+    "raw_x": [
+      0.6558495265107718,
+      0.8656332892748441,
+      1.7051449834371608,
+      3.3850229113221233,
+      6.185630169641632
+    ],
+    "raw_cone_residual": 4.440892098500626e-15,
+    "feasibility_mixing_fraction": 1.9692271620853803e-11,
+    "x": [
+      0.655849517517251,
+      0.8656332774080356,
+      1.7051449600720365,
+      3.3850228649486476,
+      6.185630084909785
+    ],
+    "capacity": 0.5031551917860781,
+    "cone_residual": -2.1529444893531036e-12,
+    "stationarity_norm": 3.00572630222698e-08,
+    "multiplier": 1.610117411118074,
+    "computed_upper_gap": 3.4689025783058493e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.25",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 219,
+    "raw_x": [
+      1.0327617469452635,
+      1.2196760201498555,
+      1.967709289236774,
+      3.464646691396445,
+      5.960558266431376
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 8.11031084737443e-12,
+    "x": [
+      1.0327617463042396,
+      1.2196760193943021,
+      1.9677092880228697,
+      3.4646466892652983,
+      5.96055826277086
+    ],
+    "capacity": 0.627724428735836,
+    "cone_residual": -2.0834445280115688e-12,
+    "stationarity_norm": 6.141036263187264e-09,
+    "multiplier": 0.8120690267299997,
+    "computed_upper_gap": 1.6920013363119936e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.25",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      1.0327617716687576,
+      1.2196760013087433,
+      1.9677092583692044,
+      3.464646650569017,
+      5.960558385489981
+    ],
+    "raw_cone_residual": 9.103828801926284e-15,
+    "feasibility_mixing_fraction": 8.17743346690561e-12,
+    "x": [
+      1.03276177288141,
+      1.2196760027423663,
+      1.9677092606871505,
+      3.4646466546566317,
+      5.960558392528236
+    ],
+    "capacity": 0.6277244287358428,
+    "cone_residual": -2.092548356813495e-12,
+    "stationarity_norm": 1.9248056937834194e-08,
+    "multiplier": 0.8120690267084036,
+    "computed_upper_gap": 1.7002816746468232e-12,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.5",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 57,
+    "raw_x": [
+      1.3989653024511897,
+      1.5464264935339826,
+      2.1365150437600064,
+      3.3173323790874085,
+      5.2862950572768055
+    ],
+    "raw_cone_residual": 2.220446049250313e-16,
+    "feasibility_mixing_fraction": 4.260322254323556e-12,
+    "x": [
+      1.3989652995776702,
+      1.546426490358375,
+      2.136515039375545,
+      3.317332372283924,
+      5.286295046439698
+    ],
+    "capacity": 0.72892692156421,
+    "cone_residual": -1.9981793997203567e-12,
+    "stationarity_norm": 3.6807229578368628e-09,
+    "multiplier": 0.4202454538765172,
+    "computed_upper_gap": 8.397619360195009e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C1.5",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 47,
+    "raw_x": [
+      1.3989653674798046,
+      1.5464264984886187,
+      2.1365150820314875,
+      3.3173324369811854,
+      5.286295273622083
+    ],
+    "raw_cone_residual": 4.6407322429331543e-14,
+    "feasibility_mixing_fraction": 4.4391626692210935e-12,
+    "x": [
+      1.3989653307341172,
+      1.5464264578705038,
+      2.136515025917252,
+      3.3173323498578933,
+      5.2862951347925
+    ],
+    "capacity": 0.7289269215642004,
+    "cone_residual": -2.036593116372387e-12,
+    "stationarity_norm": 1.6961322110546275e-08,
+    "multiplier": 0.4202454538680238,
+    "computed_upper_gap": 8.566361623950407e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C2",
+    "start": "unweighted_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 26,
+    "raw_x": [
+      1.7701822342264775,
+      1.8577408295466011,
+      2.2080589828251513,
+      2.9089715991099108,
+      4.077660081216855
+    ],
+    "raw_cone_residual": 7.105427357601002e-15,
+    "feasibility_mixing_fraction": 2.326036704250188e-12,
+    "x": [
+      1.77018223771527,
+      1.8577408332084062,
+      2.2080589871791716,
+      2.908971604848906,
+      4.0776600892651285
+    ],
+    "capacity": 0.8086557833359291,
+    "cone_residual": -1.8829382497642655e-12,
+    "stationarity_norm": 2.2272605284228566e-09,
+    "multiplier": 0.16746274752357376,
+    "computed_upper_gap": 3.1533524122798364e-13,
+    "quality_passed": true
+  },
+  {
+    "cell_id": "five_level_tau256_C2",
+    "start": "power_ray",
+    "solver_success": true,
+    "solver_status": 0,
+    "solver_message": "Optimization terminated successfully",
+    "iterations": 23,
+    "raw_x": [
+      1.7701822373314196,
+      1.8577408450780015,
+      2.2080589733943286,
+      2.9089716037123874,
+      4.077660119603205
+    ],
+    "raw_cone_residual": 0.0,
+    "feasibility_mixing_fraction": 2.3111081487353147e-12,
+    "x": [
+      1.7701822363087012,
+      1.8577408440051397,
+      2.2080589721208446,
+      2.908971602037499,
+      4.07766011725902
+    ],
+    "capacity": 0.8086557833359354,
+    "cone_residual": -1.8776091792460647e-12,
+    "stationarity_norm": 2.7575190586757556e-09,
+    "multiplier": 0.16746274752244886,
+    "computed_upper_gap": 3.144498690268734e-13,
+    "quality_passed": true
+  }
+]

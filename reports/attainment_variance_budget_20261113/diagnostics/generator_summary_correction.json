@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-13",
+  "original_generator_sha256": "f781376d3034188c27242c4672ff3d47f7598e2e9c5cd862ca54dd00ef0ffa0a",
+  "change": "Leave the raw finite frequency empty when solver states remain undetermined; form provisional paired statistics only on jointly resolved pairs,with their explicit denominator. Final verification retains and resolves all rows.",
+  "classification_and_draw_code_changed": false,
+  "all_original_raw_records_preserved": true,
+  "corrected_generator_sha256": "def64371aff921f6491ed26ab33b5b568dd9dcf227dff33e2d67e64b1e2964e7",
+  "all5000primary_conditions_rerun": true,
+  "byte_identical_method_states_and_cohort_hashes": true,
+  "entire_corrected_workflow_passed_in_isolation": true
+}

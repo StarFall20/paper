@@ -1,0 +1,11 @@
+labels,method,replications,finite,outside_or_separated,unknown,finite_frequency
+80,human_only,500,448,51,1,0.896
+80,unweighted_compensation,500,6,494,0,0.012
+80,power_at_budget,500,121,379,0,0.242
+80,optimized_at_budget,500,293,207,0,0.586
+80,inverse_scale,500,466,34,0,0.932
+160,human_only,500,480,2,18,0.96
+160,unweighted_compensation,500,0,500,0,0.0
+160,power_at_budget,500,86,414,0,0.172
+160,optimized_at_budget,500,336,164,0,0.672
+160,inverse_scale,500,500,0,0,1.0

@@ -1,0 +1,1307 @@
+[
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.7971735211119721e-13,
+    "x": [
+      0.24883100169139552,
+      0.3147065083473945,
+      0.4200120259131583,
+      0.6083631398339141
+    ],
+    "multiplier": 3.6559018827028864
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 5.6565863104651726e-14,
+    "x": [
+      0.30298172754074526,
+      0.3396768767099569,
+      0.3993023182522087,
+      0.5195882079028656
+    ],
+    "multiplier": 0.9175761124285906
+  },
+  {
+    "cell_id": "four_level_mild_tau0.25_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.351485755587191e-14,
+    "x": [
+      0.33617591148530956,
+      0.35842955437611845,
+      0.3928856169643357,
+      0.45899469434346823
+    ],
+    "multiplier": 0.3747991061787415
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.288236432614667e-14,
+    "x": [
+      0.5267496884644229,
+      0.6913726052547099,
+      0.925327850112343,
+      1.3021606566851172
+    ],
+    "multiplier": 3.110741646819596
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 9.020562075079397e-16,
+    "x": [
+      0.6813773486597596,
+      0.7830632844756095,
+      0.9301336646055927,
+      1.1762323657735196
+    ],
+    "multiplier": 0.8259621980923171
+  },
+  {
+    "cell_id": "four_level_mild_tau1_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.0547118733938987e-15,
+    "x": [
+      0.7814034988017629,
+      0.841982308514482,
+      0.9280382062269584,
+      1.0694331692035672
+    ],
+    "multiplier": 0.33287322559088844
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 8.276712648580542e-14,
+    "x": [
+      0.8473050391912496,
+      1.1330174472769534,
+      1.5202601431065867,
+      2.111027940943325
+    ],
+    "multiplier": 2.76388984285387
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 5.551115123125783e-17,
+    "x": [
+      1.1254420993160448,
+      1.3108510185169313,
+      1.563338683952365,
+      1.9515717155533905
+    ],
+    "multiplier": 0.7712545303041679
+  },
+  {
+    "cell_id": "four_level_mild_tau4_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.220446049250313e-16,
+    "x": [
+      1.3117479784615156,
+      1.4215101680354776,
+      1.5702294786411604,
+      1.7979497622626617
+    ],
+    "multiplier": 0.3149948034178813
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 9.470202400052585e-14,
+    "x": [
+      1.0471983161381437,
+      1.407497367391477,
+      1.8896578353882432,
+      2.6152643060679783
+    ],
+    "multiplier": 2.6168806523560635
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.220446049250313e-16,
+    "x": [
+      1.3999696091073162,
+      1.6365368688377018,
+      1.953363779296147,
+      2.4308103229803497
+    ],
+    "multiplier": 0.7421114111733326
+  },
+  {
+    "cell_id": "four_level_mild_tau16_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 8.933825901280557e-17,
+    "x": [
+      1.6383990092788006,
+      1.7781595393490104,
+      1.9651096644201915,
+      2.246610853238538
+    ],
+    "multiplier": 0.30490652009401387
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 9.46465128492946e-14,
+    "x": [
+      1.141444371919504,
+      1.536188920865517,
+      2.062624776754649,
+      2.852410200109159
+    ],
+    "multiplier": 2.5557253526742874
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 6.938893903907228e-17,
+    "x": [
+      1.5283559078981852,
+      1.788179726716944,
+      2.134694834373188,
+      2.6545877225304673
+    ],
+    "multiplier": 0.7279736507883814
+  },
+  {
+    "cell_id": "four_level_mild_tau256_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.0122792321330962e-16,
+    "x": [
+      1.790341890342685,
+      1.9437371518378674,
+      2.1482987344553393,
+      2.4551995645393148
+    ],
+    "multiplier": 0.29960041181680247
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.3060300503105328e-13,
+    "x": [
+      0.14672996647334252,
+      2.2324583836990266
+    ],
+    "multiplier": 14.873940384925932
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 7.214762777925121e-14,
+    "x": [
+      0.21632213284962024,
+      1.9916197413791588
+    ],
+    "multiplier": 3.7799339322081633
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 7.077840272650628e-14,
+    "x": [
+      0.2508735613451317,
+      1.773739530854831
+    ],
+    "multiplier": 1.9315235010873397
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.0397942452430635e-14,
+    "x": [
+      0.2949346504371388,
+      1.415498903795293
+    ],
+    "multiplier": 0.7557253916723766
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 5.196033533493517e-15,
+    "x": [
+      0.3235538772137953,
+      1.1281743663208426
+    ],
+    "multiplier": 0.36660161386154017
+  },
+  {
+    "cell_id": "previous_two_point_tau0.25_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.0883583752587774e-15,
+    "x": [
+      0.3461873755911755,
+      0.8578386579684899
+    ],
+    "multiplier": 0.17907021822945735
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 6.5301502515526634e-15,
+    "x": [
+      0.1380223518736847,
+      2.099974285990468
+    ],
+    "multiplier": 11.988996566681005
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.1102230246251565e-16,
+    "x": [
+      0.27414491270343166,
+      2.523978535836458
+    ],
+    "multiplier": 4.169275915058983
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.1597501217190306e-16,
+    "x": [
+      0.3695138372364761,
+      2.61255628847456
+    ],
+    "multiplier": 2.430778147005045
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.1597501217190306e-16,
+    "x": [
+      0.522690946585589,
+      2.5085843959638483
+    ],
+    "multiplier": 1.082305793765029
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.0674152014954636e-13,
+    "x": [
+      0.6434953903908927,
+      2.2437530668352808
+    ],
+    "multiplier": 0.5458723809139902
+  },
+  {
+    "cell_id": "previous_two_point_tau1_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.0778258748530472e-13,
+    "x": [
+      0.7516510128436296,
+      1.8625615536020224
+    ],
+    "multiplier": 0.2561010078692715
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.3692250527449134e-15,
+    "x": [
+      0.1676526557689956,
+      2.5507916747796604
+    ],
+    "multiplier": 8.404902869555796
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 5.968416896580392e-16,
+    "x": [
+      0.3274049360878626,
+      3.014329257704043
+    ],
+    "multiplier": 3.3571228508192803
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.0532500405730103e-16,
+    "x": [
+      0.4582277364418607,
+      3.2397859938016795
+    ],
+    "multiplier": 2.151933470165641
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.440892098500626e-16,
+    "x": [
+      0.7114133656962757,
+      3.4143320827034245
+    ],
+    "multiplier": 1.0988517536359137
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 9.830333712014763e-16,
+    "x": [
+      0.952129640110295,
+      3.319905366724943
+    ],
+    "multiplier": 0.6017311810804087
+  },
+  {
+    "cell_id": "previous_two_point_tau4_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 6.705691924981499e-15,
+    "x": [
+      1.1951930759628393,
+      2.961641286157106
+    ],
+    "multiplier": 0.2914830464484726
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 6.495041916866897e-16,
+    "x": [
+      0.19772566255575114,
+      3.008344673241802
+    ],
+    "multiplier": 7.314841763762727
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.808666774861361e-16,
+    "x": [
+      0.38209591037204654,
+      3.5178543599429117
+    ],
+    "multiplier": 3.0009753484115884
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.7554167342883506e-16,
+    "x": [
+      0.5356976814645884,
+      3.78751809918256
+    ],
+    "multiplier": 1.966434962447115
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.7554167342883506e-16,
+    "x": [
+      0.8437901876603814,
+      4.049656708346357
+    ],
+    "multiplier": 1.0445365722984443
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.3322676295501878e-15,
+    "x": [
+      1.1506350698284082,
+      4.012058214071298
+    ],
+    "multiplier": 0.5897182146950329
+  },
+  {
+    "cell_id": "previous_two_point_tau16_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.915166856007381e-16,
+    "x": [
+      1.4715044600776988,
+      3.646329994189086
+    ],
+    "multiplier": 0.29128800755396095
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.1597501217190306e-16,
+    "x": [
+      0.21305024229452427,
+      3.241504179352012
+    ],
+    "multiplier": 6.9620350513045395
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.220446049250313e-16,
+    "x": [
+      0.4108960752863661,
+      3.7830097383720154
+    ],
+    "multiplier": 2.877447514828143
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.220446049250313e-16,
+    "x": [
+      0.5764575063907001,
+      4.075700370580669
+    ],
+    "multiplier": 1.8967184549979044
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.220446049250313e-16,
+    "x": [
+      0.9113009836862521,
+      4.373665629059254
+    ],
+    "multiplier": 1.018209394582951
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.6149833955452826e-15,
+    "x": [
+      1.2481920819672145,
+      4.3522220263476985
+    ],
+    "multiplier": 0.5795817067897656
+  },
+  {
+    "cell_id": "previous_two_point_tau256_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.476312672435294e-16,
+    "x": [
+      1.6030024564757417,
+      3.972176841039031
+    ],
+    "multiplier": 0.28783984779126004
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 9.878946259466783e-13,
+    "x": [
+      0.11810661256226657,
+      0.425468470099086,
+      1.6884541537799578
+    ],
+    "multiplier": 14.926713261101254
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 6.793802950219828e-15,
+    "x": [
+      0.2007090155308193,
+      0.4128133157145594,
+      1.5845448958412647
+    ],
+    "multiplier": 3.5368547994226622
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.6401234249588445e-14,
+    "x": [
+      0.24289048222381032,
+      0.3963641526202684,
+      1.4244782934133582
+    ],
+    "multiplier": 1.7083603338507543
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.1129342095388143e-14,
+    "x": [
+      0.29471945833847607,
+      0.38402797168282937,
+      1.1262017282192769
+    ],
+    "multiplier": 0.6241586151083807
+  },
+  {
+    "cell_id": "three_level_tau0.25_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.3977846308885315e-13,
+    "x": [
+      0.3262670930140823,
+      0.3839467536984119,
+      0.87285568752554
+    ],
+    "multiplier": 0.2919576583427918
+  },
+  {
+    "cell_id": "three_level_tau0.25_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 5.792875223151556e-16,
+    "x": [
+      0.3514082416214479,
+      0.3872496264168999,
+      0.6288822058927703
+    ],
+    "multiplier": 0.13077789442696997
+  },
+  {
+    "cell_id": "three_level_tau1_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 5.305621846565882e-14,
+    "x": [
+      0.15370964313220703,
+      0.6032789207760095,
+      2.2331379114107954
+    ],
+    "multiplier": 9.848091943257065
+  },
+  {
+    "cell_id": "three_level_tau1_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 8.426000324584082e-16,
+    "x": [
+      0.2990240272550956,
+      0.7125773386499653,
+      2.3914225232446995
+    ],
+    "multiplier": 3.335172356783232
+  },
+  {
+    "cell_id": "three_level_tau1_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.1102230246251565e-16,
+    "x": [
+      0.399151992805716,
+      0.7668409831078343,
+      2.3683036468506042
+    ],
+    "multiplier": 1.9131182101582938
+  },
+  {
+    "cell_id": "three_level_tau1_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.5844003264074497e-16,
+    "x": [
+      0.5585969898771603,
+      0.8370175767134095,
+      2.1524366372794925
+    ],
+    "multiplier": 0.8230125366489079
+  },
+  {
+    "cell_id": "three_level_tau1_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.1694586283828992e-13,
+    "x": [
+      0.6836907910630056,
+      0.8836214980742867,
+      1.8351219374176362
+    ],
+    "multiplier": 0.3918774911816318
+  },
+  {
+    "cell_id": "three_level_tau1_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.2182592135961152e-14,
+    "x": [
+      0.7977083969659096,
+      0.9151237316442891,
+      1.4259659261686164
+    ],
+    "multiplier": 0.15455403806422377
+  },
+  {
+    "cell_id": "three_level_tau4_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.2396000153839027e-13,
+    "x": [
+      0.1964553404022031,
+      0.8174700297418772,
+      2.929606608312467
+    ],
+    "multiplier": 7.3034127924220975
+  },
+  {
+    "cell_id": "three_level_tau4_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 5.266250202865052e-16,
+    "x": [
+      0.3865897805620509,
+      1.0077678764412974,
+      3.1750796458123167
+    ],
+    "multiplier": 2.816261215848679
+  },
+  {
+    "cell_id": "three_level_tau4_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.579925170969555e-16,
+    "x": [
+      0.5351510219491028,
+      1.1319903196875942,
+      3.2472800779849615
+    ],
+    "multiplier": 1.7579489369600763
+  },
+  {
+    "cell_id": "three_level_tau4_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.5421486826643284e-15,
+    "x": [
+      0.8123470518935588,
+      1.324293606905009,
+      3.1708271764272586
+    ],
+    "multiplier": 0.8462983395879393
+  },
+  {
+    "cell_id": "three_level_tau4_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 5.030854083390632e-15,
+    "x": [
+      1.067500958505006,
+      1.4606023072644565,
+      2.8791514466657175
+    ],
+    "multiplier": 0.42346677529874643
+  },
+  {
+    "cell_id": "three_level_tau4_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.564083509149711e-15,
+    "x": [
+      1.3180836175428843,
+      1.5467966220701497,
+      2.355534282132581
+    ],
+    "multiplier": 0.16417703119965327
+  },
+  {
+    "cell_id": "three_level_tau16_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.382198103982149e-13,
+    "x": [
+      0.2311598307938313,
+      0.9773022736127597,
+      3.4759887154074565
+    ],
+    "multiplier": 6.485662636866547
+  },
+  {
+    "cell_id": "three_level_tau16_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 6.019825398928962e-16,
+    "x": [
+      0.4545523888755562,
+      1.2129371130524922,
+      3.766096045384497
+    ],
+    "multiplier": 2.5746411831166713
+  },
+  {
+    "cell_id": "three_level_tau16_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.440892098500626e-16,
+    "x": [
+      0.6331858086872563,
+      1.3730269366485623,
+      3.8710312277771757
+    ],
+    "multiplier": 1.6413350465412917
+  },
+  {
+    "cell_id": "three_level_tau16_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.4594260666771481e-15,
+    "x": [
+      0.9784399436982286,
+      1.6299375533888338,
+      3.8355423156533868
+    ],
+    "multiplier": 0.8168872967426228
+  },
+  {
+    "cell_id": "three_level_tau16_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.668458446018927e-15,
+    "x": [
+      1.3087912748048023,
+      1.8167941912154302,
+      3.535496641944688
+    ],
+    "multiplier": 0.4173168844335805
+  },
+  {
+    "cell_id": "three_level_tau16_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.2469638326352849e-15,
+    "x": [
+      1.639742853131723,
+      1.9351079834463825,
+      2.9302946989526273
+    ],
+    "multiplier": 0.16270060737571412
+  },
+  {
+    "cell_id": "three_level_tau256_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.3524014884541573e-13,
+    "x": [
+      0.24895294341749996,
+      1.0573865448107804,
+      3.75290143688827
+    ],
+    "multiplier": 6.20977260881412
+  },
+  {
+    "cell_id": "three_level_tau256_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 6.319500243438062e-16,
+    "x": [
+      0.48961185580429145,
+      1.314714610435494,
+      4.066607504806842
+    ],
+    "multiplier": 2.484782600817219
+  },
+  {
+    "cell_id": "three_level_tau256_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.220446049250313e-16,
+    "x": [
+      0.6831898328714918,
+      1.4909058174605858,
+      4.185200907995327
+    ],
+    "multiplier": 1.5930818096806458
+  },
+  {
+    "cell_id": "three_level_tau256_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.5235909069625687e-15,
+    "x": [
+      1.0604098857036388,
+      1.7755612536026129,
+      4.161336825575577
+    ],
+    "multiplier": 0.8000257746853565
+  },
+  {
+    "cell_id": "three_level_tau256_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.1363760258762169e-15,
+    "x": [
+      1.4243502371868006,
+      1.983584151743308,
+      3.8490892285354974
+    ],
+    "multiplier": 0.41106053793276964
+  },
+  {
+    "cell_id": "three_level_tau256_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 8.881784197001252e-16,
+    "x": [
+      1.7903094977740641,
+      2.115342099022194,
+      3.199353984967042
+    ],
+    "multiplier": 0.16061300809342077
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.925231146709438e-15,
+    "x": [
+      0.11832168664908643,
+      0.18670045165946234,
+      0.5393245434672033,
+      1.3499838598763663,
+      2.706547462374391
+    ],
+    "multiplier": 13.710554098386
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.3130517172476862e-14,
+    "x": [
+      0.2000400485818192,
+      0.24249847237299582,
+      0.4946981052633003,
+      1.2289960026599709,
+      2.482306086196249
+    ],
+    "multiplier": 3.376576773253583
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.9169150738428788e-14,
+    "x": [
+      0.24133203841726625,
+      0.27257933870487594,
+      0.4568048236386881,
+      1.0978702618121665,
+      2.2390700649434216
+    ],
+    "multiplier": 1.671574087869665
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 7.357939752830622e-15,
+    "x": [
+      0.2936684895002343,
+      0.31298177805773075,
+      0.41709290973508883,
+      0.8588217413636644,
+      1.8019513013641657
+    ],
+    "multiplier": 0.615427250544446
+  },
+  {
+    "cell_id": "five_level_tau0.25_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.820503800173272e-13,
+    "x": [
+      0.3267459886658407,
+      0.33961064569172383,
+      0.403399257923199,
+      0.6592071874237446,
+      1.4133623350336004
+    ],
+    "multiplier": 0.2807204192922585
+  },
+  {
+    "cell_id": "five_level_tau0.25_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.520198090792503e-15,
+    "x": [
+      0.3536758871193391,
+      0.3615288169482266,
+      0.3975333820427153,
+      0.5078679251619143,
+      0.9493684741660678
+    ],
+    "multiplier": 0.11703911745980881
+  },
+  {
+    "cell_id": "five_level_tau1_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.2541410111485237e-14,
+    "x": [
+      0.14578493570907783,
+      0.2606604506252154,
+      0.7412120692095348,
+      1.767609175848301,
+      3.522862794091511
+    ],
+    "multiplier": 9.707165880786803
+  },
+  {
+    "cell_id": "five_level_tau1_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.763362727283444e-15,
+    "x": [
+      0.2932090895362868,
+      0.39466899041079073,
+      0.8419433905654401,
+      1.8854374606265993,
+      3.738770116104423
+    ],
+    "multiplier": 3.283708138985074
+  },
+  {
+    "cell_id": "five_level_tau1_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.710277376051325e-16,
+    "x": [
+      0.39473958873297954,
+      0.48340009126127104,
+      0.8833561635164247,
+      1.8690665352048248,
+      3.6830942318193385
+    ],
+    "multiplier": 1.8823807919535354
+  },
+  {
+    "cell_id": "five_level_tau1_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.1269775434131211e-13,
+    "x": [
+      0.5566337123495209,
+      0.6230481619105751,
+      0.9255635930194851,
+      1.716658427976728,
+      3.3000963299105117
+    ],
+    "multiplier": 0.8069435511256501
+  },
+  {
+    "cell_id": "five_level_tau1_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 7.593932792531404e-14,
+    "x": [
+      0.6833109488591632,
+      0.7311986330304819,
+      0.9456581745032904,
+      1.5039081439328579,
+      2.722969556724435
+    ],
+    "multiplier": 0.3824403028367375
+  },
+  {
+    "cell_id": "five_level_tau1_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 8.452509302838483e-15,
+    "x": [
+      0.7962256160724532,
+      0.8251474517778508,
+      0.9500351139105123,
+      1.2521080785365435,
+      1.9294166314874766
+    ],
+    "multiplier": 0.1527733431878707
+  },
+  {
+    "cell_id": "five_level_tau4_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 8.440817057883974e-14,
+    "x": [
+      0.18141685299521224,
+      0.34206098215027764,
+      0.9907538300675005,
+      2.307955924768355,
+      4.526676316467887
+    ],
+    "multiplier": 7.299928036962202
+  },
+  {
+    "cell_id": "five_level_tau4_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.8527091012468545e-15,
+    "x": [
+      0.37161449421643344,
+      0.5310528221500455,
+      1.1830248969551187,
+      2.5322273554328936,
+      4.837184988014506
+    ],
+    "multiplier": 2.8157546735869965
+  },
+  {
+    "cell_id": "five_level_tau4_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.710277376051325e-16,
+    "x": [
+      0.5205177567463668,
+      0.6730192877608452,
+      1.3012384707225382,
+      2.6163213360748774,
+      4.8863724892120874
+    ],
+    "multiplier": 1.7589728503861006
+  },
+  {
+    "cell_id": "five_level_tau4_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.0427175401672802e-14,
+    "x": [
+      0.7984700191862133,
+      0.9289599890169935,
+      1.4699410594883429,
+      2.6169310670137924,
+      4.630812737573943
+    ],
+    "multiplier": 0.8494782762022284
+  },
+  {
+    "cell_id": "five_level_tau4_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 9.444142030471326e-15,
+    "x": [
+      1.054344857031805,
+      1.1552650704674392,
+      1.5724601932109041,
+      2.4572846966123945,
+      4.02612619553745
+    ],
+    "multiplier": 0.4280615731870831
+  },
+  {
+    "cell_id": "five_level_tau4_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.843775109547128e-15,
+    "x": [
+      1.3061869926933014,
+      1.366500854989729,
+      1.6130776848572987,
+      2.128465756692448,
+      3.037623072131782
+    ],
+    "multiplier": 0.1695393147002666
+  },
+  {
+    "cell_id": "five_level_tau16_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.57733171482932e-14,
+    "x": [
+      0.21057995039315167,
+      0.4030420568225924,
+      1.174741906961355,
+      2.7234393972762447,
+      5.309953882355524
+    ],
+    "multiplier": 6.521719562642354
+  },
+  {
+    "cell_id": "five_level_tau16_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.632896157031126e-15,
+    "x": [
+      0.43167236437689593,
+      0.6275888771533064,
+      1.4155804770379457,
+      3.003042285167699,
+      5.661023971544291
+    ],
+    "multiplier": 2.593437712646243
+  },
+  {
+    "cell_id": "five_level_tau16_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.710277376051325e-16,
+    "x": [
+      0.609404005074861,
+      0.8007962949272744,
+      1.5719402695931468,
+      3.128687361233758,
+      5.739794029375066
+    ],
+    "multiplier": 1.655972599319483
+  },
+  {
+    "cell_id": "five_level_tau16_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 9.922984338881458e-15,
+    "x": [
+      0.9545933620439787,
+      1.123922721174307,
+      1.807018356744137,
+      3.1886677605088845,
+      5.51240324088827
+    ],
+    "multiplier": 0.8276399502727668
+  },
+  {
+    "cell_id": "five_level_tau16_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 3.159750121719031e-15,
+    "x": [
+      1.2867802228148029,
+      1.4200008369711095,
+      1.9568241044559413,
+      3.0422277856871633,
+      4.870331430717674
+    ],
+    "multiplier": 0.4258602464249529
+  },
+  {
+    "cell_id": "five_level_tau16_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 7.548291957439907e-16,
+    "x": [
+      1.621935435762925,
+      1.7011883995282668,
+      2.0196375260413904,
+      2.6616929223360675,
+      3.7418819842598867
+    ],
+    "multiplier": 0.16938351951207578
+  },
+  {
+    "cell_id": "five_level_tau256_C1.01",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.663759146434324e-14,
+    "x": [
+      0.22603291309010445,
+      0.43451703280092363,
+      1.2685816254714097,
+      2.937046376435994,
+      5.718100641865708
+    ],
+    "multiplier": 6.253356409863773
+  },
+  {
+    "cell_id": "five_level_tau256_C1.05",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.25607396694702e-15,
+    "x": [
+      0.4635861237066994,
+      0.6772474279938855,
+      1.5321885323270141,
+      3.2427689275640015,
+      6.09434726345723
+    ],
+    "multiplier": 2.5070643711173597
+  },
+  {
+    "cell_id": "five_level_tau256_C1.1",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.440892098500626e-16,
+    "x": [
+      0.6558495144002915,
+      0.8656332758142703,
+      1.7051449564497305,
+      3.385022921857095,
+      6.185629980326369
+    ],
+    "multiplier": 1.6101174111041305
+  },
+  {
+    "cell_id": "five_level_tau256_C1.25",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 1.0802236115744372e-14,
+    "x": [
+      1.032761752534751,
+      1.2196760153136215,
+      1.9677092823769977,
+      3.464646679466777,
+      5.960558295171975
+    ],
+    "multiplier": 0.8120690267180511
+  },
+  {
+    "cell_id": "five_level_tau256_C1.5",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 2.176716750517555e-15,
+    "x": [
+      1.3989653017631423,
+      1.5464264827876337,
+      2.1365150486918556,
+      3.3173323674424884,
+      5.286295042613847
+    ],
+    "multiplier": 0.4202454538749153
+  },
+  {
+    "cell_id": "five_level_tau256_C2",
+    "solver_success": true,
+    "solver_message": "The solution converged.",
+    "equation_residual": 4.739625182578547e-16,
+    "x": [
+      1.7701822372379612,
+      1.8577408376045401,
+      2.208058982344627,
+      2.908971597599468,
+      4.077660110244145
+    ],
+    "multiplier": 0.167462747522076
+  }
+]

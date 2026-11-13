@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-13",
+  "all_actual_objectives_checked": 5000,
+  "previous_and_extended_cohorts_checked": 1000,
+  "negative_recession_directions": 2192,
+  "human_strict_separators": 53,
+  "paired_transition_rows_checked": 8,
+  "original_unknowns": 19,
+  "unknowns_resolved_as_human_interior": 19,
+  "final_unknowns": 0,
+  "source_sha256": "a96d9541814d42e60c60cdf2afc7ca73399185a356c9969073ed93baac4adf2e",
+  "plan_sha256": "d20b02bdd0a412a22f6197f767730c651c6f3f1577b5028b7856b947b137083d",
+  "priority_or_submission_certified": false
+}

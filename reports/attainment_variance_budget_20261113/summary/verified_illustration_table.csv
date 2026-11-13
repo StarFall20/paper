@@ -1,0 +1,6 @@
+method,finite_m80,finite_m160,regular_covariance_factor
+human_only,449/500,498/500,4.0
+unweighted_compensation,6/500,0/500,3.8
+power_at_budget,121/500,86/500,3.9899999999999998
+optimized_at_budget,293/500,336/500,3.9899999999696547
+inverse_scale,466/500,500/500,12.881076388888891

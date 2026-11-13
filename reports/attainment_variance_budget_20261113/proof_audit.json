@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-13",
+  "review_type": "Internal model-specific derivation and numerical audit",
+  "theory_sha256": "57f996b5866d1063f7dd46a7100fc74ae2e3678b8828a30c39dee8cd45ee24c2",
+  "checked_arguments": [
+    "covariance budget is a Lorentz cone after joint scale reparameterization",
+    "positive unique optimum and explicit degenerate endpoint atC1",
+    "strictly increasing finite-support budget curve before the inverse-scale endpoint",
+    "KKT conditions and strong-concavity diagnostic bound",
+    "uniform finite-support compact localization for iterated auxiliary limit",
+    "explicit limiting optimal shape and inverse cost curve"
+  ],
+  "classical_tools": "Conic constraints,KKT sufficiency,Hilbert geometry and covariance weighting are established.",
+  "numerical_verification": "verification/verification.json",
+  "scope": "Balanced Gaussian law;known fixed bounded positive utility scale and scale probabilities;fitted scaled intercept;fixed row weights and original sample-count denominators.",
+  "excluded_claims": [
+    "new generic optimization method",
+    "joint auxiliary/sample limit",
+    "learned-scale/weight inference",
+    "high-dimensional risk optimality",
+    "broad estimator superiority"
+  ],
+  "priority_or_submission_certified": false
+}

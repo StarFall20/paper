@@ -1,0 +1,27 @@
+{
+ "date":"2026-11-13",
+ "status":"Internal population plan fixed after algebraic derivation and before the first numerical grid. Previous two-point row-weight results and informal analytic approximations were already known. No external preregistration.",
+ "question":"Maximize the existing compensated-logit existence boundary under a fixed regular covariance multiplier, and compare globally optimized weights with the previous power-weight path at the same budget.",
+ "epsilon":0.25,
+ "auxiliary_ratios":[0.25,1.0,4.0,16.0,256.0],
+ "variance_budgets":[1.0,1.01,1.05,1.1,1.25,1.5,2.0],
+ "include_each_inverse_scale_endpoint":true,
+ "scale_laws":[
+   {"name":"constant","raw_scales":[1.0],"probabilities":[1.0]},
+   {"name":"four_level_mild","raw_scales":[0.5,0.8,1.2,1.8],"probabilities":[0.25,0.25,0.25,0.25]},
+   {"name":"previous_two_point","raw_scales":[0.1,3.148015247739439],"probabilities":[0.9,0.1]},
+   {"name":"three_level","raw_scales":[0.05,0.5,2.0],"probabilities":[0.6,0.3,0.1]},
+   {"name":"five_level","raw_scales":[0.05,0.2,0.8,2.0,4.0],"probabilities":[0.4,0.3,0.2,0.08,0.02]}
+ ],
+ "scale_normalization":"Divide every law by sqrt(E D^2), preserving the whole-utility including fitted-intercept convention.",
+ "correction_power":"Existing oracle variance rule tau/(1+tau), fixed for each population comparison.",
+ "primary_program":"Maximize sum p_j J(x_j) subject to norm(sqrt(p)*x)<=sqrt(C)*sum p_j D_j x_j and x>=0. The effective row weight is x_j/D_j up to a common factor.",
+ "comparator":"Largest power exponent r in[0,1] whose full regular covariance multiplier is at most C, with its own optimized profile scale.",
+ "numerical_conventions":{"primary_solver":"SLSQP","starts":["unweighted ray","feasible power-weight ray"],"retain_all_solver_returns":true,"retain_all_repairs":true,"feasibility_repair":"If necessary, mix toward the strictly feasible unweighted ray, then optimize only the common radial scale.","check":"Strong-concavity/KKT upper-gap diagnostic plus feasibility; independent solver and integration are separate."},
+ "limiting_boundary_targets":[0.2,0.25,0.3,0.4],
+ "claims_to_test":["finite-support convex reformulation and positive unique optimizer","same-budget improvement over the complete power path","closed-form limiting budget curve and minimal covariance budget","two-level and constant-law equality controls","continuity toward the limiting curve as auxiliary ratio grows"],
+ "simulation_status":"No new finite-sample simulation is planned in this file. Any illustration selected from population calculations needs a separately frozen plan and transparent selection rule.",
+ "excluded_claims":["new generic conic optimization method","new generic weighted PPI","high-dimensional MSE or coverage improvement","learned scale/weight validity","same misspecified projection target","joint sample/auxiliary-limit theorem","absence of search hits proves originality"],
+ "new_human_or_LLM_responses":0,
+ "all_population_conditions_retained":true
+}

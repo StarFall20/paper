@@ -1,5 +1,14 @@
 # Current research status — updated13 November2026
 
+## New global covariance-budget calculation and stronger-control decision
+
+The [new derivation and audit](reports/public_conjoint_audit_20261109/协方差预算与独立增量检验_20261113.md) maximizes the same compensated existence profile under a regular covariance budget. It proves the finite-support convex reduction,positive unique optimizing shape,KKT diagnostic,and an iterated auxiliary-limit closed form/inverse. Classical convex optimization remains attributed. All195population conditions receive independent checks,including105KKT systems and390profile integrals.
+
+The population-selected five-level illustration reuses1000old cohorts. All5000actual weighted/ordinary objectives are independently checked;2192negative directions and53ordinary separators remain. All19raw human-criterion unknowns resolve to interior,and corrected summaries preserve raw flags. At160labels,the optimized and power weights have336/500and86/500finite estimates at regular covariance factor3.99. The ordinary labelled-only baseline gives498/500at factor4. The result supports constrained-profile optimization,not a generally superior estimator. Both directions of every paired comparison remain reported.
+
+An independent extraction reruns the entire documented workflow,including all195population optimizations and both5000-program stages. Eleven current sources and all scientific CSV/JSON/final PNG outputs match. The newly inspected9NovemberPP-Rank preprint already studies preference correction and variance-budget allocation. Its exact main-statement scope narrows the generic claim. The57-page manuscript remains unchanged;the new result is retained as an implication pending specific-priority and choice-analysis-value assessment. The goal remains active.
+
+
 ## New derived result: row weights trade finite attainment against regular covariance
 
 The [new derivation and replay](reports/public_conjoint_audit_20261109/行权重与有限估计代价_20261113.md) stays within the known-scale compensated model. Constant row weights minimize full regular covariance, while inverse utility-scale weights maximize the existence boundary. A fixed power-weight path increases the latter with first-order initial gain and second-order initial covariance cost. These conclusions use the existing scale profile and elementary support/differentiation arguments; weighted PPI itself is prior.
