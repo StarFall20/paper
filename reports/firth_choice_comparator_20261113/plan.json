@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "stage": "post-literature comparator addition before Firth results",
+  "reason": "Kessels, Jones and Goos (JCM 2019) makes human-only Firth a directly relevant mature comparator.",
+  "estimator": "Human negative log likelihood minus one half log determinant of summed expected human information",
+  "power": "fixed Jeffreys exponent one half, no tuning",
+  "replications_per_condition": 500,
+  "conditions": [
+    {
+      "name": "20_labels_oracle",
+      "labels": 20,
+      "truth_scale": 1,
+      "seed": 20261112
+    },
+    {
+      "name": "150_labels_overconfident",
+      "labels": 150,
+      "truth_scale": 3,
+      "seed": 20261121
+    }
+  ],
+  "new_independent_cohorts": 0,
+  "new_humans_or_LLM_responses": false,
+  "resources": "Same human rows as the original seven methods and two DY settings; Firth uses no auxiliary predictions.",
+  "starts": [
+    "zero",
+    "human-only ridge with mean-loss penalty 1/m",
+    "negative of that ridge"
+  ],
+  "point_selection": "Smallest penalized negative log likelihood among converged positive-Hessian adjusted-score fits; no global optimality certificate.",
+  "intervals": "Conventional inverse expected information Wald, not profile likelihood; distinct from the existing sandwich convention.",
+  "metrics": [
+    "finite fit availability",
+    "parameter MSE",
+    "exact fixed-support human choice KL",
+    "marginal Wald coverage",
+    "interval width",
+    "paired errors versus all nine retained baseline settings"
+  ],
+  "precision_unit": "original repetition, not one of the eleven coefficients",
+  "validation": [
+    "intercept-only closed form",
+    "independent objective-gradient finite differences",
+    "Hessian finite differences",
+    "linear reparameterization and outcome-complement symmetry",
+    "all original human availability and available MSE checks",
+    "all new root and covariance rechecks",
+    "stratified independent direct objective fits"
+  ],
+  "reporting": "Retain every repetition and every optimizer start, including failures, adverse comparisons and different interval conventions. No superiority, innovation or acceptance claim from availability alone.",
+  "sources": {
+    "JCM_separation": "https://doi.org/10.1016/j.jocm.2018.12.002",
+    "Firth_finiteness": "https://doi.org/10.1093/biomet/asaa052",
+    "brglm2_code": "https://github.com/ikosmidis/brglm2/blob/f1e21ee94292d75422e2141f6cc9344fd880a26e/R/brglmFit.R"
+  }
+}

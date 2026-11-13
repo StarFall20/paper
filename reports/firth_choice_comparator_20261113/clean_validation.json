@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-13",
+  "status": "complete",
+  "isolated_full_workflow_exit_code": 0,
+  "current_sources": {
+    "analysis/firth_choice_comparator.py": "567c9a80d7f21d31fdc0901e0e7615fbfc681f1aa8237ea52b2aaf2137837cfd",
+    "analysis/verify_firth_choice_comparator.py": "fc140d86b27e8cc7f00cbfce3bc3fc849c23c834cb627038cba3edead20574f1"
+  },
+  "all_primary_CSVs_byte_identical": [
+    {
+      "path": "results/coefficients.csv",
+      "sha256": "fcc031210da91bbc9893d82da14bd689260301ec8f27cff4b8e6bb10dcaa9031"
+    },
+    {
+      "path": "results/fit_records.csv",
+      "sha256": "e82399022fffd44a71b446e2695a54b0d80c7b096d6a7ab7bdd9ae97d8df3bfd"
+    },
+    {
+      "path": "results/optimization_attempts.csv",
+      "sha256": "e1ff2026fd50eebbae36e3ac6c6d346b2b8aea3494b9214f12a12ba5d61cb791"
+    },
+    {
+      "path": "results/original_sample_checks.csv",
+      "sha256": "826fa7d7f53a9b498dc0df23bdd58934ff8a72f1e040e2aad3051d620dedf09b"
+    },
+    {
+      "path": "results/paired.csv",
+      "sha256": "30934ba6c508a095ec33d1c1ba5bb3adfb9a94d525f9cac5a1e3ebecd0fdbca5"
+    },
+    {
+      "path": "results/summary.csv",
+      "sha256": "01707c1dc5330caf0be2bdf1ec69f7c79fdb0a228fc5d90658cff48bb48b6514"
+    }
+  ],
+  "run_JSON_semantically_identical": true,
+  "verification_outputs_identical": 3,
+  "same_1000_original_model_draws_replayed": true,
+  "predefined_optimizer_starts": 3000,
+  "new_human_respondents": 0,
+  "new_LLM_answers": 0,
+  "independent_direct_objective_fits": 53,
+  "multiple_mode_cases_retained": 1,
+  "global_optimality_proven": false,
+  "goal_complete": false,
+  "main_manuscript_integration_complete": false
+}

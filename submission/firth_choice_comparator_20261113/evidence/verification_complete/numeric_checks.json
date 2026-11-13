@@ -1,0 +1,8 @@
+{
+  "gradient_finite_difference_max_error": 2.3828832240724296e-09,
+  "hessian_finite_difference_max_error": 6.051607215340482e-09,
+  "information_covariance_max_error": 1.7763568394002505e-15,
+  "analytic_intercept_max_error": 3.0250997262726287e-09,
+  "linear_reparameterization_max_error": 3.699508477339464e-10,
+  "outcome_complement_max_error": 1.0411171924573637e-11
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-13",
+  "sole_author": "LU JIAHANG",
+  "affiliation": "Shandong University of Finance and Economics",
+  "corresponding_email": "a1066757220@gmail.com",
+  "no_funding": true,
+  "no_competing_interests": true,
+  "contributions_source": "User confirmed all research work; role attribution is author-reported.",
+  "AI_assistance_scope": "mathematical arguments, literature searches, coding, numerical analysis, drafting and editing; author review pending",
+  "author_page_visual_qa": {
+    "date": "2026-11-13",
+    "status": "complete",
+    "pages": 1,
+    "all_pages_visually_inspected": true,
+    "observed_layout_defects": [],
+    "docx_sha256": "eff9cad38c1df12046d20d0aaa6f1dce18de624747d1f4011ac6f11b3d055c8f",
+    "source_sha256": "3473085a814935a62708ddc5b477d0d5a91e2a1661a2ca4a2900a0e81075f7c8",
+    "facts_sha256": "0d363caa190cf8ee63e725ba6c70935616b8adaa439e0b90ccc32be9b8a5a0d0",
+    "reviewed_page_sha256": "5285c2cb51a898222a9946a91ecb89c2d7a43f369160696e08132ce95aa4fbdc",
+    "confirmed_fields_only": true,
+    "corresponding_email_supplied": true,
+    "submission_ready_author_page": false,
+    "sole_author_confirmed": true,
+    "competing_interests_confirmed": true,
+    "author_page_factual_fields_complete": true,
+    "remaining": "Final author approval and current journal-guide requirements are not yet confirmed."
+  },
+  "main_manuscript_and_79_analysis_sources_unchanged": true,
+  "submission_made": false,
+  "goal_complete": false
+}

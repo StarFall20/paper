@@ -1,0 +1,6 @@
+{
+  "reason": "The independent zero-start fit reached the other verified local optimum in 20_labels_oracle replication 157. The preplanned primary best-of-three selection had lower penalized loss. A common coefficient comparison against a single local optimum was invalid. Retain this attempt and verify every predefined start independently for the one multiple-mode design.",
+  "original_source_sha256": "c9a843318a3f0b747a6f979a51bf3c16395e2f0bbda44aff8d7456abe4b541ef",
+  "results_changed": false,
+  "global_optimality_proven": false
+}

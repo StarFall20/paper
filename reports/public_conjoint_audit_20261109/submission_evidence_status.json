@@ -200,7 +200,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../author_update_20261113/README.md",
+  "latest_progress_report": "../firth_choice_comparator_20261113/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -277,8 +277,12 @@
     "record": "../../submission/finite_choice_20261110/submission_materials/author_facts_20261113.json",
     "name_affiliation_and_no_funding_supplied": true,
     "remaining_author_declarations_pending": true,
-    "email_supplied": false,
-    "submission_made": false
+    "email_supplied": true,
+    "submission_made": false,
+    "sole_and_corresponding_author_confirmed": true,
+    "competing_interests_confirmed_none": true,
+    "contributions_confirmed_by_user": true,
+    "remaining": "Final author review, originality/exclusive-submission declarations, AI disclosure review and journal requirements"
   },
   "proof_scope_followup": {
     "report": "../../submission/finite_choice_20261110/reports/proof_scope_followup_20261113.md",
@@ -286,5 +290,18 @@
     "direct_coverage_excluded_by_row_infimum_condition": true,
     "independent_peer_review": false,
     "specific_priority_certified": false
+  },
+  "firth_comparator_evidence": {
+    "report": "../firth_choice_comparator_20261113/README.md",
+    "original_draws_replayed": 1000,
+    "optimizer_starts": 3000,
+    "finite_fits": 1000,
+    "independent_direct_objective_fits": 53,
+    "multiple_mode_designs": 1,
+    "isolated_complete_rerun": true,
+    "primary_CSVs_byte_identical": 6,
+    "new_independent_experiment": false,
+    "main_manuscript_integrated": false,
+    "global_optimality_certified": false
   }
 }

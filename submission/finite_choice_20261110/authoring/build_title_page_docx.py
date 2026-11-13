@@ -30,6 +30,8 @@ d.add_paragraph(facts['manuscript_title'], 'Title')
 for author in facts['provided_authors']:
     d.add_paragraph(author['name_as_supplied'])
     d.add_paragraph(author['affiliation_english'])
+    if facts['corresponding_author_confirmed'] and author.get('email'):
+        d.add_paragraph('Correspondence: ' + author['email'])
 if facts['funding']['confirmed']:
     d.add_paragraph('Funding', 'Heading 1')
     d.add_paragraph(facts['funding']['statement'])

@@ -1,0 +1,27 @@
+{
+  "coefficient": [
+    -0.06648687379703247,
+    0.29878879274105996,
+    0.10068617557832739,
+    0.04027740239889241,
+    0.020840827060401013,
+    -0.0068020789043432015,
+    -0.3525865886191847,
+    -0.10116732978134166,
+    -0.21437564072197796,
+    0.13627840174143782,
+    -0.05878041326369816
+  ],
+  "scope": "Existing known-truth simulation parameter fitted to the released 1200-row prefix; not an identified structural population truth",
+  "base_fit": {
+    "start_losses": [
+      0.6757151986057395,
+      0.6757151986057395,
+      0.6757151986057395
+    ],
+    "start_loss_range": 0.0,
+    "mean_gradient_max": 1.628327102783563e-17,
+    "mean_information_min_eigenvalue": 0.02920829793319238,
+    "mean_information_condition_number": 5.653366527401927
+  }
+}

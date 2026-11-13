@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-13",
+  "brglm2_repository": "ikosmidis/brglm2",
+  "brglm2_commit": "f1e21ee94292d75422e2141f6cc9344fd880a26e",
+  "inspected_file": "R/brglmFit.R",
+  "git_blob_sha_from_pinned_tree": "8a322e25076245762ed51807f78332392fe7064b",
+  "inspected_units": [
+    "mean score adjustment lines 456–465",
+    "Jeffreys adjustment lines 474–486",
+    "vcov interface lines 1244–1265"
+  ],
+  "external_code_copied_or_executed": false,
+  "Sablica_primary_source": "https://arxiv.org/html/2610.08100v1",
+  "Sablica_units": [
+    "Theorem 1 and proof",
+    "Section 4.1",
+    "Theorem 4"
+  ],
+  "current_37_reference_screen": "current_citation_audit.json",
+  "JCM_2019_reading_level": "publisher metadata and abstract; full article endpoint 403",
+  "Scopus_attempt": "https://www.scopus.com/search/form.uri?display=basic",
+  "Scopus_result": "403 Forbidden",
+  "Google_Scholar_attempt": "https://scholar.google.com/scholar?q=%22prediction-powered%22+%22separation%22",
+  "Google_Scholar_result": "not accessible via tool",
+  "systematic_database_review_complete": false,
+  "specific_originality_proven": false
+}

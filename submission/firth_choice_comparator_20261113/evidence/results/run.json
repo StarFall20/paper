@@ -1,0 +1,21 @@
+{
+  "completed_original_draws": 1000,
+  "requested_original_draws": 1000,
+  "completed_optimizer_starts": 3000,
+  "unavailable_fits": 0,
+  "source_sha256": "567c9a80d7f21d31fdc0901e0e7615fbfc681f1aa8237ea52b2aaf2137837cfd",
+  "plan_sha256": "2deeae34ead95a9aec1d67b54643e81a787dc83e80b02e6c5a3be6b81ae388cc",
+  "input_sha256": {
+    "provenance.json": "a585a114361ab3ef7a0159aa128966c4e9b809d1802a761993569ebc7d12bf98",
+    "attribute_support.csv": "be97111d952e29ca87e6073115401d145cb9da35adaf58aaeb6293ecfe414d8c",
+    "baseline_records.csv": "42d859090ee58f87d6b1607dcf3a0834a2c8a07d9db91a7eaa4939f902faa6e2",
+    "truth.json": "da07a286924ae98964d9276151390e9dbac55490a73cad2ca189839007d4e05c"
+  },
+  "new_independent_cohorts": 0,
+  "external_R_source_copied_or_executed": false,
+  "global_maximum_certified": false,
+  "profile_likelihood_intervals_computed": false,
+  "interval_type": "model_information_Wald",
+  "Monte_Carlo_unit": "one original repetition, not one coefficient",
+  "submission_threshold_proven": false
+}

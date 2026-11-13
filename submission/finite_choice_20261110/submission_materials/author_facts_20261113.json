@@ -9,20 +9,33 @@
       "affiliation_english": "Shandong University of Finance and Economics",
       "affiliation_translation_source": "https://www.sdufe.edu.cn/xxgk_/cdzc.htm",
       "department": null,
-      "email": null,
-      "credit_roles": null
+      "email": "a1066757220@gmail.com",
+      "credit_roles": [
+        "Conceptualization",
+        "Methodology",
+        "Software",
+        "Validation",
+        "Formal analysis",
+        "Investigation",
+        "Data curation",
+        "Visualization",
+        "Writing original draft",
+        "Writing review and editing"
+      ]
     }
   ],
-  "complete_author_list_confirmed": false,
-  "corresponding_author_confirmed": false,
+  "complete_author_list_confirmed": true,
+  "corresponding_author_confirmed": true,
   "funding": {
     "confirmed": true,
     "source_statement": "无资助",
     "statement": "This research received no funding."
   },
-  "competing_interests": null,
+  "competing_interests": "The author declares no competing interests.",
   "author_approval": null,
   "exclusive_submission": null,
-  "ai_preparation_disclosure_author_review": "pending",
-  "submission_made": false
+  "ai_preparation_disclosure_author_review": "draft supplied describing substantive mathematical, coding, analysis and writing assistance; final author review pending",
+  "submission_made": false,
+  "additional_user_reply": "a1066757220@gmail.com 是的 没有 全部工作",
+  "credit_role_basis": "User-confirmed sole author and all research work; author-reported attribution, not an independent audit of individual contributions."
 }

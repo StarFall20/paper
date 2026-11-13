@@ -1,5 +1,14 @@
 # Current research status — updated13 November2026
 
+## Established Firth baseline replayed and sole author confirmed
+
+The [Firth follow-up](reports/firth_choice_comparator_20261113/README.md) adds the directly relevant JCM 2019 separation comparator to the same two 500-repetition simulations. All 1000 human-only Firth fits are available. Their parameter MSEs are 1.949426 at 20 labels and 0.108848 at 150 labels. At 150 labels the MSE exceeds dimension-rule DY by 0.007746, MCSE 0.000581. Firth uses conventional information-Wald intervals, with 20-label coverage 0.999455 and mean width 5.939401. Every paired comparison and all 3000 optimizer starts remain; one multiple-mode design is explicitly retained.
+
+The isolated supplement reruns all 1000 fits, all 3000 starts and 53 independent direct-objective checks. Six primary CSV files reproduce byte-for-byte, the run JSON matches semantically, and three verification outputs match. Public attribute contrasts and generated baselines are retained with provenance; raw responses, participant identifiers and questionnaire data are excluded. The 37-entry citation screen finds one bibliography-only entry, Sablica et al.; its exact primary theorem is now accessible and the next-release citation is prepared. Scopus and Scholar are still inaccessible, so a completed systematic search is not claimed. The reviewed 58-page paper is unchanged; integration of the new comparator, figure and source corrections remains next.
+
+The [author completion](reports/author_completion_20261113/README.md) records LU JIAHANG as sole and corresponding author, Shandong University of Finance and Economics, the supplied email, no funding, no competing interests and all research roles as reported by the user. The author page has a complete visual review; contributions and AI-assistance drafts are provided. Final author review, current journal rules and specific contribution sufficiency remain unconfirmed. The research goal remains active.
+
+
 ## Author facts supplied and latest general theorem checked
 
 The [author update](reports/author_update_20261113/README.md) records LU JIAHANG, Shandong University of Finance and Economics, and no research funding. The separate author page, funding statement and cover letter now use the supplied facts. Correspondence, complete authorship, contributions, competing interests and final declarations are outstanding. No author role or declaration has been inferred from a name and affiliation.
