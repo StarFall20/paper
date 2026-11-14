@@ -100,5 +100,6 @@
   "main_reading_pages": 29,
   "new_human_or_AI_answers": 0,
   "second_complete_primary_simulation_run": false,
-  "goal_complete": false
+  "goal_complete": false,
+  "inventory_followup": "The parent inventory excludes both documented regenerated and regenerated_full output directories; scientific source and math checks are unchanged."
 }

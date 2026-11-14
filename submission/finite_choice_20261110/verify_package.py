@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parent
 entries=(ROOT/'MANIFEST.sha256').read_text().splitlines();listed=set()
 for line in entries:
  sha,path=line.split('  ',1);f=ROOT/path;assert f.is_file(),path;assert hashlib.sha256(f.read_bytes()).hexdigest()==sha,path;listed.add(path)
-actual={str(f.relative_to(ROOT)) for f in ROOT.rglob('*') if f.is_file() and f!=ROOT/'MANIFEST.sha256' and f.name!='.DS_Store' and not {'regenerated','__pycache__'}.intersection(f.relative_to(ROOT).parts)}
+actual={str(f.relative_to(ROOT)) for f in ROOT.rglob('*') if f.is_file() and f!=ROOT/'MANIFEST.sha256' and f.name!='.DS_Store' and not {'regenerated','regenerated_full','__pycache__'}.intersection(f.relative_to(ROOT).parts)}
 assert actual==listed,{'unlisted':sorted(actual-listed),'missing':sorted(listed-actual)}
 missing=[]
 for f in ROOT.rglob('*.md'):
