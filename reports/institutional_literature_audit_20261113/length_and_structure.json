@@ -1,0 +1,12 @@
+{
+  "convention": "Regex words/numbers; displayed and inline TeX plus URLs excluded; tables and captions included",
+  "main_including_abstract_keywords_tables_captions": 9628,
+  "appendices": 11085,
+  "references": 949,
+  "abstract_whitespace_words": 159,
+  "introduction_whitespace_words": 616,
+  "full_Word_pages": 59,
+  "main_reading_Word_pages": 28,
+  "bibliography_entries": 41,
+  "quantity_sufficiency_is_not_contribution_sufficiency": true
+}

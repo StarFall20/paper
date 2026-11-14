@@ -32,7 +32,24 @@ def main():
  for file,expected in [('finite_pool_summary.csv',84),('imperfect_pool_summary.csv',42),('strong_signal_pool_summary.csv',42)]:
   f=pd.read_csv(root/'results'/file);assert len(f)==expected and (f.replications==500).all();assert (f.intervals<=f.estimates).all() and (f.estimates<=f.replications).all()
  t2=pd.read_csv(root/'manuscript/table2.csv',dtype=str)
- assert len(t2)==18
+ assert len(t2)==20
+ firth=root/'results/firth'
+ fs=pd.read_csv(firth/'results/summary.csv')
+ fr=json.loads((firth/'results/run.json').read_text())
+ fv=json.loads((firth/'verification_complete/checks.json').read_text())
+ assert fr['completed_original_draws']==1000 and fr['completed_optimizer_starts']==3000 and fr['unavailable_fits']==0
+ assert fr['source_sha256']==hashlib.sha256((root/'analysis/firth_choice_comparator.py').read_bytes()).hexdigest()
+ assert fr['plan_sha256']==hashlib.sha256((firth/'plan.json').read_bytes()).hexdigest()
+ for rel,sha in fr['input_sha256'].items(): assert hashlib.sha256((firth/'inputs'/rel).read_bytes()).hexdigest()==sha
+ assert len(fs)==2 and fs.replications.eq(500).all() and fs.estimates.eq(500).all() and fs.intervals.eq(500).all()
+ assert fv['original_draws_verified']==1000 and fv['independent_direct_objective_fits']==53 and fv['multiple_mode_cases']==1
+ assert fv['all_retained_root_finite_difference_max_score']<1e-7 and fv['all_retained_information_covariance_max_error']<1e-10
+ assert not fv['global_optimality_proven']
+ for row in fs.to_dict('records'):
+  shown=row['condition'].replace('_',' ')
+  t=t2[(t2.Condition==shown)&(t2.Estimator=='Human Firth')].iloc[0]
+  assert t.Available=='500/500'
+  for column,field,tol in [('MSE','MSE',.00005),('Coverage','marginal_coverage',.0005),('Issued and covers','marginal_coverage',.0005)]: assert abs(float(t[column])-row[field])<=tol
  labels={'Human MLE':'human_MLE','Unit PPI':'PPI_unit','Power human start':'PPI_power_human','Power ridge start':'PPI_power_ridge','One step':'PPI_one_step_ridge','Ridge PPI':'PPI_ridge_unit','Soft pooling':'soft_oracle_pool'}
  for condition,name in [('20 labels oracle','finite_pool_summary.csv'),('150 labels overconfident','strong_signal_pool_summary.csv')]:
   f=pd.read_csv(root/'results'/name);f=f[(f.label_rows==(20 if '20 labels' in condition else 150))&(f.auxiliary_rows==600)]
@@ -259,6 +276,7 @@ def main():
  for name,digest in json.loads((categorical/'current_source_hashes.json').read_text()).items():
   assert hashlib.sha256((root/'analysis'/name).read_bytes()).hexdigest()==digest,name
  report.update(categorical_analytic_examples=10,categorical_face_allocations=60,categorical_path_records_reconciled=720,categorical_retained_roots=574,categorical_original_public_programs_rerun_by_quick_check=False)
- (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_nine_tables_reconciled':True}))
+ report.update(Firth_original_draws_reconciled=1000,Firth_starts_retained=3000,Firth_table2_rows_reconciled=2,Firth_information_Wald_convention_explicit=True,Firth_global_optimality_proven=False)
+ (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_twelve_tables_reconciled':True,'Firth_draws_reconciled':1000}))
 
 if __name__=='__main__':main()

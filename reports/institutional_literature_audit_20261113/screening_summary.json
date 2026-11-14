@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-13",
+  "actual_institutional_database_queries_or_chains": 9,
+  "exported_records_before_deduplication": 537,
+  "unique_WOS_indexed_records": 512,
+  "unique_normalized_titles": 500,
+  "deduplication_limit": "Accession and exact normalized title only; preprint-to-publication linkage is not complete",
+  "screening": "Exported titles screened; targeted abstracts and specified nearest primary results read. No claim that all exported full texts were read.",
+  "newly_rechecked_primary_results": [
+    "Han and Ren 2026, arXiv2212.05545v2, Theorems 1.1, 1.3 and 2.1",
+    "Ao et al.2026, arXiv2601.21470v1, objective (3), assumptions and convergence statements"
+  ],
+  "formal_PPI_publication_metadata": "WOS confirms Annals of Applied Statistics20(3),2235–2252,2026,DOI10.1214/26-AOAS2215",
+  "formal_PPI_full_text_read": false,
+  "formal_PPI_full_text_access": "Publisher human-verification challenge; cached web retrieval unavailable. Earlier arXivv2 reading remains the content basis.",
+  "JCM_guide_access": "Official ScienceDirect guide read through native Chrome and saved privately as a17pagePDF",
+  "Scopus_systematic_search_performed": false,
+  "Google_Scholar_systematic_search_performed": false,
+  "full_exhaustive_review_complete": false,
+  "originality_proven_by_absence_of_search_hits": false,
+  "local_similarity_scope": "Main prose versus abstracts in these exported records; exact normalized consecutive word comparison, threshold12words. Excludes references and formulas. This is not a full-text similarity service.",
+  "abstracts_compared": 510,
+  "long_exact_runs": [],
+  "iThenticate_or_Turnitin_run": false,
+  "unpublished_manuscript_uploaded_to_similarity_service": false,
+  "analysis_sources_syntax_checked": 81,
+  "changed_preexisting_analysis_sources": [
+    "analysis/quick_check.py",
+    "analysis/build_publication_assets.py"
+  ],
+  "unchanged_preexisting_analysis_sources": 77,
+  "new_analysis_sources": 2,
+  "database_abstracts_or_authentication_links_in_public_backup": false,
+  "goal_complete": false
+}

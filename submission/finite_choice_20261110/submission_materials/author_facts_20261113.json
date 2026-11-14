@@ -21,7 +21,12 @@
         "Visualization",
         "Writing original draft",
         "Writing review and editing"
-      ]
+      ],
+      "campus": "Shungeng Campus",
+      "campus_basis": "User reply: 舜耕校区，中国",
+      "postal_address": "Shungeng Campus, 40 Shungeng Road, Shizhong District, Jinan, Shandong 250002, China",
+      "postal_address_source": "https://www.sdufe.edu.cn/xyfw/xydt.htm",
+      "postal_address_checked": "2026-11-13; current official campus listing, not the2011 historical postal notice"
     }
   ],
   "complete_author_list_confirmed": true,

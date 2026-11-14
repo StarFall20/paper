@@ -1,5 +1,16 @@
 # Current research status — updated13 November2026
 
+## Current Firth and institutional literature integration
+
+The current manuscript integrates the established Firth comparator, corrected primary-source attributions and publication metadata. The full Word has59pages,1186native mathematical objects,131display paragraphs and12tables. The reading Word has28pages. The20Table2rows preserve all18earlier rows and add the two500-repetition Firth conditions. Six separate vector PDFs have embedded fonts and complete visual checks. The appendix label duplication found during page review was corrected;73appendix equation labels are unique.
+
+The [institutional literature audit](reports/institutional_literature_audit_20261113/README.md) records actual school-authorized Web of Science Core Collection and Preprint Citation Index work:9queries/chains,537exported records,512unique indexed records and500normalized titles. This is title/targeted-abstract screening and selected theorem reading, not complete full-text reading of512studies. The formal PPI++ article is indexed in2026; its publisher full text still requires human verification. Scopus/Scholar completion and originality certification are not claimed.
+
+The author's supplied Shungeng campus has been completed with the current official university address,40Shungeng Road,Jinan250002,China. User-reported sole authorship, contributions, email, no funding and no interests remain recorded. Final author review and publisher portal declarations are pending.
+
+The research goal remains active. The defensible contribution candidate is the specified compensated choice boundary and the matched-information and probability-loss consequences. General convex geometry and established bias reduction remain attributed prior. Practical reach beyond independent Gaussian designs and the sufficient contribution assessment remain open. Existing local conflicts in legacy questionnaire files and the repository-level README are preserved; the isolated current manuscript package is checked separately. Earlier entries below are dated historical stages.
+
+
 ## Established Firth baseline replayed and sole author confirmed
 
 The [Firth follow-up](reports/firth_choice_comparator_20261113/README.md) adds the directly relevant JCM 2019 separation comparator to the same two 500-repetition simulations. All 1000 human-only Firth fits are available. Their parameter MSEs are 1.949426 at 20 labels and 0.108848 at 150 labels. At 150 labels the MSE exceeds dimension-rule DY by 0.007746, MCSE 0.000581. Firth uses conventional information-Wald intervals, with 20-label coverage 0.999455 and mean width 5.939401. Every paired comparison and all 3000 optimizer starts remain; one multiple-mode design is explicitly retained.

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "Q01",
+    "index": "Core Collection",
+    "query_or_chain": "TS=((\"prediction-powered\" OR \"prediction powered\") AND (infer* OR estimat*))",
+    "records_exported": 28,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; no date restriction",
+    "content": "Full Record and Cited References",
+    "raw_export_sha256": "7050d89a0c9c9da1fa378fe8f04d4b0d6ecf93c82ab39c5e50172f4a5b9213be"
+  },
+  {
+    "id": "Q02",
+    "index": "Core Collection",
+    "query_or_chain": "TS=((logit OR logistic OR \"binary choice\" OR multinomial) AND (separation OR \"finite estimate*\" OR \"finite minimizer*\" OR existence) AND (\"semi-supervised\" OR \"prediction-assisted\" OR \"prediction-powered\" OR \"prediction powered\" OR rectif* OR \"loss correction\"))",
+    "records_exported": 7,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; no date restriction",
+    "content": "Full Record and Cited References",
+    "raw_export_sha256": "5d2670b952547305721830660a3f41f9c757efd3afa68e3da5bcff72d05ebf38"
+  },
+  {
+    "id": "Q03",
+    "index": "Core Collection",
+    "query_or_chain": "TS=((\"M-estimat*\" OR \"convex loss*\" OR \"logistic regression\") AND (\"phase transition*\" OR \"existence threshold*\" OR \"statistical dimension\"))",
+    "records_exported": 50,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; no date restriction",
+    "content": "Full Record and Cited References",
+    "raw_export_sha256": "6c008a6f192d1aacf7a7e0d293545d78555558f0d6f688c61c06949bf9f55f4d"
+  },
+  {
+    "id": "Q04",
+    "index": "Core Collection",
+    "query_or_chain": "TS=((logistic OR logit OR \"M-estimat*\") AND (\"unbiased risk\" OR \"negative risk\" OR \"unbounded loss\" OR \"signed loss\" OR \"loss correction\"))",
+    "records_exported": 54,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; no date restriction",
+    "content": "Full Record and Cited References",
+    "raw_export_sha256": "f6488c59ede0cfb7aeaa3da76567ba187593bcac360e396e3c610778fb5c93bf"
+  },
+  {
+    "id": "Q05",
+    "index": "Core Collection",
+    "query_or_chain": "SO=(\"JOURNAL OF CHOICE MODELLING\") AND PY=(2021-2026) AND TS=(estimat* OR infer* OR likelihood OR separa* OR regulari* OR penal* OR \"machine learning\" OR \"large language model*\")",
+    "records_exported": 128,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; publication years 2021–2026",
+    "content": "Full Record and Cited References",
+    "raw_export_sha256": "4fc700ed8e6ec0f646e396696fe2d6fb6705714995ec1a74285ea5a810b88308"
+  },
+  {
+    "id": "Q06",
+    "index": "Core Collection",
+    "query_or_chain": "TS=((\"positive-unlabeled\" OR \"positive and unlabeled\" OR \"label noise\" OR \"unbiased risk\") AND (\"unbounded\" OR \"negative risk\" OR \"non-negative risk\" OR \"loss correction\"))",
+    "records_exported": 28,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; no date restriction",
+    "content": "Full Record and Cited References",
+    "raw_export_sha256": "45637a371e7ce8e4318021746a0d5a7fcb6d958fcb7de54591fe827d167aa902"
+  },
+  {
+    "id": "Q07",
+    "index": "Core Collection",
+    "query_or_chain": "TS=((\"prediction-powered\" OR \"prediction powered\" OR \"prediction-assisted\") AND (convex* OR optim* OR existence OR separa* OR unbound* OR coerciv*))",
+    "records_exported": 41,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; no date restriction",
+    "content": "Full Record and Cited References",
+    "raw_export_sha256": "7e316126d50d129b2d7c9cfedbd44f6c1a8951f4811f9bfc56b7a602261a3c32"
+  },
+  {
+    "id": "Q08",
+    "index": "Core Collection",
+    "query_or_chain": "Forward citing records of WOS:001138596500031 (Science PPI, DOI 10.1126/science.adi6000)",
+    "records_exported": 82,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; no date restriction",
+    "content": "Full Record and Cited References",
+    "raw_export_sha256": "780bb6fdb00196003ed64be187628d16435370ffb7ee3c9cafd68a0bf54ad0c5"
+  },
+  {
+    "id": "Q09",
+    "index": "Preprint Citation Index",
+    "query_or_chain": "TS=(\"prediction-powered\" OR \"prediction powered\" OR \"prediction-assisted\")",
+    "records_exported": 119,
+    "date": "2026-11-13",
+    "institution": "Shandong University of Finance and Economics",
+    "filters": "All available editions; no date restriction",
+    "content": "Full Record",
+    "raw_export_sha256": "b36c04ce3cfbef743c34ef0014b9af92673493450451cc2e0b02772da7f42ebd"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "date": "2026-11-13",
+  "integration": "reports/firth_manuscript_integration_20261113.json",
+  "visual_qa": "reports/firth_manuscript_visual_qa_20261113.json",
+  "historical_reports_are_dated_snapshots": true
+}

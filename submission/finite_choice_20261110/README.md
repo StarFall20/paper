@@ -1,5 +1,14 @@
 # Finite solutions in prediction assisted choice logit
 
+## Current manuscript and verification
+
+The 13 November 2026 Firth and institutional-literature release is the current version. The full manuscript is 59 pages with 1186 native mathematical objects, 131 display paragraphs and 12 tables; the main reading Word is 28 pages. Table 2 now retains 20 rows, including the two established Firth comparisons on the same 1000 original designs. The earlier 18 rows and every previous mathematical body remain, with appendix labels reformatted. All 81 analysis files parse; 77 of the preceding 79 sources are byte-identical. The two changed files build publication assets and reconcile results. There are no new human observations.
+
+The [current source/layout pointer](reports/current_manuscript.json), [integration record](reports/firth_manuscript_integration_20261113.json), [complete visual review](reports/firth_manuscript_visual_qa_20261113.json) and [mathematical check](reports/firth_integration_mathematical_check_20261113.json) identify the current artifacts. Earlier dated reports below describe their historical stages. The [institutional literature audit](reports/institutional_literature_audit_20261113/README.md) records 9 actual searches/chains, 537 exported records and 512 unique indexed records. It does not assert complete full-text coverage, Scopus/Scholar searches or proven originality.
+
+Separate publication figures are provided as [font-embedded vector PDFs](manuscript/figures/publication_pdf/). Regenerate them with `python authoring/export_publication_figures.py`; no model draws or fits run. The PNGs embedded in Word remain reading assets. An AI-assistance declaration is included before references. Final author review and publisher portal declarations remain pending. This package is not an acceptance certificate.
+
+
 This archive accompanies **When prediction assisted logit estimates exist**. It contains one compensated choice objective, its completed results and the code needed to regenerate them. It excludes the historical research notebook, raw questionnaires, human participant response vectors and downloaded numeric pickle inputs. Complete generated menu records are included for numerical verification. The separate questionnaire application with 300 records supplies no observations to this paper.
 
 The manuscript and package were refreshed on 13 November 2026. The abstract and introduction now center the same compensated-attainment question, and Appendix B4 strengthens the matched-information example with conditionally calibrated predictors. The previous 58-page categorical manuscript and its dated archive remain preserved. All twelve preceding table blocks and 127 preceding display bodies remain; one covariance display and one primary reference are added. The stable package directory name is retained.
@@ -213,7 +222,7 @@ python analysis/build_menu_publication_assets.py --results results/menu --manusc
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out regenerated/paper.docx --report regenerated/docx_structure.json
 ```
 
-Figure 3 uses `figure_menu_phase.png` and its editable SVG. The retained legacy assets `figure2_estimates_intervals.png` and `figure3_power_endpoint.png` appear as Figures 4 and 5. Their numerical content is unchanged. Tables F1 and F2 come from the same complete menu CSVs. The menu scientific source hashes remain checked in [source hashes](results/menu/source_hashes.json). The earlier manuscript and numerical failure records retain their dated scope.
+Figure 3 uses `figure_menu_phase.png` and its editable SVG. The retained legacy assets `figure2_estimates_intervals.png` and `figure3_power_endpoint.png` appear as Figures 4 and 5. Figure4 now includes the documented Firth comparison. Tables F1 and F2 come from the same complete menu CSVs. The menu scientific source hashes remain checked in [source hashes](results/menu/source_hashes.json). The earlier manuscript and numerical failure records retain their dated scope.
 
 ## Oracle local score equivalence
 

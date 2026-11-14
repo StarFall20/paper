@@ -23,8 +23,8 @@
     },
     {
       "requirement": "Fair comparison against established methods",
-      "status": "original_grids_and_DY_retained_independent_training_total_label_cost_comparison_added",
-      "evidence": "正文整合与理论增量复核_20261111.md",
+      "status": "original_grids_DY_training_cost_and_Firth_baselines_retained",
+      "evidence": "../firth_manuscript_integration_20261113/integration.json",
       "remaining": "The fixed allocation and fixed-power diagnostic gives no prediction-error advantage over direct human ridge;it does not establish general tuning or externally pretrained predictor rankings."
     },
     {
@@ -36,8 +36,8 @@
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
       "status": "official_scope_verified_contribution_assessment_incomplete",
-      "evidence": "journal_scope_verification.json",
-      "remaining": "The topic matches the publisher methodological/innovative-application remit; demonstrate sufficient contribution and complete the author-guide/package audit"
+      "evidence": "../institutional_literature_audit_20261113/journal_requirements.md",
+      "remaining": "Official scope and author guide read; sufficient choice-analysis contribution remains under assessment"
     },
     {
       "requirement": "Reproducible submission package",
@@ -47,9 +47,9 @@
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "58_page_full_28_page_reading_Word_reviewed_12_tables_7_appendices_materials_drafted",
+      "status": "59_page_full_28_page_reading_Word_reviewed_12_tables_7_appendices_6_vector_figures",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Current author-guide rules and actual author/declaration facts remain unverified. Independent contribution sufficiency remains under assessment."
+      "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
   ],
   "self_review_scores_used_as_evidence": false,
@@ -200,7 +200,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../firth_choice_comparator_20261113/README.md",
+  "latest_progress_report": "../institutional_literature_audit_20261113/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -282,7 +282,8 @@
     "sole_and_corresponding_author_confirmed": true,
     "competing_interests_confirmed_none": true,
     "contributions_confirmed_by_user": true,
-    "remaining": "Final author review, originality/exclusive-submission declarations, AI disclosure review and journal requirements"
+    "remaining": "Final author review, originality/exclusive-submission statements, AI disclosure review and publisher portal declarations",
+    "campus_and_postal_address_complete": true
   },
   "proof_scope_followup": {
     "report": "../../submission/finite_choice_20261110/reports/proof_scope_followup_20261113.md",
@@ -301,7 +302,18 @@
     "isolated_complete_rerun": true,
     "primary_CSVs_byte_identical": 6,
     "new_independent_experiment": false,
-    "main_manuscript_integrated": false,
-    "global_optimality_certified": false
+    "main_manuscript_integrated": true,
+    "global_optimality_certified": false,
+    "integration": "../firth_manuscript_integration_20261113/integration.json"
+  },
+  "institutional_database_evidence": {
+    "report": "../institutional_literature_audit_20261113/README.md",
+    "actual_queries_or_chains": 9,
+    "exported_records": 537,
+    "unique_indexed_records": 512,
+    "all_full_texts_read": false,
+    "Scopus_or_Google_Scholar_systematic_search_complete": false,
+    "formal_PPI_full_text_version_reconciliation_complete": false,
+    "originality_proven": false
   }
 }

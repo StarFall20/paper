@@ -8,7 +8,7 @@ Keywords: discrete choice; multinomial logit; prediction powered inference; logi
 
 ## 1 Introduction
 
-Machine predictions allow choice analysts to combine observed human choices with predicted responses on additional attribute profiles. Prediction powered inference corrects these responses to retain the human population score (Angelopoulos et al., 2023, 2024). Existing work covers categorical outcomes, conjoint partworths and adaptive preference ranking (Fan et al., 2024; Ye and Yoganarasimhan, 2026; Sargent et al., 2026). This use of predictions complements work in the Journal of Choice Modelling on machine learning and language models in utility specification (van Cranenburgh et al., 2022; Sfeir et al., 2026).
+Machine predictions allow choice analysts to combine observed human choices with predicted responses on additional attribute profiles. Prediction powered inference corrects these responses to retain the human population score (Angelopoulos et al., 2023, 2026). Existing work covers categorical outcomes, conjoint partworths and adaptive preference ranking (Fan et al., 2024; Ye and Yoganarasimhan, 2026; Sargent et al., 2026). This use of predictions complements work in the Journal of Choice Modelling on machine learning and language models in utility specification (van Cranenburgh et al., 2022; Sfeir et al., 2026).
 
 The corrected empirical objective must admit a finite estimate. When the human sample is small relative to the utility specification, the objective can decrease indefinitely along a coefficient direction. Further optimization then produces extreme coefficients without reaching a finite solution. Prediction information, correction power and auxiliary sample size all enter this event. A power change that restores a finite root can also change the resulting choice probabilities.
 
@@ -52,7 +52,7 @@ $$\mathcal Z_w=\{\sum_i w_i X_i p_i:0\leq p_i\leq1\}. \qquad (4)$$
 
 Proposition 1. Suppose the rows with positive weight span the parameter space. Objective (2) has a unique finite minimizer exactly when $b_\lambda$ is in the interior of $\mathcal Z_w$. If the moment is outside this set, the objective is unbounded below. A boundary moment has no finite stationary point. Without the rank condition, coefficients are not uniquely identified.
 
-This is a classical convex support condition. The gradient of the log partition function maps finite coefficients onto the interior of its attainable moments. Its recession function is
+Convex support and recession criteria are established tools for likelihood existence (Geyer, 2009). Sablica et al. (2026, Theorems 1 and 4) give overlap and estimable-span uniqueness results for latent polyhedral categorical likelihoods, with LP detection in Section 4.1. Proposition 1 applies the support calculation to the corrected moment in (3). The gradient of the log partition function maps finite coefficients onto the interior of its attainable moments. Its recession function is
 
 $$Q_\lambda^\infty(d)=\sum_iw_i(X_i^Td)_+-b_\lambda^Td. \qquad (5)$$
 
@@ -106,7 +106,7 @@ The labelled contribution in (2), up to its averaging factor, is
 
 $$\ell_L(u)=(1-\lambda)\log(1+e^u)-(Y-\lambda g)u. \qquad (11)$$
 
-For $Y=0$, taking $u\to-\infty$ sends this contribution to minus infinity. For $Y=1$, taking $u\to+\infty$ has the same effect. At unit power it is affine. The complete objective can still be coercive because auxiliary rows offset those directions. The finite rowwise infimum condition in Koriyama and Bellec (2025; arXiv v2, Assumption 2, item 2) excludes these labelled losses. Fuh et al. (2026) study existence for positivity constrained multinomial likelihoods; (2) uses unrestricted coefficients and subtracts the labelled prediction loss. Theorem 1 evaluates the compensation using the actual two sample loss structure. General Gaussian-image absorption is already expressed through Grassmann angles for arbitrary sets (Götze et al., 2020, Theorem 3.1). The geometry used here is established; the specified corrected intervals determine the boundary and its choice-estimation consequences. A finite sum of losses with finite infima is bounded below. An exterior compensated objective has infimum minus infinity, which persists under positive scaling and finite constant shifts. An objective-preserving reduction to that bounded-loss class cannot represent those designs.
+For $Y=0$, taking $u\to-\infty$ sends this contribution to minus infinity. For $Y=1$, taking $u\to+\infty$ has the same effect. At unit power it is affine. The complete objective can still be coercive because auxiliary rows offset those directions. The finite rowwise infimum condition in Koriyama and Bellec (2025; arXiv v3, Assumption 2.5, item 2) excludes these labelled losses. At unit power their strict-convexity condition in item 1 also fails. Fuh et al. (2026) study existence for positivity constrained multinomial likelihoods; (2) uses unrestricted coefficients and subtracts the labelled prediction loss. Theorem 1 evaluates the compensation using the actual two sample loss structure. General Gaussian-image absorption is already expressed through Grassmann angles for arbitrary sets (Götze et al., 2020, Theorem 3.1). Han and Ren (2026, Theorems 1.1, 1.3 and 2.1) give general Gaussian projection and preimage results and a null-signal cone-constrained logistic threshold. The geometry used here is established; the specified corrected intervals determine the boundary and its choice-estimation consequences. A finite sum of losses with finite infima is bounded below. An exterior compensated objective has infimum minus infinity, which persists under positive scaling and finite constant shifts. An objective-preserving reduction to that bounded-loss class cannot represent those designs.
 
 Unbiased noisy label correction and preservation of convexity are established (Natarajan et al., 2013); corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are established for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). DY prior penalized logit guarantees finite estimates for full rank designs and has proportional dimensional theory, including a recent fitted intercept treatment (Sterzinger and Kosmidis, 2026; Sterzinger, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. The two sample geometry gives the probability boundary for this event. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
 
@@ -329,7 +329,9 @@ We compare human maximum likelihood, unit power PPI, human initialized power tun
 
 Two DY prior settings provide a labelled only comparator in the two conditions of Table 2. The estimator fits pseudo-responses $\alpha Y+(1-\alpha)/2$, using $\alpha=m/(m+11)$ and a fixed $\alpha=0.5$ sensitivity. The first follows the dimension based choice used in the authors' supplementary implementation. Both use the same human rows, a zero prior mode and zero initialization, with no auxiliary predictions. They replay the existing 500 draws in each condition; the original seven strategy grids remain unchanged.
 
-For each method we record point availability and interval availability separately. Parameter MSE is the mean of squared coordinate errors, conditional on an available point. Coverage is the fraction of 11 marginal intervals covering their corresponding true coordinates, averaged over repetitions with intervals. Issued and covers assigns zero to a repetition without intervals before averaging over all 500 repetitions. Neither summary is simultaneous coverage. Monte Carlo errors use the repetition as the independent unit. Wald intervals use the implemented score sandwich; ridge intervals do not adjust for shrinkage bias. Appendix C states the covariance formulas and tuning convention.
+Firth estimation is an established response to separation in small choice datasets (Kessels et al., 2019). We maximize the human log likelihood plus one half the log determinant of its expected information, using the same labelled rows and no auxiliary predictions. The three fixed starts are zero, a human ridge estimate and its negative. We select the smallest penalized negative log likelihood among verified roots with positive definite Hessians. This numerical selection does not certify global optimality. Its conventional Wald intervals use inverse expected information (Kosmidis and Firth, 2021).
+
+For each method we record point availability and interval availability separately. Parameter MSE is the mean of squared coordinate errors, conditional on an available point. Coverage is the fraction of 11 marginal intervals covering their corresponding true coordinates, averaged over repetitions with intervals. Issued and covers assigns zero to a repetition without intervals before averaging over all 500 repetitions. Neither summary is simultaneous coverage. Monte Carlo errors use the repetition as the independent unit. Firth intervals use inverse expected information; the other methods use their documented score sandwiches. Ridge intervals do not adjust for shrinkage bias. Appendix C states the covariance formulas and tuning convention.
 
 ### 5.2 What a finite output establishes
 
@@ -348,6 +350,7 @@ Table 2  Point availability and interval performance
 | 20 labels oracle | Soft pooling | 500/500 | 0.0057 | 0.942 | 0.942 |
 | 20 labels oracle | DY dimension rule | 500/500 | 0.9277 | 0.737 | 0.737 |
 | 20 labels oracle | DY alpha 0.5 | 500/500 | 0.4397 | 0.740 | 0.740 |
+| 20 labels oracle | Human Firth | 500/500 | 1.9494 | 0.999 | 0.999 |
 | 150 labels overconfident | Human MLE | 500/500 | 0.1353 | 0.947 | 0.947 |
 | 150 labels overconfident | Unit PPI | 500/500 | 0.1326 | 0.971 | 0.971 |
 | 150 labels overconfident | Power human start | 500/500 | 0.1050 | 0.942 | 0.942 |
@@ -357,18 +360,21 @@ Table 2  Point availability and interval performance
 | 150 labels overconfident | Soft pooling | 500/500 | 0.0353 | 0.804 | 0.804 |
 | 150 labels overconfident | DY dimension rule | 500/500 | 0.1011 | 0.945 | 0.945 |
 | 150 labels overconfident | DY alpha 0.5 | 500/500 | 0.1035 | 0.625 | 0.625 |
+| 150 labels overconfident | Human Firth | 500/500 | 0.1088 | 0.963 | 0.963 |
 
 With 20 labels and oracle predictions, the human MLE is available in 116 of 500 repetitions. Unit power PPI returns 412 points. Its conditional coverage is 0.998, while issued and covers is 0.822. One step PPI returns 500 points and has coverage 0.827. Ridge PPI and oracle pooling also return every point and have coverage near 0.95 in this condition. The oracle pooling MSE advantage is substantial and is preserved in the comparison.
 
-Under stronger utility, 150 labels and overconfident predictions, all seven estimators return 500 points and intervals. Soft pooling has MSE 0.0353 and coverage 0.8036. Ridge initialized power tuning has MSE 0.1042 and coverage 0.9424; one step PPI has MSE 0.0992 and coverage 0.9451. Exact finite support expectations give a soft pooling population parameter MSE of 0.0181 in this condition. The fixed power corrected population score still vanishes at the true parameter. This comparison isolates the difference between a changed target and corrected estimation uncertainty.
+Under stronger utility, 150 labels and overconfident predictions, all seven original estimators return 500 points and intervals. Soft pooling has MSE 0.0353 and coverage 0.8036. Ridge initialized power tuning has MSE 0.1042 and coverage 0.9424; one step PPI has MSE 0.0992 and coverage 0.9451. Exact finite support expectations give a soft pooling population parameter MSE of 0.0181 in this condition. The fixed power corrected population score still vanishes at the true parameter. This comparison isolates the difference between a changed target and corrected estimation uncertainty.
 
 Both DY settings return 500 estimates and intervals in each condition. With 20 labels, dimension based shrinkage gives MSE 0.9277 and diagnostic coverage 0.7369; half power gives 0.4397 and 0.7398. With 150 labels, dimension based DY gives MSE 0.1011 and coverage 0.9451 using labelled data alone. Its paired MSE difference from one step PPI is 0.001935 with Monte Carlo standard error 0.001399 on the same 500 fits. Half power DY has MSE 0.1035 and coverage 0.6249; its exact support population target has parameter MSE 0.0874. These intervals use the ordinary sandwich described in Appendix C. The Gaussian high dimensional corrections of the cited DY papers are not applied to this discrete support.
+
+Human-only Firth returns finite fits in all 500 repetitions of both displayed settings. With 20 labels its MSE is 1.9494 and its mean marginal interval width is 5.9394. Coverage of 0.9995 accompanies these wide intervals. With 150 labels its MSE is 0.1088 and coverage is 0.9631. On the same 500 samples, its MSE exceeds the dimension-rule DY value by 0.007746, with Monte Carlo standard error 0.000581. These results retain a mature finite-estimate alternative and do not establish a general estimator ranking.
 
 Soft pooling retains the smallest displayed point errors under the original, weaker signal, including the imperfect predictions. Its coverage in the 150 label cases remains around 0.94. The complete results support distinct choices for distinct objectives: an analyst focused on prediction or parameter error may favor pooling in these conditions, while inference on the human logistic target requires its target discrepancy and coverage to be assessed. Existing ridge and one step procedures also handle many finite computation cases.
 
 ![Figure 4](figures/figure2_estimates_intervals.png)
 
-Figure 4  Error and coverage answer different questions. The left column uses 20 labels, oracle predictions and the original signal. The right column uses 150 labels, overconfident predictions and threefold utility. The PPI and pooling methods use 600 auxiliary rows and proxy error 0.25; both DY settings use labelled rows alone. MSE axes are logarithmic; annotations show available points out of 500. Coverage is averaged across 11 marginal intervals, with the reference line at 0.95. Underlying aggregate tables retain interval counts, Monte Carlo errors and all remaining conditions.
+Figure 4  Error and coverage answer different questions. The left column uses 20 labels, oracle predictions and the original signal. The right column uses 150 labels, overconfident predictions and threefold utility. The PPI and pooling methods use 600 auxiliary rows and proxy error 0.25; both DY settings and Firth use labelled rows alone. Firth uses information-Wald intervals; the other methods retain their documented sandwich conventions. MSE axes are logarithmic; annotations show available points out of 500. Coverage is averaged across 11 marginal intervals, with the reference line at 0.95. Underlying aggregate tables retain interval counts, Monte Carlo errors and all remaining conditions.
 
 ### 5.3 Power changes availability and error
 
@@ -485,6 +491,10 @@ The positive power envelope gives the largest existence region. In the binary in
 
 Section 4 identifies the public vaccine repository. The reproduction package provides source hashes, download instructions, code and aggregate outputs. Reported estimates use released choices and simulations; questionnaire responses are excluded.
 
+## Declaration of generative AI assistance
+
+During preparation of this work, ChatGPT and Codex were used to assist with literature searches, development and checking of mathematical arguments, programming, numerical analysis, manuscript drafting and editing.
+
 ## References
 
 Albert, A., Anderson, J. A. (1984). On the existence of maximum likelihood estimates in logistic regression models. Biometrika 71(1), 1–10. https://doi.org/10.1093/biomet/71.1.1
@@ -493,7 +503,7 @@ Amelunxen, D., Lotz, M., McCoy, M.B., Tropp, J.A. (2014). Living on the edge: Ph
 
 Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Prediction-powered inference. Science 382, 669–674. Preprint: https://arxiv.org/abs/2301.09633
 
-Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2024). PPI++: Efficient prediction-powered inference. arXiv:2311.01453, version 2. https://arxiv.org/abs/2311.01453v2
+Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-powered inference. Annals of Applied Statistics 20(3), 2235–2252. https://doi.org/10.1214/26-AOAS2215
 
 Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753
 
@@ -503,7 +513,11 @@ Fan, S., Visokay, A., Hoffman, K., Salerno, S., Liu, L., Leek, J.T., McCormick, 
 
 Fuh, C.D., Kao, C.L.M., Pang, T. (2026). On the existence of maximum likelihood estimators in a multinomial choice model under positivity constraints. Statistical Papers 67, 120. https://doi.org/10.1007/s00362-026-01902-2
 
+Geyer, C.J. (2009). Likelihood inference in exponential families and directions of recession. Electronic Journal of Statistics 3, 259–289. https://www.stat.umn.edu/geyer/gdor/
+
 Götze, F., Kabluchko, Z., Zaporozhets, D. (2020). Grassmann angles and absorption probabilities of Gaussian convex hulls. Inspected preprint version2. https://arxiv.org/abs/1911.04184v2
+
+Han, Q., Ren, H. (2026). Gaussian random projections of convex cones: approximate kinematic formulae and applications. Information and Inference 15(1), iaag006. https://doi.org/10.1093/imaiai/iaag006. Inspected preprint: https://arxiv.org/html/2212.05545v2
 
 Hess, S., Daly, A., Bliemer, M., Guevara, A., Daziano, R., Dekker, T. (2026). Statistical significance in choice modelling: computation, usage and reporting. Journal of Choice Modelling 60, 100611. https://doi.org/10.1016/j.jocm.2026.100611
 
@@ -513,9 +527,13 @@ Ji, Z., Telgarsky, M. (2019). Risk and parameter convergence of logistic regress
 
 Kabluchko, Z., Seidel, H. (2020). Convex cones spanned by regular polytopes. arXiv:2006.09492, version 2. https://arxiv.org/abs/2006.09492v2
 
+Kessels, R., Jones, B., Goos, P. (2019). Using Firth's method for model estimation and market segmentation based on choice data. Journal of Choice Modelling 31, 1–21. https://doi.org/10.1016/j.jocm.2018.12.002
+
 Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. NIPS 2017 camera ready preprint, arXiv:1703.00593v2. https://arxiv.org/abs/1703.00593v2
 
-Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html. Inspected assumption numbering: https://arxiv.org/html/2501.03163v2
+Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html. Inspected assumption numbering: https://arxiv.org/html/2501.03163v3
+
+Kosmidis, I., Firth, D. (2021). Jeffreys-prior penalty, finiteness and shrinkage in binomial-response generalized linear models. Biometrika 108(1), 71–82. https://doi.org/10.1093/biomet/asaa052
 
 Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5
 

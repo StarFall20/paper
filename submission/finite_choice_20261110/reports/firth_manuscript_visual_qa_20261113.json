@@ -1,0 +1,444 @@
+{
+  "date": "2026-11-13",
+  "status": "complete",
+  "method": "Native-resolution rendered page inspection, with exact full-PNG inheritance explicitly recorded.",
+  "full": {
+    "pages": 59,
+    "source_sha256": "71a1fee6fc7e93bbfac97d7587d81ccaa6d36c893503b9439d4fb76a77c99966",
+    "docx_sha256": "8e2a90227abe1e37770c866313c85272b58a2bffe0b1aee31ac6f8c2e070babb",
+    "native_math_count": 1186,
+    "display_equation_paragraphs": 131,
+    "rasterized_equations": 0,
+    "raw_tex_commands_left_in_text": false,
+    "tables": 12,
+    "page_review_basis": {
+      "page-1.png": {
+        "sha256": "107920d3de9e1e27e89103d03c3e6e7c96be36b77d22ea3c16e9a409d43c52d8",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-2.png": {
+        "sha256": "2524a7227e220b4464fd4ba040f6e9aa4ed05c402735dcdb6f2313a589302d9a",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-2.png"
+      },
+      "page-3.png": {
+        "sha256": "635f72cc024ddf9cf846885f94d225d65b378fa8f74a39b98d47a3821a8478b3",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-4.png": {
+        "sha256": "2b7b7e0226cec1717c24f8136665bb62d760cc9070b145424ce6c347b041b3dc",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-5.png": {
+        "sha256": "3d3762b24af9a330d1c9bfecd32b78faf0524438145fb064994c5eff506384e2",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-6.png": {
+        "sha256": "fddfb6b3da2289ab7400445151da97a0e6a932e1ffd81e43fd847fc3a8e93e5f",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-6.png"
+      },
+      "page-7.png": {
+        "sha256": "07803549465b9a68f4373fd839094bc67bf23d04f2e66e0ad896cb8b570509b2",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-7.png"
+      },
+      "page-8.png": {
+        "sha256": "e4cd4252db692ad521a84863aeb27771248cadf6f7b7287ef29b1ec59a6558d4",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-8.png"
+      },
+      "page-9.png": {
+        "sha256": "59eb2679638df6667865ef674bee655a8f1b5062ea9a7900514b390a0a5459a9",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-9.png"
+      },
+      "page-10.png": {
+        "sha256": "f5abac6e6a4a28be44638438b2f086bf7d1cef24af0d772097290b98ec8804ca",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-10.png"
+      },
+      "page-11.png": {
+        "sha256": "b143c169f21e7b5c409caf5c792be1fe4a3b30cfbd6023e85fc79cfdfb086fda",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-11.png"
+      },
+      "page-12.png": {
+        "sha256": "0f297a29a6b6d899abab1077aa4bd0d5898d507f6c434cc33f88151246ef416c",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-12.png"
+      },
+      "page-13.png": {
+        "sha256": "d52d29c488ba829558788ec5fed555197064578435fd20bb25bf39fe18966238",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-13.png"
+      },
+      "page-14.png": {
+        "sha256": "f5c9241706d3240c571b1a96ea070ba6f8bdcc036f983b1a356169bccb430d31",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-14.png"
+      },
+      "page-15.png": {
+        "sha256": "e4d52d12d164816493743db4c9f2c42a0dde183ee907e262bf045e15ab390d00",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-15.png"
+      },
+      "page-16.png": {
+        "sha256": "7e1612b7ec72faa058913694764c8142ae8bc7eaaa95a9e3e0ceab3dab9e3a7c",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-17.png": {
+        "sha256": "11c31d4a6855eb0654fd0918dcb5f94d4b2b553574d2deb0027f9b786b13e59b",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-18.png": {
+        "sha256": "d3bdf5883bfc56f268a5eb17017e774f356ba8f3e6a9e94642c39b34625c492f",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-19.png": {
+        "sha256": "287680ba118cba4a31b907dcbbd3971481402c6492acd0c53a0b716bc77d3ae2",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-20.png": {
+        "sha256": "10a3d9e5a74b1c8cb69acbb16dc6258488af516e444db51034a4dd3d4ff1ddf3",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-20.png"
+      },
+      "page-21.png": {
+        "sha256": "64dc1e822b24475229ff714395963bd6b0f203b0629b97e2675a0d79b519c297",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-21.png"
+      },
+      "page-22.png": {
+        "sha256": "6c4426a5372c88a0c5e74f4f9ab2bed30999dd3f64091b3b3c78da6500e9b9b2",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-22.png"
+      },
+      "page-23.png": {
+        "sha256": "2fe94a1712a763266afae1e1a8c43ed7921dbd10f4edc869f7e0a50f4f1e6dfb",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-23.png"
+      },
+      "page-24.png": {
+        "sha256": "dbc21f12f96a4c56e319802782a7312f5693101f4d680f9a255db05a704d1254",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_main_render_20261113/page-24.png"
+      },
+      "page-25.png": {
+        "sha256": "733e4f6d53be5cd4ff40dfdb52b8dd4677c43f3b5c85a81053908d96832ff7a3",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_full_render_20261113/page-25.png"
+      },
+      "page-26.png": {
+        "sha256": "d477c14f0827e89bc929567b044de719173995496c84afd5a10b44f64c017657",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-27.png": {
+        "sha256": "f5f5065890ed7e184f1a4d1d1fc61ee52eec487f9334ef4d71bb1d5da2d007bf",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-28.png": {
+        "sha256": "3988c840e84ca72bff0ace7a9e2854d8b288f39efaccf3f80c2c3258870ead78",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-29.png": {
+        "sha256": "265162dd2aa2c5b46bd96aa98b88131dbbe8536d852d3f426dcc0436ca96b5b7",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-30.png": {
+        "sha256": "b0c416421fd5316e2ceb2253aa86e111958e40bd63c11962585cd4151aa80813",
+        "mode": "exact PNG inheritance from completed earlier review",
+        "earlier": "work/core_final_full_render_20261113/page-30.png"
+      },
+      "page-31.png": {
+        "sha256": "98e60093412862828d24d5f402e23d3d60a77f57f3371e749e4275dec559ff1d",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-32.png": {
+        "sha256": "d83ea8182644cb3d4cf600cf58d4c1f193bc2d155d4fb8e68b66536b70dc30ba",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-33.png": {
+        "sha256": "6688a9053e9133115b9b901d00e45ad09c98251974d4458e051e07f9e4f02529",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-34.png": {
+        "sha256": "9e4fb93997e0378ff16a8d954f24e90459e63e40408e25fa1e3555ad51a2d6bd",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-35.png": {
+        "sha256": "6176d1eb1c9df57e74b699c14b3da55b4cab90b3a662cc8749486121a34e4098",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-36.png": {
+        "sha256": "3a6ef15e15f171317c08f4872b00697c891c614b5f02d0aa28a4e3bf956af830",
+        "mode": "freshly inspected after label correction"
+      },
+      "page-37.png": {
+        "sha256": "b6f8ade04c62dd3fd3ba43f08e959f71bc0346f2adf1691d2f2a705237529261",
+        "mode": "freshly inspected after label correction"
+      },
+      "page-38.png": {
+        "sha256": "e628f53dd73e23e9e14b88976f72f8443210fdbb9c70cbfe4f0369bb3dbeff96",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-39.png": {
+        "sha256": "9dc41c7b7deb32896adee2f752b1774a1a818e6cbe7db569ed0b03a9c7003a3f",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-40.png": {
+        "sha256": "9c90b2e8431c2dfd95e45ed46e76a9ac12b2b981cbeba97c8263fff9fb82af71",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-41.png": {
+        "sha256": "35dd9017ce2b33d20c2c370816e30be5a904502a4e78fbd6d1da94d676e7a96d",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-42.png": {
+        "sha256": "018bf7c45ec1a6b2bb346cf326d660e542d53b7ed3f96b39e5947113a84e19a6",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-43.png": {
+        "sha256": "3983714254ad3e4ba58eb37ca1b1fd185160942d70b222a98db34c27b58507ad",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-44.png": {
+        "sha256": "09ef8d35de5577c221fa0b5eb63f7ec8f8d016e91fb76e5850bfc51a17a3bc08",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-45.png": {
+        "sha256": "929e97a8fecda67ea7a144789c91b8de57f0ab2fe462794a58f9cd6e81988d9c",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-46.png": {
+        "sha256": "12e6640a3ca2f5bed7e26cca389e359490737f010f38b8c55cb7dd5068816b58",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-47.png": {
+        "sha256": "377bbdc8240644939460e251df4df30fed3bee2b6cb9b549eccf20f29c8e61a4",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-48.png": {
+        "sha256": "d232d5d3133b8af317c9e0efa23ea4df63544cf0da9b979c02e372df32495b1d",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-49.png": {
+        "sha256": "2f24893e41d1d51469c0485681345743e846341b9e1658579cda36d174fa23f7",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-50.png": {
+        "sha256": "d538f6fd27f0bee17f49185e55f7d1739082c1267017a5539f31df36b46de4bd",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-51.png": {
+        "sha256": "f32507091408bcab14f463410255991d78c60f6c498365ad9eb4e06c586a6867",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-52.png": {
+        "sha256": "b7ad62fc534d533b02899f7f5c20f5d695f73f312d70ca6e71b5c6e14161dfb7",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-53.png": {
+        "sha256": "3c237c93850a4b74bd628faa68dad685909110beaf3f8f95b4b65424d7f695fe",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-54.png": {
+        "sha256": "6d2587076e0453f81bdb41194691c1301881fb1116f2992f1c59af49d2c9a825",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-55.png": {
+        "sha256": "dc51cdab02f9ab1f5961f8c1d796041961775f2abdf87e981913f7dcab2060f1",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-56.png": {
+        "sha256": "fdc25dd8f6afbf93d871313f2d57ce24fc6ef075a65158f7eca3d623bd3d9ab8",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-57.png": {
+        "sha256": "b1d94cc6ba7554f39123f2db989f76813f873a01931aa3f451da35c847106231",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-58.png": {
+        "sha256": "5fff68f7fe1c8cd4ebf81988e1788c2c60237daa03a40d4c2853b7752a9d4a45",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      },
+      "page-59.png": {
+        "sha256": "972730139a110b82324b5797a34be42ee2b4ebac8936f50f0f852c23ee79824f",
+        "mode": "inspected current integration first render; exact PNG match to final"
+      }
+    }
+  },
+  "main": {
+    "pages": 28,
+    "source_sha256": "4dd792a05d8cc25ef5d7edcaee95bb876418e65ef521662b1d4bb9b483205bfa",
+    "docx_sha256": "942cb553d558d5e7f7a419fdf627f0d07e8744bbf5e059f6c67cf04fc092487f",
+    "native_math_count": 238,
+    "display_equation_paragraphs": 35,
+    "rasterized_equations": 0,
+    "raw_tex_commands_left_in_text": false,
+    "tables": 6,
+    "page_review_basis": {
+      "page-1.png": {
+        "sha256": "107920d3de9e1e27e89103d03c3e6e7c96be36b77d22ea3c16e9a409d43c52d8",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-1.png"
+      },
+      "page-2.png": {
+        "sha256": "2524a7227e220b4464fd4ba040f6e9aa4ed05c402735dcdb6f2313a589302d9a",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-2.png"
+      },
+      "page-3.png": {
+        "sha256": "635f72cc024ddf9cf846885f94d225d65b378fa8f74a39b98d47a3821a8478b3",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-3.png"
+      },
+      "page-4.png": {
+        "sha256": "2b7b7e0226cec1717c24f8136665bb62d760cc9070b145424ce6c347b041b3dc",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-4.png"
+      },
+      "page-5.png": {
+        "sha256": "3d3762b24af9a330d1c9bfecd32b78faf0524438145fb064994c5eff506384e2",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-5.png"
+      },
+      "page-6.png": {
+        "sha256": "fddfb6b3da2289ab7400445151da97a0e6a932e1ffd81e43fd847fc3a8e93e5f",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-6.png"
+      },
+      "page-7.png": {
+        "sha256": "07803549465b9a68f4373fd839094bc67bf23d04f2e66e0ad896cb8b570509b2",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-7.png"
+      },
+      "page-8.png": {
+        "sha256": "e4cd4252db692ad521a84863aeb27771248cadf6f7b7287ef29b1ec59a6558d4",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-8.png"
+      },
+      "page-9.png": {
+        "sha256": "59eb2679638df6667865ef674bee655a8f1b5062ea9a7900514b390a0a5459a9",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-9.png"
+      },
+      "page-10.png": {
+        "sha256": "f5abac6e6a4a28be44638438b2f086bf7d1cef24af0d772097290b98ec8804ca",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-10.png"
+      },
+      "page-11.png": {
+        "sha256": "b143c169f21e7b5c409caf5c792be1fe4a3b30cfbd6023e85fc79cfdfb086fda",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-11.png"
+      },
+      "page-12.png": {
+        "sha256": "0f297a29a6b6d899abab1077aa4bd0d5898d507f6c434cc33f88151246ef416c",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-12.png"
+      },
+      "page-13.png": {
+        "sha256": "d52d29c488ba829558788ec5fed555197064578435fd20bb25bf39fe18966238",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-13.png"
+      },
+      "page-14.png": {
+        "sha256": "f5c9241706d3240c571b1a96ea070ba6f8bdcc036f983b1a356169bccb430d31",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-14.png"
+      },
+      "page-15.png": {
+        "sha256": "e4d52d12d164816493743db4c9f2c42a0dde183ee907e262bf045e15ab390d00",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-15.png"
+      },
+      "page-16.png": {
+        "sha256": "7e1612b7ec72faa058913694764c8142ae8bc7eaaa95a9e3e0ceab3dab9e3a7c",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-16.png"
+      },
+      "page-17.png": {
+        "sha256": "11c31d4a6855eb0654fd0918dcb5f94d4b2b553574d2deb0027f9b786b13e59b",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-17.png"
+      },
+      "page-18.png": {
+        "sha256": "d3bdf5883bfc56f268a5eb17017e774f356ba8f3e6a9e94642c39b34625c492f",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-18.png"
+      },
+      "page-19.png": {
+        "sha256": "287680ba118cba4a31b907dcbbd3971481402c6492acd0c53a0b716bc77d3ae2",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-19.png"
+      },
+      "page-20.png": {
+        "sha256": "10a3d9e5a74b1c8cb69acbb16dc6258488af516e444db51034a4dd3d4ff1ddf3",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-20.png"
+      },
+      "page-21.png": {
+        "sha256": "64dc1e822b24475229ff714395963bd6b0f203b0629b97e2675a0d79b519c297",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-21.png"
+      },
+      "page-22.png": {
+        "sha256": "6c4426a5372c88a0c5e74f4f9ab2bed30999dd3f64091b3b3c78da6500e9b9b2",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-22.png"
+      },
+      "page-23.png": {
+        "sha256": "2fe94a1712a763266afae1e1a8c43ed7921dbd10f4edc869f7e0a50f4f1e6dfb",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-23.png"
+      },
+      "page-24.png": {
+        "sha256": "dbc21f12f96a4c56e319802782a7312f5693101f4d680f9a255db05a704d1254",
+        "mode": "exact PNG inheritance from current reviewed full manuscript",
+        "full_page": "page-24.png"
+      },
+      "page-25.png": {
+        "sha256": "491eb308850df8687d6bb16f1ff4f49cf115e2c8c6531c21ee9222fc6d048071",
+        "mode": "freshly inspected main reading version"
+      },
+      "page-26.png": {
+        "sha256": "ad0ef1175db1b6daa3101ea81305637e6548420d7231ee6e59505b202e30763a",
+        "mode": "freshly inspected main reading version"
+      },
+      "page-27.png": {
+        "sha256": "588388e2625789ebe11f53aa614e6a50893f6d2d6c11938c16075dbf40c4ccfd",
+        "mode": "freshly inspected main reading version"
+      },
+      "page-28.png": {
+        "sha256": "c47efa387b6e9150a2d24ddad824f4fe28a0fcdec71523e3618e31eb61442adf",
+        "mode": "freshly inspected main reading version"
+      }
+    }
+  },
+  "highlights": {
+    "pages": 1,
+    "direct_image_review": true,
+    "source_sha256": "0b8a20a30d10cc87331962623069bae0c0ca018d7612983b175e9fcbf6e24125",
+    "docx_sha256": "229dbe7e150fc35cc92134c4923cf5cbc3ed6aebbf9b4e641b2ff130a86a9aa8",
+    "characters": [
+      75,
+      75,
+      75,
+      76,
+      75
+    ],
+    "page_png_sha256": "505db6247f7406dbd842dafb2a361ef74d9ecedf56e3b43d8b9ba82eb709f78a"
+  },
+  "issues_found_and_corrected": [
+    "New Firth formula initially duplicated existing Appendix C3; renumbered C.4–C.6 and independently re-rendered pages36–37"
+  ],
+  "checks": [
+    "12editable tables including all20rows ofTable2",
+    "131native display paragraphs; no rasterized equations",
+    "73unique dotted appendix equation labels",
+    "Figure4 includes10methods and readable interval legend",
+    "Firth covariance and multiple-mode condition explicitly stated"
+  ],
+  "scope": "Artifact QA only; not external mathematical review, full-text plagiarism certification or editorial acceptance."
+}
