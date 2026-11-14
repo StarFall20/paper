@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-14",
+  "platform": "Google Scholar",
+  "access": "Actual native Chrome UI, not general-web domain filtering",
+  "filters": "All years, Chinese interface, relevance order, patents excluded, citations included; observed default interface",
+  "queries": [
+    {
+      "id": "S01",
+      "query": "\"prediction-powered\" (logistic OR logit) (existence OR separation OR unbounded)",
+      "displayed_count": 187,
+      "counts_are_dynamic": true,
+      "viewed_pages": 2,
+      "viewed_title_positions": 20,
+      "titles_by_page": [
+        [
+          "Ppi++: Efficient prediction-powered inference",
+          "Calibeating prediction-powered inference",
+          "A bootstrap approach to prediction-powered inference",
+          "Prediction-powered machine learning for model selection and uncertainty",
+          "Federated prediction-powered inference from decentralized data",
+          "Anytime-valid, bayes-assisted, prediction-powered inference",
+          "Prediction-Powered Inference: A Review of Rectifier-Based Methods",
+          "Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference",
+          "FAB-PPI: Frequentist, assisted by Bayes, prediction-powered inference",
+          "Prediction-powered Inference by Mixture of Experts"
+        ],
+        [
+          "Beyond Point Predictions: Distribution-Informed Prediction-Powered Inference",
+          "Local prediction-powered inference",
+          "Design-Based Prediction-Powered Inference for Spatial Data",
+          "Prediction-Powered Inference in Hybrid Measurement Regimes: A Statistical Survey",
+          "Covariance-Calibrated Prediction-Powered Inference",
+          "Prediction-Powered Conditional Inference",
+          "Prediction-Powered Causal Inference by Automatic Debiased Machine Learning and Semi-Supervised Riesz Regression",
+          "Prediction-Powered Data Fusion for Treatment Effect Estimation",
+          "Semi-supervised learning via cross-prediction-powered inference for wireless systems",
+          "Machine learning based spam e-mail detection using logistic regression algorithm"
+        ]
+      ],
+      "all_displayed_pages_screened": false
+    },
+    {
+      "id": "S02",
+      "query": "\"prediction-powered\" (\"unbounded below\" OR coercivity OR \"finite minimizer\")",
+      "displayed_count": 2,
+      "counts_are_dynamic": true,
+      "viewed_pages": 1,
+      "viewed_title_positions": 2,
+      "titles_by_page": [
+        [
+          "DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration",
+          "International Congress on Multidisciplinary Engineering: ICME 2026"
+        ]
+      ],
+      "all_displayed_pages_screened": true
+    },
+    {
+      "id": "S03",
+      "query": "\"prediction-powered\" (\"phase transition\" OR \"statistical dimension\")",
+      "displayed_count": 18,
+      "counts_are_dynamic": true,
+      "viewed_pages": 2,
+      "viewed_title_positions": 18,
+      "titles_by_page": [
+        [
+          "The Value of Information in Resource-Constrained Pricing",
+          "Black-Box Assisted Regression: Phase Transitions and Minimax Optimality",
+          "Applications of Machine Learning in High-Entropy Alloys: Phase Prediction, Performance Optimization, and Compositional Space Exploration",
+          "LLMs judging LLMs: A simplex perspective",
+          "FastCSP: Accelerated molecular crystal structure prediction with universal model for atoms",
+          "High-Dimensional Statistics: Reflections on Progress and Open Problems",
+          "Making Interpretable Discoveries from Unstructured Data: A High-Dimensional Multiple Hypothesis Testing Approach",
+          "< a rel=",
+          "Calibrate, Don’t Curate: Label-Efficient Estimation from Noisy LLM Judges",
+          "Are Human and LLM-Generated Observations Statistically Comparable? Rethinking Sampling Units, Variability, and Statistical Inference"
+        ],
+        [
+          "SPOT-IC: Improving prediction for interval-censored data via survival probability transfer",
+          "How much can we learn from quantum random circuit sampling?",
+          "Accuracy Is Not Value: Choosing Weak Supervisors by What the Student Inherits",
+          "Relative-based scaling law for neural language models",
+          "Recalibrating Many Questions with Few Labels: Minimax Rates and Identification Limits",
+          "Mapping the structural coverage of Arabidopsis thaliana plant developmental proteins: Insights from Experimental and AlphaFold Approaches",
+          "Imputation of cancer proteomics data with a deep model that learns from many datasets",
+          "Mechanisms of Cadmium-Induced and Epidermal Growth Factor Receptor Mutation-Driven Lung Tumorigenesis"
+        ]
+      ],
+      "all_displayed_pages_screened": true
+    },
+    {
+      "id": "S04",
+      "query": "\"prediction-powered\" (\"same variance\" OR \"identical covariance\" OR \"same covariance\")",
+      "displayed_count": 45,
+      "counts_are_dynamic": true,
+      "viewed_pages": 5,
+      "viewed_title_positions": 45,
+      "titles_by_page": [
+        [
+          "Linear Bayes Methods for Prediction-Powered Inference",
+          "AI-assisted variance reduction in randomized experiments",
+          "No free lunch: Non-asymptotic analysis of prediction-powered inference",
+          "When can LLM digital twins reduce human measurement? From behavioral fidelity to statistical substitutability",
+          "Scalable Linear Bayes Prediction for Mixtures of Experts and LLMs",
+          "How to improve statistical power in a trial with SCA2 patients using natural history data",
+          "Which Metrics Save the Most Human Annotation? Prediction-Powered Evaluation and Meta-Evaluation",
+          "PPI-SVRG: Unifying prediction-powered inference and variance reduction for semi-supervised optimization",
+          "Design-Based Prediction-Powered Inference for Spatial Data",
+          "Optimized Labeling Resource Allocation for Prediction-Assisted Inference via OPAL"
+        ],
+        [
+          "Augmenting Randomized Controlled Trials with Foundation Models as Synthetic Units",
+          "Power-Optimal Covariate Adjustment for Switchback Experiments",
+          "Optimal Multi-Machine Learning Assisted Semi-Supervised Inference",
+          "Personalizing black-box models for nonparametric regression with minimax optimality",
+          "Pay only for disagreement: Certified no-regression verdicts for model updates with matching label-complexity bounds",
+          "Prediction-powered inference in clinical trials with survival outcomes",
+          "Crop Mapping Evaluation under Sampling Bias",
+          "Robust sampling for active statistical inference",
+          "Beyond the Flaw of Averages: Conditional Probability Clouds, Emergence, and Negative Controls in the Measurement of Platform Experience",
+          "Augmented Hypothesis Testing with Persona-Based LLM Simulations"
+        ],
+        [
+          "Transfer Learning Under Heterogeneity: Methods and Theory for Prediction and Inference",
+          "Best-Arm Identification with Generative Proxy",
+          "Can language models boost the power of randomized experiments without statistical bias?",
+          "Beyond Hard Labels: LLM Probabilities Improve Human-Assisted Regression",
+          "Multi-armed bandits with machine learning-generated surrogate rewards",
+          "Accelerating unbiased llm evaluation via synthetic feedback",
+          "Learning U-Statistics with Active Inference",
+          "A comparative study of conformal prediction methods for valid uncertainty quantification in machine learning",
+          "Inference with AI-Generated Covariates",
+          "When Do Surrogate Metrics Work? A Finite-Sample Comparison Under Realistic Failure Modes"
+        ],
+        [
+          "Subjective Annotation Studies: Valid Inference and Annotation Design",
+          "Human-anchored factuality evaluation with strategic annotation",
+          "Statistical perspectives on reliability of artificial intelligence systems",
+          "Parameter recovery using remotely sensed variables",
+          "Adaptive Sampling of Costly Outcomes in Randomized Clinical Trials",
+          "Human Evaluation with Automatic Scores: Separating Sampling and Estimation Gains",
+          "Are You Sure Your LLM Is Sure? Repairing and Auditing Confidence",
+          "Semi-supervised U-statistics",
+          "Resource-Constrained Adaptive Inference for Sequential Pricing",
+          "MIST: Mutual Information Estimation via Supervised Training"
+        ],
+        [
+          "Nonparametric LLM evaluation from preference data",
+          "Semi-supervised linear regression: enhancing efficiency and robustness in high dimensions",
+          "Toward a Unified Theoretical and Methodological Framework for Statistical and Quantitative Genetics in Molecular Breeding",
+          "Cheap to Draw, Expensive to Trust: Certifying Test-Time Scaling Curves",
+          "Asymptotic comparison of semi-supervised and supervised linear discriminant functions for heteroscedastic normal populations"
+        ]
+      ],
+      "all_displayed_pages_screened": true
+    }
+  ],
+  "title_positions": 85,
+  "normalized_title_strings": 84,
+  "malformed_title_records": 1,
+  "full_text_reading_claimed_for_all": false,
+  "externally_registered_search_protocol": false,
+  "scope": "Four targeted supplementary queries. S01 first20 only; S02,S03,S04 all displayed pages. Not an exhaustive Scholar systematic review; not merged into WOS unique counts.",
+  "focused_primary_readings": [
+    "arXiv2609.31215v1: objective(10),Theorem4,LemmaD.4",
+    "arXiv2606.25743v1: Assumptions5.1–5.2,Theorems5.4–5.5"
+  ],
+  "Scopus_state": "Preview available; school institution located; final affiliation-release consent awaits explicit authorization after automatic approval rejection",
+  "raw_authentication_urls_published": false
+}

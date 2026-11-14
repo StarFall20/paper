@@ -1,3 +1,17 @@
+# Current research status — updated14 November2026
+
+## Public held-out-record diagnostic and recovered Scholar access
+
+The [14 November follow-up](reports/public_holdout_20261114/README.md) evaluates the released vaccine file's last3405human choice rows, using only the first1200for fitting and tuning. It reuses500source-convention block permutations at50and150labels, seven established methods and two prediction routines. All14000method records,8unavailable unit-power fits and3000Firth starts remain. Human-only baselines are duplicated across prediction routines; the1000distinct labelled designs are not independent new respondents. Respondent IDs are unavailable, so this is a held-out-record diagnostic, not a certified external-population validation.
+
+At50labels, AI-aided unit PPI has494/500finite fits and mean held-out log loss0.887015conditional on those fits, compared with direct ridge0.762353across500. With ridge fallback in the six unavailable cases, all-allocation loss is0.885919; the paired difference is0.123566, allocation MCSE0.010867. Human-ridge-initialized power tuning is finite throughout but has loss0.896512. Soft pooling has lower loss on this fixed evaluation segment and retains its separate target. The result does not establish a superior new estimator. An independent original-objective/metric check verifies all14000records and all8exterior directions; the compressed-coefficient standalone copy passes the same verification. This does not claim a second full primary refit.
+
+Google Scholar access now works through native Chrome. Four targeted queries screen85title positions,84normalized title strings including one malformed entry. The first query is limited to20of approximately187; the other three display2,18and45records with all pages read. This is bounded supplementary screening, not an exhaustive Scholar review. New primary readings include DIAL's Lemma D.4, which already proves finite global solutions in its own fixed-dimensional positive-likelihood model. General claims that all prior preference-assisted work merely assumes existence must be avoided. The 13 November WOS count remains separate; no cross-database deduplication is claimed.
+
+PPI++'s author-hosted PDF is still the2024arXivv2; its formal2026full text and supplements remain unread after a new institutional security challenge. Scopus reaches the school authorization flow, but its final institutional-attribute disclosure requires explicit approval and has not been performed. No Scopus literature search is claimed. Authentication metadata and library exports are excluded from public backups.
+
+The reviewed59-page full Word and28-page reading Word are unchanged. This follow-up is separate and awaits concise integration into the empirical section and the closest-prior discussion. The goal remains active: the explicit compensated boundary and matched-information comparison remain the contribution candidates; priority, independent proof review and sufficient choice-analysis value remain open. Legacy repository conflicts are preserved. Earlier entries are dated historical stages.
+
 # Current research status — updated13 November2026
 
 ## Current Firth and institutional literature integration
