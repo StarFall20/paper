@@ -38,4 +38,4 @@
 
 [Zhou，Black-Box Assisted Regression，v1](https://arxiv.org/html/2606.25743v1)亦由补查定位。已读Assumptions 5.1–5.2和Theorems 5.4–5.5；其相变指非参数平方损失的残差半径与极小极大风险，不是logit有限解事件。关键词“相变”相同不能据以认定结论相同，也不能把该文当作高斯存在边界的直接前驱。
 
-Scopus可进入Preview和机构选择页，并已找到学校授权入口。最后的身份属性披露被自动审批拦截，正在等待用户对此次向Elsevier发送机构身份属性的明确授权。未执行Scopus文献查询；没有发布机构登录链接、会话参数或数据库全文。
+Scopus最初的机构身份属性披露被自动审批拦截。用户随后明确允许本次发送，已选“下次登录时再次提示”并完成发送；这项审批阻碍已经解除。返回Scopus后仍显示Preview，未开放文献检索。学校当前外文数据库目录列有Web of Science和Elsevier SD，未列出Scopus；该目录不足以证明学校没有任何其他订阅渠道。本轮未执行Scopus文献查询；没有发布身份属性值、机构登录链接、会话参数或数据库全文。[接入核对记录](Scopus_access_record.json)保留了处理结果。

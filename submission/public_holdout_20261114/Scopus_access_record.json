@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-14",
+  "service": "Scopus",
+  "official_site": "https://www.scopus.com/pages/home",
+  "school_directory": "https://lib.sdufe.edu.cn/wxzy/dzzy.htm",
+  "automatic_approval_initially_rejected_attribute_exchange": true,
+  "explicit_user_authorization_subsequently_received": true,
+  "authorization_scope": "One-session institutional identity exchange; ask again next login selected",
+  "exchange_completed": true,
+  "observed_return_state": "Scopus Preview Homepage",
+  "document_search_available": false,
+  "literature_queries_executed": 0,
+  "school_directory_observation": "WOS and Elsevier SD listed; no Scopus entry observed in current foreign-database list",
+  "subscription_absence_proven": false,
+  "publication_of_identity_attribute_values_or_authentication_metadata": false,
+  "approval_request_still_pending": false
+}
