@@ -201,7 +201,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../holdout_manuscript_integration_20261114/README.md",
+  "latest_progress_report": "../learned_training_budget_20261114/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -332,5 +332,19 @@
     "second_complete_primary_refit": false,
     "respondent_independence_certified": false,
     "new_answers": 0
+  },
+  "learned_training_budget_evidence": {
+    "report": "../learned_training_budget_20261114/README.md",
+    "package": "../../submission/learned_training_budget_20261114/README.md",
+    "primary_simulated_cohorts": 8000,
+    "method_records": 32000,
+    "all_power_reused_cohorts": 4000,
+    "strict_all_power_obstructions": 2920,
+    "positive_power_witnesses": 1080,
+    "learned_overlap_condition_proved_for_specified_rule": true,
+    "new_learning_algorithm_claimed": false,
+    "independent_originality_or_threshold_proven": false,
+    "main_manuscript_integrated": false,
+    "isolated_workflow_passed": true
   }
 }

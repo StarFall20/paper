@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "model_draws": 4000,
+  "method_records": 16000,
+  "directions": 12497,
+  "source_sha256": "e6db0cf0201d4da3d867aa9dd14277bcdd5159e2b1aab922c91fbb05c85d17ad",
+  "plan_sha256": "135278bd62c0aecb99a8456e8b0a869df256cb0fa3a56fa14e0b1e71b9b92dfb",
+  "nonstandard_states": {},
+  "new_human_or_AI_answers": 0,
+  "forecast_or_interval_performance_tested": false
+}

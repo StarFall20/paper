@@ -1,0 +1,20 @@
+{
+  "model_draws_reconstructed": 4000,
+  "method_records_reconciled": 16000,
+  "original_negative_recession_directions": 10557,
+  "ordinary_strict_separators": 1940,
+  "independent_oriented_LP_matches": 480,
+  "maximum_training_overlap_discrepancy": 4.440892098500626e-16,
+  "maximum_original_direction_identity_error": 1.3183898417423734e-16,
+  "maximum_direct_objective_identity_error": 3.3306690738754696e-16,
+  "maximum_direct_gradient_difference": 2.1447395942564285e-11,
+  "maximum_summary_difference": 9.8879238130678e-17,
+  "all_primary_programs_rerun": false,
+  "new_human_or_AI_answers": 0,
+  "original_proofs_independently_peer_reviewed": false,
+  "population_conditions": 48,
+  "maximum_independent_boundary_difference": 1.4654943925052066e-14,
+  "maximum_joint_saddle_residual": 8.908947465441468e-16,
+  "maximum_saddle_coordinate_difference": 2.853131597646552e-08,
+  "independent_signal_mean": 0.5301831703662523
+}

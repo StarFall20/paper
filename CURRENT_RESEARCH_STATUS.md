@@ -1,3 +1,9 @@
+# Current research follow-up — 14 November 2026
+
+The [explicit training-budget follow-up](reports/learned_training_budget_20261114/README.md) closes the conditional learned-score convergence assumption for a classical signed-feature-mean learner. A proxy-informed case and an attributes-only negative control retain 8000 independent Gaussian model draws and 32000 support classifications. The proxy study reuses its 4000 cohorts for an all-power audit: 1080 explicit finite-power witnesses and 2920 strict negative-cost obstructions. No new independent cohort is counted in this secondary audit. The trained predictor can improve while the remaining correction budget exceeds the computed all-power envelope. The attributes-only control has regular variance-optimal power zero under the correctly specified human model and is not an efficiency recommendation.
+
+The [self-contained supplement](submission/learned_training_budget_20261114/README.md) has 15 scientific sources, complete generated records, compressed directions, a worked proof and a visually checked figure. A separate extraction reconstructs all cohorts and verifies all saved directions, 960 alternative interval LPs, 96 primary population conditions and 32 envelope conditions. This is not a second complete primary simulation run. The simple learner, its Gaussian overlap, rotation and support geometry retain classical attribution. The added case does not by itself prove sufficient innovation or submission readiness. The current reviewed 61-page main manuscript remains unchanged pending concise integration and contribution assessment. Earlier dated entries are historical stages.
+
 # Current research status — updated14 November2026
 
 ## Public held-out-record diagnostic and recovered Scholar access

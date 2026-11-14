@@ -1,0 +1,15 @@
+{
+  "existing_cohorts": 4000,
+  "new_model_draws": 0,
+  "positive_power_witnesses": 1080,
+  "all_positive_power_negative_directions": 2920,
+  "unresolved": 0,
+  "source_sha256": "ad8aea29871276e87a969f5c740ff7fe2a4dc0fe102fd14283559f5aa0083fe1",
+  "new_estimator_claimed": false,
+  "strict_obstruction_directions": 2920,
+  "minimum_strict_human_margin": 1.4106383426304436e-05,
+  "minimum_negative_recession_gap": 1.4106383440681824e-05,
+  "maximum_human_recession": 0.0,
+  "refinement_source_sha256": "c64bc850921a995a4bc16105cae8ad1eda8569b32c718b5bd1a464a5f9d8aa48",
+  "original_classifications_changed": false
+}

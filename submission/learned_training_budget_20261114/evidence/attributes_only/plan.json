@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-14",
+  "scope": "Worked independently trained score with fixed total human and auxiliary budgets; all outcomes simulated",
+  "training_rule": "v = mean((2Y-1)X), intercept zero; no tuning or truth-parameter access",
+  "utility_signal": 1.5,
+  "seed": 20261114,
+  "total_label_budgets": [80, 160],
+  "phase_dimension_ratios": [0.3, 0.45],
+  "population_dimension_ratios": [0.15, 0.3, 0.45, 0.6],
+  "training_fractions": [0.25, 0.5],
+  "population_auxiliary_rows_per_total_label": [1.0, 4.0],
+  "phase_auxiliary_rows_per_total_label": 1.0,
+  "correction_powers": [0.1, 0.5, 1.0],
+  "repetitions_per_condition": 500,
+  "direct_comparator": "Ordinary human logit using the union of all training and correction labels",
+  "independent_oriented_LP_trials_per_condition": 20,
+  "priority_or_submission_threshold_claimed": false,
+  "new_human_or_AI_answers": 0
+}

@@ -1,0 +1,20 @@
+{
+  "record_count": 2920,
+  "files": [
+    {
+      "path": "directions_part_000.json.gz",
+      "sha256": "972d0df6f0f4188f46e19c870199c6495f62b39e86400c4b4df4e2ba4215f2bb",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_001.json.gz",
+      "sha256": "cae763dc30285863b58b44890bd3a3c95b926e1549c7d4345e406fc4a062f727",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_002.json.gz",
+      "sha256": "8f976abcfa378a9563334af7cf7c9a0d1e49c3885395252c26c0987446853021",
+      "records": 920
+    }
+  ]
+}
