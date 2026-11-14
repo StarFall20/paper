@@ -255,7 +255,7 @@ def main():
  report['complete_GMM_comparison_is_not_production_CC_PPI']=True
  subprocess.run([sys.executable,str(root/'analysis/reconcile_probability_risk_tables.py'),'--out',str(a.out/'probability_risk_tables')],check=True,stdout=subprocess.DEVNULL)
  import re
- assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==12
+ assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==13
  report.update(probability_risk_path_records_reconciled=1920,probability_risk_numerical_fits=1401,new_probability_loss_tables_reconciled=['5','D1'],all_eleven_manuscript_tables_reconciled=True)
  subprocess.run([sys.executable,str(root/'analysis/build_radial_publication_assets.py'),'--out',str(a.out/'radial_publication')],check=True,stdout=subprocess.DEVNULL)
  report.update(all_twelve_manuscript_tables_reconciled=True,radial_nested_records=12000,radial_distinct_objectives=10000,radial_paired_transition_rows=24,radial_table6_reconciled=True)
@@ -277,6 +277,27 @@ def main():
   assert hashlib.sha256((root/'analysis'/name).read_bytes()).hexdigest()==digest,name
  report.update(categorical_analytic_examples=10,categorical_face_allocations=60,categorical_path_records_reconciled=720,categorical_retained_roots=574,categorical_original_public_programs_rerun_by_quick_check=False)
  report.update(Firth_original_draws_reconciled=1000,Firth_starts_retained=3000,Firth_table2_rows_reconciled=2,Firth_information_Wald_convention_explicit=True,Firth_global_optimality_proven=False)
+ holdout=root/'results/holdout'
+ for line in (holdout/'MANIFEST.sha256').read_text().splitlines():
+  digest,relative=line.split('  ',1)
+  assert hashlib.sha256((holdout/relative).read_bytes()).hexdigest()==digest,relative
+ hp=json.loads((holdout/'results/provenance.json').read_text())
+ for filename,digest in hp['canonical_source_sha256'].items():
+  assert hashlib.sha256((root/'analysis'/filename).read_bytes()).hexdigest()==digest,filename
+ assert hp['analysis_sha256']==hashlib.sha256((root/'analysis/public_holdout_diagnostic.py').read_bytes()).hexdigest()
+ hv=json.loads((holdout/'verification/verification.json').read_text())
+ hi=json.loads((holdout/'verification/isolated_verification.json').read_text())
+ assert hv==hi and hv['state']=='passed' and hv['method_records']==14000 and hv['exterior_directions']==8
+ assert hv['available_records']==13992 and hv['unique_Firth_designs']==1000
+ assert hv['maximum_original_gradient']<1e-7 and hv['maximum_holdout_metric_difference']<1e-12
+ hs=pd.read_csv(holdout/'results/summary.csv').set_index(['label_rows','prediction','method'])
+ ht=pd.read_csv(root/'manuscript/tableC1.csv',dtype=str);assert len(ht)==7
+ methods={'Human MLE':'human_MLE','Human ridge':'human_ridge','Human Firth':'human_Firth','Unit PPI':'unit_PPI','Power ridge start':'power_ridge_init','Ridge PPI':'ridge_PPI','Soft pooling':'soft_pooling'}
+ for row in ht.to_dict('records'):
+  for column,m,pred in [('50 AI',50,'AI'),('50 attributes',50,'X_only'),('150 AI',150,'AI'),('150 attributes',150,'X_only')]:
+   assert abs(float(row[column])-hs.loc[(m,pred,methods[row['Estimator']]),'logloss'])<=.0000005
+ assert hs.loc[(50,'AI','unit_PPI'),'available']==494 and hs.loc[(50,'X_only','unit_PPI'),'available']==498
+ report.update(all_thirteen_manuscript_tables_reconciled=True,heldout_method_records_reconciled=14000,heldout_exterior_directions=8,heldout_unique_Firth_designs=1000,heldout_population_independence_claimed=False,heldout_primary_estimation_rerun_by_quick_check=False)
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_twelve_tables_reconciled':True,'Firth_draws_reconciled':1000}))
 
 if __name__=='__main__':main()

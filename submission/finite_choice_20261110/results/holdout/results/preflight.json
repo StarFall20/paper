@@ -1,0 +1,13 @@
+{
+  "training_rows": 1200,
+  "evaluation_rows": 3405,
+  "contrasts": 11,
+  "training_outcome_mean": 0.415,
+  "evaluation_outcome_mean": 0.4693098384728341,
+  "hard_AI_training_accuracy": 0.5416666666666666,
+  "respondent_ids_available": false,
+  "new_answers": 0,
+  "reference_coefficients_used": false,
+  "holdout_used_for_training_or_tuning": false,
+  "scope": "The numeric file releases X,y,y_aug only. Respondent IDs are absent. Nonoverlapping row positions do not certify nonoverlapping people or independence. Prefix/suffix covariate or selection differences are possible."
+}

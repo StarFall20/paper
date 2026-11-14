@@ -1,0 +1,6 @@
+{
+  "abstract_words": 162,
+  "body_prose_words_excluding_math": 8640,
+  "count_method": "English lexical words; main body Sections 1\u20137 excluding TeX math, references and appendices. Table prose counts are included.",
+  "verified_journal_full_article_word_cap": null
+}

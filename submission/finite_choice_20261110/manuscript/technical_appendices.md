@@ -76,6 +76,8 @@ For $N\geq p$, Kabluchko and Seidel (2020, Theorem 3.3) give this Gaussian zonot
 
 ### A7 Scalar affine reallocation
 
+Unbiased noisy label correction and preservation of convexity are established (Natarajan et al., 2013); corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are established for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). DY prior penalized logit guarantees finite estimates for full rank designs and has proportional dimensional theory, including a recent fitted intercept treatment (Sterzinger and Kosmidis, 2026; Sterzinger, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. The two sample geometry gives the probability boundary for this event. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
+
 A scalar affine reallocation based only on the conditioned low dimensional observations cannot repair the labelled row infima while preserving the complete objective. Let $c$ be the stacked vector of added linear loss coefficients, measurable with respect to those observations. Objective equality for all fitted coefficients requires $W^Tc=0$. For $q\geq1$, conditional Gaussian independence gives
 
 $$W^Tc\sim N(0,\|c\|^2 I_q). \qquad (A.8)$$
@@ -301,6 +303,26 @@ $$\nabla Q_F=X^T\{\mu-Y-h(1/2-\mu)\}, \qquad (C.5)$$
 $$\widehat{\operatorname{Var}}_F(\beta)=I(\widehat\beta_F)^{-1}. \qquad (C.6)$$
 
 Products in (C.5) are coordinatewise. The covariance uses summed information with no additional sample-size factor. Profile-likelihood intervals are not computed. The independent implementation checks the determinant gradient by finite differences and checks inverse information for every returned fit. The full replay uses the same 1000 original designs and retains all 3000 starts. One 20-label design has two verified local minima across starts, with penalized negative log likelihoods 6.260859 and 5.827455. The smaller value is selected; no unique or global numerical optimum is asserted. An isolated rerun reproduces all six primary CSV files byte for byte. These are generated known-truth responses on public attribute contrasts, not additional human observations.
+
+### C6 Released record prediction check
+
+The training prefix and evaluation suffix, allocation seed, source block convention and two label budgets are fixed in the retained plan. Every labelled allocation uses the same human and auxiliary rows across methods. The evaluation suffix enters no nuisance fit, initialization, correction moment or power selection. It only supplies human prediction losses. Direct ridge and ridge PPI penalize the mean loss by the squared coefficient norm divided by twice the label count, on every coordinate. Soft pooling uses equal row weights and its separate pseudo-response target. The nuisance and Firth implementations are unchanged from their earlier audits.
+
+Table C1  Mean held out human log loss
+
+| Estimator | 50 AI | 50 attributes | 150 AI | 150 attributes |
+|---|---|---|---|---|
+| Human MLE | 0.904194 | 0.904194 | 0.699713 | 0.699713 |
+| Human ridge | 0.762353 | 0.762353 | 0.693646 | 0.693646 |
+| Human Firth | 0.808079 | 0.808079 | 0.694875 | 0.694875 |
+| Unit PPI | 0.887015 | 0.878704 | 0.698258 | 0.697105 |
+| Power ridge start | 0.896512 | 0.897454 | 0.698868 | 0.699037 |
+| Ridge PPI | 0.765781 | 0.761263 | 0.693101 | 0.692165 |
+| Soft pooling | 0.686376 | 0.687896 | 0.677243 | 0.680350 |
+
+Each cell averages 500 allocations, except unit PPI at 50 labels: the AI and attributes columns average 494 and 498 available fits. Human-only estimates are identical across the two prediction routines and are not independent replications. All other methods have 500 available fits in each condition. The archive retains Brier loss, classification error, risk quantiles, paired comparisons and both all-allocation ridge fallback policies. These are released human outcomes; no oracle parameter enters the metric.
+
+All 14000 method records and the eight exterior corrected moments receive an independent original-loss and metric check. The 1000 distinct human Firth designs retain 3000 initializations, with direct log-determinant and finite-difference checks. The compressed coefficient archive reproduces these checks in a separate directory. This verifies the retained results and does not assert respondent independence or a second complete primary refit.
 
 ## Appendix D Powers approaching zero
 

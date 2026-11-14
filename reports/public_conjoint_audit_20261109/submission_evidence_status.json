@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "goal_complete": false,
   "decision": "The main argument and calibrated counterexample are integrated into a reviewed58-page manuscript. All12tables and current79analysis sources pass isolated checks. Specific-result priority,choice-analysis value,current journal-guide rules and real author declarations remain under assessment.",
   "requirements": [
@@ -23,8 +23,8 @@
     },
     {
       "requirement": "Fair comparison against established methods",
-      "status": "original_grids_DY_training_cost_and_Firth_baselines_retained",
-      "evidence": "../firth_manuscript_integration_20261113/integration.json",
+      "status": "established_baselines_and_heldout_human_record_risk_retained",
+      "evidence": "../holdout_manuscript_integration_20261114/integration.json",
       "remaining": "The fixed allocation and fixed-power diagnostic gives no prediction-error advantage over direct human ridge;it does not establish general tuning or externally pretrained predictor rankings."
     },
     {
@@ -41,13 +41,13 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "current_core_revision_isolated_inventory_full_math_and_calibrated_verifier_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/core_revision_clean_validation_20261113.json",
+      "status": "current_83_source_package_isolated_inventory_and_full_math_passed",
+      "evidence": "../../submission/finite_choice_20261110/reports/holdout_integration_clean_validation_20261114.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "59_page_full_28_page_reading_Word_reviewed_12_tables_7_appendices_6_vector_figures",
+      "status": "61_page_full_29_page_reading_Word_reviewed_13_tables_7_appendices_6_vector_figures",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 58,
+    "native_Word_pages": 61,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 1179,
+    "native_math_objects": 1186,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -125,7 +125,7 @@
     "hard_menu_simplex_face_and_perfect_label_addendum": true,
     "common_coefficient_MNL_prediction_correction_prior_explicit": true,
     "Scopus_and_Google_Scholar_systematic_review_completed": false,
-    "manuscript_tables": 12,
+    "manuscript_tables": 13,
     "main_figures": 6,
     "score_oracle_path_integrated_into_main_manuscript": true,
     "score_matched_model_draws": 1000,
@@ -162,7 +162,7 @@
     "probability_risk_Gaussian_integration_repairs": 6,
     "probability_risk_clean_directory_replay_passed": true,
     "probability_risk_main_manuscript_integrated": true,
-    "main_reading_Word_pages": 28,
+    "main_reading_Word_pages": 29,
     "all_eleven_tables_reconciled": true,
     "cluster_controls_support_records": 24000,
     "cluster_controls_independent_support_replays": 384,
@@ -195,12 +195,13 @@
     "calibrated_original_support_crosschecks": 60,
     "calibrated_integrated_into_manuscript": true,
     "core_revision_full_math_passed": true,
-    "core_revision_visual_QA_complete": true
+    "core_revision_visual_QA_complete": true,
+    "all_thirteen_tables_reconciled": true
   },
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../institutional_literature_audit_20261113/README.md",
+  "latest_progress_report": "../holdout_manuscript_integration_20261114/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -314,6 +315,22 @@
     "all_full_texts_read": false,
     "Scopus_or_Google_Scholar_systematic_search_complete": false,
     "formal_PPI_full_text_version_reconciliation_complete": false,
-    "originality_proven": false
+    "originality_proven": false,
+    "actual_Google_Scholar_queries": 4,
+    "Google_Scholar_title_positions_screened": 85,
+    "actual_Scopus_literature_queries": 0,
+    "Scopus_institutional_exchange_authorized_and_completed": true,
+    "Scopus_returned_Preview": true
+  },
+  "heldout_record_evidence": {
+    "report": "../public_holdout_20261114/README.md",
+    "integration": "../holdout_manuscript_integration_20261114/integration.json",
+    "evaluation_rows": 3405,
+    "method_records": 14000,
+    "distinct_label_allocations": 1000,
+    "all_original_loss_and_metrics_verified": true,
+    "second_complete_primary_refit": false,
+    "respondent_independence_certified": false,
+    "new_answers": 0
   }
 }

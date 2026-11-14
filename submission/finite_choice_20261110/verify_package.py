@@ -50,7 +50,7 @@ for name,word_key,source_key,qa_key in [('paper','full_word_sha256','new_manuscr
  assert hashlib.sha256((ROOT/f'manuscript/{name}.md').read_bytes()).hexdigest()==integration[source_key]==qa[qa_key]['source_sha256']
  assert hashlib.sha256((ROOT/f'manuscript/{name}.docx').read_bytes()).hexdigest()==integration[word_key]==qa[qa_key]['docx_sha256']
 assert qa['status']=='complete'
-assert len(list((ROOT/'analysis').glob('*.py')))==integration['current_science_source_count']==81
+assert len(list((ROOT/'analysis').glob('*.py')))==integration['current_science_source_count']==83
 assert hashlib.sha256((ROOT/'submission_materials/Highlights.docx').read_bytes()).hexdigest()==qa['highlights']['docx_sha256']
 assert hashlib.sha256((ROOT/'submission_materials/highlights.md').read_bytes()).hexdigest()==qa['highlights']['source_sha256']
 pair=ROOT/'results/calibrated_pair'
@@ -65,11 +65,20 @@ for name,sha in json.loads((categorical/'current_source_hashes.json').read_text(
  assert hashlib.sha256((ROOT/'analysis'/name).read_bytes()).hexdigest()==sha,name
 face_integration=json.loads((ROOT/'reports/categorical_face_integration_20261113.json').read_text())
 assert hashlib.sha256((ROOT/'inputs/categorical_face/existing_public_coefficients.json').read_bytes()).hexdigest()==face_integration['existing_public_coefficients_sha256']
-assert integration['unchanged_previous_table_blocks']==11 and integration['previous_table2_rows_preserved']==18 and integration['current_table2_rows']==20
-assert integration['previous_display_bodies_preserved_ignoring_label_format']
+firth_integration=json.loads((ROOT/'reports/firth_manuscript_integration_20261113.json').read_text())
+assert firth_integration['unchanged_previous_table_blocks']==11 and firth_integration['previous_table2_rows_preserved']==18 and firth_integration['current_table2_rows']==20
+assert integration['old_tables_preserved']==12 and integration['current_table_count']==13
+assert integration['all_display_bodies_unchanged']
 firth=ROOT/'results/firth'
 firth_clean=json.loads((firth/'clean_validation.json').read_text())
 assert firth_clean['status']=='complete' and firth_clean['isolated_full_workflow_exit_code']==0
 for rel,sha in firth_clean['current_sources'].items(): assert hashlib.sha256((ROOT/rel).read_bytes()).hexdigest()==sha
 for row in firth_clean['all_primary_CSVs_byte_identical']: assert hashlib.sha256((firth/row['path']).read_bytes()).hexdigest()==row['sha256']
 print(json.dumps({'manifest_entries_verified':len(listed),'broken_local_markdown_links':len(missing),'science_import_closure_present':True,'menu_source_closure_files':len(menu['sha256']),'score_source_closure_files':len(score['sha256']),'observed_reference_source_closure_files':len(observed['sha256']),'radial_source_closure_files':len(radial['sha256']),'current_manuscript_sources_and_reviewed_Word_match':True,'raw_pickle_inputs_shipped':False}))
+
+heldout=ROOT/'results/holdout'
+for line in (heldout/'MANIFEST.sha256').read_text().splitlines():
+ h,n=line.split('  ',1);assert hashlib.sha256((heldout/n).read_bytes()).hexdigest()==h,n
+for n in ['public_holdout_diagnostic.py','verify_public_holdout.py']:
+ assert (ROOT/'analysis'/n).read_bytes()==(heldout/'analysis'/n).read_bytes(),n
+assert len(re.findall(r'(?:^\|[^\n]*\n)+',paper,re.M))==13
