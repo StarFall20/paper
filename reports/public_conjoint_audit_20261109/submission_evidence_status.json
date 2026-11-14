@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "goal_complete": false,
   "decision": "The main argument and calibrated counterexample are integrated into a reviewed58-page manuscript. All12tables and current79analysis sources pass isolated checks. Specific-result priority,choice-analysis value,current journal-guide rules and real author declarations remain under assessment.",
   "requirements": [
@@ -41,13 +41,13 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "current_83_source_package_isolated_inventory_and_full_math_passed",
-      "evidence": "../../submission/finite_choice_20261110/reports/holdout_integration_clean_validation_20261114.json",
+      "status": "current_83_root_sources_with_15_source_nested_training_evidence",
+      "evidence": "../../submission/finite_choice_20261110/reports/learned_integration_clean_validation_20261115.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "61_page_full_29_page_reading_Word_reviewed_13_tables_7_appendices_6_vector_figures",
+      "status": "62_page_full_29_page_reading_Word_reviewed_14_tables_7_appendices_6_vector_figures",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 61,
+    "native_Word_pages": 62,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -201,7 +201,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../learned_training_budget_20261114/README.md",
+  "latest_progress_report": "../learned_manuscript_integration_20261115/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -344,7 +344,17 @@
     "learned_overlap_condition_proved_for_specified_rule": true,
     "new_learning_algorithm_claimed": false,
     "independent_originality_or_threshold_proven": false,
-    "main_manuscript_integrated": false,
+    "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
+  },
+  "latest_progress": "Training-budget proof integrated; sufficient contribution remains under assessment.",
+  "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
+  "learned_manuscript_integration": {
+    "evidence": "../learned_manuscript_integration_20261115/README.md",
+    "full_word_pages": 62,
+    "main_word_pages": 29,
+    "tables": 14,
+    "display_paragraphs": 136,
+    "extra_observations_generated": 0
   }
 }

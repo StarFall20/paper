@@ -31,6 +31,7 @@ def run(text,plain=False):
  t=el('t');t.text=text;t.set('{http://www.w3.org/XML/1998/namespace}space','preserve');e.append(t);return e
 
 SYMS={'downarrow':'↓','partial':'∂','alpha':'α','nabla':'∇','lambda':'λ','tau':'τ','kappa':'κ','beta':'β','eta':'η','gamma':'γ','epsilon':'ε','sigma':'σ','Sigma':'Σ','mu':'μ','rho':'ρ','pi':'π','varphi':'φ','Phi':'Φ','Psi':'Ψ','Pi':'Π','Delta':'Δ','delta':'δ','ell':'ℓ','infty':'∞','geq':'≥','leq':'≤','in':'∈','cap':'∩','circ':'∘','times':'×','to':'→','mid':'|','sim':'∼','sum':'∑','prod':'∏'}
+SYMS['nu']='ν'
 OPS={'dim','inf','sup','min','max','log','ker','lim','sin','cos','exp'}
 class Math:
  def __init__(self,s):self.s=s;self.i=0
@@ -148,7 +149,7 @@ def build():
   if line.startswith('# '):d.add_paragraph(line[2:],style='Title');continue
   if line.startswith('## '):
    p=d.add_paragraph(line[3:],style='Heading 1')
-   if line.startswith('## Appendix A') or line=='## References':p.paragraph_format.page_break_before=True
+   if line.startswith('## Appendix A'):p.paragraph_format.page_break_before=True
    continue
   if line.startswith('### '):d.add_paragraph(line[4:],style='Heading 2');continue
   if line.startswith('$$'):

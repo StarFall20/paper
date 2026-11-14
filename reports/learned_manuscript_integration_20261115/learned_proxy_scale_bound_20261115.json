@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-15",
+  "conditional_variance_identity_maximum_difference": 9.71445146547012e-17,
+  "expected_conditional_Bernoulli_variance": 0.13970150572203474,
+  "independent_quadrature_difference": 8.326672684688674e-17,
+  "quad_reported_error": 8.098297923397973e-15,
+  "analytic_positivity_reason": "Both posterior outcomes have positive probability for every finite signal and 0<epsilon<1/2; the noise index is independent conditional on the signal and proxy.",
+  "new_model_draws": 0,
+  "new_theorem_claimed": false
+}

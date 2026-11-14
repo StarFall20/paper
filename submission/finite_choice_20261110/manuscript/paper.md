@@ -245,7 +245,7 @@ In (9), (20) and (21), replace each signed affine multiplier by $s_Lh_\eta$ or $
 
 Prediction accuracy and calibration do not determine this boundary. An explicit construction in Appendix E keeps the complete law of $(Y,g)$ identical while placing the prediction index outside or inside the fitted design. Both predictions are calibrated, with Brier risk 0.09. At unit power and equal sample sizes, their boundaries are 0.396628 and 0.385935. Every limiting dimension ratio strictly between them gives opposite existence conclusions. The gap is about 0.011 in this construction. All population cases and paired finite size results are retained.
 
-For a linear score trained independently of the audit rows, an orthogonal Gaussian rotation reduces its component outside the utility direction to one such index. Corollary 2 in Appendix E requires its signal overlap, orthogonal norm and intercept to converge to finite deterministic limits. These conditions give deterministic strict existence limits for the independently trained score. Cross prediction already provides fixed dimensional inference with learned predictors (Zrnic and Candès, 2024); the present conditional result concerns proportional dimensional existence. Correlated teacher and fitted feature spaces are established objects of high dimensional analysis (Loureiro et al., 2021). The additional calculation here concerns their role in the compensated choice loss. Training labels are additional to the $m$ audit labels. Section 5.4 counts both subsets in a fixed total budget comparison.
+For a linear score trained independently of the audit rows, an orthogonal Gaussian rotation reduces its component outside the utility direction to one such index. Corollary 2 in Appendix E requires its signal overlap, orthogonal norm and intercept to converge to finite deterministic limits. These conditions give deterministic strict existence limits for the independently trained score. Cross prediction already provides fixed dimensional inference with learned predictors (Zrnic and Candès, 2024); the present conditional result concerns proportional dimensional existence. Correlated teacher and fitted feature spaces are established objects of high dimensional analysis (Loureiro et al., 2021). The additional calculation here concerns their role in the compensated choice loss. Training labels are additional to the $m$ audit labels. Appendix E5 gives an explicit convergent training rule with additional observed proxy information. Charging both training and correction labels can move the required dimension ratio above the all-power envelope as prediction error falls. Section 5.4 evaluates this allocation effect at fixed total resources.
 
 ### 3.9 Whole choice menus
 
@@ -433,6 +433,8 @@ All cells use 100 draws. Training and correction labels are disjoint. Other fixe
 In every nonempty cell comparing a fixed power with direct human ridge, the corrected estimator has larger mean excess prediction loss on their explicitly counted shared finite fits. At $B=160$, 48 slopes and 40 training labels, power 0.1 returns 81 finite roots with conditional mean excess loss 1.4655. Human ridge returns all 100 fits with mean 0.0934. On the 81 common fits, corrected minus ridge loss is 1.3720 with Monte Carlo standard error 0.1180. Availability uses every planned repetition; loss comparisons condition on the counted shared fits. Some cells have few finite fits and cannot support precise rankings.
 
 This experiment establishes no label efficiency or prediction error advantage for the examined independent training allocation and fixed powers. The predictor uses only project labels; externally trained predictions have a different information and cost structure. The existence theorem does not evaluate that cost structure or provide an efficiency guarantee.
+
+A second experiment fixes both total labels and auxiliary profiles, with $N=B$. It uses a classical signed-label feature mean and an observed binary proxy that flips the human choice with probability 0.25. Appendix E5 derives its training limit. At 48 slopes and 160 total labels, increasing training from 40 to 80 labels reduces the limiting predictor classification error from 0.334517 to 0.292939. Some positive correction power has a finite estimate in 419/500 and 90/500 simulated cohorts, respectively. Direct human logit uses all 160 labels and is finite in 485/500 and 480/500 cohorts. Separate allocation conditions use independent draws. Table E2 retains every condition; the accompanying audit checks existence over all positive powers. These events evaluate finite estimation, with final forecast loss and interval coverage left unevaluated in this experiment.
 
 ### 5.5 Choice probability loss as power decreases
 
@@ -1042,6 +1044,49 @@ Table E1  Paired finite solution frequencies with identical calibrated predictio
 
 The difference is aligned minus external. Monte Carlo standard errors use repetition level paired indicators; rows share draws. The last 80 label row has the reverse ordering. These probabilities do not establish general prediction superiority or interval validity.
 
+### E5 A worked training rule at a fixed total budget
+
+Let $t/B\to\alpha\in(0,1)$ training labels be independent of $m=B-t$ correction labels, with $d/B\to\rho>0$ Gaussian attribute slopes and $N/B\to\nu>0$ auxiliary profiles. Human choices follow $P(Y=1\mid X)=\sigma(\gamma X_1)$. An observed binary proxy $Z$ flips $Y$ with probability $\epsilon=1/4$, independently of attributes conditional on $Y$. The proxy is available on training, correction and auxiliary rows. Auxiliary choices define the simulation's joint law and remain hidden from both training and correction. Fit the zero-intercept score by
+
+$$\widehat v_X=t^{-1}\sum_{i=1}^t(2Y_i-1)X_i, \qquad (E.5)$$
+
+$$\widehat v_Z=t^{-1}\sum_{i=1}^t(2Y_i-1)(2Z_i-1). \qquad (E.6)$$
+
+The prediction is $g=\sigma(X^T\widehat v_X+\widehat v_Z(2Z-1))$. Empirical signed-feature means and their signal/noise laws are classical; Saglietti and Zdeborova (2022, equations 13 and 23–24) use them in a Gaussian-mixture distillation model. Here they supply an explicit training case for the compensated objective. The learner uses only training attributes, proxies and labels.
+
+Write $a_t=(\widehat v_X)_1$ and $b_t^2=\sum_{j=2}^d(\widehat v_X)_j^2$. Laws of large numbers give $a_t\to a_\gamma=E[S\operatorname{tanh}(\gamma S/2)]$ and $\widehat v_Z\to1-2\epsilon$. Conditional on training signal coordinates, choices and proxies, the remaining coefficients are independent $N(0,1/t)$. Thus $t b_t^2$ has exactly a chi-square law with $d-1$ degrees of freedom, and
+
+$$b_t^2\to\rho/\alpha. \qquad (E.7)$$
+
+Rotating these noise attributes along their fitted coefficient vector gives fresh independent standard normal indices $S,T$ and independent remaining Gaussian columns. The frozen prediction converges to
+
+$$g_{\rho,\alpha}=\sigma\{a_\gamma S+\sqrt{\rho/\alpha}T+(1-2\epsilon)(2Z-1)\}. \qquad (E.8)$$
+
+The utility model fits the $T$ direction, with true slope zero. Its remaining Gaussian column count is $d-2$. The conditional argument in E2 now also retains $Z$ and its fitted coefficient. The support cancellation in E1 is unchanged. For the uniform scale bound use $E(Y-g)^2\geq E\{\operatorname{Var}(Y\mid S,Z)\}>0$: both values of $Y$ have positive posterior probability because $0<\epsilon<1/2$ and the human logit is interior. This bound is uniform over training coefficients. Compact localization and continuity in $(a_t,b_t,\widehat v_Z)$ then give the fixed positive power and vanishing positive power conclusions as in E2. This verifies the training condition for the stated rule.
+
+The ratios entering that boundary are $\kappa=\rho/(1-\alpha)$ and $\tau=\nu/(1-\alpha)$. Retain the dependence of $g_{\rho,\alpha}$ on $\rho$ when applying the boundary. At $\gamma=1.5$, $\rho=0.3$ and $\nu=1$, the all-power envelopes are 0.477758 and 0.510186 for training fractions 0.25 and 0.5. Their required correction ratios are 0.4 and 0.6. The larger training allocation lies above its envelope while its limiting predictor error is lower. Direct human logit retains ratio 0.3, below its ordinary boundary 0.390286. The envelope integrals have independent numerical checks. This gives an implicit budget condition in $\rho$.
+
+Table E2  Finite estimates at fixed total human and auxiliary resources
+
+|Total labels|Slopes|Training labels|Some positive power|All-label human MLE|
+|---|---|---|---|---|
+|80|24|20|370/500|440/500|
+|80|24|40|125/500|445/500|
+|80|36|20|50/500|64/500|
+|80|36|40|1/500|53/500|
+|160|48|40|419/500|485/500|
+|160|48|80|90/500|480/500|
+|160|72|40|25/500|37/500|
+|160|72|80|0/500|39/500|
+
+Each condition has 500 independent simulated cohorts, with $N=B$. All powers and the all-label human comparison within a condition share data. Conditions use separate draws. The secondary audit reuses all 4000 primary proxy-informed cohorts: 1080 have explicit positive-power witnesses and 2920 have negative recession directions for every positive power. Each obstruction direction strictly separates its correction labels and has negative unit-power recession cost; the original recession is then negative at every positive power. These directions have independently checked strict normalized margins above $1.4\times10^{-5}$. The all-label human baseline also uses the training labels and can remain finite in those cohorts. The complete fixed-power tables, plans, compressed directions and independent verifiers accompany the manuscript.
+
+An attributes-only control removes $Z$ and retains another 4000 cohorts. For a frozen prediction measurable only in fitted attributes, the correctly specified human model gives
+
+$$E[X(\mu-Y)\{X(\mu-g)\}^T]=0. \qquad (E.9)$$
+
+Its regular variance-optimal power is zero, apart from degenerate ties. The proxy supplies additional conditional score information. Final prediction loss, interval coverage and allocation optimality require separate evaluation.
+
 ## Appendix F Whole menu boundary and hard predictions
 
 ### F0 Model and boundary
@@ -1377,6 +1422,8 @@ Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advanc
 Rosset, S., Zhu, J., Hastie, T. (2004). Boosting as a Regularized Path to a Maximum Margin Classifier. Journal of Machine Learning Research 5, 941–973. https://www.jmlr.org/papers/v5/rosset04a.html
 
 Sablica, L., Hornik, K., Rusch, T. (2026). The Geometry of Existence and Uniqueness of Maximum Likelihood Estimation in Categorical Response Models. Preprint, arXiv:2610.08100v1. https://arxiv.org/abs/2610.08100v1
+
+Saglietti, L., Zdeborova, L. (2022). Solvable Model for Inheriting the Regularization through Knowledge Distillation. Proceedings of Machine Learning Research 145, 809–846. https://proceedings.mlr.press/v145/saglietti22a.html
 
 Sargent, G., Sun, W.W., Zhang, Z., Liu, Y. (2026). Prediction-Powered LLM Ranking with Adaptively Collected Human Feedback. Preprint, arXiv:2611.13186v1. https://arxiv.org/abs/2611.13186v1
 

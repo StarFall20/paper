@@ -1,3 +1,9 @@
+# Current manuscript integration — 15 November 2026
+
+The [training-budget integration](reports/learned_manuscript_integration_20261115/README.md) is now in the current source and reviewed native Word: 62 full pages, 29 main-reading pages, 14 tables and 136 display paragraphs. All 13 preceding table blocks and 131 preceding display bodies remain. Appendix E5 supplies explicit convergence for a classical training mean with proxy information and the posterior-variance localization argument. Its 8000-cohort evidence snapshot is bundled without generating additional observations. The all-power audit reuses 4000 proxy cohorts.
+
+This closes a stated condition and clarifies fixed total budgets. It is a consequence of the same boundary. Final estimator risk for the new experiment remains unevaluated. Specific-result priority, sufficient choice-analysis value, concise presentation and final author review remain open. PPI++ formal-version reconciliation is incomplete; Scopus has run zero literature queries. The goal remains active. Earlier dated entries below describe historical stages.
+
 # Current research follow-up — 14 November 2026
 
 The [explicit training-budget follow-up](reports/learned_training_budget_20261114/README.md) closes the conditional learned-score convergence assumption for a classical signed-feature-mean learner. A proxy-informed case and an attributes-only negative control retain 8000 independent Gaussian model draws and 32000 support classifications. The proxy study reuses its 4000 cohorts for an all-power audit: 1080 explicit finite-power witnesses and 2920 strict negative-cost obstructions. No new independent cohort is counted in this secondary audit. The trained predictor can improve while the remaining correction budget exceeds the computed all-power envelope. The attributes-only control has regular variance-optimal power zero under the correctly specified human model and is not an efficiency recommendation.

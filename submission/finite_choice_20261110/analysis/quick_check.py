@@ -255,7 +255,7 @@ def main():
  report['complete_GMM_comparison_is_not_production_CC_PPI']=True
  subprocess.run([sys.executable,str(root/'analysis/reconcile_probability_risk_tables.py'),'--out',str(a.out/'probability_risk_tables')],check=True,stdout=subprocess.DEVNULL)
  import re
- assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==13
+ assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==14
  report.update(probability_risk_path_records_reconciled=1920,probability_risk_numerical_fits=1401,new_probability_loss_tables_reconciled=['5','D1'],all_eleven_manuscript_tables_reconciled=True)
  subprocess.run([sys.executable,str(root/'analysis/build_radial_publication_assets.py'),'--out',str(a.out/'radial_publication')],check=True,stdout=subprocess.DEVNULL)
  report.update(all_twelve_manuscript_tables_reconciled=True,radial_nested_records=12000,radial_distinct_objectives=10000,radial_paired_transition_rows=24,radial_table6_reconciled=True)
@@ -298,6 +298,23 @@ def main():
    assert abs(float(row[column])-hs.loc[(m,pred,methods[row['Estimator']]),'logloss'])<=.0000005
  assert hs.loc[(50,'AI','unit_PPI'),'available']==494 and hs.loc[(50,'X_only','unit_PPI'),'available']==498
  report.update(all_thirteen_manuscript_tables_reconciled=True,heldout_method_records_reconciled=14000,heldout_exterior_directions=8,heldout_unique_Firth_designs=1000,heldout_population_independence_claimed=False,heldout_primary_estimation_rerun_by_quick_check=False)
+ learned=root/'results/learned_training'
+ for line in (learned/'MANIFEST.sha256').read_text().splitlines():
+  digest,relative=line.split('  ',1)
+  assert hashlib.sha256((learned/relative).read_bytes()).hexdigest()==digest,relative
+ lap=pd.read_csv(learned/'evidence/proxy/all_power/summary.csv')
+ lphase=pd.read_csv(learned/'evidence/proxy/phase/phase_summary.csv')
+ lt=pd.read_csv(root/'manuscript/tableE2.csv',dtype=str); assert len(lt)==8
+ for r in lt.to_dict('records'):
+  B,d,t=[int(r[k]) for k in ['Total labels','Slopes','Training labels']]
+  ar=lap[(lap.total_labels==B)&(lap.slopes==d)&(lap.training_labels==t)].iloc[0]
+  hr=lphase[(lphase.total_labels==B)&(lphase.slopes==d)&(lphase.training_labels==t)&(lphase.method=='all_labels_human')].iloc[0]
+  assert r['Some positive power']==f'{int(ar.some_positive_power_finite)}/500'
+  assert r['All-label human MLE']==f'{int(hr.finite_events)}/500'
+ lv=json.loads((learned/'evidence/proxy/all_power_verification/verification.json').read_text())
+ assert lv['existing_cohorts_reconstructed']==4000 and lv['explicit_positive_power_witnesses_checked']==1080
+ assert lv['all_positive_power_obstruction_directions_checked']==2920 and lv['unresolved']==0
+ report.update(all_fourteen_manuscript_tables_reconciled=True,learned_budget_table_rows=8,learned_budget_positive_power_witnesses=1080,learned_budget_strict_obstructions=2920,learned_budget_primary_programs_rerun_by_quick_check=False)
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_twelve_tables_reconciled':True,'Firth_draws_reconciled':1000}))
 
 if __name__=='__main__':main()

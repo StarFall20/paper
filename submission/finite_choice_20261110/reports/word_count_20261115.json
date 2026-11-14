@@ -1,0 +1,7 @@
+{
+  "abstract_words": 162,
+  "main_body_lexical_words_excluding_math": 8813,
+  "count_method": "Unicode-letter words with internal hyphens/apostrophes. Sections 1–7 include headings, captions and table text; TeX math, references and appendices excluded.",
+  "word_pattern": "[^\\W\\d_]+(?:[-'’][^\\W\\d_]+)*",
+  "verified_journal_full_article_word_cap": null
+}

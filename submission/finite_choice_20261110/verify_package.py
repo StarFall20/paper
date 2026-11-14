@@ -67,8 +67,8 @@ face_integration=json.loads((ROOT/'reports/categorical_face_integration_20261113
 assert hashlib.sha256((ROOT/'inputs/categorical_face/existing_public_coefficients.json').read_bytes()).hexdigest()==face_integration['existing_public_coefficients_sha256']
 firth_integration=json.loads((ROOT/'reports/firth_manuscript_integration_20261113.json').read_text())
 assert firth_integration['unchanged_previous_table_blocks']==11 and firth_integration['previous_table2_rows_preserved']==18 and firth_integration['current_table2_rows']==20
-assert integration['old_tables_preserved']==12 and integration['current_table_count']==13
-assert integration['all_display_bodies_unchanged']
+assert integration['old_tables_preserved']==13 and integration['current_table_count']==14
+assert integration['all_previous_display_bodies_unchanged']
 firth=ROOT/'results/firth'
 firth_clean=json.loads((firth/'clean_validation.json').read_text())
 assert firth_clean['status']=='complete' and firth_clean['isolated_full_workflow_exit_code']==0
@@ -81,4 +81,8 @@ for line in (heldout/'MANIFEST.sha256').read_text().splitlines():
  h,n=line.split('  ',1);assert hashlib.sha256((heldout/n).read_bytes()).hexdigest()==h,n
 for n in ['public_holdout_diagnostic.py','verify_public_holdout.py']:
  assert (ROOT/'analysis'/n).read_bytes()==(heldout/'analysis'/n).read_bytes(),n
-assert len(re.findall(r'(?:^\|[^\n]*\n)+',paper,re.M))==13
+assert len(re.findall(r'(?:^\|[^\n]*\n)+',paper,re.M))==14
+
+learned=ROOT/'results/learned_training'
+for line in (learned/'MANIFEST.sha256').read_text().splitlines():
+ h,n=line.split('  ',1); assert hashlib.sha256((learned/n).read_bytes()).hexdigest()==h,n

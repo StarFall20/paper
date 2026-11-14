@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "direct_native_image_review": true,
+  "figure_png_sha256": "36d4d8d8862def3c6c47d253ac637e2ddbccc326cccfb5319996cf65f3d33463",
+  "vector_pdf_sha256": "e2d51fa788369c3305c09132b5090faf773c8137e3538272403b90bb0b97877e",
+  "all_PDF_fonts_embedded": true,
+  "changes": "Moved shared legend outside data panels and shortened the budget-slack axis label."
+}

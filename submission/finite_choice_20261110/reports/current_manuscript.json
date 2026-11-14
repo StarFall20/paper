@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "integration": "reports/holdout_manuscript_integration_20261114.json",
-  "visual_qa": "reports/holdout_manuscript_visual_qa_20261114.json",
+  "date": "2026-11-15",
+  "integration": "reports/learned_manuscript_integration_20261115.json",
+  "visual_qa": "reports/learned_manuscript_visual_qa_20261115.json",
   "historical_reports_are_dated_snapshots": true
 }

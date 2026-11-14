@@ -2,9 +2,11 @@
 
 ## Current manuscript and verification
 
-The 14 November 2026 held-out-record and literature integration is current. The full Word is 61 pages with 1186 native mathematical objects, 131 display paragraphs and 13 tables; the main reading Word is 29 pages. Section 4.4 and Appendix C6 add prediction checks on 3405 released human choice records. Table C1 retains all seven estimators, both prediction routines and both label budgets. The preceding 12 tables and every display body are preserved. All 83 analysis files parse; 80 of the preceding 81 are byte-identical, and quick_check.py now reconciles the added evidence. There are no new human observations or AI answers.
+The 15 November 2026 training-budget integration is current. The full Word is 62 pages with 1228 native mathematical objects, 136 display paragraphs and 14 tables; the main reading Word is 29 pages. Sections 3.8 and 5.4 and Appendix E5 now contain the explicit trained proxy case and Table E2. All preceding 13 table blocks and 131 display bodies are preserved. Of 83 root analysis files, 82 are byte-identical to the preceding release; quick_check.py adds the new reconciliation. The nested dated evidence retains 15 scientific sources and all generated cohorts. No new observations or model draws were generated in this integration.
 
-The [current source/layout pointer](reports/current_manuscript.json), [integration record](reports/holdout_manuscript_integration_20261114.json), [complete visual review](reports/holdout_manuscript_visual_qa_20261114.json) and [mathematical check](reports/holdout_integration_mathematical_check_20261114.json) identify the current artifacts. The [isolated validation](reports/holdout_integration_clean_validation_20261114.json) records the independent extraction, all 83 matching scientific sources and all 13 table checks. Earlier dated reports describe their historical stages. The [institutional literature audit](reports/institutional_literature_audit_20261113/README.md) retains 9 actual WOS searches/chains, 537 exports and 512 unique indexed records. The [supplementary literature record](results/holdout/literature_followup.md) records four actual Google Scholar queries, bounded title screening and selected primary readings. Scopus returned Preview after the authorized institutional exchange; no Scopus literature query ran. PPI++ formal-version full-text and supplement reconciliation remains incomplete. These records do not prove originality.
+The [current pointer](reports/current_manuscript.json), [integration record](reports/learned_manuscript_integration_20261115.json), [visual review](reports/learned_manuscript_visual_qa_20261115.json) and [mathematical check](reports/learned_integration_mathematical_check_20261115.json) identify the exact current artifacts. The [isolated validation](reports/learned_integration_clean_validation_20261115.json) checks the current 83 root sources and all fourteen tables. Appendix E5 extends the conditional training argument to the observed proxy using a positive posterior variance bound. The training mean and Gaussian overlap retain classical attribution. The new N=B, 500-draw experiment and old N=4m, 100-draw comparison are distinct.
+
+The [institutional audit](reports/institutional_literature_audit_20261113/README.md) retains 9 WOS searches/chains, 537 exports and 512 unique indexed records. The [supplementary literature record](results/holdout/literature_followup.md) records four actual Google Scholar queries and bounded screening. Scopus returned Preview after the authorized institutional exchange; no Scopus literature query ran. PPI++ formal-version full-text and supplement reconciliation remains incomplete. Earlier dated reports describe historical stages. These records do not prove originality or sufficient journal value.
 
 Separate publication figures are provided as [font-embedded vector PDFs](manuscript/figures/publication_pdf/). Regenerate them with `python authoring/export_publication_figures.py`; no model draws or fits run. The PNGs embedded in Word remain reading assets. An AI-assistance declaration is included before references. Final author review and publisher portal declarations remain pending. This package is not an acceptance certificate.
 
@@ -34,7 +36,7 @@ python analysis/audit_binary_choice.py examples/intercept.csv --features interce
 python analysis/build_publication_assets.py --results results --manuscript manuscript
 ```
 
-The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all thirteen manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
+The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all fourteen manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
 
 Optional Word authoring uses the packages in `authoring/requirements.txt`:
 
@@ -42,7 +44,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter emits native OMML equations. The full Word has 61 pages, 1186 native mathematical objects, thirteen tables, six main figures and seven appendices. The 29-page [main reading Word](manuscript/main_text.docx) contains the main text, data availability and references, with six tables and 238 native mathematical objects. The current records linked above identify exact sources and every reviewed page. Fraction arguments must be braced in this strict subset. Source changes require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
+The strict TeX subset converter emits native OMML equations. The full Word has 62 pages, 1228 native mathematical objects, fourteen tables, six main figures and seven appendices. The 29-page [main reading Word](manuscript/main_text.docx) has six tables and 239 native mathematical objects. Every current page has direct image review or explicitly hashed inheritance. The [word count](reports/word_count_20261115.json) records its convention. Source changes require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -357,3 +359,15 @@ python analysis/verify_public_holdout.py --input-dir local_inputs --plan results
 ```
 
 The exact command options and compressed-coefficient replay instructions are in [the standalone README](results/holdout/README.md). The published run uses 500 fixed block permutations and nested 50/150-label budgets. The final 3405 rows enter no model fitting or tuning. Allocation MCSEs condition on the released file. Verification reconstructs original objectives and metrics; it is distinct from a second complete primary refit. The package's quick check reconciles all 28 Table C1 cells, availability denominators, source hashes and retained verification records without downloading data.
+
+## Reproduce the explicit trained prediction case
+
+The [dated standalone evidence](results/learned_training/README.md) contains 8000 Gaussian cohorts, 32000 primary criterion classifications and the secondary all-power audit on the same 4000 proxy cohorts. From this package directory run:
+
+```sh
+cd results/learned_training
+python verify_package.py
+python run_reproduction.py --out regenerated
+```
+
+Use a fresh output directory. The nested archive's historical statement that the main manuscript was unchanged describes 14 November. Its code, plans, data and source hashes remain byte-identical to that independently checked supplement. The current parent includes its concise result and proof. The parent quick check reconciles all eight Table E2 rows. The 1080 positive-power witnesses and 2920 strict obstructions concern existence; final estimator risk and intervals remain unevaluated in that experiment.

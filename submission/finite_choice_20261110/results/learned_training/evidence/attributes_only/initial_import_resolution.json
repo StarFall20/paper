@@ -1,0 +1,5 @@
+{
+  "initial_attempt": "stopped before any model draw or population computation",
+  "reason": "standalone copy lacked the transitively imported choice_moment_support.py",
+  "resolution": "added the unchanged canonical dependency; primary source and plan unchanged"
+}
