@@ -2,12 +2,22 @@
   "date": "2026-11-15",
   "main_manuscript_changed": false,
   "new_theorem_or_tuning_claimed": false,
-  "rare_endpoint_loss_allocations": 1,
-  "endpoint_loss_prediction_conditions": 2,
   "retuned_50_label_failures": 0,
   "confirmed_new_primary_support_calls": 25792,
   "all_method_records": 36000,
   "inference": "The exact rare event strengthens a mechanism illustration; aggregate availability does not deteriorate on this file.",
   "goal_complete": false,
-  "submission_threshold_achieved": false
+  "submission_threshold_achieved": false,
+  "finite_to_exterior_allocations": 1,
+  "finite_to_exterior_prediction_conditions": 2,
+  "retuned_20_label_total_finite_loss_by_prediction": {
+    "AI": 4,
+    "X_only": 3
+  },
+  "retuned_20_label_distinct_loss_allocations": 6,
+  "retuned_zero_power_loss_by_prediction": {
+    "AI": 3,
+    "X_only": 2
+  },
+  "narrative_correction": "Earlier endpoint-loss wording counted finite-to-exterior transitions only; zero-power losses are now explicit."
 }

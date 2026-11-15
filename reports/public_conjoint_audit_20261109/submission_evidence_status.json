@@ -201,7 +201,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../public_auxiliary_budget_20261115/README.md",
+  "latest_progress_report": "../auxiliary_manuscript_integration_20261115/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Public auxiliary-budget audit and exact rare-case verification completed; low practical frequency constrains claims.",
+  "latest_progress": "Integrated public auxiliary-budget evidence, corrected zero-power losses and condensed manuscript.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -362,7 +362,21 @@
     "method_records": 36000,
     "exact_endpoint_loss_allocations": 1,
     "retuned_50_label_failures": 0,
-    "main_manuscript_integrated": false,
-    "new_human_or_AI_answers": 0
+    "main_manuscript_integrated": true,
+    "new_human_or_AI_answers": 0,
+    "retuned_distinct_loss_allocations": 6,
+    "retuned_zero_power_loss_records": 5,
+    "narrative_correction": "Earlier total-loss wording counted finite-to-exterior only."
+  },
+  "auxiliary_manuscript_integration": {
+    "evidence": "../auxiliary_manuscript_integration_20261115/README.md",
+    "full_word_pages": 62,
+    "main_word_pages": 28,
+    "tables": 15,
+    "display_paragraphs": 136,
+    "main_lexical_words": 8304,
+    "abstract_words": 165,
+    "extra_observations_generated": 0,
+    "full_math_isolated_passed": true
   }
 }

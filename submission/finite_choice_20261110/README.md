@@ -2,11 +2,13 @@
 
 ## Current manuscript and verification
 
-The 15 November 2026 training-budget integration is current. The full Word is 62 pages with 1228 native mathematical objects, 136 display paragraphs and 14 tables; the main reading Word is 29 pages. Sections 3.8 and 5.4 and Appendix E5 now contain the explicit trained proxy case and Table E2. All preceding 13 table blocks and 131 display bodies are preserved. Of 83 root analysis files, 82 are byte-identical to the preceding release; quick_check.py adds the new reconciliation. The nested dated evidence retains 15 scientific sources and all generated cohorts. No new observations or model draws were generated in this integration.
+The 15 November 2026 auxiliary-budget integration is current. The complete Word is 62 pages with 1227 native mathematical objects, 136 display paragraphs and 15 tables. The main reading Word is 28 pages. Section 4.5 and Appendix C7 integrate all 36000 public budget records; Section 3.2 attributes the fixed-dimensional PPI++ parent argument. All 14 preceding tables and every display body remain. Main text falls from 8813 to 8304 lexical words under the [stated count](reports/word_count_auxiliary_20261115.json).
 
-The [current pointer](reports/current_manuscript.json), [integration record](reports/learned_manuscript_integration_20261115.json), [visual review](reports/learned_manuscript_visual_qa_20261115.json) and [mathematical check](reports/learned_integration_mathematical_check_20261115.json) identify the exact current artifacts. The [isolated validation](reports/learned_integration_clean_validation_20261115.json) checks the current 83 root sources and all fourteen tables. Appendix E5 extends the conditional training argument to the observed proxy using a positive posterior variance bound. The training mean and Gaussian overlap retain classical attribution. The new N=B, 500-draw experiment and old N=4m, 100-draw comparison are distinct.
+At 20 labels, four AI-aided and three attributes-only records lose attainment between the first and largest pools, involving six allocations. One shared allocation becomes exterior in both routines; five records select zero power on separated human designs. Earlier narrative called the exterior subset “losses”. Primary records are unchanged. All retuned and held-power 50-label fits remain finite. Aggregate retuned availability improves slightly.
 
-The [institutional audit](reports/institutional_literature_audit_20261113/README.md) retains 9 WOS searches/chains, 537 exports and 512 unique indexed records. The [supplementary literature record](results/holdout/literature_followup.md) records four actual Google Scholar queries and bounded screening. Scopus returned Preview after the authorized institutional exchange; no Scopus literature query ran. PPI++ formal-version full-text and supplement reconciliation remains incomplete. Earlier dated reports describe historical stages. These records do not prove originality or sufficient journal value.
+The [current pointer](reports/current_manuscript.json), [integration](reports/auxiliary_manuscript_integration_20261115.json), [visual review](reports/auxiliary_manuscript_visual_qa_20261115.json) and [mathematical check](reports/auxiliary_integration_mathematical_check_20261115.json) identify this release. The [self-contained budget evidence](results/public_auxiliary_budget/README.md) reconstructs all records, exact case arithmetic and complete state flows in a separate directory. Its 13 sources include the later flow reconciliation. No primary numerical source was changed.
+
+The retained [institutional audit](reports/institutional_literature_audit_20261113/README.md) records 9 WOS searches/chains and 512 unique indexed records; the [Scholar record](results/holdout/literature_followup.md) records four bounded queries. Scopus has run no literature query. The official guide read on 13 November was locally rechecked; new web retrieval returned 403. Formal PPI++ reconciliation and specific-result priority remain open. Older dated reports are historical.
 
 Separate publication figures are provided as [font-embedded vector PDFs](manuscript/figures/publication_pdf/). Regenerate them with `python authoring/export_publication_figures.py`; no model draws or fits run. The PNGs embedded in Word remain reading assets. An AI-assistance declaration is included before references. Final author review and publisher portal declarations remain pending. This package is not an acceptance certificate.
 
@@ -36,7 +38,7 @@ python analysis/audit_binary_choice.py examples/intercept.csv --features interce
 python analysis/build_publication_assets.py --results results --manuscript manuscript
 ```
 
-The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all fourteen manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
+The quick check requires no external data. It checks a closed form logistic root, boundary/exterior/rank cases, alternative moment and interval LPs, normal integration, proper augmentation weight invariance and intercept covariance formulas. It reconciles all fifteen manuscript tables, the training-cost status counts and the completed aggregate grids. It preserves the single original unknown LP status and checks its independent positive-gap resolution. `--full-math` adds signal, imperfect prediction and positive power numerical checks. It does not rerun the full Monte Carlo grids.
 
 Optional Word authoring uses the packages in `authoring/requirements.txt`:
 
@@ -44,7 +46,7 @@ Optional Word authoring uses the packages in `authoring/requirements.txt`:
 python authoring/build_manuscript_docx.py --source manuscript/paper.md --out manuscript/paper.docx --report regenerated/docx_structure.json
 ```
 
-The strict TeX subset converter emits native OMML equations. The full Word has 62 pages, 1228 native mathematical objects, fourteen tables, six main figures and seven appendices. The 29-page [main reading Word](manuscript/main_text.docx) has six tables and 239 native mathematical objects. Every current page has direct image review or explicitly hashed inheritance. The [word count](reports/word_count_20261115.json) records its convention. Source changes require a fresh visual review. Rebuilding a DOCX can change ZIP metadata even when text and equations agree.
+The strict TeX subset converter emits native OMML equations. The full Word has 62 pages, 1227 native mathematical objects, fifteen tables, six main figures and seven appendices. The 28-page [main reading Word](manuscript/main_text.docx) has six tables and 235 native mathematical objects. Every delivery page has direct review or hashed inheritance. Source changes require fresh layout review.
 
 The audit CSV has `choice`, `prediction`, `labelled` and explicitly named feature columns. Labelled is zero or one. Auxiliary choices may be blank. Predictions lie in the unit interval. Include an explicit intercept column if wanted. The output distinguishes support status from fit status and reports the selected power. It changes no target and issues no confidence interval.
 
@@ -371,3 +373,15 @@ python run_reproduction.py --out regenerated
 ```
 
 Use a fresh output directory. The nested archive's historical statement that the main manuscript was unchanged describes 14 November. Its code, plans, data and source hashes remain byte-identical to that independently checked supplement. The current parent includes its concise result and proof. The parent quick check reconciles all eight Table E2 rows. The 1080 positive-power witnesses and 2920 strict obstructions concern existence; final estimator risk and intervals remain unevaluated in that experiment.
+
+## Reproduce the public auxiliary-budget audit
+
+The [dated evidence](results/public_auxiliary_budget/README.md) preserves every planned method and budget. From the package root:
+
+```sh
+cd results/public_auxiliary_budget
+python verify_package.py
+python run_reproduction.py --input-dir /your/local/pinned_inputs --out regenerated
+```
+
+The public-input fetcher supplies the pinned inputs. The default command reconstructs all records and verifies directions, exact case arithmetic and complete endpoint flows. The documented full option repeats the primary audit in a fresh directory. Parent quick checks reconcile Table C2 without rerunning primary fits. Nested pre-integration manuscript hashes are historical.

@@ -1,0 +1,8 @@
+{
+  "timing": "After the full primary audit and its independent verification.",
+  "selection_rule": "The smallest trial among tuned first-to-last finite-to-exterior transitions; retain every such prediction/budget condition in that trial.",
+  "selected_trial": 435,
+  "selected_conditions": 2,
+  "new_independent_cohorts": 0,
+  "purpose": "Make the existing rare event concrete and check saved directions in exact arithmetic; no prevalence, new tuning or new theorem claim."
+}

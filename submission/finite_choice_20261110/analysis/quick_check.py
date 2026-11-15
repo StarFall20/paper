@@ -255,7 +255,7 @@ def main():
  report['complete_GMM_comparison_is_not_production_CC_PPI']=True
  subprocess.run([sys.executable,str(root/'analysis/reconcile_probability_risk_tables.py'),'--out',str(a.out/'probability_risk_tables')],check=True,stdout=subprocess.DEVNULL)
  import re
- assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==14
+ assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==15
  report.update(probability_risk_path_records_reconciled=1920,probability_risk_numerical_fits=1401,new_probability_loss_tables_reconciled=['5','D1'],all_eleven_manuscript_tables_reconciled=True)
  subprocess.run([sys.executable,str(root/'analysis/build_radial_publication_assets.py'),'--out',str(a.out/'radial_publication')],check=True,stdout=subprocess.DEVNULL)
  report.update(all_twelve_manuscript_tables_reconciled=True,radial_nested_records=12000,radial_distinct_objectives=10000,radial_paired_transition_rows=24,radial_table6_reconciled=True)
@@ -315,6 +315,27 @@ def main():
  assert lv['existing_cohorts_reconstructed']==4000 and lv['explicit_positive_power_witnesses_checked']==1080
  assert lv['all_positive_power_obstruction_directions_checked']==2920 and lv['unresolved']==0
  report.update(all_fourteen_manuscript_tables_reconciled=True,learned_budget_table_rows=8,learned_budget_positive_power_witnesses=1080,learned_budget_strict_obstructions=2920,learned_budget_primary_programs_rerun_by_quick_check=False)
+ ab=root/'results/public_auxiliary_budget'
+ for line in (ab/'MANIFEST.sha256').read_text().splitlines():
+  digest,relative=line.split('  ',1); assert hashlib.sha256((ab/relative).read_bytes()).hexdigest()==digest,relative
+ absum=pd.read_csv(ab/'results/summary.csv'); abpair=pd.read_csv(ab/'results/paired_transitions.csv')
+ abtable=pd.read_csv(root/'manuscript/tableC2.csv',dtype=str); assert len(abtable)==4
+ for r in abtable.to_dict('records'):
+  m=int(r['Labels']); pred='AI' if r['Prediction']=='AI aided' else 'X_only'
+  d=absum[(absum.label_rows==m)&(absum.prediction==pred)&(absum.method=='source_tuned_each_N')].sort_values('auxiliary_rows')
+  first,last=d.iloc[0],d.iloc[-1]
+  z=abpair[(abpair.label_rows==m)&(abpair.prediction==pred)&(abpair.method=='source_tuned_each_N')&(abpair.basis=='first')&(abpair.to_auxiliary_rows==last.auxiliary_rows)].iloc[0]
+  assert r['Finite first']==f'{int(first.interior)}/500'
+  assert r['Finite last']==f'{int(last.interior)}/500'
+  assert r['To exterior']==f'{int(z.finite_to_exterior)}/500'
+  flow=json.loads((ab/'verification/transition_accounting.json').read_text())
+  fg=next(g for g in flow['groups'] if g['label_rows']==m and g['prediction']==pred and g['method']=='source_tuned_each_N')
+  assert r['To zero power']==f"{len(fg['finite_to_zero_power_trials'])}/500"
+  assert fg['finite_last']-fg['finite_first']==len(fg['nonfinite_to_finite_trials'])-fg['total_finite_loss']
+ exact=json.loads((ab/'verification/exact_case_verification.json').read_text())
+ assert exact['state']=='passed' and exact['existing_allocations']==1 and exact['exact_after_all_positive_power_negative_recessions']==2
+ assert len(absum)==72 and absum.unresolved.sum()==0 and absum.allocations.sum()==36000
+ report.update(all_fifteen_manuscript_tables_reconciled=True,public_budget_table_rows=4,public_budget_existing_allocations=500,public_budget_method_records=36000,public_budget_exact_case_allocations=1,public_budget_primary_programs_rerun_by_quick_check=False)
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_twelve_tables_reconciled':True,'Firth_draws_reconciled':1000}))
 
 if __name__=='__main__':main()

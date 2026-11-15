@@ -12,13 +12,14 @@
     "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
     "verify_public_auxiliary_budget.py": "28b547fc6c10b95528c6435dbb17b72c5008c7883c017cd72484de97b54dea6f",
     "verify_public_auxiliary_case.py": "fb8aed9af78f0628e0cb089546d303e51b9e50ddcce37dfd9833dba63fd06e6a",
-    "write_public_auxiliary_budget_assets.py": "bd479089306054021e29e6b9fd633b7d21b725b70e3d659ddba333d97b52dcf1"
+    "write_public_auxiliary_budget_assets.py": "bd479089306054021e29e6b9fd633b7d21b725b70e3d659ddba333d97b52dcf1",
+    "summarize_auxiliary_transition_accounting.py": "36dff0c8f2b15141abda1313a3067309e9860680561d83b9e377f388678ce13c"
   },
   "plan_sha256": "03723469e41d13c267439536d4a48ea01849ba40122166bffe4136ee6720cf76",
   "source_release_commit": "d18717206867c7a12ff470879a0dd5d488b300c2",
   "main_manuscript_unchanged": true,
   "main_manuscript_sha256": "a970617105e03ca7e4f2184789ba80c269bd7ebdc21ff39dcc2c475c1be4544b",
-  "source_snapshot_timing": "Taken after launch of the fixed-plan run; no source was changed after launch.",
+  "source_snapshot_timing": "Primary audit source fixed at launch. The record-reader format follow-up and later endpoint accounting are documented separately below.",
   "new_human_or_AI_answers": 0,
   "verification_source_timing": "Added before first independent verification; preselected checks were fixed in the pre-run plan.",
   "support_program_count_scope": "25792 calls after within-cell duplicate-power elimination; objectives can repeat across cells.",
@@ -32,5 +33,11 @@
     },
     "reader_change": "Accept the original CSV or its lossless gzip form; numerical calculations are unchanged.",
     "primary_audit_source_unchanged": true
+  },
+  "endpoint_accounting_followup": {
+    "primary_records_and_numerical_sources_unchanged": true,
+    "added_source": "summarize_auxiliary_transition_accounting.py",
+    "source_sha256": "36dff0c8f2b15141abda1313a3067309e9860680561d83b9e377f388678ce13c",
+    "reason": "Distinguish all attainment losses from the finite-to-exterior subset."
   }
 }

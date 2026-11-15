@@ -1,0 +1,14 @@
+{
+  "state": "passed",
+  "existing_allocations": 1,
+  "prediction_conditions": 2,
+  "numerical_before_roots_verified": 2,
+  "exact_after_all_positive_power_negative_recessions": 2,
+  "exact_zero_power_nonattainment_directions": 2,
+  "minimum_uniform_prediction_perturbation_radius": 0.0020579253667030767,
+  "maximum_regenerated_prediction_difference": 0.0,
+  "maximum_direct_before_root_score": 4.4015766942698265e-10,
+  "exact_before_root_certificate": false,
+  "arithmetic_scope": "Exact integer/dyadic signs for the frozen after-pool criterion; numerical before-pool interior and roots.",
+  "new_human_or_AI_answers": 0
+}

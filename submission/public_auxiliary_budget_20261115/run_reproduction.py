@@ -12,5 +12,6 @@ run('verify_public_auxiliary_budget.py','--input-dir',a.input_dir.resolve(),'--b
 if a.full:
  run('public_auxiliary_budget_case.py','--base',base,'--input-dir',a.input_dir.resolve(),'--out',out/'case')
 run('verify_public_auxiliary_case.py','--input-dir',a.input_dir.resolve(),'--case',base/'case','--out',out/'verification')
+run('summarize_auxiliary_transition_accounting.py','--base',base,'--out',out/'verification/transition_accounting.json')
 if a.full:run('write_public_auxiliary_budget_assets.py','--base',base,'--out',out/'figures')
 (out/'reproduction_status.json').write_text(json.dumps(dict(status='complete',full_primary_run=a.full,records_reconstructed=36000,new_human_or_AI_answers=0),indent=2)+'\n')

@@ -1,0 +1,859 @@
+{
+  "status": "complete",
+  "scope": "First-to-last state accounting of the existing 36000 records; no refitting.",
+  "primary_record_sha256": "a7e8c5f8a5d75e68b9b7efec3508e77bf71ed2f67a8de0668d7b881e17bae0f7",
+  "existing_record_count": 36000,
+  "groups": [
+    {
+      "label_rows": 20,
+      "prediction": "AI",
+      "method": "fixed_first_N_power",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1180,
+      "finite_first": 156,
+      "finite_last": 158,
+      "finite_to_exterior_trials": [
+        435
+      ],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 1,
+      "nonfinite_to_finite_trials": [
+        13,
+        37,
+        475
+      ],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "boundary_or_near_boundary",
+          "to_status": "boundary_or_near_boundary",
+          "count": 337
+        },
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 155
+        },
+        {
+          "from_status": "interior",
+          "to_status": "outside_mean_support",
+          "count": 1
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "interior",
+          "count": 3
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "outside_mean_support",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "label_rows": 20,
+      "prediction": "AI",
+      "method": "source_tuned_each_N",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1180,
+      "finite_first": 156,
+      "finite_last": 161,
+      "finite_to_exterior_trials": [
+        435
+      ],
+      "finite_to_zero_power_trials": [
+        57,
+        407,
+        415
+      ],
+      "total_finite_loss": 4,
+      "nonfinite_to_finite_trials": [
+        0,
+        13,
+        37,
+        38,
+        41,
+        47,
+        208,
+        318,
+        475
+      ],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "boundary_or_near_boundary",
+          "to_status": "boundary_or_near_boundary",
+          "count": 330
+        },
+        {
+          "from_status": "boundary_or_near_boundary",
+          "to_status": "interior",
+          "count": 6
+        },
+        {
+          "from_status": "boundary_or_near_boundary",
+          "to_status": "outside_mean_support",
+          "count": 1
+        },
+        {
+          "from_status": "interior",
+          "to_status": "boundary_or_near_boundary",
+          "count": 3
+        },
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 152
+        },
+        {
+          "from_status": "interior",
+          "to_status": "outside_mean_support",
+          "count": 1
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "boundary_or_near_boundary",
+          "count": 2
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "interior",
+          "count": 3
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "outside_mean_support",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "label_rows": 20,
+      "prediction": "AI",
+      "method": "unit",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1180,
+      "finite_first": 128,
+      "finite_last": 260,
+      "finite_to_exterior_trials": [
+        68,
+        150
+      ],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 2,
+      "nonfinite_to_finite_trials": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        18,
+        24,
+        25,
+        29,
+        33,
+        37,
+        38,
+        40,
+        42,
+        43,
+        47,
+        49,
+        55,
+        57,
+        58,
+        61,
+        70,
+        77,
+        82,
+        85,
+        89,
+        90,
+        95,
+        97,
+        103,
+        106,
+        109,
+        115,
+        117,
+        122,
+        125,
+        131,
+        133,
+        134,
+        136,
+        140,
+        149,
+        154,
+        163,
+        165,
+        169,
+        170,
+        173,
+        175,
+        178,
+        190,
+        191,
+        194,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        209,
+        213,
+        214,
+        223,
+        231,
+        237,
+        239,
+        244,
+        260,
+        264,
+        266,
+        268,
+        269,
+        271,
+        276,
+        277,
+        281,
+        284,
+        286,
+        291,
+        294,
+        298,
+        305,
+        306,
+        312,
+        317,
+        324,
+        326,
+        328,
+        329,
+        331,
+        332,
+        335,
+        337,
+        338,
+        340,
+        348,
+        352,
+        361,
+        367,
+        378,
+        379,
+        380,
+        387,
+        394,
+        397,
+        402,
+        408,
+        411,
+        416,
+        420,
+        423,
+        429,
+        432,
+        433,
+        434,
+        437,
+        440,
+        445,
+        455,
+        457,
+        463,
+        465,
+        467,
+        470,
+        472,
+        475,
+        477,
+        479,
+        492,
+        494,
+        497
+      ],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 126
+        },
+        {
+          "from_status": "interior",
+          "to_status": "outside_mean_support",
+          "count": 2
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "interior",
+          "count": 134
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "outside_mean_support",
+          "count": 238
+        }
+      ]
+    },
+    {
+      "label_rows": 20,
+      "prediction": "X_only",
+      "method": "fixed_first_N_power",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1180,
+      "finite_first": 142,
+      "finite_last": 144,
+      "finite_to_exterior_trials": [
+        435
+      ],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 1,
+      "nonfinite_to_finite_trials": [
+        13,
+        37,
+        450
+      ],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "boundary_or_near_boundary",
+          "to_status": "boundary_or_near_boundary",
+          "count": 354
+        },
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 141
+        },
+        {
+          "from_status": "interior",
+          "to_status": "outside_mean_support",
+          "count": 1
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "interior",
+          "count": 3
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "outside_mean_support",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "label_rows": 20,
+      "prediction": "X_only",
+      "method": "source_tuned_each_N",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1180,
+      "finite_first": 142,
+      "finite_last": 150,
+      "finite_to_exterior_trials": [
+        435
+      ],
+      "finite_to_zero_power_trials": [
+        271,
+        485
+      ],
+      "total_finite_loss": 3,
+      "nonfinite_to_finite_trials": [
+        13,
+        37,
+        41,
+        47,
+        104,
+        196,
+        208,
+        400,
+        450,
+        454,
+        475
+      ],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "boundary_or_near_boundary",
+          "to_status": "boundary_or_near_boundary",
+          "count": 345
+        },
+        {
+          "from_status": "boundary_or_near_boundary",
+          "to_status": "interior",
+          "count": 8
+        },
+        {
+          "from_status": "boundary_or_near_boundary",
+          "to_status": "outside_mean_support",
+          "count": 1
+        },
+        {
+          "from_status": "interior",
+          "to_status": "boundary_or_near_boundary",
+          "count": 2
+        },
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 139
+        },
+        {
+          "from_status": "interior",
+          "to_status": "outside_mean_support",
+          "count": 1
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "interior",
+          "count": 3
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "outside_mean_support",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "label_rows": 20,
+      "prediction": "X_only",
+      "method": "unit",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1180,
+      "finite_first": 134,
+      "finite_last": 269,
+      "finite_to_exterior_trials": [
+        265,
+        435
+      ],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 2,
+      "nonfinite_to_finite_trials": [
+        2,
+        4,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        18,
+        24,
+        25,
+        26,
+        29,
+        33,
+        36,
+        37,
+        38,
+        40,
+        42,
+        47,
+        49,
+        51,
+        55,
+        58,
+        59,
+        70,
+        71,
+        74,
+        85,
+        86,
+        89,
+        90,
+        95,
+        96,
+        97,
+        103,
+        115,
+        119,
+        122,
+        123,
+        124,
+        125,
+        131,
+        134,
+        137,
+        140,
+        144,
+        149,
+        160,
+        163,
+        173,
+        175,
+        178,
+        190,
+        191,
+        197,
+        199,
+        200,
+        201,
+        202,
+        208,
+        209,
+        213,
+        214,
+        223,
+        224,
+        235,
+        237,
+        242,
+        244,
+        246,
+        260,
+        264,
+        266,
+        268,
+        269,
+        271,
+        276,
+        281,
+        284,
+        285,
+        290,
+        291,
+        294,
+        298,
+        305,
+        306,
+        308,
+        310,
+        313,
+        314,
+        317,
+        318,
+        326,
+        328,
+        332,
+        335,
+        337,
+        340,
+        342,
+        348,
+        352,
+        354,
+        367,
+        378,
+        379,
+        380,
+        394,
+        397,
+        401,
+        402,
+        407,
+        408,
+        411,
+        423,
+        425,
+        428,
+        429,
+        433,
+        437,
+        439,
+        440,
+        445,
+        455,
+        457,
+        463,
+        465,
+        467,
+        470,
+        472,
+        475,
+        476,
+        477,
+        479,
+        492,
+        494,
+        497
+      ],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 132
+        },
+        {
+          "from_status": "interior",
+          "to_status": "outside_mean_support",
+          "count": 2
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "interior",
+          "count": 137
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "outside_mean_support",
+          "count": 229
+        }
+      ]
+    },
+    {
+      "label_rows": 50,
+      "prediction": "AI",
+      "method": "fixed_first_N_power",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1150,
+      "finite_first": 500,
+      "finite_last": 500,
+      "finite_to_exterior_trials": [],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 0,
+      "nonfinite_to_finite_trials": [],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 500
+        }
+      ]
+    },
+    {
+      "label_rows": 50,
+      "prediction": "AI",
+      "method": "source_tuned_each_N",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1150,
+      "finite_first": 500,
+      "finite_last": 500,
+      "finite_to_exterior_trials": [],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 0,
+      "nonfinite_to_finite_trials": [],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 500
+        }
+      ]
+    },
+    {
+      "label_rows": 50,
+      "prediction": "AI",
+      "method": "unit",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1150,
+      "finite_first": 453,
+      "finite_last": 494,
+      "finite_to_exterior_trials": [],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 0,
+      "nonfinite_to_finite_trials": [
+        10,
+        18,
+        24,
+        49,
+        54,
+        74,
+        76,
+        91,
+        99,
+        111,
+        119,
+        133,
+        148,
+        158,
+        180,
+        214,
+        225,
+        243,
+        244,
+        247,
+        249,
+        253,
+        259,
+        270,
+        308,
+        334,
+        364,
+        367,
+        377,
+        382,
+        403,
+        414,
+        418,
+        433,
+        452,
+        458,
+        464,
+        466,
+        482,
+        486,
+        498
+      ],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 453
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "interior",
+          "count": 41
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "outside_mean_support",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "label_rows": 50,
+      "prediction": "X_only",
+      "method": "fixed_first_N_power",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1150,
+      "finite_first": 500,
+      "finite_last": 500,
+      "finite_to_exterior_trials": [],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 0,
+      "nonfinite_to_finite_trials": [],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 500
+        }
+      ]
+    },
+    {
+      "label_rows": 50,
+      "prediction": "X_only",
+      "method": "source_tuned_each_N",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1150,
+      "finite_first": 500,
+      "finite_last": 500,
+      "finite_to_exterior_trials": [],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 0,
+      "nonfinite_to_finite_trials": [],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 500
+        }
+      ]
+    },
+    {
+      "label_rows": 50,
+      "prediction": "X_only",
+      "method": "unit",
+      "allocations": 500,
+      "first_auxiliary_rows": 50,
+      "last_auxiliary_rows": 1150,
+      "finite_first": 459,
+      "finite_last": 498,
+      "finite_to_exterior_trials": [],
+      "finite_to_zero_power_trials": [],
+      "total_finite_loss": 0,
+      "nonfinite_to_finite_trials": [
+        46,
+        49,
+        73,
+        74,
+        76,
+        91,
+        92,
+        111,
+        119,
+        121,
+        138,
+        148,
+        158,
+        180,
+        192,
+        214,
+        221,
+        225,
+        235,
+        243,
+        244,
+        253,
+        256,
+        270,
+        283,
+        293,
+        324,
+        334,
+        337,
+        340,
+        364,
+        367,
+        377,
+        382,
+        414,
+        418,
+        458,
+        482,
+        498
+      ],
+      "all_endpoint_transitions": [
+        {
+          "from_status": "interior",
+          "to_status": "interior",
+          "count": 459
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "interior",
+          "count": 39
+        },
+        {
+          "from_status": "outside_mean_support",
+          "to_status": "outside_mean_support",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "retuned_distinct_loss_allocations": [
+    {
+      "label_rows": 20,
+      "trial": 57
+    },
+    {
+      "label_rows": 20,
+      "trial": 271
+    },
+    {
+      "label_rows": 20,
+      "trial": 407
+    },
+    {
+      "label_rows": 20,
+      "trial": 415
+    },
+    {
+      "label_rows": 20,
+      "trial": 435
+    },
+    {
+      "label_rows": 20,
+      "trial": 485
+    }
+  ],
+  "note": "Finite-to-exterior counts alone omit losses caused by selecting exactly zero power on a separated human design.",
+  "new_human_or_AI_answers": 0
+}

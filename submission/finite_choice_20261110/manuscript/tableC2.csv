@@ -1,0 +1,5 @@
+Labels,Prediction,Finite first,Finite last,To exterior,To zero power
+20,AI aided,156/500,161/500,1/500,3/500
+20,Attributes only,142/500,150/500,1/500,2/500
+50,AI aided,500/500,500/500,0/500,0/500
+50,Attributes only,500/500,500/500,0/500,0/500

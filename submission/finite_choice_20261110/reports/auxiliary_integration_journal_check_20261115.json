@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-15",
+  "retained_guide_read_date": "2026-11-13",
+  "retained_guide_pdf_sha256": "131544c46443b1b8e01f40b781db35f472ed5d9e1cd5e4b292805b732a8a48fe",
+  "retained_guide_relevant_text_rechecked": true,
+  "official_guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
+  "new_web_guide_retrieval": "403 Forbidden",
+  "new_web_scope_retrieval": "403 Forbidden",
+  "official_publisher_description_read": "https://shop.elsevier.com/journals/journal-of-choice-modelling/1755-5345",
+  "scope_interpretation": "Relevant choice-estimation methodology; sufficient contribution is a separate assessment.",
+  "abstract_limit": 250,
+  "keywords_allowed": [
+    1,
+    7
+  ],
+  "highlights_bullets": [
+    3,
+    5
+  ],
+  "highlight_character_max": 85,
+  "explicit_full_research_article_word_cap_found": false,
+  "new_web_queries": 2,
+  "new_Scopus_queries": 0,
+  "new_Scholar_queries": 0,
+  "new_WOS_queries": 0,
+  "exhaustive_originality_search_claimed": false
+}

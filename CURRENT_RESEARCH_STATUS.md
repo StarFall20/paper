@@ -1,3 +1,11 @@
+# Current integrated manuscript and endpoint correction — 15 November 2026
+
+The [auxiliary-budget integration](reports/auxiliary_manuscript_integration_20261115/README.md) is current: 62 full pages, 28 reading pages, 15 tables and all 136 preceding display bodies. Section 3.2 attributes fixed-dimensional PPI++ attainment through its shell argument. Sections 4.5/C7 integrate the public audit.
+
+At 20 labels, four AI-aided and three attributes-only records lose attainment, involving six allocations. One shared allocation becomes exterior under both routines; five other records select zero power on separated human designs. Earlier one-loss narrative counted the exterior subset and is superseded. All 36000 primary records are unchanged. Aggregate availability improves slightly, and all retuned/held-power 50-label objectives remain finite.
+
+The goal remains active. Formal PPI++ reconciliation, specific-result contribution assessment and final author review remain open. No new human or AI response or database query is counted here. Older entries are historical.
+
 # Public auxiliary-budget audit — 15 November 2026
 
 The [new audit](reports/public_auxiliary_budget_20261115/README.md) completes 500 existing allocations and 36000 method records. Labels, the ridge pilot and nuisance predictions are fixed across nested auxiliary budgets. The retuned 50-label method is finite in every cell. At 20 labels, aggregate availability improves slightly; one allocation loses attainment in both prediction routines between the first and last pools. Exact integer/dyadic recession signs show all-positive-power failure in that selected enlarged-pool case, while the zero-power human fit is also separated. It is one existing allocation, not two independent empirical examples.

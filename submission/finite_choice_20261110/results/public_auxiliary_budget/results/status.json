@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "completed_allocations": 500,
+  "requested_allocations": 500,
+  "method_records": 36000,
+  "unique_support_programs": 25792,
+  "source_sha256": "863ac557fc9071de0606410e054d9151830de765974b403ae1c47f00d469cdfc",
+  "plan_sha256": "03723469e41d13c267439536d4a48ea01849ba40122166bffe4136ee6720cf76",
+  "new_human_or_AI_answers": 0,
+  "auxiliary_human_labels_hidden": true
+}
