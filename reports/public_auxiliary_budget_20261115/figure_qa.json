@@ -1,0 +1,10 @@
+{
+  "direct_native_image_review": true,
+  "visual_findings": "All four panels, labels, uncertainty bars and external legend are readable; coincident retuned/fixed curves remain identified.",
+  "png_sha256": "b69b0d0ba8f296974e16ea48a6533b8b1514bb4240b196bb4772bb2d21eebc8a",
+  "pdf_sha256": "55ae2d22212d927e2d1bdaa363155cd2addef1e65fe0e290a09597dff964e144",
+  "embedded_fonts": [
+    "/CPUQYB+DejaVuSans",
+    "/GCHUZP+DejaVuSans"
+  ]
+}

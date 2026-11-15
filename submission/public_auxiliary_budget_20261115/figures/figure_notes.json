@@ -1,0 +1,14 @@
+{
+  "source": "results/summary.csv",
+  "allocations_per_point": 500,
+  "panels": 4,
+  "prespecified_cells": 72,
+  "intervals": "95% Wilson binomial Monte Carlo intervals conditional on the fixed file and allocation scheme.",
+  "notes": [
+    "The 20-label final pool has 1180 rows; the 50-label pool has 1150.",
+    "Retuned and fixed-first-N curves coincide at 50 human labels.",
+    "Budgets and methods share each allocation. Lines connect measured points.",
+    "The human baseline repeats the same fit across N and across prediction routines."
+  ],
+  "finite_event": "Strict moment interior with full curvature rank; zero-power separated boundaries are excluded."
+}

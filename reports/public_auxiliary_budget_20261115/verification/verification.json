@@ -1,0 +1,16 @@
+{
+  "state": "passed",
+  "method_records_reconstructed": 36000,
+  "ordinary_design_LPs": 1000,
+  "independent_positive_power_interval_LPs": 625,
+  "original_negative_recession_directions": 3602,
+  "paired_transition_rows": 120,
+  "maximum_power_difference": 7.771561172376096e-15,
+  "maximum_PSD_trace_difference": 2.4868995751603507e-14,
+  "maximum_source_quadratic_trace_difference": 1.1546319456101628e-13,
+  "maximum_original_recession_difference": 1.3010426069826053e-18,
+  "maximum_direct_ridge_pilot_score": 9.915714083152949e-12,
+  "all_primary_support_programs_rerun": false,
+  "source_sha256": "28b547fc6c10b95528c6435dbb17b72c5008c7883c017cd72484de97b54dea6f",
+  "new_human_or_AI_answers": 0
+}

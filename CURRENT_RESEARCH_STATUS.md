@@ -1,3 +1,9 @@
+# Public auxiliary-budget audit — 15 November 2026
+
+The [new audit](reports/public_auxiliary_budget_20261115/README.md) completes 500 existing allocations and 36000 method records. Labels, the ridge pilot and nuisance predictions are fixed across nested auxiliary budgets. The retuned 50-label method is finite in every cell. At 20 labels, aggregate availability improves slightly; one allocation loses attainment in both prediction routines between the first and last pools. Exact integer/dyadic recession signs show all-positive-power failure in that selected enlarged-pool case, while the zero-power human fit is also separated. It is one existing allocation, not two independent empirical examples.
+
+Independent checks reconstruct every record, verify 1000 human-design programs, 625 positive-power interval programs, 3602 method-level negative directions, 120 paired rows and both exact case directions. The PPI++ v2 Proposition 1/A.2 reading also narrows the generic existence claim; finite-N covariance is already prior. The new evidence limits prevalence and practical-value claims. The reviewed main manuscript remains unchanged pending focused revision. Formal PPI++ reconciliation and contribution sufficiency remain open. The goal remains active; older dated entries are historical.
+
 # Current manuscript integration — 15 November 2026
 
 The [training-budget integration](reports/learned_manuscript_integration_20261115/README.md) is now in the current source and reviewed native Word: 62 full pages, 29 main-reading pages, 14 tables and 136 display paragraphs. All 13 preceding table blocks and 131 preceding display bodies remain. Appendix E5 supplies explicit convergence for a classical training mean with proxy information and the posterior-variance localization argument. Its 8000-cohort evidence snapshot is bundled without generating additional observations. The all-power audit reuses 4000 proxy cohorts.
