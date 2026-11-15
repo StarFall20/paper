@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-15",
+  "state": "passed",
+  "exact_fraction_configurations": 250,
+  "exact_states": {
+    "finite": 100,
+    "boundary": 50,
+    "exterior": 100
+  },
+  "support_lp_matches": 250,
+  "maximum_objective_identity_error": 1.7763568394002505e-15,
+  "maximum_finite_root_score": 5.551115123125783e-17,
+  "maximum_exterior_recession_error": 0.0,
+  "source_hashes": {
+    "verify_compensated_tail_scope.py": "61329fa62c1a8fb4edd835e1b08ce24435d79baad8e6ef6c7b1e8150c389abef",
+    "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01"
+  },
+  "new_observations": 0,
+  "random_model_draws": 0,
+  "prior_theorem_refuted": false,
+  "new_originality_proof": false,
+  "meaning": "Qualitative row types do not determine aggregate attainment when labelled row infima are minus infinity. The existing theorem explicitly assumes finite row infima."
+}

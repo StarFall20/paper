@@ -1,0 +1,22 @@
+{
+  "paper": {
+    "native_math_objects": 1227,
+    "tables": 15,
+    "source_display_blocks": 136,
+    "md_sha256": "72b516e0e1ea017c73ff2cba4d20589d9dc4b0b489d38beddd4c15fd51feec22",
+    "docx_sha256": "246f983489a34f039fdb34db5c0d2f151967dd9b0632cff8c2fce3b904c255b4"
+  },
+  "main_text": {
+    "native_math_objects": 235,
+    "tables": 6,
+    "source_display_blocks": 35,
+    "md_sha256": "2e53e2a4e9de2552f6349c16d3e3134d99cd08dd7701e086949594e89867dc04",
+    "docx_sha256": "211a8faca01c60e441f1a78e3fa6b3e263227ac70b6ef394970f2f4bcf696cb0"
+  },
+  "state": "passed",
+  "package_analysis_sources": 83,
+  "page_counts_source": "reports/auxiliary_manuscript_visual_qa_20261115.json",
+  "new_render_performed": false,
+  "manuscript_changed": false,
+  "originality_or_submission_threshold_certified": false
+}

@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-15",
+  "actual_new_general_web_queries": 11,
+  "actual_new_Scopus_queries": 0,
+  "actual_new_Google_Scholar_queries": 0,
+  "actual_new_WOS_queries": 0,
+  "queries": [
+    "\"10.1214/26-AOAS2215\" PPI++ PDF",
+    "\"PPI++\" \"Supplement A\" \"Supplement B\"",
+    "site.projecteuclid.org \"PPI++\" \"2235\"",
+    "\"Efficient prediction-powered inference\" \"2026\"",
+    "\"26-AOAS2215\"",
+    "\"prediction-powered inference\" \"phase transition\" logistic",
+    "\"rectified\" \"loss\" \"separation\" \"prediction\"",
+    "\"prediction-powered\" \"existence\" logistic \"minimizer\"",
+    "\"Black-Box Assisted Regression: Phase Transitions and Minimax Optimality\"",
+    "\"prediction-powered\" \"coercivity\"",
+    "\"prediction-powered\" \"unbounded below\" logistic"
+  ],
+  "formal_PPI_version_reconciliation_complete": false,
+  "independent_peer_review": false,
+  "originality_or_submission_threshold_certified": false,
+  "manuscript_changed": false,
+  "downloaded_full_texts_backed_up_to_GitHub": false,
+  "institutional_identity_retransmitted_this_followup": false,
+  "sources": [
+    {
+      "title": "koriyama",
+      "official_url": "https://proceedings.mlr.press/v267/koriyama25a.html",
+      "publication_pdf_bytes": 1592652,
+      "publication_pdf_pages": 22,
+      "publication_pdf_sha256": "8b8d608b208e7359eb473a3489ef5eaa5b703eb569b3382bea44b3da8dc80c2b",
+      "verified_Git_blob": "df90a43aea28151020bff1e7906c8c95c097ec1f",
+      "read_units": [
+        "Formal pages 3-4: Assumptions 2.4-2.5, equation (4), Theorems 2.6-2.7 statements",
+        "Formal pages 10-12 related portions: Lemma A.2 and proof, conic reduction in proof of Theorem 2.6"
+      ],
+      "complete_technical_review": false,
+      "prior_preprint_read_previously": true
+    },
+    {
+      "title": "zhou",
+      "official_url": "https://proceedings.mlr.press/v306/zhou26b.html",
+      "publication_pdf_bytes": 802480,
+      "publication_pdf_pages": 23,
+      "publication_pdf_sha256": "adf8f37d3dae48c8f8d6c31243ea9455774dfc4e1181b60904326fb9db6f5cd7",
+      "verified_Git_blob": "b25a2bbeeda62eed69293995df24e1e3f81595f3",
+      "read_units": [
+        "Formal pages 4-7: Assumptions 5.1-5.2, Theorems 5.4-5.5, Theorem 5.7, squared-loss/classification scope"
+      ],
+      "complete_technical_review": false,
+      "prior_preprint_read_previously": true
+    },
+    {
+      "title": "PPI++ main",
+      "doi": "10.1214/26-AOAS2215",
+      "Crossref_metadata_sha256": "1adf036e761d2ed7495a4bf46d91a746cd0d1ec41c5cfed59dc8ed1541bc8005",
+      "Crossref_primary_url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full",
+      "research_content_read": false
+    },
+    {
+      "title": "PPI++ Supplement A",
+      "doi": "10.1214/26-AOAS2215SUPPA",
+      "Crossref_metadata_sha256": "2dd4e6542d22d9e3d2f5e921e57c7bcc8f2ad4e9a207ab8c0dbd182fb56a46ae",
+      "Crossref_primary_url": "https://projecteuclid.org/journals/supplementalcontent/10.1214/26-AOAS2215/aoas2215suppa.pdf",
+      "research_content_read": false,
+      "download_response_bytes": 1165,
+      "download_response_sha256": "3ca2de7207826558259ea716bbbb91809ada1e05d70887c8a0bdcd4ec1bad831",
+      "actual_response_type": "HTML security notice, not the requested PDF or ZIP"
+    },
+    {
+      "title": "PPI++ Supplement B",
+      "doi": "10.1214/26-AOAS2215SUPPB",
+      "Crossref_metadata_sha256": "1dca840343c14237d58dee833f33ceceeb294368553501f6602c31dbe1313b91",
+      "Crossref_primary_url": "https://projecteuclid.org/journals/supplementalcontent/10.1214/26-AOAS2215/aoas2215suppb.zip",
+      "research_content_read": false,
+      "download_response_bytes": 1164,
+      "download_response_sha256": "2a79ef1ae86147fa5678b68b46c483f9db0bf64f8a65debaecf86e07582c71a6",
+      "actual_response_type": "HTML security notice, not the requested PDF or ZIP"
+    }
+  ],
+  "query_4_domain_filters": [
+    "projecteuclid.org",
+    "imstat.org",
+    "stat.berkeley.edu",
+    "jmlr.org"
+  ]
+}

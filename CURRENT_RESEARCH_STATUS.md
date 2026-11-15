@@ -1,3 +1,9 @@
+# Formal-prior scope and current-status reconciliation — 15 November 2026
+
+The [new focused audit](reports/formal_prior_scope_20261115/README.md) verifies specified sections of two formal publication PDFs and all 250 exact row-tail configurations. It clarifies the need to retain quantitative compensation, without claiming a new general theorem or originality proof. Formal PPI++ body/supplements remain unread; metadata and HTML security responses are distinguished. No database query or institutional identity retransmission is added.
+
+The central status summary had stale manuscript counts. It now binds the current 62-page full and 28-page reading manuscript, 15 tables and 1227 native math objects to their actual source/Word hashes and prior visual review. The manuscript and model results are unchanged. The task remains active: specific-result priority, sufficient choice-analysis value and final author review remain open. Earlier entries below are historical.
+
 # Current integrated manuscript and endpoint correction — 15 November 2026
 
 The [auxiliary-budget integration](reports/auxiliary_manuscript_integration_20261115/README.md) is current: 62 full pages, 28 reading pages, 15 tables and all 136 preceding display bodies. Section 3.2 attributes fixed-dimensional PPI++ attainment through its shell argument. Sections 4.5/C7 integrate the public audit.

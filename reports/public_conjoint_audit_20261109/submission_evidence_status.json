@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "goal_complete": false,
-  "decision": "The main argument and calibrated counterexample are integrated into a reviewed58-page manuscript. All12tables and current79analysis sources pass isolated checks. Specific-result priority,choice-analysis value,current journal-guide rules and real author declarations remain under assessment.",
+  "decision": "The current reviewed manuscript has 62 full pages, 28 main-reading pages, 15 tables and 83 package analysis sources. Exact compensated-row scope checks and two nearest formal-version readings are complete with stated reading units. Formal PPI++ body/supplements, specific-result priority and sufficient choice-analysis value remain open; final author and portal declarations are pending.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -41,13 +41,13 @@
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "current_83_root_sources_with_15_source_nested_training_evidence",
-      "evidence": "../../submission/finite_choice_20261110/reports/learned_integration_clean_validation_20261115.json",
+      "status": "current_83_package_analysis_sources_with_dated_training_and_public_budget_supplements",
+      "evidence": "../../submission/finite_choice_20261110/reports/auxiliary_integration_clean_validation_20261115.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "62_page_full_29_page_reading_Word_reviewed_14_tables_7_appendices_6_vector_figures",
+      "status": "62_page_full_28_page_reading_Word_reviewed_15_tables_7_appendices_6_vector_figures",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 1186,
+    "native_math_objects": 1227,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -125,7 +125,7 @@
     "hard_menu_simplex_face_and_perfect_label_addendum": true,
     "common_coefficient_MNL_prediction_correction_prior_explicit": true,
     "Scopus_and_Google_Scholar_systematic_review_completed": false,
-    "manuscript_tables": 13,
+    "manuscript_tables": 15,
     "main_figures": 6,
     "score_oracle_path_integrated_into_main_manuscript": true,
     "score_matched_model_draws": 1000,
@@ -162,7 +162,7 @@
     "probability_risk_Gaussian_integration_repairs": 6,
     "probability_risk_clean_directory_replay_passed": true,
     "probability_risk_main_manuscript_integrated": true,
-    "main_reading_Word_pages": 29,
+    "main_reading_Word_pages": 28,
     "all_eleven_tables_reconciled": true,
     "cluster_controls_support_records": 24000,
     "cluster_controls_independent_support_replays": 384,
@@ -201,7 +201,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../auxiliary_manuscript_integration_20261115/README.md",
+  "latest_progress_report": "../formal_prior_scope_20261115/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Integrated public auxiliary-budget evidence, corrected zero-power losses and condensed manuscript.",
+  "latest_progress": "Reconciled two formal publication versions, verified 250 exact row-tail cases and corrected stale central status counts. Current manuscript and scientific model results are unchanged.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -360,13 +360,14 @@
   "public_auxiliary_budget_evidence": {
     "report": "../public_auxiliary_budget_20261115/README.md",
     "method_records": 36000,
-    "exact_endpoint_loss_allocations": 1,
     "retuned_50_label_failures": 0,
     "main_manuscript_integrated": true,
     "new_human_or_AI_answers": 0,
     "retuned_distinct_loss_allocations": 6,
     "retuned_zero_power_loss_records": 5,
-    "narrative_correction": "Earlier total-loss wording counted finite-to-exterior only."
+    "narrative_correction": "Earlier total-loss wording counted finite-to-exterior only.",
+    "exact_exterior_loss_allocations": 1,
+    "exact_exterior_loss_allocations_scope": "One shared finite-to-exterior allocation, not the six distinct all-state loss allocations."
   },
   "auxiliary_manuscript_integration": {
     "evidence": "../auxiliary_manuscript_integration_20261115/README.md",
@@ -378,5 +379,40 @@
     "abstract_words": 165,
     "extra_observations_generated": 0,
     "full_math_isolated_passed": true
+  },
+  "new_completed_evidence_is_cumulative_historical_not_current_release": true,
+  "current_verified_release": {
+    "date": "2026-11-15",
+    "pointer": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
+    "package_analysis_sources": 83,
+    "main_body_lexical_words_excluding_math": 8304,
+    "abstract_words": 165,
+    "paper": {
+      "pages_from_existing_visual_review": 62,
+      "native_math_objects": 1227,
+      "tables": 15,
+      "source_display_blocks": 136
+    },
+    "main_text": {
+      "pages_from_existing_visual_review": 28,
+      "native_math_objects": 235,
+      "tables": 6,
+      "source_display_blocks": 35
+    },
+    "paper_md_sha256": "72b516e0e1ea017c73ff2cba4d20589d9dc4b0b489d38beddd4c15fd51feec22",
+    "paper_docx_sha256": "246f983489a34f039fdb34db5c0d2f151967dd9b0632cff8c2fce3b904c255b4",
+    "main_text_md_sha256": "2e53e2a4e9de2552f6349c16d3e3134d99cd08dd7701e086949594e89867dc04",
+    "main_text_docx_sha256": "211a8faca01c60e441f1a78e3fa6b3e263227ac70b6ef394970f2f4bcf696cb0"
+  },
+  "formal_prior_scope_followup_20261115": {
+    "report": "../formal_prior_scope_20261115/README.md",
+    "formal_Koriyama_Bellec_specified_units_read": true,
+    "formal_Zhou_specified_units_read": true,
+    "PPI_formal_body_and_supplements_read": false,
+    "exact_scope_configurations": 250,
+    "support_LP_matches": 250,
+    "new_independent_model_draws": 0,
+    "new_originality_proof": false,
+    "central_status_stale_counts_corrected": true
   }
 }
