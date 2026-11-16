@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-16",
+  "repository": "aangelopoulos/ppi_py",
+  "paper_branch_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4",
+  "models": [
+    {
+      "files": [
+        "examples/eff-ppi/lambda_ols.ipynb",
+        "examples/eff-ppi/lambda_ols_onestep.ipynb"
+      ],
+      "model": "linear regression",
+      "fixed_dimension": 2,
+      "label_sample_sizes": "500 to 5000, 10 values",
+      "auxiliary_sample_size": 10000,
+      "replications_in_source": 100
+    },
+    {
+      "files": [
+        "examples/eff-ppi/lamda_logistic.ipynb",
+        "examples/eff-ppi/lamda_logistic_onestep.ipynb"
+      ],
+      "model": "binary logistic regression",
+      "fixed_dimension": 2,
+      "label_sample_sizes": "200 to 1000, 10 values; one-step 100 to 1000, 3 values",
+      "auxiliary_sample_size": 10000,
+      "replications_in_source": 100
+    },
+    {
+      "file": "examples/eff-ppi/eff_ppi_logistic_comparison.ipynb",
+      "model": "binary logistic regression",
+      "dimensions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_sample_size": 1000,
+      "auxiliary_sample_size": 10000,
+      "grid_limits": [
+        100,
+        1000,
+        5000
+      ],
+      "replications_in_source": 100,
+      "outcome": "coordinate coverage and aggregate interval widths",
+      "largest_dimension_to_label_ratio": 0.005
+    }
+  ],
+  "static_reading_only": true,
+  "formal_supplement_identity_verified": false,
+  "formal_growing_dimension_experiment_scope_cleared": false,
+  "source_scope_record": "official_repository_scope.json",
+  "paper_branch_precedes_formal_revision": true,
+  "formal_revision_date_from_publisher": "2026-05-01",
+  "source_code_redistributed_in_this_report": false
+}

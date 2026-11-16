@@ -12,7 +12,7 @@
     {
       "requirement": "Useful model reconstruction from existing data",
       "status": "completed_with_stated_scope",
-      "evidence": "../human_primary_20261109/\u771f\u4eba\u4e3b\u5206\u6790\u4e0e\u6765\u6e90\u7ea0\u6b63.md",
+      "evidence": "../human_primary_20261109/真人主分析与来源纠正.md",
       "scope": "Exploratory human application; channel/version confounding and bundled attributes retained"
     },
     {
@@ -469,5 +469,21 @@
     "new_Scopus_queries": 0,
     "new_human_or_AI_answers": 0,
     "goal_achieved": false
+  },
+  "ppi_access_followup_evidence": "../ppi_access_followup_20261116/README.md",
+  "ppi_access_followup_20261116": {
+    "hCaptcha_completed": true,
+    "formal_body_read": false,
+    "formal_supplements_read": false,
+    "formal_supplement_increasing_dimension_description_requires_followup": true,
+    "institutional_access_failed_at_registered_application_check": true,
+    "author_repository_notebooks_statically_read": 5,
+    "author_repository_code_executed": false,
+    "Lee_Kim_objective_correspondence_recorded": true,
+    "new_WOS_refinements": 1,
+    "new_WOS_exported_abstracts_read": 8,
+    "new_WOS_unique_indexed_records": 0,
+    "new_Scopus_document_queries": 0,
+    "current_Word_unchanged": true
   }
 }

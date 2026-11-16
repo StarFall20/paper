@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Prediction-Powered Inference",
+    "year": "2023",
+    "identifier": "arXiv:2301.09633",
+    "index_id": "PPRN:36115451",
+    "screening_depth_this_round": "full exported abstract",
+    "decision": "Established PPI; keep as foundational source",
+    "new_indexed_record": false
+  },
+  {
+    "title": "Transfer Calibrated Prediction Powered Inference",
+    "year": "2026",
+    "identifier": "arXiv:2609.34156",
+    "index_id": "PPRN:175744359",
+    "screening_depth_this_round": "full exported abstract",
+    "decision": "Transfer calibration and efficiency; distinct target of comparison, full theorem not newly reviewed",
+    "new_indexed_record": false
+  },
+  {
+    "title": "Artificial intelligence surrogates for treatment effect estimation with before-and-after data",
+    "year": "2026",
+    "identifier": "arXiv:2609.27180",
+    "index_id": "PPRN:175625835",
+    "screening_depth_this_round": "full exported abstract",
+    "decision": "Before/after treatment-effect surrogates; not current logit attainment problem",
+    "new_indexed_record": false
+  },
+  {
+    "title": "Bias-Aware External-Model-Assisted Inference in High-Dimensional Regression",
+    "year": "2026",
+    "identifier": "arXiv:2606.15602",
+    "index_id": "PPRN:171382269",
+    "screening_depth_this_round": "full exported abstract",
+    "decision": "High-dimensional linear regression; full theorem not newly reviewed",
+    "new_indexed_record": false
+  },
+  {
+    "title": "Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys",
+    "year": "2026",
+    "identifier": "arXiv:2604.17267",
+    "index_id": "PPRN:172371348",
+    "screening_depth_this_round": "full exported abstract",
+    "decision": "Already-read choice/MNL allocation prior; retain direct comparison",
+    "new_indexed_record": false
+  },
+  {
+    "title": "PERRY: Policy Evaluation with Confidence Intervals using Auxiliary Data",
+    "year": "2025",
+    "identifier": "arXiv:2507.20068",
+    "index_id": "PPRN:157034997",
+    "screening_depth_this_round": "full exported abstract",
+    "decision": "Off-policy policy-value confidence intervals; outside current outcome",
+    "new_indexed_record": false
+  },
+  {
+    "title": "Synthetic Priors",
+    "year": "2026",
+    "identifier": "arXiv:2603.00347",
+    "index_id": "PPRN:172805673",
+    "screening_depth_this_round": "full exported abstract",
+    "decision": "Synthetic prior lineage; retain as related regularization lead, full theorem not newly reviewed",
+    "new_indexed_record": false
+  },
+  {
+    "title": "Protein Complex Structure Prediction Powered by Multiple Sequence Alignments of Interologs from Multiple Taxonomic Ranks and AlphaFold2",
+    "year": "2022",
+    "identifier": "10.1101/2021.12.21.473437",
+    "index_id": "PPRN:8299250",
+    "screening_depth_this_round": "full exported abstract",
+    "decision": "Protein-complex prediction false positive; exclude from statistical-method comparison",
+    "new_indexed_record": false
+  }
+]

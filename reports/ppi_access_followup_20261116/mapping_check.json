@@ -1,0 +1,9 @@
+{
+  "method": "exact rational coefficient identity; no stochastic data",
+  "configurations": 143,
+  "all_passed": true,
+  "label_coefficient": "1",
+  "label_prediction_coefficient": "-N/(m+N)",
+  "auxiliary_prediction_coefficient": "N/(m+N)",
+  "new_theorem_or_model_draw": false
+}

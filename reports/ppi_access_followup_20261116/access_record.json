@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-16",
+  "user_confirmed_unlock": true,
+  "native_Chrome_available": true,
+  "extension_tab_binding_timeout_seconds": 45,
+  "Scopus_current_session": {
+    "personal_account_signed_in": true,
+    "school_access_route_attempted": true,
+    "returned_to": "Scopus Preview",
+    "visible_search_entry": "Author Search",
+    "document_literature_queries_run": 0,
+    "university_has_no_possible_subscription_claimed": false
+  },
+  "PPI_formal_page": {
+    "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full",
+    "current_result": "Manual hCaptcha passed; publisher short page visible; supplement A download explicitly denied",
+    "manual_verification_requested": true,
+    "formal_body_read": false,
+    "formal_supplements_read": false,
+    "manual_verification_completed": true,
+    "publisher_supplement_download_permission": false,
+    "formal_supplement_description": "Appendices A-E; proofs and experiments including regression with increasing dimension",
+    "institutional_route_result": "School IdP: application is not registered in this service",
+    "purchase_or_external_document_request_made": false
+  },
+  "WOS_existing_preprint_query_refresh": {
+    "query": "TS=(\"prediction-powered\" OR \"prediction powered\" OR \"prediction-assisted\")",
+    "visible_results_now": 120,
+    "previous_recorded_results": 119,
+    "new_search_count_added": 0,
+    "new_complete_export_claimed": false
+  },
+  "authentication_tokens_email_contents_and_session_URLs_retained": false,
+  "research_threshold_certified": false,
+  "WOS_new_refinement": {
+    "base_query": "TS=(\"prediction-powered\" OR \"prediction powered\" OR \"prediction-assisted\")",
+    "search_within_topic": "separation OR existence OR logistic OR logit OR \"high-dimensional\" OR \"high dimensional\"",
+    "index": "Preprint Citation Index",
+    "records_exported_full_record": 8,
+    "all_abstracts_read": true,
+    "all_8_previously_in_512_record_indexed_corpus": true,
+    "new_unique_indexed_records": 0,
+    "new_query_or_refinement_count": 1,
+    "private_export_sha256": "7bcbfc3a5b486b312e8a2a2cadc738630918ce84904902c18eba505c86495df8"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "json_files_valid": true,
+  "local_markdown_links_exist": true,
+  "canonical_manuscript_hashes_unchanged": {
+    "paper.md": "7a6b444958615850f9fad46a0a2c9a39d985a1db97499ede4739320a92f8c804",
+    "main_text.md": "4ce14c46fbd8f702019c136415fc5ab4062e8764b8dce1b0e73cb193ff0a1bf9",
+    "paper.docx": "71e2c248f9d089408a43ccf43a437fbfdfe935b24c93208d79e6f203d92dd4bf",
+    "main_text.docx": "b129c74f7d1862ddf99da35011e8d48ecd343b234019805a1297d7d1d142d3e9"
+  },
+  "canonical_Word_rebuilt_this_round": false,
+  "scientific_results_changed": false
+}

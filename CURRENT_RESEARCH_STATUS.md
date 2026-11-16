@@ -1,3 +1,11 @@
+# Closest-prior access and objective correspondence — 16 November 2026
+
+The [focused follow-up](reports/ppi_access_followup_20261116/README.md) records successful manual verification followed by an explicit formal-supplement download denial and a school identity-provider registration error. Formal PPI++ body and Appendices A–E remain unread. The publisher description includes regression with increasing dimension, so the older code branch cannot close that comparison. Five notebooks were read statically at a pinned author-repository commit; none was executed or counted as a new model run.
+
+Lee–Kim (2026) is an additional openly read primary source. An exact coefficient identity maps its all-unit prediction plus labelled residual expression to the current objective's gradient at power N/(m+N). This is a correction to the prior comparison, not a new theorem. A concise source-backed paragraph and citation are prepared for the next manuscript revision; the reviewed Word and scientific results are unchanged.
+
+One new WOS Preprint Citation Index refinement exported eight records, all previously present in the 512-record indexed corpus; all eight exported abstracts were read. No new Scopus document query or systematic Google Scholar completion is claimed. The goal remains active. Specific-result priority, formal-version reconciliation and sufficient choice-analysis value are unresolved; no originality, plagiarism or acceptance certificate is issued. Older entries below are historical.
+
 # Reviewer entry consolidated — 16 November 2026
 
 The [author-review upload entry](submission/jocm_upload_20261116/README.md) and [curated reproduction release](submission/jocm_reviewer_20261116/README.md) now have direct file and table maps. The curated copy retains all 83 root analysis sources and all scientific result files unchanged; 85 old editorial or duplicate integration files are omitted while five diagnostic originals remain. Its full mathematical check reconciles all 17 tables. The [handoff report](reports/reviewer_handoff_20261116/README.md) records provenance, command checks, current journal-fit reading and author-review requirements.

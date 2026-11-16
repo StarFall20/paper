@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-16",
+  "repository": "aangelopoulos/ppi_py",
+  "main_commit": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+  "main_commit_date": "2026-04-10T06:03:08Z",
+  "paper_branch_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4",
+  "paper_branch_commit_date": "2026-04-07T20:24:02Z",
+  "main_files_inspected": [
+    "README.md",
+    "examples/README.md",
+    "tests/test_logistic.py",
+    "ppi_py/ppi.py:ppi_logistic_pointestimate"
+  ],
+  "paper_branch_notebooks": [
+    {
+      "path": "examples/eff-ppi/lambda_ols.ipynb",
+      "git_blob": "da5a6f2a679d54d87a301fb11f331ca9246d200e",
+      "cells": 4
+    },
+    {
+      "path": "examples/eff-ppi/lambda_ols_onestep.ipynb",
+      "git_blob": "aafef5c4af686779c382e592a71f665a0ab913e1",
+      "cells": 4
+    },
+    {
+      "path": "examples/eff-ppi/lamda_logistic.ipynb",
+      "git_blob": "8f9d33883ec83847df4c4a35663528f0107007c1",
+      "cells": 4
+    },
+    {
+      "path": "examples/eff-ppi/lamda_logistic_onestep.ipynb",
+      "git_blob": "4e713e04958db7759b225fa7789fdd1bce6abe7b",
+      "cells": 4
+    },
+    {
+      "path": "examples/eff-ppi/eff_ppi_logistic_comparison.ipynb",
+      "git_blob": "0be0778759f70b4e0586c8566adea06c127ec1ac",
+      "cells": 3
+    }
+  ],
+  "external_code_executed": false,
+  "formal_supplement_equivalence_certified": false
+}
