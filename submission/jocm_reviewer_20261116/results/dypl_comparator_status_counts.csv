@@ -1,0 +1,5 @@
+condition,method,status,size
+150_labels_overconfident,DY_dimension_power,finite_root,500
+150_labels_overconfident,DY_half_power,finite_root,500
+20_labels_oracle,DY_dimension_power,finite_root,500
+20_labels_oracle,DY_half_power,finite_root,500

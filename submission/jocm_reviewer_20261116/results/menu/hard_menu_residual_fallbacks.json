@@ -1,0 +1,15 @@
+[
+  {
+    "label_menus": 80,
+    "trial": 300,
+    "orthogonal_slopes": 52,
+    "method": "oracle_null_slope_variance",
+    "initial_status": "unresolved",
+    "solver_method": "highs-ipm",
+    "translated_nonnegative_variables": true,
+    "solver_status": 2,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)",
+    "equality_residual": null,
+    "resolved_status": "outside"
+  }
+]

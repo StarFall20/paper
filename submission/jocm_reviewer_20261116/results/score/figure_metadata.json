@@ -1,0 +1,14 @@
+{
+  "boundaries": {
+    "ordinary": 0.3902860522436768,
+    "oracle_variance_reference": 0.5554089493021042,
+    "shrunk_variance_reference": 0.3363154546801444,
+    "shrunk_fixed_half": 0.5197523757765622
+  },
+  "replications_per_point": 500,
+  "intervals": "95percent Wilson binomial Monte Carlo intervals",
+  "phase_summary_sha256": "9286da1c6188a30e5028a7a6c2e16d84399be26b8130210a62ca3f917d1dfa1b",
+  "population_sha256": "e4dbfcf450c5cfe4a9d2f2b0b1730e4e0eda6070d7b1609b3be6714da2f2adeb",
+  "source_sha256": "b3e6d9fbf947b06fe231379cb21e3f94ae082cd5960f8757dc5d1c42c9d84a67",
+  "caption": "Matched Gaussian draws at gamma1.5,proxy error0.1 andequal sample sizes. The two variance-reference objectives have exactly the same truth score and full fixed-dimensional covariance. Dotted lines are their theoretical boundaries. Connecting lines show measured frequencies and do not estimate a transition rate. Predictions and powers are known population references,not fitted tuning procedures."
+}

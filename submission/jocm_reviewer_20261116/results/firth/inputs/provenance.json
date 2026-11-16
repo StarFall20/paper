@@ -1,0 +1,20 @@
+{
+  "source_repository": "ChengLu1999/generative-augmented-inference",
+  "source_commit": "d18717206867c7a12ff470879a0dd5d488b300c2",
+  "publication": "https://proceedings.mlr.press/v306/lu26am.html",
+  "source_data_license": "CC BY 4.0 according to the pinned source README",
+  "modification": "First 1200 menu contrasts retained; 11-column fitted vector freezes the already used simulation parameter. Human responses and raw pickle files are omitted.",
+  "original_reference_sha256": {
+    "finite_pool_trial_diagnostics.csv": "f0b42d8e98c1fac736e12276a330f111488fff076c6a2813d9d95af697bb13a3",
+    "strong_signal_pool_trial_diagnostics.csv": "017efbbb01906bad6a68d7be174145b4daee22e43e9cd726824641023e10e657",
+    "dypl_comparator_trial_diagnostics.csv": "08c7d1e4712a0588e86e6e4b1da0221219afaf18502ea2b435c3c51c6dd78af2"
+  },
+  "source_manifest_sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e",
+  "derived_input_sha256": {
+    "attribute_support.csv": "be97111d952e29ca87e6073115401d145cb9da35adaf58aaeb6293ecfe414d8c",
+    "baseline_records.csv": "42d859090ee58f87d6b1607dcf3a0834a2c8a07d9db91a7eaa4939f902faa6e2",
+    "truth.json": "da07a286924ae98964d9276151390e9dbac55490a73cad2ca189839007d4e05c"
+  },
+  "original_human_rows_in_derived_inputs": false,
+  "private_questionnaire_included": false
+}

@@ -1,0 +1,19 @@
+{
+  "all_planned_rows_retained": 4800,
+  "planned_independent_model_draws": 800,
+  "all_summary_cells_reconciled": 48,
+  "paired_comparisons_reconciled": 80,
+  "maximum_summary_error": 8.881784197001252e-16,
+  "maximum_paired_error": 8.881784197001252e-16,
+  "maximum_MCSE_error": 4.440892098500626e-16,
+  "nested_positive_power_fit_events_verified": 800,
+  "ordinary_boundary_cases_separately_certified_strictly_separated": 397,
+  "minimum_ordinary_strict_separating_margin": 0.00036534045219348624,
+  "regenerated_designs": 8,
+  "regenerated_verified_fits": 21,
+  "independent_log_probability_risk_formula_error": 2.220446049250313e-16,
+  "regenerated_coefficient_error_maximum": 2.220446049250313e-16,
+  "minimum_corrected_exterior_gap": 3.7955431736874656e-05,
+  "manuscript_package_20261110_modified": false,
+  "source_sha256": "867878b10eb1018a65df173eb380535b298089f09ca73d8ee9ba500752ede750"
+}

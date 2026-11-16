@@ -1,0 +1,15 @@
+{
+  "original_draws_verified": 1000,
+  "new_fit_records": 1000,
+  "available_new_estimates": 1000,
+  "all_retained_root_finite_difference_max_score": 2.4868995751603507e-09,
+  "all_retained_information_covariance_max_error": 1.2789769243681803e-13,
+  "all_retained_metric_max_error": 7.105427357601002e-15,
+  "independent_direct_objective_fits": 53,
+  "independent_direct_objective_designs": 51,
+  "independent_fit_max_coefficient_difference": 6.829691243659397e-07,
+  "independent_fit_max_objective_difference": 8.526512829121202e-14,
+  "multiple_mode_cases": 1,
+  "global_optimality_proven": false,
+  "profile_intervals_verified": false
+}

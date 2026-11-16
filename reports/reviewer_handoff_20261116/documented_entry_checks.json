@@ -1,0 +1,556 @@
+{
+  "status": "complete",
+  "documented_script_commands": 85,
+  "missing_entries": 0,
+  "quick_start_help_checks": 8,
+  "inline_python_blocks_not_treated_as_files": true,
+  "working_directory_changes_accounted_for": true,
+  "commands": [
+    {
+      "guide": "README.md",
+      "working_directory": ".",
+      "entry": "verify_package.py",
+      "exists": true,
+      "help_exit_code": 0,
+      "documented_options_accepted": []
+    },
+    {
+      "guide": "README.md",
+      "working_directory": ".",
+      "entry": "analysis/quick_check.py",
+      "exists": true,
+      "help_exit_code": 0,
+      "documented_options_accepted": [
+        "--out",
+        "--full-math"
+      ]
+    },
+    {
+      "guide": "README.md",
+      "working_directory": ".",
+      "entry": "results/learned_training/run_reproduction.py",
+      "exists": true,
+      "help_exit_code": 0,
+      "documented_options_accepted": [
+        "--out"
+      ]
+    },
+    {
+      "guide": "README.md",
+      "working_directory": ".",
+      "entry": "results/menu_quality/run_reproduction.py",
+      "exists": true,
+      "help_exit_code": 0,
+      "documented_options_accepted": [
+        "--out"
+      ]
+    },
+    {
+      "guide": "README.md",
+      "working_directory": ".",
+      "entry": "results/discrete_menu_boundary/run_reproduction.py",
+      "exists": true,
+      "help_exit_code": 0,
+      "documented_options_accepted": [
+        "--out"
+      ]
+    },
+    {
+      "guide": "README.md",
+      "working_directory": ".",
+      "entry": "analysis/fetch_public_conjoint_audit.py",
+      "exists": true,
+      "help_exit_code": 0,
+      "documented_options_accepted": [
+        "--out"
+      ]
+    },
+    {
+      "guide": "README.md",
+      "working_directory": ".",
+      "entry": "results/holdout/analysis/verify_public_holdout.py",
+      "exists": true,
+      "help_exit_code": 0,
+      "documented_options_accepted": [
+        "--input-dir",
+        "--plan",
+        "--results",
+        "--out",
+        "--canonical"
+      ]
+    },
+    {
+      "guide": "README.md",
+      "working_directory": ".",
+      "entry": "results/public_auxiliary_budget/run_reproduction.py",
+      "exists": true,
+      "help_exit_code": 0,
+      "documented_options_accepted": [
+        "--input-dir",
+        "--out"
+      ]
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/fetch_public_conjoint_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/public_conjoint_optimizer_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/public_conjoint_matched_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/power_tuned_choice_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_analysis_decision.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/finite_ratio_choice_boundary.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/finite_ratio_signal_boundary.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/imperfect_predictor_choice_boundary.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_matched_moment_proposition.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/finite_pool_choice_validation.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/imperfect_finite_pool_validation.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/imperfect_strong_signal_validation.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/imperfect_population_targets.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/imperfect_population_targets.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_finite_pool_covariance.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/vanishing_power_choice.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_vanishing_power_phase.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_proper_augmentation_invariance.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/replay_choice_power_path.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/summarize_replayed_power_pairs.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/write_vanishing_power_report.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/joint_power_choice.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/write_joint_power_report.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_zonotope_reduction.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/summarize_replayed_choice_loss.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/general_joint_power_boundary.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_general_joint_geometry.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_general_joint_phase.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/replay_dypl_comparator.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/write_dypl_comparator_report.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/attribute_aligned_prediction.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/calibrated_aligned_prediction.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_trained_prediction_rotation.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/aligned_prediction_phase.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/write_aligned_prediction_report.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/power_domain_choice.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/audit_public_power_domain.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/write_power_domain_report.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "verify_package.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/training_budget_diagnostic_20261111.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_hard_menu_phase.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_hard_menu_prediction.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/menu_hard_prediction_boundary.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/hard_menu_variance_reference.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/hard_menu_matched_phase.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/menu_population_grid.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/build_menu_publication_assets.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "authoring/build_manuscript_docx.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/variance_reference_existence_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_variance_score_identity.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/certify_variance_reference_counterexample.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/variance_reference_matched_phase.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_variance_reference_phase.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/plot_variance_reference_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/observable_score_path_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/observable_low_label_path.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/certify_observable_score_path.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_observable_score_path.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/certify_complete_gmm_comparison.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_complete_gmm_comparison.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/reconcile_probability_risk_tables.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_vanishing_power_risk.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/summarize_vanishing_power_risk.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/build_radial_publication_assets.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_radial_auxiliary_budget.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/radial_auxiliary_budget_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/fetch_public_conjoint_audit.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/categorical_face_path.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_categorical_face_path.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/summarize_categorical_face_path.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_calibrated_choice_pair.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/public_holdout_diagnostic.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": ".",
+      "entry": "analysis/verify_public_holdout.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": "results/learned_training",
+      "entry": "verify_package.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": "results/learned_training",
+      "entry": "run_reproduction.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": "results/public_auxiliary_budget",
+      "entry": "verify_package.py",
+      "exists": true
+    },
+    {
+      "guide": "REPRODUCTION_COMMANDS.md",
+      "working_directory": "results/public_auxiliary_budget",
+      "entry": "run_reproduction.py",
+      "exists": true
+    }
+  ]
+}

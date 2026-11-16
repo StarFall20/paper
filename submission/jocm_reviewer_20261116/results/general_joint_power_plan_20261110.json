@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-10",
+  "question": "Extend the same corrected-logit all-power existence boundary to the frozen low-index signal model with an estimated intercept, and check a strict gain over the ordinary-logit existence region.",
+  "proof_before_runs": "general_joint_power_derivation_20261110.md",
+  "scope": "The existing Theorem1 model: independent Gaussian remaining slopes,one Gaussian utility signal,estimated intercept,finite logistic signal,frozen low-index predictor strictly between0and1,two independent samples at finite ratio.",
+  "numerical_checks": {
+    "population_cases": [
+      "oracle",
+      "overconfident",
+      "intercept_shifted",
+      "reversed",
+      "constant_one_half"
+    ],
+    "signal_values": [
+      0,
+      1.5,
+      2
+    ],
+    "auxiliary_ratios": [
+      1,
+      4
+    ],
+    "proxy_error": 0.25,
+    "quadrature_nodes": [
+      100,
+      200
+    ],
+    "independent_checks": [
+      "finite differences of saddle gradient and envelope Hessian",
+      "explicit derivative at zero scale identity",
+      "balanced scalar reduction",
+      "original finite-power population formulation",
+      "independent constrained cone projection",
+      "original corrected moment versus limiting interval LP"
+    ]
+  },
+  "phase_experiment": {
+    "seed": 20261127,
+    "labels": [
+      40,
+      80
+    ],
+    "auxiliary_ratios": [
+      1,
+      4
+    ],
+    "signal": 1.5,
+    "proxy_error": 0.25,
+    "predictors": [
+      "oracle",
+      "overconfident",
+      "intercept_shifted"
+    ],
+    "orthogonal_dimension_offsets_from_limiting_boundary": [
+      -0.1,
+      0,
+      0.1
+    ],
+    "same_draw_across_dimensions_and_weights": true,
+    "replications_per_DGP_block": 500,
+    "DGP_blocks": 12,
+    "total_independent_Gaussian_simulation_draws": 6000,
+    "powers": [
+      "ordinary_zero",
+      "unit",
+      "1/sqrt(m)",
+      "1/m",
+      "positive_power_limit"
+    ],
+    "planned_aggregate_cells": 180,
+    "counts": [
+      "interior",
+      "outside",
+      "boundary_or_near_boundary",
+      "rank_deficient",
+      "unresolved"
+    ]
+  },
+  "reporting": "Retain every cell and raw solver status. Resolve unknowns only with independent recorded evidence,or leave them unresolved. Rank deficiency is a separate structural status. No new human recruitment or AI response generation. No distributional inference or error guarantee from existence alone.",
+  "prior_scope": "Generic cone machinery,ordinary-logit phase transitions,power tuning,vanishing regularization and the symmetric unit-power Gaussian-zonotope absorption case remain attributed prior. No novelty or journal-readiness certificate follows from numerical agreement.",
+  "quadrature_followup": {
+    "reason": "Initial100versus200node maximum difference4.3073334210497194e-7 exceeded prespecified1e-7;gradient and Hessian checks were below6e-11",
+    "additional_nodes": [
+      200,
+      400
+    ],
+    "tolerance_unchanged": 1e-07,
+    "initial_failure_record": "general_joint_power_initial_quadrature_20261110.json",
+    "added_before_phase_run": true
+  }
+}

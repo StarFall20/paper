@@ -1,0 +1,50 @@
+{
+  "analytic_cases": [
+    {
+      "name": "rescued",
+      "state": "positive_interval",
+      "closed_endpoint": 1.0,
+      "unit_status": "interior"
+    },
+    {
+      "name": "all_boundary",
+      "state": "weak_separator_obstruction",
+      "closed_endpoint": 1.0,
+      "unit_status": "boundary_or_near_boundary"
+    },
+    {
+      "name": "all_exterior",
+      "state": "weak_separator_obstruction",
+      "closed_endpoint": -0.0,
+      "unit_status": "outside_mean_support"
+    },
+    {
+      "name": "cutoff_point625",
+      "state": "positive_interval",
+      "closed_endpoint": 0.625,
+      "unit_status": "outside_mean_support"
+    },
+    {
+      "name": "unit_excluded",
+      "state": "positive_interval",
+      "closed_endpoint": 1.0,
+      "unit_status": "boundary_or_near_boundary"
+    }
+  ],
+  "rank_deficiency_checked": true,
+  "random_finite_designs": 120,
+  "original_rescaled_fixed_power_matches": 720,
+  "positive_interval_cases": 59,
+  "independent_nonzero_weak_separator_obstructions": 61,
+  "independent_endpoint_ratio_checks": 30,
+  "maximum_endpoint_dual_identity_error": 1.1102230246251565e-13,
+  "maximum_primal_residual_or_violation": 1.282601085861364e-12,
+  "random_case_states": {
+    "positive_interval": 59,
+    "weak_separator_obstruction": 61
+  },
+  "Gaussian_design_required_for_finite_LP": false,
+  "new_tuning_rule_proposed": false,
+  "novelty_or_inference_guarantee_proven": false,
+  "source_sha256": "4979ee1a1f52b75f2125d5a037001aad424dbd34baaa67f808a40c75a01b1174"
+}

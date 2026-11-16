@@ -1,0 +1,12 @@
+{
+  "completed_DGP_blocks": 12,
+  "requested_DGP_blocks": 12,
+  "completed_aggregate_cells": 180,
+  "requested_aggregate_cells": 180,
+  "replications_per_block": 500,
+  "independent_Gaussian_simulation_draws": 6000,
+  "new_humans_or_AI_responses": false,
+  "unresolved": 12,
+  "possible_nesting_conflicts": 0,
+  "source_sha256": "aeb4eba2306e3228a730428faf59326c24e6ae0e412311fa11380f57a3823f11"
+}

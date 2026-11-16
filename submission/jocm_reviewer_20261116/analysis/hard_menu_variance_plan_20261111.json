@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-11",
+  "stage": "After the completed hard-prediction320-grid, before variance-reference computations",
+  "question": "What does the actual existing PPI++ variance criterion select for hard predicted categories?",
+  "seeds": [
+    2026111171,
+    2026111173
+  ],
+  "bits": 14,
+  "cases": 32,
+  "formula": "R=E[1-||mu||^2],a=1-epsilon*J/(J-1),K=aR,Vg=2epsilon+(2a-1)R; lambda*=clip(tau*K/((1+tau)*Vg),0,1)",
+  "unit": "Asymptotic variance of one Gaussian orthogonal common-slope coordinate in fixed dimension, with alternative constants and signal fitted",
+  "check": "Verify K and Vg by exact summation of the complete conditional Y,Z law; retain clipped zero cases",
+  "scope": "Control-variate power choice is established PPI++ prior work; evaluate its actual oracle setting instead of the posterior-oracle tau/(1+tau) reference",
+  "new_human_or_LLM_responses": 0
+}

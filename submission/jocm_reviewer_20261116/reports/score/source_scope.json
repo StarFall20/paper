@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-12",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2311.01453v2",
+      "inspected": "Section4 Theorem1/Proposition1 and Section6.1 Proposition2;these units reread for the current comparison",
+      "established": "Fixed-dimensional covariance and scalar tuning;consistency/regularity conditions retained",
+      "current_delta": "Oracle-weight identical-truth-score path and opposite proportional-dimension existence events"
+    },
+    {
+      "url": "https://arxiv.org/html/2505.20178v2",
+      "inspected": "Abstract,Section3 setup and Section4 analysis scope;previous detailed mean-estimation audit retained",
+      "established": "Finite-sample costs of estimated PPI++ weights for mean estimation",
+      "current_delta": "Weights are known population constants;the current property is existence of an unpenalized logit root"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.21837v2",
+      "inspected": "Prior scoped Sections2.1,3.1,4.2;v1 table of contents and scope were rechecked this round",
+      "established": "Covariance-weighted GMM estimators and finite-sample risk;different empirical objectives can share first-order behavior",
+      "current_delta": "No new generic first-order/finite-sample distinction claimed;the present calculation is a specified compensated-loss existence boundary"
+    },
+    {
+      "url": "https://openreview.net/forum?id=TPuLYAtiqz",
+      "inspected": "Primary endpoint retried;unreadable",
+      "established": null,
+      "current_delta": "Unverified multinomial phase-transition title lead remains unresolved"
+    }
+  ],
+  "systematic_Scopus_Scholar_review_completed": false,
+  "search_absence_is_priority_evidence": false,
+  "new_estimator_claim": false
+}

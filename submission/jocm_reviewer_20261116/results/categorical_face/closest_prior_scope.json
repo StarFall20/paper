@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-13",
+  "review_type": "Targeted primary-statement comparison, not a completed Scopus/Google Scholar systematic review",
+  "sources": [
+    {"title": "On the existence of maximum likelihood estimates in logistic regression models", "authors": "Albert and Anderson", "year": 1984, "url": "https://doi.org/10.1093/biomet/71.1.1", "inspected": "Publisher abstract", "prior_scope": "Complete separation, quasi-complete separation, and overlap are established categories. Their identification is not a new contribution here.", "full_proof_read_this_turn": false},
+    {"title": "Risk and parameter convergence of logistic regression", "authors": "Ji and Telgarsky", "version": "arXiv1803.07300v3,8June2019", "url": "https://arxiv.org/html/1803.07300v3", "inspected": ["Section2 general-case construction", "Theorem2.1"], "prior_scope": "Maximal separable rows, orthogonality to remaining rows, and a bounded optimum on the remaining identified space are already explicit. The human face used here is the same construction.", "difference": "Our deterministic path concerns exact minimizers of a frozen compensated objective and its signed auxiliary recession. This distinction does not establish generic margin novelty."},
+    {"title": "Margin Maximizing Loss Functions", "authors": "Rosset,Zhu,and Hastie", "year": 2003, "url": "https://proceedings.neurips.cc/paper_files/paper/2003/file/0fe473396242072e84af286632d3f0ff-Paper.pdf", "inspected": ["Equation1", "Theorem2.1", "proof onPDFpages2-4", "logistic loss example"], "prior_scope": "Vanishing norm regularization selects maximum-margin directions for suitable losses. Generic margin convergence is established.", "difference": "The present cost may be negative away from the human cone; the proof uses its positive restriction on that cone and the exact corrected softplus remainder. Retain this as an objective-specific consequence."},
+    {"title": "Embedding Foundation Model Predictions in Discrete-Choice Models with Structural Guarantees", "version": "arXiv2606.26432v1", "url": "https://arxiv.org/html/2606.26432v1", "inspected": ["Abstract", "Introduction", "section outline"], "prior_scope": "Behavioural validity and interpretable attribute trade-offs of learned choice models are already studied. Their two-stage adapter is distinct from this compensated empirical objective.", "unverified": "No complete proof or comparative algorithm audit this turn; no claimed performance comparison."}
+  ],
+  "searches": [
+    "logistic regression vanishing regularization polyhedral penalty max margin direction asymmetric regularizer recession function",
+    "prediction powered logistic regression small lambda maximum margin implicit bias choice willingness to pay",
+    "Rosset Zhu Hastie 2004 margin maximizing loss functions general norm regularization pdf",
+    "prediction powered recession logistic",
+    "prediction-powered quasi separation",
+    "prediction-powered max-margin"
+  ],
+  "search_interpretation": "Queries locate related primary statements. Nonretrieval supplies no proof of absence or priority.",
+  "journal_pages": {"guide": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/about/guide-for-authors", "scope": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/about/aims-and-scope", "current_access": "Both official pages returned403. Unrelated journals' author instructions returned by broad search were excluded."},
+  "placement": "Strengthen AppendixD3 and interpret existing categorical choice paths. Keep the main contribution centred on the compensated attainment boundary and its matched-information consequences. No new named theory, combined framework, or estimator.",
+  "independent_originality_or_submission_threshold_proven": false
+}

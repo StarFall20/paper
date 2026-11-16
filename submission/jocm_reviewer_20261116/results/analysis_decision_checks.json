@@ -1,0 +1,11 @@
+{
+  "analytic_root_max_error": 1.4703560591300402e-10,
+  "boundary_and_rank_checks": true,
+  "all_recorded_exterior_cases": 8,
+  "all_existing_tuned_roots_verified": true,
+  "minimum_exterior_gap": 0.0003875561998002708,
+  "minimum_soft_corrected_score": 0.10723781340054589,
+  "selection_scope": "all8 recorded exterior examples,not a new prevalence or performance sample",
+  "classical_LP_claimed_new": false,
+  "new_estimator_claimed": false
+}

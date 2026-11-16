@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "weight_matrix_error": 4.440892098500626e-16,
+  "witness_error": 6.661338147750939e-16,
+  "tail_error": 1.7763568394002505e-15,
+  "finite_difference_gradient_error": 2.3628228262850826e-09,
+  "certificate_arithmetic_grid": {
+    "grid_pairs": 4941,
+    "positive_ar": 1907,
+    "positive_ar_and_Lr": 0
+  },
+  "finite_global_attainment_evidence": "Exact rational witness below both tails, not optimizer status or finite grid.",
+  "numerical_returns": 7,
+  "new_sampling_or_risk_claim": false,
+  "numerical_returns_dominated_by_exact_finite_witness": 4,
+  "all_numerical_returns_reported_success": true,
+  "numpy_version": "2.5.3",
+  "scipy_version": "1.18.1",
+  "certificate_sha256": "f293b8eccc5ef41d47d06fe4caa0701d48c5a4e09b6e35276e79c67cd1267cda",
+  "source_sha256": "b8b6428d757e75771dc4137dd8be8e0b535508d50b494b6c7d51d8a1465bfe2e"
+}

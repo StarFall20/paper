@@ -1,0 +1,9 @@
+label_rows,prediction,base_power_stratum,allocations,both_finite,base_only,endpoint_only,neither_finite
+50,AI,interior,201,201,0,0,0
+50,AI,zero,299,299,0,0,0
+50,X_only,interior,176,176,0,0,0
+50,X_only,zero,324,324,0,0,0
+20,AI,interior,80,75,1,4,0
+20,AI,zero,420,85,0,271,64
+20,X_only,interior,65,61,1,3,0
+20,X_only,zero,435,88,0,283,64

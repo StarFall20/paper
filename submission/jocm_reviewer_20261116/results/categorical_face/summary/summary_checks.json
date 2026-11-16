@@ -1,0 +1,16 @@
+{
+  "state": "passed",
+  "allocations": 60,
+  "predictor_allocations": 120,
+  "paths": 720,
+  "finite": 574,
+  "unavailable": 146,
+  "rows_in_common_cohorts": 564,
+  "figure": "Medians and interquartile ranges on each routine/type common six-power cohort; descriptive intervals, not uncertainty intervals.",
+  "raw_distance": "Infinity distance to the whole LP face with objective slack 1e-8.",
+  "normalized_distance": "Optional recorded distance divided by 1+the infinity norm of a nearest selector returned by the program; raw distance is primary.",
+  "complete_or_quasi_face_is_new": false,
+  "generic_margin_limit_is_new": false,
+  "asymptotic_limit_established_by_finite_grid": false,
+  "source_sha256": "ae712fe54406272c0fa91df844f8286789648c765d1d9a303a9bf88ac32c8dea"
+}

@@ -1,0 +1,16 @@
+{
+  "source_sha256": "1c7c367f53e6b97568acffc854e5781c75e2304f3bb4f429bbacfdfc85d9ea21",
+  "population_sha256": "fcc8ec889c408777d862541ca65710a93d730dbbaf6ab6b22ed6d9b7788c604c",
+  "loss_source_sha256": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+  "completed_label_blocks": 2,
+  "paired_draws": 1000,
+  "completed_cells": 16,
+  "feasibility_calls": 8000,
+  "replications_per_cell": 500,
+  "unknowns": 0,
+  "illustrative_condition_selected_after_population_grid": true,
+  "new_human_or_AI_responses": 0,
+  "raw_private_questionnaire_used": false,
+  "finite_size_can_resolve_analytic_gap_claimed": false,
+  "submission_readiness_proven": false
+}

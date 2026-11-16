@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-12",
+  "question": "Can the existing oracle variance-reference power reduce the finite-solution region relative to ordinary logit when a useful predictor is shrunk toward the true attribute-only choice probability?",
+  "model": "Same binary Gaussian signal/intercept corrected-logit model as Theorem1. Let mu=expit(gamma*S), g0=P(Y=1|S,Z) for the independent-flip proxy, and g_s=mu+s*(g0-mu). No estimator or tuning rule is introduced.",
+  "gamma": [0.0, 1.5],
+  "epsilon": [0.1, 0.25],
+  "tau": [1.0, 4.0],
+  "prediction_strength": [0.025, 0.1, 0.25, 0.5, 1.0],
+  "quadrature_nodes": [100, 200],
+  "fixed_dimensional_reference": "For one Gaussian orthogonal coefficient, K=E[(mu-g0)^2], Cov(A,B_s)=s*K, Var(B_s)=s^2*K. Existing PPI++ power clips tau/((1+tau)*s) to[0,1]. Compute its actual existence boundary and the ordinary boundary on the same model.",
+  "checks": [
+    "Direct conditional summation verifies the covariance identity and strictly improved fixed-dimensional reference variance at the selected positive power.",
+    "At gamma=0 independently evaluate the unit-power scalar formula using normal-tail integration and root finding.",
+    "Check 100/200-node quadrature and multiplier gradients; retain any failures without dropping model conditions.",
+    "At strength1 recover the existing calibrated-oracle reference power and boundary conventions."
+  ],
+  "finite_simulation_decision": "Choose a mechanism illustration only after the population audit, label that selection explicitly, and retain comparisons with ordinary logit, oracle variance-reference power, and an explicitly fixed smaller positive power on matched draws. No Monte Carlo run has been specified or started in this population plan.",
+  "new_human_or_LLM_responses": 0,
+  "claim_limit": "This is a consequence of the existing compensated-boundary theorem and established variance tuning. It is not a new general failure theorem for PPI++,not a new tuning method,and not evidence of uniformly worse point estimates."
+}

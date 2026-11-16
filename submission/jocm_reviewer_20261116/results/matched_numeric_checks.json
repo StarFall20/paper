@@ -1,0 +1,12 @@
+{
+  "completed_allocations": 500,
+  "requested_allocations": 500,
+  "fixed_clipping_comparisons": 2000,
+  "maximum_clipping_identity_error": 0.0,
+  "nuisance_fallback_primary_predictions": 0,
+  "methods": 6,
+  "target": "fixed1200-row empirical human projection",
+  "new_AI_generation": false,
+  "new_human_participants": 0,
+  "confidence_interval_validity_evaluated": false
+}

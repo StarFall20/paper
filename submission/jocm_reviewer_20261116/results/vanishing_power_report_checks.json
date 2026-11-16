@@ -1,0 +1,10 @@
+{
+  "all12Gaussian_blocks_complete": true,
+  "raw_unknown_retained_and_independently_resolved": true,
+  "replay_original_status_matches": 1000,
+  "new_respondents_or_AI_samples": false,
+  "table3_rows": 5,
+  "figure3_MSE_common_repetitions": 412,
+  "fixed_power_then_power_limit_distinguished_from_joint_limit": true,
+  "novelty_or_submission_readiness_proven": false
+}

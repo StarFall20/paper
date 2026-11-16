@@ -1,0 +1,21 @@
+{
+  "vector_PDFs": {
+    "figure1_phase.pdf": "ccb1abb8efc7cc8b1ed55dcd63b7ff3e376a894251b945dcd6cf56cfb545577f",
+    "figure2_estimates_intervals.pdf": "82a58e17bdfbaad41680bbcd2ee9b8211cecca81f5494d598dcbe9ebe2dcbc55",
+    "identical_score_phase.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291",
+    "figure_menu_phase.pdf": "6339e73e66d2027581a0efb1f62ef2a737bb47832d98d0a417d8be5836d7408d",
+    "figure3_power_endpoint.pdf": "cc1a9518e52598f686054afa767e59ba8888b8d15b333252c86ce5a6aba285ab",
+    "figure_radial_auxiliary.pdf": "64c18abeff62c099d68932a60a6d36c967f47db942808583cfd94387e3036055"
+  },
+  "plot_builder_sha256": {
+    "analysis/build_publication_assets.py": "1936aaa703244efe3454b66b54ab39b88966d1eda2cd94d68e8845f85c2e43c2",
+    "analysis/plot_variance_reference_audit.py": "b3e6d9fbf947b06fe231379cb21e3f94ae082cd5960f8757dc5d1c42c9d84a67",
+    "analysis/build_menu_publication_assets.py": "e60b3772e6159b0fdd6ce973d4714befbaa4dd3825e65096f2e2c1fdb08886ea",
+    "analysis/write_vanishing_power_report.py": "8dff0d8ecf0bb04dfc3e5ec972fe9a193d3c7ae3200f9645da089a99e2c5f807",
+    "analysis/build_radial_publication_assets.py": "771ede02120bfa11993af261e587c18b26f546b920b980819f348b0b87277570"
+  },
+  "new_model_fits_or_draws": 0,
+  "historical_PNG_or_CSV_files_modified": false,
+  "format": "PDF with TrueType font embedding requested (pdf.fonttype42)",
+  "visual_inspection_still_required": true
+}

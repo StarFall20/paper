@@ -1,0 +1,13 @@
+{
+  "state": "complete",
+  "population_evaluations": 80,
+  "conditions": 40,
+  "below_ordinary_conditions": 16,
+  "covariance_identity_maximum_error": 5.551115123125783e-17,
+  "quadrature_maximum_difference": 2.4424906541753444e-15,
+  "independent_null_scalar_maximum_error": 6.661338147750939e-16,
+  "every_fixed_dimensional_reference_variance_below_human": true,
+  "source_sha256": "d1f49617017cacd9ac2085498f8bc083cec3c26ca2e800249c38bda533319ccd",
+  "plan_sha256": "6d7b1e29c04bec9393c23a50d5e871b170d283bf66803c7052745fb9dd6386d3",
+  "scope": "This is a consequence of the existing compensated-boundary theorem and established variance tuning. It is not a new general failure theorem for PPI++,not a new tuning method,and not evidence of uniformly worse point estimates."
+}

@@ -1,0 +1,4 @@
+{
+  "failure": "Initial archive inventory rejected a README link to a not-yet-created clean-validation receipt.",
+  "correction": "Add an explicitly pending receipt before candidate creation; replace it only after the actual workflow passes. Scientific outputs and manuscript are unchanged."
+}

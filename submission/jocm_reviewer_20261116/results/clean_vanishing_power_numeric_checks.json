@@ -1,0 +1,38 @@
+{
+  "normal_quadrature_limit_max_error": 8.881784197001252e-16,
+  "positive_power_monotonicity_numeric_tolerance_excess": 4.440892098500626e-16,
+  "original_rescaled_LP_matches": 120,
+  "LP_status_counts": {
+    "interior": 37,
+    "outside_mean_support": 70,
+    "rank_deficient": 13
+  },
+  "analytic_recession_cases": [
+    {
+      "case": "rescued",
+      "label_prediction": 0.75,
+      "auxiliary_prediction": 0.25,
+      "positive_power_limit_status": "interior"
+    },
+    {
+      "case": "boundary",
+      "label_prediction": 0.75,
+      "auxiliary_prediction": 0.75,
+      "positive_power_limit_status": "boundary_or_near_boundary"
+    },
+    {
+      "case": "exterior",
+      "label_prediction": 0.25,
+      "auxiliary_prediction": 0.75,
+      "positive_power_limit_status": "outside_mean_support"
+    }
+  ],
+  "limiting_margin_LP_solution": [
+    1.0,
+    1.0
+  ],
+  "coefficient_path_scaled_score_max": 1.5617169965001163e-15,
+  "ordinary_zero_endpoint_separate": true,
+  "joint_vanishing_power_sample_limit_proven": false,
+  "independent_novelty_proven": false
+}

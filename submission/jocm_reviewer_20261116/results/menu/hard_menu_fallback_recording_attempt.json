@@ -1,0 +1,8 @@
+{
+  "state": "failed",
+  "cause": "Duplicate method key in fallback diagnostic record after the solver fallback succeeded",
+  "source_sha256": "7fb96f14752001f9aabad58089629f41cdb31b5af3906e16e2624af1b751b602",
+  "retained_model_draws": 800,
+  "retained_classifications": 7200,
+  "statistical_sample_changed": false
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-12",
+  "status": "Exploratory plan frozen before the first simulation draw. Algebra and several initial scalar population values were explored beforehand; no external preregistration is claimed.",
+  "question": "Can known positive utility-scale heterogeneity collapse compensated-logit finite existence while preserving the full fixed-dimensional information and covariance AND the ordinary human separation event on every paired sample?",
+  "utility": "The observed design is D*(1,S,W), including the fitted intercept. D is specified exogenously and independent of the standard Gaussian attributes, human choices and proxy flips. Its population second moment is one. The true parameter is zero. A common-intercept logit with an unscaled intercept is a different model and is not claimed here.",
+  "epsilon": 0.25,
+  "tau": 1.0,
+  "population_powers": [1.0,0.5,0.1],
+  "population_large_probabilities": [0.01,0.1,0.25],
+  "population_small_scales": [0.001,0.01,0.1,0.25],
+  "simulation_large_probability": 0.1,
+  "simulation_small_scale": 0.1,
+  "simulation_powers": [1.0,0.5],
+  "label_budgets": [80,160],
+  "noise_label_ratio": 0.25,
+  "replications": 500,
+  "seed": 2026111244,
+  "pairing": "Same Gaussian base rows, choices, predictions and realized task-scale draws across compared models and powers. Human separation is independently computed on both positively rescaled matrices.",
+  "all_records_retained": true,
+  "oracle_variance_power": 0.5,
+  "new_questionnaire_or_LLM_generation": false,
+  "remaining_requirements": ["validate the positive-scale extension proof and its assumptions", "independent original-objective support replay", "independent scalar integral check", "closest-primary-literature comparison", "substantive choice-modelling interpretation without claiming the null model identifies unknown error scales"]
+}

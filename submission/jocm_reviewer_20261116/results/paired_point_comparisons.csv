@@ -1,0 +1,25 @@
+label_rows,method,allocations,shared_finite_allocations,mean_error_difference,Monte_Carlo_SE_of_difference,scope
+50,human_Adam200,500,500,-19.545791272562333,0.7985577733668664,conditional on shared finite fits; interpret with full status counts
+100,human_Adam200,500,500,-5.974566221402469,0.27310666419819124,conditional on shared finite fits; interpret with full status counts
+150,human_Adam200,500,500,-3.670205007093761,0.18096303823394347,conditional on shared finite fits; interpret with full status counts
+200,human_Adam200,500,500,-2.6702155157903125,0.13198269848457442,conditional on shared finite fits; interpret with full status counts
+50,human_converged,500,500,0.0,0.0,conditional on shared finite fits; interpret with full status counts
+100,human_converged,500,500,0.0,0.0,conditional on shared finite fits; interpret with full status counts
+150,human_converged,500,500,0.0,0.0,conditional on shared finite fits; interpret with full status counts
+200,human_converged,500,500,0.0,0.0,conditional on shared finite fits; interpret with full status counts
+50,naive_hard_AI,500,500,102.34334196487292,1.131666821203175,conditional on shared finite fits; interpret with full status counts
+100,naive_hard_AI,500,500,96.85045827030781,0.5475590855164616,conditional on shared finite fits; interpret with full status counts
+150,naive_hard_AI,500,500,83.30564111978165,0.41441202285591006,conditional on shared finite fits; interpret with full status counts
+200,naive_hard_AI,500,500,71.6729888310594,0.3573733384251504,conditional on shared finite fits; interpret with full status counts
+50,clipped_AI_self_training,500,500,-45.14399861986528,1.0120436164037372,conditional on shared finite fits; interpret with full status counts
+100,clipped_AI_self_training,500,500,-19.055107771355285,0.4070090303443362,conditional on shared finite fits; interpret with full status counts
+150,clipped_AI_self_training,500,500,-12.297952494648369,0.27582379387212175,conditional on shared finite fits; interpret with full status counts
+200,clipped_AI_self_training,500,500,-8.973733686888274,0.2057860867083982,conditional on shared finite fits; interpret with full status counts
+50,corrected_AI,500,495,-2.730615034185718,1.466772531276321,conditional on shared finite fits; interpret with full status counts
+100,corrected_AI,500,500,-1.1467698364312087,0.2600002706890091,conditional on shared finite fits; interpret with full status counts
+150,corrected_AI,500,500,-0.49631990949313504,0.15153989355989844,conditional on shared finite fits; interpret with full status counts
+200,corrected_AI,500,500,-0.3681807098601082,0.10925960198741769,conditional on shared finite fits; interpret with full status counts
+50,corrected_X_only,500,498,-4.801098075661307,0.9572793836481219,conditional on shared finite fits; interpret with full status counts
+100,corrected_X_only,500,500,-1.4390621389561047,0.2374541024086911,conditional on shared finite fits; interpret with full status counts
+150,corrected_X_only,500,500,-0.6983730459713388,0.13849204751869654,conditional on shared finite fits; interpret with full status counts
+200,corrected_X_only,500,500,-0.5101358660193277,0.09582021775177049,conditional on shared finite fits; interpret with full status counts

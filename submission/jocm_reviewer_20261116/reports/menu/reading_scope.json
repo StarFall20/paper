@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-11",
+  "purpose": "Bound the candidate whole-menu result against inspected primary sources; not a systematic-review completion claim",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2610.08100v1",
+      "authors": "Sablica, Hornik and Rusch",
+      "year": 2026,
+      "inspected": "Model definition, Theorem 1 and Sections 4.1-4.2; earlier scoped categorical-separation reading retained in the main project",
+      "role": "Established ordinary categorical likelihood geometry and LP separation diagnostics",
+      "limit": "No direct equivalence to the signed compensated objective is inferred; full appendix reading is not claimed"
+    },
+    {
+      "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/e0ac27bf3327c9cb99cc5f548db4f73a-Abstract-Conference.html",
+      "authors": "Tan and Bellec",
+      "year": 2023,
+      "inspected": "Official proceedings abstract",
+      "role": "High-dimensional multinomial inference prior",
+      "limit": "Initial direct main-PDF retrieval failed;the later official PDF model,Assumption2.4 and discussion were inspected through an alternate redirect. Full supplementary-proof review is not claimed."
+    },
+    {
+      "url": "https://bellecp.github.io/multinomial.html",
+      "authors": "Tan and Bellec author vignette",
+      "year": 2023,
+      "inspected": "Main vignette, including coefficient-matrix definition and inference conditional on MLE existence",
+      "role": "Disambiguates class-specific coefficient matrix on shared covariates from common coefficients on alternative-specific profiles",
+      "limit": "The vignette does not establish absence of equivalent results elsewhere"
+    },
+    {
+      "url": "https://research.google/pubs/efficient-projections-onto-the-l1-ball-for-learning-in-high-dimensions/",
+      "authors": "Duchi and coauthors",
+      "year": 2008,
+      "inspected": "Official publication metadata, also checked against Stanford and ACM listings",
+      "role": "Established projection-algorithm attribution; the usual sorting and threshold KKT calculation was derived and independently checked locally",
+      "limit": "Stanford PDF retrieval attempts failed; no copied code or full-PDF reading is claimed"
+    },
+    {
+      "url": "https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf",
+      "authors": "Fan,Visokay,Hoffman,Salerno,Liu,Leek and McCormick",
+      "year": 2024,
+      "inspected": "Published PDF Section3.2,Equation3 and AppendixA.2-A.3/Algorithm1; PDF pages5 and17 visually checked",
+      "role": "Established categorical prediction correction and hard predicted categories",
+      "limit": "No claim to have checked every empirical appendix or proved theorem-equivalence"
+    },
+    {
+      "url": "https://arxiv.org/html/2604.17267v1",
+      "authors": "Ye and Yoganarasimhan",
+      "year": 2026,
+      "inspected": "AppendixJ.1-J.4,especially ExampleJ.4 and EquationJ.6; abstract and introduction",
+      "role": "Existing common-coefficient MNL prediction-assisted score and survey allocation context",
+      "limit": "Its displayed regular M-estimation and allocation calculations are not evidence for the candidate proportional-dimensional existence boundary"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/e0ac27bf3327c9cb99cc5f548db4f73a-Paper-Conference.pdf",
+      "authors": "Tan and Bellec",
+      "year": 2023,
+      "inspected": "Official PDF introduction,model and Assumption2.4,and Section4 discussion,accessed through the proceedings.com redirect",
+      "role": "Current primary-source confirmation of matrix-model and existence-assumption scope",
+      "limit": "Earlier main-PDF attempts failed; the current alternate primary PDF is now readable. No full supplementary-proof review claimed"
+    },
+    {
+      "url": "https://arxiv.org/html/2507.21790v3",
+      "authors": "Sfeir,Nova,Hess and van Cranenburgh",
+      "year": 2026,
+      "inspected": "Abstract and introduction; publication metadata verified at WhiteRose244755; published22-page PDF located",
+      "role": "Recent Journal of Choice Modelling comparison for the distinct role of LLM assistance",
+      "limit": "No new questionnaire responses or LLM specification experiment reproduced"
+    },
+    {
+      "url": "https://arxiv.org/html/2604.17267v2",
+      "authors": "Ye and Yoganarasimhan",
+      "year": 2026,
+      "inspected": "Latest version2 metadata,AppendixB.2 ExampleB.4 and B.3 EquationB.6;AppendixA.4 block allocation context",
+      "role": "Updates the main manuscript citation to the inspected version2;common-coefficient MNL correction and regular variance inference are prior work",
+      "limit": "No exhaustive database search or whole-paper proof review"
+    }
+  ],
+  "Scopus_and_Google_Scholar_systematic_review_completed_this_round": false,
+  "search_absence_used_as_originality_evidence": false,
+  "current_main_manuscript_rewritten_this_round": false,
+  "independent_expert_review_completed": false,
+  "database_access_this_round": [
+    {
+      "service": "Google Scholar",
+      "url": "https://scholar.google.com/scholar?q=%22prediction-powered%22+%22multinomial%22",
+      "observed": "Web retrieval inaccessible; existing in-app Scholar tab is at Google sorry/challenge URL",
+      "systematic_search_completed": false
+    },
+    {
+      "service": "Scopus",
+      "url": "https://www.scopus.com/search/form.uri?display=basic",
+      "observed": "403 Forbidden",
+      "systematic_search_completed": false
+    }
+  ],
+  "unverified_lead": {
+    "reported_title": "A Sharp Phase Transition for MLE Existence in Multinomial Logistic Regression",
+    "primary_target": "https://openreview.net/forum?id=TPuLYAtiqz",
+    "observed": "Third-party title lead only. Official forum/PDF retrieval inaccessible;public official API returned403,also verified by a separate read-only request. Browser navigation timed out. No primary abstract,authors or theorem read.",
+    "used_as_substantive_prior_evidence": false,
+    "remaining": "Resolve the primary source before any broad priority claim"
+  }
+}

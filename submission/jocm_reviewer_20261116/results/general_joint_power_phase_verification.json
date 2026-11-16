@@ -1,0 +1,260 @@
+{
+  "independent_Gaussian_draws": 6000,
+  "aggregate_cells": 180,
+  "replications_per_cell": 500,
+  "complete_feasibility_calls": 90000,
+  "initial_unknowns": 12,
+  "resolved_by_independent_certificates": 12,
+  "remaining_unresolved": 0,
+  "ordinary_boundary_or_proximity_calls": 17047,
+  "positive_power_boundary_or_proximity_calls": 1,
+  "recorded_draw_level_nesting_conflicts": 0,
+  "aggregate_nesting_verified_after_resolution": true,
+  "raw_aggregate_output_unchanged": true,
+  "raw_aggregate_sha256": "b2bc7aae12bf026b2018ac0d3245ea6505621a17cfbcb3ac068406886ab76f52",
+  "source_sha256": "aeb4eba2306e3228a730428faf59326c24e6ae0e412311fa11380f57a3823f11",
+  "resolutions": [
+    {
+      "case": {
+        "labels": 40,
+        "tau": 1,
+        "prediction": "oracle",
+        "orthogonal_dimensions": 24,
+        "replication": 407,
+        "power_name": "inverse_m",
+        "power": 0.025,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.0002367794374338733,
+        "ray_objective_1e6": -236.5060775149177
+      }
+    },
+    {
+      "case": {
+        "labels": 40,
+        "tau": 1,
+        "prediction": "intercept_shifted",
+        "orthogonal_dimensions": 16,
+        "replication": 240,
+        "power_name": "inverse_sqrt_m",
+        "power": 0.15811388300841897,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.0001693329031509927,
+        "ray_objective_1e6": -169.14173478473094
+      }
+    },
+    {
+      "case": {
+        "labels": 40,
+        "tau": 4,
+        "prediction": "oracle",
+        "orthogonal_dimensions": 21,
+        "replication": 435,
+        "power_name": "inverse_m",
+        "power": 0.025,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.0002453869160050359,
+        "ray_objective_1e6": -245.20009117905283
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 1,
+        "prediction": "oracle",
+        "orthogonal_dimensions": 41,
+        "replication": 247,
+        "power_name": "inverse_m",
+        "power": 0.0125,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.00019456583900948066,
+        "ray_objective_1e6": -194.39287713298108
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 1,
+        "prediction": "oracle",
+        "orthogonal_dimensions": 41,
+        "replication": 371,
+        "power_name": "inverse_m",
+        "power": 0.0125,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 1.2535849879674599e-05,
+        "ray_objective_1e6": -12.311660088569624
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 1,
+        "prediction": "overconfident",
+        "orthogonal_dimensions": 48,
+        "replication": 424,
+        "power_name": "inverse_m",
+        "power": 0.0125,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.0001668981028918881,
+        "ray_objective_1e6": -166.69914799148683
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 4,
+        "prediction": "oracle",
+        "orthogonal_dimensions": 58,
+        "replication": 237,
+        "power_name": "inverse_m",
+        "power": 0.0125,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.0002600572161596329,
+        "ray_objective_1e6": -259.8939475074658
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 4,
+        "prediction": "oracle",
+        "orthogonal_dimensions": 58,
+        "replication": 476,
+        "power_name": "inverse_m",
+        "power": 0.0125,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.0001271792229328439,
+        "ray_objective_1e6": -127.0328768192121
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 4,
+        "prediction": "oracle",
+        "orthogonal_dimensions": 42,
+        "replication": 499,
+        "power_name": "inverse_m",
+        "power": 0.0125,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 7.55609066195595e-06,
+        "ray_objective_1e6": -7.375845319642394
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 4,
+        "prediction": "overconfident",
+        "orthogonal_dimensions": 50,
+        "replication": 91,
+        "power_name": "inverse_m",
+        "power": 0.0125,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 1.1219615277613393e-05,
+        "ray_objective_1e6": -11.00501041264215
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 4,
+        "prediction": "intercept_shifted",
+        "orthogonal_dimensions": 47,
+        "replication": 86,
+        "power_name": "inverse_sqrt_m",
+        "power": 0.11180339887498948,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.000430828710976619,
+        "ray_objective_1e6": -430.6685016671181
+      }
+    },
+    {
+      "case": {
+        "labels": 80,
+        "tau": 4,
+        "prediction": "intercept_shifted",
+        "orthogonal_dimensions": 47,
+        "replication": 142,
+        "power_name": "inverse_m",
+        "power": 0.0125,
+        "raw_solver_result": {
+          "status": "unresolved",
+          "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)"
+        }
+      },
+      "independent_verification": {
+        "status": "outside_mean_support",
+        "separation_gap": 0.0001333749085967867,
+        "ray_objective_1e6": -133.20316513742728
+      }
+    }
+  ],
+  "new_humans_or_AI_responses": false,
+  "priority_or_interval_guarantee_proven": false
+}

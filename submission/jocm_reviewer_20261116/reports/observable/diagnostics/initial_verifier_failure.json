@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-12",
+  "stage": "Scalar exact-example numerical crosscheck, after the public allocation replay assertions",
+  "error": "ValueError: matmul input operand does not have enough dimensions; numpy.cov returns a scalar for one predictor column",
+  "source": "The retained power_weight helper assumes a covariance matrix, as used by its original 11-coordinate public runs",
+  "repair": "Evaluate the same scalar covariance-ratio convention directly in the new verifier. Preserve the original helper and both original public runs unchanged.",
+  "initial_verifier_source_retained": "verify_observable_score_path_initial.py",
+  "effect_on_public_11_coordinate_results": "None; their dependencies and completed records remain unchanged",
+  "full_new_verifier_rerun_required": true
+}

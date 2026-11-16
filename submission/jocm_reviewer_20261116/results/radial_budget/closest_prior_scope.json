@@ -1,0 +1,53 @@
+{
+  "review_date": "2026-11-13",
+  "search_status": "Targeted primary-source review; not a completed Scopus or Google Scholar systematic search",
+  "sources": [
+    {
+      "title": "Phase transitions for the existence of unregularized M-estimators in single index models",
+      "authors": "Bellec and Koriyama",
+      "url": "https://arxiv.org/html/2501.03163v2",
+      "inspected": "Assumption2(2), Theorem2.4, AppendixC.1",
+      "scope": "General Gaussian M-estimator existence machinery is prior. Its integrable row-infimum assumption prevents direct application to a corrected row with infimum minus infinity. This difference alone does not prove novelty."
+    },
+    {
+      "title": "The Existence of Maximum Likelihood Estimate in High-Dimensional Binary Response Generalized Linear Models",
+      "authors": "Tang and Ye",
+      "url": "https://arxiv.org/html/1908.06208",
+      "inspected": "Sections2.2-2.3 and Theorem2.7",
+      "scope": "Elliptical ordinary binary-response separation is prior. Its objective and ordinary intercept convention differ from the specified compensated scaled-intercept objective."
+    },
+    {
+      "title": "Correlation and scale in mixed logit models",
+      "authors": "Hess and Train",
+      "url": "https://eml.berkeley.edu/~train/papers/scale.pdf",
+      "inspected": "Abstract, Introduction, Section5",
+      "scope": "Scale conventions and identification limits are prior. All fitted utility coefficients are scaled here, and scale is specified input."
+    },
+    {
+      "title": "Prediction-Powered Semi-Supervised Learning with Online Power Tuning",
+      "authors": "Shoham et al.",
+      "url": "https://arxiv.org/html/2510.22586v1",
+      "inspected": "Section3, Algorithm1, Corollary3.3, Theorem3.5",
+      "scope": "Correction algebra and online gradient tuning are prior. Fresh-batch population stationarity differs from attainment of a frozen corrected empirical loss; no performance comparison with the online algorithm is made.",
+      "author_repository": "https://github.com/noashoham/PP-SSL",
+      "commit": "75bf0ef55090393450489d1067b57b59f891e364",
+      "inspected_files": {
+        "README.md": "97c8f376419a8b5a4b424c121291eed4aceb2dfe",
+        "experiments/utils/lambda_opt.py": "570598194e50be05b59b7cad4954d3f76525b705",
+        "experiments/utils/train_eval.py": "1732d13944734913bac652e8e1baa2d0c5c73707"
+      },
+      "code_executed_or_copied": false
+    },
+    {
+      "title": "Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference",
+      "authors": "Shirong Xu and Will Wei Sun",
+      "url": "https://arxiv.org/pdf/2602.10464",
+      "version": "arXiv2602.10464v1",
+      "inspected": "Introduction, Section3.3 pages20-22, equations12-14, Theorem6, Corollary2",
+      "scope": "Harmful aggregation and selective filtering are prior. The GLM estimator is constrained to a compact parameter set. The unrestricted attainment event here is distinct; no comparison with the complete filtered estimator is claimed."
+    }
+  ],
+  "candidate_increment": "Explicit boundary for unrestricted compensated logit, opposite existence at full matched regular covariance and samplewise equal human separation, and oracle-variance improvement alongside lost empirical attainment. The broad additional-predictions-can-hurt message is established prior work.",
+  "unresolved": "Specific-result equivalence or priority across weighted/asymmetric Gaussian zonotope absorption and high-dimensional prediction-powered choice estimation; sufficient practical choice-modelling value.",
+  "originality_certified": false
+}

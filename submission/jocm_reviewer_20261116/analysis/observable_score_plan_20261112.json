@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "purpose": "Test whether an observable fitted-anchor counterpart of the oracle score path can change finite-solution availability on the existing public vaccine allocations while preserving the entire realized score at that anchor.",
+  "source": "Existing pinned GAI numeric vaccine inputs; no private questionnaire or new generated responses",
+  "prefix_rows": 1200,
+  "label_rows": 50,
+  "allocations": 500,
+  "seed": 20261109,
+  "allocation": "Exactly replay the original permutation of 240 five-row source blocks for each allocation; these blocks are not verified respondent IDs",
+  "predictors": ["AI", "X_only"],
+  "anchor": "The same converged human logit estimate used by the existing human-initialized variance-tuning comparator; unavailable anchors remain explicit",
+  "base_power": "Existing pooled-information PPI++ trace convention evaluated at that anchor; match the recorded original power_human_init weight",
+  "path_fractions": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "path": "lambda_t = alpha + t*(1-alpha); g_t = mu_anchor + (alpha/lambda_t)*(g-mu_anchor) for positive lambda_t; lambda=0 uses ordinary human logit",
+  "requested_positive_or_zero_power_support_calls": 5000,
+  "outcomes": ["original reference power matches", "score equality at the observed anchor", "full empirical score-middle matrix equality at the anchor", "recomputed existing variance-reference weights where defined", "finite-design support classifications", "all discordant availability cases and independent residual LP checks"],
+  "zero_base_power": "Positive path powers use the anchor prediction; the variance formula may be undefined because its prediction-score variance is zero. Retain this endpoint separately from the interior variance-reference identity.",
+  "primary_interpretation": "Descriptive finite-design diagnostic on the original public allocations. No new estimator superiority, growing-dimensional covariance equality for learned anchors, valid intervals, causal effect or population incidence claim.",
+  "selection": "Plan fixed before computing this path on any public allocation; retain all 500 allocations for both predictors, all five fractions and unresolved states.",
+  "new_human_or_LLM_responses": 0
+}

@@ -1,0 +1,23 @@
+{
+  "completed_original_draw_replay": 6000,
+  "new_positive_power_feasibility_checks": 12000,
+  "original_limit_aggregate_matches": 12,
+  "raw_unresolved": 0,
+  "remaining_unresolved": 0,
+  "all36cells_retain500repetitions": true,
+  "geometry_checks": {
+    "independent_QP_projection_checks": 48,
+    "maximum_projection_coordinate_difference": 7.241632393462094e-07,
+    "maximum_polar_inequality_excess": 5.773159728050814e-15,
+    "maximum_Moreau_orthogonality_error": 3.4916514124461173e-14,
+    "random_zero_scale_optima": 3,
+    "explicit_nonzero_zero_scale_projection_retained": true,
+    "scope": "balanced Gaussian slopes with a fixed zero intercept",
+    "error_distribution_or_coverage_theorem": false,
+    "priority_proven": false
+  },
+  "exact_zero_control_is_postrun_analytic_mixture": true,
+  "full_signal_estimated_intercept_joint_theorem_claimed": false,
+  "error_distribution_or_coverage_guarantee_claimed": false,
+  "novelty_or_submission_readiness_proven": false
+}

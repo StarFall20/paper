@@ -1,0 +1,13 @@
+{
+  "post_plan_analytic_scope_check": true,
+  "population_scale_evaluations": 90,
+  "hard_predictor": "g=Z=1-Y",
+  "label_residual_r": 1,
+  "scale_derivative_identity_max_error": 0.0,
+  "positive_derivative_tolerance_excess": 0.0,
+  "positive_scale_value_over_zero_tolerance_excess": 5.551115123125783e-17,
+  "ordinary_signal1point5_boundary": 0.3902860522436772,
+  "analytic_conclusion": "Derivative equals E[f_prime(-h-v)-f_prime(-h+v/tau)]<=0;the supremum is at zero and the variational formula equals the ordinary boundary. Strict-interior uniform strict-gain claim cannot include this hard endpoint.",
+  "interior_phase_sources_or_draws_changed": false,
+  "priority_proven": false
+}

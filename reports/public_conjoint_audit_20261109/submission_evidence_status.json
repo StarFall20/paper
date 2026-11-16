@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
   "goal_complete": false,
-  "decision": "The current reviewed manuscript has 62 full pages, 28 main-reading pages, 15 tables and 83 package analysis sources. Exact compensated-row scope checks and two nearest formal-version readings are complete with stated reading units. Formal PPI++ body/supplements, specific-result priority and sufficient choice-analysis value remain open; final author and portal declarations are pending.",
+  "decision": "The reviewed manuscript has 66 full pages, 28 main-reading pages, 17 tables and 83 package analysis sources. A curated reviewer reproduction entry preserves all scientific sources and results; current author-review upload files are prepared. Formal PPI++ body/supplement reconciliation, specific-result priority and sufficient choice-analysis value remain open; final author and portal declarations are pending.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -12,7 +12,7 @@
     {
       "requirement": "Useful model reconstruction from existing data",
       "status": "completed_with_stated_scope",
-      "evidence": "../human_primary_20261109/真人主分析与来源纠正.md",
+      "evidence": "../human_primary_20261109/\u771f\u4eba\u4e3b\u5206\u6790\u4e0e\u6765\u6e90\u7ea0\u6b63.md",
       "scope": "Exploratory human application; channel/version confounding and bundled attributes retained"
     },
     {
@@ -29,26 +29,26 @@
     },
     {
       "requirement": "Proof and numerical validity",
-      "status": "existing_main_checks_and_known_scale_proof_internal_audit_nested_budget_full_verification_completed",
-      "evidence": "../../submission/finite_choice_20261110/reports/probability_integration_clean_validation_20261112.json",
-      "remaining": "Independent proof and closest-prior equivalence assessment remain open. The menu theorem requires independent Gaussian profile columns,fixed menu size,frozen low-index predictions and positive mean squared prediction error. Perfect predictions are a separate pooled-likelihood reduction. Arbitrary categorical supports,repeated respondent panels and black-box cross-fitting are outside the proved probability boundary."
+      "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
+      "evidence": "../../submission/finite_choice_20261110/reports/discrete_menu_mathematical_check_20261116.json",
+      "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law."
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
-      "status": "official_scope_verified_contribution_assessment_incomplete",
-      "evidence": "../institutional_literature_audit_20261113/journal_requirements.md",
+      "status": "focused_recent_journal_comparison_completed_contribution_value_still_under_assessment",
+      "evidence": "../reviewer_handoff_20261116/journal_fit.md",
       "remaining": "Official scope and author guide read; sufficient choice-analysis contribution remains under assessment"
     },
     {
       "requirement": "Reproducible submission package",
-      "status": "current_83_package_analysis_sources_with_dated_training_and_public_budget_supplements",
-      "evidence": "../../submission/finite_choice_20261110/reports/auxiliary_integration_clean_validation_20261115.json",
+      "status": "curated_entry_preserves_83_root_sources_and_all_scientific_results_full_math_check_passed",
+      "evidence": "../reviewer_handoff_20261116/curation.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "62_page_full_28_page_reading_Word_reviewed_15_tables_7_appendices_6_vector_figures",
-      "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
+      "status": "66_page_full_28_page_reading_Word_reviewed_17_tables_7_appendices_6_vector_figures",
+      "evidence": "../reviewer_handoff_20261116/current_journal_compliance.json",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
   ],
@@ -201,7 +201,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../formal_prior_scope_20261115/README.md",
+  "latest_progress_report": "../reviewer_handoff_20261116/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Same compensated boundary extended to independent symmetric raw noise attributes with interior/rank bridges and full coupled validation. Specific-result priority, formal PPI++ version reconciliation, current journal fit and reviewer-facing consolidation remain open.",
+  "latest_progress": "Reviewer entry consolidated; current journal-fit assessment and upload material compliance recorded. All 17 tables reconcile in the curated full mathematical check. The formal PPI++ version gap remains unresolved.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -458,5 +458,16 @@
     "new_human_or_AI_answers": 0,
     "new_general_universality_claim": false,
     "originality_or_submission_threshold_certified": false
+  },
+  "reviewer_handoff_20261116": {
+    "curated_reproduction": "../../submission/jocm_reviewer_20261116/README.md",
+    "upload_files": "../../submission/jocm_upload_20261116/README.md",
+    "parent_files_omitted": 85,
+    "root_analysis_sources_unchanged": 83,
+    "all_scientific_results_preserved": true,
+    "documented_script_entries_checked": 85,
+    "new_Scopus_queries": 0,
+    "new_human_or_AI_answers": 0,
+    "goal_achieved": false
   }
 }

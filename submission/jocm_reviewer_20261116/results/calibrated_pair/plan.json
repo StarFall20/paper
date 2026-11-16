@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-13",
+  "question": "Can conditionally calibrated predictors with the same conditional prediction variance and complete regular covariance function have different finite-attainment boundaries on the same logit design?",
+  "relation": "A sharper example within the existing objective and Theorem 1. No new estimator, calibration algorithm, or named framework.",
+  "selection_history": "A 98-cell balanced exploration preceded a 36-pair nonzero-signal exploration. Both complete explorations and the initial failed extreme-node attempt are retained. This plan precedes the independent verification and finite-size simulations, not the exploratory discovery.",
+  "population_grid": {"gamma": [0.0, 1.0, 2.0], "moderate_error": [0.1, 0.05], "strong_error": 0.001, "tau": [0.1, 1.0, 4.0], "powers": ["unit", "tau/(1+tau)"], "quadrature_nodes": [120, 240, 400]},
+  "selected_nonzero_signal": {"gamma": 1.0, "moderate_error": 0.05, "strong_error": 0.001, "tau": 4.0, "power": 0.8, "selection": "Largest absolute boundary gap on the 36-pair exploratory grid; illustrates a mechanism, not its frequency in applications."},
+  "simulation": {"label_rows": [40, 80], "orthogonal_dimension_label_ratios": [1.05, 1.2, 1.35], "replications": 200, "seed": 20261113, "pairing": "Identical X,Y and Gaussian nuisance columns for both predictors in each replication; independent signal errors and selector flags conditional on S,Y."},
+  "checks": ["closed-form conditional posterior moments", "complete score covariance matrix and information for every fixed power", "three Gaussian quadrature orders", "independent adaptive integration and nested scalar roots on selected cases", "null closed-form reduction", "original weighted-support LP versus oriented interval LP on 60 small independent cases", "all finite-size cases including unresolved states"],
+  "scope": "Brier and regular covariance are matched; classification accuracy and log loss need not match. The covariance is a fixed-dimension reference, not high-dimensional inference. Numerical nonzero-signal thresholds are independently computed approximations, not interval-certified bounds. The generic conic theorem, calibration identity, and optimal power are established machinery. No claim of universal predictor ordering or submission readiness.",
+  "data": "Synthetic Gaussian mechanism only. No questionnaire, new respondent, personal data, or generated human response."
+}

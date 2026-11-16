@@ -1,0 +1,18 @@
+{
+  "state": "passed",
+  "method_records": 14000,
+  "available_records": 13992,
+  "unavailable_records": 8,
+  "unique_Firth_designs": 1000,
+  "exterior_directions": 8,
+  "maximum_holdout_metric_difference": 2.220446049250313e-16,
+  "maximum_original_gradient": 9.998932636728908e-10,
+  "maximum_Firth_direct_finite_difference_gradient": 2.8421709430404003e-09,
+  "maximum_Firth_log_determinant_difference": 1.4210854715202004e-14,
+  "maximum_power_recalculation_difference": 9.2148511043888e-15,
+  "maximum_summary_difference": 1.1102230246251565e-16,
+  "maximum_paired_summary_difference": 1.0408340855860843e-16,
+  "auxiliary_hidden_outcome_invariance": 0.0,
+  "baseline_duplicates_checked": true,
+  "population_independence_certified": false
+}

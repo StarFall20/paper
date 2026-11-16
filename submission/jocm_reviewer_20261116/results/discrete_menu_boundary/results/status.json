@@ -1,0 +1,32 @@
+{
+  "state": "complete",
+  "identity": {
+    "source_hashes": {
+      "discrete_menu_boundary.py": "241430dab6ddd2b008c57af8b3ce7d8d6b23da658bc66ca0197ecebb1077dc63",
+      "menu_corrected_logit.py": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178",
+      "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+      "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+      "public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+      "choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+      "hard_menu_matched_phase.py": "196647ea2e78b56eeb55876efde72a2138fab4c842b94c69ce1ebadd0ce4a97e"
+    },
+    "plan_sha256": "19868236adc5faa8123d650cdbe63753ace1d7507b2c91fc7d4c0d66219236fd",
+    "original_plan_sha256": "aacf99fcb91bf718f7653e5c4845663f0d205bad2903fa4b7e2b9f55291b27be",
+    "original_trials_sha256": "026fc00226485979df1c764cb1c4356154cd942d7cb852f105e4b8426bda47eb"
+  },
+  "existing_independent_cohorts": 1000,
+  "coupled_profile_variants": 3000,
+  "new_independent_cohorts": 0,
+  "classifications": 27000,
+  "cells": 54,
+  "gaussian_original_states_matched": 9000,
+  "finite": 15061,
+  "boundary": 3287,
+  "positive_power_boundary": 0,
+  "rank_deficient": 0,
+  "unresolved": 0,
+  "certificate_records": 11939,
+  "new_human_or_AI_answers": 0,
+  "elapsed_seconds": 455.1476992499083,
+  "scope": "Finite-budget availability under independent symmetric discrete noise profiles; no new estimator, risk ranking, universality proof or originality certification"
+}

@@ -1,0 +1,6 @@
+{
+  "state": "stopped before saving any complete cohort",
+  "reason": "nesting assertion included the direct-human baseline using all B labels",
+  "correction": "nesting applies only to corrected objectives using m correction labels; all-B human finiteness may coexist with no admissible correction power",
+  "primary_fixed_power_results_changed": false
+}

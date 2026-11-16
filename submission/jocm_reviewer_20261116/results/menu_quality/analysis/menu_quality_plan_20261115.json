@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-15",
+  "purpose": "Complete the missing parameter and probability-quality assessment of the existing whole-menu availability experiment. No new estimation method or originality claim.",
+  "timing": "Fixed before this follow-up risk fitting; the original availability experiment and its results were already inspected. This is not a preregistered study.",
+  "source_plan": "reports/menu_extension_20261111/plans/hard_menu_phase_plan_20261111.json",
+  "source_plan_sha256": "aacf99fcb91bf718f7653e5c4845663f0d205bad2903fa4b7e2b9f55291b27be",
+  "source_trials": "reports/menu_extension_20261111/hard_outputs/hard_menu_matched_phase_trials.csv",
+  "source_trials_sha256": "026fc00226485979df1c764cb1c4356154cd942d7cb852f105e4b8426bda47eb",
+  "source_generator": "analysis/hard_menu_matched_phase.py",
+  "source_generator_sha256": "196647ea2e78b56eeb55876efde72a2138fab4c842b94c69ce1ebadd0ce4a97e",
+  "reuse": "All 1000 existing Gaussian model cohorts, two label budgets, all three nested dimensions, every one of the 9000 original support records. No new model cohorts.",
+  "methods": [
+    "ordinary",
+    "oracle_null_slope_variance",
+    "unit",
+    "human_ridge",
+    "hard_pool"
+  ],
+  "planned_records": 15000,
+  "planned_cells": 30,
+  "ridge_penalty": "Squared Euclidean coefficient norm divided by 2m, on every fitted coordinate; no risk-based tuning.",
+  "pooling": "Human labels on labelled menus plus hard predicted categories on auxiliary menus, equal menu weights. Distinct objective, no claim to preserve the human target.",
+  "power": "Original fixed oracle variance power, not a high-dimensional risk optimum or learned tuning method.",
+  "numerics": {
+    "gradient_l2_tolerance": 1e-09,
+    "relative_Newton_step_tolerance": 1e-07,
+    "maximum_Newton_iterations": 100,
+    "BFGS_rescue_max_iterations": 400,
+    "rescue_Newton_iterations": 80,
+    "retention": "Every unavailable or numerically unresolved fit remains; no loss or norm truncation."
+  },
+  "integration": {
+    "method": "8 independently scrambled Sobol normal integrals with 2^11 points each; conditional Gaussian noise rotation is exact. Same nodes across all fits.",
+    "scrambles": 8,
+    "bits": 11,
+    "seed": 2026111531,
+    "dimension": 6,
+    "gamma": 1.5,
+    "independent_validation": "Separate larger integral on deterministic stride and largest-norm fits, plus exact coefficient/rotation identities."
+  },
+  "estimands": [
+    "finite-root availability",
+    "numerical-fit availability",
+    "squared Euclidean coefficient error",
+    "conditional expected human menu log loss",
+    "conditional expected multiclass Brier loss",
+    "conditional classification error"
+  ],
+  "denominators": "All 500 allocations per cell for availability; explicit finite numerical denominators for conditional means, medians, 95th quantiles and maxima; paired shared-fit comparisons; human-ridge fallback for unpenalized unavailable/numerically unresolved cases reported separately.",
+  "uncertainty": "Paired allocation Monte Carlo errors condition on this generating law. Integration scramble errors are a separate numerical diagnostic. No interval coverage claims.",
+  "exclusions": "No new questionnaires, human/LLM answers, private data, learned-predictor theorem validation, general estimator ranking or acceptance claim."
+}

@@ -1,0 +1,14 @@
+{
+  "oracle_conditional_mean_max_error": 1.1102230246251565e-16,
+  "ridge_penalty": "rho=1/m on every coordinate",
+  "confidence_scope": "diagnostic Wald intervals; no finite-sample guarantee",
+  "completed_replications": 500,
+  "requested_replications": 500,
+  "script_sha256": "b859719384c90623fd22937d290f76ce327d9240c06d29c12f239612b9f95601",
+  "conditions": 12,
+  "methods": 7,
+  "maximum_penalized_score": 9.996497822226114e-10,
+  "maximum_root_score": 9.99996682682358e-10,
+  "new_human_or_AI_responses": false,
+  "independent_novelty_proven": false
+}

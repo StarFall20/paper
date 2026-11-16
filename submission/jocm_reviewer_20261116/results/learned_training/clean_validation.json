@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-14",
+  "status": "complete",
+  "isolated_workflow_exit_code": 0,
+  "scientific_sources": 15,
+  "all_science_sources_match_isolated_copy": true,
+  "primary_cohorts_reconstructed": 8000,
+  "primary_records_reconciled": 32000,
+  "primary_negative_directions_checked": 20752,
+  "ordinary_strict_separators_checked": 3897,
+  "alternative_interval_LP_checks": 960,
+  "all_power_existing_cohorts_checked": 4000,
+  "explicit_positive_power_witnesses_checked": 1080,
+  "strict_obstruction_directions_checked": 2920,
+  "all_primary_programs_regenerated_in_this_isolated_check": false,
+  "current_main_manuscript_changed": false,
+  "goal_complete": false,
+  "inventory_followup": "Added regenerated_full to excluded regeneration directories after this default workflow; scientific code unchanged."
+}

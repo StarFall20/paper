@@ -1,0 +1,8 @@
+{
+  "completed_DGP_blocks": 12,
+  "requested_DGP_blocks": 12,
+  "replications_per_block": 500,
+  "positive_power_nesting_violations": 0,
+  "explicit_small_power_certificates_checked": 3854,
+  "source_sha256": "cd1b28cd7e5d7d6dd12ed5781202084104bc5cc915c3537ed1bc6f7ddb9bf663"
+}

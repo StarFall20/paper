@@ -1,0 +1,101 @@
+{
+  "failure_label_menus": 80,
+  "failure_trial": 300,
+  "failure_dimension": 52,
+  "failure_method": "oracle_null_slope_variance",
+  "initial_source_sha256": "f9e23f1364b22a34ad10e3de16bb45dc5f720d052e79710322c7d6d9ff015855",
+  "retained_checkpoint_classifications": 7200,
+  "original_moment_state": {
+    "status": "outside",
+    "separation_gap": 0.002705354042048941,
+    "direction": [
+      0.07109327451029264,
+      0.03027491417612675,
+      0.1611719144490848,
+      0.01615683417501627,
+      -0.033679239625631296,
+      0.01968293068335224,
+      -0.015194640506154725,
+      0.0,
+      -0.0019243031580537596,
+      -0.013151105850051779,
+      0.009982106246041128,
+      0.008644901313527794,
+      -1.2580012275073624e-05,
+      -0.01290366578516585,
+      0.02308311708324776,
+      0.03061012809967894,
+      0.00825263577443497,
+      -0.002306168147737077,
+      -0.026711104154656894,
+      -0.01638353573372603,
+      -0.03874659521494226,
+      0.0041309981683882715,
+      -0.01309550196703001,
+      0.03155374512281412,
+      0.0017989234785403976,
+      -0.025412461003005187,
+      0.015727074721517114,
+      -0.017971162876072675,
+      -0.00874305806895104,
+      0.016766655397431638,
+      -0.00874761824614062,
+      -0.02169961094534114,
+      -0.0037512122493790338,
+      -0.010509477196842885,
+      0.03692081388517503,
+      0.01867747096157607,
+      -0.009685773619060443,
+      -0.0035948054779240905,
+      -0.022903272089751486,
+      -0.02277252774488571,
+      0.018166023940123482,
+      -0.029244717590175183,
+      0.0,
+      -0.004572266026054315,
+      -0.008103535881483222,
+      0.0,
+      0.00696194491923317,
+      0.025849252067676055,
+      0.002949749962752038,
+      -0.015879407691081888,
+      0.006525159542709238,
+      -0.0032380489651290608,
+      0.0024887396335619015,
+      0.00667578338650098,
+      0.0349175124744816
+    ]
+  },
+  "independent_residual_attempts": [
+    {
+      "method": "highs",
+      "options": {},
+      "translated_nonnegative_variables": false,
+      "status": 4,
+      "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)",
+      "primal_residual": null
+    },
+    {
+      "method": "highs-ds",
+      "options": {
+        "presolve": false
+      },
+      "translated_nonnegative_variables": false,
+      "status": 4,
+      "message": "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)",
+      "primal_residual": null
+    },
+    {
+      "method": "highs-ipm",
+      "options": {
+        "primal_feasibility_tolerance": 1e-09,
+        "dual_feasibility_tolerance": 1e-09
+      },
+      "translated_nonnegative_variables": true,
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)",
+      "primal_residual": null
+    }
+  ],
+  "new_statistical_draws": 0
+}

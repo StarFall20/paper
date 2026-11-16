@@ -1,0 +1,7 @@
+critical_ratio,signal_multiplier,scale,stationarity,quad_error_estimate_max,truncation,gamma,moderate_error,tau,power,kind,hermite_difference
+1.1886304118865223,-0.49334987589884305,3.8699034847847225,1.2909307954210485e-12,1.0583744972560953e-10,"S in [-12,12]; Gaussian tail controlled by a quadratic envelope, not an interval certificate",1.0,0.05,4.0,0.8,moderate,2.4424906541753444e-15
+1.2192432437141423,-0.4763206353603209,4.031119532216342,3.0587541905182052e-12,3.863998808078611e-11,"S in [-12,12]; Gaussian tail controlled by a quadratic envelope, not an interval certificate",1.0,0.05,4.0,0.8,selective,1.7763568394002505e-15
+0.06163606914944047,0.0,0.3040733825491402,2.518818487118324e-15,7.617988556788711e-13,"S in [-12,12]; Gaussian tail controlled by a quadratic envelope, not an interval certificate",0.0,0.1,0.1,1.0,moderate,6.938893903907228e-17
+0.05928980883026685,0.0,0.24134915893721356,2.081668171172169e-17,7.617988556788711e-13,"S in [-12,12]; Gaussian tail controlled by a quadratic envelope, not an interval certificate",0.0,0.1,0.1,1.0,selective,4.85722573273506e-17
+1.0953280048462213,0.0,2.9767961919570185,0.0,1.0457971020339178e-12,"S in [-12,12]; Gaussian tail controlled by a quadratic envelope, not an interval certificate",0.0,0.1,4.0,0.8,moderate,2.220446049250313e-16
+1.1117059232837454,0.0,3.0678423717591103,1.1080025785759065e-13,1.0615019605340255e-12,"S in [-12,12]; Gaussian tail controlled by a quadratic envelope, not an interval certificate",0.0,0.1,4.0,0.8,selective,2.220446049250313e-16

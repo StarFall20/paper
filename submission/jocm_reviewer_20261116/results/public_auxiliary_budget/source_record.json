@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-15",
+  "scientific_sources": {
+    "choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+    "fetch_public_conjoint_audit.py": "0d9173a837c195d1341b94dcec08f061570ccb6af06c8aaf418e453b281b4cef",
+    "observable_low_label_path.py": "4fcb53bb62b7f53ad9918259b900cb724e395efd836f046abe817737fdfe041a",
+    "observable_score_path_audit.py": "d61cc6b68cc4d17c4e1c5b492ec85b7ffdc146c4105acc50a9d89b383d37d6d5",
+    "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "public_auxiliary_budget_audit.py": "863ac557fc9071de0606410e054d9151830de765974b403ae1c47f00d469cdfc",
+    "public_auxiliary_budget_case.py": "6c1ff1ee28280d5d318229f7b1d37195af859ed87fd266e112c747505c3e8065",
+    "public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "verify_public_auxiliary_budget.py": "28b547fc6c10b95528c6435dbb17b72c5008c7883c017cd72484de97b54dea6f",
+    "verify_public_auxiliary_case.py": "fb8aed9af78f0628e0cb089546d303e51b9e50ddcce37dfd9833dba63fd06e6a",
+    "write_public_auxiliary_budget_assets.py": "bd479089306054021e29e6b9fd633b7d21b725b70e3d659ddba333d97b52dcf1",
+    "summarize_auxiliary_transition_accounting.py": "36dff0c8f2b15141abda1313a3067309e9860680561d83b9e377f388678ce13c"
+  },
+  "plan_sha256": "03723469e41d13c267439536d4a48ea01849ba40122166bffe4136ee6720cf76",
+  "source_release_commit": "d18717206867c7a12ff470879a0dd5d488b300c2",
+  "main_manuscript_unchanged": true,
+  "main_manuscript_sha256": "a970617105e03ca7e4f2184789ba80c269bd7ebdc21ff39dcc2c475c1be4544b",
+  "source_snapshot_timing": "Primary audit source fixed at launch. The record-reader format follow-up and later endpoint accounting are documented separately below.",
+  "new_human_or_AI_answers": 0,
+  "verification_source_timing": "Added before first independent verification; preselected checks were fixed in the pre-run plan.",
+  "support_program_count_scope": "25792 calls after within-cell duplicate-power elimination; objectives can repeat across cells.",
+  "lossless_record_format_followup": {
+    "reason": "The GitHub connector returned retryable HTTP 500 twice on the 6.7 MB uncompressed record blob.",
+    "original_csv_sha256": "a4ddb4168d32ca6fe8d6df759366260b72e7621e0d6d0ac1f9c454a95d24def9",
+    "compressed_sha256": "a7e8c5f8a5d75e68b9b7efec3508e77bf71ed2f67a8de0668d7b881e17bae0f7",
+    "reader_sources_before": {
+      "verify_public_auxiliary_budget.py": "26061d7d54bc36136f3d0718ee4d36bd706bb212e061bb35a3ea6e53692eaf6a",
+      "public_auxiliary_budget_case.py": "6a3d3bfbb38ed3417c848f10b7e2c1845776da3f641401a367422530c8ed610f"
+    },
+    "reader_change": "Accept the original CSV or its lossless gzip form; numerical calculations are unchanged.",
+    "primary_audit_source_unchanged": true
+  },
+  "endpoint_accounting_followup": {
+    "primary_records_and_numerical_sources_unchanged": true,
+    "added_source": "summarize_auxiliary_transition_accounting.py",
+    "source_sha256": "36dff0c8f2b15141abda1313a3067309e9860680561d83b9e377f388678ce13c",
+    "reason": "Distinguish all attainment losses from the finite-to-exterior subset."
+  }
+}

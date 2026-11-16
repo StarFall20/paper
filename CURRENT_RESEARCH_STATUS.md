@@ -1,3 +1,9 @@
+# Reviewer entry consolidated — 16 November 2026
+
+The [author-review upload entry](submission/jocm_upload_20261116/README.md) and [curated reproduction release](submission/jocm_reviewer_20261116/README.md) now have direct file and table maps. The curated copy retains all 83 root analysis sources and all scientific result files unchanged; 85 old editorial or duplicate integration files are omitted while five diagnostic originals remain. Its full mathematical check reconciles all 17 tables. The [handoff report](reports/reviewer_handoff_20261116/README.md) records provenance, command checks, current journal-fit reading and author-review requirements.
+
+The manuscript remains the reviewed 66-page full/28-page reading version. The stale 62-page/15-table decision summary has been corrected. No new model draw, human or AI answer was added. Two recent JCM formal PDFs were read in specified units; formal PPI++ body/supplement reconciliation, specific-result priority and sufficient choice-analysis value remain open. No new Scopus query or acceptance/originality certificate is claimed. The goal remains active; older entries below are historical.
+
 # Independent discrete profiles integrated — 16 November 2026
 
 The [completed extension](reports/discrete_menu_boundary_20261116/README.md) applies the established Oymak–Tropp matrix theorem to the same compensated choice boundary, with contracted probability sets for interior feasibility and the classical pivot-coordinate rank argument after menu centering. Independent symmetric two-/three-level noise profiles are included; the signal remains Gaussian. The existing equal-score/covariance counterexample retains its opposite existence limits in this class. No new estimator or general universality principle is claimed.

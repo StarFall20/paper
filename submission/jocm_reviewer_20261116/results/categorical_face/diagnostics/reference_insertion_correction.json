@@ -1,0 +1,6 @@
+{
+  "issue": "An insertion anchor matched a coauthor inside the G\u00f6tze entry, splitting the bibliography record. Visual review detected this before delivery.",
+  "correction": "Restore the original G\u00f6tze entry and insert the Ji-Telgarsky record at a paragraph boundary. All old references remain intact.",
+  "old_draft_sha256": "0397dd1f6591578e24f7e8ef57b5a39c9db437bc611a6ecce7e0e71b946e830b",
+  "corrected_source_sha256": "5008c551d98b2545500508203b4eed0f5de5bc874855bcd70141c3c5576e7cb3"
+}

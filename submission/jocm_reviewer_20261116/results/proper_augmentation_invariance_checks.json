@@ -1,0 +1,27 @@
+{
+  "random_fixed_designs_with_invariant_proper_weight_status": 40,
+  "proper_status_counts": {
+    "interior": 39,
+    "boundary_or_near_boundary": 1
+  },
+  "proper_comparison_weights": [
+    0.001,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "same_rank_analytic_proper_statuses": [
+    "interior",
+    "interior",
+    "interior",
+    "interior"
+  ],
+  "same_rank_analytic_corrected_statuses": [
+    "outside_mean_support",
+    "outside_mean_support",
+    "outside_mean_support",
+    "outside_mean_support"
+  ],
+  "new_general_separation_theorem_claimed": false,
+  "independent_novelty_proven": false
+}

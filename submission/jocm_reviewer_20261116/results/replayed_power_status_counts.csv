@@ -1,0 +1,16 @@
+power,human_support,support_status,fit_status,size
+0.0,boundary_or_near_boundary,boundary_or_near_boundary,boundary_or_near_boundary,384
+0.0,interior,interior,finite_root,116
+0.01,boundary_or_near_boundary,interior,finite_root,358
+0.01,boundary_or_near_boundary,outside_mean_support,not_attempted,26
+0.01,interior,interior,finite_root,116
+0.1,boundary_or_near_boundary,interior,finite_root,358
+0.1,boundary_or_near_boundary,outside_mean_support,not_attempted,26
+0.1,interior,interior,finite_root,116
+0.5,boundary_or_near_boundary,interior,finite_root,351
+0.5,boundary_or_near_boundary,outside_mean_support,not_attempted,33
+0.5,interior,interior,finite_root,116
+1.0,boundary_or_near_boundary,interior,finite_root,300
+1.0,boundary_or_near_boundary,outside_mean_support,not_attempted,84
+1.0,interior,interior,finite_root,112
+1.0,interior,outside_mean_support,not_attempted,4

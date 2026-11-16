@@ -1,0 +1,70 @@
+{
+  "record_count": 12152,
+  "files": [
+    {
+      "path": "directions_part_000.json.gz",
+      "sha256": "77159319d99462ee6a973a4439269384e41df64c6a83ceaf7c76d9a34c20fe04",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_001.json.gz",
+      "sha256": "4a6120fabc6f3eb7a80512c2cb68f5bd8d2108d086b4eca9a7a935a3f96facd6",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_002.json.gz",
+      "sha256": "da0df3fb5175107a1cd65e7f1f1b0bea09cc7e7d94eff5ed12873111daaf74a4",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_003.json.gz",
+      "sha256": "69886acb1746ae4aa8d008878e0d025867784d42bceb962213ff6b93a55cc301",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_004.json.gz",
+      "sha256": "ded4a0c316f6eeb5a88dfcff445ef6017483f06129eda23e2b105e5b2c461bf9",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_005.json.gz",
+      "sha256": "c31a7b5650c7aef3c8acb1c33995c4b5838abc9e3027dbb759f7585579845c4b",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_006.json.gz",
+      "sha256": "ddc837a0629b267f2d5e83da96dbcc90b504c1ad81d0c297e7f16e1c3522c117",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_007.json.gz",
+      "sha256": "d2da828037818ee15e2bbc4aeb2ce4f3974829860c2f576cde157e785e0ad666",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_008.json.gz",
+      "sha256": "f72ccc2533bb87f4f20acbf113ff182bd35fcd189301bfc041494a222d3c0496",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_009.json.gz",
+      "sha256": "efe674c20091f215cc58736d60a6905d2b81570119883372f6b704109e5d4ca1",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_010.json.gz",
+      "sha256": "f84ba36d819e67a4362967754dc20ca372804d15d3e92fd79eb7239c7a541172",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_011.json.gz",
+      "sha256": "ee4142dca8977583ccb8f92513dee8acf75ab4053162dcd40b354d50c61f48de",
+      "records": 1000
+    },
+    {
+      "path": "directions_part_012.json.gz",
+      "sha256": "eb6462161fac98d61416395a50e9c03c4a3d83302156dca0f49360f0b00d3794",
+      "records": 152
+    }
+  ]
+}

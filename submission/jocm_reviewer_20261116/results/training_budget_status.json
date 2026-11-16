@@ -1,0 +1,14 @@
+{
+  "state": "complete",
+  "completed_model_draws": 800,
+  "planned_model_draws": 800,
+  "planned_method_rows": 4800,
+  "returned_method_rows": 4800,
+  "source_sha256": "81e35d2387c0c7241209f8816e2daf2f55842a9b182c2e50b069298e928d3b41",
+  "plan_sha256": "69051882916a4b4d1280fac156457cabaeb8e59be630d7ba1e7ef6dec750e595",
+  "total_simulated_label_draws": 96000,
+  "human_questionnaire_records_used": 0,
+  "new_human_or_LLM_responses": 0,
+  "unresolved_method_rows": 0,
+  "independent_novelty_or_submission_readiness_established": false
+}

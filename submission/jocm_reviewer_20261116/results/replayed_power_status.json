@@ -1,0 +1,16 @@
+{
+  "completed_repetitions": 500,
+  "requested_repetitions": 500,
+  "original_human_unit_reconstruction_status_matches": 1000,
+  "maximum_reconstructed_MSE_absolute_difference": 2.7910512230278073e-06,
+  "maximum_reconstructed_MSE_relative_difference": 4.723988193422887e-08,
+  "scaled_derivative_check_error": 1.053869880252023e-09,
+  "limiting_support_statuses": {
+    "interior": 474,
+    "outside_mean_support": 26
+  },
+  "source_sha256": "d298b4f23b4bb20bbbec8ccd9341089fcaa9a323a19ba6e877f8c49e6e0b7f4e",
+  "reference_trial_file_sha256": "f0b42d8e98c1fac736e12276a330f111488fff076c6a2813d9d95af697bb13a3",
+  "replayed_original_draws": true,
+  "new_independent_responses": false
+}

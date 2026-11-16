@@ -1,0 +1,11 @@
+{
+  "existing_cohorts_reconstructed": 4000,
+  "explicit_positive_power_witnesses_checked": 1080,
+  "all_positive_power_obstruction_directions_checked": 2920,
+  "maximum_human_recession_error": 0.0,
+  "maximum_unit_recession_error": 4.163336342344337e-16,
+  "maximum_original_objective_identity_error": 7.771561172376096e-16,
+  "new_model_draws": 0,
+  "new_human_or_AI_answers": 0,
+  "unresolved": 0
+}

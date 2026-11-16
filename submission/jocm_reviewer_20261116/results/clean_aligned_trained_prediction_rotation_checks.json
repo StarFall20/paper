@@ -1,0 +1,18 @@
+{
+  "independent_simulated_training_fits": 60,
+  "training_rule": "fixed C0.1 sklearn logistic,with independent Gaussian audit rows",
+  "corrected_objective_support_rotation_matches": 180,
+  "support_states": {
+    "interior": 168,
+    "outside_mean_support": 12
+  },
+  "maximum_prediction_identity_error": 2.220446049250313e-16,
+  "maximum_orthogonality_error": 4.440892098500626e-16,
+  "maximum_objective_identity_error": 2.220446049250313e-16,
+  "maximum_rotated_score_error": 3.41740524767431e-16,
+  "maximum_rotated_Hessian_error": 5.551115123125783e-16,
+  "source_sha256": "539c6ed14ae7b5d569614ca66db2022b014e24f1d9302408d523418cb467b0b1",
+  "training_overlap_convergence_tested": false,
+  "cross_fitting_claimed": false,
+  "new_human_or_AI_responses": 0
+}

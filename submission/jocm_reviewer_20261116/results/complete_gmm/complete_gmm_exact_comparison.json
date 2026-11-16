@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-12",
+  "labelled_x": [
+    "2",
+    "4"
+  ],
+  "auxiliary_x": [
+    "1",
+    "1"
+  ],
+  "labelled_y": [
+    "1",
+    "1"
+  ],
+  "labelled_prediction": [
+    "25/44",
+    "25/44"
+  ],
+  "auxiliary_prediction": [
+    "1/2",
+    "1/2"
+  ],
+  "observed_reference": 0,
+  "centered_covariance_divisors": "sample sizes m and N",
+  "covariance_ridge": "1/4",
+  "Sigma": {
+    "entry11": "1/2",
+    "entry12": "-3/88",
+    "entry22": "493/1936",
+    "determinant": "977/7744"
+  },
+  "W": {
+    "entry11": "1972/977",
+    "entry12": "264/977",
+    "entry22": "3872/977"
+  },
+  "witness": {
+    "exp_coefficient": "3/2",
+    "moment1": "-804/1261",
+    "moment2": "-154763/277420",
+    "criterion": "43618624129/38838705425"
+  },
+  "positive_infinite_coefficient": {
+    "moment1": "0",
+    "moment2": "-35/44",
+    "criterion": "1225/977"
+  },
+  "negative_infinite_coefficient": {
+    "moment1": "-3",
+    "moment2": "53/44",
+    "criterion": "10729/977"
+  },
+  "strict_gap_to_both_tails": "5078831496/38838705425",
+  "complete_criterion_has_finite_global_minimizer": true,
+  "uniqueness_claimed": false,
+  "supervised_MLE_has_finite_minimizer": false,
+  "unit_corrected_recession_cost": "-35/44",
+  "unit_corrected_loss_unbounded_below": true,
+  "exact_positive_definiteness_and_tail_comparison": true,
+  "production_CC_PPI_algorithm_reproduced": false,
+  "reason": "The reference is fixed at zero, not a finite supervised MLE. The weight is the specified uncalibrated centered covariance inverse with ridge. No spectral calibration is applied.",
+  "scope": "Illustration for existing complete GMM; no dominance, sampling, or novelty claim.",
+  "source_sha256": "ec8a982fd2dc230bc01fe255a2893194b71393e36f1b068854ab66b0abbf8264"
+}

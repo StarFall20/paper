@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-12",
+  "purpose": "Follow-up on probability quality along fixed-prediction correction powers; specified before fitting these paths. Earlier allocation outcomes already exist and are not represented as new prospectively recruited data.",
+  "input_prefix_rows": 1200,
+  "label_rows": 20,
+  "allocations": 60,
+  "seed": 20261109,
+  "selection": "The first 60 of the existing 500 fixed five-row block permutations, selected for computational scope without searching these power-path outcomes.",
+  "block_convention": "240 source five-row blocks; not verified respondent IDs",
+  "prediction_routines": ["AI", "X_only"],
+  "powers": [0.5, 0.1, 0.02, 0.005, 0.001, 0.0002],
+  "requested_corrected_records": 720,
+  "prediction_policy": "Existing cross-fitted nuisance routine fitted once per allocation and routine, frozen across powers; all fallback statuses retained. No new AI predictions or responses.",
+  "evaluation": "The 3405 released rows beyond the 1200-row inference prefix. Their labels do not enter any fit in this follow-up. No verified person-disjoint sampling or population uncertainty is claimed.",
+  "reference": "Human ridge with mean labelled logit loss plus ||beta||^2/(2*m), including every coefficient; same 20 human labels.",
+  "solver": "Interior support check followed by stable exact gradient/Hessian Newton refinement, target Euclidean gradient residual <=1e-7*power. Retain failures and numerical boundary states.",
+  "separation": "Replay the retained ordinary separation directions for these allocations and normalize to unit Euclidean norm. Use negative-margin mass explicitly in the robust finite-design lower bound.",
+  "scope": "Conditional descriptive public-design diagnostic. Does not validate the Gaussian probability law, compare new estimators, or establish population predictive superiority. All allocations and powers retained."
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-16",
+  "kind": "Focused public-web follow-up after institutional browser timeouts",
+  "new_Scopus_queries": 0,
+  "new_WOS_queries": 0,
+  "new_Google_Scholar_queries": 0,
+  "public_web_query_strings": [
+    "\"Journal of Choice Modelling\" \"uncertainty\" estimation 2024 2025 2026",
+    "\"10.1214/26-AOAS2215\" pdf",
+    "\"Journal of Choice Modelling\" \"Machine learning\" 2022 van Cranenburgh",
+    "\"Inference in downstream analysis\" \"Sandorf\" pdf",
+    "\"Statistical significance in choice modelling\" pdf",
+    "\"New misspecification tests for multinomial logit models\" pdf"
+  ],
+  "new_formal_PDF_readings": [
+    {
+      "doi": "10.1016/j.jocm.2026.100624",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/245939/1/1-s2.0-S1755534526000308-main.pdf",
+      "pages_in_file": 14,
+      "inspected_units": [
+        "Introduction",
+        "Section 2.2",
+        "Section 3.2 relevant paragraphs",
+        "Conclusion",
+        "Appendix A interface description"
+      ],
+      "entire_paper_line_by_line_review_claimed": false,
+      "external_code_copied_or_executed": false
+    },
+    {
+      "doi": "10.1016/j.jocm.2026.100611",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/244754/1/1-s2.0-S1755534526000175-main.pdf",
+      "pages_in_file": 19,
+      "inspected_units": [
+        "Section 2.3 relevant paragraphs",
+        "Section 6 discussion and recommendations"
+      ],
+      "entire_paper_line_by_line_review_claimed": false,
+      "new_method_component_imported": false
+    }
+  ],
+  "access_results": [
+    {
+      "source": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/about/aims-and-scope",
+      "result": "403; retained 13 November institutional guide and earlier source audit used"
+    },
+    {
+      "source": "https://pure.eur.nl/files/179581787/1-s2.0-S1755534524000630-main.pdf",
+      "result": "403; publisher abstract only, formal full text unread"
+    },
+    {
+      "source": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full",
+      "result": "one-line iframe; formal body not read"
+    },
+    {
+      "source": "https://imstat.org/publications/aoas/aoas_20_3/aoas_20_3.pdf",
+      "result": "guessed official volume URL inaccessible; no formal full-text claim"
+    },
+    {
+      "source": "https://stanford.edu/~jduchi/publications.html",
+      "result": "formal publication metadata confirmed; PDF link points to arXiv, not evidence of formal-version reconciliation"
+    }
+  ],
+  "formal_PPI_version_difference_reconciled": false,
+  "exhaustive_search_or_originality_certificate": false,
+  "additional_institutional_identity_transfer_in_this_followup": false,
+  "latest_native_browser_retry": {
+    "browser_inventory_returned": true,
+    "native_app_error": "The Mac is locked and automatic unlock could not unlock it.",
+    "Scopus_existing_tab_binding": "timeout after 45 seconds",
+    "additional_institutional_identity_transfer_observed": false,
+    "new_Scopus_queries": 0,
+    "manual_unlock_requested": true
+  }
+}

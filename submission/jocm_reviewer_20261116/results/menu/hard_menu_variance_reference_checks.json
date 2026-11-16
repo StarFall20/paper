@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "conditions": 32,
+  "maximum_covariance_formula_error": 2.7755575615628914e-16,
+  "maximum_variance_formula_error": 2.220446049250313e-16,
+  "negative_covariance_zero_power_cases": 16,
+  "source_sha256": "304b7e6e4a6f1358e0f03a3ded019510c35f5c6a69645a5884e14288ae9564c4",
+  "plan_sha256": "6de34759c6e6a4d33380e1f0e199d24244663ffd3aee9d95a22aacd905c86451",
+  "scope": "Existing fixed-dimensional oracle variance criterion on orthogonal common slopes; not a new tuning rule or high-dimensional risk guarantee"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-10",
+  "reason": "Closest-prior review identified an omitted established finite-estimate comparator. Add it without changing or dropping any original result.",
+  "stage": "post-literature comparator addition; not part of the original simulation plan",
+  "estimator": "Raw maximum Diaconis-Ylvisaker penalized likelihood, zero prior mode; equivalent to logistic pseudo-responses alpha*Y+(1-alpha)/2 on labelled rows alone",
+  "primary_power": "alpha=m/(m+p), as used in the inspected authors' adaptive-shrinkage script",
+  "sensitivity_power": "alpha=0.5 fixed before replay; no truth-based tuning",
+  "primary_source": "https://arxiv.org/html/2311.07419v3",
+  "recent_fitted_intercept_source": "https://arxiv.org/pdf/2609.09831",
+  "code_repository": "psterzinger/MDYPL",
+  "code_commit": "1f68c36ba78d512c312ec4c7fcf929e1fc405bbe",
+  "inspected_scripts": ["code/methods/fit-mdypl.R", "code/04-adaptive-shrinkage-table.R", "code/11-Bradley-Terry-with-missingness.R"],
+  "implementation": "Independent Python implementation of the stated estimator; external R code not executed or copied into the public package",
+  "conditions": [
+    {"name": "20_labels_oracle", "labels": 20, "auxiliary_rows": 600, "truth_scale": 1, "seed": 20261112, "original_source": "finite_pool_choice_validation.py"},
+    {"name": "150_labels_overconfident", "labels": 150, "auxiliary_rows": 600, "truth_scale": 3, "seed": 20261121, "original_source": "imperfect_strong_signal_validation.py"}
+  ],
+  "original_draws_per_condition": 500,
+  "independent_new_random_experiment": false,
+  "new_humans_or_LLM_responses": false,
+  "resources": "The new comparator uses the same labelled rows, without consulting auxiliary predictions, test outcomes or the known truth for tuning or initialization. All seven existing comparators keep their original outputs and auxiliary budget.",
+  "checks_before_full_replay": ["analytic intercept-only root", "independent finite differences of gradient and Hessian", "analytic intercept covariance", "pseudo-response interior and rank checks"],
+  "reconstruction": "Recreate the exact source RNG draw order; reconstruct human fits and match all 1000 availability statuses and available MSEs within relative tolerance 1e-5; reference CSV/source hashes retained",
+  "metrics": ["all fit/rank/interval statuses", "parameter MSE and error tails", "known-truth expected Bernoulli KL on fixed1200row support", "diagnostic marginal Wald coverage", "paired errors and KL versus every retained comparator on shared available fits"],
+  "interval_scope": "Ordinary estimating-equation sandwich for raw pseudo-response estimator, not the papers' high-dimensional Gaussian rescaling; discrete released support does not meet those Gaussian conditions. Human-target coverage is evaluated empirically, with shrinkage bias retained.",
+  "reporting": "Report both prespecified alpha choices, failures and all denominators. Do not turn finite availability, improved errors or primary-source absence into novelty or acceptance evidence. Keep original and new results in separate files. Publish aggregates only."
+}

@@ -1,0 +1,8 @@
+{
+  "envelope_conditions": 16,
+  "prediction_risk_conditions": 8,
+  "independent_half_line_integral_max_difference": 1.4432899320127035e-14,
+  "GH_40_80_max_difference": 2.030711154787923e-10,
+  "generic_concavity_upper_bound_checked": true,
+  "all_power_selector_new_estimator_claimed": false
+}

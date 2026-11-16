@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-14",
+  "timing": "specified after completion of the fixed-power primary study",
+  "cohorts": "all 4000 existing proxy-informed cohorts; no selection",
+  "purpose": "check whether any strictly positive power has a finite objective",
+  "new_independent_replications": 0,
+  "verification": "explicit original-objective finite-power witnesses or negative recession on a human weak separator"
+}

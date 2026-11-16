@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "purpose": "Known-truth illustration of the same compensated objective's vanishing-power risk consequence; not a new phase-boundary accuracy study.",
+  "label_rows": [80, 160],
+  "auxiliary_ratio": 1,
+  "noise_slope_ratio": 0.6,
+  "utility_signal": 0,
+  "proxy_flip_probability": 0.25,
+  "prediction": "Frozen correctly calibrated posterior given independent binary response proxy: epsilon+(1-2*epsilon)*Z",
+  "estimated_parameters": "Intercept, one Gaussian signal-coordinate slope and floor(0.6*m) independent Gaussian noise slopes; all true parameters zero",
+  "seed": 202611121,
+  "replications_per_label_budget": 100,
+  "powers": [0.5, 0.1, 0.02, 0.005, 0.001, 0.0002],
+  "requested_independent_model_draws": 200,
+  "requested_corrected_records": 1200,
+  "reference": "Human ridge using the same m labels with penalty ||beta||^2/(2*m)",
+  "evaluation": "Conditional expected test log loss and Brier loss from independent standard-normal one-dimensional integration at true outcome probability 1/2; no test labels are generated. Classification error equals 1/2 analytically.",
+  "separation": "Minimum-norm feasible strict human separating direction when available, with primal residual retained. Optimality is not needed for the coefficient bound.",
+  "retention": "All support states, finite fits, missing roots, numerical residuals and reference values retained. Paired contrasts use explicit common-fit denominators. No redraw after failure.",
+  "scope": "Fully simulated model draws, not human respondents. This diagnostic does not establish new tuning, general dominance, or novelty of classical margin theory."
+}

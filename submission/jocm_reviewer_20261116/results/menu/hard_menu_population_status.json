@@ -1,0 +1,17 @@
+{
+  "state": "complete",
+  "population_evaluations": 320,
+  "event_conditions": 80,
+  "resolutions": 2,
+  "scramble_seeds": 2,
+  "diagnostic_conditions": 64,
+  "source_sha256": "dbd6e9b55aa32be1baae1405c458ea8ff31fdd0d59d409a4b01534fc390925e1",
+  "plan_sha256": "8c39e2a5474cecba4fe19ba9b443f61570d046d7b4c1d22c46e22bf52bfb466f",
+  "helper_sha256": {
+    "menu_existence_population.py": "ca0d7dd5288734f5248ce597349e5aa5454ba12ab706c113b06fc556ff387577",
+    "menu_corrected_logit.py": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178"
+  },
+  "finite_phase_sampling_started": false,
+  "priority_or_publication_readiness_established": false,
+  "new_human_or_LLM_responses": 0
+}

@@ -1,0 +1,31 @@
+{
+  "sha256": {
+    "analysis/build_menu_publication_assets.py": "e60b3772e6159b0fdd6ce973d4714befbaa4dd3825e65096f2e2c1fdb08886ea",
+    "analysis/choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+    "analysis/finite_ratio_choice_boundary.py": "2dbc3dd9d69a16456315eb8b20126c5125892efe615a53b63320a6989e15b5ab",
+    "analysis/finite_ratio_signal_boundary.py": "45b45bde3329db643447f7970e13742e5a9b0c0668fe9f5c9bc24c4c42921f06",
+    "analysis/hard_menu_matched_phase.py": "196647ea2e78b56eeb55876efde72a2138fab4c842b94c69ce1ebadd0ce4a97e",
+    "analysis/hard_menu_variance_reference.py": "304b7e6e4a6f1358e0f03a3ded019510c35f5c6a69645a5884e14288ae9564c4",
+    "analysis/menu_corrected_logit.py": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178",
+    "analysis/menu_existence_population.py": "ca0d7dd5288734f5248ce597349e5aa5454ba12ab706c113b06fc556ff387577",
+    "analysis/menu_hard_prediction_boundary.py": "dbd6e9b55aa32be1baae1405c458ea8ff31fdd0d59d409a4b01534fc390925e1",
+    "analysis/menu_population_grid.py": "2bc4da6c3619fb50678c6aa8f797d7aa817ce547c4d4eb5d40da4144d257a874",
+    "analysis/power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "analysis/public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "analysis/public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "analysis/verify_hard_menu_phase.py": "ddffcfe8236e7c944359e409ef0aac6d17aca422ecb18ba38a8300c8124fb18c",
+    "analysis/verify_hard_menu_prediction.py": "0818caa618d97097efbffef9ee3f6a0cc8bc6bcef0c5c560c62f143f1431a3d0"
+  },
+  "current_entry_points": [
+    "menu_corrected_logit",
+    "menu_existence_population",
+    "menu_population_grid",
+    "menu_hard_prediction_boundary",
+    "hard_menu_variance_reference",
+    "verify_hard_menu_prediction",
+    "hard_menu_matched_phase",
+    "verify_hard_menu_phase",
+    "build_menu_publication_assets"
+  ],
+  "new_scientific_sources_identical_to_research_versions": true
+}

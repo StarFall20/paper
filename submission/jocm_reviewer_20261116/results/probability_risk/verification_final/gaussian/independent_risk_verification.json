@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-12",
+  "mode": "gaussian",
+  "retained_rows": 1200,
+  "root_records_independently_replayed": 827,
+  "independent_support_endpoint_programs": 267,
+  "all_intermediate_powers_covered_by_same_prediction_coercivity_nesting": true,
+  "initial_nonstandard_support_states": 6,
+  "resolved_support_states": 6,
+  "remaining_unresolved": 0,
+  "original_records_unchanged": true,
+  "original_records_sha256": "0a8bfce21628f90b91bc981a15bdedfcd87ccabde89e331ff581618428137441",
+  "initial_risk_discrepancies_repaired": 6,
+  "current_Gaussian_evaluation_source_sha256": "2494d803b9ebf2f1804155516ddcadd5936c6d77a8bef2d5b4aa80af26e3d26b",
+  "maxima": {
+    "gradient_difference": 1.4641257559104888e-15,
+    "replayed_gradient_over_power": 9.51029907078538e-08,
+    "bound_violation": 0.0,
+    "test_log_loss_difference": 1.1368683772161603e-13,
+    "test_Brier_difference": 5.551115123125783e-17,
+    "positive_Jensen_violation": 0.0
+  },
+  "source_sha256": "935a75ae47bfc0f42d423f4d00e89faee3058dba373ac3159df90f4600c28a9e"
+}

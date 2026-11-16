@@ -1,0 +1,54 @@
+{
+  "primary_source_sha256": "c36abfc20de51a4e61e94f916093a949ecd5d9422a42e7f5ab5df8b93f8680f2",
+  "plan_sha256": "a8e21d257bb82b888771930d3684cc65b26e5739b252c7bba6568173b0efe5ad",
+  "primary_source_hashes": {
+    "menu_probability_quality.py": "c36abfc20de51a4e61e94f916093a949ecd5d9422a42e7f5ab5df8b93f8680f2",
+    "menu_corrected_logit.py": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178",
+    "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672"
+  },
+  "checkpoint_sha256": "785ccf3f2e6a783438349a086147a832e8bd596c83ec9f0c5a77b59abe660e8d",
+  "checkpoint_bytes": 4082138,
+  "checkpoint_parts": [
+    {
+      "file": "checkpoint.part01",
+      "sha256": "fedb62d88f6838389a702f9622f4e121f3c5d3013ce7626d3a253ccacb5f1bd8",
+      "bytes": 1000000
+    },
+    {
+      "file": "checkpoint.part02",
+      "sha256": "480df0687eba5e76889bf59f5f8cf67410c88beb7aca9cae09a444df9ed9623f",
+      "bytes": 1000000
+    },
+    {
+      "file": "checkpoint.part03",
+      "sha256": "d880f05f8d58570aa5e1d5b6eba2e18c73303597d4ef912015f35e00d24d8d48",
+      "bytes": 1000000
+    },
+    {
+      "file": "checkpoint.part04",
+      "sha256": "cc16c9d625f4233a10396ceaffe501b23ec2b92428e46df6e9199284ddbd5ea4",
+      "bytes": 1000000
+    },
+    {
+      "file": "checkpoint.part05",
+      "sha256": "c60990a2dd67033ef33bdef2b54ba428e81d972f990904b5b325a7dbf1cb6dc9",
+      "bytes": 82138
+    }
+  ],
+  "quality_records_csv_sha256": "95aa26969f785262e13bd60b724bda3afd5135085bd615bc648ffbe8b1c8db90",
+  "quality_records_gzip_sha256": "74d6388ce1b80c01139f433b235bcddd34fcfbdca671e6518c6f2f336bfcfdb0",
+  "scientific_sources": 9,
+  "all_records": 15000,
+  "existing_model_cohorts": 1000,
+  "new_model_cohorts": 0,
+  "new_human_or_LLM_answers": 0,
+  "whole_input_is_generated_research_data": true,
+  "private_questionnaire_data_included": false,
+  "parent_manuscript_changed": false,
+  "independent_originality_or_submission_threshold_certified": false,
+  "parent_manuscript_changed_field_scope": "Preparation-time snapshot; false does not describe subsequent parent releases.",
+  "parent_integration_date": "2026-11-16"
+}

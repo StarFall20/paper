@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "completed_allocations": 500,
+  "planned_allocations": 500,
+  "method_rows": 14000,
+  "distinct_label_allocations": 1000,
+  "duplicated_human_baseline_rows_across_prediction_routines": true,
+  "independent_respondents_claimed": false,
+  "population_uncertainty_tested": false,
+  "fulltext_PPI_formal_comparison_completed": false
+}

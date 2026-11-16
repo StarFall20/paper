@@ -1,0 +1,101 @@
+{
+  "as_of": "2026-11-16",
+  "guide_read_date": "2026-11-13",
+  "guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
+  "fresh_guide_web_retrieval": "403; retained institutional guide used",
+  "abstract_words": 174,
+  "abstract_limit": 250,
+  "keyword_count": 5,
+  "permitted_keyword_count": [
+    1,
+    7
+  ],
+  "highlight_count": 5,
+  "highlight_characters": [
+    75,
+    75,
+    75,
+    76,
+    75
+  ],
+  "highlight_character_limit": 85,
+  "permitted_highlight_count": [
+    3,
+    5
+  ],
+  "main_lexical_words_excluding_math": 8518,
+  "verified_full_research_article_word_cap": null,
+  "full_manuscript_pages": 66,
+  "native_math_objects": 1278,
+  "tables": 17,
+  "all_seven_appendices_in_manuscript": true,
+  "ai_disclosure_precedes_references": true,
+  "separate_vector_figures": 6,
+  "figure_font_review_source_sha256": "3cab65110eb36ace8d27b71a37f48d71e9b3376538b3e53f08691f107b52fba1",
+  "copied_sources": {
+    "Manuscript.docx": {
+      "parent_path": "manuscript/paper.docx",
+      "sha256": "71e2c248f9d089408a43ccf43a437fbfdfe935b24c93208d79e6f203d92dd4bf"
+    },
+    "Title_page.docx": {
+      "parent_path": "submission_materials/title_page.docx",
+      "sha256": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c"
+    },
+    "Highlights.docx": {
+      "parent_path": "submission_materials/Highlights.docx",
+      "sha256": "229dbe7e150fc35cc92134c4923cf5cbc3ed6aebbf9b4e641b2ff130a86a9aa8"
+    },
+    "author_review/author_facts.json": {
+      "parent_path": "submission_materials/author_facts_20261113.json",
+      "sha256": "cd6689b9c4915370e38ebf11e4658ab78f423b52e1741ec07511d1769095b34c"
+    },
+    "author_review/contributions.md": {
+      "parent_path": "submission_materials/author_contributions.md",
+      "sha256": "ff4242855e4fe5bc8de0ff16cd7e71210defbc1d785095e16ed952d54ac92e11"
+    },
+    "author_review/competing_interests.md": {
+      "parent_path": "submission_materials/competing_interests.md",
+      "sha256": "a710ad9a7ae287da4b23fc339c21b18e46c194cbd90509485da8e9a97f51ce1d"
+    },
+    "author_review/funding.md": {
+      "parent_path": "submission_materials/funding_statement.md",
+      "sha256": "2163a0e76402893027d5ee3f572fd050953cf35093ba30876d867a802d8844d0"
+    },
+    "author_review/ai_assistance.md": {
+      "parent_path": "submission_materials/ai_assistance_draft.md",
+      "sha256": "16ce3523853fc73edf15905753072e280da6e2bc42ca7ea78ea0f33dcfb27420"
+    },
+    "Figures/figure1_phase.pdf": {
+      "parent_path": "manuscript/figures/publication_pdf/figure1_phase.pdf",
+      "sha256": "ccb1abb8efc7cc8b1ed55dcd63b7ff3e376a894251b945dcd6cf56cfb545577f"
+    },
+    "Figures/figure2_estimates_intervals.pdf": {
+      "parent_path": "manuscript/figures/publication_pdf/figure2_estimates_intervals.pdf",
+      "sha256": "82a58e17bdfbaad41680bbcd2ee9b8211cecca81f5494d598dcbe9ebe2dcbc55"
+    },
+    "Figures/figure3_power_endpoint.pdf": {
+      "parent_path": "manuscript/figures/publication_pdf/figure3_power_endpoint.pdf",
+      "sha256": "cc1a9518e52598f686054afa767e59ba8888b8d15b333252c86ce5a6aba285ab"
+    },
+    "Figures/figure_menu_phase.pdf": {
+      "parent_path": "manuscript/figures/publication_pdf/figure_menu_phase.pdf",
+      "sha256": "6339e73e66d2027581a0efb1f62ef2a737bb47832d98d0a417d8be5836d7408d"
+    },
+    "Figures/figure_radial_auxiliary.pdf": {
+      "parent_path": "manuscript/figures/publication_pdf/figure_radial_auxiliary.pdf",
+      "sha256": "64c18abeff62c099d68932a60a6d36c967f47db942808583cfd94387e3036055"
+    },
+    "Figures/identical_score_phase.pdf": {
+      "parent_path": "manuscript/figures/publication_pdf/identical_score_phase.pdf",
+      "sha256": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291"
+    }
+  },
+  "pending": [
+    "author approval of current manuscript and disclosures",
+    "originality and exclusive-submission confirmation",
+    "publisher portal declarations",
+    "nearest-prior formal-version reconciliation"
+  ],
+  "submission_made": false,
+  "research_goal_achieved": false
+}

@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-11-13",
+  "review_type": "Internal mathematical audit; no independent referee or priority certificate",
+  "proof_sha256": "d79a930d833e1913ff9cd2999cb6aab96df0115d71c2d6e58f18c0090e0a5af9",
+  "model": "Two independent IID samples, fixed bounded known positive utility scale, fixed finite logistic signal, fixed strictly interior low-index predictor, conditionally independent Gaussian remaining attributes, fitted scaled intercept",
+  "checked_arguments": {
+    "finite_design_scale_interval_identity": "Scale goes into residual intervals; one shared conic multiplier",
+    "nuisance_qualification": "Scale-weighted support rho_D; positive minimum over unit affine directions",
+    "relative_interior": "Qualified nuisance intersection plus generic polyhedral-face transversality",
+    "curvature_rank": "All rows below unit power; auxiliary rows at unit power; strict phase sides only",
+    "statistical_dimension_limit": "Expectation outside empirical inf-sup; multiplier/scale localization; compact uniform laws and uniform integrability",
+    "balanced_multiplier": "Sign averaging establishes zero multiplier for every fixed scale",
+    "strict_scale_cost": "Unique positive maximum of the strongly concave common profile",
+    "same_information_counterexample": "Full population score covariance and Hessian matched; labelled-only separation identical samplewise",
+    "small_and_large_auxiliary_limits": "Proportional limit at each fixed auxiliary ratio precedes ratio limits",
+    "held_power_control": "Nondecreasing balanced population boundary by concave perspective"
+  },
+  "excluded_extensions": [
+    "unknown or estimated scale",
+    "scale support changing with sample size",
+    "new prediction-index or multinomial extension",
+    "arbitrary correlated attributes or respondent clusters",
+    "finite-sample monotonicity when auxiliary rows increase",
+    "general estimator-risk or interval ordering"
+  ],
+  "numerical_evidence": "verification/verification.json",
+  "specific_theorem_priority_certified": false,
+  "submission_threshold_certified": false
+}

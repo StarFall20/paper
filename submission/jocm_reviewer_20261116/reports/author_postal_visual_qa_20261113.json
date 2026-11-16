@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-13",
+  "status": "complete",
+  "pages": 1,
+  "all_pages_visually_inspected": true,
+  "docx_sha256": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c",
+  "source_sha256": "aa75e8ecfb6a7decacbbce2273d8ac31b838aae1f3644e48a97c886426e2d292",
+  "facts_sha256": "cd6689b9c4915370e38ebf11e4658ab78f423b52e1741ec07511d1769095b34c",
+  "reviewed_page_sha256": "6ddcf6ed2afa7476a9f83d0b54ac56fcff198ac77f95cbb3fc6fe15b1274fc28",
+  "campus_user_confirmed": true,
+  "postal_address_verified_from_current_official_campus_directory": true,
+  "corresponding_email_confirmed": true,
+  "final_author_review_pending": true,
+  "submission_made": false
+}

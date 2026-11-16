@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-14",
+  "general_web_queries": 11,
+  "actual_new_Scopus_queries": 0,
+  "actual_new_Google_Scholar_queries": 0,
+  "primary_sources": [
+    {
+      "url": "https://proceedings.mlr.press/v145/saglietti22a/saglietti22a.pdf",
+      "units_read": [
+        "equation13",
+        "equations23–24",
+        "model and weighted distillation loss",
+        "Section6 opening separation discussion"
+      ],
+      "finding": "Signed-label feature averages and a signal-plus-Gaussian-noise teacher are prior. The source studies a Gaussian-mixture distillation model; no new learner or teacher-noise representation is claimed."
+    },
+    {
+      "url": "https://www.cs.toronto.edu/~erdogdu/papers/hdfl.pdf",
+      "units_read": [
+        "abstract",
+        "contribution overview",
+        "Assumption2"
+      ],
+      "finding": "Early gradient feature alignment and independent-data kernel risk are existing research objects. Full71-page proof reading is not claimed."
+    }
+  ],
+  "query_scope": "targeted additional screening of compensated-logit existence and simple learned-score priors; search nonmatches are not proof of originality",
+  "PPI_formal_version_reconciliation_completed": false,
+  "specific_priority_or_journal_threshold_proven": false
+}

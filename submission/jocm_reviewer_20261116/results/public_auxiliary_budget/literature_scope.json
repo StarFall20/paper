@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-15",
+  "actual_new_general_web_queries": 11,
+  "actual_new_Scopus_queries": 0,
+  "actual_new_Google_Scholar_queries": 0,
+  "actual_new_WOS_queries": 0,
+  "sources": [
+    {
+      "title": "PPI++: Efficient Prediction-Powered Inference",
+      "url": "https://arxiv.org/html/2311.01453v2",
+      "version": "26 March 2024 preprint v2; not the 2026 formal journal version",
+      "inspected_units": [
+        "Section 4 Proposition 1",
+        "Appendix A.2 including Lemma A.1",
+        "Algorithms 1 and 2 step 7"
+      ],
+      "local_complete_html_sha256": "e30a409c5d1c493fe30790ac5f4a240d4b57f612923a2eb92b661a90d49c934d",
+      "downloaded_bytes": 612521,
+      "reading_scope": "These specified units, not a new cover-to-cover reading",
+      "consequence": "Fixed-dimensional consistency and finite-N covariance are prior. High-probability coercivity for continuous convex logit is an inference from the shell argument."
+    },
+    {
+      "title": "PPI is the Difference Estimator: Recognizing the Survey Sampling Roots of Prediction-Powered Inference",
+      "url": "https://arxiv.org/html/2603.19160v1",
+      "author": "Reagan Mozer",
+      "date": "2026-03-19",
+      "inspected_units": [
+        "Sections 2.2–2.4",
+        "Section 3.3"
+      ],
+      "consequence": "Mean-estimator algebra and classical allocation/augmentation attribution. Its general finite-pool variance statement is not adopted over the PPI++ formula."
+    },
+    {
+      "title": "Prediction-Powered Inference in Hybrid Measurement Regimes: A Statistical Survey",
+      "url": "https://www.mdpi.com/2227-7390/14/12/2166",
+      "role": "Discovery lead only",
+      "inspected_units": [
+        "Publisher metadata, abstract and opening material"
+      ],
+      "full_review_read": false
+    }
+  ],
+  "access": {
+    "formal_PPI_plus_plus": "Publisher served a security-check notice. Formal body and supplements remain unread.",
+    "desktop": "The current computer-state check reported a locked Mac; no institution attribute was retransmitted.",
+    "service": "Two web transport failures and a partial timed-out HTML download preceded the successful complete public preprint download."
+  },
+  "original_research_priority_certified": false,
+  "global_plagiarism_scan": false,
+  "actual_general_web_query_strings": [
+    "\"10.1214/26-AOAS2215\" pdf",
+    "\"PPI++\" \"supplement\" \"existence\"",
+    "\"prediction-powered\" \"coercive\"",
+    "\"prediction-powered\" \"finite minimizer\" separation",
+    "\"26-AOAS2215\"",
+    "\"prediction-powered\" \"unbounded\" logistic",
+    "\"PPI is the Difference Estimator\"",
+    "\"prediction-powered\" logistic \"separation\" -\"power\" -PPI++",
+    "\"prediction-powered\" \"unbounded below\"",
+    "\"calibration\" \"logistic\" \"existence\" \"phase transition\"",
+    "\"rectified loss\" \"minimizer\" \"existence\""
+  ]
+}

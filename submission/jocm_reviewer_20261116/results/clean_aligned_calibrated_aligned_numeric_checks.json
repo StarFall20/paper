@@ -1,0 +1,14 @@
+{
+  "population_conditions": 12,
+  "80_160_node_max_error": 5.551115123125783e-15,
+  "existing_balanced_scalar_formula_max_error": 3.68594044175552e-14,
+  "negative_unit_derivative_identity_error": 4.443667656062189e-14,
+  "envelope_gradient_finite_difference_error": 1.1102669276209577e-11,
+  "intercept_symmetry_error": 2.220446049250313e-16,
+  "conditional_calibration_probability_error": 7.327471962526033e-15,
+  "source_sha256": "dee6eac6b4cac36b5528720963d4b6eaeab1f1d143a0ff842d0209a3db56db08",
+  "population_helper_sha256": "6a37e185e5092fdd116f46b6ecfb1c076233408210ef2f14afc0b82482eee885",
+  "matched_complete_Y_Z_g_law": true,
+  "new_human_or_AI_responses": 0,
+  "priority_or_submission_readiness_proven": false
+}

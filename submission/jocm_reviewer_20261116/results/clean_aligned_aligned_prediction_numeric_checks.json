@@ -1,0 +1,75 @@
+{
+  "population_conditions": 18,
+  "80_160_node_max_error": 4.440892098500626e-16,
+  "envelope_gradient_finite_difference_error": 1.665336736784555e-11,
+  "intercept_symmetry_error": 2.220446049250313e-16,
+  "external_scalar_unit_boundary_error": 1.2490009027033011e-14,
+  "negative_unit_derivative_identity_error": 1.096345236817342e-15,
+  "two_sided_normal_tail_mass_bound": 3.552964224155308e-33,
+  "analytic_strict_unit_difference_cases": 6,
+  "source_sha256": "6a37e185e5092fdd116f46b6ecfb1c076233408210ef2f14afc0b82482eee885",
+  "new_human_or_AI_responses": 0,
+  "new_cross_fitting_algorithm": false,
+  "priority_or_submission_readiness_proven": false,
+  "paired_finite_designs": 120,
+  "original_oriented_LP_matches": 234,
+  "finite_paired_states": {
+    "external:outside_mean_support|aligned:outside_mean_support": 58,
+    "external:interior|aligned:interior": 51,
+    "external:outside_mean_support|aligned:interior": 4,
+    "external:rank_deficient|aligned:rank_deficient": 3,
+    "external:interior|aligned:outside_mean_support": 4
+  },
+  "separately_verified_rank_deficient_cases": [
+    {
+      "trial": 27,
+      "model": "external",
+      "original_rank_status": "rank_deficient",
+      "oriented_moment_status": "outside_mean_support",
+      "auxiliary_rank": 14,
+      "columns": 17
+    },
+    {
+      "trial": 27,
+      "model": "aligned",
+      "original_rank_status": "rank_deficient",
+      "oriented_moment_status": "outside_mean_support",
+      "auxiliary_rank": 14,
+      "columns": 17
+    },
+    {
+      "trial": 54,
+      "model": "external",
+      "original_rank_status": "rank_deficient",
+      "oriented_moment_status": "outside_mean_support",
+      "auxiliary_rank": 14,
+      "columns": 16
+    },
+    {
+      "trial": 54,
+      "model": "aligned",
+      "original_rank_status": "rank_deficient",
+      "oriented_moment_status": "outside_mean_support",
+      "auxiliary_rank": 14,
+      "columns": 16
+    },
+    {
+      "trial": 81,
+      "model": "external",
+      "original_rank_status": "rank_deficient",
+      "oriented_moment_status": "outside_mean_support",
+      "auxiliary_rank": 14,
+      "columns": 15
+    },
+    {
+      "trial": 81,
+      "model": "aligned",
+      "original_rank_status": "rank_deficient",
+      "oriented_moment_status": "outside_mean_support",
+      "auxiliary_rank": 14,
+      "columns": 15
+    }
+  ],
+  "independent_projection_cases": 16,
+  "maximum_projection_norm_squared_error": 2.1316282072803006e-14
+}

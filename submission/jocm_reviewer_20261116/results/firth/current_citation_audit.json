@@ -1,0 +1,357 @@
+{
+  "source_sha256": "ff2cafbdb859e91c26553e4e6ce68e8a3e140411f90862990f943b497ef3d84f",
+  "method": "First-author and year proximity screen over current body and appendices; manual reading still determines claim fidelity. Not metadata or theorem verification.",
+  "reference_count": 37,
+  "rows": [
+    {
+      "first_author": "Albert",
+      "year": "1984",
+      "reference": "Albert, A., Anderson, J. A. (1984). On the existence of maximum likelihood estimates in logistic regression models. Biometrika 71(1), 1–10. https://doi.org/10.1093/biomet/71.1.1",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "albert and anderson, 1984"
+      ]
+    },
+    {
+      "first_author": "Amelunxen",
+      "year": "2014",
+      "reference": "Amelunxen, D., Lotz, M., McCoy, M.B., Tropp, J.A. (2014). Living on the edge: Phase transitions in convex programs with random data. Information and Inference 3, 224–294. https://doi.org/10.1093/imaiai/iau005",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "amelunxen et al., 2014",
+        "amelunxen et al. (2014"
+      ]
+    },
+    {
+      "first_author": "Angelopoulos",
+      "year": "2023",
+      "reference": "Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Prediction-powered inference. Science 382, 669–674. Preprint: https://arxiv.org/abs/2301.09633",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "angelopoulos et al., 2023"
+      ]
+    },
+    {
+      "first_author": "Angelopoulos",
+      "year": "2024",
+      "reference": "Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2024). PPI++: Efficient prediction-powered inference. arXiv:2311.01453, version 2. https://arxiv.org/abs/2311.01453v2",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "angelopoulos et al., 2023, 2024"
+      ]
+    },
+    {
+      "first_author": "Candès",
+      "year": "2020",
+      "reference": "Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "candes and sur, 2020"
+      ]
+    },
+    {
+      "first_author": "Chen",
+      "year": "2026",
+      "reference": "Chen, S., Bai, Y., Zhu, H. (2026). Covariance-Calibrated Prediction-Powered Inference. Preprint, arXiv:2610.21837v2. https://arxiv.org/abs/2610.21837v2",
+      "candidate_citation_matches": 5,
+      "examples": [
+        "chen et al., 2026",
+        "chen et al. (2026",
+        "chen et al., 2026"
+      ]
+    },
+    {
+      "first_author": "Fan",
+      "year": "2024",
+      "reference": "Fan, S., Visokay, A., Hoffman, K., Salerno, S., Liu, L., Leek, J.T., McCormick, T.H. (2024). From Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsy Narratives. Conference on Language Modeling. https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "fan et al., 2024",
+        "fan et al. (2024"
+      ]
+    },
+    {
+      "first_author": "Fuh",
+      "year": "2026",
+      "reference": "Fuh, C.D., Kao, C.L.M., Pang, T. (2026). On the existence of maximum likelihood estimators in a multinomial choice model under positivity constraints. Statistical Papers 67, 120. https://doi.org/10.1007/s00362-026-01902-2",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "fuh et al. (2026"
+      ]
+    },
+    {
+      "first_author": "Götze",
+      "year": "2020",
+      "reference": "Götze, F., Kabluchko, Z., Zaporozhets, D. (2020). Grassmann angles and absorption probabilities of Gaussian convex hulls. Inspected preprint version2. https://arxiv.org/abs/1911.04184v2",
+      "candidate_citation_matches": 3,
+      "examples": [
+        "gotze et al., 2020",
+        "gotze et al., 2020",
+        "gotze et al., 2020"
+      ]
+    },
+    {
+      "first_author": "Hess",
+      "year": "2026",
+      "reference": "Hess, S., Daly, A., Bliemer, M., Guevara, A., Daziano, R., Dekker, T. (2026). Statistical significance in choice modelling: computation, usage and reporting. Journal of Choice Modelling 60, 100611. https://doi.org/10.1016/j.jocm.2026.100611",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "hess et al. (2026"
+      ]
+    },
+    {
+      "first_author": "Hess",
+      "year": "2017",
+      "reference": "Hess, S., Train, K. (2017). Correlation and scale in mixed logit models. Journal of Choice Modelling 23, 1–8. https://doi.org/10.1016/j.jocm.2017.03.001",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "hess and train, 2017"
+      ]
+    },
+    {
+      "first_author": "Ji",
+      "year": "2019",
+      "reference": "Ji, Z., Telgarsky, M. (2019). Risk and parameter convergence of logistic regression. arXiv:1803.07300v3. https://arxiv.org/abs/1803.07300",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "ji and telgarsky, 2019"
+      ]
+    },
+    {
+      "first_author": "Kabluchko",
+      "year": "2020",
+      "reference": "Kabluchko, Z., Seidel, H. (2020). Convex cones spanned by regular polytopes. arXiv:2006.09492, version 2. https://arxiv.org/abs/2006.09492v2",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "kabluchko and seidel (2020"
+      ]
+    },
+    {
+      "first_author": "Kiryo",
+      "year": "2017",
+      "reference": "Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. NIPS 2017 camera ready preprint, arXiv:1703.00593v2. https://arxiv.org/abs/1703.00593v2",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "kiryo et al., 2017"
+      ]
+    },
+    {
+      "first_author": "Koriyama",
+      "year": "2025",
+      "reference": "Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html. Inspected assumption numbering: https://arxiv.org/html/2501.03163v2",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "koriyama and bellec, 2025",
+        "koriyama and bellec (2025"
+      ]
+    },
+    {
+      "first_author": "Li",
+      "year": "2026",
+      "reference": "Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5",
+      "candidate_citation_matches": 12,
+      "examples": [
+        "lity specification (van cranenburgh et al., 2022; sfeir et al., 2026",
+        "line correction already have developed theories (chen et al., 2026",
+        "lished for mean estimation (mani et al., 2026"
+      ]
+    },
+    {
+      "first_author": "Loureiro",
+      "year": "2021",
+      "reference": "Loureiro, B., Gerbelot, C., Cui, H., Goldt, S., Krzakala, F., Mézard, M., Zdeborová, L. (2021). Learning curves of generic features maps for realistic datasets with a teacher-student model. Advances in Neural Information Processing Systems 34. https://proceedings.neurips.cc/paper/2021/hash/9704a4fc48ae88598dcbdcdf57f3fdef-Abstract.html",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "loureiro et al., 2021"
+      ]
+    },
+    {
+      "first_author": "Lu",
+      "year": "2026",
+      "reference": "Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html",
+      "candidate_citation_matches": 4,
+      "examples": [
+        "ludes these labelled losses. fuh et al. (2026",
+        "luding a recent fitted intercept treatment (sterzinger and kosmidis, 2026",
+        "lu et al., 2026"
+      ]
+    },
+    {
+      "first_author": "Mani",
+      "year": "2026",
+      "reference": "Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. arXiv:2505.20178, version 2. https://arxiv.org/abs/2505.20178v2",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "mani et al., 2026",
+        "mani et al. (2026"
+      ]
+    },
+    {
+      "first_author": "Montanari",
+      "year": "2025",
+      "reference": "Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Inspected preprint: https://arxiv.org/html/1911.01544v3",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "montanari et al., 2025",
+        "montanari et al., 2025"
+      ]
+    },
+    {
+      "first_author": "Natarajan",
+      "year": "2013",
+      "reference": "Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "natarajan et al., 2013"
+      ]
+    },
+    {
+      "first_author": "Nova",
+      "year": "2025",
+      "reference": "Nova, G., van Cranenburgh, S., Hess, S. (2025). Understanding the decision-making process of choice modellers. Journal of Choice Modelling 56, 100562. https://doi.org/10.1016/j.jocm.2025.100562",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "nova et al., 2025"
+      ]
+    },
+    {
+      "first_author": "Rosset",
+      "year": "2003",
+      "reference": "Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advances in Neural Information Processing Systems 16. https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "rosset et al., 2003"
+      ]
+    },
+    {
+      "first_author": "Rosset",
+      "year": "2004",
+      "reference": "Rosset, S., Zhu, J., Hastie, T. (2004). Boosting as a Regularized Path to a Maximum Margin Classifier. Journal of Machine Learning Research 5, 941–973. https://www.jmlr.org/papers/v5/rosset04a.html",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "rosset et al., 2004",
+        "rosset et al., 2003, 2004"
+      ]
+    },
+    {
+      "first_author": "Sablica",
+      "year": "2026",
+      "reference": "Sablica, L., Hornik, K., Rusch, T. (2026). The Geometry of Existence and Uniqueness of Maximum Likelihood Estimation in Categorical Response Models. Preprint, arXiv:2610.08100v1. https://arxiv.org/abs/2610.08100v1",
+      "candidate_citation_matches": 0,
+      "examples": []
+    },
+    {
+      "first_author": "Sargent",
+      "year": "2026",
+      "reference": "Sargent, G., Sun, W.W., Zhang, Z., Liu, Y. (2026). Prediction-Powered LLM Ranking with Adaptively Collected Human Feedback. Preprint, arXiv:2611.13186v1. https://arxiv.org/abs/2611.13186v1",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "sargent et al., 2026",
+        "sargent et al. (2026"
+      ]
+    },
+    {
+      "first_author": "Sfeir",
+      "year": "2026",
+      "reference": "Sfeir, G., Nova, G., Hess, S., van Cranenburgh, S. (2026). Can large language models assist choice modelling? Insights into prompting strategies and current models’ capabilities. Journal of Choice Modelling 60, 100623. https://doi.org/10.1016/j.jocm.2026.100623",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "sfeir et al., 2026"
+      ]
+    },
+    {
+      "first_author": "Shoham",
+      "year": "2025",
+      "reference": "Shoham, N., Dorfman, R., Shaer, S., Levy, K.Y., Romano, Y. (2025). Prediction-Powered Semi-Supervised Learning with Online Power Tuning. Inspected preprint version1. https://arxiv.org/abs/2510.22586v1",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "shoham et al., 2025"
+      ]
+    },
+    {
+      "first_author": "Sterzinger",
+      "year": "2026",
+      "reference": "Sterzinger, P. (2026). Proportional-limit asymptotics for Diaconis–Ylvisaker-penalised logistic regression with fitted intercept. arXiv:2609.09831, version 1. https://arxiv.org/abs/2609.09831v1",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "sterzinger and kosmidis, 2026",
+        "sterzinger, 2026"
+      ]
+    },
+    {
+      "first_author": "Sterzinger",
+      "year": "2026",
+      "reference": "Sterzinger, P., Kosmidis, I. (2026). Diaconis–Ylvisaker prior penalized likelihood for p/n → κ ∈ (0,1) logistic regression. Biometrika 113(2), asag014. https://doi.org/10.1093/biomet/asag014",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "sterzinger and kosmidis, 2026",
+        "sterzinger, 2026"
+      ]
+    },
+    {
+      "first_author": "Tan",
+      "year": "2023",
+      "reference": "Tan, K., Bellec, P.C. (2023). Multinomial Logistic Regression: Asymptotic Normality on Null Covariates in High-Dimensions. Advances in Neural Information Processing Systems 36. https://proceedings.neurips.cc/paper_files/paper/2023/file/e0ac27bf3327c9cb99cc5f548db4f73a-Paper-Conference.pdf",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "tan and bellec (2023"
+      ]
+    },
+    {
+      "first_author": "Tang",
+      "year": "2020",
+      "reference": "Tang, W., Ye, Y. (2020). The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models. Inspected preprint version2. https://arxiv.org/abs/1908.06208v2",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "tang and ye, 2020"
+      ]
+    },
+    {
+      "first_author": "van Cranenburgh",
+      "year": "2022",
+      "reference": "van Cranenburgh, S., Wang, S., Vij, A., Pereira, F., Walker, J. (2022). Choice modelling in the age of machine learning—Discussion paper. Journal of Choice Modelling 42, 100340. https://doi.org/10.1016/j.jocm.2021.100340",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "van cranenburgh et al., 2022"
+      ]
+    },
+    {
+      "first_author": "van der Laan",
+      "year": "2026",
+      "reference": "van der Laan, L., van der Laan, M. (2026). Calibeating Prediction-Powered Inference. Preprint, arXiv:2604.21260. https://arxiv.org/abs/2604.21260",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "van der laan and van der laan, 2026",
+        "van der laan and van der laan, 2026"
+      ]
+    },
+    {
+      "first_author": "Xu",
+      "year": "2026",
+      "reference": "Xu, S., Sun, W.W. (2026). Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference. Preprint version1. https://arxiv.org/abs/2602.10464v1",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "xu and sun, 2026"
+      ]
+    },
+    {
+      "first_author": "Ye",
+      "year": "2026",
+      "reference": "Ye, Z., Yoganarasimhan, H. (2026). Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys. Preprint, arXiv:2604.17267v2. https://arxiv.org/abs/2604.17267v2",
+      "candidate_citation_matches": 2,
+      "examples": [
+        "ye and yoganarasimhan, 2026",
+        "ye and yoganarasimhan (2026"
+      ]
+    },
+    {
+      "first_author": "Zrnic",
+      "year": "2024",
+      "reference": "Zrnic, T., Candès, E.J. (2024). Cross-prediction-powered inference. Proceedings of the National Academy of Sciences 121(17), e2322083121. https://doi.org/10.1073/pnas.2322083121",
+      "candidate_citation_matches": 1,
+      "examples": [
+        "zrnic and candes, 2024"
+      ]
+    }
+  ]
+}

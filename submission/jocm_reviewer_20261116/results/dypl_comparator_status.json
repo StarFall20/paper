@@ -1,0 +1,23 @@
+{
+  "completed_original_draws": 1000,
+  "requested_original_draws": 1000,
+  "completed_DY_fits": 2000,
+  "requested_DY_fits": 2000,
+  "source_sha256": "e4ccf54aabcb35f8d86e7bfc326bf3c4adc33dcb2eafdd65c8d42c11eb3b90e2",
+  "original_source_sha256": {
+    "finite_pool_choice_validation.py": "03e50c70b94d4fa231ec74df3c7ba5ee0d89321bc9f1884c7672b74f6d6d43f4",
+    "imperfect_strong_signal_validation.py": "691d6b4d8f6952f57a1db2a437f4dae7f5b5bcb548bbc2c26778edc30475fb39"
+  },
+  "reference_sha256": {
+    "finite_pool_trial_diagnostics.csv": "f0b42d8e98c1fac736e12276a330f111488fff076c6a2813d9d95af697bb13a3",
+    "strong_signal_pool_trial_diagnostics.csv": "017efbbb01906bad6a68d7be174145b4daee22e43e9cd726824641023e10e657"
+  },
+  "human_reconstruction_status_matches": 1000,
+  "maximum_human_MSE_relative_difference": 1.7296565909739573e-16,
+  "maximum_DY_score": 9.99209527619005e-10,
+  "original_reference_files_unchanged": true,
+  "new_independent_responses": false,
+  "new_random_experiment": false,
+  "HD_Gaussian_rescaling_implemented": false,
+  "submission_readiness_proven": false
+}

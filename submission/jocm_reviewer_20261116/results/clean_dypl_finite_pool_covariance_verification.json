@@ -1,0 +1,7 @@
+{
+  "intercept_variance_max_closed_form_error": 4.440892098500626e-16,
+  "ridge_exterior_root_difference_from_brent": 1.8938139945134935e-10,
+  "unpenalized_base_has_no_finite_root": true,
+  "penalty_changes_the_objective": true,
+  "interval_coverage_claim": "No coverage guarantee follows from these numerical identities"
+}

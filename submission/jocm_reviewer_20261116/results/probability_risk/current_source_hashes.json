@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "sha256": {
+    "analysis/choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+    "analysis/fetch_public_conjoint_audit.py": "0d9173a837c195d1341b94dcec08f061570ccb6af06c8aaf418e453b281b4cef",
+    "analysis/finite_ratio_choice_boundary.py": "2dbc3dd9d69a16456315eb8b20126c5125892efe615a53b63320a6989e15b5ab",
+    "analysis/observable_low_label_path.py": "4fcb53bb62b7f53ad9918259b900cb724e395efd836f046abe817737fdfe041a",
+    "analysis/observable_score_path_audit.py": "d61cc6b68cc4d17c4e1c5b492ec85b7ffdc146c4105acc50a9d89b383d37d6d5",
+    "analysis/power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "analysis/public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "analysis/public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "analysis/summarize_vanishing_power_risk.py": "4487ec9eab3e0c20471c44405172727343a4a4ff188ae3dc7700d8390bbea3e3",
+    "analysis/vanishing_power_choice.py": "cd1b28cd7e5d7d6dd12ed5781202084104bc5cc915c3537ed1bc6f7ddb9bf663",
+    "analysis/vanishing_power_risk_audit.py": "2494d803b9ebf2f1804155516ddcadd5936c6d77a8bef2d5b4aa80af26e3d26b",
+    "analysis/verify_vanishing_power_risk.py": "935a75ae47bfc0f42d423f4d00e89faee3058dba373ac3159df90f4600c28a9e"
+  },
+  "retained_initial_driver_closure_verified": true,
+  "initial_driver": "evidence/diagnostics/vanishing_power_risk_audit_initial.py",
+  "current_driver_change": "Gaussian evaluation breakpoints and quadrature tolerances only; retained coefficients and original raw records are unchanged.",
+  "summarizer": "Uses independently resolved support and corrected metrics; retains initial statuses as separate columns."
+}

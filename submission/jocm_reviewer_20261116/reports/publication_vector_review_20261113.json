@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-13",
+  "status": "complete",
+  "all_six_rendered_figures_visually_inspected": true,
+  "font_embedding_checks": [
+    {
+      "file": "figure1_phase.pdf",
+      "pages": 1,
+      "fonts": [
+        {
+          "name": "/BLGZAI+DejaVuSans",
+          "embedded": true
+        },
+        {
+          "name": "/CPUQYB+DejaVuSans",
+          "embedded": true
+        }
+      ],
+      "text_characters": 333,
+      "sha256": "ccb1abb8efc7cc8b1ed55dcd63b7ff3e376a894251b945dcd6cf56cfb545577f"
+    },
+    {
+      "file": "figure2_estimates_intervals.pdf",
+      "pages": 1,
+      "fonts": [
+        {
+          "name": "/DWBGXB+DejaVuSans",
+          "embedded": true
+        },
+        {
+          "name": "/DSRLVY+DejaVuSans",
+          "embedded": true
+        }
+      ],
+      "text_characters": 731,
+      "sha256": "82a58e17bdfbaad41680bbcd2ee9b8211cecca81f5494d598dcbe9ebe2dcbc55"
+    },
+    {
+      "file": "figure3_power_endpoint.pdf",
+      "pages": 1,
+      "fonts": [
+        {
+          "name": "/BXNIIC+DejaVuSans",
+          "embedded": true
+        },
+        {
+          "name": "/DSRLVY+DejaVuSans",
+          "embedded": true
+        }
+      ],
+      "text_characters": 336,
+      "sha256": "cc1a9518e52598f686054afa767e59ba8888b8d15b333252c86ce5a6aba285ab"
+    },
+    {
+      "file": "figure_menu_phase.pdf",
+      "pages": 1,
+      "fonts": [
+        {
+          "name": "/DRKAWX+DejaVuSans",
+          "embedded": true
+        },
+        {
+          "name": "/CPUQYB+DejaVuSans",
+          "embedded": true
+        }
+      ],
+      "text_characters": 203,
+      "sha256": "6339e73e66d2027581a0efb1f62ef2a737bb47832d98d0a417d8be5836d7408d"
+    },
+    {
+      "file": "figure_radial_auxiliary.pdf",
+      "pages": 1,
+      "fonts": [
+        {
+          "name": "/BMFPWK+DejaVuSans",
+          "embedded": true
+        },
+        {
+          "name": "/DSRLVY+DejaVuSans",
+          "embedded": true
+        }
+      ],
+      "text_characters": 366,
+      "sha256": "64c18abeff62c099d68932a60a6d36c967f47db942808583cfd94387e3036055"
+    },
+    {
+      "file": "identical_score_phase.pdf",
+      "pages": 1,
+      "fonts": [
+        {
+          "name": "/GIYMLA+DejaVuSans",
+          "embedded": true
+        },
+        {
+          "name": "/CPUQYB+DejaVuSans",
+          "embedded": true
+        }
+      ],
+      "text_characters": 322,
+      "sha256": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291"
+    }
+  ],
+  "new_model_fits_or_draws": 0
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-13",
+  "question": "Does the corrected-loss margin selector extend to quasi-separated categorical choice designs, and explain the existing public coefficient paths?",
+  "relation_to_main": "Same compensated objective and existing vanishing-power result. Extend its finite-design implication to the maximal separable face; do not add a new estimator or independent framework.",
+  "data_policy": "Reuse all first 60 released-data block allocations, both frozen prediction routines, and all six previously fitted powers. No new participant, questionnaire, AI response, or fitted choice path.",
+  "input_prefix_rows": 1200,
+  "label_rows": 20,
+  "allocations": 60,
+  "seed": 20261109,
+  "prediction_routines": ["AI", "X_only"],
+  "powers": [0.5, 0.1, 0.02, 0.005, 0.001, 0.0002],
+  "face_program": "Maximize sum(s) subject to M v >= s, 0 <= s <= 1. Retain a simultaneous primal exposure vector and a nonnegative neutral-row annihilator from its dual.",
+  "selector": "Minimize the exact unit-power recession a(v), with M_i v >= 1 on maximally separable rows and M_i v = 0 on neutral rows. The objective can be negative off the human separation cone.",
+  "eligibility": "A fixed positive-power original objective must be interior with full curvature rank. All ineligible and unresolved cases remain reported. No inference of strict human separation from ordinary MLE nonexistence.",
+  "outputs": ["60 face classifications and certificates", "120 prediction-by-allocation selector statuses", "720 original path records, retaining unavailable fits", "distance to the entire near-optimal selector set, not an arbitrary LP vertex", "separate strict/quasi/overlap summaries", "all endpoint improvements and reversals"],
+  "numerical_conventions": {"face_tolerance": 1e-7, "selector_face_objective_tolerance": 1e-8, "LP_feasibility_tolerance": 1e-9},
+  "verification": "Independently test each labelled row for exposure; check dual neutral annihilators, original recession, selector primal-dual arithmetic, original support witnesses, frozen predictions, all retained coefficient gradients, and summaries.",
+  "priority": "Classical separation faces and general margin convergence are established. Inspect Albert-Anderson, Ji-Telgarsky, and Rosset-Zhu-Hastie. Assess the objective-specific implication without asserting a new generic margin theorem.",
+  "scope": "A descriptive reanalysis of existing allocations on a fixed categorical support. Five-row blocks lack verified participant IDs; no population uncertainty, new empirical DCE, or human randomization claim. No WTP label or currency unit is inferred from anonymous numeric columns.",
+  "manuscript_policy": "Preserve the reviewed main manuscript until the new finite-design proof and data checks pass. Do not conceal contrary or slow-convergence paths."
+}
