@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-16",
+  "source_hashes": {
+    "choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+    "discrete_menu_boundary.py": "241430dab6ddd2b008c57af8b3ce7d8d6b23da658bc66ca0197ecebb1077dc63",
+    "hard_menu_matched_phase.py": "196647ea2e78b56eeb55876efde72a2138fab4c842b94c69ce1ebadd0ce4a97e",
+    "menu_corrected_logit.py": "d9496f6d18238b9686b2c4f33f430b7ad50b24e2d01ef029581b8a20c37a3178",
+    "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "summarize_discrete_menu_boundary.py": "4f68b6edaf64163566ec2f30af67e0859f84392647f16d828d2a9b7e1c1da42a",
+    "verify_discrete_menu_boundary.py": "cc6fa8365515ba3a62ae4a609bc7b49b1800c0df5d94628c46e79e25b66e7346"
+  },
+  "checkpoint_sha256": "9563ee6358c07ea0984856ea3546bbf5ffca0681637318cf4d9985bc2780dbff",
+  "checkpoint_bytes": 3573146,
+  "checkpoint_parts": [
+    {
+      "file": "checkpoint.part01",
+      "bytes": 1000000,
+      "sha256": "431bac9d4b664a3bd01e9f37510df300dde1e9eb8620b1810ba88180cf4be78e"
+    },
+    {
+      "file": "checkpoint.part02",
+      "bytes": 1000000,
+      "sha256": "e090be88b317ff0c6d49614f22f06f1052078fff6f81a28188855188a48f31cd"
+    },
+    {
+      "file": "checkpoint.part03",
+      "bytes": 1000000,
+      "sha256": "41ab5854a8668ed44674c8bdbe87a2cab047ff968e0f68dae6e7bb1a293c465a"
+    },
+    {
+      "file": "checkpoint.part04",
+      "bytes": 573146,
+      "sha256": "f24a7ef3dfe463643efb5e1209b0a2d5a09a822a32bf8d0feb2f9c070bb19b6c"
+    }
+  ],
+  "trials_csv_sha256": "b2484a9e29d0af2d8c0c317c7966d1cf20b46d9aa39d920158aa9fe319c809bf",
+  "trials_gzip_sha256": "cc3946741faf7325ef23aedd2182d3ce72ae8e6c9982e2c1bb556ba72ba49f4e",
+  "scientific_sources": 9,
+  "existing_independent_cohorts": 1000,
+  "coupled_profile_variants": 3000,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "private_questionnaire_data_included": false,
+  "manuscript_integration_state_at_preparation": "not_yet_integrated",
+  "proof_review": "Internal derivation using a cited existing universality theorem; not independent peer review or a new general universality theorem",
+  "manuscript_integration_state_at_preparation_scope": "Historical preparation snapshot; see the current parent manuscript pointer for subsequent reviewed integration.",
+  "reviewed_parent_integration": "2026-11-16 discrete_menu integration"
+}

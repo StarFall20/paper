@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-16",
+  "stage": "Fixed before discrete-profile availability calculations; extension of the existing compensated boundary, not a new estimator or universal DCE design law",
+  "original_plan": "reports/menu_extension_20261111/plans/hard_menu_phase_plan_20261111.json",
+  "original_trials": "reports/menu_extension_20261111/hard_outputs/hard_menu_matched_phase_trials.csv",
+  "profile_laws": ["gaussian", "symmetric_binary", "symmetric_ternary"],
+  "coupling": "Reuse each original uncentered Gaussian noise entry as the probability driver. Transform before within-menu centering. Retain the original signal, human choices, proxy categories, dimensions and powers exactly.",
+  "binary_transform": "-1 below zero; +1 at or above zero",
+  "ternary_transform": "-sqrt(3/2), 0, +sqrt(3/2), with equal probabilities; cutoffs +/-Phi^-1(2/3)",
+  "existing_independent_cohorts": 1000,
+  "coupled_profile_variants": 3000,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "planned_classifications": 27000,
+  "planned_cells": 54,
+  "replications_per_cell": 500,
+  "independent_interior_LP_selection": "Every trial divisible by 50, every positive-power boundary/rank/unresolved state, and the 20 smallest positive interior margins across non-Gaussian variants",
+  "primary_gaussian_check": "All 9000 classifications must reproduce the existing saved Gaussian states",
+  "uncertainty": "Allocation Monte Carlo standard errors use the original 500 independent cohorts per budget; laws, dimensions and methods are paired variants, not independent samples",
+  "allowed_claim": "Check finite-budget behavior under two independent symmetric discrete attribute laws against the same asymptotic boundary; retain every discrepancy and boundary state",
+  "excluded_claims": ["new general universality theorem", "universal finite-sample frequencies", "risk or confidence-interval validation for discrete profiles", "dependent effect-coded attributes", "orthogonal or D-efficient fixed designs", "predictor trained on evaluation rows", "global originality or journal acceptance certification"]
+}

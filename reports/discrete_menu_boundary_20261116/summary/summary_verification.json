@@ -1,0 +1,11 @@
+{
+  "state": "passed",
+  "source_records": 27000,
+  "source_cells": 54,
+  "paired_comparisons": 36,
+  "table_rows": 6,
+  "maximum_paired_reconstruction_error": 9.367506770274758e-17,
+  "maximum_absolute_discrete_gaussian_frequency_difference": 0.038,
+  "all_cells_retained": true,
+  "finite_sample_equality_claimed": false
+}

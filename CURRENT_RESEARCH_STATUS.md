@@ -1,3 +1,13 @@
+# Independent discrete profiles integrated — 16 November 2026
+
+The [completed extension](reports/discrete_menu_boundary_20261116/README.md) applies the established Oymak–Tropp matrix theorem to the same compensated choice boundary, with contracted probability sets for interior feasibility and the classical pivot-coordinate rank argument after menu centering. Independent symmetric two-/three-level noise profiles are included; the signal remains Gaussian. The existing equal-score/covariance counterexample retains its opposite existence limits in this class. No new estimator or general universality principle is claimed.
+
+All 1000 original cohorts supply 3000 paired profile variants and 27000 classifications. All 9000 Gaussian states reproduce; 8652 exterior directions, 3287 ordinary separators and 322 independent interior programs pass. Default and isolated full workflows reproduce nine scientific outputs byte-for-byte. No new independent cohort, human or AI answer is counted. Finite-budget frequency differences up to 3.8 percentage points remain.
+
+The [current pointer](submission/finite_choice_20261110/reports/current_manuscript.json) now identifies 66 full pages, 28 reading pages, 1278 native math objects, 140 display paragraphs and 17 tables. All 16 preceding tables and 136 displays remain. Abstract/main lexical counts are 174/8518. Every page has direct review or explicit byte-identical PNG inheritance.
+
+The [contribution assessment](reports/discrete_menu_boundary_20261116/contribution_gate.md) keeps the goal active. Specific-result priority, formal PPI++ body/supplement reconciliation, current journal-fit assessment and reviewer-facing archive consolidation remain open. No new database query, exhaustive originality/plagiarism certificate or independent proof review is claimed. Earlier dated entries below are historical.
+
 # Whole-menu probability quality integrated — 16 November 2026
 
 The [completed study](reports/menu_quality_20261115/README.md) reuses all 1000 original cohorts and retains all 15000 method records. All 9000 earlier support states reproduce; all 11018 finite numerical roots pass independent original-objective checks. A separate complete primary refit reproduces nine scientific outputs byte-for-byte. No new cohort, human or AI answer is counted.

@@ -489,7 +489,11 @@ The known-scale comparison concerns sample planning. Along an established varian
 
 A support audit identifies an objective that additional iterations cannot solve. Boundary proximity, curvature and rank address separate numerical and identification questions. Complete GMM, pooling, penalties and one-step updates each specify a fitting operation with its own existence event and target. At 50 labels in the released-record evaluation, power tuning is finite throughout and has higher held-out loss than direct ridge. Reporting objective, availability and human prediction loss makes that practical distinction visible.
 
-Intervals require their own assessment. The known-truth experiments report availability, coverage conditional on issuance and issued-and-covers with their corresponding denominators. Repeated choices require dependence modelling; Hess et al. (2026) distinguish this from parameter uncertainty and preference heterogeneity. This paper's Gaussian boundary assumes independent profiles. Actual categorical designs use the exact support condition. For balanced fixed tasks with identical menu frequencies and menu-only predictions, the two prediction-loss averages cancel at every coefficient and power. Checking this identity first locates the information that correction can add. These fitting choices belong in the reproducible model specification alongside utility terms (Nova et al., 2025).
+Intervals require their own assessment. The known-truth experiments report availability, coverage conditional on issuance and issued-and-covers with their corresponding denominators. Repeated choices require dependence modelling; Hess et al. (2026) distinguish this from parameter uncertainty and preference heterogeneity.
+
+Proposition 8 in Appendix F6 extends the fixed positive-power boundary to independent symmetric noise attributes under stated moment conditions, including independent two- and three-level attributes. The signal remains Gaussian. All 27000 paired profile checks retain the original choices and predictions; finite-budget frequencies differ across attribute laws. This extension concerns existence. Discrete-profile prediction risk requires separate evaluation. Fixed arrays and dependent categorical coding continue to use the exact support condition.
+
+For balanced fixed tasks with identical menu frequencies and menu-only predictions, the two prediction-loss averages cancel at every coefficient and power. Checking this identity first locates the information that correction can add. These fitting choices belong in the reproducible model specification alongside utility terms (Nova et al., 2025).
 
 ## 7 Conclusion
 
@@ -560,6 +564,10 @@ Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of m
 Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html
 
 Nova, G., van Cranenburgh, S., Hess, S. (2025). Understanding the decision-making process of choice modellers. Journal of Choice Modelling 56, 100562. https://doi.org/10.1016/j.jocm.2025.100562
+
+Odlyzko, A.M. (1988). On subspaces spanned by random selections of ±1 vectors. Journal of Combinatorial Theory, Series A 47, 124–133. https://doi.org/10.1016/0097-3165(88)90046-5
+
+Oymak, S., Tropp, J.A. (2018). Universality laws for randomized dimension reduction, with applications. Information and Inference 7, 337–446. https://doi.org/10.1093/imaiai/iax011
 
 Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advances in Neural Information Processing Systems 16. https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html
 

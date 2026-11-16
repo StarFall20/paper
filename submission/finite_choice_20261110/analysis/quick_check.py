@@ -255,7 +255,7 @@ def main():
  report['complete_GMM_comparison_is_not_production_CC_PPI']=True
  subprocess.run([sys.executable,str(root/'analysis/reconcile_probability_risk_tables.py'),'--out',str(a.out/'probability_risk_tables')],check=True,stdout=subprocess.DEVNULL)
  import re
- assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==16
+ assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==17
  report.update(probability_risk_path_records_reconciled=1920,probability_risk_numerical_fits=1401,new_probability_loss_tables_reconciled=['5','D1'],all_eleven_manuscript_tables_reconciled=True)
  subprocess.run([sys.executable,str(root/'analysis/build_radial_publication_assets.py'),'--out',str(a.out/'radial_publication')],check=True,stdout=subprocess.DEVNULL)
  report.update(all_twelve_manuscript_tables_reconciled=True,radial_nested_records=12000,radial_distinct_objectives=10000,radial_paired_transition_rows=24,radial_table6_reconciled=True)
@@ -352,6 +352,17 @@ def main():
  mv=json.loads((mq/'verification/complete_verification.json').read_text())
  assert mv['state']=='passed' and mv['all_records_retained']==15000 and mv['numerical_roots_checked']==11018 and mv['numerical_unresolved']==0
  report.update(all_sixteen_manuscript_tables_reconciled=True,menu_quality_records=15000,menu_quality_numerical_roots_verified=11018,menu_quality_new_model_cohorts=0,menu_quality_primary_refits_rerun_by_quick_check=False)
+ db=root/'results/discrete_menu_boundary'
+ for line in (db/'MANIFEST.sha256').read_text().splitlines():
+  digest,relative=line.split('  ',1);assert hashlib.sha256((db/relative).read_bytes()).hexdigest()==digest,relative
+ ds=pd.read_csv(db/'results/summary.csv');dt=pd.read_csv(root/'manuscript/tableF4.csv',dtype=str)
+ assert len(ds)==54 and len(dt)==6 and ds.replications.eq(500).all() and ds.unresolved.sum()==0
+ for row in dt.to_dict('records'):
+  law={'Gaussian':'gaussian','Two levels':'symmetric_binary','Three levels':'symmetric_ternary'}[row['Attributes']]
+  group=ds[ds.label_menus.eq(int(row['Labels']))&ds.orthogonal_slopes.eq(int(row['Slopes']))&ds.law.eq(law)].set_index('method')
+  for column,method in [('Ordinary','ordinary'),('Corrected','oracle_null_slope_variance'),('Unit','unit')]:assert row[column]==f"{int(group.loc[method,'finite'])}/500"
+ dv=json.loads((db/'verification/verification.json').read_text());assert dv['state']=='passed' and dv['records_reconciled']==27000 and dv['unresolved']==0
+ report.update(all_seventeen_manuscript_tables_reconciled=True,discrete_profile_records=27000,discrete_profile_existing_cohorts=1000,discrete_profile_new_independent_cohorts=0,discrete_profile_primary_programs_rerun_by_quick_check=False)
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_twelve_tables_reconciled':True,'Firth_draws_reconciled':1000}))
 
 if __name__=='__main__':main()

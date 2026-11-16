@@ -62,7 +62,7 @@
     "original_draws_replayed": 500,
     "original_support_status_matches": 1000,
     "unit_shared_fits": 412,
-    "native_Word_pages": 63,
+    "native_Word_pages": 66,
     "all_source_tables_match_CSV": true,
     "joint_power_original_draws_replayed": 6000,
     "new_positive_power_feasibility_checks": 12000,
@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 1228,
+    "native_math_objects": 1278,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -125,7 +125,7 @@
     "hard_menu_simplex_face_and_perfect_label_addendum": true,
     "common_coefficient_MNL_prediction_correction_prior_explicit": true,
     "Scopus_and_Google_Scholar_systematic_review_completed": false,
-    "manuscript_tables": 16,
+    "manuscript_tables": 17,
     "main_figures": 6,
     "score_oracle_path_integrated_into_main_manuscript": true,
     "score_matched_model_draws": 1000,
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Whole-menu quality evaluated on every original cohort; adverse risk results integrated. Specific-result priority, formal PPI++ body/supplement reconciliation, sufficient choice-analysis value and final author review remain open.",
+  "latest_progress": "Same compensated boundary extended to independent symmetric raw noise attributes with interior/rank bridges and full coupled validation. Specific-result priority, formal PPI++ version reconciliation, current journal fit and reviewer-facing consolidation remain open.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -385,13 +385,13 @@
     "date": "2026-11-16",
     "pointer": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
     "package_analysis_sources": 83,
-    "main_body_lexical_words_excluding_math": 8466,
+    "main_body_lexical_words_excluding_math": 8518,
     "abstract_words": 174,
     "paper": {
-      "pages_from_existing_visual_review": 63,
-      "native_math_objects": 1228,
-      "tables": 16,
-      "source_display_blocks": 136
+      "pages_from_existing_visual_review": 66,
+      "native_math_objects": 1278,
+      "tables": 17,
+      "source_display_blocks": 140
     },
     "main_text": {
       "pages_from_existing_visual_review": 28,
@@ -399,10 +399,10 @@
       "tables": 6,
       "source_display_blocks": 35
     },
-    "paper_md_sha256": "f7451b8f27176893d330f833d489292fd585dfa83c03a2ec239f8a8be686193c",
-    "paper_docx_sha256": "32e086902fa6de32dc35934c6d902403bdfd86d514b3a0e01423a34514a4990d",
-    "main_text_md_sha256": "8e2c5972395692e55a5e01e04db34268835f76aceb1221890d1510d07bf3c251",
-    "main_text_docx_sha256": "3478e7ae8638cb371caf11d6d85a63536b8dcdabfeaa2143faf4cc97889eeab3"
+    "paper_md_sha256": "7a6b444958615850f9fad46a0a2c9a39d985a1db97499ede4739320a92f8c804",
+    "paper_docx_sha256": "71e2c248f9d089408a43ccf43a437fbfdfe935b24c93208d79e6f203d92dd4bf",
+    "main_text_md_sha256": "4ce14c46fbd8f702019c136415fc5ab4062e8764b8dce1b0e73cb193ff0a1bf9",
+    "main_text_docx_sha256": "b129c74f7d1862ddf99da35011e8d48ecd343b234019805a1297d7d1d142d3e9"
   },
   "formal_prior_scope_followup_20261115": {
     "report": "../formal_prior_scope_20261115/README.md",
@@ -440,5 +440,23 @@
     "Scopus_actual_literature_queries_added": 0,
     "additional_school_attribute_transfer_observed": false,
     "PPI_formal_full_text_read": false
+  },
+  "discrete_menu_boundary_20261116": {
+    "state": "completed_and_integrated",
+    "report": "../discrete_menu_boundary_20261116/README.md",
+    "existing_independent_cohorts": 1000,
+    "coupled_profile_variants": 3000,
+    "classifications": 27000,
+    "Gaussian_states_reproduced": 9000,
+    "exterior_directions_checked": 8652,
+    "ordinary_separators_checked": 3287,
+    "independent_interior_checks": 322,
+    "isolated_full_rerun_passed": true,
+    "identical_scientific_outputs": 9,
+    "unresolved": 0,
+    "new_independent_cohorts": 0,
+    "new_human_or_AI_answers": 0,
+    "new_general_universality_claim": false,
+    "originality_or_submission_threshold_certified": false
   }
 }

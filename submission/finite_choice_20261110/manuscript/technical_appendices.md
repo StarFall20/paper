@@ -1,5 +1,3 @@
-# Technical appendices
-
 ## Appendix A Proof of the finite ratio boundary
 
 ### A1 Oriented intervals and the finite sample event
@@ -774,6 +772,53 @@ Table F3  Median human menu log loss on shared numerical finite fits
 |80|52|269/500|1.8524|1.6837|1.0207|
 
 At 80 labels and 52 noise slopes, 237 draws have a finite corrected estimate and no finite ordinary estimate. Their mean corrected loss is 2.893638, compared with ridge loss 1.713726 on those same draws. This secondary description follows risk fitting; all 24 condition-by-stratum rows remain. Fixed ridge tuning, the changed pooling target and the known population power limit comparisons to the stated conventions.
+
+### F6 Independent symmetric discrete attributes
+
+The same fixed-power boundary covers independent discrete noise profiles. Keep the Gaussian signal and fixed-dimensional information in Section 3.1 or Appendix F0. Replace the remaining raw attribute entries by independent copies of a fixed symmetric variable with mean zero, variance one and a finite absolute moment of some order $p>4$. These entries are independent of the full fixed-dimensional tuple, including the frozen prediction. Two-level signs and standardized symmetric three-level attributes satisfy the conditions. Within-menu centering is applied after generating the independent entries.
+
+Proposition 8. Fix $0<\lambda\leq1$ and retain the binary or menu model's other assumptions. Suppose its critical ratio is positive. The boundary in (10) or (F.4) gives the same strict limits under the entry conditions above: below it a unique finite minimizer exists with probability tending to one; above it the target is exterior with probability tending to one. Equality and finite-budget transition widths are unspecified.
+
+Oymak and Tropp (2018, author preprint Model 2.4 and Theorem I) supply the existing random-kernel universality theorem. The Gaussian vector defining statistical dimension remains an auxiliary mathematical variable. Two additional steps connect that theorem to finite estimation with discrete attributes: strict interior feasibility and full curvature rank. Gaussian generic position cannot establish these steps for atomic entries.
+
+For menus, stack the uncentered noise entries in $W_0$ with $nJ$ rows and $q$ columns. The residual cone $C$ in (F.7) lies in the blockwise zero-sum subspace. On this cone, $W_0^Tu$ equals the centered-profile map. The raw matrix retains independent entries; an orthogonal rotation of centered discrete entries need not. The previous calculation gives $\delta(C)/m\to\kappa_{J,c}$, so its ratio to the raw ambient dimension tends to $\kappa_{J,c}/[J(1+\tau)]>0$. This verifies the positive dimension-fraction condition in the cited theorem. In the binary representation, conditioned sign orientation preserves independence and symmetry, with ambient dimension $m+N$.
+
+To obtain interior probabilities, let $\Delta_\epsilon=\{p:\sum_jp_j=1,\ p_j\geq\epsilon\}$ for $0<\epsilon<1/J$. Contract the residual sets to
+
+$$D_{L,\epsilon}=(1-\lambda)\Delta_\epsilon-e_Y+\lambda g,$$
+
+$$D_{U,\epsilon}=(\lambda/\tau)(\Delta_\epsilon-g). \qquad (F.14)$$
+
+At unit power the labelled singleton is unchanged. The binary construction contracts each nonsingleton interval by its probability margin. Let $C_\epsilon$ be the resulting product cone intersected with the fixed-dimensional constraints. A nonzero kernel point has positive scale on the original positive-residual event. Rescaling gives probabilities at least $\epsilon$ on every positively weighted menu, placing the target in its support's relative interior.
+
+The support lower bound in A3 or F1 changes by at most a constant times $\epsilon E\|V_i\|$. It stays uniformly positive for sufficiently small fixed $\epsilon$, bounding the minimizing multipliers in a common compact set. Contraction does not reduce the labelled residual's distance from zero, so the same positive mean squared anchor bounds maximizing scales. On these compact sets, the Hausdorff displacement of each scaled residual set is proportional to $\epsilon$. The squared-distance difference has an integrable envelope proportional to $\epsilon(1+\|H\|+\|V_i\|)$. The previous uniform-law and uniform-integrability argument gives $\delta(C_\epsilon)/m\to\kappa_\epsilon$ and, for a fixed model and power,
+
+$$0\leq\kappa_c-\kappa_\epsilon\leq c_\lambda\epsilon. \qquad (F.15)$$
+
+Here $\kappa_c$ denotes the relevant binary or menu boundary, and $c_\lambda$ is a finite model-dependent constant. Cone inclusion gives the first inequality; localization and the distance bound give the second. For a ratio below $\kappa_c$, choose fixed $\epsilon$ with the ratio below $\kappa_\epsilon$. The contracted spherical cone is compact and spherically convex. Conditional application of the lower side of the existing universality theorem gives an interior residual witness with probability tending to one. Above $\kappa_c$, its upper side excludes a nonzero intersection with the original cone. On the positive-anchor event this excludes every feasible moment; strict separation gives negative recession. The probability bound is uniform over the conditioned cones, allowing integration over their randomness.
+
+Full rank follows from the classical pivot-coordinate bound for random discrete vectors (Odlyzko, 1988). If independent entries have largest atom at most $a<1$, their probability of lying in a fixed codimension-$k$ subspace is at most $a^k$: condition on the free coordinates, leaving at most one allowed value for each pivot. Let $B$ be the number of positively weighted menus, $d=B(J-1)$ and $r_0=J$, the rank of the fixed alternative constants and Gaussian signal. Reveal noise columns successively. The preimage of their current span under block centering has codimension $d-r_0-k$ after $k$ independent columns. Summing the resulting conditional bounds yields
+
+$$P(\text{rank failure}\mid V)\leq\frac{a^{d-r_0-q+1}}{1-a}. \qquad (F.16)$$
+
+The bound applies when $d-r_0-q\geq0$. Unit power has $B=N$ and $\kappa_c\leq\tau(J-1)$; smaller positive power has $B=m+N$ and $\kappa_c\leq(1+\tau)(J-1)$. A strict lower-side ratio leaves a positive linear rank gap. The binary argument uses $d=B$ and $r_0=2$. The moment assumptions give a uniform $a<1$: symmetry bounds nonzero atoms by one half, while Hölder's inequality bounds zero mass away from one. In particular, $E|X|^p\leq\nu^p$ and $EX^2=1$ give $P(X≠0)\geq\nu^{-2p/(p-2)}$. This completes the rank and interior bridges, and hence the proposition.
+
+Proposition 2's truth-score identity is samplewise algebra. Its balanced covariance uses only the standardized second attribute moments. The same equal-score, equal-covariance construction consequently has opposite existence limits for independent symmetric discrete noise: the two critical ratios still lie below 0.46 and above 0.72, so ratio 0.47 separates them. This is a consequence of the existing construction under Proposition 8.
+
+The numerical check reuses every cohort from F4. Each uncentered Gaussian noise driver supplies its sign or a three-level quantile transform, with levels $-\sqrt{3/2},0,\sqrt{3/2}$ of equal probability. Signals, choices, proxy categories, dimensions and powers remain fixed. All 27000 classifications, 54 cells and 36 paired differences remain. Each budget has 500 independent cohorts; transformed laws and dimensions are coupled variants. Table F4 reports the highest retained dimension at both budgets. The largest absolute discrete-versus-Gaussian frequency difference across the complete comparisons is 0.038. The ordinary column is the retained human baseline; the proposition concerns fixed strictly positive correction powers.
+
+Table F4  Finite estimates under coupled Gaussian and discrete noise profiles
+
+| Labels | Slopes | Attributes | Ordinary | Corrected | Unit |
+| --- | --- | --- | --- | --- | --- |
+| 40 | 26 | Gaussian | 41/500 | 260/500 | 1/500 |
+| 40 | 26 | Two levels | 51/500 | 256/500 | 1/500 |
+| 40 | 26 | Three levels | 43/500 | 246/500 | 1/500 |
+| 80 | 52 | Gaussian | 32/500 | 269/500 | 0/500 |
+| 80 | 52 | Two levels | 30/500 | 274/500 | 0/500 |
+| 80 | 52 | Three levels | 22/500 | 276/500 | 0/500 |
+
+Independent checks reproduce all 9000 Gaussian states, verify every 8652 exterior direction and 3287 human separator, and solve 322 fixed-margin interior programs. One saved direction exceeds its nominal unit-L1 bound by $1.75\times10^{-7}$; positive normalization and correspondingly scaled recession checks preserve its exterior classification. The initial check and repair are retained. There are no rank-deficient or unresolved cases. These checks concern availability. Dependent effect coding, restricted profile combinations, fixed efficient arrays, respondent panels and arbitrary cross fitting remain outside the transfer conditions. The Gaussian prediction-risk theorem is not extended by Proposition 8.
 
 ## Appendix G Positive utility scales and auxiliary budgets
 

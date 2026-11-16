@@ -1,0 +1,15 @@
+{
+  "initial_verifier_state": "failed",
+  "reason": "Saved LP directions can exceed the nominal unit-L1 bound by solver feasibility tolerance. Direction scale has no role in recession-sign or separation validity.",
+  "failures": [
+    {
+      "law": "symmetric_ternary",
+      "label_menus": 40,
+      "trial": 168,
+      "orthogonal_slopes": 26,
+      "method": "unit",
+      "kind": "exterior",
+      "l1norm": 1.0000001747189418
+    }
+  ]
+}

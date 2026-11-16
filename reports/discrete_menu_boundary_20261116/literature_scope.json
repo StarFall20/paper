@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-16",
+  "search_type": "Targeted ordinary web queries; no new Scopus, Scholar or WOS searches",
+  "priority_or_plagiarism_certified": false,
+  "primary_readings": [
+    {
+      "title": "Universality laws for randomized dimension reduction, with applications",
+      "url": "https://tropp.caltech.edu/papers/OT17-Universality-Laws-preprint.pdf",
+      "version": "Author-hosted September 2017 preprint of 2018 article",
+      "units": "Model 2.4, Theorem I, nondegeneracy and scope discussion; physical pages 13,17,19",
+      "not_read": "Complete 88-page proof not independently verified",
+      "implication": "Generic universality is prior; use its uniform kernel bounds with separate interior and rank arguments"
+    },
+    {
+      "title": "Singularity of random matrices over finite fields",
+      "url": "https://user.math.uzh.ch/maples/maples.srmff.pdf",
+      "units": "Lemma 2.2 and pivot-coordinate proof, physical page 3",
+      "implication": "Classical Odlyzko coordinate bound; the included real-field proof and centered-column application claim no new rank principle"
+    },
+    {
+      "title": "On subspaces spanned by random selections of plus/minus one vectors",
+      "url": "https://www-users.cse.umn.edu/~odlyzko/doc/arch/random.vectors.pdf",
+      "units": "Specified coordinate argument around physical pages 5–6 and university publication metadata",
+      "metadata_url": "https://experts.umn.edu/en/publications/on-subspaces-spanned-by-random-selections-of-1-vectors/",
+      "implication": "Random discrete-vector rank arguments have established lineage"
+    },
+    {
+      "title": "Are Gaussian Data All You Need",
+      "url": "https://proceedings.mlr.press/v202/pesce23a/pesce23a.pdf",
+      "units": "Introduction and Theorems 3.3–3.4/Corollary 3.5, physical pages 2 and 5",
+      "implication": "Generalized-linear Gaussian-mixture and ordinary separability universality are prior; inspected units are not a proof of this compensated two-sample objective"
+    },
+    {
+      "title": "Calibeating Prediction-Powered Inference",
+      "url": "https://arxiv.org/html/2604.21260v2",
+      "units": "Introduction and stated mean-estimation scope; already in previous prior record",
+      "implication": "Rereading adds no new priority claim"
+    }
+  ],
+  "access_limits": [
+    "Formal PPI++ body/supplement reconciliation remains open.",
+    "Formal Candes–Sur individual page and IMS complete-volume retrieval unavailable in this pass; the old arXiv version is distinguished.",
+    "Shell/Node downloads of the Tropp PDF failed; primary text was read through the web service. No downloaded PDF or full-text redistribution is claimed."
+  ]
+}

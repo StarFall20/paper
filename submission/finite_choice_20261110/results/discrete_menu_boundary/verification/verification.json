@@ -1,0 +1,40 @@
+{
+  "state": "passed",
+  "records_reconciled": 27000,
+  "summary_cells": 54,
+  "original_gaussian_states_matched": 9000,
+  "all_exterior_directions_checked": 8652,
+  "all_ordinary_separators_checked": 3287,
+  "independent_fixed_margin_LPs": 322,
+  "maximum_recession_gap_error": 3.885780586188048e-16,
+  "minimum_verified_exterior_gap": 8.48596637596788e-06,
+  "minimum_human_separator_mean": 0.1376636730102458,
+  "maximum_raw_centered_moment_difference": 1.5543122344752192e-15,
+  "maximum_raw_direction_l1": 1.0000001747189418,
+  "directions_outside_nominal_L1_tolerance": [
+    {
+      "law": "symmetric_ternary",
+      "label_menus": 40,
+      "trial": 168,
+      "orthogonal_slopes": 26,
+      "method": "unit",
+      "raw_l1": 1.0000001747189418,
+      "positive_scale_divisor": 1.0000001747189418
+    }
+  ],
+  "direction_check_convention": "Normalize every stored direction by max(1,L1 norm); check homogeneous gaps at the same scale. Primary states and directions remain unchanged.",
+  "rank_deficient": 0,
+  "positive_power_boundary_cases": 0,
+  "unresolved": 0,
+  "software_checks": {
+    "discrete_transform_fixtures_passed": true,
+    "pivot_rank_enumeration_checks": 6,
+    "maximum_enumerated_probability_to_bound": 1.0000000000000002,
+    "nonlinear_transform_after_centering_rejected": true
+  },
+  "source_sha256": "cc6fa8365515ba3a62ae4a609bc7b49b1800c0df5d94628c46e79e25b66e7346",
+  "primary_fits_rerun": false,
+  "independent_proof_or_priority_review": false,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0
+}
