@@ -1,3 +1,11 @@
+# Formal-version comparison awaits source files — 16 November 2026
+
+The [three-turn audit](reports/formal_version_block_audit_20261116/README.md) revalidates the same formal nearest-prior source gap. The Mac is currently locked; public author routes still lead to arXiv v2 or the unchanged old code branch. No formal article or Supplement A file was found among matching downloads. Earlier verified publisher permission denial and school application-registration failure have no resolution evidence.
+
+The preceding goal turn made actual manuscript and package progress. All currently independent attribution, Word review, table reconciliation and archive updates are complete. Current 66/28-page manuscripts, 17 tables, 83 root analysis scripts and 729 scientific-file hashes remain unchanged. The backup branch still matches the prior verified release. This audit adds no scientific result, model cohort or database search.
+
+The objective has not been achieved. Specific-result priority and sufficient choice-analysis value remain unresolved. Formal PPI++ article and Supplement A PDFs, or working authorized full-text access, are needed before that comparison can proceed. The audit requests a blocked goal state while preserving the complete objective and existing results. Older entries below are historical.
+
 # Regular prior comparison integrated — 16 November 2026
 
 The [revision](reports/regular_prior_revision_20261116/README.md) incorporates Lee–Kim (2026) and the exact all-unit/disjoint-sample correspondence into Section 3.2 and the bibliography. The reviewed complete/reading Word files remain 66/28 pages, with 1279/236 native math objects. All 17 tables and 140 display bodies are unchanged. The abstract has 174 words and Sections 1–7 have 8560 lexical words under the retained counting rule.

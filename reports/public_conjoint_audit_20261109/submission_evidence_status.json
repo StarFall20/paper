@@ -54,7 +54,7 @@
   ],
   "self_review_scores_used_as_evidence": false,
   "new_questionnaire_or_AI_generation": false,
-  "genuine_blocker": false,
+  "genuine_blocker": true,
   "new_completed_evidence": {
     "Gaussian_paired_draws": 6000,
     "raw_LP_unknowns": 1,
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Lee–Kim attribution and exact objective correspondence integrated into the reviewed manuscript; 17 tables and all scientific sources/outputs unchanged. Formal PPI++ A–E comparison and sufficient contribution-value assessment remain open.",
+  "latest_progress": "Current manuscript, scientific hashes and backup revalidated. Formal PPI++ result-level comparison remains impossible with available files and access; three-turn source-block audit satisfied. No new scientific claim or model run.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -494,5 +494,12 @@
     "root_scientific_sources_unchanged": 83,
     "scientific_files_unchanged": 729,
     "formal_PPI_reconciliation_complete": false
+  },
+  "formal_version_block_audit_20261116": {
+    "evidence": "../formal_version_block_audit_20261116/audit.json",
+    "consecutive_resumed_goal_turns_with_same_condition": 3,
+    "specific_result_comparison_completed": false,
+    "required_input": "Formal PPI++ article PDF and Supplement A containing Appendices A–E",
+    "requested_goal_status_after_audit": "blocked"
   }
 }
