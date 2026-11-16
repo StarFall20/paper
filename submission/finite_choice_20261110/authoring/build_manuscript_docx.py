@@ -142,13 +142,14 @@ def build():
  footer=s.footer.paragraphs[0];footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
  field=OxmlElement('w:fldSimple');field.set(qn('w:instr'),'PAGE');footer._p.append(field)
  d.core_properties.title='When prediction assisted logit estimates exist';d.core_properties.author='';d.core_properties.subject='Binary and multinomial choice estimation with finite auxiliary data'
- lines=text.splitlines();i=0;mathcount=0
+ lines=text.splitlines();i=0;mathcount=0;in_references=False
  while i<len(lines):
   line=lines[i].strip();i+=1
   if not line:continue
   if line.startswith('# '):d.add_paragraph(line[2:],style='Title');continue
   if line.startswith('## '):
    p=d.add_paragraph(line[3:],style='Heading 1')
+   if line=='## References':in_references=True
    if line.startswith('## Appendix A'):p.paragraph_format.page_break_before=True
    continue
   if line.startswith('### '):d.add_paragraph(line[4:],style='Heading 2');continue
@@ -167,7 +168,7 @@ def build():
    while i<len(lines) and lines[i].strip().startswith('|'):tablelines.append(lines[i].strip());i+=1
    rows=[[x.strip() for x in row.strip('|').split('|')] for j,row in enumerate(tablelines) if j!=1]
    table=d.add_table(rows=0,cols=len(rows[0]));table.autofit=False;table.alignment=WD_TABLE_ALIGNMENT.CENTER
-   widths=[1.75,1.12,1.25,1.12,1.26] if rows[0][:2]==['Estimator','50 AI'] else [.52,.8,.8,1.05,1.05,1.25] if rows[0][:2]==['Labels','Auxiliary rows'] else [1.25,.7,1.05,1.2,1.1,1.2] if rows[0][0]=='Prediction' and 'Shared fits' in rows[0] else [.65,.65,.8,1.25,1.25,1.25] if rows[0][:2]==['Labels','Power'] else [.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else [.75,.55,.75,1.05,1.05,1.05] if rows[0][0]=='Alternatives' else [.55,1.05,.75,1.2,1.2,1.3] if rows[0][:2]==['Labels','Noise slopes per label'] else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5],7:[.55,.85,.95,1.05,1.05,1.025,1.025]}[len(rows[0])]
+   widths=[.65,.65,.95,1.4,1.4,1.45] if rows[0][:2]==['Labels','Slopes'] else [1.75,1.12,1.25,1.12,1.26] if rows[0][:2]==['Estimator','50 AI'] else [.52,.8,.8,1.05,1.05,1.25] if rows[0][:2]==['Labels','Auxiliary rows'] else [1.25,.7,1.05,1.2,1.1,1.2] if rows[0][0]=='Prediction' and 'Shared fits' in rows[0] else [.65,.65,.8,1.25,1.25,1.25] if rows[0][:2]==['Labels','Power'] else [.85,.65,1.,1.3,1.4,1.3] if rows[0][0]=='Total labels' else [.75,.55,.75,1.05,1.05,1.05] if rows[0][0]=='Alternatives' else [.55,1.05,.75,1.2,1.2,1.3] if rows[0][:2]==['Labels','Noise slopes per label'] else {4:[1.35,1.7,.8,2.65],5:[.7,.85,1.2,1.2,1.65],6:[1.2,1.65,.7,.65,.8,1.5],7:[.55,.85,.95,1.05,1.05,1.025,1.025]}[len(rows[0])]
    widths=[x*6.5/sum(widths) for x in widths]
    for c,w in zip(table.columns,widths):c.width=Inches(w)
    for j,values in enumerate(rows):
@@ -185,6 +186,11 @@ def build():
     if j==0:trpr.append(OxmlElement('w:tblHeader'))
    d.add_paragraph().paragraph_format.space_after=Pt(2);continue
   p=d.add_paragraph()
+  if in_references:
+   p.paragraph_format.space_after=Pt(3)
+   p.paragraph_format.left_indent=Inches(.2)
+   p.paragraph_format.first_line_indent=Inches(-.2)
+   p.paragraph_format.keep_together=True
   lead=re.match(r'^((?:Proposition|Theorem|Corollary) [0-9]+\.)',line)
   if lead:p.add_run(lead[0]).bold=True;rich(p,line[len(lead[0]):])
   else:rich(p,line)

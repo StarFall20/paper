@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-15",
-  "integration": "reports/auxiliary_manuscript_integration_20261115.json",
-  "visual_qa": "reports/auxiliary_manuscript_visual_qa_20261115.json",
+  "date": "2026-11-16",
+  "integration": "reports/menu_quality_integration_20261116.json",
+  "visual_qa": "reports/menu_quality_visual_qa_20261116.json",
   "historical_reports_are_dated_snapshots": true
 }

@@ -1,3 +1,13 @@
+# Whole-menu probability quality integrated — 16 November 2026
+
+The [completed study](reports/menu_quality_20261115/README.md) reuses all 1000 original cohorts and retains all 15000 method records. All 9000 earlier support states reproduce; all 11018 finite numerical roots pass independent original-objective checks. A separate complete primary refit reproduces nine scientific outputs byte-for-byte. No new cohort, human or AI answer is counted.
+
+Higher availability does not imply better forecasts. At 80 labels and 52 noise slopes, correction is finite on 269/500 draws, with median new-menu log loss 1.8524 versus same-draw ridge 1.6837. With explicit ridge fallback, its all-allocation mean exceeds direct ridge by 0.568505 (allocation MCSE 0.128705). All six conditions, 30 method cells and 24 secondary availability strata remain. Fixed ridge and target-changing pooling have their stated limits.
+
+The current reviewed manuscript integrates Section 5.7, Appendix F5 and Table F3: 63 full pages, 28 reading pages, 1228 native math objects, 136 display paragraphs and 16 tables. All 15 previous tables and display bodies remain. The abstract has 174 words and main text has 8466 lexical words. The [current pointer](submission/finite_choice_20261110/reports/current_manuscript.json) identifies the reviewed source/Word hashes and page evidence.
+
+The goal remains active. Specific-result priority, sufficient choice-analysis value, formal PPI++ body/supplement reconciliation and final author review remain open. Two browser inventory attempts timed out; zero Scopus literature queries were added. This integration does not certify originality, absence of plagiarism or journal acceptance. Earlier dated entries below are historical.
+
 # Formal-prior scope and current-status reconciliation — 15 November 2026
 
 The [new focused audit](reports/formal_prior_scope_20261115/README.md) verifies specified sections of two formal publication PDFs and all 250 exact row-tail configurations. It clarifies the need to retain quantitative compensation, without claiming a new general theorem or originality proof. Formal PPI++ body/supplements remain unread; metadata and HTML security responses are distinguished. No database query or institutional identity retransmission is added.

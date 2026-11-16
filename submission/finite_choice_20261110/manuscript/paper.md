@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Prediction assisted logit combines human choices and machine predictions through a compensated loss. We derive its finite-estimation boundary with finite auxiliary samples, Gaussian attributes, fitted choice constants and frozen predictions. An oracle comparison holds every realized truth score and the full fixed dimensional covariance equal while finite-solution probabilities converge to opposite limits. Known positive utility scales preserve human separation and show how increasing auxiliary data along an established variance power rule can remove attainment as regular covariance falls. Small positive powers attain the largest existence region. Above ordinary binary separation, powers tending to zero recover finite roots with diverging human probability log loss. Whole-menu calculations retain common attribute coefficients and alternative constants. Released vaccine choices provide exact design audits and held-out prediction checks. From the smallest to largest auxiliary pool, six of 500 allocations lose attainment under either retuned predictor at 20 labels; none does at 50. Known-truth experiments evaluate parameter error and coverage separately. The boundary determines a global estimation property beyond calibration and regular efficiency comparisons.
+Prediction assisted logit combines human choices and machine predictions through a compensated loss. We derive its finite-estimation boundary with finite auxiliary samples, Gaussian attributes, fitted choice constants and frozen predictions. An oracle comparison holds every realized truth score and the full fixed dimensional covariance equal while finite-solution probabilities converge to opposite limits. Known positive utility scales preserve human separation and show how increasing auxiliary data along an established variance power rule can remove attainment as regular covariance falls. Small positive powers attain the largest existence region. Above ordinary binary separation, powers tending to zero recover finite roots with diverging human probability log loss. Whole-menu calculations retain common attribute coefficients and alternative constants; higher availability does not ensure lower human prediction loss. Released vaccine choices provide exact design audits and held-out prediction checks. From the smallest to largest auxiliary pool, six of 500 allocations lose attainment under either retuned predictor at 20 labels; none does at 50. Known-truth experiments evaluate parameter error and coverage separately. The boundary determines a global estimation property beyond calibration and regular efficiency comparisons.
 
 Keywords: discrete choice; multinomial logit; prediction powered inference; logistic separation; finite auxiliary samples
 
@@ -253,7 +253,7 @@ The final condition distinguishes binary choice from larger menus. An always wro
 
 Figure 3 shows a matched hard prediction illustration with three alternatives, signal 1.5, proxy error 0.25 and auxiliary ratio one. The established fixed dimensional variance criterion for one orthogonal common slope gives power 0.219576. The corresponding boundary is 0.7039, compared with 0.2164 at unit power and 0.5594 for ordinary logit. This reference uses the hard predictor's actual score covariance, derived in Appendix F. Its population value is available in the simulation; it is not a newly estimated tuning algorithm.
 
-All methods share each Gaussian menu sample, observed choices, predictions and attribute dimensions. Each budget supplies 500 independent draws. At 80 labelled menus and 52 orthogonal attributes, finite fit frequencies are 0.538 for the variance reference, 0.064 for ordinary logit and zero at unit power. The paired reference minus ordinary difference is 0.474 with Monte Carlo standard error 0.02235. Boundary locations at these finite budgets remain shifted from the asymptotic limits. The complete 18 cells, 9000 classifications and 1090 independently checked ordinary boundary directions accompany the figure. Accuracy, interval performance and training costs retain their separate comparisons in Section 5.
+All methods share each Gaussian menu sample, observed choices, predictions and attribute dimensions. Each budget supplies 500 independent draws. At 80 labelled menus and 52 orthogonal attributes, finite fit frequencies are 0.538 for the variance reference, 0.064 for ordinary logit and zero at unit power. The paired reference minus ordinary difference is 0.474 with Monte Carlo standard error 0.02235. Boundary locations at these finite budgets remain shifted from the asymptotic limits. The complete 18 cells, 9000 classifications and 1090 independently checked ordinary boundary directions accompany the figure. Section 5.7 evaluates coefficient and probability quality on these same menus.
 
 ![Figure 3](figures/figure_menu_phase.png)
 
@@ -474,6 +474,12 @@ With 160 labels, the variance-rule finite frequency falls from 1 to 0.006 as aux
 Figure 6  Finite-estimation boundary and regular covariance along the existing variance rule. All 13 planned auxiliary ratios enter the population calculation. Both scale laws have identical regular covariance at each ratio. The dotted dimension ratio 0.25 lies below the constant-scale boundary and crosses the variable-scale curve. The held-power curve uses 1/41. Covariance is the fixed dimensional oracle calculation; it supplies no proportional-dimensional risk guarantee.
 
 Every one of the 10000 distinct corrected objectives receives an independent original-loss support check. The 12000 reported criterion records include 2000 explicit low-ratio duplicates. All 1923 negative recession directions and 52 independent population integrals are retained, with no unresolved state. At ratio one, 2000 states reproduce the preceding radial study. These are generated model data, separate from the released-choice application and the private questionnaire.
+
+### 5.7 Probability quality on the same choice menus
+
+We refit all 1000 Gaussian cohorts and all three nested dimensions from Section 3.9. The original human choices, predictions and fixed powers remain unchanged. Human ridge and equal-menu-weight pooling add explicit comparators. All 15000 records are retained. Ridge penalizes every fitted coefficient by its squared norm divided by twice the label budget. Pooling uses observed human categories and hard auxiliary predictions. Its target differs from the compensated loss. Neither comparator is tuned against the evaluation risk.
+
+At 80 labelled menus and 52 orthogonal attributes, the variance-reference correction yields 269 finite estimates and ordinary logit yields 32. On the same 269 draws, median new-menu human log loss is 1.8524 for correction, 1.6837 for ridge and 1.0207 for pooling. With ridge substituted in the 231 unavailable correction cases, all-allocation mean loss is 2.264907, compared with 1.696402 for direct ridge; the paired excess is 0.568505 with Monte Carlo standard error 0.128705. Appendix F5 retains every condition and separates conditional fits from this explicit fallback rule. Greater availability in this experiment does not establish a prediction advantage.
 
 ## 6 Implications for choice analysis
 
@@ -1244,6 +1250,27 @@ Table F2  Matched finite fit frequencies with hard predicted categories
 |80|0.65|0.064|0.000|0.538|
 
 Independent finite support and NNLS checks include hard predictions and exact boundary cases. One residual LP initially reported an unknown solver status. A separately formulated nonnegative variable program with an interior point algorithm confirms infeasibility; direct evaluation of its saved direction gives recession cost $-0.002705354$. Original outputs and the interrupted checkpoint are preserved. The completed run retains every planned draw. These checks establish numerical consistency for the displayed calculations, without asserting an independent proof review or priority certificate.
+
+### F5 Parameter and probability quality
+
+The follow-up reuses all six conditions of the existing availability experiment. Five methods give 30 cells with 500 draws each. Its plan preceded risk fitting, after the original settings had been examined. All 9000 support states reproduce; 11018 numerical finite fits pass an original-objective score check. The archive retains coefficients, squared errors, loss means, medians, quantiles and maxima.
+
+Conditional on a fitted coefficient, Gaussian rotation replaces its noise component by its norm times independent alternative normals, retaining constants and the signal slope. Eight scrambled normal integrals use 16384 total nodes per fit, without generating evaluation choices. Independent antithetic integration checks 67 fits, including the 20 largest norms. Integration error and allocation Monte Carlo uncertainty are distinct.
+
+Table F3 compares median human log loss on common available draws. Complete tables retain all five methods and fallback results. Under the generating law, true-model loss is approximately 0.72334; uniform choice gives $\log3$, approximately 1.09861.
+
+Table F3  Median human menu log loss on shared numerical finite fits
+
+|Labels|Slopes|Shared|Corrected|Ridge|Pooling|
+|---|---|---|---|---|---|
+|40|6|499/500|0.8518|0.8262|0.8073|
+|40|16|447/500|1.1547|1.0409|0.9000|
+|40|26|260/500|1.7641|1.3454|1.0256|
+|80|12|500/500|0.8274|0.8278|0.7939|
+|80|32|490/500|1.1356|1.1361|0.8841|
+|80|52|269/500|1.8524|1.6837|1.0207|
+
+At 80 labels and 52 noise slopes, 237 draws have a finite corrected estimate and no finite ordinary estimate. Their mean corrected loss is 2.893638, compared with ridge loss 1.713726 on those same draws. This secondary description follows risk fitting; all 24 condition-by-stratum rows remain. Fixed ridge tuning, the changed pooling target and the known population power limit comparisons to the stated conventions.
 
 ## Appendix G Positive utility scales and auxiliary budgets
 

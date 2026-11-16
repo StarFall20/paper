@@ -1,0 +1,12 @@
+{
+  "state": "passed",
+  "original_conditions": 6,
+  "table_rows": 6,
+  "paired_rows": 30,
+  "fallback_rows": 18,
+  "all_availability_strata": 24,
+  "maximum_paired_or_fallback_error": 0.0,
+  "stratum_analysis": "Secondary descriptive analysis after observing primary risk outputs; every stratum retained.",
+  "table_denominator": "Shared numerical finite fits for corrected, ridge and pooling in each cell.",
+  "original_primary_records_changed": false
+}

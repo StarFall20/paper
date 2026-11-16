@@ -324,6 +324,29 @@ Each cell averages 500 allocations, except unit PPI at 50 labels: the AI and att
 
 All 14000 method records and the eight exterior corrected moments receive an independent original-loss and metric check. The 1000 distinct human Firth designs retain 3000 initializations, with direct log-determinant and finite-difference checks. The compressed coefficient archive reproduces these checks in a separate directory. This verifies the retained results and does not assert respondent independence or a second complete primary refit.
 
+### C7 Public auxiliary-budget audit and exact obstruction
+
+The plan fixes the 1200-row prefix, 500 source-convention block permutations, seed 20261109, label budgets 20 and 50, and six nested auxiliary budgets. Both nuisance routines produce frozen predictions before the budget path. The finite ridge pilot also stays fixed. Auxiliary human responses are replaced by missing values before target construction, fitting and power tuning. Three methods give 72 aggregate cells and 36000 records. Duplicate powers are combined within a cell for computation, leaving 25792 support-program calls; identical targets can still recur across cells. Neither count denotes independent respondents or distinct statistical models.
+
+Table C2  Retuned finite estimates from the smallest to largest public auxiliary pools
+
+|Labels|Prediction|Finite first|Finite last|To exterior|To zero power|
+|---|---|---|---|---|---|
+|20|AI aided|156/500|161/500|1/500|3/500|
+|20|Attributes only|142/500|150/500|1/500|2/500|
+|50|AI aided|500/500|500/500|0/500|0/500|
+|50|Attributes only|500/500|500/500|0/500|0/500|
+
+The largest pool has 1180 rows at 20 labels and 1150 at 50. The two finite-to-exterior entries are allocation 435, indexed from zero. Three AI-aided records and two attributes-only records instead lose attainment by selecting zero power on separated human designs. These seven loss records involve six allocations. Nonfinite-to-finite transitions number nine and eleven, respectively, giving the reported net gains of five and eight. The complete tables retain all budgets, all methods, reverse transitions and zero powers. All 8248 boundary records have power zero and correspond to ordinary human nonattainment. There are no unresolved support states. At 20 labels, 391/500 human designs are separated; at 50 labels all 500 human fits have overlap. All 1000 labelled design matrices have full column rank.
+
+The secondary case rule selects the smallest allocation index among retuned first-to-last finite-to-exterior transitions, after the primary audit. At 20 labels, AI-aided power changes from 0.058011 to 0.101130 and attributes-only power from 0.062699 to 0.098288. Direct numerical checks of the two earlier roots give maximum score residual below $4.5\times10^{-10}$ and positive information eigenvalues.
+
+At the enlarged pool, primitive integer directions in the stored 11-contrast order are $(-2,20,-3,-8,0,-10,-14,-13,5,14,13)$ and $(0,4,-1,-1,0,-2,-3,-3,1,3,3)$. With integer attributes and frozen prediction values interpreted as exact dyadic fractions, each direction has exactly zero human recession and strictly negative unit-power corrected recession. The respective values after normalization by the direction's sum of absolute coordinates are -0.00403114 and -0.000715623. Since recession is affine in power and the human term is zero, every positive power is unbounded below. The same directions separate the human choices weakly with some strict margins, establishing zero-power nonattainment. Uniform prediction perturbations below 0.0020579 preserve both negative signs. These are exact signs for the stored prediction values; the earlier finite-root checks are numerical.
+
+The positive semidefinite score-covariance trace at the frozen ridge pilot falls from 6.301625 to 5.615861 in the AI-aided case and from 6.284599 to 5.619660 for attributes alone. This pilot diagnostic is separate from the pooled quadratic used for power selection. Neither is an observed estimator variance or a confidence-interval guarantee. PPI++ already includes the finite auxiliary-sample covariance term. The saved case illustrates objective attainment, using classical recession geometry.
+
+The independent verifier reconstructs every record, checks 1000 human designs, 625 planned positive-power interval programs, 3602 method-level negative directions and 120 paired rows. It does not repeat every primary support call. A separate verifier regenerates both case predictors and checks the exact arithmetic. Compressed records, complete status tables, plans, numerical roots and integer directions are included in the self-contained dated supplement. Its default workflow independently reconstructs and verifies these outputs; the documented full workflow reruns the primary audit from separately fetched pinned inputs.
+
 ## Appendix D Powers approaching zero
 
 ### D1 Existence on human separating directions
@@ -546,6 +569,49 @@ Table E1  Paired finite solution frequencies with identical calibrated predictio
 
 The difference is aligned minus external. Monte Carlo standard errors use repetition level paired indicators; rows share draws. The last 80 label row has the reverse ordering. These probabilities do not establish general prediction superiority or interval validity.
 
+### E5 A worked training rule at a fixed total budget
+
+Let $t/B\to\alpha\in(0,1)$ training labels be independent of $m=B-t$ correction labels, with $d/B\to\rho>0$ Gaussian attribute slopes and $N/B\to\nu>0$ auxiliary profiles. Human choices follow $P(Y=1\mid X)=\sigma(\gamma X_1)$. An observed binary proxy $Z$ flips $Y$ with probability $\epsilon=1/4$, independently of attributes conditional on $Y$. The proxy is available on training, correction and auxiliary rows. Auxiliary choices define the simulation's joint law and remain hidden from both training and correction. Fit the zero-intercept score by
+
+$$\widehat v_X=t^{-1}\sum_{i=1}^t(2Y_i-1)X_i, \qquad (E.5)$$
+
+$$\widehat v_Z=t^{-1}\sum_{i=1}^t(2Y_i-1)(2Z_i-1). \qquad (E.6)$$
+
+The prediction is $g=\sigma(X^T\widehat v_X+\widehat v_Z(2Z-1))$. Empirical signed-feature means and their signal/noise laws are classical; Saglietti and Zdeborova (2022, equations 13 and 23–24) use them in a Gaussian-mixture distillation model. Here they supply an explicit training case for the compensated objective. The learner uses only training attributes, proxies and labels.
+
+Write $a_t=(\widehat v_X)_1$ and $b_t^2=\sum_{j=2}^d(\widehat v_X)_j^2$. Laws of large numbers give $a_t\to a_\gamma=E[S\operatorname{tanh}(\gamma S/2)]$ and $\widehat v_Z\to1-2\epsilon$. Conditional on training signal coordinates, choices and proxies, the remaining coefficients are independent $N(0,1/t)$. Thus $t b_t^2$ has exactly a chi-square law with $d-1$ degrees of freedom, and
+
+$$b_t^2\to\rho/\alpha. \qquad (E.7)$$
+
+Rotating these noise attributes along their fitted coefficient vector gives fresh independent standard normal indices $S,T$ and independent remaining Gaussian columns. The frozen prediction converges to
+
+$$g_{\rho,\alpha}=\sigma\{a_\gamma S+\sqrt{\rho/\alpha}T+(1-2\epsilon)(2Z-1)\}. \qquad (E.8)$$
+
+The utility model fits the $T$ direction, with true slope zero. Its remaining Gaussian column count is $d-2$. The conditional argument in E2 now also retains $Z$ and its fitted coefficient. The support cancellation in E1 is unchanged. For the uniform scale bound use $E(Y-g)^2\geq E\{\operatorname{Var}(Y\mid S,Z)\}>0$: both values of $Y$ have positive posterior probability because $0<\epsilon<1/2$ and the human logit is interior. This bound is uniform over training coefficients. Compact localization and continuity in $(a_t,b_t,\widehat v_Z)$ then give the fixed positive power and vanishing positive power conclusions as in E2. This verifies the training condition for the stated rule.
+
+The ratios entering that boundary are $\kappa=\rho/(1-\alpha)$ and $\tau=\nu/(1-\alpha)$. Retain the dependence of $g_{\rho,\alpha}$ on $\rho$ when applying the boundary. At $\gamma=1.5$, $\rho=0.3$ and $\nu=1$, the all-power envelopes are 0.477758 and 0.510186 for training fractions 0.25 and 0.5. Their required correction ratios are 0.4 and 0.6. The larger training allocation lies above its envelope while its limiting predictor error is lower. Direct human logit retains ratio 0.3, below its ordinary boundary 0.390286. The envelope integrals have independent numerical checks. This gives an implicit budget condition in $\rho$.
+
+Table E2  Finite estimates at fixed total human and auxiliary resources
+
+|Total labels|Slopes|Training labels|Some positive power|All-label human MLE|
+|---|---|---|---|---|
+|80|24|20|370/500|440/500|
+|80|24|40|125/500|445/500|
+|80|36|20|50/500|64/500|
+|80|36|40|1/500|53/500|
+|160|48|40|419/500|485/500|
+|160|48|80|90/500|480/500|
+|160|72|40|25/500|37/500|
+|160|72|80|0/500|39/500|
+
+Each condition has 500 independent simulated cohorts, with $N=B$. All powers and the all-label human comparison within a condition share data. Conditions use separate draws. The secondary audit reuses all 4000 primary proxy-informed cohorts: 1080 have explicit positive-power witnesses and 2920 have negative recession directions for every positive power. Each obstruction direction strictly separates its correction labels and has negative unit-power recession cost; the original recession is then negative at every positive power. These directions have independently checked strict normalized margins above $1.4\times10^{-5}$. The all-label human baseline also uses the training labels and can remain finite in those cohorts. The complete fixed-power tables, plans, compressed directions and independent verifiers accompany the manuscript.
+
+An attributes-only control removes $Z$ and retains another 4000 cohorts. For a frozen prediction measurable only in fitted attributes, the correctly specified human model gives
+
+$$E[X(\mu-Y)\{X(\mu-g)\}^T]=0. \qquad (E.9)$$
+
+Its regular variance-optimal power is zero, apart from degenerate ties. The proxy supplies additional conditional score information. Final prediction loss, interval coverage and allocation optimality require separate evaluation.
+
 ## Appendix F Whole menu boundary and hard predictions
 
 ### F0 Model and boundary
@@ -687,6 +753,27 @@ Table F2  Matched finite fit frequencies with hard predicted categories
 |80|0.65|0.064|0.000|0.538|
 
 Independent finite support and NNLS checks include hard predictions and exact boundary cases. One residual LP initially reported an unknown solver status. A separately formulated nonnegative variable program with an interior point algorithm confirms infeasibility; direct evaluation of its saved direction gives recession cost $-0.002705354$. Original outputs and the interrupted checkpoint are preserved. The completed run retains every planned draw. These checks establish numerical consistency for the displayed calculations, without asserting an independent proof review or priority certificate.
+
+### F5 Parameter and probability quality
+
+The follow-up reuses all six conditions of the existing availability experiment. Five methods give 30 cells with 500 draws each. Its plan preceded risk fitting, after the original settings had been examined. All 9000 support states reproduce; 11018 numerical finite fits pass an original-objective score check. The archive retains coefficients, squared errors, loss means, medians, quantiles and maxima.
+
+Conditional on a fitted coefficient, Gaussian rotation replaces its noise component by its norm times independent alternative normals, retaining constants and the signal slope. Eight scrambled normal integrals use 16384 total nodes per fit, without generating evaluation choices. Independent antithetic integration checks 67 fits, including the 20 largest norms. Integration error and allocation Monte Carlo uncertainty are distinct.
+
+Table F3 compares median human log loss on common available draws. Complete tables retain all five methods and fallback results. Under the generating law, true-model loss is approximately 0.72334; uniform choice gives $\log3$, approximately 1.09861.
+
+Table F3  Median human menu log loss on shared numerical finite fits
+
+|Labels|Slopes|Shared|Corrected|Ridge|Pooling|
+|---|---|---|---|---|---|
+|40|6|499/500|0.8518|0.8262|0.8073|
+|40|16|447/500|1.1547|1.0409|0.9000|
+|40|26|260/500|1.7641|1.3454|1.0256|
+|80|12|500/500|0.8274|0.8278|0.7939|
+|80|32|490/500|1.1356|1.1361|0.8841|
+|80|52|269/500|1.8524|1.6837|1.0207|
+
+At 80 labels and 52 noise slopes, 237 draws have a finite corrected estimate and no finite ordinary estimate. Their mean corrected loss is 2.893638, compared with ridge loss 1.713726 on those same draws. This secondary description follows risk fitting; all 24 condition-by-stratum rows remain. Fixed ridge tuning, the changed pooling target and the known population power limit comparisons to the stated conventions.
 
 ## Appendix G Positive utility scales and auxiliary budgets
 

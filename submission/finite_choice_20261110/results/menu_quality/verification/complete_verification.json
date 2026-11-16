@@ -1,0 +1,19 @@
+{
+  "state": "passed",
+  "all_original_support_states_reconciled": 9000,
+  "all_records_retained": 15000,
+  "numerical_roots_checked": 11018,
+  "maximum_original_objective_gradient_l2": 9.982801427826926e-10,
+  "maximum_original_objective_value_difference": 1.9539925233402755e-14,
+  "maximum_coefficient_error_reconstruction_difference": 0.0,
+  "summary_cells_reconciled": 30,
+  "maximum_summary_relative_error": 2.0149429069056293e-16,
+  "larger_independent_integrals": 67,
+  "larger_integral_nodes_per_fit": 262144,
+  "larger_integral_policy": "Deterministic stride through numerical fits plus the 20 largest norms. Scramble diagnostics are not deterministic error certificates.",
+  "numerical_unresolved": 0,
+  "primary_source_sha256": "c36abfc20de51a4e61e94f916093a949ecd5d9422a42e7f5ab5df8b93f8680f2",
+  "verifier_source_sha256": "3bec51939a6045ab9d267e777ed3c964fc5b95030cbde23c0c30f33507d61115",
+  "new_primary_rerun": false,
+  "independent_expert_or_originality_review": false
+}

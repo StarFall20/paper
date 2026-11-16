@@ -1,0 +1,11 @@
+{
+  "population": "Independent new Gaussian alternative profiles under the original known human model.",
+  "exact_rotation": "Given fitted beta, noise utilities have distribution norm(beta_noise) times J independent standard normals.",
+  "human_truth_log_loss_integral": 0.7233351679484772,
+  "human_truth_Brier_integral": 0.4261616815487591,
+  "risk_is_conditional_on_the_fitted_coefficient": true,
+  "new_test_choices_generated": false,
+  "coefficient_error_basis": "Original J-1 reference-category constants, common signal slope, common noise slopes.",
+  "interval_coverage_evaluated": false,
+  "claimed_new_estimator": false
+}
