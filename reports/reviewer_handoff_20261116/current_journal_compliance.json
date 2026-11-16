@@ -23,10 +23,10 @@
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 8518,
+  "main_lexical_words_excluding_math": 8560,
   "verified_full_research_article_word_cap": null,
   "full_manuscript_pages": 66,
-  "native_math_objects": 1278,
+  "native_math_objects": 1279,
   "tables": 17,
   "all_seven_appendices_in_manuscript": true,
   "ai_disclosure_precedes_references": true,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "71e2c248f9d089408a43ccf43a437fbfdfe935b24c93208d79e6f203d92dd4bf"
+      "sha256": "d1bb7b624da04af9ad22059e79840e47cfd7e7f624d575a787cb51b98204b1a5"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",

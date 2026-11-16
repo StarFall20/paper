@@ -1,6 +1,6 @@
 # Reproduce When prediction assisted logit estimates exist
 
-The reviewed manuscript and its scientific results are preserved byte-for-byte from the 16 November 2026 discrete-profile release. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
+The reviewed manuscript includes the 16 November 2026 regular-prior attribution update. All scientific sources and results remain byte-for-byte identical to the discrete-profile release. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
 
 Use Python 3.12 with [the recorded versions](requirements.txt). Run these commands from this directory, using a new output directory:
 

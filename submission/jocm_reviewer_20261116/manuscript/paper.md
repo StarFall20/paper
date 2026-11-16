@@ -108,6 +108,8 @@ For $Y=0$, it tends to minus infinity as $u\to-\infty$; for $Y=1$, it does so as
 
 Fixed-dimensional PPI++ consistency is established (Angelopoulos et al., 2026; preprint v2, Proposition 1 and Appendix A.2). For a continuous convex logit objective, its positive empirical gap on a sphere extends along every outward ray and implies high-probability coercivity and attainment. This implication follows from that proof's convex shell bound. Theorem 1 calculates the transition when the number of fitted slopes grows with the label budget. PPI++ Algorithms 1 and 2 already retain the finite auxiliary-sample covariance term.
 
+Lee and Kim (2026) establish regular moment-equation inference and characterize score-calibration efficiency under finite-population sampling. At $\lambda=N/(m+N)$, objective (2) yields their estimating equation when both use the same loss and frozen predictor. Splitting the all-unit prediction average over labelled and auxiliary rows gives this identity.
+
 Gaussian conic projection and absorption are established (Amelunxen et al., 2014; Götze et al., 2020, Theorem 3.1; Han and Ren, 2026, Theorems 1.1, 1.3 and 2.1). Theorem 1 evaluates the statistical dimension limit for the corrected intervals (7), conditional on the signal, choices and prediction information. Its intercept and signal constraints retain the fitted utility specification. Appendix A proves tightness of the multiplier and scale, evaluates the limit and connects feasibility to an interior moment.
 
 Related preference methods have their own existence guarantees. Sargent et al. (2026, Theorem 1) give a bounded approximate Bradley–Terry root sequence under adaptive sampling conditions. Cai et al. (2026, Lemma D.4) give high-probability finite global solutions for a positive weighted human and LLM likelihood with fixed item, judge and latent dimensions. Chen et al. (2026, Supplement S3.10) give sufficient conditions for a complete GMM objective. Appendix B6 compares that complete criterion and the compensated loss on the same separated human design. The finite-estimation event depends on the actual objective being fitted.
@@ -1496,6 +1498,8 @@ Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Le
 Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html. Inspected assumption numbering: https://arxiv.org/html/2501.03163v3
 
 Kosmidis, I., Firth, D. (2021). Jeffreys-prior penalty, finiteness and shrinkage in binomial-response generalized linear models. Biometrika 108(1), 71–82. https://doi.org/10.1093/biomet/asaa052
+
+Lee, S.Y., Kim, J.K. (2026). Statistical Optimality of Prediction-Powered Inference. Preprint, arXiv:2606.08730v1. https://arxiv.org/abs/2606.08730v1
 
 Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5
 

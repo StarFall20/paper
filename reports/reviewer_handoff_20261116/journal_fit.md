@@ -25,6 +25,8 @@
 
 ## 尚未完成的最近邻核对
 
-PPI++ 的正式发表信息已确认。[作者主页](https://stanford.edu/~jduchi/publications.html)列出 Annals of Applied Statistics 20(3), 2235–2252；其 PDF 链接仍指向 arXiv。[正式全文入口](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full)本次只返回 iframe，正式附录的版本差异仍未核对。既有预印本 v2 的固定维度一致性证明已被正确计入先行内容。
+PPI++ 的正式发表信息已确认。[作者主页](https://stanford.edu/~jduchi/publications.html)列出 Annals of Applied Statistics 20(3), 2235–2252；其 PDF 链接仍指向 arXiv。[正式全文入口](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full)的后续访问已由用户完成验证。正文仍受全文权限限制，附录 A 下载被明确拒绝；学校认证入口返回应用未注册。正式附录简介列出 A–E，并提到维度增长实验。读取旧代码分支没有解决正式附录的结果级核对。既有预印本 v2 的固定维度一致性证明已计入先行内容。
+
+后续补读的 [Lee–Kim（2026）](https://arxiv.org/abs/2606.08730v1)也需正面对照。其全体预测加标签残差公式对应本稿权重 N/(m+N) 的目标；抽样记号不同不能承担创新区分。当前第 3.2 节及参考文献已补入该项先行研究，详见[修订记录](../regular_prior_revision_20261116/README.md)。
 
 在正式版及附录核对完成前，不应作出“已排除最近邻重合”或“已经达到投稿创新门槛”的结论。当前状态是具备具体贡献候选与完整内部数值证据，尚有一项关键全文来源缺口。最终作者审阅与期刊门户声明另列于投稿包。

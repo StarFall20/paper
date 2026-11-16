@@ -11,7 +11,7 @@
       "Removed inherited title paragraph borders and theme font overrides"
     ]
   },
-  "copied_manuscript_visual_review": "Current unchanged Word hash bound to the 66-page discrete_menu_visual_qa_20261116.json record",
+  "copied_manuscript_visual_review": "Current 66-page regular_prior_visual_qa_20261116.json: all changed pages inspected and all remaining page images byte-identical to reviewed predecessors",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
   "highlights_visual_review": "Unchanged source hash bound to current full visual QA"
 }

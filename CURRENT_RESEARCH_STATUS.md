@@ -1,3 +1,11 @@
+# Regular prior comparison integrated — 16 November 2026
+
+The [revision](reports/regular_prior_revision_20261116/README.md) incorporates Lee–Kim (2026) and the exact all-unit/disjoint-sample correspondence into Section 3.2 and the bibliography. The reviewed complete/reading Word files remain 66/28 pages, with 1279/236 native math objects. All 17 tables and 140 display bodies are unchanged. The abstract has 174 words and Sections 1–7 have 8560 lexical words under the retained counting rule.
+
+All 83 root analysis sources and 729 scientific input/source/result files retain their preceding hashes. The full mathematical check passes and reconciles all 17 tables. Six changed page images were inspected directly; every remaining page has an explicit byte-identical review basis. The active reviewer and upload entries now contain this reviewed version; earlier ZIPs and commits remain historical snapshots.
+
+This is a necessary attribution revision. The algebraic correspondence is not counted as theoretical novelty. No new model cohort, human or AI answer, or database query is added. Formal PPI++ body and Appendices A–E remain unread after the verified permission failure. Exact-result priority and sufficient choice-analysis value remain unresolved. The goal remains active; no submission or external message is made. Earlier entries below are historical.
+
 # Closest-prior access and objective correspondence — 16 November 2026
 
 The [focused follow-up](reports/ppi_access_followup_20261116/README.md) records successful manual verification followed by an explicit formal-supplement download denial and a school identity-provider registration error. Formal PPI++ body and Appendices A–E remain unread. The publisher description includes regression with increasing dimension, so the older code branch cannot close that comparison. Five notebooks were read statically at a pinned author-repository commit; none was executed or counted as a new model run.

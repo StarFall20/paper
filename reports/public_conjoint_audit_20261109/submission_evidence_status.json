@@ -76,7 +76,7 @@
     "general_remaining_unknowns": 0,
     "general_projection_QP_checks": 24,
     "general_population_conditions": 30,
-    "native_math_objects": 1278,
+    "native_math_objects": 1279,
     "DY_original_draws_replayed": 1000,
     "DY_new_established_method_fits": 2000,
     "DY_human_reconstruction_matches": 1000,
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Reviewer entry consolidated; current journal-fit assessment and upload material compliance recorded. All 17 tables reconcile in the curated full mathematical check. The formal PPI++ version gap remains unresolved.",
+  "latest_progress": "Lee–Kim attribution and exact objective correspondence integrated into the reviewed manuscript; 17 tables and all scientific sources/outputs unchanged. Formal PPI++ A–E comparison and sufficient contribution-value assessment remain open.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -385,24 +385,24 @@
     "date": "2026-11-16",
     "pointer": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
     "package_analysis_sources": 83,
-    "main_body_lexical_words_excluding_math": 8518,
+    "main_body_lexical_words_excluding_math": 8560,
     "abstract_words": 174,
     "paper": {
       "pages_from_existing_visual_review": 66,
-      "native_math_objects": 1278,
+      "native_math_objects": 1279,
       "tables": 17,
       "source_display_blocks": 140
     },
     "main_text": {
       "pages_from_existing_visual_review": 28,
-      "native_math_objects": 235,
+      "native_math_objects": 236,
       "tables": 6,
       "source_display_blocks": 35
     },
-    "paper_md_sha256": "7a6b444958615850f9fad46a0a2c9a39d985a1db97499ede4739320a92f8c804",
-    "paper_docx_sha256": "71e2c248f9d089408a43ccf43a437fbfdfe935b24c93208d79e6f203d92dd4bf",
-    "main_text_md_sha256": "4ce14c46fbd8f702019c136415fc5ab4062e8764b8dce1b0e73cb193ff0a1bf9",
-    "main_text_docx_sha256": "b129c74f7d1862ddf99da35011e8d48ecd343b234019805a1297d7d1d142d3e9"
+    "paper_md_sha256": "0be43a6dfa3eaef1dd0f17c7de63122507b3ec33586fc08f9206941ef2c3bc9e",
+    "paper_docx_sha256": "d1bb7b624da04af9ad22059e79840e47cfd7e7f624d575a787cb51b98204b1a5",
+    "main_text_md_sha256": "f1ea711d7df93242c2ada450ec79563b33fae96ffe8a0272f17f312f10e5876f",
+    "main_text_docx_sha256": "773d05e5790bcb007c5eb315268186b33d84cb42eea202608974f1f67dabed46"
   },
   "formal_prior_scope_followup_20261115": {
     "report": "../formal_prior_scope_20261115/README.md",
@@ -484,6 +484,15 @@
     "new_WOS_exported_abstracts_read": 8,
     "new_WOS_unique_indexed_records": 0,
     "new_Scopus_document_queries": 0,
-    "current_Word_unchanged": true
+    "current_Word_unchanged_at_that_followup": true
+  },
+  "regular_prior_revision_20261116": {
+    "report": "../regular_prior_revision_20261116/README.md",
+    "state": "integrated_and_reviewed",
+    "literature_revision_only": true,
+    "all_previous_tables_and_displays_unchanged": true,
+    "root_scientific_sources_unchanged": 83,
+    "scientific_files_unchanged": 729,
+    "formal_PPI_reconciliation_complete": false
   }
 }
