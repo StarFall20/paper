@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "goal_complete": false,
   "decision": "The reviewed manuscript has 66 full pages, 28 main-reading pages, 17 tables and 83 package analysis sources. A curated reviewer reproduction entry preserves all scientific sources and results; current author-review upload files are prepared. Formal PPI++ body/supplement reconciliation, specific-result priority and sufficient choice-analysis value remain open; final author and portal declarations are pending.",
   "requirements": [
@@ -54,7 +54,7 @@
   ],
   "self_review_scores_used_as_evidence": false,
   "new_questionnaire_or_AI_generation": false,
-  "genuine_blocker": true,
+  "genuine_blocker": false,
   "new_completed_evidence": {
     "Gaussian_paired_draws": 6000,
     "raw_LP_unknowns": 1,
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Current manuscript, scientific hashes and backup revalidated. Formal PPI++ result-level comparison remains impossible with available files and access; three-turn source-block audit satisfied. No new scientific claim or model run.",
+  "latest_progress": "User-supplied v2 PDF and official code enabled a substantive one-step baseline audit. All 24 original conditions and 60000 method records verified; source-closed full rerun reproduces ten scientific/summary outputs. Explicit clipped-baseline naming and sensitivity integration remain; formal PPI++ A–E and sufficient contribution value are unresolved.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -501,5 +501,23 @@
     "specific_result_comparison_completed": false,
     "required_input": "Formal PPI++ article PDF and Supplement A containing Appendices A–E",
     "requested_goal_status_after_audit": "blocked"
+  },
+  "one_step_source_audit_20261117": {
+    "report": "../one_step_source_audit_20261117/README.md",
+    "state": "model_audit_and_isolated_full_reproduction_complete_manuscript_integration_pending",
+    "supplied_PDF_version": "arXiv v2, 2024-03-26, 29 pages, Appendices A-C",
+    "method_records": 60000,
+    "original_cohort_families": 1500,
+    "new_independent_cohorts": 0,
+    "new_human_or_AI_answers": 0,
+    "legacy_cells_reconciled": 24,
+    "all_3500_pilot_roots_checked": true,
+    "unresolved_outputs": 0,
+    "isolated_full_primary_replay": true,
+    "primary_files_byte_identical": 5,
+    "summary_files_byte_identical": 5,
+    "manuscript_unchanged": true,
+    "formal_A_to_E_compared": false,
+    "new_theoretical_novelty_claim": false
   }
 }

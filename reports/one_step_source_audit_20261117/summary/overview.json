@@ -1,0 +1,36 @@
+{
+  "state": "complete",
+  "conditions": 24,
+  "replications_per_condition": 500,
+  "method_records": 60000,
+  "original_cohort_families": 1500,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "all_legacy_cells_reconciled": 24,
+  "all_updates_available": true,
+  "raw_domain_method_records": 24000,
+  "outside_domain_method_records": 996,
+  "outside_domain_condition_repetition_cases": 643,
+  "outside_domain_original_cohort_families": 340,
+  "negative_curvature_method_records": 116,
+  "negative_curvature_condition_repetition_cases": 115,
+  "clipping_comparison": {
+    "pooled": {
+      "conditions": 24,
+      "unrestricted_lower_mean_loss": 0,
+      "unrestricted_higher_mean_loss": 13,
+      "same_mean_loss": 11,
+      "maximum_absolute_mean_loss_change": 0.97116347972183
+    },
+    "labelled": {
+      "conditions": 24,
+      "unrestricted_lower_mean_loss": 0,
+      "unrestricted_higher_mean_loss": 12,
+      "same_mean_loss": 12,
+      "maximum_absolute_mean_loss_change": 0.07035903157471822
+    }
+  },
+  "all_pairwise_rows": 240,
+  "finite_global_roots_or_interval_validity_claimed": false,
+  "formal_PPI_A_to_E_compared": false
+}

@@ -1,3 +1,13 @@
+# One step baseline audit completed — 17 November 2026
+
+The [new audit](reports/one_step_source_audit_20261117/README.md) reads the supplied 29-page 2024 PPI++ v2 and pinned official main/paper branches. It distinguishes the published unrestricted-power formula, the old clipped comparator, pooled/labelled tuning information and the paper-branch API control flow. Upstream source was read statically and not executed; no formal Supplement B equivalence is claimed.
+
+All 24 original conditions retain 500 repetitions and all five comparator records, giving 60000 method records on the existing 1500 cohort families. Independent checks cover every update, 3500 unique ridge pilots and all 24 old clipped-summary cells. An isolated full replay reproduces five primary scientific files and five summaries byte-for-byte. No new independent cohort, human or AI answer is added. The old manuscript and 729 scientific source/input/result files are unchanged.
+
+Within this retained grid, unrestricted versions have equal or higher observed mean human probability loss than the corresponding clipped version. Monte Carlo errors and tails are retained. Direct human ridge is lower in some conditions and higher in others. A finite update is distinct from a finite global minimizer, and no new theoretical novelty is claimed. The [40-file source-closed supplement](submission/one_step_source_audit_20261117/README.md) provides all code, results and provenance.
+
+The goal remains active following the user's resumption. Manuscript integration of the explicit clipping scope and complete sensitivity comparison remains available work. The uploaded file is v2 with A–C; the 2026 formal body and A–E comparison remain unresolved. Specific-result priority and sufficient choice-analysis value are not established by this audit. Earlier entries below are historical.
+
 # Formal-version comparison awaits source files — 16 November 2026
 
 The [three-turn audit](reports/formal_version_block_audit_20261116/README.md) revalidates the same formal nearest-prior source gap. The Mac is currently locked; public author routes still lead to arXiv v2 or the unchanged old code branch. No formal article or Supplement A file was found among matching downloads. Earlier verified publisher permission denial and school application-registration failure have no resolution evidence.

@@ -1,0 +1,22 @@
+{
+  "state": "passed",
+  "records_checked": 60000,
+  "pilot_roots_checked": 3500,
+  "legacy_cells_reconciled": 24,
+  "legacy_counts_exact": true,
+  "worst": {
+    "pilot_score": 9.99667858474912e-10,
+    "raw_weight_relative_error": 5.803393995989632e-15,
+    "update_backward_error": 5.310425239696573e-15,
+    "MSE_relative_error": 4.0534503351602605e-16,
+    "loss_relative_error": 4.916871358855091e-16
+  },
+  "outside_domain_updates": 996,
+  "negative_curvature_updates": 116,
+  "unavailable_records": 0,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "finite_global_roots_claimed": false,
+  "formal_PPI_publication_reconciliation_complete": false,
+  "verifier_sha256": "ef86611657e818ff1fad45aae1846bfdd00940fa79a40fca45f56e71e137e082"
+}

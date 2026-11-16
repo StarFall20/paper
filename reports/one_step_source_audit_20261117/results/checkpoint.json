@@ -1,0 +1,21 @@
+{
+  "state": "complete",
+  "signatures": {
+    "script": "9684c2c5f81460f0ec147d280f64a18f635acd5128c29cf3a6d1cf0412729e29",
+    "plan": "8aa158e9fed0a19b57981d23e4779382241c3d9ed7c1a837f7c1e6750a18f8a8",
+    "support_array": "f338adfbf02ca63375b18cad77ed8adc2c4ad347171d463b9c8942ab35ebc916",
+    "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "finite_pool_choice_validation.py": "03e50c70b94d4fa231ec74df3c7ba5ee0d89321bc9f1884c7672b74f6d6d43f4",
+    "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867"
+  },
+  "completed": {
+    "finite_pool": 500,
+    "imperfect_pool": 500,
+    "strong_signal_pool": 500
+  },
+  "records": 60000,
+  "pilot_records": 3500,
+  "original_cohort_families": 1500,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0
+}

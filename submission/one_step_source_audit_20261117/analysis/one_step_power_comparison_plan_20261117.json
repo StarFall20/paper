@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-17",
+  "purpose": "Audit clipping and information-matrix choices in the existing one-step comparator across every original finite-pool condition",
+  "preprint": "arXiv:2311.01453v2, 2024-03-26",
+  "user_supplied_PDF_sha256": "5c9dc26aa1a537785d34b1d690a7387cf21e0493f0a3f945905dc556d30e70bd",
+  "source_formula_units": "PDF Section 6.2, Eq. (8), one-step display on page 11, Corollary 5 on page 12, Appendix B on page 26",
+  "official_repository": "aangelopoulos/ppi_py",
+  "official_main_commit": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+  "official_paper_branch_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4",
+  "official_paper_source_blob": "8c40ead67a42dabee16c83f1ef6c49843582b22d",
+  "replications_per_original_study": 500,
+  "studies": [
+    {"name": "finite_pool", "seed": 20261112, "labels": [20, 50, 150], "auxiliary": [150, 600], "proxy_errors": [0.1, 0.25], "conditions": 12},
+    {"name": "imperfect_pool", "seed": 20261120, "labels": [50, 150], "auxiliary": [600], "prediction": ["oracle", "overconfident", "intercept_bias"], "conditions": 6},
+    {"name": "strong_signal_pool", "seed": 20261121, "labels": [50, 150], "auxiliary": [600], "prediction": ["oracle", "overconfident", "intercept_bias"], "truth_scale": 3, "conditions": 6}
+  ],
+  "methods": ["pooled_clipped", "pooled_unclipped", "labelled_clipped", "labelled_unclipped", "human_ridge"],
+  "pilot": "Original unique human ridge fit, penalty ||beta||^2/(2m), shared across all prediction and auxiliary conditions on the same original draw",
+  "weight": "Source trace convention: labelled cross-covariance divisor m; pooled surrogate covariance divisor m+N-1; scalar trace tuning. Pooled information reproduces the existing comparator; labelled information corresponds to the displayed Eq. (8)",
+  "step": "Exactly one undamped update using (1-lambda)H_label+lambda H_aux and the compensated original-loss gradient, including unrestricted real lambda",
+  "numerical_rule": "No jitter, damping, winsorization, response filtering or adaptive power limits. Retain every unresolved case. Require finite coefficients and scaled linear-solve residual <=1e-8. Record curvature eigenvalues and condition number",
+  "endpoints": ["weight domain", "numerical step availability", "parameter MSE", "expected new-row human excess log loss on the full 1200-profile support", "paired changes and tails"],
+  "intervals_or_finite_root_claims": false,
+  "original_clipped_comparator_reconciliation": "Every one of 24 old aggregate cells; 500 repetitions each; estimate counts exact and MSE/loss differences reported before interpretation",
+  "original_independent_cohort_families": 1500,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "new_estimator_or_theoretical_novelty_claim": false,
+  "formal_PPI_publication_and_A_to_E_reconciliation_complete": false
+}
