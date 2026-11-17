@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-18",
+  "new_general_web_queries": 4,
+  "new_Scopus_queries": 0,
+  "new_Google_Scholar_queries": 0,
+  "new_WOS_queries": 0,
+  "queries": [
+    "logistic regression existence phase transition clustered observations row correlation Gaussian",
+    "logistic separation high dimensional repeated measurements correlation phase transition",
+    "\"prediction-powered\" \"cluster\" \"existence\"",
+    "python flint arb erf interval documentation lower upper exact rationals"
+  ],
+  "primary_sources_reopened": [
+    "https://arxiv.org/html/2610.09601v1",
+    "https://arxiv.org/html/cond-mat/9505093",
+    "https://arxiv.org/abs/1303.6672",
+    "https://python-flint.readthedocs.io/en/stable/arb.html",
+    "https://python-flint.readthedocs.io/en/latest/general.html"
+  ],
+  "prior_detailed_reading": "The original three-task report retains previously read theorem and equation units. This turn does not claim a fresh full reading of every source.",
+  "new_formal_PPI_document_obtained": false,
+  "new_global_priority_clearance": false,
+  "original_model_and_numerical_screening_date": "2026-11-12",
+  "new_contribution_this_turn": "Internal block-proof closure and deterministic quantization/scale error enclosure of the existing matched ordinary-capacity example."
+}

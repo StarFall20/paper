@@ -1,0 +1,48 @@
+[
+  {
+    "name": "matched_ordinary_A",
+    "covariance": [
+      [
+        1.0,
+        0.8,
+        0.06509319832815878
+      ],
+      [
+        0.8,
+        1.0,
+        0.6349068016718412
+      ],
+      [
+        0.06509319832815878,
+        0.6349068016718412,
+        1.0
+      ]
+    ],
+    "minimum_eigenvalue": 0.009764291662528828,
+    "ordinary_boundary_omega_one": 1.0,
+    "ordinary_boundary_omega_three_quarters": 1.125
+  },
+  {
+    "name": "matched_ordinary_B",
+    "covariance": [
+      [
+        1.0,
+        0.9,
+        0.11755047040626515
+      ],
+      [
+        0.9,
+        1.0,
+        0.4824495295937348
+      ],
+      [
+        0.11755047040626515,
+        0.4824495295937348,
+        1.0
+      ]
+    ],
+    "minimum_eigenvalue": 0.024321203651791305,
+    "ordinary_boundary_omega_one": 1.0,
+    "ordinary_boundary_omega_three_quarters": 1.125
+  }
+]

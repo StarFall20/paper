@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-18",
+  "status": "complete",
+  "fresh_directory_primary_and_interval_replay": true,
+  "outputs": [
+    {
+      "file": "results/inputs128.json",
+      "all_scientific_fields_identical": true,
+      "excluded_non_scientific_metadata": []
+    },
+    {
+      "file": "results/node_A_41.json",
+      "all_scientific_fields_identical": true,
+      "excluded_non_scientific_metadata": [
+        "seconds"
+      ]
+    },
+    {
+      "file": "results/node_B_40.json",
+      "all_scientific_fields_identical": true,
+      "excluded_non_scientific_metadata": [
+        "seconds"
+      ]
+    },
+    {
+      "file": "results/node_B_41.json",
+      "all_scientific_fields_identical": true,
+      "excluded_non_scientific_metadata": [
+        "seconds"
+      ]
+    },
+    {
+      "file": "results/node_B_42.json",
+      "all_scientific_fields_identical": true,
+      "excluded_non_scientific_metadata": [
+        "seconds"
+      ]
+    },
+    {
+      "file": "results/enclosure.json",
+      "all_scientific_fields_identical": true,
+      "excluded_non_scientific_metadata": [
+        "sources_sha256: each run binds its own timing-bearing node files"
+      ]
+    }
+  ],
+  "unchanged_current_manuscript": true,
+  "unchanged_preceding_scientific_files": 808,
+  "new_MC_or_fitted_estimators": 0,
+  "original_quadratic_nodes_per_run": 33554432,
+  "external_peer_review": false,
+  "final_arithmetic_condition_check": "Exact dyadic NumPy covariance leading principal minors checked positive with Arb in both directories; certificate scientific fields remain equal."
+}

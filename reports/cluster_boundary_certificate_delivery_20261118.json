@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-18",
+  "archive": "jocm_cluster_boundary_certificate_20261118.zip",
+  "sha256": "56ceaeecd68ed7e538d98f43306bba19a80548e18d6eb4200aaf935c72bcbaa0",
+  "bytes": 38840,
+  "files": 24,
+  "fresh_archive_all_files_identical": true,
+  "inventory_and_source_check": {
+    "state": "passed",
+    "manifest_entries": 23,
+    "source_bindings": 13,
+    "boundary_witness": "719/1000",
+    "node_checks": 33554432,
+    "inventory_check_only": true
+  },
+  "fresh_full_primary_and_interval_replay": "cluster_boundary_certificate_20261118/clean_validation.json",
+  "Word_unchanged": true,
+  "new_MC_or_fitted_estimators": 0,
+  "final_float_covariance_positive_definiteness_condition_checked": true
+}

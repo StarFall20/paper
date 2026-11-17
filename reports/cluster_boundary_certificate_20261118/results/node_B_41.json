@@ -1,0 +1,80 @@
+{
+  "model": "B",
+  "scale_numerator": 41,
+  "scale_denominator": 64,
+  "scale": 0.640625,
+  "normal_bins": 128,
+  "auxiliary_node_value": 1.0781178538887541,
+  "states": [
+    {
+      "prediction_bits": [
+        0,
+        0,
+        0
+      ],
+      "probability_numerator": 25,
+      "probability_denominator": 64,
+      "node_primal_sum": 1.0475068943711496,
+      "node_count": 2097152,
+      "maximum_original_quadratic_dual_gap": 3.929676167614667e-15,
+      "maximum_primal_recalculation_disagreement": 8.881784197001252e-16,
+      "maximum_feasibility_violation": 0.0,
+      "maximum_normal_coordinate": 4.191345315376195,
+      "maximum_raw_box_coordinate": 0.48046875,
+      "maximum_raw_quadratic_residual": 5.909421431098314
+    },
+    {
+      "prediction_bits": [
+        0,
+        0,
+        1
+      ],
+      "probability_numerator": 13,
+      "probability_denominator": 64,
+      "node_primal_sum": 1.0733098691173613,
+      "node_count": 2097152,
+      "maximum_original_quadratic_dual_gap": 3.1911930242735324e-15,
+      "maximum_primal_recalculation_disagreement": 8.881784197001252e-16,
+      "maximum_feasibility_violation": 0.0,
+      "maximum_normal_coordinate": 4.191345315376195,
+      "maximum_raw_box_coordinate": 0.48046875,
+      "maximum_raw_quadratic_residual": 5.717233931098314
+    },
+    {
+      "prediction_bits": [
+        0,
+        1,
+        0
+      ],
+      "probability_numerator": 13,
+      "probability_denominator": 64,
+      "node_primal_sum": 1.1232994912963512,
+      "node_count": 2097152,
+      "maximum_original_quadratic_dual_gap": 3.1087685115498593e-15,
+      "maximum_primal_recalculation_disagreement": 8.881784197001252e-16,
+      "maximum_feasibility_violation": 0.0,
+      "maximum_normal_coordinate": 4.191345315376195,
+      "maximum_raw_box_coordinate": 0.48046875,
+      "maximum_raw_quadratic_residual": 5.7548868161503215
+    },
+    {
+      "prediction_bits": [
+        0,
+        1,
+        1
+      ],
+      "probability_numerator": 13,
+      "probability_denominator": 64,
+      "node_primal_sum": 1.0966114310940978,
+      "node_count": 2097152,
+      "maximum_original_quadratic_dual_gap": 3.0089185571127346e-15,
+      "maximum_primal_recalculation_disagreement": 8.881784197001252e-16,
+      "maximum_feasibility_violation": 0.0,
+      "maximum_normal_coordinate": 4.191345315376195,
+      "maximum_raw_box_coordinate": 0.48046875,
+      "maximum_raw_quadratic_residual": 5.871768546046307
+    }
+  ],
+  "seconds": 13.853031158447266,
+  "implementation_scope": "All product-normal nodes; feasible primal and original-quadratic first-order dual bound, no fitted estimator or MC replication."
+}

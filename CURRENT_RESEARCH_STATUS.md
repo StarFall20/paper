@@ -1,3 +1,9 @@
+# Repeated task comparison enclosed and replayed 18 November 2026
+
+The [new deterministic certificate](reports/cluster_boundary_certificate_20261118/README.md) closes the old matched ordinary-capacity three-task screening. The two models have the same full human/prediction cluster covariance, Hessian and ordinary human threshold 9/8. At unit power the compensated threshold exceeds 0.719879 in A and is below 0.718838 in B; ratio 719/1000 separates their strict existence sides. The bound includes normal tails, quantization, original-quadratic primal/dual checks, parameter and floating arithmetic errors and all-scale optimization. Its IEEE-754 assumptions and internal operation audit are explicit. Each complete run checks 33554432 deterministic nodes, not new samples.
+
+A separate-copy primary and Arb replay agrees in all scientific fields; timing and timing-bearing provenance hashes are explicitly excluded from byte equality. The [value assessment](reports/cluster_boundary_certificate_20261118/value_assessment.md) retains the small gap, highly correlated Gaussian binary model, unit-power scope and absence of a new variance-tuned or mixed-logit claim. This stays supplementary pending assessment of added scope and length. The 75/31-page reviewed Word and 808 earlier scientific files remain unchanged. The original goal is active and uncompleted. Earlier entries below are dated history.
+
 # Supplied PPI body and appendices are the working comparison source 18 November 2026
 
 The user correctly clarified that the supplied 29-page PDF contains the full PPI++ body and its Appendices A–C. The file matches the previously read v2 fingerprint. The [current page-bound comparison](reports/available_ppi_prior_20261118/README.md) maps established objectives, multiclass GLMs, fixed-dimensional consistency/coercivity, variance tuning, one-step alternatives and odds-ratio inference to the precise current claims. No new formal document was obtained or relabelled.

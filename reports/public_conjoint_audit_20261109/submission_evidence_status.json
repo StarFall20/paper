@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "Use the supplied complete 29-page PPI++ PDF, including Appendices A–C, and the pinned official code as the current comparison basis. Final-version identity remains unverified but is not a prerequisite for continued model, specific-contribution and practical-value assessment. Submission threshold remains unproven.",
+  "decision": "Continue the full research objective from the supplied PPI body/appendices and official code. A specific old repeated-task gap is now numerically enclosed and replayed. Theoretical value and practical size are distinguished; no submission-readiness or global-priority certification. Current reviewed Word is unchanged.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../available_ppi_prior_20261118/README.md",
+  "latest_progress_report": "../cluster_boundary_certificate_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Corrected the source dependency: the user-supplied PDF already contains the body and appendices. Bound nine claim comparisons to verified pages; resume substantive contribution assessment without requesting the same content again.",
+  "latest_progress": "Closed the old matched three-task population screening with explicit deterministic quantization, arithmetic and scale bounds. Model A threshold exceeds 0.719879; model B is below 0.718838, with common ordinary threshold 9/8 and matching full cluster score covariance. Complete separate-copy replay agrees in all scientific fields. Practical gap is small; unit power only; current reviewed Word unchanged.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -705,5 +705,18 @@
     "goal_status": "active",
     "new_models": 0,
     "unchanged_scientific_files": 808
+  },
+  "cluster_boundary_certificate_20261118": {
+    "state": "separated_and_replayed",
+    "report": "../cluster_boundary_certificate_20261118/README.md",
+    "certificate": "../cluster_boundary_certificate_20261118/results/enclosure.json",
+    "value_assessment": "../cluster_boundary_certificate_20261118/value_assessment.md",
+    "strict_gap_lower": 0.0010415499309611353,
+    "dimension_ratio_witness": "719/1000",
+    "original_quadratic_nodes_per_run": 33554432,
+    "new_MC_or_fitted_estimators": 0,
+    "current_Word_unchanged": true,
+    "manuscript_integration_decision": "Retain as supplement pending assessment of added scope and length; no new headline novelty claim.",
+    "research_goal_complete": false
   }
 }
