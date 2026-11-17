@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-17",
+  "general_web_queries": [
+    "\"26-AOAS2215\" \"Supplement\"",
+    "\"PPI++\" \"2026\" \"pdf\" Angelopoulos Duchi Zrnic",
+    "\"26-AOAS2215SUPPA\"",
+    "\"prediction-powered\" \"existence\" \"logistic\"",
+    "\"prediction powered\" \"separation\" \"high dimensional\"",
+    "\"prediction-powered\" \"phase transition\"",
+    "\"prediction-powered\" \"unbounded\""
+  ],
+  "new_Scopus_queries": 0,
+  "new_Google_Scholar_queries": 0,
+  "new_WOS_queries": 0,
+  "formal_body_read": false,
+  "formal_supplement_read": false,
+  "new_formal_document_obtained": false,
+  "public_route_result": "Publisher full-text URL exposes a one-line iframe container; following its observed link shows an additional-security-check notice. No body or attachment obtained.",
+  "browser_route": {
+    "inventory_first_attempt": "30 second timeout and kernel reset",
+    "inventory_retry": "succeeded; existing relevant Chrome tab located",
+    "bind_existing_formal_tab": "45 second timeout and kernel reset",
+    "computer_lock_claimed": false,
+    "new_authentication_or_identity_transmission": false
+  },
+  "author_routes": [
+    {
+      "url": "https://stanford.edu/~jduchi/publications.html",
+      "observed": "Current PPI++ PDF link opens a 29-page arXiv PDF."
+    },
+    {
+      "url": "https://tijana-zrnic.github.io/",
+      "observed": "AoAS link reaches publisher container; arXiv link reaches the version history."
+    }
+  ],
+  "arxiv": {
+    "url": "https://arxiv.org/abs/2311.01453",
+    "latest_visible_version": "v2",
+    "latest_submission": "2024-03-26",
+    "formal_equivalence_established": false
+  },
+  "attachments": {
+    "required_formal_main": "https://doi.org/10.1214/26-AOAS2215",
+    "required_Supplement_A": "https://doi.org/10.1214/26-AOAS2215SUPPA",
+    "Supplement_A_scope": "Appendices A–E in one PDF, per earlier publisher description.",
+    "Supplement_B_scope": "Code; current official repository is a separate source, not certified identical to the formal attachment.",
+    "five_separate_A_to_E_DOIs_required": false
+  },
+  "search_scope": "Result pages surfaced the already-inspected covariance-calibrated GMM and filtering branches and review material. No newly obtained primary theorem changes the current comparison. Search snippets, index omissions and an access notice cannot establish absence of overlap.",
+  "private_browser_tabs_tokens_and_security_event_URLs_retained": false
+}

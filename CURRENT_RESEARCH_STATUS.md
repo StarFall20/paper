@@ -1,3 +1,9 @@
+# Formal prior comparison requires readable source 17 November 2026
+
+The [current submission gate audit](reports/formal_priority_gate_20261117/README.md) leaves the original research goal uncompleted. The 75/31-page Word release and 808 scientific files retain their verified hashes. Current publisher navigation reaches a security-check notice; binding the already-open browser article timed out. Author links still lead to the 2024 arXiv v2, whose identity with the final article is unproved. Formal Supplement A contains Appendices A–E; the official repository is a separate code source.
+
+The same formal-source blocker persists across at least three consecutive goal turns. Earlier price analysis and manuscript integration made concrete progress; the present gate audit finds that further unchanged runs cannot establish specific-result novelty or sufficient journal contribution. Readable authorized copies of the final main article and Supplement A, or working authorized publisher access, are required to proceed with that comparison. No new model fits, MC repetitions, respondents, AI answers or submission were made. Earlier entries below are dated history.
+
 # Official interface and price equivalents integrated 17 November 2026
 
 The [current reviewed manuscript](reports/api_economics_manuscript_integration_20261117/README.md) integrates the unmodified pinned ppi_py API diagnostics in Sections 4.2/C10 and descriptive food-DCE price equivalents in Sections 4.6/C9. The 68 calls include selected exterior cases, normal controls and a boundary where numerical optimizer success coexists with an unattained infimum. They supply diagnostic examples, not a prevalence estimate. The 123344 independently checked attribute-price ratios use the preceding 15418 finite coefficient vectors and retain all 16000 allocation-method denominators. The ratios do not establish population WTP accuracy.

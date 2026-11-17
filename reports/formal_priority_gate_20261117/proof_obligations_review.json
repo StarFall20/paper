@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-17",
+  "source": {
+    "paper_md_sha256": "354d7b24f1398b62c9198762c8c83b7f14893a2aec838c395155ba4304b67983",
+    "paper_docx_sha256": "f4fea183cca7eb33f231f28b8034bb01e520cba9ce632ecdd8e559250c1727f1",
+    "main_md_sha256": "a30c81ac98f81ef21bb0ecc4ff56f366003f3f3d109635c90b0f750d884951ce",
+    "main_docx_sha256": "21172da7631b2a4cb32553d06b72a9c8b316d19db43b20fe7b3574cd4bed3d39",
+    "integration": {
+      "date": "2026-11-17",
+      "integration": "reports/api_economics_integration_20261117.json",
+      "visual_qa": "reports/api_economics_visual_qa_20261117.json",
+      "validation": "reports/api_economics_validation_20261117.json",
+      "historical_reports_are_dated_snapshots": true
+    },
+    "unchanged_scientific_files_checked": 808,
+    "pages_full": 75,
+    "pages_reading": 31,
+    "verified_release_commit": "2f7f9de7967cb284157f855acd135669c14f978c"
+  },
+  "method": "Source reading and algebraic reasoning, with existing evidence inherited only for matching hashes. No unchanged simulation or model was rerun.",
+  "obligations": [
+    {
+      "unit": "Proposition 1; Appendix A1",
+      "obligation": "Interior moment and positive-weight rank are both necessary for a unique finite minimizer.",
+      "review": "Both conditions are explicit. The manuscript attributes the support geometry; this is not treated as the main novelty."
+    },
+    {
+      "unit": "Appendix A1–A5",
+      "obligation": "Conditional cone feasibility must imply strict interior feasibility and curvature rank, and random extrema must converge uniformly.",
+      "review": "A1 supplies relative-interior/generic-position and rank qualifications; A3–A4 bound the multiplier and scale; A5 states uniform laws and uniform integrability. Reading this chain is an internal review, not a new independent proof or formal-prior comparison."
+    },
+    {
+      "unit": "Theorem 2; Appendix D4–D5",
+      "obligation": "Possibly data-dependent powers converging to zero require a simultaneous upper argument and separate exact-zero treatment.",
+      "review": "The common limiting cone supplies the upper side; fixed positive witnesses plus nesting supply the lower side. D5 excludes a selector returning exact zero from the positive-power conclusion."
+    },
+    {
+      "unit": "Proposition 6; Appendix D6",
+      "obligation": "Finite-root recovery must be distinguished from bounded norm and probability loss.",
+      "review": "The proof links an attributed Gaussian human-margin theorem to the sample score bound and positive population recession. The Gaussian new-row risk statement is not extended to panels or arbitrary categorical design."
+    },
+    {
+      "unit": "Appendix F6; Proposition 8",
+      "obligation": "Atomic profiles require interior witnesses and full-rank arguments beyond Gaussian generic position.",
+      "review": "Contracted probability simplices, the existing random-kernel universality theorem and an attributed pivot-coordinate atom bound are explicit. The extension keeps Gaussian signal and independent symmetric raw noise; dependent coding and fixed efficient arrays are excluded."
+    },
+    {
+      "unit": "Section 4.6; Appendices C9–C10",
+      "obligation": "Real-data, API-status and price-ratio claims require their own scope and denominators.",
+      "review": "Selected API cases are diagnostic rather than a failure prevalence sample; 16000 allocation-method denominators remain; price ratios are descriptive and training-cost comparisons favor direct human MNL. These limits are retained."
+    }
+  ],
+  "external_proof_review": false,
+  "new_theorem_or_new_model": false,
+  "all_mathematical_errors_ruled_out": false
+}

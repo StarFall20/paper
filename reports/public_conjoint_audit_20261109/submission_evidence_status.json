@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "Current reviewed manuscript: 75 complete / 31 reading pages, 20 tables and 146 display formulas. Official pinned API diagnostics and descriptive price equivalents are integrated. Formal PPI++ body/Supplements A–E reconciliation, exact priority and sufficient choice-analysis value remain unresolved. Goal active; no submission.",
+  "decision": "Current source/layout and reproduction evidence remains verified; submission threshold is unproven. The closest formal PPI++ main article and Supplement A remain unread after current route revalidation. The repeated-blocker audit is satisfied; a readable authorized copy or functioning authorized access is required for the specific-result comparison.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../api_economics_manuscript_integration_20261117/README.md",
+  "latest_progress_report": "../formal_priority_gate_20261117/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Integrated completed 68-call official API diagnostics and 123344 verified descriptive attribute-price ratios. All 20 preceding tables, 146 display bodies, 808 scientific files and 83 root analysis sources retain exact contents. No model refits or new answers.",
+  "latest_progress": "Revalidated unchanged current Word and 808 science-file hashes; completed requirement-by-requirement gate and source-reading review. Seven general web queries and current UI/source checks yielded no final article or supplement. No unchanged models rerun.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -678,5 +678,15 @@
     "new_MC_runs": 0,
     "formal_publication_read": false,
     "goal_complete": false
+  },
+  "formal_priority_gate_20261117": {
+    "audit": "../formal_priority_gate_20261117/completion_audit.json",
+    "access": "../formal_priority_gate_20261117/access_revalidation.json",
+    "proof_reading": "../formal_priority_gate_20261117/proof_obligations_review.json",
+    "formal_body_read": false,
+    "formal_Supplement_A_read": false,
+    "blocking_condition_repeated_at_least_three_goal_turns": true,
+    "completion_proven": false,
+    "status_update_pending": true
   }
 }
