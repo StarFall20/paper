@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "numba": "0.61.2",
+    "llvmlite": "0.44.0",
+    "statsmodels": "0.14.5",
+    "pandas": "2.2.3",
+    "tqdm": "4.67.1",
+    "patsy": "1.0.3",
+    "threadpoolctl": "3.8.0"
+  },
+  "official_source_unchanged_before_after": true,
+  "normal_package_import": true,
+  "observational_wrappers_only": true,
+  "run_source_sha256": "1ba27969bc69eee296568955ab0370d2d05eb4b22fffe76a5285636e1851600b",
+  "plan_sha256": "79fe84e95fe21668dfd26cbf13137d0121b1c9f5fd79dc2a22074908062d0f6c"
+}

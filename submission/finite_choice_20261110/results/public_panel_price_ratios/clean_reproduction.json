@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-17",
+  "state": "passed",
+  "complete_derived_output_files_byte_identical": {
+    "all_signed_algebraic_ratios.csv": "ebd63c60376ec0dfe8575148583003ee1ef0d6b1c2c9482b10ed895e21f0ed45",
+    "availability.csv": "de3efb4b14acf94be474a31ab1e1568b066f86e37d7273090d14390f3906046f",
+    "negative_price_attribute_ratios.csv": "d9a4a146022351de83a840855c446fca6be81d879ebe234c30142031cb82055b",
+    "paired_Bere_differences.csv": "e7ce42e650854ffa90adaf5dceb0f262bb56d58ad37c42734e56683696957d88",
+    "price_and_Bere_records.csv": "9d37c5cf43ae8eabc48e0cca11b2f26b582addf67b9634df2810f117043b0a5c",
+    "status.json": "dd9632a77d4f41be68bd9370bf143974a4989ac0e9d7f4b5660019e83e35aea9"
+  },
+  "isolated_source_copies_unchanged": true,
+  "original_canonical_package_files_unchanged": 1051,
+  "new_model_fits": 0,
+  "new_participants": 0,
+  "reviewed_Word_unchanged": true,
+  "scope": "Complete replay of the secondary coefficient-ratio calculation, not a replay of prior model estimation or a global novelty certificate."
+}

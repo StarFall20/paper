@@ -1,0 +1,61 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_api_economics_integrated_20261117.zip",
+    "sha256": "4efd7db00fd40962022155fbd21555ce5bf5b4299cc50c60e9a9ac4621450707",
+    "files": 1032,
+    "bytes": 47836803,
+    "fresh_extraction_all_files_identical": true,
+    "isolated_manifest_and_provenance_check": {
+      "manifest_entries_verified": 1031,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    },
+    "fresh_extracted_table_check": {
+      "state": "passed",
+      "new_tables_reconciled": [
+        "C4",
+        "C5"
+      ],
+      "table_C4_rows": 4,
+      "table_C5_rows": 8,
+      "complete_method_records": 16000,
+      "paired_unit_outside_with_ordinary_interior": [
+        40,
+        18,
+        0,
+        0
+      ],
+      "all_20_table_blocks_present": true,
+      "old_18_table_values_checked_by_existing_entry": true,
+      "new_primary_fits_or_MC_run": false,
+      "prior_original_row_verification_hash": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+    },
+    "unchanged_math_and_previous_model_runs_inherited_by_hash": true,
+    "public_DCE_original_row_verification_sha256": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+  },
+  {
+    "archive": "jocm_submission_files_api_economics_integrated_20261117.zip",
+    "sha256": "1082c253de6dfa5028af8706af66ef7564ecd0e6a14c0ced6354826a2bf1d2e5",
+    "files": 20,
+    "bytes": 1246923,
+    "fresh_extraction_all_files_identical": true
+  },
+  {
+    "document": "jocm_manuscript_api_economics_integrated_20261117.docx",
+    "sha256": "f4fea183cca7eb33f231f28b8034bb01e520cba9ce632ecdd8e559250c1727f1",
+    "bytes": 1025282,
+    "review_bound_by": "reports/api_economics_visual_qa_20261117.json"
+  },
+  {
+    "document": "jocm_main_text_api_economics_integrated_20261117.docx",
+    "sha256": "21172da7631b2a4cb32553d06b72a9c8b316d19db43b20fe7b3574cd4bed3d39",
+    "bytes": 923226,
+    "review_bound_by": "reports/api_economics_visual_qa_20261117.json"
+  }
+]

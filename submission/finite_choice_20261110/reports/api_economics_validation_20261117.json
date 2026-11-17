@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "all_twenty_manuscript_tables_reconciled_by_exact_preservation": true,
+  "all_146_display_bodies_unchanged": true,
+  "preceding_validation": "reports/public_panel_validation_20261117.json",
+  "preceding_validation_sha256": "06d81b79cb7743504d72a10818d970d4e51dae1f60fa46efaa9765c744bafc22",
+  "preceding_scientific_files_unchanged": 808,
+  "root_analysis_sources_unchanged": 83,
+  "official_API_verification_sha256": "aaefa6ef513ecfedc6c4d8dea4d7cd2acb96ff83d203c06c34e64eff9e603ea3",
+  "price_verification_sha256": "78edaefecf7f661d114eea9232cc4264842e70adad92dae5c655ed6a136b8f12",
+  "new_model_fits_or_MC_in_this_integration": 0,
+  "prior_primary_and_independent_replays_inherited_by_hash": true,
+  "new_human_or_AI_answers": 0,
+  "scope": "Integrates completed diagnostics and checks their text/source bindings. Earlier mathematical, empirical and simulation evidence is inherited only where the recorded files retain exact hashes. No formal-publication reconciliation or external originality review is asserted."
+}

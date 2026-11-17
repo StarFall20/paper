@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-17",
+  "stage": "Secondary descriptive plan fixed before WTP tabulation; preceding primary outcomes and price-sign summaries already exist",
+  "purpose": "Translate finite fitting availability into the stability of price-equivalent attribute contrasts on the same released food DCE, without new fits or causal/population claims.",
+  "source": "https://zenodo.org/records/15420092",
+  "source_file_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "input_records": "method_records.csv",
+  "input_records_sha256": "c16aa4ff066d5c6a5dc724cda5591180ee26e49795a7cc832dbb4d94c35b0df3",
+  "input_coefficients": "coefficients.json",
+  "input_coefficients_sha256": "1c50ebe8c9bee6d04a9008a5f3a931980c12ce4e0afaaaae1ff8b34943cfccc6",
+  "independent_primary_verification_sha256": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b",
+  "budgets": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "allocations_per_budget": 500,
+  "methods": [
+    "labelled_MLE",
+    "labelled_ridge",
+    "all_human_MLE",
+    "all_human_ridge",
+    "corrected_unit",
+    "corrected_half",
+    "corrected_cluster_power",
+    "pooling"
+  ],
+  "attributes": {
+    "bere": 2,
+    "nutrition_medium": 3,
+    "nutrition_high": 4,
+    "quality_label": 5,
+    "access_speciality": 6,
+    "access_grocery": 7,
+    "origin_elsewhere_Scotland": 8,
+    "origin_outside_Scotland": 9
+  },
+  "price_coefficient_index": 10,
+  "price_regressor": "original GBP per 250g pack / 10",
+  "price_equivalent_formula": "-10 * attribute_coefficient / price_coefficient",
+  "primary_attribute": "bere",
+  "allocation_metrics": [
+    "unavailable fit count",
+    "finite fits with positive, exact-zero or negative price coefficient",
+    "negative-price ratio availability out of all 500 allocations",
+    "all signed algebraic ratios when denominator nonzero, separately labelled",
+    "negative-price conditional mean, quantiles, min/max for all eight attributes",
+    "absolute ratio beyond experimental product-price span 12.5 GBP"
+  ],
+  "price_span": "Product prices GBP1 to GBP13.5; GBP0 applies only to the opt-out. Span 12.5 GBP is a descriptive extrapolation flag, not an economic validity threshold.",
+  "quantiles": [
+    0,
+    0.05,
+    0.25,
+    0.5,
+    0.75,
+    0.95,
+    1
+  ],
+  "quantile_method": "linear interpolation using np.quantile; no trimming or winsorization",
+  "denominators": "Each method/budget starts with all 500 allocations. Conditional price-equivalent summaries show finite-fit and negative-price counts; unavailable or positive-price estimates never disappear from availability tables.",
+  "paired_comparators": [
+    "labelled_MLE",
+    "all_human_MLE"
+  ],
+  "paired_metric": "Bere price-equivalent differences only where both methods have verified finite fits and negative prices; retain full allocations and paired denominators; no significance test or confidence interval.",
+  "interpretation": "Marginal conditional-logit price equivalents on a fixed released sample. Positive price slopes have a nonstandard sign under the stated cost-disutility interpretation, not proof of bad respondents. Values beyond the design price span flag extrapolation. Ratios are not known true WTP, individual WTP distributions, causal effects or evidence of superiority.",
+  "already_inspected": "Primary plan/schema, codebook currency/unit/ingredient rows, method-record header and first available coefficient records; no aggregate price-equivalent table was computed before this plan.",
+  "new_model_fits": 0,
+  "new_human_or_AI_answers": 0,
+  "new_independent_framework": false,
+  "current_reviewed_Word_change_planned": false
+}

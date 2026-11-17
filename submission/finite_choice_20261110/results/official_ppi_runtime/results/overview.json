@@ -1,0 +1,33 @@
+{
+  "state": "passed",
+  "API_calls": 68,
+  "public_cases": 16,
+  "analytical_cases": 4,
+  "diagnostic_selection_not_prevalence_estimation": true,
+  "public_unit_exterior_arrays_returned": 8,
+  "public_unit_exterior_underlying_optimizer_failures": 8,
+  "public_automatic_initial_Hessian_exceptions": 8,
+  "public_interior_control_outputs_returned": 32,
+  "public_half_power_exterior_case_recoveries": 8,
+  "public_zero_power_targets_interior": 16,
+  "exterior_unit_coefficient_norm_min": 1.140192619771088e+35,
+  "exterior_unit_coefficient_norm_max": 4.874166697811704e+54,
+  "exterior_unit_original_score_max_min": 0.004166977403484012,
+  "exterior_unit_original_score_max_max": 0.020710970480713436,
+  "rational_boundary_example": {
+    "power": "11/20",
+    "coefficient_norm": 32.10005650413981,
+    "score_max": 5.10702591327572e-15,
+    "optimizer_success": true,
+    "finite_global_minimizer": false,
+    "machine_input_scope": "Rounded representation of the exact rational design; LP classification retains boundary or near boundary."
+  },
+  "optimizer_options": {
+    "ftol": 1e-15,
+    "gtol": 1e-08,
+    "maxiter": 1000,
+    "maxfun": 20000
+  },
+  "new_general_theory": false,
+  "formal_version_gap_resolved": false
+}

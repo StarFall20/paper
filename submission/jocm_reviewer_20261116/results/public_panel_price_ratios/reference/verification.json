@@ -1,0 +1,29 @@
+{
+  "state": "passed",
+  "method_records_reconstructed": 16000,
+  "available_coefficients_checked": 15418,
+  "all_exterior_rays_checked": 253,
+  "independent_original_row_residual_LPs": 162,
+  "maximum_original_gradient": 8.065093356103598e-09,
+  "maximum_score_reconstruction_error": 1.4274605802944151e-15,
+  "maximum_metric_error": 1.7763568394002505e-15,
+  "maximum_recession_error": 2.463307335887066e-16,
+  "cluster_weights_independently_reconstructed": 2000,
+  "maximum_cluster_weight_difference": 1.5143442055887135e-13,
+  "all_summary_paired_and_fallback_results_reconciled": true,
+  "source_reader_and_partition_shared": true,
+  "compressed_Loss_support_fitter_tuning_and_metrics_not_imported": true,
+  "formal_PPI_gap_resolved": false,
+  "population_performance_or_novelty_certified": false,
+  "verifier_sha256": "d9461ff81eb62541ed441e8d87907735c24a163b16116cf3602f06957ccee658",
+  "result_hashes": {
+    "exterior_certificates.json": "6a6c076d2f05f5e662d9d99a73c1938b65de031141ff93ca7802d707352d95db",
+    "summary.json": "5f25a514e2c5ad43fdc3f68debb25786ce42ab7112c99720d3db4aaa79f6f6e5",
+    "fallback_loss.csv": "f1ff22e0c98a405ed22caacd547e824ceb19135da7104507d745e0fb5fceb0d3",
+    "method_records.csv": "c16aa4ff066d5c6a5dc724cda5591180ee26e49795a7cc832dbb4d94c35b0df3",
+    "coefficients.json": "1c50ebe8c9bee6d04a9008a5f3a931980c12ce4e0afaaaae1ff8b34943cfccc6",
+    "paired_loss.csv": "e79b14c5ab716dee3211d5e8ffc826ed3f38643999299c9bb4db70f98bd3de52",
+    "preflight.json": "a96ca3ab796b057f1741948b8436c9c2fb17b01728b0cccc20fc00c14297ad14",
+    "status.json": "c94cdaa2c3e1d365db7229a31ea4cf0e03e059deae7d9e791baf89dceebad387"
+  }
+}

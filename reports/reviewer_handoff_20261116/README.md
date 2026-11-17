@@ -1,3 +1,5 @@
+当前版本已整合官方接口诊断与价格等值分析，完整稿 75 页、主文阅读版 31 页。见[当前整合记录](../api_economics_manuscript_integration_20261117/README.md)。以下较早条目为历史记录。
+
 当前版本已将公开真人食品 DCE 并入第 4.6 节和附录 C9，见[整合记录](../public_panel_manuscript_integration_20261117/README.md)。以下较早条目均为历史记录。
 
 真实重复选择 DCE 审计已完成，见[完整结果](../public_panel_dce_20261117/README.md)。新实证尚未并入当前 Word；已有稿件版本指针保持有效。以下为较早交付历史。

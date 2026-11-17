@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-17",
+  "formal_body_read": false,
+  "formal_appendices_A_to_E_read": false,
+  "web_attempts": [
+    {
+      "url": "https://doi.org/10.1214/26-AOAS2215",
+      "result": "Web tool could not open DOI"
+    },
+    {
+      "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full",
+      "result": "Web tool returned iframe only"
+    },
+    {
+      "url": "https://projecteuclid.org/journals/supplementalcontent/10.1214/26-AOAS2215/aoas2215suppa.pdf",
+      "result": "Web tool could not retrieve"
+    },
+    {
+      "surface": "Existing relevant Chrome tab",
+      "result": "Selecting tab timed out after 30 seconds; no formal body or new access right observed"
+    },
+    {
+      "url": "https://web.stanford.edu/~jduchi/publications.html",
+      "result": "Current author journal entry links to the same 29-page arXiv v2, March 2024; not the formal version"
+    }
+  ],
+  "new_general_web_queries": 6,
+  "query_strings": [
+    "\"26-AOAS2215\" \"Supplement\"",
+    "\"PPI++\" \"2235\" \"2252\" pdf",
+    "\"aoas2215suppa\"",
+    "\"PPI++\" \"Duchi\" \"2026\" pdf [restricted to primary-author/publisher domains]",
+    "\"PPI++\" \"Supplement\" \"Appendix D\"",
+    "\"PPI++\" \"Efficient prediction-powered inference\" filetype:pdf"
+  ],
+  "new_Scopus_queries": 0,
+  "new_Google_Scholar_queries": 0,
+  "new_WOS_queries": 0,
+  "specific_priority_or_submission_threshold_certified": false,
+  "meaningful_next_action": "Execute fixed-version official API under isolated dependencies, distinguish actual returned optimization arrays from original-objective support. This does not resolve formal-version reading."
+}

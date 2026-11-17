@@ -1,0 +1,19 @@
+{
+  "state": "complete",
+  "original_method_records": 16000,
+  "verified_finite_coefficients": 15418,
+  "availability_rows": 32,
+  "negative_price_attribute_rows": 256,
+  "all_signed_attribute_rows": 256,
+  "paired_Bere_rows": 64,
+  "formula": "-10 * beta_attribute / beta_cost_GBP10",
+  "unit": "GBP per 250g package",
+  "experimental_product_price_span": 12.5,
+  "no_refitting": true,
+  "no_trim_or_winsorization": true,
+  "allocation_and_price_sign_denominators_preserved": true,
+  "descriptive_secondary_analysis": true,
+  "population_WTP_or_estimator_superiority_claim": false,
+  "plan_sha256": "214599e64b9a0054b0ada5d67bb31fc80bca37cd5b64da90f2dd91087e099ac7",
+  "source_sha256": "e28527fb02856ffd48c99887cfc5f1d69182f5bb6500434c2a810fe2da81ff27"
+}

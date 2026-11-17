@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "API_calls": 68,
+  "returned_finite_arrays": 60,
+  "exceptions": 8,
+  "original_source_unchanged": true,
+  "no_unplanned_cases_added": true
+}

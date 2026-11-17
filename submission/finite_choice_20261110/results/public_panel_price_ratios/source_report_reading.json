@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-17",
+  "source_report": "https://zenodo.org/records/15574862",
+  "report_title": "D5.3. Farmers’ and consumers’ preferences and behavioural economics underpinning underutilised crop choices",
+  "authors": [
+    "Piras, Simone",
+    "Mzek, Tareq",
+    "Chen, Jianyu"
+  ],
+  "year": 2025,
+  "version": "V1",
+  "PDF_bytes": 6950256,
+  "PDF_MD5": "551a63f2b70626ec6e3d6257270b1237",
+  "PDF_SHA256": "a655c070726ee12563a294668f153e982475a1a1b51d76a2cc4f7ed5aff19b32",
+  "PDF_pages": 123,
+  "text_pages_read": [
+    27,
+    28,
+    35,
+    36,
+    37
+  ],
+  "pages_visually_checked": [
+    36,
+    37
+  ],
+  "report_model_scope": "Table 6 uses heterogeneous preference coefficients, with cost described as lognormal; reports WTP-space results. These are not the same estimand as a homogeneous MNL coefficient ratio.",
+  "units_confirmed": "GBP per 250g shortbread package, also confirmed by released workbook metadata row 104.",
+  "source_count_discrepancy": "Report pages 36/37 state 301 consumers and 1790 choices; published dataset metadata reports 299 respondent records. The reanalysis uses the workbook itself: 299 records, 298 complete six-task respondents, 1788 retained menus. Do not replace the checked workbook counts with the report count.",
+  "source_report_WTP_used_as_truth": false,
+  "source_report_PDF_in_public_backup": false
+}

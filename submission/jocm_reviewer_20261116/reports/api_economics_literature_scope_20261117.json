@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-17",
+  "general_web_queries": 3,
+  "new_Scopus_queries": 0,
+  "new_Google_Scholar_queries": 0,
+  "new_WOS_queries": 0,
+  "queries": [
+    "\"26-AOAS2215\" supplement",
+    "\"PPI++\" \"AOAS2215\" pdf",
+    "\"PPI++: Efficient prediction-powered inference\" \"supplement\""
+  ],
+  "DOI_open_attempts": [
+    "10.1214/26-AOAS2215SUPPA",
+    "10.1214/26-AOAS2215SUPPB",
+    "10.1214/26-AOAS2215SUPPC",
+    "10.1214/26-AOAS2215SUPPD",
+    "10.1214/26-AOAS2215SUPPE",
+    "10.1214/26-AOAS2215"
+  ],
+  "outcome": "The web tool returned an access error for each DOI open. No formal article or supplement was obtained or read. Search snippets and metadata were not used as theorem-absence evidence.",
+  "primary_documents_used": "Previously read and source-bound official pinned code, March 2024 arXiv v2 and RADIANT source report; no new substantive literature claim."
+}

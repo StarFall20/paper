@@ -1,0 +1,5 @@
+# Proposed price-equivalent scope text
+
+Placement: the existing food-DCE section and its interpretation. Not yet integrated in the reviewed Word.
+
+For the saved marginal-logit fits, we also examine the Bere ingredient price equivalent, −10 times its coefficient divided by the coefficient on price per GBP10. The unit is GBP per 250 g package. Of 15418 available fits, 15417 have a negative price coefficient and one has a positive coefficient. At twenty labelled respondents, the unit-correction median price equivalent is GBP1.244, with a 5th–95th allocation range of −0.410 to 3.213; ordinary labelled MNL gives GBP1.307 and −0.436 to 3.142. At forty respondents the corresponding medians are GBP1.332 and GBP1.343. Five-person allocations have wider distributions, including extreme ratios for direct ridge. Every summary retains its available-fit and price-sign denominator. These are descriptive parameter ratios across allocations of the fixed source, with no population WTP or accuracy claim. The source report's heterogeneous preference and WTP-space results have a different target.

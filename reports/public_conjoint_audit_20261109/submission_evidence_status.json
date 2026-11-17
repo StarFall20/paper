@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "The current reviewed manuscript remains the 71-page/29-page public-panel integration. Official API runtime and secondary price-equivalent diagnostics are separately checked and archived. Economic-sign and moderate-budget results limit broad application claims. Formal PPI++ body/Appendices A–E, exact-result priority and sufficient choice-analysis value remain open; no submission-readiness certification or submission has occurred.",
+  "decision": "Current reviewed manuscript: 75 complete / 31 reading pages, 20 tables and 146 display formulas. Official pinned API diagnostics and descriptive price equivalents are integrated. Formal PPI++ body/Supplements A–E reconciliation, exact priority and sufficient choice-analysis value remain unresolved. Goal active; no submission.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -34,7 +34,7 @@
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
-      "evidence": "../../submission/finite_choice_20261110/reports/public_panel_validation_20261117.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/api_economics_validation_20261117.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law."
     },
     {
@@ -51,8 +51,8 @@
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "69_page_full_29_page_reading_Word_reviewed_18_tables_7_appendices_6_vector_figures",
-      "evidence": "../public_panel_manuscript_integration_20261117/README.md",
+      "status": "75_page_full_31_page_reading_Word_reviewed_20_tables_7_appendices_6_vector_figures",
+      "evidence": "../api_economics_manuscript_integration_20261117/README.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
   ],
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../public_panel_price_ratios_20261117/README.md",
+  "latest_progress_report": "../api_economics_manuscript_integration_20261117/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "All 15418 available food-DCE coefficients translated into eight attribute price equivalents without refitting. A separate Decimal/order-statistic verifier checks 123344 ratios, 32 availability rows, 512 attribute summaries and 64 paired summaries. Only one positive price coefficient appears; moderate-budget price equivalents track ordinary MNL closely. This limits a broad economic-distortion narrative and adds no theory or accuracy claim. Formal PPI++ reconciliation remains unresolved.",
+  "latest_progress": "Integrated completed 68-call official API diagnostics and 123344 verified descriptive attribute-price ratios. All 20 preceding tables, 146 display bodies, 808 scientific files and 83 root analysis sources retain exact contents. No model refits or new answers.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -389,24 +389,24 @@
     "date": "2026-11-17",
     "pointer": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
     "package_analysis_sources": 83,
-    "main_body_lexical_words_excluding_math": 9275,
+    "main_body_lexical_words_excluding_math": 9417,
     "abstract_words": 189,
     "paper": {
-      "pages_from_existing_visual_review": 71,
-      "native_math_objects": 1331,
+      "pages_from_existing_visual_review": 75,
+      "native_math_objects": 1339,
       "tables": 20,
       "source_display_blocks": 146
     },
     "main_text": {
-      "pages_from_existing_visual_review": 29,
+      "pages_from_existing_visual_review": 31,
       "native_math_objects": 237,
       "tables": 6,
       "source_display_blocks": 35
     },
-    "paper_md_sha256": "884ecb3f826ca45ae7b06cdc6b517b7a4562f566616bcb416a483cd7794b7435",
-    "paper_docx_sha256": "cb640b4be8b67ee05a1abb4f30ecd05f6132054192613e46ee7565ae9b230804",
-    "main_text_md_sha256": "dda506f6d722a7d3ade6c03fd1cb61437297f681228c61b57a03be3e4691e86e",
-    "main_text_docx_sha256": "1aff5b986638948b39e18b803e7b223705dddb376f349fca7dc5f807bd8ac12e"
+    "paper_md_sha256": "354d7b24f1398b62c9198762c8c83b7f14893a2aec838c395155ba4304b67983",
+    "paper_docx_sha256": "f4fea183cca7eb33f231f28b8034bb01e520cba9ce632ecdd8e559250c1727f1",
+    "main_text_md_sha256": "a30c81ac98f81ef21bb0ecc4ff56f366003f3f3d109635c90b0f750d884951ce",
+    "main_text_docx_sha256": "21172da7631b2a4cb32553d06b72a9c8b316d19db43b20fe7b3574cd4bed3d39"
   },
   "formal_prior_scope_followup_20261115": {
     "report": "../formal_prior_scope_20261115/README.md",
@@ -473,7 +473,7 @@
     "new_Scopus_queries": 0,
     "new_human_or_AI_answers": 0,
     "goal_achieved": false,
-    "current_copied_parent_files": 965,
+    "current_copied_parent_files": 1027,
     "current_curation": "../../submission/jocm_reviewer_20261116/CURATION.json",
     "root_analysis_sources_unchanged_in_EPI_revision": 83,
     "root_analysis_sources_unchanged_in_matched_information_revision": 83
@@ -646,7 +646,9 @@
     "new_independent_cohorts": 0,
     "new_theoretical_framework": false,
     "formal_PPI_gap_resolved": false,
-    "submission_threshold_certified": false
+    "submission_threshold_certified": false,
+    "current_Word_integration_pending": false,
+    "current_manuscript_integration": "../api_economics_manuscript_integration_20261117/README.md"
   },
   "price_ratios_20261117": {
     "state": "complete_independently_checked_and_replayed",
@@ -661,8 +663,20 @@
     "new_model_fits": 0,
     "new_human_or_AI_answers": 0,
     "current_Word_unchanged": true,
-    "current_Word_integration_pending": true,
+    "current_Word_integration_pending": false,
     "formal_PPI_gap_resolved": false,
-    "global_priority_or_submission_threshold_certified": false
+    "global_priority_or_submission_threshold_certified": false,
+    "current_manuscript_integration": "../api_economics_manuscript_integration_20261117/README.md"
+  },
+  "api_economics_manuscript_integration_20261117": {
+    "state": "integrated_reviewed_and_checked",
+    "integration": "../api_economics_manuscript_integration_20261117/README.md",
+    "full_pages": 75,
+    "reading_pages": 31,
+    "preceding_scientific_files_unchanged": 808,
+    "root_analysis_sources_unchanged": 83,
+    "new_MC_runs": 0,
+    "formal_publication_read": false,
+    "goal_complete": false
   }
 }

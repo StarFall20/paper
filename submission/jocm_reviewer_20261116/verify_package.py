@@ -121,3 +121,12 @@ for line in (panel/'MANIFEST.sha256').read_text().splitlines():
 panel_v=json.loads((panel/'verification/verification.json').read_text())
 assert panel_v['state']=='passed' and panel_v['method_records_reconstructed']==16000
 for n,h in panel_v['result_hashes'].items():assert hashlib.sha256((panel/'results'/n).read_bytes()).hexdigest()==h,n
+
+# Bind the current integration to the completed standalone diagnostics.
+for name in ['official_ppi_runtime','public_panel_price_ratios']:
+ nested=ROOT/'results'/name
+ for line in (nested/'MANIFEST.sha256').read_text().splitlines():
+  h,n=line.split('  ',1);assert hashlib.sha256((nested/n).read_bytes()).hexdigest()==h,(name,n)
+ assert json.loads((nested/'verification/verification.json').read_text())['state']=='passed'
+for n,h in integration['scientific_files_unchanged'].items():assert hashlib.sha256((ROOT/n).read_bytes()).hexdigest()==h,n
+assert integration['preceding_tables_preserved']==20 and integration['current_display_count']==146

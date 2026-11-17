@@ -1,0 +1,24 @@
+{
+  "state": "passed",
+  "input_method_records_checked": 16000,
+  "finite_coefficient_vectors_checked": 15418,
+  "scalar_attribute_ratios_checked": 123344,
+  "availability_rows_checked": 32,
+  "attribute_summary_rows_checked": 512,
+  "paired_summary_rows_checked": 64,
+  "max_scaled_numeric_discrepancy": 3.902431535698276e-15,
+  "max_60_digit_compensation_identity_residual": 3e-58,
+  "primary_code_or_model_routine_imported": false,
+  "independent_calculation": "Decimal conversion to per-GBP price slope, scalar compensation equation, math.fsum means and exact rational order-statistic interpolation.",
+  "source_hashes": {
+    "plan.json": "214599e64b9a0054b0ada5d67bb31fc80bca37cd5b64da90f2dd91087e099ac7",
+    "analysis/compute_ratios.py": "e28527fb02856ffd48c99887cfc5f1d69182f5bb6500434c2a810fe2da81ff27",
+    "analysis/verify_ratios.py": "4bd55996dcd1f70dd67e3fadf6d39df073283c8f1e5a19230d6441c782c855ca",
+    "results/all_signed_algebraic_ratios.csv": "ebd63c60376ec0dfe8575148583003ee1ef0d6b1c2c9482b10ed895e21f0ed45",
+    "results/availability.csv": "de3efb4b14acf94be474a31ab1e1568b066f86e37d7273090d14390f3906046f",
+    "results/negative_price_attribute_ratios.csv": "d9a4a146022351de83a840855c446fca6be81d879ebe234c30142031cb82055b",
+    "results/paired_Bere_differences.csv": "e7ce42e650854ffa90adaf5dceb0f262bb56d58ad37c42734e56683696957d88",
+    "results/price_and_Bere_records.csv": "9d37c5cf43ae8eabc48e0cca11b2f26b582addf67b9634df2810f117043b0a5c",
+    "results/status.json": "dd9632a77d4f41be68bd9370bf143974a4989ac0e9d7f4b5660019e83e35aea9"
+  }
+}

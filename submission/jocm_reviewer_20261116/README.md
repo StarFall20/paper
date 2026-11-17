@@ -1,6 +1,6 @@
 # Reproduce When prediction assisted logit estimates exist
 
-The reviewed manuscript includes the 17 November 2026 respondent-separated food DCE in Section 4.6 and Appendix C9. It contains 298 released respondents, 1788 observed menus, four label budgets and eight methods, with 16000 derived records from 500 finite-population allocations. The full manuscript has 71 pages, 20 tables and 146 display formulas. All 18 preceding tables and 145 display bodies retain their contents. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
+The reviewed manuscript includes the 17 November 2026 official-interface and price-equivalent integration. Sections 4.2/C10 use 68 calls to the unmodified pinned ppi_py logistic interface, with normal controls and an exact unattained-boundary example. Sections 4.6/C9 use the released 298-person food DCE and report descriptive price equivalents from its existing 15418 finite coefficient vectors. All 16000 method-allocation denominators remain visible. The full manuscript has 75 pages, 20 tables and 146 display formulas; the reading version has 31 pages. All preceding tables, displays and 808 scientific files retain their contents. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
 
 Use Python 3.12 with [the recorded versions](requirements.txt). Run these commands from this directory, using a new output directory:
 
@@ -11,7 +11,7 @@ python verify_package.py
 python analysis/quick_check.py --out regenerated/checks --full-math
 ```
 
-The first command verifies inventory, source provenance, local links, manuscript hashes and nested manifests. The second reruns analytic checks and reconciles all 18 manuscript tables. It does not refit every historical simulation or public allocation. [REPRODUCTION_COMMANDS.md](REPRODUCTION_COMMANDS.md) lists the original analysis commands and their computational scope.
+The first command verifies inventory, source provenance, local links, manuscript hashes and nested manifests. The second reruns analytic checks and reconciles all 20 manuscript tables. It does not refit every historical simulation or public allocation. [REPRODUCTION_COMMANDS.md](REPRODUCTION_COMMANDS.md) lists the original analysis commands and their computational scope.
 
 Three recent simulation studies have self-contained entry points. Their default workflows reconstruct saved records and independently verify them; `--full` repeats their primary computations:
 
@@ -31,7 +31,7 @@ python results/public_auxiliary_budget/run_reproduction.py --input-dir local_inp
 
 Consult each study's README before full runs. The held-out study has separate fitting and verification entries. It uses choice rows whose respondent IDs are unavailable. Generated coupled variants, allocation permutations and additional solver calls are not independent people or new model cohorts.
 
-The [curation record](CURATION.json) lists every retained and omitted parent file. All 83 root analysis sources are retained: 82 analysis algorithms are unchanged and quick_check.py now checks 18 tables. The new nested one-step supplement contains nine source files and all 60000 method records. All preceding scientific result files are unchanged. The [attribution record](ATTRIBUTION.md) identifies established methods and the owners of public inputs. No questionnaire observations, participant identifiers, authentication records or downloaded article full texts enter this package.
+The [curation record](CURATION.json) lists every retained and omitted parent file. All 83 root analysis sources are retained and unchanged in the current integration; quick_check.py checks 20 tables. The new nested one-step supplement contains nine source files and all 60000 method records. All preceding scientific result files are unchanged. The [attribution record](ATTRIBUTION.md) identifies established methods and the owners of public inputs. No questionnaire observations, participant identifiers, authentication records or downloaded article full texts enter this package.
 
 This is a reproduction release for author and reviewer inspection. Final author approval and publisher declarations remain separate. The manuscript studies an existence boundary; it does not establish a generally superior new estimator or certify global priority.
 
@@ -68,3 +68,6 @@ python results/public_panel_dce/analysis/reconcile_tables.py --package-root . --
 ```
 
 Full source download, primary fit and independent reconstruction commands are in the nested README. They use public observed choices and create no new respondent or AI answer. Small-budget failures, larger-budget absence of failure, conditional-risk denominators and the stronger all-human training-cost comparator remain reported. The [current validation](reports/public_panel_validation_20261117.json) distinguishes the new empirical checks from inherited unchanged mathematical evidence. Earlier dated reports retain historical scope.
+
+
+The [official API runtime snapshot](results/official_ppi_runtime/README.md) and [secondary price-equivalent snapshot](results/public_panel_price_ratios/README.md) are now integrated in the article. Each retains its dated standalone scope and pre-integration proposal, manifest, independent verifier and completed separate-copy replay. Follow their own environment instructions: official API execution uses a separate dependency environment. The current package check validates their inventories without refitting models. Price ratios are descriptive, with no true-WTP accuracy or population-confidence claim. Selected API failures establish diagnostic examples, not failure prevalence. Formal PPI++ 2026 body and Supplements A–E, exact priority and sufficient choice-analysis value remain open.

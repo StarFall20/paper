@@ -55,3 +55,8 @@ The [new completed audit](../public_panel_dce_20261117/README.md) supplies a rea
 ## 17 November 2026 respondent-separated DCE integration
 
 Section 4.6 and Appendix C9 now use 298 released respondents and 1788 real food choices, separating training, correction and evaluation people. The audit locates exterior correction targets in some very small label groups, retains the absence of failures at twenty and forty people, and reports the advantage of direct all-human MNL once training labels are charged. This strengthens the link to choice data without claiming universal practical prevalence, a new cluster theorem or superior prediction. Formal PPI++ reconciliation, exact-result priority and sufficient JCM value remain open.
+
+
+## 17 November 2026 official interface and price equivalent integration
+
+Sections 4.2/C10 execute the pinned official API and expose the distinction between returned arrays, solver success and finite attainment. Selected cases are diagnostic, with normal controls and no prevalence estimate. Sections 4.6/C9 add price equivalents from the existing released food DCE, with all availability denominators and source-specific cost units retained. They connect coefficient existence to an economic quantity without demonstrating true WTP accuracy or prediction gains. Formal-publication reconciliation, specific-result priority and sufficient choice-analysis contribution remain unresolved.

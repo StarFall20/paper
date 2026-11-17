@@ -1,0 +1,552 @@
+[
+  {
+    "record": 0,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 1,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 2,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.0018408919490512932
+  },
+  {
+    "record": 3,
+    "stage": "initial",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.0018408919490512932
+  },
+  {
+    "record": 4,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 5,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 6,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.003091343548372927
+  },
+  {
+    "record": 7,
+    "stage": "initial",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.003091343548372927
+  },
+  {
+    "record": 8,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 9,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 10,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.005224606121473352
+  },
+  {
+    "record": 11,
+    "stage": "initial",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.005224606121473352
+  },
+  {
+    "record": 12,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 13,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 14,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.009468345462681771
+  },
+  {
+    "record": 15,
+    "stage": "initial",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.009468345462681771
+  },
+  {
+    "record": 16,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 17,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 18,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.025376465609915633
+  },
+  {
+    "record": 19,
+    "stage": "initial",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.025376465609915633
+  },
+  {
+    "record": 20,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 21,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 22,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.01249481148229703
+  },
+  {
+    "record": 23,
+    "stage": "initial",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.01249481148229703
+  },
+  {
+    "record": 24,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 25,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 26,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.023207855655172693
+  },
+  {
+    "record": 27,
+    "stage": "initial",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.023207855655172693
+  },
+  {
+    "record": 28,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 29,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 30,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.021763369976736058
+  },
+  {
+    "record": 31,
+    "stage": "initial",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.021763369976736058
+  },
+  {
+    "record": 32,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 33,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 34,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 35,
+    "stage": "initial",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 35,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 36,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 37,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 38,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 39,
+    "stage": "initial",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 39,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 40,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 41,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 42,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 43,
+    "stage": "initial",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 43,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 44,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 45,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 46,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 47,
+    "stage": "initial",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 47,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 48,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 49,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 50,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 51,
+    "stage": "initial",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 51,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 52,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 53,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 54,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 55,
+    "stage": "initial",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 55,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 56,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 57,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 58,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 59,
+    "stage": "initial",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 59,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 60,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 61,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 62,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 63,
+    "stage": "initial",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 63,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 64,
+    "stage": "effective",
+    "state": "interior",
+    "residual_box_status": 0,
+    "contracted_residual_status": 0
+  },
+  {
+    "record": 65,
+    "stage": "effective",
+    "state": "boundary_or_near_boundary",
+    "residual_box_status": 0,
+    "contracted_residual_status": 2
+  },
+  {
+    "record": 66,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.012499999999999997
+  },
+  {
+    "record": 67,
+    "stage": "effective",
+    "state": "outside",
+    "residual_box_status": 2,
+    "contracted_residual_status": 2,
+    "recession": -0.11250000000000004
+  }
+]

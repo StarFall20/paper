@@ -357,3 +357,6 @@ The current respondent-separated food DCE is reproduced using the commands in [i
 ```sh
 python results/public_panel_dce/analysis/reconcile_tables.py --package-root . --out regenerated/public_panel_table_check.json
 ```
+
+
+For the integrated official API diagnostics and secondary price calculation, follow [the isolated official runtime instructions](results/official_ppi_runtime/README.md) and [the price-equivalent instructions](results/public_panel_price_ratios/README.md). Both have data-free `verify_package.py` inventory checks. Their recorded full primary and independent replays already passed; the original numerical environment is preserved.

@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-17",
+  "status": "fixed_before_first_upstream_fit",
+  "purpose": "Execute the unmodified pinned official logistic point-estimation API and assess its returned coefficients against the original compensated objective, without replacing any prior scientific result.",
+  "official_repository": "aangelopoulos/ppi_py",
+  "official_commit": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+  "official_distribution_version": "0.2.3",
+  "public_cases": [
+    {
+      "trial": 92,
+      "prediction": "AI",
+      "existing_unit_support": "outside_mean_support"
+    },
+    {
+      "trial": 121,
+      "prediction": "AI",
+      "existing_unit_support": "outside_mean_support"
+    },
+    {
+      "trial": 256,
+      "prediction": "AI",
+      "existing_unit_support": "outside_mean_support"
+    },
+    {
+      "trial": 317,
+      "prediction": "AI",
+      "existing_unit_support": "outside_mean_support"
+    },
+    {
+      "trial": 317,
+      "prediction": "X_only",
+      "existing_unit_support": "outside_mean_support"
+    },
+    {
+      "trial": 337,
+      "prediction": "AI",
+      "existing_unit_support": "outside_mean_support"
+    },
+    {
+      "trial": 483,
+      "prediction": "AI",
+      "existing_unit_support": "outside_mean_support"
+    },
+    {
+      "trial": 483,
+      "prediction": "X_only",
+      "existing_unit_support": "outside_mean_support"
+    },
+    {
+      "trial": 0,
+      "prediction": "AI",
+      "existing_unit_support": "finite_root"
+    },
+    {
+      "trial": 1,
+      "prediction": "AI",
+      "existing_unit_support": "finite_root"
+    },
+    {
+      "trial": 2,
+      "prediction": "AI",
+      "existing_unit_support": "finite_root"
+    },
+    {
+      "trial": 3,
+      "prediction": "AI",
+      "existing_unit_support": "finite_root"
+    },
+    {
+      "trial": 0,
+      "prediction": "X_only",
+      "existing_unit_support": "finite_root"
+    },
+    {
+      "trial": 1,
+      "prediction": "X_only",
+      "existing_unit_support": "finite_root"
+    },
+    {
+      "trial": 2,
+      "prediction": "X_only",
+      "existing_unit_support": "finite_root"
+    },
+    {
+      "trial": 3,
+      "prediction": "X_only",
+      "existing_unit_support": "finite_root"
+    }
+  ],
+  "selection_rule": "All eight recorded unit-power exterior cases at 50 labels; first four interior trial IDs in each of the two prediction strata as explicit controls. Outcome-stratified diagnostic selection, not an estimate of population failure prevalence.",
+  "API_powers": [
+    0,
+    0.5,
+    1,
+    null
+  ],
+  "analytical_cases": [
+    {
+      "name": "matched_reference_0.5",
+      "power": 0.5,
+      "critical_power": "11/20"
+    },
+    {
+      "name": "matched_reference_0.55",
+      "power": 0.55,
+      "critical_power": "11/20"
+    },
+    {
+      "name": "matched_reference_0.6",
+      "power": 0.6,
+      "critical_power": "11/20"
+    },
+    {
+      "name": "matched_reference_1.0",
+      "power": 1.0,
+      "critical_power": "11/20"
+    }
+  ],
+  "planned_API_calls": 68,
+  "optimizer_options": {
+    "ftol": 1e-15,
+    "gtol": 1e-08,
+    "maxiter": 1000,
+    "maxfun": 20000
+  },
+  "observational_instrumentation": "Wrap only module-level minimize and lambda calculator to record the delegated calls and results. No argument, result, source file, initial estimator, covariance, power clipping or recursive control flow is replaced.",
+  "frozen_public_inputs": "Existing canonical reader, five-fold prediction routine, seed 20261109 and source five-row allocation convention; prepare with the preceding analysis environment, freeze inputs before importing official code in a separate dependency environment.",
+  "new_questions_or_AI_answers": 0,
+  "new_independent_model_cohorts": 0,
+  "evaluation_scope": "Existing released rows; respondent independence absent in this vaccine source. No inference, risk comparison or general optimizer failure-rate claim.",
+  "formal_PPI_body_and_A_to_E_read": false,
+  "canonical_Word_change_planned": false
+}

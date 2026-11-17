@@ -1,0 +1,5 @@
+# Proposed software diagnostic text
+
+Placement: after the existing distinction between optimization output and finite attainment. This text is not yet integrated in the current reviewed Word.
+
+We executed the pinned public `ppi_py` logistic point-estimation API on all eight previously recorded unit-power exterior targets and eight interior controls. Each case was evaluated at zero, half and unit power and with automatic power selection. With the stated iteration budget, all eight exterior unit-power calls returned finite numerical arrays after unsuccessful optimization; automatic selection stopped at a singular initial Hessian in each case. Zero and half power had interior targets in these cases, and all controls retained interior targets. The analytic design in Appendix B5 also returned an optimizer success flag and a score residual below 6×10⁻¹⁵ at its unattained rational boundary, represented in floating point. Original-objective support checks distinguish these outcomes before an array is accepted as a finite estimate. The cases were selected by known support state and supply a diagnostic comparison, with no failure-prevalence estimate.

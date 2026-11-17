@@ -295,7 +295,7 @@ Nuisance predictions use five row folds and ridge logistic fits, either within h
 
 ### 4.2 Finite solutions and explicit alternatives
 
-At 50 labels, unit-power objective (2) has six exterior AI moments among 500 allocations; the attributes-only comparator has two. Separate recession directions verify all eight, with minimum gap 0.000388. Existing tuning initialized from the converged human estimate yields finite roots in every allocation. Initializing it from the unit-power root leaves those six and two initializers unavailable. The fitting convention therefore includes both the objective and its initializer.
+At 50 labels, unit-power objective (2) has six exterior AI moments among 500 allocations; the attributes-only comparator has two. Separate recession directions verify all eight, with minimum gap 0.000388. Existing tuning initialized from the converged human estimate yields finite roots in every allocation. Initializing it from the unit-power root leaves those six and two initializers unavailable. The fitting convention therefore includes both the objective and its initializer. The official logistic point-estimation interface returns numerical coefficient arrays in these eight unit-power exterior cases after unsuccessful optimization. Automatic power selection stops at a singular initial Hessian. Appendix C10 retains interior controls, the recorded optimization settings and an unattained-boundary example.
 
 Soft pooling solves its own objective in all eight exterior cases. Its corrected unit-power score discrepancy is at least 0.1072. In the source-style pooled imputation experiment, clipping corrected binary one-hot targets and renormalizing yields observed choices on labelled rows and predictions on auxiliary rows whenever the inverse label-probability weight exceeds one. This removes the original residual correction. That pooled-imputation objective has five AI and two attributes-only exterior cases; its counts remain separate from (2).
 
@@ -332,6 +332,8 @@ Table C4 gives finite-fit counts. At five labelled respondents, ordinary MNL has
 The cluster-score trace criterion uses a common labelled-ridge pilot and respondent-level score covariances, with power clipped to $[0,1]$. It specializes existing variance tuning (Broska and Howes, 2026). Its finite counts are 352 and 495 at five and ten respondents. At five respondents, 136 boundary or numerically near-boundary cases select zero power and return to ordinary MNL. This comparison uses the stated pilot convention, which differs from the unit-power start in that work. It provides no interval-coverage assessment.
 
 Prediction checks retain all eight methods, common-availability denominators and unavailable fits. At five labelled respondents, unit correction with a labelled-ridge fallback has mean evaluation log loss 1.0787, compared with 0.9081 for labelled ridge. Their paired excess is 0.1706 with allocation Monte Carlo standard error 0.0414. Table C5 also charges the predictor's 100 training respondents to direct human fitting. Ordinary MNL using these labels and the correction labels has lower evaluation loss than the corrected fits at all four budgets. These comparisons condition on the same frozen predictor and sixty-person evaluation set. Their Monte Carlo errors concern random label allocation in this fixed file, not population uncertainty.
+
+For the saved fits, we also examine the Bere ingredient price equivalent in GBP per 250 g package. Among 15418 available fits, 15417 have negative price coefficients and one has a positive coefficient. At twenty labelled respondents, unit correction gives a median of GBP1.244 and a 5th–95th allocation range of −0.410 to 3.213; ordinary labelled MNL gives GBP1.307 and −0.436 to 3.142. At forty respondents, the corresponding medians are GBP1.332 and GBP1.343. Five-person allocations have wider distributions, including extreme ratios for direct ridge. These are descriptive coefficient ratios across allocations of this fixed source, conditional on finite fits and negative price. Appendix C9 retains the denominators and coding.
 
 ## 5 Finite estimation and statistical performance
 
@@ -645,7 +647,7 @@ The multiplier support bound and the positive residual second moment in Appendix
 
 ### B3 Matched finite sample evaluation
 
-The nonzero signal example fixes $\gamma=1.5$, $\epsilon=0.1$ and $\tau=1$ after the population evaluation. Its sampling plan precedes simulation. Each labelled budget supplies 500 independent draws; the four dimensions and four methods share each draw. The complete run has 1000 model draws and 16000 classifications.
+The planned nonzero signal experiment fixes $\gamma=1.5$, $\epsilon=0.1$ and $\tau=1$. Each labelled budget supplies 500 independent draws shared across four dimensions and four methods, giving 1000 model draws and 16000 classifications.
 
 Table B1  Matched finite root frequencies along the local score equivalence path
 
@@ -969,7 +971,19 @@ Table C5  Mean evaluation human log loss on verified finite fits
 
 Rows using only the labelled prefix and rows additionally using the training labels are distinguished. Every mean conditions on its available fits; Table C4 supplies the varying denominators, and all other rows use 500 fits. The all-human rows use 105, 110, 120 or 140 labelled respondents. Complete paired comparisons, multicategory Brier losses, coefficient norms, price signs and labelled-ridge fallback results remain in the archive. These are fixed-population allocation comparisons on the same sixty-person evaluation group.
 
+Price is measured in GBP per 250 g package and divided by ten in the regressor. For a nonprice attribute $a$, the saved coefficient ratio is $-10\beta_a/\beta_{\operatorname{cost}}$. The Bere indicator compares flour containing Bere with no Bere. Zero price coefficients give no ratio; no near-zero cutoff, trimming or winsorization is applied. Separate files retain ratios for every nonzero price slope and summaries conditional on a negative slope. All 500 allocations remain in the availability table. The one positive price slope occurs under cluster power at five labelled respondents. Allocation percentiles describe changes in the correction labels while the training and evaluation groups remain fixed; they are neither population WTP distributions nor confidence intervals. The source project report uses heterogeneous preferences and WTP-space models (Piras et al., 2025), so its reported WTP is not a known true value for these homogeneous MNL ratios. Its consumer count also differs from the released workbook; the analysis retains the workbook counts verified above.
+
+The secondary calculation follows a separate plan written after the primary fits and price-sign summaries existed. A scalar implementation using 60-digit arithmetic verifies all 123344 nonprice-attribute ratios, 32 availability summaries, 512 attribute summaries and 64 paired summaries. Paired comparisons retain only allocations where both methods have finite fits and negative prices. They supply descriptive differences with no known WTP truth or accuracy ranking. The separate-copy replay reproduces all six derived output files byte-for-byte.
+
 The complete experiment retains 16000 method records. Independent original-row calculations check all 15418 available coefficients, all 253 negative recession directions, 162 stratified residual LPs and all 2000 cluster weights. The largest original score residual is below $8.1\times10^{-9}$. No support state or numerical fit remains unresolved. The verifier shares the source reader and fixed partition, with separate objective, gradient, metric and residual-LP code. Source checksums, the plan, early pre-fit checks and all results accompany the manuscript.
+
+### C10 Official logistic interface diagnostic
+
+We execute the unmodified logistic point-estimation interface from the public ppi_py package at commit 3d1f0c668444907b39bd045cb9dd38e479ce7dd6. All eight previously audited unit-power exterior targets in Section 4.2 are retained, alongside the first four interior allocations for each prediction routine. Each case is called at zero, half and unit power and with automatic power selection. Four analytic cases from Appendix B5 give 68 calls in total. The selection uses known support states and provides diagnostic cases, with no failure-prevalence estimate. An isolated environment and source hashes fix the software version.
+
+Each call uses objective tolerance $10^{-15}$, gradient tolerance $10^{-8}$, 1000 iterations and 20000 function evaluations. Two delegating wrappers record the optimizer status and selected power without altering arguments, results or official source. All eight exterior unit-power calls return finite numerical arrays, with coefficient norms between $1.14\times10^{35}$ and $4.87\times10^{54}$. Seven optimizations end with an abnormal line search and one reaches the stated iteration cap. The interface returns the coefficient array without that status. All eight automatic calls stop at a singular Hessian at the unit-power start. Zero and half power have interior targets in these cases; all 32 calls on the eight normal controls have interior targets and successful final optimization.
+
+The rational example in Appendix B5 has critical power $11/20$. At this boundary, represented in floating point, the official call reports optimizer success with coefficient norm 32.10 and score residual below $6\times10^{-15}$. The exact objective has a finite unattained infimum. The floating-point support LP classifies the design as boundary or numerically near boundary. At half power the finite slope is about 3.67677; at powers 0.6 and one the objective is unbounded. The independent original-objective implementation checks all 68 call records, 60 returned arrays, 76 residual-box LPs, eight selected powers and eight initial singular matrices. These cases establish why a small score residual or a numerical success flag needs an objective-support check. The fixed-dimensional PPI++ consistency result retains its stated scope.
 
 ## Appendix D Powers approaching zero
 
@@ -1645,6 +1659,8 @@ Nova, G., van Cranenburgh, S., Hess, S. (2025). Understanding the decision-makin
 Odlyzko, A.M. (1988). On subspaces spanned by random selections of ±1 vectors. Journal of Combinatorial Theory, Series A 47, 124–133. https://doi.org/10.1016/0097-3165(88)90046-5
 
 Oymak, S., Tropp, J.A. (2018). Universality laws for randomized dimension reduction, with applications. Information and Inference 7, 337–446. https://doi.org/10.1093/imaiai/iax011
+
+Piras, S., Mzek, T., Chen, J. (2025). D5.3. Farmers’ and consumers’ preferences and behavioural economics underpinning underutilised crop choices. Version V1. Zenodo. https://doi.org/10.5281/zenodo.15574862
 
 Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advances in Neural Information Processing Systems 16. https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html
 

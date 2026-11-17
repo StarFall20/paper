@@ -1,3 +1,11 @@
+# Official interface and price equivalents integrated 17 November 2026
+
+The [current reviewed manuscript](reports/api_economics_manuscript_integration_20261117/README.md) integrates the unmodified pinned ppi_py API diagnostics in Sections 4.2/C10 and descriptive food-DCE price equivalents in Sections 4.6/C9. The 68 calls include selected exterior cases, normal controls and a boundary where numerical optimizer success coexists with an unattained infimum. They supply diagnostic examples, not a prevalence estimate. The 123344 independently checked attribute-price ratios use the preceding 15418 finite coefficient vectors and retain all 16000 allocation-method denominators. The ratios do not establish population WTP accuracy.
+
+The complete/reading Word files have 75/31 pages and 1339/237 native math objects. All 20 preceding tables, 146 display bodies, 808 scientific files and 83 root analysis sources retain their contents. The abstract has 189 words and Sections 1–7 have 9417 lexical words under the recorded counting rule. Every final page has original-resolution inspection or exact reviewed-PNG inheritance. No unchanged model, Monte Carlo run or respondent recruitment was repeated.
+
+Official API code is pinned at 3d1f0c668444907b39bd045cb9dd38e479ce7dd6. Formal PPI++ 2026 body and Supplements A–E remain unread; exact priority and sufficient choice-analysis value remain unresolved. The goal remains active. Earlier entries below are dated history.
+
 # Food DCE price equivalents checked — 17 November 2026
 
 The [secondary price-equivalent audit](reports/public_panel_price_ratios_20261117/README.md) uses all 16000 existing method records and 15418 verified finite coefficient vectors without refitting. The public codebook confirms GBP per 250g package and the price/10 regressor. Eight attribute ratios retain every allocation, fit and price-sign denominator, with no trimming or population WTP claim. A separate 60-digit Decimal and scalar order-statistic verifier checks 123344 ratios, 32 availability summaries, 512 attribute summaries and 64 paired comparisons. All six derived output files reproduce byte-for-byte in a separate copy.

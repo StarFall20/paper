@@ -12,7 +12,8 @@
       "1": "Current final PNG directly inspected at original resolution"
     }
   },
-  "copied_manuscript_visual_review": "Current public_panel_visual_qa_20261117.json covers every final PNG by original-resolution direct inspection or exact reviewed-image inheritance; 71 complete and 29 reading pages.",
+  "copied_manuscript_visual_review": "api_economics_visual_qa_20261117.json binds all 75 complete and 31 reading pages through direct original-resolution inspection or exact reviewed-PNG inheritance.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
-  "highlights_visual_review": "Unchanged source hash bound to current full visual QA"
+  "highlights_visual_review": "Unchanged source hash bound to current full visual QA",
+  "manuscript_docx_sha256": "f4fea183cca7eb33f231f28b8034bb01e520cba9ce632ecdd8e559250c1727f1"
 }

@@ -295,7 +295,7 @@ Nuisance predictions use five row folds and ridge logistic fits, either within h
 
 ### 4.2 Finite solutions and explicit alternatives
 
-At 50 labels, unit-power objective (2) has six exterior AI moments among 500 allocations; the attributes-only comparator has two. Separate recession directions verify all eight, with minimum gap 0.000388. Existing tuning initialized from the converged human estimate yields finite roots in every allocation. Initializing it from the unit-power root leaves those six and two initializers unavailable. The fitting convention therefore includes both the objective and its initializer.
+At 50 labels, unit-power objective (2) has six exterior AI moments among 500 allocations; the attributes-only comparator has two. Separate recession directions verify all eight, with minimum gap 0.000388. Existing tuning initialized from the converged human estimate yields finite roots in every allocation. Initializing it from the unit-power root leaves those six and two initializers unavailable. The fitting convention therefore includes both the objective and its initializer. The official logistic point-estimation interface returns numerical coefficient arrays in these eight unit-power exterior cases after unsuccessful optimization. Automatic power selection stops at a singular initial Hessian. Appendix C10 retains interior controls, the recorded optimization settings and an unattained-boundary example.
 
 Soft pooling solves its own objective in all eight exterior cases. Its corrected unit-power score discrepancy is at least 0.1072. In the source-style pooled imputation experiment, clipping corrected binary one-hot targets and renormalizing yields observed choices on labelled rows and predictions on auxiliary rows whenever the inverse label-probability weight exceeds one. This removes the original residual correction. That pooled-imputation objective has five AI and two attributes-only exterior cases; its counts remain separate from (2).
 
@@ -332,6 +332,8 @@ Table C4 gives finite-fit counts. At five labelled respondents, ordinary MNL has
 The cluster-score trace criterion uses a common labelled-ridge pilot and respondent-level score covariances, with power clipped to $[0,1]$. It specializes existing variance tuning (Broska and Howes, 2026). Its finite counts are 352 and 495 at five and ten respondents. At five respondents, 136 boundary or numerically near-boundary cases select zero power and return to ordinary MNL. This comparison uses the stated pilot convention, which differs from the unit-power start in that work. It provides no interval-coverage assessment.
 
 Prediction checks retain all eight methods, common-availability denominators and unavailable fits. At five labelled respondents, unit correction with a labelled-ridge fallback has mean evaluation log loss 1.0787, compared with 0.9081 for labelled ridge. Their paired excess is 0.1706 with allocation Monte Carlo standard error 0.0414. Table C5 also charges the predictor's 100 training respondents to direct human fitting. Ordinary MNL using these labels and the correction labels has lower evaluation loss than the corrected fits at all four budgets. These comparisons condition on the same frozen predictor and sixty-person evaluation set. Their Monte Carlo errors concern random label allocation in this fixed file, not population uncertainty.
+
+For the saved fits, we also examine the Bere ingredient price equivalent in GBP per 250 g package. Among 15418 available fits, 15417 have negative price coefficients and one has a positive coefficient. At twenty labelled respondents, unit correction gives a median of GBP1.244 and a 5th–95th allocation range of −0.410 to 3.213; ordinary labelled MNL gives GBP1.307 and −0.436 to 3.142. At forty respondents, the corresponding medians are GBP1.332 and GBP1.343. Five-person allocations have wider distributions, including extreme ratios for direct ridge. These are descriptive coefficient ratios across allocations of this fixed source, conditional on finite fits and negative price. Appendix C9 retains the denominators and coding.
 
 ## 5 Finite estimation and statistical performance
 
@@ -594,6 +596,8 @@ Nova, G., van Cranenburgh, S., Hess, S. (2025). Understanding the decision-makin
 Odlyzko, A.M. (1988). On subspaces spanned by random selections of ±1 vectors. Journal of Combinatorial Theory, Series A 47, 124–133. https://doi.org/10.1016/0097-3165(88)90046-5
 
 Oymak, S., Tropp, J.A. (2018). Universality laws for randomized dimension reduction, with applications. Information and Inference 7, 337–446. https://doi.org/10.1093/imaiai/iax011
+
+Piras, S., Mzek, T., Chen, J. (2025). D5.3. Farmers’ and consumers’ preferences and behavioural economics underpinning underutilised crop choices. Version V1. Zenodo. https://doi.org/10.5281/zenodo.15574862
 
 Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advances in Neural Information Processing Systems 16. https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html
 
