@@ -1,6 +1,6 @@
 # Reproduce When prediction assisted logit estimates exist
 
-The reviewed manuscript includes the 17 November 2026 one-step comparator integration in Sections 5.1–5.2 and Appendix C8. All 17 preceding tables and 140 display bodies remain unchanged; Table C3 adds the full 24-condition loss sensitivity. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
+The reviewed manuscript includes the 17 November 2026 EPI source-scope update in Section 3.2 and Appendix B6. All 18 tables, 141 display bodies, 83 root analysis sources and 768 preceding analysis/input/result files retain exact hashes. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
 
 Use Python 3.12 with [the recorded versions](requirements.txt). Run these commands from this directory, using a new output directory:
 
@@ -42,3 +42,12 @@ python results/one_step_source_audit/run_reproduction.py --input-dir local_input
 ```
 
 The [source scope](results/one_step_source_audit/source_scope.json) distinguishes static upstream code reading, the preprint formula and the common-pilot experiment. This comparison does not assert literal upstream API reproduction or identity with formal PPI++ Appendices A–E.
+
+The [EPI scope supplement](results/epi_scope/README.md) specializes an established empirical-likelihood supervised-score constraint to the existing scalar example. Recheck it without any downloaded inputs or new simulations:
+
+```sh
+python results/epi_scope/check_existing_design.py --out regenerated/epi/exact
+python results/epi_scope/verify_existing_design.py --certificate regenerated/epi/exact/exact_existing_design.json --out regenerated/epi/verification
+```
+
+This is a classical separation-scope clarification. It supplies no new estimator, performance ranking or global priority certificate. The [current validation](reports/epi_validation_20261117.json) distinguishes inherited unchanged mathematics from the new exact-sign check.

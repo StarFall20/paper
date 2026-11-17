@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "The reviewed manuscript has 66 full pages, 28 main-reading pages, 17 tables and 83 package analysis sources. A curated reviewer reproduction entry preserves all scientific sources and results; current author-review upload files are prepared. Formal PPI++ body/supplement reconciliation, specific-result priority and sufficient choice-analysis value remain open; final author and portal declarations are pending.",
+  "decision": "The current reviewed manuscript has 69 complete pages, 29 reading pages, 18 tables and 83 unchanged root analysis sources. EPI supervised-score scope is integrated. Formal PPI++ body/Appendices A–E reconciliation, specific-result priority and sufficient choice-analysis value remain open. Final author review and publisher declarations are pending; the research goal is active.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -30,7 +30,7 @@
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
-      "evidence": "../../submission/finite_choice_20261110/reports/one_step_mathematical_check_20261117.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/epi_validation_20261117.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law."
     },
     {
@@ -42,7 +42,7 @@
     {
       "requirement": "Reproducible submission package",
       "status": "curated_entry_preserves_83_root_sources_and_all_scientific_results_full_math_check_passed",
-      "evidence": "../reviewer_handoff_20261116/curation.json",
+      "evidence": "../../submission/jocm_reviewer_20261116/CURATION.json",
       "remaining": "Full original runs are preserved and entry points verified; new quick checks do not rerun every original Monte Carlo draw"
     },
     {
@@ -201,7 +201,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../reviewer_handoff_20261116/README.md",
+  "latest_progress_report": "../epi_literature_integration_20261117/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Official-code and preprint one-step sensitivity integrated in Sections 5.1–5.2 and Appendix C8; all 18 tables reconciled and Word reviewed. Formal PPI++ A–E comparison, precise priority and sufficient contribution-value assessment remain open.",
+  "latest_progress": "EPI primary constraints and specified theory/computation units read; classical positive-weight separation scope checked exactly on the same existing scalar design and integrated in Section 3.2/Appendix B6. All previous tables, display bodies and scientific source/results hashes are unchanged. Formal PPI++ and contribution-value gaps remain.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -385,11 +385,11 @@
     "date": "2026-11-17",
     "pointer": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
     "package_analysis_sources": 83,
-    "main_body_lexical_words_excluding_math": 8678,
+    "main_body_lexical_words_excluding_math": 8697,
     "abstract_words": 174,
     "paper": {
       "pages_from_existing_visual_review": 69,
-      "native_math_objects": 1290,
+      "native_math_objects": 1292,
       "tables": 18,
       "source_display_blocks": 141
     },
@@ -399,10 +399,10 @@
       "tables": 6,
       "source_display_blocks": 35
     },
-    "paper_md_sha256": "0972b113020fef4814236ff340152ec93a810311e2e0904c19474b247de0f1b3",
-    "paper_docx_sha256": "d037a823da785cfe2d25b7ff12fed08a608184dc33ee56b9b06ff80ccde94eb4",
-    "main_text_md_sha256": "30cfd2d8076154b360cafaa8f07772da094d666df7da788402ff85bfae220dea",
-    "main_text_docx_sha256": "9f8511e9d1dc50a22d65724c3ac6b4194637d85184b2bb076dff2aa42879472f"
+    "paper_md_sha256": "58e1738f8180e1bde658fff43193a4108aad5b5b5a9a6868ee3c73069e19378c",
+    "paper_docx_sha256": "a9a0751536b689160bd8fecb2ed4d96d39661a33a7c958e23b8f4bb0ea68f484",
+    "main_text_md_sha256": "9a3dbc35d8e8b79d9215eceec8bdf512acec5634a4fd0827ce1a9a6ac78c9761",
+    "main_text_docx_sha256": "c8b2d6bc726b1758534e615fa36a7f65a243b146fa5845f320b1e9ce818e3694"
   },
   "formal_prior_scope_followup_20261115": {
     "report": "../formal_prior_scope_20261115/README.md",
@@ -468,7 +468,10 @@
     "documented_script_entries_checked": 85,
     "new_Scopus_queries": 0,
     "new_human_or_AI_answers": 0,
-    "goal_achieved": false
+    "goal_achieved": false,
+    "current_copied_parent_files": 914,
+    "current_curation": "../../submission/jocm_reviewer_20261116/CURATION.json",
+    "root_analysis_sources_unchanged_in_EPI_revision": 83
   },
   "ppi_access_followup_evidence": "../ppi_access_followup_20261116/README.md",
   "ppi_access_followup_20261116": {
@@ -530,6 +533,22 @@
     "root_checker_extended": true,
     "preceding_scientific_files_unchanged": 728,
     "new_independent_cohorts": 0,
+    "submission_threshold_certified": false
+  },
+  "epi_scope_20261117": {
+    "state": "integrated_reviewed_and_checked",
+    "report": "../epi_scope_20261117/README.md",
+    "integration": "../epi_literature_integration_20261117/README.md",
+    "all_existing_scientific_files_unchanged": 768,
+    "all_root_analysis_sources_unchanged": 83,
+    "existing_scalar_designs": 1,
+    "independent_precision": 80,
+    "finite_score_checks": 175,
+    "new_independent_cohorts": 0,
+    "new_human_or_AI_answers": 0,
+    "new_theoretical_novelty_claim": false,
+    "upstream_EPI_code_executed": false,
+    "formal_PPI_A_to_E_compared": false,
     "submission_threshold_certified": false
   }
 }

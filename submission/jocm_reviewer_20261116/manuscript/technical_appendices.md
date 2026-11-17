@@ -246,6 +246,8 @@ The scope of the prior global certificate can be checked analytically. Write $A$
 
 An independent direct array implementation reconstructs the covariance, finite witness and both limits. Seven numerical starts report optimizer success with small gradients; four return criteria above the exact finite witness and cannot be global minima. Global attainment follows from (B.12) and the two limits. The archive retains every numerical return and separates this diagnostic from the fraction proof.
 
+Wang et al. (2025, equations 2, 4 and 5) retain a normalized nonnegative weighting of the supervised score in empirical-likelihood prediction-powered inference. A nontrivial human weak separator makes the weighted directional logistic score strictly negative whenever every weight is positive. This is the classical positive-weight separation obstruction. On the same scalar design, both supervised row scores, $-2/(1+e^{2\beta})$ and $-4/(1+e^{4\beta})$, are strictly negative for every finite coefficient. Every normalized nonnegative weighting then has a negative score, so additional auxiliary constraints cannot make that supervised moment feasible. This sign comparison concerns the stated constraints and supplies no statistical performance ranking.
+
 ## Appendix C Estimation conventions and reproducibility
 
 ### C1 Existing power tuning and covariance

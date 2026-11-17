@@ -1,3 +1,5 @@
+当前版本已补入 EPI 最近邻约束对照，见[本轮记录](../epi_literature_integration_20261117/README.md)。下列较早整理条目保留为历史。
+
 最新稿件已并入单步基线核查，见[本轮整合记录](../one_step_manuscript_integration_20261117/README.md)。以下较早整理记录保留为历史。
 
 本页记录较早的交付整理；后续文献归属修订已并入当前稿件。最新版本见[修订记录](../regular_prior_revision_20261116/README.md)，当前源文件、Word 与排版证据均由稿件版本指针确定。

@@ -112,7 +112,7 @@ Lee and Kim (2026) establish regular moment-equation inference and characterize 
 
 Gaussian conic projection and absorption are established (Amelunxen et al., 2014; Götze et al., 2020, Theorem 3.1; Han and Ren, 2026, Theorems 1.1, 1.3 and 2.1). Theorem 1 evaluates the statistical dimension limit for the corrected intervals (7), conditional on the signal, choices and prediction information. Its intercept and signal constraints retain the fitted utility specification. Appendix A proves tightness of the multiplier and scale, evaluates the limit and connects feasibility to an interior moment.
 
-Related preference methods have their own existence guarantees. Sargent et al. (2026, Theorem 1) give a bounded approximate Bradley–Terry root sequence under adaptive sampling conditions. Cai et al. (2026, Lemma D.4) give high-probability finite global solutions for a positive weighted human and LLM likelihood with fixed item, judge and latent dimensions. Chen et al. (2026, Supplement S3.10) give sufficient conditions for a complete GMM objective. Appendix B6 compares that complete criterion and the compensated loss on the same separated human design. The finite-estimation event depends on the actual objective being fitted.
+Related preference methods have their own existence guarantees. Sargent et al. (2026, Theorem 1) give a bounded approximate Bradley–Terry root sequence under adaptive sampling conditions. Cai et al. (2026, Lemma D.4) give high-probability finite global solutions for a positive weighted human and LLM likelihood with fixed item, judge and latent dimensions. Chen et al. (2026, Supplement S3.10) give sufficient conditions for a complete GMM objective. Appendix B6 compares that complete criterion and the compensated loss on the same separated human design. The finite-estimation event depends on the actual objective being fitted. Wang et al. (2025) use empirical likelihood with supervised and prediction-based moment constraints; Appendix B6 records its positive-weight separation obstruction.
 
 ### 3.3 Balanced oracle benchmark
 
@@ -754,6 +754,8 @@ The calculation fixes the reference at zero and evaluates the uncalibrated compl
 The scope of the prior global certificate can be checked analytically. Write $A$ for the human Hessian. Its displayed conditions include a lower bound $v^TA(c+tv)v\geq a_r$ for $0\leq t\leq r$ and every unit $v$, with $a_r r>\|m_1(c)\|$. Integrating the human Hessian gives $v^Tm_1(c+rv)>0$. The human loss minimized over the closed ball has an interior minimizer and zero score. Positive curvature gives full labelled rank. Thus those sufficient conditions also guarantee a finite human MLE and cannot hold on this separated design. This implication leaves open other sufficient certificates for complete moments.
 
 An independent direct array implementation reconstructs the covariance, finite witness and both limits. Seven numerical starts report optimizer success with small gradients; four return criteria above the exact finite witness and cannot be global minima. Global attainment follows from (B.12) and the two limits. The archive retains every numerical return and separates this diagnostic from the fraction proof.
+
+Wang et al. (2025, equations 2, 4 and 5) retain a normalized nonnegative weighting of the supervised score in empirical-likelihood prediction-powered inference. A nontrivial human weak separator makes the weighted directional logistic score strictly negative whenever every weight is positive. This is the classical positive-weight separation obstruction. On the same scalar design, both supervised row scores, $-2/(1+e^{2\beta})$ and $-4/(1+e^{4\beta})$, are strictly negative for every finite coefficient. Every normalized nonnegative weighting then has a negative score, so additional auxiliary constraints cannot make that supervised moment feasible. This sign comparison concerns the stated constraints and supplies no statistical performance ranking.
 
 ## Appendix C Estimation conventions and reproducibility
 
@@ -1591,6 +1593,8 @@ Tang, W., Ye, Y. (2020). The existence of maximum likelihood estimate in high-di
 van Cranenburgh, S., Wang, S., Vij, A., Pereira, F., Walker, J. (2022). Choice modelling in the age of machine learning—Discussion paper. Journal of Choice Modelling 42, 100340. https://doi.org/10.1016/j.jocm.2021.100340
 
 van der Laan, L., van der Laan, M. (2026). Calibeating Prediction-Powered Inference. Preprint, arXiv:2604.21260. https://arxiv.org/abs/2604.21260
+
+Wang, G., Wen, M., Zou, C. (2025). Empirical Likelihood Meets Prediction-Powered Inference. Preprint, arXiv:2512.16363v1. https://arxiv.org/abs/2512.16363v1
 
 Xu, S., Sun, W.W. (2026). Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference. Preprint version1. https://arxiv.org/abs/2602.10464v1
 

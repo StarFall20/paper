@@ -67,7 +67,7 @@ face_integration=json.loads((ROOT/'reports/categorical_face_integration_20261113
 assert hashlib.sha256((ROOT/'inputs/categorical_face/existing_public_coefficients.json').read_bytes()).hexdigest()==face_integration['existing_public_coefficients_sha256']
 firth_integration=json.loads((ROOT/'reports/firth_manuscript_integration_20261113.json').read_text())
 assert firth_integration['unchanged_previous_table_blocks']==11 and firth_integration['previous_table2_rows_preserved']==18 and firth_integration['current_table2_rows']==20
-assert integration['old_tables_preserved']==17 and integration['current_table_count']==18
+assert integration['old_tables_preserved']==18 and integration['current_table_count']==18
 assert integration['all_previous_display_bodies_unchanged']
 firth=ROOT/'results/firth'
 firth_clean=json.loads((firth/'clean_validation.json').read_text())
@@ -102,3 +102,8 @@ for line in (discrete/'MANIFEST.sha256').read_text().splitlines():
 one_step=ROOT/'results/one_step_source_audit'
 for line in (one_step/'MANIFEST.sha256').read_text().splitlines():
  h,n=line.split('  ',1);assert hashlib.sha256((one_step/n).read_bytes()).hexdigest()==h,n
+
+epi=ROOT/'results/epi_scope'
+for line in (epi/'MANIFEST.sha256').read_text().splitlines():
+ h,n=line.split('  ',1);assert hashlib.sha256((epi/n).read_bytes()).hexdigest()==h,n
+assert json.loads((epi/'verification/verification.json').read_text())['state']=='passed'

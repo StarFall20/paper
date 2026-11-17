@@ -24,3 +24,5 @@
 All 18 displayed tables are checked against their computational records by `analysis/quick_check.py --full-math`. The complete manuscript gives assumptions and proofs. The deterministic support LPs remain applicable to a stated observed design; their availability does not extend the proportional-dimensional law to arbitrary panels, dependent categorical coding or fixed efficient designs.
 
 The public source is the vaccine-choice release identified in [source_manifest.json](reports/public_conjoint_audit_20261109/source_manifest.json). It supplies no claim of respondent-independent evaluation. The separate 300-human/60-AI questionnaire archive is excluded.
+
+Section 3.2 and Appendix B6 cite Wang, Wen and Zou (2025). The [primary-source reading inventory](results/epi_scope/source_scope.json), [derivation](results/epi_scope/derivation.md) and [independent exact-design verification](results/epi_scope/verification/verification.json) concern the same retained scalar design, with no additional table or cohort.

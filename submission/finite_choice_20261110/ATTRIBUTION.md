@@ -48,3 +48,6 @@ Lee and Kim (2026), arXiv:2606.08730v1, provide regular moment-equation inferenc
 
 
 The 17 November 2026 one-step sensitivity uses the formula in PPI++ preprint v2, Section 6.2, from a common human ridge pilot. The official ppi_py main and ppi++ branches are pinned in results/one_step_source_audit/source_scope.json; static code reading distinguishes their initialization, tuning information, clipping and return paths. No upstream source is executed or redistributed. Our nine-source closed supplement retains independently written primary, verification and summary routines plus our existing helper sources. The comparison supplies no new estimator, global-root guarantee or interval theorem. The preprint v2 and pre-formal code branch do not establish identity with the formal 2026 body and Appendices A–E.
+
+
+The 17 November 2026 EPI scope revision cites Wang, Wen and Zou (2025), Empirical Likelihood Meets Prediction-Powered Inference, arXiv:2512.16363v1. The retained supervised-score constraint implies the classical positive-weight logistic separation obstruction. Our sign specialization and exact check on the already published scalar example supply method-scope clarification, not a new separation theorem, an EPI implementation reproduction or a statistical performance ranking. Reading scope and independent local checks are in results/epi_scope.

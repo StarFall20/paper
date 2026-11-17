@@ -1,0 +1,51 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_epi_literature_20261117.zip",
+    "sha256": "68246491231587792106ec3b8152778631efc7c0f3b5a3a0d69c9e3d3094745a",
+    "files": 919,
+    "bytes": 41859011,
+    "fresh_extraction_all_files_identical": true,
+    "isolated_manifest_and_provenance_check": {
+      "manifest_entries_verified": 918,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    },
+    "fresh_extracted_EPI_primary_and_independent_checks": [
+      {
+        "state": "passed",
+        "exact_support_gap": "3/88",
+        "exact_negative_recession": "-35/44",
+        "EPI_constraints_obstructed_by_supervised_score": true,
+        "new_method_or_novelty_claim": false
+      },
+      {
+        "state": "passed",
+        "independent_decimal_precision": 80,
+        "base_root_beta": "2.0354709350886908126189981282479778590411018697582945232268798686889055285623525",
+        "base_root_original_loss_score_residual": "1.6075924E-74",
+        "reference_gradient_error": "0E-79",
+        "supervised_weight_score_checks": 175,
+        "universal_obstruction_from_sign_proof_not_finite_grid": true,
+        "existing_design_count": 1,
+        "new_independent_cohorts": 0,
+        "new_human_or_AI_answers": 0,
+        "upstream_EPI_algorithm_reproduced": false,
+        "formal_PPI_A_to_E_compared": false,
+        "source_sha256": "7203ed9833035f0d0bd526c4b5b27ac8589cbb630bf59f0267989835a6a2c14b"
+      }
+    ]
+  },
+  {
+    "archive": "jocm_submission_files_epi_literature_20261117.zip",
+    "sha256": "05d2be0df03f1323ee5bb5e74948ffe7f83d17dc62692baf6176d0b3d6432ad7",
+    "files": 20,
+    "bytes": 1236957,
+    "fresh_extraction_all_files_identical": true
+  }
+]

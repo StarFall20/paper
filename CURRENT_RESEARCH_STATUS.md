@@ -1,3 +1,11 @@
+# EPI method scope integrated — 17 November 2026
+
+The [current source-scope revision](reports/epi_literature_integration_20261117/README.md) adds Wang, Wen and Zou (2025) to Section 3.2 and Appendix B6. Its retained supervised-score equality inherits the classical positive-weight separation obstruction. Exact fractions and an independently written 80-digit check use the same existing scalar design. This attribution does not add a new estimator, theory contribution or performance ranking.
+
+The complete and reading Word files remain 69 and 29 pages, with 1292 and 236 native math objects. All 18 tables, 141 display bodies, 83 root analysis sources and all 768 preceding analysis/input/result files retain exact hashes. The abstract has 174 words; Sections 1–7 have 8697 lexical words under the stated rule. Every changed page image is inspected at original resolution; unchanged images inherit the exact preceding review. The prior 60000 one-step method records and isolated full replay remain intact.
+
+The EPI primary-source inventory and standalone sign check are included in the reviewer package. Seven new general-web queries are explicitly distinguished from zero added Scopus, Google Scholar or WOS queries. No new independent cohort, human response or AI answer is generated. Formal PPI++ 2026 body and Appendices A–E reconciliation, exact priority and sufficient choice-analysis value remain unresolved. The goal remains active. Earlier entries below are dated history.
+
 # One-step comparator integrated — 17 November 2026
 
 The [current revision](reports/one_step_manuscript_integration_20261117/README.md) integrates the user-supplied preprint and official-code audit in Sections 5.1–5.2 and Appendix C8. Table C3 retains all 24 original conditions, each with 500 repetitions, and paired loss changes with Monte Carlo standard errors. All 60000 method records and the completed independent full replay are included. The common ridge-pilot formula experiment is distinguished from static upstream API reading.

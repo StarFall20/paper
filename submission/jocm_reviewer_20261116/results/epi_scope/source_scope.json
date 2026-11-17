@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-17",
+  "source": "Wang, G., Wen, M., Zou, C. (2025). Empirical Likelihood Meets Prediction-Powered Inference.",
+  "primary_url": "https://arxiv.org/html/2512.16363v1",
+  "version": "arXiv:2512.16363v1, 18 December 2025",
+  "read_units": [
+    "Sections 2.1–2.2: equations (2)–(4), Remark 1–2, Assumption 1, Proposition 1–2, Theorem 1–2",
+    "Section 2.3.2 and 3.1: equation (5), Assumption 2, Theorem 3 and the joint profiling distinction for over-identified scores",
+    "Supplement S.1: general constraint and Theorems S.1–S.3",
+    "Supplement S.2: eigenvalue inference and complete Lagrange-multiplier computation",
+    "Supplement S.4: opening score/constraint system and local Taylor expansion through Fact I"
+  ],
+  "entire_article_line_by_line_review_claimed": false,
+  "primary_html_find_checks": ["logistic: no match", "convex hull: no match", "dimension: matches read in context"],
+  "absence_of_keyword_used_as_priority_proof": false,
+  "inference": "For a logistic supervised score, a nontrivial human weak separating direction excludes positive-likelihood empirical-likelihood feasibility, by the classical positive-weight score sign argument.",
+  "existing_deterministic_design": "Current manuscript Appendix B5 and B6; labelled x=(2,4), y=(1,1), auxiliary x=(1,1)",
+  "new_estimator_or_theoretical_novelty_claim": false,
+  "upstream_code_executed": false,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "formal_PPI_revalidation": {
+    "formal_article_url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full",
+    "article_response": "Web tool returned a one-line iframe page; no article content read",
+    "supplement_url": "https://projecteuclid.org/journals/supplementalcontent/10.1214/26-AOAS2215/aoas2215suppa.pdf",
+    "supplement_response": "Not accessible through the web tool",
+    "author_publications_url": "https://stanford.edu/~jduchi/publications.html",
+    "author_route": "Publication listed; PDF still linked to arXiv",
+    "arxiv_url": "https://arxiv.org/abs/2311.01453",
+    "arxiv_latest_version": "v2, 26 March 2024",
+    "formal_article_and_A_to_E_read": false
+  },
+  "actual_new_general_web_queries": 7,
+  "actual_new_Scopus_document_queries": 0,
+  "actual_new_Google_Scholar_queries": 0,
+  "actual_new_WOS_queries": 0,
+  "queries": [
+    "\"PPI++: Efficient Prediction-Powered Inference\" \"26-AOAS2215\"",
+    "\"PPI++\" \"Appendices A\" \"dimension\"",
+    "\"prediction-powered\" \"existence\" \"logistic\" \"phase transition\"",
+    "\"prediction-powered\" \"logistic\" \"existence\" \"minimizer\"",
+    "\"prediction-powered\" \"separation\" \"high-dimensional\"",
+    "\"prediction-powered\" \"rectified loss\" \"unbounded\"",
+    "\"2512.16363\""
+  ],
+  "formal_version_identity_or_global_priority_certified": false,
+  "research_goal_complete": false
+}

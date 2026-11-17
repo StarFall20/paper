@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "integration": "reports/one_step_integration_20261117.json",
-  "visual_qa": "reports/one_step_visual_qa_20261117.json",
+  "integration": "reports/epi_literature_integration_20261117.json",
+  "visual_qa": "reports/epi_visual_qa_20261117.json",
   "historical_reports_are_dated_snapshots": true
 }

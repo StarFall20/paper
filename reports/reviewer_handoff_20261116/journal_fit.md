@@ -30,3 +30,8 @@ PPI++ 的正式发表信息已确认。[作者主页](https://stanford.edu/~jduc
 后续补读的 [Lee–Kim（2026）](https://arxiv.org/abs/2606.08730v1)也需正面对照。其全体预测加标签残差公式对应本稿权重 N/(m+N) 的目标；抽样记号不同不能承担创新区分。当前第 3.2 节及参考文献已补入该项先行研究，详见[修订记录](../regular_prior_revision_20261116/README.md)。
 
 在正式版及附录核对完成前，不应作出“已排除最近邻重合”或“已经达到投稿创新门槛”的结论。当前状态是具备具体贡献候选与完整内部数值证据，尚有一项关键全文来源缺口。最终作者审阅与期刊门户声明另列于投稿包。
+
+
+## 17 November 2026 EPI source-scope follow-up
+
+[Wang, Wen and Zou (2025), v1](https://arxiv.org/html/2512.16363v1) has now been read at its objective/constraints, regular assumptions and results, and specified computational and proof units. The [reading inventory](../epi_scope_20261117/source_scope.json) records that scope. Its retained supervised-score equality has the classical positive-weight logistic-separation obstruction. The same existing scalar example distinguishes the constraints from the compensated-loss target; this supplies method-scope attribution, not another original component or a performance ranking. Section 3.2 and Appendix B6 now include the comparison. Formal PPI++ A–E reconciliation and the choice-analysis value judgment remain open.

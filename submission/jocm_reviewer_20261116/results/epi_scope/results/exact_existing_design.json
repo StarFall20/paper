@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-17",
+  "state": "passed",
+  "existing_design": "Current Appendix B5 and B6",
+  "labelled_x": [
+    "2",
+    "4"
+  ],
+  "auxiliary_x": [
+    "1",
+    "1"
+  ],
+  "labelled_y": [
+    "1",
+    "1"
+  ],
+  "base_predictions": [
+    "9/10",
+    "9/10"
+  ],
+  "auxiliary_predictions": [
+    "1/2",
+    "1/2"
+  ],
+  "base_power": "15/88",
+  "base_corrected_moment": "21/8",
+  "base_upper_support": "117/44",
+  "base_support_gap": "3/88",
+  "base_gradient_zero": "-57/44",
+  "base_gradient_log8": "139507/70304520",
+  "base_root_log_bracket": [
+    "0",
+    "log(8)"
+  ],
+  "base_unique_finite_root": true,
+  "unit_transformed_predictions": [
+    "25/44",
+    "25/44"
+  ],
+  "unit_corrected_moment": "79/44",
+  "unit_corrected_recession": "-35/44",
+  "unit_corrected_unbounded_below": true,
+  "reference_gradients_equal": true,
+  "epi_obstruction": {
+    "strict_separator": 1,
+    "signed_margins": [
+      2,
+      4
+    ],
+    "supervised_row_score_expressions": [
+      "-2/(1+t^2)",
+      "-4/(1+t^4)"
+    ],
+    "parameterization": "t=exp(beta)>0",
+    "all_finite_coefficients_excluded": true,
+    "all_normalized_nonnegative_weights_excluded": true,
+    "auxiliary_constraints_can_remove_obstruction": false,
+    "upstream_algorithm_executed": false,
+    "positive_weight_generalization_is_classical": true
+  },
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "new_theoretical_novelty_claim": false,
+  "source_sha256": "9b0447d8de36347da55b0dac8d13dc28b45a3dd6163b52a3a4f7332127819fad"
+}
