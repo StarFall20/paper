@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-17",
+  "archive": "jocm_matched_reference_information_20261117.zip",
+  "sha256": "96e988ab7ad4df5614e81f90a5657d2d762ec4383f6dd7fb869ff65a887fbda3",
+  "bytes": 54696,
+  "files": 12,
+  "fresh_extraction_all_files_identical": true,
+  "fresh_primary_and_original_loss_verifier_passed": true,
+  "recomputed_JSONs_equal": true,
+  "existing_canonical_science_files_unchanged": 776,
+  "current_Word_unchanged": true,
+  "current_Word_integration_pending": true,
+  "main_result": "Same reference score rows, observed Hessian and empirical sandwich, opposite global attainment; exact critical power 11/20",
+  "new_deterministic_designs": 1,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "global_priority_or_submission_threshold_certified": false
+}

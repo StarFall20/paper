@@ -35,3 +35,8 @@ PPI++ 的正式发表信息已确认。[作者主页](https://stanford.edu/~jduc
 ## 17 November 2026 EPI source-scope follow-up
 
 [Wang, Wen and Zou (2025), v1](https://arxiv.org/html/2512.16363v1) has now been read at its objective/constraints, regular assumptions and results, and specified computational and proof units. The [reading inventory](../epi_scope_20261117/source_scope.json) records that scope. Its retained supervised-score equality has the classical positive-weight logistic-separation obstruction. The same existing scalar example distinguishes the constraints from the compensated-loss target; this supplies method-scope attribution, not another original component or a performance ranking. Section 3.2 and Appendix B6 now include the comparison. Formal PPI++ A–E reconciliation and the choice-analysis value judgment remain open.
+
+
+## 17 November 2026 observed-curvature strengthening
+
+The [new checked finite design](../matched_local_information_20261117/README.md) holds the complete reference Hessian and empirical sandwich fixed, in addition to every corrected score row. Its exact 11/20 transition answers a narrower curvature objection to the existing score path. The reference point is not a fitted root, the compared powers are not claimed variance-optimal, and the example gives no practical prevalence or prediction-advantage result. Recent weak-supervision risk theory and earlier non-squared-loss results are explicitly scoped in the companion assessment. This strengthens explanation within the same compensated-choice objective; it does not resolve the formal PPI++ gap or sufficient journal value. The current reviewed Word is unchanged pending integration.

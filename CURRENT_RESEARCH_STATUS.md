@@ -1,3 +1,11 @@
+# Matched observed curvature checked — 17 November 2026
+
+A [new finite-design strengthening](reports/matched_local_information_20261117/README.md) of the existing score-equivalence path has been checked with exact fractions and an independently written 90-digit original-loss calculation. The same two-parameter compensated objective, same data and same reference point have identical corrected score rows, observed Hessian I/4, full empirical sandwich and first Newton update. Power 1/2 has a unique finite minimizer; power 1 is unbounded. The exact transition is 11/20, with a separate unattained boundary state. This is one deterministic mathematical design, not a new respondent or random cohort.
+
+The [prior/value assessment](reports/matched_local_information_20261117/prior_and_value_assessment.md) scopes the recent Li–Cai weak-supervision result and traces its non-squared-loss references. Broad accuracy-versus-value and nonlinear-classification risk claims are prior. The specified compensated-logit matching construction supports the existing boundary argument; its priority and sufficient practical importance are not certified.
+
+The standalone supplement has passed fresh extraction and independent replay. Its integration proposal is retained separately. The current reviewed Word is unchanged at 69 complete and 29 reading pages, with 18 tables and the EPI source-scope update. All 776 preceding canonical scientific files retain their hashes. No unchanged simulation is rerun. Formal PPI++ body/Appendices A–E reconciliation and the publication-value judgment remain open. The goal remains active. Earlier entries below are dated history.
+
 # EPI method scope integrated — 17 November 2026
 
 The [current source-scope revision](reports/epi_literature_integration_20261117/README.md) adds Wang, Wen and Zou (2025) to Section 3.2 and Appendix B6. Its retained supervised-score equality inherits the classical positive-weight separation obstruction. Exact fractions and an independently written 80-digit check use the same existing scalar design. This attribution does not add a new estimator, theory contribution or performance ranking.

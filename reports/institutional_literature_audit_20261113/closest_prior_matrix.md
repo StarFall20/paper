@@ -17,6 +17,8 @@
 | [PP-Rank，v1](https://arxiv.org/abs/2611.13186v1) | 已核对Theorem 1：在给定自适应设计和非退化条件下证明有界近似根序列 | 本文不能声称所有先行选择修正研究都只假设根存在；本文是增长维度的特定两样本目标 |
 | [Calibeating PPI，v2](https://arxiv.org/abs/2604.21260v2) | 已核查校准与效率的关系；条件期望和方差恒等式为既有内容 | 校准配对反例匹配Brier和完整常规协方差，却不匹配逐次真值得分；有限样本弱差异完整保留 |
 | [Mani等No Free Lunch，v2](https://arxiv.org/abs/2505.20178v2) | 已读均值问题中估计功率的有限样本代价 | 广义“PPI也会变差”并非新发现。本文需具体到未惩罚logit的存在性和匹配信息比较 |
+| [Li–Cai 2026，v1](https://arxiv.org/html/2611.08959v1) | 2026-11-17指定单元：共同线性学生、原始与传递误差Gram、Theorem 4.2、B.4/B.19、E.1及局限；平方风险关系已有研究 | 广义准确率与下游价值不同不属原创；新检查在同一补偿Logit固定参考点得分、完整Hessian和经验sandwich后改变全局存在性，优先性仍未确认 |
+| [Mulgund–Pabbaraju 2025](https://arxiv.org/html/2501.19105v2)、[Xu等2026](https://arxiv.org/html/2505.24313v3) | 沿Li–Cai引用追踪；PMLR正式摘要及所链接预印本指定Bregman/KL主结果，正式PDF未读到 | 非平方损失和非线性分类的风险分析已有工作；不能把“推广到非线性”当作增量，当前具体存在性对象仍须与正式PPI++对照 |
 | [Kessels–Jones–Goos 2019](https://doi.org/10.1016/j.jocm.2018.12.002) | JCM已研究Firth用于选择数据与分离；读取出版社摘要与元数据，未读到全部正式全文 | 直接成熟基线必须保留。已整合1000次既有样本重放；其数值结果不能被隐藏 |
 | [Kosmidis–Firth 2021](https://doi.org/10.1093/biomet/asaa052) | 已核查Jeffreys惩罚的有限性及信息Wald约定；另对照固定版本brglm2实现 | Firth公式与有限性属既有方法。本文代码独立实现，区间约定与其他方法明确分开 |
 | [van Cranenburgh等2022](https://doi.org/10.1016/j.jocm.2021.100340)、[Sfeir等2026](https://doi.org/10.1016/j.jocm.2026.100623) | JCM的机器学习及LLM选择建模议题；已有前期阅读，本轮再次由机构检索定位 | 支持读者与主题的关联；不能据主题相关就认定方法贡献达到编辑门槛 |

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "The current reviewed manuscript has 69 complete pages, 29 reading pages, 18 tables and 83 unchanged root analysis sources. EPI supervised-score scope is integrated. Formal PPI++ body/Appendices A–E reconciliation, specific-result priority and sufficient choice-analysis value remain open. Final author review and publisher declarations are pending; the research goal is active.",
+  "decision": "Current reviewed Word remains 69 complete pages, 29 reading pages and 18 tables. A separately checked finite-reference example now fixes the observed Hessian as well as every score row and empirical sandwich, with opposite global attainment. Manuscript integration of that strengthening is pending. Formal PPI++ body/Appendices A–E, precise priority and sufficient choice-analysis value remain open; the research goal is active.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -19,7 +19,8 @@
       "requirement": "Independent valuable innovation",
       "status": "specific_compensated_attainment_and_matched_information_consequences_derived_priority_and_value_under_assessment",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
-      "remaining": "Complete specific-result priority and sufficient choice-analysis value assessment. General Gaussian absorption and harmful prediction aggregation are established prior and explicitly attributed."
+      "remaining": "Complete specific-result priority and sufficient choice-analysis value assessment. General Gaussian absorption and harmful prediction aggregation are established prior and explicitly attributed.",
+      "latest_candidate_evidence": "../matched_local_information_20261117/prior_and_value_assessment.md"
     },
     {
       "requirement": "Fair comparison against established methods",
@@ -201,7 +202,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../epi_literature_integration_20261117/README.md",
+  "latest_progress_report": "../matched_local_information_20261117/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -347,7 +348,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "EPI primary constraints and specified theory/computation units read; classical positive-weight separation scope checked exactly on the same existing scalar design and integrated in Section 3.2/Appendix B6. All previous tables, display bodies and scientific source/results hashes are unchanged. Formal PPI++ and contribution-value gaps remain.",
+  "latest_progress": "An exact two-parameter finite-design strengthening fixes every reference score row, the complete observed Hessian and empirical sandwich, yet has finite attainment at power 1/2 and an unbounded objective at power 1. Its independent 90-digit original-loss check and fresh-package replay pass. The standalone result is not yet integrated into the current reviewed Word. Specific priority, formal PPI++ A–E and contribution-value assessment remain open.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -550,5 +551,27 @@
     "upstream_EPI_code_executed": false,
     "formal_PPI_A_to_E_compared": false,
     "submission_threshold_certified": false
+  },
+  "matched_local_information_20261117": {
+    "state": "checked_standalone_integration_pending",
+    "report": "../matched_local_information_20261117/README.md",
+    "delivery": "../matched_local_information_delivery_20261117.json",
+    "exact_critical_power": "11/20",
+    "all_reference_score_rows_Hessian_sandwich_and_Newton_update_fixed": true,
+    "intercept_fitted": true,
+    "reference_is_fitted_root": false,
+    "actual_sampling_variance_claimed": false,
+    "variance_optimal_power_claimed": false,
+    "new_deterministic_designs": 1,
+    "new_independent_cohorts": 0,
+    "new_human_or_AI_answers": 0,
+    "current_Word_unchanged": true,
+    "existing_science_files_unchanged": 776,
+    "independent_original_loss_precision": 90,
+    "actual_new_general_web_queries": 13,
+    "new_Scopus_queries": 0,
+    "new_Google_Scholar_queries": 0,
+    "new_WOS_queries": 0,
+    "global_priority_or_submission_threshold_certified": false
   }
 }
