@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-18",
+  "status": "passed",
+  "preceding_validation": "reports/api_economics_validation_20261117.json",
+  "preceding_validation_sha256": "cfb5dd4b0ea8d6b6fc072eb69d4ca22d7a5cb6c1735e62ae838ef0eedf42a631",
+  "ordered_tables_exactly_preserved": 20,
+  "ordered_display_bodies_exactly_preserved": 146,
+  "formal_statement_paragraphs_exactly_preserved": 14,
+  "scientific_files_exactly_preserved": 808,
+  "root_analysis_sources_unchanged": 83,
+  "new_model_fits_or_MC": 0,
+  "new_answers": 0,
+  "scope_correction": "Abstract now states strictly positive powers tending to zero; no fixed positive power is said to attain the entire limiting envelope.",
+  "word_count": {
+    "abstract_words": 187,
+    "main_body_lexical_words_excluding_math": 8131,
+    "preceding_main_body_words": 9417,
+    "words_reduced": 1286,
+    "count_method": "Unicode-letter words with internal hyphens/apostrophes. Sections 1–7 include headings, captions and tables; TeX math, references and appendices excluded.",
+    "word_pattern": "[^\\W\\d_]+(?:[-'’][^\\W\\d_]+)*",
+    "verified_full_research_article_word_cap": null
+  },
+  "layout_check": "All final 73 complete and 29 reading pages directly inspected or bound to exact previously inspected PNG hashes.",
+  "source_version": "User-provided complete arXiv v2 and pinned official code. No assertion of reading the 2026 formal version.",
+  "new_cluster_supplement_integrated": false
+}

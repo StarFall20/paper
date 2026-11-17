@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-17",
-  "integration": "reports/api_economics_integration_20261117.json",
-  "visual_qa": "reports/api_economics_visual_qa_20261117.json",
-  "validation": "reports/api_economics_validation_20261117.json",
+  "date": "2026-11-18",
+  "integration": "reports/focused_revision_20261118.json",
+  "visual_qa": "reports/focused_visual_qa_20261118.json",
+  "validation": "reports/focused_validation_20261118.json",
   "historical_reports_are_dated_snapshots": true
 }

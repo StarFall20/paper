@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "guide_read_date": "2026-11-13",
   "guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
   "fresh_guide_web_retrieval": "403; retained institutional guide used",
-  "abstract_words": 189,
+  "abstract_words": 187,
   "abstract_limit": 250,
   "keyword_count": 5,
   "permitted_keyword_count": [
@@ -23,10 +23,10 @@
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 9417,
+  "main_lexical_words_excluding_math": 8131,
   "verified_full_research_article_word_cap": null,
-  "full_manuscript_pages": 75,
-  "native_math_objects": 1339,
+  "full_manuscript_pages": 73,
+  "native_math_objects": 1337,
   "tables": 20,
   "all_seven_appendices_in_manuscript": true,
   "ai_disclosure_precedes_references": true,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "f4fea183cca7eb33f231f28b8034bb01e520cba9ce632ecdd8e559250c1727f1"
+      "sha256": "fe8afb709d3eb5e1d4bcaac922011c9df5433bc81296d2090d8aee7d3d1f83ff"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",
@@ -101,5 +101,7 @@
     "nearest-prior formal-version reconciliation"
   ],
   "submission_made": false,
-  "research_goal_achieved": false
+  "research_goal_achieved": false,
+  "cached_author_guide_rechecked": "2026-11-18: retained 13 November guide text rechecked; fresh official retrieval returned 403",
+  "current_source_basis": "Complete user-provided March 2024 PPI++ v2 body/appendices and pinned official code. Identity with the 2026 formal version unverified; not a global work blocker."
 }

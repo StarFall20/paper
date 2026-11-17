@@ -60,3 +60,6 @@ The respondent-separated food DCE integrated on 17 November 2026 reuses Chen, Mz
 
 
 The current integration executes the unchanged official ppi_py logistic interface at commit 3d1f0c668444907b39bd045cb9dd38e479ce7dd6 under its MIT license. The nested official-runtime snapshot supplies source hashes, download instructions, the license and isolated environment versions; earlier dated statements about static-only code inspection are superseded for the current API diagnostic. The public food-DCE secondary ratios retain attribution to Chen, Mzek and Piras (2025), Zenodo 15420092, CC BY 4.0. Unit and interpretation checks also read Piras, Mzek and Chen (2025), Zenodo 15574862; the report PDF is downloaded separately and is not redistributed here. No raw respondent workbook or downloaded article is included.
+
+
+18 November editorial revision: established PPI objectives and general convex/conic tools retain their explicit attribution. The complete user-provided March 2024 arXiv v2, including its appendices, is available and used together with pinned official code. The 2026 formal-version identity remains unverified; no absent-theorem claim follows from that limitation. This prose/layout revision changes no scientific file or formal statement and supplies no external originality certification.

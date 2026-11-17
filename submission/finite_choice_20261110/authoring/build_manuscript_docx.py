@@ -155,7 +155,7 @@ def build():
   if line.startswith('### '):d.add_paragraph(line[4:],style='Heading 2');continue
   if line.startswith('$$'):
    assert line.endswith('$$'),line
-   if d.paragraphs and d.paragraphs[-1].text.strip() and d.paragraphs[-1].alignment!=WD_ALIGN_PARAGRAPH.CENTER:
+   if d.paragraphs and ((d.paragraphs[-1].text.strip() and d.paragraphs[-1].alignment!=WD_ALIGN_PARAGRAPH.CENTER) or (d.paragraphs[-1].alignment==WD_ALIGN_PARAGRAPH.CENTER and d.paragraphs[-1]._p.find(qn('m:oMath')) is not None)):
     d.paragraphs[-1].paragraph_format.keep_with_next=True
    p=d.add_paragraph();p.alignment=WD_ALIGN_PARAGRAPH.CENTER;p.paragraph_format.space_after=Pt(7);p.paragraph_format.keep_together=True
    math(p,line[2:-2]);mathcount+=1;continue

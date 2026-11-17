@@ -1,23 +1,23 @@
 {
   "paper": {
-    "native_math_objects": 1339,
+    "native_math_objects": 1337,
     "tables": 20,
     "source_display_blocks": 146,
-    "md_sha256": "354d7b24f1398b62c9198762c8c83b7f14893a2aec838c395155ba4304b67983",
-    "docx_sha256": "f4fea183cca7eb33f231f28b8034bb01e520cba9ce632ecdd8e559250c1727f1",
-    "pages": 75
+    "md_sha256": "4b7db9f43212e4cfc405075cac3a057e0502177e945114b9f2e0ba755c6212d8",
+    "docx_sha256": "fe8afb709d3eb5e1d4bcaac922011c9df5433bc81296d2090d8aee7d3d1f83ff",
+    "pages": 73
   },
   "main_text": {
-    "native_math_objects": 237,
+    "native_math_objects": 233,
     "tables": 6,
     "source_display_blocks": 35,
-    "md_sha256": "a30c81ac98f81ef21bb0ecc4ff56f366003f3f3d109635c90b0f750d884951ce",
-    "docx_sha256": "21172da7631b2a4cb32553d06b72a9c8b316d19db43b20fe7b3574cd4bed3d39",
-    "pages": 31
+    "md_sha256": "67106906bd599f7842138c77bf6555e5d28a7349107f1352b4aac52c1bd19001",
+    "docx_sha256": "c035e753e4ea1698d7c4aef9fc390daa15cc9b25cd364b1a2413d41caaf8ca63",
+    "pages": 29
   },
   "state": "passed",
   "package_analysis_sources": 83,
-  "page_counts_source": "reports/api_economics_visual_qa_20261117.json",
+  "page_counts_source": "reports/focused_visual_qa_20261118.json",
   "new_render_performed": true,
   "manuscript_changed": true,
   "originality_or_submission_threshold_certified": false

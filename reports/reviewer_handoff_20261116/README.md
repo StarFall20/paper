@@ -1,3 +1,5 @@
+当前为 11 月 18 日聚焦修订版：完整稿 73 页，主文阅读版 29 页，正文 8131 词。见[当前记录](../focused_manuscript_revision_20261118/README.md)。已提供的 PPI++ v2 包含正文和附录，可继续开展对照研究。以下较早条目为历史记录。
+
 当前版本已整合官方接口诊断与价格等值分析，完整稿 75 页、主文阅读版 31 页。见[当前整合记录](../api_economics_manuscript_integration_20261117/README.md)。以下较早条目为历史记录。
 
 当前版本已将公开真人食品 DCE 并入第 4.6 节和附录 C9，见[整合记录](../public_panel_manuscript_integration_20261117/README.md)。以下较早条目均为历史记录。

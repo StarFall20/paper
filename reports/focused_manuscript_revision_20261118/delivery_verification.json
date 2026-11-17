@@ -1,0 +1,61 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_focused_20261118.zip",
+    "sha256": "f85e632c7ddc26b5d6476e58021d06946190eafcf747b27770ab63437e621a00",
+    "files": 1039,
+    "bytes": 47878062,
+    "fresh_extraction_all_files_identical": true,
+    "isolated_manifest_and_provenance_check": {
+      "manifest_entries_verified": 1038,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    },
+    "fresh_extracted_table_check": {
+      "state": "passed",
+      "new_tables_reconciled": [
+        "C4",
+        "C5"
+      ],
+      "table_C4_rows": 4,
+      "table_C5_rows": 8,
+      "complete_method_records": 16000,
+      "paired_unit_outside_with_ordinary_interior": [
+        40,
+        18,
+        0,
+        0
+      ],
+      "all_20_table_blocks_present": true,
+      "old_18_table_values_checked_by_existing_entry": true,
+      "new_primary_fits_or_MC_run": false,
+      "prior_original_row_verification_hash": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+    },
+    "unchanged_math_and_previous_model_runs_inherited_by_hash": true,
+    "public_DCE_original_row_verification_sha256": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+  },
+  {
+    "archive": "jocm_submission_files_focused_20261118.zip",
+    "sha256": "6cfc7a513f2df76d226017eed975ba8870c06bb98a3afbe24264ceb1a59b7a04",
+    "files": 20,
+    "bytes": 1244856,
+    "fresh_extraction_all_files_identical": true
+  },
+  {
+    "document": "jocm_manuscript_focused_20261118.docx",
+    "sha256": "fe8afb709d3eb5e1d4bcaac922011c9df5433bc81296d2090d8aee7d3d1f83ff",
+    "bytes": 1023099,
+    "review_bound_by": "reports/focused_visual_qa_20261118.json"
+  },
+  {
+    "document": "jocm_main_text_focused_20261118.docx",
+    "sha256": "c035e753e4ea1698d7c4aef9fc390daa15cc9b25cd364b1a2413d41caaf8ca63",
+    "bytes": 919701,
+    "review_bound_by": "reports/focused_visual_qa_20261118.json"
+  }
+]

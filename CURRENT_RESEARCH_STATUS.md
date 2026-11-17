@@ -1,3 +1,11 @@
+# Focused manuscript revision 18 November 2026
+
+The [current focused revision](reports/focused_manuscript_revision_20261118/README.md) places the concrete choice-estimation question and evidence early, moves detailed source checks and comparator discussion to relevant appendices and removes repeated prose. The abstract precisely states positive powers tending to zero under the binary Gaussian model. Sections 1–7 have 8131 lexical words, down from 9417; the abstract has 187 words. Complete/reading Word files have 73/29 pages and 1337/233 native math objects. All final pages have original-resolution inspection or exact inspected-PNG inheritance.
+
+All 20 ordered tables, 146 display bodies, formal statement paragraphs, 808 scientific files and 83 root analysis sources retain contents. No numerical model or Monte Carlo run was repeated. The food-DCE small-budget scope, adverse prediction and training-cost comparisons and descriptive price-ratio limitations remain explicit. The separate cluster-boundary certificate is supplementary and is not added to this article.
+
+The complete user-provided March 2024 PPI++ v2 includes its body and appendices and is available with pinned official code. Identity with the 2026 formal article remains unverified; this is a version limitation and does not block current work. Exact priority, sufficient choice-analysis value and final author review remain unresolved. Goal active; no submission. Entries below are dated history.
+
 # Repeated task comparison enclosed and replayed 18 November 2026
 
 The [new deterministic certificate](reports/cluster_boundary_certificate_20261118/README.md) closes the old matched ordinary-capacity three-task screening. The two models have the same full human/prediction cluster covariance, Hessian and ordinary human threshold 9/8. At unit power the compensated threshold exceeds 0.719879 in A and is below 0.718838 in B; ratio 719/1000 separates their strict existence sides. The bound includes normal tails, quantization, original-quadratic primal/dual checks, parameter and floating arithmetic errors and all-scale optimization. Its IEEE-754 assumptions and internal operation audit are explicit. Each complete run checks 33554432 deterministic nodes, not new samples.

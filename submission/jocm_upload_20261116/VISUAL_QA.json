@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "status": "complete",
   "new_cover_letter": {
     "pages": 1,
@@ -12,8 +12,8 @@
       "1": "Current final PNG directly inspected at original resolution"
     }
   },
-  "copied_manuscript_visual_review": "api_economics_visual_qa_20261117.json binds all 75 complete and 31 reading pages through direct original-resolution inspection or exact reviewed-PNG inheritance.",
+  "copied_manuscript_visual_review": "focused_visual_qa_20261118.json binds all 73 complete and 29 reading pages through original-resolution inspection or exact inspected-PNG inheritance.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
   "highlights_visual_review": "Unchanged source hash bound to current full visual QA",
-  "manuscript_docx_sha256": "f4fea183cca7eb33f231f28b8034bb01e520cba9ce632ecdd8e559250c1727f1"
+  "manuscript_docx_sha256": "fe8afb709d3eb5e1d4bcaac922011c9df5433bc81296d2090d8aee7d3d1f83ff"
 }

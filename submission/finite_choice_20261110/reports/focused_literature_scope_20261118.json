@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-18",
+  "new_general_search_queries": 0,
+  "new_Scopus_queries": 0,
+  "new_Google_Scholar_queries": 0,
+  "new_WOS_queries": 0,
+  "fresh_opens": [
+    {
+      "source": "Official JCM author guide",
+      "outcome": "403"
+    },
+    {
+      "source": "Official NeurIPS 2025 oral example 118143",
+      "outcome": "restricted"
+    }
+  ],
+  "cached_guide_checked": "13 November official guide text: editable single-column Word, full author postal address, abstract limit 250 words. No full-research-article word cap verified.",
+  "source_scope": "No new substantive full-paper reading or priority conclusion in this editorial revision. Complete provided PPI++ arXiv v2 and pinned code remain available."
+}

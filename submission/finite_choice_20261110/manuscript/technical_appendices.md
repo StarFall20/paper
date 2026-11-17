@@ -1,3 +1,5 @@
+# Technical appendices
+
 ## Appendix A Proof of the finite ratio boundary
 
 ### A1 Oriented intervals and the finite sample event
@@ -72,9 +74,13 @@ $$ (N/\sqrt{m})Z_G\in\{\sum_{j=1}^N c_jX_{Uj}: -1\leq c_j\leq1\}. \qquad (A.7)$$
 
 For $N\geq p$, Kabluchko and Seidel (2020, Theorem 3.3) give this Gaussian zonotope absorption probability, with squared scale $N^2/m$. This symmetric special case is established geometry. A separate 200 case signed cube LP comparison verifies the reduction; the signal, informative prediction and power dependence in the stated corrected model require the full calculation above.
 
-### A7 Scalar affine reallocation
+### A7 Related objectives and affine reallocation
 
 Unbiased noisy label correction and preservation of convexity are established (Natarajan et al., 2013); corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are established for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). DY prior penalized logit guarantees finite estimates for full rank designs and has proportional dimensional theory, including a recent fitted intercept treatment (Sterzinger and Kosmidis, 2026; Sterzinger, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. The two sample geometry gives the probability boundary for this event. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
+
+Lee and Kim (2026) establish regular moment-equation inference and characterize score-calibration efficiency under finite-population sampling. At $\lambda=N/(m+N)$, objective (2) yields their estimating equation when both use the same loss and frozen predictor. Splitting the all-unit prediction average over labelled and auxiliary rows gives this identity.
+
+Related preference methods have their own existence guarantees. Sargent et al. (2026, Theorem 1) give a bounded approximate Bradley–Terry root sequence under adaptive sampling conditions. Cai et al. (2026, Lemma D.4) give high-probability finite global solutions for a positive weighted human and LLM likelihood with fixed item, judge and latent dimensions. Chen et al. (2026, Supplement S3.10) give sufficient conditions for a complete GMM objective. Appendix B6 compares that complete criterion and the compensated loss on the same separated human design. The finite-estimation event depends on the actual objective being fitted. Wang et al. (2025) use empirical likelihood with supervised and prediction-based moment constraints; Appendix B6 records its positive-weight separation obstruction.
 
 A scalar affine reallocation based only on the conditioned low dimensional observations cannot repair the labelled row infima while preserving the complete objective. Let $c$ be the stacked vector of added linear loss coefficients, measurable with respect to those observations. Objective equality for all fitted coefficients requires $W^Tc=0$. For $q\geq1$, conditional Gaussian independence gives
 
@@ -292,7 +298,13 @@ $$\widehat{\operatorname{Var}}(\beta)=J^{-1}\widehat{\operatorname{Cov}}(s)J^{-1
 
 The sample score covariance uses denominator $m-1$. A separate intercept calculation verifies this formula and the analytic pseudo-response root. The loss multiplier $1/\alpha$ in the published prior expression cancels from the sandwich. Shrinkage bias is retained when assessing coverage of the human parameter. These raw estimates are distinct from the authors' high dimensional rescaling. The recorded code comparison pins their repository commit; no external R code is executed.
 
-### C3 Reproduction contents
+Both DY settings return 500 estimates and intervals in each condition. With 20 labels, dimension based shrinkage gives MSE 0.9277 and diagnostic coverage 0.7369; half power gives 0.4397 and 0.7398. With 150 labels, dimension based DY gives MSE 0.1011 and coverage 0.9451 using labelled data alone. Its paired MSE difference from one step PPI is 0.001935 with Monte Carlo standard error 0.001399 on the same 500 fits. Half power DY has MSE 0.1035 and coverage 0.6249; its exact support population target has parameter MSE 0.0874. These intervals use the ordinary sandwich described in Appendix C. The Gaussian high dimensional corrections of the cited DY papers are not applied to this discrete support.
+
+### C3 Source and reproduction checks
+
+The vaccine numeric release is pinned to commit d18717206867c7a12ff470879a0dd5d488b300c2.
+
+The released reference vector agrees with a 200-step Adam reconstruction within $1.49\times10^{-7}$. Converging the fit on all 4605 rows reduces total negative log likelihood by 7.014 and changes one coefficient by 0.1855. Point comparisons here use converged projections, with fixed-iteration outputs reported separately. This verifies the inspected reference convention, without attributing every reported source gain to optimization.
 
 The compact reproduction package includes the manuscript source, publication figure builder, complete aggregate tables for the reported grids, independently written estimator and boundary code, a finite objective audit with a synthetic CSV example, and pinned source metadata. Public numeric inputs are downloaded separately and verified against Git blob hashes. The loader permits only specified NumPy numeric pickle globals; downloaded research scripts are not executed. The food DCE workbook is downloaded separately and checked by publisher MD5 and SHA-256. Raw respondent records and the author's separate private questionnaire are excluded from the reproduction package.
 
@@ -321,6 +333,8 @@ $$\nabla Q_F=X^T\{\mu-Y-h(1/2-\mu)\}, \qquad (C.5)$$
 $$\widehat{\operatorname{Var}}_F(\beta)=I(\widehat\beta_F)^{-1}. \qquad (C.6)$$
 
 Products in (C.5) are coordinatewise. The covariance uses summed information with no additional sample-size factor. Profile-likelihood intervals are not computed. The independent implementation checks the determinant gradient by finite differences and checks inverse information for every returned fit. The full replay uses the same 1000 original designs and retains all 3000 starts. One 20-label design has two verified local minima across starts, with penalized negative log likelihoods 6.260859 and 5.827455. The smaller value is selected; no unique or global numerical optimum is asserted. An isolated rerun reproduces all six primary CSV files byte for byte. These are generated known-truth responses on public attribute contrasts, not additional human observations.
+
+Human-only Firth returns finite fits in all 500 repetitions of both displayed settings. With 20 labels its MSE is 1.9494 and its mean marginal interval width is 5.9394. Coverage of 0.9995 accompanies these wide intervals. With 150 labels its MSE is 0.1088 and coverage is 0.9631. On the same 500 samples, its MSE exceeds the dimension-rule DY value by 0.007746, with Monte Carlo standard error 0.000581. These results retain a mature finite-estimate alternative and do not establish a general estimator ranking.
 
 ### C6 Released record prediction check
 
