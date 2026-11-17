@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "The current reviewed manuscript has 71 complete and 29 reading pages, 20 tables and 146 full display formulas. The released respondent-separated food DCE is integrated with complete independent original-row checks. Formal PPI++ body/Appendices A–E reconciliation, exact priority and sufficient choice-analysis value remain open. The research goal is active; no submission has been made.",
+  "decision": "The current reviewed manuscript remains the 71-page/29-page public-panel integration. A separate bounded official-API diagnostic now supplies actual runtime evidence beyond earlier static code reading. This does not establish specific-result priority or sufficient JCM value. Formal PPI++ body and Appendices A–E remain unread, and the research goal is active.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../public_panel_manuscript_integration_20261117/README.md",
+  "latest_progress_report": "../official_ppi_runtime_audit_20261117/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Released 298-person food DCE integrated in Sections 4.6/C9 with 16000 method records, all original-row checks and two new reconciled tables. Small-budget failure and adverse training-cost comparisons are retained. 18 preceding tables, 145 display bodies and 785 preceding science files unchanged.",
+  "latest_progress": "Unmodified pinned official logistic API executed on 68 predeclared calls. All 8 selected exterior public targets returned finite numerical arrays after optimizer failure; all 8 automatic calls in those cases stopped at singular initial Hessians. Normal controls succeed. Independent original-row verification and isolated byte-identical replay pass; no new theory or prevalence claim. Current reviewed Word unchanged; formal-version gap persists.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -631,5 +631,21 @@
     "preceding_science_files_unchanged_in_integration": 785,
     "root_analysis_sources_unchanged": 82,
     "verification_entry_extended": "analysis/quick_check.py"
+  },
+  "official_API_runtime_20261117": {
+    "state": "complete_checked_and_replayed",
+    "report": "../official_ppi_runtime_audit_20261117/README.md",
+    "official_commit": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+    "API_calls": 68,
+    "returned_arrays": 60,
+    "API_exceptions": 8,
+    "raw_rows_uploaded": false,
+    "canonical_Word_unchanged": true,
+    "canonical_files_unchanged": 1051,
+    "all_primary_outputs_byte_identical_on_isolated_replay": true,
+    "new_independent_cohorts": 0,
+    "new_theoretical_framework": false,
+    "formal_PPI_gap_resolved": false,
+    "submission_threshold_certified": false
   }
 }

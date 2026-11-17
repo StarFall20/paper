@@ -1,0 +1,98 @@
+{
+  "state": "passed",
+  "API_records_checked": 68,
+  "returned_coefficients_checked": 60,
+  "original_residual_box_LPs": 76,
+  "all_power_selections_independently_reconstructed": 8,
+  "initial_hessian_singularities_independently_verified": 8,
+  "max_original_score_discrepancy": 3.0531133177191805e-16,
+  "max_selected_power_discrepancy": 1.887379141862766e-15,
+  "analytical_cases": [
+    {
+      "case": "matched_reference_0.5",
+      "exact_positive_slope_recession": "1/80",
+      "state": "interior",
+      "optimizer_success": true,
+      "returned_score_max": 5.445280837346189e-09
+    },
+    {
+      "case": "matched_reference_0.55",
+      "exact_positive_slope_recession": "0",
+      "state": "boundary_or_near_boundary",
+      "optimizer_success": true,
+      "returned_score_max": 5.10702591327572e-15
+    },
+    {
+      "case": "matched_reference_0.6",
+      "exact_positive_slope_recession": "-1/80",
+      "state": "outside",
+      "optimizer_success": false,
+      "returned_score_max": 0.22499999999999987
+    },
+    {
+      "case": "matched_reference_1.0",
+      "exact_positive_slope_recession": "-9/80",
+      "state": "outside",
+      "optimizer_success": false,
+      "returned_score_max": 0.375
+    }
+  ],
+  "singular_initializations": [
+    {
+      "case": "public_92_AI",
+      "hessian_rank": 0,
+      "hessian_max_abs": 0.0
+    },
+    {
+      "case": "public_121_AI",
+      "hessian_rank": 0,
+      "hessian_max_abs": 0.0
+    },
+    {
+      "case": "public_256_AI",
+      "hessian_rank": 0,
+      "hessian_max_abs": 0.0
+    },
+    {
+      "case": "public_317_AI",
+      "hessian_rank": 0,
+      "hessian_max_abs": 0.0
+    },
+    {
+      "case": "public_317_X_only",
+      "hessian_rank": 0,
+      "hessian_max_abs": 0.0
+    },
+    {
+      "case": "public_337_AI",
+      "hessian_rank": 0,
+      "hessian_max_abs": 0.0
+    },
+    {
+      "case": "public_483_AI",
+      "hessian_rank": 0,
+      "hessian_max_abs": 0.0
+    },
+    {
+      "case": "public_483_X_only",
+      "hessian_rank": 0,
+      "hessian_max_abs": 0.0
+    }
+  ],
+  "shared_with_primary": [
+    "frozen inputs",
+    "official API trace"
+  ],
+  "primary_objective_support_or_tuning_imported": false,
+  "upstream_package_imported_by_verifier": false,
+  "raw_input_files_shipped": false,
+  "source_hashes": {
+    "plan.json": "79fe84e95fe21668dfd26cbf13137d0121b1c9f5fd79dc2a22074908062d0f6c",
+    "frozen_input_manifest.json": "d9dddd84d4e448265482583f22f4e7fbd0f24288f193701dc12c8ac8da8ceccd",
+    "analysis/run_official_api.py": "1ba27969bc69eee296568955ab0370d2d05eb4b22fffe76a5285636e1851600b",
+    "analysis/verify_original_objectives.py": "e0276aa0fe424dcb73b05ca670bb923de4c39d1e910fcbc521b56bde3ac3bf8d",
+    "results/api_records.json": "78a34fbda85398ca4f18432aa7f6ddab24bea0013c4ba6ed8530bfdaab3d4898",
+    "results/environment.json": "3cee28ff41c43fea3d8d67937669beea0a095b57807f5c719b48d020bfd9ce97",
+    "results/status.json": "9c7eb2b1abe6665b077a89a996db2b0ff2f85bd2412ee622828486d500402871"
+  }
+}

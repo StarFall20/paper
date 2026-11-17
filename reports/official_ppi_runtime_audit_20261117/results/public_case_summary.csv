@@ -1,0 +1,9 @@
+group,requested_power,cases,finite_numeric_arrays,last_optimizer_success,interior_effective_target,outside_effective_target,API_exceptions
+previous_exterior,0,8,8,8,8,0,0
+previous_exterior,0.5,8,8,8,8,0,0
+previous_exterior,1,8,8,0,0,8,0
+previous_exterior,automatic,8,0,0,0,0,8
+interior_control,0,8,8,8,8,0,0
+interior_control,0.5,8,8,8,8,0,0
+interior_control,1,8,8,8,8,0,0
+interior_control,automatic,8,8,8,8,0,0

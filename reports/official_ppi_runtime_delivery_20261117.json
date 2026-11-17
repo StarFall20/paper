@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17",
+  "archive": "jocm_official_ppi_runtime_audit_20261117.zip",
+  "sha256": "cc771134b2656455542baa1929a57298c47e3c59b339178e908dc3992f0a3046",
+  "files": 30,
+  "bytes": 110875,
+  "fresh_extraction_all_file_bytes_identical": true,
+  "isolated_package_check": {
+    "state": "passed",
+    "files": 29,
+    "original_source_checks_present": true,
+    "raw_response_arrays_shipped": false,
+    "manuscript_or_global_priority_certified": false
+  },
+  "upstream_full_replay": "official_ppi_runtime_audit_20261117/clean_reproduction.json",
+  "reviewed_Word_unchanged": true,
+  "raw_responses_or_original_PDF_in_archive": false,
+  "research_goal_complete": false
+}

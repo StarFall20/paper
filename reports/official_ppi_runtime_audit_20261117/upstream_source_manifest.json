@@ -1,0 +1,75 @@
+{
+  "repository": "aangelopoulos/ppi_py",
+  "commit": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "ppi_py/__init__.py",
+      "git_blob_sha1": "47cbd2019bf35284890c356e7eaf6f09292a0f82",
+      "sha256": "860a3473c8a878054c13354b6a39f08b98d883fe5e5a7be00b6962c71084fefe",
+      "bytes": 122
+    },
+    {
+      "path": "ppi_py/baselines.py",
+      "git_blob_sha1": "5e0c17cd2a552211815563c37137f40edcc99e19",
+      "sha256": "a2cae60e7418d60d148b5e32db1a8c3613df98f4346be4ac0c9b8413674f9d32",
+      "bytes": 16378
+    },
+    {
+      "path": "ppi_py/cross_ppi.py",
+      "git_blob_sha1": "7f97d14fdedef480b73d43ae1649c54f2624e784",
+      "sha256": "5e99907e96d540d9cce3a06815d47da80a5595ee03739f5de0eadf53348471cd",
+      "bytes": 18999
+    },
+    {
+      "path": "ppi_py/datasets/__init__.py",
+      "git_blob_sha1": "975d883b3551e3ab8a76306fb79d12e88d34c496",
+      "sha256": "aff92b63cc6d798a8236a9b7e4a7e0e11f076128fc9251610aa7f783e0c75a2f",
+      "bytes": 24
+    },
+    {
+      "path": "ppi_py/datasets/datasets.py",
+      "git_blob_sha1": "b5a40dec2f4e04196b83cd484df0726adde5d947",
+      "sha256": "45530533579a3db1660289ddec9ba4ce86dad9d96dac7d652b1184a3054a6688",
+      "bytes": 1642
+    },
+    {
+      "path": "ppi_py/ppi.py",
+      "git_blob_sha1": "9d61900f7e1d0868f12c786e57be154b2b5d51c7",
+      "sha256": "3c329fb57ce2e73f2cb6e8696188a3415eabcb9f3720128f350378b369693a9c",
+      "bytes": 66411
+    },
+    {
+      "path": "ppi_py/ppi_power_analysis.py",
+      "git_blob_sha1": "da436f4536e443665afaa8d9e58d043bd3c6a648",
+      "sha256": "859ed6f707c76040718819b80e629d71aa232df0a022c825815f789e536d3939",
+      "bytes": 23587
+    },
+    {
+      "path": "ppi_py/ptd.py",
+      "git_blob_sha1": "7e29a0f117e5dbe1d218c99cb52698d4c07788ad",
+      "sha256": "f66c27b5b8c0ca2e3b609047a55cecf5e5374cc777ae8aa4e0393e72fee5c0f2",
+      "bytes": 11447
+    },
+    {
+      "path": "ppi_py/utils/__init__.py",
+      "git_blob_sha1": "3ee3702624a42c1a82b30895fca8e2d4a23b8fcd",
+      "sha256": "090fc848a810e318fd90da6575a1c2526a137aec5048958f57dfa06cab820e25",
+      "bytes": 79
+    },
+    {
+      "path": "ppi_py/utils/dataset_utils.py",
+      "git_blob_sha1": "131dd96b2970a8ec883741f246bcc00ade3808ff",
+      "sha256": "7706ab0634c5cbe9ef44dd0ccba65ad465dfcf03c5fea4737644571339025618",
+      "bytes": 1050
+    },
+    {
+      "path": "ppi_py/utils/statistics_utils.py",
+      "git_blob_sha1": "d83c0ebc123c1ff928183d5b716e6b252c88bd22",
+      "sha256": "834edf74919d7e9021efbe44a18a2b00d69ac412fc080f5f04b60c0a4e8f9b74",
+      "bytes": 5231
+    }
+  ],
+  "unmodified_normal_package_import": true,
+  "code_storage": "Private local source cache; public package downloads the pinned files separately."
+}
