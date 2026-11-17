@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "allocations_complete": 500,
+  "method_records": 16000,
+  "exterior_certificates": 253,
+  "coefficient_records": 15418,
+  "source_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "plan_sha256": "99d95f6bc3fca966eb03fa64e43f538f9d1e99b653eae3df016d95e74cb516f1",
+  "analysis_sha256": "ed198611b3757aaeaade695f9a5659e570ebb14e05534715f580152e70960606"
+}

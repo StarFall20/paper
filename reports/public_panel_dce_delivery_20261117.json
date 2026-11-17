@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-17",
+  "archive": "jocm_public_panel_dce_audit_20261117.zip",
+  "sha256": "e1f857f449e59deeb6c0686a6b75123c7a519122e6f814a4f8367c1f29f1a806",
+  "bytes": 2549902,
+  "files": 24,
+  "fresh_extract_all_files_identical": true,
+  "all_manifest_hashes_verified": true,
+  "independent_verification_bound_to_exact_sources_and_outputs": true,
+  "all_original_rows_and_metrics_checked": 16000,
+  "available_coefficients_checked": 15418,
+  "exterior_rays_checked": 253,
+  "new_human_or_AI_answers": 0,
+  "source_workbook_republished": false,
+  "current_manuscript_changed": false,
+  "integration_pending": true,
+  "submission_threshold_certified": false
+}

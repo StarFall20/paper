@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "The current reviewed manuscript has 69 complete pages, 29 reading pages, 18 tables, 145 full display formulas and 83 unchanged root analysis sources. The matched-reference-information construction is integrated and independently checked. Formal PPI++ body/Appendices A–E reconciliation, exact priority and sufficient choice-analysis value remain open. Final author review and publisher declarations are pending; the research goal is active.",
+  "decision": "The current reviewed Word remains the 69-page full and 29-page reading matched-information revision, with 18 tables, 145 full display formulas and 83 root analysis sources. A new real repeated-choice DCE audit is complete and independently checked but not yet integrated into Word. It supplies respondent-separated small-label failure cases and adverse training-cost controls. Formal PPI++ body/Appendices A–E reconciliation, exact priority and sufficient choice-analysis value remain open. Final author review and publisher declarations are pending; the research goal is active.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -13,20 +13,23 @@
       "requirement": "Useful model reconstruction from existing data",
       "status": "completed_with_stated_scope",
       "evidence": "../human_primary_20261109/真人主分析与来源纠正.md",
-      "scope": "Exploratory human application; channel/version confounding and bundled attributes retained"
+      "scope": "Exploratory human application; channel/version confounding and bundled attributes retained",
+      "latest_additional_evidence": "../public_panel_dce_20261117/README.md"
     },
     {
       "requirement": "Independent valuable innovation",
       "status": "specific_compensated_attainment_and_matched_information_consequences_derived_priority_and_value_under_assessment",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Complete specific-result priority and sufficient choice-analysis value assessment. General Gaussian absorption and harmful prediction aggregation are established prior and explicitly attributed.",
-      "latest_candidate_evidence": "../matched_local_information_20261117/prior_and_value_assessment.md"
+      "latest_candidate_evidence": "../matched_local_information_20261117/prior_and_value_assessment.md",
+      "latest_application_scope": "../public_panel_dce_20261117/value_assessment.md"
     },
     {
       "requirement": "Fair comparison against established methods",
-      "status": "established_baselines_and_full_one_step_domain_sensitivity_retained",
+      "status": "established_baselines_one_step_domain_and_new_real_DCE_training_cost_controls_retained",
       "evidence": "../one_step_manuscript_integration_20261117/README.md",
-      "remaining": "The fixed allocation and fixed-power diagnostic gives no prediction-error advantage over direct human ridge;it does not establish general tuning or externally pretrained predictor rankings."
+      "remaining": "The fixed allocation and fixed-power diagnostic gives no prediction-error advantage over direct human ridge;it does not establish general tuning or externally pretrained predictor rankings.",
+      "latest_additional_evidence": "../public_panel_dce_20261117/README.md"
     },
     {
       "requirement": "Proof and numerical validity",
@@ -202,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../matched_information_manuscript_integration_20261117/README.md",
+  "latest_progress_report": "../public_panel_dce_20261117/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -348,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "One fitted-intercept design fixes score rows, full Hessian, empirical sandwich and Newton update at a nonstationary reference while attainment changes at power 11/20; integrated in Section 3.5/Appendix B5. Exact fractions and independent 90-digit original-loss checks pass. All 18 old tables, 141 old display bodies and 776 preceding science files retain hashes. Formal PPI++ and contribution-value gaps remain.",
+  "latest_progress": "A frozen respondent-separated real food-choice DCE audit is complete: 298 six-menu respondents split 100 training, 60 evaluation and 138 correction-pool; 500 nested allocations at four budgets, eight methods and 16000 method records. Original-row verification checks 15418 coefficient records, all 253 negative recession directions, 162 residual LPs and 2000 cluster weights. The new empirical material is standalone and not yet in the current reviewed Word. Formal PPI++ reconciliation and sufficient novelty/value remain open.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -579,5 +582,47 @@
     "full_pages": 69,
     "reading_pages": 29,
     "full_display_formulas": 145
+  },
+  "public_panel_dce_20261117": {
+    "state": "complete_independently_checked_standalone",
+    "report": "../public_panel_dce_20261117/README.md",
+    "value_assessment": "../public_panel_dce_20261117/value_assessment.md",
+    "source": "https://zenodo.org/records/15420092",
+    "source_hash": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+    "complete_public_respondents": 298,
+    "observed_menus": 1788,
+    "training_people": 100,
+    "evaluation_people": 60,
+    "correction_pool_people": 138,
+    "label_budgets": [
+      5,
+      10,
+      20,
+      40
+    ],
+    "allocations_per_budget": 500,
+    "method_records": 16000,
+    "all_exterior_rays_verified": 253,
+    "original_row_LP_checks": 162,
+    "cluster_weights_independently_reconstructed": 2000,
+    "unit_outside_counts": [
+      144,
+      21,
+      0,
+      0
+    ],
+    "unit_outside_with_ordinary_interior": [
+      40,
+      18,
+      0,
+      0
+    ],
+    "prior_canonical_science_files_unchanged": 786,
+    "current_Word_unchanged": true,
+    "current_Word_integration_pending": true,
+    "new_human_or_AI_answers": 0,
+    "new_independent_theoretical_framework": false,
+    "formal_PPI_gap_resolved": false,
+    "submission_threshold_certified": false
   }
 }

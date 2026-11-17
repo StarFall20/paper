@@ -1,0 +1,459 @@
+[
+  {
+    "labelled_people": 5,
+    "method": "all_human_MLE",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.62871723586471,
+    "median_logloss": 0.628415744097191,
+    "mean_Brier": 0.36864819770426904,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 5,
+    "method": "all_human_ridge",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "ridge_coercive": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.682210349909253,
+    "median_logloss": 0.6819710798207146,
+    "mean_Brier": 0.40090549211682525,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 5,
+    "method": "corrected_cluster_power",
+    "allocations": 500,
+    "available": 352,
+    "support_counts": {
+      "interior": 352,
+      "boundary_or_near_boundary": 136,
+      "outside": 12
+    },
+    "failed_score": 0,
+    "mean_logloss": 1.272474641682877,
+    "median_logloss": 1.0195485585959077,
+    "mean_Brier": 0.5579122998693755,
+    "positive_cost_fits": 1
+  },
+  {
+    "labelled_people": 5,
+    "method": "corrected_half",
+    "allocations": 500,
+    "available": 426,
+    "support_counts": {
+      "interior": 426,
+      "outside": 74
+    },
+    "failed_score": 0,
+    "mean_logloss": 1.0692007709055178,
+    "median_logloss": 0.9310378628839058,
+    "mean_Brier": 0.5212371555722666,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 5,
+    "method": "corrected_unit",
+    "allocations": 500,
+    "available": 356,
+    "support_counts": {
+      "interior": 356,
+      "outside": 144
+    },
+    "failed_score": 0,
+    "mean_logloss": 1.1472548482815863,
+    "median_logloss": 0.9470159839950443,
+    "mean_Brier": 0.5280600057731893,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 5,
+    "method": "labelled_MLE",
+    "allocations": 500,
+    "available": 319,
+    "support_counts": {
+      "interior": 319,
+      "boundary_or_near_boundary": 181
+    },
+    "failed_score": 0,
+    "mean_logloss": 1.222549027438255,
+    "median_logloss": 1.0244155945561422,
+    "mean_Brier": 0.5674002419072547,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 5,
+    "method": "labelled_ridge",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "ridge_coercive": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.9081078245203056,
+    "median_logloss": 0.8784647925489295,
+    "mean_Brier": 0.5371461518215183,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 5,
+    "method": "pooling",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6810637859445333,
+    "median_logloss": 0.6809276822007804,
+    "mean_Brier": 0.3993949960105007,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 10,
+    "method": "all_human_MLE",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6290705141359769,
+    "median_logloss": 0.6285629201677851,
+    "mean_Brier": 0.3686322296516035,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 10,
+    "method": "all_human_ridge",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "ridge_coercive": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6831685801814746,
+    "median_logloss": 0.6828198930681642,
+    "mean_Brier": 0.4011909288802561,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 10,
+    "method": "corrected_cluster_power",
+    "allocations": 500,
+    "available": 495,
+    "support_counts": {
+      "interior": 495,
+      "boundary_or_near_boundary": 5
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.7953633132459892,
+    "median_logloss": 0.7627702455638083,
+    "mean_Brier": 0.4530783948171818,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 10,
+    "method": "corrected_half",
+    "allocations": 500,
+    "available": 498,
+    "support_counts": {
+      "interior": 498,
+      "outside": 2
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.7775272060490769,
+    "median_logloss": 0.7545690632245783,
+    "mean_Brier": 0.4457004095370371,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 10,
+    "method": "corrected_unit",
+    "allocations": 500,
+    "available": 479,
+    "support_counts": {
+      "interior": 479,
+      "outside": 21
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.8006215858670535,
+    "median_logloss": 0.7670662565522216,
+    "mean_Brier": 0.4529942673445894,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 10,
+    "method": "labelled_MLE",
+    "allocations": 500,
+    "available": 493,
+    "support_counts": {
+      "interior": 493,
+      "boundary_or_near_boundary": 7
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.798948693758709,
+    "median_logloss": 0.7688219784885275,
+    "mean_Brier": 0.45472915389809626,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 10,
+    "method": "labelled_ridge",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "ridge_coercive": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.7857227257894175,
+    "median_logloss": 0.7712984568771224,
+    "mean_Brier": 0.467551976332337,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 10,
+    "method": "pooling",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6795036824910253,
+    "median_logloss": 0.6792745216899658,
+    "mean_Brier": 0.39818177255165893,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 20,
+    "method": "all_human_MLE",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6298823935046871,
+    "median_logloss": 0.6295939327263922,
+    "mean_Brier": 0.3687838062222596,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 20,
+    "method": "all_human_ridge",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "ridge_coercive": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6848916095074666,
+    "median_logloss": 0.6848643415414513,
+    "mean_Brier": 0.4017939869401603,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 20,
+    "method": "corrected_cluster_power",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6991557454976294,
+    "median_logloss": 0.692223246948671,
+    "mean_Brier": 0.41051511379039435,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 20,
+    "method": "corrected_half",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6974631358788873,
+    "median_logloss": 0.6923948615588147,
+    "mean_Brier": 0.4094601163804048,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 20,
+    "method": "corrected_unit",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.705105900315198,
+    "median_logloss": 0.6970254559576621,
+    "mean_Brier": 0.4123243508519937,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 20,
+    "method": "labelled_MLE",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6999630857688369,
+    "median_logloss": 0.6938562350789563,
+    "mean_Brier": 0.4111220796801974,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 20,
+    "method": "labelled_ridge",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "ridge_coercive": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.7426807277381402,
+    "median_logloss": 0.7372511351976685,
+    "mean_Brier": 0.43833505599136324,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 20,
+    "method": "pooling",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6764574603927558,
+    "median_logloss": 0.6765746739086403,
+    "mean_Brier": 0.39589721545576717,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 40,
+    "method": "all_human_MLE",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6315336682362483,
+    "median_logloss": 0.6313766216788208,
+    "mean_Brier": 0.36914802940745733,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 40,
+    "method": "all_human_ridge",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "ridge_coercive": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6878969744860551,
+    "median_logloss": 0.6878510303960825,
+    "mean_Brier": 0.4028711884793453,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 40,
+    "method": "corrected_cluster_power",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6711925220755587,
+    "median_logloss": 0.6698742775753697,
+    "mean_Brier": 0.39258224870732683,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 40,
+    "method": "corrected_half",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6711851660881687,
+    "median_logloss": 0.6700883017774084,
+    "mean_Brier": 0.39263591908643447,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 40,
+    "method": "corrected_unit",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6730930917859493,
+    "median_logloss": 0.6720046086440271,
+    "mean_Brier": 0.39394614128902217,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 40,
+    "method": "labelled_MLE",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6713405216954941,
+    "median_logloss": 0.6699388001095887,
+    "mean_Brier": 0.3926895013356483,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 40,
+    "method": "labelled_ridge",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "ridge_coercive": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.7252065194121742,
+    "median_logloss": 0.7238027900478111,
+    "mean_Brier": 0.4249430849777062,
+    "positive_cost_fits": 0
+  },
+  {
+    "labelled_people": 40,
+    "method": "pooling",
+    "allocations": 500,
+    "available": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "failed_score": 0,
+    "mean_logloss": 0.6710654361967168,
+    "median_logloss": 0.6711507391377066,
+    "mean_Brier": 0.3918052454684422,
+    "positive_cost_fits": 0
+  }
+]

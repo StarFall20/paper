@@ -1,3 +1,5 @@
+真实重复选择 DCE 审计已完成，见[完整结果](../public_panel_dce_20261117/README.md)。新实证尚未并入当前 Word；已有稿件版本指针保持有效。以下为较早交付历史。
+
 当前版本已将匹配参考信息构造并入第 3.5 节和附录 B5，见[整合记录](../matched_information_manuscript_integration_20261117/README.md)。以下较早条目均为历史记录。
 
 当前版本已补入 EPI 最近邻约束对照，见[本轮记录](../epi_literature_integration_20261117/README.md)。下列较早整理条目保留为历史。

@@ -1,0 +1,12 @@
+{
+  "current_canonical_science_files_unchanged": 786,
+  "canonical_source_report": "../../submission/finite_choice_20261110/MANIFEST.sha256",
+  "current_manuscript_sha256": {
+    "paper.md": "000ad4187593bef3d34f2473ac2cf2a06bf8d01c2ff49ec485267cdee340ff7b",
+    "paper.docx": "26d298be718b1aa4b2b7bc6f5896d847be5d1b10ec32ea6a69af35872612073f",
+    "main_text.md": "601fdba5d33b1e0f7822e784fcf861cc982c40ebd9abeb0e1297dd34616003a5",
+    "main_text.docx": "8997198e1dd66636c1cbe2c215f986008b67bfb4412854c0fcb4c6d16e919b71"
+  },
+  "current_Word_changed": false,
+  "new_panel_material_integrated_in_current_Word": false
+}

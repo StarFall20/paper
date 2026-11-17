@@ -1,3 +1,11 @@
+# Real respondent-separated DCE audit completed — 17 November 2026
+
+The [new panel-choice audit](reports/public_panel_dce_20261117/README.md) uses 298 released Scottish consumer records, all with six menus. Training (100), evaluation (60) and correction-pool (138) respondents are separate. Four labelled-person budgets and eight methods retain 500 allocations each, giving 16000 method records. Every available coefficient and exterior direction is independently reconstructed from original menus; 162 residual LPs and all 2000 cluster weights are additionally checked.
+
+Unit-power compensation has 144, 21, 0 and 0 exterior targets at labelled budgets 5, 10, 20 and 40. Of the first two counts, 40 and 18 have an interior ordinary-MNL target. Failure is confined to the smallest budgets in this fixed experiment. Using all known human labels, including the predictor's 100-person training set, gives lower held-out MNL loss than the corrected fits. These results support a scoped diagnostic application, not general estimator superiority or a new cluster theorem.
+
+The [value assessment](reports/public_panel_dce_20261117/value_assessment.md) and draft empirical paragraphs state the limits. All 786 canonical scientific files and both current Word files retain their hashes; the new DCE evidence has not yet been integrated into Word. Current manuscript release and proof counts below remain valid for that earlier integrated revision. Formal PPI++ 2026 body and Appendices A–E reconciliation, exact priority, adequate journal value and final author review remain unresolved. The research goal remains active. Earlier entries below are dated history.
+
 # Matched reference information integrated — 17 November 2026
 
 The [current manuscript revision](reports/matched_information_manuscript_integration_20261117/README.md) integrates one deterministic fitted-intercept example in Section 3.5 and Appendix B5. Its corrected score rows, full Hessian, empirical sandwich and Newton update agree at a nonstationary reference. A unique finite estimate exists for powers from 1/2 up to 11/20; at 11/20 the infimum is finite and unattained, and above it the original loss is unbounded below. Exact fractions and an independently written 90-digit original-loss verifier agree. No variance-optimal selection or actual sampling-variance equality is claimed.

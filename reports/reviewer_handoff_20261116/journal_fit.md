@@ -45,3 +45,8 @@ The [new checked finite design](../matched_local_information_20261117/README.md)
 ## 17 November 2026 matched-reference-information integration
 
 The construction described in the preceding standalone progress record is now integrated in Section 3.5 and Appendix B5. It is one controlled finite-design illustration within the existing compensated objective. All score rows, observed Hessian, empirical sandwich and Newton direction at a nonstationary reference agree while attainment differs. Li and Cai (2026) are cited for the broader raw-Gram-versus-student-risk distinction. This does not establish a new framework, variance-optimal tuning counterexample, actual sampling-variance equality or sufficient JCM contribution. Formal PPI++ reconciliation and the choice-analysis value judgment remain open.
+
+
+## 17 November 2026 real respondent-separated DCE follow-up
+
+The [new completed audit](../public_panel_dce_20261117/README.md) supplies a real consumer DCE with verified respondent identifiers. It retains an 11-parameter main-effects target, whole-person splitting, 500 allocations at each of four label budgets and training-cost controls. Unit correction is exterior even when ordinary MNL is interior in 40/500 and 18/500 allocations at five and ten labelled respondents. Neither event appears at twenty or forty people. All-known-human-label MNL has lower evaluation loss than the corrected fits. This improves application relevance while restricting the importance claim to very small label budgets. It adds no cluster theorem and does not test the Gaussian phase law. The new material is not yet in Word; priority and adequate journal value remain under assessment.
