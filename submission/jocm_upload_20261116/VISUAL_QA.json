@@ -1,17 +1,18 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "status": "complete",
   "new_cover_letter": {
     "pages": 1,
-    "all_pages_directly_visually_inspected": true,
-    "docx_sha256": "5402c133c3e4b3ed1edd367622b5877ff24eaf8771643990cc48fe7139f7e2a8",
-    "source_sha256": "a55493297687b6c4c6dfb88da60a0e501a796c9fee8836e447bf4aefcd90510d",
-    "page_png_sha256": "0b34eb3c1562d6aec7676f994529bf7866f904bbb98d664703f1ab7526cf2fea",
-    "issues_corrected": [
-      "Removed inherited title paragraph borders and theme font overrides"
-    ]
+    "source_sha256": "146119fb7747deda1a0064d2dd01b6cfb6f957cf9ed72f2e54e2e17c3c10158f",
+    "docx_sha256": "564aabf5c8c9641f29ac3e30f0981baf0c536951d840bb6b6aedcaf8fdd9a788",
+    "page_png_sha256": {
+      "1": "9cfb8da00a4ac96aec412fc1a97f89e9213bf261aa9c8f0b9f152421435d1191"
+    },
+    "page_review_basis": {
+      "1": "Current final PNG directly inspected at original resolution"
+    }
   },
-  "copied_manuscript_visual_review": "Current matched_information_visual_qa_20261117.json covers every final full/main PNG by direct original-resolution inspection or exact reviewed-image inheritance; 69 full and 29 reading pages.",
+  "copied_manuscript_visual_review": "Current public_panel_visual_qa_20261117.json covers every final PNG by original-resolution direct inspection or exact reviewed-image inheritance; 71 complete and 29 reading pages.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
   "highlights_visual_review": "Unchanged source hash bound to current full visual QA"
 }

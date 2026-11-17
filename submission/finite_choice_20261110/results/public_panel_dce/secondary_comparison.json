@@ -1,0 +1,77 @@
+{
+  "scope": "Secondary paired support comparison after the frozen complete run; no model, budget or source selection changed.",
+  "rows": [
+    {
+      "labelled_people": 5,
+      "method": "corrected_unit",
+      "ordinary_interior_corrected_outside": 40,
+      "ordinary_noninterior_corrected_interior": 77
+    },
+    {
+      "labelled_people": 5,
+      "method": "corrected_half",
+      "ordinary_interior_corrected_outside": 6,
+      "ordinary_noninterior_corrected_interior": 113
+    },
+    {
+      "labelled_people": 5,
+      "method": "corrected_cluster_power",
+      "ordinary_interior_corrected_outside": 1,
+      "ordinary_noninterior_corrected_interior": 34
+    },
+    {
+      "labelled_people": 10,
+      "method": "corrected_unit",
+      "ordinary_interior_corrected_outside": 18,
+      "ordinary_noninterior_corrected_interior": 4
+    },
+    {
+      "labelled_people": 10,
+      "method": "corrected_half",
+      "ordinary_interior_corrected_outside": 1,
+      "ordinary_noninterior_corrected_interior": 6
+    },
+    {
+      "labelled_people": 10,
+      "method": "corrected_cluster_power",
+      "ordinary_interior_corrected_outside": 0,
+      "ordinary_noninterior_corrected_interior": 2
+    },
+    {
+      "labelled_people": 20,
+      "method": "corrected_unit",
+      "ordinary_interior_corrected_outside": 0,
+      "ordinary_noninterior_corrected_interior": 0
+    },
+    {
+      "labelled_people": 20,
+      "method": "corrected_half",
+      "ordinary_interior_corrected_outside": 0,
+      "ordinary_noninterior_corrected_interior": 0
+    },
+    {
+      "labelled_people": 20,
+      "method": "corrected_cluster_power",
+      "ordinary_interior_corrected_outside": 0,
+      "ordinary_noninterior_corrected_interior": 0
+    },
+    {
+      "labelled_people": 40,
+      "method": "corrected_unit",
+      "ordinary_interior_corrected_outside": 0,
+      "ordinary_noninterior_corrected_interior": 0
+    },
+    {
+      "labelled_people": 40,
+      "method": "corrected_half",
+      "ordinary_interior_corrected_outside": 0,
+      "ordinary_noninterior_corrected_interior": 0
+    },
+    {
+      "labelled_people": 40,
+      "method": "corrected_cluster_power",
+      "ordinary_interior_corrected_outside": 0,
+      "ordinary_noninterior_corrected_interior": 0
+    }
+  ]
+}

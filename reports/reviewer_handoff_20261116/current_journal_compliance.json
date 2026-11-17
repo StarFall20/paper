@@ -3,7 +3,7 @@
   "guide_read_date": "2026-11-13",
   "guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
   "fresh_guide_web_retrieval": "403; retained institutional guide used",
-  "abstract_words": 174,
+  "abstract_words": 189,
   "abstract_limit": 250,
   "keyword_count": 5,
   "permitted_keyword_count": [
@@ -23,11 +23,11 @@
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 8737,
+  "main_lexical_words_excluding_math": 9275,
   "verified_full_research_article_word_cap": null,
-  "full_manuscript_pages": 69,
-  "native_math_objects": 1319,
-  "tables": 18,
+  "full_manuscript_pages": 71,
+  "native_math_objects": 1331,
+  "tables": 20,
   "all_seven_appendices_in_manuscript": true,
   "ai_disclosure_precedes_references": true,
   "separate_vector_figures": 6,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "26d298be718b1aa4b2b7bc6f5896d847be5d1b10ec32ea6a69af35872612073f"
+      "sha256": "cb640b4be8b67ee05a1abb4f30ecd05f6132054192613e46ee7565ae9b230804"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",
@@ -88,6 +88,10 @@
     "Figures/identical_score_phase.pdf": {
       "parent_path": "manuscript/figures/publication_pdf/identical_score_phase.pdf",
       "sha256": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291"
+    },
+    "Cover_letter.docx": {
+      "parent_path": "submission_materials/Cover_letter.docx",
+      "sha256": "564aabf5c8c9641f29ac3e30f0981baf0c536951d840bb6b6aedcaf8fdd9a788"
     }
   },
   "pending": [

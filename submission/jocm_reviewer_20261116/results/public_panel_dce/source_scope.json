@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-17",
+  "new_general_web_queries": [
+    "\"26-AOAS2215\" pdf",
+    "\"PPI++\" \"Supplement\" Angelopoulos Duchi Zrnic",
+    "\"PPI++\" \"Appendix D\" \"2026\"",
+    "\"PPI++: Efficient prediction-powered inference\" \"Supplementary\"",
+    "\"PPI++\" \"correlated\" logistic existence",
+    "\"logistic\" \"phase transition\" \"correlated samples\" existence",
+    "\"26-AOAS2215SUPPA\"",
+    "\"PPI++\" \"existence\" logistic",
+    "\"prediction-powered\" \"separation\" logit",
+    "\"prediction-powered\" \"unbounded\" logistic",
+    "\"prediction-powered\" \"growing dimension\""
+  ],
+  "new_Scopus_queries": 0,
+  "new_WOS_queries": 0,
+  "new_Google_Scholar_queries": 0,
+  "systematic_priority_clearance": false,
+  "sources": [
+    {
+      "url": "https://zenodo.org/records/15420092",
+      "units": "Current landing description, scope, sample sizes, file listing and licensed cached metadata; workbook choices and relevant metadata rows inspected",
+      "use": "Real human repeated-choice source, not a new data collection"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.09601v1",
+      "units": "Re-read Sections 2.1–2.4 and A.4 trace formula, GLM clipping and Theorem 3; earlier broader reading remains dated in cluster_compensation_20261112",
+      "use": "Existing clustered variance and tuning principles. Fixed ridge pilot and unbiased separate-group covariance are stated conventions, not exact upstream algorithm replication"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.01453",
+      "units": "Current submission history only",
+      "finding": "Latest arXiv version remains v2, 26 March 2024; formal identity not established"
+    },
+    {
+      "url": "https://tijana-zrnic.github.io/",
+      "units": "PPI++ publication entry and linked version identifiers"
+    },
+    {
+      "url": "https://stanford.edu/~jduchi/publications.html",
+      "units": "PPI++ publication entry and arXiv PDF link"
+    }
+  ],
+  "formal_access": {
+    "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full",
+    "public_web_result": "No readable full body returned",
+    "browser_result": "Browser inventory available; native computer locked, selecting existing formal-page tab timed out. CUA part closed after observed result.",
+    "formal_body_or_A_to_E_read_this_turn": false,
+    "authorization_or_payment_bypassed": false
+  },
+  "scope_of_new_evidence": "Respondent-separated empirical finite-support and risk audit; no new cluster theorem, no phase-law extension and no added originality guarantee"
+}

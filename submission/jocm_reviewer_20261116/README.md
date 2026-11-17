@@ -1,6 +1,6 @@
 # Reproduce When prediction assisted logit estimates exist
 
-The reviewed manuscript includes the 17 November 2026 matched-reference-information construction in Section 3.5 and Appendix B5. It fixes score rows, full observed Hessian, empirical sandwich and Newton direction at a nonstationary reference while global attainment changes at power 11/20. All 18 old tables, 141 old display bodies, 83 root analysis sources and 776 preceding analysis/input/result files retain exact hashes. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
+The reviewed manuscript includes the 17 November 2026 respondent-separated food DCE in Section 4.6 and Appendix C9. It contains 298 released respondents, 1788 observed menus, four label budgets and eight methods, with 16000 derived records from 500 finite-population allocations. The full manuscript has 71 pages, 20 tables and 146 display formulas. All 18 preceding tables and 145 display bodies retain their contents. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
 
 Use Python 3.12 with [the recorded versions](requirements.txt). Run these commands from this directory, using a new output directory:
 
@@ -60,3 +60,11 @@ python results/matched_local_information/verify_original_loss.py --certificate r
 ```
 
 The [current validation](reports/matched_information_validation_20261117.json) separates inherited unchanged science from the new exact and independent 90-digit original-loss checks. Reference-point identities imply no actual sampling-variance equality, variance-optimal selection or universal priority claim. Earlier dated reports retain their historical scope.
+
+The [released food DCE audit](results/public_panel_dce/README.md) is integrated in the current manuscript. Its existing original-row verifier checked all 16000 records, 15418 available coefficients, 253 exterior directions and 2000 cluster weights. Check manuscript Tables C4/C5 directly from all saved method records:
+
+```sh
+python results/public_panel_dce/analysis/reconcile_tables.py --package-root . --out regenerated/public_panel_table_check.json
+```
+
+Full source download, primary fit and independent reconstruction commands are in the nested README. They use public observed choices and create no new respondent or AI answer. Small-budget failures, larger-budget absence of failure, conditional-risk denominators and the stronger all-human training-cost comparator remain reported. The [current validation](reports/public_panel_validation_20261117.json) distinguishes the new empirical checks from inherited unchanged mathematical evidence. Earlier dated reports retain historical scope.

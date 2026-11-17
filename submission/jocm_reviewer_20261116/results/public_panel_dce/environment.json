@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.2.3",
+    "openpyxl": "3.1.5",
+    "threadpoolctl": "3.7.0"
+  },
+  "linear_algebra_threads": 1
+}

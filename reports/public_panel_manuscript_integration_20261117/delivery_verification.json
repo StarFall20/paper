@@ -1,0 +1,61 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_public_panel_integrated_20261117.zip",
+    "sha256": "310f0a6af95c5422468bbd5107a7475efeb4a2a2696708afda05004f958531fa",
+    "files": 970,
+    "bytes": 44577816,
+    "fresh_extraction_all_files_identical": true,
+    "isolated_manifest_and_provenance_check": {
+      "manifest_entries_verified": 969,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    },
+    "fresh_extracted_table_check": {
+      "state": "passed",
+      "new_tables_reconciled": [
+        "C4",
+        "C5"
+      ],
+      "table_C4_rows": 4,
+      "table_C5_rows": 8,
+      "complete_method_records": 16000,
+      "paired_unit_outside_with_ordinary_interior": [
+        40,
+        18,
+        0,
+        0
+      ],
+      "all_20_table_blocks_present": true,
+      "old_18_table_values_checked_by_existing_entry": true,
+      "new_primary_fits_or_MC_run": false,
+      "prior_original_row_verification_hash": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+    },
+    "unchanged_math_and_previous_model_runs_inherited_by_hash": true,
+    "public_DCE_original_row_verification_sha256": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+  },
+  {
+    "archive": "jocm_submission_files_public_panel_integrated_20261117.zip",
+    "sha256": "88c7989c4358e418bac4d8626a0aef1451981910a656fcccbcbe09747b82b01d",
+    "files": 20,
+    "bytes": 1244851,
+    "fresh_extraction_all_files_identical": true
+  },
+  {
+    "document": "jocm_manuscript_public_panel_integrated_20261117.docx",
+    "sha256": "cb640b4be8b67ee05a1abb4f30ecd05f6132054192613e46ee7565ae9b230804",
+    "bytes": 1022979,
+    "review_bound_by": "reports/public_panel_visual_qa_20261117.json"
+  },
+  {
+    "document": "jocm_main_text_public_panel_integrated_20261117.docx",
+    "sha256": "1aff5b986638948b39e18b803e7b223705dddb376f349fca7dc5f807bd8ac12e",
+    "bytes": 922771,
+    "review_bound_by": "reports/public_panel_visual_qa_20261117.json"
+  }
+]

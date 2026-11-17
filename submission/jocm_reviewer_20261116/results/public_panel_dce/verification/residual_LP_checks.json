@@ -1,0 +1,1136 @@
+[
+  {
+    "record": 0,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 2,
+    "original_row_menus": 630,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.05740987983978611
+  },
+  {
+    "record": 4,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.022813697784319763
+  },
+  {
+    "record": 5,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.016250062833257393
+  },
+  {
+    "record": 6,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 7,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09765800482369852
+  },
+  {
+    "record": 8,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.05514705882352944
+  },
+  {
+    "record": 10,
+    "original_row_menus": 660,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06047879042419152
+  },
+  {
+    "record": 12,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.06258520496243317
+  },
+  {
+    "record": 13,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.06068277828190648
+  },
+  {
+    "record": 14,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.05977665797512371
+  },
+  {
+    "record": 15,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09791109638028785
+  },
+  {
+    "record": 16,
+    "original_row_menus": 120,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.07398051245037901
+  },
+  {
+    "record": 18,
+    "original_row_menus": 720,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06495705818313807
+  },
+  {
+    "record": 20,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.07659924241963621
+  },
+  {
+    "record": 21,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.07590611129772534
+  },
+  {
+    "record": 22,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.07475060394649687
+  },
+  {
+    "record": 23,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09816803167104554
+  },
+  {
+    "record": 24,
+    "original_row_menus": 240,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.09340479769919575
+  },
+  {
+    "record": 26,
+    "original_row_menus": 840,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.07325880323377161
+  },
+  {
+    "record": 28,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.08785022672969084
+  },
+  {
+    "record": 29,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.09119927459354256
+  },
+  {
+    "record": 30,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.09326936025141318
+  },
+  {
+    "record": 31,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.10126922432825408
+  },
+  {
+    "record": 32,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.00847457627118644
+  },
+  {
+    "record": 34,
+    "original_row_menus": 630,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.052867383512544545
+  },
+  {
+    "record": 36,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.01854976446910687
+  },
+  {
+    "record": 37,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.015394750124691133
+  },
+  {
+    "record": 38,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.00847457627118644
+  },
+  {
+    "record": 39,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.0967707675843613
+  },
+  {
+    "record": 40,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.03017343787122834
+  },
+  {
+    "record": 42,
+    "original_row_menus": 660,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.056643952299829686
+  },
+  {
+    "record": 44,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.0319542693235931
+  },
+  {
+    "record": 45,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.03229773578909655
+  },
+  {
+    "record": 46,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.03017343787122832
+  },
+  {
+    "record": 47,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09686417667791306
+  },
+  {
+    "record": 48,
+    "original_row_menus": 120,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.06327033689400167
+  },
+  {
+    "record": 50,
+    "original_row_menus": 720,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06286487858532887
+  },
+  {
+    "record": 52,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.06507654903547283
+  },
+  {
+    "record": 53,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.0641386792293933
+  },
+  {
+    "record": 54,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.06370650241997095
+  },
+  {
+    "record": 55,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09698681387604574
+  },
+  {
+    "record": 56,
+    "original_row_menus": 240,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.08195187165775382
+  },
+  {
+    "record": 58,
+    "original_row_menus": 840,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06770833333333284
+  },
+  {
+    "record": 60,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.08524508881225085
+  },
+  {
+    "record": 61,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.08465660104399877
+  },
+  {
+    "record": 62,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.08328528332326647
+  },
+  {
+    "record": 63,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09719707247874655
+  },
+  {
+    "record": 64,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.006993006993006995
+  },
+  {
+    "record": 66,
+    "original_row_menus": 630,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.057270693512303995
+  },
+  {
+    "record": 68,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.0013587213568127196
+  },
+  {
+    "record": 69,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.006591035330851357
+  },
+  {
+    "record": 70,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.006993006993006995
+  },
+  {
+    "record": 71,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09869650927058446
+  },
+  {
+    "record": 72,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.02456140350877195
+  },
+  {
+    "record": 74,
+    "original_row_menus": 660,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.055339386078685694
+  },
+  {
+    "record": 76,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.015310455218147289
+  },
+  {
+    "record": 77,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.024286665155142658
+  },
+  {
+    "record": 78,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.024561403508771944
+  },
+  {
+    "record": 79,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09661325880646483
+  },
+  {
+    "record": 80,
+    "original_row_menus": 120,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.0481927710843373
+  },
+  {
+    "record": 82,
+    "original_row_menus": 720,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.054474708171206324
+  },
+  {
+    "record": 84,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.03917525121330829
+  },
+  {
+    "record": 85,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.046789089702619566
+  },
+  {
+    "record": 86,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.0481927710843373
+  },
+  {
+    "record": 87,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09201709137611543
+  },
+  {
+    "record": 88,
+    "original_row_menus": 240,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.06156901688182731
+  },
+  {
+    "record": 90,
+    "original_row_menus": 840,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.05781097759012653
+  },
+  {
+    "record": 92,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.05675215693817961
+  },
+  {
+    "record": 93,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.05951471685475559
+  },
+  {
+    "record": 94,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.06156901688182732
+  },
+  {
+    "record": 95,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.08808113910988113
+  },
+  {
+    "record": 96,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.035812672176308534
+  },
+  {
+    "record": 98,
+    "original_row_menus": 630,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.058239277652369935
+  },
+  {
+    "record": 100,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.007054086998214209
+  },
+  {
+    "record": 101,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.03061822416445853
+  },
+  {
+    "record": 102,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.035812672176308534
+  },
+  {
+    "record": 103,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09920908802071113
+  },
+  {
+    "record": 104,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.05783385909568874
+  },
+  {
+    "record": 106,
+    "original_row_menus": 660,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06125108601216337
+  },
+  {
+    "record": 108,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.03654436231428868
+  },
+  {
+    "record": 109,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.05805671622088515
+  },
+  {
+    "record": 110,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.05783385909568877
+  },
+  {
+    "record": 111,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.10031951087555287
+  },
+  {
+    "record": 112,
+    "original_row_menus": 120,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.07407407407407389
+  },
+  {
+    "record": 114,
+    "original_row_menus": 720,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06108065779169932
+  },
+  {
+    "record": 116,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.08501948195218434
+  },
+  {
+    "record": 117,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.08413387690253116
+  },
+  {
+    "record": 118,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.07407407407407388
+  },
+  {
+    "record": 119,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09860860495731859
+  },
+  {
+    "record": 120,
+    "original_row_menus": 240,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.07426018983807937
+  },
+  {
+    "record": 122,
+    "original_row_menus": 840,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06249999999999979
+  },
+  {
+    "record": 124,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.07809703670656507
+  },
+  {
+    "record": 125,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.0767781604190174
+  },
+  {
+    "record": 126,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.07426018983807935
+  },
+  {
+    "record": 127,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.0939780009211153
+  },
+  {
+    "record": 128,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.018494055482166462
+  },
+  {
+    "record": 130,
+    "original_row_menus": 630,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.059635068980863036
+  },
+  {
+    "record": 132,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.04386394577246009
+  },
+  {
+    "record": 133,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.03793917077356554
+  },
+  {
+    "record": 134,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.018494055482166462
+  },
+  {
+    "record": 135,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.09913151105276007
+  },
+  {
+    "record": 136,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.0785326788943426
+  },
+  {
+    "record": 138,
+    "original_row_menus": 660,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06470916865424695
+  },
+  {
+    "record": 140,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.08952891794462388
+  },
+  {
+    "record": 141,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.08487882320682882
+  },
+  {
+    "record": 142,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.07853267889434261
+  },
+  {
+    "record": 143,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.10271094639113675
+  },
+  {
+    "record": 144,
+    "original_row_menus": 120,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.10507569011576137
+  },
+  {
+    "record": 146,
+    "original_row_menus": 720,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.06742857142857131
+  },
+  {
+    "record": 148,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.11637986511836779
+  },
+  {
+    "record": 149,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.11166410409796854
+  },
+  {
+    "record": 150,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.1050756901157614
+  },
+  {
+    "record": 151,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.10438402896164581
+  },
+  {
+    "record": 152,
+    "original_row_menus": 240,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.10037674919268033
+  },
+  {
+    "record": 154,
+    "original_row_menus": 840,
+    "method": "all_human_MLE",
+    "support": "interior",
+    "residual_margin": 0.07019824504387369
+  },
+  {
+    "record": 156,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "interior",
+    "residual_margin": 0.11336499744714043
+  },
+  {
+    "record": 157,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "interior",
+    "residual_margin": 0.10685930171859348
+  },
+  {
+    "record": 158,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.10139854947069862
+  },
+  {
+    "record": 159,
+    "original_row_menus": 828,
+    "method": "pooling",
+    "support": "interior",
+    "residual_margin": 0.10424685394881046
+  },
+  {
+    "record": 160,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "interior",
+    "residual_margin": 0.036544850498338825
+  },
+  {
+    "record": 166,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "interior",
+    "residual_margin": 0.03654485049833883
+  },
+  {
+    "record": 224,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 228,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 229,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 230,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 256,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 262,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 320,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 326,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 356,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 364,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 384,
+    "original_row_menus": 30,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 388,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 389,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 390,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 452,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 453,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 548,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 549,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 1317,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 1638,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 1800,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 1804,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 1990,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 2022,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 2124,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 2540,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 2604,
+    "original_row_menus": 828,
+    "method": "corrected_unit",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 3176,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 3182,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 3240,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 3246,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 3462,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 4262,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 11949,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 12040,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 12046,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 12520,
+    "original_row_menus": 60,
+    "method": "labelled_MLE",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 13933,
+    "original_row_menus": 828,
+    "method": "corrected_half",
+    "support": "outside",
+    "residual_margin": null
+  },
+  {
+    "record": 13934,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  },
+  {
+    "record": 15566,
+    "original_row_menus": 828,
+    "method": "corrected_cluster_power",
+    "support": "boundary_or_near_boundary",
+    "residual_margin": -0.0
+  }
+]

@@ -294,7 +294,7 @@ The sample score covariance uses denominator $m-1$. A separate intercept calcula
 
 ### C3 Reproduction contents
 
-The compact reproduction package includes the manuscript source, publication figure builder, complete aggregate tables for the reported grids, independently written estimator and boundary code, a finite objective audit with a synthetic CSV example, and pinned source metadata. Public numeric inputs are downloaded separately and verified against Git blob hashes. The loader permits only specified NumPy numeric pickle globals; downloaded research scripts are not executed. Original research inputs and participant level questionnaire files are excluded.
+The compact reproduction package includes the manuscript source, publication figure builder, complete aggregate tables for the reported grids, independently written estimator and boundary code, a finite objective audit with a synthetic CSV example, and pinned source metadata. Public numeric inputs are downloaded separately and verified against Git blob hashes. The loader permits only specified NumPy numeric pickle globals; downloaded research scripts are not executed. The food DCE workbook is downloaded separately and checked by publisher MD5 and SHA-256. Raw respondent records and the author's separate private questionnaire are excluded from the reproduction package.
 
 The quick check runs analytic roots, boundary and rank cases, alternative LP formulations, finite dimensional covariance identities, and mathematical reductions. Full commands regenerate the public allocations and every simulation grid. Source hashes distinguish the completed original finite pool run from a later one dimensional covariance compatibility fix that leaves the original 11 dimensional calculations unchanged. The package documents that difference and preserves the completed aggregate outputs. Counts in the paper refer to choice rows, allocations or generated repetitions as specified, and never convert simulated responses into human respondents.
 
@@ -407,6 +407,48 @@ Table C3  Change in one-step prediction loss after removing power clipping
 Within the pooled-information convention, unrestricted power has a higher observed mean loss in 13 conditions and the same mean in eleven. The labelled-information counts are twelve and twelve. No condition has a lower unrestricted mean in this grid. For the original oracle condition with 20 labels, 150 auxiliary rows and error 0.25, the pooled means are 0.483805 and 1.454968; their paired increase is 0.971163 with Monte Carlo standard error 0.311390. The full grid includes favorable one-step comparisons against direct ridge: pooled versions have lower observed mean loss in seven conditions and higher loss in seventeen; labelled versions have five lower and nineteen higher. These are finite-grid comparisons under informative proxy predictions.
 
 Independent checks reconstruct every weight and update, verify all 3500 pilot scores, and reproduce all 24 original clipped-comparator cells. Their maximum relative MSE and loss differences are $1.30\times10^{-16}$ and $7.36\times10^{-17}$. Negative and above-one powers enter the original-loss derivative checks. A separate full rerun reproduces five primary output files and five summaries byte-for-byte. The audit records source versions and static upstream control flow; the experiment implements the stated formulas from a shared ridge pilot. It does not reproduce every upstream API initialization or assert a new global-minimizer or interval guarantee.
+
+### C9 Respondent separated food DCE audit
+
+The source workbook contains 299 respondents and 1790 menus. The complete-record rule retains 298 respondents and 1788 menus. All three alternatives and the one selected alternative are verified for each menu. Thirty-six card numbers correspond to 34 unique attribute menus; cards 6 and 28, and cards 21 and 24, repeat the same designs. Combining identical menus adds their curvature weights exactly and discards no choices. The independent verifier uses the original, uncompressed menu rows.
+
+The eleven columns are option-1 and option-2 constants against neither; indicators for Bere ingredient, medium and high nutrition, a quality label, speciality and grocery access, origin elsewhere in Scotland and outside Scotland; and price divided by ten. Baselines are no Bere, low nutrition, no label, short supply chain and local origin. The neither option has zero attribute levels. Subtracting the menu mean identifies only utility contrasts. The teacher adds interactions of all eleven columns with $(\operatorname{age}-4)/3$ and $(\operatorname{education}-3)/2$, using the released ordinal codes. Missing codes are imputed by their training-group medians. Both the teacher and ridge baselines minimize mean menu loss plus $0.01\|\beta\|^2/2$, including constants. No evaluation outcome selects the penalty, features or split.
+
+One hundred respondents train the predictor; sixty form the fixed evaluation set; 138 form the correction pool. Separate recorded seeds fix this partition and 500 permutations of the correction pool. All six menus of a respondent stay together. The four nested label budgets use permutation prefixes, with auxiliary choices hidden during fitting. The all-human comparators use the union of the hundred training respondents and the current labelled prefix. They receive no auxiliary human choices.
+
+For power selection, $h_i$ and $d_i$ are each respondent's six-menu mean human and prediction score at the labelled-ridge pilot. Let $H$ be the information averaged over all 138 correction-pool respondents at that pilot. Define $C=\{\widehat{\operatorname{Cov}}(h_L,d_L)+\widehat{\operatorname{Cov}}(d_L,h_L)\}/(2m)$ and $V=\widehat{\operatorname{Var}}(d_L)/m+\widehat{\operatorname{Var}}(d_U)/N$, where $m,N$ count labelled and auxiliary respondents and sample covariances are unbiased. The existing cluster variance quadratic gives
+
+$$\widehat\lambda=\operatorname{clip}_{[0,1]}(\frac{\operatorname{tr}(H^{-1}CH^{-1})}{\operatorname{tr}(H^{-1}VH^{-1})}). \qquad (C.8)$$
+
+Broska and Howes (2026, Appendix A4) provide the general trace criterion and GLM clipping. Their described covariance start uses unit power. Our common ridge-pilot convention and separate-group covariances are explicit implementation choices. They produce no new tuning theorem or interval guarantee. The empirical loss criterion averages choices within people and then across people; equal retained task counts make these weights identical to mean menu weights.
+
+Table C4  Verified finite fits in the respondent separated food DCE
+
+| Labelled people | Ordinary MNL | Unit power | Half power | Cluster power |
+| --- | --- | --- | --- | --- |
+| 5 | 319/500 | 356/500 | 426/500 | 352/500 |
+| 10 | 493/500 | 479/500 | 498/500 | 495/500 |
+| 20 | 500/500 | 500/500 | 500/500 | 500/500 |
+| 40 | 500/500 | 500/500 | 500/500 | 500/500 |
+
+Each denominator is 500 random label allocations. Other methods in Table C5 are finite in all allocations. Unit correction has 144 and 21 exterior targets at five and ten people, including 40 and 18 with an interior ordinary target. Half correction has 74 and two exterior targets, including six and one with an interior ordinary target. Cluster power has twelve exterior targets at five people; its 136 and five boundary or near-boundary cases at five and ten people select zero power. All statuses retain their numerical classification.
+
+Table C5  Mean evaluation human log loss on verified finite fits
+
+| Estimator | 5 people | 10 people | 20 people | 40 people |
+| --- | --- | --- | --- | --- |
+| Labelled MNL | 1.2225 | 0.7989 | 0.7000 | 0.6713 |
+| Labelled ridge | 0.9081 | 0.7857 | 0.7427 | 0.7252 |
+| All-human MNL | 0.6287 | 0.6291 | 0.6299 | 0.6315 |
+| All-human ridge | 0.6822 | 0.6832 | 0.6849 | 0.6879 |
+| Unit correction | 1.1473 | 0.8006 | 0.7051 | 0.6731 |
+| Half correction | 1.0692 | 0.7775 | 0.6975 | 0.6712 |
+| Cluster power | 1.2725 | 0.7954 | 0.6992 | 0.6712 |
+| Soft pooling | 0.6811 | 0.6795 | 0.6765 | 0.6711 |
+
+Rows using only the labelled prefix and rows additionally using the training labels are distinguished. Every mean conditions on its available fits; Table C4 supplies the varying denominators, and all other rows use 500 fits. The all-human rows use 105, 110, 120 or 140 labelled respondents. Complete paired comparisons, multicategory Brier losses, coefficient norms, price signs and labelled-ridge fallback results remain in the archive. These are fixed-population allocation comparisons on the same sixty-person evaluation group.
+
+The complete experiment retains 16000 method records. Independent original-row calculations check all 15418 available coefficients, all 253 negative recession directions, 162 stratified residual LPs and all 2000 cluster weights. The largest original score residual is below $8.1\times10^{-9}$. No support state or numerical fit remains unresolved. The verifier shares the source reader and fixed partition, with separate objective, gradient, metric and residual-LP code. Source checksums, the plan, early pre-fit checks and all results accompany the manuscript.
 
 ## Appendix D Powers approaching zero
 

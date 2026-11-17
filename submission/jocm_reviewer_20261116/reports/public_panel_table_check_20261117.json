@@ -1,0 +1,20 @@
+{
+  "state": "passed",
+  "new_tables_reconciled": [
+    "C4",
+    "C5"
+  ],
+  "table_C4_rows": 4,
+  "table_C5_rows": 8,
+  "complete_method_records": 16000,
+  "paired_unit_outside_with_ordinary_interior": [
+    40,
+    18,
+    0,
+    0
+  ],
+  "all_20_table_blocks_present": true,
+  "old_18_table_values_checked_by_existing_entry": true,
+  "new_primary_fits_or_MC_run": false,
+  "prior_original_row_verification_hash": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+}

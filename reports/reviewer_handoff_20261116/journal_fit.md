@@ -50,3 +50,8 @@ The construction described in the preceding standalone progress record is now in
 ## 17 November 2026 real respondent-separated DCE follow-up
 
 The [new completed audit](../public_panel_dce_20261117/README.md) supplies a real consumer DCE with verified respondent identifiers. It retains an 11-parameter main-effects target, whole-person splitting, 500 allocations at each of four label budgets and training-cost controls. Unit correction is exterior even when ordinary MNL is interior in 40/500 and 18/500 allocations at five and ten labelled respondents. Neither event appears at twenty or forty people. All-known-human-label MNL has lower evaluation loss than the corrected fits. This improves application relevance while restricting the importance claim to very small label budgets. It adds no cluster theorem and does not test the Gaussian phase law. The new material is not yet in Word; priority and adequate journal value remain under assessment.
+
+
+## 17 November 2026 respondent-separated DCE integration
+
+Section 4.6 and Appendix C9 now use 298 released respondents and 1788 real food choices, separating training, correction and evaluation people. The audit locates exterior correction targets in some very small label groups, retains the absence of failures at twenty and forty people, and reports the advantage of direct all-human MNL once training labels are charged. This strengthens the link to choice data without claiming universal practical prevalence, a new cluster theorem or superior prediction. Formal PPI++ reconciliation, exact-result priority and sufficient JCM value remain open.

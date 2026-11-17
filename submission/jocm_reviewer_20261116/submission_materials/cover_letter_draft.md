@@ -1,25 +1,19 @@
-# Cover letter draft
+# Cover letter
 
 Dear Editors,
 
-Please consider the manuscript When prediction assisted logit estimates exist for publication in the Journal of Choice Modelling.
+Please consider When prediction assisted logit estimates exist for publication in the Journal of Choice Modelling.
 
-The paper studies finite estimation when machine predictions supplement human choices through an existing compensated logit objective. It derives explicit existence boundaries that retain finite auxiliary budgets, utility signal and fitted choice constants in Gaussian binary and common coefficient multinomial models. An oracle comparison holds realized truth scores and full fixed dimensional covariance equal while finite-root probabilities have opposite limits. A known positive utility scale comparison also fixes ordinary human separation. Along an established variance power rule, a larger auxiliary sample can lower regular covariance while removing the finite empirical estimate. A further consequence connects vanishing positive powers, recovered finite roots and diverging human probability log loss in the stated binary dimension interval.
+The paper studies whether an existing prediction-corrected logit objective admits a finite estimate. It derives explicit boundaries with finite auxiliary samples, utility signal and fitted constants in Gaussian binary and common-coefficient menu models. Controlled constructions match truth scores and regular covariance while existence probabilities converge to opposite limits. Along an established variance power rule, increasing auxiliary data can improve regular covariance and remove attainment. Above ordinary binary separation, vanishing positive powers recover finite roots with diverging human probability log loss.
 
-Released vaccine choices and matched known-truth experiments connect these results to model fitting. A separate 3405-record evaluation shows that finite power-tuned estimates can still have higher held-out loss than direct human ridge. Comparisons retain established tuning, pooling, one step, Firth, DY prior and ridge alternatives. A nested-budget audit retains all 500 allocations: six lose attainment under either retuned nuisance predictor at 20 labels, including one shared exterior case; none does at 50. A fixed total label experiment counts predictor training labels. The findings help choice analysts assess the fitted objective, available estimates, probability quality and uncertainty together. The reproduction package retains source provenance, plans, raw numerical statuses, independent checks and the full analysis code.
+Released vaccine choices and a respondent-separated food DCE connect the results to observed designs. The food experiment retains 298 people, separates predictor training from correction and evaluation, and compares eight methods across 500 allocations at each of four label budgets. At ten labelled people, unit-power correction has 21 exterior targets, including 18 with an interior ordinary MNL target. Twenty- and forty-person budgets have none. Counting the predictor's training labels favors direct human MNL on the fixed evaluation set. The paper reports these limits alongside finite-estimation gains.
 
-The manuscript addresses methodological choice analysis and prediction-assisted estimation. Recent Journal of Choice Modelling work on assisted specification and uncertainty reporting provides the disciplinary context. The empirical reanalysis uses existing released data; the separately retained questionnaire application does not enter the paper's estimates.
+The study addresses model fitting and sample planning in prediction-assisted choice analysis. It distinguishes attainment, optimization output, probability loss and uncertainty. Ridge, Firth, pooling, prior-based shrinkage and one-step comparisons retain their stated targets and all availability denominators. The reproduction package includes source provenance, fixed plans, complete numerical records and independent checks. The author's separate private questionnaire contributes no observations to this manuscript.
 
-This research received no funding.
+This research received no funding. The manuscript includes a declaration of generative AI assistance.
 
 Sincerely,
 
 LU JIAHANG
-
 Shandong University of Finance and Economics
-
 a1066757220@gmail.com
-
-## Author confirmation before sending
-
-On 13 November 2026, the user confirmed LU JIAHANG as the sole author, Shandong University of Finance and Economics as the affiliation, Shungeng campus, a1066757220@gmail.com as the correspondence email, no research funding, no competing interests and responsibility for all research work. The contribution statement records those reported roles. Final approval of the current manuscript, originality and exclusive-submission statements, acknowledgments and the AI-assistance disclosure still need author review before sending. The current journal guide has been read; publisher portal declarations remain pending. This letter has not been sent.

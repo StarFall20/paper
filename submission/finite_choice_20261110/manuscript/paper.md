@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Prediction assisted logit combines human choices and machine predictions through a compensated loss. We derive its finite-estimation boundary with finite auxiliary samples, Gaussian attributes, fitted choice constants and frozen predictions. An oracle comparison holds every realized truth score and the full fixed dimensional covariance equal while finite-solution probabilities converge to opposite limits. Known positive utility scales preserve human separation and show how increasing auxiliary data along an established variance power rule can remove attainment as regular covariance falls. Small positive powers attain the largest existence region. Above ordinary binary separation, powers tending to zero recover finite roots with diverging human probability log loss. Whole-menu calculations retain common attribute coefficients and alternative constants; higher availability does not ensure lower human prediction loss. Released vaccine choices provide exact design audits and held-out prediction checks. From the smallest to largest auxiliary pool, six of 500 allocations lose attainment under either retuned predictor at 20 labels; none does at 50. Known-truth experiments evaluate parameter error and coverage separately. The boundary determines a global estimation property beyond calibration and regular efficiency comparisons.
+Prediction assisted logit combines human choices and machine predictions through a compensated loss. We derive its finite-estimation boundary with finite auxiliary samples, Gaussian attributes, fitted choice constants and frozen predictions. An oracle comparison holds every realized truth score and the full fixed dimensional covariance equal while finite-solution probabilities converge to opposite limits. Known positive utility scales preserve human separation and show how increasing auxiliary data along an established variance power rule can remove attainment as regular covariance falls. Small positive powers attain the largest existence region. Above ordinary binary separation, powers tending to zero recover finite roots with diverging human probability log loss. Whole-menu calculations retain common attribute coefficients and alternative constants; higher availability does not ensure lower human prediction loss. Released vaccine choices provide exact design audits and held-out prediction checks. A respondent-separated food DCE has 21 exterior unit-power targets in 500 ten-person label allocations, including 18 with an interior ordinary MNL target. Twenty- and forty-person budgets have none. Charging predictor training labels favors direct human MNL in this application. Known-truth experiments evaluate parameter error and coverage separately. The boundary determines a global estimation property beyond calibration and regular efficiency comparisons.
 
 Keywords: discrete choice; multinomial logit; prediction powered inference; logistic separation; finite auxiliary samples
 
@@ -16,7 +16,7 @@ We derive an explicit boundary for the existing unpenalized compensated logit lo
 
 The boundary identifies two precise limits of regular information comparisons. An oracle prediction path preserves every sample's truth score and the entire fixed dimensional covariance, yet its reference objectives have opposite existence limits. A known positive utility scale construction additionally preserves human separation on every sample. Along the established variance power rule, more auxiliary data can lower regular covariance and remove a finite estimate. Lowering positive power enlarges the existence region; above ordinary separation, powers tending to zero recover finite roots with diverging new-row human log loss. Each result concerns the same compensated objective.
 
-Released vaccine choices connect this calculation to realized designs. Exact support audits, equal-reference-score comparisons and nested auxiliary budgets assess finite estimation. A separate 3405-row evaluation compares forecasts with ridge, Firth and pooling. Known-truth experiments evaluate error and coverage, and a fixed total label study counts predictor training labels. These comparisons retain adverse outcomes: finite power-tuned estimates can have higher held-out loss than direct ridge, and training-assisted correction has no prediction advantage in the examined allocation. General finite-sample PPI/GMM differences and prediction filtering already have developed theories (Chen et al., 2026; Xu and Sun, 2026; Shoham et al., 2025). The contribution here is the proportional-dimensional compensated choice boundary and its matched-information and probability-loss consequences.
+Released vaccine choices and a respondent-separated food DCE connect this calculation to realized designs. Exact support audits, equal-reference-score comparisons and nested auxiliary budgets assess finite estimation. A separate 3405-row evaluation compares forecasts with ridge, Firth and pooling. The food DCE separates people across predictor training, correction and evaluation, and retains their repeated choices within each group. Known-truth experiments evaluate error and coverage, and a fixed total label study counts predictor training labels. These comparisons retain adverse outcomes: finite power-tuned estimates can have higher held-out loss than direct ridge, and training-assisted correction has no prediction advantage in the examined allocation. General finite-sample PPI/GMM differences and prediction filtering already have developed theories (Chen et al., 2026; Xu and Sun, 2026; Shoham et al., 2025). The contribution here is the proportional-dimensional compensated choice boundary and its matched-information and probability-loss consequences.
 
 ## 2 Prediction assisted choice logit
 
@@ -283,7 +283,7 @@ $$\lim_{\tau\downarrow0}\kappa_D(\lambda_\tau,\tau)=1/2,\qquad\lim_{\tau\to\inft
 
 Each ratio limit follows the proportional sample limit for its fixed scale law and fixed $\tau$. If $(ED)^2/ED^2<\pi e(1-e)$, increasing the auxiliary ratio can remove a finite minimizer at a dimension ratio between these two limits, while improving the full regular covariance. At a held positive power the balanced boundary is nondecreasing in $\tau$. Section 5.6 separates this weight-selection effect from increasing auxiliary size at fixed power.
 
-## 4 Evidence from released vaccine choices
+## 4 Evidence from released choice experiments
 
 ### 4.1 Data and the stated estimands
 
@@ -320,6 +320,18 @@ The numeric release contains no respondent identifiers. Nonoverlapping row posit
 We reuse all 500 block permutations at 20 and 50 labels. Each allocation fixes human choices, a finite human ridge pilot and both nuisance predictors while the auxiliary pool grows through 50, 100, 200, 400, 800 and all remaining prefix rows. Auxiliary human outcomes are hidden before fitting and tuning. Three paths use the existing pooled-information power rule at each budget, hold its first-budget power, or use unit power. All 36000 method records are retained.
 
 At 50 labels, both retuned and held-power paths have finite estimates in every allocation and budget. At 20 labels, the retuned finite count rises from 156 to 161 for AI-aided predictions and from 142 to 150 for attributes alone. Four AI-aided and three attributes-only records lose a finite estimate between the smallest and largest pools. One shared allocation becomes exterior under both predictors; the other five records select zero power on separated human designs. The losses involve six distinct allocations. Appendix C7 verifies the enlarged-pool obstruction for every positive power and distinguishes it from the numerical check of the earlier finite roots. This is one allocation, retrospectively selected for mechanism analysis. Table C2 gives the denominators. The audit establishes a realized failure mechanism with low frequency in this file; the Gaussian model in Section 5.6 isolates its population boundary.
+
+### 4.6 Respondent separated food choice experiment
+
+We also use a released Scottish consumer DCE on shortbread products (Chen et al., 2025). Of 299 respondent records, 298 have six complete menus and one has two. We retain the complete records, giving 1788 choices among two products and a neither option. A fixed respondent split assigns 100 people to predictor training, 60 to evaluation and 138 to the correction pool. Each person's choices remain together. The eleven-parameter marginal conditional logit includes two option constants, categorical ingredient, nutrition, quality-label, access and origin effects, and linear price. A separate ridge logit adds age and education interactions to produce frozen probabilities. Appendix C9 gives the coding and training conventions.
+
+The plan fixes these choices before fitting. Each of 500 random permutations of the correction pool supplies nested labelled groups of 5, 10, 20 and 40 respondents; the remaining people supply auxiliary menus with their choices withheld. The finite-design audit retains the full menu simplex. It permits the observed discrete attributes and dependence within a person. This audit does not apply the Gaussian phase law to the released sample.
+
+Table C4 gives finite-fit counts. At five labelled respondents, ordinary MNL has 319 finite fits and unit-power correction has 356, with 144 exterior targets. Forty exterior cases have an interior ordinary target in the same allocation. At ten respondents, unit correction has 479 finite fits and 21 exterior targets, including 18 with an interior ordinary target. All methods have finite fits at twenty and forty respondents. Thus the observed failure is confined to the smallest label budgets. Every interior fit passes an original-score check and every exterior case has a verified negative recession direction.
+
+The cluster-score trace criterion uses a common labelled-ridge pilot and respondent-level score covariances, with power clipped to $[0,1]$. It specializes existing variance tuning (Broska and Howes, 2026). Its finite counts are 352 and 495 at five and ten respondents. At five respondents, 136 boundary or numerically near-boundary cases select zero power and return to ordinary MNL. This comparison uses the stated pilot convention, which differs from the unit-power start in that work. It provides no interval-coverage assessment.
+
+Prediction checks retain all eight methods, common-availability denominators and unavailable fits. At five labelled respondents, unit correction with a labelled-ridge fallback has mean evaluation log loss 1.0787, compared with 0.9081 for labelled ridge. Their paired excess is 0.1706 with allocation Monte Carlo standard error 0.0414. Table C5 also charges the predictor's 100 training respondents to direct human fitting. Ordinary MNL using these labels and the correction labels has lower evaluation loss than the corrected fits at all four budgets. These comparisons condition on the same frozen predictor and sixty-person evaluation set. Their Monte Carlo errors concern random label allocation in this fixed file, not population uncertainty.
 
 ## 5 Finite estimation and statistical performance
 
@@ -491,11 +503,11 @@ At 80 labelled menus and 52 orthogonal attributes, the variance-reference correc
 
 The utility specification and the available label budget jointly determine finite estimation. Theorem 1 quantifies this relationship for the compensated objective at a given auxiliary ratio and power. A calibrated informative predictor can have a smaller unit-power existence region than ordinary logit. A variance reference can enlarge that region. In the interval above ordinary binary separation, vanishing positive powers attain the largest region while fitted human probability log loss diverges. Availability and useful probability forecasts remain distinct properties.
 
-The known-scale comparison concerns sample planning. Along an established variance power rule, improved regular covariance can coincide with lost attainment. The public audit retains individual losses alongside an aggregate availability increase; all retuned estimates remain finite at 50 labels. Checking the actual objective as the budget and power change addresses the realized design. Training labels also enter the budget, and the fixed-resource experiments retain their direct-human comparators.
+The known-scale comparison concerns sample planning. Along an established variance power rule, improved regular covariance can coincide with lost attainment. The public audit retains individual losses alongside an aggregate availability increase; all retuned estimates remain finite at 50 labels. Checking the actual objective as the budget and power change addresses the realized design. Training labels also enter the budget, and the fixed-resource experiments retain their direct-human comparators. The food DCE locates exterior compensated targets in very small respondent label groups, including cases with an interior ordinary target. No failure appears at twenty or forty labelled respondents in this experiment. Charging the prediction training labels favors direct human MNL.
 
 A support audit identifies an objective that additional iterations cannot solve. Boundary proximity, curvature and rank address separate numerical and identification questions. Complete GMM, pooling, penalties and one-step updates each specify a fitting operation with its own existence event and target. At 50 labels in the released-record evaluation, power tuning is finite throughout and has higher held-out loss than direct ridge. Reporting objective, availability and human prediction loss makes that practical distinction visible.
 
-Intervals require their own assessment. The known-truth experiments report availability, coverage conditional on issuance and issued-and-covers with their corresponding denominators. Repeated choices require dependence modelling; Hess et al. (2026) distinguish this from parameter uncertainty and preference heterogeneity.
+Intervals require their own assessment. The known-truth experiments report availability, coverage conditional on issuance and issued-and-covers with their corresponding denominators. Repeated choices require dependence modelling; Hess et al. (2026) distinguish this from parameter uncertainty and preference heterogeneity. The respondent-separated DCE uses the realized support condition and cluster score summaries, without extending the Gaussian probability boundary to a panel likelihood.
 
 Proposition 8 in Appendix F6 extends the fixed positive-power boundary to independent symmetric noise attributes under stated moment conditions, including independent two- and three-level attributes. The signal remains Gaussian. All 27000 paired profile checks retain the original choices and predictions; finite-budget frequencies differ across attribute laws. This extension concerns existence. Discrete-profile prediction risk requires separate evaluation. Fixed arrays and dependent categorical coding continue to use the exact support condition.
 
@@ -505,7 +517,7 @@ For balanced fixed tasks with identical menu frequencies and menu-only predictio
 
 Prediction assisted choice logit has a finite-estimation boundary determined by the human label budget, auxiliary ratio, utility signal, prediction distribution and correction power. Its Gaussian binary and common-coefficient menu forms support controlled comparisons: equal truth scores and complete regular covariance can give opposite existence limits, and known positive scales preserve human separation while auxiliary-budget changes remove attainment along a variance rule.
 
-The positive-power envelope identifies a cost of recovering finite roots. Above ordinary binary separation, vanishing powers produce diverging new-row human log loss. Released-choice audits and known-truth experiments assess finite estimation, prediction quality, parameter error and coverage separately.
+The positive-power envelope identifies a cost of recovering finite roots. Above ordinary binary separation, vanishing powers produce diverging new-row human log loss. Released-choice audits and known-truth experiments assess finite estimation, prediction quality, parameter error and coverage separately. The respondent-separated food DCE supplies small-label failure cases and their larger-label limits, with training costs retained in the prediction comparisons.
 
 ## Appendix A Proof of the finite ratio boundary
 
@@ -803,7 +815,7 @@ The sample score covariance uses denominator $m-1$. A separate intercept calcula
 
 ### C3 Reproduction contents
 
-The compact reproduction package includes the manuscript source, publication figure builder, complete aggregate tables for the reported grids, independently written estimator and boundary code, a finite objective audit with a synthetic CSV example, and pinned source metadata. Public numeric inputs are downloaded separately and verified against Git blob hashes. The loader permits only specified NumPy numeric pickle globals; downloaded research scripts are not executed. Original research inputs and participant level questionnaire files are excluded.
+The compact reproduction package includes the manuscript source, publication figure builder, complete aggregate tables for the reported grids, independently written estimator and boundary code, a finite objective audit with a synthetic CSV example, and pinned source metadata. Public numeric inputs are downloaded separately and verified against Git blob hashes. The loader permits only specified NumPy numeric pickle globals; downloaded research scripts are not executed. The food DCE workbook is downloaded separately and checked by publisher MD5 and SHA-256. Raw respondent records and the author's separate private questionnaire are excluded from the reproduction package.
 
 The quick check runs analytic roots, boundary and rank cases, alternative LP formulations, finite dimensional covariance identities, and mathematical reductions. Full commands regenerate the public allocations and every simulation grid. Source hashes distinguish the completed original finite pool run from a later one dimensional covariance compatibility fix that leaves the original 11 dimensional calculations unchanged. The package documents that difference and preserves the completed aggregate outputs. Counts in the paper refer to choice rows, allocations or generated repetitions as specified, and never convert simulated responses into human respondents.
 
@@ -916,6 +928,48 @@ Table C3  Change in one-step prediction loss after removing power clipping
 Within the pooled-information convention, unrestricted power has a higher observed mean loss in 13 conditions and the same mean in eleven. The labelled-information counts are twelve and twelve. No condition has a lower unrestricted mean in this grid. For the original oracle condition with 20 labels, 150 auxiliary rows and error 0.25, the pooled means are 0.483805 and 1.454968; their paired increase is 0.971163 with Monte Carlo standard error 0.311390. The full grid includes favorable one-step comparisons against direct ridge: pooled versions have lower observed mean loss in seven conditions and higher loss in seventeen; labelled versions have five lower and nineteen higher. These are finite-grid comparisons under informative proxy predictions.
 
 Independent checks reconstruct every weight and update, verify all 3500 pilot scores, and reproduce all 24 original clipped-comparator cells. Their maximum relative MSE and loss differences are $1.30\times10^{-16}$ and $7.36\times10^{-17}$. Negative and above-one powers enter the original-loss derivative checks. A separate full rerun reproduces five primary output files and five summaries byte-for-byte. The audit records source versions and static upstream control flow; the experiment implements the stated formulas from a shared ridge pilot. It does not reproduce every upstream API initialization or assert a new global-minimizer or interval guarantee.
+
+### C9 Respondent separated food DCE audit
+
+The source workbook contains 299 respondents and 1790 menus. The complete-record rule retains 298 respondents and 1788 menus. All three alternatives and the one selected alternative are verified for each menu. Thirty-six card numbers correspond to 34 unique attribute menus; cards 6 and 28, and cards 21 and 24, repeat the same designs. Combining identical menus adds their curvature weights exactly and discards no choices. The independent verifier uses the original, uncompressed menu rows.
+
+The eleven columns are option-1 and option-2 constants against neither; indicators for Bere ingredient, medium and high nutrition, a quality label, speciality and grocery access, origin elsewhere in Scotland and outside Scotland; and price divided by ten. Baselines are no Bere, low nutrition, no label, short supply chain and local origin. The neither option has zero attribute levels. Subtracting the menu mean identifies only utility contrasts. The teacher adds interactions of all eleven columns with $(\operatorname{age}-4)/3$ and $(\operatorname{education}-3)/2$, using the released ordinal codes. Missing codes are imputed by their training-group medians. Both the teacher and ridge baselines minimize mean menu loss plus $0.01\|\beta\|^2/2$, including constants. No evaluation outcome selects the penalty, features or split.
+
+One hundred respondents train the predictor; sixty form the fixed evaluation set; 138 form the correction pool. Separate recorded seeds fix this partition and 500 permutations of the correction pool. All six menus of a respondent stay together. The four nested label budgets use permutation prefixes, with auxiliary choices hidden during fitting. The all-human comparators use the union of the hundred training respondents and the current labelled prefix. They receive no auxiliary human choices.
+
+For power selection, $h_i$ and $d_i$ are each respondent's six-menu mean human and prediction score at the labelled-ridge pilot. Let $H$ be the information averaged over all 138 correction-pool respondents at that pilot. Define $C=\{\widehat{\operatorname{Cov}}(h_L,d_L)+\widehat{\operatorname{Cov}}(d_L,h_L)\}/(2m)$ and $V=\widehat{\operatorname{Var}}(d_L)/m+\widehat{\operatorname{Var}}(d_U)/N$, where $m,N$ count labelled and auxiliary respondents and sample covariances are unbiased. The existing cluster variance quadratic gives
+
+$$\widehat\lambda=\operatorname{clip}_{[0,1]}(\frac{\operatorname{tr}(H^{-1}CH^{-1})}{\operatorname{tr}(H^{-1}VH^{-1})}). \qquad (C.8)$$
+
+Broska and Howes (2026, Appendix A4) provide the general trace criterion and GLM clipping. Their described covariance start uses unit power. Our common ridge-pilot convention and separate-group covariances are explicit implementation choices. They produce no new tuning theorem or interval guarantee. The empirical loss criterion averages choices within people and then across people; equal retained task counts make these weights identical to mean menu weights.
+
+Table C4  Verified finite fits in the respondent separated food DCE
+
+| Labelled people | Ordinary MNL | Unit power | Half power | Cluster power |
+| --- | --- | --- | --- | --- |
+| 5 | 319/500 | 356/500 | 426/500 | 352/500 |
+| 10 | 493/500 | 479/500 | 498/500 | 495/500 |
+| 20 | 500/500 | 500/500 | 500/500 | 500/500 |
+| 40 | 500/500 | 500/500 | 500/500 | 500/500 |
+
+Each denominator is 500 random label allocations. Other methods in Table C5 are finite in all allocations. Unit correction has 144 and 21 exterior targets at five and ten people, including 40 and 18 with an interior ordinary target. Half correction has 74 and two exterior targets, including six and one with an interior ordinary target. Cluster power has twelve exterior targets at five people; its 136 and five boundary or near-boundary cases at five and ten people select zero power. All statuses retain their numerical classification.
+
+Table C5  Mean evaluation human log loss on verified finite fits
+
+| Estimator | 5 people | 10 people | 20 people | 40 people |
+| --- | --- | --- | --- | --- |
+| Labelled MNL | 1.2225 | 0.7989 | 0.7000 | 0.6713 |
+| Labelled ridge | 0.9081 | 0.7857 | 0.7427 | 0.7252 |
+| All-human MNL | 0.6287 | 0.6291 | 0.6299 | 0.6315 |
+| All-human ridge | 0.6822 | 0.6832 | 0.6849 | 0.6879 |
+| Unit correction | 1.1473 | 0.8006 | 0.7051 | 0.6731 |
+| Half correction | 1.0692 | 0.7775 | 0.6975 | 0.6712 |
+| Cluster power | 1.2725 | 0.7954 | 0.6992 | 0.6712 |
+| Soft pooling | 0.6811 | 0.6795 | 0.6765 | 0.6711 |
+
+Rows using only the labelled prefix and rows additionally using the training labels are distinguished. Every mean conditions on its available fits; Table C4 supplies the varying denominators, and all other rows use 500 fits. The all-human rows use 105, 110, 120 or 140 labelled respondents. Complete paired comparisons, multicategory Brier losses, coefficient norms, price signs and labelled-ridge fallback results remain in the archive. These are fixed-population allocation comparisons on the same sixty-person evaluation group.
+
+The complete experiment retains 16000 method records. Independent original-row calculations check all 15418 available coefficients, all 253 negative recession directions, 162 stratified residual LPs and all 2000 cluster weights. The largest original score residual is below $8.1\times10^{-9}$. No support state or numerical fit remains unresolved. The verifier shares the source reader and fixed partition, with separate objective, gradient, metric and residual-LP code. Source checksums, the plan, early pre-fit checks and all results accompany the manuscript.
 
 ## Appendix D Powers approaching zero
 
@@ -1518,7 +1572,7 @@ For comparison, at any held positive power the balanced boundary is nondecreasin
 
 ## Data availability
 
-Section 4 identifies the public vaccine repository. The reproduction package provides source hashes, download instructions, code and aggregate outputs. Reported estimates use released choices and simulations; questionnaire responses are excluded.
+Section 4 identifies the public vaccine repository and the RADIANT food DCE (Chen et al., 2025; https://doi.org/10.5281/zenodo.15420092). The reproduction package provides pinned source hashes, download instructions, code and derived results. Raw respondent records are downloaded separately. Reported estimates use these released choices and simulations; the author's separate private questionnaire supplies no observations to this paper.
 
 ## Declaration of generative AI assistance
 
@@ -1534,9 +1588,13 @@ Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Pr
 
 Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-powered inference. Annals of Applied Statistics 20(3), 2235–2252. https://doi.org/10.1214/26-AOAS2215
 
+Broska, D., Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. Preprint, arXiv:2610.09601v1. https://arxiv.org/abs/2610.09601v1
+
 Cai, Z., Fan, Y., Chen, S., Du, J.H. (2026). DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration. Preprint, arXiv:2609.31215v1. https://arxiv.org/abs/2609.31215v1
 
 Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753
+
+Chen, J., Mzek, T., Piras, S. (2025). Dataset of choice experiment surveys assessing consumers' and farmers' preferences for five underutilised crops in different European countries. Version V1. Zenodo. https://doi.org/10.5281/zenodo.15420092
 
 Chen, S., Bai, Y., Zhu, H. (2026). Covariance-Calibrated Prediction-Powered Inference. Preprint, arXiv:2610.21837v2. https://arxiv.org/abs/2610.21837v2
 

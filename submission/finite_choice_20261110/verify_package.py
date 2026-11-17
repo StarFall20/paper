@@ -67,7 +67,7 @@ face_integration=json.loads((ROOT/'reports/categorical_face_integration_20261113
 assert hashlib.sha256((ROOT/'inputs/categorical_face/existing_public_coefficients.json').read_bytes()).hexdigest()==face_integration['existing_public_coefficients_sha256']
 firth_integration=json.loads((ROOT/'reports/firth_manuscript_integration_20261113.json').read_text())
 assert firth_integration['unchanged_previous_table_blocks']==11 and firth_integration['previous_table2_rows_preserved']==18 and firth_integration['current_table2_rows']==20
-assert integration['old_tables_preserved']==18 and integration['current_table_count']==18
+assert integration['old_tables_preserved']==18 and integration['current_table_count']==20
 assert integration['all_previous_display_bodies_unchanged']
 firth=ROOT/'results/firth'
 firth_clean=json.loads((firth/'clean_validation.json').read_text())
@@ -81,7 +81,7 @@ for line in (heldout/'MANIFEST.sha256').read_text().splitlines():
  h,n=line.split('  ',1);assert hashlib.sha256((heldout/n).read_bytes()).hexdigest()==h,n
 for n in ['public_holdout_diagnostic.py','verify_public_holdout.py']:
  assert (ROOT/'analysis'/n).read_bytes()==(heldout/'analysis'/n).read_bytes(),n
-assert len(re.findall(r'(?:^\|[^\n]*\n)+',paper,re.M))==18
+assert len(re.findall(r'(?:^\|[^\n]*\n)+',paper,re.M))==20
 
 learned=ROOT/'results/learned_training'
 for line in (learned/'MANIFEST.sha256').read_text().splitlines():
@@ -114,3 +114,10 @@ for line in (matched/'MANIFEST.sha256').read_text().splitlines():
 matched_record=json.loads((matched/'results/exact_information.json').read_text())
 assert matched_record['state']=='passed' and matched_record['exact_critical_power']=='11/20'
 assert json.loads((matched/'verification/verification.json').read_text())['state']=='passed'
+
+panel=ROOT/'results/public_panel_dce'
+for line in (panel/'MANIFEST.sha256').read_text().splitlines():
+ h,n=line.split('  ',1);assert hashlib.sha256((panel/n).read_bytes()).hexdigest()==h,n
+panel_v=json.loads((panel/'verification/verification.json').read_text())
+assert panel_v['state']=='passed' and panel_v['method_records_reconstructed']==16000
+for n,h in panel_v['result_hashes'].items():assert hashlib.sha256((panel/'results'/n).read_bytes()).hexdigest()==h,n

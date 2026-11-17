@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "all_twenty_manuscript_tables_reconciled": true,
+  "table_check": "reports/public_panel_table_check_20261117.json",
+  "current_quick_check": "reports/public_panel_mathematical_check_20261117.json",
+  "preceding_validation": "reports/matched_information_validation_20261117.json",
+  "preceding_validation_sha256": "fc79b16b5b31d3008b5a9cbbb89ebe0beb3d7860785e62ce9dd41962749f66d7",
+  "inheritance_basis": "All 18 preceding table blocks and 145 display bodies are unchanged. 785 preceding analysis/input/result files and 82 of 83 root sources retain exact hashes. Only the verification entry was extended to reconcile the new public DCE; no preceding numerical algorithm changed.",
+  "public_DCE_verification_sha256": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b",
+  "public_DCE_records_checked": 16000,
+  "public_DCE_finite_coefficients_checked": 15418,
+  "public_DCE_exterior_directions_checked": 253,
+  "public_DCE_cluster_weights_checked": 2000,
+  "new_MC_or_model_fitting_performed_in_integration": false,
+  "scope": "The empirical run and independent reconstruction were completed before integration. The present checks reconcile tables, validate source bindings and inherit unchanged mathematical/MC evidence. No external review, priority certificate or new cluster theorem is asserted."
+}

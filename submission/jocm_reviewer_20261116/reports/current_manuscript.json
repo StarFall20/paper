@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
-  "integration": "reports/matched_information_integration_20261117.json",
-  "visual_qa": "reports/matched_information_visual_qa_20261117.json",
-  "validation": "reports/matched_information_validation_20261117.json",
+  "integration": "reports/public_panel_integration_20261117.json",
+  "visual_qa": "reports/public_panel_visual_qa_20261117.json",
+  "validation": "reports/public_panel_validation_20261117.json",
   "historical_reports_are_dated_snapshots": true
 }

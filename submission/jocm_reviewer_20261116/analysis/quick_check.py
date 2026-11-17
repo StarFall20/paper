@@ -255,7 +255,7 @@ def main():
  report['complete_GMM_comparison_is_not_production_CC_PPI']=True
  subprocess.run([sys.executable,str(root/'analysis/reconcile_probability_risk_tables.py'),'--out',str(a.out/'probability_risk_tables')],check=True,stdout=subprocess.DEVNULL)
  import re
- assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==18
+ assert len(re.findall(r'(?:^\|.*\n)+',(root/'manuscript/paper.md').read_text(),re.M))==20
  report.update(probability_risk_path_records_reconciled=1920,probability_risk_numerical_fits=1401,new_probability_loss_tables_reconciled=['5','D1'],all_eleven_manuscript_tables_reconciled=True)
  subprocess.run([sys.executable,str(root/'analysis/build_radial_publication_assets.py'),'--out',str(a.out/'radial_publication')],check=True,stdout=subprocess.DEVNULL)
  report.update(all_twelve_manuscript_tables_reconciled=True,radial_nested_records=12000,radial_distinct_objectives=10000,radial_paired_transition_rows=24,radial_table6_reconciled=True)
@@ -376,6 +376,8 @@ def main():
   for info,column in [('pooled','Pooled change (MCSE)'),('labelled','Labelled change (MCSE)')]:
    r=g[g.left.eq(info+'_clipped')].iloc[0];assert row[column]==f'{-r.mean_loss_left_minus_right:.5f} ({r.loss_MCSE:.5f})'.replace('-0.00000','0.00000')
  report.update(all_eighteen_manuscript_tables_reconciled=True,one_step_original_conditions=24,one_step_method_records=60000,one_step_new_independent_cohorts=0,one_step_primary_programs_rerun_by_quick_check=False)
+ subprocess.run([sys.executable,str(root/'results/public_panel_dce/analysis/reconcile_tables.py'),'--package-root',str(root),'--out',str(a.out/'public_panel_tables.json')],check=True,stdout=subprocess.DEVNULL)
+ report.update(all_twenty_manuscript_tables_reconciled=True,public_panel_method_records=16000,public_panel_original_row_validation_inherited=True,public_panel_primary_fits_rerun_by_quick_check=False)
  (a.out/'quick_check.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({'analytic_root_error':err,'original_interval_LP_matches':balanced['original_interval_LP_matches'],'full_math_checks':a.full_math,'aggregate_tables_consistent':True,'score_identity_phase_records_reconciled':16000,'observed_reference_records_reconciled':checked_records,'all_eighteen_tables_reconciled':True,'Firth_draws_reconciled':1000}))
 
 if __name__=='__main__':main()

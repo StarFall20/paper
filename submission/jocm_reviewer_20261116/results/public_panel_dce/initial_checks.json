@@ -1,0 +1,6 @@
+{
+  "environment_check": "First process exited before reading data because scipy requires the existing work/vendor path; corrected environment only.",
+  "source_preflight": "Second process stopped before model fitting at an overly strong 36-distinct-menu assertion. Actual source has 34 distinct menus and consistent designs within each of the 36 cards.",
+  "any_model_result_observed_before_correction": false,
+  "scientific_plan_changed_after_results": false
+}

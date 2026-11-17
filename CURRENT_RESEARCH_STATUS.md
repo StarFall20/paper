@@ -1,3 +1,13 @@
+# Respondent separated food DCE integrated — 17 November 2026
+
+The [current reviewed manuscript](reports/public_panel_manuscript_integration_20261117/README.md) includes the released food DCE in Section 4.6 and Appendix C9. It retains 298 people and 1788 menus, separates 100 training, 60 evaluation and 138 correction-pool respondents, and keeps each person's six tasks together. Four nested label budgets, 500 finite-population allocations and eight methods yield 16000 records. Independent original-row calculations verify all records, all 15418 available coefficients, all 253 exterior rays and all 2000 cluster weights. No new questionnaire or AI answer is added.
+
+At ten labelled people, unit correction has 21 exterior targets, including 18 with an interior ordinary target. Twenty- and forty-person budgets have no failures. Charging the hundred training labels favors direct all-human MNL on the same evaluation group. Conditional loss and fallback comparisons retain their denominators. The existing cluster criterion is attributed, with the common ridge-pilot convention stated; no panel probability boundary or interval guarantee is introduced.
+
+The complete/reading Word files have 71/29 pages and 1331/237 native math objects. The full manuscript has 20 tables and 146 display formulas; all 18 preceding tables and 145 display bodies remain unchanged. 785 preceding scientific files and 82 root analysis sources retain exact hashes; the verification entry now reconciles the two new tables. Abstract: 189 words; Sections 1–7: 9275 lexical words. Every final page has direct original-resolution inspection or exact reviewed-image inheritance.
+
+The official ppi_py main SHA remains 3d1f0c668444907b39bd045cb9dd38e479ce7dd6. Code reading is not a formal-version proof comparison. Formal PPI++ 2026 body and Appendices A–E reconciliation, exact priority and sufficient choice-analysis value remain unresolved. This integration adds no literature query or model refit; it carries the already completed empirical audit into the manuscript. The goal remains active. Earlier entries below are dated history.
+
 # Real respondent-separated DCE audit completed — 17 November 2026
 
 The [new panel-choice audit](reports/public_panel_dce_20261117/README.md) uses 298 released Scottish consumer records, all with six menus. Training (100), evaluation (60) and correction-pool (138) respondents are separate. Four labelled-person budgets and eight methods retain 500 allocations each, giving 16000 method records. Every available coefficient and exterior direction is independently reconstructed from original menus; 162 residual LPs and all 2000 cluster weights are additionally checked.

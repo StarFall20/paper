@@ -350,3 +350,10 @@ python run_reproduction.py --input-dir /your/local/pinned_inputs --out regenerat
 ```
 
 The public-input fetcher supplies the pinned inputs. The default command reconstructs all records and verifies directions, exact case arithmetic and complete endpoint flows. The documented full option repeats the primary audit in a fresh directory. Parent quick checks reconcile Table C2 without rerunning primary fits. Nested pre-integration manuscript hashes are historical.
+
+
+The current respondent-separated food DCE is reproduced using the commands in [its README](results/public_panel_dce/README.md). A data-free check of Tables C4/C5 is:
+
+```sh
+python results/public_panel_dce/analysis/reconcile_tables.py --package-root . --out regenerated/public_panel_table_check.json
+```
