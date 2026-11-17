@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "integration": "reports/regular_prior_integration_20261116.json",
-  "visual_qa": "reports/regular_prior_visual_qa_20261116.json",
+  "date": "2026-11-17",
+  "integration": "reports/one_step_integration_20261117.json",
+  "visual_qa": "reports/one_step_visual_qa_20261117.json",
   "historical_reports_are_dated_snapshots": true
 }

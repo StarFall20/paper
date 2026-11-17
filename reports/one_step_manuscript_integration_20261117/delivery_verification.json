@@ -1,0 +1,27 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_one_step_integrated_20261117.zip",
+    "sha256": "84a32fc9b067b3debb9cecd9e748a5f36b9820f0517f0b4a771b94aa774a2f07",
+    "files": 905,
+    "bytes": 41802315,
+    "fresh_extraction_all_files_identical": true,
+    "isolated_manifest_and_provenance_check": {
+      "manifest_entries_verified": 904,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    }
+  },
+  {
+    "archive": "jocm_submission_files_one_step_integrated_20261117.zip",
+    "sha256": "a96142ca4e094d2f59cf73e9051b1c8b62bf0d5e1618e51564972dc2232969a5",
+    "files": 20,
+    "bytes": 1236435,
+    "fresh_extraction_all_files_identical": true
+  }
+]

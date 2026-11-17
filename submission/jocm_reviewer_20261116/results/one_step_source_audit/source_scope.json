@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-17",
+  "uploaded_document": {
+    "basename": "2311.01453v2.pdf",
+    "sha256": "5c9dc26aa1a537785d34b1d690a7387cf21e0493f0a3f945905dc556d30e70bd",
+    "bytes": 748566,
+    "physical_pages": 29,
+    "first_page_version": "arXiv:2311.01453v2, 26 March 2024",
+    "appendices": ["A Proofs, page 21", "B Experiments with one-step PPI, page 26", "C Confidence intervals on the odds ratio, page 26"],
+    "complete_pages_read_this_round": [1, 7, 8, 11, 12, 17, 18, 23, 26],
+    "page_images_directly_inspected": [1, 8, 11, 18, 23, 26],
+    "entire_29_page_line_by_line_review_claimed": false,
+    "formal_2026_body_or_A_to_E_supplied": false,
+    "original_PDF_redistributed_in_public_package": false
+  },
+  "official_repository": "aangelopoulos/ppi_py",
+  "main_commit": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+  "main_ppi_source_blob": "9d61900f7e1d0868f12c786e57be154b2b5d51c7",
+  "paper_branch": "ppi++",
+  "paper_branch_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4",
+  "paper_branch_ppi_source_blob": "8c40ead67a42dabee16c83f1ef6c49843582b22d",
+  "static_code_reading": [
+    {"ref": "main commit", "path": "ppi_py/ppi.py", "units": "ppi_logistic_pointestimate signature and one-step search within this file", "finding": "This function signature has no one_step argument; no package-wide absence assertion"},
+    {"ref": "paper branch commit", "path": "ppi_py/ppi.py", "lines": "769–917", "finding": "With lam=None, pointestimate tunes with clip=True, then its one_step branch uses pooled information. With a fixed lam, it returns the optimizer result"},
+    {"ref": "paper branch commit", "path": "ppi_py/ppi.py", "lines": "920–993", "finding": "_logistic_get_stats uses pooled label/auxiliary information when use_unlabeled=True"},
+    {"ref": "paper branch commit", "path": "ppi_py/ppi.py", "lines": "1044–1103", "finding": "The CI one_step branch computes an unclipped weight and calls pointestimate with a fixed lam; the fixed-lam pointestimate path does not enter its Newton-update branch"},
+    {"ref": "paper branch commit", "path": "ppi_py/ppi.py", "lines": "1847–1921", "finding": "Trace tuning uses labelled cross-covariance divided by n, pooled np.cov, and optional clipping to [0,1]"}
+  ],
+  "code_call_path_is_static_observation": true,
+  "downloaded_official_code_executed": false,
+  "literal_upstream_API_replication_claimed": false,
+  "formal_SUPPB_identity_verified": false,
+  "new_comparator_scope": "A ridge-start implementation of the published scalar-weight and one-step formulas, with the original pilot held common; compare pooled/labelled information and clipped/unrestricted power. No upstream bug fix or new estimator claim"
+}

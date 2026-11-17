@@ -23,14 +23,14 @@
     },
     {
       "requirement": "Fair comparison against established methods",
-      "status": "established_baselines_and_heldout_human_record_risk_retained",
-      "evidence": "../holdout_manuscript_integration_20261114/integration.json",
+      "status": "established_baselines_and_full_one_step_domain_sensitivity_retained",
+      "evidence": "../one_step_manuscript_integration_20261117/README.md",
       "remaining": "The fixed allocation and fixed-power diagnostic gives no prediction-error advantage over direct human ridge;it does not establish general tuning or externally pretrained predictor rankings."
     },
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
-      "evidence": "../../submission/finite_choice_20261110/reports/discrete_menu_mathematical_check_20261116.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/one_step_mathematical_check_20261117.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law."
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "66_page_full_28_page_reading_Word_reviewed_17_tables_7_appendices_6_vector_figures",
+      "status": "69_page_full_29_page_reading_Word_reviewed_18_tables_7_appendices_6_vector_figures",
       "evidence": "../reviewer_handoff_20261116/current_journal_compliance.json",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
@@ -347,7 +347,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "User-supplied v2 PDF and official code enabled a substantive one-step baseline audit. All 24 original conditions and 60000 method records verified; source-closed full rerun reproduces ten scientific/summary outputs. Explicit clipped-baseline naming and sensitivity integration remain; formal PPI++ A–E and sufficient contribution value are unresolved.",
+  "latest_progress": "Official-code and preprint one-step sensitivity integrated in Sections 5.1–5.2 and Appendix C8; all 18 tables reconciled and Word reviewed. Formal PPI++ A–E comparison, precise priority and sufficient contribution-value assessment remain open.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -382,27 +382,27 @@
   },
   "new_completed_evidence_is_cumulative_historical_not_current_release": true,
   "current_verified_release": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "pointer": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
     "package_analysis_sources": 83,
-    "main_body_lexical_words_excluding_math": 8560,
+    "main_body_lexical_words_excluding_math": 8678,
     "abstract_words": 174,
     "paper": {
-      "pages_from_existing_visual_review": 66,
-      "native_math_objects": 1279,
-      "tables": 17,
-      "source_display_blocks": 140
+      "pages_from_existing_visual_review": 69,
+      "native_math_objects": 1290,
+      "tables": 18,
+      "source_display_blocks": 141
     },
     "main_text": {
-      "pages_from_existing_visual_review": 28,
+      "pages_from_existing_visual_review": 29,
       "native_math_objects": 236,
       "tables": 6,
       "source_display_blocks": 35
     },
-    "paper_md_sha256": "0be43a6dfa3eaef1dd0f17c7de63122507b3ec33586fc08f9206941ef2c3bc9e",
-    "paper_docx_sha256": "d1bb7b624da04af9ad22059e79840e47cfd7e7f624d575a787cb51b98204b1a5",
-    "main_text_md_sha256": "f1ea711d7df93242c2ada450ec79563b33fae96ffe8a0272f17f312f10e5876f",
-    "main_text_docx_sha256": "773d05e5790bcb007c5eb315268186b33d84cb42eea202608974f1f67dabed46"
+    "paper_md_sha256": "0972b113020fef4814236ff340152ec93a810311e2e0904c19474b247de0f1b3",
+    "paper_docx_sha256": "d037a823da785cfe2d25b7ff12fed08a608184dc33ee56b9b06ff80ccde94eb4",
+    "main_text_md_sha256": "30cfd2d8076154b360cafaa8f07772da094d666df7da788402ff85bfae220dea",
+    "main_text_docx_sha256": "9f8511e9d1dc50a22d65724c3ac6b4194637d85184b2bb076dff2aa42879472f"
   },
   "formal_prior_scope_followup_20261115": {
     "report": "../formal_prior_scope_20261115/README.md",
@@ -504,7 +504,7 @@
   },
   "one_step_source_audit_20261117": {
     "report": "../one_step_source_audit_20261117/README.md",
-    "state": "model_audit_and_isolated_full_reproduction_complete_manuscript_integration_pending",
+    "state": "integrated_reviewed_and_reproduced",
     "supplied_PDF_version": "arXiv v2, 2024-03-26, 29 pages, Appendices A-C",
     "method_records": 60000,
     "original_cohort_families": 1500,
@@ -516,8 +516,20 @@
     "isolated_full_primary_replay": true,
     "primary_files_byte_identical": 5,
     "summary_files_byte_identical": 5,
-    "manuscript_unchanged": true,
     "formal_A_to_E_compared": false,
-    "new_theoretical_novelty_claim": false
+    "new_theoretical_novelty_claim": false,
+    "manuscript_unchanged_at_standalone_preparation": true,
+    "manuscript_integration": "../one_step_manuscript_integration_20261117/README.md"
+  },
+  "one_step_manuscript_integration_20261117": {
+    "state": "complete",
+    "tables": 18,
+    "full_pages": 69,
+    "main_pages": 29,
+    "root_algorithms_unchanged": 82,
+    "root_checker_extended": true,
+    "preceding_scientific_files_unchanged": 728,
+    "new_independent_cohorts": 0,
+    "submission_threshold_certified": false
   }
 }

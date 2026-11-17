@@ -325,11 +325,13 @@ At 50 labels, both retuned and held-power paths have finite estimates in every a
 
 ### 5.1 Known truth experiment
 
-To evaluate error and coverage against a known parameter, we sample attribute rows independently with replacement from the fixed 1200 row support. The simulation parameter is its converged 11 coordinate logistic vector. A second signal group multiplies that vector by three. We generate choices from the stated logistic probabilities and binary proxies by independent flips. No new human respondents or language model answers are generated.
+To evaluate error and coverage against a known parameter, we sample attribute rows independently with replacement from the fixed 1200 row support. The simulation parameter is its converged 11 coordinate logistic vector. We generate choices from the stated logistic probabilities and binary proxies by independent flips. No new human respondents or language model answers are generated.
 
-The oracle grid crosses $m=20,50,150$, $N=150,600$ and proxy error 0.1 or 0.25, with 500 repetitions per condition. Two additional signal groups use oracle, doubled log odds and shifted log odds predictions, $m=50,150$, $N=600$ and proxy error 0.25. Each of those groups has six conditions and 500 repetitions. Every method shares the attributes, choices and proxy draws within a condition. The full grids and their seeds accompany the aggregate tables.
+The oracle grid crosses $m=20,50,150$, $N=150,600$ and proxy error 0.1 or 0.25, with 500 repetitions per condition. Two further grids retain the original signal or multiply it by three. They use oracle, doubled log odds and shifted log odds predictions, $m=50,150$, $N=600$ and proxy error 0.25. Each of those groups has six conditions and 500 repetitions. Every method shares the attributes, choices and proxy draws within a condition. The full grids and their seeds accompany the aggregate tables.
 
-We compare human maximum likelihood, unit power PPI, human initialized power tuning, ridge initialized power tuning, one step PPI from that ridge start, unit power ridge PPI and soft pooling. Ridge fits use penalty $\|\beta\|^2/(2m)$ on every coordinate. The two power methods use the established PPI++ covariance trace convention at their stated initializers. The one step update uses the same estimated power and initial ridge fit. Soft pooling combines observed labelled choices with frozen auxiliary predictions at equal row weights. Its oracle version has correct conditional mean information.
+We compare human maximum likelihood, unit power PPI, human initialized power tuning, ridge initialized power tuning, a clipped one-step update from that ridge start, unit power ridge PPI and soft pooling. Ridge fits use penalty $\|\beta\|^2/(2m)$ on every coordinate. The two power methods use the established PPI++ covariance trace convention at their stated initializers. The one-step comparator uses the same estimated power clipped to [0,1] and the same initial ridge fit. Soft pooling combines observed labelled choices with frozen auxiliary predictions at equal row weights. Its oracle version has correct conditional mean information.
+
+PPI++ also permits unrestricted power in its one-step formula (Angelopoulos et al., 2026; preprint v2, Section 6.2). Appendix C8 repeats all 24 original conditions with clipped and unrestricted powers and with pooled or labelled information for tuning. Each comparison holds the ridge pilot fixed.
 
 Two DY prior settings provide a labelled only comparator in the two conditions of Table 2. The estimator fits pseudo-responses $\alpha Y+(1-\alpha)/2$, using $\alpha=m/(m+11)$ and a fixed $\alpha=0.5$ sensitivity. The first follows the dimension based choice used in the authors' supplementary implementation. Both use the same human rows, a zero prior mode and zero initialization, with no auxiliary predictions. They replay the existing 500 draws in each condition; the original seven strategy grids remain unchanged.
 
@@ -341,7 +343,7 @@ For each method we record point availability and interval availability separatel
 
 Table 2 contrasts two prespecified mechanisms: scarcity of human labels with oracle predictions, and overconfidence under stronger utility at a larger label budget. All conditions and error tails remain in the reproduction tables. The selected columns show how availability, parameter error and coverage can lead to different assessments of the same estimator.
 
-Table 2  Point availability and interval performance
+Table 2  Point availability and interval performance. One step uses the ridge pilot and a power clipped to [0,1].
 
 | Condition | Estimator | Available | MSE | Coverage | Issued and covers |
 |---|---|---|---|---|---|
@@ -375,6 +377,8 @@ Both DY settings return 500 estimates and intervals in each condition. With 20 l
 Human-only Firth returns finite fits in all 500 repetitions of both displayed settings. With 20 labels its MSE is 1.9494 and its mean marginal interval width is 5.9394. Coverage of 0.9995 accompanies these wide intervals. With 150 labels its MSE is 0.1088 and coverage is 0.9631. On the same 500 samples, its MSE exceeds the dimension-rule DY value by 0.007746, with Monte Carlo standard error 0.000581. These results retain a mature finite-estimate alternative and do not establish a general estimator ranking.
 
 Soft pooling retains the smallest displayed point errors under the original, weaker signal, including the imperfect predictions. Its coverage in the 150 label cases remains around 0.94. The complete results support distinct choices for distinct objectives: an analyst focused on prediction or parameter error may favor pooling in these conditions, while inference on the human logistic target requires its target discrepancy and coverage to be assessed. Existing ridge and one step procedures also handle many finite computation cases.
+
+Removing power clipping gives equal or higher observed mean new-row human loss within each information convention across the retained 24 conditions. This sensitivity concerns the one-step update, with its power domain and initial point held explicit. Table C3 reports every paired change and Monte Carlo standard error. Direct human ridge has lower observed mean loss in some conditions and higher loss in others.
 
 ![Figure 4](figures/figure2_estimates_intervals.png)
 

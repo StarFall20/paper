@@ -1,3 +1,11 @@
+# One-step comparator integrated — 17 November 2026
+
+The [current revision](reports/one_step_manuscript_integration_20261117/README.md) integrates the user-supplied preprint and official-code audit in Sections 5.1–5.2 and Appendix C8. Table C3 retains all 24 original conditions, each with 500 repetitions, and paired loss changes with Monte Carlo standard errors. All 60000 method records and the completed independent full replay are included. The common ridge-pilot formula experiment is distinguished from static upstream API reading.
+
+The complete and reading Word files are 69 and 29 pages, with 1290 and 236 native math objects. All 18 tables reconcile; all 17 preceding table blocks and 140 display bodies remain unchanged. The current full manuscript has 141 display paragraphs. The abstract has 174 words; Sections 1–7 have 8678 lexical words under the stated rule. All changed page images are reviewed at original resolution. The 82 preceding root analysis algorithms and all old scientific results retain their hashes; the aggregate checker now includes Table C3 and its nested archive.
+
+No new independent model cohort, human response, AI answer or database query is added. The formal 2026 PPI++ body and Appendices A–E remain unread. This is an established-baseline sensitivity addition, with no new estimator, interval theorem, plagiarism clearance or acceptance claim. Precise-result priority and sufficient choice-analysis value remain unresolved. The research goal remains active. Earlier entries below describe dated snapshots.
+
 # One step baseline audit completed — 17 November 2026
 
 The [new audit](reports/one_step_source_audit_20261117/README.md) reads the supplied 29-page 2024 PPI++ v2 and pinned official main/paper branches. It distinguishes the published unrestricted-power formula, the old clipped comparator, pooled/labelled tuning information and the paper-branch API control flow. Upstream source was read statically and not executed; no formal Supplement B equivalence is claimed.

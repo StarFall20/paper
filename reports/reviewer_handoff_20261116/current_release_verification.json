@@ -1,21 +1,21 @@
 {
   "paper": {
-    "native_math_objects": 1279,
-    "tables": 17,
-    "source_display_blocks": 140,
-    "md_sha256": "0be43a6dfa3eaef1dd0f17c7de63122507b3ec33586fc08f9206941ef2c3bc9e",
-    "docx_sha256": "d1bb7b624da04af9ad22059e79840e47cfd7e7f624d575a787cb51b98204b1a5"
+    "native_math_objects": 1290,
+    "tables": 18,
+    "source_display_blocks": 141,
+    "md_sha256": "0972b113020fef4814236ff340152ec93a810311e2e0904c19474b247de0f1b3",
+    "docx_sha256": "d037a823da785cfe2d25b7ff12fed08a608184dc33ee56b9b06ff80ccde94eb4"
   },
   "main_text": {
     "native_math_objects": 236,
     "tables": 6,
     "source_display_blocks": 35,
-    "md_sha256": "f1ea711d7df93242c2ada450ec79563b33fae96ffe8a0272f17f312f10e5876f",
-    "docx_sha256": "773d05e5790bcb007c5eb315268186b33d84cb42eea202608974f1f67dabed46"
+    "md_sha256": "30cfd2d8076154b360cafaa8f07772da094d666df7da788402ff85bfae220dea",
+    "docx_sha256": "9f8511e9d1dc50a22d65724c3ac6b4194637d85184b2bb076dff2aa42879472f"
   },
   "state": "passed",
   "package_analysis_sources": 83,
-  "page_counts_source": "reports/regular_prior_visual_qa_20261116.json",
+  "page_counts_source": "reports/one_step_visual_qa_20261117.json",
   "new_render_performed": true,
   "manuscript_changed": true,
   "originality_or_submission_threshold_certified": false

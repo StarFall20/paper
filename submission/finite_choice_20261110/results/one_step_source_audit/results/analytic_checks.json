@@ -1,0 +1,21 @@
+{
+  "state": "passed",
+  "negative_and_above_one_powers_checked": [
+    {
+      "lambda": -0.75,
+      "gradient_error": 2.319644476500571e-12,
+      "Hessian_error": 8.631317882645817e-12
+    },
+    {
+      "lambda": 0.2,
+      "gradient_error": 1.074584865534689e-11,
+      "Hessian_error": 9.034495374038443e-12
+    },
+    {
+      "lambda": 1.5,
+      "gradient_error": 2.0789259203013444e-11,
+      "Hessian_error": 9.36711819221614e-12
+    }
+  ],
+  "trace_vs_rowwise_weight_error": 2.7755575615628914e-17
+}

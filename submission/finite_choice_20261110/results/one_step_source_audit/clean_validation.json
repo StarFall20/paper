@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-17",
+  "state": "complete",
+  "isolated_full_workflow": {
+    "state": "passed",
+    "full_primary_replay": true,
+    "records_verified": 60000,
+    "legacy_cells_reconciled": 24,
+    "primary_scientific_outputs_byte_identical": {
+      "trial_records.csv.gz": true,
+      "pilot_records.csv.gz": true,
+      "summary.csv": true,
+      "status_counts.csv": true,
+      "analytic_checks.json": true
+    },
+    "summary_outputs_byte_identical": {
+      "clipping_effects.csv": true,
+      "all_pairwise.csv": true,
+      "all_conditions_mean_loss.md": true,
+      "method_summary.csv": true,
+      "overview.json": true
+    },
+    "new_independent_cohorts": 0,
+    "new_human_or_AI_answers": 0
+  },
+  "source_hashes_identical_to_tested_copy": {
+    "analysis/finite_pool_choice_validation.py": true,
+    "analysis/fetch_public_conjoint_audit.py": true,
+    "analysis/summarize_one_step_power_comparison.py": true,
+    "analysis/verify_one_step_power_comparison.py": true,
+    "analysis/public_conjoint_optimizer_audit.py": true,
+    "analysis/one_step_power_comparison.py": true,
+    "analysis/public_conjoint_matched_audit.py": true,
+    "analysis/power_tuned_choice_audit.py": true,
+    "analysis/one_step_power_comparison_plan_20261117.json": true,
+    "analysis/choice_moment_support.py": true
+  },
+  "canonical_729_scientific_files_unchanged": true,
+  "current_manuscript_unchanged": true,
+  "model_records": 60000,
+  "original_independent_cohort_families": 1500,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "formal_PPI_A_to_E_compared": false
+}

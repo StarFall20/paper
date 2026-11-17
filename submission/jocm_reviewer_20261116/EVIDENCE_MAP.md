@@ -12,6 +12,7 @@
 | Table B2 | [tableB2.csv](manuscript/tableB2.csv) | [observed-reference provenance](results/observable/source_hashes.json) |
 | Table C1 | [tableC1.csv](manuscript/tableC1.csv) | [held-out row diagnostic](results/holdout/README.md) |
 | Table C2 | [tableC2.csv](manuscript/tableC2.csv) | [nested public budgets](results/public_auxiliary_budget/README.md) |
+| Table C3 | [tableC3.csv](manuscript/tableC3.csv) | [one-step power sensitivity](results/one_step_source_audit/README.md) |
 | Table D1 | [tableD1.csv](manuscript/tableD1.csv) | [probability-loss study](results/probability_risk/README.md) |
 | Table E1 | [tableE1.csv](manuscript/tableE1.csv) | Prediction-index experiment in REPRODUCTION_COMMANDS.md |
 | Table E2 | [tableE2.csv](manuscript/tableE2.csv) | [training-budget study](results/learned_training/README.md) |
@@ -20,6 +21,6 @@
 | Table F3 | [tableF3.csv](manuscript/tableF3.csv) | [whole-menu probability quality](results/menu_quality/README.md) |
 | Table F4 | [tableF4.csv](manuscript/tableF4.csv) | [independent discrete profiles](results/discrete_menu_boundary/README.md) |
 
-All 17 displayed tables are checked against their computational records by `analysis/quick_check.py --full-math`. The complete manuscript gives assumptions and proofs. The deterministic support LPs remain applicable to a stated observed design; their availability does not extend the proportional-dimensional law to arbitrary panels, dependent categorical coding or fixed efficient designs.
+All 18 displayed tables are checked against their computational records by `analysis/quick_check.py --full-math`. The complete manuscript gives assumptions and proofs. The deterministic support LPs remain applicable to a stated observed design; their availability does not extend the proportional-dimensional law to arbitrary panels, dependent categorical coding or fixed efficient designs.
 
 The public source is the vaccine-choice release identified in [source_manifest.json](reports/public_conjoint_audit_20261109/source_manifest.json). It supplies no claim of respondent-independent evaluation. The separate 300-human/60-AI questionnaire archive is excluded.

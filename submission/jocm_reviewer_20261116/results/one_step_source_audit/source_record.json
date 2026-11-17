@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-17",
+  "new_analysis_sources": {
+    "one_step_power_comparison.py": "9684c2c5f81460f0ec147d280f64a18f635acd5128c29cf3a6d1cf0412729e29",
+    "verify_one_step_power_comparison.py": "ef86611657e818ff1fad45aae1846bfdd00940fa79a40fca45f56e71e137e082",
+    "summarize_one_step_power_comparison.py": "b5f63f448fb1fa49732f6e85fa489d2e92be6345530e5fd2f3ae500b990ff806"
+  },
+  "inherited_helper_sources": {
+    "public_conjoint_optimizer_audit.py": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+    "public_conjoint_matched_audit.py": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+    "power_tuned_choice_audit.py": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+    "finite_pool_choice_validation.py": "03e50c70b94d4fa231ec74df3c7ba5ee0d89321bc9f1884c7672b74f6d6d43f4",
+    "choice_moment_support.py": "a82ca19bdfb72bc121000c7a9969ddb63893f611214bf984781edc30c8762672",
+    "fetch_public_conjoint_audit.py": "0d9173a837c195d1341b94dcec08f061570ccb6af06c8aaf418e453b281b4cef"
+  },
+  "plan_sha256": "8aa158e9fed0a19b57981d23e4779382241c3d9ed7c1a837f7c1e6750a18f8a8",
+  "reference_files": {
+    "finite_pool_DGP.json": "ce66c63a5b91ec7e3eea456ed608e24fb57d7a43ec8dc3e1d255a63bd4306c14",
+    "finite_pool_summary.csv": "3fe0eb5fc931a27e2cf0f56bdd7b62fbe0cd06595bc48c5bb9d8cab7d2cb6dd8",
+    "imperfect_pool_DGP.json": "f406cda8ec29dbe9b297e7b40633edc04f54676e18a9ee07f8cc35524f7d9368",
+    "imperfect_pool_summary.csv": "61be9fa42d70a60cda3c2449d4cfa1faef1b87eff8bbe1426c7a4cece3daeab8",
+    "source_manifest.json": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e",
+    "strong_signal_pool_DGP.json": "474f86edc31bd61f1c7b065d1fa4b2bed42ed08963a63138d17948bb2f7596c0",
+    "strong_signal_pool_summary.csv": "3a777a147f50fcfd22e18bc12cbf0ba505ee57351483664168c2f895c03c0bed"
+  },
+  "results": {
+    "results/analytic_checks.json": "97aff6f74fec1cb433a5109bc57d88aeb82d0ae27a155a87cdaad7b3dd5e4763",
+    "results/checkpoint.json": "6bf1d7c271a17a2c2ccb6817639369975850f1093da2d52ea64b4d17e953359c",
+    "results/pilot_records.csv.gz": "1cb15723eef6d5fe4f181fc909e42646edbbb5998d0dce1888be8a3702ba0db3",
+    "results/status_counts.csv": "13076ab0d850ee5191246abd38b5d687df4a9905080fde7e979632fb6da476c2",
+    "results/summary.csv": "de176e844a974c25ee3bdc119b210466458bd0d2bd885cdd904674c9c6e0331a",
+    "results/trial_records.csv.gz": "6c198596daccf34de98209d41291279bbf02eed557a0aeffa607cbf9f8d09e81",
+    "verification/all_24_legacy_cells.csv": "702e53d9f603e2399e343a633658a47636c1f71c70e59403e3c1ed2df6a2b772",
+    "verification/verification.json": "9ffee044d88dc791e266f13d97299c0973e5d3ef18944ee8af7e0be7a80d8f44",
+    "summary/all_conditions_mean_loss.md": "366ed7234ba35594de21e69ba91a7641056c888382a6a5d7f342f04fd389df92",
+    "summary/all_pairwise.csv": "8de3ca18546947a39b72861007088607b46d8cb9df9ce9c8c9b240766674cb68",
+    "summary/clipping_effects.csv": "859f726e598540594b84b36e5db6b22d97c30760f789e07abc36814f2704bb24",
+    "summary/method_summary.csv": "46bf5580c17f9234c322033f921d291bda00469bd1b88788fda6a5856196f1dd",
+    "summary/overview.json": "2afd98f1be3d6f441fae9c0e8946c638d1eac29bcd3dde44678e715785bda6e2"
+  },
+  "source_scope_sha256": "363b80c6a4210865446fde511c6934dc252eec6ce6dcbfb18b956ee6a7f4c345",
+  "new_estimator_or_novelty_claim": false,
+  "upstream_code_executed": false,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "manuscript_integration_state_at_preparation": "Historical standalone preparation snapshot; current parent manuscript integrates the audit in Sections 5.1\u20135.2 and Appendix C8."
+}

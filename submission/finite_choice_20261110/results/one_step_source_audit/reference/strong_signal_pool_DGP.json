@@ -1,0 +1,22 @@
+{
+  "truth": [
+    -0.1994606213910974,
+    0.8963663782231799,
+    0.3020585267349822,
+    0.12083220719667723,
+    0.06252248118120304,
+    -0.020406236713029605,
+    -1.0577597658575542,
+    -0.30350198934402495,
+    -0.6431269221659339,
+    0.4088352052243135,
+    -0.17634123979109448
+  ],
+  "truth_scale": 3,
+  "support_rows": 1200,
+  "dimensions": 11,
+  "source": "same pinned vaccine support as the earlier finite-pool validation",
+  "truth_role": "simulation parameter, not structural truth of observed choices",
+  "sampling": "IID choice rows with replacement; generated Y,Z; no new respondent or LLM responses",
+  "prediction_formula": "expit(a*correct conditional log odds+b)"
+}

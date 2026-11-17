@@ -325,11 +325,13 @@ At 50 labels, both retuned and held-power paths have finite estimates in every a
 
 ### 5.1 Known truth experiment
 
-To evaluate error and coverage against a known parameter, we sample attribute rows independently with replacement from the fixed 1200 row support. The simulation parameter is its converged 11 coordinate logistic vector. A second signal group multiplies that vector by three. We generate choices from the stated logistic probabilities and binary proxies by independent flips. No new human respondents or language model answers are generated.
+To evaluate error and coverage against a known parameter, we sample attribute rows independently with replacement from the fixed 1200 row support. The simulation parameter is its converged 11 coordinate logistic vector. We generate choices from the stated logistic probabilities and binary proxies by independent flips. No new human respondents or language model answers are generated.
 
-The oracle grid crosses $m=20,50,150$, $N=150,600$ and proxy error 0.1 or 0.25, with 500 repetitions per condition. Two additional signal groups use oracle, doubled log odds and shifted log odds predictions, $m=50,150$, $N=600$ and proxy error 0.25. Each of those groups has six conditions and 500 repetitions. Every method shares the attributes, choices and proxy draws within a condition. The full grids and their seeds accompany the aggregate tables.
+The oracle grid crosses $m=20,50,150$, $N=150,600$ and proxy error 0.1 or 0.25, with 500 repetitions per condition. Two further grids retain the original signal or multiply it by three. They use oracle, doubled log odds and shifted log odds predictions, $m=50,150$, $N=600$ and proxy error 0.25. Each of those groups has six conditions and 500 repetitions. Every method shares the attributes, choices and proxy draws within a condition. The full grids and their seeds accompany the aggregate tables.
 
-We compare human maximum likelihood, unit power PPI, human initialized power tuning, ridge initialized power tuning, one step PPI from that ridge start, unit power ridge PPI and soft pooling. Ridge fits use penalty $\|\beta\|^2/(2m)$ on every coordinate. The two power methods use the established PPI++ covariance trace convention at their stated initializers. The one step update uses the same estimated power and initial ridge fit. Soft pooling combines observed labelled choices with frozen auxiliary predictions at equal row weights. Its oracle version has correct conditional mean information.
+We compare human maximum likelihood, unit power PPI, human initialized power tuning, ridge initialized power tuning, a clipped one-step update from that ridge start, unit power ridge PPI and soft pooling. Ridge fits use penalty $\|\beta\|^2/(2m)$ on every coordinate. The two power methods use the established PPI++ covariance trace convention at their stated initializers. The one-step comparator uses the same estimated power clipped to [0,1] and the same initial ridge fit. Soft pooling combines observed labelled choices with frozen auxiliary predictions at equal row weights. Its oracle version has correct conditional mean information.
+
+PPI++ also permits unrestricted power in its one-step formula (Angelopoulos et al., 2026; preprint v2, Section 6.2). Appendix C8 repeats all 24 original conditions with clipped and unrestricted powers and with pooled or labelled information for tuning. Each comparison holds the ridge pilot fixed.
 
 Two DY prior settings provide a labelled only comparator in the two conditions of Table 2. The estimator fits pseudo-responses $\alpha Y+(1-\alpha)/2$, using $\alpha=m/(m+11)$ and a fixed $\alpha=0.5$ sensitivity. The first follows the dimension based choice used in the authors' supplementary implementation. Both use the same human rows, a zero prior mode and zero initialization, with no auxiliary predictions. They replay the existing 500 draws in each condition; the original seven strategy grids remain unchanged.
 
@@ -341,7 +343,7 @@ For each method we record point availability and interval availability separatel
 
 Table 2 contrasts two prespecified mechanisms: scarcity of human labels with oracle predictions, and overconfidence under stronger utility at a larger label budget. All conditions and error tails remain in the reproduction tables. The selected columns show how availability, parameter error and coverage can lead to different assessments of the same estimator.
 
-Table 2  Point availability and interval performance
+Table 2  Point availability and interval performance. One step uses the ridge pilot and a power clipped to [0,1].
 
 | Condition | Estimator | Available | MSE | Coverage | Issued and covers |
 |---|---|---|---|---|---|
@@ -375,6 +377,8 @@ Both DY settings return 500 estimates and intervals in each condition. With 20 l
 Human-only Firth returns finite fits in all 500 repetitions of both displayed settings. With 20 labels its MSE is 1.9494 and its mean marginal interval width is 5.9394. Coverage of 0.9995 accompanies these wide intervals. With 150 labels its MSE is 0.1088 and coverage is 0.9631. On the same 500 samples, its MSE exceeds the dimension-rule DY value by 0.007746, with Monte Carlo standard error 0.000581. These results retain a mature finite-estimate alternative and do not establish a general estimator ranking.
 
 Soft pooling retains the smallest displayed point errors under the original, weaker signal, including the imperfect predictions. Its coverage in the 150 label cases remains around 0.94. The complete results support distinct choices for distinct objectives: an analyst focused on prediction or parameter error may favor pooling in these conditions, while inference on the human logistic target requires its target discrepancy and coverage to be assessed. Existing ridge and one step procedures also handle many finite computation cases.
+
+Removing power clipping gives equal or higher observed mean new-row human loss within each information convention across the retained 24 conditions. This sensitivity concerns the one-step update, with its power domain and initial point held explicit. Table C3 reports every paired change and Monte Carlo standard error. Direct human ridge has lower observed mean loss in some conditions and higher loss in others.
 
 ![Figure 4](figures/figure2_estimates_intervals.png)
 
@@ -849,6 +853,49 @@ At the enlarged pool, primitive integer directions in the stored 11-contrast ord
 The positive semidefinite score-covariance trace at the frozen ridge pilot falls from 6.301625 to 5.615861 in the AI-aided case and from 6.284599 to 5.619660 for attributes alone. This pilot diagnostic is separate from the pooled quadratic used for power selection. Neither is an observed estimator variance or a confidence-interval guarantee. PPI++ already includes the finite auxiliary-sample covariance term. The saved case illustrates objective attainment, using classical recession geometry.
 
 The independent verifier reconstructs every record, checks 1000 human designs, 625 planned positive-power interval programs, 3602 method-level negative directions and 120 paired rows. It does not repeat every primary support call. A separate verifier regenerates both case predictors and checks the exact arithmetic. Compressed records, complete status tables, plans, numerical roots and integer directions are included in the self-contained dated supplement. Its default workflow independently reconstructs and verifies these outputs; the documented full workflow reruns the primary audit from separately fetched pinned inputs.
+
+### C8 One-step power domain sensitivity
+
+Section 6.2 of the PPI++ preprint v2 permits real power values in its one-step formula. We retain the original human ridge pilot $\beta_r$ and compare four variants: pooled or labelled information for trace tuning, each with clipped or unrestricted power. Direct human ridge is the fifth comparator. Labelled information uses $J=H_L$; pooled information uses $J=(mH_L+NH_U)/(m+N)$, where $H_L$ and $H_U$ are the mean labelled and auxiliary logistic Hessians at $\beta_r$. The trace convention retains labelled cross-covariance divisor $m$ and pooled prediction-covariance divisor $m+N-1$. Each method uses the actual corrected-loss Hessian in its single update,
+
+$$\beta_1=\beta_r-H_{\widehat\lambda}(\beta_r)^{-1}\nabla Q_{\widehat\lambda}(\beta_r),\qquad H_\lambda=(1-\lambda)H_L+\lambda H_U. \qquad (C.7)$$
+
+The comparison reconstructs the original 1500 cohort families and retains all 24 conditions with 500 repetitions each. Its 60000 method records include 3500 distinct ridge pilots. No additional independent cohort is generated. Both tuning-information conventions have 12000 unrestricted-update records. Among these, 987 weights are negative and nine exceed one. Their combined 996 records represent 643 condition and repetition combinations within 340 original cohorts. All updates have finite coefficients; 116 use an indefinite update matrix. These counts concern a computed update. Table 2 retains its separate clipped-power interval calculations.
+
+Table C3 reports the paired mean unrestricted-minus-clipped change in expected new-row human excess log loss on the full 1200-row support. Oracle denotes the original oracle grid, Transforms the original-signal prediction transformations, and Threefold the threefold-signal transformations. Each grid has 500 cohort families; conditions and methods remain coupled within a family. Values are rounded to five decimal places; the archive retains unrounded values and all error tails.
+
+Table C3  Change in one-step prediction loss after removing power clipping
+
+| Grid | Prediction | Labels | Auxiliary | Error | Pooled change (MCSE) | Labelled change (MCSE) |
+| --- | --- | --- | --- | --- | --- | --- |
+| Oracle | Oracle | 20 | 150 | 0.1 | 0.00082 (0.00068) | 0.00019 (0.00009) |
+| Oracle | Oracle | 20 | 150 | 0.25 | 0.97116 (0.31139) | 0.06501 (0.00929) |
+| Oracle | Oracle | 20 | 600 | 0.1 | 0.00110 (0.00094) | 0.00019 (0.00009) |
+| Oracle | Oracle | 20 | 600 | 0.25 | 0.61682 (0.16765) | 0.07036 (0.01489) |
+| Oracle | Oracle | 50 | 150 | 0.1 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Oracle | Oracle | 50 | 150 | 0.25 | 0.00050 (0.00024) | 0.00029 (0.00014) |
+| Oracle | Oracle | 50 | 600 | 0.1 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Oracle | Oracle | 50 | 600 | 0.25 | 0.00054 (0.00027) | 0.00029 (0.00014) |
+| Oracle | Oracle | 150 | 150 | 0.1 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Oracle | Oracle | 150 | 150 | 0.25 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Oracle | Oracle | 150 | 600 | 0.1 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Oracle | Oracle | 150 | 600 | 0.25 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Transforms | Shifted | 50 | 600 | 0.25 | 0.00098 (0.00036) | 0.00086 (0.00025) |
+| Transforms | Shifted | 150 | 600 | 0.25 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Transforms | Oracle | 50 | 600 | 0.25 | 0.00008 (0.00004) | 0.00015 (0.00007) |
+| Transforms | Oracle | 150 | 600 | 0.25 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Transforms | Overconfident | 50 | 600 | 0.25 | 0.00000 (0.00000) | 0.00001 (0.00001) |
+| Transforms | Overconfident | 150 | 600 | 0.25 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Threefold | Shifted | 50 | 600 | 0.25 | 0.00153 (0.00040) | 0.00119 (0.00026) |
+| Threefold | Shifted | 150 | 600 | 0.25 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Threefold | Oracle | 50 | 600 | 0.25 | 0.00094 (0.00030) | 0.00061 (0.00018) |
+| Threefold | Oracle | 150 | 600 | 0.25 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+| Threefold | Overconfident | 50 | 600 | 0.25 | 0.00038 (0.00023) | 0.00018 (0.00010) |
+| Threefold | Overconfident | 150 | 600 | 0.25 | 0.00000 (0.00000) | 0.00000 (0.00000) |
+
+Within the pooled-information convention, unrestricted power has a higher observed mean loss in 13 conditions and the same mean in eleven. The labelled-information counts are twelve and twelve. No condition has a lower unrestricted mean in this grid. For the original oracle condition with 20 labels, 150 auxiliary rows and error 0.25, the pooled means are 0.483805 and 1.454968; their paired increase is 0.971163 with Monte Carlo standard error 0.311390. The full grid includes favorable one-step comparisons against direct ridge: pooled versions have lower observed mean loss in seven conditions and higher loss in seventeen; labelled versions have five lower and nineteen higher. These are finite-grid comparisons under informative proxy predictions.
+
+Independent checks reconstruct every weight and update, verify all 3500 pilot scores, and reproduce all 24 original clipped-comparator cells. Their maximum relative MSE and loss differences are $1.30\times10^{-16}$ and $7.36\times10^{-17}$. Negative and above-one powers enter the original-loss derivative checks. A separate full rerun reproduces five primary output files and five summaries byte-for-byte. The audit records source versions and static upstream control flow; the experiment implements the stated formulas from a shared ridge pilot. It does not reproduce every upstream API initialization or assert a new global-minimizer or interval guarantee.
 
 ## Appendix D Powers approaching zero
 
