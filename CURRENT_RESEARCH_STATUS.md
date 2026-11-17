@@ -1,3 +1,9 @@
+# Supplied PPI body and appendices are the working comparison source 18 November 2026
+
+The user correctly clarified that the supplied 29-page PDF contains the full PPI++ body and its Appendices A–C. The file matches the previously read v2 fingerprint. The [current page-bound comparison](reports/available_ppi_prior_20261118/README.md) maps established objectives, multiclass GLMs, fixed-dimensional consistency/coercivity, variance tuning, one-step alternatives and odds-ratio inference to the precise current claims. No new formal document was obtained or relabelled.
+
+The preceding blanket dependency on obtaining another formal body and supplement is superseded. Continue substantive theory, broader-prior, practical-value and writing assessment using the available complete PDF, pinned official code and existing empirical evidence. Final-version identity remains an explicit source limitation, not a reason to stop all further research. The original goal is active and uncompleted. Both reviewed Word files and all 808 scientific files remain unchanged. Earlier entries below are dated history.
+
 # Formal prior comparison requires readable source 17 November 2026
 
 The [current submission gate audit](reports/formal_priority_gate_20261117/README.md) leaves the original research goal uncompleted. The 75/31-page Word release and 808 scientific files retain their verified hashes. Current publisher navigation reaches a security-check notice; binding the already-open browser article timed out. Author links still lead to the 2024 arXiv v2, whose identity with the final article is unproved. Formal Supplement A contains Appendices A–E; the official repository is a separate code source.

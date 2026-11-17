@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "Current source/layout and reproduction evidence remains verified; submission threshold is unproven. The closest formal PPI++ main article and Supplement A remain unread after current route revalidation. The repeated-blocker audit is satisfied; a readable authorized copy or functioning authorized access is required for the specific-result comparison.",
+  "decision": "Use the supplied complete 29-page PPI++ PDF, including Appendices A–C, and the pinned official code as the current comparison basis. Final-version identity remains unverified but is not a prerequisite for continued model, specific-contribution and practical-value assessment. Submission threshold remains unproven.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../formal_priority_gate_20261117/README.md",
+  "latest_progress_report": "../available_ppi_prior_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Revalidated unchanged current Word and 808 science-file hashes; completed requirement-by-requirement gate and source-reading review. Seven general web queries and current UI/source checks yielded no final article or supplement. No unchanged models rerun.",
+  "latest_progress": "Corrected the source dependency: the user-supplied PDF already contains the body and appendices. Bound nine claim comparisons to verified pages; resume substantive contribution assessment without requesting the same content again.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -687,6 +687,23 @@
     "formal_Supplement_A_read": false,
     "blocking_condition_repeated_at_least_three_goal_turns": true,
     "completion_proven": false,
-    "status_update_pending": true
+    "status_update_pending": false,
+    "goal_marked_blocked_from_that_audit": false,
+    "global_stop_dependency_superseded_by": "../available_ppi_prior_20261118/README.md"
+  },
+  "available_ppi_prior_20261118": {
+    "report": "../available_ppi_prior_20261118/README.md",
+    "source_map": "../available_ppi_prior_20261118/source_and_claim_map.json",
+    "body_present": true,
+    "appendices_present": [
+      "A",
+      "B",
+      "C"
+    ],
+    "formal_version_identity_verified": false,
+    "waiting_for_another_copy_as_global_precondition": false,
+    "goal_status": "active",
+    "new_models": 0,
+    "unchanged_scientific_files": 808
   }
 }

@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-18",
+  "source": {
+    "filename": "2311.01453v2.pdf",
+    "sha256": "5c9dc26aa1a537785d34b1d690a7387cf21e0493f0a3f945905dc556d30e70bd",
+    "bytes": 748566,
+    "pages": 29,
+    "version": "arXiv v2, 26 March 2024",
+    "body_present": true,
+    "appendix_A_present": true,
+    "appendix_B_present": true,
+    "appendix_C_present": true,
+    "formal_version_identity_claimed": false,
+    "PDF_redistributed": false
+  },
+  "mapping": [
+    {
+      "prior_unit": "Section 2.1, P1; power objective P_lambda",
+      "pages": [
+        3,
+        4
+      ],
+      "established": "The compensated two-sample objective and power interpolation are existing PPI++ methodology.",
+      "current_unit": "Section 2.1, equations (1)–(3)",
+      "decision": "Attribute fully; no new objective or generic debiasing claim."
+    },
+    {
+      "prior_unit": "Section 3; Example 3.2; Algorithm 1",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "established": "Logistic correction is convex on the stated power range and the existing covariance retains the finite labelled-to-auxiliary ratio.",
+      "current_unit": "Sections 2.1 and 3.1–3.4",
+      "decision": "Finite auxiliary data and convexity alone are not new. The candidate calculation is the explicit proportional-dimensional existence boundary for this existing objective."
+    },
+    {
+      "prior_unit": "Example 3.4",
+      "pages": [
+        7
+      ],
+      "established": "PPI++ already covers multiclass exponential-family regression.",
+      "current_unit": "Section 3.9; Appendix F",
+      "decision": "No first-multinomial-extension claim. Evaluate the common-coefficient whole-menu boundary and its conditions as the specific proposed result."
+    },
+    {
+      "prior_unit": "Theorem 1; Proposition 1; Appendix A.2",
+      "pages": [
+        8,
+        23
+      ],
+      "established": "Regular asymptotic normality is conditional on consistency; the convex-shell argument gives fixed-dimensional consistency and supports high-probability coercivity for the continuous objective.",
+      "current_unit": "Section 3.2; Theorems 1–2",
+      "decision": "Retain the existing fixed-dimensional result. Study q/m tending to a positive ratio without presenting finite-dimension asymptotic existence as missing from PPI++."
+    },
+    {
+      "prior_unit": "Proposition 2; Sections 6.1–6.2; Appendix A.4",
+      "pages": [
+        10,
+        11,
+        25
+      ],
+      "established": "The variance-optimal scalar power and plug-in tuning are established.",
+      "current_unit": "Sections 3.5 and 3.10; Appendices B and G",
+      "decision": "No new tuning algorithm. Matched-information and auxiliary-budget examples compare global attainment with the existing regular covariance reference; they do not refute its fixed-dimensional theorem."
+    },
+    {
+      "prior_unit": "Corollary 5; Appendix B; Figures 10–13",
+      "pages": [
+        11,
+        12,
+        26,
+        27,
+        28,
+        29
+      ],
+      "established": "An established one-step alternative and its experiments are already present.",
+      "current_unit": "Section 5 and existing one-step source supplement",
+      "decision": "Keep the 60000-record existing comparison and its stated pilot conventions. Claims about the minimizer of the compensated objective must not imply that all one-step or penalized procedures require that minimizer."
+    },
+    {
+      "prior_unit": "Section 7.2; Figure 9",
+      "pages": [
+        17,
+        18
+      ],
+      "established": "The available PDF compares gridded confidence sets with efficient intervals as dimension ranges from one to five.",
+      "current_unit": "Section 3 and phase experiments",
+      "decision": "This examined experiment is a computational comparison, not an identified proportional-dimensional existence limit. This finding is bounded to the supplied version and does not establish global priority."
+    },
+    {
+      "prior_unit": "Appendix C",
+      "pages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "established": "The PDF includes an odds-ratio target, delta-method variance and power tuning.",
+      "current_unit": "Section 4.6; Appendix C9",
+      "decision": "Do not label a nonlinear ratio or economic interpretation as a new inference method. The current attribute-price equivalents remain descriptive with all fit and sign denominators."
+    },
+    {
+      "prior_unit": "All supplied theory and existing official API audit",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "established": "The supplied body and appendices are usable source material; the current official source is separately pinned.",
+      "current_unit": "Theorem 1; matched-score results; vanishing-power and scale consequences",
+      "decision": "Continue specific-result, broader-prior and practical-value assessment from the available evidence. A final-version identity check remains an explicit limitation, not a prerequisite for all further research."
+    }
+  ],
+  "current_manuscript_md_sha256": "354d7b24f1398b62c9198762c8c83b7f14893a2aec838c395155ba4304b67983",
+  "current_manuscript_docx_sha256": "f4fea183cca7eb33f231f28b8034bb01e520cba9ce632ecdd8e559250c1727f1",
+  "current_scientific_files_unchanged": 808,
+  "prior_reading_acknowledged": "The supplied file was already read and fingerprinted on 17 November. The new action corrects the dependency decision and anchors the comparison; it is not a claim of obtaining a new formal article.",
+  "new_model_runs": 0,
+  "new_MC_runs": 0,
+  "global_priority_certified": false,
+  "submission_threshold_certified": false
+}
