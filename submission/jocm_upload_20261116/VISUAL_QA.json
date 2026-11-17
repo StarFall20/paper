@@ -11,7 +11,7 @@
       "Removed inherited title paragraph borders and theme font overrides"
     ]
   },
-  "copied_manuscript_visual_review": "Current epi_visual_qa_20261117.json: full pages 5–6 and 36–69 and main page 29 inspected at original resolution; remaining pages have exact reviewed-image inheritance, including main pages 5–6 from current full pages.",
+  "copied_manuscript_visual_review": "Current matched_information_visual_qa_20261117.json covers every final full/main PNG by direct original-resolution inspection or exact reviewed-image inheritance; 69 full and 29 reading pages.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
   "highlights_visual_review": "Unchanged source hash bound to current full visual QA"
 }

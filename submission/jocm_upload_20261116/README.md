@@ -1,6 +1,6 @@
 # Journal submission files for author review
 
-The reviewed complete manuscript is `Manuscript.docx`, including the main text and all seven technical appendices. It has 69 pages and 18 tables. `Title_page.docx`, `Highlights.docx`, `Cover_letter.docx` and six separate vector PDFs in Figures are the associated submission materials. The complete manuscript includes the reviewed EPI source-scope attribution and preceding one-step comparator integration. The title page, highlights, cover letter and figures retain their preceding reviewed hashes.
+The reviewed complete manuscript is `Manuscript.docx`, including the main text and all seven technical appendices. It has 69 pages and 18 tables. `Title_page.docx`, `Highlights.docx`, `Cover_letter.docx` and six separate vector PDFs in Figures are the associated submission materials. The complete manuscript includes the reviewed matched-reference-information construction, EPI source-scope attribution and preceding one-step comparator integration. The title page, highlights, cover letter and figures retain their preceding reviewed hashes.
 
 The [current compliance record](COMPLIANCE.json) distinguishes verified file requirements from final author and publisher actions. The official guide was read on 13 November 2026; new web requests on 16 November returned 403. No full research-article word limit was established from the inspected guide. The 29-page main reading version and the complete code remain in the separate reproduction package; it is not a replacement manuscript to upload alongside the complete manuscript.
 

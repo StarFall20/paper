@@ -1,0 +1,62 @@
+{
+  "description": "One deterministic finite-design strengthening of the existing score-equivalence path; not a new random cohort or respondent dataset",
+  "reference": [
+    "0",
+    "0"
+  ],
+  "base_power": "1/2",
+  "labelled": [
+    {
+      "x": "-1",
+      "y": 0,
+      "g": "1/10"
+    },
+    {
+      "x": "1",
+      "y": 1,
+      "g": "9/10"
+    }
+  ],
+  "auxiliary": [
+    {
+      "x": "-2",
+      "g": "1/4"
+    },
+    {
+      "x": "0",
+      "g": "1/2"
+    },
+    {
+      "x": "0",
+      "g": "1/2"
+    },
+    {
+      "x": "0",
+      "g": "1/2"
+    },
+    {
+      "x": "0",
+      "g": "1/2"
+    },
+    {
+      "x": "0",
+      "g": "1/2"
+    },
+    {
+      "x": "0",
+      "g": "1/2"
+    },
+    {
+      "x": "2",
+      "g": "3/4"
+    }
+  ],
+  "power_path": "g_lambda = 1/2 + base_power/lambda * (g - 1/2)",
+  "powers": [
+    "1/2",
+    "21/40",
+    "11/20",
+    "3/5",
+    "1"
+  ]
+}

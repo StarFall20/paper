@@ -1,6 +1,6 @@
 # Reproduce When prediction assisted logit estimates exist
 
-The reviewed manuscript includes the 17 November 2026 EPI source-scope update in Section 3.2 and Appendix B6. All 18 tables, 141 display bodies, 83 root analysis sources and 768 preceding analysis/input/result files retain exact hashes. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
+The reviewed manuscript includes the 17 November 2026 matched-reference-information construction in Section 3.5 and Appendix B5. It fixes score rows, full observed Hessian, empirical sandwich and Newton direction at a nonstationary reference while global attainment changes at power 11/20. All 18 old tables, 141 old display bodies, 83 root analysis sources and 776 preceding analysis/input/result files retain exact hashes. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
 
 Use Python 3.12 with [the recorded versions](requirements.txt). Run these commands from this directory, using a new output directory:
 
@@ -51,3 +51,12 @@ python results/epi_scope/verify_existing_design.py --certificate regenerated/epi
 ```
 
 This is a classical separation-scope clarification. It supplies no new estimator, performance ranking or global priority certificate. The [current validation](reports/epi_validation_20261117.json) distinguishes inherited unchanged mathematics from the new exact-sign check.
+
+The [matched-reference-information supplement](results/matched_local_information/README.md) is integrated in the current manuscript. Reproduce its deterministic calculations without generating participants or model cohorts:
+
+```sh
+python results/matched_local_information/check_exact_information.py --out regenerated/matched/exact
+python results/matched_local_information/verify_original_loss.py --certificate regenerated/matched/exact/exact_information.json --out regenerated/matched/verification
+```
+
+The [current validation](reports/matched_information_validation_20261117.json) separates inherited unchanged science from the new exact and independent 90-digit original-loss checks. Reference-point identities imply no actual sampling-variance equality, variance-optimal selection or universal priority claim. Earlier dated reports retain their historical scope.

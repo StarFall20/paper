@@ -1,0 +1,46 @@
+{
+  "state": "passed",
+  "precision": 90,
+  "independent_original_objective_used": true,
+  "reference_scores_and_Hessian_and_sandwich_verified": true,
+  "fourth_slope_difference_verified": true,
+  "conditional_intercept_symmetry_checks": 30,
+  "finite_roots": [
+    {
+      "power": "0.5",
+      "alpha": "0",
+      "beta": "3.67677057698152832377362472987644521153906893758645933924816114024289305556615599291614044",
+      "original_gradient_max": "1.0E-90",
+      "loss": "0.318464690550439075103542390984211070375270797742218224902921359727643158004927429290876920"
+    },
+    {
+      "power": "0.525",
+      "alpha": "0",
+      "beta": "4.32496785905194528058379303849776174740813332162098240355352973271824796000387602790373054",
+      "original_gradient_max": "1.1E-90",
+      "loss": "0.306225642739610993525247256086439785840573336587156968473255819464052620023618529927013295"
+    }
+  ],
+  "original_loss_rays": [
+    {
+      "power": "0.55",
+      "expected_recession": "0.0000",
+      "original_loss_secant": "-4.2E-90"
+    },
+    {
+      "power": "0.6",
+      "expected_recession": "-0.0125",
+      "original_loss_secant": "-0.0125000000000000000000000000000000000000000000000000000000000000000000000000000000000000062"
+    },
+    {
+      "power": "1",
+      "expected_recession": "-0.1125",
+      "original_loss_secant": "-0.1125000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "universal_conclusions_require_derivation": true,
+  "new_deterministic_designs": 1,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "source_sha256": "7f9561ebaefbcc234df9a3ef12bf2008b291527caeededcdd27f32c533ef1ada"
+}

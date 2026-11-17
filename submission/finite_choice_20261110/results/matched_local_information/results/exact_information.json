@@ -1,0 +1,561 @@
+{
+  "state": "passed",
+  "reference_value": "log(2)",
+  "third_derivative_tensor": "identically zero at reference for every power",
+  "moments_labelled": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "moments_auxiliary": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "exact_critical_power": "11/20",
+  "records": [
+    {
+      "power": "1/2",
+      "prediction_labelled": [
+        "1/10",
+        "9/10"
+      ],
+      "prediction_auxiliary": [
+        "1/4",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "3/4"
+      ],
+      "labelled_row_scores": [
+        [
+          "3/10",
+          "-3/10"
+        ],
+        [
+          "-3/10",
+          "-3/10"
+        ]
+      ],
+      "auxiliary_row_scores": [
+        [
+          "1/8",
+          "-1/4"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/8",
+          "-1/4"
+        ]
+      ],
+      "gradient": [
+        "0",
+        "-29/80"
+      ],
+      "corrected_moment": [
+        "1/2",
+        "29/80"
+      ],
+      "Hessian": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "score_middle": [
+        [
+          "4057/44800",
+          "0"
+        ],
+        [
+          "0",
+          "3/1792"
+        ]
+      ],
+      "reference_sandwich": [
+        [
+          "4057/2800",
+          "0"
+        ],
+        [
+          "0",
+          "3/112"
+        ]
+      ],
+      "one_step_from_reference": [
+        "0",
+        "29/20"
+      ],
+      "slope_recession": "1/80",
+      "attainment": "finite_unique"
+    },
+    {
+      "power": "21/40",
+      "prediction_labelled": [
+        "5/42",
+        "37/42"
+      ],
+      "prediction_auxiliary": [
+        "11/42",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "31/42"
+      ],
+      "labelled_row_scores": [
+        [
+          "3/10",
+          "-3/10"
+        ],
+        [
+          "-3/10",
+          "-3/10"
+        ]
+      ],
+      "auxiliary_row_scores": [
+        [
+          "1/8",
+          "-1/4"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/8",
+          "-1/4"
+        ]
+      ],
+      "gradient": [
+        "0",
+        "-29/80"
+      ],
+      "corrected_moment": [
+        "1/2",
+        "29/80"
+      ],
+      "Hessian": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "score_middle": [
+        [
+          "4057/44800",
+          "0"
+        ],
+        [
+          "0",
+          "3/1792"
+        ]
+      ],
+      "reference_sandwich": [
+        [
+          "4057/2800",
+          "0"
+        ],
+        [
+          "0",
+          "3/112"
+        ]
+      ],
+      "one_step_from_reference": [
+        "0",
+        "29/20"
+      ],
+      "slope_recession": "1/160",
+      "attainment": "finite_unique"
+    },
+    {
+      "power": "11/20",
+      "prediction_labelled": [
+        "3/22",
+        "19/22"
+      ],
+      "prediction_auxiliary": [
+        "3/11",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "8/11"
+      ],
+      "labelled_row_scores": [
+        [
+          "3/10",
+          "-3/10"
+        ],
+        [
+          "-3/10",
+          "-3/10"
+        ]
+      ],
+      "auxiliary_row_scores": [
+        [
+          "1/8",
+          "-1/4"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/8",
+          "-1/4"
+        ]
+      ],
+      "gradient": [
+        "0",
+        "-29/80"
+      ],
+      "corrected_moment": [
+        "1/2",
+        "29/80"
+      ],
+      "Hessian": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "score_middle": [
+        [
+          "4057/44800",
+          "0"
+        ],
+        [
+          "0",
+          "3/1792"
+        ]
+      ],
+      "reference_sandwich": [
+        [
+          "4057/2800",
+          "0"
+        ],
+        [
+          "0",
+          "3/112"
+        ]
+      ],
+      "one_step_from_reference": [
+        "0",
+        "29/20"
+      ],
+      "slope_recession": "0",
+      "attainment": "boundary_no_finite_root"
+    },
+    {
+      "power": "3/5",
+      "prediction_labelled": [
+        "1/6",
+        "5/6"
+      ],
+      "prediction_auxiliary": [
+        "7/24",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "17/24"
+      ],
+      "labelled_row_scores": [
+        [
+          "3/10",
+          "-3/10"
+        ],
+        [
+          "-3/10",
+          "-3/10"
+        ]
+      ],
+      "auxiliary_row_scores": [
+        [
+          "1/8",
+          "-1/4"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/8",
+          "-1/4"
+        ]
+      ],
+      "gradient": [
+        "0",
+        "-29/80"
+      ],
+      "corrected_moment": [
+        "1/2",
+        "29/80"
+      ],
+      "Hessian": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "score_middle": [
+        [
+          "4057/44800",
+          "0"
+        ],
+        [
+          "0",
+          "3/1792"
+        ]
+      ],
+      "reference_sandwich": [
+        [
+          "4057/2800",
+          "0"
+        ],
+        [
+          "0",
+          "3/112"
+        ]
+      ],
+      "one_step_from_reference": [
+        "0",
+        "29/20"
+      ],
+      "slope_recession": "-1/80",
+      "attainment": "unbounded_below"
+    },
+    {
+      "power": "1",
+      "prediction_labelled": [
+        "3/10",
+        "7/10"
+      ],
+      "prediction_auxiliary": [
+        "3/8",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "5/8"
+      ],
+      "labelled_row_scores": [
+        [
+          "3/10",
+          "-3/10"
+        ],
+        [
+          "-3/10",
+          "-3/10"
+        ]
+      ],
+      "auxiliary_row_scores": [
+        [
+          "1/8",
+          "-1/4"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/8",
+          "-1/4"
+        ]
+      ],
+      "gradient": [
+        "0",
+        "-29/80"
+      ],
+      "corrected_moment": [
+        "1/2",
+        "29/80"
+      ],
+      "Hessian": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ],
+      "score_middle": [
+        [
+          "4057/44800",
+          "0"
+        ],
+        [
+          "0",
+          "3/1792"
+        ]
+      ],
+      "reference_sandwich": [
+        [
+          "4057/2800",
+          "0"
+        ],
+        [
+          "0",
+          "3/112"
+        ]
+      ],
+      "one_step_from_reference": [
+        "0",
+        "29/20"
+      ],
+      "slope_recession": "-9/80",
+      "attainment": "unbounded_below"
+    }
+  ],
+  "base_vs_unit_fourth_slope_derivative_difference": "-3/16",
+  "new_deterministic_designs": 1,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "variance_optimal_selection_claimed": false,
+  "valid_confidence_interval_claimed": false,
+  "global_originality_claimed": false,
+  "design_sha256": "c4fcd59d112661db4775df8873abf0f7300f5f579e19834b646a677faf72ffab"
+}

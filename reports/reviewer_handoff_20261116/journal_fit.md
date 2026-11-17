@@ -40,3 +40,8 @@ PPI++ 的正式发表信息已确认。[作者主页](https://stanford.edu/~jduc
 ## 17 November 2026 observed-curvature strengthening
 
 The [new checked finite design](../matched_local_information_20261117/README.md) holds the complete reference Hessian and empirical sandwich fixed, in addition to every corrected score row. Its exact 11/20 transition answers a narrower curvature objection to the existing score path. The reference point is not a fitted root, the compared powers are not claimed variance-optimal, and the example gives no practical prevalence or prediction-advantage result. Recent weak-supervision risk theory and earlier non-squared-loss results are explicitly scoped in the companion assessment. This strengthens explanation within the same compensated-choice objective; it does not resolve the formal PPI++ gap or sufficient journal value. The current reviewed Word is unchanged pending integration.
+
+
+## 17 November 2026 matched-reference-information integration
+
+The construction described in the preceding standalone progress record is now integrated in Section 3.5 and Appendix B5. It is one controlled finite-design illustration within the existing compensated objective. All score rows, observed Hessian, empirical sandwich and Newton direction at a nonstationary reference agree while attainment differs. Li and Cai (2026) are cited for the broader raw-Gram-versus-student-risk distinction. This does not establish a new framework, variance-optimal tuning counterexample, actual sampling-variance equality or sufficient JCM contribution. Formal PPI++ reconciliation and the choice-analysis value judgment remain open.

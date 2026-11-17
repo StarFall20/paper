@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-17",
+  "primary_research_sources": [
+    {
+      "source": "Li, Romano and Cai, Xunfan (2026). Accuracy Is Not Value: Choosing Weak Supervisors by What the Student Inherits",
+      "url": "https://arxiv.org/html/2611.08959v1",
+      "version": "v1, 6 November 2026",
+      "read_units": [
+        "Sections 3 and 4.1–4.2; Proposition 4.1 and Theorem 4.2",
+        "Appendix B.1, B.2.1–B.2.2, B.6 including Theorems B.4 and B.19",
+        "Appendix E.1–E.2 including Assumption B.2 and Proposition E.1",
+        "Section 9 limitations and related-work trace"
+      ],
+      "scope_inference": "Raw prediction-error Gram versus linear-student quadratic risk is prior. The read statements do not themselves give the specified compensated-logit attainment comparison. This does not prove priority."
+    },
+    {
+      "source": "Mulgund and Pabbaraju (2025), Beyond the Squared Loss",
+      "url": "https://arxiv.org/html/2501.19105v2",
+      "version": "v2, 3 February 2025; formal PMLR abstract also read",
+      "formal_url": "https://proceedings.mlr.press/v267/mulgund25a.html",
+      "read_units": [
+        "Section 3.4 and Theorem 4.1, Corollary 4.2, Theorem 4.3 with proof sketches"
+      ],
+      "formal_PDF_download": "PMLR direct URL unavailable; linked raw PDF unsupported content type",
+      "formal_preprint_identity_verified": false
+    },
+    {
+      "source": "Xu, Yao, Wang and Liu (2026), Bregman Bias–Variance Decomposition",
+      "url": "https://arxiv.org/html/2505.24313v3",
+      "version": "v3, 19 August 2026; formal PMLR abstract also read",
+      "formal_url": "https://proceedings.mlr.press/v306/xu26by.html",
+      "read_units": [
+        "Section 3 setup and Bregman risk definitions",
+        "Section 4 Theorem 4.1 and its scope discussion"
+      ],
+      "formal_PDF_download": "PMLR direct URL unavailable; linked raw PDF unsupported content type",
+      "formal_preprint_identity_verified": false
+    },
+    {
+      "source": "Koriyama and Bellec v3",
+      "url": "https://arxiv.org/html/2501.03163v3",
+      "read_units": [
+        "Assumptions 2.4–2.5; repeated scope verification"
+      ],
+      "new_priority_exclusion_claim": false
+    }
+  ],
+  "reviews_screened": [
+    {
+      "url": "https://hdsr.mitpress.mit.edu/pub/dwrc1xcp/release/2",
+      "units": "Introduction and find-context for high-dimensional/existence; not whole text",
+      "used_as_original_theorem_evidence": false
+    },
+    {
+      "url": "https://www.mdpi.com/2227-7390/14/12/2166",
+      "units": "Introduction, scope, loss formulation and find-context for high-dimensional/existence; not whole text",
+      "used_as_original_theorem_evidence": false
+    }
+  ],
+  "official_repository_path_inventories": [
+    {
+      "repo": "aangelopoulos/ppi_py",
+      "commit": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+      "entries": 95,
+      "truncated": false
+    },
+    {
+      "repo": "aangelopoulos/ppi_py",
+      "commit": "363265dd97919b47e185b9a0b069dcf5463e79d4",
+      "entries": 130,
+      "truncated": false
+    }
+  ],
+  "repository_inventory_scope": "Pinned path inventories have plot PDFs but no article/appendix filename identified. This is not formal-body or notebook theorem reconciliation.",
+  "actual_new_general_web_queries": 13,
+  "queries": [
+    "\"PPI++\" \"aoas2215suppa\"",
+    "\"PPI++: Efficient Prediction-Powered Inference\" filetype:pdf",
+    "\"prediction powered inference\" \"convex\" \"existence\" logistic",
+    "\"prediction-powered inference\" survey high dimensional logistic",
+    "\"prediction-powered\" \"proportional\"",
+    "\"prediction-powered\" \"high-dimensional\" \"logistic\"",
+    "\"PPI++\" \"separation\" \"existence\"",
+    "\"prediction-powered\" \"statistical dimension\"",
+    "Mulgund Pabbaraju 2025 weak strong general loss",
+    "Xu 2026 weak strong proper loss convex student misfit",
+    "\"prediction-powered\" \"same Hessian\"",
+    "\"prediction-powered\" \"local\" \"unbounded\"",
+    "\"compensated\" \"logistic\" \"Hessian\" \"existence\""
+  ],
+  "actual_new_Scopus_document_queries": 0,
+  "actual_new_Google_Scholar_queries": 0,
+  "actual_new_WOS_queries": 0,
+  "formal_PPI_body_and_A_to_E_read": false,
+  "formal_access_gap_inherited_from_previous_round": true,
+  "new_deterministic_designs": 1,
+  "new_independent_cohorts": 0,
+  "new_human_or_AI_answers": 0,
+  "all_downloaded_upstream_code_executed": false,
+  "entire_referenced_articles_line_by_line_read": false,
+  "global_originality_proven": false,
+  "submission_threshold_certified": false
+}

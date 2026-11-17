@@ -107,3 +107,10 @@ epi=ROOT/'results/epi_scope'
 for line in (epi/'MANIFEST.sha256').read_text().splitlines():
  h,n=line.split('  ',1);assert hashlib.sha256((epi/n).read_bytes()).hexdigest()==h,n
 assert json.loads((epi/'verification/verification.json').read_text())['state']=='passed'
+
+matched=ROOT/'results/matched_local_information'
+for line in (matched/'MANIFEST.sha256').read_text().splitlines():
+ h,n=line.split('  ',1);assert hashlib.sha256((matched/n).read_bytes()).hexdigest()==h,n
+matched_record=json.loads((matched/'results/exact_information.json').read_text())
+assert matched_record['state']=='passed' and matched_record['exact_critical_power']=='11/20'
+assert json.loads((matched/'verification/verification.json').read_text())['state']=='passed'

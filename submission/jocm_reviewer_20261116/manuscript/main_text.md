@@ -169,7 +169,7 @@ Figure 1  Finite fit frequencies at auxiliary to label ratio one and utility sig
 
 ### 3.5 Local score equivalence and finite estimation
 
-Common first order limits can coexist with different finite sample risks in prediction assisted estimation (Chen et al., 2026). We examine finite estimation while holding the realized score at the true parameter exactly equal. An oracle variance calculation can favor correction while its empirical objective lacks a finite root. Known population predictions isolate the role of curvature. Let $\mu(X)=\sigma(X^T\beta_0)$ and let $g_0=E(Y\mid X,Z)$ be a frozen conditional mean based on additional information $Z$. Define
+Common first order limits can coexist with different finite sample risks in prediction assisted estimation (Chen et al., 2026). Li and Cai (2026) show that the raw error Gram matrix need not determine a linear student's risk. We examine finite estimation while holding the realized score at the true parameter exactly equal. An oracle variance calculation can favor correction while its empirical objective lacks a finite root. Known population predictions isolate the role of curvature. Let $\mu(X)=\sigma(X^T\beta_0)$ and let $g_0=E(Y\mid X,Z)$ be a frozen conditional mean based on additional information $Z$. Define
 
 $$g_s=\mu+s(g_0-\mu),\qquad a_\tau=\tau/(1+\tau),\qquad \lambda_s=a_\tau/s,\qquad a_\tau\leq s\leq1. \qquad (15)$$
 
@@ -183,7 +183,7 @@ Under Theorem 1 with $\gamma=0$, proxy error $0.1$ and $\tau=1$, the half-shrunk
 
 Appendix B proves the identities and the strict boundary inequalities. The two objectives differ by a multiple of $L_N(\mu)-L_m(\mu)$. This term has exactly zero gradient at $\beta_0$ on every sample and changes their empirical Hessians. The construction fixes the variance optimal population weights, isolating curvature from weight estimation noise. The reference function $\mu$ uses the true parameter; the construction provides a theoretical comparison.
 
-A finite design counterpart uses any observed reference coefficient $b$ and its probabilities $\mu_b=\sigma(X^Tb)$. For a fixed base power $a>0$, the path $g_\lambda=\mu_b+(a/\lambda)(g-\mu_b)$, $a\leq\lambda\leq1$, preserves every labelled and auxiliary score row at $b$. Its empirical score covariance middle is identical; its Hessian can change. When the existing variance rule selects $0<a<1$ at this reference, recomputing that rule returns the path powers. Appendix B5 gives the algebra and an exact scalar example. A fitted reference supplies an observable comparison point. The covariance at the unknown true parameter remains a separate property. Section 4.3 evaluates this construction on released choices.
+A finite design counterpart uses any observed reference coefficient $b$ and its probabilities $\mu_b=\sigma(X^Tb)$. For a fixed base power $a>0$, the path $g_\lambda=\mu_b+(a/\lambda)(g-\mu_b)$, $a\leq\lambda\leq1$, preserves every labelled and auxiliary score row at $b$. Its empirical score covariance middle is identical; its Hessian can change. When the existing variance rule selects $0<a<1$ at this reference, recomputing that rule returns the path powers. Appendix B5 gives the algebra and an exact scalar example. A separate construction with an estimated intercept fixes the full observed Hessian, empirical sandwich matrix and Newton update at the reference, yet has opposite attainment at two fixed powers. These reference quantities are distinct from covariance at the unknown true parameter. Section 4.3 evaluates the score identity on released choices.
 
 With utility signal $1.5$, proxy error $0.1$ and equal sample sizes, the computed boundaries are $0.5554$ for the unshrunk reference and $0.3363$ for the half-shrunk reference; ordinary logit has boundary $0.3903$. Figure 2 evaluates this nonzero signal example on matched draws. At 160 labelled choices and 72 noise slopes, finite root frequencies are $0.924$ and $0.012$ for the two variance references. Their paired difference is $0.912$, with Monte Carlo standard error $0.01268$. A fixed power of $0.5$ on the half-shrunk prediction gives frequency $0.814$.
 
@@ -558,6 +558,8 @@ Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregu
 Kosmidis, I., Firth, D. (2021). Jeffreys-prior penalty, finiteness and shrinkage in binomial-response generalized linear models. Biometrika 108(1), 71–82. https://doi.org/10.1093/biomet/asaa052
 
 Lee, S.Y., Kim, J.K. (2026). Statistical Optimality of Prediction-Powered Inference. Preprint, arXiv:2606.08730v1. https://arxiv.org/abs/2606.08730v1
+
+Li, R., Cai, X. (2026). Accuracy Is Not Value: Choosing Weak Supervisors by What the Student Inherits. Preprint, arXiv:2611.08959v1. https://arxiv.org/abs/2611.08959v1
 
 Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5
 

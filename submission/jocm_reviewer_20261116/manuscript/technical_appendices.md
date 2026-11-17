@@ -203,6 +203,24 @@ $$Q_{\lambda,g_\lambda}^{\infty}(1)=9/44-\lambda. \qquad (B.9)$$
 
 The corrected moment is positive throughout the path. The scalar log-partition gradient spans the open interval from zero to that upper moment, giving a unique finite root for $15/88\leq\lambda<9/44$. The moment is on the boundary at $9/44$ and exterior above it. All transformed predictions are strictly inside $(0,1)$. Exact fraction arithmetic and separate numerical support checks retain the base recession gap $3/88$ and unit power cost $-35/44$. This deliberately selected finite example illustrates the same loss geometry without a known true probability function.
 
+The observed Hessian can also be held equal. Fit an intercept $\alpha$ and one attribute slope $\beta$, with $X=(1,x)^T$. The two labelled rows have attributes $(-1,1)$, choices $(0,1)$ and base predictions $(1/10,9/10)$. Eight auxiliary rows have attributes $(-2,0,0,0,0,0,0,2)$ and predictions $(1/4,1/2,1/2,1/2,1/2,1/2,1/2,3/4)$. Set $b=(0,0)$ and $a=1/2$ in (B.7). Every transformed prediction is strictly interior. Both groups have second-moment matrix $I_2$. For every $1/2\leq\lambda\leq1$,
+
+$$H_\lambda(0)=I_2/4,\qquad \nabla Q_\lambda(0)=(0,-29/80)^T. \qquad (B.9a)$$
+
+Every corrected score row is identical across powers. Let $S_L,S_U$ be their unbiased within-group covariances and $J=S_L/2+S_U/8$. The full reference-point empirical sandwich is
+
+$$H_\lambda(0)^{-1}JH_\lambda(0)^{-1}=\operatorname{diag}(4057/2800,3/112). \qquad (B.9b)$$
+
+The objective value at the reference is $\log2$, its third derivative tensor is zero, and the Newton update from the reference is $(0,29/20)$ at every power. Symmetry makes $\alpha=0$ the unique conditional intercept minimizer for each fixed $\beta$. On that line the slope gradient is
+
+$$F_\lambda(\beta)=(1-\lambda)\operatorname{tanh}(\beta/2)/2+(\lambda/4)\operatorname{tanh}\beta-29/80, \qquad (B.9c)$$
+
+which is strictly increasing at finite $\beta$, is negative at zero, and satisfies
+
+$$\lim_{\beta\to\infty}F_\lambda(\beta)=(11-20\lambda)/80. \qquad (B.9d)$$
+
+Full curvature rank then gives a unique finite minimizer for $1/2\leq\lambda<11/20$. At $11/20$ the finite infimum is unattained. Above it, direction $(0,1)$ has negative recession and the objective is unbounded below. At half power the finite slope is approximately 3.67677; unit power has recession $-9/80$. Exact fractions and an independently written 90-digit original-loss calculation verify the values. This construction compares fixed powers at a reference point with nonzero score. It holds the complete empirical score and curvature information fixed within the same objective family.
+
 Table B2  Finite targets at equal observed reference scores with strictly interior base weights
 
 | Labels | Prediction | Allocations | Base finite | End finite | Base only | End only |

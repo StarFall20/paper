@@ -1,3 +1,5 @@
+当前版本已将匹配参考信息构造并入第 3.5 节和附录 B5，见[整合记录](../matched_information_manuscript_integration_20261117/README.md)。以下较早条目均为历史记录。
+
 当前版本已补入 EPI 最近邻约束对照，见[本轮记录](../epi_literature_integration_20261117/README.md)。下列较早整理条目保留为历史。
 
 最新稿件已并入单步基线核查，见[本轮整合记录](../one_step_manuscript_integration_20261117/README.md)。以下较早整理记录保留为历史。
