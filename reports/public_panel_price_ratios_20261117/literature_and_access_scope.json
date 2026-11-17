@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-17",
+  "general_web_queries": 8,
+  "query_scope": "Six author/formal-version and two targeted compensated-logit/existence queries; no institutional database query.",
+  "query_strings": [
+    "\"aoas2215\" supplement [imstat.org/projecteuclid.org]",
+    "\"PPI++\" \"pdf\" [author/institution domains]",
+    "\"Tijana Zrnic\" \"Efficient prediction\"",
+    "\"Anastasios Angelopoulos\" \"PPI++\" paper",
+    "\"Annals of Applied Statistics\" \"supplements\" \"2215\"",
+    "\"prediction-powered\" \"existence\" \"phase transition\" logistic",
+    "\"prediction-powered\" \"rectified\" \"separation\"",
+    "\"compensated\" \"logistic\" \"phase transition\" prediction"
+  ],
+  "primary_pages_read": [
+    "https://tijana-zrnic.github.io/",
+    "https://arxiv.org/abs/2311.01453",
+    "https://zenodo.org/records/15420092",
+    "https://zenodo.org/records/15574862"
+  ],
+  "additional_primary_attempts": [
+    {
+      "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full",
+      "result": "iframe only via web tool"
+    },
+    {
+      "url": "https://stanford.edu/~jduchi/projects/AngelopoulosDuZr23w.pdf",
+      "result": "404; not read"
+    },
+    {
+      "url": "https://web.stanford.edu/~jduchi/projects/AngelopoulosDuZr23w.pdf",
+      "result": "404; not read"
+    }
+  ],
+  "new_Scopus_queries": 0,
+  "new_Google_Scholar_queries": 0,
+  "new_WOS_queries": 0,
+  "formal_PPI_body_read": false,
+  "formal_PPI_A_to_E_read": false,
+  "global_priority_certified": false,
+  "reading_limits": "Search snippets were used only to locate primary sources, not as evidence of a theorem absence. Current author page points to the previously inspected arXiv v2; not evidence of formal-version equivalence."
+}

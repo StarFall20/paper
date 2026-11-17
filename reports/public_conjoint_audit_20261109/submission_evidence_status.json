@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
   "goal_complete": false,
-  "decision": "The current reviewed manuscript remains the 71-page/29-page public-panel integration. A separate bounded official-API diagnostic now supplies actual runtime evidence beyond earlier static code reading. This does not establish specific-result priority or sufficient JCM value. Formal PPI++ body and Appendices A–E remain unread, and the research goal is active.",
+  "decision": "The current reviewed manuscript remains the 71-page/29-page public-panel integration. Official API runtime and secondary price-equivalent diagnostics are separately checked and archived. Economic-sign and moderate-budget results limit broad application claims. Formal PPI++ body/Appendices A–E, exact-result priority and sufficient choice-analysis value remain open; no submission-readiness certification or submission has occurred.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../official_ppi_runtime_audit_20261117/README.md",
+  "latest_progress_report": "../public_panel_price_ratios_20261117/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Unmodified pinned official logistic API executed on 68 predeclared calls. All 8 selected exterior public targets returned finite numerical arrays after optimizer failure; all 8 automatic calls in those cases stopped at singular initial Hessians. Normal controls succeed. Independent original-row verification and isolated byte-identical replay pass; no new theory or prevalence claim. Current reviewed Word unchanged; formal-version gap persists.",
+  "latest_progress": "All 15418 available food-DCE coefficients translated into eight attribute price equivalents without refitting. A separate Decimal/order-statistic verifier checks 123344 ratios, 32 availability rows, 512 attribute summaries and 64 paired summaries. Only one positive price coefficient appears; moderate-budget price equivalents track ordinary MNL closely. This limits a broad economic-distortion narrative and adds no theory or accuracy claim. Formal PPI++ reconciliation remains unresolved.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -647,5 +647,22 @@
     "new_theoretical_framework": false,
     "formal_PPI_gap_resolved": false,
     "submission_threshold_certified": false
+  },
+  "price_ratios_20261117": {
+    "state": "complete_independently_checked_and_replayed",
+    "report": "../public_panel_price_ratios_20261117/README.md",
+    "method_records": 16000,
+    "finite_coefficient_vectors": 15418,
+    "negative_price_vectors": 15417,
+    "positive_price_vectors": 1,
+    "scalar_attribute_ratios": 123344,
+    "attributes": 8,
+    "unit": "GBP per 250g package",
+    "new_model_fits": 0,
+    "new_human_or_AI_answers": 0,
+    "current_Word_unchanged": true,
+    "current_Word_integration_pending": true,
+    "formal_PPI_gap_resolved": false,
+    "global_priority_or_submission_threshold_certified": false
   }
 }

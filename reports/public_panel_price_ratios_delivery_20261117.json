@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-17",
+  "archive": "jocm_public_panel_price_ratios_20261117.zip",
+  "sha256": "735af1c8040a0b680807fef75348beacc3e752f072cc5a97e6d4d75a226a1a9d",
+  "files": 23,
+  "bytes": 3085073,
+  "fresh_extraction_all_files_identical": true,
+  "isolated_package_check": {
+    "state": "passed",
+    "manifest_entries": 22,
+    "all_32_readme_rows_reconciled": true,
+    "raw_respondent_data_included": false,
+    "global_priority_or_submission_threshold_certified": false
+  },
+  "complete_secondary_replay_outputs": 6,
+  "raw_respondent_rows_or_source_PDF_included": false,
+  "current_Word_unchanged": true,
+  "research_goal_complete": false
+}

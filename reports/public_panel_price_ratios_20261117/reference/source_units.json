@@ -1,0 +1,36 @@
+{
+  "source": "https://zenodo.org/records/15420092",
+  "workbook": "COSCBB.xlsx",
+  "sheet": "metadata",
+  "source_workbook_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "rows_inspected": [
+    68,
+    99,
+    104
+  ],
+  "ingredient_coding": "1 is Bere flour; 2 is no Bere flour; 0 reserved for neither option.",
+  "cost_unit": "GBP per 250 grams package of shortbread biscuits.",
+  "product_price_levels": [
+    1,
+    3.5,
+    6,
+    8.5,
+    11,
+    13.5
+  ],
+  "opt_out_price": 0,
+  "primary_feature_order": [
+    "option1",
+    "option2",
+    "bere",
+    "nutrition_medium",
+    "nutrition_high",
+    "quality_label",
+    "access_speciality",
+    "access_grocery",
+    "origin_elsewhere_Scotland",
+    "origin_outside_Scotland",
+    "cost_GBP10"
+  ],
+  "reader_operation": "Read public metadata rows only; no participant record published in this note."
+}
