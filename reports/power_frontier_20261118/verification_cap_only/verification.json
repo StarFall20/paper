@@ -1,0 +1,23 @@
+{
+  "state": "passed",
+  "policy_records": 2000,
+  "finite_coefficients": 1848,
+  "original_coefficients_reused": 1816,
+  "new_fits": 32,
+  "maximum_errors": {
+    "moment": 1.6338782179066887e-15,
+    "score": 3.858511950690276e-09,
+    "metric": 4.440892098500626e-16
+  },
+  "zero_powers_preserved": true,
+  "shared_original_row_verification_helper": true,
+  "primary_cap_only_rule_fitter_and_metrics_not_imported": true,
+  "verifier_sha256": "fa55fbda44757efe1fb4abf61eb54561f1864de469ba83329135229ffc63101f",
+  "result_hashes": {
+    "summary.json": "635d714641d33471ca33bf8e1da04522a8547acf2bc7227f443277c217f9ea24",
+    "interior_witnesses.json.gz": "eb182e7442a69ffe7c724f81df7a06b60fe85906c3b7cefe95fe200a8b0c2fc5",
+    "coefficients.json": "4f8067875fe0341b1b6482a01eceb5f8603ffc58d491aa6bd12bb7e17f8f0987",
+    "records.csv": "41fc741ab1a764e8b0bfe851e8105ae8882131162e0c3e207b91e1fb63dae346",
+    "status.json": "107a11bc0c7973f5cd8c296683e4ad23f1298b66a2f6d5e3fa614d6b7c285907"
+  }
+}

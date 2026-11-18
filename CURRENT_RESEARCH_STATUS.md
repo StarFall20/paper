@@ -1,3 +1,11 @@
+# DCE power intervals and direct-prior follow-up 18 November 2026
+
+The [new verified follow-up](reports/power_frontier_20261118/README.md) computes all 2000 observed DCE power intervals, preserves the 4000 planned policy records and a separately declared 2000-record zero-preserving control. There are 3916 new fits and 1816 verified reused coefficients, not 6000 new fits or new respondents. Half-frontier and central-interval projection have 443/499/500/500 finite fits, while the zero-preserving upper-cap control has 353/495/500/500. All adverse forecasts and teacher-training label costs remain.
+
+Six actual Scholar queries locate a direct TC-PPI Bradley–Terry quasi-separation prior and a general DiPPI score framework containing the scalar corrected score by an exact rescaling. Generic instability, score correction and categorical probability-vector use are established prior. The model-specific proportional boundary and controlled consequences remain the candidate increment. School login and another institutional round trip returned Scopus Preview; document queries remain zero, without a claim about the institution's subscription.
+
+The [value assessment](reports/power_frontier_20261118/value_assessment.md) and [proposed manuscript edits](reports/power_frontier_20261118/proposed_manuscript_revision.md) retain these distinctions. Current 74/29-page reviewed Word files and submission materials are unchanged; the new citations and compact empirical consequence require integration. The research goal is active and not certified achieved. Earlier entries below are history.
+
 # Independent released prediction workflow integrated 18 November 2026
 
 The [current reviewed integration](reports/external_manuscript_integration_20261118/README.md) adds the independent Alves (2026) RADIANT/PPI application to Section 4.7, Appendix C11 and references. All 24 original-power LLM targets are interior. A separately planned unit-power sensitivity has one exterior target; all eight ordinary MNL designs are interior. The 24 statistical-predictor cells lack frozen input vectors and are explicitly outside this reconstruction. The same-data correction application is established prior, not the article's innovation.

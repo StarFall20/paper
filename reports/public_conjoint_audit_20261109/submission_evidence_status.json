@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "goal_complete": false,
-  "decision": "The independent same-data PPI application and fixed-prediction audit are integrated and visually verified. Original-power targets remain all interior; changed-power sensitivity is separate. Specific originality and sufficient methodological value remain under assessment.",
+  "decision": "The concrete observed-design power decision has been tested with adverse forecasts and zero-preserving control retained. Direct quasi-separation and pooled-score priors require citation. Specific boundary originality and sufficient JCM contribution remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -21,15 +21,15 @@
       "status": "specific_compensated_attainment_and_matched_information_consequences_derived_priority_and_value_under_assessment",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Complete specific-result priority and sufficient choice-analysis value assessment. General Gaussian absorption and harmful prediction aggregation are established prior and explicitly attributed.",
-      "latest_candidate_evidence": "../matched_local_information_20261117/prior_and_value_assessment.md",
-      "latest_application_scope": "../public_panel_dce_20261117/value_assessment.md"
+      "latest_candidate_evidence": "../power_frontier_20261118/proof_and_scope.md",
+      "latest_application_scope": "../power_frontier_20261118/value_assessment.md"
     },
     {
       "requirement": "Fair comparison against established methods",
       "status": "established_baselines_one_step_domain_and_new_real_DCE_training_cost_controls_retained",
       "evidence": "../one_step_manuscript_integration_20261117/README.md",
       "remaining": "The fixed allocation and fixed-power diagnostic gives no prediction-error advantage over direct human ridge;it does not establish general tuning or externally pretrained predictor rankings.",
-      "latest_additional_evidence": "../public_panel_dce_20261117/README.md"
+      "latest_additional_evidence": "../power_frontier_20261118/README.md"
     },
     {
       "requirement": "Proof and numerical validity",
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../external_manuscript_integration_20261118/README.md",
+  "latest_progress_report": "../power_frontier_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Reviewed canonical 74/29-page Word integration, nearest application citation, C11 reconstruction and preserved original/sensitivity distinction; source and reproduction packages updated.",
+  "latest_progress": "Verified 2000 finite-design power intervals, 4000 planned follow-up policies and a separate 2000-record zero-preserving control. Six actual Scholar searches and new direct-prior attribution narrow the contribution. Word integration pending.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -762,5 +762,18 @@
     "preceding_files_preserved": 843,
     "new_evidence_files": 20,
     "research_goal_complete": false
+  },
+  "power_frontier_20261118": {
+    "state": "independently_verified",
+    "frontiers": 2000,
+    "planned_policy_records": 4000,
+    "posthoc_control_records": 2000,
+    "new_fits": 3916,
+    "reused_coefficients": 1816,
+    "all_checked_coefficients": 5732,
+    "Scholar_queries": 6,
+    "Scopus_document_queries": 0,
+    "current_Word_unchanged": true,
+    "goal_complete": false
   }
 }

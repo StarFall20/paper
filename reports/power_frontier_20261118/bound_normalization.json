@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-18",
+  "type": "Documented bound normalization after first independent verification",
+  "negative_raw_caps": 2,
+  "minimum_raw_cap": -8.7631394758726e-14,
+  "changed_records": [
+    {
+      "frontier_record": 248,
+      "raw": -8.7631394758726e-14,
+      "normalized": 0.0
+    },
+    {
+      "frontier_record": 812,
+      "raw": -1.1379714010455e-14,
+      "normalized": 0.0
+    }
+  ],
+  "all_coefficients_unchanged": true,
+  "all_summaries_unchanged": true,
+  "initial_result_hashes": {
+    "summary.json": "216a9a6e1cdb64779dec501ea97cbcdbf5ae032a4e19a1855ed9b55c4762c650",
+    "policy_records.csv": "64727fa4d4eea41747ef381a5fb3b3ef1ea85fa56106ee766f21e1593db76dbb",
+    "certificates.json": "a87b785b3a2b2990ae0410503dc5d136a9a99c1091ac39d4382d583f82f240d9",
+    "coefficients.json": "9c4c6ad6e36a646816ec36f06620ccb800a46677751502db7d7698d6e41a2f36",
+    "status.json": "e337ef35a5a0cfa3b6057f70d0b3a2387da4695bbd4c515ef0d209aed3052dd1",
+    "frontiers.csv": "5c5610a187cb14eea61321a458cefba190df0644d524d68aeacb44800f5f4308"
+  },
+  "initial_verification": {
+    "state": "passed",
+    "frontiers_checked": 2000,
+    "policy_records_checked": 4000,
+    "finite_coefficients_checked": 3884,
+    "original_row_frontier_LPs": 29,
+    "maximum_errors": {
+      "primal_moment": 3.7890797789654905e-13,
+      "dual_recession": 1.3495019578556573e-13,
+      "score": 5.278424891619338e-09,
+      "metric": 1.7763568394002505e-15,
+      "raw_frontier": 1.6187051699034782e-13
+    },
+    "source_reader_shared": true,
+    "primary_frontier_support_objective_fitter_metrics_not_imported": true,
+    "new_inference_or_originality_certified": false,
+    "verifier_sha256": "b878c12389a35f8f5a19d9f83f31f05c6c4dda2f7e9526efa78b335dddc436f5",
+    "result_hashes": {
+      "summary.json": "216a9a6e1cdb64779dec501ea97cbcdbf5ae032a4e19a1855ed9b55c4762c650",
+      "policy_records.csv": "64727fa4d4eea41747ef381a5fb3b3ef1ea85fa56106ee766f21e1593db76dbb",
+      "certificates.json": "a87b785b3a2b2990ae0410503dc5d136a9a99c1091ac39d4382d583f82f240d9",
+      "coefficients.json": "9c4c6ad6e36a646816ec36f06620ccb800a46677751502db7d7698d6e41a2f36",
+      "status.json": "e337ef35a5a0cfa3b6057f70d0b3a2387da4695bbd4c515ef0d209aed3052dd1",
+      "frontiers.csv": "5c5610a187cb14eea61321a458cefba190df0644d524d68aeacb44800f5f4308"
+    }
+  },
+  "no_extra_model_fits": true,
+  "certificate_encoding_values_identical": true,
+  "compressed_bytes": 2015438
+}

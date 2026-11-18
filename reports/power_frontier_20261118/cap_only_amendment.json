@@ -1,0 +1,8 @@
+{
+  "date":"2026-11-18",
+  "timing":"Post-hoc stronger control, specified after all 4000 planned policy fits and their independent verification were observed. Original plans and outcomes remain unchanged.",
+  "concern":"The central-interval projection forces previously zero variance powers positive. Its adverse prediction result must not be attributed entirely to imposing a feasibility upper cap.",
+  "rule":"If the frontier exceeds 1e-10, use min(saved_cluster_power,0.9*frontier), retaining exact zero. If the frontier is numerically zero, retain the saved power and its original unavailable state, followed by the same labelled-ridge fallback for all-allocation risk. Never call an exterior positive power feasible.",
+  "scope":"All 2000 original allocations, no holdout tuning. Reuse an existing corrected-cluster coefficient only when the objective's power is exactly unchanged; fit every changed interior target. Recompute a strict-support witness for every interior target.",
+  "claims":"Descriptive control, not preregistration, new independent theory, a universally optimal power, or finite-sample inference. Separate this control from the original 4000 policy fits."
+}
