@@ -1,3 +1,7 @@
+# 任意有限阶局部匹配已纳入稿件
+
+[现行稿件与复现记录](reports/local_derivative_manuscript_integration_20261118/README.md)更新第 3.5 节和附录 B5。15 个有理数构造独立核验，最高检查到 33 阶。完整稿 78 页，阅读版 30 页。以下为早期记录。
+
 # 食品和交通选择的独立证据已纳入审阅稿
 
 [当前稿件与复现记录](reports/swissmetro_entropy_manuscript_integration_20261118/README.md)包含 77 页完整 Word 和 30 页阅读版。摘要、正文、附录、投稿信和亮点反映同一更新。食品与交通两个公开选择实验提供权重上限附近的预测证据。下列条目为早期记录。

@@ -194,3 +194,14 @@ assert cost['path_comparisons']==1152 and sum(r['fallback_lower_loss_count'] for
 derivative = ROOT/'results/entropy_endpoint_audit/results'
 ev = json.loads((derivative/'summary.json').read_text())
 assert ev['records']==856 and ev['statistics'][1]['opposing_derivatives']==107
+
+
+# Bind the arbitrary local derivative construction to the current manuscript.
+local_design = ROOT/'results/local_derivative_attainment'
+for line in (local_design/'MANIFEST.sha256').read_text().splitlines():
+    expected, n = line.split('  ', 1)
+    assert hashlib.sha256((local_design/n).read_bytes()).hexdigest() == expected,n
+ld = json.loads((local_design/'results/verification.json').read_text())
+assert ld['state']=='passed' and ld['finite_designs_checked']==15
+assert ld['exact_orders'][-1]['degree']==33 and ld['near_extremal_orders'][-1]['degree']==25
+assert hashlib.sha256((local_design/'results/designs.json').read_bytes()).hexdigest()==ld['designs_sha256']

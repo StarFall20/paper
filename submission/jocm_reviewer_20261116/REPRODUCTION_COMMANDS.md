@@ -410,3 +410,8 @@ The dated report describes the directory layout of its standalone archive. The c
 ## Independent Swissmetro data and objective derivatives
 
 Use the archive-root instructions in the [Swissmetro analysis](results/swissmetro_corrected_path/README.md) and [entropy derivative analysis](results/entropy_endpoint_audit/README.md). Both reports use separate source inputs available at their original public locations. Keep downloaded raw inputs and generated results outside the archive when rerunning its inventory verifier.
+
+
+## Matched local derivative designs
+
+The [local derivative supplement](results/local_derivative_attainment/README.md) runs with the archived package versions and has no respondent-data input. Run its two commands from the supplement directory with a fresh output path.

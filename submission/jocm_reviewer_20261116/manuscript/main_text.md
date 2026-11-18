@@ -179,7 +179,7 @@ Under Theorem 1 with $\gamma=0$, proxy error $0.1$ and $\tau=1$, the half-shrunk
 
 The objectives differ by a multiple of $L_N(\mu)-L_m(\mu)$, whose gradient at $\beta_0$ is zero on every sample. It changes their Hessians. The population weights are the existing variance-optimal choices, and $\mu$ uses the true parameter. Appendix B proves the identities and strict boundary inequalities.
 
-For an observed reference $b$, put $\mu_b=\sigma(X^Tb)$. At fixed base power $a>0$, the path $g_\lambda=\mu_b+(a/\lambda)(g-\mu_b)$, $a\leq\lambda\leq1$, preserves every labelled and auxiliary score row at $b$ and its empirical covariance middle. The existing variance rule returns the path powers when it selects $0<a<1$ at the reference. Appendix B5 gives the algebra. Another exact construction, with an estimated intercept, also fixes the observed Hessian, sandwich and Newton update while attainment changes. Section 4.3 evaluates the score identity on released choices.
+For an observed reference $b$, put $\mu_b=\sigma(X^Tb)$. At fixed base power $a>0$, the path $g_\lambda=\mu_b+(a/\lambda)(g-\mu_b)$, $a\leq\lambda\leq1$, preserves every labelled and auxiliary score row at $b$ and its empirical covariance middle. The existing variance rule returns the path powers when it selects $0<a<1$ at the reference. Appendix B5 gives the algebra. A bounded design with a fitted intercept also matches all local derivatives through any prescribed finite order. The same human choices yield a finite ordinary logit and different compensated existence outcomes. Section 4.3 evaluates the score identity on released choices.
 
 With utility signal $1.5$, proxy error $0.1$ and equal sample sizes, the computed boundaries are $0.5554$ for the unshrunk reference and $0.3363$ for the half-shrunk reference; ordinary logit has boundary $0.3903$. Figure 2 evaluates this nonzero signal example on matched draws. At 160 labelled choices and 72 noise slopes, finite root frequencies are $0.924$ and $0.012$ for the two variance references. Their paired difference is $0.912$, with Monte Carlo standard error $0.01268$. A fixed power of $0.5$ on the half-shrunk prediction gives frequency $0.814$.
 
@@ -558,6 +558,8 @@ Bhatia, R., Davis, C. (2000). A better bound on the variance. American Mathemati
 Bierlaire, M., Axhausen, K.W., Abay, G. (2001). The acceptance of modal innovation: The case of Swissmetro. Swiss Transport Research Conference, Monte Verità. https://transp-or.epfl.ch/documents/proceedings/BierAxhaAbay01.pdf
 
 Broska, D., Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. Preprint, arXiv:2610.09601v1. https://arxiv.org/abs/2610.09601v1
+
+Cai, T.T., Low, M.G. (2011). Testing composite hypotheses, Hermite polynomials and optimal estimation of a nonsmooth functional. Annals of Statistics 39(2), 1012–1041. https://doi.org/10.1214/10-AOS849
 
 Cai, Z., Fan, Y., Chen, S., Du, J.H. (2026). DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration. Preprint, arXiv:2609.31215v1. https://arxiv.org/abs/2609.31215v1
 

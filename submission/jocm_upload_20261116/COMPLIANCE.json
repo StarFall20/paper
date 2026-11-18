@@ -23,10 +23,10 @@
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 8983,
+  "main_lexical_words_excluding_math": 8995,
   "verified_full_research_article_word_cap": null,
-  "full_manuscript_pages": 77,
-  "native_math_objects": 1437,
+  "full_manuscript_pages": 78,
+  "native_math_objects": 1453,
   "tables": 20,
   "all_seven_appendices_in_manuscript": true,
   "ai_disclosure_precedes_references": true,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "d1ea778c8e729fbba4e429f5ff3ffc83b0278db85be40acfaa891c9f1f5173c5"
+      "sha256": "708ded98e854e696ca0f8c5e72c78f7e48ead59895cf36738fa2a99efe97b0d8"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",
@@ -103,6 +103,6 @@
   "submission_made": false,
   "research_goal_achieved": false,
   "cached_author_guide_rechecked": "2026-11-18: retained 13 November guide text rechecked; fresh official retrieval returned 403",
-  "current_source_basis": "Body and appendices of PPI++ v2, pinned author code, cited choice-design papers and entropy duality. Current experiments add Swissmetro and the fixed-menu derivative tests.",
+  "current_source_basis": "Body and appendices of PPI++ v2, pinned author code, Swissmetro validation, fixed-menu derivatives, and the attributed moment matching result.",
   "display_formulas": 151
 }

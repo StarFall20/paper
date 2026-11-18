@@ -1,0 +1,20 @@
+{
+  "state": "source_verified",
+  "prior_paper_sha256": "24e39a36782113547ef85df2ddc43b6c2478e2cd4a99d4d3e084cfdb0bd28141",
+  "paper_sha256": "599d5bcbd8f93dac97514eed1547cd36edccc8b5d6802988cb6371842ae3b02c",
+  "main_text_sha256": "bf79525b28bf3a1cd1ebcd880dd93f90de74a815d7f51377c9ce3e92dafc4b62",
+  "reports_files": {
+    "results/local_derivative_attainment/MANIFEST.sha256": "9c528d343d8e1eb1173b522619f595fc272b5ca2129bffbd04efb93c72035684",
+    "results/local_derivative_attainment/README.md": "249bb38f30eeba26521d1d765ca4495adf46033ead9037d16dac5472f05f26e4",
+    "results/local_derivative_attainment/calculate.py": "b82215b45c4d610352250a754adfd5cfdedbb66454885d47576934739a6b633b",
+    "results/local_derivative_attainment/literature.md": "ec8b2ad06e1958dc9a8ec5ca33614a9aa69fcba2eb06e6ebd8ea9924211a1c49",
+    "results/local_derivative_attainment/plan.json": "b529f8ce02817df112bc8651367899e1d69fea1af6286afdd10668b8d792db9c",
+    "results/local_derivative_attainment/proof.md": "98a13ec994c19965260047d241d86db4b9188da1692bcf165ae37026ae78a059",
+    "results/local_derivative_attainment/requirements.txt": "18cc20ed0bee0095076b2b33a9c076d84db95944133c45f16e35a99a70f7415e",
+    "results/local_derivative_attainment/results/designs.json": "6bcba34d82dbb41fd5656815addc78719446294bd43ea1ad6dc1efa7a1f7edf0",
+    "results/local_derivative_attainment/results/verification.json": "8a387d16ab35a0e354a6af612717449cea1ead24f450bbd4a46ba2c9e5cc18fc",
+    "results/local_derivative_attainment/verify.py": "3415c966ad7436b6c51beb21e0c2e27a4cf6b25a9b25bb2ae1754846e79ad74e"
+  },
+  "source_case_count": 15,
+  "max_full_derivative_match": 33
+}

@@ -56,3 +56,8 @@ The [dated path audit](results/dce_frontier_economic_path/README.md) records the
 ## Independent choice data and endpoint derivatives
 
 The [Swissmetro report](results/swissmetro_corrected_path/README.md) and [entropy calculations](results/entropy_endpoint_audit/README.md) identify the source data, plans and independent checks. The [manuscript reconciliation](reports/swissmetro_entropy_validation_20261118.json) binds the numbers in Section 4.8 and Appendix C13. The [current layout record](reports/swissmetro_entropy_visual_qa_20261118.json) covers both Word files, cover letter and highlights.
+
+
+## Local derivatives and finite estimation
+
+The [fixed-design construction](results/local_derivative_attainment/README.md) and [proof](results/local_derivative_attainment/proof.md) extend Appendix B5. [Verification](reports/local_derivative_validation_20261118.json) binds the manuscript and evidence.

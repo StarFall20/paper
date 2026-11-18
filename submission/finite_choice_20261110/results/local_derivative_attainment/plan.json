@@ -1,0 +1,14 @@
+{
+  "status": "specified before numerical calculations",
+  "goal": "Check whether any prescribed finite Taylor order can distinguish existence of the same compensated binary choice loss and quantify the worst-case recession difference.",
+  "bounded_attribute": [-1, 1],
+  "intercept_fitted": true,
+  "powers": ["1/4", "1/2", "3/4"],
+  "exact_orders_K": [1, 2, 3, 4, 6, 8, 12, 16],
+  "approximation_orders_K": [1, 2, 3, 4, 6, 8, 12],
+  "uniform_grid_intervals": 1024,
+  "reference": "Zero intercept and slope. Exact rational source masses represent finite equal-weight samples by replication.",
+  "prediction_path": "A single linear predictor evaluated in both groups at each power and scaled inversely with power. An additional fixed-predictor comparison retains the aggregate Taylor match.",
+  "checks": ["matched moments and all corresponding partial derivatives", "individual corrected score rows", "full-rank Hessian and positive-definite empirical sandwich", "finite attained, finite unattained, and unbounded", "independent exact checks of continuous approximation interval and rational population weights"],
+  "scope": "Constructed finite-design result and worst-case directional support comparison. No new human data, random draws, or checks of a proportional-dimensional limit."
+}

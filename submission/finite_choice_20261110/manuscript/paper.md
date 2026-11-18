@@ -179,7 +179,7 @@ Under Theorem 1 with $\gamma=0$, proxy error $0.1$ and $\tau=1$, the half-shrunk
 
 The objectives differ by a multiple of $L_N(\mu)-L_m(\mu)$, whose gradient at $\beta_0$ is zero on every sample. It changes their Hessians. The population weights are the existing variance-optimal choices, and $\mu$ uses the true parameter. Appendix B proves the identities and strict boundary inequalities.
 
-For an observed reference $b$, put $\mu_b=\sigma(X^Tb)$. At fixed base power $a>0$, the path $g_\lambda=\mu_b+(a/\lambda)(g-\mu_b)$, $a\leq\lambda\leq1$, preserves every labelled and auxiliary score row at $b$ and its empirical covariance middle. The existing variance rule returns the path powers when it selects $0<a<1$ at the reference. Appendix B5 gives the algebra. Another exact construction, with an estimated intercept, also fixes the observed Hessian, sandwich and Newton update while attainment changes. Section 4.3 evaluates the score identity on released choices.
+For an observed reference $b$, put $\mu_b=\sigma(X^Tb)$. At fixed base power $a>0$, the path $g_\lambda=\mu_b+(a/\lambda)(g-\mu_b)$, $a\leq\lambda\leq1$, preserves every labelled and auxiliary score row at $b$ and its empirical covariance middle. The existing variance rule returns the path powers when it selects $0<a<1$ at the reference. Appendix B5 gives the algebra. A bounded design with a fitted intercept also matches all local derivatives through any prescribed finite order. The same human choices yield a finite ordinary logit and different compensated existence outcomes. Section 4.3 evaluates the score identity on released choices.
 
 With utility signal $1.5$, proxy error $0.1$ and equal sample sizes, the computed boundaries are $0.5554$ for the unshrunk reference and $0.3363$ for the half-shrunk reference; ordinary logit has boundary $0.3903$. Figure 2 evaluates this nonzero signal example on matched draws. At 160 labelled choices and 72 noise slopes, finite root frequencies are $0.924$ and $0.012$ for the two variance references. Their paired difference is $0.912$, with Monte Carlo standard error $0.01268$. A fixed power of $0.5$ on the half-shrunk prediction gives frequency $0.814$.
 
@@ -761,6 +761,11 @@ which is strictly increasing at finite $\beta$, is negative at zero, and satisfi
 $$\lim_{\beta\to\infty}F_\lambda(\beta)=(11-20\lambda)/80. \qquad (B.9d)$$
 
 Full curvature rank then gives a unique finite minimizer for $1/2\leq\lambda<11/20$. At $11/20$ the finite infimum is unattained. Above it, direction $(0,1)$ has negative recession and the objective is unbounded below. At half power the finite slope is approximately 3.67677; unit power has recession $-9/80$. Exact fractions and an independently written 90-digit original-loss calculation verify the values. This construction compares fixed powers at a reference point with nonzero score. It holds the complete empirical score and curvature information fixed within the same objective family.
+
+
+The derivative match can extend to any finite order. Let the two empirical attribute distributions be symmetric on $[-1,1]$, with moments equal through order $2K$ and mean absolute attributes $M_L>M_U$. Choose both labelled outcomes at every attribute value, with conditional mean $1/2+(d/2)\operatorname{sign}(x)$ and $d=1-c(M_L-M_U)/M_L$ for $c=1/2$. The aggregate corrected slope moment is $b=dM_L/2$ under the shared linear prediction $1/2+x/(16\lambda)$. Prediction moments cancel because the distributions have matching first and second moments. Equation (B.8) and the remaining matched moments give identical value and partial derivatives at zero through total order $2K+1$. Each individual reference score is also unchanged. The same aggregate Taylor polynomial holds with one fixed prediction $1/2+x/4$.
+
+Symmetry fixes the conditional intercept at zero. The strictly increasing slope score starts below zero and tends to $(c-\lambda)(M_L-M_U)/2$. Powers $1/4$, $1/2$ and $3/4$ therefore give a finite minimizer, a finite unattained infimum and an unbounded objective, respectively. Ordinary logit also attains its minimum. The supplement constructs rational example designs and uses the moment-matching duality of Cai and Low (2011, Lemma 1) to bound the slope recession difference. Its sharp supremum is the power difference times the best uniform error for approximating $|x|$ by a polynomial of degree $2K$. Exact checks reach derivative order 33. The bounds concern these fixed designs and their observed reference summaries.
 
 Table B2  Finite targets at equal observed reference scores with strictly interior base weights
 
@@ -1701,6 +1706,8 @@ Bhatia, R., Davis, C. (2000). A better bound on the variance. American Mathemati
 Bierlaire, M., Axhausen, K.W., Abay, G. (2001). The acceptance of modal innovation: The case of Swissmetro. Swiss Transport Research Conference, Monte Verità. https://transp-or.epfl.ch/documents/proceedings/BierAxhaAbay01.pdf
 
 Broska, D., Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. Preprint, arXiv:2610.09601v1. https://arxiv.org/abs/2610.09601v1
+
+Cai, T.T., Low, M.G. (2011). Testing composite hypotheses, Hermite polynomials and optimal estimation of a nonsmooth functional. Annals of Statistics 39(2), 1012–1041. https://doi.org/10.1214/10-AOS849
 
 Cai, Z., Fan, Y., Chen, S., Du, J.H. (2026). DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration. Preprint, arXiv:2609.31215v1. https://arxiv.org/abs/2609.31215v1
 

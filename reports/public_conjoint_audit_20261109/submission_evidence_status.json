@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "goal_complete": false,
-  "decision": "Independent choice-model validation and matched-label comparisons strengthen the applied scope. Specific-result priority and final author declarations remain under review.",
+  "decision": "The strongest claim remains the compensated-logit existence boundary with matched local information. The new bounded construction strengthens the fixed-design interpretation. Specific-result priority and final author declarations remain under review.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -21,7 +21,7 @@
       "status": "specific_compensated_attainment_and_matched_information_consequences_derived_priority_and_value_under_assessment",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Complete specific-result priority and sufficient choice-analysis value assessment. General Gaussian absorption and harmful prediction aggregation are established prior and explicitly attributed.",
-      "latest_candidate_evidence": "../power_frontier_20261118/proof_and_scope.md",
+      "latest_candidate_evidence": "../local_derivative_attainment_20261118/proof.md",
       "latest_application_scope": "../entropy_endpoint_audit_20261118/README.md"
     },
     {
@@ -34,7 +34,7 @@
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
-      "evidence": "../../submission/finite_choice_20261110/reports/swissmetro_entropy_validation_20261118.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/local_derivative_validation_20261118.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law.",
       "latest_additional_evidence": "../entropy_endpoint_audit_20261118/proof.md"
     },
@@ -52,8 +52,8 @@
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "77_page_full_30_page_reading_Word_reviewed_20_tables_151_displays_7_appendices",
-      "evidence": "../swissmetro_entropy_manuscript_integration_20261118/README.md",
+      "status": "78_page_full_30_page_reading_Word_reviewed_20_tables_151_displays_7_appendices",
+      "evidence": "../local_derivative_manuscript_integration_20261118/README.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
   ],
@@ -206,7 +206,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../swissmetro_entropy_manuscript_integration_20261118/README.md",
+  "latest_progress_report": "../local_derivative_manuscript_integration_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -352,7 +352,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Swissmetro and entropy derivative evidence integrated, rendered and independently checked from the extracted reviewer package.",
+  "latest_progress": "Arbitrary finite local derivative matching incorporated in the bounded compensated-choice construction. The independent checks and source attributions are filed.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -474,7 +474,7 @@
     "new_Scopus_queries": 0,
     "new_human_or_AI_answers": 0,
     "goal_achieved": false,
-    "current_copied_parent_files": 1213,
+    "current_copied_parent_files": 1230,
     "current_curation": "../../submission/jocm_reviewer_20261116/CURATION.json",
     "root_analysis_sources_unchanged_in_EPI_revision": 83,
     "root_analysis_sources_unchanged_in_matched_information_revision": 83
@@ -809,5 +809,13 @@
     "direct_human_lower_loss_all_comparisons": true,
     "manuscript_integrated": true,
     "evidence": "../swissmetro_entropy_manuscript_integration_20261118/README.md"
+  },
+  "local_derivative_attainment_20261118": {
+    "report": "../local_derivative_attainment_20261118/README.md",
+    "finite_designs_constructed": 15,
+    "highest_derivative_order_in_checked_examples": 33,
+    "sharp_directional_bound_attributed_to_prior_moment_approximation_duality": true,
+    "independent_package_rerun": true,
+    "manuscript_integrated": true
   }
 }

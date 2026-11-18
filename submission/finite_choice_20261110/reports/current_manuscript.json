@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "integration": "reports/swissmetro_entropy_integration_20261118.json",
-  "visual_qa": "reports/swissmetro_entropy_visual_qa_20261118.json",
-  "validation": "reports/swissmetro_entropy_validation_20261118.json",
+  "integration": "reports/local_derivative_integration_20261118.json",
+  "visual_qa": "reports/local_derivative_visual_qa_20261118.json",
+  "validation": "reports/local_derivative_validation_20261118.json",
   "historical_reports_are_dated_snapshots": true
 }

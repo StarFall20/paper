@@ -1,0 +1,10 @@
+{
+  "state": "passed",
+  "verified_designs": 15,
+  "checked_derivative_order": 33,
+  "near_extremal_checked_order": 25,
+  "retained_tables": 20,
+  "retained_equations": 151,
+  "retained_formal_statements": 14,
+  "prediction_and_raw_rows_preserved": true
+}
