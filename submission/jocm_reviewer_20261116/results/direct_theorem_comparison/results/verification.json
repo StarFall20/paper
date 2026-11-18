@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "independent_implementation": true,
+  "external_review": false,
+  "producer_imported": false,
+  "moment_precision_bits": 256,
+  "original_distance_checks": [
+    {
+      "power": "1/4",
+      "original_distance_integral": 0.6624600373302012,
+      "quadrature_error_diagnostic": 4.0287349824871044e-13,
+      "difference_from_interval_value": 1.1102230246251565e-16,
+      "derivative_bracket_verified": true,
+      "global_enclosure_verified": true,
+      "exact_saved_bounds": true
+    },
+    {
+      "power": "3/4",
+      "original_distance_integral": 0.48419667042645853,
+      "quadrature_error_diagnostic": 4.692826241668741e-13,
+      "difference_from_interval_value": 1.1102230246251565e-16,
+      "derivative_bracket_verified": true,
+      "global_enclosure_verified": true,
+      "exact_saved_bounds": true
+    }
+  ],
+  "exact_finite_checks": [
+    {
+      "power": "1/2",
+      "positive_recession": "1/80",
+      "negative_recession": "59/80",
+      "positive_weight_Gram": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "moment": [
+        "1/2",
+        "29/80"
+      ],
+      "gradient_at_log64": "4045/852176",
+      "strict_attainment": "unique_finite",
+      "all_row_losses_strictly_convex": true,
+      "labelled_categories": [
+        "increasing",
+        "decreasing"
+      ],
+      "auxiliary_categories": [
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive"
+      ],
+      "predictions_strictly_interior": true,
+      "reference_Hessian": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ]
+    },
+    {
+      "power": "3/5",
+      "positive_recession": "-1/80",
+      "negative_recession": "57/80",
+      "positive_weight_Gram": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "moment": [
+        "1/2",
+        "29/80"
+      ],
+      "gradient_at_log64": "-398969/21304400",
+      "strict_attainment": "unbounded_below",
+      "all_row_losses_strictly_convex": true,
+      "labelled_categories": [
+        "increasing",
+        "decreasing"
+      ],
+      "auxiliary_categories": [
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive",
+        "coercive"
+      ],
+      "predictions_strictly_interior": true,
+      "reference_Hessian": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "1/4"
+        ]
+      ]
+    }
+  ],
+  "inputs": {
+    "plan.json": "f02ab75f6e2b99135723d5d453e555cc15d6d6234b75dad217f1d87b59b0384d",
+    "calculate.py": "8503f755bad957be294dc1a53eab380e3f9d2ec46d90687d3da38ab615f589f5",
+    "results/population_pair.json": "8389fb176706af944ea4d071c3223cab7186ba4266db77a1a108fb9262f311e1",
+    "results/provenance.json": "05901d4d5e4e0c60e585cfc71456025c40b2c7e33f135f2da43e3b738a807d14"
+  },
+  "verifier_sha256": "17b7c421acc2e2fa78b9c193cd668da1a6b38eb69f96faac72fbb44dc52fb5af",
+  "new_model_fits": 0,
+  "new_Monte_Carlo_draws": 0
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-18",
+  "question": "Does the existing auxiliary-budget reversal require an extremely large ratio between known positive utility scales?",
+  "registered_before_new_results": true,
+  "model": "Existing Appendix G balanced binary compensated logit, gamma=0, frozen calibrated binary proxy, independent known whole-row scale including intercept; independent Gaussian remaining attributes.",
+  "scale_ratios": ["1", "3/2", "2", "3", "4", "5", "8"],
+  "proxy_error_rates": ["1/10", "1/4", "2/5", "9/20"],
+  "auxiliary_ratios": ["1/40", "1/10", "1/4", "1", "4", "16", "64"],
+  "scale_law": "For ratio r, D=1/sqrt(r) with probability r/(1+r), D=sqrt(r) otherwise. E D^2=1. This law attains the classical sharp lower bound on (E D)^2/E D^2 for the specified support ratio.",
+  "power_rule": "Existing population variance rule lambda=tau/(1+tau)",
+  "primary_candidate_fixed_before_calculation": {"r":"4", "epsilon":"2/5", "noise_label_ratio":"23/50", "auxiliary_ratios":["1/40", "1", "4", "16", "64"]},
+  "calculations": "All 196 finite-ratio boundaries plus 28 endpoint/range cases. Arb 160-bit evaluation and derivative-root bracketing; global upper bound from strong concavity. Independently written original Gaussian-distance integral checked with SciPy adaptive quadrature. No Monte Carlo or new model fitting.",
+  "theory_scope": "Sharp necessary and sufficient support-ratio condition for a strict reversal between the small-auxiliary and infinite-auxiliary iterated endpoint limits. This does not assert a safety bound at every finite auxiliary ratio. Boundary equality is unspecified. Constants are chosen before the proportional sample limit.",
+  "claims_excluded": ["new inequality", "new estimator", "new tuning algorithm", "population prevalence in real DCEs", "estimated heteroskedastic choice scales", "nonzero-signal or panel theorem", "prediction advantage", "standalone sufficient innovation", "submission threshold certified"]
+}

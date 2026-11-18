@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "independent_implementation": true,
+  "external_peer_review": false,
+  "producer_imported": false,
+  "conditions_checked": 196,
+  "endpoint_cases_checked": 28,
+  "independent_truncated_moment_precision_bits": 256,
+  "derivative_brackets_verified": 196,
+  "original_distance_integrals_checked": 196,
+  "arb_global_enclosures_checked": 196,
+  "max_quadrature_absolute_difference": 4.440892098500626e-16,
+  "max_quadrature_error_estimate": 1.81586749022022e-11,
+  "quadrature_diagnostics_are_not_interval_certificates": true,
+  "numerical_model_fits": 0,
+  "Monte_Carlo_runs": 0,
+  "inputs": {
+    "plan.json": "fec764413c7928ba76789c0f7341dd263ec08e04b011224802e40fe40e30951c",
+    "evaluate.py": "7d65c238db1212ddd00a8411612d33007855d707d602ee29d6b05d6b188d34b6",
+    "results/boundaries.json": "8cde89e2ed8aba59619e0f5336af3af84758bffdc683a523aa1d16aea923efb6",
+    "results/endpoints.json": "f54b30c8b5ecbe0703eb2055f1a9c967bcaa5b10638f28da3bb51d69b92c2824",
+    "results/provenance.json": "01aa626661e36f171001fcfca7beec223983036faca5679d8affdc2425d0c570"
+  },
+  "verifier_sha256": "9b424719eca1db43663a8ff01b091fb8f330df2efed12b05d9e9bb96f00067eb"
+}

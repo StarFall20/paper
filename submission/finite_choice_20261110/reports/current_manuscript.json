@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "integration": "reports/focused_revision_20261118.json",
-  "visual_qa": "reports/focused_visual_qa_20261118.json",
-  "validation": "reports/focused_validation_20261118.json",
+  "integration": "reports/theory_integration_20261118.json",
+  "visual_qa": "reports/theory_visual_qa_20261118.json",
+  "validation": "reports/theory_validation_20261118.json",
   "historical_reports_are_dated_snapshots": true
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "power": "1/4",
+    "optimizer_bracket_fraction": [
+      "906867043912395742026818669967/1267650600228229401496703205376",
+      "56679190244524733876676166873/79228162514264337593543950336"
+    ],
+    "boundary_interval_fraction": [
+      "968186429224380020472224133777577823969156500249/1461501637330902918203684832716283019655932542976",
+      "121023303653047502559028016722197227996144562537/182687704666362864775460604089535377456991567872"
+    ],
+    "boundary_display": 0.6624600373302011,
+    "witness_dimension_ratio": "11/20",
+    "strict_existence_side": "finite",
+    "labelled_Y0_category": "strictly_increasing",
+    "labelled_Y1_category": "strictly_decreasing",
+    "auxiliary_category": "coercive",
+    "all_rows_strictly_convex": true,
+    "labelled_infimum": "minus_infinity",
+    "predictor_and_data_law_unchanged": true
+  },
+  {
+    "power": "3/4",
+    "optimizer_bracket_fraction": [
+      "1265119063045584165102099178893/1267650600228229401496703205376",
+      "632559531522792082551049589447/633825300114114700748351602688"
+    ],
+    "boundary_interval_fraction": [
+      "1415308453236881123151436500582709495188175508039/2923003274661805836407369665432566039311865085952",
+      "176913556654610140393929562572838686898521938519/365375409332725729550921208179070754913983135744"
+    ],
+    "boundary_display": 0.4841966704264584,
+    "witness_dimension_ratio": "11/20",
+    "strict_existence_side": "no_finite_minimizer",
+    "labelled_Y0_category": "strictly_increasing",
+    "labelled_Y1_category": "strictly_decreasing",
+    "auxiliary_category": "coercive",
+    "all_rows_strictly_convex": true,
+    "labelled_infimum": "minus_infinity",
+    "predictor_and_data_law_unchanged": true
+  }
+]

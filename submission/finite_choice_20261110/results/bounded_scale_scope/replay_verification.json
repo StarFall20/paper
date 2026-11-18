@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "fresh_copy": true,
+  "all_scientific_outputs_byte_identical": true,
+  "outputs_checked": 6,
+  "output_sha256": {
+    "results/boundaries.csv": "5a35b3b35cbe171d386d0723a9cd5038fd64e3238f096a1d0e204dab7d528489",
+    "results/boundaries.json": "8cde89e2ed8aba59619e0f5336af3af84758bffdc683a523aa1d16aea923efb6",
+    "results/endpoints.json": "f54b30c8b5ecbe0703eb2055f1a9c967bcaa5b10638f28da3bb51d69b92c2824",
+    "results/independent_integrals.csv": "a31deaa8d04c1db01a77dfa7387730233f88109e8b4c5937fa54357af7c4c040",
+    "results/independent_verification.json": "bba7db3af952431670dd3fe63fc30945dd351348016a0ba7c0aff64f663e5a69",
+    "results/provenance.json": "01aa626661e36f171001fcfca7beec223983036faca5679d8affdc2425d0c570"
+  },
+  "primary_conditions": 196,
+  "endpoint_cases": 28,
+  "independent_integrals": 196,
+  "new_model_fits": 0,
+  "Monte_Carlo_runs": 0
+}

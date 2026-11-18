@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-18",
+  "status": "passed",
+  "preceding_validation_sha256": "2b2596cd332a518d788126577ebcdc93bf648149c79398254eabe54483070ac4",
+  "ordered_tables_exactly_preserved": 20,
+  "preceding_ordered_displays_exactly_preserved": 146,
+  "new_display_count": 148,
+  "formal_statement_paragraphs_exactly_preserved": 14,
+  "scientific_files_exactly_preserved": 808,
+  "new_evidence_files_bound": 35,
+  "root_analysis_sources_unchanged": 83,
+  "new_model_fits_or_MC": 0,
+  "word_count": {
+    "abstract_words": 187,
+    "main_body_lexical_words_excluding_math": 8185,
+    "preceding_main_body_words": 8131,
+    "count_method": "Unicode-letter words with internal hyphens/apostrophes. Sections 1–7 include headings, captions and tables; math, references and appendices excluded.",
+    "word_pattern": "[^\\W\\d_]+(?:[-'’][^\\W\\d_]+)*",
+    "verified_full_research_article_word_cap": null
+  },
+  "all_final_pages_reviewed": true,
+  "full_pages": 73,
+  "reading_pages": 29,
+  "formal_row_category_prior_comparison": "Specific direct substitution excluded; general kinematics explicitly inherited; no universal non-reducibility or priority claim",
+  "research_goal_complete": false
+}

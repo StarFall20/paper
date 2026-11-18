@@ -1,0 +1,9 @@
+{
+  "precision_bits": 160,
+  "plan_sha256": "fec764413c7928ba76789c0f7341dd263ec08e04b011224802e40fe40e30951c",
+  "source_sha256": "7d65c238db1212ddd00a8411612d33007855d707d602ee29d6b05d6b188d34b6",
+  "numerical_model_fits": 0,
+  "Monte_Carlo_runs": 0,
+  "new_answers": 0,
+  "all_196_conditions_retained": true
+}

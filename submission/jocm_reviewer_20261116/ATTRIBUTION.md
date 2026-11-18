@@ -63,3 +63,6 @@ The current integration executes the unchanged official ppi_py logistic interfac
 
 
 18 November editorial revision: established PPI objectives and general convex/conic tools retain their explicit attribution. The complete user-provided March 2024 arXiv v2, including its appendices, is available and used together with pinned official code. The 2026 formal-version identity remains unverified; no absent-theorem claim follows from that limitation. This prose/layout revision changes no scientific file or formal statement and supplies no external originality certification.
+
+
+18 November theory integration: the row-category comparison uses the formal Koriyama–Bellec 2025 Assumption 2.5 and Lemma A.2. General Gaussian transition is inherited from established kinematics; Götze et al. Corollary 5.6 replaces a repeated relative-interior proof. Yoshida et al. 2021 supplies the lower-bounded weak-label proper-loss lineage. The scale-range corollary uses the classical Bhatia–Davis 2000 bounded-variable bound. Added numerical checks concern the existing objective; no new estimator or general kinematic theorem is claimed. Nested comparison reports record the pre-integration state.

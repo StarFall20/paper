@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-18",
+  "method": "ordinary web search with bounded primary-source follow-up",
+  "queries": [
+    {
+      "id": 1,
+      "query": "\"prediction-powered\" logistic \"existence\"",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 2,
+      "query": "\"prediction-powered\" \"phase transition\"",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 3,
+      "query": "\"PPI++\" \"unbounded\"",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 4,
+      "query": "\"prediction-powered\" \"separation\" logistic",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 5,
+      "query": "\"prediction-powered\" \"high-dimensional logistic\"",
+      "primary_source_domain_filter_applied": true
+    },
+    {
+      "id": 6,
+      "query": "\"compensated\" logistic \"phase transition\"",
+      "primary_source_domain_filter_applied": true
+    },
+    {
+      "id": 7,
+      "query": "\"prediction-powered\" \"finite minimizer\"",
+      "primary_source_domain_filter_applied": true
+    },
+    {
+      "id": 8,
+      "query": "\"PPI++\" \"existence\" \"logistic\"",
+      "primary_source_domain_filter_applied": true
+    },
+    {
+      "id": 9,
+      "query": "prediction powered inference logistic regression high dimensional existence boundary",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 10,
+      "query": "prediction powered inference unbounded loss minimizer logistic separation",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 11,
+      "query": "prediction assisted logistic regression phase transition existence finite auxiliary sample",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 12,
+      "query": "prediction-powered inference \"unbounded below\"",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 13,
+      "query": "prediction-powered inference \"minimizer\" \"existence\" logistic loss",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 14,
+      "query": "semi-supervised logistic corrected loss negative risk unbounded finite solution",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 15,
+      "query": "\"prediction-powered\" \"existence\" \"high-dimensional\" -site:proceedings.mlr.press/v306/",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 16,
+      "query": "\"Lower-Bounded Proper Losses\" weakly supervised classification",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 17,
+      "query": "\"Sharp Guarantees and Optimal Performance\" binary Gaussian mixture models Thrampoulidis",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 18,
+      "query": "Kantorovich inequality random variable bounded positive E X squared E X2 4ab",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 19,
+      "query": "\"prediction-powered\" \"Kantorovich\"",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 20,
+      "query": "\"logistic\" \"scale\" \"phase transition\" \"prediction-powered\"",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 21,
+      "query": "\"Bhatia\" \"Davis\" \"variance\" 1990 inequality",
+      "primary_source_domain_filter_applied": false
+    },
+    {
+      "id": 22,
+      "query": "\"4ab\" \"E\" \"reverse Cauchy\" random variable bounded",
+      "primary_source_domain_filter_applied": false
+    }
+  ],
+  "queries_count": 22,
+  "Scopus_queries": 0,
+  "Google_Scholar_queries": 0,
+  "Web_of_Science_queries": 0,
+  "systematic_database_review": false,
+  "global_priority_guarantee": false,
+  "plagiarism_scan": false,
+  "year_correction": "The Bhatia-Davis query used 1990; checked publisher metadata gives 2000. All citations use 2000.",
+  "source_units": [
+    {
+      "url": "https://proceedings.mlr.press/v139/yoshida21a/yoshida21a.pdf",
+      "read_units": [
+        "Introduction",
+        "Section 5.1 Example 12",
+        "Section 5.2 Theorem 13 and Proposition 14",
+        "Section 5.3 Corollary 15"
+      ],
+      "entire_document_read_claim": false
+    },
+    {
+      "url": "https://proceedings.mlr.press/v139/yoshida21a/yoshida21a-supp.pdf",
+      "read_units": [
+        "C.5 proof of Proposition 14"
+      ],
+      "entire_document_read_claim": false
+    },
+    {
+      "url": "https://www.mdpi.com/1099-4300/23/2/178",
+      "read_units": [
+        "Section 2.3 Theorem 1 and Remark 3",
+        "Section 4.2 separation and boundedness"
+      ],
+      "entire_document_read_claim": false
+    },
+    {
+      "url": "https://arxiv.org/html/2501.03163v3",
+      "read_units": [
+        "Assumption 2.5",
+        "Theorem 2.6 and surrounding threshold definition"
+      ],
+      "entire_document_read_claim": false
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00029890.2000.12005203",
+      "read_units": [
+        "publisher metadata"
+      ],
+      "full_text_read": false
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/b6a1085a27ab7bff7550f8a3bd017df8-Paper.pdf",
+      "read_units": [],
+      "limited_tool_output_not_used_for_specific_result_claim": true
+    }
+  ],
+  "supplied_PPI_source": "29-page complete March 2024 arXiv v2; preceding local page-bound map",
+  "original_article_PDF_redistributed": false
+}

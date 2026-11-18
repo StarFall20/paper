@@ -104,11 +104,11 @@ The labelled contribution in (2), up to its averaging factor, is
 
 $$\ell_L(u)=(1-\lambda)\log(1+e^u)-(Y-\lambda g)u. \qquad (11)$$
 
-For $Y=0$, it tends to minus infinity as $u\to-\infty$; for $Y=1$, it does so as $u\to+\infty$. At unit power it is affine. Auxiliary rows compensate these directions. Koriyama and Bellec (2025; arXiv v3, Assumption 2.5) require finite rowwise infima and strict row convexity. The corrected rows require a joint two-sample calculation. Fuh et al. (2026) study a positivity constrained multinomial likelihood with a different coefficient domain and loss.
+At positive power the labelled loss has a negative recession rate in the human-favourable direction. Auxiliary rows compensate it through their nonnegative rates. For $0<\lambda<1$, labelled rows are strictly increasing or decreasing according to the choice, and auxiliary rows are coercive. The categories persist as power changes, while their recession magnitudes and the existence boundary change. Koriyama and Bellec (2025, Assumption 2.5 and Lemma A.2) require finite rowwise infima for their category-based result. The labelled infima here are minus infinity; at unit power the rows are affine. Appendix A7 gives a fixed-predictor comparison at two strictly convex powers. Fuh et al. (2026) study a positivity constrained multinomial likelihood with a different coefficient domain and loss.
 
 Fixed-dimensional PPI++ consistency is established (Angelopoulos et al., 2026; preprint v2, Proposition 1 and Appendix A.2). For a continuous convex logit objective, its positive empirical gap on a sphere extends along every outward ray and implies high-probability coercivity and attainment. This implication follows from that proof's convex shell bound. Theorem 1 calculates the transition when the number of fitted slopes grows with the label budget. PPI++ Algorithms 1 and 2 already retain the finite auxiliary-sample covariance term.
 
-Gaussian conic projection and absorption are established (Amelunxen et al., 2014; Götze et al., 2020, Theorem 3.1; Han and Ren, 2026, Theorems 1.1, 1.3 and 2.1). Theorem 1 evaluates the statistical dimension limit for the corrected intervals (7), conditional on the signal, choices and prediction information. Its intercept and signal constraints retain the fitted utility specification. Appendix A proves tightness of the multiplier and scale, evaluates the limit and connects feasibility to an interior moment.
+General Gaussian kinematics and absorption determine the conditional transition once the cone's statistical dimension is known (Amelunxen et al., 2014; Götze et al., 2020; Han and Ren, 2026). Theorem 1 calculates that dimension's limit for the corrected intervals (7). The calculation keeps the fitted intercept and signal constraints, finite auxiliary ratio and shared interval scale. Appendix A establishes uniform multiplier and scale bounds before passing the ordered extrema and conditional expectation to the population limit.
 
 ### 3.3 Balanced oracle benchmark
 
@@ -585,7 +585,9 @@ For $N\geq p$, Kabluchko and Seidel (2020, Theorem 3.3) give this Gaussian zonot
 
 ### A7 Related objectives and affine reallocation
 
-Unbiased noisy label correction and preservation of convexity are established (Natarajan et al., 2013); corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017). Finite sample estimation costs of PPI++ are established for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). DY prior penalized logit guarantees finite estimates for full rank designs and has proportional dimensional theory, including a recent fitted intercept treatment (Sterzinger and Kosmidis, 2026; Sterzinger, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. The two sample geometry gives the probability boundary for this event. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
+Unbiased noisy label correction and preservation of convexity are established (Natarajan et al., 2013). Corrected empirical risk can become negative in positive unlabelled learning (Kiryo et al., 2017), and weak-label proper-loss theory gives lower-boundedness criteria through convex conjugates (Yoshida et al., 2021). Generic corrected-loss unboundedness is established. Finite sample estimation costs of PPI++ are known for mean estimation (Mani et al., 2026), and synthetic likelihood regularization has a developed high dimensional theory (Li and Huang, 2026). DY prior penalized logit guarantees finite estimates for full rank designs and has proportional dimensional theory, including a recent fitted intercept treatment (Sterzinger and Kosmidis, 2026; Sterzinger, 2026). Proper pseudo-label augmentation has nonnegative row recession costs and an existence event invariant to every positive auxiliary weight. The corrected choice loss has negative labelled recession costs whose compensation changes with power. Generic vanishing regularization and margin limits are established (Rosset et al., 2004); the corrected auxiliary recession function determines the limit studied here.
+
+A fixed-predictor comparison isolates the role of signed magnitudes. In the balanced oracle model with $\epsilon=1/4$ and $\tau=1$, powers $1/4$ and $3/4$ keep every row strictly convex and preserve the complete joint law of signal and row categories. Their boundaries are $0.6624600373$ and $0.4841966704$, giving opposite strict existence limits at $q/m\to11/20$. Interval root brackets and global strong-concavity bounds are checked against independently written original Gaussian-distance integrals.
 
 Lee and Kim (2026) establish regular moment-equation inference and characterize score-calibration efficiency under finite-population sampling. At $\lambda=N/(m+N)$, objective (2) yields their estimating equation when both use the same loss and frozen predictor. Splitting the all-unit prediction average over labelled and auxiliary rows gives this identity.
 
@@ -1500,7 +1502,7 @@ For uniqueness the rows with positive curvature weight must span all fitted para
 
 ### G3 Relative interior and qualification
 
-Gaussian absorption and relative-interior calculus are established (Götze et al., 2020, Theorem 3.1 and Lemma 5.1). For clarity, the polyhedral transversality step used here is recorded explicitly. For a fixed pointed polyhedral cone $C$ in a linear span of dimension $r$, a Gaussian kernel independent of $C$ almost surely has the following property: a nonzero intersection with $C$ meets its relative interior. If $q\geq r$, the intersection is zero almost surely. If $q<r$, work inside the span, where the random kernel has dimension $r-q$. For every proper face $F$ of dimension $f$, generic rank gives an intersection with its span of dimension $\max(f-q,0)$. A nonzero intersection with $F$ requires $f>q$. In that case the kernel projects surjectively onto the quotient by the face span. At a relative-interior point of $F$, choose a kernel direction with the same quotient as an interior direction of $C$. A sufficiently small step makes every active face inequality strict while preserving the other strict inequalities. The step lies in the kernel and in the relative interior of $C$. Finitely many faces allow these generic-rank statements simultaneously.
+Götze et al. (2020, Corollary 5.6) show that a nonzero intersection of a fixed non-subspace convex cone with an independent Haar subspace enters its relative interior almost surely. Conditional on the low-dimensional observations, the Gaussian kernel has that subspace law and $C_m$ is closed and pointed. When the constraint dimension reaches the cone span dimension, Gaussian rank makes the intersection zero almost surely. Their Theorem 3.1 and Lemma 5.1 supply the related absorption and relative-interior criteria.
 
 It remains to qualify the nuisance intersection. For unit $u$, let $h_u=u_0+u_1S$. The sum of labelled and auxiliary support functions at $-s h_u$, divided by $m$, converges uniformly on the unit circle. After cancellation of the prediction contributions its limit is
 
@@ -1584,6 +1586,20 @@ If $(ED)^2/(ED^2)<\pi e(1-e)$, the second limit is below $1/2$. For any dimensio
 
 For comparison, at any held positive power the balanced boundary is nondecreasing with the auxiliary ratio. The auxiliary term is the perspective $\tau K(Dv/\tau)$ of the concave function $K(x)=1-f((1-e)x)-f(ex)$ with $K(0)=0$. Concavity makes this perspective nondecreasing in $\tau$, and the labelled terms are unchanged. Taking a supremum preserves the ordering. Thus the additional-data comparison specifically concerns moving along the variance-selected powers. It does not assert a finite-sample monotonicity law for arbitrary new rows or a general ranking of estimators.
 
+### G8 Bounded scale ranges
+
+The auxiliary-budget reversal can occur with a bounded scale contrast. Retain the balanced model, calibrated proxy error $e$, independent known whole-row scale $D$ and population rule $\lambda_\tau=\tau/(1+\tau)$. If $0<a\leq D\leq b$ and $r=b/a$, the classical bounded-variable variance inequality gives
+
+$$\frac{(ED)^2}{ED^2}\geq\frac{4r}{(1+r)^2}.\qquad (G.16)$$
+
+It follows from $(D-a)(D-b)\leq0$ and completing a square in $ED$. Equality holds on the two endpoints with $P(D=b)=a/(a+b)$ (Bhatia and Davis, 2000). Combining (G.16) with (G.14), a strict decline between the two iterated auxiliary endpoints is possible among scale laws of support ratio at most $r$ exactly when
+
+$$r>r_*(e):=\frac{1+\sqrt{1-\pi e(1-e)}}{1-\sqrt{1-\pi e(1-e)}}.\qquad (G.17)$$
+
+The equality law proves sufficiency; (G.16) proves necessity. The proportional limit is taken at each fixed scale law and auxiliary ratio first. Finite-ratio boundaries can dip below both endpoints, so $r\leq r_*(e)$ supplies no finite-budget safety guarantee.
+
+For a finite-ratio illustration, take $D=1/2$ with probability $4/5$ and $D=2$ otherwise. Then $ED^2=1$ and $(ED)^2=16/25$. At error $e=2/5$, the boundaries at $\tau=1/40$ and $\tau=1$ are enclosed around $0.4855662367$ and $0.3982976460$. Ratio $\kappa=0.46$ lies on opposite strict existence sides. Ordinary human separation retains threshold $1/2$. The regular covariance factor falls from approximately $3.9961$ to $3.92$, a small reduction. The boundary subsequently increases. All 196 grid conditions and 28 endpoint cases are retained, with independent distance-integral and interval checks. These Gaussian zero-signal model results do not estimate a DCE failure prevalence. The range characterization applies the existing boundary and a classical inequality; it is a robustness corollary.
+
 ## Data availability
 
 Section 4 identifies the public vaccine repository and the RADIANT food DCE (Chen et al., 2025; https://doi.org/10.5281/zenodo.15420092). The reproduction package provides pinned source hashes, download instructions, code and derived results. Raw respondent records are downloaded separately. Reported estimates use these released choices and simulations; the author's separate private questionnaire supplies no observations to this paper.
@@ -1602,6 +1618,8 @@ Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Pr
 
 Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-powered inference. Annals of Applied Statistics 20(3), 2235–2252. https://doi.org/10.1214/26-AOAS2215
 
+Bhatia, R., Davis, C. (2000). A better bound on the variance. American Mathematical Monthly 107(4), 353–357. https://doi.org/10.1080/00029890.2000.12005203
+
 Broska, D., Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. Preprint, arXiv:2610.09601v1. https://arxiv.org/abs/2610.09601v1
 
 Cai, Z., Fan, Y., Chen, S., Du, J.H. (2026). DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration. Preprint, arXiv:2609.31215v1. https://arxiv.org/abs/2609.31215v1
@@ -1618,9 +1636,9 @@ Fuh, C.D., Kao, C.L.M., Pang, T. (2026). On the existence of maximum likelihood 
 
 Geyer, C.J. (2009). Likelihood inference in exponential families and directions of recession. Electronic Journal of Statistics 3, 259–289. https://www.stat.umn.edu/geyer/gdor/
 
-Götze, F., Kabluchko, Z., Zaporozhets, D. (2020). Grassmann angles and absorption probabilities of Gaussian convex hulls. Inspected preprint version2. https://arxiv.org/abs/1911.04184v2
+Götze, F., Kabluchko, Z., Zaporozhets, D. (2020). Grassmann angles and absorption probabilities of Gaussian convex hulls. Preprint version 2. https://arxiv.org/abs/1911.04184v2
 
-Han, Q., Ren, H. (2026). Gaussian random projections of convex cones: approximate kinematic formulae and applications. Information and Inference 15(1), iaag006. https://doi.org/10.1093/imaiai/iaag006. Inspected preprint: https://arxiv.org/html/2212.05545v2
+Han, Q., Ren, H. (2026). Gaussian random projections of convex cones: approximate kinematic formulae and applications. Information and Inference 15(1), iaag006. https://doi.org/10.1093/imaiai/iaag006. Preprint: https://arxiv.org/html/2212.05545v2
 
 Hess, S., Daly, A., Bliemer, M., Guevara, A., Daziano, R., Dekker, T. (2026). Statistical significance in choice modelling: computation, usage and reporting. Journal of Choice Modelling 60, 100611. https://doi.org/10.1016/j.jocm.2026.100611
 
@@ -1634,7 +1652,7 @@ Kessels, R., Jones, B., Goos, P. (2019). Using Firth's method for model estimati
 
 Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. NIPS 2017 camera ready preprint, arXiv:1703.00593v2. https://arxiv.org/abs/1703.00593v2
 
-Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html. Inspected assumption numbering: https://arxiv.org/html/2501.03163v3
+Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html
 
 Kosmidis, I., Firth, D. (2021). Jeffreys-prior penalty, finiteness and shrinkage in binomial-response generalized linear models. Biometrika 108(1), 71–82. https://doi.org/10.1093/biomet/asaa052
 
@@ -1650,7 +1668,7 @@ Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. P
 
 Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. arXiv:2505.20178, version 2. https://arxiv.org/abs/2505.20178v2
 
-Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Inspected preprint: https://arxiv.org/html/1911.01544v3
+Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Preprint: https://arxiv.org/html/1911.01544v3
 
 Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html
 
@@ -1674,7 +1692,7 @@ Sargent, G., Sun, W.W., Zhang, Z., Liu, Y. (2026). Prediction-Powered LLM Rankin
 
 Sfeir, G., Nova, G., Hess, S., van Cranenburgh, S. (2026). Can large language models assist choice modelling? Insights into prompting strategies and current models’ capabilities. Journal of Choice Modelling 60, 100623. https://doi.org/10.1016/j.jocm.2026.100623
 
-Shoham, N., Dorfman, R., Shaer, S., Levy, K.Y., Romano, Y. (2025). Prediction-Powered Semi-Supervised Learning with Online Power Tuning. Inspected preprint version1. https://arxiv.org/abs/2510.22586v1
+Shoham, N., Dorfman, R., Shaer, S., Levy, K.Y., Romano, Y. (2025). Prediction-Powered Semi-Supervised Learning with Online Power Tuning. Preprint version 1. https://arxiv.org/abs/2510.22586v1
 
 Sterzinger, P. (2026). Proportional-limit asymptotics for Diaconis–Ylvisaker-penalised logistic regression with fitted intercept. arXiv:2609.09831, version 1. https://arxiv.org/abs/2609.09831v1
 
@@ -1682,7 +1700,7 @@ Sterzinger, P., Kosmidis, I. (2026). Diaconis–Ylvisaker prior penalized likeli
 
 Tan, K., Bellec, P.C. (2023). Multinomial Logistic Regression: Asymptotic Normality on Null Covariates in High-Dimensions. Advances in Neural Information Processing Systems 36. https://proceedings.neurips.cc/paper_files/paper/2023/file/e0ac27bf3327c9cb99cc5f548db4f73a-Paper-Conference.pdf
 
-Tang, W., Ye, Y. (2020). The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models. Inspected preprint version2. https://arxiv.org/abs/1908.06208v2
+Tang, W., Ye, Y. (2020). The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models. Preprint version 2. https://arxiv.org/abs/1908.06208v2
 
 van Cranenburgh, S., Wang, S., Vij, A., Pereira, F., Walker, J. (2022). Choice modelling in the age of machine learning—Discussion paper. Journal of Choice Modelling 42, 100340. https://doi.org/10.1016/j.jocm.2021.100340
 
@@ -1693,5 +1711,7 @@ Wang, G., Wen, M., Zou, C. (2025). Empirical Likelihood Meets Prediction-Powered
 Xu, S., Sun, W.W. (2026). Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference. Preprint version1. https://arxiv.org/abs/2602.10464v1
 
 Ye, Z., Yoganarasimhan, H. (2026). Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys. Preprint, arXiv:2604.17267v2. https://arxiv.org/abs/2604.17267v2
+
+Yoshida, S.M., Takenouchi, T., Sugiyama, M. (2021). Lower-bounded proper losses for weakly supervised classification. Proceedings of Machine Learning Research 139, 12110–12120. https://proceedings.mlr.press/v139/yoshida21a.html
 
 Zrnic, T., Candès, E.J. (2024). Cross-prediction-powered inference. Proceedings of the National Academy of Sciences 121(17), e2322083121. https://doi.org/10.1073/pnas.2322083121

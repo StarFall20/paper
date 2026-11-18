@@ -1,0 +1,59 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_theory_20261118.zip",
+    "sha256": "09f1793b618ded8f4bc606b224265d0e0d8ee1778f79317a61c610ca51710a51",
+    "files": 1080,
+    "bytes": 48027191,
+    "fresh_extract_all_files_identical": true,
+    "isolated_package_check": {
+      "manifest_entries_verified": 1079,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    },
+    "food_DCE_table_check": {
+      "state": "passed",
+      "new_tables_reconciled": [
+        "C4",
+        "C5"
+      ],
+      "table_C4_rows": 4,
+      "table_C5_rows": 8,
+      "complete_method_records": 16000,
+      "paired_unit_outside_with_ordinary_interior": [
+        40,
+        18,
+        0,
+        0
+      ],
+      "all_20_table_blocks_present": true,
+      "old_18_table_values_checked_by_existing_entry": true,
+      "new_primary_fits_or_MC_run": false,
+      "prior_original_row_verification_hash": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+    }
+  },
+  {
+    "archive": "jocm_submission_files_theory_20261118.zip",
+    "sha256": "c8a2a22cf2a8a9f86c305826532eb6450d524e7ff467897eb62a146a7d1beb0b",
+    "files": 20,
+    "bytes": 1246571,
+    "fresh_extract_all_files_identical": true
+  },
+  {
+    "document": "jocm_manuscript_theory_20261118.docx",
+    "sha256": "811d685d93b277defcdd5be67ed7d52954ecdb6d8b050664e5cb9fe13d741d21",
+    "bytes": 1024788,
+    "review_bound_by": "reports/theory_visual_qa_20261118.json"
+  },
+  {
+    "document": "jocm_main_text_theory_20261118.docx",
+    "sha256": "7f06c56fee77ed67b22ae07c2b31f21b879b4e5c6c97eb8d3bfd160933d67a88",
+    "bytes": 919948,
+    "review_bound_by": "reports/theory_visual_qa_20261118.json"
+  }
+]

@@ -129,4 +129,14 @@ for name in ['official_ppi_runtime','public_panel_price_ratios']:
   h,n=line.split('  ',1);assert hashlib.sha256((nested/n).read_bytes()).hexdigest()==h,(name,n)
  assert json.loads((nested/'verification/verification.json').read_text())['state']=='passed'
 for n,h in integration['scientific_files_unchanged'].items():assert hashlib.sha256((ROOT/n).read_bytes()).hexdigest()==h,n
-assert integration['preceding_tables_preserved']==20 and integration['current_display_count']==146
+assert integration['preceding_tables_preserved']==20 and integration['current_display_count']==148
+
+# New theory-comparison and bounded-scale evidence is verified without refitting.
+for name in ['bounded_scale_scope','direct_theorem_comparison']:
+ nested=ROOT/'results'/name
+ for line in (nested/'MANIFEST.sha256').read_text().splitlines():
+  h,n=line.split('  ',1);assert hashlib.sha256((nested/n).read_bytes()).hexdigest()==h,(name,n)
+ if name=='bounded_scale_scope':
+  assert json.loads((nested/'results/independent_verification.json').read_text())['status']=='passed'
+ else:
+  assert json.loads((nested/'results/verification.json').read_text())['status']=='passed'

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "fresh_copy": true,
+  "all_scientific_outputs_byte_identical": true,
+  "outputs_checked": 3,
+  "output_sha256": {
+    "results/population_pair.json": "8389fb176706af944ea4d071c3223cab7186ba4266db77a1a108fb9262f311e1",
+    "results/provenance.json": "05901d4d5e4e0c60e585cfc71456025c40b2c7e33f135f2da43e3b738a807d14",
+    "results/verification.json": "0f45955b2294f23ac38e9675d1a442d24a474789a522280a75c75d3d4413574b"
+  },
+  "new_model_fits": 0,
+  "new_Monte_Carlo_draws": 0
+}

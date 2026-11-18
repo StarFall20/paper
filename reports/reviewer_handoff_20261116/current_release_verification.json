@@ -1,23 +1,23 @@
 {
   "paper": {
-    "native_math_objects": 1337,
+    "native_math_objects": 1353,
     "tables": 20,
-    "source_display_blocks": 146,
-    "md_sha256": "4b7db9f43212e4cfc405075cac3a057e0502177e945114b9f2e0ba755c6212d8",
-    "docx_sha256": "fe8afb709d3eb5e1d4bcaac922011c9df5433bc81296d2090d8aee7d3d1f83ff",
+    "source_display_blocks": 148,
+    "md_sha256": "40e8e7bb71cec8886a5f7dcc6a16f31e31dbf8a7c5adeedc635a068a1b6bf66a",
+    "docx_sha256": "811d685d93b277defcdd5be67ed7d52954ecdb6d8b050664e5cb9fe13d741d21",
     "pages": 73
   },
   "main_text": {
-    "native_math_objects": 233,
+    "native_math_objects": 230,
     "tables": 6,
     "source_display_blocks": 35,
-    "md_sha256": "67106906bd599f7842138c77bf6555e5d28a7349107f1352b4aac52c1bd19001",
-    "docx_sha256": "c035e753e4ea1698d7c4aef9fc390daa15cc9b25cd364b1a2413d41caaf8ca63",
+    "md_sha256": "0ae33dd32118bf596261a8837ff8437cc66a3dd67574966dee772c86a61d424f",
+    "docx_sha256": "7f06c56fee77ed67b22ae07c2b31f21b879b4e5c6c97eb8d3bfd160933d67a88",
     "pages": 29
   },
   "state": "passed",
   "package_analysis_sources": 83,
-  "page_counts_source": "reports/focused_visual_qa_20261118.json",
+  "page_counts_source": "reports/theory_visual_qa_20261118.json",
   "new_render_performed": true,
   "manuscript_changed": true,
   "originality_or_submission_threshold_certified": false

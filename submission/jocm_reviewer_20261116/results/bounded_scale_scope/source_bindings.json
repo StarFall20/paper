@@ -1,0 +1,17 @@
+{
+  "canonical_manuscript_changed": false,
+  "reviewed_Word_changed": false,
+  "source": "submission/finite_choice_20261110",
+  "canonical_sha256": {
+    "manuscript/paper.md": "4b7db9f43212e4cfc405075cac3a057e0502177e945114b9f2e0ba755c6212d8",
+    "manuscript/main_text.md": "67106906bd599f7842138c77bf6555e5d28a7349107f1352b4aac52c1bd19001",
+    "manuscript/paper.docx": "fe8afb709d3eb5e1d4bcaac922011c9df5433bc81296d2090d8aee7d3d1f83ff",
+    "manuscript/main_text.docx": "c035e753e4ea1698d7c4aef9fc390daa15cc9b25cd364b1a2413d41caaf8ca63",
+    "reports/current_manuscript.json": "a6fb022664597dd25e5b7acf9cd6b0117d1ac4d2022e543b752e6566f9ed8875"
+  },
+  "user_PDF_sha256": "5c9dc26aa1a537785d34b1d690a7387cf21e0493f0a3f945905dc556d30e70bd",
+  "source_claim_map_sha256": "55ed84baed20f80f0e1f859996bc43a1ac68b9ac66958c722747569e116b1747",
+  "pinned_official_code": "3d1f0c668444907b39bd045cb9dd38e479ce7dd6",
+  "original_article_uploaded": false,
+  "raw_questionnaire_uploaded": false
+}

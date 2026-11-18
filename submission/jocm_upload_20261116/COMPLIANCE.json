@@ -23,10 +23,10 @@
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 8131,
+  "main_lexical_words_excluding_math": 8185,
   "verified_full_research_article_word_cap": null,
   "full_manuscript_pages": 73,
-  "native_math_objects": 1337,
+  "native_math_objects": 1353,
   "tables": 20,
   "all_seven_appendices_in_manuscript": true,
   "ai_disclosure_precedes_references": true,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "fe8afb709d3eb5e1d4bcaac922011c9df5433bc81296d2090d8aee7d3d1f83ff"
+      "sha256": "811d685d93b277defcdd5be67ed7d52954ecdb6d8b050664e5cb9fe13d741d21"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",
@@ -103,5 +103,6 @@
   "submission_made": false,
   "research_goal_achieved": false,
   "cached_author_guide_rechecked": "2026-11-18: retained 13 November guide text rechecked; fresh official retrieval returned 403",
-  "current_source_basis": "Complete user-provided March 2024 PPI++ v2 body/appendices and pinned official code. Identity with the 2026 formal version unverified; not a global work blocker."
+  "current_source_basis": "Complete supplied PPI++ v2 and pinned code; formal ICML 2025 relevant units checked from verified local publication. General kinematics is inherited; exact priority and sufficient JCM value remain under assessment.",
+  "display_formulas": 148
 }

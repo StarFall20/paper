@@ -360,3 +360,8 @@ python results/public_panel_dce/analysis/reconcile_tables.py --package-root . --
 
 
 For the integrated official API diagnostics and secondary price calculation, follow [the isolated official runtime instructions](results/official_ppi_runtime/README.md) and [the price-equivalent instructions](results/public_panel_price_ratios/README.md). Both have data-free `verify_package.py` inventory checks. Their recorded full primary and independent replays already passed; the original numerical environment is preserved.
+
+
+## Theory comparison and bounded scale evidence 18 November 2026
+
+The [bounded-scale package](results/bounded_scale_scope/README.md) and [direct-theorem package](results/direct_theorem_comparison/README.md) specify their pinned requirements and calculation/verification commands. Use a fresh copied directory for each numerical replay, as instructed there; the primary calculations refuse to overwrite saved boundaries. `python verify_package.py` verifies their nested manifests and source-bound saved checks without recomputing numerical results. The standalone reports' proposed-edit statements describe their pre-integration stage; current Word sources are bound by `reports/current_manuscript.json`.

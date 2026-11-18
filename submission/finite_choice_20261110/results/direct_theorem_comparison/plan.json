@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-18",
+  "purpose": "Decide whether the compensated boundary is a direct substitution into the closest row-monotonicity existence formula, while explicitly attributing general conic transition results.",
+  "fixed_before_new_calculation": true,
+  "population_pair": {
+    "model": "Existing balanced null binary model, independent Gaussian attributes, estimated intercept, frozen calibrated binary proxy",
+    "epsilon": "1/4",
+    "tau": "1",
+    "powers": ["1/4", "3/4"],
+    "witness_dimension_ratio": "11/20",
+    "prediction": "g=1/4+(1/2)Z with independent binary flip probability 1/4",
+    "same_predictor_and_data_law_at_both_powers": true,
+    "new_Monte_Carlo_draws": 0
+  },
+  "exact_finite_pair": {
+    "source": "Existing Appendix B5 observed-Hessian construction; no new fitted data",
+    "powers": ["1/2", "3/5"],
+    "purpose": "Verify unchanged row categories and full curvature rank with opposite attainment; compare strict powers below one to remove affine-row confounding."
+  },
+  "checks": ["160-bit Arb root brackets and strong-concavity global bounds", "Separately written 256-bit original-distance truncated moments", "Independent SciPy direct Gaussian-distance integrals", "Exact Fraction arithmetic on the existing finite witness", "Source-bound theorem dependency map", "Fresh-copy deterministic replay"],
+  "excluded_claims": ["The prior theorem is incorrect", "The prior formula is a competing baseline outside its assumptions", "No other theorem can cover this objective", "A new general conic transition theorem", "Universal non-reducibility", "Global priority guarantee", "Submission readiness certified"]
+}
