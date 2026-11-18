@@ -1,0 +1,36 @@
+{
+  "source_sha256": "6bcba34d82dbb41fd5656815addc78719446294bd43ea1ad6dc1efa7a1f7edf0",
+  "source_families": [
+    "exact_constructions",
+    "near_extremal_grid_constructions"
+  ],
+  "powers": [
+    "1/2",
+    "1"
+  ],
+  "informative_share": "1/2",
+  "prediction_offset": "1/4",
+  "auxiliary_mixes": {
+    "finite": "0",
+    "boundary": "1/2",
+    "unbounded": "1"
+  },
+  "compact_case": {
+    "family": "near_extremal_grid_constructions",
+    "K": 1,
+    "power": "1"
+  },
+  "exact_checks": [
+    "common integer sample counts",
+    "positive support under one population",
+    "rowwise corrected reference scores",
+    "Hessian and sample sandwich",
+    "aggregate derivatives",
+    "reference Newton step",
+    "three exact recession signs",
+    "ordinary finite MLE",
+    "fixed predictor Brier gain"
+  ],
+  "original_data_reused": true,
+  "stochastic_draws": 0
+}

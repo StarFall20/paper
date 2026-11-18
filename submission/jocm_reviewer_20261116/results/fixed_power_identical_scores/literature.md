@@ -1,0 +1,9 @@
+# Relation to the closest results
+
+The fixed predictor and power in this sample construction are inputs of the existing compensated loss in PPI++. Its GLM section and Appendix A establish regular asymptotic results. The construction concerns realized samples and gives three possible outcomes under one population. It supplies neither frequencies nor a challenge to the fixed-dimensional asymptotic conclusion. [Angelopoulos, Duchi and Zrnic, preprint v2, §3.1, §4 and Appendix A](https://arxiv.org/html/2311.01453v2)
+
+Cai and Low give the sharp gap in the expectation of an absolute value under matched polynomial moments. The construction uses that gap to yield opposite recession signs for corrected choice objectives with one frozen prediction and one power. It also fixes the true reference coefficient, sample sizes, observed labels and all individual reference scores. General separation and recession supply the arguments linking these signs to existence. [Cai and Low, Lemma 1](https://arxiv.org/pdf/1105.3039) [Geyer (2009)](https://www.stat.umn.edu/geyer/gdor/)
+
+Chen, Bai and Zhu distinguish first-order equivalence and finite-sample risk, with a structured logistic comparison conditional on a finite pilot. Proposition S3.3 is an observable sufficient global certificate for their full GMM criterion. It uses inequalities that include curvature variation and a radius. The present example changes the auxiliary contrast design in a scalar compensated log-likelihood and matches derivatives at one point. Its limitations apply to the specified finite family of local summaries. [Chen, Bai and Zhu, v2, §4.2 and Supplement S3.10](https://arxiv.org/html/2610.21837v2)
+
+These are result-level comparisons. The exact construction and the two external choice-study audits bear on different empirical questions. No new Scopus document query was completed for this note.

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "byte_identical_outputs": {
+    "allocations.csv": "8e66dc8987b8e537f3a90ba4c70dfe2ed8de5b080f66f326dc034ccb2bad9a22",
+    "summary.json": "de6fbb6c3b34b63b45122671b9cd81638a321a80b9b4a4f5a9ca53fef66727f6"
+  },
+  "constant_aux_tasks": {
+    "RADIANT": [
+      384
+    ],
+    "Swissmetro": [
+      576
+    ]
+  },
+  "summary": {
+    "1": {
+      "label_groups": 96,
+      "label_groups_with_ordinary_finite": 82,
+      "groups_with_both_states": 12,
+      "groups_with_both_when_ordinary_finite": 10
+    },
+    "0.5": {
+      "label_groups": 96,
+      "label_groups_with_ordinary_finite": 82,
+      "groups_with_both_states": 2,
+      "groups_with_both_when_ordinary_finite": 2
+    }
+  }
+}

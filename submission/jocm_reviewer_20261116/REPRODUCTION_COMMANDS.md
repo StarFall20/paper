@@ -415,3 +415,8 @@ Use the archive-root instructions in the [Swissmetro analysis](results/swissmetr
 ## Matched local derivative designs
 
 The [local derivative supplement](results/local_derivative_attainment/README.md) runs with the archived package versions and has no respondent-data input. Run its two commands from the supplement directory with a fresh output path.
+
+
+## Matched auxiliary design triplets
+
+The [local derivative supplement](results/fixed_power_identical_scores/README.md) runs with the archived package versions and has no respondent-data input. Run its two commands from the supplement directory with a fresh output path. Use the archived results/local_derivative_attainment/results/designs.json as input.

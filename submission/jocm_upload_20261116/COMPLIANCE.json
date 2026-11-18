@@ -3,7 +3,7 @@
   "guide_read_date": "2026-11-13",
   "guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
   "fresh_guide_web_retrieval": "403; retained institutional guide used",
-  "abstract_words": 161,
+  "abstract_words": 182,
   "abstract_limit": 250,
   "keyword_count": 5,
   "permitted_keyword_count": [
@@ -23,10 +23,10 @@
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 8995,
+  "main_lexical_words_excluding_math": 9004,
   "verified_full_research_article_word_cap": null,
   "full_manuscript_pages": 78,
-  "native_math_objects": 1453,
+  "native_math_objects": 1458,
   "tables": 20,
   "all_seven_appendices_in_manuscript": true,
   "ai_disclosure_precedes_references": true,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "708ded98e854e696ca0f8c5e72c78f7e48ead59895cf36738fa2a99efe97b0d8"
+      "sha256": "f73f86a9b40e6d833e737f0528d7e33197fb202c58151e5991127e1cec967435"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",

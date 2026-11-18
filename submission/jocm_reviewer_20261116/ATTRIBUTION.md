@@ -77,3 +77,5 @@ The current integration executes the unchanged official ppi_py logistic interfac
 Swissmetro respondent data and base utility coding follow Bierlaire, Axhausen and Abay (2001) and the Biogeme source example. The entropy representation follows Wainwright and Jordan (2008, Theorem 3.4). The fixed-menu derivative expansions and Swissmetro allocation comparisons are reported in Section 4.8 and Appendix C13.
 
 Cai and Low (2011, Lemma 1) supply the sharp absolute-moment gap for matching polynomial moments. Appendix B5 derives its exact effect on the compensated choice objective within a fixed bounded design.
+
+Cai and Low (2011, Lemma 1) supply the sharp absolute-moment gap for matching polynomial moments. Appendix B5 derives its exact effect across auxiliary contrast designs at a fixed correction power and predictor.

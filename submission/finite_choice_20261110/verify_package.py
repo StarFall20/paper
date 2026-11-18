@@ -205,3 +205,15 @@ ld = json.loads((local_design/'results/verification.json').read_text())
 assert ld['state']=='passed' and ld['finite_designs_checked']==15
 assert ld['exact_orders'][-1]['degree']==33 and ld['near_extremal_orders'][-1]['degree']==25
 assert hashlib.sha256((local_design/'results/designs.json').read_bytes()).hexdigest()==ld['designs_sha256']
+
+
+# Bind the fixed-power score and derivative construction to the current manuscript.
+fp = ROOT/'results/fixed_power_identical_scores'
+for line in (fp/'MANIFEST.sha256').read_text().splitlines():
+    expected, n = line.split('  ', 1)
+    assert hashlib.sha256((fp/n).read_bytes()).hexdigest() == expected,n
+evaluated = json.loads((fp/'verification.json').read_text())
+assert evaluated['status']=='passed' and evaluated['design_cases']==30 and evaluated['max_order']==33
+assert hashlib.sha256((fp/'designs.json').read_bytes()).hexdigest()==evaluated['designs_sha256']
+prior_design=ROOT/'results/local_derivative_attainment/results/designs.json'
+assert hashlib.sha256(prior_design.read_bytes()).hexdigest()==json.loads((fp/'plan.json').read_text())['source_sha256']

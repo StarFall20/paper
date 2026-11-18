@@ -61,3 +61,8 @@ The [Swissmetro report](results/swissmetro_corrected_path/README.md) and [entrop
 ## Local derivatives and finite estimation
 
 The [fixed-design construction](results/local_derivative_attainment/README.md) and [proof](results/local_derivative_attainment/proof.md) extend Appendix B5. [Verification](reports/local_derivative_validation_20261118.json) binds the manuscript and evidence.
+
+
+## Fixed power and prediction
+
+The [fixed-design construction](results/fixed_power_identical_scores/README.md) and [proof](results/fixed_power_identical_scores/proof.md) extend Appendix B5. [Verification](reports/fixed_power_validation_20261118.json) binds the manuscript and evidence.

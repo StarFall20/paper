@@ -1,0 +1,13 @@
+{
+  "state": "passed",
+  "verified_design_triplets": 30,
+  "checked_derivative_order": 33,
+  "matched_powers": [
+    0.5,
+    1
+  ],
+  "retained_tables": 20,
+  "retained_equations": 151,
+  "retained_formal_statements": 14,
+  "prediction_and_raw_rows_preserved": true
+}

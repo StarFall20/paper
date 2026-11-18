@@ -1,0 +1,19 @@
+{
+  "state": "source_verified",
+  "prior_paper_sha256": "599d5bcbd8f93dac97514eed1547cd36edccc8b5d6802988cb6371842ae3b02c",
+  "paper_sha256": "da43c63b31674a95d15a2e3dce8518e74edb939ca0802bdad068c7a1c60d9dee",
+  "main_text_sha256": "53037b7d703bcd2fa93c22310097bc570f15d7d349698cf29f8557aa537144a9",
+  "reports_files": {
+    "results/fixed_power_identical_scores/MANIFEST.sha256": "3a8d63a71b92bd2d49357abab79fefc028b5944a7097f71522b4cc6748bee7c5",
+    "results/fixed_power_identical_scores/README.md": "078bbe5233418efa3b79f0b0cb5f993bb8b8544dea625a48d2fea15c292cc1e5",
+    "results/fixed_power_identical_scores/construct.py": "e66a5e372d4eaa5a331bac85833dad016a2ef1f713d6a71a03b7fcf686053247",
+    "results/fixed_power_identical_scores/designs.json": "186767c3639bf90a10f09f1d760b247242710a46b30ad578ff255355730c2916",
+    "results/fixed_power_identical_scores/literature.md": "057a2ffc698f248a4a8d16d085902ad53383b11dcb1cc3846fa288fb74da0eea",
+    "results/fixed_power_identical_scores/plan.json": "233c487d2370ef06f44703c5f4767328e5902e45c379ffc04fe2837b568aa768",
+    "results/fixed_power_identical_scores/proof.md": "4b6638ec3046f5c08f12933742d09e68112dd360e8f27652cfdbde609c098233",
+    "results/fixed_power_identical_scores/verification.json": "0f2480aa48ac90e72d008c39c898ceec198001c536f760c121e003a993cc7faf",
+    "results/fixed_power_identical_scores/verify.py": "d92941f122c04800fc5d490223cef0ff97301ec49727c424efdf62bf72e98905"
+  },
+  "source_case_count": 30,
+  "max_full_derivative_match": 33
+}

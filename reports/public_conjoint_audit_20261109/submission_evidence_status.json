@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "goal_complete": false,
-  "decision": "The strongest claim remains the compensated-logit existence boundary with matched local information. The new bounded construction strengthens the fixed-design interpretation. Specific-result priority and final author declarations remain under review.",
+  "decision": "The fixed-power construction demonstrates finite estimate, unattained infimum and unbounded loss with identically matched scores and derivatives in the existing compensated objective. Specific-result priority and final author declarations remain under review.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -21,7 +21,7 @@
       "status": "specific_compensated_attainment_and_matched_information_consequences_derived_priority_and_value_under_assessment",
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Complete specific-result priority and sufficient choice-analysis value assessment. General Gaussian absorption and harmful prediction aggregation are established prior and explicitly attributed.",
-      "latest_candidate_evidence": "../local_derivative_attainment_20261118/proof.md",
+      "latest_candidate_evidence": "../fixed_power_identical_scores_20261118/proof.md",
       "latest_application_scope": "../entropy_endpoint_audit_20261118/README.md"
     },
     {
@@ -34,7 +34,7 @@
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
-      "evidence": "../../submission/finite_choice_20261110/reports/local_derivative_validation_20261118.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/fixed_power_validation_20261118.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law.",
       "latest_additional_evidence": "../entropy_endpoint_audit_20261118/proof.md"
     },
@@ -53,7 +53,7 @@
     {
       "requirement": "Full manuscript, appendices and submission materials",
       "status": "78_page_full_30_page_reading_Word_reviewed_20_tables_151_displays_7_appendices",
-      "evidence": "../local_derivative_manuscript_integration_20261118/README.md",
+      "evidence": "../fixed_power_manuscript_integration_20261118/README.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
   ],
@@ -206,7 +206,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../local_derivative_manuscript_integration_20261118/README.md",
+  "latest_progress_report": "../fixed_power_manuscript_integration_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -352,7 +352,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Arbitrary finite local derivative matching incorporated in the bounded compensated-choice construction. The independent checks and source attributions are filed.",
+  "latest_progress": "Fixed power and frozen prediction now held constant in the finite design existence comparison.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -474,7 +474,7 @@
     "new_Scopus_queries": 0,
     "new_human_or_AI_answers": 0,
     "goal_achieved": false,
-    "current_copied_parent_files": 1230,
+    "current_copied_parent_files": 1246,
     "current_curation": "../../submission/jocm_reviewer_20261116/CURATION.json",
     "root_analysis_sources_unchanged_in_EPI_revision": 83,
     "root_analysis_sources_unchanged_in_matched_information_revision": 83
@@ -830,5 +830,39 @@
     "byte_identical_outputs": 5,
     "manuscript_integrated": false,
     "scopus_new_document_queries": 0
+  },
+  "fixed_power_identical_scores_20261118": {
+    "report": "../fixed_power_identical_scores_20261118/README.md",
+    "matched_design_triplets": 30,
+    "highest_derivative_order": 33,
+    "compact_labelled_and_aux_counts": [
+      32,
+      32
+    ],
+    "fixed_predictor_and_power": true,
+    "common_population_and_true_reference": true,
+    "independent_package_rerun": true,
+    "manuscript_integrated": true
+  },
+  "fixed_label_auxiliary_design_20261118": {
+    "report": "../fixed_label_auxiliary_design_20261118/README.md",
+    "label_groups": 96,
+    "corrected_fits_audited_for_attainment": 1536,
+    "unit_power_label_groups_flipping": 12,
+    "of_which_ordinary_finite": 10,
+    "half_power_label_groups_flipping": 2,
+    "aux_people": 64,
+    "constant_auxiliary_menu_counts": {
+      "RADIANT": [
+        384
+      ],
+      "Swissmetro": [
+        576
+      ]
+    },
+    "negative_recession_rays_verified": 129,
+    "isolated_replay": true,
+    "proof_integrated_in_manuscript": true,
+    "new_empirical_audit_integrated": false
   }
 }
