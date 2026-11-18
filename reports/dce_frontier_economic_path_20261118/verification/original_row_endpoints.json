@@ -1,0 +1,858 @@
+[
+  {
+    "frontier_record": 44,
+    "uncompressed_frontier": 0.7647127710718743,
+    "cap_from_original_gap": 0.7647127710718763,
+    "minimum_gap": 0.265092566603795,
+    "min_tied_probability": 0.043453523703833756,
+    "loss_slope_per_log_distance": 0.32916666666666666
+  },
+  {
+    "frontier_record": 45,
+    "uncompressed_frontier": 0.9531957094538843,
+    "cap_from_original_gap": 0.9531957094539311,
+    "minimum_gap": 0.265092566603795,
+    "min_tied_probability": 0.1677670732475951,
+    "loss_slope_per_log_distance": 0.32916666666666666
+  },
+  {
+    "frontier_record": 72,
+    "uncompressed_frontier": 0.8888372554584968,
+    "cap_from_original_gap": 0.8888372554585054,
+    "minimum_gap": 0.031033796867628007,
+    "min_tied_probability": 0.007186814661985055,
+    "loss_slope_per_log_distance": 2.448611111111112
+  },
+  {
+    "frontier_record": 120,
+    "uncompressed_frontier": 0.7044214735348281,
+    "cap_from_original_gap": 0.7044214735348416,
+    "minimum_gap": 0.08082408062828086,
+    "min_tied_probability": 0.0030837440330116037,
+    "loss_slope_per_log_distance": 1.0333333333333334
+  },
+  {
+    "frontier_record": 164,
+    "uncompressed_frontier": 0.2992779991458725,
+    "cap_from_original_gap": 0.2992779991458748,
+    "minimum_gap": 0.01352500427493669,
+    "min_tied_probability": 0.0005722925424003737,
+    "loss_slope_per_log_distance": 2.641666666666667
+  },
+  {
+    "frontier_record": 176,
+    "uncompressed_frontier": 0.8217934425220111,
+    "cap_from_original_gap": 0.821793442522014,
+    "minimum_gap": 0.050234134358714246,
+    "min_tied_probability": 0.08062712129928858,
+    "loss_slope_per_log_distance": 2.5222222222222217
+  },
+  {
+    "frontier_record": 220,
+    "uncompressed_frontier": 0.8458698576273186,
+    "cap_from_original_gap": 0.8458698576273225,
+    "minimum_gap": 0.04421166334171913,
+    "min_tied_probability": 0.04341986094811441,
+    "loss_slope_per_log_distance": 0.8784722222222227
+  },
+  {
+    "frontier_record": 225,
+    "uncompressed_frontier": 0.8940653735724796,
+    "cap_from_original_gap": 0.8940653735726463,
+    "minimum_gap": 0.02884192599794102,
+    "min_tied_probability": 0.04640510126808932,
+    "loss_slope_per_log_distance": 2.3364814814814823
+  },
+  {
+    "frontier_record": 236,
+    "uncompressed_frontier": 0.9555875465166236,
+    "cap_from_original_gap": 0.9555875465166244,
+    "minimum_gap": 0.02046396679821011,
+    "min_tied_probability": 0.05604554840151895,
+    "loss_slope_per_log_distance": 3.993888888888889
+  },
+  {
+    "frontier_record": 264,
+    "uncompressed_frontier": 0.451997704865951,
+    "cap_from_original_gap": 0.4519977048659543,
+    "minimum_gap": 0.0800948885553688,
+    "min_tied_probability": 0.021207848092497362,
+    "loss_slope_per_log_distance": 0.4361111111111111
+  },
+  {
+    "frontier_record": 265,
+    "uncompressed_frontier": 0.9994157642616587,
+    "cap_from_original_gap": 0.9994157642616434,
+    "minimum_gap": 0.02106276281226262,
+    "min_tied_probability": 0.01854047029118147,
+    "loss_slope_per_log_distance": 2.658333333333333
+  },
+  {
+    "frontier_record": 292,
+    "uncompressed_frontier": 0.92879900046135,
+    "cap_from_original_gap": 0.9287990004613466,
+    "minimum_gap": 0.1379868311652204,
+    "min_tied_probability": 0.007244395923853202,
+    "loss_slope_per_log_distance": 0.5958333333333334
+  },
+  {
+    "frontier_record": 304,
+    "uncompressed_frontier": 0.9863477054000112,
+    "cap_from_original_gap": 0.9863477053999642,
+    "minimum_gap": 0.012574170593881488,
+    "min_tied_probability": 0.052309276539663725,
+    "loss_slope_per_log_distance": 5.1833333333333345
+  },
+  {
+    "frontier_record": 312,
+    "uncompressed_frontier": 0.808858110843495,
+    "cap_from_original_gap": 0.808858110843465,
+    "minimum_gap": 0.1478927515693523,
+    "min_tied_probability": 0.03184236709692024,
+    "loss_slope_per_log_distance": 0.525
+  },
+  {
+    "frontier_record": 316,
+    "uncompressed_frontier": 0.6391116522657546,
+    "cap_from_original_gap": 0.6391116522657581,
+    "minimum_gap": 0.026368066135006682,
+    "min_tied_probability": 0.05470017014630042,
+    "loss_slope_per_log_distance": 1.7902777777777783
+  },
+  {
+    "frontier_record": 317,
+    "uncompressed_frontier": 0.938626849921519,
+    "cap_from_original_gap": 0.9386268499215961,
+    "minimum_gap": 0.0877463095775077,
+    "min_tied_probability": 0.016319236665358415,
+    "loss_slope_per_log_distance": 0.5277777777777779
+  },
+  {
+    "frontier_record": 324,
+    "uncompressed_frontier": 0.4749557380127577,
+    "cap_from_original_gap": 0.47495573801274926,
+    "minimum_gap": 0.03110709586661682,
+    "min_tied_probability": 0.03254602460991448,
+    "loss_slope_per_log_distance": 1.718055555555556
+  },
+  {
+    "frontier_record": 325,
+    "uncompressed_frontier": 0.7290738950479346,
+    "cap_from_original_gap": 0.729073895048011,
+    "minimum_gap": 0.051551871039518395,
+    "min_tied_probability": 0.036960257508816964,
+    "loss_slope_per_log_distance": 1.4277777777777778
+  },
+  {
+    "frontier_record": 340,
+    "uncompressed_frontier": 0.6717739566275869,
+    "cap_from_original_gap": 0.6717739566275696,
+    "minimum_gap": 0.028733872909686587,
+    "min_tied_probability": 0.008996292131766183,
+    "loss_slope_per_log_distance": 1.4534722222222238
+  },
+  {
+    "frontier_record": 348,
+    "uncompressed_frontier": 0.6215555991435773,
+    "cap_from_original_gap": 0.6215555991435837,
+    "minimum_gap": 0.10577421839157297,
+    "min_tied_probability": 0.007403673775681776,
+    "loss_slope_per_log_distance": 0.5041666666666669
+  },
+  {
+    "frontier_record": 352,
+    "uncompressed_frontier": 0.26704511779056106,
+    "cap_from_original_gap": 0.26704511779055795,
+    "minimum_gap": 0.012793331683653219,
+    "min_tied_probability": 0.09769548965386589,
+    "loss_slope_per_log_distance": 3.6305555555555564
+  },
+  {
+    "frontier_record": 353,
+    "uncompressed_frontier": 0.9258458164266713,
+    "cap_from_original_gap": 0.9258458164266864,
+    "minimum_gap": 0.009659387904909356,
+    "min_tied_probability": 0.11010408052076036,
+    "loss_slope_per_log_distance": 5.7777777777777795
+  },
+  {
+    "frontier_record": 364,
+    "uncompressed_frontier": 0.7885242236088061,
+    "cap_from_original_gap": 0.7885242236088077,
+    "minimum_gap": 0.016398004379352318,
+    "min_tied_probability": 0.05473660600060906,
+    "loss_slope_per_log_distance": 4.914583333333335
+  },
+  {
+    "frontier_record": 412,
+    "uncompressed_frontier": 0.9346079543552672,
+    "cap_from_original_gap": 0.9346079543552789,
+    "minimum_gap": 0.03890373277437678,
+    "min_tied_probability": 0.028825378420437215,
+    "loss_slope_per_log_distance": 2.3972222222222226
+  },
+  {
+    "frontier_record": 424,
+    "uncompressed_frontier": 0.9484099023781193,
+    "cap_from_original_gap": 0.9484099023781118,
+    "minimum_gap": 0.0649871500614874,
+    "min_tied_probability": 0.05066028708200708,
+    "loss_slope_per_log_distance": 0.5513888888888892
+  },
+  {
+    "frontier_record": 436,
+    "uncompressed_frontier": 0.8843154788429547,
+    "cap_from_original_gap": 0.8843154788429938,
+    "minimum_gap": 0.0027617005899761194,
+    "min_tied_probability": 0.06580435527551197,
+    "loss_slope_per_log_distance": 29.525000000000002
+  },
+  {
+    "frontier_record": 449,
+    "uncompressed_frontier": 0.6404120560088773,
+    "cap_from_original_gap": 0.6404120560089712,
+    "minimum_gap": 0.06219410080720369,
+    "min_tied_probability": 0.058397282071628594,
+    "loss_slope_per_log_distance": 0.7268518518518519
+  },
+  {
+    "frontier_record": 456,
+    "uncompressed_frontier": 0.896385689158562,
+    "cap_from_original_gap": 0.8963856891585642,
+    "minimum_gap": 0.06523827297472348,
+    "min_tied_probability": 0.023254319789632914,
+    "loss_slope_per_log_distance": 1.0347222222222225
+  },
+  {
+    "frontier_record": 464,
+    "uncompressed_frontier": 0.19595556393180058,
+    "cap_from_original_gap": 0.1959555639317901,
+    "minimum_gap": 0.02762230699302996,
+    "min_tied_probability": 0.11325292701722856,
+    "loss_slope_per_log_distance": 2.497222222222223
+  },
+  {
+    "frontier_record": 484,
+    "uncompressed_frontier": 0.9441935964105403,
+    "cap_from_original_gap": 0.9441935964105846,
+    "minimum_gap": 0.041275471923613354,
+    "min_tied_probability": 0.012958979332430233,
+    "loss_slope_per_log_distance": 0.9347222222222229
+  },
+  {
+    "frontier_record": 529,
+    "uncompressed_frontier": 0.8369612271285854,
+    "cap_from_original_gap": 0.8369612271285729,
+    "minimum_gap": 0.19718075168127475,
+    "min_tied_probability": 0.023182172646967827,
+    "loss_slope_per_log_distance": 0.20833333333333334
+  },
+  {
+    "frontier_record": 536,
+    "uncompressed_frontier": 0.8113597809851473,
+    "cap_from_original_gap": 0.811359780985136,
+    "minimum_gap": 0.2015375504476893,
+    "min_tied_probability": 0.00028520408098456243,
+    "loss_slope_per_log_distance": 0.4708333333333333
+  },
+  {
+    "frontier_record": 572,
+    "uncompressed_frontier": 0.5318984462756913,
+    "cap_from_original_gap": 0.53189844627574,
+    "minimum_gap": 0.01094477805193754,
+    "min_tied_probability": 0.05304247453221105,
+    "loss_slope_per_log_distance": 6.64861111111111
+  },
+  {
+    "frontier_record": 580,
+    "uncompressed_frontier": 0.3216346888207534,
+    "cap_from_original_gap": 0.3216346888207479,
+    "minimum_gap": 0.062197642884613734,
+    "min_tied_probability": 0.07680718650656025,
+    "loss_slope_per_log_distance": 1.3256944444444452
+  },
+  {
+    "frontier_record": 604,
+    "uncompressed_frontier": 0.6153738152402878,
+    "cap_from_original_gap": 0.6153738152402904,
+    "minimum_gap": 0.037422151680915554,
+    "min_tied_probability": 0.015066178540402101,
+    "loss_slope_per_log_distance": 2.6647222222222227
+  },
+  {
+    "frontier_record": 620,
+    "uncompressed_frontier": 0.6788975591739744,
+    "cap_from_original_gap": 0.678897559173978,
+    "minimum_gap": 0.015650774695741405,
+    "min_tied_probability": 0.06577741869406213,
+    "loss_slope_per_log_distance": 2.541666666666667
+  },
+  {
+    "frontier_record": 621,
+    "uncompressed_frontier": 0.5079142348925361,
+    "cap_from_original_gap": 0.5079142348925441,
+    "minimum_gap": 0.009117880640463646,
+    "min_tied_probability": 0.003995951529654478,
+    "loss_slope_per_log_distance": 4.125000000000003
+  },
+  {
+    "frontier_record": 624,
+    "uncompressed_frontier": 0.3254601131930902,
+    "cap_from_original_gap": 0.3254601131930847,
+    "minimum_gap": 0.07924288517503274,
+    "min_tied_probability": 0.0249277727505064,
+    "loss_slope_per_log_distance": 0.6527777777777779
+  },
+  {
+    "frontier_record": 701,
+    "uncompressed_frontier": 0.9286231554727297,
+    "cap_from_original_gap": 0.9286231554727429,
+    "minimum_gap": 1.0,
+    "min_tied_probability": 0.07862640412789569,
+    "loss_slope_per_log_distance": 0.13055555555555556
+  },
+  {
+    "frontier_record": 740,
+    "uncompressed_frontier": 0.8657595196199643,
+    "cap_from_original_gap": 0.8657595196199781,
+    "minimum_gap": 0.052420002592483715,
+    "min_tied_probability": 0.012798142211968887,
+    "loss_slope_per_log_distance": 0.8305555555555557
+  },
+  {
+    "frontier_record": 744,
+    "uncompressed_frontier": 0.6501477660952919,
+    "cap_from_original_gap": 0.6501477660953001,
+    "minimum_gap": 0.06395556376208135,
+    "min_tied_probability": 0.08955374883363221,
+    "loss_slope_per_log_distance": 0.7638888888888891
+  },
+  {
+    "frontier_record": 764,
+    "uncompressed_frontier": 0.8192996650931802,
+    "cap_from_original_gap": 0.8192996650932232,
+    "minimum_gap": 0.016068699788617906,
+    "min_tied_probability": 0.008868245107485472,
+    "loss_slope_per_log_distance": 4.486111111111113
+  },
+  {
+    "frontier_record": 780,
+    "uncompressed_frontier": 0.6493405818990905,
+    "cap_from_original_gap": 0.6493405818990874,
+    "minimum_gap": 0.06456586592145852,
+    "min_tied_probability": 0.06168499791023918,
+    "loss_slope_per_log_distance": 0.5888888888888891
+  },
+  {
+    "frontier_record": 784,
+    "uncompressed_frontier": 0.5984728684075337,
+    "cap_from_original_gap": 0.5984728684075429,
+    "minimum_gap": 0.016128864424760577,
+    "min_tied_probability": 0.014644545177901086,
+    "loss_slope_per_log_distance": 5.090277777777779
+  },
+  {
+    "frontier_record": 840,
+    "uncompressed_frontier": 0.7119933856245614,
+    "cap_from_original_gap": 0.7119933856245344,
+    "minimum_gap": 0.013184995658293718,
+    "min_tied_probability": 0.15590011278291685,
+    "loss_slope_per_log_distance": 3.6666666666666687
+  },
+  {
+    "frontier_record": 861,
+    "uncompressed_frontier": 0.703323026775107,
+    "cap_from_original_gap": 0.7033230267751142,
+    "minimum_gap": 0.19718075168127475,
+    "min_tied_probability": 0.1490053843918798,
+    "loss_slope_per_log_distance": 0.20833333333333334
+  },
+  {
+    "frontier_record": 916,
+    "uncompressed_frontier": 0.5587087554783693,
+    "cap_from_original_gap": 0.5587087554783715,
+    "minimum_gap": 0.002308290409956573,
+    "min_tied_probability": 0.006338918311314501,
+    "loss_slope_per_log_distance": 29.56944444444445
+  },
+  {
+    "frontier_record": 944,
+    "uncompressed_frontier": 0.7613642919601928,
+    "cap_from_original_gap": 0.7613642919601863,
+    "minimum_gap": 0.052195486373863384,
+    "min_tied_probability": 0.03543565854926212,
+    "loss_slope_per_log_distance": 1.2701388888888894
+  },
+  {
+    "frontier_record": 948,
+    "uncompressed_frontier": 0.9425428718126955,
+    "cap_from_original_gap": 0.942542871812667,
+    "minimum_gap": 0.02505508749771942,
+    "min_tied_probability": 0.011932623076206685,
+    "loss_slope_per_log_distance": 4.395345345345346
+  },
+  {
+    "frontier_record": 952,
+    "uncompressed_frontier": 0.23350065104859805,
+    "cap_from_original_gap": 0.23350065104860027,
+    "minimum_gap": 0.004071765194432551,
+    "min_tied_probability": 0.10660520413449347,
+    "loss_slope_per_log_distance": 19.88055555555556
+  },
+  {
+    "frontier_record": 953,
+    "uncompressed_frontier": 0.6769942710251243,
+    "cap_from_original_gap": 0.6769942710251426,
+    "minimum_gap": 0.005433973736134719,
+    "min_tied_probability": 0.009680226590695782,
+    "loss_slope_per_log_distance": 10.411111111111113
+  },
+  {
+    "frontier_record": 968,
+    "uncompressed_frontier": 0.8795482842782686,
+    "cap_from_original_gap": 0.8795482842782395,
+    "minimum_gap": 0.00645289152162565,
+    "min_tied_probability": 0.05149716595689695,
+    "loss_slope_per_log_distance": 6.816666666666668
+  },
+  {
+    "frontier_record": 980,
+    "uncompressed_frontier": 0.8885276460384921,
+    "cap_from_original_gap": 0.8885276460384496,
+    "minimum_gap": 0.18595200082640045,
+    "min_tied_probability": 0.004894768629277512,
+    "loss_slope_per_log_distance": 0.29722222222222233
+  },
+  {
+    "frontier_record": 1000,
+    "uncompressed_frontier": 0.7725279171997378,
+    "cap_from_original_gap": 0.7725279171997427,
+    "minimum_gap": 0.02646844978084105,
+    "min_tied_probability": 0.0369764988161667,
+    "loss_slope_per_log_distance": 3.550925925925927
+  },
+  {
+    "frontier_record": 1004,
+    "uncompressed_frontier": 0.7443284877516418,
+    "cap_from_original_gap": 0.7443284877516413,
+    "minimum_gap": 0.1727221339633667,
+    "min_tied_probability": 0.002393368541066619,
+    "loss_slope_per_log_distance": 0.23333333333333334
+  },
+  {
+    "frontier_record": 1012,
+    "uncompressed_frontier": 0.5989490050364137,
+    "cap_from_original_gap": 0.5989490050364105,
+    "minimum_gap": 0.10024086747057818,
+    "min_tied_probability": 0.05511072384529407,
+    "loss_slope_per_log_distance": 0.9083333333333334
+  },
+  {
+    "frontier_record": 1016,
+    "uncompressed_frontier": 0.8784218094952899,
+    "cap_from_original_gap": 0.8784218094952984,
+    "minimum_gap": 0.10677035543974552,
+    "min_tied_probability": 0.02223514223650031,
+    "loss_slope_per_log_distance": 0.6222222222222222
+  },
+  {
+    "frontier_record": 1020,
+    "uncompressed_frontier": 0.3564270154340251,
+    "cap_from_original_gap": 0.35642701543403155,
+    "minimum_gap": 0.032264276239067545,
+    "min_tied_probability": 0.078368741363185,
+    "loss_slope_per_log_distance": 2.950000000000001
+  },
+  {
+    "frontier_record": 1040,
+    "uncompressed_frontier": 0.6949201818916574,
+    "cap_from_original_gap": 0.6949201818916575,
+    "minimum_gap": 1.0,
+    "min_tied_probability": 0.037041990480668974,
+    "loss_slope_per_log_distance": 0.13055555555555556
+  },
+  {
+    "frontier_record": 1044,
+    "uncompressed_frontier": 0.4062451616134326,
+    "cap_from_original_gap": 0.40624516161343266,
+    "minimum_gap": 1.0,
+    "min_tied_probability": 0.09235902179657147,
+    "loss_slope_per_log_distance": 0.13055555555555556
+  },
+  {
+    "frontier_record": 1076,
+    "uncompressed_frontier": 0.4503695352755179,
+    "cap_from_original_gap": 0.45036953527555795,
+    "minimum_gap": 0.06504756716375422,
+    "min_tied_probability": 0.0053592032337791634,
+    "loss_slope_per_log_distance": 1.251495726495727
+  },
+  {
+    "frontier_record": 1100,
+    "uncompressed_frontier": 0.989804182210242,
+    "cap_from_original_gap": 0.9898041822102467,
+    "minimum_gap": 0.036715361089242435,
+    "min_tied_probability": 0.03578677497176502,
+    "loss_slope_per_log_distance": 3.325
+  },
+  {
+    "frontier_record": 1108,
+    "uncompressed_frontier": 0.83509266135467,
+    "cap_from_original_gap": 0.835092661354687,
+    "minimum_gap": 0.005626834515226263,
+    "min_tied_probability": 0.027152114707737176,
+    "loss_slope_per_log_distance": 11.18703703703704
+  },
+  {
+    "frontier_record": 1132,
+    "uncompressed_frontier": 0.5302904025403399,
+    "cap_from_original_gap": 0.5302904025403435,
+    "minimum_gap": 0.12058018065872111,
+    "min_tied_probability": 0.02849925095949553,
+    "loss_slope_per_log_distance": 0.41296296296296303
+  },
+  {
+    "frontier_record": 1152,
+    "uncompressed_frontier": 0.4609208573847877,
+    "cap_from_original_gap": 0.4609208573847813,
+    "minimum_gap": 0.04446090571147978,
+    "min_tied_probability": 0.016046495996554833,
+    "loss_slope_per_log_distance": 1.396666666666667
+  },
+  {
+    "frontier_record": 1164,
+    "uncompressed_frontier": 0.9567875391815501,
+    "cap_from_original_gap": 0.956787539181559,
+    "minimum_gap": 0.04833682445228318,
+    "min_tied_probability": 0.019065128626680715,
+    "loss_slope_per_log_distance": 1.9902777777777783
+  },
+  {
+    "frontier_record": 1184,
+    "uncompressed_frontier": 0.5961351107401306,
+    "cap_from_original_gap": 0.596135110740122,
+    "minimum_gap": 0.011433552876044435,
+    "min_tied_probability": 0.018699263594228813,
+    "loss_slope_per_log_distance": 3.8680555555555562
+  },
+  {
+    "frontier_record": 1196,
+    "uncompressed_frontier": 0.816694319293064,
+    "cap_from_original_gap": 0.8166943192930628,
+    "minimum_gap": 0.10260092099690381,
+    "min_tied_probability": 0.021184788637044503,
+    "loss_slope_per_log_distance": 0.5440476190476192
+  },
+  {
+    "frontier_record": 1197,
+    "uncompressed_frontier": 0.904047941350487,
+    "cap_from_original_gap": 0.9040479413505689,
+    "minimum_gap": 0.01525620919624441,
+    "min_tied_probability": 0.009704369238724765,
+    "loss_slope_per_log_distance": 4.461111111111113
+  },
+  {
+    "frontier_record": 1208,
+    "uncompressed_frontier": 0.9399877329935897,
+    "cap_from_original_gap": 0.9399877329935982,
+    "minimum_gap": 0.01957852036744641,
+    "min_tied_probability": 0.015267378010110176,
+    "loss_slope_per_log_distance": 2.197222222222223
+  },
+  {
+    "frontier_record": 1216,
+    "uncompressed_frontier": 0.7991143437024509,
+    "cap_from_original_gap": 0.7991143437024375,
+    "minimum_gap": 0.005645617555141962,
+    "min_tied_probability": 0.12095077175376533,
+    "loss_slope_per_log_distance": 8.694444444444446
+  },
+  {
+    "frontier_record": 1225,
+    "uncompressed_frontier": 0.7647040151136283,
+    "cap_from_original_gap": 0.7647040151135812,
+    "minimum_gap": 0.10688617499098876,
+    "min_tied_probability": 0.0008993152039035581,
+    "loss_slope_per_log_distance": 0.43333333333333335
+  },
+  {
+    "frontier_record": 1236,
+    "uncompressed_frontier": 0.9352696002734646,
+    "cap_from_original_gap": 0.9352696002734759,
+    "minimum_gap": 0.08024948219188674,
+    "min_tied_probability": 0.011984661874382243,
+    "loss_slope_per_log_distance": 0.5083333333333335
+  },
+  {
+    "frontier_record": 1237,
+    "uncompressed_frontier": 0.970121223958984,
+    "cap_from_original_gap": 0.9701212239590407,
+    "minimum_gap": 0.08024948219188674,
+    "min_tied_probability": 0.021657688816816494,
+    "loss_slope_per_log_distance": 0.5083333333333335
+  },
+  {
+    "frontier_record": 1276,
+    "uncompressed_frontier": 0.6358398963912149,
+    "cap_from_original_gap": 0.6358398963912023,
+    "minimum_gap": 0.09241844205482733,
+    "min_tied_probability": 0.004993904924580413,
+    "loss_slope_per_log_distance": 0.6361111111111112
+  },
+  {
+    "frontier_record": 1280,
+    "uncompressed_frontier": 0.8451721099832613,
+    "cap_from_original_gap": 0.8451721099832602,
+    "minimum_gap": 0.06229592575542103,
+    "min_tied_probability": 0.06656754413385667,
+    "loss_slope_per_log_distance": 0.8472222222222224
+  },
+  {
+    "frontier_record": 1304,
+    "uncompressed_frontier": 0.779484736041833,
+    "cap_from_original_gap": 0.7794847360418542,
+    "minimum_gap": 0.03967504321705624,
+    "min_tied_probability": 0.006880419960914161,
+    "loss_slope_per_log_distance": 3.316666666666667
+  },
+  {
+    "frontier_record": 1316,
+    "uncompressed_frontier": 0.9321433016128474,
+    "cap_from_original_gap": 0.9321433016127003,
+    "minimum_gap": 0.0031222125961626788,
+    "min_tied_probability": 0.03276632350081463,
+    "loss_slope_per_log_distance": 13.894444444444453
+  },
+  {
+    "frontier_record": 1352,
+    "uncompressed_frontier": 0.5596174928073769,
+    "cap_from_original_gap": 0.5596174928073855,
+    "minimum_gap": 0.03443121179945249,
+    "min_tied_probability": 0.009767227069446075,
+    "loss_slope_per_log_distance": 1.6361111111111108
+  },
+  {
+    "frontier_record": 1372,
+    "uncompressed_frontier": 0.9004418295946265,
+    "cap_from_original_gap": 0.900441829594623,
+    "minimum_gap": 0.015758841377940144,
+    "min_tied_probability": 0.010679820521167881,
+    "loss_slope_per_log_distance": 3.6666666666666674
+  },
+  {
+    "frontier_record": 1388,
+    "uncompressed_frontier": 0.4380697976431603,
+    "cap_from_original_gap": 0.4380697976431653,
+    "minimum_gap": 0.022788090737778478,
+    "min_tied_probability": 0.013107314005540148,
+    "loss_slope_per_log_distance": 2.4916666666666667
+  },
+  {
+    "frontier_record": 1392,
+    "uncompressed_frontier": 0.8295543174626498,
+    "cap_from_original_gap": 0.829554317462651,
+    "minimum_gap": 1.0,
+    "min_tied_probability": 0.08161603648560052,
+    "loss_slope_per_log_distance": 0.13055555555555556
+  },
+  {
+    "frontier_record": 1396,
+    "uncompressed_frontier": 0.8482889448540065,
+    "cap_from_original_gap": 0.8482889448540222,
+    "minimum_gap": 0.020304704559274127,
+    "min_tied_probability": 0.056516628852380756,
+    "loss_slope_per_log_distance": 4.2972222222222225
+  },
+  {
+    "frontier_record": 1416,
+    "uncompressed_frontier": 0.026890726812864876,
+    "cap_from_original_gap": 0.026890726812863416,
+    "minimum_gap": 0.014762306596689869,
+    "min_tied_probability": 0.008354895261859096,
+    "loss_slope_per_log_distance": 3.6194444444444445
+  },
+  {
+    "frontier_record": 1417,
+    "uncompressed_frontier": 0.7883928366367161,
+    "cap_from_original_gap": 0.788392836636788,
+    "minimum_gap": 0.011726690248928962,
+    "min_tied_probability": 0.07949486167810756,
+    "loss_slope_per_log_distance": 3.0138888888888893
+  },
+  {
+    "frontier_record": 1428,
+    "uncompressed_frontier": 0.6099658533447686,
+    "cap_from_original_gap": 0.6099658533447748,
+    "minimum_gap": 0.023712399714693775,
+    "min_tied_probability": 0.03562420342770399,
+    "loss_slope_per_log_distance": 4.471111111111111
+  },
+  {
+    "frontier_record": 1488,
+    "uncompressed_frontier": 0.8047144076148792,
+    "cap_from_original_gap": 0.8047144076148797,
+    "minimum_gap": 1.0,
+    "min_tied_probability": 0.01522288696916196,
+    "loss_slope_per_log_distance": 0.13055555555555556
+  },
+  {
+    "frontier_record": 1492,
+    "uncompressed_frontier": 0.553893874798293,
+    "cap_from_original_gap": 0.5538938747982856,
+    "minimum_gap": 0.1418903696102086,
+    "min_tied_probability": 0.007244885670524514,
+    "loss_slope_per_log_distance": 0.3430555555555555
+  },
+  {
+    "frontier_record": 1493,
+    "uncompressed_frontier": 0.20648807408574027,
+    "cap_from_original_gap": 0.20648807408575154,
+    "minimum_gap": 0.020955934924124144,
+    "min_tied_probability": 0.0903660168490274,
+    "loss_slope_per_log_distance": 2.169444444444445
+  },
+  {
+    "frontier_record": 1532,
+    "uncompressed_frontier": 0.619521305618445,
+    "cap_from_original_gap": 0.6195213056184515,
+    "minimum_gap": 0.015968390876408917,
+    "min_tied_probability": 0.03486891176035388,
+    "loss_slope_per_log_distance": 4.3875
+  },
+  {
+    "frontier_record": 1556,
+    "uncompressed_frontier": 0.8965179665054008,
+    "cap_from_original_gap": 0.8965179665053404,
+    "minimum_gap": 0.09249747947802588,
+    "min_tied_probability": 0.012247071893282925,
+    "loss_slope_per_log_distance": 0.836111111111111
+  },
+  {
+    "frontier_record": 1565,
+    "uncompressed_frontier": 0.7053518377939824,
+    "cap_from_original_gap": 0.7053518377941477,
+    "minimum_gap": 0.12157633865032576,
+    "min_tied_probability": 0.02782340096891117,
+    "loss_slope_per_log_distance": 0.3574074074074075
+  },
+  {
+    "frontier_record": 1600,
+    "uncompressed_frontier": 0.902868215982882,
+    "cap_from_original_gap": 0.9028682159828846,
+    "minimum_gap": 0.03829984199815773,
+    "min_tied_probability": 0.13240075242399152,
+    "loss_slope_per_log_distance": 1.4055555555555557
+  },
+  {
+    "frontier_record": 1608,
+    "uncompressed_frontier": 0.7715887272182346,
+    "cap_from_original_gap": 0.7715887272182398,
+    "minimum_gap": 0.0994766374842626,
+    "min_tied_probability": 0.12489438984703985,
+    "loss_slope_per_log_distance": 0.4979166666666668
+  },
+  {
+    "frontier_record": 1620,
+    "uncompressed_frontier": 0.4061673987749953,
+    "cap_from_original_gap": 0.4061673987749904,
+    "minimum_gap": 0.05302373024798148,
+    "min_tied_probability": 0.016883210242287693,
+    "loss_slope_per_log_distance": 1.3750000000000002
+  },
+  {
+    "frontier_record": 1652,
+    "uncompressed_frontier": 0.6296223077521194,
+    "cap_from_original_gap": 0.6296223077521009,
+    "minimum_gap": 0.0374502943136569,
+    "min_tied_probability": 0.004951361694275306,
+    "loss_slope_per_log_distance": 2.502777777777778
+  },
+  {
+    "frontier_record": 1684,
+    "uncompressed_frontier": 0.42953695792309754,
+    "cap_from_original_gap": 0.4295369579231094,
+    "minimum_gap": 0.0876788279789868,
+    "min_tied_probability": 0.019021332961195864,
+    "loss_slope_per_log_distance": 0.5138888888888891
+  },
+  {
+    "frontier_record": 1697,
+    "uncompressed_frontier": 0.9694515325860645,
+    "cap_from_original_gap": 0.9694515325860542,
+    "minimum_gap": 0.0088449696350226,
+    "min_tied_probability": 0.01223067026773622,
+    "loss_slope_per_log_distance": 4.191666666666668
+  },
+  {
+    "frontier_record": 1700,
+    "uncompressed_frontier": 0.8520009053260145,
+    "cap_from_original_gap": 0.8520009053260289,
+    "minimum_gap": 0.013044929559189768,
+    "min_tied_probability": 0.10468333585317761,
+    "loss_slope_per_log_distance": 2.569444444444445
+  },
+  {
+    "frontier_record": 1800,
+    "uncompressed_frontier": 0.6456425398373054,
+    "cap_from_original_gap": 0.6456425398372975,
+    "minimum_gap": 0.002965792596794853,
+    "min_tied_probability": 0.0005597157543980725,
+    "loss_slope_per_log_distance": 64.67222222222223
+  },
+  {
+    "frontier_record": 1840,
+    "uncompressed_frontier": 0.8549913554857815,
+    "cap_from_original_gap": 0.8549913554857825,
+    "minimum_gap": 0.03541559683667087,
+    "min_tied_probability": 0.0662122712247281,
+    "loss_slope_per_log_distance": 2.688888888888888
+  },
+  {
+    "frontier_record": 1884,
+    "uncompressed_frontier": 0.7150700906445413,
+    "cap_from_original_gap": 0.7150700906445409,
+    "minimum_gap": 0.043020403392856496,
+    "min_tied_probability": 0.075693000578891,
+    "loss_slope_per_log_distance": 2.4361111111111113
+  },
+  {
+    "frontier_record": 1892,
+    "uncompressed_frontier": 0.3425898267089628,
+    "cap_from_original_gap": 0.3425898267089663,
+    "minimum_gap": 0.03777575957781696,
+    "min_tied_probability": 0.03335945126595948,
+    "loss_slope_per_log_distance": 1.7873456790123456
+  },
+  {
+    "frontier_record": 1900,
+    "uncompressed_frontier": 0.5423944422149454,
+    "cap_from_original_gap": 0.5423944422149449,
+    "minimum_gap": 0.016429067996273805,
+    "min_tied_probability": 0.03939111652981598,
+    "loss_slope_per_log_distance": 4.869444444444446
+  },
+  {
+    "frontier_record": 1924,
+    "uncompressed_frontier": 0.7489609195768329,
+    "cap_from_original_gap": 0.7489609195768355,
+    "minimum_gap": 0.02388410885962159,
+    "min_tied_probability": 0.07248764454051371,
+    "loss_slope_per_log_distance": 3.052777777777778
+  },
+  {
+    "frontier_record": 1968,
+    "uncompressed_frontier": 0.8496309570322492,
+    "cap_from_original_gap": 0.8496309570322711,
+    "minimum_gap": 0.008830636503526272,
+    "min_tied_probability": 0.04078077133500815,
+    "loss_slope_per_log_distance": 7.801851851851853
+  },
+  {
+    "frontier_record": 1981,
+    "uncompressed_frontier": 0.9483881546884636,
+    "cap_from_original_gap": 0.9483881546885287,
+    "minimum_gap": 0.01404908294700615,
+    "min_tied_probability": 0.13084128517474258,
+    "loss_slope_per_log_distance": 3.649074074074076
+  }
+]

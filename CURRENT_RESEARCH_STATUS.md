@@ -1,3 +1,9 @@
+# Positive correction-power endpoint and prediction stability, 18 November 2026
+
+The [fixed-design follow-up](reports/dce_frontier_economic_path_20261118/README.md) derives the normal-coefficient and holdout log-loss growth near a strictly positive upper endpoint below one. It evaluates all 107 observed positive uncapped endpoints and 835 low-budget interior unit-power controls. The 7536 path fits, 107 original-row endpoint LPs and 856 post-hoc scalar checks reproduced byte for byte from an isolated archive. At five labels, increasing power from one half to nine tenths of the endpoint raises median evaluation loss from 1.3075 to 2.2208 in 87 allocations and changes six fitted utility comparisons at a GBP 2.50 Bere premium. Price signs remain negative. The loss increase gives the existence theorem a direct forecasting consequence. The economic comparison and all-gap approximation retain their fixed-design scope and limitations.
+
+[Proposed wording](reports/dce_frontier_economic_path_20261118/manuscript_insert.md) is ready for focused integration. Current reviewed Word and submission archives retain their immediately preceding links and hashes. The goal remains active. Earlier entries below are dated history.
+
 # Feasible-power results and direct priors integrated 18 November 2026
 
 The [current reviewed manuscript and release](reports/frontier_manuscript_integration_20261118/README.md) integrate the original two feasible-power rules, the separate post-hoc cap-only control and the TC-PPI and DiPPI sources. All four label budgets and the adverse held-out results are retained. Both scientific analyses were replayed from the published package, with byte-identical coefficients and summaries. The current 74-page complete and 29-page reading Word files share this revision. The research objective remains active. Earlier entries below are dated history.
