@@ -13,3 +13,5 @@
 用户提供的 PPI++ PDF 共 29 页，含正文和附录。SHA-256 为 5c9dc26aa1a537785d34b1d690a7387cf21e0493f0a3f945905dc556d30e70bd。包内保留的作者代码核对与此前真实 DCE 工作流比较可分别在 [代码审计](../../submission/finite_choice_20261110/results/official_ppi_runtime/README.md) 和 [独立工作流证据](../../submission/finite_choice_20261110/results/independent_released_workflow/README.md) 查看。
 
 本轮材料支持相关方法的明确归属与可复现的具体增量。通过已读论文对照仍无法判断全球优先性，也未进行逐字相似度检测。JCM 的范围与主题匹配。投稿判断仍取决于比例维度下的理论增量能否经受邻近理论审查，以及固定留出样本中的机制在独立任务上是否可复现。 [期刊范围](https://shop.elsevier.com/journals/journal-of-choice-modelling/1755-5345)
+
+补充复审核对了 Ye 与 Yoganarasimhan 的第 5.3 节。该文把 PPI++ 的方差分配扩展到联合分析的多项 Logit 效用，正文已引用这项用途。当前候选贡献聚焦补偿估计在比例维度下的有限解。标准最大熵共轭与单一边界面计算的归属详见新增的 [权重路径复审](../entropy_endpoint_audit_20261118/proof.md)。 [Ye 与 Yoganarasimhan](https://arxiv.org/html/2604.17267v1)

@@ -1,20 +1,20 @@
 {
   "date": "2026-11-18",
   "goal_complete": false,
-  "decision": "The compensated-logit existence boundary and the positive endpoint path give distinct testable implications. A fixed DCE illustrates the forecasting consequence. The transferability of the result and the submission-level contribution remain under assessment.",
+  "decision": "The corrected-logit existence threshold and matched-information construction remain the theoretical contribution. Swissmetro independently reproduces loss growth near a finite positive weight limit. Direct MNL using exactly the consumed human labels gives lower held-out log loss at both tested weights. Integrate the independent empirical result and assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
       "status": "completed_with_stated_scope",
       "evidence": "../../data/dh36_source_classification.json",
-      "scope": "300 human-recruitment records and60 AI pretests; source classification does not certify every response or representativeness"
+      "scope": "300 human-recruitment records and 60 AI pretests; source classification does not certify every response or representativeness"
     },
     {
       "requirement": "Useful model reconstruction from existing data",
       "status": "completed_with_stated_scope",
       "evidence": "../human_primary_20261109/真人主分析与来源纠正.md",
       "scope": "Exploratory human application; channel/version confounding and bundled attributes retained",
-      "latest_additional_evidence": "../public_panel_dce_20261117/README.md"
+      "latest_additional_evidence": "../swissmetro_corrected_path_20261118/README.md"
     },
     {
       "requirement": "Independent valuable innovation",
@@ -22,21 +22,21 @@
       "evidence": "../../submission/finite_choice_20261110/manuscript/paper.md",
       "remaining": "Complete specific-result priority and sufficient choice-analysis value assessment. General Gaussian absorption and harmful prediction aggregation are established prior and explicitly attributed.",
       "latest_candidate_evidence": "../power_frontier_20261118/proof_and_scope.md",
-      "latest_application_scope": "../dce_frontier_economic_path_20261118/README.md"
+      "latest_application_scope": "../entropy_endpoint_audit_20261118/README.md"
     },
     {
       "requirement": "Fair comparison against established methods",
       "status": "established_baselines_one_step_domain_and_new_real_DCE_training_cost_controls_retained",
       "evidence": "../one_step_manuscript_integration_20261117/README.md",
-      "remaining": "The fixed allocation and fixed-power diagnostic gives no prediction-error advantage over direct human ridge;it does not establish general tuning or externally pretrained predictor rankings.",
-      "latest_additional_evidence": "../power_frontier_20261118/README.md"
+      "remaining": "Matched-label direct MNL has lower held-out loss in all Swissmetro comparisons. External predictors and other designs are outside this result.",
+      "latest_additional_evidence": "../swissmetro_corrected_path_20261118/results/label_cost/summary.json"
     },
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
       "evidence": "../../submission/finite_choice_20261110/reports/positive_endpoint_validation_20261118.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law.",
-      "latest_additional_evidence": "../dce_frontier_economic_path_20261118/verification/verification.json"
+      "latest_additional_evidence": "../entropy_endpoint_audit_20261118/proof.md"
     },
     {
       "requirement": "Fit to Journal of Choice Modelling readership",
@@ -52,7 +52,7 @@
     },
     {
       "requirement": "Full manuscript, appendices and submission materials",
-      "status": "74_page_full_29_page_reading_Word_reviewed_20_tables_148_displays_7_appendices",
+      "status": "77_page_full_30_page_reading_Word_reviewed_20_tables_151_displays_7_appendices",
       "evidence": "../positive_endpoint_manuscript_integration_20261118/README.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
@@ -783,6 +783,30 @@
     "unit_power_controls": 835,
     "scalar_checks": 856,
     "isolated_exact_replay": true,
-    "manuscript_altered": false
+    "manuscript_altered": true,
+    "full_pages": 77,
+    "reading_pages": 30,
+    "integration": "../positive_endpoint_manuscript_integration_20261118/README.md"
+  },
+  "entropy_endpoint_audit_20261118": {
+    "evidence": "../entropy_endpoint_audit_20261118/README.md",
+    "records": 856,
+    "endpoints": 107,
+    "training_and_holdout_opposition_at_nine_tenths": 107,
+    "original_menu_reconstruction": true,
+    "independent_replay": true,
+    "choice_scope": "Fixed menus and frozen predictions. Standard entropy duality supports the fixed-design interpretation."
+  },
+  "swissmetro_corrected_path_20261118": {
+    "report": "../swissmetro_corrected_path_20261118/README.md",
+    "label_allocation_records": 576,
+    "power_path_fits": 1960,
+    "positive_endpoints": 93,
+    "verified_single_facets": 93,
+    "loss_increased": 90,
+    "ordinary_labelled_interior_of_positive_endpoints": 59,
+    "full_label_cost_comparisons": 1152,
+    "direct_human_lower_loss_all_comparisons": true,
+    "manuscript_integrated": false
   }
 }

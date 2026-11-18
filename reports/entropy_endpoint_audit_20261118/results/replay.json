@@ -1,0 +1,11 @@
+{
+  "state": "passed",
+  "compared_numeric_outputs": {
+    "records.csv": "70d58b2d0e077bcc4532676216449644a2d778b45e354e177cf0ca413e92a6d6",
+    "summary.json": "76875dce338b930d56739198a3681c6f6cd12133f6f503e7dc9bb2b180473942"
+  },
+  "all_outputs_byte_identical": true,
+  "replay_source": "Independent upstream directories in the verified reviewer reproduction release",
+  "source_rows_reconstructed": true,
+  "new_coefficient_fits": 0
+}

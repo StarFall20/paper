@@ -7,3 +7,5 @@
 [当前稿件](../../submission/finite_choice_20261110/reports/current_manuscript.json)、[稿件数字与表格核验](../../submission/finite_choice_20261110/reports/positive_endpoint_validation_20261118.json)和[交付校验](delivery_verification.json)绑定本版。实证范围是给定数据、冻结预测和固定留出样本。稿件仍待作者确认声明及评估方法增量。研究目标继续进行。
 
 [文献与数据库复核](literature_followup.md)记录本轮可核实的原文、代码与数据库访问状态。
+
+[解压后数学与原表检查](full_math_replay.json)记录完整数学入口、模拟汇总与旧表的独立核对。

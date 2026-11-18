@@ -1,0 +1,7 @@
+{
+  "state": "specified before opening final Swissmetro path outcomes",
+  "purpose": "Match corrected and direct human fits on the exact set of human labels used, including the frozen teacher's training labels.",
+  "comparison": "Fit each target utility specification using the 600 independent teacher respondents and the 2, 5 or 10 revealed respondents in each planned allocation. Keep the 240 held-out respondents separate.",
+  "corrected_summary": "Compare at the previously planned fractions 0.5 and 0.9 of each allocation's certified limit. Fill absent corrected fits with the corresponding labelled ridge for an all-allocation calculation. Retain complete-case comparisons, availability and numbers of label consumers.",
+  "statistics": "Mean paired held-out log-loss difference and count of allocations favoring each fit. Fixed-panel allocation comparisons."
+}
