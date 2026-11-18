@@ -1,0 +1,30 @@
+{
+  "completed": true,
+  "published_cells": 48,
+  "reconstructed_released_LLM_cells": 24,
+  "unreconstructed_EST_cells": 24,
+  "unreconstructed_reason": "Frozen EST prediction vectors and fitted predictor coefficients are absent from the output archive. Re-fitting that predictor is outside this fixed-output audit.",
+  "support_counts": {
+    "released_power": {
+      "interior": 24
+    },
+    "unit_power_sensitivity": {
+      "interior": 23,
+      "outside": 1
+    }
+  },
+  "minimum_margin": 0.012096057498940773,
+  "maximum_alignment_coefficient_error": 1.653122083666858e-12,
+  "maximum_alignment_power_error": 8.326672684688674e-17,
+  "source_code_executed": false,
+  "new_predictors_trained": 0,
+  "new_LLM_calls": 0,
+  "new_responses": 0,
+  "new_MC_runs": 0,
+  "source_frozen_prediction_sha256": "ca9ccd8cd87468765deb2832797ae768075f6caded6070f1d527866a5bc9d498",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "2.2.3",
+  "script_sha256": "b84bec2880c24c0b6748f9548e321b98b3df09a94bdd4aa8f13106e1c7d7544f"
+}

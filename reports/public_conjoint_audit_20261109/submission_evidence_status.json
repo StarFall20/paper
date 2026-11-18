@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "goal_complete": false,
-  "decision": "Integrated and reviewed: 73/29 pages, 187-word abstract, 8185 main words, 148 displays. Specific row-category direct substitution excluded, general kinematics inherited. Exact priority and sufficient JCM choice value remain unresolved.",
+  "decision": "Complete supplied PPI++ body and Appendices A-C are the working source. Add the independent RADIANT/PPI application prior and preserve the all-interior released-power external check. Eight WOS searches are actual; partial screening and unqueried databases remain explicit. Current theoretical contribution and sufficient choice-analysis value remain under review.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../theory_manuscript_integration_20261118/README.md",
+  "latest_progress_report": "../jcm_value_and_prior_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Explicit prior-dependency comparison, bounded known-scale scope, refined attribution, professional bibliography and full visual/source checks integrated into current Word release.",
+  "latest_progress": "Eight WOS queries, two current JCM formal-source section readings, a newly identified same-data PPI application, and 24 independently reconstructed original-power LLM fits (all interior) plus a separately planned one-exterior unit-power sensitivity. Canonical Word files unchanged.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -741,5 +741,16 @@
     "new_evidence_files": 35,
     "global_priority_certified": false,
     "research_goal_complete": false
+  },
+  "jcm_value_and_prior_20261118": {
+    "report": "../jcm_value_and_prior_20261118/README.md",
+    "wos_queries": 8,
+    "original_power_interiors": 24,
+    "unit_power_sensitivity_exteriors": 1,
+    "ordinary_interiors": 8,
+    "published_EST_cells_not_reconstructed": 24,
+    "current_word_changed": false,
+    "global_novelty_certified": false,
+    "goal_status": "active"
   }
 }
