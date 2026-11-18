@@ -1,0 +1,28 @@
+{
+  "state": "complete",
+  "cases": {
+    "uncapped_positive": 107,
+    "capped_low_budget": 835,
+    "capped_higher_budget": 1000,
+    "zero_or_near_zero": 58
+  },
+  "fitted_path_points": 7536,
+  "verified_path_points": 7536,
+  "analysis_sha256": "d89575cc2c0d8bd2494de722acf902fe618ad4ed00156c6bd917c3c422e74f65",
+  "plan_sha256": "73a3a36c2474033aa2c490ed68cbc4555b7ee3808076ee5b888e9443abe9b9b9",
+  "workbook_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "frontier": {
+    "plan.json": "e8f9961c79f88d6507527d504c4d585cc3e5036e56da08996f6910a3958ff6ae",
+    "results/frontiers.csv": "19fa918b5324185dbdeae84d05911908ae0085099e8d236bd5685e41b3dd0afc",
+    "results/certificates.json.gz": "887637c389a760d4bf3774f8cb6fb50f87293a2bd806651b3983650d705d121f",
+    "inputs/preflight.json": "a96ca3ab796b057f1741948b8436c9c2fb17b01728b0cccc20fc00c14297ad14",
+    "inputs/model_plan.json": "99d95f6bc3fca966eb03fa64e43f538f9d1e99b653eae3df016d95e74cb516f1",
+    "inputs/baseline_records.csv": "c16aa4ff066d5c6a5dc724cda5591180ee26e49795a7cc832dbb4d94c35b0df3",
+    "inputs/labelled_ridge_coefficients.json": "b5c49dc7c0c632019da8888aaaac3a97529719040e2a48010f51afca64757878",
+    "analysis/existing_panel_model.py": "ed198611b3757aaeaade695f9a5659e570ebb14e05534715f580152e70960606"
+  },
+  "baseline": {
+    "results/coefficients.json": "1c50ebe8c9bee6d04a9008a5f3a931980c12ce4e0afaaaae1ff8b34943cfccc6",
+    "results/method_records.csv": "c16aa4ff066d5c6a5dc724cda5591180ee26e49795a7cc832dbb4d94c35b0df3"
+  }
+}

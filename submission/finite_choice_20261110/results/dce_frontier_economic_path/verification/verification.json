@@ -1,0 +1,26 @@
+{
+  "state": "passed",
+  "raw_scores_forecasts_and_economics_checked": 7536,
+  "original_row_endpoints": 107,
+  "geometric_rank_and_witness_checks": {
+    "unit_endpoint_interior": 835,
+    "transverse_facet": 107
+  },
+  "maximum_errors": {
+    "raw_score": 3.766986722553156e-13,
+    "holdout_logloss": 0,
+    "raw_endpoint_difference": 1.6975310046518644e-13,
+    "face_primal_moment": 4.2396641752873165e-15,
+    "face_score": 2.364358708817349e-13,
+    "relative_normal_slack": 9.116522059478872e-07
+  },
+  "source_reader_and_earlier_original_menu_LP_reused": true,
+  "primary_optimizer_imported": false,
+  "verifier_sha256": "53affced73a8b64dc82f3cdb3914150ecb5c6a86b23042b29822e1eadf1945e9",
+  "results_sha256": {
+    "cases.json": "0b9bda0283207727fde7548c3e00abceaff0c0eaf48cc71b04e47d61f4d6e9c4",
+    "coefficients.json.gz": "312f6271bc7928d48ce79ba01407b61d0be362158cadcaa48f33560a1fc43d71",
+    "paths.csv": "ea0e06d1941d1b30f9286350953d9413e9541ca987f1d26533b8fab3a0e87f26",
+    "status.json": "a67f81e1f7744b9aa856a5ba6a11ca86105dc0a4a7350d7dc4934239a4b7d25b"
+  }
+}

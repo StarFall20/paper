@@ -1,0 +1,20 @@
+{
+  "state": "passed",
+  "preserved_test_source_archive_sha256": "0d633533b97354dee5ed3898ee7af439e7bb5c5164ed8a2e5354566ecbb0a38e",
+  "all_numerical_outputs_byte_identical": true,
+  "sha256": {
+    "results/status.json": "a67f81e1f7744b9aa856a5ba6a11ca86105dc0a4a7350d7dc4934239a4b7d25b",
+    "results/paths.csv": "ea0e06d1941d1b30f9286350953d9413e9541ca987f1d26533b8fab3a0e87f26",
+    "results/coefficients.json.gz": "312f6271bc7928d48ce79ba01407b61d0be362158cadcaa48f33560a1fc43d71",
+    "results/cases.json": "0b9bda0283207727fde7548c3e00abceaff0c0eaf48cc71b04e47d61f4d6e9c4",
+    "verification/verification.json": "1d2b541a29040b2d72686f6363ebd9a3cb9d3f198c7f36495a7406aaaaf74ec1",
+    "verification/original_row_endpoints.json": "16eaf3f6a5d2188b8b9896f8920c8030e9030b5e42dab1d4240dacdc1c18e1a9",
+    "results_gap_spectrum/spectrum.csv": "a718ae3d0686dcd15f78eef99bbe5991a49bedb3eeffd77cdf2425419e328e8b",
+    "results_gap_spectrum/summary.json": "bedeb7c3d943f5d1bacd18b17fa97ced2d120d626228185636c421574a00c764",
+    "path_summary.json": "26b684553e573c05ffcf04e31342d4a359a3cb709bbdf8d171515aafd3dbc66f"
+  },
+  "path_fits_replayed": 7536,
+  "original_row_endpoint_LPs_replayed": 107,
+  "posthoc_scalar_scores_replayed": 856,
+  "independent_verification_also_replayed": true
+}

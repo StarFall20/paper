@@ -391,3 +391,17 @@ python analysis/verify_frontier.py --input local_inputs/COSCBB.xlsx --results re
 python analysis/run_cap_only.py --input local_inputs/COSCBB.xlsx --frontiers regenerated/results --out regenerated/cap_only
 python analysis/verify_cap_only.py --input local_inputs/COSCBB.xlsx --frontiers regenerated/results --results regenerated/cap_only --out regenerated/verification_cap_only
 ```
+
+
+## Positive correction-power endpoint paths
+
+From the root of this archive, use the published workbook and the two included upstream analysis directories. Run these commands with a fresh output directory and the pinned dependencies listed in the dated audit directory.
+
+    export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+    python results/power_frontier/analysis/fetch_source.py --out local_inputs/COSCBB.xlsx
+    python results/dce_frontier_economic_path/analysis/audit_path.py --input local_inputs/COSCBB.xlsx --frontier results/power_frontier --baseline results/public_panel_dce --out regenerated/positive_endpoint/path
+    python results/dce_frontier_economic_path/analysis/verify_path.py --input local_inputs/COSCBB.xlsx --frontier results/power_frontier --baseline results/public_panel_dce --results regenerated/positive_endpoint/path --out regenerated/positive_endpoint/verification
+    python results/dce_frontier_economic_path/analysis/summarize_path.py --results regenerated/positive_endpoint/path --out regenerated/positive_endpoint/path_summary.json
+    python results/dce_frontier_economic_path/analysis/check_gap_spectrum.py --input local_inputs/COSCBB.xlsx --frontier results/power_frontier --results regenerated/positive_endpoint/path --out regenerated/positive_endpoint/spectrum
+
+The dated report describes the directory layout of its standalone archive. The commands above use the layout of this reviewer archive. To rerun the inventory check after analysis, keep the workbook and generated files outside the extracted archive or remove them from its root first.

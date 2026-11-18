@@ -46,3 +46,8 @@ The current [external-workflow integration](reports/external_integration_2026111
 ## Realized correction-power range
 
 [Feasible-power audit](results/power_frontier/README.md) records two planned rules and a separate post-hoc cap-only comparison. The main results are backed by 2000 bounds and 4000 policy records. The post-hoc control has 2000 records. [Fresh replay](reports/frontier_replay_20261118.json), [manuscript number checks](reports/frontier_validation_20261118.json) and [layout record](reports/frontier_visual_qa_20261118.json) bind the current release. Both scientific summaries and coefficient files reproduced byte for byte.
+
+
+## Choice probabilities near a positive correction-power limit
+
+The [dated path audit](results/dce_frontier_economic_path/README.md) records the single-facet calculation and all 7,536 fitted points. The [independent replay](results/dce_frontier_economic_path/isolated_replay.json) binds the numerical outputs and the [manuscript check](reports/positive_endpoint_validation_20261118.json) reconciles the numbers in Section 4.6 and Appendix C13. The scoped [layout review](reports/positive_endpoint_visual_qa_20261118.json) covers the manuscript, reading copy, cover letter and highlights.

@@ -1,0 +1,6 @@
+{
+  "timing": "Post-hoc check specified after reading all original path summaries and seeing that the asymptotic leading gap can have large finite-distance error, before computing this scalar approximation.",
+  "scope": "All 107 verified positive transverse facets and the original eight path distances. No fit, participant, threshold, weight, test split or original analysis changes.",
+  "procedure": "Fix the tangent coefficients at the verified face estimate. Solve the original scalar normal score using every exact within-menu gap and current curvature weights. Compare its original fitted normal coordinate and fixed evaluation loss to the saved full-model fits; retain all approximations and both fit discrepancies. The evaluation set is used only for reporting.",
+  "bound": "The scalar root error is bounded by the maximum ratio of tangent feature distance to nonzero normal utility gap difference across within-menu pairs, times the tangent approximation error. A separate conditional bound on the tangent error is derived from a local face curvature lower bound and original slack. Evaluate the deterministic bound at radius 1/(2D) where D is the maximum tangent within-menu feature contrast. Retain any cases where the radius condition is too weak."
+}

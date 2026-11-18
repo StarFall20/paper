@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "integration": "reports/frontier_integration_20261118.json",
-  "visual_qa": "reports/frontier_visual_qa_20261118.json",
-  "validation": "reports/frontier_validation_20261118.json",
+  "integration": "reports/positive_endpoint_integration_20261118.json",
+  "visual_qa": "reports/positive_endpoint_visual_qa_20261118.json",
+  "validation": "reports/positive_endpoint_validation_20261118.json",
   "historical_reports_are_dated_snapshots": true
 }

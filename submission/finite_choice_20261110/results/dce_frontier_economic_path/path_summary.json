@@ -1,0 +1,3659 @@
+{
+  "summaries": [
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 5,
+      "relative_distance": 0.5,
+      "denominator": 356,
+      "finite": 356,
+      "negative_cost": 356,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.7909246822820115,
+        1.5839849477671204,
+        5.229854809251989
+      ],
+      "holdout_loss_5_50_95": [
+        0.7167322883944092,
+        0.9004210378780629,
+        1.4323938614966314
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 268,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 56,
+              "accepts_lost": 41,
+              "accepts_gained": 15,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 88,
+              "accepts_lost": 88,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 111,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 66,
+              "accepts_lost": 57,
+              "accepts_gained": 9,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 111,
+              "accepts_lost": 0,
+              "accepts_gained": 111,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 23,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 42,
+              "accepts_lost": 40,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 23,
+              "accepts_lost": 0,
+              "accepts_gained": 23,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 5,
+      "relative_distance": 0.1,
+      "denominator": 356,
+      "finite": 356,
+      "negative_cost": 356,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.9006899822823695,
+        1.4501272869440225,
+        5.485433134587861
+      ],
+      "holdout_loss_5_50_95": [
+        0.715267309194759,
+        0.9263701724626148,
+        1.5746412863689578
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.09254000472330945,
+        0.014362990647088292,
+        0.3444274317123741
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.8137437740232654,
+        -0.04135642114245841,
+        1.0547378748838534
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 264,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 20,
+              "accepts_lost": 12,
+              "accepts_gained": 8,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 62,
+              "accepts_lost": 46,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 92,
+              "accepts_lost": 92,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 114,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 25,
+              "accepts_lost": 11,
+              "accepts_gained": 14,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 71,
+              "accepts_lost": 58,
+              "accepts_gained": 13,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 114,
+              "accepts_lost": 0,
+              "accepts_gained": 114,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 25,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 10,
+              "accepts_lost": 4,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 48,
+              "accepts_lost": 42,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 25,
+              "accepts_lost": 0,
+              "accepts_gained": 25,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 5,
+      "relative_distance": 0.01,
+      "denominator": 356,
+      "finite": 356,
+      "negative_cost": 356,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.9179975405728067,
+        1.533492375506233,
+        5.72882628293835
+      ],
+      "holdout_loss_5_50_95": [
+        0.7151746294581337,
+        0.945244684787445,
+        1.940449129942173
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.1000662069714997,
+        0.028531656371416247,
+        0.6753139935281098
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.0929167024664452,
+        -0.059623428167083325,
+        1.3226214143559643
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 263,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 27,
+              "accepts_lost": 16,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 63,
+              "accepts_lost": 47,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 93,
+              "accepts_lost": 93,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 113,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 28,
+              "accepts_lost": 13,
+              "accepts_gained": 15,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 74,
+              "accepts_lost": 60,
+              "accepts_gained": 14,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 113,
+              "accepts_lost": 0,
+              "accepts_gained": 113,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 26,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 11,
+              "accepts_lost": 4,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 47,
+              "accepts_lost": 41,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 26,
+              "accepts_lost": 0,
+              "accepts_gained": 26,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 5,
+      "relative_distance": 0.001,
+      "denominator": 356,
+      "finite": 356,
+      "negative_cost": 356,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.9259243032953488,
+        1.5199398790031498,
+        5.7620514185770215
+      ],
+      "holdout_loss_5_50_95": [
+        0.7152214600293373,
+        0.9468370611178466,
+        2.030503380200763
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.09887989166705324,
+        0.02990344927820021,
+        0.7268479742515658
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.1132619576629181,
+        -0.062164202230509,
+        1.3541572676139304
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 262,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 28,
+              "accepts_lost": 17,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 64,
+              "accepts_lost": 48,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 94,
+              "accepts_lost": 94,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 114,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 29,
+              "accepts_lost": 13,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 75,
+              "accepts_lost": 60,
+              "accepts_gained": 15,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 114,
+              "accepts_lost": 0,
+              "accepts_gained": 114,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 26,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 11,
+              "accepts_lost": 4,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 47,
+              "accepts_lost": 41,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 26,
+              "accepts_lost": 0,
+              "accepts_gained": 26,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 5,
+      "relative_distance": 0.0001,
+      "denominator": 356,
+      "finite": 356,
+      "negative_cost": 356,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.9267200377190286,
+        1.5190299389837332,
+        5.765383844466406
+      ],
+      "holdout_loss_5_50_95": [
+        0.7152266399561884,
+        0.946998073511652,
+        2.0381091006793537
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.09869329601811636,
+        0.030043115630488282,
+        0.7319974922581899
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.1171510708097068,
+        -0.062423473051029355,
+        1.3573058131206186
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 262,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 28,
+              "accepts_lost": 17,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 64,
+              "accepts_lost": 48,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 94,
+              "accepts_lost": 94,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 114,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 29,
+              "accepts_lost": 13,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 75,
+              "accepts_lost": 60,
+              "accepts_gained": 15,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 114,
+              "accepts_lost": 0,
+              "accepts_gained": 114,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 26,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 11,
+              "accepts_lost": 4,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 47,
+              "accepts_lost": 41,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 26,
+              "accepts_lost": 0,
+              "accepts_gained": 26,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 5,
+      "relative_distance": 1e-05,
+      "denominator": 356,
+      "finite": 356,
+      "negative_cost": 356,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.9267996426165095,
+        1.5189389376685072,
+        5.765717186192726
+      ],
+      "holdout_loss_5_50_95": [
+        0.7152271629495475,
+        0.9470141926184734,
+        2.038873933974947
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.09867453961724929,
+        0.03005710743183332,
+        0.7325157443796939
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.1175539197655713,
+        -0.06244945287882164,
+        1.3576207087285512
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 262,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 28,
+              "accepts_lost": 17,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 64,
+              "accepts_lost": 48,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 94,
+              "accepts_lost": 94,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 114,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 29,
+              "accepts_lost": 13,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 75,
+              "accepts_lost": 60,
+              "accepts_gained": 15,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 114,
+              "accepts_lost": 0,
+              "accepts_gained": 114,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 26,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 11,
+              "accepts_lost": 4,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 47,
+              "accepts_lost": 41,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 26,
+              "accepts_lost": 0,
+              "accepts_gained": 26,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 5,
+      "relative_distance": 1e-06,
+      "denominator": 356,
+      "finite": 356,
+      "negative_cost": 356,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.9268076034217114,
+        1.518929837463873,
+        5.765750521356351
+      ],
+      "holdout_loss_5_50_95": [
+        0.7152272152989455,
+        0.9470158047079493,
+        2.038950460086738
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.09867266300739219,
+        0.03005850686392808,
+        0.7325676028505391
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.1175942041870093,
+        -0.062452051389871865,
+        1.3576521987030765
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 262,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 28,
+              "accepts_lost": 17,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 64,
+              "accepts_lost": 48,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 94,
+              "accepts_lost": 94,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 114,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 29,
+              "accepts_lost": 13,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 75,
+              "accepts_lost": 60,
+              "accepts_gained": 15,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 114,
+              "accepts_lost": 0,
+              "accepts_gained": 114,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 26,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 11,
+              "accepts_lost": 4,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 47,
+              "accepts_lost": 41,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 26,
+              "accepts_lost": 0,
+              "accepts_gained": 26,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 5,
+      "relative_distance": 1e-07,
+      "denominator": 356,
+      "finite": 356,
+      "negative_cost": 356,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.9268083995051517,
+        1.5189289274426436,
+        5.765753854880297
+      ],
+      "holdout_loss_5_50_95": [
+        0.7152272205343555,
+        0.9470159659186261,
+        2.0389581131244534
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.09867247533706908,
+        0.030058646809621392,
+        0.7325727890169423
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.1175982326239566,
+        -0.06245231124607331,
+        1.3576553477041684
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 262,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 28,
+              "accepts_lost": 17,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 64,
+              "accepts_lost": 48,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 94,
+              "accepts_lost": 94,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 114,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 29,
+              "accepts_lost": 13,
+              "accepts_gained": 16,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 75,
+              "accepts_lost": 60,
+              "accepts_gained": 15,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 114,
+              "accepts_lost": 0,
+              "accepts_gained": 114,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 26,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 356,
+              "changed": 11,
+              "accepts_lost": 4,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 356,
+              "changed": 47,
+              "accepts_lost": 41,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 356,
+              "changed": 26,
+              "accepts_lost": 0,
+              "accepts_gained": 26,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 10,
+      "relative_distance": 0.5,
+      "denominator": 479,
+      "finite": 479,
+      "negative_cost": 479,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -0.9129964421192918,
+        1.2722519764012783,
+        4.101434877813749
+      ],
+      "holdout_loss_5_50_95": [
+        0.6708397289851008,
+        0.7503315240557329,
+        0.9312555945906871
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 388,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 47,
+              "accepts_lost": 42,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 91,
+              "accepts_lost": 91,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 115,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 52,
+              "accepts_lost": 44,
+              "accepts_gained": 8,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 115,
+              "accepts_lost": 0,
+              "accepts_gained": 115,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 10,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 16,
+              "accepts_lost": 15,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 10,
+              "accepts_lost": 0,
+              "accepts_gained": 10,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 10,
+      "relative_distance": 0.1,
+      "denominator": 479,
+      "finite": 479,
+      "negative_cost": 479,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.0577510113344473,
+        1.309882512416773,
+        4.135181223274847
+      ],
+      "holdout_loss_5_50_95": [
+        0.6737160662277267,
+        0.7608311367501434,
+        0.9639998581831432
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.02026830630716789,
+        0.007453574494402759,
+        0.11018479700236587
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.4420917280741496,
+        -0.027551351134183166,
+        0.3870290376889783
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 388,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 12,
+              "accepts_lost": 6,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 49,
+              "accepts_lost": 43,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 91,
+              "accepts_lost": 91,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 113,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 16,
+              "accepts_lost": 9,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 60,
+              "accepts_lost": 49,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 113,
+              "accepts_lost": 0,
+              "accepts_gained": 113,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 10,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 2,
+              "accepts_lost": 1,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 16,
+              "accepts_lost": 15,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 10,
+              "accepts_lost": 0,
+              "accepts_gained": 10,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 10,
+      "relative_distance": 0.01,
+      "denominator": 479,
+      "finite": 479,
+      "negative_cost": 479,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.1249106832785118,
+        1.2809980460461297,
+        4.152759075976358
+      ],
+      "holdout_loss_5_50_95": [
+        0.6731580795692472,
+        0.766891448971993,
+        1.0055774171532992
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.02234066399439084,
+        0.010593538679974368,
+        0.1681685960312193
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.566751594612961,
+        -0.03509575383896154,
+        0.4752536541359772
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 387,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 13,
+              "accepts_lost": 7,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 50,
+              "accepts_lost": 44,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 92,
+              "accepts_lost": 92,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 115,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 18,
+              "accepts_lost": 9,
+              "accepts_gained": 9,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 60,
+              "accepts_lost": 48,
+              "accepts_gained": 12,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 115,
+              "accepts_lost": 0,
+              "accepts_gained": 115,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 11,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 17,
+              "accepts_lost": 15,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 11,
+              "accepts_lost": 0,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 10,
+      "relative_distance": 0.001,
+      "denominator": 479,
+      "finite": 479,
+      "negative_cost": 479,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.1360343230819008,
+        1.2781320325810042,
+        4.138099125588786
+      ],
+      "holdout_loss_5_50_95": [
+        0.6734126508973991,
+        0.7670565264495093,
+        1.0120406323295623
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.02252230849893506,
+        0.011290235303643148,
+        0.17616034025397717
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.5855497568592234,
+        -0.034938062252403035,
+        0.4842097477523588
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 386,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 14,
+              "accepts_lost": 8,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 51,
+              "accepts_lost": 45,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 93,
+              "accepts_lost": 93,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 115,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 18,
+              "accepts_lost": 9,
+              "accepts_gained": 9,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 60,
+              "accepts_lost": 48,
+              "accepts_gained": 12,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 115,
+              "accepts_lost": 0,
+              "accepts_gained": 115,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 11,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 17,
+              "accepts_lost": 15,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 11,
+              "accepts_lost": 0,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 10,
+      "relative_distance": 0.0001,
+      "denominator": 479,
+      "finite": 479,
+      "negative_cost": 479,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.1371456286289816,
+        1.2780113916958062,
+        4.136639819858286
+      ],
+      "holdout_loss_5_50_95": [
+        0.6734383113496305,
+        0.7670652819614496,
+        1.0127323062609914
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.022540147689400693,
+        0.011395815145494259,
+        0.17698265396718058
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.5870191485240414,
+        -0.035014474033305376,
+        0.4853279936283161
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 386,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 14,
+              "accepts_lost": 8,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 51,
+              "accepts_lost": 45,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 93,
+              "accepts_lost": 93,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 116,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 19,
+              "accepts_lost": 9,
+              "accepts_gained": 10,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 61,
+              "accepts_lost": 48,
+              "accepts_gained": 13,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 116,
+              "accepts_lost": 0,
+              "accepts_gained": 116,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 11,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 17,
+              "accepts_lost": 15,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 11,
+              "accepts_lost": 0,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 10,
+      "relative_distance": 1e-05,
+      "denominator": 479,
+      "finite": 479,
+      "negative_cost": 479,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.1372567488778027,
+        1.2779993342651463,
+        4.1364939558171665
+      ],
+      "holdout_loss_5_50_95": [
+        0.6734408794426537,
+        0.7670661590781118,
+        1.0128016280824965
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.02254192837054969,
+        0.011406393646102964,
+        0.17706512270169975
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.587166185148006,
+        -0.03502211805176392,
+        0.4854398533192195
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 386,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 14,
+              "accepts_lost": 8,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 51,
+              "accepts_lost": 45,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 93,
+              "accepts_lost": 93,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 116,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 19,
+              "accepts_lost": 9,
+              "accepts_gained": 10,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 61,
+              "accepts_lost": 48,
+              "accepts_gained": 13,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 116,
+              "accepts_lost": 0,
+              "accepts_gained": 116,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 11,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 17,
+              "accepts_lost": 15,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 11,
+              "accepts_lost": 0,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 10,
+      "relative_distance": 1e-06,
+      "denominator": 479,
+      "finite": 479,
+      "negative_cost": 479,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.137267860799883,
+        1.2779981285871105,
+        4.136479370078019
+      ],
+      "holdout_loss_5_50_95": [
+        0.6734411362724578,
+        0.7670662468055572,
+        1.012808561811984
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.022542106406352447,
+        0.011407451701485272,
+        0.17707337195486444
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.5871808897847731,
+        -0.035022882482582285,
+        0.48545103963844755
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 386,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 14,
+              "accepts_lost": 8,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 51,
+              "accepts_lost": 45,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 93,
+              "accepts_lost": 93,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 116,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 19,
+              "accepts_lost": 9,
+              "accepts_gained": 10,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 61,
+              "accepts_lost": 48,
+              "accepts_gained": 13,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 116,
+              "accepts_lost": 0,
+              "accepts_gained": 116,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 11,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 17,
+              "accepts_lost": 15,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 11,
+              "accepts_lost": 0,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "capped_low_budget",
+      "labelled_people": 10,
+      "relative_distance": 1e-07,
+      "denominator": 479,
+      "finite": 479,
+      "negative_cost": 479,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.1372689719907823,
+        1.277998008021627,
+        4.136477911510656
+      ],
+      "holdout_loss_5_50_95": [
+        0.6734411619556305,
+        0.7670662555783246,
+        1.0128092551992536
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        -0.02254212420955328,
+        0.011407557509055533,
+        0.17707419690223347
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.5871823602566442,
+        -0.03502295892533125,
+        0.48545215827302274
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 386,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 14,
+              "accepts_lost": 8,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 51,
+              "accepts_lost": 45,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 93,
+              "accepts_lost": 93,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 116,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 19,
+              "accepts_lost": 9,
+              "accepts_gained": 10,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 61,
+              "accepts_lost": 48,
+              "accepts_gained": 13,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 116,
+              "accepts_lost": 0,
+              "accepts_gained": 116,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 11,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 479,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 479,
+              "changed": 17,
+              "accepts_lost": 15,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 479,
+              "changed": 11,
+              "accepts_lost": 0,
+              "accepts_gained": 11,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 5,
+      "relative_distance": 0.5,
+      "denominator": 87,
+      "finite": 87,
+      "negative_cost": 87,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -3.048784710603192,
+        0.46709476082506524,
+        4.347307983401372
+      ],
+      "holdout_loss_5_50_95": [
+        0.8962953558153992,
+        1.3074766848107235,
+        3.3051096428989335
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 51,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 21,
+              "accepts_lost": 17,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 36,
+              "accepts_lost": 36,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 21,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 14,
+              "accepts_lost": 8,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 21,
+              "accepts_lost": 0,
+              "accepts_gained": 21,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 4,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 2,
+              "accepts_lost": 2,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 4,
+              "accepts_lost": 0,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 5,
+      "relative_distance": 0.1,
+      "denominator": 87,
+      "finite": 87,
+      "negative_cost": 87,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -3.2647216716912544,
+        0.2908576577150602,
+        4.429111535389546
+      ],
+      "holdout_loss_5_50_95": [
+        1.1787491608030478,
+        2.2208005302278813,
+        4.858555752239363
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        0.11670690790665926,
+        0.8067016335728374,
+        2.477398173441104
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.1106773273181267,
+        0.07441403022671556,
+        1.0053204643706803
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 48,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 13,
+              "accepts_lost": 8,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 24,
+              "accepts_lost": 20,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 39,
+              "accepts_lost": 39,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 21,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 6,
+              "accepts_lost": 3,
+              "accepts_gained": 3,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 12,
+              "accepts_lost": 7,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 21,
+              "accepts_lost": 0,
+              "accepts_gained": 21,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 4,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 2,
+              "accepts_lost": 1,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 4,
+              "accepts_lost": 3,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 4,
+              "accepts_lost": 0,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 5,
+      "relative_distance": 0.01,
+      "denominator": 87,
+      "finite": 87,
+      "negative_cost": 87,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -3.239690350326115,
+        0.715855116561736,
+        4.829746908548767
+      ],
+      "holdout_loss_5_50_95": [
+        1.8286179403005642,
+        5.26497006097565,
+        13.590015320339763
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        0.8153770957382462,
+        3.7480547385606475,
+        11.495838808236568
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.69418257578221,
+        -0.008943815729554494,
+        1.5020692583938549
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 49,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 16,
+              "accepts_lost": 9,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 25,
+              "accepts_lost": 20,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 38,
+              "accepts_lost": 38,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 20,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 11,
+              "accepts_lost": 7,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 20,
+              "accepts_lost": 0,
+              "accepts_gained": 20,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 5,
+      "relative_distance": 0.001,
+      "denominator": 87,
+      "finite": 87,
+      "negative_cost": 87,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -3.157955365193244,
+        0.5502143647675053,
+        5.514285258628185
+      ],
+      "holdout_loss_5_50_95": [
+        2.7184904043835445,
+        8.703524329161292,
+        40.39551502733236
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        1.2638615790688856,
+        7.318827618458695,
+        38.90654259790236
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.9147557642069533,
+        -0.003382523867044185,
+        1.694989447984053
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 48,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 15,
+              "accepts_lost": 9,
+              "accepts_gained": 6,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 24,
+              "accepts_lost": 20,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 39,
+              "accepts_lost": 39,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 20,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 11,
+              "accepts_lost": 7,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 20,
+              "accepts_lost": 0,
+              "accepts_gained": 20,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 5,
+      "relative_distance": 0.0001,
+      "denominator": 87,
+      "finite": 87,
+      "negative_cost": 87,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -3.0935156009816405,
+        0.5013277653973516,
+        5.532506972911739
+      ],
+      "holdout_loss_5_50_95": [
+        3.4226009881650086,
+        12.983164831225203,
+        64.53422089817514
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        1.6745464540016155,
+        12.079247508761688,
+        60.428806463263
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.9621412214159741,
+        0.07835317909999717,
+        1.8253626846141449
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 49,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 16,
+              "accepts_lost": 9,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 23,
+              "accepts_lost": 19,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 38,
+              "accepts_lost": 38,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 20,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 11,
+              "accepts_lost": 7,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 20,
+              "accepts_lost": 0,
+              "accepts_gained": 20,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 5,
+      "relative_distance": 1e-05,
+      "denominator": 87,
+      "finite": 87,
+      "negative_cost": 87,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -3.0473904352080536,
+        0.4287122970356934,
+        5.518876147486008
+      ],
+      "holdout_loss_5_50_95": [
+        3.861321777185291,
+        17.70128797410604,
+        127.16317011948627
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        2.0917434794620577,
+        16.40495816993135,
+        125.62776980440442
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.9897881865131788,
+        0.09807675292288409,
+        1.799794335783237
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 49,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 16,
+              "accepts_lost": 9,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 23,
+              "accepts_lost": 19,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 38,
+              "accepts_lost": 38,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 20,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 11,
+              "accepts_lost": 7,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 20,
+              "accepts_lost": 0,
+              "accepts_gained": 20,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 5,
+      "relative_distance": 1e-06,
+      "denominator": 87,
+      "finite": 87,
+      "negative_cost": 87,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -3.0140662795651063,
+        0.4001337200156595,
+        5.502777057895977
+      ],
+      "holdout_loss_5_50_95": [
+        4.3825913249979225,
+        22.151435683712073,
+        162.16590163197927
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        2.613013027274689,
+        19.287367565775668,
+        160.74884473635913
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -2.0197202231058484,
+        0.07106835436223091,
+        1.8023469492375703
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 49,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 16,
+              "accepts_lost": 9,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 23,
+              "accepts_lost": 19,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 38,
+              "accepts_lost": 38,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 20,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 11,
+              "accepts_lost": 7,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 20,
+              "accepts_lost": 0,
+              "accepts_gained": 20,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 5,
+      "relative_distance": 1e-07,
+      "denominator": 87,
+      "finite": 87,
+      "negative_cost": 87,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -2.989031647517432,
+        0.3965412663744406,
+        5.487983143120952
+      ],
+      "holdout_loss_5_50_95": [
+        4.889082578207301,
+        25.98254427852684,
+        192.36051502195303
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        3.0310902387408287,
+        24.296755245148937,
+        190.9434581263329
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -2.086124754856318,
+        0.03587838938137344,
+        1.8137278884036865
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 49,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 16,
+              "accepts_lost": 9,
+              "accepts_gained": 7,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 23,
+              "accepts_lost": 19,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 38,
+              "accepts_lost": 38,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 20,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 11,
+              "accepts_lost": 7,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 20,
+              "accepts_lost": 0,
+              "accepts_gained": 20,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 87,
+              "changed": 3,
+              "accepts_lost": 2,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 87,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 10,
+      "relative_distance": 0.5,
+      "denominator": 20,
+      "finite": 20,
+      "negative_cost": 20,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -2.1524472048275793,
+        1.1774043377621681,
+        3.7945087076232626
+      ],
+      "holdout_loss_5_50_95": [
+        0.7443825365412468,
+        0.9324993029788722,
+        1.1306141238457275
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 12,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 5,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 8,
+              "accepts_lost": 8,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 4,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 4,
+              "accepts_lost": 3,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 4,
+              "accepts_lost": 0,
+              "accepts_gained": 4,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 0,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 10,
+      "relative_distance": 0.1,
+      "denominator": 20,
+      "finite": 20,
+      "negative_cost": 20,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.933885654878872,
+        0.8938591121996167,
+        3.8785889885154674
+      ],
+      "holdout_loss_5_50_95": [
+        1.1228717632395657,
+        1.347880608551877,
+        2.066549364200774
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        0.2240008316360881,
+        0.45621699273221067,
+        1.0681769308268192
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -0.6875440791292413,
+        0.1262819418470517,
+        1.0215992576909814
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 13,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 4,
+              "accepts_lost": 4,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 7,
+              "accepts_lost": 7,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 3,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 0,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 10,
+      "relative_distance": 0.01,
+      "denominator": 20,
+      "finite": 20,
+      "negative_cost": 20,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -1.9986382034697947,
+        0.3922610517112665,
+        3.8842219778524787
+      ],
+      "holdout_loss_5_50_95": [
+        1.6390546846315701,
+        2.7649020516572627,
+        6.774709173682378
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        0.7339326201103022,
+        1.9064070856852955,
+        5.772760209203156
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.2059172661654585,
+        0.09673735617199766,
+        0.9049735227507102
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 13,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 4,
+              "accepts_lost": 4,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 7,
+              "accepts_lost": 7,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 3,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 0,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 10,
+      "relative_distance": 0.001,
+      "denominator": 20,
+      "finite": 20,
+      "negative_cost": 20,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -2.1183574763262194,
+        0.26724622769343687,
+        3.911045239871528
+      ],
+      "holdout_loss_5_50_95": [
+        2.126592785643489,
+        5.153254353744094,
+        17.093188691299645
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        1.223349459963788,
+        4.304609005873543,
+        16.22926867632342
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.3903805575852024,
+        0.026458946129472027,
+        0.9292285524317044
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 13,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 4,
+              "accepts_lost": 4,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 7,
+              "accepts_lost": 7,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 3,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 0,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 10,
+      "relative_distance": 0.0001,
+      "denominator": 20,
+      "finite": 20,
+      "negative_cost": 20,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -2.198240620109596,
+        0.2557761789013622,
+        3.9149455772120962
+      ],
+      "holdout_loss_5_50_95": [
+        2.599167337577637,
+        8.675922964164762,
+        31.551047696673113
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        1.6959240118979362,
+        7.474143364654215,
+        30.829021290907296
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.4066285493751223,
+        0.005421683926981502,
+        0.9225418275937327
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 12,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 2,
+              "accepts_lost": 1,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 5,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 8,
+              "accepts_lost": 8,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 3,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 0,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 10,
+      "relative_distance": 1e-05,
+      "denominator": 20,
+      "finite": 20,
+      "negative_cost": 20,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -2.250748826455276,
+        0.25272020528894046,
+        3.9150977402146663
+      ],
+      "holdout_loss_5_50_95": [
+        3.0701017893622216,
+        12.239404195320429,
+        45.83067302945164
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        2.1668584636825208,
+        11.283701778073592,
+        44.9804997736066
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.468813098397732,
+        0.04747643110820188,
+        0.9135977603262727
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 12,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 2,
+              "accepts_lost": 1,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 5,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 8,
+              "accepts_lost": 8,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 3,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 0,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 10,
+      "relative_distance": 1e-06,
+      "denominator": 20,
+      "finite": 20,
+      "negative_cost": 20,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -2.2874035840232936,
+        0.2510851487188107,
+        3.964550341681819
+      ],
+      "holdout_loss_5_50_95": [
+        3.5408709043642657,
+        16.66814920038962,
+        60.14213011455611
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        2.637627578684565,
+        15.601933769997057,
+        59.291956858711075
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.5193384188479102,
+        0.03149641841733608,
+        0.9069788129583023
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 12,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 2,
+              "accepts_lost": 1,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 5,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 8,
+              "accepts_lost": 8,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 3,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 0,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "group": "uncapped_positive",
+      "labelled_people": 10,
+      "relative_distance": 1e-07,
+      "denominator": 20,
+      "finite": 20,
+      "negative_cost": 20,
+      "positive_cost": 0,
+      "numerical_zero_cost": 0,
+      "Bere_GBP_5_50_95": [
+        -2.314377626410604,
+        0.2500599473816184,
+        4.003700588774688
+      ],
+      "holdout_loss_5_50_95": [
+        4.0116234676874996,
+        19.58401739496662,
+        74.02674716709123
+      ],
+      "paired_holdout_change_from_half_5_50_95": [
+        3.1083801420077983,
+        18.517801964574055,
+        73.17657391124621
+      ],
+      "paired_Bere_change_from_half_5_50_95": [
+        -1.553661105821426,
+        -0.008722377562252914,
+        0.9020798384637199
+      ],
+      "premium": {
+        "0.0": {
+          "accept": 13,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 3,
+              "accepts_lost": 1,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 4,
+              "accepts_lost": 4,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 7,
+              "accepts_lost": 7,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        },
+        "2.5": {
+          "accept": 5,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 1,
+              "accepts_lost": 0,
+              "accepts_gained": 1,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 3,
+              "accepts_gained": 2,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 5,
+              "accepts_lost": 0,
+              "accepts_gained": 5,
+              "missing_pair": 0
+            }
+          }
+        },
+        "5.0": {
+          "accept": 0,
+          "undefined": 0,
+          "paired": {
+            "half_frontier_or_half_unit": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "labelled_ridge": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            },
+            "all_human_MLE": {
+              "shared": 20,
+              "changed": 0,
+              "accepts_lost": 0,
+              "accepts_gained": 0,
+              "missing_pair": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "geometry": {
+    "rows": 7536,
+    "cases": 942,
+    "finite_fits": 7536,
+    "qualified_facets": 107,
+    "strictly_positive_forecast_slope": 107,
+    "near_endpoint_normal_error_5_50_95": [
+      7.361799623595293e-06,
+      0.004639711244180944,
+      39.2062248167441
+    ],
+    "near_endpoint_tangent_error_5_50_95": [
+      9.719785826923215e-07,
+      3.747719285442778e-05,
+      0.001102682515860344
+    ],
+    "forecast_log_slope_5_50_95": [
+      0.20833333333333334,
+      1.9902777777777783,
+      10.954259259259253
+    ],
+    "observed_vs_predicted_forecast_slope_abs_err_5_50_95": [
+      1.1768637290993097e-06,
+      0.0008966639198204618,
+      0.5948781104431579
+    ],
+    "negative_normal_cost": 102,
+    "zero_normal_cost": 5,
+    "positive_normal_cost": 0,
+    "finite_negative_price_face_ratio_5_50_95": [
+      -2.71875,
+      0.4166666666666667,
+      4.206485587583148
+    ],
+    "capped_beta_last_to_one_median_max": [
+      1.9151519834049955e-07,
+      0.005440423406736526
+    ]
+  }
+}

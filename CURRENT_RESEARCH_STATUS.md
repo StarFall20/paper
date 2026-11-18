@@ -1,3 +1,7 @@
+# 正权重上限分析已并入当前稿件
+
+[当前审阅版与复现核验](reports/positive_endpoint_manuscript_integration_20261118/README.md)覆盖 107 个正权重上限及 835 个对照。第 4.6 节和附录 C13 说明估计仍然有限时，留出损失可以随校正权重增大迅速上升。现行完整稿 77 页，正文阅读版 30 页，投稿信与亮点同步更新。以下条目保留各自日期的审计结果。
+
 # Positive correction-power endpoint and prediction stability, 18 November 2026
 
 The [fixed-design follow-up](reports/dce_frontier_economic_path_20261118/README.md) derives the normal-coefficient and holdout log-loss growth near a strictly positive upper endpoint below one. It evaluates all 107 observed positive uncapped endpoints and 835 low-budget interior unit-power controls. The 7536 path fits, 107 original-row endpoint LPs and 856 post-hoc scalar checks reproduced byte for byte from an isolated archive. At five labels, increasing power from one half to nine tenths of the endpoint raises median evaluation loss from 1.3075 to 2.2208 in 87 allocations and changes six fitted utility comparisons at a GBP 2.50 Bere premium. Price signs remain negative. The loss increase gives the existence theorem a direct forecasting consequence. The economic comparison and all-gap approximation retain their fixed-design scope and limitations.

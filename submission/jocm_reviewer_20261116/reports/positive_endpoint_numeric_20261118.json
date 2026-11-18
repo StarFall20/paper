@@ -1,0 +1,64 @@
+{
+  "state": "passed",
+  "aggregate_recalculated_from_all_path_records": true,
+  "cells": {
+    "uncapped_positive_5": {
+      "allocations": 87,
+      "holdout_medians": {
+        "0.5": 1.3074766848107235,
+        "0.1": 2.2208005302278813,
+        "0.001": 8.703524329161292
+      },
+      "paired_nine_tenths_excess_median": 0.8067016335728374,
+      "premium_2_5_flips": 6
+    },
+    "uncapped_positive_10": {
+      "allocations": 20,
+      "holdout_medians": {
+        "0.5": 0.9324993029788722,
+        "0.1": 1.347880608551877,
+        "0.001": 5.153254353744094
+      },
+      "paired_nine_tenths_excess_median": 0.45621699273221067,
+      "premium_2_5_flips": 1
+    },
+    "capped_low_budget_5": {
+      "allocations": 356,
+      "holdout_medians": {
+        "0.5": 0.9004210378780629,
+        "0.1": 0.9263701724626148,
+        "0.001": 0.9468370611178466
+      },
+      "paired_nine_tenths_excess_median": 0.014362990647088292,
+      "premium_2_5_flips": 25
+    },
+    "capped_low_budget_10": {
+      "allocations": 479,
+      "holdout_medians": {
+        "0.5": 0.7503315240557329,
+        "0.1": 0.7608311367501434,
+        "0.001": 0.7670565264495093
+      },
+      "paired_nine_tenths_excess_median": 0.007453574494402759,
+      "premium_2_5_flips": 16
+    }
+  },
+  "case_inventory": {
+    "qualified": 107,
+    "uncapped_only": true,
+    "unit_interior_controls": 835
+  },
+  "fitted_points": 7536,
+  "all_negative_prices": true,
+  "positive_forecast_slope_cases": 107,
+  "spectrum_cases": 856,
+  "isolated_replay_sha256": "ddc3cdfa833f64df92defc7da40ec8a958697eb5bb32289d916d840e247e5b76",
+  "existing_tables": 20,
+  "existing_displays": 148,
+  "new_displays": [
+    "C.9",
+    "C.10",
+    "C.11"
+  ],
+  "existing_formal_statement_paragraphs": 14
+}

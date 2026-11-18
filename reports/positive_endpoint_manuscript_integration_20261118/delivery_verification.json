@@ -1,0 +1,73 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_positive_endpoint_20261118.zip",
+    "sha256": "5597d1ff802a0683263968045d497d77358674d9f072b679cead2cba77264bb2",
+    "files": 1189,
+    "bytes": 54959408,
+    "isolated_manifest_verified": true,
+    "isolated_reviewer_verify": {
+      "manifest_entries_verified": 1188,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    },
+    "isolated_endpoint_replay": {
+      "state": "passed",
+      "byte_identical_numerical_outputs": 9,
+      "hashes": {
+        "results/status.json": "a67f81e1f7744b9aa856a5ba6a11ca86105dc0a4a7350d7dc4934239a4b7d25b",
+        "results/paths.csv": "ea0e06d1941d1b30f9286350953d9413e9541ca987f1d26533b8fab3a0e87f26",
+        "results/coefficients.json.gz": "312f6271bc7928d48ce79ba01407b61d0be362158cadcaa48f33560a1fc43d71",
+        "results/cases.json": "0b9bda0283207727fde7548c3e00abceaff0c0eaf48cc71b04e47d61f4d6e9c4",
+        "verification/verification.json": "1d2b541a29040b2d72686f6363ebd9a3cb9d3f198c7f36495a7406aaaaf74ec1",
+        "verification/original_row_endpoints.json": "16eaf3f6a5d2188b8b9896f8920c8030e9030b5e42dab1d4240dacdc1c18e1a9",
+        "results_gap_spectrum/spectrum.csv": "a718ae3d0686dcd15f78eef99bbe5991a49bedb3eeffd77cdf2425419e328e8b",
+        "results_gap_spectrum/summary.json": "bedeb7c3d943f5d1bacd18b17fa97ced2d120d626228185636c421574a00c764",
+        "path_summary.json": "26b684553e573c05ffcf04e31342d4a359a3cb709bbdf8d171515aafd3dbc66f"
+      },
+      "path_fits": 7536
+    },
+    "isolated_DCE_table_reconciliation": {
+      "state": "passed",
+      "new_tables_reconciled": [
+        "C4",
+        "C5"
+      ],
+      "table_C4_rows": 4,
+      "table_C5_rows": 8,
+      "complete_method_records": 16000,
+      "paired_unit_outside_with_ordinary_interior": [
+        40,
+        18,
+        0,
+        0
+      ],
+      "all_20_table_blocks_present": true,
+      "old_18_table_values_checked_by_existing_entry": true,
+      "new_primary_fits_or_MC_run": false,
+      "prior_original_row_verification_hash": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+    }
+  },
+  {
+    "archive": "jocm_submission_files_positive_endpoint_20261118.zip",
+    "sha256": "c3f577c1b02ba32ba8ed0dac2bcac52f1c0d98115dc73678cbd451fd1fb31c2f",
+    "files": 20,
+    "bytes": 1253653,
+    "isolated_manifest_verified": true
+  },
+  {
+    "document": "jocm_manuscript_positive_endpoint_20261118.docx",
+    "sha256": "39f292ae0364e8b6efeed87162c9a3fa341d6609af90fdf0611bcfdbbb6b8887",
+    "bytes": 1032053
+  },
+  {
+    "document": "jocm_main_text_positive_endpoint_20261118.docx",
+    "sha256": "e9af9370984692c24852bbdad565997cbe34cd4df945a67435b4fa366c23b151",
+    "bytes": 921410
+  }
+]

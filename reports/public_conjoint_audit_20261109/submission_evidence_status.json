@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "goal_complete": false,
-  "decision": "The positive-endpoint result adds an application consequence to the high-dimensional boundary and matched-information counterexample. It demonstrates forecast degradation before nonattainment using the released DCE. The methodological increment remains specific to the compensated-logit objective; formal insertion and contribution assessment continue.",
+  "decision": "The compensated-logit existence boundary and the positive endpoint path give distinct testable implications. A fixed DCE illustrates the forecasting consequence. The transferability of the result and the submission-level contribution remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -34,7 +34,7 @@
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
-      "evidence": "../../submission/finite_choice_20261110/reports/frontier_validation_20261118.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/positive_endpoint_validation_20261118.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law.",
       "latest_additional_evidence": "../dce_frontier_economic_path_20261118/verification/verification.json"
     },
@@ -53,7 +53,7 @@
     {
       "requirement": "Full manuscript, appendices and submission materials",
       "status": "74_page_full_29_page_reading_Word_reviewed_20_tables_148_displays_7_appendices",
-      "evidence": "../frontier_manuscript_integration_20261118/README.md",
+      "evidence": "../positive_endpoint_manuscript_integration_20261118/README.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
   ],
@@ -206,7 +206,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../dce_frontier_economic_path_20261118/README.md",
+  "latest_progress_report": "../positive_endpoint_manuscript_integration_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -352,7 +352,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "All 107 positive interior upper endpoints validated as transverse facets. A new fixed-design rate calculation connects fitted utility gaps to the increase in held-out log loss. 7536 path fits, 107 original-row LP checks and 856 post-hoc scalar comparisons reproduced from the isolated archive.",
+  "latest_progress": "Positive correction-power endpoint rate, observed held-out loss and the premium comparison integrated. Current manuscript and archives verified through independent original-menu replay.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -474,7 +474,7 @@
     "new_Scopus_queries": 0,
     "new_human_or_AI_answers": 0,
     "goal_achieved": false,
-    "current_copied_parent_files": 1152,
+    "current_copied_parent_files": 1184,
     "current_curation": "../../submission/jocm_reviewer_20261116/CURATION.json",
     "root_analysis_sources_unchanged_in_EPI_revision": 83,
     "root_analysis_sources_unchanged_in_matched_information_revision": 83

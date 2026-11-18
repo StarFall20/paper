@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-18",
+  "access": "Nine targeted general-web queries on exponential-family facet completion, inverse moment-map rates, separation, implicit prices and compensated-score endpoints. Supplemented with section-level reads. No new WOS, Scholar or Scopus query in this follow-up. Prior WOS and Scholar logs remain in their dated archives.",
+  "primary_section_checks": [
+    {
+      "url": "https://www.stat.umn.edu/geyer/gdor/phase3.pdf",
+      "sections": "Recession, limiting conditional model, Cartesian product case, Theorem 11.",
+      "overlap": "Established directions of recession and the support of the limiting conditional model."
+    },
+    {
+      "url": "https://www.stat.cmu.edu/~arinaldo/papers/Rinaldo_Fienberg_Zhou_2009.pdf",
+      "sections": "Theorem 2.4, Corollaries 2.6 through 2.9 and Appendix B.",
+      "overlap": "Established normal-fan characterization and convergence to face exponential families along an imposed diverging canonical ray. Current expansion solves the inverse normal moment score along a moving power with affine weights and a transverse slack."
+    },
+    {
+      "url": "https://arxiv.org/html/2610.21837v2",
+      "sections": "Section 4.2 and supplementary Section S3.9 and surrounding numerical-fit certificate.",
+      "overlap": "A different finite GMM calibration-strength path and conditional risk calculation for a special logistic example; the finite pilot is conditioned on, and fitted probabilities remain bounded away from zero and one. No overlap found here with the positive compensation endpoint calculation."
+    }
+  ],
+  "limitations": "The full text of some search hits was inaccessible. Current statement of increment is limited to the specific checked results and the fixed-design derivation; no claim of global priority or text similarity assessment."
+}

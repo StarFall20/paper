@@ -129,7 +129,7 @@ for name in ['official_ppi_runtime','public_panel_price_ratios']:
   h,n=line.split('  ',1);assert hashlib.sha256((nested/n).read_bytes()).hexdigest()==h,(name,n)
  assert json.loads((nested/'verification/verification.json').read_text())['state']=='passed'
 for n,h in integration['scientific_files_unchanged'].items():assert hashlib.sha256((ROOT/n).read_bytes()).hexdigest()==h,n
-assert integration['preceding_tables_preserved']==20 and integration['current_display_count']==148
+assert integration['preceding_tables_preserved']==20 and integration['current_display_count']==151
 
 # New theory-comparison and bounded-scale evidence is verified without refitting.
 for name in ['bounded_scale_scope','direct_theorem_comparison']:
@@ -162,3 +162,30 @@ replay=json.loads((ROOT/integration['replay']).read_text())
 assert replay['state']=='passed'
 assert replay['records']['primary']['original_row_verification']['frontiers_checked']==2000
 assert replay['records']['cap']['original_row_verification']['finite_coefficients']==1848
+
+
+# Bind the endpoint paths and revised author-review material to this release.
+endpoint = ROOT / 'results/dce_frontier_economic_path'
+checked = subprocess.run([sys.executable, str(endpoint / 'verify_package.py')], check=True, capture_output=True, text=True)
+receipt = json.loads(checked.stdout)
+assert (receipt['paths'], receipt['positive_endpoints'], receipt['controls'], receipt['scalar_checks']) == (7536, 107, 835, 856)
+endpoint_replay = json.loads((ROOT / integration['positive_endpoint_replay']).read_text())
+assert endpoint_replay['state'] == 'passed' and endpoint_replay['all_numerical_outputs_byte_identical']
+assert len(endpoint_replay['sha256']) == 9
+for n, expected in endpoint_replay['sha256'].items():
+    assert hashlib.sha256((endpoint / n).read_bytes()).hexdigest() == expected, n
+for n, field in [('cover_letter_draft.md', 'source_sha256'), ('Cover_letter.docx', 'docx_sha256')]:
+    assert hashlib.sha256((ROOT / 'submission_materials' / n).read_bytes()).hexdigest() == qa['cover_letter'][field], n
+
+# Bind the endpoint paths and revised author-review material to this release.
+endpoint = ROOT / 'results/dce_frontier_economic_path'
+checked = subprocess.run([sys.executable, str(endpoint / 'verify_package.py')], check=True, capture_output=True, text=True)
+receipt = json.loads(checked.stdout)
+assert (receipt['paths'], receipt['positive_endpoints'], receipt['controls'], receipt['scalar_checks']) == (7536, 107, 835, 856)
+endpoint_replay = json.loads((ROOT / integration['positive_endpoint_replay']).read_text())
+assert endpoint_replay['state'] == 'passed' and endpoint_replay['all_numerical_outputs_byte_identical']
+assert len(endpoint_replay['sha256']) == 9
+for n, expected in endpoint_replay['sha256'].items():
+    assert hashlib.sha256((endpoint / n).read_bytes()).hexdigest() == expected, n
+for n, field in [('cover_letter_draft.md', 'source_sha256'), ('Cover_letter.docx', 'docx_sha256')]:
+    assert hashlib.sha256((ROOT / 'submission_materials' / n).read_bytes()).hexdigest() == qa['cover_letter'][field], n
