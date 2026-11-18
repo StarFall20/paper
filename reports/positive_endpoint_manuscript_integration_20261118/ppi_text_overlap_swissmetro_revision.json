@@ -1,0 +1,12 @@
+{
+  "source": "PPI++ arXiv 2311.01453v2, user-supplied full paper and appendices",
+  "comparison": "Current Swissmetro manuscript before the disclosure and references",
+  "method": "NFKC, lowercased contiguous lexical words per paragraph and source page. Current displayed math and inline math excluded.",
+  "source_pdf_sha256": "5c9dc26aa1a537785d34b1d690a7387cf21e0493f0a3f945905dc556d30e70bd",
+  "source_pages": 29,
+  "draft_source_sha256": "24e39a36782113547ef85df2ddc43b6c2478e2cd4a99d4d3e084cfdb0bd28141",
+  "draft_blocks": 476,
+  "minimum_contiguous_words": 12,
+  "matches": [],
+  "limitation": "One named source. This check addresses contiguous wording and omits semantic similarity, other publications and attribution review."
+}

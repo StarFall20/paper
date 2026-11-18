@@ -4,26 +4,26 @@
   "new_cover_letter": {
     "pages": 1,
     "direct_image_review": true,
-    "source_sha256": "bba977b04afbd01124fe8f0a777c7de64ea17f0182ca97169e0795da3a9b0707",
-    "docx_sha256": "cc9ffc880cde5c7f1b335de3b9666965bda0aac7a294b98c6ec893c8ce15faae",
-    "page_png_sha256": "c50573c898b9657a44b8ae5c533a522d7f2d32f70cb30cbe62e8fc24e3a10cdd"
+    "source_sha256": "7a6f01973afccf3baf2c27e9e15876a67b85c6827c62781912379980b2dc481b",
+    "docx_sha256": "22fd2fc3fbbc0e85f9841355065ae4456ceab43a50b9b1b5390603a8654764ee",
+    "page_png_sha256": "66289b7bf141bf97061c57d2ec804422067b264ec31dc0e5010d720bac9f89bf"
   },
-  "copied_manuscript_visual_review": "positive_endpoint_visual_qa_20261118.json in the companion reproduction archive covers 77 complete and 30 reading pages.",
+  "copied_manuscript_visual_review": "swissmetro_entropy_visual_qa_20261118.json in the companion reproduction archive.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
-  "highlights_visual_review": "Direct one-page review bound to the current manuscript revision",
-  "manuscript_docx_sha256": "39f292ae0364e8b6efeed87162c9a3fa341d6609af90fdf0611bcfdbbb6b8887",
+  "highlights_visual_review": "Direct one-page review.",
+  "manuscript_docx_sha256": "d1ea778c8e729fbba4e429f5ff3ffc83b0278db85be40acfaa891c9f1f5173c5",
   "highlights": {
     "pages": 1,
     "direct_image_review": true,
-    "source_sha256": "d6e66aa4e0d152b30d1f35c1d577bf28be630e61cf42930e1c52b97b1f79e15e",
-    "docx_sha256": "bf34a471f20792a31a5e6cb7d77ffddfdbc53f94044a84263fd965474d1a7ade",
-    "page_png_sha256": "7a39db1d660e117698e3e100666495a51511fa2c67cbddaecacc501fb2930261",
+    "source_sha256": "3622c0a7a37f7f7ae5933f959b539807e4784da251d721be170cad9203629cd7",
+    "docx_sha256": "786586286b36a59399bcbd6fe433ec59dc32e2ba3c1439c4769fad4408ef78c2",
+    "page_png_sha256": "e6275e522a8c856f005b612d9bf9724e18d59b7fb47ebc708fd642f909926266",
     "characters": [
       75,
       75,
       76,
       76,
-      79
+      73
     ]
   }
 }

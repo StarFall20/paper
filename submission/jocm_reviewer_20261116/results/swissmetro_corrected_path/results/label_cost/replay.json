@@ -1,0 +1,11 @@
+{
+  "state": "passed",
+  "matched_label_cost_datasets_identical": true,
+  "fits_replayed": 576,
+  "paired_comparisons": 1152,
+  "numeric_sha256": {
+    "records.csv": "c0262bb9aa3292255cc1c8cbca20414ddb1bd5b172e723b17141d9cf0e26eb0e",
+    "summary.json": "18662cb7e79bf35d4308bb16d6e8d2fc8e3713731ad707968dede27e35f34122"
+  },
+  "input_source": "Raw Swissmetro file with published hash. Separate verified archive copy of optimizer utility."
+}

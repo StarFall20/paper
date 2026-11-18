@@ -1,0 +1,517 @@
+{
+  "status": "complete",
+  "input_summary": {
+    "rows": 10719,
+    "teacher_people": 600,
+    "teacher_rows": 5400,
+    "evaluation_people": 240,
+    "evaluation_rows": 2160,
+    "pool_people": 351,
+    "pool_rows": 3159,
+    "teacher_coefs": [
+      -0.7681641241559202,
+      0.02187587952621115,
+      -1.2336196929547887,
+      -0.7258731899813098
+    ],
+    "teacher_evaluation_logloss": 0.8359998947263292,
+    "full_human_coefs_canonical_4": [
+      -0.43627805319145824,
+      0.05668930664160972,
+      -1.5053068463753456,
+      -0.8769971007499472
+    ],
+    "full_human_coefs_mode_specific_8": [
+      0.3531613518450255,
+      -0.4479432851162835,
+      -1.9863139314275982,
+      -1.5056003687546982,
+      -1.2274702205137764,
+      -0.874520315363038,
+      -0.4233799681658776,
+      -0.6577153501816111
+    ]
+  },
+  "source_sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2",
+  "plan_sha256": "35344070eb367974dcd757a866a11f3f04501a33af97d68130be743a20cad810",
+  "script_sha256": "a81c6cf3c3531c5828a66c59919c2f5288e729172c36d96948f50e0c698fc831",
+  "numerical_helper_sha256": "d89575cc2c0d8bd2494de722acf902fe618ad4ed00156c6bd917c3c422e74f65",
+  "output_sha256": {
+    "allocations.csv": "e82230099f98f67cb0cd2347b207c343f308da38f7d5b89c3eb55ce8896e3340",
+    "paths.csv": "16c7c194d998b967ebb59d22da03e91abd04f4e60d37a6f85d6ef54b5df3989b",
+    "coefficients.json": "ffdab054240e86e642557a9a0b099f89c0b91cb97d55559fef6562dab1b238f8"
+  },
+  "allocation_records": 576,
+  "path_fits": 1960,
+  "summaries": [
+    {
+      "specification": "canonical_4",
+      "budget": 2,
+      "n": 96,
+      "endpoint_counts": {
+        "unit_interior": 50,
+        "zero_or_near_zero": 21,
+        "positive_uncapped": 25
+      },
+      "labelled_state_counts": {
+        "boundary_or_unresolved": 53,
+        "interior": 39,
+        "rank_deficient": 4
+      },
+      "labelled_ridge_median_loss": 1.143936511858406,
+      "full_human_loss": 0.8372359557552826,
+      "path_groups": {
+        "positive_uncapped": {
+          "n": 25,
+          "single_facet_cases": 25,
+          "positive_slope_cases": 25,
+          "paths": {
+            "0.5": {
+              "n": 25,
+              "loss_median": 1.966599245509876,
+              "negative_cost_count": 22
+            },
+            "0.9": {
+              "n": 25,
+              "loss_median": 3.0018393235785275,
+              "negative_cost_count": 21
+            },
+            "0.99": {
+              "n": 25,
+              "loss_median": 10.305719852731862,
+              "negative_cost_count": 21
+            },
+            "0.999": {
+              "n": 25,
+              "loss_median": 37.04100221868938,
+              "negative_cost_count": 21
+            }
+          },
+          "paired_n": 25,
+          "paired_positive": 24,
+          "paired_loss_median": 1.5447097246486936
+        },
+        "unit_interior": {
+          "n": 50,
+          "single_facet_cases": 0,
+          "positive_slope_cases": 0,
+          "paths": {
+            "0.5": {
+              "n": 50,
+              "loss_median": 1.167497967946359,
+              "negative_cost_count": 47
+            },
+            "0.9": {
+              "n": 50,
+              "loss_median": 1.1569475789452468,
+              "negative_cost_count": 49
+            },
+            "0.99": {
+              "n": 50,
+              "loss_median": 1.191814569636713,
+              "negative_cost_count": 49
+            },
+            "0.999": {
+              "n": 50,
+              "loss_median": 1.1949812491817324,
+              "negative_cost_count": 49
+            }
+          },
+          "paired_n": 50,
+          "paired_positive": 21,
+          "paired_loss_median": -0.01575425652488366
+        }
+      }
+    },
+    {
+      "specification": "canonical_4",
+      "budget": 5,
+      "n": 96,
+      "endpoint_counts": {
+        "unit_interior": 82,
+        "positive_uncapped": 13,
+        "zero_or_near_zero": 1
+      },
+      "labelled_state_counts": {
+        "interior": 90,
+        "boundary_or_unresolved": 6
+      },
+      "labelled_ridge_median_loss": 0.9553900164502127,
+      "full_human_loss": 0.8372359557552826,
+      "path_groups": {
+        "positive_uncapped": {
+          "n": 13,
+          "single_facet_cases": 13,
+          "positive_slope_cases": 13,
+          "paths": {
+            "0.5": {
+              "n": 13,
+              "loss_median": 1.6568259874299327,
+              "negative_cost_count": 11
+            },
+            "0.9": {
+              "n": 13,
+              "loss_median": 3.3147822234616418,
+              "negative_cost_count": 11
+            },
+            "0.99": {
+              "n": 13,
+              "loss_median": 10.473788386146822,
+              "negative_cost_count": 11
+            },
+            "0.999": {
+              "n": 13,
+              "loss_median": 39.89637973845499,
+              "negative_cost_count": 11
+            }
+          },
+          "paired_n": 13,
+          "paired_positive": 13,
+          "paired_loss_median": 1.6511446365967746
+        },
+        "unit_interior": {
+          "n": 82,
+          "single_facet_cases": 0,
+          "positive_slope_cases": 0,
+          "paths": {
+            "0.5": {
+              "n": 82,
+              "loss_median": 1.0026825727822635,
+              "negative_cost_count": 79
+            },
+            "0.9": {
+              "n": 82,
+              "loss_median": 1.0037895359132036,
+              "negative_cost_count": 79
+            },
+            "0.99": {
+              "n": 82,
+              "loss_median": 1.0075911517768428,
+              "negative_cost_count": 77
+            },
+            "0.999": {
+              "n": 82,
+              "loss_median": 1.0080731050880485,
+              "negative_cost_count": 77
+            }
+          },
+          "paired_n": 82,
+          "paired_positive": 43,
+          "paired_loss_median": 0.002153058705177069
+        }
+      }
+    },
+    {
+      "specification": "canonical_4",
+      "budget": 10,
+      "n": 96,
+      "endpoint_counts": {
+        "unit_interior": 93,
+        "positive_uncapped": 3
+      },
+      "labelled_state_counts": {
+        "interior": 95,
+        "boundary_or_unresolved": 1
+      },
+      "labelled_ridge_median_loss": 0.907175123704098,
+      "full_human_loss": 0.8372359557552826,
+      "path_groups": {
+        "positive_uncapped": {
+          "n": 3,
+          "single_facet_cases": 3,
+          "positive_slope_cases": 3,
+          "paths": {
+            "0.5": {
+              "n": 3,
+              "loss_median": 0.9944820174825261,
+              "negative_cost_count": 1
+            },
+            "0.9": {
+              "n": 3,
+              "loss_median": 2.439032748712981,
+              "negative_cost_count": 1
+            },
+            "0.99": {
+              "n": 3,
+              "loss_median": 11.733118754705137,
+              "negative_cost_count": 1
+            },
+            "0.999": {
+              "n": 3,
+              "loss_median": 35.909043874550676,
+              "negative_cost_count": 1
+            }
+          },
+          "paired_n": 3,
+          "paired_positive": 3,
+          "paired_loss_median": 1.45818888306433
+        },
+        "unit_interior": {
+          "n": 93,
+          "single_facet_cases": 0,
+          "positive_slope_cases": 0,
+          "paths": {
+            "0.5": {
+              "n": 93,
+              "loss_median": 0.9583175740507832,
+              "negative_cost_count": 90
+            },
+            "0.9": {
+              "n": 93,
+              "loss_median": 0.959055564709553,
+              "negative_cost_count": 90
+            },
+            "0.99": {
+              "n": 93,
+              "loss_median": 0.9587201340467701,
+              "negative_cost_count": 89
+            },
+            "0.999": {
+              "n": 93,
+              "loss_median": 0.9586936787088163,
+              "negative_cost_count": 89
+            }
+          },
+          "paired_n": 93,
+          "paired_positive": 51,
+          "paired_loss_median": 0.002447947535808015
+        }
+      }
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 2,
+      "n": 96,
+      "endpoint_counts": {
+        "zero_or_near_zero": 53,
+        "unit_interior": 23,
+        "positive_uncapped": 20
+      },
+      "labelled_state_counts": {
+        "boundary_or_unresolved": 75,
+        "interior": 17,
+        "rank_deficient": 4
+      },
+      "labelled_ridge_median_loss": 1.192849102146201,
+      "full_human_loss": 0.8298334989039549,
+      "path_groups": {
+        "positive_uncapped": {
+          "n": 20,
+          "single_facet_cases": 20,
+          "positive_slope_cases": 20,
+          "paths": {
+            "0.5": {
+              "n": 20,
+              "loss_median": 2.1597345529922203,
+              "negative_cost_count": 20
+            },
+            "0.9": {
+              "n": 20,
+              "loss_median": 3.704436894157783,
+              "negative_cost_count": 20
+            },
+            "0.99": {
+              "n": 20,
+              "loss_median": 11.335230478664087,
+              "negative_cost_count": 20
+            },
+            "0.999": {
+              "n": 20,
+              "loss_median": 36.37208123893666,
+              "negative_cost_count": 20
+            }
+          },
+          "paired_n": 20,
+          "paired_positive": 18,
+          "paired_loss_median": 1.4578156521443235
+        },
+        "unit_interior": {
+          "n": 23,
+          "single_facet_cases": 0,
+          "positive_slope_cases": 0,
+          "paths": {
+            "0.5": {
+              "n": 23,
+              "loss_median": 1.3605264786295481,
+              "negative_cost_count": 21
+            },
+            "0.9": {
+              "n": 23,
+              "loss_median": 1.4300358541248759,
+              "negative_cost_count": 21
+            },
+            "0.99": {
+              "n": 23,
+              "loss_median": 1.5237976226774066,
+              "negative_cost_count": 22
+            },
+            "0.999": {
+              "n": 23,
+              "loss_median": 1.5730584354144386,
+              "negative_cost_count": 22
+            }
+          },
+          "paired_n": 23,
+          "paired_positive": 9,
+          "paired_loss_median": -0.0819012249718245
+        }
+      }
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 5,
+      "n": 96,
+      "endpoint_counts": {
+        "positive_uncapped": 24,
+        "unit_interior": 64,
+        "zero_or_near_zero": 8
+      },
+      "labelled_state_counts": {
+        "interior": 78,
+        "boundary_or_unresolved": 18
+      },
+      "labelled_ridge_median_loss": 0.9952111304145816,
+      "full_human_loss": 0.8298334989039549,
+      "path_groups": {
+        "positive_uncapped": {
+          "n": 24,
+          "single_facet_cases": 24,
+          "positive_slope_cases": 24,
+          "paths": {
+            "0.5": {
+              "n": 24,
+              "loss_median": 1.9704624430241773,
+              "negative_cost_count": 23
+            },
+            "0.9": {
+              "n": 24,
+              "loss_median": 4.634802736913201,
+              "negative_cost_count": 22
+            },
+            "0.99": {
+              "n": 24,
+              "loss_median": 13.894435015313494,
+              "negative_cost_count": 22
+            },
+            "0.999": {
+              "n": 24,
+              "loss_median": 44.8677363564307,
+              "negative_cost_count": 22
+            }
+          },
+          "paired_n": 24,
+          "paired_positive": 24,
+          "paired_loss_median": 2.1209487847791655
+        },
+        "unit_interior": {
+          "n": 64,
+          "single_facet_cases": 0,
+          "positive_slope_cases": 0,
+          "paths": {
+            "0.5": {
+              "n": 64,
+              "loss_median": 1.1504036058021827,
+              "negative_cost_count": 61
+            },
+            "0.9": {
+              "n": 64,
+              "loss_median": 1.1619091824942847,
+              "negative_cost_count": 61
+            },
+            "0.99": {
+              "n": 64,
+              "loss_median": 1.1800514938849447,
+              "negative_cost_count": 60
+            },
+            "0.999": {
+              "n": 64,
+              "loss_median": 1.1819334343670533,
+              "negative_cost_count": 60
+            }
+          },
+          "paired_n": 64,
+          "paired_positive": 35,
+          "paired_loss_median": 0.016391860669538794
+        }
+      }
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 10,
+      "n": 96,
+      "endpoint_counts": {
+        "unit_interior": 85,
+        "positive_uncapped": 8,
+        "zero_or_near_zero": 3
+      },
+      "labelled_state_counts": {
+        "interior": 90,
+        "boundary_or_unresolved": 6
+      },
+      "labelled_ridge_median_loss": 0.9192140964259384,
+      "full_human_loss": 0.8298334989039549,
+      "path_groups": {
+        "positive_uncapped": {
+          "n": 8,
+          "single_facet_cases": 8,
+          "positive_slope_cases": 8,
+          "paths": {
+            "0.5": {
+              "n": 8,
+              "loss_median": 1.3894582851549653,
+              "negative_cost_count": 6
+            },
+            "0.9": {
+              "n": 8,
+              "loss_median": 2.9219905288464854,
+              "negative_cost_count": 6
+            },
+            "0.99": {
+              "n": 8,
+              "loss_median": 10.256663125842124,
+              "negative_cost_count": 6
+            },
+            "0.999": {
+              "n": 8,
+              "loss_median": 34.28224707528213,
+              "negative_cost_count": 6
+            }
+          },
+          "paired_n": 8,
+          "paired_positive": 8,
+          "paired_loss_median": 1.462002788446545
+        },
+        "unit_interior": {
+          "n": 85,
+          "single_facet_cases": 0,
+          "positive_slope_cases": 0,
+          "paths": {
+            "0.5": {
+              "n": 85,
+              "loss_median": 1.0275246887039142,
+              "negative_cost_count": 83
+            },
+            "0.9": {
+              "n": 85,
+              "loss_median": 1.0120503623624089,
+              "negative_cost_count": 83
+            },
+            "0.99": {
+              "n": 85,
+              "loss_median": 1.0151055677691565,
+              "negative_cost_count": 81
+            },
+            "0.999": {
+              "n": 85,
+              "loss_median": 1.016173509145952,
+              "negative_cost_count": 81
+            }
+          },
+          "paired_n": 85,
+          "paired_positive": 48,
+          "paired_loss_median": 0.009540030439950442
+        }
+      }
+    }
+  ]
+}

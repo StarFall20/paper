@@ -1,3 +1,7 @@
+# 食品和交通选择的独立证据已纳入审阅稿
+
+[当前稿件与复现记录](reports/swissmetro_entropy_manuscript_integration_20261118/README.md)包含 77 页完整 Word 和 30 页阅读版。摘要、正文、附录、投稿信和亮点反映同一更新。食品与交通两个公开选择实验提供权重上限附近的预测证据。下列条目为早期记录。
+
 # 独立交通选择数据复现了预测风险
 
 [Swissmetro 检验](reports/swissmetro_corrected_path_20261118/README.md)覆盖 576 个模型与标签划分，以及 1,960 个经原题重算核验的拟合点。93 个正上限中的 90 个从半上限提高到九成上限时留出损失上升。正式成本比较使用与补偿模型完全相同的真人标签。直接 MNL 在 1,152 次留出比较中损失都更低。食品 DCE 的 [熵与路径导数复审](reports/entropy_endpoint_audit_20261118/README.md)说明拟合目标与留出损失如何在上限附近朝相反方向变化。以下为已校对 Word 版和较早记录。

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "goal_complete": false,
-  "decision": "The corrected-logit existence threshold and matched-information construction remain the theoretical contribution. Swissmetro independently reproduces loss growth near a finite positive weight limit. Direct MNL using exactly the consumed human labels gives lower held-out log loss at both tested weights. Integrate the independent empirical result and assessment.",
+  "decision": "Independent choice-model validation and matched-label comparisons strengthen the applied scope. Specific-result priority and final author declarations remain under review.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -34,7 +34,7 @@
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
-      "evidence": "../../submission/finite_choice_20261110/reports/positive_endpoint_validation_20261118.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/swissmetro_entropy_validation_20261118.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law.",
       "latest_additional_evidence": "../entropy_endpoint_audit_20261118/proof.md"
     },
@@ -53,7 +53,7 @@
     {
       "requirement": "Full manuscript, appendices and submission materials",
       "status": "77_page_full_30_page_reading_Word_reviewed_20_tables_151_displays_7_appendices",
-      "evidence": "../positive_endpoint_manuscript_integration_20261118/README.md",
+      "evidence": "../swissmetro_entropy_manuscript_integration_20261118/README.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
   ],
@@ -206,7 +206,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../positive_endpoint_manuscript_integration_20261118/README.md",
+  "latest_progress_report": "../swissmetro_entropy_manuscript_integration_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -352,7 +352,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Positive correction-power endpoint rate, observed held-out loss and the premium comparison integrated. Current manuscript and archives verified through independent original-menu replay.",
+  "latest_progress": "Swissmetro and entropy derivative evidence integrated, rendered and independently checked from the extracted reviewer package.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -474,7 +474,7 @@
     "new_Scopus_queries": 0,
     "new_human_or_AI_answers": 0,
     "goal_achieved": false,
-    "current_copied_parent_files": 1184,
+    "current_copied_parent_files": 1213,
     "current_curation": "../../submission/jocm_reviewer_20261116/CURATION.json",
     "root_analysis_sources_unchanged_in_EPI_revision": 83,
     "root_analysis_sources_unchanged_in_matched_information_revision": 83
@@ -807,6 +807,7 @@
     "ordinary_labelled_interior_of_positive_endpoints": 59,
     "full_label_cost_comparisons": 1152,
     "direct_human_lower_loss_all_comparisons": true,
-    "manuscript_integrated": false
+    "manuscript_integrated": true,
+    "evidence": "../swissmetro_entropy_manuscript_integration_20261118/README.md"
   }
 }

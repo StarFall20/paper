@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-18",
+  "state": "specified before producing corrected-path outcomes",
+  "scope": "Independent choice data, fixed respondent splits and frozen source predictor. Use released observations for predictive validation.",
+  "data_url": "https://raw.githubusercontent.com/michelbierlaire/biogeme/master/src/biogeme/data/data/swissmetro.dat",
+  "data_sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2",
+  "preprocessing": "Use the official Biogeme 3.3.5 availability, fare and choice coding. Keep all valid choices. Partition by original respondent before fitting.",
+  "split_seed": 479150,
+  "teacher_count": 600,
+  "evaluation_count": 240,
+  "pool": "Remaining 351 respondents. For each allocation, all pool menus outside the human group provide frozen proxy probabilities and attributes.",
+  "target_specifications": {
+    "canonical_4": "Train and car alternative constants, generic time and generic cost. Swissmetro reference.",
+    "mode_specific_8": "Train and car alternative constants, mode-specific time, generic cost, train and Swissmetro headway. Swissmetro reference."
+  },
+  "teacher": "Single human maximum-likelihood fit of the official canonical four-variable MNL, using only its 600 independent respondents.",
+  "allocation_seed": 659215,
+  "allocations": 96,
+  "label_budgets": [2, 5, 10],
+  "paths": {"fractions_of_upper_limit": [0.5, 0.9, 0.99, 0.999], "unit_interior_controls": true},
+  "ridge_penalty": 0.01,
+  "endpoints": "Availability-aware sparse linear program, dual support check and constructive strict-support LP. Use the table of all allocations including zero caps. For noncapped cases validate rank, face mass, transverse direction and holdout slope error. Rank and numerical failures reported with denominators.",
+  "outcomes": ["certified fit and support counts", "paired holdout log loss at half and nine tenths", "full path log loss and price time ratio", "same-split labelled ridge and full human direct MNL", "sharp observed log-loss slope in qualified single-facet cases"],
+  "uncertainty": "Repeated allocations use fixed menus and evaluation respondents. Report medians and allocation counts. Population sampling and causal effects are outside this comparison."
+}

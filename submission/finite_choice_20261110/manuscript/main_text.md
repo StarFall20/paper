@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Prediction assisted logit uses human choices to correct machine predictions. We derive finite-estimation thresholds for binary and common-coefficient choice menus when utility dimension grows with the labelled sample. The thresholds account for the auxiliary sample size, utility signal, fitted constants and frozen predictions. Two corrected objectives can have identical realized scores at the true parameter and identical fixed-dimensional covariance, with opposite limits for the probability of finite estimation. Under an existing variance rule, more auxiliary data can lower regular covariance and eliminate a finite estimate. For fixed menus, we derive how coefficients and held-out log loss grow as power approaches a positive upper limit. In a food choice experiment, moving from half to nine tenths of the feasible power limit raises median held-out log loss from 1.31 to 2.22 across 87 five-person allocations, with finite estimates throughout. At that budget, labelled ridge gives lower overall loss than both rules based on the feasible range. Direct human multinomial logit has lower loss at all four budgets when predictor training labels count toward the budget.
+Prediction assisted logit uses human choices to correct machine predictions. We derive finite-estimation thresholds for binary and common-coefficient choice menus when utility dimension grows with the labelled sample. The thresholds account for auxiliary sample size, utility signal, fitted constants and frozen predictions. Two corrected objectives can have identical realized scores at the true parameter and identical fixed-dimensional covariance, with opposite limits for the probability of finite estimation. Under an existing variance rule, more auxiliary data can lower regular covariance and eliminate a finite estimate. For fixed menus, forecasts can deteriorate while the fitted objective falls and coefficients remain finite near a correction-weight limit. We document the deterioration in food and transport choice experiments. In Swissmetro, moving from half to nine tenths of the limit raises held-out log loss in 90 of 93 positive-limit allocations. Direct multinomial logit fitted to the same human labels gives lower held-out loss at these powers in every allocation, including when the corrected fit requires a labelled ridge fallback.
 
 Keywords: discrete choice; multinomial logit; prediction powered inference; logistic separation; finite auxiliary samples
 
@@ -14,7 +14,7 @@ In a released food choice experiment, unit correction produces 21 exterior targe
 
 We derive the threshold for the existing unpenalized compensated logit loss as the number of utility coefficients grows with the human label budget. Classical separation, convex support and Gaussian conic geometry supply the tools (Candès and Sur, 2020; Geyer, 2009; Amelunxen et al., 2014). In our construction, two corrections match every realized score at the true coefficient and the full fixed-dimensional covariance, with opposite existence limits. A second construction preserves the human separation event in each sample and shows how a standard variance rule can eliminate a finite estimate as auxiliary data increase. The fixed-dimensional PPI++ theory addresses attainment under its regular asymptotic conditions.
 
-For fixed choice menus, the support geometry gives a computable weight limit. In a high-dimensional binary model, positive powers tending to zero can recover finite estimates with diverging human log loss. On a fixed design with a positive upper endpoint below one, we obtain a coefficient expansion as power increases to that endpoint. The within-menu utility gaps determine the rate and the leading contribution to log loss. We examine these consequences using released choices, respondent-separated prediction and evaluation, and comparisons that count the labels used to train the predictor.
+For fixed choice menus, the support geometry gives a computable weight limit. In a high-dimensional binary model, positive powers tending to zero can recover finite estimates with diverging human log loss. On a fixed design with a positive upper endpoint below one, we obtain a coefficient expansion as power increases to that endpoint. The within-menu utility gaps determine the rate and the leading contribution to log loss. We examine these consequences in released food and transport experiments. The analysis separates predictor training from evaluation by respondent and compares methods using the same human labels.
 
 ## 2 Prediction assisted choice logit
 
@@ -336,11 +336,22 @@ We trace eight interior powers for every positive endpoint below one in this des
 
 At an endpoint below one, the finite coefficient grows in the direction normal to the supporting facet. The smallest positive utility gap on the fitted menus sets the logarithmic growth rate. The remaining component converges to the estimate on the alternatives tied in that direction. On the evaluation menus, choices outside the tied sets contribute a positive term to the rate of increase in log loss. Each of the 107 fitted boundary directions has at least one such evaluation choice. Appendix C13 gives the fixed-design calculation and the ten-person results.
 
+At nine tenths of each upper limit, increasing correction power locally decreases the fitted objective and increases evaluation loss in all 107 allocations. Appendix C13 derives these derivatives from the normalized objective and the observed evaluation choices.
+
 ### 4.7 Fixed predictions from an independent choice study
 
 Alves (2026) studies large language model (LLM) predictions for an underrepresented age segment in released RADIANT experiments. The study also explores prediction-powered estimates of choice-logit coefficients. Its public outputs permit an additional finite-design check. We reconstruct 24 released fits across four contexts, preserving the utility specifications, respondent splits, frozen probabilities and published powers. Appendix C11 gives the reconstruction and required inputs.
 
 All 24 targets are interior at their published powers; nine powers equal zero. A separately specified unit-power sensitivity has one exterior target among 24 cells. All eight distinct ordinary MNL designs are interior. In the exterior cell, the published power is approximately 0.11684 and retains a finite estimate. The unit-power objective decreases without bound along a verified direction. These results locate the issue in a particular choice of correction power. They describe realized categorical designs; the Gaussian proportional-dimensional law remains a separate result.
+
+
+### 4.8 An independent test on Swissmetro choices
+
+We test whether the loss increase also occurs on the Swissmetro experiment (Bierlaire et al., 2001). The released file contains 1191 respondents with 10719 observed choices across repeated tasks. We train a standard four-coefficient MNL on 600 respondents, freeze its predictions and hold out 240 respondents. From the remaining 351, we reveal choices for 2, 5 or 10 respondents per allocation and keep the other menus and predicted probabilities as auxiliary inputs. The four-coefficient model uses alternative constants for train and car, common travel time and common cost. An eight-coefficient version estimates travel time separately by mode and adds headway for train and Swissmetro. Both specifications retain source availability and fare coding.
+
+Across 576 specification, budget and allocation combinations, 93 have a positive upper power below one, 397 admit a finite fit at unit power and 86 have an upper power at or near numerical zero. In 59 of the 93 positive-limit cases, ordinary MNL on the revealed choices has a finite estimate. Moving from half to nine tenths of the upper limit raises evaluation log loss in 90 of the 93 positive-limit cases. In the five-person eight-coefficient model, median loss rises from 1.970 to 4.635 across 24 positive-limit cases. The 64 unit-interior controls move from 1.150 to 1.162. All 1960 path fits pass a score check on the original menus. The reproduction supplement gives all cells, including allocations with no positive feasible power.
+
+We also give the direct MNL the 600 predictor-training respondents and the revealed respondents from each allocation. At both planned weights it has lower held-out loss in all 1152 comparisons, including 172 comparisons using the prespecified labelled ridge fallback. This comparison measures performance when the predictor's training choices can also enter the target likelihood. All loss differences refer to the fixed evaluation group and model specifications.
 
 ## 5 Finite estimation and statistical performance
 
@@ -520,11 +531,11 @@ The theoretical scope remains explicit. Proposition 8 extends fixed positive-pow
 
 Prediction assisted choice logit has a finite-estimation boundary determined by the human label budget, auxiliary ratio, utility signal, prediction distribution and correction power. Its Gaussian binary and common-coefficient menu forms support controlled comparisons: equal truth scores and complete regular covariance can give opposite existence limits, and known positive scales preserve human separation while auxiliary-budget changes remove attainment along a variance rule.
 
-Choice probabilities respond to the distance from a power limit. Above ordinary binary separation, vanishing positive powers recover finite roots with diverging human log loss. On fixed menus at a positive upper endpoint, the utility gaps give the rate of coefficient growth and its contribution to forecast loss. The food experiment displays this mechanism while coefficients are still finite. The feasible range and evaluation loss provide two checks for power selection at a fixed human label budget.
+Choice probabilities respond to the distance from a power limit. Above ordinary binary separation, vanishing positive powers recover finite roots with diverging human log loss. On fixed menus at a positive upper endpoint, the utility gaps give the rate of coefficient growth and its contribution to forecast loss. The food and transport experiments show how forecasts deteriorate while coefficients remain finite. The feasible range and evaluation loss provide two checks for power selection at a fixed human label budget.
 
 ## Data availability
 
-Section 4 identifies the public vaccine repository and the RADIANT food DCE (Chen et al., 2025; https://doi.org/10.5281/zenodo.15420092). The reproduction package provides pinned source hashes, download instructions, code and derived results. Raw respondent records are downloaded separately. Reported estimates use these released choices and simulations; the author's separate private questionnaire supplies no observations to this paper.
+Section 4 identifies the public vaccine repository, the RADIANT food DCE (Chen et al., 2025, https://doi.org/10.5281/zenodo.15420092) and the Swissmetro data distributed by Biogeme (Bierlaire et al., 2001, https://github.com/michelbierlaire/biogeme/blob/master/src/biogeme/data/data/swissmetro.dat). The reproduction package provides pinned source hashes, download instructions, code and derived results. Raw respondent records are downloaded separately. Reported estimates use these released choices and simulations; the author's separate private questionnaire supplies no observations to this paper.
 
 ## Declaration of generative AI assistance
 
@@ -543,6 +554,8 @@ Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Pr
 Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-powered inference. Annals of Applied Statistics 20(3), 2235–2252. https://doi.org/10.1214/26-AOAS2215
 
 Bhatia, R., Davis, C. (2000). A better bound on the variance. American Mathematical Monthly 107(4), 353–357. https://doi.org/10.1080/00029890.2000.12005203
+
+Bierlaire, M., Axhausen, K.W., Abay, G. (2001). The acceptance of modal innovation: The case of Swissmetro. Swiss Transport Research Conference, Monte Verità. https://transp-or.epfl.ch/documents/proceedings/BierAxhaAbay01.pdf
 
 Broska, D., Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. Preprint, arXiv:2610.09601v1. https://arxiv.org/abs/2610.09601v1
 
@@ -633,6 +646,8 @@ Vadlamani, A.T., Chang, J.H., Parthasarathy, S., Paul, S. (2026). Transfer Calib
 van Cranenburgh, S., Wang, S., Vij, A., Pereira, F., Walker, J. (2022). Choice modelling in the age of machine learning—Discussion paper. Journal of Choice Modelling 42, 100340. https://doi.org/10.1016/j.jocm.2021.100340
 
 van der Laan, L., van der Laan, M. (2026). Calibeating Prediction-Powered Inference. Preprint, arXiv:2604.21260. https://arxiv.org/abs/2604.21260
+
+Wainwright, M.J., Jordan, M.I. (2008). Graphical models, exponential families, and variational inference. Foundations and Trends in Machine Learning 1(1–2), 1–305. https://doi.org/10.1561/2200000001
 
 Wang, G., Wen, M., Zou, C. (2025). Empirical Likelihood Meets Prediction-Powered Inference. Preprint, arXiv:2512.16363v1. https://arxiv.org/abs/2512.16363v1
 

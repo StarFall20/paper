@@ -405,3 +405,8 @@ From the root of this archive, use the published workbook and the two included u
     python results/dce_frontier_economic_path/analysis/check_gap_spectrum.py --input local_inputs/COSCBB.xlsx --frontier results/power_frontier --results regenerated/positive_endpoint/path --out regenerated/positive_endpoint/spectrum
 
 The dated report describes the directory layout of its standalone archive. The commands above use the layout of this reviewer archive. To rerun the inventory check after analysis, keep the workbook and generated files outside the extracted archive or remove them from its root first.
+
+
+## Independent Swissmetro data and objective derivatives
+
+Use the archive-root instructions in the [Swissmetro analysis](results/swissmetro_corrected_path/README.md) and [entropy derivative analysis](results/entropy_endpoint_audit/README.md). Both reports use separate source inputs available at their original public locations. Keep downloaded raw inputs and generated results outside the archive when rerunning its inventory verifier.

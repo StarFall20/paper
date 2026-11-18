@@ -177,15 +177,37 @@ for n, expected in endpoint_replay['sha256'].items():
 for n, field in [('cover_letter_draft.md', 'source_sha256'), ('Cover_letter.docx', 'docx_sha256')]:
     assert hashlib.sha256((ROOT / 'submission_materials' / n).read_bytes()).hexdigest() == qa['cover_letter'][field], n
 
-# Bind the endpoint paths and revised author-review material to this release.
-endpoint = ROOT / 'results/dce_frontier_economic_path'
-checked = subprocess.run([sys.executable, str(endpoint / 'verify_package.py')], check=True, capture_output=True, text=True)
-receipt = json.loads(checked.stdout)
-assert (receipt['paths'], receipt['positive_endpoints'], receipt['controls'], receipt['scalar_checks']) == (7536, 107, 835, 856)
-endpoint_replay = json.loads((ROOT / integration['positive_endpoint_replay']).read_text())
-assert endpoint_replay['state'] == 'passed' and endpoint_replay['all_numerical_outputs_byte_identical']
-assert len(endpoint_replay['sha256']) == 9
-for n, expected in endpoint_replay['sha256'].items():
-    assert hashlib.sha256((endpoint / n).read_bytes()).hexdigest() == expected, n
-for n, field in [('cover_letter_draft.md', 'source_sha256'), ('Cover_letter.docx', 'docx_sha256')]:
-    assert hashlib.sha256((ROOT / 'submission_materials' / n).read_bytes()).hexdigest() == qa['cover_letter'][field], n
+
+# Bind the independent Swissmetro and entropy audits to the current manuscript.
+for name in ('swissmetro_corrected_path', 'entropy_endpoint_audit'):
+    nested = ROOT/'results'/name
+    entries = (nested/'MANIFEST.sha256').read_text().splitlines()
+    for line in entries:
+        expected, n = line.split('  ',1)
+        assert hashlib.sha256((nested/n).read_bytes()).hexdigest()==expected,n
+swiss = ROOT/'results/swissmetro_corrected_path/results'
+sv = json.loads((swiss/'verification.json').read_text())
+assert sv['state']=='passed' and sv['verified']['scores']==1960 and sv['verified']['face_primal_checks']==93
+assert hashlib.sha256((swiss/'summary.json').read_bytes()).hexdigest()==sv['summary_sha256']
+cost = json.loads((swiss/'label_cost/summary.json').read_text())
+assert cost['path_comparisons']==1152 and sum(r['fallback_lower_loss_count'] for r in cost['results'])==0
+derivative = ROOT/'results/entropy_endpoint_audit/results'
+ev = json.loads((derivative/'summary.json').read_text())
+assert ev['records']==856 and ev['statistics'][1]['opposing_derivatives']==107
+
+# Bind the independent Swissmetro and entropy audits to the current manuscript.
+for name in ('swissmetro_corrected_path', 'entropy_endpoint_audit'):
+    nested = ROOT/'results'/name
+    entries = (nested/'MANIFEST.sha256').read_text().splitlines()
+    for line in entries:
+        expected, n = line.split('  ',1)
+        assert hashlib.sha256((nested/n).read_bytes()).hexdigest()==expected,n
+swiss = ROOT/'results/swissmetro_corrected_path/results'
+sv = json.loads((swiss/'verification.json').read_text())
+assert sv['state']=='passed' and sv['verified']['scores']==1960 and sv['verified']['face_primal_checks']==93
+assert hashlib.sha256((swiss/'summary.json').read_bytes()).hexdigest()==sv['summary_sha256']
+cost = json.loads((swiss/'label_cost/summary.json').read_text())
+assert cost['path_comparisons']==1152 and sum(r['fallback_lower_loss_count'] for r in cost['results'])==0
+derivative = ROOT/'results/entropy_endpoint_audit/results'
+ev = json.loads((derivative/'summary.json').read_text())
+assert ev['records']==856 and ev['statistics'][1]['opposing_derivatives']==107

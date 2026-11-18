@@ -1,0 +1,135 @@
+{
+  "state": "passed",
+  "fits": 576,
+  "path_comparisons": 1152,
+  "results": [
+    {
+      "specification": "canonical_4",
+      "budget": 2,
+      "fraction": 0.5,
+      "allocations": 96,
+      "available": 75,
+      "mean_corrected_fallback_minus_matched_direct": 1.6273137786199292,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 1.9332059858264476
+    },
+    {
+      "specification": "canonical_4",
+      "budget": 2,
+      "fraction": 0.9,
+      "allocations": 96,
+      "available": 75,
+      "mean_corrected_fallback_minus_matched_direct": 3.9519011792917937,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 4.908677858686435
+    },
+    {
+      "specification": "canonical_4",
+      "budget": 5,
+      "fraction": 0.5,
+      "allocations": 96,
+      "available": 95,
+      "mean_corrected_fallback_minus_matched_direct": 0.32632009628193165,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 0.32714570958630657
+    },
+    {
+      "specification": "canonical_4",
+      "budget": 5,
+      "fraction": 0.9,
+      "allocations": 96,
+      "available": 95,
+      "mean_corrected_fallback_minus_matched_direct": 0.6667905037872796,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 0.6712000161180265
+    },
+    {
+      "specification": "canonical_4",
+      "budget": 10,
+      "fraction": 0.5,
+      "allocations": 96,
+      "available": 96,
+      "mean_corrected_fallback_minus_matched_direct": 0.17311058701410276,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 0.17311058701410276
+    },
+    {
+      "specification": "canonical_4",
+      "budget": 10,
+      "fraction": 0.9,
+      "allocations": 96,
+      "available": 96,
+      "mean_corrected_fallback_minus_matched_direct": 0.2692933334694341,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 0.2692933334694341
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 2,
+      "fraction": 0.5,
+      "allocations": 96,
+      "available": 43,
+      "mean_corrected_fallback_minus_matched_direct": 0.9298739275825175,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 1.3174853307802028
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 2,
+      "fraction": 0.9,
+      "allocations": 96,
+      "available": 43,
+      "mean_corrected_fallback_minus_matched_direct": 1.322638423659489,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 2.194354903417163
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 5,
+      "fraction": 0.5,
+      "allocations": 96,
+      "available": 88,
+      "mean_corrected_fallback_minus_matched_direct": 0.7051602118954768,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 0.7428418862744568
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 5,
+      "fraction": 0.9,
+      "allocations": 96,
+      "available": 88,
+      "mean_corrected_fallback_minus_matched_direct": 1.374998199334522,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 1.4735742362079605
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 10,
+      "fraction": 0.5,
+      "allocations": 96,
+      "available": 93,
+      "mean_corrected_fallback_minus_matched_direct": 0.2852205186173405,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 0.28752053161863056
+    },
+    {
+      "specification": "mode_specific_8",
+      "budget": 10,
+      "fraction": 0.9,
+      "allocations": 96,
+      "available": 93,
+      "mean_corrected_fallback_minus_matched_direct": 0.48857781419971485,
+      "fallback_lower_loss_count": 0,
+      "available_mean_difference": 0.49743773996172663
+    }
+  ],
+  "path_input_sha256": {
+    "allocations.csv": "e82230099f98f67cb0cd2347b207c343f308da38f7d5b89c3eb55ce8896e3340",
+    "paths.csv": "16c7c194d998b967ebb59d22da03e91abd04f4e60d37a6f85d6ef54b5df3989b",
+    "coefficients.json": "ffdab054240e86e642557a9a0b099f89c0b91cb97d55559fef6562dab1b238f8"
+  },
+  "plan_sha256": "509623ada29ca237564af2dc6743ed15004ffefcee71db836eca4408b2921835",
+  "code_sha256": "a7fc41de9e5024c4feac994a04bef22f64de23a7de4d9cefba51267ce3e2bfd3",
+  "records_sha256": "c0262bb9aa3292255cc1c8cbca20414ddb1bd5b172e723b17141d9cf0e26eb0e"
+}

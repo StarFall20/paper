@@ -1,0 +1,19 @@
+{
+  "state": "passed",
+  "swissmetro_allocations": 576,
+  "verified_original_choice_scores": 1960,
+  "qualified_single_facets": 93,
+  "positive_endpoint_with_ordinary_interior": 59,
+  "higher_loss_increase_count": 90,
+  "capped_controls": 397,
+  "zero_or_near_zero": 86,
+  "direct_human_pairs": 1152,
+  "corrected_fit_pairs": 980,
+  "ridge_fallback_pairs": 172,
+  "direct_human_lower_loss": 1152,
+  "entropy_path_checks": 856,
+  "opposing_slope_count_at_nine_tenths": 107,
+  "retained_tables": 20,
+  "retained_displays": 151,
+  "retained_formal_statements": 14
+}
