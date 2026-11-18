@@ -218,13 +218,23 @@ assert hashlib.sha256((fp/'designs.json').read_bytes()).hexdigest()==evaluated['
 prior_design=ROOT/'results/local_derivative_attainment/results/designs.json'
 assert hashlib.sha256(prior_design.read_bytes()).hexdigest()==json.loads((fp/'plan.json').read_text())['source_sha256']
 
-# Bind the fixed-power score and derivative construction to the current manuscript.
-fp = ROOT/'results/fixed_power_identical_scores'
-for line in (fp/'MANIFEST.sha256').read_text().splitlines():
+
+# Bind prelabel design and labelled power results to the current manuscript.
+sd = ROOT/'results/design_and_safe_power'
+for line in (sd/'MANIFEST.sha256').read_text().splitlines():
     expected, n = line.split('  ', 1)
-    assert hashlib.sha256((fp/n).read_bytes()).hexdigest() == expected,n
-evaluated = json.loads((fp/'verification.json').read_text())
-assert evaluated['status']=='passed' and evaluated['design_cases']==30 and evaluated['max_order']==33
-assert hashlib.sha256((fp/'designs.json').read_bytes()).hexdigest()==evaluated['designs_sha256']
-prior_design=ROOT/'results/local_derivative_attainment/results/designs.json'
-assert hashlib.sha256(prior_design.read_bytes()).hexdigest()==json.loads((fp/'plan.json').read_text())['source_sha256']
+    assert hashlib.sha256((sd/n).read_bytes()).hexdigest()==expected,n
+record = json.loads((sd/'independent_replay.json').read_text())
+assert record['status']=='passed' and record['design_pairs']==768 and record['positive_witnesses']==656
+for path,h in record['four_identical_results'].items():
+    assert hashlib.sha256((sd/path).read_bytes()).hexdigest()==h
+
+# Bind prelabel design and labelled power results to the current manuscript.
+sd = ROOT/'results/design_and_safe_power'
+for line in (sd/'MANIFEST.sha256').read_text().splitlines():
+    expected, n = line.split('  ', 1)
+    assert hashlib.sha256((sd/n).read_bytes()).hexdigest()==expected,n
+record = json.loads((sd/'independent_replay.json').read_text())
+assert record['status']=='passed' and record['design_pairs']==768 and record['positive_witnesses']==656
+for path,h in record['four_identical_results'].items():
+    assert hashlib.sha256((sd/path).read_bytes()).hexdigest()==h

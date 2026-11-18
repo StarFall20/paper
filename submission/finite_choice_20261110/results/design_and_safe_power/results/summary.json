@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "pairs": 768,
+  "summaries": {
+    "RADIANT": {
+      "ASC_witnesses": 384,
+      "any_witnesses": 384,
+      "same_ASC_width": 384,
+      "unit_external": 62,
+      "unit_actual_diagnosed": 0,
+      "unit_actual_ASC_diagnosed": 0,
+      "half_external": 33,
+      "half_actual_diagnosed": 0,
+      "half_actual_ASC_diagnosed": 0,
+      "pairs": 384,
+      "median_ASC_gap": -0.05733003960783112,
+      "median_any_gap": -0.08814256371008125
+    },
+    "Swissmetro": {
+      "ASC_witnesses": 384,
+      "any_witnesses": 384,
+      "same_ASC_width": 384,
+      "unit_external": 33,
+      "unit_actual_diagnosed": 12,
+      "unit_actual_ASC_diagnosed": 0,
+      "half_external": 1,
+      "half_actual_diagnosed": 0,
+      "half_actual_ASC_diagnosed": 0,
+      "pairs": 384,
+      "median_ASC_gap": -0.06963856954683043,
+      "median_any_gap": -0.12636219846044205
+    },
+    "combined": {
+      "ASC_witnesses": 768,
+      "any_witnesses": 768,
+      "same_ASC_width": 768,
+      "unit_external": 95,
+      "unit_actual_diagnosed": 12,
+      "unit_actual_ASC_diagnosed": 0,
+      "half_external": 34,
+      "half_actual_diagnosed": 0,
+      "half_actual_ASC_diagnosed": 0,
+      "pairs": 768,
+      "median_ASC_gap": -0.06429923098632903,
+      "median_any_gap": -0.09696678249809063
+    }
+  },
+  "records_sha256": "b74cb4c7003cce6b6ba49d457f6b3274bf63d32e4eb6b31d601907274880241a",
+  "plan_sha256": "485c9d7a2a13909faa9573708b70a3e5b1c1e1abb2947bc09527c7df7457a6e9",
+  "script_sha256": "f64eb91f1268019c789204418ad85c9b3580d39b949c0a17ca7ee46e17fcf652"
+}

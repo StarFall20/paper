@@ -1,0 +1,9 @@
+{
+  "state": "specified after the response-blind test and before computing labelled safe powers",
+  "labels": "The same 96 archived labelled allocations from the previous auxiliary-design audit",
+  "decision": "Largest mixing fraction admitting the observed labelled moment in the labelled support mixed toward its frozen proxy moment; uses only labelled designs, predictions and choices",
+  "verification": "Two separate LP parameterizations, explicit labelled representation, and original-row positivity and balance with each of 8 existing auxiliary designs; verify full active auxiliary contrast rank",
+  "compare": "Contrast protected weights with the prespecified 0.5 and 1 candidates. Record zeros, positive weight distribution, and prior reference exterior counts among protected designs.",
+  "tolerance": 1e-08,
+  "scope": "Finite fit guarantee. No new inference, forecast estimate or fitting objective modification."
+}

@@ -79,3 +79,5 @@ Swissmetro respondent data and base utility coding follow Bierlaire, Axhausen an
 Cai and Low (2011, Lemma 1) supply the sharp absolute-moment gap for matching polynomial moments. Appendix B5 derives its exact effect on the compensated choice objective within a fixed bounded design.
 
 Cai and Low (2011, Lemma 1) supply the sharp absolute-moment gap for matching polynomial moments. Appendix B5 derives its exact effect across auxiliary contrast designs at a fixed correction power and predictor.
+
+Park, Mancenido and Montgomery (2019) study ordinary separation in D-optimal designs. Rigon and Aliverti (2023) connect interior pseudo-responses to conjugate penalization. Appendix C14 distinguishes those results from guarantees for the original compensated target.

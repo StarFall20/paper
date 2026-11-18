@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "groups": 96,
+  "summary": {
+    "RADIANT": {
+      "label_groups": 48,
+      "positive_cap": 37,
+      "at_least_half": 6,
+      "median_all": 0.24690997822986877,
+      "median_positive": 0.2917713276705507,
+      "positive_witnesses": 296,
+      "archived_unit_external_with_positive_safe_power": 19,
+      "archived_half_external_with_positive_safe_power": 1
+    },
+    "Swissmetro": {
+      "label_groups": 48,
+      "positive_cap": 45,
+      "at_least_half": 13,
+      "median_all": 0.33548307639945196,
+      "median_positive": 0.3511020027571796,
+      "positive_witnesses": 360,
+      "archived_unit_external_with_positive_safe_power": 33,
+      "archived_half_external_with_positive_safe_power": 1
+    },
+    "combined": {
+      "label_groups": 96,
+      "positive_cap": 82,
+      "at_least_half": 19,
+      "median_all": 0.28911769667506404,
+      "median_positive": 0.31410791319301234,
+      "positive_witnesses": 656,
+      "archived_unit_external_with_positive_safe_power": 52,
+      "archived_half_external_with_positive_safe_power": 2
+    }
+  },
+  "records_sha256": "43189ae6ff7404fa151a20eb290f59fb433c5d72e6778df7989da90dfbd66674",
+  "plan_sha256": "c8dba1a258be480ea946bdbe4a9bcefabae8f0a17de58059709e8e3d3b2df85f",
+  "script_sha256": "9822c367df7694421a5caff3538e3ad63381cfb41ec25786801d3c475c159bbd"
+}

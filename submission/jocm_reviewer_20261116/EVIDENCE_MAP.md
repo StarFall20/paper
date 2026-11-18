@@ -66,3 +66,8 @@ The [fixed-design construction](results/local_derivative_attainment/README.md) a
 ## Fixed power and prediction
 
 The [fixed-design construction](results/fixed_power_identical_scores/README.md) and [proof](results/fixed_power_identical_scores/proof.md) extend Appendix B5. [Verification](reports/fixed_power_validation_20261118.json) binds the manuscript and evidence.
+
+
+## Design and power guarantees
+
+The [two-study comparison](results/design_and_safe_power/README.md), [support proof](results/design_and_safe_power/proof.md) and [replay receipt](results/design_and_safe_power/independent_replay.json) accompany Section 4.9 and Appendix C14.

@@ -177,6 +177,7 @@ def build():
      cell.width=Inches(widths[k]);cell_border(cell);cell.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
      p=cell.paragraphs[0];p.paragraph_format.space_after=Pt(0);p.paragraph_format.line_spacing=1.05
      if len(rows[0])==5 or rows[0][:2] in [['Labels','Auxiliary rows'],['Total labels','Slopes'],['Labels','Noise slopes per label']]:p.paragraph_format.keep_with_next=j<len(rows)-1
+     if rows[0][:2]==['Condition','Estimator'] and j<3:p.paragraph_format.keep_with_next=True
      p.alignment=WD_ALIGN_PARAGRAPH.LEFT if k in [0,1] else WD_ALIGN_PARAGRAPH.CENTER
      rich(p,value)
      for r in p.runs:r.font.size=Pt(9.5);r.bold=j==0

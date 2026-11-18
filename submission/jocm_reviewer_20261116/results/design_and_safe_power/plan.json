@@ -1,0 +1,23 @@
+{
+  "state": "frozen before computing new directional outcomes",
+  "scope": "Existing 768 labelled/auxiliary design pairs already audited at unit and half power. Outcome-blind directional comparisons use availability, attributes, and frozen predicted probabilities only.",
+  "input_files": {
+    "run.py": "ded7407d65ff2f117bf47d1f70e9830b814d3dc3d7e835a1e8212cc910411a8f",
+    "plan.json": "cec38baa35431a2c7d48b86f799c030f7db4c19bdc2372fbf93b834812412ca3",
+    "results/allocations.csv": "8e66dc8987b8e537f3a90ba4c70dfe2ed8de5b080f66f326dc034ccb2bad9a22"
+  },
+  "direction_sets": {
+    "ASC": "signed coordinate directions for each fitted alternative constant, plus signed direction for the normalized level (negative sum of fitted constants)",
+    "all": "ASC set plus signed individual nonconstant coordinate directions"
+  },
+  "aggregation": "Per pair, any strict negative directional gap proves the existence of an allowed label configuration with no lower bound at any positive power.",
+  "observed_response_scan": "After the design screen, evaluate the original loss recession for the previously observed choices at half and unit power on the same directions. Compare both powers to archived independently checked support.",
+  "component_checks": "Use first and last available maximizing alternatives as choices to verify two versions of the counterexample. Evaluate original loss recession and an independent scalar calculation based on exact availability and long-double predictions. Positive findings are strict below the tolerance, and a screen that returns no direction is unresolved unless a width condition proves a strict uniform guarantee impossible.",
+  "tolerance": 1e-09,
+  "powers_to_recheck": [
+    1.0,
+    0.5,
+    1e-06
+  ],
+  "no_new_labels_training_or_validation_after_plan": true
+}

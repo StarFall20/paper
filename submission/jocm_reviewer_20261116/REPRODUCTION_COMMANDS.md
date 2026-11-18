@@ -420,3 +420,8 @@ The [local derivative supplement](results/local_derivative_attainment/README.md)
 ## Matched auxiliary design triplets
 
 The [local derivative supplement](results/fixed_power_identical_scores/README.md) runs with the archived package versions and has no respondent-data input. Run its two commands from the supplement directory with a fresh output path. Use the archived results/local_derivative_attainment/results/designs.json as input.
+
+
+## Auxiliary design and safe power
+
+The [design supplement](results/design_and_safe_power/README.md) includes the two commands, source hashes and upstream file closure. The two original public files are downloaded separately.

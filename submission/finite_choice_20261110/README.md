@@ -1,5 +1,7 @@
 # Finite solutions in prediction assisted choice logit
 
+The [current revision](reports/current_manuscript.json) adds the fixed-label auxiliary-design comparison and the bound obtained from labelled choices in Section 4.9 and Appendix C14. [Archived checks](results/design_and_safe_power/README.md) cover 768 design pairs and 656 positive support witnesses.
+
 The [current revision](reports/current_manuscript.json) fixes the power, predictor, labelled choices and auxiliary sample size in Section 3.5 and Appendix B5. [Exact checks](results/fixed_power_identical_scores/README.md) cover 30 matched auxiliary design triplets and reach derivative order 33, including an example with 32 labelled and 32 auxiliary rows. The complete Word has 78 pages and the reading copy has 30.
 
 The [current revision](reports/current_manuscript.json) extends the bounded finite-design argument in Section 3.5 and Appendix B5. The same human choices can give a finite ordinary logit and three compensated existence outcomes while any prescribed finite Taylor order is matched. [Constructed examples and checks](results/local_derivative_attainment/README.md) reach order 33. The 78-page complete and 30-page reading Word files were reviewed. Earlier entries record dated versions.

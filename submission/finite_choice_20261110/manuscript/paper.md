@@ -353,6 +353,12 @@ Across 576 specification, budget and allocation combinations, 93 have a positive
 
 We also give the direct MNL the 600 predictor-training respondents and the revealed respondents from each allocation. At both planned weights it has lower held-out loss in all 1152 comparisons, including 172 comparisons using the prespecified labelled ridge fallback. This comparison measures performance when the predictor's training choices can also enter the target likelihood. All loss differences refer to the fixed evaluation group and model specifications.
 
+### 4.9 Auxiliary design at a fixed label budget
+
+We fix each of 96 sets of revealed choices in RADIANT and Swissmetro, including the predictor and label budget. Each set receives eight different auxiliary samples of 64 respondents. The number of auxiliary menus is also fixed within each study. At unit power, 12 label sets give both an interior and an exterior target across the eight samples. Ordinary MNL has a finite estimate in 10 of these 12 sets. Half power gives two such sets. The counts refer to repeated draws within the two released datasets.
+
+Before observing responses, the alternative constants give a possible response assignment with unbounded loss at every positive power in all 768 design pairs. These directions identify none of the 95 exterior targets under the observed responses at unit power. After observing responses, the labelled support gives a power bound that protects against changes in auxiliary menus with full contrast rank and strictly positive predictions. The bound is positive in 82 of the 96 label sets, with a median of 0.3141 among the positive bounds. Half the bound gives a positive support witness in all 656 corresponding pairs, including 52 which are exterior at unit power. Appendix C14 derives both results and gives the scope of the guarantee.
+
 ## 5 Finite estimation and statistical performance
 
 ### 5.1 Known truth experiment
@@ -1070,6 +1076,22 @@ The independent check rebuilds the 107 endpoint programs using original menus, v
 
 The optimized objective is the weighted entropy maximum over menu probabilities with weighted moment $b_\lambda$ (Wainwright and Jordan, 2008, Theorem 3.4). At the endpoint the feasible probabilities lie on the tied sets. Write $\delta=c-\lambda$ and let $V(\lambda)$ be the optimized value of $Q_\lambda$. The partial derivative of $Q_\lambda$ at the optimizer is $-at+O(1)$ because the weights and target are affine and the tangent coefficient converges. Thus $V'(\lambda)=-(a/\Delta_*)\log(1/\delta)+O(1)$. In the normal and tangent coordinates, the covariance Hessian has normal entry $a\Delta_*\delta\{1+o(1)\}$, cross entries $O(\delta)$ and a positive definite limiting tangent block. Differentiating the score and taking the normal Schur complement yields $\delta t'\to1/\Delta_*$ and a bounded tangent derivative. The scaled held-out loss derivative tends to the mean observed gap divided by $\Delta_*$. A positive observed gap makes this derivative positive near the limit. The supplement derives the value and curvature expansions and records the entropy identity and the two derivatives at all 856 positive-limit path points.
 
+### C14 Design and power guarantees on fixed menus
+
+Let $h_s(d)$ be the support function of the achievable mean feature moments in sample $s$, with $s=L$ or $U$. Let $G_s$ be its mean predicted moment and let $b_Y$ be the labelled choice moment. Set $M_s(d)=h_s(d)-d^TG_s$ and $E_Y(d)=h_L(d)-d^Tb_Y$. The compensated recession is
+
+$$Q_\lambda^\infty(d)=E_Y(d)+\lambda\{M_U(d)-M_L(d)\}. \qquad (C.14a)$$
+
+Choosing a maximizing available alternative in each labelled menu sets $E_Y(d)=0$. A negative design difference makes that assignment unbounded below at every positive power. Every assignment has a unique finite fit exactly when the design difference is strictly positive in all nonzero directions. Addition of the differences in directions $d$ and $-d$ gives the difference in support widths. Equal width in either direction rules out a strict guarantee. Ordinary separation in D-optimal designs predates this comparison (Park et al., 2019).
+
+For observed choices, write $\epsilon_*$ for the largest $\epsilon$ in $[0,1]$ for which the labelled moment belongs to the labelled support mixed toward $G_L$ with mass $\epsilon$. Equivalently,
+
+$$\epsilon_*=\min\{1,\inf_{d:M_L(d)>0} E_Y(d)/M_L(d)\}. \qquad (C.14b)$$
+
+If predictions are strictly positive on available alternatives, $M_L(d)=0$ implies $E_Y(d)=0$. For $0<\lambda\leq\epsilon_*$, the labelled contribution $E_Y(d)-\lambda M_L(d)$ is nonnegative. The auxiliary contribution $\lambda M_U(d)$ is positive in every nonzero direction when its contrasts span the parameter space. Thus every such auxiliary design gives a unique finite root at these powers. If $\lambda>\epsilon_*$, scale a full-rank auxiliary design to give arbitrarily small contrast widths. Its auxiliary contribution tends to zero, leaving a negative recession for a direction violating (C.14b). This establishes sharpness in the class allowing arbitrarily small widths. Fixed feasible menu sets can give larger guarantees.
+
+The moment mixture is related to conjugate penalization (Rigon and Aliverti, 2023). Here it measures the available weight in the unpenalized compensated objective. Two linear programs compute the same bound in the released designs. The empirical check uses half the computed bound for numerical margin and verifies original-row probabilities. These results concern finite estimation. The loss comparisons in Sections 4.6 and 4.8 assess prediction separately.
+
 ## Appendix D Powers approaching zero
 
 ### D1 Existence on human separating directions
@@ -1767,7 +1789,11 @@ Odlyzko, A.M. (1988). On subspaces spanned by random selections of ±1 vectors. 
 
 Oymak, S., Tropp, J.A. (2018). Universality laws for randomized dimension reduction, with applications. Information and Inference 7, 337–446. https://doi.org/10.1093/imaiai/iax011
 
+Park, A.R., Mancenido, M., Montgomery, D.C. (2019). Separation in D-optimal experimental designs for the logistic regression model. Quality and Reliability Engineering International 35(3), 776–787. https://doi.org/10.1002/qre.2411
+
 Piras, S., Mzek, T., Chen, J. (2025). D5.3. Farmers’ and consumers’ preferences and behavioural economics underpinning underutilised crop choices. Version V1. Zenodo. https://doi.org/10.5281/zenodo.15574862
+
+Rigon, T., Aliverti, E. (2023). Conjugate priors and bias reduction for logistic regression models. Statistics & Probability Letters 202, 109901. https://doi.org/10.1016/j.spl.2023.109901
 
 Rinaldo, A., Fienberg, S.E., Zhou, Y. (2009). On the geometry of discrete exponential families with application to exponential random graph models. Electronic Journal of Statistics 3, 446–484. https://doi.org/10.1214/08-EJS350
 

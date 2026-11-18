@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-18",
-  "integration": "reports/fixed_power_integration_20261118.json",
-  "visual_qa": "reports/fixed_power_visual_qa_20261118.json",
-  "validation": "reports/fixed_power_validation_20261118.json",
+  "date": "2026-11-19",
+  "integration": "reports/safe_power_integration_20261119.json",
+  "visual_qa": "reports/safe_power_visual_qa_20261119.json",
+  "validation": "reports/safe_power_validation_20261119.json",
   "historical_reports_are_dated_snapshots": true
 }

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "four_identical_results": {
+    "results/records.csv": "b74cb4c7003cce6b6ba49d457f6b3274bf63d32e4eb6b31d601907274880241a",
+    "results/summary.json": "9dabbc561a68254bffaf6a38946f2b191480e36f68cd0000bce3488dc6de799c",
+    "safe_results/records.csv": "43189ae6ff7404fa151a20eb290f59fb433c5d72e6778df7989da90dfbd66674",
+    "safe_results/summary.json": "5f78f5caa93fee960a12ecac3cae6f921bf86a25b7d4eb03eb7457aa4b489133"
+  },
+  "design_pairs": 768,
+  "observed_label_groups": 96,
+  "positive_witnesses": 656
+}

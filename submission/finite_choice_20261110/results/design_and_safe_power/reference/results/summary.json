@@ -1,0 +1,120 @@
+{
+  "state": "passed",
+  "corrected_allocation_records": 1536,
+  "verified_exterior_rays": 129,
+  "summaries": [
+    {
+      "dataset": "RADIANT",
+      "label_people": 5,
+      "power": 1,
+      "ordinary_interior_groups": 13,
+      "fixed_label_sets": 24,
+      "aux_draws_per_set": 8,
+      "observable_statuses": {
+        "interior": 136,
+        "outside": 56
+      },
+      "sets_with_interior_and_exterior": 4,
+      "sets_with_interior_and_exterior_where_ordinary_finite": 2
+    },
+    {
+      "dataset": "RADIANT",
+      "label_people": 5,
+      "power": 0.5,
+      "ordinary_interior_groups": 13,
+      "fixed_label_sets": 24,
+      "aux_draws_per_set": 8,
+      "observable_statuses": {
+        "interior": 159,
+        "outside": 33
+      },
+      "sets_with_interior_and_exterior": 1,
+      "sets_with_interior_and_exterior_where_ordinary_finite": 1
+    },
+    {
+      "dataset": "RADIANT",
+      "label_people": 10,
+      "power": 1,
+      "ordinary_interior_groups": 24,
+      "fixed_label_sets": 24,
+      "aux_draws_per_set": 8,
+      "observable_statuses": {
+        "interior": 186,
+        "outside": 6
+      },
+      "sets_with_interior_and_exterior": 2,
+      "sets_with_interior_and_exterior_where_ordinary_finite": 2
+    },
+    {
+      "dataset": "RADIANT",
+      "label_people": 10,
+      "power": 0.5,
+      "ordinary_interior_groups": 24,
+      "fixed_label_sets": 24,
+      "aux_draws_per_set": 8,
+      "observable_statuses": {
+        "interior": 192
+      },
+      "sets_with_interior_and_exterior": 0,
+      "sets_with_interior_and_exterior_where_ordinary_finite": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "label_people": 5,
+      "power": 1,
+      "ordinary_interior_groups": 22,
+      "fixed_label_sets": 24,
+      "aux_draws_per_set": 8,
+      "observable_statuses": {
+        "interior": 172,
+        "outside": 20
+      },
+      "sets_with_interior_and_exterior": 2,
+      "sets_with_interior_and_exterior_where_ordinary_finite": 2
+    },
+    {
+      "dataset": "Swissmetro",
+      "label_people": 5,
+      "power": 0.5,
+      "ordinary_interior_groups": 22,
+      "fixed_label_sets": 24,
+      "aux_draws_per_set": 8,
+      "observable_statuses": {
+        "interior": 191,
+        "outside": 1
+      },
+      "sets_with_interior_and_exterior": 1,
+      "sets_with_interior_and_exterior_where_ordinary_finite": 1
+    },
+    {
+      "dataset": "Swissmetro",
+      "label_people": 10,
+      "power": 1,
+      "ordinary_interior_groups": 23,
+      "fixed_label_sets": 24,
+      "aux_draws_per_set": 8,
+      "observable_statuses": {
+        "interior": 179,
+        "outside": 13
+      },
+      "sets_with_interior_and_exterior": 4,
+      "sets_with_interior_and_exterior_where_ordinary_finite": 4
+    },
+    {
+      "dataset": "Swissmetro",
+      "label_people": 10,
+      "power": 0.5,
+      "ordinary_interior_groups": 23,
+      "fixed_label_sets": 24,
+      "aux_draws_per_set": 8,
+      "observable_statuses": {
+        "interior": 192
+      },
+      "sets_with_interior_and_exterior": 0,
+      "sets_with_interior_and_exterior_where_ordinary_finite": 0
+    }
+  ],
+  "allocations_sha256": "8e66dc8987b8e537f3a90ba4c70dfe2ed8de5b080f66f326dc034ccb2bad9a22",
+  "plan_sha256": "cec38baa35431a2c7d48b86f799c030f7db4c19bdc2372fbf93b834812412ca3",
+  "script_sha256": "ded7407d65ff2f117bf47d1f70e9830b814d3dc3d7e835a1e8212cc910411a8f"
+}

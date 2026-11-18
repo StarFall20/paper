@@ -1,0 +1,12 @@
+{
+  "state": "passed",
+  "design_pairs": 768,
+  "observed_label_groups": 96,
+  "positive_label_groups": 82,
+  "positive_auxiliary_witnesses": 656,
+  "retained_tables": 20,
+  "retained_equations": 151,
+  "new_equations": 2,
+  "retained_formal_statements": 14,
+  "prediction_and_raw_rows_preserved": true
+}
