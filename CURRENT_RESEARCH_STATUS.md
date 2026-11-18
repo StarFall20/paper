@@ -1,3 +1,7 @@
+# Feasible-power results and direct priors integrated 18 November 2026
+
+The [current reviewed manuscript and release](reports/frontier_manuscript_integration_20261118/README.md) integrate the original two feasible-power rules, the separate post-hoc cap-only control and the TC-PPI and DiPPI sources. All four label budgets and the adverse held-out results are retained. Both scientific analyses were replayed from the published package, with byte-identical coefficients and summaries. The current 74-page complete and 29-page reading Word files share this revision. The research objective remains active. Earlier entries below are dated history.
+
 # DCE power intervals and direct-prior follow-up 18 November 2026
 
 The [new verified follow-up](reports/power_frontier_20261118/README.md) computes all 2000 observed DCE power intervals, preserves the 4000 planned policy records and a separately declared 2000-record zero-preserving control. There are 3916 new fits and 1816 verified reused coefficients, not 6000 new fits or new respondents. Half-frontier and central-interval projection have 443/499/500/500 finite fits, while the zero-preserving upper-cap control has 353/495/500/500. All adverse forecasts and teacher-training label costs remain.

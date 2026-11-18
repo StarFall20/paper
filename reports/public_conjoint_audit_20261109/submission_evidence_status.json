@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
   "goal_complete": false,
-  "decision": "The concrete observed-design power decision has been tested with adverse forecasts and zero-preserving control retained. Direct quasi-separation and pooled-score priors require citation. Specific boundary originality and sufficient JCM contribution remain under assessment.",
+  "decision": "The specific high-dimensional compensated-logit boundary is the strongest contribution. Evidence establishes an observed estimability issue and documents the adverse forecasts and label costs. Priority and sufficient methodological value remain under assessment.",
   "requirements": [
     {
       "requirement": "Correct questionnaire population and provenance",
@@ -34,7 +34,7 @@
     {
       "requirement": "Proof and numerical validity",
       "status": "current_integrated_internal_checks_and_independent_symmetric_discrete_noise_scope_recorded",
-      "evidence": "../../submission/finite_choice_20261110/reports/external_validation_20261118.json",
+      "evidence": "../../submission/finite_choice_20261110/reports/frontier_validation_20261118.json",
       "remaining": "Internal derivations and numerical evidence are complete within stated scopes. Specific-result priority and external proof review remain open. Proposition 8 retains Gaussian signal and independent symmetric raw noise; dependent categorical coding, fixed efficient arrays, respondent panels and arbitrary cross-fitting remain outside its law."
     },
     {
@@ -52,7 +52,7 @@
     {
       "requirement": "Full manuscript, appendices and submission materials",
       "status": "74_page_full_29_page_reading_Word_reviewed_20_tables_148_displays_7_appendices",
-      "evidence": "../external_manuscript_integration_20261118/README.md",
+      "evidence": "../frontier_manuscript_integration_20261118/README.md",
       "remaining": "Final author review, formal publisher declarations and contribution-sufficiency assessment remain pending"
     }
   ],
@@ -205,7 +205,7 @@
   "menu_extension_evidence": "../menu_extension_20261111/README.md",
   "hard_prediction_evidence": "../menu_extension_20261111/hard_prediction_derivation.md",
   "menu_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/menu_integration_20261112.json",
-  "latest_progress_report": "../power_frontier_20261118/README.md",
+  "latest_progress_report": "../frontier_manuscript_integration_20261118/README.md",
   "variance_reference_evidence": "../variance_reference_audit_20261112/README.md",
   "score_manuscript_integration_evidence": "../../submission/finite_choice_20261110/reports/score_integration_20261112.json",
   "observable_score_path_evidence": "../observable_score_path_20261112/README.md",
@@ -351,7 +351,7 @@
     "main_manuscript_integrated": true,
     "isolated_workflow_passed": true
   },
-  "latest_progress": "Verified 2000 finite-design power intervals, 4000 planned follow-up policies and a separate 2000-record zero-preserving control. Six actual Scholar searches and new direct-prior attribution narrow the contribution. Word integration pending.",
+  "latest_progress": "Recent direct priors and feasible-power follow-up integrated. Both analyses replayed with independent original-menu checks. Current Word and archives verified.",
   "current_manuscript": "../../submission/finite_choice_20261110/reports/current_manuscript.json",
   "learned_manuscript_integration": {
     "evidence": "../learned_manuscript_integration_20261115/README.md",
@@ -473,7 +473,7 @@
     "new_Scopus_queries": 0,
     "new_human_or_AI_answers": 0,
     "goal_achieved": false,
-    "current_copied_parent_files": 1103,
+    "current_copied_parent_files": 1152,
     "current_curation": "../../submission/jocm_reviewer_20261116/CURATION.json",
     "root_analysis_sources_unchanged_in_EPI_revision": 83,
     "root_analysis_sources_unchanged_in_matched_information_revision": 83

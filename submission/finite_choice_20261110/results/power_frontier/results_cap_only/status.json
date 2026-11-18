@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "records": 2000,
+  "new_model_fits": 32,
+  "reused_verified_coefficients": 1816,
+  "available_coefficients": 1848,
+  "amendment_sha256": "7c7a4baeed782bc34f0c22e22c817a992bdeae896b66a2aaad237666a179f751",
+  "analysis_sha256": "bc30f995abe8d1a63ba79e84a1555d03363bcde411675048ab406295f751b8b9",
+  "primary_frontiers_sha256": "19fa918b5324185dbdeae84d05911908ae0085099e8d236bd5685e41b3dd0afc",
+  "source_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0"
+}

@@ -376,3 +376,18 @@ python results/independent_released_workflow/fetch_sources.py --out local_inputs
 python results/independent_released_workflow/audit_released_workflow.py --inputs local_inputs/independent_workflow --out regenerated/independent_workflow
 python results/independent_released_workflow/verify_released_workflow.py --inputs local_inputs/independent_workflow --results regenerated/independent_workflow
 ```
+
+
+## Realized correction-power range
+
+Run the [frontier audit](results/power_frontier/README.md) from its own directory with a fresh output directory. The two independent verifiers use the original menu rows and evaluation split.
+
+```sh
+cd results/power_frontier
+python verify_package.py
+python analysis/fetch_source.py --out local_inputs/COSCBB.xlsx
+python analysis/run_frontier.py --input local_inputs/COSCBB.xlsx --out regenerated/results
+python analysis/verify_frontier.py --input local_inputs/COSCBB.xlsx --results regenerated/results --out regenerated/verification
+python analysis/run_cap_only.py --input local_inputs/COSCBB.xlsx --frontiers regenerated/results --out regenerated/cap_only
+python analysis/verify_cap_only.py --input local_inputs/COSCBB.xlsx --frontiers regenerated/results --results regenerated/cap_only --out regenerated/verification_cap_only
+```

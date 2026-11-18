@@ -1,0 +1,103 @@
+{
+  "state": "passed",
+  "cases": [
+    {
+      "m": 2,
+      "N": 7,
+      "power": "1/4",
+      "human_label_coefficient": "1/2",
+      "prediction_label_coefficient": "-1/8",
+      "prediction_aux_coefficient": "1/28"
+    },
+    {
+      "m": 2,
+      "N": 7,
+      "power": "1/2",
+      "human_label_coefficient": "1/2",
+      "prediction_label_coefficient": "-1/4",
+      "prediction_aux_coefficient": "1/14"
+    },
+    {
+      "m": 2,
+      "N": 7,
+      "power": "3/4",
+      "human_label_coefficient": "1/2",
+      "prediction_label_coefficient": "-3/8",
+      "prediction_aux_coefficient": "3/28"
+    },
+    {
+      "m": 2,
+      "N": 7,
+      "power": "1",
+      "human_label_coefficient": "1/2",
+      "prediction_label_coefficient": "-1/2",
+      "prediction_aux_coefficient": "1/7"
+    },
+    {
+      "m": 4,
+      "N": 4,
+      "power": "1/4",
+      "human_label_coefficient": "1/4",
+      "prediction_label_coefficient": "-1/16",
+      "prediction_aux_coefficient": "1/16"
+    },
+    {
+      "m": 4,
+      "N": 4,
+      "power": "1/2",
+      "human_label_coefficient": "1/4",
+      "prediction_label_coefficient": "-1/8",
+      "prediction_aux_coefficient": "1/8"
+    },
+    {
+      "m": 4,
+      "N": 4,
+      "power": "3/4",
+      "human_label_coefficient": "1/4",
+      "prediction_label_coefficient": "-3/16",
+      "prediction_aux_coefficient": "3/16"
+    },
+    {
+      "m": 4,
+      "N": 4,
+      "power": "1",
+      "human_label_coefficient": "1/4",
+      "prediction_label_coefficient": "-1/4",
+      "prediction_aux_coefficient": "1/4"
+    },
+    {
+      "m": 7,
+      "N": 2,
+      "power": "1/4",
+      "human_label_coefficient": "1/7",
+      "prediction_label_coefficient": "-1/28",
+      "prediction_aux_coefficient": "1/8"
+    },
+    {
+      "m": 7,
+      "N": 2,
+      "power": "1/2",
+      "human_label_coefficient": "1/7",
+      "prediction_label_coefficient": "-1/14",
+      "prediction_aux_coefficient": "1/4"
+    },
+    {
+      "m": 7,
+      "N": 2,
+      "power": "3/4",
+      "human_label_coefficient": "1/7",
+      "prediction_label_coefficient": "-3/28",
+      "prediction_aux_coefficient": "3/8"
+    },
+    {
+      "m": 7,
+      "N": 2,
+      "power": "1",
+      "human_label_coefficient": "1/7",
+      "prediction_label_coefficient": "-1/7",
+      "prediction_aux_coefficient": "1/2"
+    }
+  ],
+  "meaning": "Exact scalar rescaling embeds the corrected score in the pooled-score framework for every coefficient and every common-coefficient menu design.",
+  "exclusions": "No comparison of their learned estimator, no growing-dimension extension of their theorem, and no claim that categorical probability-vector use is new."
+}

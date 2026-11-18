@@ -150,3 +150,15 @@ assert e['support_counts']=={'released_power':{'interior':24},'unit_power_sensit
 assert e['unreconstructed_EST_cells']==24
 ev=json.loads((external/'results/independent_verification.json').read_text())
 assert ev['verified_finite_coefficients']==47 and ev['verified_exterior_directions']==1 and ev['ordinary_interior']==8
+
+import subprocess, sys
+
+# Verify the complete dated frontier audit and its integration into this archive.
+frontier = ROOT / 'results/power_frontier'
+completed = subprocess.run([sys.executable, str(frontier / 'verify_package.py')], check=True, capture_output=True, text=True)
+assert json.loads(completed.stdout)['independent_coefficient_checks'] == 5732
+for n,h in integration['new_evidence_files'].items(): assert hashlib.sha256((ROOT/n).read_bytes()).hexdigest() == h,n
+replay=json.loads((ROOT/integration['replay']).read_text())
+assert replay['state']=='passed'
+assert replay['records']['primary']['original_row_verification']['frontiers_checked']==2000
+assert replay['records']['cap']['original_row_verification']['finite_coefficients']==1848

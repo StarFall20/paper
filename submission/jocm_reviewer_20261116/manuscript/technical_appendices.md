@@ -490,6 +490,18 @@ The original powers give 24 interior targets. The separately planned unit-power 
 
 The separate check shares data loading and coding but implements the original three-term loss directly. Saved coefficients, support classes and the negative direction accompany the replication scripts. These 24 cells reuse splits and coverage levels; the counts describe the released analysis conditions.
 
+### C12 Feasible power ranges in the food DCE
+
+For each allocation in Appendix C9, we maximize power over the weighted probabilities of each menu. Their entries are nonnegative. The row sums equal the curvature weights and their attribute moments equal the corrected target. Both depend affinely on power, so the program is linear. Ordinary choices supply a witness at zero, and the feasible powers form a closed interval with upper endpoint $c$. With full stacked contrast rank, a strictly positive probability witness at $c/2$ certifies a finite solution throughout $(0,c)$ by interpolation with the endpoint witnesses. At power one the active contrast rank and moment interior require their own checks.
+
+The follow-up specifies two rules before computing the intervals. The first uses $c/2$. The second projects the existing cluster variance power into $[0.1c,0.9c]$. Each uses labelled ridge when a positive interior power cannot be certified. Both rules give 443, 499, 500 and 500 finite fits at budgets of 5, 10, 20 and 40 respondents. The respective counts of numerical zero or near-zero endpoints are 57, 1, 0 and 0, using tolerance $10^{-10}$. The twenty- and forty-person budgets reach the allowed upper limit of one in all allocations.
+
+The primary rules give all-allocation evaluation log losses of 1.0635, 0.7718, 0.6975 and 0.6712 for the half-endpoint rule and 1.3043, 0.7837, 0.6982 and 0.6711 for the projected variance power. At five respondents, their paired excesses over labelled ridge are 0.1554 and 0.3962, with allocation Monte Carlo standard errors of 0.0260 and 0.0490. These errors condition on the fixed source data and evaluation split. Direct human MNL that also uses the training labels has lower loss at every budget.
+
+After observing these results, we add an upper-cap comparison that keeps zero powers at zero. It takes the smaller of the original variance power and $0.9c$ when the endpoint exceeds the numerical threshold. For the remaining allocations it keeps the original power and uses the original ridge fallback when needed. This comparison yields 353, 495, 500 and 500 finite fits, with losses of 1.1644, 0.7951, 0.6991 and 0.6712. At five respondents its availability improves by one fit and the mean loss changes by 0.00029 relative to the original variance rule.
+
+The reproduction files contain 2000 upper endpoints, 4000 planned comparisons and 2000 post-hoc comparisons. The original menu check verifies all primal moments and every uncapped dual direction, checks 3884 finite coefficient vectors from the primary rules, and repeats 29 upper endpoint programs without menu compression. The post-hoc check verifies 32 new coefficient vectors and 1816 reused vectors against the original three-term score and evaluation menus.
+
 ## Appendix D Powers approaching zero
 
 ### D1 Existence on human separating directions

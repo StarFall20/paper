@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-18",
+  "purpose": "Targeted closest-prior follow-up, not an exhaustive systematic review or plagiarism clearance",
+  "browser": "Native Chrome accessibility after extension calls timed out; actual Google Scholar result pages were observed",
+  "settings": "Any time, all languages, relevance order; patents unchecked and citation entries included",
+  "queries": [
+    {"id":"G1","query":"\"prediction-powered\" \"existence\" logistic","displayed_hits":82,"approximate_count":true,"screened":"First 10 titles and snippets only","followed_new_primary":"2609.32006"},
+    {"id":"G2","query":"\"prediction-powered\" \"phase transition\"","displayed_hits":17,"approximate_count":false,"screened":"All 17 titles and snippets over two pages","followed_new_primary":["2606.25743","2610.18488"]},
+    {"id":"G3","query":"\"prediction-powered\" (separation OR coercivity OR \"finite minimizer\" OR \"convex support\")","displayed_hits":454,"approximate_count":true,"screened":"First 10 titles and snippets only","followed_new_primary":["2609.34156","2601.21470"]},
+    {"id":"G4","query":"\"prediction-powered\" (unbounded OR coercivity OR \"finite minimizer\")","displayed_hits":108,"approximate_count":true,"screened":"First 10 titles and snippets only","followed_new_primary":"2409.18321"},
+    {"id":"G5","query":"\"prediction-powered\" \"coercivity\"","displayed_hits":1,"approximate_count":false,"screened":"The sole book title/snippet concerns magnetic material coercivity; irrelevant"},
+    {"id":"G6","query":"\"prediction-powered\" logistic \"phase transition\"","displayed_hits":4,"approximate_count":false,"screened":"All four titles/snippets: calibrated noisy judges; selective ML certification; high-entropy alloys; a malformed SSRN entry. No full-text assertion from snippets."}
+  ],
+  "G2_all_titles": [
+    "The Value of Information in Resource-Constrained Pricing",
+    "Black-Box Assisted Regression: Phase Transitions and Minimax Optimality",
+    "Applications of Machine Learning in High-Entropy Alloys: Phase Prediction, Performance Optimization, and Compositional Space Exploration.",
+    "FastCSP: Accelerated molecular crystal structure prediction with universal model for atoms",
+    "LLMs judging LLMs: A simplex perspective",
+    "Improving the Reliability of Machine Learning Decisions under Model Retraining through Risk Estimation and Selective Certification",
+    "< a rel= [malformed SSRN title, not reconstructed]",
+    "Calibrate, Don't Curate: Label-Efficient Estimation from Noisy LLM Judges",
+    "SPOT-IC: Improving prediction for interval-censored data via survival probability transfer",
+    "Making Interpretable Discoveries from Unstructured Data: A High-Dimensional Multiple Hypothesis Testing Approach",
+    "Relative-based scaling law for neural language models",
+    "Mapping the structural coverage of Arabidopsis thaliana plant developmental proteins: Insights from Experimental and AlphaFold Approaches",
+    "High-Dimensional Statistics: Reflections on Progress and Open Problems",
+    "How much can we learn from quantum random circuit sampling?",
+    "Imputation of cancer proteomics data with a deep model that learns from many datasets",
+    "Recalibrating Many Questions with Few Labels: Minimax Rates and Identification Limits",
+    "Mechanisms of Cadmium-Induced and Epidermal Growth Factor Receptor Mutation-Driven Lung Tumorigenesis"
+  ],
+  "primary_readings": [
+    {"url":"https://arxiv.org/html/2609.34156v1","units":"Section 5 Chatbot Arena; Appendix F opening captions; Appendix C.1 score and Theorem 7; C.3 assumptions","consequence":"Direct quasi-separation prior and identical fixed-power GLM score require attribution; its Theorem 7 fixes dimension."},
+    {"url":"https://arxiv.org/html/2609.32006v1","units":"Sections 2.1-2.3; Assumptions 1-2; Theorem 1; Appendix B.1 contraction argument and opening B.2","consequence":"General pooled score framework contains scalar corrected score by the stated rescaling; local root and categorical probability-vector use are established prior."},
+    {"url":"https://arxiv.org/html/2606.25743v1","units":"Abstract and opening Sections 1-3; table of contents for theorem locations","consequence":"Nonparametric prediction-risk transition differs in target; detailed lower-bound proofs not read."},
+    {"url":"https://arxiv.org/html/2610.18488v1","units":"Abstract, setting and contents only","consequence":"Screened as compound isotonic recalibration/identification, not treated as a full theorem audit."},
+    {"url":"https://arxiv.org/html/2601.21470v1","units":"Sections 3-5, Assumption 5.1, Theorems 5.2 and 5.5","consequence":"Optimization convergence assumptions and target differ from a generic existence audit; no implementation benchmark claimed."},
+    {"url":"https://arxiv.org/html/2409.18321","units":"Section 2.1, equations 3-5 and nonnegative kernel discussion","consequence":"Negative kernel-weight warning is a different mechanism; no corrected-Logit priority conclusion drawn."},
+    {"url":"https://arxiv.org/html/2610.21837v2","units":"Metadata, abstract and table of contents rechecked; earlier detailed S3.10 comparison retained","consequence":"No claim of a new full re-reading of all supplements."}
+  ],
+  "secondary_discovery_only": "Zhang and Gao (2026), https://www.mdpi.com/2227-7390/14/12/2166; narrative survey, abstract, scope, finite-sample section and selected references. Technical comparison relies on primary papers.",
+  "Scopus": {
+    "actual_document_queries":0,
+    "observed_sequence":"Opened advanced-search destination; redirected to Scopus Preview. Institution flow led to the school login. User completed login. A further institutional access round trip returned to Preview again.",
+    "final_observed":"Scopus Preview Logo, Author Search and Sources only; Check access link remains, document search absent",
+    "interpretation":"Current session does not expose document search. No claim that the university has no subscription; no invented Scopus result counts.",
+    "credentials_or_identity_values_stored":false
+  },
+  "limits":"Counts overlap and include irrelevant semantic matches. They are not summed as unique papers. Narrow searches do not prove originality; only stated result pages and source sections were read."
+}

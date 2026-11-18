@@ -3,7 +3,7 @@
   "guide_read_date": "2026-11-13",
   "guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
   "fresh_guide_web_retrieval": "403; retained institutional guide used",
-  "abstract_words": 187,
+  "abstract_words": 162,
   "abstract_limit": 250,
   "keyword_count": 5,
   "permitted_keyword_count": [
@@ -23,10 +23,10 @@
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 8331,
+  "main_lexical_words_excluding_math": 8513,
   "verified_full_research_article_word_cap": null,
   "full_manuscript_pages": 74,
-  "native_math_objects": 1359,
+  "native_math_objects": 1367,
   "tables": 20,
   "all_seven_appendices_in_manuscript": true,
   "ai_disclosure_precedes_references": true,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "7ecc4d138c05152bd949f413e377708ceb506d6c8b79e4a271dc00947fc1eee3"
+      "sha256": "c385534752d3fd641dea6079edd8a6dc3b48cd502acb692ed11601bc069cfdb6"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",
@@ -103,6 +103,6 @@
   "submission_made": false,
   "research_goal_achieved": false,
   "cached_author_guide_rechecked": "2026-11-18: retained 13 November guide text rechecked; fresh official retrieval returned 403",
-  "current_source_basis": "Complete supplied PPI++ v2 with Appendices A-C, pinned official code and specified formal ICML 2025 units. Independent RADIANT/PPI software prior and released predictions attributed. General geometry is inherited; specific originality and sufficient JCM value remain under review.",
+  "current_source_basis": "Supplied complete PPI++ v2, pinned official code, independent Alves RADIANT/PPI workflow and recent TC-PPI and DiPPI preprints. The precise proportional-dimension boundary is the candidate contribution. Specific originality and methodological value remain under assessment.",
   "display_formulas": 148
 }

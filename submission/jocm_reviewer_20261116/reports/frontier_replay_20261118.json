@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-18",
+  "state": "passed",
+  "source_archive_sha256": "79521f8a138efccd35610767430c8b3616e2fa2a2824be49fc6faa69dae05b4c",
+  "original_input_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "numerical_comparison_absolute_tolerance": 1e-12,
+  "provenance": "Fresh output directories from verified archive source, pinned existing real DCE workbook and original recorded plan. Both independent verification scripts succeeded.",
+  "records": {
+    "primary": {
+      "comparisons": {
+        "frontiers.csv": {
+          "byte_identical": false,
+          "maximum_absolute_numeric_difference": 1.1102230246251565e-16,
+          "saved_sha256": "19fa918b5324185dbdeae84d05911908ae0085099e8d236bd5685e41b3dd0afc",
+          "replay_sha256": "8540020bc66cd556c6f413432e234e6a8684673a87bf646adba86918f8909c27"
+        },
+        "policy_records.csv": {
+          "byte_identical": false,
+          "maximum_absolute_numeric_difference": 1.4210854715202004e-14,
+          "saved_sha256": "7bddf3965051f116f42a046a92b05237da55021271a9377806a312bdc99a2d25",
+          "replay_sha256": "20e314a907eaec28088befb65cb9236870db7a77552939f632f073f43f394428"
+        },
+        "certificates.json.gz": {
+          "byte_identical": false,
+          "maximum_absolute_numeric_difference": 1.1102230246251565e-16,
+          "saved_sha256": "887637c389a760d4bf3774f8cb6fb50f87293a2bd806651b3983650d705d121f",
+          "replay_sha256": "16e63e25eb3b0d55ef626a6f7aea2e71413506c109c80a2b9d00a1bc58c4b0f4"
+        },
+        "coefficients.json": {
+          "byte_identical": true,
+          "maximum_absolute_numeric_difference": 0.0,
+          "saved_sha256": "9c4c6ad6e36a646816ec36f06620ccb800a46677751502db7d7698d6e41a2f36",
+          "replay_sha256": "9c4c6ad6e36a646816ec36f06620ccb800a46677751502db7d7698d6e41a2f36"
+        },
+        "summary.json": {
+          "byte_identical": true,
+          "maximum_absolute_numeric_difference": 0.0,
+          "saved_sha256": "216a9a6e1cdb64779dec501ea97cbcdbf5ae032a4e19a1855ed9b55c4762c650",
+          "replay_sha256": "216a9a6e1cdb64779dec501ea97cbcdbf5ae032a4e19a1855ed9b55c4762c650"
+        }
+      },
+      "original_row_verification": {
+        "state": "passed",
+        "frontiers_checked": 2000,
+        "policy_records_checked": 4000,
+        "finite_coefficients_checked": 3884,
+        "original_row_frontier_LPs": 29,
+        "maximum_errors": {
+          "primal_moment": 3.7890797789654905e-13,
+          "dual_recession": 1.3495019578556573e-13,
+          "score": 5.278424891619338e-09,
+          "metric": 1.7763568394002505e-15,
+          "raw_frontier": 1.6187051699034782e-13
+        },
+        "source_reader_shared": true,
+        "primary_frontier_support_objective_fitter_metrics_not_imported": true,
+        "new_inference_or_originality_certified": false,
+        "verifier_sha256": "e2973af4c40a140b419fd807d565d6cbb5852783617a93bfacdaab9ff8b436f9",
+        "result_hashes": {
+          "summary.json": "216a9a6e1cdb64779dec501ea97cbcdbf5ae032a4e19a1855ed9b55c4762c650",
+          "policy_records.csv": "20e314a907eaec28088befb65cb9236870db7a77552939f632f073f43f394428",
+          "certificates.json.gz": "16e63e25eb3b0d55ef626a6f7aea2e71413506c109c80a2b9d00a1bc58c4b0f4",
+          "coefficients.json": "9c4c6ad6e36a646816ec36f06620ccb800a46677751502db7d7698d6e41a2f36",
+          "status.json": "87c71a1c900c51185ac7f43d7b40b4426100fc4304fd2cb5683e1aa239cbe9a5",
+          "frontiers.csv": "8540020bc66cd556c6f413432e234e6a8684673a87bf646adba86918f8909c27"
+        }
+      }
+    },
+    "cap": {
+      "comparisons": {
+        "records.csv": {
+          "byte_identical": true,
+          "maximum_absolute_numeric_difference": 0.0,
+          "saved_sha256": "41fc741ab1a764e8b0bfe851e8105ae8882131162e0c3e207b91e1fb63dae346",
+          "replay_sha256": "41fc741ab1a764e8b0bfe851e8105ae8882131162e0c3e207b91e1fb63dae346"
+        },
+        "interior_witnesses.json.gz": {
+          "byte_identical": true,
+          "maximum_absolute_numeric_difference": 0.0,
+          "saved_sha256": "eb182e7442a69ffe7c724f81df7a06b60fe85906c3b7cefe95fe200a8b0c2fc5",
+          "replay_sha256": "eb182e7442a69ffe7c724f81df7a06b60fe85906c3b7cefe95fe200a8b0c2fc5"
+        },
+        "coefficients.json": {
+          "byte_identical": true,
+          "maximum_absolute_numeric_difference": 0.0,
+          "saved_sha256": "4f8067875fe0341b1b6482a01eceb5f8603ffc58d491aa6bd12bb7e17f8f0987",
+          "replay_sha256": "4f8067875fe0341b1b6482a01eceb5f8603ffc58d491aa6bd12bb7e17f8f0987"
+        },
+        "summary.json": {
+          "byte_identical": true,
+          "maximum_absolute_numeric_difference": 0.0,
+          "saved_sha256": "635d714641d33471ca33bf8e1da04522a8547acf2bc7227f443277c217f9ea24",
+          "replay_sha256": "635d714641d33471ca33bf8e1da04522a8547acf2bc7227f443277c217f9ea24"
+        }
+      },
+      "original_row_verification": {
+        "state": "passed",
+        "policy_records": 2000,
+        "finite_coefficients": 1848,
+        "original_coefficients_reused": 1816,
+        "new_fits": 32,
+        "maximum_errors": {
+          "moment": 1.6338782179066887e-15,
+          "score": 3.858511950690276e-09,
+          "metric": 4.440892098500626e-16
+        },
+        "zero_powers_preserved": true,
+        "shared_original_row_verification_helper": true,
+        "primary_cap_only_rule_fitter_and_metrics_not_imported": true,
+        "verifier_sha256": "fa55fbda44757efe1fb4abf61eb54561f1864de469ba83329135229ffc63101f",
+        "result_hashes": {
+          "summary.json": "635d714641d33471ca33bf8e1da04522a8547acf2bc7227f443277c217f9ea24",
+          "interior_witnesses.json.gz": "eb182e7442a69ffe7c724f81df7a06b60fe85906c3b7cefe95fe200a8b0c2fc5",
+          "coefficients.json": "4f8067875fe0341b1b6482a01eceb5f8603ffc58d491aa6bd12bb7e17f8f0987",
+          "records.csv": "41fc741ab1a764e8b0bfe851e8105ae8882131162e0c3e207b91e1fb63dae346",
+          "status.json": "ee7e3b58dddd0ad5d11a1139eade39f5342e02afa8c16e9345505ba52c1f5129"
+        }
+      }
+    }
+  }
+}

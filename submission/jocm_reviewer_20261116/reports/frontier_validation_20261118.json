@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-18",
+  "state": "passed",
+  "numerical_manuscript_checks": [
+    {
+      "budget": 5,
+      "half_rule_finite": 443,
+      "projected_rule_finite": 443,
+      "unit_original_finite": 356,
+      "half_original_finite": 426,
+      "near_zero_endpoints": 57,
+      "cap_only_finite": 353,
+      "half_rule_loss": 1.0635361149077656,
+      "projected_rule_loss": 1.3043159282574777,
+      "cap_only_loss": 1.164412425126357,
+      "direct_human_mnl_loss": 0.6287172358647098
+    },
+    {
+      "budget": 10,
+      "half_rule_finite": 499,
+      "projected_rule_finite": 499,
+      "unit_original_finite": 479,
+      "half_original_finite": 498,
+      "near_zero_endpoints": 1,
+      "cap_only_finite": 495,
+      "half_rule_loss": 0.7717746601776795,
+      "projected_rule_loss": 0.7836598149619303,
+      "cap_only_loss": 0.7950826906147536,
+      "direct_human_mnl_loss": 0.629070514135977
+    },
+    {
+      "budget": 20,
+      "half_rule_finite": 500,
+      "projected_rule_finite": 500,
+      "unit_original_finite": 500,
+      "half_original_finite": 500,
+      "near_zero_endpoints": 0,
+      "cap_only_finite": 500,
+      "half_rule_loss": 0.6974631358788873,
+      "projected_rule_loss": 0.6981939102105678,
+      "cap_only_loss": 0.6991438035976624,
+      "direct_human_mnl_loss": 0.6298823935046871
+    },
+    {
+      "budget": 40,
+      "half_rule_finite": 500,
+      "projected_rule_finite": 500,
+      "unit_original_finite": 500,
+      "half_original_finite": 500,
+      "near_zero_endpoints": 0,
+      "cap_only_finite": 500,
+      "half_rule_loss": 0.6711851660881687,
+      "projected_rule_loss": 0.671087168891031,
+      "cap_only_loss": 0.6711925220755587,
+      "direct_human_mnl_loss": 0.6315336682362483
+    }
+  ],
+  "word_count": {
+    "abstract_words": 162,
+    "main_body_lexical_words_excluding_math": 8513,
+    "preceding_main_body_words": 8331,
+    "count_method": "Sections 1–7 include headings, captions and tables; math, appendices and references excluded."
+  },
+  "ordered_tables": 20,
+  "ordered_displays": 148,
+  "formal_statement_paragraphs": 14,
+  "previous_scientific_and_evidence_files": 863,
+  "new_evidence_files": 41,
+  "fresh_replay_completed": true,
+  "new_model_fits_or_MC_this_integration": 0,
+  "research_goal_complete": false
+}

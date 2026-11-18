@@ -1,0 +1,14 @@
+{
+  "state": "complete",
+  "frontiers": 2000,
+  "policy_records": 4000,
+  "available_coefficients": 3884,
+  "source_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "plan_sha256": "e8f9961c79f88d6507527d504c4d585cc3e5036e56da08996f6910a3958ff6ae",
+  "analysis_sha256": "3e4bc7231ce32acc88fc4905a9f691b5eed6a3cd59cb31e90a8f4025892ed40a",
+  "no_new_predictor_training": true,
+  "no_new_MC_cohorts": true,
+  "initial_analysis_sha256": "f8fe4611968163857f1613ae82db10344616bb977b45e644f1ffc772c3b31b08",
+  "postprocessing_only": "Normalize floating-point feasible caps to the specified [0,1] domain, retain every raw value, and label numerically zero cases explicitly. No fit, coefficient, prediction or metric changed.",
+  "certificate_encoding": "lossless deterministic gzip JSON; all witness values retained"
+}

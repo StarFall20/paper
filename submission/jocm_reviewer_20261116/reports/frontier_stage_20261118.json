@@ -1,0 +1,27 @@
+{
+  "prior_manuscript": {
+    "manuscript/paper.md": "50b604b3b6c2a9657d4c975b8aaa3336707b86919a5015c17151d9cc835d80de",
+    "manuscript/main_text.md": "4f0d22c928163085e99cdf46413facb1cc031473162dac0dd5c6f502e6b9a9cf",
+    "manuscript/paper.docx": "7ecc4d138c05152bd949f413e377708ceb506d6c8b79e4a271dc00947fc1eee3",
+    "manuscript/main_text.docx": "1151d6dbaed0c798eb146c0c44e8e619630749fbecdcfc67ba3ad85ff7e8b302",
+    "reports/current_manuscript.json": "95192dd6f00e1003fdd8c790a21ad5fa7a010925999fa8a7658554ec8a50dbad"
+  },
+  "preserved": {
+    "tables": 20,
+    "displays": 148,
+    "formal_statements": 14
+  },
+  "audit": {
+    "state": "passed",
+    "frontiers": 2000,
+    "planned_policy_records": 4000,
+    "posthoc_control_records": 2000,
+    "new_model_fits": 3916,
+    "reused_coefficients_checked": 1816,
+    "independent_coefficient_checks": 5732,
+    "scholar_queries": 6,
+    "Scopus_queries": 0,
+    "manuscript_changed": false,
+    "goal_complete": false
+  }
+}

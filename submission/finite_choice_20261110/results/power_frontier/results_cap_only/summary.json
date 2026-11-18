@@ -1,0 +1,181 @@
+[
+  {
+    "labelled_people": 5,
+    "available": 353,
+    "denominator": 500,
+    "support_counts": {
+      "interior": 353,
+      "boundary_or_near_boundary": 136,
+      "outside": 11
+    },
+    "power_changes": 8,
+    "mean_fallback_loss": 1.164412425126357,
+    "comparisons": {
+      "all_human_MLE": {
+        "mean": 0.5356951892616469,
+        "allocation_MCSE": 0.033891542401092975
+      },
+      "all_human_ridge": {
+        "mean": 0.4822020752171039,
+        "allocation_MCSE": 0.03388826909511645
+      },
+      "corrected_cluster_power": {
+        "mean": 0.0002866686519623245,
+        "allocation_MCSE": 0.000465867005151026
+      },
+      "corrected_half": {
+        "mean": 0.1222913112363574,
+        "allocation_MCSE": 0.02923993982011354
+      },
+      "corrected_unit": {
+        "mean": 0.085708144346616,
+        "allocation_MCSE": 0.05012395658615236
+      },
+      "labelled_MLE": {
+        "mean": 0.050443121537497984,
+        "allocation_MCSE": 0.029938962479805736
+      },
+      "labelled_ridge": {
+        "mean": 0.25630460060605126,
+        "allocation_MCSE": 0.03232354666050146
+      },
+      "pooling": {
+        "mean": 0.48334863918182364,
+        "allocation_MCSE": 0.03388478298696581
+      }
+    }
+  },
+  {
+    "labelled_people": 10,
+    "available": 495,
+    "denominator": 500,
+    "support_counts": {
+      "interior": 495,
+      "boundary_or_near_boundary": 5
+    },
+    "power_changes": 15,
+    "mean_fallback_loss": 0.7950826906147536,
+    "comparisons": {
+      "all_human_MLE": {
+        "mean": 0.16601217647877647,
+        "allocation_MCSE": 0.005937414008886003
+      },
+      "all_human_ridge": {
+        "mean": 0.11191411043327879,
+        "allocation_MCSE": 0.005937432867908386
+      },
+      "corrected_cluster_power": {
+        "mean": -3.03948777821208e-05,
+        "allocation_MCSE": 1.3835853066511725e-05
+      },
+      "corrected_half": {
+        "mean": 0.017768935495324514,
+        "allocation_MCSE": 0.005749949978658187
+      },
+      "corrected_unit": {
+        "mean": -0.005209599033082719,
+        "allocation_MCSE": 0.0062479506618940365
+      },
+      "labelled_MLE": {
+        "mean": -0.003838470520288262,
+        "allocation_MCSE": 0.0007641326675766217
+      },
+      "labelled_ridge": {
+        "mean": 0.009359964825336041,
+        "allocation_MCSE": 0.004840481259247389
+      },
+      "pooling": {
+        "mean": 0.11557900812372825,
+        "allocation_MCSE": 0.005937802360220831
+      }
+    }
+  },
+  {
+    "labelled_people": 20,
+    "available": 500,
+    "denominator": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "power_changes": 9,
+    "mean_fallback_loss": 0.6991438035976624,
+    "comparisons": {
+      "all_human_MLE": {
+        "mean": 0.06926141009297519,
+        "allocation_MCSE": 0.0016602625278387313
+      },
+      "all_human_ridge": {
+        "mean": 0.014252194090195633,
+        "allocation_MCSE": 0.00164445461101392
+      },
+      "corrected_cluster_power": {
+        "mean": -1.1941899967071513e-05,
+        "allocation_MCSE": 7.758177805456832e-06
+      },
+      "corrected_half": {
+        "mean": 0.001680667718774968,
+        "allocation_MCSE": 0.00046139847170214253
+      },
+      "corrected_unit": {
+        "mean": -0.005962096717535683,
+        "allocation_MCSE": 0.00160617868440645
+      },
+      "labelled_MLE": {
+        "mean": -0.0008192821711745657,
+        "allocation_MCSE": 0.00018884066245117493
+      },
+      "labelled_ridge": {
+        "mean": -0.04353692414047781,
+        "allocation_MCSE": 0.0007493702291441155
+      },
+      "pooling": {
+        "mean": 0.0226863432049065,
+        "allocation_MCSE": 0.001620431206697546
+      }
+    }
+  },
+  {
+    "labelled_people": 40,
+    "available": 500,
+    "denominator": 500,
+    "support_counts": {
+      "interior": 500
+    },
+    "power_changes": 0,
+    "mean_fallback_loss": 0.6711925220755587,
+    "comparisons": {
+      "all_human_MLE": {
+        "mean": 0.03965885383931031,
+        "allocation_MCSE": 0.0008621800223767421
+      },
+      "all_human_ridge": {
+        "mean": -0.0167044524104965,
+        "allocation_MCSE": 0.0008433004624292011
+      },
+      "corrected_cluster_power": {
+        "mean": 0.0,
+        "allocation_MCSE": 0.0
+      },
+      "corrected_half": {
+        "mean": 7.355987389902285e-06,
+        "allocation_MCSE": 0.00016185241269115716
+      },
+      "corrected_unit": {
+        "mean": -0.001900569710390745,
+        "allocation_MCSE": 0.0003570648696037597
+      },
+      "labelled_MLE": {
+        "mean": -0.00014799961993544676,
+        "allocation_MCSE": 6.65497677266991e-05
+      },
+      "labelled_ridge": {
+        "mean": -0.05401399733661556,
+        "allocation_MCSE": 0.0002639453982510602
+      },
+      "pooling": {
+        "mean": 0.00012708587884199062,
+        "allocation_MCSE": 0.0007980099574116512
+      }
+    }
+  }
+]

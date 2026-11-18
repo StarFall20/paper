@@ -1,0 +1,57 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_frontier_20261118.zip",
+    "sha256": "2e5c78be705627c6391d56774756c6f1c48202b8813e2689a5b7cab41fe208db",
+    "files": 1157,
+    "bytes": 53098643,
+    "isolated_manifest_verified": true,
+    "isolated_reviewer_verify": {
+      "manifest_entries_verified": 1156,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    },
+    "isolated_DCE_table_reconciliation": {
+      "state": "passed",
+      "new_tables_reconciled": [
+        "C4",
+        "C5"
+      ],
+      "table_C4_rows": 4,
+      "table_C5_rows": 8,
+      "complete_method_records": 16000,
+      "paired_unit_outside_with_ordinary_interior": [
+        40,
+        18,
+        0,
+        0
+      ],
+      "all_20_table_blocks_present": true,
+      "old_18_table_values_checked_by_existing_entry": true,
+      "new_primary_fits_or_MC_run": false,
+      "prior_original_row_verification_hash": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+    }
+  },
+  {
+    "archive": "jocm_submission_files_frontier_20261118.zip",
+    "sha256": "33c9af2e71eac80e3c113f6a9dc66bbc32dd5059e52166cce41ac15d4480c15b",
+    "files": 20,
+    "bytes": 1249754,
+    "isolated_manifest_verified": true
+  },
+  {
+    "document": "jocm_manuscript_frontier_20261118.docx",
+    "sha256": "c385534752d3fd641dea6079edd8a6dc3b48cd502acb692ed11601bc069cfdb6",
+    "bytes": 1028203
+  },
+  {
+    "document": "jocm_main_text_frontier_20261118.docx",
+    "sha256": "5cdb14bff5b22477a1aa003358ff7f30f21680fe17cb96c66fd5b6c4fdb1f7e2",
+    "bytes": 921067
+  }
+]

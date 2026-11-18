@@ -41,3 +41,8 @@ The [current theory integration](reports/theory_integration_20261118.json) and [
 
 
 The current [external-workflow integration](reports/external_integration_20261118.json), [numeric reconciliation](reports/external_numeric_reconciliation_20261118.json), [validation](reports/external_validation_20261118.json) and [page record](reports/external_visual_qa_20261118.json) bind 74/29 reviewed pages. The [20-file nested audit](results/independent_released_workflow/README.md) retains the previously verified 24 original-power and 24 sensitivity conditions, 47 coefficient checks, one negative recession direction and all eight ordinary controls. This is an application/prior extension of the existing theoretical article, not a new framework.
+
+
+## Realized correction-power range
+
+[Feasible-power audit](results/power_frontier/README.md) records two planned rules and a separate post-hoc cap-only comparison. The main results are backed by 2000 bounds and 4000 policy records. The post-hoc control has 2000 records. [Fresh replay](reports/frontier_replay_20261118.json), [manuscript number checks](reports/frontier_validation_20261118.json) and [layout record](reports/frontier_visual_qa_20261118.json) bind the current release. Both scientific summaries and coefficient files reproduced byte for byte.

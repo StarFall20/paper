@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-18",
+  "timing": "Follow-up specified after reading all previous DCE summaries and new Scholar results, before computing any critical-power frontier or new fit in this follow-up. This is not preregistration.",
+  "question": "Does computing the finite-design admissible power interval provide an actionable consequence of the existing compensated-choice boundary, and what prediction costs accompany forced interior choices?",
+  "existing_source": "Chen, Mzek and Piras (2025), RADIANT COSCBB.xlsx; CC BY 4.0; SHA256 447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "baseline": "reports/public_panel_dce_20261117, with its original frozen 33-parameter teacher, participant partitions, all 500 nested allocations and all four labelled-person budgets 5/10/20/40",
+  "no_changes": "No new answers, training, questionnaire, covariates, outcome-based exclusion, allocation selection, prediction changes, holdout tuning or new Monte Carlo cohorts.",
+  "frontier": "Maximize lambda in [0,1] over weighted menu probabilities z>=0 with row sums (1-lambda)wL+lambda*wU and attribute moment bY+lambda*(bUg-bLg). This implements classical convex support, not a new geometric theorem.",
+  "qualification": "Check the midpoint of the feasible interval for strict support interior and full curvature rank. If no positive-power interior is certified, report that state separately and retain the labelled-ridge fallback. A capped frontier of 1 does not prove interior at 1, and feasibility alone does not imply attainment.",
+  "new_policies": [
+    "half_frontier: lambda = frontier/2, when strictly interior is certified",
+    "projected_cluster_power: project the previously saved cluster-variance power onto [0.1*frontier,0.9*frontier], when strictly interior is certified"
+  ],
+  "policy_scope": "Descriptive follow-up rules within the existing objective; no independent-new-estimator, optimal forecasting, general finite-sample inference or originality claim. The 0.1/0.9 margins are fixed implementation conventions, not a recommended universal choice. No CI or p-values.",
+  "outputs": "All 2000 frontier records and primal/dual witnesses; all 4000 policy fits, including support and numerical failures; heldout human log loss and Brier; all-allocation labelled-ridge fallback comparisons with every original method, including direct human MNL that counts the 100 teacher-training labels; allocation MCSE on the fixed data only.",
+  "verification": "Check all primal constraints and all uncapped dual recession witnesses against original task rows, all available coefficients and heldout metrics against the original three-term objective, and a stratified independently assembled original-row frontier LP. Keep structural and numerical outcomes distinct."
+}

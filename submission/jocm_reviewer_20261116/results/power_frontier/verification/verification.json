@@ -1,0 +1,26 @@
+{
+  "state": "passed",
+  "frontiers_checked": 2000,
+  "policy_records_checked": 4000,
+  "finite_coefficients_checked": 3884,
+  "original_row_frontier_LPs": 29,
+  "maximum_errors": {
+    "primal_moment": 3.7890797789654905e-13,
+    "dual_recession": 1.3495019578556573e-13,
+    "score": 5.278424891619338e-09,
+    "metric": 1.7763568394002505e-15,
+    "raw_frontier": 1.6187051699034782e-13
+  },
+  "source_reader_shared": true,
+  "primary_frontier_support_objective_fitter_metrics_not_imported": true,
+  "new_inference_or_originality_certified": false,
+  "verifier_sha256": "e2973af4c40a140b419fd807d565d6cbb5852783617a93bfacdaab9ff8b436f9",
+  "result_hashes": {
+    "summary.json": "216a9a6e1cdb64779dec501ea97cbcdbf5ae032a4e19a1855ed9b55c4762c650",
+    "policy_records.csv": "7bddf3965051f116f42a046a92b05237da55021271a9377806a312bdc99a2d25",
+    "certificates.json.gz": "887637c389a760d4bf3774f8cb6fb50f87293a2bd806651b3983650d705d121f",
+    "coefficients.json": "9c4c6ad6e36a646816ec36f06620ccb800a46677751502db7d7698d6e41a2f36",
+    "status.json": "ff9fa22b7764d068d41d5c85dc78feab5780e301dd1084900ac496dfb1f18d06",
+    "frontiers.csv": "19fa918b5324185dbdeae84d05911908ae0085099e8d236bd5685e41b3dd0afc"
+  }
+}
