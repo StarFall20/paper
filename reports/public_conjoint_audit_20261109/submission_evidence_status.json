@@ -817,5 +817,18 @@
     "sharp_directional_bound_attributed_to_prior_moment_approximation_duality": true,
     "independent_package_rerun": true,
     "manuscript_integrated": true
+  },
+  "newton_choice_support_20261118": {
+    "evidence": "../newton_choice_support_20261118/README.md",
+    "literature_followup": "../newton_choice_support_20261118/literature_followup.md",
+    "records": 2576,
+    "outside": 344,
+    "all_finite_newton_direction": true,
+    "pilot_decisive": 504,
+    "both_anchors_decisive_exploratory": 606,
+    "errors_against_existing_support": 0,
+    "byte_identical_outputs": 5,
+    "manuscript_integrated": false,
+    "scopus_new_document_queries": 0
   }
 }

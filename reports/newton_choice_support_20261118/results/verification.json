@@ -1,0 +1,46 @@
+{
+  "state": "passed",
+  "verified_allocations": 2576,
+  "archived_source_receipt_sha256": "a48d52b5a3285485b8fd6543fe59f27272e73e84d69051531083f87dab899b46",
+  "final_counts": {
+    "interior": {
+      "needs_support_program": 1844,
+      "interior": 388
+    },
+    "outside": {
+      "needs_support_program": 228,
+      "outside": 116
+    }
+  },
+  "max_relative_reconstruction_errors": {
+    "normalized_newton_recession": 9.142131496275852e-13,
+    "minimum_probability_at_step": 5.9076077363329205e-12,
+    "step_norm": 4.144115947273571e-12,
+    "norm_sufficient_factor": 3.6574904178986826e-12,
+    "maximum_probability_or_moment_balance": 9.900670285771112e-13
+  },
+  "proxy_source_receipt_sha256": "67c44de81aa4990072c2ea9410d107418a732531031dc49c20d2c9f187406b3a",
+  "proxy_counts": {
+    "interior": {
+      "needs_support_program": 2003,
+      "interior": 229
+    },
+    "outside": {
+      "needs_support_program": 246,
+      "outside": 98
+    }
+  },
+  "union_decisive_counts": {
+    "interior": 455,
+    "outside": 151
+  },
+  "proxy_max_relative_reconstruction_errors": {
+    "normalized_newton_recession": 8.221201497349284e-14,
+    "minimum_probability_at_step": 5.369195312127715e-13,
+    "step_norm": 5.901714309917321e-13,
+    "norm_sufficient_factor": 2.130718304018032e-13,
+    "maximum_probability_or_moment_balance": 8.415490526658687e-14
+  },
+  "recoding": "Rescale each coefficient column by fixed factors from 0.25 to 8. Reconstruct covariance using second moments and solve with an independent formulation. Record recession in original coefficient units.",
+  "verifier_sha256": "23982b6fc24c6d3fbfe9d62ef862ae02e128d35c66a9a1c536956e026ca44c42"
+}

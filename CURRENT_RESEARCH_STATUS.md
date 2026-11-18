@@ -1,3 +1,7 @@
+# 公开选择数据的有限解诊断
+
+[诊断复核](reports/newton_choice_support_20261118/README.md)重算两套公开数据的 2,576 个既有固定划分。所有 344 个无下界的校正目标都有正定 Hessian 和有限 Newton 步。一步核查确认 504 宗，均与独立支撑判定一致。追加的探索性敏感性分析将合计判定数提高到 606 宗。补充研究单独交付。现行 Word 稿件仍以最近的局部导数整合版为准。Scopus 复试停在机构认证，当前没有新增文献检索记录。[文献核查](reports/newton_choice_support_20261118/literature_followup.md)
+
 # 任意有限阶局部匹配已纳入稿件
 
 [现行稿件与复现记录](reports/local_derivative_manuscript_integration_20261118/README.md)更新第 3.5 节和附录 B5。15 个有理数构造独立核验，最高检查到 33 阶。完整稿 78 页，阅读版 30 页。以下为早期记录。

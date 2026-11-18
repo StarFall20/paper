@@ -1,0 +1,6 @@
+{
+  "state": "exploratory follow-up declared after the labelled-ridge results and before running the new reference",
+  "idea": "Use the frozen auxiliary probabilities directly as the anchor for the same affine moment correction. A positive anchor and covariance does not require the auxiliary predictor to belong to the target utility specification.",
+  "rules": ["Apply the same tolerance, complete archived cases and reference support outcome.", "Use the frozen probabilities only. No new weights, predictors, labels or fitted coefficients.", "Report each reference separately and their union without pretending the union was pre-specified."],
+  "purpose": "Check whether the observed reference affects the number of decisive screens."
+}

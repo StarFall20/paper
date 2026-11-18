@@ -1,0 +1,281 @@
+{
+  "state": "passed",
+  "record_count": 2576,
+  "incorrect_decisions": 0,
+  "totals": {
+    "RADIANT": {
+      "interior": {
+        "designs": 1835,
+        "decisive": 365,
+        "norm_passes": 2,
+        "median_Hessian_condition": 40.45379681029996,
+        "finite_Newton_direction": 1835
+      },
+      "outside": {
+        "designs": 165,
+        "decisive": 34,
+        "norm_passes": 0,
+        "median_Hessian_condition": 47.88565941783579,
+        "finite_Newton_direction": 165
+      }
+    },
+    "Swissmetro": {
+      "interior": {
+        "designs": 397,
+        "decisive": 23,
+        "norm_passes": 0,
+        "median_Hessian_condition": 13.057575354403724,
+        "finite_Newton_direction": 397
+      },
+      "outside": {
+        "designs": 179,
+        "decisive": 82,
+        "norm_passes": 0,
+        "median_Hessian_condition": 494.3978817484356,
+        "finite_Newton_direction": 179
+      }
+    },
+    "combined": {
+      "interior": {
+        "designs": 2232,
+        "decisive": 388,
+        "norm_passes": 2,
+        "median_Hessian_condition": 40.24220413047222,
+        "finite_Newton_direction": 2232
+      },
+      "outside": {
+        "designs": 344,
+        "decisive": 116,
+        "norm_passes": 0,
+        "median_Hessian_condition": 53.57453632947233,
+        "finite_Newton_direction": 344
+      }
+    }
+  },
+  "summary": [
+    {
+      "dataset": "RADIANT",
+      "specification": "food_11",
+      "labelled_people": 5,
+      "designs": 500,
+      "counts_reference": {
+        "interior": 356,
+        "outside": 144
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 344,
+          "interior": 12
+        },
+        "outside": {
+          "needs_support_program": 112,
+          "outside": 32
+        }
+      },
+      "norm_passes": 0
+    },
+    {
+      "dataset": "RADIANT",
+      "specification": "food_11",
+      "labelled_people": 10,
+      "designs": 500,
+      "counts_reference": {
+        "interior": 479,
+        "outside": 21
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 416,
+          "interior": 63
+        },
+        "outside": {
+          "needs_support_program": 19,
+          "outside": 2
+        }
+      },
+      "norm_passes": 1
+    },
+    {
+      "dataset": "RADIANT",
+      "specification": "food_11",
+      "labelled_people": 20,
+      "designs": 500,
+      "counts_reference": {
+        "interior": 500
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 381,
+          "interior": 119
+        },
+        "outside": {}
+      },
+      "norm_passes": 1
+    },
+    {
+      "dataset": "RADIANT",
+      "specification": "food_11",
+      "labelled_people": 40,
+      "designs": 500,
+      "counts_reference": {
+        "interior": 500
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 329,
+          "interior": 171
+        },
+        "outside": {}
+      },
+      "norm_passes": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "specification": "canonical_4",
+      "labelled_people": 2,
+      "designs": 96,
+      "counts_reference": {
+        "interior": 50,
+        "outside": 46
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 47,
+          "interior": 3
+        },
+        "outside": {
+          "needs_support_program": 18,
+          "outside": 28
+        }
+      },
+      "norm_passes": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "specification": "canonical_4",
+      "labelled_people": 5,
+      "designs": 96,
+      "counts_reference": {
+        "interior": 82,
+        "outside": 14
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 74,
+          "interior": 8
+        },
+        "outside": {
+          "outside": 9,
+          "needs_support_program": 5
+        }
+      },
+      "norm_passes": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "specification": "canonical_4",
+      "labelled_people": 10,
+      "designs": 96,
+      "counts_reference": {
+        "interior": 93,
+        "outside": 3
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 82,
+          "interior": 11
+        },
+        "outside": {
+          "outside": 2,
+          "needs_support_program": 1
+        }
+      },
+      "norm_passes": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "specification": "mode_specific_8",
+      "labelled_people": 2,
+      "designs": 96,
+      "counts_reference": {
+        "outside": 73,
+        "interior": 23
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 23
+        },
+        "outside": {
+          "needs_support_program": 46,
+          "outside": 27
+        }
+      },
+      "norm_passes": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "specification": "mode_specific_8",
+      "labelled_people": 5,
+      "designs": 96,
+      "counts_reference": {
+        "outside": 32,
+        "interior": 64
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 64
+        },
+        "outside": {
+          "needs_support_program": 20,
+          "outside": 12
+        }
+      },
+      "norm_passes": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "specification": "mode_specific_8",
+      "labelled_people": 10,
+      "designs": 96,
+      "counts_reference": {
+        "interior": 85,
+        "outside": 11
+      },
+      "screen_by_reference": {
+        "interior": {
+          "needs_support_program": 84,
+          "interior": 1
+        },
+        "outside": {
+          "outside": 4,
+          "needs_support_program": 7
+        }
+      },
+      "norm_passes": 0
+    }
+  ],
+  "largest_moment_balance_error": 3.11972669919669e-14,
+  "largest_menu_balance_error": 1.6797674362578618e-13,
+  "input_sha256": {
+    "food": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+    "swissmetro": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
+  },
+  "input_archive_sha256": {
+    "food": {
+      "analysis/existing_panel_model.py": "ed198611b3757aaeaade695f9a5659e570ebb14e05534715f580152e70960606",
+      "inputs/model_plan.json": "99d95f6bc3fca966eb03fa64e43f538f9d1e99b653eae3df016d95e74cb516f1",
+      "inputs/preflight.json": "a96ca3ab796b057f1741948b8436c9c2fb17b01728b0cccc20fc00c14297ad14",
+      "inputs/baseline_records.csv": "c16aa4ff066d5c6a5dc724cda5591180ee26e49795a7cc832dbb4d94c35b0df3",
+      "inputs/labelled_ridge_coefficients.json": "b5c49dc7c0c632019da8888aaaac3a97529719040e2a48010f51afca64757878"
+    },
+    "swissmetro": {
+      "audit.py": "a81c6cf3c3531c5828a66c59919c2f5288e729172c36d96948f50e0c698fc831",
+      "plan.json": "35344070eb367974dcd757a866a11f3f04501a33af97d68130be743a20cad810",
+      "results/allocations.csv": "e82230099f98f67cb0cd2347b207c343f308da38f7d5b89c3eb55ce8896e3340",
+      "results/coefficients.json": "ffdab054240e86e642557a9a0b099f89c0b91cb97d55559fef6562dab1b238f8",
+      "results/summary.json": "8e7982bbd3058a47a2c51ffe66db15cee83bfd9ed477737b783d99d19ae8eab6"
+    }
+  },
+  "plan_sha256": "6466c32457b354cc7ca2f99f1b1203a8815169eeb598a11da0bcd978346d4c57",
+  "records_sha256": "8855854ca60216b9c37cb9bd097775c030b19a114af072df8d630b980a7e50e0"
+}

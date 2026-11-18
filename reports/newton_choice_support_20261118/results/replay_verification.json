@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "original_label_allocations": 2576,
+  "fixed_datasets": 2,
+  "byte_identical_outputs": {
+    "records.csv": "8855854ca60216b9c37cb9bd097775c030b19a114af072df8d630b980a7e50e0",
+    "summary.json": "a48d52b5a3285485b8fd6543fe59f27272e73e84d69051531083f87dab899b46",
+    "frozen_proxy/records.csv": "1b0749280517968630cfc7d2c96d4f6f4e7777d148a96af23dfe87cb8873b12e",
+    "frozen_proxy/summary.json": "67c44de81aa4990072c2ea9410d107418a732531031dc49c20d2c9f187406b3a",
+    "verification.json": "338f43fb12e0da069877dfaad5767c99a506c1f89b57b0ab23ba9947fcfed2eb"
+  },
+  "software": "requirements.txt",
+  "commands": [
+    "audit.py",
+    "frozen_proxy.py",
+    "verify.py"
+  ]
+}

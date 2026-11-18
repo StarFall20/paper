@@ -1,0 +1,13 @@
+{
+  "state": "specified before running the support screen",
+  "power": 1,
+  "datasets": ["RADIANT food choice", "Swissmetro mode choice"],
+  "scope": "All 2000 food and 576 Swissmetro archived allocations. Keep respondent splits, attributes, choices and archived predictions. Use the archived labelled ridge point as the reference.",
+  "reference_state": "Existing support LP and interval checks. At unit power, a strict cap below one implies exterior support.",
+  "tests": ["positive definite observed compensated Hessian and finite Newton direction", "strictly positive tangent menu probabilities with a matched corrected moment", "strictly negative recession in the normalized Newton direction", "certified but undirected symmetric norm bound implied by the same primal check"],
+  "witness_tolerance": 1e-8,
+  "equality_tolerance": 1e-10,
+  "holdout_data_used_for_screening": false,
+  "statistics": "Report both types of decision, unresolved fractions, conditional counts, false decisions against independent support, and applicable results by dataset, specification and budget.",
+  "application": "One-pass pre-screen with original support program for every unresolved allocation. No new tuning, model fitting or human data."
+}

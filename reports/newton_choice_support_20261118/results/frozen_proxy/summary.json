@@ -1,0 +1,52 @@
+{
+  "state": "passed",
+  "exploratory": true,
+  "totals": {
+    "RADIANT": {
+      "interior": {
+        "denominator": 1835,
+        "proxy_decides": 219,
+        "pilot_decides": 365,
+        "either_decides": 425
+      },
+      "outside": {
+        "denominator": 165,
+        "proxy_decides": 15,
+        "pilot_decides": 34,
+        "either_decides": 39
+      }
+    },
+    "Swissmetro": {
+      "interior": {
+        "denominator": 397,
+        "proxy_decides": 10,
+        "pilot_decides": 23,
+        "either_decides": 30
+      },
+      "outside": {
+        "denominator": 179,
+        "proxy_decides": 83,
+        "pilot_decides": 82,
+        "either_decides": 112
+      }
+    },
+    "combined": {
+      "interior": {
+        "denominator": 2232,
+        "proxy_decides": 229,
+        "pilot_decides": 388,
+        "either_decides": 455
+      },
+      "outside": {
+        "denominator": 344,
+        "proxy_decides": 98,
+        "pilot_decides": 116,
+        "either_decides": 151
+      }
+    }
+  },
+  "record_count": 2576,
+  "primary_sha256": "a48d52b5a3285485b8fd6543fe59f27272e73e84d69051531083f87dab899b46",
+  "records_sha256": "1b0749280517968630cfc7d2c96d4f6f4e7777d148a96af23dfe87cb8873b12e",
+  "plan_sha256": "f13137160e1f5bdf02a30675b50a199001f442b456b53d265699ac1f6734332b"
+}
