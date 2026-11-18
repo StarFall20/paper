@@ -1,0 +1,535 @@
+{
+  "verified_finite_coefficients": 47,
+  "verified_exterior_directions": 1,
+  "ordinary_controls_added_after_primary_results": true,
+  "all_context_split_ordinary_controls": 8,
+  "ordinary_interior": 8,
+  "maximum_original_three_term_score": 6.187020005696264e-09,
+  "minimum_finite_hessian_eigenvalue": 0.000861350547425342,
+  "raw_loss_and_gradient_checks": [
+    {
+      "context": "COBGID",
+      "rep": 0,
+      "coverage": "alta",
+      "rule": "released_power",
+      "gradient": 1.0756251898428696e-09,
+      "hessian_min_eigenvalue": 0.008276431070299076,
+      "loss": 0.7153293715063337
+    },
+    {
+      "context": "COBGID",
+      "rep": 0,
+      "coverage": "alta",
+      "rule": "unit_power_sensitivity",
+      "gradient": 3.2326363808010683e-10,
+      "hessian_min_eigenvalue": 0.010740968132126105,
+      "loss": 0.733347215720309
+    },
+    {
+      "context": "COBGID",
+      "rep": 0,
+      "coverage": "media",
+      "rule": "released_power",
+      "gradient": 1.0756251898428696e-09,
+      "hessian_min_eigenvalue": 0.008276431070299076,
+      "loss": 0.7153293715063337
+    },
+    {
+      "context": "COBGID",
+      "rep": 0,
+      "coverage": "media",
+      "rule": "unit_power_sensitivity",
+      "gradient": 3.0959351965745285e-10,
+      "hessian_min_eigenvalue": 0.009780527888342917,
+      "loss": 0.6738578115910624
+    },
+    {
+      "context": "COBGID",
+      "rep": 0,
+      "coverage": "baixa",
+      "rule": "released_power",
+      "gradient": 4.4584632989360436e-11,
+      "hessian_min_eigenvalue": 0.00830143705077975,
+      "loss": 0.7157960067031351
+    },
+    {
+      "context": "COBGID",
+      "rep": 0,
+      "coverage": "baixa",
+      "rule": "unit_power_sensitivity",
+      "gradient": 2.1380085063471554e-09,
+      "hessian_min_eigenvalue": 0.012015228395846844,
+      "loss": 0.8016796021147947
+    },
+    {
+      "context": "COBGID",
+      "rep": 1,
+      "coverage": "alta",
+      "rule": "released_power",
+      "gradient": 3.242199595218962e-11,
+      "hessian_min_eigenvalue": 0.011676452148679113,
+      "loss": 0.7308646007117335
+    },
+    {
+      "context": "COBGID",
+      "rep": 1,
+      "coverage": "alta",
+      "rule": "unit_power_sensitivity",
+      "gradient": 2.4411640105193033e-09,
+      "hessian_min_eigenvalue": 0.009294786557379154,
+      "loss": 0.6374028336306717
+    },
+    {
+      "context": "COBGID",
+      "rep": 1,
+      "coverage": "media",
+      "rule": "released_power",
+      "gradient": 3.242199595218962e-11,
+      "hessian_min_eigenvalue": 0.011676452148679113,
+      "loss": 0.7308646007117335
+    },
+    {
+      "context": "COBGID",
+      "rep": 1,
+      "coverage": "media",
+      "rule": "unit_power_sensitivity",
+      "gradient": 2.6194246598165716e-09,
+      "hessian_min_eigenvalue": 0.010993130000940888,
+      "loss": 0.7325893798145293
+    },
+    {
+      "context": "COBGID",
+      "rep": 1,
+      "coverage": "baixa",
+      "rule": "released_power",
+      "gradient": 3.242199595218962e-11,
+      "hessian_min_eigenvalue": 0.011676452148679113,
+      "loss": 0.7308646007117335
+    },
+    {
+      "context": "COBGID",
+      "rep": 1,
+      "coverage": "baixa",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.419656094070465e-10,
+      "hessian_min_eigenvalue": 0.010325066455431419,
+      "loss": 0.747847830151206
+    },
+    {
+      "context": "COESHT",
+      "rep": 0,
+      "coverage": "alta",
+      "rule": "released_power",
+      "gradient": 4.4981724860735164e-11,
+      "hessian_min_eigenvalue": 0.010842146760060949,
+      "loss": 0.7470588020748848
+    },
+    {
+      "context": "COESHT",
+      "rep": 0,
+      "coverage": "alta",
+      "rule": "unit_power_sensitivity",
+      "gradient": 5.849873641050607e-10,
+      "hessian_min_eigenvalue": 0.008762291256175581,
+      "loss": 0.7454753813539109
+    },
+    {
+      "context": "COESHT",
+      "rep": 0,
+      "coverage": "media",
+      "rule": "released_power",
+      "gradient": 5.409025573123295e-10,
+      "hessian_min_eigenvalue": 0.010851830864387636,
+      "loss": 0.7469447844448412
+    },
+    {
+      "context": "COESHT",
+      "rep": 0,
+      "coverage": "media",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.454171123793646e-10,
+      "hessian_min_eigenvalue": 0.007583660685228809,
+      "loss": 0.7238096613998853
+    },
+    {
+      "context": "COESHT",
+      "rep": 0,
+      "coverage": "baixa",
+      "rule": "released_power",
+      "gradient": 5.409025573123295e-10,
+      "hessian_min_eigenvalue": 0.010851830864387636,
+      "loss": 0.7469447844448412
+    },
+    {
+      "context": "COESHT",
+      "rep": 0,
+      "coverage": "baixa",
+      "rule": "unit_power_sensitivity",
+      "gradient": 6.022067913780127e-11,
+      "hessian_min_eigenvalue": 0.004366245867742558,
+      "loss": 0.5850574490711127
+    },
+    {
+      "context": "COESHT",
+      "rep": 1,
+      "coverage": "alta",
+      "rule": "released_power",
+      "gradient": 2.0128147868066215e-10,
+      "hessian_min_eigenvalue": 0.014807831940996925,
+      "loss": 0.7524139735893668
+    },
+    {
+      "context": "COESHT",
+      "rep": 1,
+      "coverage": "alta",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.6769305388741884e-10,
+      "hessian_min_eigenvalue": 0.018092970234535023,
+      "loss": 0.8390763074085483
+    },
+    {
+      "context": "COESHT",
+      "rep": 1,
+      "coverage": "media",
+      "rule": "released_power",
+      "gradient": 1.1713333031922353e-09,
+      "hessian_min_eigenvalue": 0.014919362198633844,
+      "loss": 0.757284780166595
+    },
+    {
+      "context": "COESHT",
+      "rep": 1,
+      "coverage": "media",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.0861145316454213e-11,
+      "hessian_min_eigenvalue": 0.019068689370459704,
+      "loss": 0.9230496312938226
+    },
+    {
+      "context": "COESHT",
+      "rep": 1,
+      "coverage": "baixa",
+      "rule": "released_power",
+      "gradient": 1.3312695563982846e-09,
+      "hessian_min_eigenvalue": 0.014958353950789779,
+      "loss": 0.7587238357998084
+    },
+    {
+      "context": "COESHT",
+      "rep": 1,
+      "coverage": "baixa",
+      "rule": "unit_power_sensitivity",
+      "gradient": 9.37918666343851e-11,
+      "hessian_min_eigenvalue": 0.0174136099465159,
+      "loss": 0.8662498627006346
+    },
+    {
+      "context": "COITPR",
+      "rep": 0,
+      "coverage": "alta",
+      "rule": "released_power",
+      "gradient": 8.129140555146463e-10,
+      "hessian_min_eigenvalue": 0.002423105833093856,
+      "loss": 0.7210841589004043
+    },
+    {
+      "context": "COITPR",
+      "rep": 0,
+      "coverage": "alta",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.361587392313679e-10,
+      "hessian_min_eigenvalue": 0.002216531700064408,
+      "loss": 0.7252329064854114
+    },
+    {
+      "context": "COITPR",
+      "rep": 0,
+      "coverage": "media",
+      "rule": "released_power",
+      "gradient": 2.1746513747741836e-10,
+      "hessian_min_eigenvalue": 0.0022156580395650606,
+      "loss": 0.6988596943523505
+    },
+    {
+      "context": "COITPR",
+      "rep": 0,
+      "coverage": "baixa",
+      "rule": "released_power",
+      "gradient": 4.428343741085743e-11,
+      "hessian_min_eigenvalue": 0.002472940889288248,
+      "loss": 0.7189913689794056
+    },
+    {
+      "context": "COITPR",
+      "rep": 0,
+      "coverage": "baixa",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.0244789114266517e-09,
+      "hessian_min_eigenvalue": 0.000861350547425342,
+      "loss": 0.6142409248682137
+    },
+    {
+      "context": "COITPR",
+      "rep": 1,
+      "coverage": "alta",
+      "rule": "released_power",
+      "gradient": 2.8199347891499915e-10,
+      "hessian_min_eigenvalue": 0.0033522673670234138,
+      "loss": 0.7728356595779959
+    },
+    {
+      "context": "COITPR",
+      "rep": 1,
+      "coverage": "alta",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.71951634875267e-09,
+      "hessian_min_eigenvalue": 0.004634536493784475,
+      "loss": 0.860505827791103
+    },
+    {
+      "context": "COITPR",
+      "rep": 1,
+      "coverage": "media",
+      "rule": "released_power",
+      "gradient": 6.187020005696264e-09,
+      "hessian_min_eigenvalue": 0.003203051965883854,
+      "loss": 0.7635365486438742
+    },
+    {
+      "context": "COITPR",
+      "rep": 1,
+      "coverage": "media",
+      "rule": "unit_power_sensitivity",
+      "gradient": 2.9941597638749595e-10,
+      "hessian_min_eigenvalue": 0.004016196744075041,
+      "loss": 0.8023623451666689
+    },
+    {
+      "context": "COITPR",
+      "rep": 1,
+      "coverage": "baixa",
+      "rule": "released_power",
+      "gradient": 4.708513934650882e-10,
+      "hessian_min_eigenvalue": 0.003116764273781155,
+      "loss": 0.7583176628376587
+    },
+    {
+      "context": "COITPR",
+      "rep": 1,
+      "coverage": "baixa",
+      "rule": "unit_power_sensitivity",
+      "gradient": 3.4829831397492628e-09,
+      "hessian_min_eigenvalue": 0.004299606750748859,
+      "loss": 0.7838363592790488
+    },
+    {
+      "context": "COITYP",
+      "rep": 0,
+      "coverage": "alta",
+      "rule": "released_power",
+      "gradient": 2.90454465383741e-10,
+      "hessian_min_eigenvalue": 0.005008982560649465,
+      "loss": 0.6872488622983278
+    },
+    {
+      "context": "COITYP",
+      "rep": 0,
+      "coverage": "alta",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.0438622188857494e-11,
+      "hessian_min_eigenvalue": 0.00865098786714613,
+      "loss": 0.6820971516887311
+    },
+    {
+      "context": "COITYP",
+      "rep": 0,
+      "coverage": "media",
+      "rule": "released_power",
+      "gradient": 1.7624709850740626e-09,
+      "hessian_min_eigenvalue": 0.004731532487503034,
+      "loss": 0.684556150073423
+    },
+    {
+      "context": "COITYP",
+      "rep": 0,
+      "coverage": "media",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.392570066205412e-09,
+      "hessian_min_eigenvalue": 0.005763831148845451,
+      "loss": 0.6296857759233261
+    },
+    {
+      "context": "COITYP",
+      "rep": 0,
+      "coverage": "baixa",
+      "rule": "released_power",
+      "gradient": 9.124766393864281e-11,
+      "hessian_min_eigenvalue": 0.01126327386542832,
+      "loss": 0.6634655572718026
+    },
+    {
+      "context": "COITYP",
+      "rep": 0,
+      "coverage": "baixa",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.1832495747099436e-10,
+      "hessian_min_eigenvalue": 0.011055881490891045,
+      "loss": 0.6482482189942718
+    },
+    {
+      "context": "COITYP",
+      "rep": 1,
+      "coverage": "alta",
+      "rule": "released_power",
+      "gradient": 7.060664491347839e-11,
+      "hessian_min_eigenvalue": 0.00529007628095341,
+      "loss": 0.7865932804764114
+    },
+    {
+      "context": "COITYP",
+      "rep": 1,
+      "coverage": "alta",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.3621342248582025e-10,
+      "hessian_min_eigenvalue": 0.004312308999143155,
+      "loss": 0.7873335453213687
+    },
+    {
+      "context": "COITYP",
+      "rep": 1,
+      "coverage": "media",
+      "rule": "released_power",
+      "gradient": 5.370367870023707e-10,
+      "hessian_min_eigenvalue": 0.004296840384502389,
+      "loss": 0.7804749508036228
+    },
+    {
+      "context": "COITYP",
+      "rep": 1,
+      "coverage": "media",
+      "rule": "unit_power_sensitivity",
+      "gradient": 3.988192415205205e-11,
+      "hessian_min_eigenvalue": 0.001788190003266035,
+      "loss": 0.7262372792401875
+    },
+    {
+      "context": "COITYP",
+      "rep": 1,
+      "coverage": "baixa",
+      "rule": "released_power",
+      "gradient": 2.8687152818160366e-09,
+      "hessian_min_eigenvalue": 0.0050852323034717775,
+      "loss": 0.7811953238843566
+    },
+    {
+      "context": "COITYP",
+      "rep": 1,
+      "coverage": "baixa",
+      "rule": "unit_power_sensitivity",
+      "gradient": 1.660034783246278e-10,
+      "hessian_min_eigenvalue": 0.0036171901312969414,
+      "loss": 0.7455273757440496
+    }
+  ],
+  "exterior_checks": [
+    {
+      "context": "COITPR",
+      "rep": 0,
+      "coverage": "media",
+      "rule": "unit_power_sensitivity",
+      "slope": -0.032594818392002234,
+      "path": [
+        {
+          "t": 0,
+          "value": 1.0986122886681096
+        },
+        {
+          "t": 10,
+          "value": 0.3672216963471642
+        },
+        {
+          "t": 100,
+          "value": -2.566334658640275
+        },
+        {
+          "t": 1000,
+          "value": -31.901671211442277
+        },
+        {
+          "t": 10000,
+          "value": -325.2550367394625
+        }
+      ]
+    }
+  ],
+  "ordinary_controls": [
+    {
+      "context": "COBGID",
+      "rep": 0,
+      "rank": 12,
+      "parameters": 12,
+      "interior_margin": 0.06666666666666665,
+      "residual": 3.1086244689504383e-15
+    },
+    {
+      "context": "COBGID",
+      "rep": 1,
+      "rank": 12,
+      "parameters": 12,
+      "interior_margin": 0.05555555555555555,
+      "residual": 1.0880185641326534e-14
+    },
+    {
+      "context": "COESHT",
+      "rep": 0,
+      "rank": 9,
+      "parameters": 9,
+      "interior_margin": 0.08630609896432682,
+      "residual": 1.5210055437364645e-14
+    },
+    {
+      "context": "COESHT",
+      "rep": 1,
+      "rank": 9,
+      "parameters": 9,
+      "interior_margin": 0.07777777777777778,
+      "residual": 2.6645352591003757e-15
+    },
+    {
+      "context": "COITPR",
+      "rep": 0,
+      "rank": 9,
+      "parameters": 9,
+      "interior_margin": 0.05555555555555556,
+      "residual": 4.440892098500626e-15
+    },
+    {
+      "context": "COITPR",
+      "rep": 1,
+      "rank": 9,
+      "parameters": 9,
+      "interior_margin": 0.04255319148936174,
+      "residual": 3.552713678800501e-15
+    },
+    {
+      "context": "COITYP",
+      "rep": 0,
+      "rank": 11,
+      "parameters": 11,
+      "interior_margin": 0.06666666666666667,
+      "residual": 1.0325074129013956e-14
+    },
+    {
+      "context": "COITYP",
+      "rep": 1,
+      "rank": 11,
+      "parameters": 11,
+      "interior_margin": 0.05555555555555556,
+      "residual": 6.217248937900877e-15
+    }
+  ],
+  "source_data_loading_shared": true,
+  "main_support_fit_objective_imported": false,
+  "source_code_executed": false,
+  "verifier_sha256": "ad5e26ca4e3888ed08309427351d06f2e351aeb6ea47e2853e4808ea9e75522a"
+}

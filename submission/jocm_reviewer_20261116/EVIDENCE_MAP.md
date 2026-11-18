@@ -38,3 +38,6 @@ The earlier 18 November focused prose/layout revision is retained as a dated sta
 
 
 The [current theory integration](reports/theory_integration_20261118.json) and [validation](reports/theory_validation_20261118.json) bind 148 displays, all 20 preserved tables, 808 preceding scientific files, 35 new evidence files and both reviewed Word sources. The [page record](reports/theory_visual_qa_20261118.json) covers all 73/29 pages. Existing general kinematics, relative-interior geometry and weak-label lower-boundedness are attributed; the candidate increment remains the explicit compensated-choice boundary and its controlled consequences.
+
+
+The current [external-workflow integration](reports/external_integration_20261118.json), [numeric reconciliation](reports/external_numeric_reconciliation_20261118.json), [validation](reports/external_validation_20261118.json) and [page record](reports/external_visual_qa_20261118.json) bind 74/29 reviewed pages. The [20-file nested audit](results/independent_released_workflow/README.md) retains the previously verified 24 original-power and 24 sensitivity conditions, 47 coefficient checks, one negative recession direction and all eight ordinary controls. This is an application/prior extension of the existing theoretical article, not a new framework.

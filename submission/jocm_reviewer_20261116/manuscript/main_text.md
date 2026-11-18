@@ -329,6 +329,12 @@ Table C5 retains all eight methods, unavailable fits and common-fit denominators
 
 The saved fits give descriptive Bere price equivalents in GBP per 250 g package. Of 15418 available fits, 15417 have negative price slopes and one has a positive slope. At twenty labelled respondents, median unit-correction and ordinary-MNL equivalents are GBP1.244 and GBP1.307, with 5th–95th allocation ranges of −0.410 to 3.213 and −0.436 to 3.142. At forty respondents the medians are GBP1.332 and GBP1.343. Five-person distributions are wider, including direct-ridge extremes. Appendix C9 retains coding and conditional-fit denominators; these allocation summaries are descriptive coefficient ratios.
 
+### 4.7 Fixed predictions from an independent choice study
+
+Alves (2026) studies large language model (LLM) predictions for an underrepresented age segment in released RADIANT experiments. The study also explores prediction-powered estimates of choice-logit coefficients. Its public outputs permit an additional finite-design check. We reconstruct 24 released fits across four contexts, preserving the utility specifications, respondent splits, frozen probabilities and published powers. Appendix C11 gives the reconstruction and required inputs.
+
+All 24 targets are interior at their published powers; nine powers equal zero. A separately specified unit-power sensitivity has one exterior target among 24 cells. All eight distinct ordinary MNL designs are interior. In the exterior cell, the published power is approximately 0.11684 and retains a finite estimate. The unit-power objective decreases without bound along a verified direction. These results locate the issue in a particular choice of correction power. They describe realized categorical designs; the Gaussian proportional-dimensional law remains a separate result.
+
 ## 5 Finite estimation and statistical performance
 
 ### 5.1 Known truth experiment
@@ -520,6 +526,8 @@ During preparation of this work, ChatGPT and Codex were used to assist with lite
 ## References
 
 Albert, A., Anderson, J. A. (1984). On the existence of maximum likelihood estimates in logistic regression models. Biometrika 71(1), 1–10. https://doi.org/10.1093/biomet/71.1.1
+
+Alves, J.N. (2026). Estimand-specific authorization of synthetic survey responses: preregistered protocol, code and pilot outputs (Study 2). Software, protocol and outputs deposited 4 October 2026. Zenodo. https://doi.org/10.5281/zenodo.23140919
 
 Amelunxen, D., Lotz, M., McCoy, M.B., Tropp, J.A. (2014). Living on the edge: Phase transitions in convex programs with random data. Information and Inference 3, 224–294. https://doi.org/10.1093/imaiai/iau005
 

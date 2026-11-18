@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "original_rule_interior": 24,
+  "unit_sensitivity_interior": 23,
+  "unit_sensitivity_exterior": 1,
+  "ordinary_interior": 8,
+  "excluded_EST_cells": 24,
+  "coefficient_alignment_bound": 1.7e-12,
+  "power_alignment_bound": 8.4e-17,
+  "score_bound": 6.2e-09,
+  "recession_slope_rounding": 10,
+  "ray_loss_rounding": 4,
+  "interpretation": "Published power stays interior; unboundedness belongs to the separate changed-power sensitivity.",
+  "new_models_run": 0
+}

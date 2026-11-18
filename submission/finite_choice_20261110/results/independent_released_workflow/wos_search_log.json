@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-18",
+  "database": "Web of Science Core Collection",
+  "institution_access_confirmed": true,
+  "institution": "Shandong University Of Finance & Economics (SDUFE)",
+  "editions": "All, as displayed",
+  "timespan": "No date filter added except PY 2022-2026 in W6; institutional coverage as available",
+  "queries": [
+    {
+      "id": "W1",
+      "query": "TS=(\"prediction-powered\" OR \"prediction powered\" OR \"rectified loss\") AND TS=(logit* OR \"discrete choice\" OR multinomial OR separa* OR existence)",
+      "hits": 0,
+      "screening": "Zero hits; logistic* missing from this first exploratory vocabulary. Corrected in W3."
+    },
+    {
+      "id": "W2",
+      "query": "TS=(\"prediction-powered\" OR \"prediction powered\")",
+      "hits": 37,
+      "screening": "First four result titles and displayed snippets read; remaining 33 not screened in this session."
+    },
+    {
+      "id": "W3",
+      "query": "TS=(\"prediction-powered\" OR \"prediction powered\" OR \"rectified loss\") AND TS=(logit* OR logistic* OR \"discrete choice\" OR multinomial OR separa* OR existence)",
+      "hits": 1,
+      "screening": "One displayed result screened: unrelated Afaan Oromo medical classification, WOS:001297865300081. Query matches incidental prediction/powered wording."
+    },
+    {
+      "id": "W4",
+      "query": "TS=(logistic* OR logit* OR \"M-estimat*\") AND TS=(\"phase transition*\") AND TS=(exist*)",
+      "hits": 28,
+      "screening": "First four displayed titles/snippets read. Logistic-map and materials results motivate W5."
+    },
+    {
+      "id": "W5",
+      "query": "TS=(\"logistic regression\" OR \"logit model*\" OR \"M-estimat*\") AND TS=(\"phase transition*\") AND TS=(exist*)",
+      "hits": 7,
+      "screening": "All seven result titles and displayed snippets read through scrolling; not seven new full-paper readings."
+    },
+    {
+      "id": "W6",
+      "query": "SO=(\"Journal of Choice Modelling\") AND PY=(2022-2026) AND TS=(\"synthetic\" OR \"language model*\" OR \"prediction-powered\" OR separa* OR \"finite estimat*\")",
+      "hits": 11,
+      "screening": "All eleven titles read through scrolling; RUM-NN abstract expanded but UI text still truncated. Full Sfeir and Nova primary PDFs inspected separately."
+    },
+    {
+      "id": "W7",
+      "query": "TS=(synthetic OR \"predicted response*\" OR \"auxiliary data\") AND TS=(\"discrete choice\" OR \"choice model*\" OR conjoint) AND TS=(estim* OR infer*)",
+      "hits": 114,
+      "screening": "First four displayed titles read; broad set not completely screened."
+    },
+    {
+      "id": "W8",
+      "query": "TS=(\"semi-supervised\" OR \"prediction-powered\" OR \"prediction powered\") AND TS=(logistic* OR logit*) AND TS=(exist* OR separa* OR \"phase transition*\")",
+      "hits": 49,
+      "screening": "First four displayed titles/snippets read; broad set not completely screened."
+    }
+  ],
+  "queries_executed": 8,
+  "source": "Direct native Chrome UI; counts visible on result pages/history. No guessed API counts.",
+  "Scopus_queries_this_turn": 0,
+  "Google_Scholar_queries_this_turn": 0,
+  "exhaustive_systematic_review_completed": false,
+  "duplicates_not_summed_as_unique_studies": true,
+  "zero_hits_are_not_priority_evidence": true,
+  "personal_browser_state_or_session_tokens_included": false
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-18",
+  "status": "passed",
+  "preceding_validation_sha256": "bc431b999606607b6996900735934cede7b7bd7835d7accf026ad5a1ab3f8143",
+  "ordered_tables_exactly_preserved": 20,
+  "ordered_display_bodies_exactly_preserved": 148,
+  "formal_statement_paragraphs_exactly_preserved": 14,
+  "preceding_scientific_and_evidence_files_preserved": 843,
+  "new_evidence_files_bound": 20,
+  "root_analysis_sources_unchanged": 83,
+  "new_model_fits_or_MC_this_integration": 0,
+  "word_count": {
+    "abstract_words": 187,
+    "main_body_lexical_words_excluding_math": 8331,
+    "preceding_main_body_words": 8185,
+    "count_method": "Unicode-letter words with internal hyphens/apostrophes. Sections 1-7 include headings, captions and tables; math, references and appendices excluded.",
+    "word_pattern": "[^\\W\\d_]+(?:[-'’][^\\W\\d_]+)*",
+    "verified_full_research_article_word_cap": null
+  },
+  "all_final_pages_reviewed": true,
+  "full_pages": 74,
+  "reading_pages": 29,
+  "numerical_reconciliation": "reports/external_numeric_reconciliation_20261118.json",
+  "research_goal_complete": false
+}

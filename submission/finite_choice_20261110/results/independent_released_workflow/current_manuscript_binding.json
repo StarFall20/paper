@@ -1,0 +1,10 @@
+{
+  "paper_md_sha256": "40e8e7bb71cec8886a5f7dcc6a16f31e31dbf8a7c5adeedc635a068a1b6bf66a",
+  "paper_docx_sha256": "811d685d93b277defcdd5be67ed7d52954ecdb6d8b050664e5cb9fe13d741d21",
+  "main_text_docx_sha256": "7f06c56fee77ed67b22ae07c2b31f21b879b4e5c6c97eb8d3bfd160933d67a88",
+  "canonical_manuscript_changed_this_turn": false,
+  "preceding_scientific_files_unchanged": 808,
+  "new_fixed_output_audit_separate_from_previous_results": true,
+  "citation_and_external_check_proposed_in": "proposed_manuscript_revision.md",
+  "submission_threshold_certified": false
+}

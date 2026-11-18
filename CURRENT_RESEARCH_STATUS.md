@@ -1,3 +1,11 @@
+# Independent released prediction workflow integrated 18 November 2026
+
+The [current reviewed integration](reports/external_manuscript_integration_20261118/README.md) adds the independent Alves (2026) RADIANT/PPI application to Section 4.7, Appendix C11 and references. All 24 original-power LLM targets are interior. A separately planned unit-power sensitivity has one exterior target; all eight ordinary MNL designs are interior. The 24 statistical-predictor cells lack frozen input vectors and are explicitly outside this reconstruction. The same-data correction application is established prior, not the article's innovation.
+
+Complete/reading Word files have 74/29 fully reviewed pages, 1359/230 native math objects, an abstract of 187 words and main body of 8331 lexical words. All preceding 20 tables, 148 displays, 14 formal statements, 843 scientific/evidence files and 83 root analysis sources retain contents. Twenty nested evidence files bind the already independently checked 47 finite coefficients and one exterior direction. No models or Monte Carlo draws are rerun in this integration. The reviewer and journal packages now share the current manuscript.
+
+The eight actual WOS queries, section-level primary journal readings and source limits remain in the dated nested audit. Its proposed-edit statements are superseded by this integration. Specific originality and sufficient choice-analysis value remain under review. Goal active; no external submission. Earlier entries below are history.
+
 # Complete source, eight WOS searches and an independent released workflow — 18 November 2026
 
 The [current bounded literature/value audit](reports/jcm_value_and_prior_20261118/README.md) directly uses the supplied complete 29-page PPI++ v2 and its Appendices A–C. Eight real Web of Science Core Collection searches are logged, with exact counts and partial-screening limits. Scopus/Scholar were not run this turn. Two current JCM formal PDFs were inspected in specified method/result sections.

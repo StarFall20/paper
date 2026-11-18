@@ -66,3 +66,6 @@ The current integration executes the unchanged official ppi_py logistic interfac
 
 
 18 November theory integration: the row-category comparison uses the formal Koriyama–Bellec 2025 Assumption 2.5 and Lemma A.2. General Gaussian transition is inherited from established kinematics; Götze et al. Corollary 5.6 replaces a repeated relative-interior proof. Yoshida et al. 2021 supplies the lower-bounded weak-label proper-loss lineage. The scale-range corollary uses the classical Bhatia–Davis 2000 bounded-variable bound. Added numerical checks concern the existing objective; no new estimator or general kinematic theorem is claimed. Nested comparison reports record the pre-integration state.
+
+
+18 November external-workflow integration: Alves (2026), Zenodo concept DOI 10.5281/zenodo.23140919, supplies an independent prior RADIANT/PPI application. The public protocol, source and frozen output versions are identified in the nested source audit. Source code is read, not executed; our attributed reconstruction and original-loss verifier generate no new predictions and perform no predictor training. The published-power and changed-power results remain distinct. This addition supplies an external application check, not a new correction objective or a new core theory.

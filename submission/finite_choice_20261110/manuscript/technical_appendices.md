@@ -478,6 +478,18 @@ Each call uses objective tolerance $10^{-15}$, gradient tolerance $10^{-8}$, 100
 
 The rational example in Appendix B5 has critical power $11/20$. At this boundary, represented in floating point, the official call reports optimizer success with coefficient norm 32.10 and score residual below $6\times10^{-15}$. The exact objective has a finite unattained infimum. The floating-point support LP classifies the design as boundary or numerically near boundary. At half power the finite slope is about 3.67677; at powers 0.6 and one the objective is unbounded. The independent original-objective implementation checks all 68 call records, 60 returned arrays, 76 residual-box LPs, eight selected powers and eight initial singular matrices. These cases establish why a small score residual or a numerical success flag needs an objective-support check. The fixed-dimensional PPI++ consistency result retains its stated scope.
 
+### C11 Independent released prediction workflow
+
+Alves (2026) releases a protocol, model code and prediction files for RADIANT choice experiments. Its exploratory coefficient analysis fits objective (2), reusing a power estimated for the opt-out share. Its confirmatory analysis concerns segment coverage and Brier loss. Our finite-design audit uses the released probability file and model summary.
+
+The published summary has 48 cells defined by four contexts, two respondent splits, three coverage levels and two predictors. Its 7200 saved probability records cover all 24 LLM cells. The remaining 24 cells use a statistical predictor whose frozen probabilities and fitted coefficients are absent from that archive. We retain the LLM cells for this audit. Each cell has 15 labelled respondents with 90 menus and 35 auxiliary respondents with 210 menus. The groups share no respondents, and all menus meet the source's validity rule.
+
+The reconstruction preserves the source's categorical coding, price scale, opt-out constant, partition seed and probability handling. The saved prediction file matches the source's recorded hash. Recomputed powers differ from the published table by at most $8.4\times10^{-17}$; selected corrected coefficients differ by at most $1.7\times10^{-12}$ under the published optimizer convention. Predictions remain frozen throughout.
+
+The original powers give 24 interior targets. The separately planned unit-power sensitivity gives 23 interior targets and one exterior target. That cell is COITPR, split zero, medium coverage, with nine fitted coefficients. Its original power is 0.1168395095. A direction of unit $\ell_1$ norm gives recession slope $-0.0325948184$ under unit correction; the original three-term loss at distance 10000 is approximately $-325.2550$. A separate implementation checks 47 finite coefficient vectors against the original loss and gradient, with maximum score residual below $6.2\times10^{-9}$ and positive Hessian eigenvalues. The eight ordinary MNL designs, defined by context and respondent split, are also interior.
+
+The separate check shares data loading and coding but implements the original three-term loss directly. Saved coefficients, support classes and the negative direction accompany the replication scripts. These 24 cells reuse splits and coverage levels; the counts describe the released analysis conditions.
+
 ## Appendix D Powers approaching zero
 
 ### D1 Existence on human separating directions

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "integration": "reports/theory_integration_20261118.json",
-  "visual_qa": "reports/theory_visual_qa_20261118.json",
-  "validation": "reports/theory_validation_20261118.json",
+  "integration": "reports/external_integration_20261118.json",
+  "visual_qa": "reports/external_visual_qa_20261118.json",
+  "validation": "reports/external_validation_20261118.json",
   "historical_reports_are_dated_snapshots": true
 }

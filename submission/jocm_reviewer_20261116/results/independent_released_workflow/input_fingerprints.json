@@ -1,0 +1,68 @@
+{
+  "downloads": [
+    [
+      {
+        "name": "sfeir_published.pdf",
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/244755/1/1-s2.0-S1755534526000291-main.pdf",
+        "status": "ok",
+        "bytes": 2700861,
+        "sha256": "48aacc12a9134a7050dffccb839cd5d189248e5c6ef9706fb2c431520b99e6f2"
+      },
+      {
+        "name": "nova_published.pdf",
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/233154/1/1-s2.0-S1755534525000259-main.pdf",
+        "status": "ok",
+        "bytes": 3799288,
+        "sha256": "0277495d52488ce6fcfc612ffa0eb6b44faf1820d6ef26dc5e3ddf396a785af8"
+      },
+      {
+        "name": "alves_zenodo_record.json",
+        "url": "https://zenodo.org/api/records/23143985",
+        "status": "ok",
+        "bytes": 6795,
+        "sha256": "24d36891aad23826c172925d6461eeefac2c2f3489c9b5b009132ca271a5921a"
+      }
+    ],
+    [
+      {
+        "name": "alves_versions.json",
+        "url": "https://zenodo.org/api/records/23143985/versions",
+        "status": "ok",
+        "bytes": 18704,
+        "sha256": "1e49f11b0f17fea5535bcf7175bbf5255487b05579025514c6f94ca2bd93c912"
+      },
+      {
+        "name": "alves_extra_analysis.py",
+        "url": "https://zenodo.org/api/records/23143985/files/analise_extra.py/content",
+        "status": "ok",
+        "bytes": 10084,
+        "sha256": "d08a2c27bc58267440d432763c3da13f6376a2ef64babf6b5a5385185cd22d5b"
+      }
+    ],
+    [
+      {
+        "name": "Estudo2_protocolo_e_codigo.zip",
+        "url": "https://zenodo.org/api/records/23140920/files/Estudo2_protocolo_e_codigo.zip/content",
+        "bytes": 2919428,
+        "sha256": "3d2e5bcd1d3715d4bc8606dccbce81657c2b70a929184f0e6c3992829328e4a5",
+        "verified_md5": "md5:486fd325328c8f9d29247446d4939786"
+      },
+      {
+        "name": "REGISTRO_PROTOCOLO_Estudo2.md",
+        "url": "https://zenodo.org/api/records/23140920/files/REGISTRO_PROTOCOLO_Estudo2.md/content",
+        "bytes": 4360,
+        "sha256": "a0e739d27728fb39231d25218bb3045f139bb7544183e7c5229bd3d73766121f",
+        "verified_md5": "md5:0530ac35d39589ec2c364d3a17b8e173"
+      }
+    ],
+    {
+      "name": "saida_confirmatorio_qwen3-30b-a3b-instruct-2507-q4_k_m.zip",
+      "url": "https://zenodo.org/api/records/23143623/files/saida_confirmatorio_qwen3-30b-a3b-instruct-2507-q4_k_m.zip/content",
+      "bytes": 2505328,
+      "sha256": "7a8a093f1bee280732133aa7e8ad1baf57c07063464f39e55f4d08e7ae73274f",
+      "verified_md5": "md5:eb7b61b023ba739e397490571f19a724"
+    }
+  ],
+  "original_code_sha256": "18a16dd5dace3630af158564fa6e1e7cd1dbe318544b1642b338254745a59201",
+  "third_party_code_redistributed": false
+}

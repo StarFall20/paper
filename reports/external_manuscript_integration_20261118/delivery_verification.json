@@ -1,0 +1,67 @@
+[
+  {
+    "archive": "jocm_reviewer_reproduction_external_20261118.zip",
+    "sha256": "fb12a88160bc4338f384b414a8c0da2816fab67d671dc84527b76a20ffb18557",
+    "files": 1108,
+    "bytes": 48131736,
+    "fresh_extract_all_files_identical": true,
+    "isolated_package_check": {
+      "manifest_entries_verified": 1107,
+      "broken_local_markdown_links": 0,
+      "science_import_closure_present": true,
+      "menu_source_closure_files": 15,
+      "score_source_closure_files": 13,
+      "observed_reference_source_closure_files": 9,
+      "radial_source_closure_files": 11,
+      "current_manuscript_sources_and_reviewed_Word_match": true,
+      "raw_pickle_inputs_shipped": false
+    },
+    "independent_workflow_saved_check": {
+      "status": "passed",
+      "saved_support_cells": 48,
+      "original_rule_interior": 24,
+      "unit_sensitivity_exterior": 1,
+      "ordinary_controls": 8,
+      "wos_queries": 8
+    },
+    "food_DCE_table_check": {
+      "state": "passed",
+      "new_tables_reconciled": [
+        "C4",
+        "C5"
+      ],
+      "table_C4_rows": 4,
+      "table_C5_rows": 8,
+      "complete_method_records": 16000,
+      "paired_unit_outside_with_ordinary_interior": [
+        40,
+        18,
+        0,
+        0
+      ],
+      "all_20_table_blocks_present": true,
+      "old_18_table_values_checked_by_existing_entry": true,
+      "new_primary_fits_or_MC_run": false,
+      "prior_original_row_verification_hash": "cd7713a65ace81ea36598b761859135883324210ef279f64c6ce23406a07022b"
+    }
+  },
+  {
+    "archive": "jocm_submission_files_external_20261118.zip",
+    "sha256": "0f40f36a2a7627d044274315054a28184a4ec3a8694e56347f1074be0c5315cc",
+    "files": 20,
+    "bytes": 1248107,
+    "fresh_extract_all_files_identical": true
+  },
+  {
+    "document": "jocm_manuscript_external_20261118.docx",
+    "sha256": "7ecc4d138c05152bd949f413e377708ceb506d6c8b79e4a271dc00947fc1eee3",
+    "bytes": 1026379,
+    "review_bound_by": "reports/external_visual_qa_20261118.json"
+  },
+  {
+    "document": "jocm_main_text_external_20261118.docx",
+    "sha256": "1151d6dbaed0c798eb146c0c44e8e619630749fbecdcfc67ba3ad85ff7e8b302",
+    "bytes": 920450,
+    "review_bound_by": "reports/external_visual_qa_20261118.json"
+  }
+]

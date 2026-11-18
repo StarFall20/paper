@@ -365,3 +365,14 @@ For the integrated official API diagnostics and secondary price calculation, fol
 ## Theory comparison and bounded scale evidence 18 November 2026
 
 The [bounded-scale package](results/bounded_scale_scope/README.md) and [direct-theorem package](results/direct_theorem_comparison/README.md) specify their pinned requirements and calculation/verification commands. Use a fresh copied directory for each numerical replay, as instructed there; the primary calculations refuse to overwrite saved boundaries. `python verify_package.py` verifies their nested manifests and source-bound saved checks without recomputing numerical results. The standalone reports' proposed-edit statements describe their pre-integration stage; current Word sources are bound by `reports/current_manuscript.json`.
+
+
+## Independent released prediction workflow 18 November 2026
+
+Use a fresh local input/output directory. The first command downloads the two public archives with fixed SHA-256 checks; original response files are not shipped. No LLM calls or predictor training are performed. The saved original-power and separately planned unit-power cases remain distinct.
+
+```sh
+python results/independent_released_workflow/fetch_sources.py --out local_inputs/independent_workflow
+python results/independent_released_workflow/audit_released_workflow.py --inputs local_inputs/independent_workflow --out regenerated/independent_workflow
+python results/independent_released_workflow/verify_released_workflow.py --inputs local_inputs/independent_workflow --results regenerated/independent_workflow
+```

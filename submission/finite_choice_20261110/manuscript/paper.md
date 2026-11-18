@@ -329,6 +329,12 @@ Table C5 retains all eight methods, unavailable fits and common-fit denominators
 
 The saved fits give descriptive Bere price equivalents in GBP per 250 g package. Of 15418 available fits, 15417 have negative price slopes and one has a positive slope. At twenty labelled respondents, median unit-correction and ordinary-MNL equivalents are GBP1.244 and GBP1.307, with 5th–95th allocation ranges of −0.410 to 3.213 and −0.436 to 3.142. At forty respondents the medians are GBP1.332 and GBP1.343. Five-person distributions are wider, including direct-ridge extremes. Appendix C9 retains coding and conditional-fit denominators; these allocation summaries are descriptive coefficient ratios.
 
+### 4.7 Fixed predictions from an independent choice study
+
+Alves (2026) studies large language model (LLM) predictions for an underrepresented age segment in released RADIANT experiments. The study also explores prediction-powered estimates of choice-logit coefficients. Its public outputs permit an additional finite-design check. We reconstruct 24 released fits across four contexts, preserving the utility specifications, respondent splits, frozen probabilities and published powers. Appendix C11 gives the reconstruction and required inputs.
+
+All 24 targets are interior at their published powers; nine powers equal zero. A separately specified unit-power sensitivity has one exterior target among 24 cells. All eight distinct ordinary MNL designs are interior. In the exterior cell, the published power is approximately 0.11684 and retains a finite estimate. The unit-power objective decreases without bound along a verified direction. These results locate the issue in a particular choice of correction power. They describe realized categorical designs; the Gaussian proportional-dimensional law remains a separate result.
+
 ## 5 Finite estimation and statistical performance
 
 ### 5.1 Known truth experiment
@@ -987,6 +993,18 @@ Each call uses objective tolerance $10^{-15}$, gradient tolerance $10^{-8}$, 100
 
 The rational example in Appendix B5 has critical power $11/20$. At this boundary, represented in floating point, the official call reports optimizer success with coefficient norm 32.10 and score residual below $6\times10^{-15}$. The exact objective has a finite unattained infimum. The floating-point support LP classifies the design as boundary or numerically near boundary. At half power the finite slope is about 3.67677; at powers 0.6 and one the objective is unbounded. The independent original-objective implementation checks all 68 call records, 60 returned arrays, 76 residual-box LPs, eight selected powers and eight initial singular matrices. These cases establish why a small score residual or a numerical success flag needs an objective-support check. The fixed-dimensional PPI++ consistency result retains its stated scope.
 
+### C11 Independent released prediction workflow
+
+Alves (2026) releases a protocol, model code and prediction files for RADIANT choice experiments. Its exploratory coefficient analysis fits objective (2), reusing a power estimated for the opt-out share. Its confirmatory analysis concerns segment coverage and Brier loss. Our finite-design audit uses the released probability file and model summary.
+
+The published summary has 48 cells defined by four contexts, two respondent splits, three coverage levels and two predictors. Its 7200 saved probability records cover all 24 LLM cells. The remaining 24 cells use a statistical predictor whose frozen probabilities and fitted coefficients are absent from that archive. We retain the LLM cells for this audit. Each cell has 15 labelled respondents with 90 menus and 35 auxiliary respondents with 210 menus. The groups share no respondents, and all menus meet the source's validity rule.
+
+The reconstruction preserves the source's categorical coding, price scale, opt-out constant, partition seed and probability handling. The saved prediction file matches the source's recorded hash. Recomputed powers differ from the published table by at most $8.4\times10^{-17}$; selected corrected coefficients differ by at most $1.7\times10^{-12}$ under the published optimizer convention. Predictions remain frozen throughout.
+
+The original powers give 24 interior targets. The separately planned unit-power sensitivity gives 23 interior targets and one exterior target. That cell is COITPR, split zero, medium coverage, with nine fitted coefficients. Its original power is 0.1168395095. A direction of unit $\ell_1$ norm gives recession slope $-0.0325948184$ under unit correction; the original three-term loss at distance 10000 is approximately $-325.2550$. A separate implementation checks 47 finite coefficient vectors against the original loss and gradient, with maximum score residual below $6.2\times10^{-9}$ and positive Hessian eigenvalues. The eight ordinary MNL designs, defined by context and respondent split, are also interior.
+
+The separate check shares data loading and coding but implements the original three-term loss directly. Saved coefficients, support classes and the negative direction accompany the replication scripts. These 24 cells reuse splits and coverage levels; the counts describe the released analysis conditions.
+
 ## Appendix D Powers approaching zero
 
 ### D1 Existence on human separating directions
@@ -1611,6 +1629,8 @@ During preparation of this work, ChatGPT and Codex were used to assist with lite
 ## References
 
 Albert, A., Anderson, J. A. (1984). On the existence of maximum likelihood estimates in logistic regression models. Biometrika 71(1), 1–10. https://doi.org/10.1093/biomet/71.1.1
+
+Alves, J.N. (2026). Estimand-specific authorization of synthetic survey responses: preregistered protocol, code and pilot outputs (Study 2). Software, protocol and outputs deposited 4 October 2026. Zenodo. https://doi.org/10.5281/zenodo.23140919
 
 Amelunxen, D., Lotz, M., McCoy, M.B., Tropp, J.A. (2014). Living on the edge: Phase transitions in convex programs with random data. Information and Inference 3, 224–294. https://doi.org/10.1093/imaiai/iau005
 

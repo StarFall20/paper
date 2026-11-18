@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-18",
+  "stage": "Protocol fixed before reading the v2 output archive",
+  "purpose": "Compare a genuinely independent public RADIANT/PPI choice workflow with the current contribution; assess global finite attainment for every reconstructible released corrected fit, without training or generating any responses.",
+  "source": {
+    "concept_doi": "10.5281/zenodo.23140919",
+    "original_protocol_version": 23140920,
+    "output_version": 23143623,
+    "extra_analysis_version": 23143985
+  },
+  "prior_already_inspected": [
+    "Version-index metadata; complete original 2026-10-04 protocol; original pipeline corrected loss ppi_beta lines 823-830; extra-analysis code."
+  ],
+  "known_overlap": "Same public RADIANT DCE source and same unpenalized compensated common-coefficient MNL objective. Segment-coverage/estimand-authorization analysis is distinct from a proportional-dimensional existence boundary.",
+  "audit_population": "Every released context by split by coverage by predictor fit in the v2 output archive for which profiles, frozen probabilities and split reconstruction are available; report excluded/missing cells explicitly.",
+  "controls": [
+    "Use the released correction power first; unit power is a separately labelled sensitivity check, never a replacement for the primary rule.",
+    "Keep the released utility specification and all menu alternatives.",
+    "No API calls, predictor fitting, new respondent sampling, tuning for failures or altered allocation seeds.",
+    "Check reconstructed scalar lambda and corrected selected coefficient against public summaries before interpreting an existence result.",
+    "Classify global support using the existing independent LP audit, verify rank, primal slack and exterior recession gap; numerical ambiguous cells remain unresolved.",
+    "Do not infer population failure prevalence from a small fixed public archive.",
+    "All-interior results are retained and narrow practical scope; no failure is required for a successful audit.",
+    "Do not describe original authors as making a false existence claim from their returning a coefficient alone."
+  ],
+  "source_scope": "The supplementary Python is read, not executed; data/config credentials are not printed. Only public frozen outputs and attributed source metadata enter any public comparison.",
+  "word_changes": "No canonical Word change before source reconstruction and manuscript citation scope are resolved.",
+  "model_runs_so_far": 0,
+  "MC_runs_so_far": 0,
+  "submission_threshold_certified": false
+}

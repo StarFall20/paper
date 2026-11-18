@@ -12,8 +12,8 @@
       "1": "Current final PNG directly inspected at original resolution"
     }
   },
-  "copied_manuscript_visual_review": "theory_visual_qa_20261118.json covers all 73 complete / 29 reading pages through original-resolution inspection or exact inspected-PNG inheritance.",
+  "copied_manuscript_visual_review": "external_visual_qa_20261118.json covers all 74 complete / 29 reading pages by original-resolution inspection or exact inspected-PNG inheritance.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
   "highlights_visual_review": "Unchanged source hash bound to current full visual QA",
-  "manuscript_docx_sha256": "811d685d93b277defcdd5be67ed7d52954ecdb6d8b050664e5cb9fe13d741d21"
+  "manuscript_docx_sha256": "7ecc4d138c05152bd949f413e377708ceb506d6c8b79e4a271dc00947fc1eee3"
 }

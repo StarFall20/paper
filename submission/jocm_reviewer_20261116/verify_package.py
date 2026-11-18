@@ -140,3 +140,13 @@ for name in ['bounded_scale_scope','direct_theorem_comparison']:
   assert json.loads((nested/'results/independent_verification.json').read_text())['status']=='passed'
  else:
   assert json.loads((nested/'results/verification.json').read_text())['status']=='passed'
+
+# The complete independent released-workflow evidence is a dated source audit.
+external=ROOT/'results/independent_released_workflow'
+for line in (external/'MANIFEST.sha256').read_text().splitlines():
+ h,n=line.split('  ',1);assert hashlib.sha256((external/n).read_bytes()).hexdigest()==h,n
+e=json.loads((external/'results/summary.json').read_text())
+assert e['support_counts']=={'released_power':{'interior':24},'unit_power_sensitivity':{'interior':23,'outside':1}}
+assert e['unreconstructed_EST_cells']==24
+ev=json.loads((external/'results/independent_verification.json').read_text())
+assert ev['verified_finite_coefficients']==47 and ev['verified_exterior_directions']==1 and ev['ordinary_interior']==8

@@ -1,0 +1,114 @@
+{
+  "W5": [
+    {
+      "title": "Statistics of the two star ERGM",
+      "accession": "WOS:000928227700002",
+      "triage": "Network likelihood; not this compensated target."
+    },
+    {
+      "title": "Quartic balance theory: Global minimum with imbalanced triangles",
+      "accession": "WOS:000550130600006",
+      "triage": "Signed-network physics; not this target."
+    },
+    {
+      "title": "The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models",
+      "accession": "WOS:000587719400043",
+      "triage": "Tang–Ye 2020; ordinary elliptical binary GLM; already in current references."
+    },
+    {
+      "title": "The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression",
+      "accession": "WOS:000514816000002",
+      "triage": "Candès–Sur 2020; established ordinary Gaussian-logit boundary."
+    },
+    {
+      "title": "Fundamental barriers to high-dimensional regression with convex penalties",
+      "accession": "WOS:000758697800008",
+      "triage": "Penalized regression; broader high-dimensional context."
+    },
+    {
+      "title": "Gaussian random projections of convex cones: approximate kinematic formulae and applications",
+      "accession": "WOS:001715176900001",
+      "triage": "Han–Ren 2026; general geometry already attributed."
+    },
+    {
+      "title": "Diaconis-Ylvisaker prior penalized likelihood for p/n to kappa in (0,1) logistic regression",
+      "accession": null,
+      "triage": "Sterzinger–Kosmidis 2026; already in manuscript. WOS accession was not recorded from expanded UI."
+    }
+  ],
+  "W6": [
+    {
+      "title": "Can large language models assist choice modelling? Insights into prompting strategies and current models' capabilities",
+      "accession": "WOS:001848426900001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Using Lagrange multiplier type tests to detect structural intra-person heterogeneity in composite marginal likelihood estimation in panel data sets",
+      "accession": "WOS:001584467800001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Matching and weighting in stated preferences for health care",
+      "accession": "WOS:000840990400001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "A neural estimation framework for discrete choice models with arbitrary error distributions",
+      "accession": "WOS:001632784100001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Modelling online job search and choices of dentists in the Australian job market: Staged sequential DCEs and FIML econometric methods",
+      "accession": "WOS:000888778100002",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Long-distance mode choice model estimation using mobile phone network data",
+      "accession": "WOS:000819919700002",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Joint learning from heterogeneous rank data: The sparse fused rank-ordered logit model",
+      "accession": "WOS:001827319000001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Do choice tasks and rating scales elicit the same judgments?",
+      "accession": "WOS:001076587800001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Capturing zero-price effects in stated choice surveys: implications for willingness-to-pay and welfare",
+      "accession": "WOS:001640484600001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Location choice of residential housing supply: An application of the multiple discrete-continuous extreme value (MDCEV) model",
+      "accession": "WOS:001386449700001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    },
+    {
+      "title": "Separation-based parameterization strategies for estimation of restricted covariance matrices in multivariate model systems",
+      "accession": "WOS:000972377600001",
+      "reading": "Displayed title; full-source reading only where separately recorded"
+    }
+  ],
+  "W2_first_four": [
+    "PPI++: Efficient prediction-powered inference",
+    "Prediction-powered inference",
+    "Next-generation of protein-structure prediction powered by deep-learning",
+    "Prediction-Powered Model Checking via Predictiveness Comparisons"
+  ],
+  "W7_first_four": [
+    "Discrete choice modeling with anonymized data",
+    "Representing Random Utility Choice Models with Neural Networks",
+    "On the Estimation of Discrete Choice Models to Capture Irrational Customer Behaviors",
+    "Enhancing choice-set generation and route choice modeling with data- and knowledge-driven approach"
+  ],
+  "W8_first_four": [
+    "An empirical investigation of alternative semi-supervised segmentation methodologies",
+    "Local preserving logistic I-Relief for semi-supervised feature selection",
+    "Semi-supervised logistic learning based on exponential tilt mixture models",
+    "Co-Training Broad Siamese-Like Network for Coupled-View Semi-Supervised Learning"
+  ]
+}

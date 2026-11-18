@@ -1,0 +1,218 @@
+[
+  {
+    "context": "COBGID",
+    "rep": 0,
+    "coverage": "alta",
+    "power_error": 0.0,
+    "published_beta": 0.5023403348479073,
+    "replayed_beta": 0.5023403348479086,
+    "coefficient_error": 1.3322676295501878e-15
+  },
+  {
+    "context": "COBGID",
+    "rep": 0,
+    "coverage": "media",
+    "power_error": 0.0,
+    "published_beta": 0.5023403348479073,
+    "replayed_beta": 0.5023403348479086,
+    "coefficient_error": 1.3322676295501878e-15
+  },
+  {
+    "context": "COBGID",
+    "rep": 0,
+    "coverage": "baixa",
+    "power_error": 7.632783294297951e-17,
+    "published_beta": 0.5010135671065955,
+    "replayed_beta": 0.5010135671066044,
+    "coefficient_error": 8.881784197001252e-15
+  },
+  {
+    "context": "COBGID",
+    "rep": 1,
+    "coverage": "alta",
+    "power_error": 0.0,
+    "published_beta": 0.3301022072713506,
+    "replayed_beta": 0.33010220727134887,
+    "coefficient_error": 1.7208456881689926e-15
+  },
+  {
+    "context": "COBGID",
+    "rep": 1,
+    "coverage": "media",
+    "power_error": 0.0,
+    "published_beta": 0.3301022072713506,
+    "replayed_beta": 0.33010220727134887,
+    "coefficient_error": 1.7208456881689926e-15
+  },
+  {
+    "context": "COBGID",
+    "rep": 1,
+    "coverage": "baixa",
+    "power_error": 0.0,
+    "published_beta": 0.3301022072713506,
+    "replayed_beta": 0.33010220727134887,
+    "coefficient_error": 1.7208456881689926e-15
+  },
+  {
+    "context": "COESHT",
+    "rep": 0,
+    "coverage": "alta",
+    "power_error": 2.0816681711721685e-17,
+    "published_beta": 0.6970900833414184,
+    "replayed_beta": 0.6970900833418199,
+    "coefficient_error": 4.014566457044566e-13
+  },
+  {
+    "context": "COESHT",
+    "rep": 0,
+    "coverage": "media",
+    "power_error": 0.0,
+    "published_beta": 0.698205677875761,
+    "replayed_beta": 0.6982056778774142,
+    "coefficient_error": 1.653122083666858e-12
+  },
+  {
+    "context": "COESHT",
+    "rep": 0,
+    "coverage": "baixa",
+    "power_error": 0.0,
+    "published_beta": 0.698205677875761,
+    "replayed_beta": 0.6982056778774142,
+    "coefficient_error": 1.653122083666858e-12
+  },
+  {
+    "context": "COESHT",
+    "rep": 1,
+    "coverage": "alta",
+    "power_error": 6.938893903907228e-17,
+    "published_beta": 1.1309529977113817,
+    "replayed_beta": 1.1309529977113508,
+    "coefficient_error": 3.086420008457935e-14
+  },
+  {
+    "context": "COESHT",
+    "rep": 1,
+    "coverage": "media",
+    "power_error": 2.0816681711721685e-17,
+    "published_beta": 1.1229738762805117,
+    "replayed_beta": 1.1229738762805317,
+    "coefficient_error": 1.9984014443252818e-14
+  },
+  {
+    "context": "COESHT",
+    "rep": 1,
+    "coverage": "baixa",
+    "power_error": 4.163336342344337e-17,
+    "published_beta": 1.132489945699154,
+    "replayed_beta": 1.1324899456991437,
+    "coefficient_error": 1.021405182655144e-14
+  },
+  {
+    "context": "COITPR",
+    "rep": 0,
+    "coverage": "alta",
+    "power_error": 0.0,
+    "published_beta": 0.4539417925132987,
+    "replayed_beta": 0.45394179251329475,
+    "coefficient_error": 3.941291737419306e-15
+  },
+  {
+    "context": "COITPR",
+    "rep": 0,
+    "coverage": "media",
+    "power_error": 0.0,
+    "published_beta": 0.5140060380870077,
+    "replayed_beta": 0.5140060380872105,
+    "coefficient_error": 2.0272672429655358e-13
+  },
+  {
+    "context": "COITPR",
+    "rep": 0,
+    "coverage": "baixa",
+    "power_error": 0.0,
+    "published_beta": 0.4584987217433335,
+    "replayed_beta": 0.4584987217433241,
+    "coefficient_error": 9.381384558082573e-15
+  },
+  {
+    "context": "COITPR",
+    "rep": 1,
+    "coverage": "alta",
+    "power_error": 8.326672684688674e-17,
+    "published_beta": 0.8852011410653365,
+    "replayed_beta": 0.8852011410653368,
+    "coefficient_error": 2.220446049250313e-16
+  },
+  {
+    "context": "COITPR",
+    "rep": 1,
+    "coverage": "media",
+    "power_error": 0.0,
+    "published_beta": 0.9108355486458268,
+    "replayed_beta": 0.9108355486457523,
+    "coefficient_error": 7.4495964952348e-14
+  },
+  {
+    "context": "COITPR",
+    "rep": 1,
+    "coverage": "baixa",
+    "power_error": 1.3877787807814457e-17,
+    "published_beta": 0.9399392910785116,
+    "replayed_beta": 0.9399392910784836,
+    "coefficient_error": 2.7977620220553945e-14
+  },
+  {
+    "context": "COITYP",
+    "rep": 0,
+    "coverage": "alta",
+    "power_error": 2.0816681711721685e-17,
+    "published_beta": 0.8136892855295188,
+    "replayed_beta": 0.8136892855294908,
+    "coefficient_error": 2.7977620220553945e-14
+  },
+  {
+    "context": "COITYP",
+    "rep": 0,
+    "coverage": "media",
+    "power_error": 4.85722573273506e-17,
+    "published_beta": 0.7939961874200487,
+    "replayed_beta": 0.7939961874201319,
+    "coefficient_error": 8.315570454442422e-14
+  },
+  {
+    "context": "COITYP",
+    "rep": 0,
+    "coverage": "baixa",
+    "power_error": 0.0,
+    "published_beta": 1.433873094415107,
+    "replayed_beta": 1.4338730944151044,
+    "coefficient_error": 2.6645352591003757e-15
+  },
+  {
+    "context": "COITYP",
+    "rep": 1,
+    "coverage": "alta",
+    "power_error": 0.0,
+    "published_beta": 0.2793989769695455,
+    "replayed_beta": 0.2793989769695504,
+    "coefficient_error": 4.884981308350689e-15
+  },
+  {
+    "context": "COITYP",
+    "rep": 1,
+    "coverage": "media",
+    "power_error": 5.551115123125783e-17,
+    "published_beta": 0.2159912827650657,
+    "replayed_beta": 0.21599128276505228,
+    "coefficient_error": 1.3433698597964394e-14
+  },
+  {
+    "context": "COITYP",
+    "rep": 1,
+    "coverage": "baixa",
+    "power_error": 5.551115123125783e-17,
+    "published_beta": 0.3341590567362549,
+    "replayed_beta": 0.3341590567362458,
+    "coefficient_error": 9.103828801926284e-15
+  }
+]
