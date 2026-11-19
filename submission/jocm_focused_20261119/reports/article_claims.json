@@ -1,0 +1,146 @@
+{
+  "status": "passed",
+  "fixed_example": {
+    "labelled": 32,
+    "auxiliary_each": 32,
+    "positive_recession": [
+      "1/32",
+      "0",
+      "-1/32"
+    ],
+    "score": [
+      "0",
+      "-3/32"
+    ],
+    "hessian_diagonal": [
+      "1/4",
+      "1/32"
+    ],
+    "third_derivatives_zero_at_reference": true,
+    "same_reference_score_rows": true,
+    "finite_slope": "2 log 7"
+  },
+  "food_availability": {
+    "5": [
+      356,
+      144,
+      40
+    ],
+    "10": [
+      479,
+      21,
+      18
+    ],
+    "20": [
+      500,
+      0,
+      0
+    ],
+    "40": [
+      500,
+      0,
+      0
+    ]
+  },
+  "food_loss_paths": {
+    "uncapped_positive": [
+      87,
+      1.3075,
+      2.2208,
+      84
+    ],
+    "capped_low_budget": [
+      356,
+      0.9004,
+      0.9264,
+      221
+    ]
+  },
+  "swissmetro_table": [
+    [
+      "canonical_4",
+      2,
+      25,
+      1.967,
+      3.002,
+      24
+    ],
+    [
+      "canonical_4",
+      5,
+      13,
+      1.657,
+      3.315,
+      13
+    ],
+    [
+      "canonical_4",
+      10,
+      3,
+      0.994,
+      2.439,
+      3
+    ],
+    [
+      "mode_specific_8",
+      2,
+      20,
+      2.16,
+      3.704,
+      18
+    ],
+    [
+      "mode_specific_8",
+      5,
+      24,
+      1.97,
+      4.635,
+      24
+    ],
+    [
+      "mode_specific_8",
+      10,
+      8,
+      1.389,
+      2.922,
+      8
+    ]
+  ],
+  "swissmetro_control": [
+    64,
+    1.1504036058021827,
+    1.1619091824942847,
+    35
+  ],
+  "swissmetro_cost_pairs": 1152,
+  "language_model_table": [
+    [
+      15,
+      120,
+      115,
+      114,
+      120
+    ],
+    [
+      5,
+      360,
+      268,
+      215,
+      295
+    ]
+  ],
+  "language_model_excess_loss": [
+    0.064,
+    0.0827
+  ],
+  "evidence_hashes": {
+    "manuscript/tableB1.md": "a51415559501629e93e5bf12aad2c0893f89c3bdd0dc1227fc9f20c67d3d5315",
+    "results/dce_frontier_economic_path/results/paths.csv": "ea0e06d1941d1b30f9286350953d9413e9541ca987f1d26533b8fab3a0e87f26",
+    "results/fixed_power_identical_scores/verification.json": "0f2480aa48ac90e72d008c39c898ceec198001c536f760c121e003a993cc7faf",
+    "results/menu_distribution_transport/results.json": "914ee7be7e29e5b8c06d38db07d57248c2aa32f394670798117e4648875aee12",
+    "results/public_panel_dce/results/method_records.csv": "c16aa4ff066d5c6a5dc724cda5591180ee26e49795a7cc832dbb4d94c35b0df3",
+    "results/swissmetro_corrected_path/results/allocations.csv": "e82230099f98f67cb0cd2347b207c343f308da38f7d5b89c3eb55ce8896e3340",
+    "results/swissmetro_corrected_path/results/label_cost/records.csv": "c0262bb9aa3292255cc1c8cbca20414ddb1bd5b172e723b17141d9cf0e26eb0e",
+    "results/swissmetro_corrected_path/results/paths.csv": "16c7c194d998b967ebb59d22da03e91abd04f4e60d37a6f85d6ef54b5df3989b"
+  }
+}

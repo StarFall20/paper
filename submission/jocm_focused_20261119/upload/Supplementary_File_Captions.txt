@@ -1,0 +1,5 @@
+Supplementary_Methods_and_Proofs.docx
+Derivations for finite estimation and prediction near the correction-weight boundary, with additional simulations, tables and sensitivity analyses.
+
+Reproduction_Materials.zip
+Analysis and verification code, public data source identifiers and archived numerical results.

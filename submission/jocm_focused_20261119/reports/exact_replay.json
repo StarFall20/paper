@@ -1,0 +1,1162 @@
+{
+  "status": "passed",
+  "design_cases": 30,
+  "fitted_powers": [
+    "1/2",
+    "1"
+  ],
+  "independent_recession_reconstruction": true,
+  "exact_scores_hessians_sandwich_jets": true,
+  "max_order": 33,
+  "compact_case": {
+    "family": "near_extremal_grid_constructions",
+    "K": 1,
+    "power": "1",
+    "degree": 3,
+    "m": 32,
+    "N": 32,
+    "common_reference_score": [
+      "0",
+      "-3/32"
+    ],
+    "common_reference_hessian_diagonal": [
+      "1/4",
+      "1/32"
+    ],
+    "common_reference_newton_slope": "3",
+    "labelled_brier": "7/32",
+    "ordinary_baseline_brier": "1/4",
+    "outcomes": {
+      "finite": {
+        "recession_positive": "1/32",
+        "recession_negative": "7/32",
+        "finite_slope": "3.89182029811062661",
+        "ordinary_slope": "3.89182029811062661"
+      },
+      "boundary": {
+        "recession_positive": "0",
+        "recession_negative": "3/16",
+        "finite_intercept_limit_constant": "0.476538686634962400"
+      },
+      "unbounded": {
+        "recession_positive": "-1/32",
+        "recession_negative": "5/32",
+        "finite_intercept_limit_constant": "0.606503782989952146"
+      }
+    }
+  },
+  "records": [
+    {
+      "family": "exact_constructions",
+      "K": 1,
+      "power": "1/2",
+      "degree": 3,
+      "m": 256,
+      "N": 64,
+      "common_reference_score": [
+        "0",
+        "-31/192"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "1/18"
+      ],
+      "common_reference_newton_slope": "93/32",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1/192",
+          "recession_negative": "21/64",
+          "finite_slope": "6.21470208958729903",
+          "ordinary_slope": "6.21470208958729903"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "31/96",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-1/192",
+          "recession_negative": "61/192",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 1,
+      "power": "1",
+      "degree": 3,
+      "m": 128,
+      "N": 64,
+      "common_reference_score": [
+        "0",
+        "-5/32"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "1/18"
+      ],
+      "common_reference_newton_slope": "45/16",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1/96",
+          "recession_negative": "31/96",
+          "finite_slope": "5.15098080672771937",
+          "ordinary_slope": "5.15098080672771937"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "5/16",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-1/96",
+          "recession_negative": "29/96",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 2,
+      "power": "1/2",
+      "degree": 5,
+      "m": 4608,
+      "N": 128,
+      "common_reference_score": [
+        "0",
+        "-71/512"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "11/256"
+      ],
+      "common_reference_newton_slope": "71/22",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1/512",
+          "recession_negative": "143/512",
+          "finite_slope": "9.42428055826994332",
+          "ordinary_slope": "9.42428055826994332"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "71/256",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-1/512",
+          "recession_negative": "141/512",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 2,
+      "power": "1",
+      "degree": 5,
+      "m": 2304,
+      "N": 128,
+      "common_reference_score": [
+        "0",
+        "-35/256"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "11/256"
+      ],
+      "common_reference_newton_slope": "35/11",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1/256",
+          "recession_negative": "71/256",
+          "finite_slope": "8.02534676430299601",
+          "ordinary_slope": "8.02534676430299601"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "35/128",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-1/256",
+          "recession_negative": "69/256",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 3,
+      "power": "1/2",
+      "degree": 7,
+      "m": 4096,
+      "N": 1024,
+      "common_reference_score": [
+        "0",
+        "-127/1024"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "7/200"
+      ],
+      "common_reference_newton_slope": "3175/896",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1/1024",
+          "recession_negative": "255/1024",
+          "finite_slope": "12.5805421804837653",
+          "ordinary_slope": "12.5805421804837653"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "127/512",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-1/1024",
+          "recession_negative": "253/1024",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 3,
+      "power": "1",
+      "degree": 7,
+      "m": 2048,
+      "N": 1024,
+      "common_reference_score": [
+        "0",
+        "-63/512"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "7/200"
+      ],
+      "common_reference_newton_slope": "225/64",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1/512",
+          "recession_negative": "127/512",
+          "finite_slope": "10.8425114049421049",
+          "ordinary_slope": "10.8425114049421049"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "63/256",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-1/512",
+          "recession_negative": "125/512",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 4,
+      "power": "1/2",
+      "degree": 9,
+      "m": 409600,
+      "N": 2048,
+      "common_reference_score": [
+        "0",
+        "-1393/12288"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "17/576"
+      ],
+      "common_reference_newton_slope": "4179/1088",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "7/12288",
+          "recession_negative": "931/4096",
+          "finite_slope": "15.7195785591469198",
+          "ordinary_slope": "15.7195785591469198"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "1393/6144",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-7/12288",
+          "recession_negative": "2779/12288",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 4,
+      "power": "1",
+      "degree": 9,
+      "m": 204800,
+      "N": 2048,
+      "common_reference_score": [
+        "0",
+        "-231/2048"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "17/576"
+      ],
+      "common_reference_newton_slope": "2079/544",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "7/6144",
+          "recession_negative": "1393/6144",
+          "finite_slope": "13.6414554598806928",
+          "ordinary_slope": "13.6414554598806928"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "231/1024",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-7/6144",
+          "recession_negative": "1379/6144",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 6,
+      "power": "1/2",
+      "degree": 13,
+      "m": 6422528,
+      "N": 32768,
+      "common_reference_score": [
+        "0",
+        "-12903/131072"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "23/1024"
+      ],
+      "common_reference_newton_slope": "561/128",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "33/131072",
+          "recession_negative": "25839/131072",
+          "finite_slope": "21.9802672117503399",
+          "ordinary_slope": "21.9802672117503399"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "12903/65536",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-33/131072",
+          "recession_negative": "25773/131072",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 6,
+      "power": "1",
+      "degree": 13,
+      "m": 3211264,
+      "N": 32768,
+      "common_reference_score": [
+        "0",
+        "-6435/65536"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "23/1024"
+      ],
+      "common_reference_newton_slope": "6435/1472",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "33/65536",
+          "recession_negative": "12903/65536",
+          "finite_slope": "19.2212359770215583",
+          "ordinary_slope": "19.2212359770215583"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "6435/32768",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-33/65536",
+          "recession_negative": "12837/65536",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 8,
+      "power": "1/2",
+      "degree": 17,
+      "m": 339738624,
+      "N": 524288,
+      "common_reference_score": [
+        "0",
+        "-92521/1048576"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "29/1600"
+      ],
+      "common_reference_newton_slope": "2313025/475136",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "143/1048576",
+          "recession_negative": "185185/1048576",
+          "finite_slope": "28.2334501710526960",
+          "ordinary_slope": "28.2334501710526960"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "92521/524288",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-143/1048576",
+          "recession_negative": "184899/1048576",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 8,
+      "power": "1",
+      "degree": 17,
+      "m": 169869312,
+      "N": 524288,
+      "common_reference_score": [
+        "0",
+        "-46189/524288"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "29/1600"
+      ],
+      "common_reference_newton_slope": "1154725/237568",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "143/524288",
+          "recession_negative": "92521/524288",
+          "finite_slope": "24.7934109045194706",
+          "ordinary_slope": "24.7934109045194706"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "46189/262144",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-143/524288",
+          "recession_negative": "92235/524288",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 12,
+      "power": "1/2",
+      "degree": 25,
+      "m": 181462368256,
+      "N": 134217728,
+      "common_reference_score": [
+        "0",
+        "-10036579/134217728"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "41/3136"
+      ],
+      "common_reference_newton_slope": "491792371/85983232",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "7429/134217728",
+          "recession_negative": "20080587/134217728",
+          "finite_slope": "40.7349689666671194",
+          "ordinary_slope": "40.7349689666671194"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "10036579/67108864",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-7429/134217728",
+          "recession_negative": "20065729/134217728",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 12,
+      "power": "1",
+      "degree": 25,
+      "m": 90731184128,
+      "N": 134217728,
+      "common_reference_score": [
+        "0",
+        "-5014575/67108864"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "41/3136"
+      ],
+      "common_reference_newton_slope": "245714175/42991616",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "7429/67108864",
+          "recession_negative": "10036579/67108864",
+          "finite_slope": "35.9332870879010727",
+          "ordinary_slope": "35.9332870879010727"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "5014575/33554432",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-7429/67108864",
+          "recession_negative": "10021721/67108864",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 16,
+      "power": "1/2",
+      "degree": 33,
+      "m": 79439715106816,
+      "N": 34359738368,
+      "common_reference_score": [
+        "0",
+        "-4539531965/68719476736"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "53/5184"
+      ],
+      "common_reference_newton_slope": "367702089165/56908316672",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1964315/68719476736",
+          "recession_negative": "9081028245/68719476736",
+          "finite_slope": "53.2356895253918494",
+          "ordinary_slope": "53.2356895253918494"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "4539531965/34359738368",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-1964315/68719476736",
+          "recession_negative": "9077099615/68719476736",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "exact_constructions",
+      "K": 16,
+      "power": "1",
+      "degree": 33,
+      "m": 39719857553408,
+      "N": 34359738368,
+      "common_reference_score": [
+        "0",
+        "-2268783825/34359738368"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "53/5184"
+      ],
+      "common_reference_newton_slope": "183771489825/28454158336",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1964315/34359738368",
+          "recession_negative": "4539531965/34359738368",
+          "finite_slope": "47.0728397514826097",
+          "ordinary_slope": "47.0728397514826097"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "2268783825/17179869184",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        },
+        "unbounded": {
+          "recession_positive": "-1964315/34359738368",
+          "recession_negative": "4535603335/34359738368",
+          "finite_intercept_limit_constant": "0.346573590279972655"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 1,
+      "power": "1/2",
+      "degree": 3,
+      "m": 64,
+      "N": 32,
+      "common_reference_score": [
+        "0",
+        "-7/64"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "1/32"
+      ],
+      "common_reference_newton_slope": "7/2",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1/64",
+          "recession_negative": "15/64",
+          "finite_slope": "5.41610040220442013",
+          "ordinary_slope": "5.41610040220442013"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "7/32",
+          "finite_intercept_limit_constant": "0.411556138457467527"
+        },
+        "unbounded": {
+          "recession_positive": "-1/64",
+          "recession_negative": "13/64",
+          "finite_intercept_limit_constant": "0.476538686634962400"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 1,
+      "power": "1",
+      "degree": 3,
+      "m": 32,
+      "N": 32,
+      "common_reference_score": [
+        "0",
+        "-3/32"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "1/32"
+      ],
+      "common_reference_newton_slope": "3",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1/32",
+          "recession_negative": "7/32",
+          "finite_slope": "3.89182029811062661",
+          "ordinary_slope": "3.89182029811062661"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "3/16",
+          "finite_intercept_limit_constant": "0.476538686634962400"
+        },
+        "unbounded": {
+          "recession_positive": "-1/32",
+          "recession_negative": "5/32",
+          "finite_intercept_limit_constant": "0.606503782989952146"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 2,
+      "power": "1/2",
+      "degree": 5,
+      "m": 10871941093121479200,
+      "N": 10171679725111304,
+      "common_reference_score": [
+        "0",
+        "-11138400681/139465125424"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "28227/1332376"
+      ],
+      "common_reference_newton_slope": "38276291/10153378",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1178843619/139465125424",
+          "recession_negative": "23455644981/139465125424",
+          "finite_slope": "9.33533260169661475",
+          "ordinary_slope": "9.33533260169661475"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "11138400681/69732562712",
+          "finite_intercept_limit_constant": "0.408915259555294167"
+        },
+        "unbounded": {
+          "recession_positive": "-1178843619/139465125424",
+          "recession_negative": "21097957743/139465125424",
+          "finite_intercept_limit_constant": "0.471256928830615680"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 2,
+      "power": "1",
+      "degree": 5,
+      "m": 5435970546560739600,
+      "N": 10171679725111304,
+      "common_reference_score": [
+        "0",
+        "-4979778531/69732562712"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "28227/1332376"
+      ],
+      "common_reference_newton_slope": "17112641/5076689",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "1178843619/69732562712",
+          "recession_negative": "11138400681/69732562712",
+          "finite_slope": "6.65206225524304435",
+          "ordinary_slope": "6.65206225524304435"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "4979778531/34866281356",
+          "finite_intercept_limit_constant": "0.471256928830615680"
+        },
+        "unbounded": {
+          "recession_positive": "-1178843619/69732562712",
+          "recession_negative": "8780713443/69732562712",
+          "finite_intercept_limit_constant": "0.595940267381258705"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 3,
+      "power": "1/2",
+      "degree": 7,
+      "m": 458653923532982529228800,
+      "N": 9926600199031855775744,
+      "common_reference_score": [
+        "0",
+        "-5379084664851175/84381523204636672"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "14225623675/894383685632"
+      ],
+      "common_reference_newton_slope": "1904100766319/475090510174",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "484445070988825/84381523204636672",
+          "recession_negative": "11242614400691175/84381523204636672",
+          "finite_slope": "13.4995938889043680",
+          "ordinary_slope": "13.4995938889043680"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "5379084664851175/42190761602318336",
+          "finite_intercept_limit_constant": "0.408182752314752882"
+        },
+        "unbounded": {
+          "recession_positive": "-484445070988825/84381523204636672",
+          "recession_negative": "10273724258713525/84381523204636672",
+          "finite_intercept_limit_constant": "0.469791914349533110"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 3,
+      "power": "1",
+      "degree": 7,
+      "m": 229326961766491264614400,
+      "N": 9926600199031855775744,
+      "common_reference_score": [
+        "0",
+        "-106405208562225/1834380939231232"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "14225623675/894383685632"
+      ],
+      "common_reference_newton_slope": "37665560553/10328054569",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "484445070988825/42190761602318336",
+          "recession_negative": "5379084664851175/42190761602318336",
+          "finite_slope": "9.57575121637616285",
+          "ordinary_slope": "9.57575121637616285"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "106405208562225/917190469615616",
+          "finite_intercept_limit_constant": "0.469791914349533110"
+        },
+        "unbounded": {
+          "recession_positive": "-484445070988825/42190761602318336",
+          "recession_negative": "4410194522873525/42190761602318336",
+          "finite_intercept_limit_constant": "0.593010238419093565"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 4,
+      "power": "1/2",
+      "degree": 9,
+      "m": 2219625569254567895387881495608783046055600,
+      "N": 128116678662760832307740349400,
+      "common_reference_score": [
+        "0",
+        "-24042686520080513957/448306951475728422968"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "85200129008617/6679578589652480"
+      ],
+      "common_reference_newton_slope": "540626778611887040/128582309263982959",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "9719751600407881753/2241534757378642114840",
+          "recession_negative": "250146616801213021323/2241534757378642114840",
+          "finite_slope": "17.7280612798153007",
+          "ordinary_slope": "17.7280612798153007"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "24042686520080513957/224153475737864211484",
+          "finite_intercept_limit_constant": "0.407815299354174261"
+        },
+        "unbounded": {
+          "recession_positive": "-9719751600407881753/2241534757378642114840",
+          "recession_negative": "230707113600397257817/2241534757378642114840",
+          "finite_intercept_limit_constant": "0.469057008428375868"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 4,
+      "power": "1",
+      "degree": 9,
+      "m": 2219625569254567895387881495608783046055600,
+      "N": 128116678662760832307740349400,
+      "common_reference_score": [
+        "0",
+        "-13811710124999336004/280191844672330264355"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "85200129008617/6679578589652480"
+      ],
+      "common_reference_newton_slope": "496914874850654208/128582309263982959",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "9719751600407881753/1120767378689321057420",
+          "recession_negative": "24042686520080513957/224153475737864211484",
+          "finite_slope": "12.5585414956028703",
+          "ordinary_slope": "12.5585414956028703"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "27623420249998672008/280191844672330264355",
+          "finite_intercept_limit_constant": "0.469057008428375868"
+        },
+        "unbounded": {
+          "recession_positive": "-9719751600407881753/1120767378689321057420",
+          "recession_negative": "5927878199975694487/65927492864077709260",
+          "finite_intercept_limit_constant": "0.591540426576779081"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 6,
+      "power": "1/2",
+      "degree": 13,
+      "m": 32914632299224397860622061188841583058372233562582564492952884184924465881436911332698947661970882848,
+      "N": 29538383674704457317930994042518781834979016510857387336143089303784,
+      "common_reference_score": [
+        "0",
+        "-31857865722633807286297504282672459983524107663126143/776258542076787822094099449558049810986510407253150544"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "516031992776016525662911000808199/57008521375286300089555915003686968"
+      ],
+      "common_reference_newton_slope": "15649072670219041415985967098726160696938356729/3451557978297133468231828489726124640620509926",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "2255729236411748541984649683669127758020512861783125/776258542076787822094099449558049810986510407253150544",
+          "recession_negative": "65971460681679363114579658249014047725068728188035411/776258542076787822094099449558049810986510407253150544",
+          "finite_slope": "26.3538438208148253",
+          "ordinary_slope": "26.3538438208148253"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "31857865722633807286297504282672459983524107663126143/388129271038393911047049724779024905493255203626575272",
+          "finite_intercept_limit_constant": "0.407670992262145750"
+        },
+        "unbounded": {
+          "recession_positive": "-2255729236411748541984649683669127758020512861783125/776258542076787822094099449558049810986510407253150544",
+          "recession_negative": "61460002208855866030610358881675792209027702464469161/776258542076787822094099449558049810986510407253150544",
+          "finite_intercept_limit_constant": "0.468768394244318845"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 6,
+      "power": "1",
+      "degree": 13,
+      "m": 16457316149612198930311030594420791529186116781291282246476442092462232940718455666349473830985441424,
+      "N": 29538383674704457317930994042518781834979016510857387336143089303784,
+      "common_reference_score": [
+        "0",
+        "-14801068243111029372156427299501666112751797400671509/388129271038393911047049724779024905493255203626575272"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "516031992776016525662911000808199/57008521375286300089555915003686968"
+      ],
+      "common_reference_newton_slope": "7270511921605483030305740931797040679386097427/1725778989148566734115914244863062320310254963",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "2255729236411748541984649683669127758020512861783125/388129271038393911047049724779024905493255203626575272",
+          "recession_negative": "31857865722633807286297504282672459983524107663126143/388129271038393911047049724779024905493255203626575272",
+          "finite_slope": "18.6428676090452098",
+          "ordinary_slope": "18.6428676090452098"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "14801068243111029372156427299501666112751797400671509/194064635519196955523524862389512452746627601813287636",
+          "finite_intercept_limit_constant": "0.468768394244318845"
+        },
+        "unbounded": {
+          "recession_positive": "-2255729236411748541984649683669127758020512861783125/388129271038393911047049724779024905493255203626575272",
+          "recession_negative": "27346407249810310202328204915334204467483081939559893/388129271038393911047049724779024905493255203626575272",
+          "finite_intercept_limit_constant": "0.590963198208665036"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 8,
+      "power": "1/2",
+      "degree": 17,
+      "m": 33751586801635410643269846703141932281268173856127922097196443341838216844383597983491031577505217179975983368823114180165565986049119373806519467795568,
+      "N": 44826497676521810147821767812959394978315884558894427028139854548396197995366924073914732968640,
+      "common_reference_score": [
+        "0",
+        "-1009489583549487894701079180235378158977438042965249808520655139648652875843267/29758798771188160122264088573133981867539362277405946266146899146376507547922432"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "4799390885110868813819993753449951087602091965703744653658713/675163551223030342893164215773753616496009640192755823747792896"
+      ],
+      "common_reference_newton_slope": "606785668050118472474190663547201923691918977243374852730680999685794277376/127152821833992805130129762775073399661809295289746695002378819774149126013",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "16244356942554379685484446150647153515551878160249558387217912075539817487069/7439699692797040030566022143283495466884840569351486566536724786594126886980608",
+          "recession_negative": "1041978297434596654072048072536672466008541799285748925295090963799732510817405/14879399385594080061132044286566990933769681138702973133073449573188253773961216",
+          "finite_slope": "34.9054922721895011",
+          "ordinary_slope": "34.9054922721895011"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "1009489583549487894701079180235378158977438042965249808520655139648652875843267/14879399385594080061132044286566990933769681138702973133073449573188253773961216",
+          "finite_intercept_limit_constant": "0.407418095686758183"
+        },
+        "unbounded": {
+          "recession_positive": "-16244356942554379685484446150647153515551878160249558387217912075539817487069/7439699692797040030566022143283495466884840569351486566536724786594126886980608",
+          "recession_negative": "977000869664379135330110287934083851946334286644750691746219315497573240869129/14879399385594080061132044286566990933769681138702973133073449573188253773961216",
+          "finite_intercept_limit_constant": "0.468262601093543712"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 8,
+      "power": "1",
+      "degree": 17,
+      "m": 33751586801635410643269846703141932281268173856127922097196443341838216844383597983491031577505217179975983368823114180165565986049119373806519467795568,
+      "N": 44826497676521810147821767812959394978315884558894427028139854548396197995366924073914732968640,
+      "common_reference_score": [
+        "0",
+        "-944512155779270375959141395632789544915230530324251574971783491346493605894991/29758798771188160122264088573133981867539362277405946266146899146376507547922432"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "4799390885110868813819993753449951087602091965703744653658713/675163551223030342893164215773753616496009640192755823747792896"
+      ],
+      "common_reference_newton_slope": "567728928327160329422190179023116986393305255298005666703807503094959720448/127152821833992805130129762775073399661809295289746695002378819774149126013",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "16244356942554379685484446150647153515551878160249558387217912075539817487069/3719849846398520015283011071641747733442420284675743283268362393297063443490304",
+          "recession_negative": "1009489583549487894701079180235378158977438042965249808520655139648652875843267/14879399385594080061132044286566990933769681138702973133073449573188253773961216",
+          "finite_slope": "24.6899994272491322",
+          "ordinary_slope": "24.6899994272491322"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "944512155779270375959141395632789544915230530324251574971783491346493605894991/14879399385594080061132044286566990933769681138702973133073449573188253773961216",
+          "finite_intercept_limit_constant": "0.468262601093543712"
+        },
+        "unbounded": {
+          "recession_positive": "-16244356942554379685484446150647153515551878160249558387217912075539817487069/3719849846398520015283011071641747733442420284675743283268362393297063443490304",
+          "recession_negative": "879534728009052857217203611030200930853023017683253341422911843044334335946715/14879399385594080061132044286566990933769681138702973133073449573188253773961216",
+          "finite_intercept_limit_constant": "0.589951611907114769"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 12,
+      "power": "1/2",
+      "degree": 25,
+      "m": 24998486670682142710742518190305253820619044394293234026001911368715740317894904373010665626366701979886170811626327347026487466792279671285364680707068052191670971649201868989321929445750601670750299320245229762140228574342434407522422270188205015144821401325600,
+      "N": 121203780764503568937259454925657935498712645420244200673448826389577552500710735797452964347872801434066112205311995713356914625203930434133079115136940397282275926440,
+      "common_reference_score": [
+        "0",
+        "-16217730322128623514388601624188803482025338701504770464412516546820475900146682086073647326419509550632358768901235464670996153362723068595/647700917055725059778276928785495410402315756805703626172528023363305619885950756738807812429703575370356528276286966652745263868713590991248"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "311968554105275927381871176453302009827937211602696907925405750106320114074208629821265050905/64580978789804002845015189554146948187366847724932135178758576004297171940818227299382285021184"
+      ],
+      "common_reference_newton_slope": "2225163744102507915703601535666577443566229345772877871500705916743968409690981195648122711070068289280097223065558680345185337156352/429291816616833358811668675893448331550570603125891968287276353746262984031045162592324594696618374766352879536765282188431622602931",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "944082287358885871969410096457788200678638088592201976841466983644428039444981449074401469294187338126570313623326930727468800843023224905/647700917055725059778276928785495410402315756805703626172528023363305619885950756738807812429703575370356528276286966652745263868713590991248",
+          "recession_negative": "17021694508728267669937079727096070966205668277206396178310300906315848974879319541673480939384602977762002983898928026552504389377087895/330291135673495695960365593465321473943047300767824388665236115942532187601198754073843861514382241392328673266846999822919563421067613968",
+          "finite_slope": "52.5358683610521098",
+          "ordinary_slope": "52.5358683610521098"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "16217730322128623514388601624188803482025338701504770464412516546820475900146682086073647326419509550632358768901235464670996153362723068595/323850458527862529889138464392747705201157878402851813086264011681652809942975378369403906214851787685178264138143483326372631934356795495624",
+          "finite_intercept_limit_constant": "0.407707570031953654"
+        },
+        "unbounded": {
+          "recession_positive": "-944082287358885871969410096457788200678638088592201976841466983644428039444981449074401469294187338126570313623326930727468800843023224905/647700917055725059778276928785495410402315756805703626172528023363305619885950756738807812429703575370356528276286966652745263868713590991248",
+          "recession_negative": "31491378356898361156807793151919818763372039314417338951983566109996523760848382723072893183544831763138147224179143998614523505882422912285/647700917055725059778276928785495410402315756805703626172528023363305619885950756738807812429703575370356528276286966652745263868713590991248",
+          "finite_intercept_limit_constant": "0.468841549783934654"
+        }
+      }
+    },
+    {
+      "family": "near_extremal_grid_constructions",
+      "K": 12,
+      "power": "1",
+      "degree": 25,
+      "m": 12499243335341071355371259095152626910309522197146617013000955684357870158947452186505332813183350989943085405813163673513243733396139835642682340353534026095835485824600934494660964722875300835375149660122614881070114287171217203761211135094102507572410700662800,
+      "N": 121203780764503568937259454925657935498712645420244200673448826389577552500710735797452964347872801434066112205311995713356914625203930434133079115136940397282275926440,
+      "common_reference_score": [
+        "0",
+        "-7636824017384868821209595763865507640673350306456284243785524781588023930350850318499622928562661106252894227638954266971763676259849921845/323850458527862529889138464392747705201157878402851813086264011681652809942975378369403906214851787685178264138143483326372631934356795495624"
+      ],
+      "common_reference_hessian_diagonal": [
+        "1/4",
+        "311968554105275927381871176453302009827937211602696907925405750106320114074208629821265050905/64580978789804002845015189554146948187366847724932135178758576004297171940818227299382285021184"
+      ],
+      "common_reference_newton_slope": "2095630348519159084044604738357573164568467332538734604510810385605256881300465182026184336293998803530270505972090112293631326063104/429291816616833358811668675893448331550570603125891968287276353746262984031045162592324594696618374766352879536765282188431622602931",
+      "labelled_brier": "7/32",
+      "ordinary_baseline_brier": "1/4",
+      "outcomes": {
+        "finite": {
+          "recession_positive": "944082287358885871969410096457788200678638088592201976841466983644428039444981449074401469294187338126570313623326930727468800843023224905/323850458527862529889138464392747705201157878402851813086264011681652809942975378369403906214851787685178264138143483326372631934356795495624",
+          "recession_negative": "16217730322128623514388601624188803482025338701504770464412516546820475900146682086073647326419509550632358768901235464670996153362723068595/323850458527862529889138464392747705201157878402851813086264011681652809942975378369403906214851787685178264138143483326372631934356795495624",
+          "finite_slope": "37.0987495111529532",
+          "ordinary_slope": "37.0987495111529532"
+        },
+        "boundary": {
+          "recession_positive": "0",
+          "recession_negative": "7636824017384868821209595763865507640673350306456284243785524781588023930350850318499622928562661106252894227638954266971763676259849921845/161925229263931264944569232196373852600578939201425906543132005840826404971487689184701953107425893842589132069071741663186315967178397747812",
+          "finite_intercept_limit_constant": "0.468841549783934654"
+        },
+        "unbounded": {
+          "recession_positive": "-944082287358885871969410096457788200678638088592201976841466983644428039444981449074401469294187338126570313623326930727468800843023224905/323850458527862529889138464392747705201157878402851813086264011681652809942975378369403906214851787685178264138143483326372631934356795495624",
+          "recession_negative": "14329565747410851770449781431273227080668062524320366510729582579531619821256719187924844387831134874379218141654581603216058551676676618785/323850458527862529889138464392747705201157878402851813086264011681652809942975378369403906214851787685178264138143483326372631934356795495624",
+          "finite_intercept_limit_constant": "0.591109509287896652"
+        }
+      }
+    }
+  ],
+  "designs_sha256": "186767c3639bf90a10f09f1d760b247242710a46b30ad578ff255355730c2916",
+  "verifier_sha256": "d92941f122c04800fc5d490223cef0ff97301ec49727c424efdf62bf72e98905"
+}

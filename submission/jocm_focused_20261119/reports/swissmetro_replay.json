@@ -1,0 +1,19 @@
+{
+  "state": "passed",
+  "verified": {
+    "scores": 1960,
+    "ridge_scores": 576,
+    "cap_programs": 36,
+    "uncapped_dual_checks": 93,
+    "face_primal_checks": 93,
+    "summary_cells": 6
+  },
+  "maximum_absolute_errors": {
+    "score": 2.974703816605029e-13,
+    "holdout_loss": 2.2737367544323206e-13,
+    "cap": 1.7424775277313916e-13
+  },
+  "summary_sha256": "8e7982bbd3058a47a2c51ffe66db15cee83bfd9ed477737b783d99d19ae8eab6",
+  "verifier_sha256": "64910e9547bbe1c8ec6d78f26e58157cd4a2c3a39ab80b3971422de95f4c2f81",
+  "original_available_alternatives_reconstructed": true
+}
