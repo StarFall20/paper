@@ -69,6 +69,8 @@ def verify(args, out):
           "--out", out / "exact_designs.json")
     check("common_newton_point", "results/multiple_diagnostic_points/verify.py",
           "--out", out / "common_newton_point.json")
+    check("hessian_power_bounds", "results/hessian_power_bounds/verify.py",
+          "--out", out / "hessian_power_bounds.json")
     check("unit_endpoint", "results/unit_correction_endpoint/verify.py",
           "--out", out / "unit_endpoint.json")
     check("unit_archive", "results/unit_correction_endpoint/audit_archives.py",

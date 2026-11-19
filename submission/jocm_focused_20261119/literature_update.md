@@ -32,7 +32,7 @@ The PPI++ v2 main text and embedded appendices are covered. The separate final s
 
 ## Follow-up on multiple diagnostic points
 
-[General derivative-oracle lower bounds](https://arxiv.org/abs/1710.11606) concern approximate stationarity over broad smooth function classes. The new Appendix B6 result uses equal-weight rows from the specified prediction-corrected logit objective. It controls finite attainment via the mean absolute attribute contrast while matching the selected local diagnostics. The general statement allows preassigned checkpoints. The numerical example also matches diagnostics at the jointly determined first Newton update.
+[General derivative-oracle lower bounds](https://arxiv.org/abs/1710.11606) concern approximate stationarity over broad smooth function classes. The Appendix B7 result uses equal-weight rows from the specified prediction-corrected logit objective. It controls finite attainment via the mean absolute attribute contrast while matching the selected local diagnostics. The general statement allows preassigned checkpoints. The numerical example also matches diagnostics at the jointly determined first Newton update.
 
 The publisher's direct [Supplement A PDF](https://projecteuclid.org/journals/supplementalcontent/10.1214/26-AOAS2215/aoas2215suppa.pdf) and [Supplement B ZIP](https://projecteuclid.org/journals/supplementalcontent/10.1214/26-AOAS2215/aoas2215suppb.zip) remained inaccessible on retry. [The author's bibliography](https://web.stanford.edu/~jduchi/publications.html) gives the journal citation and links to the arXiv file.
 
@@ -81,3 +81,10 @@ The logged-in Scopus page displayed Scopus Preview and offered author and source
 Google Scholar returned about 106 results for the broad query from 2023 onward. The first 30 were screened by title and available excerpts. A narrower query returned five, all screened. A query targeting matched derivatives returned zero. Exact strings and screened titles are in the [search log](../../reports/submission_release_audit_20261119/google_scholar_search.md). The most direct overlap remains the observed quasi-separation in a prediction-assisted Bradley–Terry application. A working paper on synthetic respondents also addresses quasi-separation in fitting synthetic preferences. In the available primary material, neither gives the fixed-power comparison of a finite optimum, an unattained finite infimum and unbounded decrease under matched derivatives. [Vadlamani et al., Section 5](https://arxiv.org/html/2609.34156v1), [Leng working paper record](https://ssrn.com/abstract=6835019)
 
 The final PPI++ supplement links returned web pages without readable supplement content. The supplied v2 and its embedded appendices were reviewed, including exact phrase screening of the manuscript prose. The screen found zero matching ten-word windows. Formal similarity review and review of the separately published supporting files remain open.
+
+
+## Bounds from local diagnostics
+
+[Bach (2010), Proposition 2](https://www.di.ens.fr/~fbach/bach_ejs_self_concordance.pdf) gives a bounded-feature sufficient condition for a unique global minimum from the Newton decrement. Appendix B8 gives an exact range of compatible limits in the symmetric binary design. The finite number of equal-weight contrast pairs is part of the information.
+
+[Leng, Sang and Agarwal, revised SSRN abstract](https://ssrn.com/abstract=4802019) optimize mixture weights over alternative LLM elicitation outputs to match an aggregate human benchmark. Their guarantee concerns calibration loss within the feasible mixtures. The directly relevant synthetic MNL passage in Leng's separate local-validity paper remains available as a Scholar excerpt. The publisher and author's publication page did not provide readable full text in this session.

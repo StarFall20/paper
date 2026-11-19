@@ -106,7 +106,7 @@ At the zero reference coefficient, the corrected gradient is $(0,-3/32)^T$ in al
 
 The recession calculation explains the difference. The three sets of auxiliary contrasts have the same second moment, which determines the Hessian at zero. Their mean magnitudes differ, which changes the positive-slope limit in (4). For any prescribed finite order, one can match further even moments of symmetric rational contrast distributions and retain different absolute moments. The same construction then gives all three global outcomes with matching derivatives through that order at the reference. The moment-matching argument uses classical approximation duality (Cai and Low, 2011). Supplementary Appendix B gives the general result for positive rational weights and verifies 30 constructions through order 33. In the constructed common population, $g$ is a correct conditional probability on its information set. Each of these designs and label configurations has positive probability of being realized.
 
-The same limitation extends to a finite list of preassigned coefficient vectors. Supplementary Appendix B6 gives equal-weight designs with identical diagnostics at those checkpoints, including an example with matching diagnostics after the first Newton update.
+The same limitation extends to a finite list of preassigned coefficient vectors. Supplementary Appendix B7 gives equal-weight designs with identical diagnostics at those checkpoints, including an example with matching diagnostics after the first Newton update. With a known range and count of paired contrasts, the zero-point Hessian bounds the finite-estimation limit. In Table 1 the compatible limits range from 0.5 to 1 (Appendix B8).
 
 ## 4 Consequences for forecasting
 

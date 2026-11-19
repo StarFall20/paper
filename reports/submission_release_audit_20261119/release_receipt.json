@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "230b4aafccf71bd384e0241943f7990137f2dad1c9badab2335a56481b6ac3b0",
+  "archive_manifest_sha256": "9fa242a19228a66427317d08d9c0db65229b5f99396ce7809b33edabfe82c083",
   "python": "3.12.14",
   "package_versions": {
     "numpy": "2.5.3",
@@ -33,6 +33,10 @@
     "common_newton_point": {
       "status": "passed",
       "log": "common_newton_point.log"
+    },
+    "hessian_power_bounds": {
+      "status": "passed",
+      "log": "hessian_power_bounds.log"
     },
     "unit_endpoint": {
       "status": "passed",

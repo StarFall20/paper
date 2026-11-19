@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "grid_minimum_checks": 119,
+  "continuous_design_bound_checks": 2320,
+  "power_values_checked_per_design_set": 101,
+  "largest_zero_diagnostic_difference": 1.3877787807814457e-17,
+  "table_1": {
+    "mean_magnitude_interval": [
+      0.25,
+      0.5
+    ],
+    "existence_limit_interval": [
+      0.5,
+      1.0
+    ],
+    "unit_states": {
+      "A": {
+        "state": "interior",
+        "positive_slope_recession": 0.03125
+      },
+      "B": {
+        "state": "boundary",
+        "positive_slope_recession": 0.0
+      },
+      "C": {
+        "state": "exterior",
+        "positive_slope_recession": -0.03125
+      }
+    }
+  },
+  "three_pair_example": {
+    "mean_magnitude_interval": [
+      0.28867513459481287,
+      0.5
+    ],
+    "continuous_relaxation_interval": [
+      0.25,
+      0.5
+    ],
+    "smallest_existence_limit": 0.5915063509461096,
+    "worst_case_at_0_55": {
+      "state": "interior",
+      "positive_slope_recession": 0.002192831006786772
+    },
+    "states_at_0_6": {
+      "minimum_mean": {
+        "state": "exterior",
+        "positive_slope_recession": -0.0004487298107780785
+      },
+      "intermediate_mean": {
+        "state": "boundary",
+        "positive_slope_recession": -1.3877787807814457e-17
+      },
+      "maximum_mean": {
+        "state": "interior",
+        "positive_slope_recession": 0.031249999999999986
+      }
+    },
+    "matched_magnitudes": {
+      "minimum_mean": [
+        0.8660254037844386,
+        0.0,
+        0.0
+      ],
+      "intermediate_mean": [
+        0.8660020313370925,
+        0.004498984331453859,
+        0.004498984331453859
+      ],
+      "maximum_mean": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "bach_at_zero": {
+      "newton_decrement": 0.5303300858899106,
+      "sufficient_threshold_with_R_sqrt2": 0.0625
+    }
+  }
+}

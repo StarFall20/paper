@@ -1,0 +1,137 @@
+{
+  "state": "passed",
+  "python": "3.12.14",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "package_index": "https://pypi.org/simple",
+  "dependency_check": "No broken requirements found.",
+  "isolated_environment": true,
+  "requirements_sha256": "cedc6129c48ca40016b50bc2a74dfd3b59c5b332a1ac1b9e48bd39a787930ce6",
+  "package_versions": [
+    {
+      "name": "cloudpickle",
+      "version": "3.1.3"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "et_xmlfile",
+      "version": "2.0.0"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.68.0"
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1"
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.1"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2"
+    },
+    {
+      "name": "narwhals",
+      "version": "2.29.0"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.3"
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pandas",
+      "version": "2.2.3"
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0"
+    },
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "4.0.0"
+    },
+    {
+      "name": "python-docx",
+      "version": "1.2.0"
+    },
+    {
+      "name": "pytz",
+      "version": "2026.6"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.1"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1"
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.7.0"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6"
+    }
+  ],
+  "release_manifest_sha256": "9fa242a19228a66427317d08d9c0db65229b5f99396ce7809b33edabfe82c083",
+  "release_checks_passed": 12,
+  "identical_result_reports": [
+    "headline.json",
+    "mathematics/quick_check.json",
+    "exact_designs.json",
+    "common_newton_point.json",
+    "hessian_power_bounds.json",
+    "unit_endpoint.json",
+    "unit_archive.json",
+    "food_panel/verification.json",
+    "food_path/verification.json",
+    "swissmetro_path.json",
+    "swissmetro_budget.json"
+  ],
+  "public_inputs": {
+    "food": {
+      "file": "COSCBB.xlsx",
+      "sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0"
+    },
+    "swissmetro": {
+      "file": "swissmetro_label_budget_input_20261119.dat",
+      "sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
+    }
+  }
+}

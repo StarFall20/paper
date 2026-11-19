@@ -796,7 +796,7 @@ An independent direct array implementation reconstructs the covariance, finite w
 
 Wang et al. (2025, equations 2, 4 and 5) retain a normalized nonnegative weighting of the supervised score in empirical-likelihood prediction-powered inference. A nontrivial human weak separator makes the weighted directional logistic score strictly negative whenever every weight is positive. This is the classical positive-weight separation obstruction. On the same scalar design, both supervised row scores, $-2/(1+e^{2\beta})$ and $-4/(1+e^{4\beta})$, are strictly negative for every finite coefficient. Every normalized nonnegative weighting then has a negative score, so additional auxiliary constraints cannot make that supervised moment feasible. This sign comparison concerns the stated constraints and supplies no statistical performance ranking.
 
-### B6 Agreement at several diagnostic points
+### B7 Agreement at several diagnostic points
 
 Fix the 32 labelled choices and the predictor in article Table 1 and set the correction weight to one. Take any finite list of coefficient vectors and any finite derivative order at each vector. There are three equal-weight auxiliary samples of the same size for which the corrected objective values, requested derivatives and empirical score covariances agree at every listed vector. Their corrected targets are interior, on the boundary and exterior, respectively. The labelled logit remains finite.
 
@@ -809,6 +809,20 @@ Hold the magnitudes $a-u_i$ fixed. As the $r+1$ other magnitudes vary, the map f
 For all three samples, the corrected moment is $(1/2,3/32)^T$. By symmetry the optimal intercept at each slope is zero. If $m_u$ is the mean magnitude of the nonzero pairs, the slope score increases strictly from $-3/32$ at zero to $m_u/4-3/32$. The opposite direction has recession $m_u/4+3/32$. Thus the two perturbations and their common baseline give the three existence outcomes. The equal-weight samples can all occur with positive probability under one symmetric population whose conditional choice probability is $g(x,z)$. The fitted human coefficient is zero in this population.
 
 A 48-row auxiliary example matches values, gradients, Hessians and covariances at zero and at the common first Newton point, whose slope is 3.776118. It also matches third derivatives at zero. Its baseline uses $u_i$ equal to 0.04, 0.12, 0.23, 0.37, 0.55 and 0.72 and their six complements. For the other two designs the sum of the six free magnitudes changes by $10^{-6}$ in each direction. The positive-slope recession rates are approximately $2.0833\times10^{-8}$, zero and $-2.0833\times10^{-8}$. The finite design has slope approximately 367.840. Reproduction Materials gives the code and expanded-row checks. The proposition concerns preassigned checkpoints. This example also covers the first Newton checkpoint chosen from the shared starting diagnostics.
+
+### B8 Sharp bounds from the zero-point Hessian
+
+Keep the labelled sample and predictor in Table 1. Suppose there are $n$ auxiliary contrast pairs $(u_i,-u_i)$ with $z=0$, and $n$ rows at each of the two fixed informative profiles. The magnitudes satisfy $0\leq u_i\leq a$. Write $q=\sum_i u_i^2/n>0$ and $M=\sum_i u_i/n$. The slope entry of the auxiliary Hessian at zero is $q/8$. The local objective, gradient, Hessian and empirical score covariances depend on the magnitudes only through $q$. This statement holds for all correction weights. In particular, the varying rows have zero auxiliary scores at zero.
+
+The exact compatible interval for $M$ has endpoints
+
+$$M_-=\{ka+\sqrt{nq-ka^2}\}/n,\qquad M_+=\sqrt q,\qquad k=⌊nq/a^2⌋.$$
+
+For the upper endpoint, equal magnitudes attain equality in Cauchy–Schwarz. For the lower endpoint, place $y_i=u_i^2$ in $[0,a^2]$ at fixed sum $nq$. If two entries are interior, transfer mass from the smaller to the larger until one reaches an endpoint. Concavity of the square root makes the sum of roots weakly decrease. Iterating leaves at most one interior entry, which gives $M_-$. The feasible squared vectors form a convex set. The segment between these two optimizing vectors realizes every intermediate mean magnitude by continuity.
+
+Symmetry gives a zero profiled intercept, and the positive-slope recession of (2) is $\{(1-\lambda)/2+\lambda M-3/8\}/4$. The negative-slope recession is strictly positive. For $q>0$ the profiled score increases strictly, so a positive, zero or negative right-hand limit gives the three respective attainment states. Substituting the endpoints of the interval gives sharp bounds on this right-hand limit. At a specified positive weight, all compatible designs have a finite solution exactly when the lower bound is positive. For Table 1, $n=8$, $a=1$ and $q=1/4$. The compatible upper limits of feasible weights fill $[1/2,1]$. A design can reach the boundary at its limit.
+
+With three pairs and the same cap and mean square, $M_-=\sqrt{3}/6$. Every compatible design gives a finite solution at weight 0.55. At 0.6, three compatible designs reproduce all three outcomes. The original-row support programs verify the witnesses. The general bounded-feature Newton-decrement sufficient condition in Bach (2010, Proposition 2) compares 0.530330 to 0.0625 at the shared zero-point diagnostic with the public cap. The exact bound here also uses the fixed count and paired structure.
 
 ## Appendix C Estimation conventions and reproducibility
 
@@ -1766,6 +1780,8 @@ Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Pr
 Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-powered inference. Annals of Applied Statistics 20(3), 2235–2252. https://doi.org/10.1214/26-AOAS2215
 
 Assele, S.Y., Meulders, M., Vandebroek, M. (2023). Sample size selection for discrete choice experiments using design features. Journal of Choice Modelling 49, 100436. https://doi.org/10.1016/j.jocm.2023.100436
+
+Bach, F. (2010). Self-concordant analysis for logistic regression. Electronic Journal of Statistics 4, 384–414. https://doi.org/10.1214/09-EJS521
 
 Bhatia, R., Davis, C. (2000). A better bound on the variance. American Mathematical Monthly 107(4), 353–357. https://doi.org/10.1080/00029890.2000.12005203
 
