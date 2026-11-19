@@ -7,18 +7,18 @@
     "Cover_letter.docx": "e07f3abb1c961b48c5666edec2c35684cfaf07f9a970a06b9634b5651d00aeed",
     "Figures/Figure_1.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291",
     "Highlights.docx": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
-    "Manuscript.docx": "a65911d7f1771f2389aa8dbda3b73b65764c3268b4c504f3e2ebefaa7b1e1051",
-    "Reproduction_Materials.zip": "92ccfc9a9f4f1817669751ee1ad8dc8ca420ed1c339867f28a8cee05683f471b",
+    "Manuscript.docx": "d0b70e472da92255b473a483658fc262b10ab8dc638c9fda586a1d993e1f9888",
+    "Reproduction_Materials.zip": "98656592346de4301f3ff1827089b62eb92560bc24ce19d9495b95a7fbe7c46f",
     "Supplementary_File_Captions.txt": "a7ed0b685ace81de0c1672589086f872d2de83aa3ad8a585f856ecf6c50b69ee",
-    "Supplementary_Methods_and_Proofs.docx": "83278f64c07f5161519453a8a61b3ac7a8e1f8773b4f9bc10889e1b816a8d829",
+    "Supplementary_Methods_and_Proofs.docx": "8f6e18a3f1baa48952f4054b0299ea9b8644a6ac274b7a055fd046c121bfd036",
     "Title_page.docx": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c"
   },
   "manuscript": {
     "main_rendered_pages": 10,
-    "supplement_rendered_pages": 79,
+    "supplement_rendered_pages": 80,
     "cover_rendered_pages": 1,
     "abstract_lexical_words": 194,
-    "main_body_lexical_words_excluding_equations_and_references": 3312,
+    "main_body_lexical_words_excluding_equations_and_references": 3347,
     "highlight_line_lengths": [
       79,
       75,
@@ -27,76 +27,54 @@
       74
     ],
     "main_native_math_objects": 115,
-    "supplement_native_math_objects": 1505,
+    "supplement_native_math_objects": 1541,
     "original_display_math_blocks_preserved_in_supplement": 153,
     "original_markdown_table_blocks_preserved_in_supplement": 20
   },
   "visual_review": {
-    "main_pages_inspected": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
-    "changed_supplement_pages_inspected": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      76,
-      77,
-      78,
-      79
-    ],
-    "supplement_pages_with_body_identical_to_reviewed_source": 46,
-    "cover_pages_inspected": [
-      1
-    ]
+    "changed_pages_inspected": {
+      "main": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "supplement": [
+        36,
+        37
+      ],
+      "cover": []
+    },
+    "prior_render_pages_exact_body_matches": {
+      "main": 5,
+      "supplement": 78,
+      "cover": 1
+    },
+    "all_rendered_footer_page_numbers_checked": true
   },
   "reproduction": {
-    "archive_entries": 1207,
-    "archive_clean_extract_and_full_math_passed": true,
+    "archive_entries": 1218,
     "exact_design_cases": 30,
     "highest_matched_derivative_order_checked": 33,
     "swissmetro_original_menu_score_checks": 1960,
     "food_original_menu_path_checks": 7536,
-    "food_endpoint_checks": 107
+    "food_endpoint_checks": 107,
+    "clean_extract_content_and_headline_checks_passed": true,
+    "previous_full_math_replay_inputs_retained_byte_identical": 1193,
+    "multiple_checkpoint_decimal_replay_byte_identical": true
   },
   "open_items": [
     "Scopus subscribed document search",
     "formal PPI++ supplementary items full-text comparison",
     "independent priority, proof and text-similarity assessment",
     "author confirmation of final declarations and files"
-  ]
+  ],
+  "edition": "multiple_diagnostic_points",
+  "priority_review": {
+    "scopus_verified_result_sets_added": 0,
+    "official_ppi_plus_plus_supplements_accessible": false,
+    "attached_v2_checked_for_exact_phrase_overlap": true,
+    "formal_similarity_check_pending": true
+  }
 }

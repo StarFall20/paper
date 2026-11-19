@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-19",
+  "source": "https://arxiv.org/pdf/2311.01453v2",
+  "local_source_pdf_sha256": "5c9dc26aa1a537785d34b1d690a7387cf21e0493f0a3f945905dc556d30e70bd",
+  "source_includes_embedded_appendices": true,
+  "normalization": "Poppler text in reading order, NFKC and casefold, line-break hyphen repair, alphabetic tokens within sentence and paragraph segments. Candidate references and TeX excluded.",
+  "scope": "Exact contiguous phrase screening against one supplied preprint. Paraphrases, ideas, formula identity and matches elsewhere are outside the screen.",
+  "results": {
+    "manuscript.md": {
+      "markdown_sha256": "05ce29278b1cfbc08800da5801ab397fa20c435add52b3b960170fa39d2c40b8",
+      "10": {
+        "compared_distinct_windows": 1111,
+        "matched_windows": 0
+      },
+      "12": {
+        "compared_distinct_windows": 793,
+        "matched_windows": 0
+      },
+      "15": {
+        "compared_distinct_windows": 452,
+        "matched_windows": 0
+      }
+    },
+    "supplement.md": {
+      "markdown_sha256": "e8442528dd6a3bd2c15c5ec6fa1ca401630797c08f8a1d72402549ab1697dbc3",
+      "10": {
+        "compared_distinct_windows": 7499,
+        "matched_windows": 0
+      },
+      "12": {
+        "compared_distinct_windows": 5124,
+        "matched_windows": 0
+      },
+      "15": {
+        "compared_distinct_windows": 2747,
+        "matched_windows": 0
+      }
+    }
+  }
+}
