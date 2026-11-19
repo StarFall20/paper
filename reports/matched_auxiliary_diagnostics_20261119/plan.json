@@ -1,0 +1,14 @@
+{
+  "role": "Secondary descriptive analysis of existing support classifications frozen before computing the reported local diagnostic distances",
+  "design": "Reuse all 96 label groups, eight auxiliary samples per group, and powers 1 and 0.5 from the fixed-label analysis. Within a group the labels, prediction rule, utility specification, auxiliary size, and reference coefficient remain fixed.",
+  "reference": "Zero in the existing utility-contrast encoding",
+  "metrics": {
+    "hessian": "Frobenius difference of zero-point Hessians whitened by the group-and-power mean Hessian, divided by the sum of the two whitened Frobenius norms",
+    "score": "Euclidean difference of zero-point gradients whitened by the group-and-power mean Hessian, divided by the sum of the two whitened Euclidean norms",
+    "joint": "Maximum of the two relative differences",
+    "newton_decrement": "Square root of each zero-point gradient quadratic form in the inverse of its own Hessian, for descriptive ordering only"
+  },
+  "pairs": "All unordered pairs within the same label group and power. Keep all same-outcome and opposite-outcome comparisons. Retain the minimum opposite-outcome distance within each mixed group, with deterministic tie breaking by the two draw indices.",
+  "verification": "Check every recorded Hessian for positive definiteness, reproduce pairwise distances under an invertible feature map, and independently rerun both raw-menu support LPs for each selected pair. Check analytical gradients and Hessians by complex-step gradients and central differences on the selected pairs.",
+  "scope": "The distances describe the declared metrics on overlapping allocations. Selected close pairs are illustrations. They do not establish exact matching in the empirical data, classifier performance out of sample, or any population rate."
+}

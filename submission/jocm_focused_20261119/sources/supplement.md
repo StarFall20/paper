@@ -824,6 +824,16 @@ Symmetry gives a zero profiled intercept, and the positive-slope recession of (2
 
 With three pairs and the same cap and mean square, $M_-=\sqrt{3}/6$. Every compatible design gives a finite solution at weight 0.55. At 0.6, three compatible designs reproduce all three outcomes. The original-row support programs verify the witnesses. The general bounded-feature Newton-decrement sufficient condition in Bach (2010, Proposition 2) compares 0.530330 to 0.0625 at the shared zero-point diagnostic with the public cap. The exact bound here also uses the fixed count and paired structure.
 
+### B9 Local derivatives in released choice menus
+
+We reuse 96 labelled groups with five or ten people from the shortbread and Swissmetro experiments in Section 4.2. Each labelled group receives eight samples of 64 auxiliary people drawn without replacement from the remaining respondent pool. Each draw supplies the same menus at weights 0.5 and one. Labels, the frozen predictor, the model specification and auxiliary sample size stay fixed within each group. The support audit uses two original-menu linear programs and verifies a negative recession direction for each exterior target.
+
+We calculate the gradient and Hessian of (2) at zero. Within each label group and weight, use the mean Hessian across the eight designs to whiten both diagnostics. Divide each Euclidean gradient difference and Frobenius Hessian difference by the sum of the two corresponding norms. The distance is the larger normalized difference. Linear recoding of the utility coordinates preserves the distance. The 1,536 Hessians are positive definite.
+
+At unit weight, 12 of 96 labelled groups have both an interior and an exterior target. At weight 0.5, two do. Both of the half-weight groups have finite ordinary labelled fits. Among all 171 opposite-state pairs across the two weights, the case with an exterior target has the smaller Newton decrement in 70. In the closest food pair at half weight, the normalized gradient and Hessian differences are 0.0136 and 0.0188. Its two Newton decrements are 0.96079 for the finite optimum and 0.96052 for the exterior target. We recompute one closest pair in each group with both states and verify its derivatives and support on the original rows. The complete pair table records all 5,376 comparisons. These are descriptive comparisons of overlapping allocations. Their distances measure proximity at the reference coefficient.
+
+Ao et al. (2026, equation 3 and Theorem 5.5) study prediction-based variance reduction for stochastic optimization. Their convex result measures error relative to a minimizer of the empirical loss. Here the diagnostic comparison checks existence for the specified corrected objective.
+
 ## Appendix C Estimation conventions and reproducibility
 
 ### C1 Existing power tuning and covariance
@@ -1080,7 +1090,7 @@ The independent check rebuilds the 107 endpoint programs using original menus, v
 
 The optimized objective is the weighted entropy maximum over menu probabilities with weighted moment $b_\lambda$ (Wainwright and Jordan, 2008, Theorem 3.4). At the endpoint the feasible probabilities lie on the tied sets. Write $\delta=c-\lambda$ and let $V(\lambda)$ be the optimized value of $Q_\lambda$. The partial derivative of $Q_\lambda$ at the optimizer is $-at+O(1)$ because the weights and target are affine and the tangent coefficient converges. Thus $V'(\lambda)=-(a/\Delta_*)\log(1/\delta)+O(1)$. In the normal and tangent coordinates, the covariance Hessian has normal entry $a\Delta_*\delta\{1+o(1)\}$, cross entries $O(\delta)$ and a positive definite limiting tangent block. Differentiating the score and taking the normal Schur complement yields $\delta t'\to1/\Delta_*$ and a bounded tangent derivative. The scaled held-out loss derivative tends to the mean observed gap divided by $\Delta_*$. A positive observed gap makes this derivative positive near the limit. The supplement derives the value and curvature expansions and records the entropy identity and the two derivatives at all 856 positive-limit path points.
 
-Several supporting faces can bind at a positive upper limit. Let $N$ be orthogonal to the endpoint tied contrasts, let $a_{ij}$ be the projection onto $N$ of the contrast from each excluded alternative to a tied alternative, and let $s$ be the inward normal change of the target relative to the moving face per unit of $c-\lambda$. The first linear program minimizes $s^T v$ over $v\in N$ subject to $a_{ij}^T v\geq1$ for all excluded alternatives. If the minimizing set contains multiple points, successively maximize the minimum gap among the constraints whose gaps vary on the current set. The resulting $v_*$ is unique. The coefficient equals $v_*\log(1/(c-\lambda))+O(1)$. The leading coefficient of an observed choice’s log loss is its utility shortfall from the highest available utility in direction $v_*$. Zero shortfall gives bounded loss. The supplement proves this extension for grouped logit using the successive-slack principle of Cominetti and San Martín (1994), with positive weights and an affine approach to the face. Constructed examples check up to three normal directions. The released food and Swissmetro endpoints used here are single facets.
+Several supporting faces can bind at a positive upper limit. Let $N$ be orthogonal to the endpoint tied contrasts, let $a_{ij}$ be the projection onto $N$ of the contrast from each excluded alternative to a tied alternative, and let $s$ be the inward normal change of the target relative to the moving face per unit of $c-\lambda$. The first linear program minimizes $s^T v$ over $v\in N$ subject to $a_{ij}^T v\geq1$ for all excluded alternatives. If the minimizing set contains multiple points, successively maximize the minimum gap among the constraints whose gaps vary on the current set. The resulting $v_*$ is unique. The coefficient equals $v_*\log(1/(c-\lambda))+O(1)$. The leading coefficient of an observed choice’s log loss is its utility shortfall from the highest available utility in direction $v_*$. Zero shortfall gives bounded loss. The supplement proves this extension for grouped logit using the successive-slack principle of Cominetti and San Martín (1994), with positive weights and an affine approach to the face. Constructed examples check up to three normal directions. The released food and Swissmetro endpoints used here are single facets. Nguyen (2026, Theorem 4.3) derives escape rates for an inward linear tilt of a fixed epigraph with power-law defects. The logit expansion here uses exponential tails and applies the escape rate to losses on evaluation menus.
 
 ### C14 Design and power guarantees on fixed menus
 
@@ -1779,6 +1789,8 @@ Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Pr
 
 Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-powered inference. Annals of Applied Statistics 20(3), 2235–2252. https://doi.org/10.1214/26-AOAS2215
 
+Ao, R., Chen, H., Liu, H., Simchi-Levi, D., Sun, W.W. (2026). PPI-SVRG: Unifying Prediction-Powered Inference and Variance Reduction for Semi-Supervised Optimization. Preprint, arXiv:2601.21470v1. https://arxiv.org/abs/2601.21470v1
+
 Assele, S.Y., Meulders, M., Vandebroek, M. (2023). Sample size selection for discrete choice experiments using design features. Journal of Choice Modelling 49, 100436. https://doi.org/10.1016/j.jocm.2023.100436
 
 Bach, F. (2010). Self-concordant analysis for logistic regression. Electronic Journal of Statistics 4, 384–414. https://doi.org/10.1214/09-EJS521
@@ -1849,6 +1861,8 @@ Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic
 Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Preprint: https://arxiv.org/html/1911.01544v3
 
 Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html
+
+Nguyen, V. (2026). Attainment Boundaries and Escape Rates in Asymptotically Conic Optimization. Preprint, arXiv:2608.10341v1. https://arxiv.org/abs/2608.10341v1
 
 Odlyzko, A.M. (1988). On subspaces spanned by random selections of ±1 vectors. Journal of Combinatorial Theory, Series A 47, 124–133. https://doi.org/10.1016/0097-3165(88)90046-5
 

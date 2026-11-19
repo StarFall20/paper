@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "9fa242a19228a66427317d08d9c0db65229b5f99396ce7809b33edabfe82c083",
+  "archive_manifest_sha256": "9dc6fb84a0aead3b122278bbbf98189001908e5710b8dbe025de95280946f0e1",
   "python": "3.12.14",
   "package_versions": {
     "numpy": "2.5.3",
@@ -61,6 +61,10 @@
     "swissmetro_budget": {
       "status": "passed",
       "log": "swissmetro_budget.log"
+    },
+    "matched_auxiliary_diagnostics": {
+      "status": "passed",
+      "log": "matched_auxiliary_diagnostics.log"
     }
   },
   "public_inputs": {

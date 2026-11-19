@@ -103,6 +103,15 @@ def verify(args, out):
               "--precedent-summary", precedent / "summary.json",
               "--precedent-allocations", precedent / "allocations.csv",
               "--out", out / "swissmetro_budget.json")
+    if args.food_source and args.swissmetro_source:
+        matched = RESULTS / "matched_auxiliary_diagnostics"
+        check("matched_auxiliary_diagnostics", "results/matched_auxiliary_diagnostics/verify.py",
+              "--fixed", RESULTS / "fixed_label_auxiliary_design",
+              "--food-archive", RESULTS / "power_frontier", "--food-data", args.food_source.resolve(),
+              "--swiss-archive", RESULTS / "swissmetro_corrected_path",
+              "--swiss-data", args.swissmetro_source.resolve(),
+              "--reference", matched / "summary.json",
+              "--out", out / "matched_auxiliary_diagnostics")
     return checks
 
 

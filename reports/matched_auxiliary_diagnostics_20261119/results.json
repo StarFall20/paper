@@ -1,0 +1,638 @@
+{
+  "status": "passed",
+  "corrected_designs": 1536,
+  "all_pair_comparisons": 5376,
+  "support_witness_designs_replayed": 28,
+  "maximum_errors": {
+    "coordinate_invariance": 1.6153745008296028e-14,
+    "original_row_gradient": 1.2490009027033011e-14,
+    "original_row_hessian": 3.461660680326162e-10
+  },
+  "cells": [
+    {
+      "dataset": "RADIANT",
+      "power": 1.0,
+      "label_groups": 48,
+      "pairs": 1344,
+      "opposite": 74,
+      "flipped_groups": 6,
+      "flipped_where_ordinary_finite": 4,
+      "median_same": 0.06187617546592068,
+      "median_opposite": 0.07698329727801388,
+      "closest_opposite_range": [
+        0.02396184843598391,
+        0.060426300348037275
+      ],
+      "closest_opposite": {
+        "dataset": "RADIANT",
+        "allocation": 11,
+        "labels": 10,
+        "power": 1,
+        "draw_a": 4,
+        "draw_b": 7,
+        "state_a": "interior",
+        "state_b": "outside",
+        "gradient_distance": 0.022514015072896673,
+        "hessian_distance": 0.02396184843598391,
+        "distance": 0.02396184843598391,
+        "decrement_a": 0.8822210261015971,
+        "decrement_b": 0.8885321162304007,
+        "exterior_lower_decrement": false,
+        "support_replay": [
+          {
+            "draw": 4,
+            "state": "interior",
+            "fraction": 0.010442455488328957,
+            "negative_recession": null
+          },
+          {
+            "draw": 7,
+            "state": "outside",
+            "fraction": null,
+            "negative_recession": -0.004687203358987979
+          }
+        ],
+        "ordinary_fit": "interior"
+      },
+      "exterior_lower_decrement": 26
+    },
+    {
+      "dataset": "RADIANT",
+      "power": 0.5,
+      "label_groups": 48,
+      "pairs": 1344,
+      "opposite": 7,
+      "flipped_groups": 1,
+      "flipped_where_ordinary_finite": 1,
+      "median_same": 0.032587651187734136,
+      "median_opposite": 0.03305234998686531,
+      "closest_opposite_range": [
+        0.018803951792206612,
+        0.018803951792206612
+      ],
+      "closest_opposite": {
+        "dataset": "RADIANT",
+        "allocation": 2,
+        "labels": 5,
+        "power": 0.5,
+        "draw_a": 4,
+        "draw_b": 6,
+        "state_a": "interior",
+        "state_b": "outside",
+        "gradient_distance": 0.013587676289057543,
+        "hessian_distance": 0.018803951792206612,
+        "distance": 0.018803951792206612,
+        "decrement_a": 0.9607864442807963,
+        "decrement_b": 0.9605175937973278,
+        "exterior_lower_decrement": true,
+        "support_replay": [
+          {
+            "draw": 4,
+            "state": "interior",
+            "fraction": 0.013186812553865054,
+            "negative_recession": null
+          },
+          {
+            "draw": 6,
+            "state": "outside",
+            "fraction": null,
+            "negative_recession": -0.0006420603629719857
+          }
+        ],
+        "ordinary_fit": "interior"
+      },
+      "exterior_lower_decrement": 6
+    },
+    {
+      "dataset": "Swissmetro",
+      "power": 1.0,
+      "label_groups": 48,
+      "pairs": 1344,
+      "opposite": 83,
+      "flipped_groups": 6,
+      "flipped_where_ordinary_finite": 6,
+      "median_same": 0.17859063011149792,
+      "median_opposite": 0.2134456040328289,
+      "closest_opposite_range": [
+        0.04725082827539347,
+        0.12746422680440503
+      ],
+      "closest_opposite": {
+        "dataset": "Swissmetro",
+        "allocation": 5,
+        "labels": 10,
+        "power": 1,
+        "draw_a": 3,
+        "draw_b": 7,
+        "state_a": "interior",
+        "state_b": "outside",
+        "gradient_distance": 0.029280529074220067,
+        "hessian_distance": 0.04725082827539347,
+        "distance": 0.04725082827539347,
+        "decrement_a": 1.047016842596299,
+        "decrement_b": 1.0300721493408895,
+        "exterior_lower_decrement": true,
+        "support_replay": [
+          {
+            "draw": 3,
+            "state": "interior",
+            "fraction": 0.026708348295109846,
+            "negative_recession": null
+          },
+          {
+            "draw": 7,
+            "state": "outside",
+            "fraction": null,
+            "negative_recession": -0.0007451547081820387
+          }
+        ],
+        "ordinary_fit": "interior"
+      },
+      "exterior_lower_decrement": 31
+    },
+    {
+      "dataset": "Swissmetro",
+      "power": 0.5,
+      "label_groups": 48,
+      "pairs": 1344,
+      "opposite": 7,
+      "flipped_groups": 1,
+      "flipped_where_ordinary_finite": 1,
+      "median_same": 0.111363517412673,
+      "median_opposite": 0.08545837499625732,
+      "closest_opposite_range": [
+        0.059923564419532845,
+        0.059923564419532845
+      ],
+      "closest_opposite": {
+        "dataset": "Swissmetro",
+        "allocation": 1,
+        "labels": 5,
+        "power": 0.5,
+        "draw_a": 4,
+        "draw_b": 5,
+        "state_a": "interior",
+        "state_b": "outside",
+        "gradient_distance": 0.03335913359359562,
+        "hessian_distance": 0.059923564419532845,
+        "distance": 0.059923564419532845,
+        "decrement_a": 0.9096852747879972,
+        "decrement_b": 0.8604251715082651,
+        "exterior_lower_decrement": true,
+        "support_replay": [
+          {
+            "draw": 4,
+            "state": "interior",
+            "fraction": 0.01767178296038946,
+            "negative_recession": null
+          },
+          {
+            "draw": 5,
+            "state": "outside",
+            "fraction": null,
+            "negative_recession": -0.00526804612120188
+          }
+        ],
+        "ordinary_fit": "interior"
+      },
+      "exterior_lower_decrement": 7
+    }
+  ],
+  "mixed_group_witnesses": [
+    {
+      "dataset": "RADIANT",
+      "allocation": 2,
+      "labels": 5,
+      "power": 1,
+      "draw_a": 3,
+      "draw_b": 4,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.01874785362286012,
+      "hessian_distance": 0.034130298528645596,
+      "distance": 0.034130298528645596,
+      "decrement_a": 0.9756433541106686,
+      "decrement_b": 0.9751543024735145,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 3,
+          "state": "interior",
+          "fraction": 0.0029878462862297657,
+          "negative_recession": null
+        },
+        {
+          "draw": 4,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.001842517379067543
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "RADIANT",
+      "allocation": 2,
+      "labels": 5,
+      "power": 0.5,
+      "draw_a": 4,
+      "draw_b": 6,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.013587676289057543,
+      "hessian_distance": 0.018803951792206612,
+      "distance": 0.018803951792206612,
+      "decrement_a": 0.9607864442807963,
+      "decrement_b": 0.9605175937973278,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 4,
+          "state": "interior",
+          "fraction": 0.013186812553865054,
+          "negative_recession": null
+        },
+        {
+          "draw": 6,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.0006420603629719857
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "RADIANT",
+      "allocation": 3,
+      "labels": 5,
+      "power": 1,
+      "draw_a": 2,
+      "draw_b": 4,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.045097063063509794,
+      "hessian_distance": 0.05946978364797268,
+      "distance": 0.05946978364797268,
+      "decrement_a": 0.9911761380744811,
+      "decrement_b": 1.0292957502334774,
+      "exterior_lower_decrement": false,
+      "support_replay": [
+        {
+          "draw": 2,
+          "state": "interior",
+          "fraction": 0.04140936851576852,
+          "negative_recession": null
+        },
+        {
+          "draw": 4,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.002212665461798491
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "RADIANT",
+      "allocation": 8,
+      "labels": 5,
+      "power": 1,
+      "draw_a": 1,
+      "draw_b": 2,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.03245275350262216,
+      "hessian_distance": 0.060426300348037275,
+      "distance": 0.060426300348037275,
+      "decrement_a": 1.027208737189025,
+      "decrement_b": 1.0099592175825651,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 1,
+          "state": "interior",
+          "fraction": 0.0009184797425428177,
+          "negative_recession": null
+        },
+        {
+          "draw": 2,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.0015447239727982565
+        }
+      ],
+      "ordinary_fit": "boundary_or_unresolved"
+    },
+    {
+      "dataset": "RADIANT",
+      "allocation": 10,
+      "labels": 5,
+      "power": 1,
+      "draw_a": 1,
+      "draw_b": 5,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.03311237791397821,
+      "hessian_distance": 0.04979486920753649,
+      "distance": 0.04979486920753649,
+      "decrement_a": 1.0278831139480782,
+      "decrement_b": 1.022069905422864,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 1,
+          "state": "interior",
+          "fraction": 0.011492500366842608,
+          "negative_recession": null
+        },
+        {
+          "draw": 5,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.0003874083268857187
+        }
+      ],
+      "ordinary_fit": "boundary_or_unresolved"
+    },
+    {
+      "dataset": "RADIANT",
+      "allocation": 11,
+      "labels": 10,
+      "power": 1,
+      "draw_a": 4,
+      "draw_b": 7,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.022514015072896673,
+      "hessian_distance": 0.02396184843598391,
+      "distance": 0.02396184843598391,
+      "decrement_a": 0.8822210261015971,
+      "decrement_b": 0.8885321162304007,
+      "exterior_lower_decrement": false,
+      "support_replay": [
+        {
+          "draw": 4,
+          "state": "interior",
+          "fraction": 0.010442455488328957,
+          "negative_recession": null
+        },
+        {
+          "draw": 7,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.004687203358987979
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "RADIANT",
+      "allocation": 17,
+      "labels": 10,
+      "power": 1,
+      "draw_a": 4,
+      "draw_b": 6,
+      "state_a": "outside",
+      "state_b": "interior",
+      "gradient_distance": 0.04252360293644896,
+      "hessian_distance": 0.050304750260309596,
+      "distance": 0.050304750260309596,
+      "decrement_a": 0.9562652090774446,
+      "decrement_b": 0.9612369029185426,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 4,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.0003373491969023701
+        },
+        {
+          "draw": 6,
+          "state": "interior",
+          "fraction": 0.02236785646877334,
+          "negative_recession": null
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "Swissmetro",
+      "allocation": 1,
+      "labels": 5,
+      "power": 0.5,
+      "draw_a": 4,
+      "draw_b": 5,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.03335913359359562,
+      "hessian_distance": 0.059923564419532845,
+      "distance": 0.059923564419532845,
+      "decrement_a": 0.9096852747879972,
+      "decrement_b": 0.8604251715082651,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 4,
+          "state": "interior",
+          "fraction": 0.01767178296038946,
+          "negative_recession": null
+        },
+        {
+          "draw": 5,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.00526804612120188
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "Swissmetro",
+      "allocation": 1,
+      "labels": 10,
+      "power": 1,
+      "draw_a": 0,
+      "draw_b": 4,
+      "state_a": "outside",
+      "state_b": "interior",
+      "gradient_distance": 0.04367403934685004,
+      "hessian_distance": 0.09279601674462531,
+      "distance": 0.09279601674462531,
+      "decrement_a": 0.8939647949578844,
+      "decrement_b": 0.8530017833652547,
+      "exterior_lower_decrement": false,
+      "support_replay": [
+        {
+          "draw": 0,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.006765601923878428
+        },
+        {
+          "draw": 4,
+          "state": "interior",
+          "fraction": 0.06903243829930426,
+          "negative_recession": null
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "Swissmetro",
+      "allocation": 5,
+      "labels": 10,
+      "power": 1,
+      "draw_a": 3,
+      "draw_b": 7,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.029280529074220067,
+      "hessian_distance": 0.04725082827539347,
+      "distance": 0.04725082827539347,
+      "decrement_a": 1.047016842596299,
+      "decrement_b": 1.0300721493408895,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 3,
+          "state": "interior",
+          "fraction": 0.026708348295109846,
+          "negative_recession": null
+        },
+        {
+          "draw": 7,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.0007451547081820387
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "Swissmetro",
+      "allocation": 9,
+      "labels": 5,
+      "power": 1,
+      "draw_a": 0,
+      "draw_b": 1,
+      "state_a": "outside",
+      "state_b": "interior",
+      "gradient_distance": 0.05926432621934704,
+      "hessian_distance": 0.054941912006955,
+      "distance": 0.05926432621934704,
+      "decrement_a": 0.9778788779846668,
+      "decrement_b": 0.9882120642162665,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 0,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.00047703212702432385
+        },
+        {
+          "draw": 1,
+          "state": "interior",
+          "fraction": 0.020652356421103427,
+          "negative_recession": null
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "Swissmetro",
+      "allocation": 10,
+      "labels": 5,
+      "power": 1,
+      "draw_a": 4,
+      "draw_b": 5,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.06183860440388021,
+      "hessian_distance": 0.12746422680440503,
+      "distance": 0.12746422680440503,
+      "decrement_a": 1.022348411524905,
+      "decrement_b": 0.9879950915394954,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 4,
+          "state": "interior",
+          "fraction": 0.06071864861618948,
+          "negative_recession": null
+        },
+        {
+          "draw": 5,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.001877927690121628
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "Swissmetro",
+      "allocation": 10,
+      "labels": 10,
+      "power": 1,
+      "draw_a": 0,
+      "draw_b": 3,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.01965328122998953,
+      "hessian_distance": 0.05303406729506258,
+      "distance": 0.05303406729506258,
+      "decrement_a": 0.9911513495713561,
+      "decrement_b": 0.9741738295463608,
+      "exterior_lower_decrement": true,
+      "support_replay": [
+        {
+          "draw": 0,
+          "state": "interior",
+          "fraction": 0.004589554723175322,
+          "negative_recession": null
+        },
+        {
+          "draw": 3,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.00320588352399398
+        }
+      ],
+      "ordinary_fit": "interior"
+    },
+    {
+      "dataset": "Swissmetro",
+      "allocation": 19,
+      "labels": 10,
+      "power": 1,
+      "draw_a": 0,
+      "draw_b": 1,
+      "state_a": "interior",
+      "state_b": "outside",
+      "gradient_distance": 0.02384969739374291,
+      "hessian_distance": 0.06348306501254748,
+      "distance": 0.06348306501254748,
+      "decrement_a": 0.9448855464247463,
+      "decrement_b": 0.9911079176403549,
+      "exterior_lower_decrement": false,
+      "support_replay": [
+        {
+          "draw": 0,
+          "state": "interior",
+          "fraction": 0.08123907071672386,
+          "negative_recession": null
+        },
+        {
+          "draw": 1,
+          "state": "outside",
+          "fraction": null,
+          "negative_recession": -0.005270403241708799
+        }
+      ],
+      "ordinary_fit": "interior"
+    }
+  ],
+  "archived_cases_sha256": "8e66dc8987b8e537f3a90ba4c70dfe2ed8de5b080f66f326dc034ccb2bad9a22"
+}

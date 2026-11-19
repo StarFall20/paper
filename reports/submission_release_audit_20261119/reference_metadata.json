@@ -1,12 +1,12 @@
 {
   "source_sha256": {
-    "manuscript": "b3a85a7589225fc78b3c0af05bbf0c090b05cdd52cb51a2be9852051491e7e31",
-    "supplement": "2eb722a52610bcd486bcd36be71fe82a3ab866246c086caec2bbabefb3bbc706"
+    "manuscript": "ef94f9609a2556ed4e0c9f8863aadaf22cc6bf120be231eb98455384c2ee1819",
+    "supplement": "d750f9e7d782922a39f41bfdb6088b3e4f900300cde4c59712aa66263107a12c"
   },
-  "unique_links": 68,
+  "unique_links": 70,
   "counts": {
     "automated_matches": 59,
-    "manual_matches": 9,
+    "manual_matches": 11,
     "unresolved": 0
   },
   "details": [
@@ -1973,6 +1973,30 @@
       "primary_source_review": {
         "url": "https://www.di.ens.fr/~fbach/bach_ejs_self_concordance.pdf",
         "record": "Published Electronic Journal of Statistics PDF, title page and Proposition 2",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.21470v1",
+      "classification": "primary_source_matched",
+      "printed": [
+        "Ao, R., Chen, H., Liu, H., Simchi-Levi, D., Sun, W.W. (2026). PPI-SVRG: Unifying Prediction-Powered Inference and Variance Reduction for Semi-Supervised Optimization. Preprint, arXiv:2601.21470v1. https://arxiv.org/abs/2601.21470v1"
+      ],
+      "primary_source_review": {
+        "url": "https://arxiv.org/pdf/2601.21470",
+        "record": "title page and cited theorem",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10341v1",
+      "classification": "primary_source_matched",
+      "printed": [
+        "Nguyen, V. (2026). Attainment Boundaries and Escape Rates in Asymptotically Conic Optimization. Preprint, arXiv:2608.10341v1. https://arxiv.org/abs/2608.10341v1"
+      ],
+      "primary_source_review": {
+        "url": "https://arxiv.org/pdf/2608.10341v1",
+        "record": "title page and cited theorem",
         "paper_title_and_leading_author_agree": true
       }
     }

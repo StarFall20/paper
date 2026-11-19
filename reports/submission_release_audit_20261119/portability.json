@@ -109,8 +109,8 @@
       "version": "2026.6"
     }
   ],
-  "release_manifest_sha256": "9fa242a19228a66427317d08d9c0db65229b5f99396ce7809b33edabfe82c083",
-  "release_checks_passed": 12,
+  "release_manifest_sha256": "9dc6fb84a0aead3b122278bbbf98189001908e5710b8dbe025de95280946f0e1",
+  "release_checks_passed": 13,
   "identical_result_reports": [
     "headline.json",
     "mathematics/quick_check.json",
@@ -133,5 +133,6 @@
       "file": "swissmetro_label_budget_input_20261119.dat",
       "sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
     }
-  }
+  },
+  "independently_reconstructed_new_report": "matched_auxiliary_diagnostics/summary.json"
 }

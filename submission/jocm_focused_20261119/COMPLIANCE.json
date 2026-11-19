@@ -7,18 +7,18 @@
     "Cover_letter.docx": "e07f3abb1c961b48c5666edec2c35684cfaf07f9a970a06b9634b5651d00aeed",
     "Figures/Figure_1.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291",
     "Highlights.docx": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
-    "Manuscript.docx": "d2e9bfd5a88887bfd7cb7ae9040928d55f77d6f6baafd83fddaa3ebe59f7ff54",
-    "Reproduction_Materials.zip": "aa1106927a2d161b261cfd3aa0e8501adcf1e62a05653ac3ad25f1a3c68222d4",
+    "Manuscript.docx": "2ec5bb5399285a20d8ced1ce01ad0572391de81bcf00e65c3a8a2cc55afff544",
+    "Reproduction_Materials.zip": "2a563a831aad41995af7cbc40b2087ba7ea018b59d7d4cac8bce5a188295f7c1",
     "Supplementary_File_Captions.txt": "a7ed0b685ace81de0c1672589086f872d2de83aa3ad8a585f856ecf6c50b69ee",
-    "Supplementary_Methods_and_Proofs.docx": "a6f9ae00f192221ac0dbba43602e9096d66678ea00fba5aede338f399ee5afbc",
+    "Supplementary_Methods_and_Proofs.docx": "e9c696e955e0e72b0cd3a1e5422eef678141d3194332c374db98e3b1d52aa5fc",
     "Title_page.docx": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c"
   },
   "manuscript": {
     "main_rendered_pages": 10,
-    "supplement_rendered_pages": 83,
+    "supplement_rendered_pages": 84,
     "cover_rendered_pages": 1,
     "abstract_lexical_words": 194,
-    "main_body_lexical_words_excluding_equations_and_references": 3512,
+    "main_body_lexical_words_excluding_equations_and_references": 3570,
     "highlight_line_lengths": [
       79,
       75,
@@ -35,11 +35,13 @@
   "visual_review": {
     "changed_pages_inspected": {
       "main": [
-        6
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "supplement": [
-        36,
-        37,
         38,
         39,
         40,
@@ -48,19 +50,52 @@
         43,
         44,
         45,
-        79
+        46,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
       ],
       "cover": []
     },
     "prior_render_pages_exact_body_matches": {
-      "main": 9,
-      "supplement": 72,
+      "main": 5,
+      "supplement": 42,
       "cover": 1
     },
     "all_rendered_footer_page_numbers_checked": true
   },
   "reproduction": {
-    "archive_entries": 1245,
+    "archive_entries": 1255,
     "exact_design_cases": 30,
     "highest_matched_derivative_order_checked": 33,
     "swissmetro_original_menu_score_checks": 1960,
@@ -76,13 +111,15 @@
     "unit_limit_constructed_paths": 5,
     "unit_limit_independently_recomputed_path_points": 30,
     "unit_limit_archived_unit_states_screened": 3824,
-    "clean_release_checks_passed": 12,
+    "clean_release_checks_passed": 13,
     "food_original_menu_method_records": 16000,
-    "verification_receipt_sha256": "44b35329b5c9b0a972b5548887a375cbd1ce3e1e2841b84cbbb29e0e7f4109a7",
+    "verification_receipt_sha256": "b23b036fd18931816b1c7423fd49b2e4a1fedf04c7911583545d5ad0e6dd53fb",
     "clean_environment_pypi_install": "passed",
     "hessian_grid_minimum_checks": 119,
     "hessian_continuous_bound_checks": 2320,
-    "clean_environment_checks_passed": 12
+    "clean_environment_checks_passed": 13,
+    "matched_auxiliary_pairs": 5376,
+    "matched_auxiliary_original_row_witnesses": 28
   },
   "open_items": [
     "Scopus subscribed document search",
@@ -90,14 +127,16 @@
     "independent priority, proof and text-similarity assessment",
     "author confirmation of final declarations and files"
   ],
-  "edition": "diagnostic_bounds",
+  "edition": "fixed_label_empirical_bridge",
   "priority_review": {
     "scopus_verified_result_sets_added": 0,
     "official_ppi_plus_plus_supplements_accessible": false,
     "attached_v2_checked_for_exact_phrase_overlap": true,
     "formal_similarity_check_pending": true,
-    "verified_reference_links": 68,
+    "verified_reference_links": 70,
     "google_scholar_distinct_records_screened": 34,
-    "web_of_science_current_session_institution_error": "90013"
+    "web_of_science_current_session_institution_error": "90013",
+    "primary_pdf_exact_phrase_sources": 8,
+    "primary_pdf_exact_phrase_matches": 0
   }
 }

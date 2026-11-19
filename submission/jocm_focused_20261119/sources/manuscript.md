@@ -108,6 +108,8 @@ The recession calculation explains the difference. The three sets of auxiliary c
 
 The same limitation extends to a finite list of preassigned coefficient vectors. Supplementary Appendix B7 gives equal-weight designs with identical diagnostics at those checkpoints, including an example with matching diagnostics after the first Newton update. With a known range and count of paired contrasts, the zero-point Hessian bounds the finite-estimation limit. In Table 1 the compatible limits range from 0.5 to 1 (Appendix B8).
 
+In the released food and travel data, we make eight auxiliary draws for each of 96 fixed labelled groups. Changing only the auxiliary menus gives both finite and unbounded objectives in 12 groups at unit weight and in two groups at half weight. In one half-weight food pair, the unbounded case gives the smaller Newton decrement (Appendix B9).
+
 ## 4 Consequences for forecasting
 
 ### 4.1 Utility gaps near a positive correction limit
