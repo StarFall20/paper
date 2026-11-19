@@ -1,5 +1,7 @@
 # Finite solutions in prediction assisted choice logit
 
+Section 4.7 compares matching menu frequencies and aligning within-menu predictions in the released LLM study. The [menu distribution supplement](results/menu_distribution_transport/README.md) gives the decomposition, all comparisons and reproduction commands.
+
 Appendix C13 extends the fitted coefficient and log-loss rates to endpoints on lower-dimensional faces. The [multiface supplement](results/multiface_endpoint/README.md) contains the proof, independent example checks and reproduction commands.
 
 Section 4.7 now evaluates the safe weight with frozen third-party forecasts. The [matched prompt-cost supplement](results/external_llm_safe_power/README.md) records all cases, comparators and reproduction commands.

@@ -259,3 +259,13 @@ ext_replay = json.loads((ext/'independent_replay.json').read_text())
 assert ext_replay['status'] == 'passed'
 for filename, pin in ext_replay['byte_identical_outputs'].items():
     assert hashlib.sha256((ext/filename).read_bytes()).hexdigest() == pin, filename
+
+
+ext = ROOT/'results/menu_distribution_transport'
+for line in (ext/'MANIFEST.sha256').read_text().splitlines():
+    pin, path = line.split('  ', 1)
+    assert hashlib.sha256((ext/path).read_bytes()).hexdigest() == pin, path
+ext_replay = json.loads((ext/'independent_replay.json').read_text())
+assert ext_replay['status'] == 'passed'
+for filename, pin in ext_replay['byte_identical_outputs'].items():
+    assert hashlib.sha256((ext/filename).read_bytes()).hexdigest() == pin, filename

@@ -1,7 +1,7 @@
 # Highlights
 
-- Finite auxiliary samples enter corrected choice logit existence boundaries.
-- Equal truth scores and local covariance can give opposite existence limits.
-- More auxiliary data can remove finite estimates along a variance power rule.
-- Menu utility gaps give the log-loss growth rate near a positive power limit.
-- Food and transport choice data show forecast losses near the power limit.
+- Finite auxiliary samples change the existence boundary of corrected logit fits.
+- Identical local derivatives can coexist with different finite-fit outcomes.
+- Utility gaps determine log-loss growth near the correction-weight limit.
+- Balancing menus can leave nonexistence when predictions vary within menus.
+- Food and transport choice data show forecast losses near the weight limit.

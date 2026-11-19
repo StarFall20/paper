@@ -1,0 +1,219 @@
+{
+  "status": "passed",
+  "cases": 480,
+  "results_sha256": "914ee7be7e29e5b8c06d38db07d57248c2aa32f394670798117e4648875aee12",
+  "budgets": {
+    "15": {
+      "cases": 120,
+      "labelled_coverage": [
+        0.6666666666666667,
+        1.0,
+        1.0
+      ],
+      "auxiliary_coverage": [
+        0.7142857142857142,
+        0.9464285714285714,
+        1.0
+      ],
+      "states": {
+        "unit": {
+          "interior": 115,
+          "outside": 5
+        },
+        "poststratified": {
+          "interior": 114,
+          "outside": 6
+        },
+        "composition_only": {
+          "interior": 120
+        }
+      },
+      "transitions": {
+        "poststratified": {
+          "interior -> interior": 114,
+          "interior -> outside": 1,
+          "outside -> outside": 5
+        },
+        "composition_only": {
+          "interior -> interior": 115,
+          "outside -> interior": 5
+        }
+      },
+      "negative_components": {
+        "observed": 5,
+        "human": 0,
+        "composition": 5,
+        "within": 5,
+        "transported": 5
+      },
+      "mean_gap_components": {
+        "observed": -0.032594818392002047,
+        "human": 0.05555555555555558,
+        "composition": -0.006123474467018905,
+        "within": -0.0820268994805389,
+        "transported": -0.030814536563613028
+      },
+      "paired_log_loss": {
+        "unit": {
+          "unit": {
+            "mean": 0.0,
+            "wins": 0,
+            "ties": 120
+          },
+          "ridge": {
+            "mean": 0.08525657210407658,
+            "wins": 36,
+            "ties": 5
+          },
+          "matched_prompt_MLE": {
+            "mean": 0.13996404325157502,
+            "wins": 21,
+            "ties": 0
+          }
+        },
+        "poststratified": {
+          "unit": {
+            "mean": -0.02126993986259861,
+            "wins": 58,
+            "ties": 5
+          },
+          "ridge": {
+            "mean": 0.06398663224147799,
+            "wins": 37,
+            "ties": 6
+          },
+          "matched_prompt_MLE": {
+            "mean": 0.1186941033889764,
+            "wins": 19,
+            "ties": 0
+          }
+        },
+        "composition_only": {
+          "unit": {
+            "mean": -0.0025881237198941698,
+            "wins": 68,
+            "ties": 0
+          },
+          "ridge": {
+            "mean": 0.08266844838418243,
+            "wins": 38,
+            "ties": 0
+          },
+          "matched_prompt_MLE": {
+            "mean": 0.13737591953168085,
+            "wins": 22,
+            "ties": 0
+          }
+        }
+      }
+    },
+    "5": {
+      "cases": 360,
+      "labelled_coverage": [
+        0.6000000000000001,
+        1.0,
+        1.0
+      ],
+      "auxiliary_coverage": [
+        0.17857142857142858,
+        0.6428571428571428,
+        0.8928571428571429
+      ],
+      "states": {
+        "unit": {
+          "interior": 268,
+          "outside": 92
+        },
+        "poststratified": {
+          "outside": 145,
+          "interior": 215
+        },
+        "composition_only": {
+          "interior": 295,
+          "outside": 65
+        }
+      },
+      "transitions": {
+        "poststratified": {
+          "interior -> outside": 61,
+          "outside -> interior": 8,
+          "interior -> interior": 207,
+          "outside -> outside": 84
+        },
+        "composition_only": {
+          "interior -> interior": 252,
+          "interior -> outside": 16,
+          "outside -> outside": 49,
+          "outside -> interior": 43
+        }
+      },
+      "negative_components": {
+        "observed": 92,
+        "human": 0,
+        "composition": 84,
+        "within": 90,
+        "transported": 52
+      },
+      "mean_gap_components": {
+        "observed": -0.12925906058274875,
+        "human": 0.11022571803188876,
+        "composition": -0.11416376065875324,
+        "within": -0.12532101795588427,
+        "transported": -0.02908707312989891
+      },
+      "paired_log_loss": {
+        "unit": {
+          "unit": {
+            "mean": 0.0,
+            "wins": 0,
+            "ties": 360
+          },
+          "ridge": {
+            "mean": 0.3383153339338509,
+            "wins": 60,
+            "ties": 92
+          },
+          "matched_prompt_MLE": {
+            "mean": 0.5254525147250269,
+            "wins": 31,
+            "ties": 0
+          }
+        },
+        "poststratified": {
+          "unit": {
+            "mean": 0.0061508962591899224,
+            "wins": 119,
+            "ties": 84
+          },
+          "ridge": {
+            "mean": 0.34446623019304073,
+            "wins": 41,
+            "ties": 145
+          },
+          "matched_prompt_MLE": {
+            "mean": 0.5316034109842168,
+            "wins": 37,
+            "ties": 0
+          }
+        },
+        "composition_only": {
+          "unit": {
+            "mean": -0.08500200825596838,
+            "wins": 163,
+            "ties": 49
+          },
+          "ridge": {
+            "mean": 0.25331332567788245,
+            "wins": 68,
+            "ties": 65
+          },
+          "matched_prompt_MLE": {
+            "mean": 0.44045050646905853,
+            "wins": 28,
+            "ties": 0
+          }
+        }
+      }
+    }
+  }
+}

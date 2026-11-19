@@ -1,0 +1,56 @@
+{
+  "status": "frozen before new group splits, estimation or forecast computations",
+  "sources": {
+    "protocol": "https://zenodo.org/records/23140920",
+    "predictions": "https://zenodo.org/records/23143623",
+    "required_original_pipeline_sha256": "18a16dd5dace3630af158564fa6e1e7cd1dbe318544b1642b338254745a59201"
+  },
+  "code_sha256": {
+    "external/audit_released_workflow.py": "b84bec2880c24c0b6748f9548e321b98b3df09a94bdd4aa8f13106e1c7d7544f",
+    "support/run.py": "ded7407d65ff2f117bf47d1f70e9830b814d3dc3d7e835a1e8212cc910411a8f",
+    "certificate/audit.py": "f64eb91f1268019c789204418ad85c9b3580d39b949c0a17ca7ee46e17fcf652",
+    "certificate/safe_power.py": "9822c367df7694421a5caff3538e3ad63381cfb41ec25786801d3c475c159bbd",
+    "forecast/inputs.py": "f71ffa0ff2b91b222d879f67993c15bf12658a655f185a6d8a2a2199ef5d90bf",
+    "forecast/fit.py": "4a759670dade79e647c806288007c1005f719ea29bf37f439fc4ecebb096d489"
+  },
+  "cases": "All 24 released fixed LLM cells across four contexts, two original replicas and three coverage levels.",
+  "evaluation": {
+    "original_protected_people": 35,
+    "folds": 5,
+    "per_fold": 7,
+    "auxiliary_people": 28,
+    "seed": 2026111901,
+    "design": "Each of the 35 H-target people is held out once in a complete five-fold rotation within context and original split. Coverage variants share folds. Holdout labels and predictions do not select weights or fit coefficients. The old H evaluation findings are known. This is a retrospective independent refit split within a released study."
+  },
+  "labels": {
+    "primary": 15,
+    "secondary": 5,
+    "secondary_folds": 3,
+    "seed": 2026111902,
+    "design": "Primary retains all 15 V-target people; secondary divides the same 15 into three disjoint groups of 5. Each label group is crossed with all five evaluation folds. Prediction pools and outcomes come from the published workbooks."
+  },
+  "methods": {
+    "safe_half": "half the labelled-only finite-fit cap",
+    "fixed_unit": "unit weight with archive-compatible support LP",
+    "released_rule": "recompute published opt-out variance rule only on the new L and U",
+    "labelled_MLE": "same labelled menus with ordinary fit",
+    "labelled_ridge": "same labelled menus with mean-loss ridge at 0.01",
+    "prompt_matched_MLE": "ordinary fit on labels and the union of distinct menu outcomes used as prompt examples for fitting-sample predictions",
+    "prompt_matched_ridge": "same prompt-matched labelled menus with mean-loss ridge at 0.01",
+    "raw_LLM": "frozen probabilities for the actual held-out group"
+  },
+  "fallback": "When safe, unit or retuned released compensation lacks a verified unpenalized fit, apply same-label ridge. Prompt-matched MLE has a matched-ridge fallback. Record each reason. Do not count fallback as an unpenalized estimate.",
+  "prompt_cost": "Reconstruct human exemplars by the deposited split and Hamming-neighbor algorithms. Take their exact first two complete menus per used neighbor. Use only exemplars for L/U predictions and preserve duplicates as a single human observation. This counts observed in-context study labels; model training costs are outside the archive.",
+  "metrics": [
+    "respondent-averaged test log loss",
+    "respondent-averaged test Brier score",
+    "native finite counts",
+    "unique labelled and in-context menu counts"
+  ],
+  "scope": "Repeated folds within one released RADIANT study and 24 dependent cells. Separate 15- and 5-person budgets. No new prompts, predictor fitting, labels, people, or Monte Carlo trial estimates. No population inference.",
+  "tolerance": {
+    "score": 1e-07,
+    "support": 1e-08,
+    "tie": 1e-10
+  }
+}

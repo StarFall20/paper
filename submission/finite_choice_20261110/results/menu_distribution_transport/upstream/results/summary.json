@@ -1,0 +1,388 @@
+{
+  "status": "passed",
+  "scores_and_predictions": 3840,
+  "cases": 480,
+  "fits_sha256": "e177f0f4cbc5e1c299e55eec6aab05adb931470da3db29d551a71ef2df2be10e",
+  "summaries": {
+    "15": {
+      "cases": 120,
+      "states": {
+        "fixed_unit": {
+          "native": 115,
+          "labelled_ridge_fallback": 5
+        },
+        "labelled_MLE": {
+          "native": 120
+        },
+        "labelled_ridge": {
+          "native": 120
+        },
+        "prompt_matched_MLE": {
+          "native": 120
+        },
+        "prompt_matched_ridge": {
+          "native": 120
+        },
+        "raw_LLM": {
+          "frozen": 120
+        },
+        "released_rule": {
+          "native": 120
+        },
+        "safe_half": {
+          "native": 120
+        }
+      },
+      "power": {
+        "fixed_unit": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "released_rule": [
+          0.0,
+          0.026756677153086494,
+          0.753445876475031
+        ],
+        "safe_half": [
+          0.13338197201757376,
+          0.20316109198174276,
+          0.31341027314438075
+        ]
+      },
+      "paired": {
+        "labelled_MLE": {
+          "loss": {
+            "n": 120,
+            "wins": 68,
+            "ties": 0,
+            "mean": -0.002043425104262402,
+            "median": -0.0016708327180553484
+          },
+          "brier": {
+            "n": 120,
+            "wins": 69,
+            "ties": 0,
+            "mean": -0.0014700204304772169,
+            "median": -0.001065498208384641
+          }
+        },
+        "labelled_ridge": {
+          "loss": {
+            "n": 120,
+            "wins": 52,
+            "ties": 0,
+            "mean": 0.012422098002328016,
+            "median": 0.013319611457255798
+          },
+          "brier": {
+            "n": 120,
+            "wins": 54,
+            "ties": 0,
+            "mean": 0.003343123693138914,
+            "median": 0.003575926392537676
+          }
+        },
+        "prompt_matched_MLE": {
+          "loss": {
+            "n": 120,
+            "wins": 25,
+            "ties": 0,
+            "mean": 0.06712956914982643,
+            "median": 0.05674768677440595
+          },
+          "brier": {
+            "n": 120,
+            "wins": 29,
+            "ties": 0,
+            "mean": 0.04186106540702988,
+            "median": 0.038397390019189376
+          }
+        },
+        "prompt_matched_ridge": {
+          "loss": {
+            "n": 120,
+            "wins": 34,
+            "ties": 0,
+            "mean": 0.057549863859082694,
+            "median": 0.050062281283366095
+          },
+          "brier": {
+            "n": 120,
+            "wins": 34,
+            "ties": 0,
+            "mean": 0.0351783007618366,
+            "median": 0.03249613117127323
+          }
+        },
+        "raw_LLM": {
+          "loss": {
+            "n": 120,
+            "wins": 94,
+            "ties": 0,
+            "mean": -0.1641300394329305,
+            "median": -0.14984725324650988
+          },
+          "brier": {
+            "n": 120,
+            "wins": 91,
+            "ties": 0,
+            "mean": -0.07492598918934804,
+            "median": -0.06273994594724269
+          }
+        },
+        "fixed_unit": {
+          "loss": {
+            "n": 120,
+            "wins": 86,
+            "ties": 0,
+            "mean": -0.07283447410174858,
+            "median": -0.03801792920243696
+          },
+          "brier": {
+            "n": 120,
+            "wins": 74,
+            "ties": 0,
+            "mean": -0.014758733690371971,
+            "median": -0.010948058236082386
+          }
+        },
+        "released_rule": {
+          "loss": {
+            "n": 120,
+            "wins": 64,
+            "ties": 0,
+            "mean": -0.0020458006405959664,
+            "median": -0.0006706468402508658
+          },
+          "brier": {
+            "n": 120,
+            "wins": 60,
+            "ties": 0,
+            "mean": -0.00048501996108177243,
+            "median": -1.7737044157528636e-05
+          }
+        }
+      },
+      "prompt_menus": [
+        124.0,
+        141.0,
+        166.0
+      ],
+      "prompt_people": [
+        62.0,
+        70.5,
+        83.0
+      ],
+      "unit_unavailable_safe_native": 5,
+      "released_unavailable_safe_native": 0,
+      "fallback_reasons": {
+        "fixed_unit": {
+          "outside": 5
+        },
+        "labelled_MLE": {},
+        "labelled_ridge": {},
+        "prompt_matched_MLE": {},
+        "prompt_matched_ridge": {},
+        "raw_LLM": {},
+        "released_rule": {},
+        "safe_half": {}
+      }
+    },
+    "5": {
+      "cases": 360,
+      "states": {
+        "fixed_unit": {
+          "native": 268,
+          "labelled_ridge_fallback": 92
+        },
+        "labelled_MLE": {
+          "native": 240,
+          "unavailable": 120
+        },
+        "labelled_ridge": {
+          "native": 360
+        },
+        "prompt_matched_MLE": {
+          "native": 360
+        },
+        "prompt_matched_ridge": {
+          "native": 360
+        },
+        "raw_LLM": {
+          "frozen": 360
+        },
+        "released_rule": {
+          "native": 252,
+          "labelled_ridge_fallback": 108
+        },
+        "safe_half": {
+          "native": 240,
+          "labelled_ridge_fallback": 120
+        }
+      },
+      "power": {
+        "fixed_unit": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "released_rule": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "safe_half": [
+          0.0,
+          0.04565993370818648,
+          0.24063791996357872
+        ]
+      },
+      "paired": {
+        "labelled_MLE": {
+          "loss": {
+            "n": 240,
+            "wins": 199,
+            "ties": 0,
+            "mean": -0.08966837234498048,
+            "median": -0.04245062017762291
+          },
+          "brier": {
+            "n": 240,
+            "wins": 185,
+            "ties": 0,
+            "mean": -0.020950733558871597,
+            "median": -0.009488174230557256
+          }
+        },
+        "labelled_ridge": {
+          "loss": {
+            "n": 360,
+            "wins": 46,
+            "ties": 120,
+            "mean": 0.20615786833823718,
+            "median": 0.020961027362430884
+          },
+          "brier": {
+            "n": 360,
+            "wins": 81,
+            "ties": 120,
+            "mean": 0.022917103863693753,
+            "median": 0.0
+          }
+        },
+        "prompt_matched_MLE": {
+          "loss": {
+            "n": 360,
+            "wins": 40,
+            "ties": 0,
+            "mean": 0.39329504912941327,
+            "median": 0.27243361867106536
+          },
+          "brier": {
+            "n": 360,
+            "wins": 41,
+            "ties": 0,
+            "mean": 0.12192005534850803,
+            "median": 0.11297342563729973
+          }
+        },
+        "prompt_matched_ridge": {
+          "loss": {
+            "n": 360,
+            "wins": 44,
+            "ties": 0,
+            "mean": 0.40144591196046375,
+            "median": 0.2661768413769942
+          },
+          "brier": {
+            "n": 360,
+            "wins": 44,
+            "ties": 0,
+            "mean": 0.1215386769317177,
+            "median": 0.10511363722226641
+          }
+        },
+        "raw_LLM": {
+          "loss": {
+            "n": 360,
+            "wins": 146,
+            "ties": 0,
+            "mean": 0.20175385487746955,
+            "median": 0.1074284788588003
+          },
+          "brier": {
+            "n": 360,
+            "wins": 159,
+            "ties": 0,
+            "mean": 0.026386592522623955,
+            "median": 0.015310405750814937
+          }
+        },
+        "fixed_unit": {
+          "loss": {
+            "n": 360,
+            "wins": 180,
+            "ties": 38,
+            "mean": -0.13215746559561362,
+            "median": -1.8955628069916575e-05
+          },
+          "brier": {
+            "n": 360,
+            "wins": 168,
+            "ties": 38,
+            "mean": -0.003708611248813347,
+            "median": 0.0
+          }
+        },
+        "released_rule": {
+          "loss": {
+            "n": 360,
+            "wins": 163,
+            "ties": 100,
+            "mean": -0.05080868325420441,
+            "median": 0.0
+          },
+          "brier": {
+            "n": 360,
+            "wins": 155,
+            "ties": 100,
+            "mean": -0.011648128741697586,
+            "median": 0.0
+          }
+        }
+      },
+      "prompt_menus": [
+        102.0,
+        124.0,
+        148.0
+      ],
+      "prompt_people": [
+        51.0,
+        62.0,
+        74.0
+      ],
+      "unit_unavailable_safe_native": 54,
+      "released_unavailable_safe_native": 8,
+      "fallback_reasons": {
+        "fixed_unit": {
+          "outside": 92
+        },
+        "labelled_MLE": {
+          "boundary_or_unresolved": 120
+        },
+        "labelled_ridge": {},
+        "prompt_matched_MLE": {},
+        "prompt_matched_ridge": {},
+        "raw_LLM": {},
+        "released_rule": {
+          "boundary_or_unresolved": 85,
+          "outside": 23
+        },
+        "safe_half": {
+          "zero_safe_bound": 120
+        }
+      }
+    }
+  }
+}

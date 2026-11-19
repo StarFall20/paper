@@ -4,28 +4,26 @@
   "new_cover_letter": {
     "pages": 1,
     "direct_image_review": true,
-    "source_sha256": "7a6f01973afccf3baf2c27e9e15876a67b85c6827c62781912379980b2dc481b",
-    "docx_sha256": "22fd2fc3fbbc0e85f9841355065ae4456ceab43a50b9b1b5390603a8654764ee",
-    "page_png_sha256": "66289b7bf141bf97061c57d2ec804422067b264ec31dc0e5010d720bac9f89bf",
-    "inherited_from": "reports/safe_power_visual_qa_20261119.json"
+    "source_sha256": "36f036ed916a00beaaa18e8539b7f93f2a96c45e9de4c936187fbb156027f1e2",
+    "docx_sha256": "8a6e33329e5714155d25a16fd828eda7844ec677e63488207f649236f004c794",
+    "page_png_sha256": "d8ef8e1cd78fa8e1129a31aea6a33302de1425344df10c5a6a66385decc17b95"
   },
-  "copied_manuscript_visual_review": "reports/multiface_20261119_visual_qa.json in the companion reproduction archive.",
+  "copied_manuscript_visual_review": "reports/menu_transport_20261119_visual_qa.json in the companion reproduction archive.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
   "highlights_visual_review": "Direct one-page review.",
-  "manuscript_docx_sha256": "99d96e59dbe04dec7e51190144f7f63440a2ff070d355b95b70651639424bbeb",
+  "manuscript_docx_sha256": "5ed1f181ee99e14c150a0e82d98ec3de3b1b879eba048621bbd91eac56f1f626",
   "highlights": {
     "pages": 1,
     "direct_image_review": true,
-    "source_sha256": "3622c0a7a37f7f7ae5933f959b539807e4784da251d721be170cad9203629cd7",
-    "docx_sha256": "786586286b36a59399bcbd6fe433ec59dc32e2ba3c1439c4769fad4408ef78c2",
-    "page_png_sha256": "e6275e522a8c856f005b612d9bf9724e18d59b7fb47ebc708fd642f909926266",
+    "source_sha256": "74136d7e385ee5778cf6e78ff6963de9d6788a8d5eb062eef207636658835e45",
+    "docx_sha256": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
+    "page_png_sha256": "90de7d956abcdcf4750a7b05d394aa82255ba541b8a643417b0fac9efe843edb",
     "characters": [
+      79,
       75,
-      75,
-      76,
-      76,
-      73
-    ],
-    "inherited_from": "reports/safe_power_visual_qa_20261119.json"
+      72,
+      74,
+      74
+    ]
   }
 }

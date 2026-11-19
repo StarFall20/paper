@@ -4,11 +4,11 @@ Dear Editors,
 
 Please consider When prediction assisted logit estimates exist for publication in the Journal of Choice Modelling.
 
-We derive finite-estimation thresholds for a prediction-corrected binary and multinomial choice logit as the number of utility coefficients grows with the labelled sample. A controlled construction matches realized scores at the true coefficient and the full fixed-dimensional covariance, with opposite existence limits. A second construction shows that more auxiliary data can lower regular covariance and remove a finite estimate under a standard variance rule.
+We derive when prediction-corrected binary and multinomial logit objectives yield finite utility estimates as the number of coefficients grows with the labelled sample. The auxiliary choice menus can change existence for fixed human labels, a fixed predictor and a fixed correction weight. This difference can occur even when all local derivatives through any prescribed finite order agree at the same reference coefficient.
 
-The fixed-design calculation connects finite estimation to the quality of choice probabilities. As correction power approaches a positive upper limit, the fitted objective can fall while held-out log loss rises. We document the deterioration in food and transport choice experiments. In Swissmetro, held-out loss rises in 90 of 93 positive-limit allocations when power moves from half to nine tenths of the upper limit. Direct multinomial logit using the same human labels gives lower held-out loss at both powers in all 1152 comparisons.
+The paper connects the existence boundary to the reliability of choice probabilities. In Swissmetro, held-out log loss rises in 90 of 93 positive-limit allocations when the weight moves from half to nine tenths of its upper limit. Direct multinomial logit has lower loss in all 1152 comparisons when it receives the human choices used to train the predictor and the correction labels. A second study uses released LLM forecasts to isolate menu composition. Equalizing menu frequencies leaves five observed failures at the 15-person label budget. Equalizing predictions within each menu makes all five fits finite.
 
-The paper addresses estimation and sample planning for analysts using predictions in discrete choice models. The reproduction package contains the analysis code, released-data provenance, all numerical results and independent checks.
+The results inform how choice analysts audit the usable correction weight and compare forecasts at the same human-label cost. The reproduction package includes the code, data provenance and independent score checks.
 
 This research received no funding. The manuscript includes a declaration of generative AI assistance.
 

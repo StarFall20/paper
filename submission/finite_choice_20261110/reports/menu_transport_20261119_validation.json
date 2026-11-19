@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "original_science_files": 1047,
+  "checked_menu_allocations": 480,
+  "new_objective_cases": 960,
+  "original_exterior_directions": 97,
+  "isolated_replay": true,
+  "retained_tables": 20,
+  "retained_equations": 153,
+  "retained_formal_statements": 14
+}

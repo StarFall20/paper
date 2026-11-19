@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "integration": "reports/multiface_20261119_integration.json",
-  "visual_qa": "reports/multiface_20261119_visual_qa.json",
-  "validation": "reports/multiface_20261119_validation.json",
+  "integration": "reports/menu_transport_20261119_integration.json",
+  "visual_qa": "reports/menu_transport_20261119_visual_qa.json",
+  "validation": "reports/menu_transport_20261119_validation.json",
   "historical_reports_are_dated_snapshots": true
 }

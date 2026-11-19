@@ -932,5 +932,34 @@
     ],
     "Scopus_queries_added": 0,
     "goal_complete": false
+  },
+  "menu_distribution_transport_20261119": {
+    "state": "integrated_reviewed",
+    "allocations": 480,
+    "transformed_fits": 960,
+    "exterior_directions": 97,
+    "primary_n": 120,
+    "primary_finite_original_match_common": [
+      115,
+      114,
+      120
+    ],
+    "primary_excess_log_loss_vs_same_label_ridge": [
+      0.06398663224147798,
+      0.08266844838418243
+    ],
+    "independent_byte_identical_replay": true,
+    "full_pages": 81,
+    "main_pages": 32,
+    "abstract_words": 173,
+    "highlights_sizes": [
+      79,
+      75,
+      72,
+      74,
+      74
+    ],
+    "Scopus_queries_added": 0,
+    "goal_complete": false
   }
 }

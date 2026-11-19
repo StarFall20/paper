@@ -1,0 +1,12 @@
+{
+  "design": "Repeat all 480 fixed-prediction cases from the released Qwen/RADIANT analysis and keep their original label, auxiliary and evaluation partitions. Analyze 15 respondents as the primary label budget and five respondents as a stress test. No auxiliary or evaluation choices enter the corrections.",
+  "main_comparison": "Unit correction, a composition-only intervention using a common prediction moment in each menu, a labelled-menu poststratified intervention, and ordinary MNL on the original labels. All unavailable unpenalized fits use the same original 0.01 mean-loss ridge fit. Retain the matched-prompt direct MNL as a total-study-label cost comparator.",
+  "strata": "Exact equality of the multiset of contrast rows after lexicographic alternative ordering and subtraction of the first row. Predicted probabilities travel with their alternatives. Identical rows share the same utility contribution. No near matching or retuning.",
+  "poststratified": "Replace the auxiliary menu distribution with the labelled distribution, taking the auxiliary mean predicted moment within common strata. For a labelled stratum absent from the auxiliary sample, retain its labelled mean predicted moment so that its correction is identically zero.",
+  "composition_only": "Retain the original labelled and auxiliary weights and give both samples the same prediction moment in a common stratum, the equally weighted mean of the two conditional predicted moments. In an exclusive stratum retain its observed moment.",
+  "direction_audit": "At every exterior original unit target, obtain a bounded recession direction from a linear program using all original menu alternatives. Reconcile its gap into nonnegative human recession, between-menu composition, and within-menu predicted-moment drift. The decomposition is directional and the interventions need not preserve individual directional minima.",
+  "endpoints": "Record exact common-menu coverage by case, status transitions under both interventions, and respondent-average evaluation log loss with the shared fallback. Also retain cases with no coverage. No population inference from overlapping allocations.",
+  "reference_fits_sha256": "e177f0f4cbc5e1c299e55eec6aab05adb931470da3db29d551a71ef2df2be10e",
+  "recession_tol": 1e-8,
+  "score_tol": 1e-7
+}

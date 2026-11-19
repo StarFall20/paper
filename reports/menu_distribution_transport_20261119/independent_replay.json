@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "cases": 480,
+  "byte_identical_outputs": {
+    "results.json": "914ee7be7e29e5b8c06d38db07d57248c2aa32f394670798117e4648875aee12",
+    "verification.json": "d9372239cb25d4b85704ece3466bd2115753a222aafb9161623958b547cddbd3"
+  }
+}

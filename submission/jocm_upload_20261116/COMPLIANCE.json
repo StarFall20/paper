@@ -3,7 +3,7 @@
   "guide_read_date": "2026-11-13",
   "guide_url": "https://www.sciencedirect.com/journal/journal-of-choice-modelling/publish/guide-for-authors",
   "fresh_guide_web_retrieval": "403; retained institutional guide used",
-  "abstract_words": 182,
+  "abstract_words": 173,
   "abstract_limit": 250,
   "keyword_count": 5,
   "permitted_keyword_count": [
@@ -12,18 +12,18 @@
   ],
   "highlight_count": 5,
   "highlight_characters": [
+    79,
     75,
-    75,
-    76,
-    76,
-    73
+    72,
+    74,
+    74
   ],
   "highlight_character_limit": 85,
   "permitted_highlight_count": [
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 9423,
+  "main_lexical_words_excluding_math": 9509,
   "verified_full_research_article_word_cap": null,
   "full_manuscript_pages": 81,
   "native_math_objects": 1493,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "99d96e59dbe04dec7e51190144f7f63440a2ff070d355b95b70651639424bbeb"
+      "sha256": "5ed1f181ee99e14c150a0e82d98ec3de3b1b879eba048621bbd91eac56f1f626"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",
@@ -43,7 +43,7 @@
     },
     "Highlights.docx": {
       "parent_path": "submission_materials/Highlights.docx",
-      "sha256": "786586286b36a59399bcbd6fe433ec59dc32e2ba3c1439c4769fad4408ef78c2"
+      "sha256": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998"
     },
     "author_review/author_facts.json": {
       "parent_path": "submission_materials/author_facts_20261113.json",
@@ -91,7 +91,7 @@
     },
     "Cover_letter.docx": {
       "parent_path": "submission_materials/Cover_letter.docx",
-      "sha256": "22fd2fc3fbbc0e85f9841355065ae4456ceab43a50b9b1b5390603a8654764ee"
+      "sha256": "8a6e33329e5714155d25a16fd828eda7844ec677e63488207f649236f004c794"
     }
   },
   "pending": [
@@ -103,6 +103,6 @@
   "submission_made": false,
   "research_goal_achieved": false,
   "cached_author_guide_rechecked": "2026-11-18: retained 13 November guide text rechecked; fresh official retrieval returned 403",
-  "current_source_basis": "Published choice data, independent frozen predictions, PPI++ preprint v2 with appendices, and the attributed endpoint results.",
+  "current_source_basis": "Published choice data, released predictions, menu composition checks and conditional prediction interventions, and attributed methods.",
   "display_formulas": 151
 }
