@@ -9,10 +9,10 @@
     "page_png_sha256": "66289b7bf141bf97061c57d2ec804422067b264ec31dc0e5010d720bac9f89bf",
     "inherited_from": "reports/safe_power_visual_qa_20261119.json"
   },
-  "copied_manuscript_visual_review": "safe_forecast_visual_qa_20261119.json in the companion reproduction archive.",
+  "copied_manuscript_visual_review": "reports/external_llm_20261119_visual_qa.json in the companion reproduction archive.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
   "highlights_visual_review": "Direct one-page review.",
-  "manuscript_docx_sha256": "f68701f64ac83228f9d55dae7148f8dca7aa68b38240b3fb3cf2cf789926f0da",
+  "manuscript_docx_sha256": "4dba1cb7db9bdfb97d664477e204469050a3ec281d0387379f7bdab84bf92c52",
   "highlights": {
     "pages": 1,
     "direct_image_review": true,

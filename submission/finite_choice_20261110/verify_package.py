@@ -239,3 +239,13 @@ forecast_replay = json.loads((forecast_results/'independent_replay.json').read_t
 assert forecast_replay['status']=='passed' and forecast_replay['shared_paired_designs']==768
 for path,h in forecast_replay['byte_identical_outputs'].items():
     assert hashlib.sha256((forecast_results/'results'/path).read_bytes()).hexdigest()==h
+
+
+ext = ROOT/'results/external_llm_safe_power'
+for line in (ext/'MANIFEST.sha256').read_text().splitlines():
+    pin, path = line.split('  ', 1)
+    assert hashlib.sha256((ext/path).read_bytes()).hexdigest() == pin, path
+ext_replay = json.loads((ext/'independent_replay.json').read_text())
+assert ext_replay['status'] == 'passed'
+for filename, pin in ext_replay['byte_identical_outputs'].items():
+    assert hashlib.sha256((ext/'results'/filename).read_bytes()).hexdigest() == pin, filename

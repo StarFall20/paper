@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "original_science_files": 1016,
+  "methods_checked": 3840,
+  "allocation_cases": 480,
+  "prompt_calls": 21600,
+  "prompt_probability_rows": 7200,
+  "verified_equal_reference_outputs": true,
+  "retained_tables": 20,
+  "retained_equations": 153,
+  "retained_formal_statements": 14
+}

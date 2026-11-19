@@ -1,3 +1,7 @@
+# 第三方 LLM 预测和真人提示成本复核
+
+[第 4.7 节的复现补充](reports/external_llm_safe_power_20261119/README.md)比较四个 RADIANT 选择情境的 480 个划分。安全权重在 15 人和 5 人标签预算下分别保住 5 和 54 个单位权重无下界的案例。直接 MNL 获得相同真人提示答卷后，在两个预算下的平均留出损失分别低 0.0671 和 0.3933。按原始提示缓存复核 7,200 条冻结概率。完整稿 81 页，阅读版 31 页，复现包与投稿包用同一 Word 版本。学校认证回跳报错，Scopus 当前仅有预览权限。[检索范围](reports/external_llm_safe_power_20261119/prior_comparison.md)
+
 # 安全权重的预测检验已纳入稿件
 
 [现行稿件](reports/safe_forecast_manuscript_integration_20261119/README.md)在原两套公开数据中核对 768 个留出预测配对，保留同校正标签和同总真人训练成本两种尺度。完整稿 81 页，阅读版 31 页。以下为历史记录。

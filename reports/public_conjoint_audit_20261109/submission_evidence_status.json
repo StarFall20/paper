@@ -888,5 +888,32 @@
     "unit_exterior_cases_recovered": 52,
     "independent_package_replay": true,
     "manuscript_integrated": true
+  },
+  "external_llm_safe_power_20261119": {
+    "status": "integrated_reviewed",
+    "method_records": 3840,
+    "allocation_cases": 480,
+    "prompt_probability_rows": 7200,
+    "unique_verified_prompt_cache_keys": 21267,
+    "unit_exterior_recovered": [
+      5,
+      54
+    ],
+    "safe_minus_prompt_matched_MNL_mean_log_loss": [
+      0.06712957,
+      0.39329505
+    ],
+    "label_respondent_budgets": [
+      15,
+      5
+    ],
+    "current_word_pages": [
+      81,
+      31
+    ],
+    "Scopus_document_queries": 0,
+    "Scopus_access": "Elsevier institution handoff error, direct Scopus Preview",
+    "independent_archive_replay": true,
+    "research_goal_complete": false
   }
 }

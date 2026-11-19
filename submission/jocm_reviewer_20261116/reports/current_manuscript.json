@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "integration": "reports/safe_forecast_integration_20261119.json",
-  "visual_qa": "reports/safe_forecast_visual_qa_20261119.json",
-  "validation": "reports/safe_forecast_validation_20261119.json",
+  "integration": "reports/external_llm_20261119_integration.json",
+  "visual_qa": "reports/external_llm_20261119_visual_qa.json",
+  "validation": "reports/external_llm_20261119_validation.json",
   "historical_reports_are_dated_snapshots": true
 }

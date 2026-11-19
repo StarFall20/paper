@@ -76,3 +76,8 @@ The [two-study comparison](results/design_and_safe_power/README.md), [support pr
 ## Cost-matched forecasts
 
 The [forecast comparison](results/safe_power_forecast/README.md) and [replay receipt](results/safe_power_forecast/independent_replay.json) accompany the end of Section 4.9.
+
+
+## Released LLM forecast audit
+
+Section 4.7 now evaluates the safe weight with frozen third-party forecasts. The [matched prompt-cost supplement](results/external_llm_safe_power/README.md) records all cases, comparators and reproduction commands.

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "execution": "three commands from a fresh isolated archive extraction",
+  "byte_identical_outputs": {
+    "fits.json": "e177f0f4cbc5e1c299e55eec6aab05adb931470da3db29d551a71ef2df2be10e",
+    "summary.json": "b7b87cd33db253c5c15ee261619c24228030aed57e8465843132910dd0b6c7ef",
+    "prompt_cache_summary.json": "675913c5d0c608bdc63a26bd53c48681cfed283406921c71319db0bab2b49580"
+  }
+}

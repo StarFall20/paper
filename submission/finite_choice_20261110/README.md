@@ -1,5 +1,7 @@
 # Finite solutions in prediction assisted choice logit
 
+Section 4.7 now evaluates the safe weight with frozen third-party forecasts. The [matched prompt-cost supplement](results/external_llm_safe_power/README.md) records all cases, comparators and reproduction commands.
+
 The [current revision](reports/current_manuscript.json) adds held-out comparisons of the safe weights in Section 4.9. The [forecast supplement](results/safe_power_forecast/README.md) records common labelled fits, ridge fallback and a matched total human-label budget.
 
 The [current revision](reports/current_manuscript.json) adds the fixed-label auxiliary-design comparison and the bound obtained from labelled choices in Section 4.9 and Appendix C14. [Archived checks](results/design_and_safe_power/README.md) cover 768 design pairs and 656 positive support witnesses.

@@ -430,3 +430,8 @@ The [design supplement](results/design_and_safe_power/README.md) includes the tw
 ## Forecasts at the safe power
 
 The [forecast supplement](results/safe_power_forecast/README.md) gives the fitting and verification commands. It reuses the two released choice datasets and archived predictors, without retraining.
+
+
+## Released LLM forecast audit
+
+Section 4.7 now evaluates the safe weight with frozen third-party forecasts. The [matched prompt-cost supplement](results/external_llm_safe_power/README.md) records all cases, comparators and reproduction commands.
