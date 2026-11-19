@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-19",
+  "scope": "Follow-up fixed-data analysis specified before the new model fits.",
+  "source_sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2",
+  "split_seed": 479150,
+  "allocation_seed": 659215,
+  "teacher_respondents": 600,
+  "evaluation_respondents": 240,
+  "allocations": 96,
+  "nested_label_budgets": [2, 5, 10, 12, 15, 20, 40],
+  "specifications": ["canonical_4", "mode_specific_8"],
+  "same_label_ridge": 0.01,
+  "weights": ["zero", "half", "unit", "cluster_plugin"],
+  "cluster_plugin": "At the same-label ridge pilot, calculate observed and predicted scores per respondent. Whiten with the pooled model Hessian. Minimize the trace of the corresponding labelled plus auxiliary covariance with each sample's own covariance and m/N scaling. Clip to [0,1]. A numerically zero variance denominator gives zero weight.",
+  "support": "Check active contrast rank. Use an unrestricted solution's positive menu masses with an explicit full-rank moment correction to verify interiority. Otherwise look for a negative normalized recession direction and use the existing primal program when needed. Report all unresolved outcomes.",
+  "comparison": "Evaluate all 240 fixed holdout respondents. All methods with no certified native fit use the same declared ridge fallback. Also retain native-only losses and compare direct unpenalized MNL fit to the 600 training respondents plus the same revealed labels.",
+  "outcomes": ["finite availability", "newly exterior and recovered adjacent nested budgets", "selected weight", "mean held-out log loss including fallback", "paired wins against same-label ridge and direct MNL at equal total human-label cost"],
+  "assessment": "Fixed allocation summaries. Claims of representative population performance or universal sample-size thresholds are outside the design."
+}

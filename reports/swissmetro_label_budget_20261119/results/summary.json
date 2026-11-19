@@ -1,0 +1,1519 @@
+{
+  "cells": [
+    {
+      "model": "canonical_4",
+      "label_budget": 2,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "boundary": 53,
+        "interior": 39,
+        "rank_deficient": 4
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.9702801873071942,
+      "mean_difference_to_ridge": 0.7782217062160166,
+      "wins_vs_ridge": 0,
+      "mean_difference_to_direct": 1.1342959988430452,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 2,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "exterior": 31,
+        "interior": 65
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 1.5068385287090076,
+      "mean_difference_to_ridge": 0.3147800476178304,
+      "wins_vs_ridge": 10,
+      "mean_difference_to_direct": 0.6708543402448589,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 2,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 46,
+        "interior": 50
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.3465096347910848,
+      "mean_difference_to_ridge": 0.15445115369990747,
+      "wins_vs_ridge": 15,
+      "mean_difference_to_direct": 0.5105254463269361,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 2,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "boundary": 42,
+        "exterior": 7,
+        "interior": 43,
+        "rank_deficient": 4
+      },
+      "weight_zero": 73,
+      "weight_one": 4,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.8867826767966835,
+      "mean_difference_to_ridge": 0.6947241957055059,
+      "wins_vs_ridge": 3,
+      "mean_difference_to_direct": 1.0507984883325345,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 5,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "boundary": 6,
+        "interior": 90
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.3288035039159094,
+      "mean_difference_to_ridge": 0.3564343777864624,
+      "wins_vs_ridge": 2,
+      "mean_difference_to_direct": 0.49283989487556995,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 5,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "exterior": 4,
+        "interior": 92
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 1.1948234942436413,
+      "mean_difference_to_ridge": 0.2224543681141944,
+      "wins_vs_ridge": 18,
+      "mean_difference_to_direct": 0.358859885203302,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 5,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 14,
+        "interior": 82
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.3089117476308358,
+      "mean_difference_to_ridge": 0.3365426215013891,
+      "wins_vs_ridge": 24,
+      "mean_difference_to_direct": 0.47294813859049656,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 5,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "boundary": 5,
+        "interior": 91
+      },
+      "weight_zero": 74,
+      "weight_one": 2,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.3076396000427077,
+      "mean_difference_to_ridge": 0.33527047391326087,
+      "wins_vs_ridge": 4,
+      "mean_difference_to_direct": 0.47167599100236846,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 10,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "boundary": 1,
+        "interior": 95
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.0316967054904291,
+      "mean_difference_to_ridge": 0.11629245238016551,
+      "wins_vs_ridge": 3,
+      "mean_difference_to_direct": 0.195759757857747,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 10,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 1.0144893269193236,
+      "mean_difference_to_ridge": 0.09908507380905988,
+      "wins_vs_ridge": 11,
+      "mean_difference_to_direct": 0.17855237928664136,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 10,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 3,
+        "interior": 93
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.1045309536247416,
+      "mean_difference_to_ridge": 0.18912670051447802,
+      "wins_vs_ridge": 14,
+      "mean_difference_to_direct": 0.2685940059920595,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 10,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "boundary": 1,
+        "interior": 95
+      },
+      "weight_zero": 73,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.0255184669804838,
+      "mean_difference_to_ridge": 0.11011421387022002,
+      "wins_vs_ridge": 6,
+      "mean_difference_to_direct": 0.1895815193478015,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 12,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "boundary": 1,
+        "interior": 95
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.9912299354419924,
+      "mean_difference_to_ridge": 0.08983452760298681,
+      "wins_vs_ridge": 5,
+      "mean_difference_to_direct": 0.15529217749208915,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 12,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 0.9704059578785347,
+      "mean_difference_to_ridge": 0.069010550039529,
+      "wins_vs_ridge": 9,
+      "mean_difference_to_direct": 0.13446819992863138,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 12,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 2,
+        "interior": 94
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.0538247849167612,
+      "mean_difference_to_ridge": 0.15242937707775545,
+      "wins_vs_ridge": 10,
+      "mean_difference_to_direct": 0.2178870269668578,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 12,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "boundary": 1,
+        "interior": 95
+      },
+      "weight_zero": 77,
+      "weight_one": 3,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.9889861752155623,
+      "mean_difference_to_ridge": 0.08759076737655654,
+      "wins_vs_ridge": 6,
+      "mean_difference_to_direct": 0.1530484172656589,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 15,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.9677328834341635,
+      "mean_difference_to_ridge": 0.07879221030569263,
+      "wins_vs_ridge": 4,
+      "mean_difference_to_direct": 0.13182236631084607,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 15,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 0.944230308831583,
+      "mean_difference_to_ridge": 0.05528963570311205,
+      "wins_vs_ridge": 11,
+      "mean_difference_to_direct": 0.10831979170826549,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 15,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 1,
+        "interior": 95
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 0.965750039575321,
+      "mean_difference_to_ridge": 0.0768093664468501,
+      "wins_vs_ridge": 12,
+      "mean_difference_to_direct": 0.12983952245200356,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 15,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 70,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.9653945977236954,
+      "mean_difference_to_ridge": 0.07645392459522449,
+      "wins_vs_ridge": 4,
+      "mean_difference_to_direct": 0.12948408060037794,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 20,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.9153530047401093,
+      "mean_difference_to_ridge": 0.04400084064919161,
+      "wins_vs_ridge": 5,
+      "mean_difference_to_direct": 0.079441624922889,
+      "wins_vs_direct": 1
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 20,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 0.9108207943067644,
+      "mean_difference_to_ridge": 0.039468630215846935,
+      "wins_vs_ridge": 10,
+      "mean_difference_to_direct": 0.07490941448954432,
+      "wins_vs_direct": 2
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 20,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 0.9512860393586711,
+      "mean_difference_to_ridge": 0.07993387526775353,
+      "wins_vs_ridge": 11,
+      "mean_difference_to_direct": 0.11537465954145092,
+      "wins_vs_direct": 2
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 20,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 71,
+      "weight_one": 4,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.9151976718569053,
+      "mean_difference_to_ridge": 0.04384550776598778,
+      "wins_vs_ridge": 6,
+      "mean_difference_to_direct": 0.07928629203968517,
+      "wins_vs_direct": 1
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 40,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.8766168814010941,
+      "mean_difference_to_ridge": 0.023830498423729113,
+      "wins_vs_ridge": 5,
+      "mean_difference_to_direct": 0.04075742231961594,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 40,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 0.873369299195652,
+      "mean_difference_to_ridge": 0.020582916218287162,
+      "wins_vs_ridge": 6,
+      "mean_difference_to_direct": 0.037509840114173985,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 40,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 0.8773777632658333,
+      "mean_difference_to_ridge": 0.024591380288468495,
+      "wins_vs_ridge": 6,
+      "mean_difference_to_direct": 0.041518304184355315,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "canonical_4",
+      "label_budget": 40,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 67,
+      "weight_one": 5,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.8768327066366112,
+      "mean_difference_to_ridge": 0.024046323659246402,
+      "wins_vs_ridge": 4,
+      "mean_difference_to_direct": 0.04097324755513323,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 2,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "boundary": 75,
+        "interior": 17,
+        "rank_deficient": 4
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 2.494472598421073,
+      "mean_difference_to_ridge": 1.149033791938414,
+      "wins_vs_ridge": 0,
+      "mean_difference_to_direct": 1.6678573521756161,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 2,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "exterior": 61,
+        "interior": 35
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 1.554524704832603,
+      "mean_difference_to_ridge": 0.20908589834994426,
+      "wins_vs_ridge": 7,
+      "mean_difference_to_direct": 0.7279094585871464,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 2,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 73,
+        "interior": 23
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.478682543022262,
+      "mean_difference_to_ridge": 0.13324373653960309,
+      "wins_vs_ridge": 5,
+      "mean_difference_to_direct": 0.6520672967768052,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 2,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "boundary": 57,
+        "exterior": 15,
+        "interior": 21,
+        "rank_deficient": 3
+      },
+      "weight_zero": 74,
+      "weight_one": 2,
+      "weight_median": 0.0,
+      "mean_policy_loss": 2.5268350623454765,
+      "mean_difference_to_ridge": 1.1813962558628175,
+      "wins_vs_ridge": 0,
+      "mean_difference_to_direct": 1.7002198161000195,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 5,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "boundary": 18,
+        "interior": 78
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 2.1877308453787854,
+      "mean_difference_to_ridge": 1.1612303050770472,
+      "wins_vs_ridge": 0,
+      "mean_difference_to_direct": 1.3611168683795516,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 5,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "exterior": 16,
+        "interior": 80
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 1.5293119847958137,
+      "mean_difference_to_ridge": 0.5028114444940756,
+      "wins_vs_ridge": 6,
+      "mean_difference_to_direct": 0.70269800779658,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 5,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 32,
+        "interior": 64
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.4363560191046305,
+      "mean_difference_to_ridge": 0.4098554788028923,
+      "wins_vs_ridge": 10,
+      "mean_difference_to_direct": 0.6097420421053968,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 5,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "boundary": 17,
+        "exterior": 1,
+        "interior": 78
+      },
+      "weight_zero": 79,
+      "weight_one": 1,
+      "weight_median": 0.0,
+      "mean_policy_loss": 2.070100009542121,
+      "mean_difference_to_ridge": 1.043599469240383,
+      "wins_vs_ridge": 1,
+      "mean_difference_to_direct": 1.2434860325428876,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 10,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "boundary": 6,
+        "interior": 90
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.239521225602758,
+      "mean_difference_to_ridge": 0.29415442641324235,
+      "wins_vs_ridge": 4,
+      "mean_difference_to_direct": 0.41289880344979046,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 10,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "exterior": 3,
+        "interior": 93
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 1.1729220978465502,
+      "mean_difference_to_ridge": 0.22755529865703475,
+      "wins_vs_ridge": 10,
+      "mean_difference_to_direct": 0.34629967569358283,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 10,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 11,
+        "interior": 85
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.2199948938239416,
+      "mean_difference_to_ridge": 0.2746280946344261,
+      "wins_vs_ridge": 13,
+      "mean_difference_to_direct": 0.3933724716709743,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 10,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "boundary": 5,
+        "interior": 91
+      },
+      "weight_zero": 78,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.230200861073638,
+      "mean_difference_to_ridge": 0.2848340618841225,
+      "wins_vs_ridge": 4,
+      "mean_difference_to_direct": 0.40357843892067063,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 12,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "boundary": 2,
+        "interior": 94
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.15103079419604,
+      "mean_difference_to_ridge": 0.22761876802977446,
+      "wins_vs_ridge": 3,
+      "mean_difference_to_direct": 0.32438927346541513,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 12,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "exterior": 1,
+        "interior": 95
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 1.0607340979480047,
+      "mean_difference_to_ridge": 0.1373220717817391,
+      "wins_vs_ridge": 10,
+      "mean_difference_to_direct": 0.23409257721737978,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 12,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 6,
+        "interior": 90
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.0928919876307377,
+      "mean_difference_to_ridge": 0.16947996146447206,
+      "wins_vs_ridge": 8,
+      "mean_difference_to_direct": 0.2662504669001127,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 12,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "boundary": 2,
+        "interior": 94
+      },
+      "weight_zero": 70,
+      "weight_one": 1,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.1438235722182795,
+      "mean_difference_to_ridge": 0.22041154605201405,
+      "wins_vs_ridge": 4,
+      "mean_difference_to_direct": 0.3171820514876547,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 15,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.0592832922048412,
+      "mean_difference_to_ridge": 0.15520716605635823,
+      "wins_vs_ridge": 3,
+      "mean_difference_to_direct": 0.23266244845719494,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 15,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 1.0057078204515542,
+      "mean_difference_to_ridge": 0.10163169430307119,
+      "wins_vs_ridge": 14,
+      "mean_difference_to_direct": 0.17908697670390786,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 15,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "exterior": 1,
+        "interior": 95
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.076331926962138,
+      "mean_difference_to_ridge": 0.17225580081365535,
+      "wins_vs_ridge": 11,
+      "mean_difference_to_direct": 0.24971108321449206,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 15,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 73,
+      "weight_one": 1,
+      "weight_median": 0.0,
+      "mean_policy_loss": 1.055553519826178,
+      "mean_difference_to_ridge": 0.1514773936776951,
+      "wins_vs_ridge": 3,
+      "mean_difference_to_direct": 0.22893267607853182,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 20,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.9695714587529807,
+      "mean_difference_to_ridge": 0.08530157679876181,
+      "wins_vs_ridge": 4,
+      "mean_difference_to_direct": 0.14285607902349667,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 20,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 0.9537249156845086,
+      "mean_difference_to_ridge": 0.06945503373028963,
+      "wins_vs_ridge": 9,
+      "mean_difference_to_direct": 0.1270095359550245,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 20,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 1.0243211340677365,
+      "mean_difference_to_ridge": 0.14005125211351757,
+      "wins_vs_ridge": 10,
+      "mean_difference_to_direct": 0.19760575433825245,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 20,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 74,
+      "weight_one": 1,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.9676897742656095,
+      "mean_difference_to_ridge": 0.08341989231139062,
+      "wins_vs_ridge": 6,
+      "mean_difference_to_direct": 0.1409743945361255,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 40,
+      "method": "zero",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 96,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.8959926985737017,
+      "mean_difference_to_ridge": 0.03665624397116605,
+      "wins_vs_ridge": 8,
+      "mean_difference_to_direct": 0.06913215971692506,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 40,
+      "method": "half",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 0,
+      "weight_median": 0.5,
+      "mean_policy_loss": 0.8886800901516562,
+      "mean_difference_to_ridge": 0.029343635549120506,
+      "wins_vs_ridge": 12,
+      "mean_difference_to_direct": 0.06181955129487953,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 40,
+      "method": "unit",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 0,
+      "weight_one": 96,
+      "weight_median": 1.0,
+      "mean_policy_loss": 0.8953051419410355,
+      "mean_difference_to_ridge": 0.035968687338499845,
+      "wins_vs_ridge": 15,
+      "mean_difference_to_direct": 0.06844460308425886,
+      "wins_vs_direct": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "label_budget": 40,
+      "method": "cluster_plugin",
+      "cases": 96,
+      "states": {
+        "interior": 96
+      },
+      "weight_zero": 71,
+      "weight_one": 0,
+      "weight_median": 0.0,
+      "mean_policy_loss": 0.8957021407894938,
+      "mean_difference_to_ridge": 0.03636568618695812,
+      "wins_vs_ridge": 9,
+      "mean_difference_to_direct": 0.06884160193271714,
+      "wins_vs_direct": 0
+    }
+  ],
+  "transitions": [
+    {
+      "model": "canonical_4",
+      "method": "zero",
+      "previous_labels": 2,
+      "next_labels": 5,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 51,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "zero",
+      "previous_labels": 5,
+      "next_labels": 10,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 5,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "zero",
+      "previous_labels": 10,
+      "next_labels": 12,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "zero",
+      "previous_labels": 12,
+      "next_labels": 15,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 1,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "zero",
+      "previous_labels": 15,
+      "next_labels": 20,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "zero",
+      "previous_labels": 20,
+      "next_labels": 40,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "half",
+      "previous_labels": 2,
+      "next_labels": 5,
+      "cases": 96,
+      "lost_finite": 1,
+      "gained_finite": 28,
+      "newly_exterior": 1
+    },
+    {
+      "model": "canonical_4",
+      "method": "half",
+      "previous_labels": 5,
+      "next_labels": 10,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 4,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "half",
+      "previous_labels": 10,
+      "next_labels": 12,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "half",
+      "previous_labels": 12,
+      "next_labels": 15,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "half",
+      "previous_labels": 15,
+      "next_labels": 20,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "half",
+      "previous_labels": 20,
+      "next_labels": 40,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "unit",
+      "previous_labels": 2,
+      "next_labels": 5,
+      "cases": 96,
+      "lost_finite": 6,
+      "gained_finite": 38,
+      "newly_exterior": 6
+    },
+    {
+      "model": "canonical_4",
+      "method": "unit",
+      "previous_labels": 5,
+      "next_labels": 10,
+      "cases": 96,
+      "lost_finite": 1,
+      "gained_finite": 12,
+      "newly_exterior": 1
+    },
+    {
+      "model": "canonical_4",
+      "method": "unit",
+      "previous_labels": 10,
+      "next_labels": 12,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 1,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "unit",
+      "previous_labels": 12,
+      "next_labels": 15,
+      "cases": 96,
+      "lost_finite": 1,
+      "gained_finite": 2,
+      "newly_exterior": 1
+    },
+    {
+      "model": "canonical_4",
+      "method": "unit",
+      "previous_labels": 15,
+      "next_labels": 20,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 1,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "unit",
+      "previous_labels": 20,
+      "next_labels": 40,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "cluster_plugin",
+      "previous_labels": 2,
+      "next_labels": 5,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 48,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "cluster_plugin",
+      "previous_labels": 5,
+      "next_labels": 10,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 4,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "cluster_plugin",
+      "previous_labels": 10,
+      "next_labels": 12,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "cluster_plugin",
+      "previous_labels": 12,
+      "next_labels": 15,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 1,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "cluster_plugin",
+      "previous_labels": 15,
+      "next_labels": 20,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "canonical_4",
+      "method": "cluster_plugin",
+      "previous_labels": 20,
+      "next_labels": 40,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "zero",
+      "previous_labels": 2,
+      "next_labels": 5,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 61,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "zero",
+      "previous_labels": 5,
+      "next_labels": 10,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 12,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "zero",
+      "previous_labels": 10,
+      "next_labels": 12,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 4,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "zero",
+      "previous_labels": 12,
+      "next_labels": 15,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 2,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "zero",
+      "previous_labels": 15,
+      "next_labels": 20,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "zero",
+      "previous_labels": 20,
+      "next_labels": 40,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "half",
+      "previous_labels": 2,
+      "next_labels": 5,
+      "cases": 96,
+      "lost_finite": 5,
+      "gained_finite": 50,
+      "newly_exterior": 5
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "half",
+      "previous_labels": 5,
+      "next_labels": 10,
+      "cases": 96,
+      "lost_finite": 1,
+      "gained_finite": 14,
+      "newly_exterior": 1
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "half",
+      "previous_labels": 10,
+      "next_labels": 12,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 2,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "half",
+      "previous_labels": 12,
+      "next_labels": 15,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 1,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "half",
+      "previous_labels": 15,
+      "next_labels": 20,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "half",
+      "previous_labels": 20,
+      "next_labels": 40,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "unit",
+      "previous_labels": 2,
+      "next_labels": 5,
+      "cases": 96,
+      "lost_finite": 7,
+      "gained_finite": 48,
+      "newly_exterior": 7
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "unit",
+      "previous_labels": 5,
+      "next_labels": 10,
+      "cases": 96,
+      "lost_finite": 1,
+      "gained_finite": 22,
+      "newly_exterior": 1
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "unit",
+      "previous_labels": 10,
+      "next_labels": 12,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 5,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "unit",
+      "previous_labels": 12,
+      "next_labels": 15,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 5,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "unit",
+      "previous_labels": 15,
+      "next_labels": 20,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 1,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "unit",
+      "previous_labels": 20,
+      "next_labels": 40,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "cluster_plugin",
+      "previous_labels": 2,
+      "next_labels": 5,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 57,
+      "newly_exterior": 1
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "cluster_plugin",
+      "previous_labels": 5,
+      "next_labels": 10,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 13,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "cluster_plugin",
+      "previous_labels": 10,
+      "next_labels": 12,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 3,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "cluster_plugin",
+      "previous_labels": 12,
+      "next_labels": 15,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 2,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "cluster_plugin",
+      "previous_labels": 15,
+      "next_labels": 20,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    },
+    {
+      "model": "mode_specific_8",
+      "method": "cluster_plugin",
+      "previous_labels": 20,
+      "next_labels": 40,
+      "cases": 96,
+      "lost_finite": 0,
+      "gained_finite": 0,
+      "newly_exterior": 0
+    }
+  ],
+  "records": 5376,
+  "model_allocation_budgets": 1344,
+  "teacher_beta": [
+    -0.7681641241559202,
+    0.02187587952621115,
+    -1.2336196929547887,
+    -0.7258731899813098
+  ],
+  "boundary_refinements": [
+    {
+      "model": "canonical_4",
+      "allocation": 5,
+      "budget": 2,
+      "method": "zero"
+    },
+    {
+      "model": "canonical_4",
+      "allocation": 5,
+      "budget": 2,
+      "method": "cluster_plugin"
+    },
+    {
+      "model": "canonical_4",
+      "allocation": 16,
+      "budget": 2,
+      "method": "zero"
+    },
+    {
+      "model": "canonical_4",
+      "allocation": 16,
+      "budget": 2,
+      "method": "cluster_plugin"
+    }
+  ],
+  "all_states": {
+    "boundary": 292,
+    "interior": 4741,
+    "exterior": 328,
+    "rank_deficient": 15
+  },
+  "source_sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2",
+  "plan_sha256": "625c12eaa10eea46a8a8aded1d93e18b6a282de1eb5bf8c834d30b72542fa452"
+}

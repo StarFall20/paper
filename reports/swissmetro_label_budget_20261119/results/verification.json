@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": {
+    "ridge_optimality_checks": 1344,
+    "total_label_direct_optimality_checks": 1344,
+    "boundary_records": 292,
+    "policy_loss_checks": 5376,
+    "interior_records": 4741,
+    "archived_unit_status_matches": 576,
+    "plugin_weight_checks": 1344,
+    "exterior_records": 328,
+    "rank_deficient_records": 15
+  },
+  "maximum_errors": {
+    "direct_or_ridge_score": 7.1007814784335155e-09,
+    "native_score": 2.97983859809392e-13,
+    "plugin_weight": 3.478883847662928e-13
+  }
+}

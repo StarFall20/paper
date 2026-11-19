@@ -7,32 +7,32 @@
   "scope": "Exact contiguous phrase screening against one supplied preprint. Paraphrases, ideas, formula identity and matches elsewhere are outside the screen.",
   "results": {
     "manuscript.md": {
-      "markdown_sha256": "05ce29278b1cfbc08800da5801ab397fa20c435add52b3b960170fa39d2c40b8",
+      "markdown_sha256": "6847139970366256e52780b22aa2af5a6e1d713af549e4b714419263bc1767cd",
       "10": {
-        "compared_distinct_windows": 1111,
+        "compared_distinct_windows": 1145,
         "matched_windows": 0
       },
       "12": {
-        "compared_distinct_windows": 793,
+        "compared_distinct_windows": 818,
         "matched_windows": 0
       },
       "15": {
-        "compared_distinct_windows": 452,
+        "compared_distinct_windows": 468,
         "matched_windows": 0
       }
     },
     "supplement.md": {
-      "markdown_sha256": "e8442528dd6a3bd2c15c5ec6fa1ca401630797c08f8a1d72402549ab1697dbc3",
+      "markdown_sha256": "17e247691b6538f117c818fa22bcbd05a7d70f65b939292d78e8b2d482e6e531",
       "10": {
-        "compared_distinct_windows": 7499,
+        "compared_distinct_windows": 7624,
         "matched_windows": 0
       },
       "12": {
-        "compared_distinct_windows": 5124,
+        "compared_distinct_windows": 5207,
         "matched_windows": 0
       },
       "15": {
-        "compared_distinct_windows": 2747,
+        "compared_distinct_windows": 2781,
         "matched_windows": 0
       }
     }

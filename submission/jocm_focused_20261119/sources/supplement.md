@@ -1096,6 +1096,29 @@ The identity is the symmetric composition-and-rate decomposition (Kitagawa, 1955
 
 In the 480 released-prediction allocations, failures under unit weight have a verified negative recession direction. The within-menu component is negative in all five 15-person failures and in 90 of 92 five-person failures. The composition component is negative in all five and 84 of 92, respectively. These directional counts describe a separating direction for the original fit. They do not predict which direction binds after an intervention. Appendix C11 records the source prediction archive. The menu distribution directory in Reproduction Materials contains the per-case coefficients, states, fallback means and uncompressed-menu verification.
 
+### C16 Nested Swissmetro label budgets
+
+We keep the original 600 training respondents, 240 evaluation respondents, 351-person correction pool, frozen predictor and two choice specifications. For each of 96 respondent orders, the first 2, 5, 10, 12, 15, 20 or 40 people supply human outcomes. The remaining people supply predicted choices. This preserves nested label sets. A move to a larger labelled prefix changes both the label moment and the menu set that supplies auxiliary predictions.
+
+Table C16  Unit-weight finite estimates and excess holdout log loss
+
+| Labels | Four parameters finite | Eight parameters finite | Four parameters loss excess | Eight parameters loss excess |
+| --- | --- | --- | --- | --- |
+| 2 | 50 / 96 | 23 / 96 | 0.1545 | 0.1332 |
+| 5 | 82 / 96 | 64 / 96 | 0.3365 | 0.4099 |
+| 10 | 93 / 96 | 85 / 96 | 0.1891 | 0.2746 |
+| 12 | 94 / 96 | 90 / 96 | 0.1524 | 0.1695 |
+| 15 | 95 / 96 | 95 / 96 | 0.0768 | 0.1723 |
+| 20 | 96 / 96 | 96 / 96 | 0.0799 | 0.1401 |
+| 40 | 96 / 96 | 96 / 96 | 0.0246 | 0.0360 |
+
+
+Loss excess is the mean paired difference from the same-label ridge with penalty 0.01. Every unavailable native fit uses that ridge as the declared fallback. The complete comparisons include zero, half and unit correction and a plug-in variance rule. The rule starts from the labelled ridge pilot and averages each observed and predicted score within respondent. It transforms mean scores by the pooled inverse information. Let $C$ be the trace of the labelled cross covariance of the transformed observed and predicted scores. Let $V_L$ and $V_U$ be the traces of the predicted-score covariances in the labelled and auxiliary groups. The selected weight is $C/(V_L+(m/N)V_U)$ clipped to $[0,1]$, with zero weight for a numerically zero denominator. Each respondent supplies nine tasks. We calculate the score covariance using respondent counts $m$ and $N$.
+
+The median selected weight is zero in each model and budget cell. Its mean holdout loss exceeds that of the same-label ridge in every cell. Direct MNL refitted with the 600 predictor-training respondents and the same new labels has lower mean loss than unit and plug-in correction at each budget in each model. These paired comparisons use the original predictor-training labels and the same holdout group.
+
+At 2 to 5 labels, 6 four-parameter and 7 eight-parameter allocations change from finite to exterior. There are 2 additional transitions from 5 to 10 labels and 1 from 12 to 15. The lowest tested budget with a native finite unit-weight estimate in every allocation is 20. These results measure finite estimation and held-out prediction on a fixed menu pool. Assele, Meulders and Vandebroek (2023) derive sample-size guidance from choice design and efficiency. Mani et al. (2026) derive finite-sample PPI++ risk for a mean. The present counts apply to the tested corrected choice fits. Reproduction Materials contains all 5,376 method records and the verification of their menu support, scores and holdout losses.
+
 ## Appendix D Powers approaching zero
 
 ### D1 Existence on human separating directions
@@ -1725,6 +1748,8 @@ Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Pr
 
 Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-powered inference. Annals of Applied Statistics 20(3), 2235–2252. https://doi.org/10.1214/26-AOAS2215
 
+Assele, S.Y., Meulders, M., Vandebroek, M. (2023). Sample size selection for discrete choice experiments using design features. Journal of Choice Modelling 49, 100436. https://doi.org/10.1016/j.jocm.2023.100436
+
 Bhatia, R., Davis, C. (2000). A better bound on the variance. American Mathematical Monthly 107(4), 353–357. https://doi.org/10.1080/00029890.2000.12005203
 
 Bierlaire, M., Axhausen, K.W., Abay, G. (2001). The acceptance of modal innovation: The case of Swissmetro. Swiss Transport Research Conference, Monte Verità. https://transp-or.epfl.ch/documents/proceedings/BierAxhaAbay01.pdf
@@ -1785,6 +1810,7 @@ Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. P
 
 Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. Proceedings of the 43rd International Conference on Machine Learning, PMLR 306, 86296–86335. https://proceedings.mlr.press/v306/mani26b.html
 
+
 Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Preprint: https://arxiv.org/html/1911.01544v3
 
 Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html
@@ -1805,7 +1831,7 @@ Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advanc
 
 Rosset, S., Zhu, J., Hastie, T. (2004). Boosting as a Regularized Path to a Maximum Margin Classifier. Journal of Machine Learning Research 5, 941–973. https://www.jmlr.org/papers/v5/rosset04a.html
 
-Sablica, L., Hornik, K., Rusch, T. (2026). The Geometry of Existence and Uniqueness of Maximum Likelihood Estimation in Categorical Response Models. Preprint, arXiv:2610.08100v1. https://arxiv.org/abs/2610.08100v1
+Sablica, L., Hornik, K., Rusch, T. (2026). The Geometry of Existence and Uniqueness of Maximum Likelihood Estimation in Categorical Response Models. Preprint, arXiv:2610.08100v2. https://arxiv.org/abs/2610.08100v2
 
 Saglietti, L., Zdeborova, L. (2022). Solvable Model for Inheriting the Regularization through Knowledge Distillation. Proceedings of Machine Learning Research 145, 809–846. https://proceedings.mlr.press/v145/saglietti22a.html
 
