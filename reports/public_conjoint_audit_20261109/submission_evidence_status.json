@@ -915,5 +915,22 @@
     "Scopus_access": "Elsevier institution handoff error, direct Scopus Preview",
     "independent_archive_replay": true,
     "research_goal_complete": false
+  },
+  "multiface_choice_endpoint_20261119": {
+    "state": "integrated_reviewed",
+    "constructive_refits": 72,
+    "constructive_design_versions": 8,
+    "archived_single_facet_endpoints": [
+      107,
+      93
+    ],
+    "independent_byte_identical_replay": true,
+    "publication_role": "Appendix C13 and linked reproduction proof",
+    "page_counts": [
+      81,
+      32
+    ],
+    "Scopus_queries_added": 0,
+    "goal_complete": false
   }
 }

@@ -23,10 +23,10 @@
     3,
     5
   ],
-  "main_lexical_words_excluding_math": 9407,
+  "main_lexical_words_excluding_math": 9423,
   "verified_full_research_article_word_cap": null,
   "full_manuscript_pages": 81,
-  "native_math_objects": 1482,
+  "native_math_objects": 1493,
   "tables": 20,
   "all_seven_appendices_in_manuscript": true,
   "ai_disclosure_precedes_references": true,
@@ -35,7 +35,7 @@
   "copied_sources": {
     "Manuscript.docx": {
       "parent_path": "manuscript/paper.docx",
-      "sha256": "4dba1cb7db9bdfb97d664477e204469050a3ec281d0387379f7bdab84bf92c52"
+      "sha256": "99d96e59dbe04dec7e51190144f7f63440a2ff070d355b95b70651639424bbeb"
     },
     "Title_page.docx": {
       "parent_path": "submission_materials/title_page.docx",
@@ -103,6 +103,6 @@
   "submission_made": false,
   "research_goal_achieved": false,
   "cached_author_guide_rechecked": "2026-11-18: retained 13 November guide text rechecked; fresh official retrieval returned 403",
-  "current_source_basis": "Published choice data, a released LLM archive, its matched human prompt costs, PPI++ preprint v2 with appendices, and attributed moment/support results.",
+  "current_source_basis": "Published choice data, independent frozen predictions, PPI++ preprint v2 with appendices, and the attributed endpoint results.",
   "display_formulas": 151
 }

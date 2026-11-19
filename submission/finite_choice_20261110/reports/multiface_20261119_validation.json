@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "original_science_files": 1035,
+  "refitted_constructed_paths": 72,
+  "original_and_transformed_examples": 8,
+  "archived_single_facets": 200,
+  "isolated_replay": true,
+  "retained_tables": 20,
+  "retained_equations": 153,
+  "retained_formal_statements": 14
+}

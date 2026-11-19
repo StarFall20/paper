@@ -81,3 +81,8 @@ The [forecast comparison](results/safe_power_forecast/README.md) and [replay rec
 ## Released LLM forecast audit
 
 Section 4.7 now evaluates the safe weight with frozen third-party forecasts. The [matched prompt-cost supplement](results/external_llm_safe_power/README.md) records all cases, comparators and reproduction commands.
+
+
+## Rates at endpoints on lower-dimensional faces
+
+Appendix C13 extends the fitted coefficient and log-loss rates to endpoints on lower-dimensional faces. The [multiface supplement](results/multiface_endpoint/README.md) contains the proof, independent example checks and reproduction commands.

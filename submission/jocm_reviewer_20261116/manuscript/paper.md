@@ -48,7 +48,7 @@ $$\mathcal Z_w=\{\sum_i w_i X_i p_i:0\leq p_i\leq1\}. \qquad (4)$$
 
 Proposition 1. Suppose the rows with positive weight span the parameter space. Objective (2) has a unique finite minimizer exactly when $b_\lambda$ is in the interior of $\mathcal Z_w$. If the moment is outside this set, the objective is unbounded below. A boundary moment has no finite stationary point. Without the rank condition, coefficients are not uniquely identified.
 
-Convex support and recession criteria are established tools for likelihood existence (Geyer, 2009). Sablica et al. (2026, Theorems 1 and 4) give overlap and estimable-span uniqueness results for latent polyhedral categorical likelihoods, with LP detection in Section 4.1. Proposition 1 applies the support calculation to the corrected moment in (3). The gradient of the log partition function maps finite coefficients onto the interior of its attainable moments. Its recession function is
+Convex support and recession criteria are established tools for likelihood existence (Geyer, 2009). Correia et al. (2026, Proposition 1) give separation conditions for generalized linear models with bounded individual log-likelihood contributions. Sablica et al. (2026, Theorems 1 and 4) give overlap and estimable-span uniqueness results for latent polyhedral categorical likelihoods, with LP detection in Section 4.1. Proposition 1 applies the support calculation to the corrected moment in (3). The gradient of the log partition function maps finite coefficients onto the interior of its attainable moments. Its recession function is
 
 $$Q_\lambda^\infty(d)=\sum_iw_i(X_i^Td)_+-b_\lambda^Td. \qquad (5)$$
 
@@ -1080,6 +1080,8 @@ The independent check rebuilds the 107 endpoint programs using original menus, v
 
 The optimized objective is the weighted entropy maximum over menu probabilities with weighted moment $b_\lambda$ (Wainwright and Jordan, 2008, Theorem 3.4). At the endpoint the feasible probabilities lie on the tied sets. Write $\delta=c-\lambda$ and let $V(\lambda)$ be the optimized value of $Q_\lambda$. The partial derivative of $Q_\lambda$ at the optimizer is $-at+O(1)$ because the weights and target are affine and the tangent coefficient converges. Thus $V'(\lambda)=-(a/\Delta_*)\log(1/\delta)+O(1)$. In the normal and tangent coordinates, the covariance Hessian has normal entry $a\Delta_*\delta\{1+o(1)\}$, cross entries $O(\delta)$ and a positive definite limiting tangent block. Differentiating the score and taking the normal Schur complement yields $\delta t'\to1/\Delta_*$ and a bounded tangent derivative. The scaled held-out loss derivative tends to the mean observed gap divided by $\Delta_*$. A positive observed gap makes this derivative positive near the limit. The supplement derives the value and curvature expansions and records the entropy identity and the two derivatives at all 856 positive-limit path points.
 
+Several supporting faces can bind at a positive upper limit. Let $N$ be orthogonal to the endpoint tied contrasts, let $a_{ij}$ be the projection onto $N$ of the contrast from each excluded alternative to a tied alternative, and let $s$ be the inward normal change of the target relative to the moving face per unit of $c-\lambda$. The first linear program minimizes $s^T v$ over $v\in N$ subject to $a_{ij}^T v\geq1$ for all excluded alternatives. If the minimizing set contains multiple points, successively maximize the minimum gap among the constraints whose gaps vary on the current set. The resulting $v_*$ is unique. The coefficient equals $v_*\log(1/(c-\lambda))+O(1)$. The leading coefficient of an observed choice’s log loss is its utility shortfall from the highest available utility in direction $v_*$. Zero shortfall gives bounded loss. The supplement proves this extension for grouped logit using the successive-slack principle of Cominetti and San Martín (1994), with positive weights and an affine approach to the face. Constructed examples check up to three normal directions. The released food and Swissmetro endpoints used here are single facets.
+
 ### C14 Design and power guarantees on fixed menus
 
 Let $h_s(d)$ be the support function of the achievable mean feature moments in sample $s$, with $s=L$ or $U$. Let $G_s$ be its mean predicted moment and let $b_Y$ be the labelled choice moment. Set $M_s(d)=h_s(d)-d^TG_s$ and $E_Y(d)=h_L(d)-d^Tb_Y$. The compensated recession is
@@ -1744,6 +1746,10 @@ Candès, E.J., Sur, P. (2020). The phase transition for the existence of the max
 Chen, J., Mzek, T., Piras, S. (2025). Dataset of choice experiment surveys assessing consumers' and farmers' preferences for five underutilised crops in different European countries. Version V1. Zenodo. https://doi.org/10.5281/zenodo.15420092
 
 Chen, S., Bai, Y., Zhu, H. (2026). Covariance-Calibrated Prediction-Powered Inference. Preprint, arXiv:2610.21837v2. https://arxiv.org/abs/2610.21837v2
+
+Cominetti, R., San Martín, J. (1994). Asymptotic analysis of the exponential penalty trajectory in linear programming. Mathematical Programming 67, 169–187. https://doi.org/10.1007/BF01582224
+
+Correia, S., Guimarães, P., Zylkin, T. (2026). Verifying the existence of maximum likelihood estimates for generalized linear models. Econometric Reviews 45(9), 1270–1305. https://doi.org/10.1080/07474938.2026.2673989
 
 Fan, S., Visokay, A., Hoffman, K., Salerno, S., Liu, L., Leek, J.T., McCormick, T.H. (2024). From Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsy Narratives. Conference on Language Modeling. https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf
 

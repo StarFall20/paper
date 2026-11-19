@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "extracted_replay": true,
+  "byte_identical_outputs": {
+    "results.json": "d14adabedce421cfef8325d6c5360af7f597bd677784261ee646110a5445e9e4",
+    "verification.json": "d4b906f37ba8597faf0bfa89e72a5d93ef6e768f583d8b7f6d50bff9b611dac5"
+  }
+}
