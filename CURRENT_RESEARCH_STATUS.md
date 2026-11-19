@@ -1,6 +1,6 @@
 # JCM 研究论文投稿版
 
-[投稿稿件](submission/jocm_focused_20261119/README.md)正文 10 页，补充材料 84 页。[附录 B9](reports/matched_auxiliary_diagnostics_20261119/README.md)以 96 组固定真人标签、八套辅助菜单和两档校正权重对照实证中的局部诊断与有限解状态。最新版通过空白环境的 13 项复现，补引预测辅助优化及一般非达到边界的结果。机构库检索、正式 PPI++ 附件比对、广覆盖相似性评估与作者确认仍待完成。
+[投稿稿件](submission/jocm_focused_20261119/README.md)正文 10 页，补充材料 84 页。[PPI++ 作者分支](reports/author_ppi_branch_audit_20261119/README.md)复跑 136 次，覆盖既有点估计、自动单步和区间接口。最新版复现档通过 14 项检查。机构 Web of Science 本轮返回 90013，既有九组检索继续保留。订阅版 Scopus、正式 PPI++ 补充材料对照及广覆盖相似性评估仍待完成。
 
 # 菜单频率与菜单内预测差异的实证核查
 

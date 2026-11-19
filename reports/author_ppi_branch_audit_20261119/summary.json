@@ -1,0 +1,34 @@
+{
+  "api_calls": 136,
+  "matched_default_calls": 68,
+  "preselected_unit_exterior_cases": 8,
+  "preselected_unit_interior_controls": 8,
+  "unit_exterior_finite_point_arrays": 8,
+  "unit_exterior_successful_optimizations": 0,
+  "unit_exterior_automatic_and_one_step_point_singular_each": 8,
+  "unit_exterior_fixed_automatic_and_one_step_ci_singular_each": 8,
+  "independently_reconstructed_one_step_points": 8,
+  "maximum_one_step_reconstruction_error": 1.3322676295501878e-15,
+  "one_step_score_range": [
+    0.011865346346182998,
+    0.03815884384028896
+  ],
+  "one_step_ci_with_full_final_optimization": 8,
+  "one_step_ci_negative_power_controls": 6,
+  "one_step_ci_power_range": [
+    -0.29449388318000624,
+    0.055040501742998314
+  ],
+  "maximum_one_step_ci_center_error": 2.220446049250313e-16,
+  "analytic_boundary": {
+    "exact_power": "11/20",
+    "reported_slope": 32.10005650413981,
+    "reported_score_max": 5.10702591327572e-15,
+    "slope_ci": [
+      -35276451174023.08,
+      35276451174087.28
+    ],
+    "slope_ci_width": 70552902348110.36,
+    "rational_objective_infimum_attained": false
+  }
+}

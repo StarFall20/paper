@@ -109,8 +109,8 @@
       "version": "2026.6"
     }
   ],
-  "release_manifest_sha256": "9dc6fb84a0aead3b122278bbbf98189001908e5710b8dbe025de95280946f0e1",
-  "release_checks_passed": 13,
+  "release_manifest_sha256": "08cac0c659f77e52c95716f51ce7f7c3fb999e47f23beab302ced862c2a605a1",
+  "release_checks_passed": 14,
   "identical_result_reports": [
     "headline.json",
     "mathematics/quick_check.json",
@@ -122,7 +122,8 @@
     "food_panel/verification.json",
     "food_path/verification.json",
     "swissmetro_path.json",
-    "swissmetro_budget.json"
+    "swissmetro_budget.json",
+    "matched_auxiliary_diagnostics/summary.json"
   ],
   "public_inputs": {
     "food": {
@@ -134,5 +135,7 @@
       "sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
     }
   },
-  "independently_reconstructed_new_report": "matched_auxiliary_diagnostics/summary.json"
+  "independently_reconstructed_new_report": "matched_auxiliary_diagnostics/summary.json",
+  "authors_branch_stored_call_records_verified": 136,
+  "authors_branch_separate_runtime_git_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4"
 }

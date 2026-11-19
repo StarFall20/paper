@@ -12,7 +12,7 @@ Choice analysts can obtain predicted responses for profiles without observed hum
 
 Consider a food choice experiment with ten labelled respondents. In 21 of 500 label allocations the unit-weight correction puts the target moment outside the range of fitted choice probabilities. In 18 of those 21 allocations, ordinary multinomial logit on the same human choices has a finite estimate. This failure matters because some optimizers can return a finite coefficient vector even when the objective decreases without bound. We give a finite-design check, explain through two controlled comparisons why local diagnostics miss the failure, and calculate what happens to forecast probabilities as the correction weight approaches its limit.
 
-Classical separation and convex support characterize ordinary likelihood existence (Albert and Anderson, 1984; Geyer, 2009; Correia et al., 2026). Prediction-powered inference already provides the corrected loss, fixed-dimensional regular inference and variance-oriented tuning (Angelopoulos et al., 2026). Prediction-assisted Bradley–Terry estimation can also encounter quasi-separation (Vadlamani et al., 2026). We use the existing corrected objective and study its finite optimum as a function of the auxiliary menus, predictor and correction weight. Our proportional-dimensional calculation retains the finite auxiliary-to-labelled ratio. A fixed-design construction shows that even exact agreement in finitely many derivatives cannot replace the global check.
+Classical separation and convex support characterize ordinary likelihood existence (Albert and Anderson, 1984; Geyer, 2009; Correia et al., 2026). Prediction-powered inference provides the corrected loss, fixed-dimensional regular inference and variance-oriented tuning (Angelopoulos et al., 2026). Recent analyses establish conditional logistic risk improvements given a finite pilot and document quasi-separation in prediction-assisted Bradley–Terry estimation (Chen et al., 2026; Vadlamani et al., 2026). We characterize when the corrected choice objective attains a finite optimum and derive the critical parameter-to-label ratio with a finite auxiliary sample ratio. A fixed-design construction shows that even exact agreement in finitely many derivatives cannot replace the global check.
 
 We use released food, transport and third-party prediction archives to examine when the distinction affects choice forecasts. The empirical comparisons are at fixed respondent splits and utility specifications. They track whether an estimate exists and how well it predicts observed choices on a separate group. The accompanying Supplementary Methods and Proofs contains the complete derivations, additional simulations and sensitivity analyses. The Reproduction Materials give the corresponding code, public source identifiers and saved results.
 
@@ -108,7 +108,7 @@ The recession calculation explains the difference. The three sets of auxiliary c
 
 The same limitation extends to a finite list of preassigned coefficient vectors. Supplementary Appendix B7 gives equal-weight designs with identical diagnostics at those checkpoints, including an example with matching diagnostics after the first Newton update. With a known range and count of paired contrasts, the zero-point Hessian bounds the finite-estimation limit. In Table 1 the compatible limits range from 0.5 to 1 (Appendix B8).
 
-In the released food and travel data, we make eight auxiliary draws for each of 96 fixed labelled groups. Changing only the auxiliary menus gives both finite and unbounded objectives in 12 groups at unit weight and in two groups at half weight. In one half-weight food pair, the unbounded case gives the smaller Newton decrement (Appendix B9).
+In the released food and travel data, we make eight auxiliary draws for each of 96 fixed labelled groups. Across those draws, 12 groups at unit weight and two at half weight have both an attained finite minimum and an objective unbounded below, depending on the auxiliary menus. In one half-weight food pair, the unbounded case gives the smaller Newton decrement (Appendix B9).
 
 ## 4 Consequences for forecasting
 
@@ -193,6 +193,8 @@ Cai, T.T., Low, M.G. (2011). Testing composite hypotheses, Hermite polynomials a
 Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753
 
 Chen, J., Mzek, T., Piras, S. (2025). Dataset of choice experiment surveys assessing consumers' and farmers' preferences for five underutilised crops in different European countries. Version V1. Zenodo. https://doi.org/10.5281/zenodo.15420092
+
+Chen, S., Bai, Y., Zhu, H. (2026). Covariance-Calibrated Prediction-Powered Inference. Preprint, arXiv:2610.21837v2. https://arxiv.org/abs/2610.21837v2
 
 Correia, S., Guimarães, P., Zylkin, T. (2026). Verifying the existence of maximum likelihood estimates for generalized linear models. Econometric Reviews 45(9), 1270–1305. https://doi.org/10.1080/07474938.2026.2673989
 

@@ -6,7 +6,7 @@
 
 Extract Reproduction_Materials.zip and follow its README. The archive includes a single verification command, with optional checks for the original RADIANT food workbook and Swissmetro source. The sources remain at their upstream locations. The runner checks their SHA-256 values before running the relevant verifiers. The top-level requirements now pin `openpyxl==3.1.5`, which pandas uses to read the RADIANT workbook.
 
-The [release receipt](release_receipt.json) records 13 passing checks from a clean extraction with Python 3.12.14 and the pinned versions. The public-data checks reconstruct the original menus and recompute reported quantities from saved coefficients and allocations. The archive README links to the commands for refitting and the broader simulation. Repeated allocations describe the released menus and their fixed holdouts. A fresh virtual environment installed the dependencies from PyPI and passed 13 checks. Its 11 earlier result reports matched the original replay. [Portability check](portability.json)
+The [release receipt](release_receipt.json) records 14 passing checks from a clean extraction with Python 3.12.14 and the pinned versions. The public-data checks reconstruct the original menus and recompute reported quantities from saved coefficients and allocations. The archive README links to the commands for refitting and the broader simulation. Repeated allocations describe the released menus and their fixed holdouts. A fresh virtual environment installed the dependencies from PyPI and passed 14 checks. Its 11 earlier result reports matched the original replay. [Portability check](portability.json)
 
 ## Attribution
 
@@ -23,3 +23,5 @@ The [institutional coverage record](institutional_coverage.md) distinguishes ver
 The separate final PPI++ supplements returned webpages with no readable supplement content on the publisher download routes. The local v2 includes its appendices and has been compared. The release still needs institutional priority searching and an independent full-manuscript similarity assessment. [PPI++ v2](https://arxiv.org/pdf/2311.01453v2), [formal Supplement A identifier](https://doi.org/10.1214/26-AOAS2215SUPPA), [formal Supplement B identifier](https://doi.org/10.1214/26-AOAS2215SUPPB)
 
 [Fixed-label empirical and source-level checks](../matched_auxiliary_diagnostics_20261119/README.md) accompany the manuscript version with Appendix B9.
+
+[Author branch replay](../author_ppi_branch_audit_20261119/README.md) verifies the stored call records as part of the release.

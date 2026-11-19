@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "9dc6fb84a0aead3b122278bbbf98189001908e5710b8dbe025de95280946f0e1",
+  "archive_manifest_sha256": "08cac0c659f77e52c95716f51ce7f7c3fb999e47f23beab302ced862c2a605a1",
   "python": "3.12.14",
   "package_versions": {
     "numpy": "2.5.3",
@@ -45,6 +45,10 @@
     "unit_archive": {
       "status": "passed",
       "log": "unit_archive.log"
+    },
+    "author_ppi_branch": {
+      "status": "passed",
+      "log": "author_ppi_branch.log"
     },
     "food_panel": {
       "status": "passed",

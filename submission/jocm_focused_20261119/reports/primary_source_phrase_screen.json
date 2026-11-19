@@ -3,12 +3,12 @@
   "minimum_contiguous_words": 10,
   "extractor": {
     "pypdf": "6.21.4",
-    "fonttools": "4.66.1"
+    "fonttools": "4.68.0"
   },
   "scope": "Reported exact token matches in extracted text from the named source versions. Candidate references, tables, images and equations are excluded. Semantic similarity and other sources require other evidence.",
   "draft_sha256": {
-    "manuscript.md": "ef94f9609a2556ed4e0c9f8863aadaf22cc6bf120be231eb98455384c2ee1819",
-    "supplement.md": "d750f9e7d782922a39f41bfdb6088b3e4f900300cde4c59712aa66263107a12c"
+    "manuscript.md": "f84a25665190b1dec0d3e5bf9c7269d0a56940d340f6c4f3fc2b7e98f4281abd",
+    "supplement.md": "93ccd3aa729f08c8be5a671e43cf45e54cd2d4656b217194ad45422a6fe4654a"
   },
   "sources": {
     "original_ppi": {

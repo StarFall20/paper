@@ -75,6 +75,11 @@ def verify(args, out):
           "--out", out / "unit_endpoint.json")
     check("unit_archive", "results/unit_correction_endpoint/audit_archives.py",
           "--repo", ROOT, "--out", out / "unit_archive.json")
+    branch = RESULTS / "author_ppi_branch_audit"
+    check("author_ppi_branch", "results/author_ppi_branch_audit/verify.py",
+          "--records", branch / "records.json",
+          "--prior", RESULTS / "official_ppi_runtime/results/api_records.json",
+          "--expected", branch / "summary.json")
 
     if args.food_source:
         panel = RESULTS / "public_panel_dce"

@@ -1,7 +1,7 @@
 {
   "source_sha256": {
-    "manuscript": "ef94f9609a2556ed4e0c9f8863aadaf22cc6bf120be231eb98455384c2ee1819",
-    "supplement": "d750f9e7d782922a39f41bfdb6088b3e4f900300cde4c59712aa66263107a12c"
+    "manuscript": "f84a25665190b1dec0d3e5bf9c7269d0a56940d340f6c4f3fc2b7e98f4281abd",
+    "supplement": "93ccd3aa729f08c8be5a671e43cf45e54cd2d4656b217194ad45422a6fe4654a"
   },
   "unique_links": 70,
   "counts": {
@@ -699,7 +699,8 @@
       ],
       "printed": [
         "Chen, S., Bai, Y., Zhu, H. (2026). Covariance-Calibrated Prediction-Powered Inference. Preprint, arXiv:2610.21837v2. https://arxiv.org/abs/2610.21837v2"
-      ]
+      ],
+      "primary_source_text_check": "Version 2, Theorem 4.2 and Supplement S3.9; pilot-existence event."
     },
     {
       "url": "https://doi.org/10.1007/BF01582220",

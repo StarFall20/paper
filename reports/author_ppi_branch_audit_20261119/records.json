@@ -1,0 +1,7104 @@
+[
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      0.8064253527845795,
+      0.984379456713017,
+      0.6722573571519803,
+      -1.5674556080890572,
+      -0.40840464716139274,
+      0.6759899618557694,
+      -0.5271371884742869,
+      0.034775995381236526,
+      0.13349265145510053,
+      1.6334831205940947,
+      3.1785224184017005
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.8064253527845795,
+          0.984379456713017,
+          0.6722573571519803,
+          -1.5674556080890572,
+          -0.40840464716139274,
+          0.6759899618557694,
+          -0.5271371884742869,
+          0.034775995381236526,
+          0.13349265145510053,
+          1.6334831205940947,
+          3.1785224184017005
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 2.493965395311548e-09,
+    "support": "interior",
+    "case": "public_92_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      0.4463501082010702,
+      0.977335060549809,
+      0.9350501551121951,
+      -2.009234556712585,
+      -1.1263302466798044,
+      0.8325124810447552,
+      -1.4795283645336823,
+      -0.9383489882593868,
+      0.8869931669296385,
+      2.534350442360967,
+      4.144598854906566
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 17,
+        "x": [
+          0.4463501082010702,
+          0.977335060549809,
+          0.9350501551121951,
+          -2.009234556712585,
+          -1.1263302466798044,
+          0.8325124810447552,
+          -1.4795283645336823,
+          -0.9383489882593868,
+          0.8869931669296385,
+          2.534350442360967,
+          4.144598854906566
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 2.8286056830140183e-09,
+    "support": "interior",
+    "case": "public_92_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      7.66817745534991e+38,
+      5.982808745036305e+40,
+      6.309917991604111e+40,
+      -1.4771084604568225e+41,
+      -1.1667151775191166e+41,
+      6.119680230278103e+40,
+      -1.2966483706306977e+41,
+      -1.4127142622145907e+41,
+      7.531236835090366e+40,
+      2.0155886982871044e+41,
+      2.7424027683129923e+41
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 806,
+        "x": [
+          7.66817745534991e+38,
+          5.982808745036305e+40,
+          6.309917991604111e+40,
+          -1.4771084604568225e+41,
+          -1.1667151775191166e+41,
+          6.119680230278103e+40,
+          -1.2966483706306977e+41,
+          -1.4127142622145907e+41,
+          7.531236835090366e+40,
+          2.0155886982871044e+41,
+          2.7424027683129923e+41
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 0.004166977403484012,
+    "support": "outside",
+    "case": "public_92_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 806,
+        "x": [
+          7.66817745534991e+38,
+          5.982808745036305e+40,
+          6.309917991604111e+40,
+          -1.4771084604568225e+41,
+          -1.1667151775191166e+41,
+          6.119680230278103e+40,
+          -1.2966483706306977e+41,
+          -1.4127142622145907e+41,
+          7.531236835090366e+40,
+          2.0155886982871044e+41,
+          2.7424027683129923e+41
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_92_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 806,
+        "x": [
+          7.66817745534991e+38,
+          5.982808745036305e+40,
+          6.309917991604111e+40,
+          -1.4771084604568225e+41,
+          -1.1667151775191166e+41,
+          6.119680230278103e+40,
+          -1.2966483706306977e+41,
+          -1.4127142622145907e+41,
+          7.531236835090366e+40,
+          2.0155886982871044e+41,
+          2.7424027683129923e+41
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_92_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 806,
+        "x": [
+          7.66817745534991e+38,
+          5.982808745036305e+40,
+          6.309917991604111e+40,
+          -1.4771084604568225e+41,
+          -1.1667151775191166e+41,
+          6.119680230278103e+40,
+          -1.2966483706306977e+41,
+          -1.4127142622145907e+41,
+          7.531236835090366e+40,
+          2.0155886982871044e+41,
+          2.7424027683129923e+41
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "case": "public_92_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 806,
+        "x": [
+          7.66817745534991e+38,
+          5.982808745036305e+40,
+          6.309917991604111e+40,
+          -1.4771084604568225e+41,
+          -1.1667151775191166e+41,
+          6.119680230278103e+40,
+          -1.2966483706306977e+41,
+          -1.4127142622145907e+41,
+          7.531236835090366e+40,
+          2.0155886982871044e+41,
+          2.7424027683129923e+41
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_92_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 806,
+        "x": [
+          7.66817745534991e+38,
+          5.982808745036305e+40,
+          6.309917991604111e+40,
+          -1.4771084604568225e+41,
+          -1.1667151775191166e+41,
+          6.119680230278103e+40,
+          -1.2966483706306977e+41,
+          -1.4127142622145907e+41,
+          7.531236835090366e+40,
+          2.0155886982871044e+41,
+          2.7424027683129923e+41
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_92_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      -0.29922891838167315,
+      0.05616952741168342,
+      1.7329806382886819,
+      -0.14334977960202944,
+      0.11733376544271817,
+      0.23483519656120116,
+      -0.199838546209567,
+      0.22427328153851633,
+      -2.96956232698601,
+      0.06399345819666824,
+      -0.23167061453796425
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.29922891838167315,
+          0.05616952741168342,
+          1.7329806382886819,
+          -0.14334977960202944,
+          0.11733376544271817,
+          0.23483519656120116,
+          -0.199838546209567,
+          0.22427328153851633,
+          -2.96956232698601,
+          0.06399345819666824,
+          -0.23167061453796425
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 5.142258018703272e-09,
+    "support": "interior",
+    "case": "public_121_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -0.7941939123987947,
+      -0.05214356692289967,
+      2.2860961982673613,
+      0.1425171973636307,
+      0.2960056983644794,
+      0.16296954261993435,
+      -0.9631732589374274,
+      -0.25204802895323486,
+      -4.466485942841571,
+      0.25219584135578743,
+      -0.32087527359607637
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          -0.7941939123987947,
+          -0.05214356692289967,
+          2.2860961982673613,
+          0.1425171973636307,
+          0.2960056983644794,
+          0.16296954261993435,
+          -0.9631732589374274,
+          -0.25204802895323486,
+          -4.466485942841571,
+          0.25219584135578743,
+          -0.32087527359607637
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 3.3858321597801666e-09,
+    "support": "interior",
+    "case": "public_121_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -4.6870553050218275e+34,
+      -5.698200302955333e+33,
+      1.0704714059688248e+35,
+      2.523196497218393e+34,
+      3.9922102742413125e+34,
+      -9.883477039329793e+33,
+      -9.10019897710343e+34,
+      -4.0126960148172787e+34,
+      -1.0377134596599437e+36,
+      7.929712875449659e+33,
+      -5.0900051021315503e+33
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 14,
+        "x": [
+          -4.6870553050218275e+34,
+          -5.698200302955333e+33,
+          1.0704714059688248e+35,
+          2.523196497218393e+34,
+          3.9922102742413125e+34,
+          -9.883477039329793e+33,
+          -9.10019897710343e+34,
+          -4.0126960148172787e+34,
+          -1.0377134596599437e+36,
+          7.929712875449659e+33,
+          -5.0900051021315503e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 0.020710970480713436,
+    "support": "outside",
+    "case": "public_121_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 14,
+        "x": [
+          -4.6870553050218275e+34,
+          -5.698200302955333e+33,
+          1.0704714059688248e+35,
+          2.523196497218393e+34,
+          3.9922102742413125e+34,
+          -9.883477039329793e+33,
+          -9.10019897710343e+34,
+          -4.0126960148172787e+34,
+          -1.0377134596599437e+36,
+          7.929712875449659e+33,
+          -5.0900051021315503e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_121_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 14,
+        "x": [
+          -4.6870553050218275e+34,
+          -5.698200302955333e+33,
+          1.0704714059688248e+35,
+          2.523196497218393e+34,
+          3.9922102742413125e+34,
+          -9.883477039329793e+33,
+          -9.10019897710343e+34,
+          -4.0126960148172787e+34,
+          -1.0377134596599437e+36,
+          7.929712875449659e+33,
+          -5.0900051021315503e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_121_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 14,
+        "x": [
+          -4.6870553050218275e+34,
+          -5.698200302955333e+33,
+          1.0704714059688248e+35,
+          2.523196497218393e+34,
+          3.9922102742413125e+34,
+          -9.883477039329793e+33,
+          -9.10019897710343e+34,
+          -4.0126960148172787e+34,
+          -1.0377134596599437e+36,
+          7.929712875449659e+33,
+          -5.0900051021315503e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "case": "public_121_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 14,
+        "x": [
+          -4.6870553050218275e+34,
+          -5.698200302955333e+33,
+          1.0704714059688248e+35,
+          2.523196497218393e+34,
+          3.9922102742413125e+34,
+          -9.883477039329793e+33,
+          -9.10019897710343e+34,
+          -4.0126960148172787e+34,
+          -1.0377134596599437e+36,
+          7.929712875449659e+33,
+          -5.0900051021315503e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_121_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 14,
+        "x": [
+          -4.6870553050218275e+34,
+          -5.698200302955333e+33,
+          1.0704714059688248e+35,
+          2.523196497218393e+34,
+          3.9922102742413125e+34,
+          -9.883477039329793e+33,
+          -9.10019897710343e+34,
+          -4.0126960148172787e+34,
+          -1.0377134596599437e+36,
+          7.929712875449659e+33,
+          -5.0900051021315503e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_121_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      2.4679621223231423,
+      2.0783294303557143,
+      -2.7358051133753176,
+      0.4160608386398232,
+      1.179057970088723,
+      -1.90192988134823,
+      -3.2573432665595283,
+      -1.8336328662859993,
+      -6.543587268373733,
+      -1.634319070173166,
+      -1.5719307579631037
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 1,
+        "x": [
+          2.4679621223231423,
+          2.0783294303557143,
+          -2.7358051133753176,
+          0.4160608386398232,
+          1.179057970088723,
+          -1.90192988134823,
+          -3.2573432665595283,
+          -1.8336328662859993,
+          -6.543587268373733,
+          -1.634319070173166,
+          -1.5719307579631037
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 5.982906309265346e-09,
+    "support": "interior",
+    "case": "public_256_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      1.0837606423396655,
+      1.9385181111124117,
+      -2.5775470211134106,
+      0.11036965117165586,
+      1.5067481128755247,
+      -0.7278470285304258,
+      -3.6705429674750207,
+      -1.8836332414081305,
+      -6.513913403592637,
+      -1.1480187230553147,
+      -1.2286775554772436
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 19,
+        "x": [
+          1.0837606423396655,
+          1.9385181111124117,
+          -2.5775470211134106,
+          0.11036965117165586,
+          1.5067481128755247,
+          -0.7278470285304258,
+          -3.6705429674750207,
+          -1.8836332414081305,
+          -6.513913403592637,
+          -1.1480187230553147,
+          -1.2286775554772436
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 1.1856247420644062e-07,
+    "support": "interior",
+    "case": "public_256_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -1.9291756579110132e+33,
+      4.242953973752168e+34,
+      -4.72103724689576e+34,
+      -6.82952090322091e+32,
+      4.5816018413890615e+34,
+      1.4424752331803125e+33,
+      -9.671852759628117e+34,
+      -4.455904724536068e+34,
+      -1.3846373339137124e+35,
+      -1.4375628316641616e+33,
+      -1.2947336220491097e+33
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 11,
+        "x": [
+          -1.9291756579110132e+33,
+          4.242953973752168e+34,
+          -4.72103724689576e+34,
+          -6.82952090322091e+32,
+          4.5816018413890615e+34,
+          1.4424752331803125e+33,
+          -9.671852759628117e+34,
+          -4.455904724536068e+34,
+          -1.3846373339137124e+35,
+          -1.4375628316641616e+33,
+          -1.2947336220491097e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 0.01702884983946895,
+    "support": "outside",
+    "case": "public_256_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 11,
+        "x": [
+          -1.9291756579110132e+33,
+          4.242953973752168e+34,
+          -4.72103724689576e+34,
+          -6.82952090322091e+32,
+          4.5816018413890615e+34,
+          1.4424752331803125e+33,
+          -9.671852759628117e+34,
+          -4.455904724536068e+34,
+          -1.3846373339137124e+35,
+          -1.4375628316641616e+33,
+          -1.2947336220491097e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_256_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 11,
+        "x": [
+          -1.9291756579110132e+33,
+          4.242953973752168e+34,
+          -4.72103724689576e+34,
+          -6.82952090322091e+32,
+          4.5816018413890615e+34,
+          1.4424752331803125e+33,
+          -9.671852759628117e+34,
+          -4.455904724536068e+34,
+          -1.3846373339137124e+35,
+          -1.4375628316641616e+33,
+          -1.2947336220491097e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_256_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 11,
+        "x": [
+          -1.9291756579110132e+33,
+          4.242953973752168e+34,
+          -4.72103724689576e+34,
+          -6.82952090322091e+32,
+          4.5816018413890615e+34,
+          1.4424752331803125e+33,
+          -9.671852759628117e+34,
+          -4.455904724536068e+34,
+          -1.3846373339137124e+35,
+          -1.4375628316641616e+33,
+          -1.2947336220491097e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "case": "public_256_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 11,
+        "x": [
+          -1.9291756579110132e+33,
+          4.242953973752168e+34,
+          -4.72103724689576e+34,
+          -6.82952090322091e+32,
+          4.5816018413890615e+34,
+          1.4424752331803125e+33,
+          -9.671852759628117e+34,
+          -4.455904724536068e+34,
+          -1.3846373339137124e+35,
+          -1.4375628316641616e+33,
+          -1.2947336220491097e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_256_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 11,
+        "x": [
+          -1.9291756579110132e+33,
+          4.242953973752168e+34,
+          -4.72103724689576e+34,
+          -6.82952090322091e+32,
+          4.5816018413890615e+34,
+          1.4424752331803125e+33,
+          -9.671852759628117e+34,
+          -4.455904724536068e+34,
+          -1.3846373339137124e+35,
+          -1.4375628316641616e+33,
+          -1.2947336220491097e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_256_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      0.26066177775467114,
+      3.225829092418631,
+      -0.28889161916731876,
+      -0.6291647935596631,
+      -0.0743169059101385,
+      -2.150259818071078,
+      -1.123202248976098,
+      -0.9163282714107849,
+      -1.344390877453148,
+      -0.8104717961278257,
+      -0.2536680113823282
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 2,
+        "x": [
+          0.26066177775467114,
+          3.225829092418631,
+          -0.28889161916731876,
+          -0.6291647935596631,
+          -0.0743169059101385,
+          -2.150259818071078,
+          -1.123202248976098,
+          -0.9163282714107849,
+          -1.344390877453148,
+          -0.8104717961278257,
+          -0.2536680113823282
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 6.446418454597591e-09,
+    "support": "interior",
+    "case": "public_317_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      0.8897738124208867,
+      4.725277395022945,
+      0.17112697719001319,
+      -1.088332603423947,
+      -0.2956667701697101,
+      -3.7091221362958593,
+      -1.2261850267638243,
+      -1.1257333787437767,
+      -2.2484725666318646,
+      -0.6014282190874792,
+      -0.005684800031777582
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 17,
+        "x": [
+          0.8897738124208867,
+          4.725277395022945,
+          0.17112697719001319,
+          -1.088332603423947,
+          -0.2956667701697101,
+          -3.7091221362958593,
+          -1.2261850267638243,
+          -1.1257333787437767,
+          -2.2484725666318646,
+          -0.6014282190874792,
+          -0.005684800031777582
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 9.524692447509392e-09,
+    "support": "interior",
+    "case": "public_317_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      7.234382438101803e+53,
+      3.382425333746985e+54,
+      3.4288689688455465e+53,
+      -9.629308731786615e+53,
+      1.0242062584561765e+53,
+      -2.697627358233851e+54,
+      -4.717165792694874e+53,
+      -6.080518124610871e+53,
+      -1.690775911060781e+54,
+      6.330203610504447e+52,
+      -7.663198429255984e+52
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          7.234382438101803e+53,
+          3.382425333746985e+54,
+          3.4288689688455465e+53,
+          -9.629308731786615e+53,
+          1.0242062584561765e+53,
+          -2.697627358233851e+54,
+          -4.717165792694874e+53,
+          -6.080518124610871e+53,
+          -1.690775911060781e+54,
+          6.330203610504447e+52,
+          -7.663198429255984e+52
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 0.009688448124216598,
+    "support": "outside",
+    "case": "public_317_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          7.234382438101803e+53,
+          3.382425333746985e+54,
+          3.4288689688455465e+53,
+          -9.629308731786615e+53,
+          1.0242062584561765e+53,
+          -2.697627358233851e+54,
+          -4.717165792694874e+53,
+          -6.080518124610871e+53,
+          -1.690775911060781e+54,
+          6.330203610504447e+52,
+          -7.663198429255984e+52
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_317_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          7.234382438101803e+53,
+          3.382425333746985e+54,
+          3.4288689688455465e+53,
+          -9.629308731786615e+53,
+          1.0242062584561765e+53,
+          -2.697627358233851e+54,
+          -4.717165792694874e+53,
+          -6.080518124610871e+53,
+          -1.690775911060781e+54,
+          6.330203610504447e+52,
+          -7.663198429255984e+52
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_317_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          7.234382438101803e+53,
+          3.382425333746985e+54,
+          3.4288689688455465e+53,
+          -9.629308731786615e+53,
+          1.0242062584561765e+53,
+          -2.697627358233851e+54,
+          -4.717165792694874e+53,
+          -6.080518124610871e+53,
+          -1.690775911060781e+54,
+          6.330203610504447e+52,
+          -7.663198429255984e+52
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "case": "public_317_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          7.234382438101803e+53,
+          3.382425333746985e+54,
+          3.4288689688455465e+53,
+          -9.629308731786615e+53,
+          1.0242062584561765e+53,
+          -2.697627358233851e+54,
+          -4.717165792694874e+53,
+          -6.080518124610871e+53,
+          -1.690775911060781e+54,
+          6.330203610504447e+52,
+          -7.663198429255984e+52
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_317_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          7.234382438101803e+53,
+          3.382425333746985e+54,
+          3.4288689688455465e+53,
+          -9.629308731786615e+53,
+          1.0242062584561765e+53,
+          -2.697627358233851e+54,
+          -4.717165792694874e+53,
+          -6.080518124610871e+53,
+          -1.690775911060781e+54,
+          6.330203610504447e+52,
+          -7.663198429255984e+52
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_317_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      0.26066177775467114,
+      3.225829092418631,
+      -0.28889161916731876,
+      -0.6291647935596631,
+      -0.0743169059101385,
+      -2.150259818071078,
+      -1.123202248976098,
+      -0.9163282714107849,
+      -1.344390877453148,
+      -0.8104717961278257,
+      -0.2536680113823282
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 2,
+        "x": [
+          0.26066177775467114,
+          3.225829092418631,
+          -0.28889161916731876,
+          -0.6291647935596631,
+          -0.0743169059101385,
+          -2.150259818071078,
+          -1.123202248976098,
+          -0.9163282714107849,
+          -1.344390877453148,
+          -0.8104717961278257,
+          -0.2536680113823282
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 6.446418454597591e-09,
+    "support": "interior",
+    "case": "public_317_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      0.9391002537508615,
+      4.892061477506802,
+      -0.011464592363141127,
+      -1.5618656766342078,
+      -0.17670319291655828,
+      -3.7577207697813213,
+      -1.3487717003557629,
+      -1.4109774596328135,
+      -1.9414835715580565,
+      0.215654185145007,
+      0.2610789938114881
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          0.9391002537508615,
+          4.892061477506802,
+          -0.011464592363141127,
+          -1.5618656766342078,
+          -0.17670319291655828,
+          -3.7577207697813213,
+          -1.3487717003557629,
+          -1.4109774596328135,
+          -1.9414835715580565,
+          0.215654185145007,
+          0.2610789938114881
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 3.4827033063011825e-09,
+    "support": "interior",
+    "case": "public_317_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      1.9928068292872789e+34,
+      8.42221345496772e+34,
+      4.757723670608333e+33,
+      -4.0344210250115245e+34,
+      1.5312541790200153e+33,
+      -7.0105679630250595e+34,
+      -1.5537410519888933e+34,
+      -1.9373446576674715e+34,
+      -3.315917869945205e+34,
+      2.250684877151798e+34,
+      2.036824542067591e+33
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 8,
+        "x": [
+          1.9928068292872789e+34,
+          8.42221345496772e+34,
+          4.757723670608333e+33,
+          -4.0344210250115245e+34,
+          1.5312541790200153e+33,
+          -7.0105679630250595e+34,
+          -1.5537410519888933e+34,
+          -1.9373446576674715e+34,
+          -3.315917869945205e+34,
+          2.250684877151798e+34,
+          2.036824542067591e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 0.012729593199798162,
+    "support": "outside",
+    "case": "public_317_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 8,
+        "x": [
+          1.9928068292872789e+34,
+          8.42221345496772e+34,
+          4.757723670608333e+33,
+          -4.0344210250115245e+34,
+          1.5312541790200153e+33,
+          -7.0105679630250595e+34,
+          -1.5537410519888933e+34,
+          -1.9373446576674715e+34,
+          -3.315917869945205e+34,
+          2.250684877151798e+34,
+          2.036824542067591e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_317_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 8,
+        "x": [
+          1.9928068292872789e+34,
+          8.42221345496772e+34,
+          4.757723670608333e+33,
+          -4.0344210250115245e+34,
+          1.5312541790200153e+33,
+          -7.0105679630250595e+34,
+          -1.5537410519888933e+34,
+          -1.9373446576674715e+34,
+          -3.315917869945205e+34,
+          2.250684877151798e+34,
+          2.036824542067591e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_317_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 8,
+        "x": [
+          1.9928068292872789e+34,
+          8.42221345496772e+34,
+          4.757723670608333e+33,
+          -4.0344210250115245e+34,
+          1.5312541790200153e+33,
+          -7.0105679630250595e+34,
+          -1.5537410519888933e+34,
+          -1.9373446576674715e+34,
+          -3.315917869945205e+34,
+          2.250684877151798e+34,
+          2.036824542067591e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "case": "public_317_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 8,
+        "x": [
+          1.9928068292872789e+34,
+          8.42221345496772e+34,
+          4.757723670608333e+33,
+          -4.0344210250115245e+34,
+          1.5312541790200153e+33,
+          -7.0105679630250595e+34,
+          -1.5537410519888933e+34,
+          -1.9373446576674715e+34,
+          -3.315917869945205e+34,
+          2.250684877151798e+34,
+          2.036824542067591e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_317_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 8,
+        "x": [
+          1.9928068292872789e+34,
+          8.42221345496772e+34,
+          4.757723670608333e+33,
+          -4.0344210250115245e+34,
+          1.5312541790200153e+33,
+          -7.0105679630250595e+34,
+          -1.5537410519888933e+34,
+          -1.9373446576674715e+34,
+          -3.315917869945205e+34,
+          2.250684877151798e+34,
+          2.036824542067591e+33
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_317_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      -1.4701170365799574,
+      -1.3140077886955384,
+      0.9454513306099825,
+      0.3472567106854258,
+      -1.1483747002857052,
+      1.4116863486594668,
+      0.5208028331690893,
+      0.6773796581677258,
+      0.07819541141040398,
+      3.1466577769877233,
+      1.3005583831103527
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.4701170365799574,
+          -1.3140077886955384,
+          0.9454513306099825,
+          0.3472567106854258,
+          -1.1483747002857052,
+          1.4116863486594668,
+          0.5208028331690893,
+          0.6773796581677258,
+          0.07819541141040398,
+          3.1466577769877233,
+          1.3005583831103527
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 5.0183607269715935e-09,
+    "support": "interior",
+    "case": "public_337_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -2.681219530676823,
+      -0.9967780072548962,
+      1.5201199586222645,
+      0.4981535597291714,
+      -1.3908380658415969,
+      1.8297311942585182,
+      0.5213761664768273,
+      0.47013727848557085,
+      0.5400895944199556,
+      4.608024262208564,
+      2.143542159336977
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -2.681219530676823,
+          -0.9967780072548962,
+          1.5201199586222645,
+          0.4981535597291714,
+          -1.3908380658415969,
+          1.8297311942585182,
+          0.5213761664768273,
+          0.47013727848557085,
+          0.5400895944199556,
+          4.608024262208564,
+          2.143542159336977
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 9.050218852113545e-09,
+    "support": "interior",
+    "case": "public_337_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -5.622288966684385e+34,
+      -5.684950655994575e+33,
+      2.5424769495598775e+34,
+      2.4956167055097674e+33,
+      -2.255441343139781e+34,
+      3.335209360661854e+34,
+      2.771980310653288e+33,
+      4.205996447791138e+33,
+      1.0740587908848177e+34,
+      7.612948882490111e+34,
+      3.9961429118579435e+34
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 10,
+        "x": [
+          -5.622288966684385e+34,
+          -5.684950655994575e+33,
+          2.5424769495598775e+34,
+          2.4956167055097674e+33,
+          -2.255441343139781e+34,
+          3.335209360661854e+34,
+          2.771980310653288e+33,
+          4.205996447791138e+33,
+          1.0740587908848177e+34,
+          7.612948882490111e+34,
+          3.9961429118579435e+34
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 0.006914857223743409,
+    "support": "outside",
+    "case": "public_337_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 10,
+        "x": [
+          -5.622288966684385e+34,
+          -5.684950655994575e+33,
+          2.5424769495598775e+34,
+          2.4956167055097674e+33,
+          -2.255441343139781e+34,
+          3.335209360661854e+34,
+          2.771980310653288e+33,
+          4.205996447791138e+33,
+          1.0740587908848177e+34,
+          7.612948882490111e+34,
+          3.9961429118579435e+34
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_337_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 10,
+        "x": [
+          -5.622288966684385e+34,
+          -5.684950655994575e+33,
+          2.5424769495598775e+34,
+          2.4956167055097674e+33,
+          -2.255441343139781e+34,
+          3.335209360661854e+34,
+          2.771980310653288e+33,
+          4.205996447791138e+33,
+          1.0740587908848177e+34,
+          7.612948882490111e+34,
+          3.9961429118579435e+34
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_337_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 10,
+        "x": [
+          -5.622288966684385e+34,
+          -5.684950655994575e+33,
+          2.5424769495598775e+34,
+          2.4956167055097674e+33,
+          -2.255441343139781e+34,
+          3.335209360661854e+34,
+          2.771980310653288e+33,
+          4.205996447791138e+33,
+          1.0740587908848177e+34,
+          7.612948882490111e+34,
+          3.9961429118579435e+34
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "case": "public_337_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 10,
+        "x": [
+          -5.622288966684385e+34,
+          -5.684950655994575e+33,
+          2.5424769495598775e+34,
+          2.4956167055097674e+33,
+          -2.255441343139781e+34,
+          3.335209360661854e+34,
+          2.771980310653288e+33,
+          4.205996447791138e+33,
+          1.0740587908848177e+34,
+          7.612948882490111e+34,
+          3.9961429118579435e+34
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_337_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 10,
+        "x": [
+          -5.622288966684385e+34,
+          -5.684950655994575e+33,
+          2.5424769495598775e+34,
+          2.4956167055097674e+33,
+          -2.255441343139781e+34,
+          3.335209360661854e+34,
+          2.771980310653288e+33,
+          4.205996447791138e+33,
+          1.0740587908848177e+34,
+          7.612948882490111e+34,
+          3.9961429118579435e+34
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_337_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      -0.6263531618727486,
+      1.2792475006662198,
+      1.024469620996858,
+      1.0719254662302509,
+      -1.2284816382261448,
+      0.4007187466233013,
+      -2.157466086510818,
+      -2.805855647216528,
+      0.7738749322318147,
+      3.1316918783147636,
+      1.2708607553408686
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 1,
+        "x": [
+          -0.6263531618727486,
+          1.2792475006662198,
+          1.024469620996858,
+          1.0719254662302509,
+          -1.2284816382261448,
+          0.4007187466233013,
+          -2.157466086510818,
+          -2.805855647216528,
+          0.7738749322318147,
+          3.1316918783147636,
+          1.2708607553408686
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 4.961960233321183e-09,
+    "support": "interior",
+    "case": "public_483_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -1.6891358094016642,
+      2.5700828085382943,
+      1.0775229228122665,
+      0.5961919532366832,
+      -1.9441579021078217,
+      0.5704296768302721,
+      -4.25943224649684,
+      -5.821514469334839,
+      0.8852481455861829,
+      4.456341368437917,
+      2.071973055460525
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 21,
+        "x": [
+          -1.6891358094016642,
+          2.5700828085382943,
+          1.0775229228122665,
+          0.5961919532366832,
+          -1.9441579021078217,
+          0.5704296768302721,
+          -4.25943224649684,
+          -5.821514469334839,
+          0.8852481455861829,
+          4.456341368437917,
+          2.071973055460525
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 2.7066128043679027e-08,
+    "support": "interior",
+    "case": "public_483_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -6.230049875580141e+39,
+      1.5820062198247627e+40,
+      2.3951248670891402e+39,
+      -5.778064463711599e+38,
+      -6.049226344193954e+39,
+      2.250709063265318e+39,
+      -2.1167591560285615e+40,
+      -2.647935987933869e+40,
+      5.4285083572223174e+39,
+      1.6139538946909585e+40,
+      5.389939155369203e+39
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -6.230049875580141e+39,
+          1.5820062198247627e+40,
+          2.3951248670891402e+39,
+          -5.778064463711599e+38,
+          -6.049226344193954e+39,
+          2.250709063265318e+39,
+          -2.1167591560285615e+40,
+          -2.647935987933869e+40,
+          5.4285083572223174e+39,
+          1.6139538946909585e+40,
+          5.389939155369203e+39
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 0.011591816549624628,
+    "support": "outside",
+    "case": "public_483_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -6.230049875580141e+39,
+          1.5820062198247627e+40,
+          2.3951248670891402e+39,
+          -5.778064463711599e+38,
+          -6.049226344193954e+39,
+          2.250709063265318e+39,
+          -2.1167591560285615e+40,
+          -2.647935987933869e+40,
+          5.4285083572223174e+39,
+          1.6139538946909585e+40,
+          5.389939155369203e+39
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_483_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -6.230049875580141e+39,
+          1.5820062198247627e+40,
+          2.3951248670891402e+39,
+          -5.778064463711599e+38,
+          -6.049226344193954e+39,
+          2.250709063265318e+39,
+          -2.1167591560285615e+40,
+          -2.647935987933869e+40,
+          5.4285083572223174e+39,
+          1.6139538946909585e+40,
+          5.389939155369203e+39
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_483_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -6.230049875580141e+39,
+          1.5820062198247627e+40,
+          2.3951248670891402e+39,
+          -5.778064463711599e+38,
+          -6.049226344193954e+39,
+          2.250709063265318e+39,
+          -2.1167591560285615e+40,
+          -2.647935987933869e+40,
+          5.4285083572223174e+39,
+          1.6139538946909585e+40,
+          5.389939155369203e+39
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "case": "public_483_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -6.230049875580141e+39,
+          1.5820062198247627e+40,
+          2.3951248670891402e+39,
+          -5.778064463711599e+38,
+          -6.049226344193954e+39,
+          2.250709063265318e+39,
+          -2.1167591560285615e+40,
+          -2.647935987933869e+40,
+          5.4285083572223174e+39,
+          1.6139538946909585e+40,
+          5.389939155369203e+39
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_483_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -6.230049875580141e+39,
+          1.5820062198247627e+40,
+          2.3951248670891402e+39,
+          -5.778064463711599e+38,
+          -6.049226344193954e+39,
+          2.250709063265318e+39,
+          -2.1167591560285615e+40,
+          -2.647935987933869e+40,
+          5.4285083572223174e+39,
+          1.6139538946909585e+40,
+          5.389939155369203e+39
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_483_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      -0.6263531618727486,
+      1.2792475006662198,
+      1.024469620996858,
+      1.0719254662302509,
+      -1.2284816382261448,
+      0.4007187466233013,
+      -2.157466086510818,
+      -2.805855647216528,
+      0.7738749322318147,
+      3.1316918783147636,
+      1.2708607553408686
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 1,
+        "x": [
+          -0.6263531618727486,
+          1.2792475006662198,
+          1.024469620996858,
+          1.0719254662302509,
+          -1.2284816382261448,
+          0.4007187466233013,
+          -2.157466086510818,
+          -2.805855647216528,
+          0.7738749322318147,
+          3.1316918783147636,
+          1.2708607553408686
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 4.961960233321183e-09,
+    "support": "interior",
+    "case": "public_483_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -1.7148359149646624,
+      2.633874268679897,
+      1.2967583914112948,
+      0.5390934698483547,
+      -2.1502096755692186,
+      0.9916760592247535,
+      -4.582785563779255,
+      -6.38651042884218,
+      0.8135766546864128,
+      4.648788732088427,
+      2.3851809495181873
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          -1.7148359149646624,
+          2.633874268679897,
+          1.2967583914112948,
+          0.5390934698483547,
+          -2.1502096755692186,
+          0.9916760592247535,
+          -4.582785563779255,
+          -6.38651042884218,
+          0.8135766546864128,
+          4.648788732088427,
+          2.3851809495181873
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 2.798580689133967e-07,
+    "support": "interior",
+    "case": "public_483_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -1.258538965036586e+48,
+      3.031591131495782e+48,
+      6.799008708287805e+47,
+      -5.661485559930565e+46,
+      -1.5018995788143502e+48,
+      8.31834325744259e+47,
+      -4.187246524505215e+48,
+      -5.853132733485033e+48,
+      9.24994431634191e+47,
+      3.317276353676164e+48,
+      1.5372894814062507e+48
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -1.258538965036586e+48,
+          3.031591131495782e+48,
+          6.799008708287805e+47,
+          -5.661485559930565e+46,
+          -1.5018995788143502e+48,
+          8.31834325744259e+47,
+          -4.187246524505215e+48,
+          -5.853132733485033e+48,
+          9.24994431634191e+47,
+          3.317276353676164e+48,
+          1.5372894814062507e+48
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 0.012703895190969448,
+    "support": "outside",
+    "case": "public_483_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -1.258538965036586e+48,
+          3.031591131495782e+48,
+          6.799008708287805e+47,
+          -5.661485559930565e+46,
+          -1.5018995788143502e+48,
+          8.31834325744259e+47,
+          -4.187246524505215e+48,
+          -5.853132733485033e+48,
+          9.24994431634191e+47,
+          3.317276353676164e+48,
+          1.5372894814062507e+48
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_483_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -1.258538965036586e+48,
+          3.031591131495782e+48,
+          6.799008708287805e+47,
+          -5.661485559930565e+46,
+          -1.5018995788143502e+48,
+          8.31834325744259e+47,
+          -4.187246524505215e+48,
+          -5.853132733485033e+48,
+          9.24994431634191e+47,
+          3.317276353676164e+48,
+          1.5372894814062507e+48
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_483_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -1.258538965036586e+48,
+          3.031591131495782e+48,
+          6.799008708287805e+47,
+          -5.661485559930565e+46,
+          -1.5018995788143502e+48,
+          8.31834325744259e+47,
+          -4.187246524505215e+48,
+          -5.853132733485033e+48,
+          9.24994431634191e+47,
+          3.317276353676164e+48,
+          1.5372894814062507e+48
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "case": "public_483_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -1.258538965036586e+48,
+          3.031591131495782e+48,
+          6.799008708287805e+47,
+          -5.661485559930565e+46,
+          -1.5018995788143502e+48,
+          8.31834325744259e+47,
+          -4.187246524505215e+48,
+          -5.853132733485033e+48,
+          9.24994431634191e+47,
+          3.317276353676164e+48,
+          1.5372894814062507e+48
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_483_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 2,
+        "iterations": 9,
+        "x": [
+          -1.258538965036586e+48,
+          3.031591131495782e+48,
+          6.799008708287805e+47,
+          -5.661485559930565e+46,
+          -1.5018995788143502e+48,
+          8.31834325744259e+47,
+          -4.187246524505215e+48,
+          -5.853132733485033e+48,
+          9.24994431634191e+47,
+          3.317276353676164e+48,
+          1.5372894814062507e+48
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": null,
+    "case": "public_483_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      0.8162086449528616,
+      1.09334538074513,
+      0.647385638098158,
+      0.520058527380327,
+      -0.5868783519057867,
+      -1.2195871406530996,
+      -0.36792786131880867,
+      0.03276566824846264,
+      0.15393733353894168,
+      1.0155172733913727,
+      1.6110713819049247
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.8162086449528616,
+          1.09334538074513,
+          0.647385638098158,
+          0.520058527380327,
+          -0.5868783519057867,
+          -1.2195871406530996,
+          -0.36792786131880867,
+          0.03276566824846264,
+          0.15393733353894168,
+          1.0155172733913727,
+          1.6110713819049247
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 5.399482194690108e-09,
+    "support": "interior",
+    "case": "public_0_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      0.40379234887042253,
+      0.9063747893239256,
+      0.47428700879183255,
+      0.32707509866380635,
+      -0.4744296816834726,
+      -0.8204131850655819,
+      -0.27333555166718515,
+      0.16568684518822485,
+      0.5094763199984436,
+      1.051925434623999,
+      1.0843589332859225
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          0.40379234887042253,
+          0.9063747893239256,
+          0.47428700879183255,
+          0.32707509866380635,
+          -0.4744296816834726,
+          -0.8204131850655819,
+          -0.27333555166718515,
+          0.16568684518822485,
+          0.5094763199984436,
+          1.051925434623999,
+          1.0843589332859225
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 5.409923092836166e-09,
+    "support": "interior",
+    "case": "public_0_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      0.2423084309340336,
+      0.7275643235768161,
+      0.46707179448153346,
+      0.3080646665048434,
+      -0.432616846569025,
+      -0.5884675777556604,
+      -0.2648090706386248,
+      0.2021051047916175,
+      0.804611868538761,
+      1.2165300437579643,
+      1.0149867951120166
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.2423084309340336,
+          0.7275643235768161,
+          0.46707179448153346,
+          0.3080646665048434,
+          -0.432616846569025,
+          -0.5884675777556604,
+          -0.2648090706386248,
+          0.2021051047916175,
+          0.804611868538761,
+          1.2165300437579643,
+          1.0149867951120166
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 1.9604379682125472e-09,
+    "support": "interior",
+    "case": "public_0_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      0.6621754750905554,
+      1.050516105212143,
+      0.5565455275016277,
+      0.4301721759655377,
+      -0.550034150879686,
+      -1.0674137725311945,
+      -0.3408326963796667,
+      0.0909568383448209,
+      0.26884751739847956,
+      0.9969964300219304,
+      1.36776674560727
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.2423084309340336,
+          0.7275643235768161,
+          0.46707179448153346,
+          0.3080646665048434,
+          -0.432616846569025,
+          -0.5884675777556604,
+          -0.2648090706386248,
+          0.2021051047916175,
+          0.804611868538761,
+          1.2165300437579643,
+          1.0149867951120166
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.6621754750905554,
+          1.050516105212143,
+          0.5565455275016277,
+          0.4301721759655377,
+          -0.550034150879686,
+          -1.0674137725311945,
+          -0.3408326963796667,
+          0.0909568383448209,
+          0.26884751739847956,
+          0.9969964300219304,
+          1.36776674560727
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.1320021897107345,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.1320021897107345,
+    "score_max": 7.781903330061901e-09,
+    "support": "interior",
+    "case": "public_0_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      0.4253333000203121,
+      1.0341242319903627,
+      0.433650280501918,
+      0.27158741783816415,
+      -0.4628643420392406,
+      -0.9681192563608636,
+      -0.17990665400583125,
+      0.16781039325898142,
+      0.2303876250038014,
+      0.8452484417611181,
+      0.9618186483588664
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.2423084309340336,
+          0.7275643235768161,
+          0.46707179448153346,
+          0.3080646665048434,
+          -0.432616846569025,
+          -0.5884675777556604,
+          -0.2648090706386248,
+          0.2021051047916175,
+          0.804611868538761,
+          1.2165300437579643,
+          1.0149867951120166
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.1320021897107345,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.1320021897107345,
+    "score_max": 0.01762082681758988,
+    "support": "interior",
+    "independent_one_step_error": 1.2212453270876722e-15,
+    "case": "public_0_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      [
+        -0.6524592929996484,
+        -0.5124699052879782,
+        -0.28439256158813186,
+        -0.3801264252493471,
+        -1.2887950153334158,
+        -1.4291511254324343,
+        -1.2799933826177352,
+        -0.7431445799878589,
+        -0.6502633620861819,
+        -0.11013887932008681,
+        -0.2513456738225237
+      ],
+      [
+        1.1370761548677155,
+        1.9675985524416104,
+        1.218536150551199,
+        0.9962557582590339,
+        0.4235613221953657,
+        0.2522159699211135,
+        0.7503752413404856,
+        1.1473547895710938,
+        2.259487099163704,
+        2.543198966836015,
+        2.281319264046557
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.2423084309340336,
+          0.7275643235768161,
+          0.46707179448153346,
+          0.3080646665048434,
+          -0.432616846569025,
+          -0.5884675777556604,
+          -0.2648090706386248,
+          0.2021051047916175,
+          0.804611868538761,
+          1.2165300437579643,
+          1.0149867951120166
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_0_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      [
+        -0.5819336753383435,
+        -0.5402756089339749,
+        -0.5923670186027241,
+        -0.22075486025940594,
+        -1.8250452241367245,
+        -2.162072093266684,
+        -1.5402062154742926,
+        -1.0652144385949358,
+        -1.2175088014897546,
+        -0.018125772636804482,
+        0.1853384269518834
+      ],
+      [
+        2.2143509652440665,
+        2.7269663704242353,
+        1.88713829479904,
+        1.26087191502006,
+        0.651288520325151,
+        -0.27710218803951536,
+        0.8043504928366754,
+        1.1307457750918612,
+        1.5253834685676382,
+        2.04916031941955,
+        3.036804336857966
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.2423084309340336,
+          0.7275643235768161,
+          0.46707179448153346,
+          0.3080646665048434,
+          -0.432616846569025,
+          -0.5884675777556604,
+          -0.2648090706386248,
+          0.2021051047916175,
+          0.804611868538761,
+          1.2165300437579643,
+          1.0149867951120166
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.6621754750905554,
+          1.050516105212143,
+          0.5565455275016277,
+          0.4301721759655377,
+          -0.550034150879686,
+          -1.0674137725311945,
+          -0.3408326963796667,
+          0.0909568383448209,
+          0.26884751739847956,
+          0.9969964300219304,
+          1.36776674560727
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.8162086449528616,
+          1.09334538074513,
+          0.647385638098158,
+          0.520058527380327,
+          -0.5868783519057867,
+          -1.2195871406530996,
+          -0.36792786131880867,
+          0.03276566824846264,
+          0.15393733353894168,
+          1.0155172733913727,
+          1.6110713819049247
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.1320021897107345,
+        "clip": true
+      },
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_0_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      [
+        0.04334251329581962,
+        -0.17796664524020955,
+        0.0773383917792011,
+        -0.026086377164486696,
+        -1.4524060884042351,
+        -2.2824340461746306,
+        -1.311399978790989,
+        -0.8987459272084326,
+        -1.2104133001035677,
+        -0.0541944370446783,
+        0.580175590174115
+      ],
+      [
+        1.6842385936776447,
+        2.3788493422189427,
+        1.289164730346874,
+        1.1316664714895341,
+        0.26093748642144865,
+        -0.2603955693963891,
+        0.5649403836676721,
+        0.9228575221517261,
+        1.452063956665262,
+        2.1123029230092136,
+        2.8202304975493893
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.2423084309340336,
+          0.7275643235768161,
+          0.46707179448153346,
+          0.3080646665048434,
+          -0.432616846569025,
+          -0.5884675777556604,
+          -0.2648090706386248,
+          0.2021051047916175,
+          0.804611868538761,
+          1.2165300437579643,
+          1.0149867951120166
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.6621754750905554,
+          1.050516105212143,
+          0.5565455275016277,
+          0.4301721759655377,
+          -0.550034150879686,
+          -1.0674137725311945,
+          -0.3408326963796667,
+          0.0909568383448209,
+          0.26884751739847956,
+          0.9969964300219304,
+          1.36776674560727
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          0.8637905534867322,
+          1.1004413484893665,
+          0.6832515610630375,
+          0.5527900471625238,
+          -0.5957343009913932,
+          -1.2714148077855099,
+          -0.37322979756165836,
+          0.012055797471646722,
+          0.12082532828084715,
+          1.0290542429822676,
+          1.7002030438617521
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.1320021897107345,
+        "clip": true
+      },
+      {
+        "value": -0.033538802402466344,
+        "clip": false
+      }
+    ],
+    "effective_power": -0.033538802402466344,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_0_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      -0.18153736700224088,
+      -0.2900536315364769,
+      0.28950575267566375,
+      0.35088931170625814,
+      0.5692805292877912,
+      0.1309018349474446,
+      -0.4729418845859189,
+      1.1472775968886777,
+      0.2576202205316044,
+      -0.07238146348508313,
+      1.229936160312531
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 8.219215821836379e-09,
+    "support": "interior",
+    "case": "public_1_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -0.18086418617946035,
+      -0.18232066580769665,
+      0.21313695166243937,
+      0.3061786981404122,
+      0.5103282891784613,
+      0.2671909623133572,
+      -0.5262973872428663,
+      0.8442104967434937,
+      0.04142387594093053,
+      -0.3573174394613346,
+      0.8370729056882685
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.18086418617946035,
+          -0.18232066580769665,
+          0.21313695166243937,
+          0.3061786981404122,
+          0.5103282891784613,
+          0.2671909623133572,
+          -0.5262973872428663,
+          0.8442104967434937,
+          0.04142387594093053,
+          -0.3573174394613346,
+          0.8370729056882685
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 5.0729806501392805e-09,
+    "support": "interior",
+    "case": "public_1_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -0.12831827433988494,
+      -0.1485771846403248,
+      0.16592382973390932,
+      0.2840406961906226,
+      0.46464861167631955,
+      0.34241477111736046,
+      -0.6122155026080747,
+      0.6857540389322594,
+      -0.12229080309964278,
+      -0.5255493452194899,
+      0.5988688428636657
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.12831827433988494,
+          -0.1485771846403248,
+          0.16592382973390932,
+          0.2840406961906226,
+          0.46464861167631955,
+          0.34241477111736046,
+          -0.6122155026080747,
+          0.6857540389322594,
+          -0.12229080309964278,
+          -0.5255493452194899,
+          0.5988688428636657
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 7.031591952796901e-09,
+    "support": "interior",
+    "case": "public_1_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      -0.18153736700224088,
+      -0.2900536315364769,
+      0.28950575267566375,
+      0.35088931170625814,
+      0.5692805292877912,
+      0.1309018349474446,
+      -0.4729418845859189,
+      1.1472775968886777,
+      0.2576202205316044,
+      -0.07238146348508313,
+      1.229936160312531
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.12831827433988494,
+          -0.1485771846403248,
+          0.16592382973390932,
+          0.2840406961906226,
+          0.46464861167631955,
+          0.34241477111736046,
+          -0.6122155026080747,
+          0.6857540389322594,
+          -0.12229080309964278,
+          -0.5255493452194899,
+          0.5988688428636657
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "score_max": 8.219215821836379e-09,
+    "support": "interior",
+    "case": "public_1_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      -0.26904351683633704,
+      -0.17012306411006406,
+      0.24655571145901364,
+      0.31084135211419556,
+      0.5419553631215065,
+      0.20343264753915222,
+      -0.3909080641103408,
+      0.943119013951006,
+      0.20571112520343782,
+      -0.22821211990326284,
+      1.0161260358520439
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.12831827433988494,
+          -0.1485771846403248,
+          0.16592382973390932,
+          0.2840406961906226,
+          0.46464861167631955,
+          0.34241477111736046,
+          -0.6122155026080747,
+          0.6857540389322594,
+          -0.12229080309964278,
+          -0.5255493452194899,
+          0.5988688428636657
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "score_max": 0.012722634603875072,
+    "support": "interior",
+    "independent_one_step_error": 4.440892098500626e-16,
+    "case": "public_1_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      [
+        -1.1183237695484023,
+        -1.0883059728481514,
+        -0.7089442881068183,
+        -0.47559792646538096,
+        -0.366755343339745,
+        -0.47309644795756184,
+        -1.6906040654652164,
+        -0.33526038079812426,
+        -1.2890444088463928,
+        -1.7652324463475904,
+        -0.4837007120765069
+      ],
+      [
+        0.8616872208686325,
+        0.7911516035675019,
+        1.040791947574637,
+        1.0436793188466262,
+        1.2960525666923841,
+        1.1579259901922827,
+        0.466173060249067,
+        1.706768458662643,
+        1.0444628026471072,
+        0.7141337559086105,
+        1.6814383978038383
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.12831827433988494,
+          -0.1485771846403248,
+          0.16592382973390932,
+          0.2840406961906226,
+          0.46464861167631955,
+          0.34241477111736046,
+          -0.6122155026080747,
+          0.6857540389322594,
+          -0.12229080309964278,
+          -0.5255493452194899,
+          0.5988688428636657
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "interval_center_minus_final_optimizer_max": 5.551115123125783e-17,
+    "case": "public_1_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      [
+        -1.1792895811545412,
+        -1.3454361094606582,
+        -0.5137306799110322,
+        -0.4952957926416802,
+        -0.31375411219811433,
+        -0.7115111326452344,
+        -1.6583553235523585,
+        0.06366483718343963,
+        -0.8780048947426843,
+        -1.4022245698678866,
+        -0.09448218381707307
+      ],
+      [
+        0.8162148471500595,
+        0.7653288463877045,
+        1.0927421852623596,
+        1.1970744160541966,
+        1.4523151707736965,
+        0.9733148025401235,
+        0.7124715543805208,
+        2.2308903565939158,
+        1.3932453358058932,
+        1.2574616428977201,
+        2.554354504442135
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.12831827433988494,
+          -0.1485771846403248,
+          0.16592382973390932,
+          0.2840406961906226,
+          0.46464861167631955,
+          0.34241477111736046,
+          -0.6122155026080747,
+          0.6857540389322594,
+          -0.12229080309964278,
+          -0.5255493452194899,
+          0.5988688428636657
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      },
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_1_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      [
+        -1.1362580344838495,
+        -1.2340827545668418,
+        -0.5800978955349577,
+        -0.23973671114512624,
+        -0.23328214936561542,
+        -0.6616811976061394,
+        -1.4286306748272988,
+        0.29936811529724205,
+        -0.7581431401132235,
+        -1.1809766726838054,
+        0.4287189005600097
+      ],
+      [
+        0.8007326430228421,
+        0.5620907474022203,
+        1.2123266533802908,
+        0.9703041100497838,
+        1.3953980008322284,
+        0.8193185284458144,
+        0.5074183446182108,
+        2.2217964328975084,
+        1.410135622138623,
+        1.2408127356173138,
+        2.3049376588017116
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.12831827433988494,
+          -0.1485771846403248,
+          0.16592382973390932,
+          0.2840406961906226,
+          0.46464861167631955,
+          0.34241477111736046,
+          -0.6122155026080747,
+          0.6857540389322594,
+          -0.12229080309964278,
+          -0.5255493452194899,
+          0.5988688428636657
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 19,
+        "x": [
+          -0.16776269573050373,
+          -0.3359960035823107,
+          0.3161143789226666,
+          0.3652836994523288,
+          0.5810579257333065,
+          0.07881866541983745,
+          -0.46060616510454405,
+          1.260582274097375,
+          0.3259962410126998,
+          0.02991803146675413,
+          1.3668282796808606
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      },
+      {
+        "value": -0.11362541724481949,
+        "clip": false
+      }
+    ],
+    "effective_power": -0.11362541724481949,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_1_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      -1.3849379642637567,
+      -0.019251522713797233,
+      -1.1886582677866433,
+      0.9394281395040346,
+      1.1906291104837665,
+      -0.2532034367386611,
+      -1.018648234108701,
+      -0.5486740303898392,
+      -0.40789459405324247,
+      0.3289525830597182,
+      0.40134659905538056
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 2.8628712317457783e-09,
+    "support": "interior",
+    "case": "public_2_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -1.050857678454979,
+      -0.07818754839272099,
+      -0.7636884310023827,
+      0.7565483734559885,
+      0.5812218238395622,
+      -0.1956532272178219,
+      -0.6317344841277125,
+      -0.3249663173357263,
+      -0.6344449249745219,
+      0.12188137015718428,
+      0.31096995740951766
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -1.050857678454979,
+          -0.07818754839272099,
+          -0.7636884310023827,
+          0.7565483734559885,
+          0.5812218238395622,
+          -0.1956532272178219,
+          -0.6317344841277125,
+          -0.3249663173357263,
+          -0.6344449249745219,
+          0.12188137015718428,
+          0.31096995740951766
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 3.7327339968973305e-09,
+    "support": "interior",
+    "case": "public_2_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -0.8473343463156063,
+      -0.11976917359911494,
+      -0.6066595855794639,
+      0.7345212815777465,
+      0.39576996400742565,
+      -0.22472459045612111,
+      -0.5002192161610063,
+      -0.2876927797962966,
+      -0.8442529050421279,
+      -0.08832944310782338,
+      0.30304329480451203
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.8473343463156063,
+          -0.11976917359911494,
+          -0.6066595855794639,
+          0.7345212815777465,
+          0.39576996400742565,
+          -0.22472459045612111,
+          -0.5002192161610063,
+          -0.2876927797962966,
+          -0.8442529050421279,
+          -0.08832944310782338,
+          0.30304329480451203
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 9.004312948035498e-09,
+    "support": "interior",
+    "case": "public_2_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      -1.3849379642637567,
+      -0.019251522713797233,
+      -1.1886582677866433,
+      0.9394281395040346,
+      1.1906291104837665,
+      -0.2532034367386611,
+      -1.018648234108701,
+      -0.5486740303898392,
+      -0.40789459405324247,
+      0.3289525830597182,
+      0.40134659905538056
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.8473343463156063,
+          -0.11976917359911494,
+          -0.6066595855794639,
+          0.7345212815777465,
+          0.39576996400742565,
+          -0.22472459045612111,
+          -0.5002192161610063,
+          -0.2876927797962966,
+          -0.8442529050421279,
+          -0.08832944310782338,
+          0.30304329480451203
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "score_max": 2.8628712317457783e-09,
+    "support": "interior",
+    "case": "public_2_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      -1.233778586610758,
+      -0.06982330253525537,
+      -0.7824599539980421,
+      0.7088292691937997,
+      0.6179683590568008,
+      -0.1344827815657307,
+      -0.6959407869307337,
+      -0.259953502797934,
+      -0.35358580703850295,
+      0.3413661387222138,
+      0.2280329981338826
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.8473343463156063,
+          -0.11976917359911494,
+          -0.6066595855794639,
+          0.7345212815777465,
+          0.39576996400742565,
+          -0.22472459045612111,
+          -0.5002192161610063,
+          -0.2876927797962966,
+          -0.8442529050421279,
+          -0.08832944310782338,
+          0.30304329480451203
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "score_max": 0.021772325962672697,
+    "support": "interior",
+    "independent_one_step_error": 9.992007221626409e-16,
+    "case": "public_2_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      [
+        -1.9421104683651809,
+        -1.396077015355101,
+        -1.4861601319304567,
+        -0.3145226455202238,
+        -0.3935554336129659,
+        -1.1339423205868562,
+        -1.707970462365274,
+        -1.3872800786217145,
+        -2.464528570553557,
+        -1.3473954894866271,
+        -1.161101145125003
+      ],
+      [
+        0.24744177573396808,
+        1.1565386681568712,
+        0.2728409607715291,
+        1.783565208675717,
+        1.1850953616278173,
+        0.684493139674614,
+        0.7075320300432616,
+        0.8118945190291215,
+        0.7760227604693013,
+        1.1707366032709803,
+        1.7671877347340272
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.8473343463156063,
+          -0.11976917359911494,
+          -0.6066595855794639,
+          0.7345212815777465,
+          0.39576996400742565,
+          -0.22472459045612111,
+          -0.5002192161610063,
+          -0.2876927797962966,
+          -0.8442529050421279,
+          -0.08832944310782338,
+          0.30304329480451203
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_2_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      [
+        -2.60916298215263,
+        -0.8648497894670847,
+        -2.2956050846572156,
+        0.1093912886700602,
+        0.13917827468579302,
+        -1.035503727540383,
+        -1.860999193930484,
+        -1.6685428601575847,
+        -1.4924875975619503,
+        -0.9014600195409985,
+        -0.7720906826359
+      ],
+      [
+        -0.16071294637488376,
+        0.8263467440394902,
+        -0.0817114509160708,
+        1.769464990338009,
+        2.24207994628174,
+        0.5290968540630606,
+        -0.17629727428691822,
+        0.5711947993779063,
+        0.6766984094554652,
+        1.559365185660435,
+        1.5747838807466612
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.8473343463156063,
+          -0.11976917359911494,
+          -0.6066595855794639,
+          0.7345212815777465,
+          0.39576996400742565,
+          -0.22472459045612111,
+          -0.5002192161610063,
+          -0.2876927797962966,
+          -0.8442529050421279,
+          -0.08832944310782338,
+          0.30304329480451203
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      },
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_2_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      [
+        -3.04985927608947,
+        -1.0924410553256636,
+        -2.8819440835309647,
+        0.5966672484152363,
+        2.053341254714792,
+        -1.3692633513393728,
+        -3.060825082868693,
+        -1.9894603108359157,
+        -1.7060236810600458,
+        -0.7702347283032001,
+        -1.1635390224139626
+      ],
+      [
+        -0.8092268656434844,
+        1.0468391109676611,
+        -0.971672931689362,
+        2.4873011432947485,
+        3.3816164752775597,
+        0.2512180881129148,
+        -1.1864633701729397,
+        -0.2469240194046567,
+        1.035959028054986,
+        1.30312943969894,
+        1.8578941078191942
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.8473343463156063,
+          -0.11976917359911494,
+          -0.6066595855794639,
+          0.7345212815777465,
+          0.39576996400742565,
+          -0.22472459045612111,
+          -0.5002192161610063,
+          -0.2876927797962966,
+          -0.8442529050421279,
+          -0.08832944310782338,
+          0.30304329480451203
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 21,
+        "x": [
+          -1.9295430708664771,
+          -0.02280097217900116,
+          -1.9268085076101633,
+          1.5419841958549925,
+          2.717478864996176,
+          -0.559022631613229,
+          -2.1236442265208164,
+          -1.1181921651202862,
+          -0.3350323265025298,
+          0.2664473556978699,
+          0.34717754270261586
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      },
+      {
+        "value": -0.29449388318000624,
+        "clip": false
+      }
+    ],
+    "effective_power": -0.29449388318000624,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_2_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      0.026957105095404083,
+      0.3183986224464831,
+      0.7528742463095952,
+      -0.22741985748474644,
+      -0.8520952306881108,
+      0.9877401773515901,
+      -1.7160600574748055,
+      -1.3310793945031352,
+      1.1795464046530075,
+      1.519407827532469,
+      0.45820024873347875
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.026957105095404083,
+          0.3183986224464831,
+          0.7528742463095952,
+          -0.22741985748474644,
+          -0.8520952306881108,
+          0.9877401773515901,
+          -1.7160600574748055,
+          -1.3310793945031352,
+          1.1795464046530075,
+          1.519407827532469,
+          0.45820024873347875
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 7.859981464297672e-09,
+    "support": "interior",
+    "case": "public_3_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -0.13479039650630426,
+      0.004938420065156626,
+      0.7594807833247523,
+      -0.5199879257538704,
+      -0.4496521051788851,
+      0.6558796441741326,
+      -1.528923173410924,
+      -0.8099400333467692,
+      0.4502229481539591,
+      0.7629078586992386,
+      0.13304385572014032
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.13479039650630426,
+          0.004938420065156626,
+          0.7594807833247523,
+          -0.5199879257538704,
+          -0.4496521051788851,
+          0.6558796441741326,
+          -1.528923173410924,
+          -0.8099400333467692,
+          0.4502229481539591,
+          0.7629078586992386,
+          0.13304385572014032
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 4.239479718670669e-09,
+    "support": "interior",
+    "case": "public_3_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -0.2611639323238434,
+      -0.09367070267660002,
+      0.7012238635809824,
+      -0.6929658394701457,
+      -0.1906643368725179,
+      0.437533757254682,
+      -1.7700679701129904,
+      -0.7625996062348822,
+      0.22950380759883413,
+      0.6811732721500329,
+      0.0485105400209847
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.2611639323238434,
+          -0.09367070267660002,
+          0.7012238635809824,
+          -0.6929658394701457,
+          -0.1906643368725179,
+          0.437533757254682,
+          -1.7700679701129904,
+          -0.7625996062348822,
+          0.22950380759883413,
+          0.6811732721500329,
+          0.0485105400209847
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 1.5886268030229633e-09,
+    "support": "interior",
+    "case": "public_3_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      -0.07908424577449309,
+      0.06721173840039324,
+      0.7766746339616124,
+      -0.440155850910847,
+      -0.5621109800527596,
+      0.7465314437778283,
+      -1.5281723295993164,
+      -0.8954690174325175,
+      0.6037888120119695,
+      0.9110681033898519,
+      0.19466191379370001
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.2611639323238434,
+          -0.09367070267660002,
+          0.7012238635809824,
+          -0.6929658394701457,
+          -0.1906643368725179,
+          0.437533757254682,
+          -1.7700679701129904,
+          -0.7625996062348822,
+          0.22950380759883413,
+          0.6811732721500329,
+          0.0485105400209847
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          -0.07908424577449309,
+          0.06721173840039324,
+          0.7766746339616124,
+          -0.440155850910847,
+          -0.5621109800527596,
+          0.7465314437778283,
+          -1.5281723295993164,
+          -0.8954690174325175,
+          0.6037888120119695,
+          0.9110681033898519,
+          0.19466191379370001
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.311247322861426,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.311247322861426,
+    "score_max": 1.1951355669004293e-09,
+    "support": "interior",
+    "case": "public_3_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      -0.09155954781548428,
+      0.04992114858472646,
+      0.7913864234209868,
+      -0.45221530783440617,
+      -0.5586584263034436,
+      0.7801667396036087,
+      -1.1407330859733724,
+      -0.7188127397776711,
+      0.44953738953057887,
+      0.5636372482906149,
+      0.1732157191994336
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.2611639323238434,
+          -0.09367070267660002,
+          0.7012238635809824,
+          -0.6929658394701457,
+          -0.1906643368725179,
+          0.437533757254682,
+          -1.7700679701129904,
+          -0.7625996062348822,
+          0.22950380759883413,
+          0.6811732721500329,
+          0.0485105400209847
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.311247322861426,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.311247322861426,
+    "score_max": 0.03815884384028896,
+    "support": "interior",
+    "independent_one_step_error": 1.3322676295501878e-15,
+    "case": "public_3_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      [
+        -1.4052539316381774,
+        -1.2167549388430674,
+        -0.1575408348920595,
+        -1.6128364037319711,
+        -1.1704363611065256,
+        -0.4478957285309052,
+        -3.3629642903759263,
+        -1.95089614197181,
+        -1.1098054481909374,
+        -0.6128741603775866,
+        -1.313964905597016
+      ],
+      [
+        0.8829260669904905,
+        1.0294135334898675,
+        1.5599885620540244,
+        0.22690472479167978,
+        0.7891076873614897,
+        1.3229632430402694,
+        -0.17717164985005462,
+        0.42569692950204574,
+        1.5688130633886055,
+        1.9752207046776524,
+        1.4109859856389853
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.2611639323238434,
+          -0.09367070267660002,
+          0.7012238635809824,
+          -0.6929658394701457,
+          -0.1906643368725179,
+          0.437533757254682,
+          -1.7700679701129904,
+          -0.7625996062348822,
+          0.22950380759883413,
+          0.6811732721500329,
+          0.0485105400209847
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_3_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      [
+        -1.0685749605337918,
+        -0.744520042338757,
+        -0.08474018861663046,
+        -1.114662202483474,
+        -1.6508841838704353,
+        -0.0009155163076780548,
+        -2.9008664563601583,
+        -2.267606292094758,
+        -0.11660656470913766,
+        0.08664176370865162,
+        -1.084054506579936
+      ],
+      [
+        1.0857469149049959,
+        1.2413054362230802,
+        1.6227401883032577,
+        0.5559755047079432,
+        0.08910667498593505,
+        1.855509841622101,
+        -0.3984715757739701,
+        -0.13126736306107856,
+        2.1528984418638757,
+        2.616590796741905,
+        1.8489713002590602
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.2611639323238434,
+          -0.09367070267660002,
+          0.7012238635809824,
+          -0.6929658394701457,
+          -0.1906643368725179,
+          0.437533757254682,
+          -1.7700679701129904,
+          -0.7625996062348822,
+          0.22950380759883413,
+          0.6811732721500329,
+          0.0485105400209847
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          -0.07908424577449309,
+          0.06721173840039324,
+          0.7766746339616124,
+          -0.440155850910847,
+          -0.5621109800527596,
+          0.7465314437778283,
+          -1.5281723295993164,
+          -0.8954690174325175,
+          0.6037888120119695,
+          0.9110681033898519,
+          0.19466191379370001
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 17,
+        "x": [
+          0.008585977185602117,
+          0.24839269694216162,
+          0.7689999998433136,
+          -0.27934334888776535,
+          -0.7808887544422501,
+          0.9272971626572115,
+          -1.6496690160670642,
+          -1.1994368275779181,
+          1.018145938577369,
+          1.3516162802252782,
+          0.3824583968395621
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.311247322861426,
+        "clip": true
+      },
+      {
+        "value": 0.055040501742998314,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.055040501742998314,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_3_AI",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      [
+        -1.043968803813099,
+        -0.7045694672844319,
+        0.00550845478123807,
+        -1.0728896580452338,
+        -1.566838191588536,
+        0.09350348926489793,
+        -2.828011682739832,
+        -2.1507740174759524,
+        -0.0694015197531892,
+        0.1806842598375633,
+        -0.9792063031536398
+      ],
+      [
+        1.061140758184303,
+        1.2013548611687552,
+        1.532491544905389,
+        0.5142029602697031,
+        0.005060682704035813,
+        1.761090836049525,
+        -0.47132634939429674,
+        -0.24809963767988408,
+        2.1056933969079275,
+        2.522548300612993,
+        1.744123096832764
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.2611639323238434,
+          -0.09367070267660002,
+          0.7012238635809824,
+          -0.6929658394701457,
+          -0.1906643368725179,
+          0.437533757254682,
+          -1.7700679701129904,
+          -0.7625996062348822,
+          0.22950380759883413,
+          0.6811732721500329,
+          0.0485105400209847
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          -0.07908424577449309,
+          0.06721173840039324,
+          0.7766746339616124,
+          -0.440155850910847,
+          -0.5621109800527596,
+          0.7465314437778283,
+          -1.5281723295993164,
+          -0.8954690174325175,
+          0.6037888120119695,
+          0.9110681033898519,
+          0.19466191379370001
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 17,
+        "x": [
+          0.008585977185602117,
+          0.24839269694216162,
+          0.7689999998433136,
+          -0.27934334888776535,
+          -0.7808887544422501,
+          0.9272971626572115,
+          -1.6496690160670642,
+          -1.1994368275779181,
+          1.018145938577369,
+          1.3516162802252782,
+          0.3824583968395621
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.311247322861426,
+        "clip": true
+      },
+      {
+        "value": 0.055040501742998314,
+        "clip": false
+      }
+    ],
+    "effective_power": 0.055040501742998314,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_3_AI",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      0.8162086449528616,
+      1.09334538074513,
+      0.647385638098158,
+      0.520058527380327,
+      -0.5868783519057867,
+      -1.2195871406530996,
+      -0.36792786131880867,
+      0.03276566824846264,
+      0.15393733353894168,
+      1.0155172733913727,
+      1.6110713819049247
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.8162086449528616,
+          1.09334538074513,
+          0.647385638098158,
+          0.520058527380327,
+          -0.5868783519057867,
+          -1.2195871406530996,
+          -0.36792786131880867,
+          0.03276566824846264,
+          0.15393733353894168,
+          1.0155172733913727,
+          1.6110713819049247
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 5.399482194690108e-09,
+    "support": "interior",
+    "case": "public_0_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      0.4486311566978378,
+      0.9939630389407426,
+      0.5005351554736712,
+      0.26769197321590216,
+      -0.45740995231132325,
+      -0.7386157427676373,
+      -0.16430283319488465,
+      0.24537753344166258,
+      0.47019693413510394,
+      1.0440555773778475,
+      1.0462313406524142
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          0.4486311566978378,
+          0.9939630389407426,
+          0.5005351554736712,
+          0.26769197321590216,
+          -0.45740995231132325,
+          -0.7386157427676373,
+          -0.16430283319488465,
+          0.24537753344166258,
+          0.47019693413510394,
+          1.0440555773778475,
+          1.0462313406524142
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 8.612344283911999e-10,
+    "support": "interior",
+    "case": "public_0_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      0.35520032301336885,
+      0.9775699057392733,
+      0.5051476746197193,
+      0.22624437371427966,
+      -0.36894616116652007,
+      -0.4223138444442549,
+      0.0023555334649885845,
+      0.3347519554561799,
+      0.6743565802701613,
+      1.224391663992885,
+      0.9588789023756927
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          0.35520032301336885,
+          0.9775699057392733,
+          0.5051476746197193,
+          0.22624437371427966,
+          -0.36894616116652007,
+          -0.4223138444442549,
+          0.0023555334649885845,
+          0.3347519554561799,
+          0.6743565802701613,
+          1.224391663992885,
+          0.9588789023756927
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 1.1619765774573132e-09,
+    "support": "interior",
+    "case": "public_0_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      0.6757510281301408,
+      1.0719599406072082,
+      0.5654137657984464,
+      0.4090724961220765,
+      -0.5503830955892172,
+      -1.0449166631136884,
+      -0.3134799794102466,
+      0.11753701022367045,
+      0.25802734960815993,
+      0.9888456965531249,
+      1.3545672761197705
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          0.35520032301336885,
+          0.9775699057392733,
+          0.5051476746197193,
+          0.22624437371427966,
+          -0.36894616116652007,
+          -0.4223138444442549,
+          0.0023555334649885845,
+          0.3347519554561799,
+          0.6743565802701613,
+          1.224391663992885,
+          0.9588789023756927
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          0.6757510281301408,
+          1.0719599406072082,
+          0.5654137657984464,
+          0.4090724961220765,
+          -0.5503830955892172,
+          -1.0449166631136884,
+          -0.3134799794102466,
+          0.11753701022367045,
+          0.25802734960815993,
+          0.9888456965531249,
+          1.3545672761197705
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.1274416714744948,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.1274416714744948,
+    "score_max": 5.4071069600925e-09,
+    "support": "interior",
+    "case": "public_0_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      0.38886967133719497,
+      0.8871472525732482,
+      0.4642051047010477,
+      0.2205044300567568,
+      -0.5158763951925633,
+      -0.9865305224895139,
+      -0.2864118556907201,
+      0.20315882454739698,
+      0.33107834557485394,
+      0.8232465191422185,
+      0.9512971136796718
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          0.35520032301336885,
+          0.9775699057392733,
+          0.5051476746197193,
+          0.22624437371427966,
+          -0.36894616116652007,
+          -0.4223138444442549,
+          0.0023555334649885845,
+          0.3347519554561799,
+          0.6743565802701613,
+          1.224391663992885,
+          0.9588789023756927
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.1274416714744948,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.1274416714744948,
+    "score_max": 0.014134289896203689,
+    "support": "interior",
+    "independent_one_step_error": 5.551115123125783e-16,
+    "case": "public_0_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      [
+        -0.531776348238187,
+        -0.3097312550104572,
+        -0.2388198927479498,
+        -0.512624072141908,
+        -1.1620059177317927,
+        -1.213864220429195,
+        -1.030695484249214,
+        -0.6559874232009315,
+        -0.7363996344082632,
+        -0.11927420500264185,
+        -0.2559704212807843
+      ],
+      [
+        1.2421769942649246,
+        2.264871066489004,
+        1.2491152419873885,
+        0.9651128195704672,
+        0.42411359539875265,
+        0.36923653154068503,
+        1.035406551179191,
+        1.3254913341132915,
+        2.0851127949485857,
+        2.5680575329884117,
+        2.1737282260321695
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          0.35520032301336885,
+          0.9775699057392733,
+          0.5051476746197193,
+          0.22624437371427966,
+          -0.36894616116652007,
+          -0.4223138444442549,
+          0.0023555334649885845,
+          0.3347519554561799,
+          0.6743565802701613,
+          1.224391663992885,
+          0.9588789023756927
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_0_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      [
+        -0.5819336753383435,
+        -0.5402756089339749,
+        -0.5923670186027241,
+        -0.22075486025940594,
+        -1.8250452241367245,
+        -2.162072093266684,
+        -1.5402062154742926,
+        -1.0652144385949358,
+        -1.2175088014897546,
+        -0.018125772636804482,
+        0.1853384269518834
+      ],
+      [
+        2.2143509652440665,
+        2.7269663704242353,
+        1.88713829479904,
+        1.26087191502006,
+        0.651288520325151,
+        -0.27710218803951536,
+        0.8043504928366754,
+        1.1307457750918612,
+        1.5253834685676382,
+        2.04916031941955,
+        3.036804336857966
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          0.35520032301336885,
+          0.9775699057392733,
+          0.5051476746197193,
+          0.22624437371427966,
+          -0.36894616116652007,
+          -0.4223138444442549,
+          0.0023555334649885845,
+          0.3347519554561799,
+          0.6743565802701613,
+          1.224391663992885,
+          0.9588789023756927
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          0.6757510281301408,
+          1.0719599406072082,
+          0.5654137657984464,
+          0.4090724961220765,
+          -0.5503830955892172,
+          -1.0449166631136884,
+          -0.3134799794102466,
+          0.11753701022367045,
+          0.25802734960815993,
+          0.9888456965531249,
+          1.3545672761197705
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.8162086449528616,
+          1.09334538074513,
+          0.647385638098158,
+          0.520058527380327,
+          -0.5868783519057867,
+          -1.2195871406530996,
+          -0.36792786131880867,
+          0.03276566824846264,
+          0.15393733353894168,
+          1.0155172733913727,
+          1.6110713819049247
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.1274416714744948,
+        "clip": true
+      },
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_0_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      [
+        0.03373109832152121,
+        -0.18728766659706997,
+        0.06869710820586328,
+        -0.020735570004841053,
+        -1.4503405103847036,
+        -2.2742960895986615,
+        -1.3084636493910875,
+        -0.9004053165388137,
+        -1.1997941755376877,
+        -0.04734582977370261,
+        0.5712537422799497
+      ],
+      [
+        1.6722644479693165,
+        2.3772398905210643,
+        1.281017740552175,
+        1.125829394927719,
+        0.26324689687037306,
+        -0.2622843346234911,
+        0.551000916386277,
+        0.9181592618154715,
+        1.457405569764953,
+        2.1057253476989195,
+        2.8062312382440204
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          0.35520032301336885,
+          0.9775699057392733,
+          0.5051476746197193,
+          0.22624437371427966,
+          -0.36894616116652007,
+          -0.4223138444442549,
+          0.0023555334649885845,
+          0.3347519554561799,
+          0.6743565802701613,
+          1.224391663992885,
+          0.9588789023756927
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          0.6757510281301408,
+          1.0719599406072082,
+          0.5654137657984464,
+          0.4090724961220765,
+          -0.5503830955892172,
+          -1.0449166631136884,
+          -0.3134799794102466,
+          0.11753701022367045,
+          0.25802734960815993,
+          0.9888456965531249,
+          1.3545672761197705
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 16,
+        "x": [
+          0.8529977731454188,
+          1.0949761119619972,
+          0.6748574243790192,
+          0.5525469124614389,
+          -0.5935468067571652,
+          -1.2682902121110764,
+          -0.37873136650240524,
+          0.00887697263832885,
+          0.12880569711363266,
+          1.0291897589626084,
+          1.6887424902619852
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.1274416714744948,
+        "clip": true
+      },
+      {
+        "value": -0.02706227311128122,
+        "clip": false
+      }
+    ],
+    "effective_power": -0.02706227311128122,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_0_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      -0.18153736700224088,
+      -0.2900536315364769,
+      0.28950575267566375,
+      0.35088931170625814,
+      0.5692805292877912,
+      0.1309018349474446,
+      -0.4729418845859189,
+      1.1472775968886777,
+      0.2576202205316044,
+      -0.07238146348508313,
+      1.229936160312531
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 8.219215821836379e-09,
+    "support": "interior",
+    "case": "public_1_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -0.21979430915692164,
+      -0.2049920243617601,
+      0.23801826778612412,
+      0.3297945988527525,
+      0.5348208036413392,
+      0.30030843332693474,
+      -0.5087604165025852,
+      0.894843889283643,
+      0.07907806561393119,
+      -0.33469419551562757,
+      0.9035229854980739
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 13,
+        "x": [
+          -0.21979430915692164,
+          -0.2049920243617601,
+          0.23801826778612412,
+          0.3297945988527525,
+          0.5348208036413392,
+          0.30030843332693474,
+          -0.5087604165025852,
+          0.894843889283643,
+          0.07907806561393119,
+          -0.33469419551562757,
+          0.9035229854980739
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 8.127976590388553e-09,
+    "support": "interior",
+    "case": "public_1_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -0.20210799490293035,
+      -0.1754191210945293,
+      0.21510861092909628,
+      0.3299312656066291,
+      0.504812633001162,
+      0.4107038046987746,
+      -0.5722059294568591,
+      0.779354183589232,
+      -0.053107936445114655,
+      -0.4880506794670796,
+      0.7113487625392304
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 11,
+        "x": [
+          -0.20210799490293035,
+          -0.1754191210945293,
+          0.21510861092909628,
+          0.3299312656066291,
+          0.504812633001162,
+          0.4107038046987746,
+          -0.5722059294568591,
+          0.779354183589232,
+          -0.053107936445114655,
+          -0.4880506794670796,
+          0.7113487625392304
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 3.452753903968042e-09,
+    "support": "interior",
+    "case": "public_1_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      -0.18153736700224088,
+      -0.2900536315364769,
+      0.28950575267566375,
+      0.35088931170625814,
+      0.5692805292877912,
+      0.1309018349474446,
+      -0.4729418845859189,
+      1.1472775968886777,
+      0.2576202205316044,
+      -0.07238146348508313,
+      1.229936160312531
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 11,
+        "x": [
+          -0.20210799490293035,
+          -0.1754191210945293,
+          0.21510861092909628,
+          0.3299312656066291,
+          0.504812633001162,
+          0.4107038046987746,
+          -0.5722059294568591,
+          0.779354183589232,
+          -0.053107936445114655,
+          -0.4880506794670796,
+          0.7113487625392304
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "score_max": 8.219215821836379e-09,
+    "support": "interior",
+    "case": "public_1_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      -0.2754383966430965,
+      -0.20414649697862214,
+      0.24363363375392424,
+      0.30959941736093616,
+      0.5607149909192164,
+      0.19919170974359907,
+      -0.4016232160304115,
+      0.952234913623689,
+      0.21270494580819735,
+      -0.22161626685533492,
+      1.0417522839569417
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 11,
+        "x": [
+          -0.20210799490293035,
+          -0.1754191210945293,
+          0.21510861092909628,
+          0.3299312656066291,
+          0.504812633001162,
+          0.4107038046987746,
+          -0.5722059294568591,
+          0.779354183589232,
+          -0.053107936445114655,
+          -0.4880506794670796,
+          0.7113487625392304
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "score_max": 0.011865346346182998,
+    "support": "interior",
+    "independent_one_step_error": 5.551115123125783e-16,
+    "case": "public_1_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      [
+        -1.2201210672041647,
+        -1.1309231211802033,
+        -0.686197644899155,
+        -0.4144220695814903,
+        -0.3495658177840121,
+        -0.42525465899700116,
+        -1.625311324847436,
+        -0.2851542207993597,
+        -1.250991125343718,
+        -1.7405133107669948,
+        -0.4067483546561651
+      ],
+      [
+        0.8159050773983041,
+        0.7800848789911446,
+        1.1164148667573475,
+        1.0742846007947486,
+        1.3591910837863361,
+        1.2466622683945503,
+        0.4808994659337178,
+        1.8438625879778239,
+        1.1447752524534889,
+        0.7644119518328356,
+        1.8294458797346258
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 11,
+        "x": [
+          -0.20210799490293035,
+          -0.1754191210945293,
+          0.21510861092909628,
+          0.3299312656066291,
+          0.504812633001162,
+          0.4107038046987746,
+          -0.5722059294568591,
+          0.779354183589232,
+          -0.053107936445114655,
+          -0.4880506794670796,
+          0.7113487625392304
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_1_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      [
+        -1.1792895811545412,
+        -1.3454361094606582,
+        -0.5137306799110322,
+        -0.4952957926416802,
+        -0.31375411219811433,
+        -0.7115111326452344,
+        -1.6583553235523585,
+        0.06366483718343963,
+        -0.8780048947426843,
+        -1.4022245698678866,
+        -0.09448218381707307
+      ],
+      [
+        0.8162148471500595,
+        0.7653288463877045,
+        1.0927421852623596,
+        1.1970744160541966,
+        1.4523151707736965,
+        0.9733148025401235,
+        0.7124715543805208,
+        2.2308903565939158,
+        1.3932453358058932,
+        1.2574616428977201,
+        2.554354504442135
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 11,
+        "x": [
+          -0.20210799490293035,
+          -0.1754191210945293,
+          0.21510861092909628,
+          0.3299312656066291,
+          0.504812633001162,
+          0.4107038046987746,
+          -0.5722059294568591,
+          0.779354183589232,
+          -0.053107936445114655,
+          -0.4880506794670796,
+          0.7113487625392304
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      },
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_1_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      [
+        -1.1009035855586966,
+        -1.2543309801188025,
+        -0.5704158301566138,
+        -0.2359344396435245,
+        -0.23711173931838225,
+        -0.7137358388212839,
+        -1.4264137608316554,
+        0.3751254409395476,
+        -0.7180946814333059,
+        -1.1153256871387618,
+        0.5127703445794964
+      ],
+      [
+        0.8287797475898271,
+        0.5373939194622636,
+        1.2227041750211538,
+        0.9657734443295944,
+        1.3915145742174002,
+        0.7612352169535083,
+        0.5143763625447006,
+        2.2838631387033383,
+        1.4392373629238264,
+        1.311688403645634,
+        2.363587714466636
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 11,
+        "x": [
+          -0.20210799490293035,
+          -0.1754191210945293,
+          0.21510861092909628,
+          0.3299312656066291,
+          0.504812633001162,
+          0.4107038046987746,
+          -0.5722059294568591,
+          0.779354183589232,
+          -0.053107936445114655,
+          -0.4880506794670796,
+          0.7113487625392304
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -0.18153736700224088,
+          -0.2900536315364769,
+          0.28950575267566375,
+          0.35088931170625814,
+          0.5692805292877912,
+          0.1309018349474446,
+          -0.4729418845859189,
+          1.1472775968886777,
+          0.2576202205316044,
+          -0.07238146348508313,
+          1.229936160312531
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 19,
+        "x": [
+          -0.13606191898443482,
+          -0.35846853032826953,
+          0.32614417243227006,
+          0.364919502343035,
+          0.577201417449509,
+          0.023749689066112217,
+          -0.4560186991434774,
+          1.329494289821443,
+          0.3605713407452603,
+          0.09818135825343613,
+          1.4381790295230663
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      },
+      {
+        "value": -0.19163615656804686,
+        "clip": false
+      }
+    ],
+    "effective_power": -0.19163615656804686,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_1_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      -1.3849379642637567,
+      -0.019251522713797233,
+      -1.1886582677866433,
+      0.9394281395040346,
+      1.1906291104837665,
+      -0.2532034367386611,
+      -1.018648234108701,
+      -0.5486740303898392,
+      -0.40789459405324247,
+      0.3289525830597182,
+      0.40134659905538056
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 2.8628712317457783e-09,
+    "support": "interior",
+    "case": "public_2_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -1.0274845249720475,
+      -0.06478051077951642,
+      -0.8583082228375496,
+      0.7644695570667176,
+      0.5631485934361126,
+      -0.19867927073190472,
+      -0.5918868562822278,
+      -0.32145548436051197,
+      -0.5682016147885388,
+      0.18104276197870423,
+      0.3164001011554301
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -1.0274845249720475,
+          -0.06478051077951642,
+          -0.8583082228375496,
+          0.7644695570667176,
+          0.5631485934361126,
+          -0.19867927073190472,
+          -0.5918868562822278,
+          -0.32145548436051197,
+          -0.5682016147885388,
+          0.18104276197870423,
+          0.3164001011554301
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 9.2844052862473e-09,
+    "support": "interior",
+    "case": "public_2_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -0.8069097549710229,
+      -0.09404501691587196,
+      -0.7640943300644643,
+      0.7541475172996746,
+      0.35779295490589336,
+      -0.261916495597089,
+      -0.4273714575226013,
+      -0.2801946706923733,
+      -0.7508044948955225,
+      -0.004143586038557528,
+      0.27229528686122145
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.8069097549710229,
+          -0.09404501691587196,
+          -0.7640943300644643,
+          0.7541475172996746,
+          0.35779295490589336,
+          -0.261916495597089,
+          -0.4273714575226013,
+          -0.2801946706923733,
+          -0.7508044948955225,
+          -0.004143586038557528,
+          0.27229528686122145
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 1.7354665413082948e-09,
+    "support": "interior",
+    "case": "public_2_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      -1.3849379642637567,
+      -0.019251522713797233,
+      -1.1886582677866433,
+      0.9394281395040346,
+      1.1906291104837665,
+      -0.2532034367386611,
+      -1.018648234108701,
+      -0.5486740303898392,
+      -0.40789459405324247,
+      0.3289525830597182,
+      0.40134659905538056
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.8069097549710229,
+          -0.09404501691587196,
+          -0.7640943300644643,
+          0.7541475172996746,
+          0.35779295490589336,
+          -0.261916495597089,
+          -0.4273714575226013,
+          -0.2801946706923733,
+          -0.7508044948955225,
+          -0.004143586038557528,
+          0.27229528686122145
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "score_max": 2.8628712317457783e-09,
+    "support": "interior",
+    "case": "public_2_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      -1.2154142650187447,
+      -0.06102970460655761,
+      -0.8209826678292902,
+      0.6981168880945525,
+      0.6231458434792594,
+      -0.07992825750376623,
+      -0.6939091217368343,
+      -0.2661537190606908,
+      -0.294889882835381,
+      0.3921179817905174,
+      0.3001630916090854
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.8069097549710229,
+          -0.09404501691587196,
+          -0.7640943300644643,
+          0.7541475172996746,
+          0.35779295490589336,
+          -0.261916495597089,
+          -0.4273714575226013,
+          -0.2801946706923733,
+          -0.7508044948955225,
+          -0.004143586038557528,
+          0.27229528686122145
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "score_max": 0.020212894855010446,
+    "support": "interior",
+    "independent_one_step_error": 9.992007221626409e-16,
+    "case": "public_2_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      [
+        -1.8483241406150859,
+        -1.3164071462515345,
+        -1.6439329229407247,
+        -0.24212008519603734,
+        -0.3980697275971601,
+        -1.1545884042927699,
+        -1.559171574725818,
+        -1.2988286629741361,
+        -2.2807380526240557,
+        -1.2185940940650277,
+        -1.1562587522707803
+      ],
+      [
+        0.23450463067304006,
+        1.1283171124197906,
+        0.11574426281179606,
+        1.7504151197953863,
+        1.1136556374089468,
+        0.6307554130985917,
+        0.7044286596806153,
+        0.7384393215893896,
+        0.7791290628330106,
+        1.2103069219879128,
+        1.7008493259932231
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.8069097549710229,
+          -0.09404501691587196,
+          -0.7640943300644643,
+          0.7541475172996746,
+          0.35779295490589336,
+          -0.261916495597089,
+          -0.4273714575226013,
+          -0.2801946706923733,
+          -0.7508044948955225,
+          -0.004143586038557528,
+          0.27229528686122145
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_2_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      [
+        -2.60916298215263,
+        -0.8648497894670847,
+        -2.2956050846572156,
+        0.1093912886700602,
+        0.13917827468579302,
+        -1.035503727540383,
+        -1.860999193930484,
+        -1.6685428601575847,
+        -1.4924875975619503,
+        -0.9014600195409985,
+        -0.7720906826359
+      ],
+      [
+        -0.16071294637488376,
+        0.8263467440394902,
+        -0.0817114509160708,
+        1.769464990338009,
+        2.24207994628174,
+        0.5290968540630606,
+        -0.17629727428691822,
+        0.5711947993779063,
+        0.6766984094554652,
+        1.559365185660435,
+        1.5747838807466612
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.8069097549710229,
+          -0.09404501691587196,
+          -0.7640943300644643,
+          0.7541475172996746,
+          0.35779295490589336,
+          -0.261916495597089,
+          -0.4273714575226013,
+          -0.2801946706923733,
+          -0.7508044948955225,
+          -0.004143586038557528,
+          0.27229528686122145
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      },
+      {
+        "value": 0.0,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.0,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_2_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      [
+        -3.0458952224850586,
+        -1.1088045957541603,
+        -2.745243350911453,
+        0.5737757474710702,
+        2.0041659638276488,
+        -1.3711835802565693,
+        -3.079735474698145,
+        -2.000481841647713,
+        -1.8006233487440568,
+        -0.8628349464019536,
+        -1.2012085463052413
+      ],
+      [
+        -0.7964734149096111,
+        1.0395220220821502,
+        -0.8384829168396253,
+        2.478132898709347,
+        3.328229005643585,
+        0.25962820132284414,
+        -1.191967176935547,
+        -0.2238213642390895,
+        0.9503565524356843,
+        1.2138432508577326,
+        1.8075808448658668
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.8069097549710229,
+          -0.09404501691587196,
+          -0.7640943300644643,
+          0.7541475172996746,
+          0.35779295490589336,
+          -0.261916495597089,
+          -0.4273714575226013,
+          -0.2801946706923733,
+          -0.7508044948955225,
+          -0.004143586038557528,
+          0.27229528686122145
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          -1.3849379642637567,
+          -0.019251522713797233,
+          -1.1886582677866433,
+          0.9394281395040346,
+          1.1906291104837665,
+          -0.2532034367386611,
+          -1.018648234108701,
+          -0.5486740303898392,
+          -0.40789459405324247,
+          0.3289525830597182,
+          0.40134659905538056
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 25,
+        "x": [
+          -1.9211843186973347,
+          -0.034641286836005085,
+          -1.791863133875539,
+          1.5259543230902086,
+          2.666197484735617,
+          -0.5557776894668626,
+          -2.135851325816846,
+          -1.1121516029434013,
+          -0.42513339815418627,
+          0.17550415222788954,
+          0.30318614928031273
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.0,
+        "clip": true
+      },
+      {
+        "value": -0.2856349779894154,
+        "clip": false
+      }
+    ],
+    "effective_power": -0.2856349779894154,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_2_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0,
+    "one_step": false,
+    "result": [
+      0.026957105095404083,
+      0.3183986224464831,
+      0.7528742463095952,
+      -0.22741985748474644,
+      -0.8520952306881108,
+      0.9877401773515901,
+      -1.7160600574748055,
+      -1.3310793945031352,
+      1.1795464046530075,
+      1.519407827532469,
+      0.45820024873347875
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.026957105095404083,
+          0.3183986224464831,
+          0.7528742463095952,
+          -0.22741985748474644,
+          -0.8520952306881108,
+          0.9877401773515901,
+          -1.7160600574748055,
+          -1.3310793945031352,
+          1.1795464046530075,
+          1.519407827532469,
+          0.45820024873347875
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0,
+    "score_max": 7.859981464297672e-09,
+    "support": "interior",
+    "case": "public_3_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      -0.12399328701292128,
+      0.043863740578168255,
+      0.7695709766656141,
+      -0.48918738392307604,
+      -0.45197162003563784,
+      0.6503426108112037,
+      -1.4894761809166013,
+      -0.7847767259520386,
+      0.4720577001407968,
+      0.757197592099298,
+      0.21404666817578907
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.12399328701292128,
+          0.043863740578168255,
+          0.7695709766656141,
+          -0.48918738392307604,
+          -0.45197162003563784,
+          0.6503426108112037,
+          -1.4894761809166013,
+          -0.7847767259520386,
+          0.4720577001407968,
+          0.757197592099298,
+          0.21404666817578907
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 4.8438075599122055e-09,
+    "support": "interior",
+    "case": "public_3_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      -0.2355586996690644,
+      0.0035245679152261108,
+      0.7232788360055663,
+      -0.652056139827389,
+      -0.21419935209498803,
+      0.44261597607281067,
+      -1.6290868405137082,
+      -0.6932155614171224,
+      0.2910586008476207,
+      0.6534733393893759,
+      0.2395416140319355
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.2355586996690644,
+          0.0035245679152261108,
+          0.7232788360055663,
+          -0.652056139827389,
+          -0.21419935209498803,
+          0.44261597607281067,
+          -1.6290868405137082,
+          -0.6932155614171224,
+          0.2910586008476207,
+          0.6534733393893759,
+          0.2395416140319355
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "score_max": 7.461822618126668e-09,
+    "support": "interior",
+    "case": "public_3_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      -0.06594785923711884,
+      0.09900406988243773,
+      0.7844005645591997,
+      -0.4074165663786766,
+      -0.5756440081575774,
+      0.7554995182942056,
+      -1.513589485331742,
+      -0.8972328364744538,
+      0.6379290962493666,
+      0.9316131942351609,
+      0.2507230242516384
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.2355586996690644,
+          0.0035245679152261108,
+          0.7232788360055663,
+          -0.652056139827389,
+          -0.21419935209498803,
+          0.44261597607281067,
+          -1.6290868405137082,
+          -0.6932155614171224,
+          0.2910586008476207,
+          0.6534733393893759,
+          0.2395416140319355
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.06594785923711884,
+          0.09900406988243773,
+          0.7844005645591997,
+          -0.4074165663786766,
+          -0.5756440081575774,
+          0.7554995182942056,
+          -1.513589485331742,
+          -0.8972328364744538,
+          0.6379290962493666,
+          0.9316131942351609,
+          0.2507230242516384
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.28957886500991337,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.28957886500991337,
+    "score_max": 6.507409836681299e-09,
+    "support": "interior",
+    "case": "public_3_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      -0.08949329925230884,
+      0.03800699750668508,
+      0.7928655263260984,
+      -0.41543267895253533,
+      -0.5470987155493936,
+      0.7497262362150805,
+      -1.2197877468753506,
+      -0.7359496084354216,
+      0.44183186113792516,
+      0.5930380533159411,
+      0.15816286999616053
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.2355586996690644,
+          0.0035245679152261108,
+          0.7232788360055663,
+          -0.652056139827389,
+          -0.21419935209498803,
+          0.44261597607281067,
+          -1.6290868405137082,
+          -0.6932155614171224,
+          0.2910586008476207,
+          0.6534733393893759,
+          0.2395416140319355
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.28957886500991337,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.28957886500991337,
+    "score_max": 0.026355050589960183,
+    "support": "interior",
+    "independent_one_step_error": 6.661338147750939e-16,
+    "case": "public_3_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1,
+    "one_step": false,
+    "result": [
+      [
+        -1.338434475805978,
+        -1.0633711803804893,
+        -0.12254793400056663,
+        -1.5253049308054587,
+        -1.1246872420790748,
+        -0.42389162857987506,
+        -3.1020403923586057,
+        -1.7982135254981033,
+        -0.9699187468551554,
+        -0.5765377303934216,
+        -1.083275413411164
+      ],
+      [
+        0.8673170764678493,
+        1.0704203162109414,
+        1.5691056060116992,
+        0.22119265115068065,
+        0.6962885378890986,
+        1.3091235807254964,
+        -0.15613328866881093,
+        0.4117824026638587,
+        1.552035948550397,
+        1.8834844091721734,
+        1.562358641475035
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.2355586996690644,
+          0.0035245679152261108,
+          0.7232788360055663,
+          -0.652056139827389,
+          -0.21419935209498803,
+          0.44261597607281067,
+          -1.6290868405137082,
+          -0.6932155614171224,
+          0.2910586008476207,
+          0.6534733393893759,
+          0.2395416140319355
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_3_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": false,
+    "result": [
+      [
+        -1.0665015438915808,
+        -0.734583676384198,
+        -0.09260139057024752,
+        -1.1055282919430773,
+        -1.6644738144497997,
+        0.0012323081182710194,
+        -2.912393894662511,
+        -2.2894929730553266,
+        -0.09426422824388347,
+        0.10259501529986248,
+        -1.074646201728684
+      ],
+      [
+        1.091368760599834,
+        1.258598618085508,
+        1.6287611189769389,
+        0.571611947074566,
+        0.08400642336546404,
+        1.8708079925695396,
+        -0.4010112736318725,
+        -0.1421400328923803,
+        2.178912283482779,
+        2.6461565862763914,
+        1.8755924745047459
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.2355586996690644,
+          0.0035245679152261108,
+          0.7232788360055663,
+          -0.652056139827389,
+          -0.21419935209498803,
+          0.44261597607281067,
+          -1.6290868405137082,
+          -0.6932155614171224,
+          0.2910586008476207,
+          0.6534733393893759,
+          0.2395416140319355
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.06594785923711884,
+          0.09900406988243773,
+          0.7844005645591997,
+          -0.4074165663786766,
+          -0.5756440081575774,
+          0.7554995182942056,
+          -1.513589485331742,
+          -0.8972328364744538,
+          0.6379290962493666,
+          0.9316131942351609,
+          0.2507230242516384
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 18,
+        "x": [
+          0.012433608354126442,
+          0.26200747085065507,
+          0.7680798642033457,
+          -0.2669581724342557,
+          -0.7902336955421678,
+          0.9360201503439053,
+          -1.6567025841471916,
+          -1.2158165029738535,
+          1.0423240276194476,
+          1.374375800788127,
+          0.40047313638803084
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.28957886500991337,
+        "clip": true
+      },
+      {
+        "value": 0.04645530273226235,
+        "clip": true
+      }
+    ],
+    "effective_power": 0.04645530273226235,
+    "interval_center_minus_final_optimizer_max": 2.220446049250313e-16,
+    "case": "public_3_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "ci",
+    "requested_power": null,
+    "one_step": true,
+    "result": [
+      [
+        -1.0369854562864236,
+        -0.688239150761832,
+        -0.000808344685644613,
+        -1.0600921970197974,
+        -1.578505580690881,
+        0.10043512983215075,
+        -2.8212909780953552,
+        -2.1627127569098192,
+        -0.04687883337577681,
+        0.20525578122830113,
+        -0.9643501810256397
+      ],
+      [
+        1.0618526729946767,
+        1.212254092463142,
+        1.536968073092336,
+        0.5261758521512859,
+        -0.001961810393454777,
+        1.77160517085566,
+        -0.4921141901990278,
+        -0.2689202490378876,
+        2.131526888614672,
+        2.543495820347953,
+        1.7652964538017013
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 14,
+        "x": [
+          -0.2355586996690644,
+          0.0035245679152261108,
+          0.7232788360055663,
+          -0.652056139827389,
+          -0.21419935209498803,
+          0.44261597607281067,
+          -1.6290868405137082,
+          -0.6932155614171224,
+          0.2910586008476207,
+          0.6534733393893759,
+          0.2395416140319355
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 15,
+        "x": [
+          -0.06594785923711884,
+          0.09900406988243773,
+          0.7844005645591997,
+          -0.4074165663786766,
+          -0.5756440081575774,
+          0.7554995182942056,
+          -1.513589485331742,
+          -0.8972328364744538,
+          0.6379290962493666,
+          0.9316131942351609,
+          0.2507230242516384
+        ]
+      },
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 18,
+        "x": [
+          0.012433608354126442,
+          0.26200747085065507,
+          0.7680798642033457,
+          -0.2669581724342557,
+          -0.7902336955421678,
+          0.9360201503439053,
+          -1.6567025841471916,
+          -1.2158165029738535,
+          1.0423240276194476,
+          1.374375800788127,
+          0.40047313638803084
+        ]
+      }
+    ],
+    "power_trace": [
+      {
+        "value": 0.28957886500991337,
+        "clip": true
+      },
+      {
+        "value": 0.04645530273226235,
+        "clip": false
+      }
+    ],
+    "effective_power": 0.04645530273226235,
+    "interval_center_minus_final_optimizer_max": 1.1102230246251565e-16,
+    "case": "public_3_X_only",
+    "kind": "public"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      2.4821903249834614e-12,
+      3.676770136254509
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 4,
+        "x": [
+          2.4821903249834614e-12,
+          3.676770136254509
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "score_max": 5.445280837346189e-09,
+    "support": "interior",
+    "case": "matched_reference_0.5",
+    "kind": "analytic"
+  },
+  {
+    "api": "ci",
+    "requested_power": 0.5,
+    "one_step": false,
+    "result": [
+      [
+        -0.7074908120785851,
+        -8.927614160770641
+      ],
+      [
+        0.7074908120835496,
+        16.28115443327966
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 4,
+        "x": [
+          2.4821903249834614e-12,
+          3.676770136254509
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.5,
+    "interval_center_minus_final_optimizer_max": 4.440892098500626e-16,
+    "case": "matched_reference_0.5",
+    "kind": "analytic"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.55,
+    "one_step": false,
+    "result": [
+      0.0,
+      32.10005650413981
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.0,
+          32.10005650413981
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.55,
+    "score_max": 5.10702591327572e-15,
+    "support": "boundary_or_near_boundary",
+    "case": "matched_reference_0.55",
+    "kind": "analytic"
+  },
+  {
+    "api": "ci",
+    "requested_power": 0.55,
+    "one_step": false,
+    "result": [
+      [
+        -0.8792114135533257,
+        -35276451174023.08
+      ],
+      [
+        0.8792114135533257,
+        35276451174087.28
+      ]
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": true,
+        "status": 0,
+        "iterations": 0,
+        "x": [
+          0.0,
+          32.10005650413981
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.55,
+    "interval_center_minus_final_optimizer_max": 0.0015059958601923995,
+    "case": "matched_reference_0.55",
+    "kind": "analytic"
+  },
+  {
+    "api": "point",
+    "requested_power": 0.6,
+    "one_step": false,
+    "result": [
+      3.786582522899311e+42,
+      8.265164792540739e+48
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          3.786582522899311e+42,
+          8.265164792540739e+48
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.6,
+    "score_max": 0.22499999999999987,
+    "support": "outside",
+    "case": "matched_reference_0.6",
+    "kind": "analytic"
+  },
+  {
+    "api": "ci",
+    "requested_power": 0.6,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          3.786582522899311e+42,
+          8.265164792540739e+48
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 0.6,
+    "case": "matched_reference_0.6",
+    "kind": "analytic"
+  },
+  {
+    "api": "point",
+    "requested_power": 1.0,
+    "one_step": false,
+    "result": [
+      -3.368279878453849e+21,
+      2.491680884343757e+28
+    ],
+    "returned_finite": true,
+    "exception": null,
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          -3.368279878453849e+21,
+          2.491680884343757e+28
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1.0,
+    "score_max": 0.375,
+    "support": "outside",
+    "case": "matched_reference_1.0",
+    "kind": "analytic"
+  },
+  {
+    "api": "ci",
+    "requested_power": 1.0,
+    "one_step": false,
+    "result": null,
+    "returned_finite": false,
+    "exception": {
+      "type": "LinAlgError",
+      "message": "Matrix is singular to machine precision."
+    },
+    "warnings": [],
+    "optimizer_trace": [
+      {
+        "success": false,
+        "status": 1,
+        "iterations": 1000,
+        "x": [
+          -3.368279878453849e+21,
+          2.491680884343757e+28
+        ]
+      }
+    ],
+    "power_trace": [],
+    "effective_power": 1.0,
+    "case": "matched_reference_1.0",
+    "kind": "analytic"
+  }
+]

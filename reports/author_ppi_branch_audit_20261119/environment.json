@@ -1,0 +1,14 @@
+{
+  "upstream_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4",
+  "source_before_after_verified": true,
+  "plan_sha256": "79fe84e95fe21668dfd26cbf13137d0121b1c9f5fd79dc2a22074908062d0f6c",
+  "frozen_case_list_sha256": "a722db1b3d274e9ec6878eff1d5858372d10e68bfaa8fd8c53346c2b5488a007",
+  "versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "numba": "0.61.2",
+    "statsmodels": "0.14.5"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+}
