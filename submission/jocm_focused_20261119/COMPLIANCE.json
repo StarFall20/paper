@@ -8,9 +8,9 @@
     "Figures/Figure_1.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291",
     "Highlights.docx": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
     "Manuscript.docx": "6da0ea245c47b365f220e5ae2d067ae50ddaab9edb604f9e76886850656baeaf",
-    "Reproduction_Materials.zip": "3574af533b114f26369d0791bdef1d319b4bbded830b3d074dd7bbf146f79a6c",
+    "Reproduction_Materials.zip": "7979c505c79214cc1ee59036f7bbdf21df5c80b5a647c6b4ae42a1fa94cf6a67",
     "Supplementary_File_Captions.txt": "a7ed0b685ace81de0c1672589086f872d2de83aa3ad8a585f856ecf6c50b69ee",
-    "Supplementary_Methods_and_Proofs.docx": "39e0d2769ec77aba923165eb248a5c261b06b508ac940ad5b3e9e09ff80fcdbb",
+    "Supplementary_Methods_and_Proofs.docx": "a47a232fda74327981b34db97b1dfb7c0e4f535e7dd3f3040ba09f1a93d4d499",
     "Title_page.docx": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c"
   },
   "manuscript": {
@@ -27,58 +27,32 @@
       74
     ],
     "main_native_math_objects": 115,
-    "supplement_native_math_objects": 1615,
+    "supplement_native_math_objects": 1616,
     "original_display_math_blocks_preserved_in_supplement": 153,
     "original_markdown_table_blocks_preserved_in_supplement": 20,
     "supplement_tables": 21
   },
   "visual_review": {
     "changed_pages_inspected": {
-      "main": [
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
+      "main": [],
       "supplement": [
-        53,
         54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        80
+        80,
+        81,
+        82,
+        83
       ],
       "cover": []
     },
     "prior_render_pages_exact_body_matches": {
-      "main": 5,
-      "supplement": 58,
+      "main": 10,
+      "supplement": 78,
       "cover": 1
     },
     "all_rendered_footer_page_numbers_checked": true
   },
   "reproduction": {
-    "archive_entries": 1240,
+    "archive_entries": 1241,
     "exact_design_cases": 30,
     "highest_matched_derivative_order_checked": 33,
     "swissmetro_original_menu_score_checks": 1960,
@@ -93,7 +67,11 @@
     "refitted_original_menu_weight_checks": 1344,
     "unit_limit_constructed_paths": 5,
     "unit_limit_independently_recomputed_path_points": 30,
-    "unit_limit_archived_unit_states_screened": 3824
+    "unit_limit_archived_unit_states_screened": 3824,
+    "clean_release_checks_passed": 11,
+    "food_original_menu_method_records": 16000,
+    "verification_receipt_sha256": "0f335375c5800e48cc9af178dc95ddd49d7b34e0595eda30b7f8be3d27fdf496",
+    "clean_environment_pypi_install": "wheel_download_network_timeout"
   },
   "open_items": [
     "Scopus subscribed document search",
@@ -101,11 +79,14 @@
     "independent priority, proof and text-similarity assessment",
     "author confirmation of final declarations and files"
   ],
-  "edition": "unit_correction_endpoint",
+  "edition": "verified_release",
   "priority_review": {
     "scopus_verified_result_sets_added": 0,
     "official_ppi_plus_plus_supplements_accessible": false,
     "attached_v2_checked_for_exact_phrase_overlap": true,
-    "formal_similarity_check_pending": true
+    "formal_similarity_check_pending": true,
+    "verified_reference_links": 67,
+    "google_scholar_distinct_records_screened": 34,
+    "web_of_science_current_session_institution_error": "90013"
   }
 }

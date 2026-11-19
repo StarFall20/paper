@@ -1,0 +1,1970 @@
+{
+  "source_sha256": {
+    "manuscript": "76b5b17d156ccbc91b8d142e649226a74bf69f6c8691c05c144b56b7a3c4623d",
+    "supplement": "0cd8d4383d38fbc6d7c96f72db9ea34899d1a322261a8dfc1f58d462a73d01fe"
+  },
+  "unique_links": 67,
+  "counts": {
+    "automated_matches": 59,
+    "manual_matches": 8,
+    "unresolved": 0
+  },
+  "details": [
+    {
+      "url": "https://doi.org/10.1093/biomet/71.1.1",
+      "classification": "primary_source_matched",
+      "metadata": {
+        "metadata": "unavailable",
+        "reason": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 0.0,
+          "first_author_agrees": null
+        },
+        {
+          "file": "supplement",
+          "score": 0.0,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Albert, A., Anderson, J. A. (1984). On the existence of maximum likelihood estimates in logistic regression models. Biometrika 71(1), 1–10. https://doi.org/10.1093/biomet/71.1.1"
+      ],
+      "automated_classification": "unavailable",
+      "primary_source_review": {
+        "url": "https://academic.oup.com/biomet/article-abstract/71/1/1/349338",
+        "record": "Oxford University Press journal article",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.23140919",
+      "classification": "matched",
+      "metadata": {
+        "title": "Estimand-specific authorization of synthetic survey responses — preregistered protocol, code and pilot outputs (Study 2)",
+        "families": [
+          "Alves"
+        ],
+        "received": [
+          2026
+        ],
+        "publisher": "Zenodo",
+        "metadata": "DataCite",
+        "metadata_url": "https://api.datacite.org/dois/10.5281/zenodo.23140919",
+        "body_sha256": "0d03f7e8548183a917e275ec1fc1812b9ab0a74a3b5bed21e48739cbdefbe93a"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Alves, J.N. (2026). Estimand-specific authorization of synthetic survey responses: preregistered protocol, code and pilot outputs (Study 2). Software, protocol and outputs deposited 4 October 2026. Zenodo. https://doi.org/10.5281/zenodo.23140919"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/imaiai/iau005",
+      "classification": "matched",
+      "metadata": {
+        "title": "Living on the edge: phase transitions in convex programs with random data",
+        "families": [
+          "Amelunxen",
+          "Lotz",
+          "McCoy",
+          "Tropp"
+        ],
+        "title_language": "en",
+        "container": "Information and Inference",
+        "volume": "3",
+        "issue": "3",
+        "pages": "224-294",
+        "publisher": "Oxford University Press (OUP)",
+        "received": [
+          2014,
+          6,
+          30
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1093%2Fimaiai%2Fiau005",
+        "body_sha256": "762ed69be490a83a1ef06086d82f4bcba2ae3d141cb2e1a4776e029fc3ea3891"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Amelunxen, D., Lotz, M., McCoy, M.B., Tropp, J.A. (2014). Living on the edge: Phase transitions in convex programs with random data. Information and Inference 3, 224–294. https://doi.org/10.1093/imaiai/iau005"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.09633",
+      "classification": "matched",
+      "metadata": {
+        "title": "Prediction-Powered Inference",
+        "authors": [
+          "Angelopoulos, Anastasios N.",
+          "Bates, Stephen",
+          "Fannjiang, Clara",
+          "Jordan, Michael I.",
+          "Zrnic, Tijana"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2301.09633",
+        "body_sha256": "218b71a04188f683ca0ed40b77a76405766983e1bc1ea801f7c912d8da3a1fa3"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Angelopoulos, A.N., Bates, S., Fannjiang, C., Jordan, M.I., Zrnic, T. (2023). Prediction-powered inference. Science 382, 669–674. Preprint: https://arxiv.org/abs/2301.09633"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1214/26-AOAS2215",
+      "classification": "matched",
+      "metadata": {
+        "title": "PPI++: Efficient prediction-powered inference",
+        "families": [
+          "Angelopoulos",
+          "Duchi",
+          "Zrnic"
+        ],
+        "title_language": null,
+        "container": "The Annals of Applied Statistics",
+        "volume": "20",
+        "issue": "3",
+        "pages": "2235-2252",
+        "publisher": "Institute of Mathematical Statistics",
+        "received": [
+          2026,
+          9,
+          1
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1214%2F26-AOAS2215",
+        "body_sha256": "1adf036e761d2ed7495a4bf46d91a746cd0d1ec41c5cfed59dc8ed1541bc8005"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-powered inference. Annals of Applied Statistics 20(3), 2235–2252. https://doi.org/10.1214/26-AOAS2215"
+      ]
+    },
+    {
+      "url": "https://transp-or.epfl.ch/documents/proceedings/BierAxhaAbay01.pdf",
+      "classification": "matched",
+      "metadata": {
+        "title": "",
+        "metadata": "public first page",
+        "metadata_url": "https://transp-or.epfl.ch/documents/proceedings/BierAxhaAbay01.pdf",
+        "body_sha256": "b9f67922eec1660a36357559b2555950c1a4a64be6eecddb79cbfe17553e8830"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": null
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Bierlaire, M., Axhausen, K.W., Abay, G. (2001). The acceptance of modal innovation: The case of Swissmetro. Swiss Transport Research Conference, Monte Verità. https://transp-or.epfl.ch/documents/proceedings/BierAxhaAbay01.pdf"
+      ],
+      "primary_pdf_author_check": {
+        "page": 1,
+        "name": "M. Bierlaire"
+      }
+    },
+    {
+      "url": "https://doi.org/10.1214/10-AOS849",
+      "classification": "matched",
+      "metadata": {
+        "title": "Testing composite hypotheses, Hermite polynomials and optimal estimation of a nonsmooth functional",
+        "families": [
+          "Cai",
+          "Low"
+        ],
+        "title_language": null,
+        "container": "The Annals of Statistics",
+        "volume": "39",
+        "issue": "2",
+        "pages": "1012-1041",
+        "publisher": "Institute of Mathematical Statistics",
+        "received": [
+          2011,
+          4,
+          1
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1214%2F10-AOS849",
+        "body_sha256": "dccdd1426fcc213615d6844dc1204da4e8ffd57d4e8003b578ffd7c6201735dd"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Cai, T.T., Low, M.G. (2011). Testing composite hypotheses, Hermite polynomials and optimal estimation of a nonsmooth functional. Annals of Statistics 39(2), 1012–1041. https://doi.org/10.1214/10-AOS849"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/1804.09753",
+      "classification": "matched",
+      "metadata": {
+        "title": "The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression",
+        "authors": [
+          "Candes, Emmanuel J.",
+          "Sur, Pragya"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/1804.09753",
+        "body_sha256": "f55bc48014d0f3f52f84dd1d8591834986bc84f19ef507c1c5d573a34d1ed53d"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.15420092",
+      "classification": "matched",
+      "metadata": {
+        "title": "Dataset of choice experiment surveys assessing consumers' and farmers' preferences for five underutilised crops in different European countries",
+        "families": [
+          "CHEN",
+          "Mzek",
+          "Piras"
+        ],
+        "received": [
+          2025
+        ],
+        "publisher": "Zenodo",
+        "metadata": "DataCite",
+        "metadata_url": "https://api.datacite.org/dois/10.5281/zenodo.15420092",
+        "body_sha256": "f730d17a57e588fff4cbeb16763b25128a9db649a53b7d037e88712aa64e4286"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Chen, J., Mzek, T., Piras, S. (2025). Dataset of choice experiment surveys assessing consumers' and farmers' preferences for five underutilised crops in different European countries. Version V1. Zenodo. https://doi.org/10.5281/zenodo.15420092"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1080/07474938.2026.2673989",
+      "classification": "matched",
+      "metadata": {
+        "title": "Verifying the existence of maximum likelihood estimates for generalized linear models",
+        "families": [
+          "Correia",
+          "Guimarães",
+          "Zylkin"
+        ],
+        "title_language": "en",
+        "container": "Econometric Reviews",
+        "volume": "45",
+        "issue": "9",
+        "pages": "1270-1305",
+        "publisher": "Informa UK Limited",
+        "received": [
+          2026,
+          6,
+          3
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1080%2F07474938.2026.2673989",
+        "body_sha256": "7a940df136c6e317c975a6830e516896e6f9eb87636dd63585e5fb9485c5760b"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Correia, S., Guimarães, P., Zylkin, T. (2026). Verifying the existence of maximum likelihood estimates for generalized linear models. Econometric Reviews 45(9), 1270–1305. https://doi.org/10.1080/07474938.2026.2673989"
+      ]
+    },
+    {
+      "url": "https://www.stat.umn.edu/geyer/gdor/",
+      "classification": "primary_source_matched",
+      "metadata": {
+        "title": "Generic Directions of Recession, Likelihood Inference, Exponential Families",
+        "authors": [],
+        "metadata": "primary HTML",
+        "metadata_url": "https://www.stat.umn.edu/geyer/gdor/",
+        "body_sha256": "de53de8987b56047a56da051aa9508f3175a1e449c9c6579e05cbba4ab77637a"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 0.5714,
+          "first_author_agrees": null
+        },
+        {
+          "file": "supplement",
+          "score": 0.5714,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Geyer, C.J. (2009). Likelihood inference in exponential families and directions of recession. Electronic Journal of Statistics 3, 259–289. https://www.stat.umn.edu/geyer/gdor/"
+      ],
+      "automated_classification": "review",
+      "primary_source_review": {
+        "url": "https://experts.umn.edu/en/publications/likelihood-inference-in-exponential-families-and-directions-of-re/",
+        "record": "University of Minnesota publication record and author bibliography DOI 10.1214/08-EJS349",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://proceedings.mlr.press/v267/koriyama25a.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "Phase transitions for the existence of unregularized M-estimators in single index models",
+        "authors": [
+          "Takuya Koriyama",
+          "Pierre C Bellec"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://proceedings.mlr.press/v267/koriyama25a.html",
+        "body_sha256": "161684b5a3d7b5b81e6706995de1f892c8547449d37a423453ca1353f55c956f"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1214/08-EJS350",
+      "classification": "matched",
+      "metadata": {
+        "title": "On the geometry of discrete exponential families with application to exponential random graph models",
+        "families": [
+          "Rinaldo",
+          "Fienberg",
+          "Zhou"
+        ],
+        "title_language": null,
+        "container": "Electronic Journal of Statistics",
+        "volume": "3",
+        "issue": "none",
+        "pages": "446-484",
+        "publisher": "Institute of Mathematical Statistics",
+        "received": [
+          2009,
+          1,
+          1
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1214%2F08-EJS350",
+        "body_sha256": "1c892c64faa956ff9c0702ae50591331451a990a19def7143719f04004de8f53"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Rinaldo, A., Fienberg, S.E., Zhou, Y. (2009). On the geometry of discrete exponential families with application to exponential random graph models. Electronic Journal of Statistics 3, 446–484. https://doi.org/10.1214/08-EJS350"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jocm.2026.100623",
+      "classification": "matched",
+      "metadata": {
+        "title": "Can large language models assist choice modelling? Insights into prompting strategies and current models’ capabilities",
+        "families": [
+          "Sfeir",
+          "Nova",
+          "Hess",
+          "van Cranenburgh"
+        ],
+        "title_language": "en",
+        "container": "Journal of Choice Modelling",
+        "volume": "60",
+        "issue": null,
+        "pages": "100623",
+        "publisher": "Elsevier BV",
+        "received": [
+          2026,
+          9
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.jocm.2026.100623",
+        "body_sha256": "8af042b80521dc5523cc8b7bc23c78b2d9794b2bc290c3837c3ccae8b63ea70e"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Sfeir, G., Nova, G., Hess, S., van Cranenburgh, S. (2026). Can large language models assist choice modelling? Insights into prompting strategies and current models’ capabilities. Journal of Choice Modelling 60, 100623. https://doi.org/10.1016/j.jocm.2026.100623"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.34156v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Transfer Calibrated Prediction Powered Inference",
+        "authors": [
+          "Vadlamani, Aditya T.",
+          "Chang, Jae Ho",
+          "Parthasarathy, Srinivasan",
+          "Paul, Subhadeep"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2609.34156v1",
+        "body_sha256": "b4e7a5a68fed76f4f111954dafa862573511c9d750c22ecfa30f4cb9596a9af4"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Vadlamani, A.T., Chang, J.H., Parthasarathy, S., Paul, S. (2026). Transfer Calibrated Prediction Powered Inference. Preprint, arXiv:2609.34156v1. https://arxiv.org/abs/2609.34156v1"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.17267v2",
+      "classification": "matched",
+      "metadata": {
+        "title": "Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys",
+        "authors": [
+          "Ye, Zikun",
+          "Yoganarasimhan, Hema"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2604.17267v2",
+        "body_sha256": "42dde74b25ad172aaabd40612849baaf8fa6dfc29610ee9ba03fa0063d5aefaf"
+      },
+      "comparisons": [
+        {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Ye, Z., Yoganarasimhan, H. (2026). Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys. Preprint, arXiv:2604.17267v2. https://arxiv.org/abs/2604.17267v2"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jocm.2023.100436",
+      "classification": "matched",
+      "metadata": {
+        "title": "Sample size selection for discrete choice experiments using design features",
+        "families": [
+          "Assele",
+          "Meulders",
+          "Vandebroek"
+        ],
+        "title_language": "en",
+        "container": "Journal of Choice Modelling",
+        "volume": "49",
+        "issue": null,
+        "pages": "100436",
+        "publisher": "Elsevier BV",
+        "received": [
+          2023,
+          12
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.jocm.2023.100436",
+        "body_sha256": "7214e855bc6896472d63c9605c83ad363da4c25a0698b341a1e1bbc5dce84745"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Assele, S.Y., Meulders, M., Vandebroek, M. (2023). Sample size selection for discrete choice experiments using design features. Journal of Choice Modelling 49, 100436. https://doi.org/10.1016/j.jocm.2023.100436"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1080/00029890.2000.12005203",
+      "classification": "matched",
+      "metadata": {
+        "title": "A Better Bound on the Variance",
+        "families": [
+          "Bhatia",
+          "Davis"
+        ],
+        "title_language": "en",
+        "container": "The American Mathematical Monthly",
+        "volume": "107",
+        "issue": "4",
+        "pages": "353-357",
+        "publisher": "Informa UK Limited",
+        "received": [
+          2000,
+          4
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1080%2F00029890.2000.12005203",
+        "body_sha256": "851da0d56d1ae844bebddd1a2c641ece0f2c4d790994f976455b8c5640e63031"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Bhatia, R., Davis, C. (2000). A better bound on the variance. American Mathematical Monthly 107(4), 353–357. https://doi.org/10.1080/00029890.2000.12005203"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.09601v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Cluster-Robust Prediction-Powered Inference",
+        "authors": [
+          "Broska, David",
+          "Howes, Michael"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2610.09601v1",
+        "body_sha256": "5f9137473a37f19d85aa1357697fb96ad3c521488061d2fc082f09ab24ea377c"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Broska, D., Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. Preprint, arXiv:2610.09601v1. https://arxiv.org/abs/2610.09601v1"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.31215v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration",
+        "authors": [
+          "Cai, Zesheng",
+          "Fan, Yingqi",
+          "Chen, Sichang",
+          "Du, Jin-Hong"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2609.31215v1",
+        "body_sha256": "cb636d9b67a3cb0e3d714dd54231ec5359ec3928ee77348ec9e42f9f07c88403"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Cai, Z., Fan, Y., Chen, S., Du, J.H. (2026). DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration. Preprint, arXiv:2609.31215v1. https://arxiv.org/abs/2609.31215v1"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.21837v2",
+      "classification": "matched",
+      "metadata": {
+        "title": "Covariance-Calibrated Prediction-Powered Inference",
+        "authors": [
+          "Chen, Siyuan",
+          "Bai, Yang",
+          "Zhu, Huichen"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2610.21837v2",
+        "body_sha256": "351db9bd6d14297f225947ca6c307d0f8d9e177357b03786201e7b2432050657"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Chen, S., Bai, Y., Zhu, H. (2026). Covariance-Calibrated Prediction-Powered Inference. Preprint, arXiv:2610.21837v2. https://arxiv.org/abs/2610.21837v2"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1007/BF01582220",
+      "classification": "primary_source_matched",
+      "metadata": {
+        "metadata": "unavailable",
+        "reason": "URLError: <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 0.0,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Cominetti, R., San Martín, J. (1994). Asymptotic analysis of the exponential penalty trajectory in linear programming. Mathematical Programming 67, 169–187. https://doi.org/10.1007/BF01582220"
+      ],
+      "automated_classification": "unavailable",
+      "primary_source_review": {
+        "url": "https://link.springer.com/article/10.1007/BF01582220",
+        "record": "Springer journal article and Crossref DOI metadata",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf",
+      "classification": "matched",
+      "metadata": {
+        "title": "",
+        "metadata": "public first page",
+        "metadata_url": "https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf",
+        "body_sha256": "50afd3b48398391cbd3420f62b1523831e3ffcee5ba28055cdf0596c0ba56e68"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Fan, S., Visokay, A., Hoffman, K., Salerno, S., Liu, L., Leek, J.T., McCormick, T.H. (2024). From Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsy Narratives. Conference on Language Modeling. https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf"
+      ],
+      "primary_pdf_author_check": {
+        "page": 1,
+        "name": "Shuxian Fan"
+      }
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "Stratified Prediction-Powered Inference for Effective Hybrid Evaluation of Language Models",
+        "authors": [
+          "Fisch, Adam",
+          "Maynez, Joshua",
+          "Hofer, R. A.",
+          "Dhingra, Bhuwan",
+          "Globerson, Amir",
+          "Cohen, William W."
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html",
+        "body_sha256": "a2bd38080205405539622b6b1d627dbbf6439a2a98ea58f935a2c36e5a090d6f"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Fisch, A., Maynez, J., Hofer, R.A., Dhingra, B., Globerson, A., Cohen, W.W. (2024). Stratified prediction-powered inference for effective hybrid evaluation of language models. Advances in Neural Information Processing Systems 37. https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1007/s00362-026-01902-2",
+      "classification": "matched",
+      "metadata": {
+        "title": "On the existence of maximum likelihood estimators in a multinomial choice model under positivity constraints",
+        "families": [
+          "Fuh",
+          "Kao",
+          "Pang"
+        ],
+        "title_language": "en",
+        "container": "Statistical Papers",
+        "volume": "67",
+        "issue": "5",
+        "pages": null,
+        "publisher": "Springer Science and Business Media LLC",
+        "received": [
+          2026,
+          9,
+          10
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1007%2Fs00362-026-01902-2",
+        "body_sha256": "1b936d4c9bc428081a1f765ad4e62770705e75797d763c5b030b16d25634b721"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Fuh, C.D., Kao, C.L.M., Pang, T. (2026). On the existence of maximum likelihood estimators in a multinomial choice model under positivity constraints. Statistical Papers 67, 120. https://doi.org/10.1007/s00362-026-01902-2"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/1911.04184v2",
+      "classification": "matched",
+      "metadata": {
+        "title": "Grassmann angles and absorption probabilities of Gaussian convex hulls",
+        "authors": [
+          "Götze, Friedrich",
+          "Kabluchko, Zakhar",
+          "Zaporozhets, Dmitry"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/1911.04184v2",
+        "body_sha256": "6ed7d615e7f825bd41eab04ba93a1def74552401b671a0962c94af495b45193b"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Götze, F., Kabluchko, Z., Zaporozhets, D. (2020). Grassmann angles and absorption probabilities of Gaussian convex hulls. Preprint version 2. https://arxiv.org/abs/1911.04184v2"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/imaiai/iaag006",
+      "classification": "matched",
+      "metadata": {
+        "title": "Gaussian random projections of convex cones: approximate kinematic formulae and applications",
+        "families": [
+          "Han",
+          "Ren"
+        ],
+        "title_language": "en",
+        "container": "Information and Inference: A Journal of the IMA",
+        "volume": "15",
+        "issue": "1",
+        "pages": null,
+        "publisher": "Oxford University Press (OUP)",
+        "received": [
+          2026,
+          2,
+          19
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1093%2Fimaiai%2Fiaag006",
+        "body_sha256": "f57f87f36764c2e7f6e61e75ed8d94822e6462654efcfae429eaf840e52071ce"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Han, Q., Ren, H. (2026). Gaussian random projections of convex cones: approximate kinematic formulae and applications. Information and Inference 15(1), iaag006. https://doi.org/10.1093/imaiai/iaag006. Preprint: https://arxiv.org/html/2212.05545v2"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2212.05545v2",
+      "classification": "matched",
+      "metadata": {
+        "title": "Gaussian random projections of convex cones: approximate kinematic formulae and applications",
+        "authors": [
+          "Han, Qiyang",
+          "Ren, Huachen"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2212.05545v2",
+        "body_sha256": "7f8e70d92bf0db667a77d00508ed96894d7975d30b014023158bee006717f514"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Han, Q., Ren, H. (2026). Gaussian random projections of convex cones: approximate kinematic formulae and applications. Information and Inference 15(1), iaag006. https://doi.org/10.1093/imaiai/iaag006. Preprint: https://arxiv.org/html/2212.05545v2"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jocm.2017.03.001",
+      "classification": "matched",
+      "metadata": {
+        "title": "Correlation and scale in mixed logit models",
+        "families": [
+          "Hess",
+          "Train"
+        ],
+        "title_language": "en",
+        "container": "Journal of Choice Modelling",
+        "volume": "23",
+        "issue": null,
+        "pages": "1-8",
+        "publisher": "Elsevier BV",
+        "received": [
+          2017,
+          6
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.jocm.2017.03.001",
+        "body_sha256": "38293ad9fab894e3e7b24d757797f6dba4626f3cf29fe6dce29c82bb7d36ff2b"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Hess, S., Train, K. (2017). Correlation and scale in mixed logit models. Journal of Choice Modelling 23, 1–8. https://doi.org/10.1016/j.jocm.2017.03.001"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/1803.07300",
+      "classification": "matched",
+      "metadata": {
+        "title": "Risk and parameter convergence of logistic regression",
+        "authors": [
+          "Ji, Ziwei",
+          "Telgarsky, Matus"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/1803.07300",
+        "body_sha256": "352e9cdf773c2bbcc57fe0ccc954fc9d4cc32cd186fb95e178833110e64fd878"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Ji, Z., Telgarsky, M. (2019). Risk and parameter convergence of logistic regression. arXiv:1803.07300v3. https://arxiv.org/abs/1803.07300"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2006.09492v2",
+      "classification": "matched",
+      "metadata": {
+        "title": "Convex cones spanned by regular polytopes",
+        "authors": [
+          "Kabluchko, Zakhar",
+          "Seidel, Hauke"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2006.09492v2",
+        "body_sha256": "fef557d3732bf366fd5c4b2bd9f62a245cd482cc1ee3847e9314308c1c60b084"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Kabluchko, Z., Seidel, H. (2020). Convex cones spanned by regular polytopes. arXiv:2006.09492, version 2. https://arxiv.org/abs/2006.09492v2"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jocm.2018.12.002",
+      "classification": "matched",
+      "metadata": {
+        "title": "Using Firth's method for model estimation and market segmentation based on choice data",
+        "families": [
+          "Kessels",
+          "Jones",
+          "Goos"
+        ],
+        "title_language": "en",
+        "container": "Journal of Choice Modelling",
+        "volume": "31",
+        "issue": null,
+        "pages": "1-21",
+        "publisher": "Elsevier BV",
+        "received": [
+          2019,
+          6
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.jocm.2018.12.002",
+        "body_sha256": "aef6df30cfcb6731703249fc96da8649f2b9f52c996cadebbe884ae92540cf1b"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Kessels, R., Jones, B., Goos, P. (2019). Using Firth's method for model estimation and market segmentation based on choice data. Journal of Choice Modelling 31, 1–21. https://doi.org/10.1016/j.jocm.2018.12.002"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/1703.00593v2",
+      "classification": "matched",
+      "metadata": {
+        "title": "Positive-Unlabeled Learning with Non-Negative Risk Estimator",
+        "authors": [
+          "Kiryo, Ryuichi",
+          "Niu, Gang",
+          "Plessis, Marthinus C. du",
+          "Sugiyama, Masashi"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/1703.00593v2",
+        "body_sha256": "2e88214c11fbf727a19f0ecf19034b12a8ea6e759207a1c5bed7971146e07f66"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Kiryo, R., Niu, G., du Plessis, M.C., Sugiyama, M. (2017). Positive-Unlabeled Learning with Non-Negative Risk Estimator. NIPS 2017 camera ready preprint, arXiv:1703.00593v2. https://arxiv.org/abs/1703.00593v2"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1080/01621459.1955.10501299",
+      "classification": "matched",
+      "metadata": {
+        "title": "Components of a Difference Between Two Rates*",
+        "families": [
+          "Kitagawa"
+        ],
+        "title_language": "en",
+        "container": "Journal of the American Statistical Association",
+        "volume": "50",
+        "issue": "272",
+        "pages": "1168-1194",
+        "publisher": "Informa UK Limited",
+        "received": [
+          1955,
+          12
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1080%2F01621459.1955.10501299",
+        "body_sha256": "fa51143b78dc02dd105afa9ed7821453b011bc3ce2725b8eda4af5e6ce8e746a"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Kitagawa, E.M. (1955). Components of a difference between two rates. Journal of the American Statistical Association 50(272), 1168–1194. https://doi.org/10.1080/01621459.1955.10501299"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/biomet/asaa052",
+      "classification": "matched",
+      "metadata": {
+        "title": "Jeffreys-prior penalty, finiteness and shrinkage in binomial-response generalized linear models",
+        "families": [
+          "Kosmidis",
+          "Firth"
+        ],
+        "title_language": "en",
+        "container": "Biometrika",
+        "volume": "108",
+        "issue": "1",
+        "pages": "71-82",
+        "publisher": "Oxford University Press (OUP)",
+        "received": [
+          2020,
+          8,
+          4
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1093%2Fbiomet%2Fasaa052",
+        "body_sha256": "1e3a4a29fc2b6bdf98070e1c61593377bb53115651ee8906afe6c56e1a0efa97"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Kosmidis, I., Firth, D. (2021). Jeffreys-prior penalty, finiteness and shrinkage in binomial-response generalized linear models. Biometrika 108(1), 71–82. https://doi.org/10.1093/biomet/asaa052"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.08730v1",
+      "classification": "primary_source_matched",
+      "metadata": {
+        "metadata": "unavailable",
+        "reason": "URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 0.0,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Lee, S.Y., Kim, J.K. (2026). Statistical Optimality of Prediction-Powered Inference. Preprint, arXiv:2606.08730v1. https://arxiv.org/abs/2606.08730v1"
+      ],
+      "automated_classification": "unavailable",
+      "primary_source_review": {
+        "url": "https://arxiv.org/abs/2606.08730v1",
+        "record": "arXiv primary version record",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.08959v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Accuracy Is Not Value: Choosing Weak Supervisors by What the Student Inherits",
+        "authors": [
+          "Li, Romano",
+          "Cai, Xunfan"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2611.08959v1",
+        "body_sha256": "7ac91f0b1222d2018aba2a7709452c1e71524e361a21d4560f095672e211c29e"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Li, R., Cai, X. (2026). Accuracy Is Not Value: Choosing Weak Supervisors by What the Student Inherits. Preprint, arXiv:2611.08959v1. https://arxiv.org/abs/2611.08959v1"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.04194v5",
+      "classification": "matched",
+      "metadata": {
+        "title": "Regularization Using Synthetic Data for High-Dimensional Inference",
+        "authors": [
+          "Li, Weihao",
+          "Huang, Dongming"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2407.04194v5",
+        "body_sha256": "0cb0c8a28d1b681064d53b3355047dadf74fdc6eb03e758c365df268f350506a"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5"
+      ]
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper/2021/hash/9704a4fc48ae88598dcbdcdf57f3fdef-Abstract.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "Learning curves of generic features maps for realistic datasets with a teacher-student model",
+        "authors": [
+          "Loureiro, Bruno",
+          "Gerbelot, Cedric",
+          "Cui, Hugo",
+          "Goldt, Sebastian",
+          "Krzakala, Florent",
+          "Mezard, Marc",
+          "Zdeborová, Lenka"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://proceedings.neurips.cc/paper/2021/hash/9704a4fc48ae88598dcbdcdf57f3fdef-Abstract.html",
+        "body_sha256": "6b5bf5de9860f345aaeb0756e9c178d680cf2a0e5530c839e5e096fba2f267d9"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Loureiro, B., Gerbelot, C., Cui, H., Goldt, S., Krzakala, F., Mézard, M., Zdeborová, L. (2021). Learning curves of generic features maps for realistic datasets with a teacher-student model. Advances in Neural Information Processing Systems 34. https://proceedings.neurips.cc/paper/2021/hash/9704a4fc48ae88598dcbdcdf57f3fdef-Abstract.html"
+      ]
+    },
+    {
+      "url": "https://proceedings.mlr.press/v306/lu26am.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "Generative Augmented Inference",
+        "authors": [
+          "Cheng Lu",
+          "Mengxin Wang",
+          "Dennis Zhang",
+          "Heng Zhang"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://proceedings.mlr.press/v306/lu26am.html",
+        "body_sha256": "13d9d9e9dce7687301419835f68fa58d1a705155337d683ea14d48bbd697a7de"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html"
+      ]
+    },
+    {
+      "url": "https://proceedings.mlr.press/v306/mani26b.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference",
+        "authors": [
+          "Pranav Mani",
+          "Peng Xu",
+          "Zachary Chase Lipton",
+          "Michael Oberst"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://proceedings.mlr.press/v306/mani26b.html",
+        "body_sha256": "3ad08bf43bd9d0de456a5211233ae6e3e1bcc166c825db10579d634719e62318"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. Proceedings of the 43rd International Conference on Machine Learning, PMLR 306, 86296–86335. https://proceedings.mlr.press/v306/mani26b.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1214/25-AOS2489",
+      "classification": "primary_source_matched",
+      "metadata": {
+        "metadata": "unavailable",
+        "reason": "timeout: The read operation timed out"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 0.0,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Preprint: https://arxiv.org/html/1911.01544v3"
+      ],
+      "automated_classification": "unavailable",
+      "primary_source_review": {
+        "url": "https://www.imstat.org/publications/aos/aos_53_2/aos_53_2.pdf",
+        "record": "Institute of Mathematical Statistics original issue",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/1911.01544v3",
+      "classification": "matched",
+      "metadata": {
+        "title": "The generalization error of max-margin linear classifiers: Benign overfitting and high dimensional asymptotics in the overparametrized regime",
+        "authors": [
+          "Montanari, Andrea",
+          "Ruan, Feng",
+          "Sohn, Youngtak",
+          "Yan, Jun"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/1911.01544v3",
+        "body_sha256": "95e123fc14db297ecf54b295ef17b2a6cc8b412ec79118b0d8ea337c4336f9ac"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Preprint: https://arxiv.org/html/1911.01544v3"
+      ]
+    },
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "Learning with Noisy Labels",
+        "authors": [
+          "Natarajan, Nagarajan",
+          "Dhillon, Inderjit S.",
+          "Ravikumar, Pradeep K.",
+          "Tewari, Ambuj"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html",
+        "body_sha256": "5d8f2a7c5b4046d36a06d249629bb852ec6b35a456fa271746ee5697f19f6463"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/0097-3165(88)90046-5",
+      "classification": "matched",
+      "metadata": {
+        "title": "On subspaces spanned by random selections of ±1 vectors",
+        "families": [
+          "Odlyzko"
+        ],
+        "title_language": "en",
+        "container": "Journal of Combinatorial Theory, Series A",
+        "volume": "47",
+        "issue": "1",
+        "pages": "124-133",
+        "publisher": "Elsevier BV",
+        "received": [
+          1988,
+          1
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1016%2F0097-3165%2888%2990046-5",
+        "body_sha256": "3d19d1f2a7e4149cc1501d69bde556c7ecc35b263bb7eae6d0c462224dc4f297"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Odlyzko, A.M. (1988). On subspaces spanned by random selections of ±1 vectors. Journal of Combinatorial Theory, Series A 47, 124–133. https://doi.org/10.1016/0097-3165(88)90046-5"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/imaiai/iax011",
+      "classification": "matched",
+      "metadata": {
+        "title": "Universality laws for randomized dimension reduction, with applications",
+        "families": [
+          "Oymak",
+          "Tropp"
+        ],
+        "title_language": "en",
+        "container": "Information and Inference: A Journal of the IMA",
+        "volume": "7",
+        "issue": "3",
+        "pages": "337-446",
+        "publisher": "Oxford University Press (OUP)",
+        "received": [
+          2017,
+          11,
+          17
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1093%2Fimaiai%2Fiax011",
+        "body_sha256": "5989414d9aaebc7707e04dc8ab6d39f287ffcdcce6eff881374b9e61fafa418f"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Oymak, S., Tropp, J.A. (2018). Universality laws for randomized dimension reduction, with applications. Information and Inference 7, 337–446. https://doi.org/10.1093/imaiai/iax011"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1002/qre.2411",
+      "classification": "matched",
+      "metadata": {
+        "title": "Separation in <i>D</i>‐optimal experimental designs for the logistic regression model",
+        "families": [
+          "Park",
+          "Mancenido",
+          "Montgomery"
+        ],
+        "title_language": "en",
+        "container": "Quality and Reliability Engineering International",
+        "volume": "35",
+        "issue": "3",
+        "pages": "776-787",
+        "publisher": "Wiley",
+        "received": [
+          2018,
+          10,
+          17
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1002%2Fqre.2411",
+        "body_sha256": "4c28ff9bda3656f88a5c0254f2bf6a498fc2d75efa591c371b5c47ad390890ac"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 0.9167,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Park, A.R., Mancenido, M., Montgomery, D.C. (2019). Separation in D-optimal experimental designs for the logistic regression model. Quality and Reliability Engineering International 35(3), 776–787. https://doi.org/10.1002/qre.2411"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.15574862",
+      "classification": "matched",
+      "metadata": {
+        "title": "D5.3. Farmers' and consumers' preferences and behavioural economics underpinning underutilised crop choices",
+        "families": [
+          "Piras",
+          "Mzek",
+          "Chen"
+        ],
+        "received": [
+          2025
+        ],
+        "publisher": "Zenodo",
+        "metadata": "DataCite",
+        "metadata_url": "https://api.datacite.org/dois/10.5281/zenodo.15574862",
+        "body_sha256": "38bc39e0078cdd17f8c360b30f51642ba19a0f07f2757d1485ec4dba6d80640e"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Piras, S., Mzek, T., Chen, J. (2025). D5.3. Farmers’ and consumers’ preferences and behavioural economics underpinning underutilised crop choices. Version V1. Zenodo. https://doi.org/10.5281/zenodo.15574862"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.spl.2023.109901",
+      "classification": "matched",
+      "metadata": {
+        "title": "Conjugate priors and bias reduction for logistic regression models",
+        "families": [
+          "Rigon",
+          "Aliverti"
+        ],
+        "title_language": "en",
+        "container": "Statistics &amp; Probability Letters",
+        "volume": "202",
+        "issue": null,
+        "pages": "109901",
+        "publisher": "Elsevier BV",
+        "received": [
+          2023,
+          11
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1016%2Fj.spl.2023.109901",
+        "body_sha256": "69bb70c88e08c077ff5f23479836fa045a846d96dc310033b9f25fa56e921255"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Rigon, T., Aliverti, E. (2023). Conjugate priors and bias reduction for logistic regression models. Statistics & Probability Letters 202, 109901. https://doi.org/10.1016/j.spl.2023.109901"
+      ]
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "Margin Maximizing Loss Functions",
+        "authors": [
+          "Rosset, Saharon",
+          "Zhu, Ji",
+          "Hastie, Trevor"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html",
+        "body_sha256": "1443725797a6b99b9f39c21297de2bfe70b12fe97dfaebb4653d9f016d2b1ac6"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Rosset, S., Zhu, J., Hastie, T. (2003). Margin Maximizing Loss Functions. Advances in Neural Information Processing Systems 16. https://proceedings.neurips.cc/paper_files/paper/2003/hash/0fe473396242072e84af286632d3f0ff-Abstract.html"
+      ]
+    },
+    {
+      "url": "https://www.jmlr.org/papers/v5/rosset04a.html",
+      "classification": "primary_source_matched",
+      "metadata": {
+        "metadata": "unavailable",
+        "reason": "URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 0.0,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Rosset, S., Zhu, J., Hastie, T. (2004). Boosting as a Regularized Path to a Maximum Margin Classifier. Journal of Machine Learning Research 5, 941–973. https://www.jmlr.org/papers/v5/rosset04a.html"
+      ],
+      "automated_classification": "unavailable",
+      "primary_source_review": {
+        "url": "https://www.jmlr.org/papers/v5/rosset04a.html",
+        "record": "JMLR journal article",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.08100v2",
+      "classification": "matched",
+      "metadata": {
+        "title": "The Geometry of Existence and Uniqueness of Maximum Likelihood Estimation in Categorical Response Models",
+        "authors": [
+          "Sablica, Lukas",
+          "Hornik, Kurt",
+          "Rusch, Thomas"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2610.08100v2",
+        "body_sha256": "61e16dcc9e921caac361fa55cbffbbf0f9a687382870ceccbdc2ee01b70b81d2"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Sablica, L., Hornik, K., Rusch, T. (2026). The Geometry of Existence and Uniqueness of Maximum Likelihood Estimation in Categorical Response Models. Preprint, arXiv:2610.08100v2. https://arxiv.org/abs/2610.08100v2"
+      ]
+    },
+    {
+      "url": "https://proceedings.mlr.press/v145/saglietti22a.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "Solvable Model for Inheriting the Regularization through Knowledge Distillation",
+        "authors": [
+          "Luca Saglietti",
+          "Lenka Zdeborova"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://proceedings.mlr.press/v145/saglietti22a.html",
+        "body_sha256": "1a1fc72fa1d43af001b888db6e74465a4f0012526c842a0584fb69f324619753"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Saglietti, L., Zdeborova, L. (2022). Solvable Model for Inheriting the Regularization through Knowledge Distillation. Proceedings of Machine Learning Research 145, 809–846. https://proceedings.mlr.press/v145/saglietti22a.html"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13186v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Prediction-Powered LLM Ranking with Adaptively Collected Human Feedback",
+        "authors": [
+          "Sargent, Gabriel",
+          "Sun, Will Wei",
+          "Zhang, Zhengwu",
+          "Liu, Yufeng"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2611.13186v1",
+        "body_sha256": "258b5d2fe00d7fb4e8067edd62a364baa82ac6a5965fb0dc1a97c24cc10659f7"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Sargent, G., Sun, W.W., Zhang, Z., Liu, Y. (2026). Prediction-Powered LLM Ranking with Adaptively Collected Human Feedback. Preprint, arXiv:2611.13186v1. https://arxiv.org/abs/2611.13186v1"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.22586v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Prediction-Powered Semi-Supervised Learning with Online Power Tuning",
+        "authors": [
+          "Shoham, Noa",
+          "Dorfman, Ron",
+          "Shaer, Shalev",
+          "Levy, Kfir Y.",
+          "Romano, Yaniv"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2510.22586v1",
+        "body_sha256": "17e81ac4d6184203f2a42b6a8b41e59da4eb17952d809353d80da2f5ed02e158"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Shoham, N., Dorfman, R., Shaer, S., Levy, K.Y., Romano, Y. (2025). Prediction-Powered Semi-Supervised Learning with Online Power Tuning. Preprint version 1. https://arxiv.org/abs/2510.22586v1"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.09831v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Proportional-limit asymptotics for Diaconis-Ylvisaker-penalised logistic regression with fitted intercept",
+        "authors": [
+          "Sterzinger, Philipp"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2609.09831v1",
+        "body_sha256": "8634d71fbeca6b4595585f9b379f5f4a9ae51d4de723d531c07262f55c6ca395"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Sterzinger, P. (2026). Proportional-limit asymptotics for Diaconis–Ylvisaker-penalised logistic regression with fitted intercept. arXiv:2609.09831, version 1. https://arxiv.org/abs/2609.09831v1"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/biomet/asag014",
+      "classification": "matched",
+      "metadata": {
+        "title": "Diaconis–Ylvisaker prior penalized likelihood for $ p/n\\to\\kappa\\in(0,1) $ logistic regression",
+        "families": [
+          "Sterzinger",
+          "Kosmidis"
+        ],
+        "title_language": "en",
+        "container": "Biometrika",
+        "volume": "113",
+        "issue": "2",
+        "pages": null,
+        "publisher": "Oxford University Press (OUP)",
+        "received": [
+          2026
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1093%2Fbiomet%2Fasag014",
+        "body_sha256": "70b885697ca564dec39613ed2a28c5e9a6eecade2d6085011de027a231a02e3c"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 0.8571,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Sterzinger, P., Kosmidis, I. (2026). Diaconis–Ylvisaker prior penalized likelihood for p/n → κ ∈ (0,1) logistic regression. Biometrika 113(2), asag014. https://doi.org/10.1093/biomet/asag014"
+      ]
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/e0ac27bf3327c9cb99cc5f548db4f73a-Paper-Conference.pdf",
+      "classification": "primary_source_matched",
+      "metadata": {
+        "metadata": "unavailable",
+        "reason": "timeout: The read operation timed out"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 0.0,
+          "first_author_agrees": null
+        }
+      ],
+      "printed": [
+        "Tan, K., Bellec, P.C. (2023). Multinomial Logistic Regression: Asymptotic Normality on Null Covariates in High-Dimensions. Advances in Neural Information Processing Systems 36. https://proceedings.neurips.cc/paper_files/paper/2023/file/e0ac27bf3327c9cb99cc5f548db4f73a-Paper-Conference.pdf"
+      ],
+      "automated_classification": "unavailable",
+      "primary_source_review": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e0ac27bf3327c9cb99cc5f548db4f73a-Abstract-Conference.html",
+        "record": "Official proceedings article links to the cited PDF",
+        "paper_title_and_leading_author_agree": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/abs/1908.06208v2",
+      "classification": "matched",
+      "metadata": {
+        "title": "The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models",
+        "authors": [
+          "Tang, Wenpin",
+          "Ye, Yuting"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/1908.06208v2",
+        "body_sha256": "b7181eba606f0635a8e893fd22e37ae1d35737e02dbda96b0d155756bebc4809"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Tang, W., Ye, Y. (2020). The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models. Preprint version 2. https://arxiv.org/abs/1908.06208v2"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21260",
+      "classification": "matched",
+      "metadata": {
+        "title": "Calibeating Prediction-Powered Inference",
+        "authors": [
+          "van der Laan, Lars",
+          "Van Der Laan, Mark"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2604.21260",
+        "body_sha256": "f81495e666c0099d9628ebb664a0f9f0cbe6f640270f18fb85aa780580db9073"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "van der Laan, L., van der Laan, M. (2026). Calibeating Prediction-Powered Inference. Preprint, arXiv:2604.21260. https://arxiv.org/abs/2604.21260"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1561/2200000001",
+      "classification": "matched",
+      "metadata": {
+        "title": "Graphical Models, Exponential Families, and Variational Inference",
+        "families": [
+          "Wainwright",
+          "Jordan"
+        ],
+        "title_language": "en",
+        "container": "Foundations and Trends® in Machine Learning",
+        "volume": "1",
+        "issue": "1-2",
+        "pages": "1-305",
+        "publisher": "Emerald",
+        "received": [
+          2008,
+          12,
+          18
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1561%2F2200000001",
+        "body_sha256": "0eaf039bdc0dffe226e78ed66868b96125e10b1036f2e22586ab21e511c31dfc"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Wainwright, M.J., Jordan, M.I. (2008). Graphical models, exponential families, and variational inference. Foundations and Trends in Machine Learning 1(1–2), 1–305. https://doi.org/10.1561/2200000001"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.16363v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Empirical Likelihood Meets Prediction-Powered Inference",
+        "authors": [
+          "Wang, Guanghui",
+          "Wen, Mengtao",
+          "Zou, Changliang"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2512.16363v1",
+        "body_sha256": "354380baeb572053ffea889de41a2fd50c39e24824ec015e6cb4f7b474f74591"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Wang, G., Wen, M., Zou, C. (2025). Empirical Likelihood Meets Prediction-Powered Inference. Preprint, arXiv:2512.16363v1. https://arxiv.org/abs/2512.16363v1"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.10464v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference",
+        "authors": [
+          "Xu, Shirong",
+          "Sun, Will Wei"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2602.10464v1",
+        "body_sha256": "7206bae1f34961af28e19051dce36c0b2596cfb4974f5a8d7bc9d75b1353f529"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Xu, S., Sun, W.W. (2026). Do More Predictions Improve Statistical Inference? Filtered Prediction-Powered Inference. Preprint version1. https://arxiv.org/abs/2602.10464v1"
+      ]
+    },
+    {
+      "url": "https://proceedings.mlr.press/v139/yoshida21a.html",
+      "classification": "matched",
+      "metadata": {
+        "title": "Lower-Bounded Proper Losses for Weakly Supervised Classification",
+        "authors": [
+          "Shuhei M Yoshida",
+          "Takashi Takenouchi",
+          "Masashi Sugiyama"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://proceedings.mlr.press/v139/yoshida21a.html",
+        "body_sha256": "57d2720e7d9d8049c8199453d6ef75dae7340f21a473903e6a52fbd6e0c1b99c"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Yoshida, S.M., Takenouchi, T., Sugiyama, M. (2021). Lower-bounded proper losses for weakly supervised classification. Proceedings of Machine Learning Research 139, 12110–12120. https://proceedings.mlr.press/v139/yoshida21a.html"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.32006v1",
+      "classification": "matched",
+      "metadata": {
+        "title": "Beyond Point Predictions: Distribution-Informed Prediction-Powered Inference",
+        "authors": [
+          "Zhang, Maoyu",
+          "Zhang, Jingfei",
+          "He, Xuming"
+        ],
+        "metadata": "primary HTML",
+        "metadata_url": "https://arxiv.org/abs/2609.32006v1",
+        "body_sha256": "b622e1d04063f370c9c6570e5eadc27e1d027bd2af8096d8655f64c54271da2b"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Zhang, M., Zhang, J., He, X. (2026). Beyond Point Predictions: Distribution-Informed Prediction-Powered Inference. Preprint, arXiv:2609.32006v1. https://arxiv.org/abs/2609.32006v1"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1073/pnas.2322083121",
+      "classification": "matched",
+      "metadata": {
+        "title": "Cross-prediction-powered inference",
+        "families": [
+          "Zrnic",
+          "Candès"
+        ],
+        "title_language": "en",
+        "container": "Proceedings of the National Academy of Sciences",
+        "volume": "121",
+        "issue": "15",
+        "pages": null,
+        "publisher": "National Academy of Sciences",
+        "received": [
+          2024,
+          4,
+          3
+        ],
+        "metadata": "Crossref",
+        "metadata_url": "https://api.crossref.org/works/10.1073%2Fpnas.2322083121",
+        "body_sha256": "084a1451de33b172e6b9404438eeab503a666c5bc7543c3393aa7d34c5f7032f"
+      },
+      "comparisons": [
+        {
+          "file": "supplement",
+          "score": 1.0,
+          "first_author_agrees": true
+        }
+      ],
+      "printed": [
+        "Zrnic, T., Candès, E.J. (2024). Cross-prediction-powered inference. Proceedings of the National Academy of Sciences 121(17), e2322083121. https://doi.org/10.1073/pnas.2322083121"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.6028/jres.049.027",
+      "classification": "primary_source_matched",
+      "primary_source_review": {
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/049/4/V49.N04.A05.pdf",
+        "record": "Original National Bureau of Standards paper and NIST volume 49 index",
+        "paper_title_and_leading_author_agree": true
+      },
+      "printed": [
+        "Hoffman, A.J. (1952). On approximate solutions of systems of linear inequalities. Journal of Research of the National Bureau of Standards 49(4), 263–265. https://doi.org/10.6028/jres.049.027"
+      ]
+    }
+  ],
+  "scope": "Identity of the linked works, measured by title and leading author. Claim-level citation use, priority and text similarity require separate evidence.",
+  "date": "2026-11-19"
+}

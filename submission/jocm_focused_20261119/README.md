@@ -15,3 +15,6 @@ The main result connects fixed choice menus and prediction correction to whether
 [Appendix C16 budget audit](../../reports/swissmetro_label_budget_20261119/README.md) extends Swissmetro to seven nested budgets and verifies all 5,376 method records from the original choice menus.
 
 [Appendix C17 unit endpoint](../../reports/unit_correction_endpoint_20261119/README.md) derives the choice-loss rate where the labelled log partitions lose their weight and verifies 30 fits in constructed paths.
+
+
+[Release audit](../../reports/submission_release_audit_20261119/README.md) gives the verified source links, document changes, and the receipt for 11 checks from a fresh extraction of the submission archive. RADIANT and Swissmetro original-menu checks used the upstream workbook and choice file. Follow the README in Reproduction_Materials.zip to run the checks.

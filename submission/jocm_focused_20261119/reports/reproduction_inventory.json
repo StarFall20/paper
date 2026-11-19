@@ -1,6 +1,9 @@
 {
-  "entries": 1240,
+  "entries": 1241,
   "archive_sha256": "3574af533b114f26369d0791bdef1d319b4bbded830b3d074dd7bbf146f79a6c",
   "prior_scientific_inputs_retained": 1209,
-  "raw_participant_input_distributed": false
+  "raw_participant_input_distributed": false,
+  "all_file_hashes_checked": true,
+  "file_manifest_sha256": "230b4aafccf71bd384e0241943f7990137f2dad1c9badab2335a56481b6ac3b0",
+  "full_release_checks_passed": 11
 }

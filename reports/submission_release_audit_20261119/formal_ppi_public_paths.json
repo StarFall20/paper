@@ -1,0 +1,31 @@
+{
+  "published_article": {
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 1156,
+    "sha256": "97b55403d1447c0e8a8d1151644c063b72ffc1a9a23f2598572d70bedcb55258",
+    "is_pdf": false,
+    "is_zip": false,
+    "url": "https://projecteuclid.org/journals/annals-of-applied-statistics/volume-20/issue-3/PPI-Efficient-prediction-powered-inference/10.1214/26-AOAS2215.full",
+    "abstract_marker": false,
+    "section_markers": 0
+  },
+  "supplement_a": {
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 1156,
+    "sha256": "5fc9b241c3bd7936449df88d5414e289c65d16dac2193ad32b65d753490aa8f3",
+    "is_pdf": false,
+    "is_zip": false,
+    "url": "https://projecteuclid.org/journals/supplementalcontent/10.1214/26-AOAS2215/aoas2215suppa.pdf"
+  },
+  "supplement_b": {
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 1156,
+    "sha256": "80c18f8bbe3873cce708e84e87f301e9f52c40e0e76c555e5cd69f32011b269e",
+    "is_pdf": false,
+    "is_zip": false,
+    "url": "https://projecteuclid.org/journals/supplementalcontent/10.1214/26-AOAS2215/aoas2215suppb.zip"
+  }
+}

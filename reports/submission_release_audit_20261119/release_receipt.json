@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "archive_manifest_sha256": "230b4aafccf71bd384e0241943f7990137f2dad1c9badab2335a56481b6ac3b0",
+  "python": "3.12.14",
+  "package_versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.7.0",
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1",
+    "openpyxl": "3.1.5"
+  },
+  "checks": {
+    "inventory": {
+      "status": "passed",
+      "log": "inventory.log"
+    },
+    "headline": {
+      "status": "passed",
+      "log": "headline.log"
+    },
+    "mathematics": {
+      "status": "passed",
+      "log": "mathematics.log"
+    },
+    "exact_designs": {
+      "status": "passed",
+      "log": "exact_designs.log"
+    },
+    "common_newton_point": {
+      "status": "passed",
+      "log": "common_newton_point.log"
+    },
+    "unit_endpoint": {
+      "status": "passed",
+      "log": "unit_endpoint.log"
+    },
+    "unit_archive": {
+      "status": "passed",
+      "log": "unit_archive.log"
+    },
+    "food_panel": {
+      "status": "passed",
+      "log": "food_panel.log"
+    },
+    "food_path": {
+      "status": "passed",
+      "log": "food_path.log"
+    },
+    "swissmetro_path": {
+      "status": "passed",
+      "log": "swissmetro_path.log"
+    },
+    "swissmetro_budget": {
+      "status": "passed",
+      "log": "swissmetro_budget.log"
+    }
+  },
+  "public_inputs": {
+    "food": {
+      "file": "COSCBB.xlsx",
+      "sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0"
+    },
+    "swissmetro": {
+      "file": "swissmetro_label_budget_input_20261119.dat",
+      "sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
+    }
+  },
+  "optional_sources_not_supplied": []
+}
