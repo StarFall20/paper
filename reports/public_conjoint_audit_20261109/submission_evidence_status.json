@@ -966,7 +966,7 @@
     "evidence": "../../submission/jocm_focused_20261119/README.md",
     "compliance": "../../submission/jocm_focused_20261119/COMPLIANCE.json",
     "main_pages": 10,
-    "supplement_pages": 82,
+    "supplement_pages": 83,
     "clean_extract_full_math_passed": true,
     "scopus_verified_query_count_this_session": 0,
     "author_confirmation_pending": true,
@@ -974,6 +974,8 @@
     "checkpoint_approximate_newton_stops": 3,
     "exact_phrase_screen_one_source": true,
     "nested_swissmetro_method_records": 5376,
-    "nested_swissmetro_all_seven_budgets_verified": true
+    "nested_swissmetro_all_seven_budgets_verified": true,
+    "unit_endpoint_proof_appended": true,
+    "unit_endpoint_mathematical_path_points": 30
   }
 }

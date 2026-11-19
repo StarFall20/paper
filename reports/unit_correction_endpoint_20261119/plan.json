@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-19",
+  "research_question": "Finite corrected choice fits as the correction weight tends to one, where the observed menus lose all curvature weight.",
+  "checks": [
+    "Derive the zero-recession cone, the endpoint selection rule when the unit infimum is attained, and the logarithmic direction when the unit solution lies on a proper auxiliary face.",
+    "Compare the joint human and auxiliary gap rule with the two single-component rules in fixed exact constructions.",
+    "Use three continuation cases with known outcomes: rank one boundary, binary full rank boundary, grouped three-alternative boundary.",
+    "Include an attained rank-deficient unit limit and a design with no finite positive-weight path.",
+    "Retain all predetermined endpoint distances, full coefficients, score checks in the original criterion and held-out losses."
+  ],
+  "endpoint_distances": [0.01, 0.0001, 0.000001, 0.00000001, 0.0000000001, 0.000000000001],
+  "scope": "Fixed finite designs. Examples are mathematical constructions. Existing released data supply a separate assessment of how many observed unit solutions are at zero support margin."
+}

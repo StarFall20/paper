@@ -1,6 +1,6 @@
 # JCM 研究论文投稿版
 
-[投稿主稿和补充材料](submission/jocm_focused_20261119/README.md)的正文为 10 页，补充材料为 82 页。附录 B6 保留多检查点的理论和 Newton 复算。附录 C16 新增 [Swissmetro 七档嵌套标签预算](reports/swissmetro_label_budget_20261119/README.md)。两种模型在 20 位和 40 位校正标签时的单位权重拟合全部有限，但平均测试损失仍高于使用同样标签的岭回归。逐行核验覆盖 5,376 条方法记录。Scopus、正式 PPI++ 补充和作者确认仍待完成。
+[投稿主稿和补充材料](submission/jocm_focused_20261119/README.md)的正文为 10 页，补充材料为 83 页。附录 C17 新增[趋近单位校正权重的有限解与预测定理](reports/unit_correction_endpoint_20261119/README.md)。五个构造的全部 30 个拟合点按原始校正目标重算；3,824 个已保存的实证单位权重记录均被归为内部或外部。附录 C16 保留 Swissmetro 七档标签预算的 5,376 条方法记录。Scopus、正式 PPI++ 补充和作者确认仍待完成。
 
 # 菜单频率与菜单内预测差异的实证核查
 

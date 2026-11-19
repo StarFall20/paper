@@ -120,6 +120,8 @@ The orthogonal coefficient approaches the conditional fit on the alternatives ti
 
 Supplementary Appendix C13 gives the full coefficient expansion, the value and curvature calculations, and the extension to endpoints where several faces bind. In the latter case, successive linear programs select a unique leading direction. The empirical endpoints used below are single facets. The multiple-face verification uses constructed menus.
 
+At unit correction the labelled log partitions lose weight. The limiting direction can then depend on utility gaps from both samples. Supplementary Appendix C17 derives this direction and gives the finite limit when unit correction has multiple finite minimizers.
+
 ### 4.2 Released food and transport choices
 
 The RADIANT shortbread experiment has 298 respondents with six complete choice menus each (Chen et al., 2025). We use 100 respondents to train a frozen ridge predictor, 60 to evaluate forecasts and 138 as the pool for labelled and auxiliary allocation. Menus from each person stay together. The fitted multinomial logit has eleven coefficients covering option constants, product attributes and price. At five labelled respondents, 144 of 500 unit-weight targets are exterior, including 40 cases with finite ordinary fits. At ten respondents, those counts are 21 and 18. All 500 unit-weight fits are finite at both twenty and forty respondents. Among the 87 five-person allocations with a positive weight limit below one, the median held-out log loss rises from 1.3075 to 2.2208 when weight increases from half to nine tenths of the limit. In the 356 unit-interior controls at the same budget, the medians are 0.9004 and 0.9264.

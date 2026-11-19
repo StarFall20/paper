@@ -1,6 +1,6 @@
 # When prediction assisted logit estimates exist
 
-This Research Article edition has a 10-page main manuscript and an 82-page supplement. The main text contains 3,443 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
+This Research Article edition has a 10-page main manuscript and an 83-page supplement. The main text contains 3,482 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
 
 [Manuscript](upload/Manuscript.docx) · [Supplementary methods and proofs](upload/Supplementary_Methods_and_Proofs.docx) · [Figure 1](upload/Figures/Figure_1.pdf) · [Cover letter](upload/Cover_letter.docx) · [Highlights](upload/Highlights.docx) · [Title page](upload/Title_page.docx) · [Supplementary file captions](upload/Supplementary_File_Captions.txt)
 
@@ -13,3 +13,5 @@ The main result connects fixed choice menus and prediction correction to whether
 [Appendix B6 verification](../../reports/multiple_diagnostic_points_20261119/README.md) gives the equal-weight, 48-row comparison at the common first Newton point.
 
 [Appendix C16 budget audit](../../reports/swissmetro_label_budget_20261119/README.md) extends Swissmetro to seven nested budgets and verifies all 5,376 method records from the original choice menus.
+
+[Appendix C17 unit endpoint](../../reports/unit_correction_endpoint_20261119/README.md) derives the choice-loss rate where the labelled log partitions lose their weight and verifies 30 fits in constructed paths.

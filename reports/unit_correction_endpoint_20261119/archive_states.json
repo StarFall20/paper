@@ -1,0 +1,29 @@
+{
+  "Swissmetro": {
+    "unit_cases": 1344,
+    "states": {
+      "exterior": 189,
+      "interior": 1155
+    },
+    "source": "reports/swissmetro_label_budget_20261119/results/summary.json",
+    "source_sha256": "51eb48be9daf0e2e023c2b704ee98f7e419153c8279609c2f793aaa27a809cca"
+  },
+  "RADIANT_food": {
+    "unit_cases": 2000,
+    "states": {
+      "interior": 1835,
+      "exterior": 165
+    },
+    "source": "submission/finite_choice_20261110/results/public_panel_dce/results/method_records.csv",
+    "source_sha256": "c16aa4ff066d5c6a5dc724cda5591180ee26e49795a7cc832dbb4d94c35b0df3"
+  },
+  "RADIANT_released_predictions": {
+    "unit_cases": 480,
+    "states": {
+      "interior": 383,
+      "exterior": 97
+    },
+    "source": "submission/finite_choice_20261110/results/menu_distribution_transport/results.json",
+    "source_sha256": "914ee7be7e29e5b8c06d38db07d57248c2aa32f394670798117e4648875aee12"
+  }
+}

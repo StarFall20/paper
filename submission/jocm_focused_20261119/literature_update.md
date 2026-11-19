@@ -61,3 +61,10 @@ Database coverage on 19 November 2026. The school browser inventory and direct S
 [Sablica, Hornik and Rusch, v2](https://arxiv.org/html/2610.08100v2), Theorem 1 and Section 3.2, provide an overlap criterion for a product of observed-category likelihood factors, including multinomial logit. The corrected choice target in this study includes the difference of predicted moments across two samples. Its position can be exterior even when the supervised likelihood has overlap. This three-way support comparison and the matched-checkpoint result concern the corrected criterion.
 
 [Fuh, Kao and Pang](https://link.springer.com/article/10.1007/s00362-026-01902-2) study positivity constraints on the parameters of multinomial choice models. The publisher's abstract identifies an additional monotonicity condition. This source was screened from its abstract. Its scope differs from unconstrained choice-coefficient estimation with a prediction correction.
+
+
+## Priority at the unit endpoint
+
+[Cominetti and San Martín](https://www.ceremade.dauphine.fr/~carlier/Cominetti-SanMartin.pdf) derive a limiting optimal-face center for the exponential penalty of a linear program. The present unit-weight path first minimizes supervised recession and then uses both human utility gaps and auxiliary utility gaps shifted by one. The gap scales arise from the corrected choice objective. The proposition includes an explicit held-out choice-loss rate. [Weighted supervised logistic existence](https://doi.org/10.1080/03610926.2016.1260742) is prior for ordinary case weighting; the publisher's abstract was screened. [Liu et al.](https://link.springer.com/article/10.1007/s11424-026-5075-1) compare predictive performance for model specification in a prediction-powered setting. Their publisher's abstract concerns testing fit to the data-generating process.
+
+The browser connection to Scopus timed out. The public result-level comparisons above leave formal institutional priority searching and the final PPI++ supplement check open.

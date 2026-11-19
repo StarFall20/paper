@@ -7,18 +7,18 @@
     "Cover_letter.docx": "e07f3abb1c961b48c5666edec2c35684cfaf07f9a970a06b9634b5651d00aeed",
     "Figures/Figure_1.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291",
     "Highlights.docx": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
-    "Manuscript.docx": "33f872e82015427bc7df15569caa164aee675ce8db033e2dae3e512e291e35e8",
-    "Reproduction_Materials.zip": "1b15c8b6dc304f0fe6f96671f2304699ba8bddd3289e39213baf76c832e91ed9",
+    "Manuscript.docx": "6da0ea245c47b365f220e5ae2d067ae50ddaab9edb604f9e76886850656baeaf",
+    "Reproduction_Materials.zip": "3574af533b114f26369d0791bdef1d319b4bbded830b3d074dd7bbf146f79a6c",
     "Supplementary_File_Captions.txt": "a7ed0b685ace81de0c1672589086f872d2de83aa3ad8a585f856ecf6c50b69ee",
-    "Supplementary_Methods_and_Proofs.docx": "958330d1b68b513c82846a7cca7adf0699de6a995579a85e7f7ae6f0caadf3d6",
+    "Supplementary_Methods_and_Proofs.docx": "39e0d2769ec77aba923165eb248a5c261b06b508ac940ad5b3e9e09ff80fcdbb",
     "Title_page.docx": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c"
   },
   "manuscript": {
     "main_rendered_pages": 10,
-    "supplement_rendered_pages": 82,
+    "supplement_rendered_pages": 83,
     "cover_rendered_pages": 1,
     "abstract_lexical_words": 194,
-    "main_body_lexical_words_excluding_equations_and_references": 3443,
+    "main_body_lexical_words_excluding_equations_and_references": 3482,
     "highlight_line_lengths": [
       79,
       75,
@@ -27,7 +27,7 @@
       74
     ],
     "main_native_math_objects": 115,
-    "supplement_native_math_objects": 1548,
+    "supplement_native_math_objects": 1615,
     "original_display_math_blocks_preserved_in_supplement": 153,
     "original_markdown_table_blocks_preserved_in_supplement": 20,
     "supplement_tables": 21
@@ -35,13 +35,13 @@
   "visual_review": {
     "changed_pages_inspected": {
       "main": [
+        6,
         7,
         8,
         9,
         10
       ],
       "supplement": [
-        52,
         53,
         54,
         55,
@@ -57,23 +57,28 @@
         65,
         66,
         67,
-        78,
-        79,
-        80,
-        81,
-        82
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        80
       ],
       "cover": []
     },
     "prior_render_pages_exact_body_matches": {
-      "main": 6,
-      "supplement": 61,
+      "main": 5,
+      "supplement": 58,
       "cover": 1
     },
     "all_rendered_footer_page_numbers_checked": true
   },
   "reproduction": {
-    "archive_entries": 1230,
+    "archive_entries": 1240,
     "exact_design_cases": 30,
     "highest_matched_derivative_order_checked": 33,
     "swissmetro_original_menu_score_checks": 1960,
@@ -85,7 +90,10 @@
     "nested_swissmetro_method_records": 5376,
     "nested_swissmetro_allocations_by_model_and_size": 1344,
     "nested_swissmetro_archived_unit_status_agreement": 576,
-    "refitted_original_menu_weight_checks": 1344
+    "refitted_original_menu_weight_checks": 1344,
+    "unit_limit_constructed_paths": 5,
+    "unit_limit_independently_recomputed_path_points": 30,
+    "unit_limit_archived_unit_states_screened": 3824
   },
   "open_items": [
     "Scopus subscribed document search",
@@ -93,7 +101,7 @@
     "independent priority, proof and text-similarity assessment",
     "author confirmation of final declarations and files"
   ],
-  "edition": "nested_label_budget",
+  "edition": "unit_correction_endpoint",
   "priority_review": {
     "scopus_verified_result_sets_added": 0,
     "official_ppi_plus_plus_supplements_accessible": false,
