@@ -7,12 +7,12 @@
     "source_sha256": "7a6f01973afccf3baf2c27e9e15876a67b85c6827c62781912379980b2dc481b",
     "docx_sha256": "22fd2fc3fbbc0e85f9841355065ae4456ceab43a50b9b1b5390603a8654764ee",
     "page_png_sha256": "66289b7bf141bf97061c57d2ec804422067b264ec31dc0e5010d720bac9f89bf",
-    "inherited_from": "reports/fixed_power_visual_qa_20261118.json"
+    "inherited_from": "reports/safe_power_visual_qa_20261119.json"
   },
-  "copied_manuscript_visual_review": "safe_power_visual_qa_20261119.json in the companion reproduction archive.",
+  "copied_manuscript_visual_review": "safe_forecast_visual_qa_20261119.json in the companion reproduction archive.",
   "title_page_visual_review": "Unchanged source hash bound to author_postal_visual_qa_20261113.json",
   "highlights_visual_review": "Direct one-page review.",
-  "manuscript_docx_sha256": "fa4b1ec22d7c8b3d968fe237a819220f7c41e8470bfdbb9848456e2f08da3d99",
+  "manuscript_docx_sha256": "f68701f64ac83228f9d55dae7148f8dca7aa68b38240b3fb3cf2cf789926f0da",
   "highlights": {
     "pages": 1,
     "direct_image_review": true,
@@ -26,6 +26,6 @@
       76,
       73
     ],
-    "inherited_from": "reports/fixed_power_visual_qa_20261118.json"
+    "inherited_from": "reports/safe_power_visual_qa_20261119.json"
   }
 }

@@ -425,3 +425,8 @@ The [local derivative supplement](results/fixed_power_identical_scores/README.md
 ## Auxiliary design and safe power
 
 The [design supplement](results/design_and_safe_power/README.md) includes the two commands, source hashes and upstream file closure. The two original public files are downloaded separately.
+
+
+## Forecasts at the safe power
+
+The [forecast supplement](results/safe_power_forecast/README.md) gives the fitting and verification commands. It reuses the two released choice datasets and archived predictors, without retraining.

@@ -71,3 +71,8 @@ The [fixed-design construction](results/fixed_power_identical_scores/README.md) 
 ## Design and power guarantees
 
 The [two-study comparison](results/design_and_safe_power/README.md), [support proof](results/design_and_safe_power/proof.md) and [replay receipt](results/design_and_safe_power/independent_replay.json) accompany Section 4.9 and Appendix C14.
+
+
+## Cost-matched forecasts
+
+The [forecast comparison](results/safe_power_forecast/README.md) and [replay receipt](results/safe_power_forecast/independent_replay.json) accompany the end of Section 4.9.

@@ -1,0 +1,42 @@
+{
+  "state": "source_verified",
+  "prior_paper_sha256": "24d35861bc1543e2eda1b2b80bf3161f4d3b67c90a15a9d4cfeabdd6893c1535",
+  "paper_sha256": "79cc49bc6d8eab829070e7ae5d33a8249d49d9f0d2955f008c9ba1b6f0023106",
+  "main_text_sha256": "1cbed5d2c02dc86356b26a84eeaddd86f221341e6f9ddb853a53179e9cb652c8",
+  "reports_files": {
+    "results/safe_power_forecast/MANIFEST.sha256": "57c41830b53dc0a403a601fa6ff8131c901fe789885ced39790f026f1a082eb2",
+    "results/safe_power_forecast/README.md": "3048343f2fd6ca1913fcbf81d5219a0d714db102406e3368bbd74ef54f284b3f",
+    "results/safe_power_forecast/certificate/safe_results/records.csv": "43189ae6ff7404fa151a20eb290f59fb433c5d72e6778df7989da90dfbd66674",
+    "results/safe_power_forecast/certificate/safe_results/summary.json": "5f78f5caa93fee960a12ecac3cae6f921bf86a25b7d4eb03eb7457aa4b489133",
+    "results/safe_power_forecast/fit.py": "4a759670dade79e647c806288007c1005f719ea29bf37f439fc4ecebb096d489",
+    "results/safe_power_forecast/independent_replay.json": "c67294d8a3a0e08997dbfc355bcac8bc2da77edc6e21238d25cb0a6fbb2fb33f",
+    "results/safe_power_forecast/inputs.py": "f71ffa0ff2b91b222d879f67993c15bf12658a655f185a6d8a2a2199ef5d90bf",
+    "results/safe_power_forecast/literature.md": "7eb0c5eff55a2077b179dc4ee6d3cff85878b0b65246074a96b5135a3c46719b",
+    "results/safe_power_forecast/plan.json": "3f71d43663f96a2ce23dc04b05f4625ec4e03ab04712c481c9d9cdcea944efbf",
+    "results/safe_power_forecast/reference/plan.json": "cec38baa35431a2c7d48b86f799c030f7db4c19bdc2372fbf93b834812412ca3",
+    "results/safe_power_forecast/reference/results/allocations.csv": "8e66dc8987b8e537f3a90ba4c70dfe2ed8de5b080f66f326dc034ccb2bad9a22",
+    "results/safe_power_forecast/reference/run.py": "ded7407d65ff2f117bf47d1f70e9830b814d3dc3d7e835a1e8212cc910411a8f",
+    "results/safe_power_forecast/results/derivatives.json": "ca21e0e350820578c2a08b01ad2c6454dab98c0756c2ccd3dec4c55e67a7a4ab",
+    "results/safe_power_forecast/results/fits.json": "aac92577be662065baeaf2ba611e935242d3ef2a1c177d2e8b55df845369e0e9",
+    "results/safe_power_forecast/results/summary.json": "c91c0482ad960be5f1161d877f50d5b299554f3974eef995b533964de7977efb",
+    "results/safe_power_forecast/slope.md": "564960c153d1ff9f56b3ae25d2f16dfea711d592304879743a9629fd8b431991",
+    "results/safe_power_forecast/upstream/food/analysis/existing_panel_model.py": "ed198611b3757aaeaade695f9a5659e570ebb14e05534715f580152e70960606",
+    "results/safe_power_forecast/upstream/food/inputs/model_plan.json": "99d95f6bc3fca966eb03fa64e43f538f9d1e99b653eae3df016d95e74cb516f1",
+    "results/safe_power_forecast/upstream/food/inputs/preflight.json": "a96ca3ab796b057f1741948b8436c9c2fb17b01728b0cccc20fc00c14297ad14",
+    "results/safe_power_forecast/upstream/swissmetro/audit.py": "a81c6cf3c3531c5828a66c59919c2f5288e729172c36d96948f50e0c698fc831",
+    "results/safe_power_forecast/upstream/swissmetro/plan.json": "35344070eb367974dcd757a866a11f3f04501a33af97d68130be743a20cad810",
+    "results/safe_power_forecast/upstream/swissmetro/results/summary.json": "8e7982bbd3058a47a2c51ffe66db15cee83bfd9ed477737b783d99d19ae8eab6",
+    "results/safe_power_forecast/verify.py": "defe0d432f67c20ea2d1aba253188f9520bafdf2a35271b6afa1f3b6c3bd5e61"
+  },
+  "isolated_replay": {
+    "status": "passed",
+    "byte_identical_outputs": {
+      "fits.json": "aac92577be662065baeaf2ba611e935242d3ef2a1c177d2e8b55df845369e0e9",
+      "derivatives.json": "ca21e0e350820578c2a08b01ad2c6454dab98c0756c2ccd3dec4c55e67a7a4ab",
+      "summary.json": "c91c0482ad960be5f1161d877f50d5b299554f3974eef995b533964de7977efb"
+    },
+    "fit_records": 3552,
+    "shared_paired_designs": 768,
+    "zero_power_derivatives": 656
+  }
+}

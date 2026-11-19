@@ -1,0 +1,13 @@
+{
+  "state": "passed",
+  "paired_designs": 768,
+  "shared_ordinary_fits": 656,
+  "safe_half_loss_improvements": 514,
+  "all_cost_MLE_lower": 768,
+  "recorded_predictions": 3552,
+  "zero_power_derivatives": 656,
+  "retained_tables": 20,
+  "retained_equations": 153,
+  "retained_formal_statements": 14,
+  "original_fit_and_analysis_files_preserved": true
+}

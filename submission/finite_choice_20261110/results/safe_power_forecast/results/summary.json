@@ -1,0 +1,2212 @@
+{
+  "status": "passed",
+  "pair_count": 768,
+  "methods": 9,
+  "fit_records": 3552,
+  "zero_power_derivatives": 656,
+  "numeric_fallbacks": 0,
+  "largest_reconstructed_score": 9.884317496433592e-10,
+  "largest_forecast_reconciliation_error": 8.881784197001252e-16,
+  "largest_small_power_secant_difference": 0.9100304752009851,
+  "results": [
+    {
+      "dataset": "RADIANT",
+      "label_people": 5,
+      "pairs": 192,
+      "methods": {
+        "safe_half": {
+          "counts": {
+            "labelled_ridge_fallback": 88,
+            "native": 104
+          },
+          "mean_logloss": 1.005056300364088,
+          "mean_Brier": 0.5442963937990853,
+          "positive_cost": 0
+        },
+        "safe_edge": {
+          "counts": {
+            "labelled_ridge_fallback": 88,
+            "native": 104
+          },
+          "mean_logloss": 0.9928646567518588,
+          "mean_Brier": 0.539756943360099,
+          "positive_cost": 0
+        },
+        "fixed_half": {
+          "counts": {
+            "native": 159,
+            "labelled_ridge_fallback": 33
+          },
+          "mean_logloss": 1.0463243337234756,
+          "mean_Brier": 0.5235717323831985,
+          "positive_cost": 0
+        },
+        "fixed_unit": {
+          "counts": {
+            "native": 136,
+            "labelled_ridge_fallback": 56
+          },
+          "mean_logloss": 1.1311567761419552,
+          "mean_Brier": 0.5408106990098703,
+          "positive_cost": 0
+        },
+        "labelled_MLE": {
+          "counts": {
+            "support_unavailable": 88,
+            "native": 104
+          },
+          "mean_logloss": 1.1044050409129662,
+          "mean_Brier": 0.5601889531168874,
+          "positive_cost": 0
+        },
+        "labelled_ridge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.9264118460925502,
+          "mean_Brier": 0.5455060951657235,
+          "positive_cost": 0
+        },
+        "all_human_MLE": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.6287271043721363,
+          "mean_Brier": 0.3687347959086252,
+          "positive_cost": 0
+        },
+        "all_human_ridge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.6821119480833304,
+          "mean_Brier": 0.40092515642346377,
+          "positive_cost": 0
+        },
+        "frozen_teacher": {
+          "counts": {
+            "frozen_teacher": 192
+          },
+          "mean_logloss": 0.69185712020054,
+          "mean_Brier": 0.4050224578250556,
+          "positive_cost": 0
+        }
+      },
+      "all_policy_comparisons": {
+        "safe_half__vs__labelled_ridge": {
+          "pairs": 192,
+          "lower_logloss": 48,
+          "higher_logloss": 56,
+          "tied_logloss": 88,
+          "paired_mean_logloss_difference": 0.07864445427153784,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": -0.0012097013666381676,
+          "lower_Brier": 56,
+          "higher_Brier": 48,
+          "tied_Brier": 88
+        },
+        "safe_half__vs__fixed_half": {
+          "pairs": 192,
+          "lower_logloss": 76,
+          "higher_logloss": 84,
+          "tied_logloss": 32,
+          "paired_mean_logloss_difference": -0.04126803335938773,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": 0.020724661415886747,
+          "lower_Brier": 39,
+          "higher_Brier": 121,
+          "tied_Brier": 32
+        },
+        "safe_half__vs__fixed_unit": {
+          "pairs": 192,
+          "lower_logloss": 69,
+          "higher_logloss": 80,
+          "tied_logloss": 43,
+          "paired_mean_logloss_difference": -0.12610047577786745,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": 0.0034856947892150506,
+          "lower_Brier": 62,
+          "higher_Brier": 87,
+          "tied_Brier": 43
+        },
+        "safe_half__vs__all_human_MLE": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.37632919599195164,
+          "paired_median_logloss_difference": 0.26447429816713275,
+          "paired_mean_Brier_difference": 0.1755615978904601,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_ridge": {
+          "pairs": 192,
+          "lower_logloss": 8,
+          "higher_logloss": 184,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3229443522807575,
+          "paired_median_logloss_difference": 0.21171234546530188,
+          "paired_mean_Brier_difference": 0.1433712373756216,
+          "lower_Brier": 8,
+          "higher_Brier": 184,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__frozen_teacher": {
+          "pairs": 192,
+          "lower_logloss": 8,
+          "higher_logloss": 184,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3131991801635479,
+          "paired_median_logloss_difference": 0.20043629562028098,
+          "paired_mean_Brier_difference": 0.13927393597402973,
+          "lower_Brier": 8,
+          "higher_Brier": 184,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__labelled_ridge": {
+          "pairs": 192,
+          "lower_logloss": 56,
+          "higher_logloss": 48,
+          "tied_logloss": 88,
+          "paired_mean_logloss_difference": 0.06645281065930876,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": -0.005749151805624439,
+          "lower_Brier": 56,
+          "higher_Brier": 48,
+          "tied_Brier": 88
+        },
+        "safe_edge__vs__fixed_half": {
+          "pairs": 192,
+          "lower_logloss": 85,
+          "higher_logloss": 75,
+          "tied_logloss": 32,
+          "paired_mean_logloss_difference": -0.05345967697161679,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": 0.01618521097690048,
+          "lower_Brier": 54,
+          "higher_Brier": 106,
+          "tied_Brier": 32
+        },
+        "safe_edge__vs__fixed_unit": {
+          "pairs": 192,
+          "lower_logloss": 78,
+          "higher_logloss": 71,
+          "tied_logloss": 43,
+          "paired_mean_logloss_difference": -0.13829211939009653,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": -0.0010537556497712205,
+          "lower_Brier": 65,
+          "higher_Brier": 84,
+          "tied_Brier": 43
+        },
+        "safe_edge__vs__all_human_MLE": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3641375523797225,
+          "paired_median_logloss_difference": 0.26447429816713275,
+          "paired_mean_Brier_difference": 0.17102214745147384,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_ridge": {
+          "pairs": 192,
+          "lower_logloss": 8,
+          "higher_logloss": 184,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3107527086685284,
+          "paired_median_logloss_difference": 0.21171234546530188,
+          "paired_mean_Brier_difference": 0.13883178693663534,
+          "lower_Brier": 8,
+          "higher_Brier": 184,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__frozen_teacher": {
+          "pairs": 192,
+          "lower_logloss": 8,
+          "higher_logloss": 184,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3010075365513189,
+          "paired_median_logloss_difference": 0.20043629562028098,
+          "paired_mean_Brier_difference": 0.13473448553504344,
+          "lower_Brier": 8,
+          "higher_Brier": 184,
+          "tied_Brier": 0
+        }
+      },
+      "common_labelled_MLE": {
+        "safe_half": {
+          "pairs": 104,
+          "lower_logloss": 99,
+          "higher_logloss": 5,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.061861284385250626,
+          "paired_median_logloss_difference": -0.030949166279619966,
+          "paired_mean_Brier_difference": -0.024481619413799414,
+          "lower_Brier": 99,
+          "higher_Brier": 5,
+          "tied_Brier": 0
+        },
+        "safe_edge": {
+          "pairs": 104,
+          "lower_logloss": 87,
+          "higher_logloss": 17,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.08436893413090428,
+          "paired_median_logloss_difference": -0.0446011931978203,
+          "paired_mean_Brier_difference": -0.03286214330115868,
+          "lower_Brier": 91,
+          "higher_Brier": 13,
+          "tied_Brier": 0
+        }
+      },
+      "rescued_at_unit": {
+        "labelled_MLE": {
+          "pairs": 13,
+          "lower_logloss": 11,
+          "higher_logloss": 2,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.000539795698493529,
+          "paired_median_logloss_difference": -0.0038111991856830674,
+          "paired_mean_Brier_difference": -0.005510612930115408,
+          "lower_Brier": 11,
+          "higher_Brier": 2,
+          "tied_Brier": 0
+        },
+        "labelled_ridge": {
+          "pairs": 13,
+          "lower_logloss": 2,
+          "higher_logloss": 11,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.4705280892731855,
+          "paired_median_logloss_difference": 0.26255425316499137,
+          "paired_mean_Brier_difference": 0.06667674589437153,
+          "lower_Brier": 2,
+          "higher_Brier": 11,
+          "tied_Brier": 0
+        },
+        "all_human_MLE": {
+          "pairs": 13,
+          "lower_logloss": 0,
+          "higher_logloss": 13,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.8347352358489307,
+          "paired_median_logloss_difference": 0.7269266349447152,
+          "paired_mean_Brier_difference": 0.29127454651995616,
+          "lower_Brier": 0,
+          "higher_Brier": 13,
+          "tied_Brier": 0
+        },
+        "frozen_teacher": {
+          "pairs": 13,
+          "lower_logloss": 0,
+          "higher_logloss": 13,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.7731452743732612,
+          "paired_median_logloss_difference": 0.6662066351720745,
+          "paired_mean_Brier_difference": 0.256386139578014,
+          "lower_Brier": 0,
+          "higher_Brier": 13,
+          "tied_Brier": 0
+        }
+      },
+      "derivative": {
+        "pairs": 104,
+        "negative_at_zero": 99,
+        "lower_at_half_cap": 99,
+        "sign_agrees_with_small_secant": 104,
+        "sign_agrees_with_half_cap_change": 104,
+        "median_slope": -0.4358119957695763
+      }
+    },
+    {
+      "dataset": "RADIANT",
+      "label_people": 10,
+      "pairs": 192,
+      "methods": {
+        "safe_half": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.8019870269147814,
+          "mean_Brier": 0.4645108815830779,
+          "positive_cost": 0
+        },
+        "safe_edge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.7953895047597616,
+          "mean_Brier": 0.46208101784068534,
+          "positive_cost": 0
+        },
+        "fixed_half": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.7943682559799751,
+          "mean_Brier": 0.4605998941881131,
+          "positive_cost": 0
+        },
+        "fixed_unit": {
+          "counts": {
+            "native": 186,
+            "labelled_ridge_fallback": 6
+          },
+          "mean_logloss": 0.8604970304127127,
+          "mean_Brier": 0.47773965675509994,
+          "positive_cost": 0
+        },
+        "labelled_MLE": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.819158420087796,
+          "mean_Brier": 0.4708434119817609,
+          "positive_cost": 0
+        },
+        "labelled_ridge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.8110134151883086,
+          "mean_Brier": 0.48516120152076825,
+          "positive_cost": 0
+        },
+        "all_human_MLE": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.6296717356244289,
+          "mean_Brier": 0.3691733731680924,
+          "positive_cost": 0
+        },
+        "all_human_ridge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.6839667299689376,
+          "mean_Brier": 0.40180116820995976,
+          "positive_cost": 0
+        },
+        "frozen_teacher": {
+          "counts": {
+            "frozen_teacher": 192
+          },
+          "mean_logloss": 0.69185712020054,
+          "mean_Brier": 0.4050224578250556,
+          "positive_cost": 0
+        }
+      },
+      "all_policy_comparisons": {
+        "safe_half__vs__labelled_ridge": {
+          "pairs": 192,
+          "lower_logloss": 136,
+          "higher_logloss": 56,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.00902638827352722,
+          "paired_median_logloss_difference": -0.020182630986959327,
+          "paired_mean_Brier_difference": -0.020650319937690374,
+          "lower_Brier": 167,
+          "higher_Brier": 25,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__fixed_half": {
+          "pairs": 192,
+          "lower_logloss": 97,
+          "higher_logloss": 95,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.007618770934806232,
+          "paired_median_logloss_difference": -0.0002776856068287259,
+          "paired_mean_Brier_difference": 0.0039109873949648545,
+          "lower_Brier": 87,
+          "higher_Brier": 105,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__fixed_unit": {
+          "pairs": 192,
+          "lower_logloss": 112,
+          "higher_logloss": 80,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.05851000349793134,
+          "paired_median_logloss_difference": -0.01807300840474152,
+          "paired_mean_Brier_difference": -0.013228775172021983,
+          "lower_Brier": 116,
+          "higher_Brier": 76,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_MLE": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.17231529129035258,
+          "paired_median_logloss_difference": 0.1321152025725495,
+          "paired_mean_Brier_difference": 0.09533750841498556,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_ridge": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.11802029694584378,
+          "paired_median_logloss_difference": 0.07655783899283003,
+          "paired_mean_Brier_difference": 0.06270971337311818,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__frozen_teacher": {
+          "pairs": 192,
+          "lower_logloss": 10,
+          "higher_logloss": 182,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.11012990671424133,
+          "paired_median_logloss_difference": 0.07329648051937476,
+          "paired_mean_Brier_difference": 0.059488423758022345,
+          "lower_Brier": 23,
+          "higher_Brier": 169,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__labelled_ridge": {
+          "pairs": 192,
+          "lower_logloss": 147,
+          "higher_logloss": 45,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.015623910428546904,
+          "paired_median_logloss_difference": -0.020271577969159793,
+          "paired_mean_Brier_difference": -0.023080183680082984,
+          "lower_Brier": 175,
+          "higher_Brier": 17,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__fixed_half": {
+          "pairs": 192,
+          "lower_logloss": 121,
+          "higher_logloss": 71,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.001021248779786546,
+          "paired_median_logloss_difference": -0.0016044111738746092,
+          "paired_mean_Brier_difference": 0.0014811236525722454,
+          "lower_Brier": 106,
+          "higher_Brier": 86,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__fixed_unit": {
+          "pairs": 192,
+          "lower_logloss": 117,
+          "higher_logloss": 75,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.06510752565295104,
+          "paired_median_logloss_difference": -0.01828969324386598,
+          "paired_mean_Brier_difference": -0.01565863891441459,
+          "lower_Brier": 123,
+          "higher_Brier": 69,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_MLE": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.16571776913533287,
+          "paired_median_logloss_difference": 0.13628419924215324,
+          "paired_mean_Brier_difference": 0.09290764467259294,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_ridge": {
+          "pairs": 192,
+          "lower_logloss": 1,
+          "higher_logloss": 191,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.11142277479082408,
+          "paired_median_logloss_difference": 0.08002839125403188,
+          "paired_mean_Brier_difference": 0.06027984963072556,
+          "lower_Brier": 1,
+          "higher_Brier": 191,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__frozen_teacher": {
+          "pairs": 192,
+          "lower_logloss": 8,
+          "higher_logloss": 184,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.10353238455922165,
+          "paired_median_logloss_difference": 0.07684174993048393,
+          "paired_mean_Brier_difference": 0.057058560015629735,
+          "lower_Brier": 16,
+          "higher_Brier": 176,
+          "tied_Brier": 0
+        }
+      },
+      "common_labelled_MLE": {
+        "safe_half": {
+          "pairs": 192,
+          "lower_logloss": 142,
+          "higher_logloss": 50,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.017171393173014648,
+          "paired_median_logloss_difference": -0.009376586344643223,
+          "paired_mean_Brier_difference": -0.006332530398683006,
+          "lower_Brier": 138,
+          "higher_Brier": 54,
+          "tied_Brier": 0
+        },
+        "safe_edge": {
+          "pairs": 192,
+          "lower_logloss": 132,
+          "higher_logloss": 60,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.023768915328034337,
+          "paired_median_logloss_difference": -0.012629117748524599,
+          "paired_mean_Brier_difference": -0.008762394141075614,
+          "lower_Brier": 130,
+          "higher_Brier": 62,
+          "tied_Brier": 0
+        }
+      },
+      "rescued_at_unit": {
+        "labelled_MLE": {
+          "pairs": 6,
+          "lower_logloss": 6,
+          "higher_logloss": 0,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.015514641604323772,
+          "paired_median_logloss_difference": -0.02061254702096388,
+          "paired_mean_Brier_difference": -0.00937390719010169,
+          "lower_Brier": 5,
+          "higher_Brier": 1,
+          "tied_Brier": 0
+        },
+        "labelled_ridge": {
+          "pairs": 6,
+          "lower_logloss": 6,
+          "higher_logloss": 0,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.01966333928912319,
+          "paired_median_logloss_difference": -0.01940819893816015,
+          "paired_mean_Brier_difference": -0.020944576476060923,
+          "lower_Brier": 6,
+          "higher_Brier": 0,
+          "tied_Brier": 0
+        },
+        "all_human_MLE": {
+          "pairs": 6,
+          "lower_logloss": 0,
+          "higher_logloss": 6,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.19882208403201637,
+          "paired_median_logloss_difference": 0.2657090993289128,
+          "paired_mean_Brier_difference": 0.12001976124306647,
+          "lower_Brier": 0,
+          "higher_Brier": 6,
+          "tied_Brier": 0
+        },
+        "frozen_teacher": {
+          "pairs": 6,
+          "lower_logloss": 1,
+          "higher_logloss": 5,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.13766032683712418,
+          "paired_median_logloss_difference": 0.20498723629949916,
+          "paired_mean_Brier_difference": 0.08610485267704941,
+          "lower_Brier": 2,
+          "higher_Brier": 4,
+          "tied_Brier": 0
+        }
+      },
+      "derivative": {
+        "pairs": 192,
+        "negative_at_zero": 146,
+        "lower_at_half_cap": 142,
+        "sign_agrees_with_small_secant": 192,
+        "sign_agrees_with_half_cap_change": 188,
+        "median_slope": -0.07533831662539259
+      }
+    },
+    {
+      "dataset": "Swissmetro",
+      "label_people": 5,
+      "pairs": 192,
+      "methods": {
+        "safe_half": {
+          "counts": {
+            "native": 176,
+            "labelled_ridge_fallback": 16
+          },
+          "mean_logloss": 1.1872372863172964,
+          "mean_Brier": 0.586404940689408,
+          "positive_cost": 16
+        },
+        "safe_edge": {
+          "counts": {
+            "native": 176,
+            "labelled_ridge_fallback": 16
+          },
+          "mean_logloss": 1.151499423020389,
+          "mean_Brier": 0.5821279280097812,
+          "positive_cost": 9
+        },
+        "fixed_half": {
+          "counts": {
+            "native": 191,
+            "labelled_ridge_fallback": 1
+          },
+          "mean_logloss": 1.2538176466111042,
+          "mean_Brier": 0.5908468769153651,
+          "positive_cost": 8
+        },
+        "fixed_unit": {
+          "counts": {
+            "native": 172,
+            "labelled_ridge_fallback": 20
+          },
+          "mean_logloss": 1.3096758664047434,
+          "mean_Brier": 0.5893835930466893,
+          "positive_cost": 19
+        },
+        "labelled_MLE": {
+          "counts": {
+            "native": 176,
+            "support_unavailable": 16
+          },
+          "mean_logloss": 1.3065942370677393,
+          "mean_Brier": 0.6059342932801585,
+          "positive_cost": 16
+        },
+        "labelled_ridge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.982177221527668,
+          "mean_Brier": 0.563252109874406,
+          "positive_cost": 16
+        },
+        "all_human_MLE": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.8359984651221816,
+          "mean_Brier": 0.5087206880416154,
+          "positive_cost": 0
+        },
+        "all_human_ridge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.835484494608281,
+          "mean_Brier": 0.5099646890092856,
+          "positive_cost": 0
+        },
+        "frozen_teacher": {
+          "counts": {
+            "frozen_teacher": 192
+          },
+          "mean_logloss": 0.8359998947263295,
+          "mean_Brier": 0.5087550082303346,
+          "positive_cost": 0
+        }
+      },
+      "all_policy_comparisons": {
+        "safe_half__vs__labelled_ridge": {
+          "pairs": 192,
+          "lower_logloss": 10,
+          "higher_logloss": 166,
+          "tied_logloss": 16,
+          "paired_mean_logloss_difference": 0.20506006478962843,
+          "paired_median_logloss_difference": 0.0808478815297754,
+          "paired_mean_Brier_difference": 0.02315283081500206,
+          "lower_Brier": 27,
+          "higher_Brier": 149,
+          "tied_Brier": 16
+        },
+        "safe_half__vs__fixed_half": {
+          "pairs": 192,
+          "lower_logloss": 66,
+          "higher_logloss": 126,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.06658036029380796,
+          "paired_median_logloss_difference": 0.01019339366025973,
+          "paired_mean_Brier_difference": -0.004441936225957034,
+          "lower_Brier": 85,
+          "higher_Brier": 107,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__fixed_unit": {
+          "pairs": 192,
+          "lower_logloss": 75,
+          "higher_logloss": 117,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.12243858008744717,
+          "paired_median_logloss_difference": 0.021283103716359608,
+          "paired_mean_Brier_difference": -0.0029786523572812827,
+          "lower_Brier": 83,
+          "higher_Brier": 109,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_MLE": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3512388211951148,
+          "paired_median_logloss_difference": 0.21920862230198773,
+          "paired_mean_Brier_difference": 0.07768425264779262,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_ridge": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.35175279170901536,
+          "paired_median_logloss_difference": 0.2196350889045492,
+          "paired_mean_Brier_difference": 0.07644025168012251,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__frozen_teacher": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3512373915909672,
+          "paired_median_logloss_difference": 0.21946069599224816,
+          "paired_mean_Brier_difference": 0.07764993245907333,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__labelled_ridge": {
+          "pairs": 192,
+          "lower_logloss": 26,
+          "higher_logloss": 150,
+          "tied_logloss": 16,
+          "paired_mean_logloss_difference": 0.16932220149272106,
+          "paired_median_logloss_difference": 0.08159066565274997,
+          "paired_mean_Brier_difference": 0.018875818135375245,
+          "lower_Brier": 45,
+          "higher_Brier": 131,
+          "tied_Brier": 16
+        },
+        "safe_edge__vs__fixed_half": {
+          "pairs": 192,
+          "lower_logloss": 82,
+          "higher_logloss": 110,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.10231822359071531,
+          "paired_median_logloss_difference": 0.0027624693650992738,
+          "paired_mean_Brier_difference": -0.008718948905583843,
+          "lower_Brier": 106,
+          "higher_Brier": 86,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__fixed_unit": {
+          "pairs": 192,
+          "lower_logloss": 88,
+          "higher_logloss": 104,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.15817644338435452,
+          "paired_median_logloss_difference": 0.0068249247782404265,
+          "paired_mean_Brier_difference": -0.007255665036908093,
+          "lower_Brier": 95,
+          "higher_Brier": 97,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_MLE": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3155009578982075,
+          "paired_median_logloss_difference": 0.23850795927681762,
+          "paired_mean_Brier_difference": 0.07340723996816582,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_ridge": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.31601492841210804,
+          "paired_median_logloss_difference": 0.23886633087101988,
+          "paired_mean_Brier_difference": 0.0721632390004957,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__frozen_teacher": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.31549952829405975,
+          "paired_median_logloss_difference": 0.23864803427967407,
+          "paired_mean_Brier_difference": 0.07337291977944653,
+          "lower_Brier": 0,
+          "higher_Brier": 192,
+          "tied_Brier": 0
+        }
+      },
+      "common_labelled_MLE": {
+        "safe_half": {
+          "pairs": 176,
+          "lower_logloss": 144,
+          "higher_logloss": 32,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.10292932718325115,
+          "paired_median_logloss_difference": -0.05569662663922326,
+          "paired_mean_Brier_difference": -0.015854974753733896,
+          "lower_Brier": 136,
+          "higher_Brier": 40,
+          "tied_Brier": 0
+        },
+        "safe_edge": {
+          "pairs": 176,
+          "lower_logloss": 140,
+          "higher_logloss": 36,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.14191608714351378,
+          "paired_median_logloss_difference": -0.06998641725999094,
+          "paired_mean_Brier_difference": -0.020520806767872234,
+          "lower_Brier": 130,
+          "higher_Brier": 46,
+          "tied_Brier": 0
+        }
+      },
+      "rescued_at_unit": {
+        "labelled_MLE": {
+          "pairs": 20,
+          "lower_logloss": 4,
+          "higher_logloss": 16,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.03973548771257842,
+          "paired_median_logloss_difference": 0.014268310183581157,
+          "paired_mean_Brier_difference": 0.009723627927151968,
+          "lower_Brier": 1,
+          "higher_Brier": 19,
+          "tied_Brier": 0
+        },
+        "labelled_ridge": {
+          "pairs": 20,
+          "lower_logloss": 0,
+          "higher_logloss": 20,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.25940521540352146,
+          "paired_median_logloss_difference": 0.19851253748986936,
+          "paired_mean_Brier_difference": 0.03581249142046844,
+          "lower_Brier": 0,
+          "higher_Brier": 20,
+          "tied_Brier": 0
+        },
+        "all_human_MLE": {
+          "pairs": 20,
+          "lower_logloss": 0,
+          "higher_logloss": 20,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.4249278339040057,
+          "paired_median_logloss_difference": 0.3666906872756722,
+          "paired_mean_Brier_difference": 0.10100498531657891,
+          "lower_Brier": 0,
+          "higher_Brier": 20,
+          "tied_Brier": 0
+        },
+        "frozen_teacher": {
+          "pairs": 20,
+          "lower_logloss": 0,
+          "higher_logloss": 20,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.425103306983059,
+          "paired_median_logloss_difference": 0.36714219302503914,
+          "paired_mean_Brier_difference": 0.10129436907832723,
+          "lower_Brier": 0,
+          "higher_Brier": 20,
+          "tied_Brier": 0
+        }
+      },
+      "derivative": {
+        "pairs": 176,
+        "negative_at_zero": 152,
+        "lower_at_half_cap": 144,
+        "sign_agrees_with_small_secant": 176,
+        "sign_agrees_with_half_cap_change": 168,
+        "median_slope": -0.5128539764433766
+      }
+    },
+    {
+      "dataset": "Swissmetro",
+      "label_people": 10,
+      "pairs": 192,
+      "methods": {
+        "safe_half": {
+          "counts": {
+            "native": 184,
+            "labelled_ridge_fallback": 8
+          },
+          "mean_logloss": 1.029692969780221,
+          "mean_Brier": 0.5584686174328538,
+          "positive_cost": 17
+        },
+        "safe_edge": {
+          "counts": {
+            "native": 184,
+            "labelled_ridge_fallback": 8
+          },
+          "mean_logloss": 1.0206757699598514,
+          "mean_Brier": 0.556866677544935,
+          "positive_cost": 17
+        },
+        "fixed_half": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 1.038845973151948,
+          "mean_Brier": 0.5597761637722884,
+          "positive_cost": 16
+        },
+        "fixed_unit": {
+          "counts": {
+            "native": 179,
+            "labelled_ridge_fallback": 13
+          },
+          "mean_logloss": 1.1790866977744308,
+          "mean_Brier": 0.5701569642535794,
+          "positive_cost": 24
+        },
+        "labelled_MLE": {
+          "counts": {
+            "native": 184,
+            "support_unavailable": 8
+          },
+          "mean_logloss": 1.0675236754854935,
+          "mean_Brier": 0.570632888681651,
+          "positive_cost": 24
+        },
+        "labelled_ridge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.9274115440918257,
+          "mean_Brier": 0.5440012629755109,
+          "positive_cost": 24
+        },
+        "all_human_MLE": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.8359564539564505,
+          "mean_Brier": 0.5086477060514175,
+          "positive_cost": 0
+        },
+        "all_human_ridge": {
+          "counts": {
+            "native": 192
+          },
+          "mean_logloss": 0.8354382770895546,
+          "mean_Brier": 0.5099020132173298,
+          "positive_cost": 0
+        },
+        "frozen_teacher": {
+          "counts": {
+            "frozen_teacher": 192
+          },
+          "mean_logloss": 0.8359998947263295,
+          "mean_Brier": 0.5087550082303346,
+          "positive_cost": 0
+        }
+      },
+      "all_policy_comparisons": {
+        "safe_half__vs__labelled_ridge": {
+          "pairs": 192,
+          "lower_logloss": 29,
+          "higher_logloss": 155,
+          "tied_logloss": 8,
+          "paired_mean_logloss_difference": 0.10228142568839514,
+          "paired_median_logloss_difference": 0.07138897140668715,
+          "paired_mean_Brier_difference": 0.014467354457342943,
+          "lower_Brier": 30,
+          "higher_Brier": 154,
+          "tied_Brier": 8
+        },
+        "safe_half__vs__fixed_half": {
+          "pairs": 192,
+          "lower_logloss": 79,
+          "higher_logloss": 113,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.00915300337172689,
+          "paired_median_logloss_difference": 0.002401654705130596,
+          "paired_mean_Brier_difference": -0.0013075463394346283,
+          "lower_Brier": 89,
+          "higher_Brier": 103,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__fixed_unit": {
+          "pairs": 192,
+          "lower_logloss": 87,
+          "higher_logloss": 105,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.14939372799420966,
+          "paired_median_logloss_difference": 0.0038331500181391087,
+          "paired_mean_Brier_difference": -0.011688346820725634,
+          "lower_Brier": 94,
+          "higher_Brier": 98,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_MLE": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.1937365158237706,
+          "paired_median_logloss_difference": 0.1676977938910818,
+          "paired_mean_Brier_difference": 0.04982091138143624,
+          "lower_Brier": 8,
+          "higher_Brier": 184,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_ridge": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.19425469269066623,
+          "paired_median_logloss_difference": 0.16839123026516356,
+          "paired_mean_Brier_difference": 0.048566604215524084,
+          "lower_Brier": 8,
+          "higher_Brier": 184,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__frozen_teacher": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.19369307505389166,
+          "paired_median_logloss_difference": 0.16768936899390713,
+          "paired_mean_Brier_difference": 0.04971360920251907,
+          "lower_Brier": 8,
+          "higher_Brier": 184,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__labelled_ridge": {
+          "pairs": 192,
+          "lower_logloss": 25,
+          "higher_logloss": 159,
+          "tied_logloss": 8,
+          "paired_mean_logloss_difference": 0.09326422586802584,
+          "paired_median_logloss_difference": 0.05997648466466288,
+          "paired_mean_Brier_difference": 0.012865414569424097,
+          "lower_Brier": 29,
+          "higher_Brier": 155,
+          "tied_Brier": 8
+        },
+        "safe_edge__vs__fixed_half": {
+          "pairs": 192,
+          "lower_logloss": 96,
+          "higher_logloss": 96,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.018170203192096206,
+          "paired_median_logloss_difference": 8.379758957843819e-07,
+          "paired_mean_Brier_difference": -0.0029094862273534743,
+          "lower_Brier": 96,
+          "higher_Brier": 96,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__fixed_unit": {
+          "pairs": 192,
+          "lower_logloss": 99,
+          "higher_logloss": 93,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.15841092781457897,
+          "paired_median_logloss_difference": -0.0010167297096733696,
+          "paired_mean_Brier_difference": -0.01329028670864448,
+          "lower_Brier": 102,
+          "higher_Brier": 90,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_MLE": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.1847193160034013,
+          "paired_median_logloss_difference": 0.1759874461831223,
+          "paired_mean_Brier_difference": 0.04821897149351739,
+          "lower_Brier": 1,
+          "higher_Brier": 191,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_ridge": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.1852374928702969,
+          "paired_median_logloss_difference": 0.17657569848564447,
+          "paired_mean_Brier_difference": 0.04696466432760524,
+          "lower_Brier": 4,
+          "higher_Brier": 188,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__frozen_teacher": {
+          "pairs": 192,
+          "lower_logloss": 0,
+          "higher_logloss": 192,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.18467587523352233,
+          "paired_median_logloss_difference": 0.17576776264194116,
+          "paired_mean_Brier_difference": 0.048111669314600224,
+          "lower_Brier": 1,
+          "higher_Brier": 191,
+          "tied_Brier": 0
+        }
+      },
+      "common_labelled_MLE": {
+        "safe_half": {
+          "pairs": 184,
+          "lower_logloss": 129,
+          "higher_logloss": 55,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.03713639714926706,
+          "paired_median_logloss_difference": -0.013426992544617933,
+          "paired_mean_Brier_difference": -0.01124717941230048,
+          "lower_Brier": 123,
+          "higher_Brier": 61,
+          "tied_Brier": 0
+        },
+        "safe_edge": {
+          "pairs": 184,
+          "lower_logloss": 122,
+          "higher_logloss": 62,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.046545649135739386,
+          "paired_median_logloss_difference": -0.02030559398507109,
+          "paired_mean_Brier_difference": -0.012918768860563621,
+          "lower_Brier": 114,
+          "higher_Brier": 70,
+          "tied_Brier": 0
+        }
+      },
+      "rescued_at_unit": {
+        "labelled_MLE": {
+          "pairs": 13,
+          "lower_logloss": 4,
+          "higher_logloss": 9,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.01808503915761241,
+          "paired_median_logloss_difference": 0.02601847306327998,
+          "paired_mean_Brier_difference": 0.002421111518978571,
+          "lower_Brier": 3,
+          "higher_Brier": 10,
+          "tied_Brier": 0
+        },
+        "labelled_ridge": {
+          "pairs": 13,
+          "lower_logloss": 0,
+          "higher_logloss": 13,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.19064861573235156,
+          "paired_median_logloss_difference": 0.1307902898117762,
+          "paired_mean_Brier_difference": 0.029143467756685235,
+          "lower_Brier": 0,
+          "higher_Brier": 13,
+          "tied_Brier": 0
+        },
+        "all_human_MLE": {
+          "pairs": 13,
+          "lower_logloss": 0,
+          "higher_logloss": 13,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3374104043240799,
+          "paired_median_logloss_difference": 0.24093512044413246,
+          "paired_mean_Brier_difference": 0.08410027052906086,
+          "lower_Brier": 0,
+          "higher_Brier": 13,
+          "tied_Brier": 0
+        },
+        "frozen_teacher": {
+          "pairs": 13,
+          "lower_logloss": 0,
+          "higher_logloss": 13,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.33769857820799654,
+          "paired_median_logloss_difference": 0.24146489894898904,
+          "paired_mean_Brier_difference": 0.08424716601084162,
+          "lower_Brier": 0,
+          "higher_Brier": 13,
+          "tied_Brier": 0
+        }
+      },
+      "derivative": {
+        "pairs": 184,
+        "negative_at_zero": 136,
+        "lower_at_half_cap": 129,
+        "sign_agrees_with_small_secant": 184,
+        "sign_agrees_with_half_cap_change": 177,
+        "median_slope": -0.07614747481040232
+      }
+    },
+    {
+      "dataset": "RADIANT",
+      "label_people": null,
+      "pairs": 384,
+      "methods": {
+        "safe_half": {
+          "counts": {
+            "labelled_ridge_fallback": 88,
+            "native": 296
+          },
+          "mean_logloss": 0.9035216636394346,
+          "mean_Brier": 0.5044036376910817,
+          "positive_cost": 0
+        },
+        "safe_edge": {
+          "counts": {
+            "labelled_ridge_fallback": 88,
+            "native": 296
+          },
+          "mean_logloss": 0.8941270807558102,
+          "mean_Brier": 0.5009189806003921,
+          "positive_cost": 0
+        },
+        "fixed_half": {
+          "counts": {
+            "native": 351,
+            "labelled_ridge_fallback": 33
+          },
+          "mean_logloss": 0.9203462948517255,
+          "mean_Brier": 0.4920858132856558,
+          "positive_cost": 0
+        },
+        "fixed_unit": {
+          "counts": {
+            "native": 322,
+            "labelled_ridge_fallback": 62
+          },
+          "mean_logloss": 0.995826903277334,
+          "mean_Brier": 0.509275177882485,
+          "positive_cost": 0
+        },
+        "labelled_MLE": {
+          "counts": {
+            "support_unavailable": 88,
+            "native": 296
+          },
+          "mean_logloss": 0.9193802057831262,
+          "mean_Brier": 0.5022350885968054,
+          "positive_cost": 0
+        },
+        "labelled_ridge": {
+          "counts": {
+            "native": 384
+          },
+          "mean_logloss": 0.8687126306404295,
+          "mean_Brier": 0.5153336483432459,
+          "positive_cost": 0
+        },
+        "all_human_MLE": {
+          "counts": {
+            "native": 384
+          },
+          "mean_logloss": 0.6291994199982825,
+          "mean_Brier": 0.36895408453835876,
+          "positive_cost": 0
+        },
+        "all_human_ridge": {
+          "counts": {
+            "native": 384
+          },
+          "mean_logloss": 0.6830393390261341,
+          "mean_Brier": 0.4013631623167117,
+          "positive_cost": 0
+        },
+        "frozen_teacher": {
+          "counts": {
+            "frozen_teacher": 384
+          },
+          "mean_logloss": 0.69185712020054,
+          "mean_Brier": 0.4050224578250556,
+          "positive_cost": 0
+        }
+      },
+      "all_policy_comparisons": {
+        "safe_half__vs__labelled_ridge": {
+          "pairs": 384,
+          "lower_logloss": 184,
+          "higher_logloss": 112,
+          "tied_logloss": 88,
+          "paired_mean_logloss_difference": 0.034809032999005306,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": -0.01093001065216427,
+          "lower_Brier": 223,
+          "higher_Brier": 73,
+          "tied_Brier": 88
+        },
+        "safe_half__vs__fixed_half": {
+          "pairs": 384,
+          "lower_logloss": 173,
+          "higher_logloss": 179,
+          "tied_logloss": 32,
+          "paired_mean_logloss_difference": -0.016824631212290747,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": 0.0123178244054258,
+          "lower_Brier": 126,
+          "higher_Brier": 226,
+          "tied_Brier": 32
+        },
+        "safe_half__vs__fixed_unit": {
+          "pairs": 384,
+          "lower_logloss": 181,
+          "higher_logloss": 160,
+          "tied_logloss": 43,
+          "paired_mean_logloss_difference": -0.0923052396378994,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": -0.004871540191403464,
+          "lower_Brier": 178,
+          "higher_Brier": 163,
+          "tied_Brier": 43
+        },
+        "safe_half__vs__all_human_MLE": {
+          "pairs": 384,
+          "lower_logloss": 0,
+          "higher_logloss": 384,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2743222436411521,
+          "paired_median_logloss_difference": 0.19590686656830258,
+          "paired_mean_Brier_difference": 0.13544955315272286,
+          "lower_Brier": 0,
+          "higher_Brier": 384,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_ridge": {
+          "pairs": 384,
+          "lower_logloss": 8,
+          "higher_logloss": 376,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2204823246133006,
+          "paired_median_logloss_difference": 0.14451902237194958,
+          "paired_mean_Brier_difference": 0.10304047537436989,
+          "lower_Brier": 8,
+          "higher_Brier": 376,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__frozen_teacher": {
+          "pairs": 384,
+          "lower_logloss": 18,
+          "higher_logloss": 366,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.21166454343889463,
+          "paired_median_logloss_difference": 0.1337545988028861,
+          "paired_mean_Brier_difference": 0.09938117986602603,
+          "lower_Brier": 31,
+          "higher_Brier": 353,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__labelled_ridge": {
+          "pairs": 384,
+          "lower_logloss": 203,
+          "higher_logloss": 93,
+          "tied_logloss": 88,
+          "paired_mean_logloss_difference": 0.025414450115380932,
+          "paired_median_logloss_difference": -0.005155129243718637,
+          "paired_mean_Brier_difference": -0.014414667742853708,
+          "lower_Brier": 231,
+          "higher_Brier": 65,
+          "tied_Brier": 88
+        },
+        "safe_edge__vs__fixed_half": {
+          "pairs": 384,
+          "lower_logloss": 206,
+          "higher_logloss": 146,
+          "tied_logloss": 32,
+          "paired_mean_logloss_difference": -0.026219214095915117,
+          "paired_median_logloss_difference": -0.0012563546696872652,
+          "paired_mean_Brier_difference": 0.008833167314736361,
+          "lower_Brier": 160,
+          "higher_Brier": 192,
+          "tied_Brier": 32
+        },
+        "safe_edge__vs__fixed_unit": {
+          "pairs": 384,
+          "lower_logloss": 195,
+          "higher_logloss": 146,
+          "tied_logloss": 43,
+          "paired_mean_logloss_difference": -0.10169982252152376,
+          "paired_median_logloss_difference": -0.0019407006063477672,
+          "paired_mean_Brier_difference": -0.008356197282092906,
+          "lower_Brier": 188,
+          "higher_Brier": 153,
+          "tied_Brier": 43
+        },
+        "safe_edge__vs__all_human_MLE": {
+          "pairs": 384,
+          "lower_logloss": 0,
+          "higher_logloss": 384,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2649276607575277,
+          "paired_median_logloss_difference": 0.19498167769607733,
+          "paired_mean_Brier_difference": 0.1319648960620334,
+          "lower_Brier": 0,
+          "higher_Brier": 384,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_ridge": {
+          "pairs": 384,
+          "lower_logloss": 9,
+          "higher_logloss": 375,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.21108774172967626,
+          "paired_median_logloss_difference": 0.1432604029248742,
+          "paired_mean_Brier_difference": 0.09955581828368043,
+          "lower_Brier": 9,
+          "higher_Brier": 375,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__frozen_teacher": {
+          "pairs": 384,
+          "lower_logloss": 16,
+          "higher_logloss": 368,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.20226996055527025,
+          "paired_median_logloss_difference": 0.1337545988028861,
+          "paired_mean_Brier_difference": 0.0958965227753366,
+          "lower_Brier": 24,
+          "higher_Brier": 360,
+          "tied_Brier": 0
+        }
+      },
+      "common_labelled_MLE": {
+        "safe_half": {
+          "pairs": 296,
+          "lower_logloss": 241,
+          "higher_logloss": 55,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.03287324684217864,
+          "paired_median_logloss_difference": -0.014415724080513503,
+          "paired_mean_Brier_difference": -0.01270923734994012,
+          "lower_Brier": 237,
+          "higher_Brier": 59,
+          "tied_Brier": 0
+        },
+        "safe_edge": {
+          "pairs": 296,
+          "lower_logloss": 219,
+          "higher_logloss": 77,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.045060813826339995,
+          "paired_median_logloss_difference": -0.020029069791984377,
+          "paired_mean_Brier_difference": -0.017229873575699394,
+          "lower_Brier": 221,
+          "higher_Brier": 75,
+          "tied_Brier": 0
+        }
+      },
+      "rescued_at_unit": {
+        "labelled_MLE": {
+          "pairs": 19,
+          "lower_logloss": 17,
+          "higher_logloss": 2,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.005268694405597817,
+          "paired_median_logloss_difference": -0.004554861572596658,
+          "paired_mean_Brier_difference": -0.006730600591163707,
+          "lower_Brier": 16,
+          "higher_Brier": 3,
+          "tied_Brier": 0
+        },
+        "labelled_ridge": {
+          "pairs": 19,
+          "lower_logloss": 8,
+          "higher_logloss": 11,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3157307960429828,
+          "paired_median_logloss_difference": 0.26009527107518915,
+          "paired_mean_Brier_difference": 0.03900685461949812,
+          "lower_Brier": 8,
+          "higher_Brier": 11,
+          "tied_Brier": 0
+        },
+        "all_human_MLE": {
+          "pairs": 19,
+          "lower_logloss": 0,
+          "higher_logloss": 19,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.6339205563277998,
+          "paired_median_logloss_difference": 0.724467652854913,
+          "paired_mean_Brier_difference": 0.2371940880114647,
+          "lower_Brier": 0,
+          "higher_Brier": 19,
+          "tied_Brier": 0
+        },
+        "frozen_teacher": {
+          "pairs": 19,
+          "lower_logloss": 1,
+          "higher_logloss": 18,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.5724658172565863,
+          "paired_median_logloss_difference": 0.6637476530822722,
+          "paired_mean_Brier_difference": 0.20261310160928833,
+          "lower_Brier": 2,
+          "higher_Brier": 17,
+          "tied_Brier": 0
+        }
+      },
+      "derivative": {
+        "pairs": 296,
+        "negative_at_zero": 245,
+        "lower_at_half_cap": 241,
+        "sign_agrees_with_small_secant": 296,
+        "sign_agrees_with_half_cap_change": 292,
+        "median_slope": -0.12161832620750657
+      }
+    },
+    {
+      "dataset": "Swissmetro",
+      "label_people": null,
+      "pairs": 384,
+      "methods": {
+        "safe_half": {
+          "counts": {
+            "native": 360,
+            "labelled_ridge_fallback": 24
+          },
+          "mean_logloss": 1.1084651280487587,
+          "mean_Brier": 0.5724367790611309,
+          "positive_cost": 33
+        },
+        "safe_edge": {
+          "counts": {
+            "native": 360,
+            "labelled_ridge_fallback": 24
+          },
+          "mean_logloss": 1.0860875964901204,
+          "mean_Brier": 0.5694973027773581,
+          "positive_cost": 26
+        },
+        "fixed_half": {
+          "counts": {
+            "native": 383,
+            "labelled_ridge_fallback": 1
+          },
+          "mean_logloss": 1.146331809881526,
+          "mean_Brier": 0.5753115203438267,
+          "positive_cost": 24
+        },
+        "fixed_unit": {
+          "counts": {
+            "native": 351,
+            "labelled_ridge_fallback": 33
+          },
+          "mean_logloss": 1.244381282089587,
+          "mean_Brier": 0.5797702786501343,
+          "positive_cost": 43
+        },
+        "labelled_MLE": {
+          "counts": {
+            "native": 360,
+            "support_unavailable": 24
+          },
+          "mean_logloss": 1.1844026167034805,
+          "mean_Brier": 0.5878913531520323,
+          "positive_cost": 40
+        },
+        "labelled_ridge": {
+          "counts": {
+            "native": 384
+          },
+          "mean_logloss": 0.9547943828097468,
+          "mean_Brier": 0.5536266864249585,
+          "positive_cost": 40
+        },
+        "all_human_MLE": {
+          "counts": {
+            "native": 384
+          },
+          "mean_logloss": 0.835977459539316,
+          "mean_Brier": 0.5086841970465165,
+          "positive_cost": 0
+        },
+        "all_human_ridge": {
+          "counts": {
+            "native": 384
+          },
+          "mean_logloss": 0.8354613858489178,
+          "mean_Brier": 0.5099333511133076,
+          "positive_cost": 0
+        },
+        "frozen_teacher": {
+          "counts": {
+            "frozen_teacher": 384
+          },
+          "mean_logloss": 0.8359998947263295,
+          "mean_Brier": 0.5087550082303346,
+          "positive_cost": 0
+        }
+      },
+      "all_policy_comparisons": {
+        "safe_half__vs__labelled_ridge": {
+          "pairs": 384,
+          "lower_logloss": 39,
+          "higher_logloss": 321,
+          "tied_logloss": 24,
+          "paired_mean_logloss_difference": 0.15367074523901178,
+          "paired_median_logloss_difference": 0.07634740987334515,
+          "paired_mean_Brier_difference": 0.0188100926361725,
+          "lower_Brier": 57,
+          "higher_Brier": 303,
+          "tied_Brier": 24
+        },
+        "safe_half__vs__fixed_half": {
+          "pairs": 384,
+          "lower_logloss": 145,
+          "higher_logloss": 239,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.037866681832767424,
+          "paired_median_logloss_difference": 0.005512693554080128,
+          "paired_mean_Brier_difference": -0.002874741282695831,
+          "lower_Brier": 174,
+          "higher_Brier": 210,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__fixed_unit": {
+          "pairs": 384,
+          "lower_logloss": 162,
+          "higher_logloss": 222,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.13591615404082844,
+          "paired_median_logloss_difference": 0.007136268032156612,
+          "paired_mean_Brier_difference": -0.007333499589003457,
+          "lower_Brier": 177,
+          "higher_Brier": 207,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_MLE": {
+          "pairs": 384,
+          "lower_logloss": 0,
+          "higher_logloss": 384,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2724876685094427,
+          "paired_median_logloss_difference": 0.18296390720027317,
+          "paired_mean_Brier_difference": 0.06375258201461442,
+          "lower_Brier": 8,
+          "higher_Brier": 376,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_ridge": {
+          "pairs": 384,
+          "lower_logloss": 0,
+          "higher_logloss": 384,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2730037421998408,
+          "paired_median_logloss_difference": 0.18353677820377562,
+          "paired_mean_Brier_difference": 0.0625034279478233,
+          "lower_Brier": 8,
+          "higher_Brier": 376,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__frozen_teacher": {
+          "pairs": 384,
+          "lower_logloss": 0,
+          "higher_logloss": 384,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2724652333224294,
+          "paired_median_logloss_difference": 0.18285983068492695,
+          "paired_mean_Brier_difference": 0.06368177083079621,
+          "lower_Brier": 8,
+          "higher_Brier": 376,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__labelled_ridge": {
+          "pairs": 384,
+          "lower_logloss": 51,
+          "higher_logloss": 309,
+          "tied_logloss": 24,
+          "paired_mean_logloss_difference": 0.13129321368037344,
+          "paired_median_logloss_difference": 0.07049275799812227,
+          "paired_mean_Brier_difference": 0.015870616352399673,
+          "lower_Brier": 74,
+          "higher_Brier": 286,
+          "tied_Brier": 24
+        },
+        "safe_edge__vs__fixed_half": {
+          "pairs": 384,
+          "lower_logloss": 178,
+          "higher_logloss": 206,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.06024421339140577,
+          "paired_median_logloss_difference": 0.0004219702075095033,
+          "paired_mean_Brier_difference": -0.005814217566468659,
+          "lower_Brier": 202,
+          "higher_Brier": 182,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__fixed_unit": {
+          "pairs": 384,
+          "lower_logloss": 187,
+          "higher_logloss": 197,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.15829368559946677,
+          "paired_median_logloss_difference": 0.0008049333834765915,
+          "paired_mean_Brier_difference": -0.010272975872776287,
+          "lower_Brier": 197,
+          "higher_Brier": 187,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_MLE": {
+          "pairs": 384,
+          "lower_logloss": 0,
+          "higher_logloss": 384,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.25011013695080436,
+          "paired_median_logloss_difference": 0.18647204753924362,
+          "paired_mean_Brier_difference": 0.06081310573084161,
+          "lower_Brier": 1,
+          "higher_Brier": 383,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_ridge": {
+          "pairs": 384,
+          "lower_logloss": 0,
+          "higher_logloss": 384,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.25062621064120244,
+          "paired_median_logloss_difference": 0.1870007070049055,
+          "paired_mean_Brier_difference": 0.059563951664050464,
+          "lower_Brier": 4,
+          "higher_Brier": 380,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__frozen_teacher": {
+          "pairs": 384,
+          "lower_logloss": 0,
+          "higher_logloss": 384,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2500877017637911,
+          "paired_median_logloss_difference": 0.18640462812703296,
+          "paired_mean_Brier_difference": 0.060742294547023366,
+          "lower_Brier": 1,
+          "higher_Brier": 383,
+          "tied_Brier": 0
+        }
+      },
+      "common_labelled_MLE": {
+        "safe_half": {
+          "pairs": 360,
+          "lower_logloss": 273,
+          "higher_logloss": 87,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.06930182961032595,
+          "paired_median_logloss_difference": -0.030873056913779506,
+          "paired_mean_Brier_difference": -0.013499879357001261,
+          "lower_Brier": 259,
+          "higher_Brier": 101,
+          "tied_Brier": 0
+        },
+        "safe_edge": {
+          "pairs": 360,
+          "lower_logloss": 262,
+          "higher_logloss": 98,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.09317119660620686,
+          "paired_median_logloss_difference": -0.05027898180395701,
+          "paired_mean_Brier_difference": -0.016635320726358944,
+          "lower_Brier": 244,
+          "higher_Brier": 116,
+          "tied_Brier": 0
+        }
+      },
+      "rescued_at_unit": {
+        "labelled_MLE": {
+          "pairs": 33,
+          "lower_logloss": 8,
+          "higher_logloss": 25,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.031206523130319082,
+          "paired_median_logloss_difference": 0.023616826056237494,
+          "paired_mean_Brier_difference": 0.00684687903908366,
+          "lower_Brier": 4,
+          "higher_Brier": 29,
+          "tied_Brier": 0
+        },
+        "labelled_ridge": {
+          "pairs": 33,
+          "lower_logloss": 0,
+          "higher_logloss": 33,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.23231928219972725,
+          "paired_median_logloss_difference": 0.1307902898117762,
+          "paired_mean_Brier_difference": 0.0331853002801902,
+          "lower_Brier": 0,
+          "higher_Brier": 33,
+          "tied_Brier": 0
+        },
+        "all_human_MLE": {
+          "pairs": 33,
+          "lower_logloss": 0,
+          "higher_logloss": 33,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.39045127073615615,
+          "paired_median_logloss_difference": 0.2414563520690206,
+          "paired_mean_Brier_difference": 0.09434555221846573,
+          "lower_Brier": 0,
+          "higher_Brier": 33,
+          "tied_Brier": 0
+        },
+        "frozen_teacher": {
+          "pairs": 33,
+          "lower_logloss": 0,
+          "higher_logloss": 33,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.3906711411019739,
+          "paired_median_logloss_difference": 0.2420448463706989,
+          "paired_mean_Brier_difference": 0.09457880423356019,
+          "lower_Brier": 0,
+          "higher_Brier": 33,
+          "tied_Brier": 0
+        }
+      },
+      "derivative": {
+        "pairs": 360,
+        "negative_at_zero": 288,
+        "lower_at_half_cap": 273,
+        "sign_agrees_with_small_secant": 360,
+        "sign_agrees_with_half_cap_change": 345,
+        "median_slope": -0.3107615772777899
+      }
+    },
+    {
+      "dataset": "combined",
+      "label_people": null,
+      "pairs": 768,
+      "methods": {
+        "safe_half": {
+          "counts": {
+            "labelled_ridge_fallback": 112,
+            "native": 656
+          },
+          "mean_logloss": 1.0059933958440965,
+          "mean_Brier": 0.5384202083761063,
+          "positive_cost": 33
+        },
+        "safe_edge": {
+          "counts": {
+            "labelled_ridge_fallback": 112,
+            "native": 656
+          },
+          "mean_logloss": 0.9901073386229653,
+          "mean_Brier": 0.5352081416888751,
+          "positive_cost": 26
+        },
+        "fixed_half": {
+          "counts": {
+            "native": 734,
+            "labelled_ridge_fallback": 34
+          },
+          "mean_logloss": 1.0333390523666257,
+          "mean_Brier": 0.5336986668147413,
+          "positive_cost": 24
+        },
+        "fixed_unit": {
+          "counts": {
+            "native": 673,
+            "labelled_ridge_fallback": 95
+          },
+          "mean_logloss": 1.1201040926834605,
+          "mean_Brier": 0.5445227282663097,
+          "positive_cost": 43
+        },
+        "labelled_MLE": {
+          "counts": {
+            "support_unavailable": 112,
+            "native": 656
+          },
+          "mean_logloss": 1.064819333727223,
+          "mean_Brier": 0.5492415752429666,
+          "positive_cost": 40
+        },
+        "labelled_ridge": {
+          "counts": {
+            "native": 768
+          },
+          "mean_logloss": 0.9117535067250881,
+          "mean_Brier": 0.5344801673841022,
+          "positive_cost": 40
+        },
+        "all_human_MLE": {
+          "counts": {
+            "native": 768
+          },
+          "mean_logloss": 0.7325884397687993,
+          "mean_Brier": 0.4388191407924376,
+          "positive_cost": 0
+        },
+        "all_human_ridge": {
+          "counts": {
+            "native": 768
+          },
+          "mean_logloss": 0.759250362437526,
+          "mean_Brier": 0.4556482567150097,
+          "positive_cost": 0
+        },
+        "frozen_teacher": {
+          "counts": {
+            "frozen_teacher": 768
+          },
+          "mean_logloss": 0.7639285074634348,
+          "mean_Brier": 0.456888733027695,
+          "positive_cost": 0
+        }
+      },
+      "all_policy_comparisons": {
+        "safe_half__vs__labelled_ridge": {
+          "pairs": 768,
+          "lower_logloss": 223,
+          "higher_logloss": 433,
+          "tied_logloss": 112,
+          "paired_mean_logloss_difference": 0.09423988911900855,
+          "paired_median_logloss_difference": 0.008676656864797516,
+          "paired_mean_Brier_difference": 0.003940040992004116,
+          "lower_Brier": 280,
+          "higher_Brier": 376,
+          "tied_Brier": 112
+        },
+        "safe_half__vs__fixed_half": {
+          "pairs": 768,
+          "lower_logloss": 318,
+          "higher_logloss": 418,
+          "tied_logloss": 32,
+          "paired_mean_logloss_difference": -0.027345656522529085,
+          "paired_median_logloss_difference": 0.0023290367783853627,
+          "paired_mean_Brier_difference": 0.004721541561364984,
+          "lower_Brier": 300,
+          "higher_Brier": 436,
+          "tied_Brier": 32
+        },
+        "safe_half__vs__fixed_unit": {
+          "pairs": 768,
+          "lower_logloss": 343,
+          "higher_logloss": 382,
+          "tied_logloss": 43,
+          "paired_mean_logloss_difference": -0.11411069683936392,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": -0.00610251989020346,
+          "lower_Brier": 355,
+          "higher_Brier": 370,
+          "tied_Brier": 43
+        },
+        "safe_half__vs__all_human_MLE": {
+          "pairs": 768,
+          "lower_logloss": 0,
+          "higher_logloss": 768,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2734049560752974,
+          "paired_median_logloss_difference": 0.19423591648811633,
+          "paired_mean_Brier_difference": 0.09960106758366864,
+          "lower_Brier": 8,
+          "higher_Brier": 760,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__all_human_ridge": {
+          "pairs": 768,
+          "lower_logloss": 8,
+          "higher_logloss": 760,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.2467430334065707,
+          "paired_median_logloss_difference": 0.17036548205743496,
+          "paired_mean_Brier_difference": 0.08277195166109659,
+          "lower_Brier": 16,
+          "higher_Brier": 752,
+          "tied_Brier": 0
+        },
+        "safe_half__vs__frozen_teacher": {
+          "pairs": 768,
+          "lower_logloss": 18,
+          "higher_logloss": 750,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.242064888380662,
+          "paired_median_logloss_difference": 0.16498098651833482,
+          "paired_mean_Brier_difference": 0.08153147534841111,
+          "lower_Brier": 39,
+          "higher_Brier": 729,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__labelled_ridge": {
+          "pairs": 768,
+          "lower_logloss": 254,
+          "higher_logloss": 402,
+          "tied_logloss": 112,
+          "paired_mean_logloss_difference": 0.07835383189787719,
+          "paired_median_logloss_difference": 0.0036596928477291013,
+          "paired_mean_Brier_difference": 0.0007279743047729816,
+          "lower_Brier": 305,
+          "higher_Brier": 351,
+          "tied_Brier": 112
+        },
+        "safe_edge__vs__fixed_half": {
+          "pairs": 768,
+          "lower_logloss": 384,
+          "higher_logloss": 352,
+          "tied_logloss": 32,
+          "paired_mean_logloss_difference": -0.043231713743660444,
+          "paired_median_logloss_difference": -5.673325319643929e-06,
+          "paired_mean_Brier_difference": 0.0015094748741338513,
+          "lower_Brier": 362,
+          "higher_Brier": 374,
+          "tied_Brier": 32
+        },
+        "safe_edge__vs__fixed_unit": {
+          "pairs": 768,
+          "lower_logloss": 382,
+          "higher_logloss": 343,
+          "tied_logloss": 43,
+          "paired_mean_logloss_difference": -0.12999675406049527,
+          "paired_median_logloss_difference": 0.0,
+          "paired_mean_Brier_difference": -0.009314586577434596,
+          "lower_Brier": 385,
+          "higher_Brier": 340,
+          "tied_Brier": 43
+        },
+        "safe_edge__vs__all_human_MLE": {
+          "pairs": 768,
+          "lower_logloss": 0,
+          "higher_logloss": 768,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.25751889885416607,
+          "paired_median_logloss_difference": 0.19303587816494322,
+          "paired_mean_Brier_difference": 0.0963890008964375,
+          "lower_Brier": 1,
+          "higher_Brier": 767,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__all_human_ridge": {
+          "pairs": 768,
+          "lower_logloss": 9,
+          "higher_logloss": 759,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.23085697618543935,
+          "paired_median_logloss_difference": 0.15976606964739448,
+          "paired_mean_Brier_difference": 0.07955988497386544,
+          "lower_Brier": 13,
+          "higher_Brier": 755,
+          "tied_Brier": 0
+        },
+        "safe_edge__vs__frozen_teacher": {
+          "pairs": 768,
+          "lower_logloss": 16,
+          "higher_logloss": 752,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.22617883115953066,
+          "paired_median_logloss_difference": 0.15486987910434435,
+          "paired_mean_Brier_difference": 0.07831940866117998,
+          "lower_Brier": 25,
+          "higher_Brier": 743,
+          "tied_Brier": 0
+        }
+      },
+      "common_labelled_MLE": {
+        "safe_half": {
+          "pairs": 656,
+          "lower_logloss": 514,
+          "higher_logloss": 142,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.0528645422637229,
+          "paired_median_logloss_difference": -0.018244161830790306,
+          "paired_mean_Brier_difference": -0.013143126256254158,
+          "lower_Brier": 496,
+          "higher_Brier": 160,
+          "tied_Brier": 0
+        },
+        "safe_edge": {
+          "pairs": 656,
+          "lower_logloss": 481,
+          "higher_logloss": 175,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": -0.07146285315675473,
+          "paired_median_logloss_difference": -0.026417674760012,
+          "paired_mean_Brier_difference": -0.016903594573012562,
+          "lower_Brier": 465,
+          "higher_Brier": 191,
+          "tied_Brier": 0
+        }
+      },
+      "rescued_at_unit": {
+        "labelled_MLE": {
+          "pairs": 52,
+          "lower_logloss": 25,
+          "higher_logloss": 27,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.017879039799887905,
+          "paired_median_logloss_difference": 0.0027459792271341543,
+          "paired_mean_Brier_difference": 0.0018858768664932757,
+          "lower_Brier": 20,
+          "higher_Brier": 32,
+          "tied_Brier": 0
+        },
+        "labelled_ridge": {
+          "pairs": 52,
+          "lower_logloss": 8,
+          "higher_logloss": 44,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.26279656610399366,
+          "paired_median_logloss_difference": 0.13651186129065818,
+          "paired_mean_Brier_difference": 0.03531240667339887,
+          "lower_Brier": 8,
+          "higher_Brier": 44,
+          "tied_Brier": 0
+        },
+        "all_human_MLE": {
+          "pairs": 52,
+          "lower_logloss": 0,
+          "higher_logloss": 52,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.479411202010026,
+          "paired_median_logloss_difference": 0.38039865524697625,
+          "paired_mean_Brier_difference": 0.14654020952744612,
+          "lower_Brier": 0,
+          "higher_Brier": 52,
+          "tied_Brier": 0
+        },
+        "frozen_teacher": {
+          "pairs": 52,
+          "lower_logloss": 1,
+          "higher_logloss": 51,
+          "tied_logloss": 0,
+          "paired_mean_logloss_difference": 0.4570961189276975,
+          "paired_median_logloss_difference": 0.38124291668045374,
+          "paired_mean_Brier_difference": 0.13405287442853778,
+          "lower_Brier": 2,
+          "higher_Brier": 50,
+          "tied_Brier": 0
+        }
+      },
+      "derivative": {
+        "pairs": 656,
+        "negative_at_zero": 533,
+        "lower_at_half_cap": 514,
+        "sign_agrees_with_small_secant": 656,
+        "sign_agrees_with_half_cap_change": 637,
+        "median_slope": -0.19372952451786116
+      }
+    }
+  ],
+  "hashes": {
+    "fits.json": "aac92577be662065baeaf2ba611e935242d3ef2a1c177d2e8b55df845369e0e9",
+    "derivatives.json": "ca21e0e350820578c2a08b01ad2c6454dab98c0756c2ccd3dec4c55e67a7a4ab"
+  },
+  "verifier_sha256": "defe0d432f67c20ea2d1aba253188f9520bafdf2a35271b6afa1f3b6c3bd5e61",
+  "plan_sha256": "3f71d43663f96a2ce23dc04b05f4625ec4e03ab04712c481c9d9cdcea944efbf"
+}

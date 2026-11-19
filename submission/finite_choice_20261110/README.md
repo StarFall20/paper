@@ -1,5 +1,7 @@
 # Finite solutions in prediction assisted choice logit
 
+The [current revision](reports/current_manuscript.json) adds held-out comparisons of the safe weights in Section 4.9. The [forecast supplement](results/safe_power_forecast/README.md) records common labelled fits, ridge fallback and a matched total human-label budget.
+
 The [current revision](reports/current_manuscript.json) adds the fixed-label auxiliary-design comparison and the bound obtained from labelled choices in Section 4.9 and Appendix C14. [Archived checks](results/design_and_safe_power/README.md) cover 768 design pairs and 656 positive support witnesses.
 
 The [current revision](reports/current_manuscript.json) fixes the power, predictor, labelled choices and auxiliary sample size in Section 3.5 and Appendix B5. [Exact checks](results/fixed_power_identical_scores/README.md) cover 30 matched auxiliary design triplets and reach derivative order 33, including an example with 32 labelled and 32 auxiliary rows. The complete Word has 78 pages and the reading copy has 30.

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "integration": "reports/safe_power_integration_20261119.json",
-  "visual_qa": "reports/safe_power_visual_qa_20261119.json",
-  "validation": "reports/safe_power_validation_20261119.json",
+  "integration": "reports/safe_forecast_integration_20261119.json",
+  "visual_qa": "reports/safe_forecast_visual_qa_20261119.json",
+  "validation": "reports/safe_forecast_validation_20261119.json",
   "historical_reports_are_dated_snapshots": true
 }

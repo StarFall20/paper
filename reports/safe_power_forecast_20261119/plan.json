@@ -1,0 +1,56 @@
+{
+  "state": "specified before any forecast under the new safety policies is fit or evaluated",
+  "evidence_base": "Same 96 labelled allocations, 8 auxiliary samples each, and held-out respondent groups as archived. No further data generation. Previously published forecasts concern other power rules or auxiliary sample sizes.",
+  "label_counts": {
+    "RADIANT": {
+      "teacher": 100,
+      "evaluation": 60,
+      "correction": [
+        5,
+        10
+      ]
+    },
+    "Swissmetro": {
+      "teacher": 600,
+      "evaluation": 240,
+      "correction": [
+        5,
+        10
+      ]
+    }
+  },
+  "method": {
+    "safe_half": "half of the archived positive labelled-only cap",
+    "safe_edge": "archived labelled-only cap itself",
+    "fixed_half": "constant power 0.5 when archive support is interior",
+    "fixed_unit": "constant power 1 when archive support is interior",
+    "labelled_MLE": "ordinary labelled MLE when archive support is interior",
+    "labelled_ridge": "same revealed labels and the previous mean-loss ridge penalty 0.01",
+    "all_human_MLE": "use all observed predictor-training respondents plus the revealed sample, same utility specification",
+    "all_human_ridge": "same as all_human_MLE with ridge penalty 0.01",
+    "frozen_teacher": "original predicted evaluation probabilities, using the previously trained specification"
+  },
+  "fallback": "All safe/fixed policies use labelled ridge when their unpenalized estimate is unavailable. Report both native fit counts and the all-case policy values. Labelled MLE unpenalized results are restricted to available fits.",
+  "metrics": [
+    "respondent-averaged human log loss",
+    "respondent-averaged multinomial Brier score",
+    "availability",
+    "count of positive utility cost coefficients when slopes are comparable"
+  ],
+  "primary_comparison": "safe_half pooled with its declared fallback vs labelled_ridge, fixed_half and all_human_MLE",
+  "secondary": "safe_edge and labelled MLE on common support. In normal labelled fits compute the held-out first derivative at power zero. Verify the derivative by a small positive power using one percent of the same safe cap, purely as a numerical check, never as tuning.",
+  "verification": "Fit the original observed and predicted menu objective. Independently reconstruct the exact target, normalized gradient, penalty if applicable, log loss and Brier from raw rows. Validate differences against frozen caps and original support states. Any numerical failure must stay visible.",
+  "analysis_scope": "Describe paired repeat-allocations within fixed holdout cohorts. No uncertainty estimate for a new population. Training cost comparison allows the same labels to inform ordinary target fits. Incremental cost comparison treats predictor as pre-existing.",
+  "pinned_inputs": {
+    "reference/run.py": "ded7407d65ff2f117bf47d1f70e9830b814d3dc3d7e835a1e8212cc910411a8f",
+    "reference/plan.json": "cec38baa35431a2c7d48b86f799c030f7db4c19bdc2372fbf93b834812412ca3",
+    "reference/results/allocations.csv": "8e66dc8987b8e537f3a90ba4c70dfe2ed8de5b080f66f326dc034ccb2bad9a22",
+    "certificate/safe_results/records.csv": "43189ae6ff7404fa151a20eb290f59fb433c5d72e6778df7989da90dfbd66674",
+    "certificate/safe_results/summary.json": "5f78f5caa93fee960a12ecac3cae6f921bf86a25b7d4eb03eb7457aa4b489133"
+  },
+  "tolerance": {
+    "score": 1e-07,
+    "proof_cap": 1e-08,
+    "tie": 1e-10
+  }
+}

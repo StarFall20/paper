@@ -228,3 +228,14 @@ record = json.loads((sd/'independent_replay.json').read_text())
 assert record['status']=='passed' and record['design_pairs']==768 and record['positive_witnesses']==656
 for path,h in record['four_identical_results'].items():
     assert hashlib.sha256((sd/path).read_bytes()).hexdigest()==h
+
+
+# Bind the paired finite-fit forecasting experiment to the current manuscript.
+forecast_results = ROOT/'results/safe_power_forecast'
+for line in (forecast_results/'MANIFEST.sha256').read_text().splitlines():
+    expected, n = line.split('  ', 1)
+    assert hashlib.sha256((forecast_results/n).read_bytes()).hexdigest()==expected,n
+forecast_replay = json.loads((forecast_results/'independent_replay.json').read_text())
+assert forecast_replay['status']=='passed' and forecast_replay['shared_paired_designs']==768
+for path,h in forecast_replay['byte_identical_outputs'].items():
+    assert hashlib.sha256((forecast_results/'results'/path).read_bytes()).hexdigest()==h

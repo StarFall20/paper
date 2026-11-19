@@ -1,0 +1,33 @@
+{
+  "state": "fixed before constructing new auxiliary allocations or running new support outcomes",
+  "fixed_choices": "Same archive label respondent orders. The first 24 label draws and first 5 or 10 respondents in each. All menus per respondent.",
+  "target_specs": [
+    "RADIANT food 11",
+    "Swissmetro canonical 4"
+  ],
+  "frozen_teacher": "Reuse archived predictor and the original training/holdout/pool split. Only correction pool records are touched.",
+  "auxiliary": "For each fixed label draw, eight independently permuted, without-replacement groups of 64 remaining respondents. Draws are deterministic and shared across power; no evaluations or labels select groups.",
+  "label_allocations": 24,
+  "label_budgets": [
+    5,
+    10
+  ],
+  "auxiliary_draws": 8,
+  "auxiliary_people": 64,
+  "auxiliary_generator_seed": 89350731,
+  "powers": [
+    1,
+    0.5
+  ],
+  "source_files_sha256": {
+    "food_model": "ed198611b3757aaeaade695f9a5659e570ebb14e05534715f580152e70960606",
+    "food_plan": "99d95f6bc3fca966eb03fa64e43f538f9d1e99b653eae3df016d95e74cb516f1",
+    "food_prediction": "a96ca3ab796b057f1741948b8436c9c2fb17b01728b0cccc20fc00c14297ad14",
+    "swiss_model": "a81c6cf3c3531c5828a66c59919c2f5288e729172c36d96948f50e0c698fc831",
+    "swiss_plan": "35344070eb367974dcd757a866a11f3f04501a33af97d68130be743a20cad810",
+    "swiss_prediction": "8e7982bbd3058a47a2c51ffe66db15cee83bfd9ed477737b783d99d19ae8eab6"
+  },
+  "comparison": "Count label allocations with observed interior and exterior outcomes when only the auxiliary design changes. Compare powers separately. Also record ordinary labelled support.",
+  "uncertainty_scope": "Descriptive overlapping label and auxiliary allocations within two released fixed datasets. No causal or population inference.",
+  "verification": "Strict feasibility using two primal formulations. For every exterior case, verify a negative recession direction on original available menus. Keep numerical boundary and rank issues in denominators."
+}

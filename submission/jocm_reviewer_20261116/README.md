@@ -1,6 +1,6 @@
 # Reproduce When prediction assisted logit estimates exist
 
-Section 4.9 and Appendix C14 add the fixed-label auxiliary comparison and the labelled-only safe correction bound. The archive reproduces 768 paired-design checks and 656 labelled-margin support witnesses. The complete and reading Word files have 81 and 31 reviewed pages. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
+Section 4.9 adds 768 paired choice forecasts using the safe power, a declared fallback and both human-label cost comparisons. The archive reproduces the fits, independent originals and derivative diagnostics. The complete and reading Word files have 81 and 31 reviewed pages. Start with [the main text](manuscript/main_text.docx), [the complete paper and proofs](manuscript/paper.docx), and the [evidence map](EVIDENCE_MAP.md). The [current source and layout pointer](reports/current_manuscript.json) identifies the release. Old editorial integration reports have been removed from this copy; retained dated files serve source provenance or executable checks.
 
 Use Python 3.12 with [the recorded versions](requirements.txt). Run these commands from this directory, using a new output directory:
 

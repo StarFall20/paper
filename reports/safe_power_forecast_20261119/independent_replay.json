@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "byte_identical_outputs": {
+    "fits.json": "aac92577be662065baeaf2ba611e935242d3ef2a1c177d2e8b55df845369e0e9",
+    "derivatives.json": "ca21e0e350820578c2a08b01ad2c6454dab98c0756c2ccd3dec4c55e67a7a4ab",
+    "summary.json": "c91c0482ad960be5f1161d877f50d5b299554f3974eef995b533964de7977efb"
+  },
+  "fit_records": 3552,
+  "shared_paired_designs": 768,
+  "zero_power_derivatives": 656
+}

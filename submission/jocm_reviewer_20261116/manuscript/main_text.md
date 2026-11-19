@@ -359,6 +359,8 @@ We fix each of 96 sets of revealed choices in RADIANT and Swissmetro, including 
 
 Before observing responses, the alternative constants give a possible response assignment with unbounded loss at every positive power in all 768 design pairs. These directions identify none of the 95 exterior targets under the observed responses at unit power. After observing responses, the labelled support gives a power bound that protects against changes in auxiliary menus with full contrast rank and strictly positive predictions. The bound is positive in 82 of the 96 label sets, with a median of 0.3141 among the positive bounds. Half the bound gives a positive support witness in all 656 corresponding pairs, including 52 which are exterior at unit power. Appendix C14 derives both results and gives the scope of the guarantee.
 
+At half the bound, held-out log loss is lower than ordinary MNL in 514 of the 656 jointly finite fits. The mean difference is −0.0529. Against ridge MNL on the same revealed choices, the full policy with its labelled-ridge fallback raises mean loss by 0.0942 across 768 allocations. When direct MNL receives both predictor-training and revealed choices, its loss is lower in all 768 comparisons, including the 52 fits recovered from exterior unit-power targets. The supplement records full-bound fits, Brier scores and the zero-power derivative check.
+
 ## 5 Finite estimation and statistical performance
 
 ### 5.1 Known truth experiment
@@ -611,7 +613,7 @@ Loureiro, B., Gerbelot, C., Cui, H., Goldt, S., Krzakala, F., Mézard, M., Zdebo
 
 Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html
 
-Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. arXiv:2505.20178, version 2. https://arxiv.org/abs/2505.20178v2
+Mani, P., Xu, P., Lipton, Z.C., Oberst, M. (2026). No Free Lunch: Non-Asymptotic Analysis of Prediction-Powered Inference. Proceedings of the 43rd International Conference on Machine Learning, PMLR 306, 86296–86335. https://proceedings.mlr.press/v306/mani26b.html
 
 Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of max-margin linear classifiers: Benign overfitting and high-dimensional asymptotics in the overparametrized regime. Annals of Statistics 53(2), 822–853. https://doi.org/10.1214/25-AOS2489. Preprint: https://arxiv.org/html/1911.01544v3
 
