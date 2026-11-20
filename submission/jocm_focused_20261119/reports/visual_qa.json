@@ -4,6 +4,8 @@
     "directly_reviewed_pages": [
       1,
       6,
+      7,
+      8,
       9,
       10,
       11
@@ -12,25 +14,18 @@
       2,
       3,
       4,
-      5,
-      7,
-      8
+      5
     ],
-    "sha256": "c8f5c05c44c3e6e03395d9f4368f3fe74c32e855b2889d70d787b7f8186a3db9",
+    "body_identical_with_renumbered_footer": {},
+    "sha256": "226e14326079bbc00eefc623bc2da8f8e1b8af31be8ee43ba9f15884a8fe5034",
     "page_numbering_verified": true
   },
   "supplement": {
-    "pages": 96,
+    "pages": 97,
     "directly_reviewed_pages": [
       88,
       89,
-      90,
-      91,
-      92,
-      93,
-      94,
-      95,
-      96
+      90
     ],
     "inherited_pixel_identical_pages": [
       1,
@@ -121,7 +116,16 @@
       86,
       87
     ],
-    "sha256": "873bdd6af8c38543d1b5b715eb47ee323a4fb8afd9216a3b18cd4cf720481bd6",
+    "body_identical_with_renumbered_footer": {
+      "91": 90,
+      "92": 91,
+      "93": 92,
+      "94": 93,
+      "95": 94,
+      "96": 95,
+      "97": 96
+    },
+    "sha256": "ebabe28f67132c65d3f5037cbe3d9a1e224375aacff0cd166d35901bfd5e0204",
     "page_numbering_verified": true
   }
 }
