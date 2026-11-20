@@ -8,8 +8,8 @@
     "Highlights.docx": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
     "Title_page.docx": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c",
     "Manuscript.docx": "f16b9b7fd747ff760f2357933f85adb5a864b73c3074f3b0c0c36aaac08d2708",
-    "Supplementary_Methods_and_Proofs.docx": "e10bcccee6c3b5e85c1557a0927c810a15fcd303a839c3473c07b658b1bb5173",
-    "Reproduction_Materials.zip": "4cdf9f7df4bebd2d95d543f3c2ba424c1692f9c96d6f371459c1c5530ba6956e",
+    "Supplementary_Methods_and_Proofs.docx": "9c6ba290cd5f94d9c8a705095ff881baca82f15a52e9460af05ace48c78020c0",
+    "Reproduction_Materials.zip": "c9f47d533ed24b52048fe12d57090a42cd9b490ca18bcc8cb820c770e73c735c",
     "Cover_letter.docx": "e07f3abb1c961b48c5666edec2c35684cfaf07f9a970a06b9634b5651d00aeed",
     "Figures/Figure_1.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291"
   },
@@ -36,18 +36,17 @@
   "visual_review": {
     "manuscript": {
       "pages": 11,
-      "directly_reviewed_pages": [
-        6,
-        7,
-        8,
-        9
-      ],
+      "directly_reviewed_pages": [],
       "inherited_pixel_identical_pages": [
         1,
         2,
         3,
         4,
         5,
+        6,
+        7,
+        8,
+        9,
         10,
         11
       ],
@@ -153,12 +152,12 @@
         86,
         87
       ],
-      "sha256": "e10bcccee6c3b5e85c1557a0927c810a15fcd303a839c3473c07b658b1bb5173",
+      "sha256": "9c6ba290cd5f94d9c8a705095ff881baca82f15a52e9460af05ace48c78020c0",
       "page_numbering_verified": true
     }
   },
   "reproduction": {
-    "archive_entries": 1325,
+    "archive_entries": 1329,
     "exact_design_cases": 30,
     "highest_matched_derivative_order_checked": 33,
     "swissmetro_original_menu_score_checks": 1960,
@@ -175,7 +174,7 @@
     "unit_limit_independently_recomputed_path_points": 30,
     "unit_limit_archived_unit_states_screened": 3824,
     "food_original_menu_method_records": 16000,
-    "verification_receipt_sha256": "2ae3468544a9b1b9c5f836d12f8a7013d69c975dbd2bb3174e565e7b014d51ea",
+    "verification_receipt_sha256": "cd3708b7128f69c07c3c1ed4038eef0eccb497dff1a9480b85cf14a3b04a576d",
     "hessian_grid_minimum_checks": 119,
     "hessian_continuous_bound_checks": 2320,
     "matched_auxiliary_pairs": 5376,
@@ -188,8 +187,8 @@
     "matched_soft_label_configurations": 8000,
     "matched_soft_label_finite_scores_verified": 7993,
     "matched_soft_label_lp_checks": 32,
-    "total_verified_checks": 22,
-    "prior_checks_preserved": 19,
+    "total_verified_checks": 23,
+    "prior_checks_preserved": 20,
     "current_archive_fresh_checks": 3,
     "interior_weight_configurations": 400,
     "interior_weight_margins_recomputed": 32,
@@ -199,7 +198,9 @@
     "public_fixed_menu_configurations": 768,
     "public_same_menu_unit_opposite_pairs": 70,
     "public_weight_limits": 384,
-    "subunit_state_checks": 128
+    "subunit_state_checks": 128,
+    "shared_forecast_weight_limits": 384,
+    "forecast_comparison_state_checks": 400
   },
   "open_items": [
     "Scopus subscribed document search",
@@ -208,7 +209,7 @@
     "author confirmation of final declarations and files",
     "generate official competing-interest Word using the publisher tool"
   ],
-  "edition": "public_frequency_effect_inside_weight_interval",
+  "edition": "public_frequency_effect_with_shared_predictions",
   "priority_review": {
     "scopus_verified_result_sets_added": 0,
     "official_ppi_plus_plus_supplements_accessible": false,

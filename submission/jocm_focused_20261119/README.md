@@ -44,3 +44,6 @@ Appendix J verifies an exact three-state frequency comparison and checks the sam
 
 Appendix J verifies per-allocation correction-weight limits for 384 previously used food allocations. With all auxiliary menus and their forecasts fixed, 12 pairs span a finite fit and an unbounded objective at weight 0.75, with ordinary labelled Logit finite.
  [Public weight limits](../../reports/public_common_menu_weight_limits_20261120/README.md)
+
+Appendix J compares the same menu forecast in both samples with the original labelled forecast. Across all 37 ordinary-interior label groups the shared forecast gives seven opposite-state pairs at weight 0.90 and none at 0.75. Two forecast conventions use the same allocations.
+ [Shared forecasts](../../reports/public_common_menu_shared_predictor_20261120/README.md)

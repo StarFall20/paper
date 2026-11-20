@@ -40,3 +40,5 @@ Section 3.4 and Appendix J verify the diagnostic limitation while holding the en
 Appendix J verifies an exact three-state frequency comparison and checks the same mechanism on the public RADIANT menus. A fixed auxiliary forecast for each of 34 menus leaves 70 finite-versus-unbounded pairs at unit weight and none at weight 0.5.
 
 Appendix J verifies per-allocation correction-weight limits for 384 previously used food allocations. With all auxiliary menus and their forecasts fixed, 12 pairs span a finite fit and an unbounded objective at weight 0.75, with ordinary labelled Logit finite.
+
+Appendix J compares the same menu forecast in both samples with the original labelled forecast. Across all 37 ordinary-interior label groups the shared forecast gives seven opposite-state pairs at weight 0.90 and none at 0.75. Two forecast conventions use the same allocations.

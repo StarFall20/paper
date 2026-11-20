@@ -1,18 +1,17 @@
 {
   "manuscript": {
     "pages": 11,
-    "directly_reviewed_pages": [
-      6,
-      7,
-      8,
-      9
-    ],
+    "directly_reviewed_pages": [],
     "inherited_pixel_identical_pages": [
       1,
       2,
       3,
       4,
       5,
+      6,
+      7,
+      8,
+      9,
       10,
       11
     ],
@@ -118,7 +117,7 @@
       86,
       87
     ],
-    "sha256": "e10bcccee6c3b5e85c1557a0927c810a15fcd303a839c3473c07b658b1bb5173",
+    "sha256": "9c6ba290cd5f94d9c8a705095ff881baca82f15a52e9460af05ace48c78020c0",
     "page_numbering_verified": true
   }
 }

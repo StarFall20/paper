@@ -139,3 +139,7 @@ The RADIANT check holds auxiliary menu support, the forecast per auxiliary menu 
 ## Additional abstract screening
 
 The current manuscript and supplement were locally checked against 530 abstracts in 12 archive Web of Science exports. No contiguous match of eight or more normalized words was detected. Title blocks, tables, equations and references are excluded. This covers the archived abstracts. Formal full-text similarity screening remains open.
+
+## Forecast comparison
+
+Using the same forecast in both samples retains the empirical frequency mechanism at weight 0.90. The lower-weight comparison shows sensitivity to the labelled forecast. The local exact-match screen against the archived 530 abstracts was repeated on these revised sources.

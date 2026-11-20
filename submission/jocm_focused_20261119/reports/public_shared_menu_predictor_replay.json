@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "results_sha256": "c1ba1da8672c96b8f89f33a89711cbd69ebb439e396f061635de612fb0c95227",
+  "source_sha256": {
+    "focused_article.md": "c8e13bdbbcb7899162f0c1ea0942497964d466a57ffecee280b8d3a70efc90d1",
+    "focused_supplement.md": "5ccc94e5f0a00b56a9460587c8abc99a774a04e3a5672ccb863c038ae83de6f2"
+  },
+  "summary": {
+    "status": "passed",
+    "workbook_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+    "label_groups": 48,
+    "total_allocations": 384,
+    "original_weight_audit_sha256": "95ef89475ffd053a359d3be491569be252aa47359ecbc769131854f66a77bfb5",
+    "ordinary_finite_groups": 37,
+    "verified_ordinary_finite_mixed_groups": 5,
+    "direct_probability_state_checks": 400,
+    "changed_state_pairs": {
+      "shared_forecast": {
+        "0.75": 0,
+        "0.9": 7,
+        "0.95": 7,
+        "0.99": 16,
+        "1.0": 16
+      },
+      "auxiliary_only_shared": {
+        "0.75": 28,
+        "0.9": 29,
+        "0.95": 37,
+        "0.99": 55,
+        "1.0": 55
+      }
+    }
+  }
+}

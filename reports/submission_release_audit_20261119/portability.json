@@ -34,6 +34,7 @@
     "paired_task_integral",
     "paired_task_states",
     "public_common_menu_diagnostics",
+    "public_common_menu_shared_predictor",
     "public_common_menu_weight_limits",
     "public_residual_margin",
     "swissmetro_budget",
@@ -55,10 +56,10 @@
       "sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e"
     }
   },
-  "final_archive_manifest_sha256": "a190c671bf499ad362b45aa8af576f6d4e6ac867cfdcb5822bf60c27a4e07c1e",
+  "final_archive_manifest_sha256": "e79e93b4d9d6e6cb21a97d2899a2788a3c4777ef7f01dc79cbf63b28f961f504",
   "current_fresh_checks": [
     "headline",
     "inventory",
-    "public_common_menu_weight_limits"
+    "public_common_menu_shared_predictor"
   ]
 }

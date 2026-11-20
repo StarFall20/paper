@@ -1,0 +1,3164 @@
+{
+  "status": "passed",
+  "workbook_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "label_groups": 48,
+  "total_allocations": 384,
+  "original_weight_audit_sha256": "95ef89475ffd053a359d3be491569be252aa47359ecbc769131854f66a77bfb5",
+  "ordinary_finite_groups": 37,
+  "verified_ordinary_finite_mixed_groups": 5,
+  "direct_probability_state_checks": 400,
+  "changed_state_pairs": {
+    "shared_forecast": {
+      "0.75": 0,
+      "0.9": 7,
+      "0.95": 7,
+      "0.99": 16,
+      "1.0": 16
+    },
+    "auxiliary_only_shared": {
+      "0.75": 28,
+      "0.9": 29,
+      "0.95": 37,
+      "0.99": 55,
+      "1.0": 55
+    }
+  },
+  "groups": [
+    {
+      "trial": 0,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 0,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 1,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 1,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.8747383245829251,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.550779071344148,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.5930329382712801,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.9837763206556515,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.8729538007553556,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 4,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 4,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 5,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 5,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 6,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 6,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 7,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        }
+      ]
+    },
+    {
+      "trial": 7,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.9854607638031009
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.9905142578094883
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 0.9480291744433424,
+          "earlier_weight_limit": 0.9180945417436753
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 10,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 0.9390702749419779,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 0.8453295450746171,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 10,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 11,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 0.6611149057517985,
+          "earlier_weight_limit": 0.8177214602883255,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 1,
+          "weight_limit": 0.591273063297384,
+          "earlier_weight_limit": 0.6796574804320616,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 2,
+          "weight_limit": 0.7079679948548744,
+          "earlier_weight_limit": 0.8385346024765652,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 3,
+          "weight_limit": 0.5649342054160826,
+          "earlier_weight_limit": 0.6450859460454061,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 4,
+          "weight_limit": 0.5313710892373428,
+          "earlier_weight_limit": 0.6016892826278801,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 5,
+          "weight_limit": 0.6755499035227153,
+          "earlier_weight_limit": 0.7934373572936174,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 6,
+          "weight_limit": 0.5997525336184946,
+          "earlier_weight_limit": 0.7633842960383395,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 7,
+          "weight_limit": 0.5028905607138865,
+          "earlier_weight_limit": 0.5712181908834937,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 11,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 1,
+          "weight_limit": 0.8500958309187369,
+          "earlier_weight_limit": 0.8390972162729442,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.95": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 5,
+          "weight_limit": 0.9597628859744783,
+          "earlier_weight_limit": 0.9457668243184179,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 6,
+          "weight_limit": 0.9815494015954285,
+          "earlier_weight_limit": 0.9669155539731058,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 7,
+          "weight_limit": 0.9525140365047354,
+          "earlier_weight_limit": 0.9387270754731367,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "0.99": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "outside",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 12,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 0.5058311325528558,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": -4.9767596580463326e-14,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 0.6615658191979178,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 0.6631243661967824,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 0.6882314416027872,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 0.565345987902326,
+          "earlier_weight_limit": -0.0
+        }
+      ]
+    },
+    {
+      "trial": 12,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 13,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 13,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 14,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        }
+      ]
+    },
+    {
+      "trial": 14,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 15,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 15,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 16,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 0.710585251515305,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 0.8417155031657118,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 0.6535106949074871,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 0.9161670609266507,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 0.8838853699317925,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 0.751525376757187,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 0.9151358938650371,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 16,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 17,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": -0.0,
+          "earlier_weight_limit": -0.0
+        }
+      ]
+    },
+    {
+      "trial": 17,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.9579135393561298,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.9817067407068933,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "outside"
+            }
+          }
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0,
+          "verified_probe_states": {
+            "0.75": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.9": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.95": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "0.99": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            },
+            "1.0": {
+              "shared_forecast": "interior",
+              "auxiliary_only_shared": "interior"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "trial": 18,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.9789768000765193
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.8818218165453747
+        },
+        {
+          "draw": 2,
+          "weight_limit": 0.8351327084330432,
+          "earlier_weight_limit": 0.6193635422962535
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.8166092251081046
+        },
+        {
+          "draw": 4,
+          "weight_limit": 0.7778436715977457,
+          "earlier_weight_limit": 0.6385039622754736
+        },
+        {
+          "draw": 5,
+          "weight_limit": 0.9223583747039004,
+          "earlier_weight_limit": 0.805024034287424
+        },
+        {
+          "draw": 6,
+          "weight_limit": 0.9929511036343764,
+          "earlier_weight_limit": 0.8785281774007179
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 0.9915927672567483
+        }
+      ]
+    },
+    {
+      "trial": 18,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 19,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 19,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 20,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 20,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 21,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 21,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 22,
+      "budget": 5,
+      "ordinary": "boundary_or_unresolved",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 22,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 23,
+      "budget": 5,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    },
+    {
+      "trial": 23,
+      "budget": 10,
+      "ordinary": "interior",
+      "records": [
+        {
+          "draw": 0,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 1,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 2,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 3,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 4,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 5,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 6,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        },
+        {
+          "draw": 7,
+          "weight_limit": 1.0,
+          "earlier_weight_limit": 1.0
+        }
+      ]
+    }
+  ]
+}
