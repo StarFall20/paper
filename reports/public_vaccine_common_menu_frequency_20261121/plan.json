@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-21",
+  "source_manifest_sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e",
+  "training_rows": [0, 1200],
+  "auxiliary_library": [1200, 2400],
+  "label_pool": [2400, 4605],
+  "frozen_forecasts": ["human_ridge_logit", "archived_AI_ridge_logit"],
+  "ridge_penalty_multiplier": 0.01,
+  "allocation_seed": 20261121,
+  "frequency_seed": 20261122,
+  "allocation_count": 96,
+  "source_block_size": 5,
+  "label_budgets": [25, 50, 150],
+  "auxiliary_rows_after_replication": 4800,
+  "weight_grid": [0.75, 0.9, 0.95, 1.0],
+  "frequency_scenarios": ["original", "multinomial_1", "multinomial_2", "low_moderate", "high_moderate", "low_strong", "high_strong"],
+  "frequency_rule": "Give each original row positive integer counts. Original uses four per row. Two random scenarios add independent multinomial allocations of 3600 counts to one per row. For the bottom and top forecast quintiles, moderate scenarios give selected rows eight and all other rows three, and strong scenarios give selected rows sixteen and all other rows one. Rank ties use original row order. Apply the seven scenarios to every allocation.",
+  "primary_comparison": "For each fixed human label allocation and forecast, retain comparisons with full-rank finite ordinary logit. Report opposite-state scenario pairs and comparisons to original multiplicities separately. Retain all support states and report unclear boundary states separately. Pool no results across label budgets or forecast rules.",
+  "checks": "Use the archived binary probability program for the primary computation. Independently compare the two probability-mass formulations and the original loss on one deterministic finite and one exterior allocation per forecast, budget and weight where a crossing is found. Recheck the score on every selected finite witness and show descent along a separating direction for its exterior partner.",
+  "interpretation": "A frequency stress test on a released design library. Allocation summaries are descriptive. Five-row blocks follow the released ordering convention and lack confirmed individual identifiers. The auxiliary observed human choices are not used, and no inference about vaccine uptake or population parameters is intended."
+}

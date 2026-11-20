@@ -1,0 +1,1266 @@
+{
+  "witness_allocations": 19,
+  "audited_scenarios": 38,
+  "exterior_scenarios": 32,
+  "max_derivative_error": 2.8477220581635265e-13,
+  "rows": [
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.75,
+      "allocation": 3,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.2000000000000058,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "66ba59ab518841ea97c60fd21b97c15b9921ac8c440227cef0fca57e7cf59387",
+      "derivative_errors": [
+        7.882583474838611e-15,
+        1.096345236817342e-15,
+        4.496403249731884e-15
+      ],
+      "constrained_moment_error": 1.7551932129933334e-14,
+      "original_direction_recession": -0.007591823785514928,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.044715447154471566,
+        -0.036585365853658514,
+        0.12601626016260162,
+        -0.1016260162601626,
+        -0.06097560975609756,
+        -0.10162601626016259,
+        -0.18699186991869918,
+        -0.08536585365853658,
+        -0.020325203252032513,
+        0.0,
+        -0.23577235772357724
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.75,
+      "allocation": 3,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5767269247773766,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "bc29f4262f4da9ea214f1c58d4d2539e146bdca9956d42d7fba6576bd1659d51",
+      "derivative_errors": [
+        2.4424906541753444e-15,
+        8.326672684688674e-17,
+        5.065392549852277e-15
+      ],
+      "constrained_moment_error": 1.0210582379599487e-14,
+      "original_direction_recession": -0.015326499964028767,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.06060606060606058,
+        -0.030303030303030304,
+        0.1212121212121212,
+        -0.09090909090909091,
+        -0.06060606060606061,
+        -0.09090909090909091,
+        -0.18181818181818182,
+        -0.0909090909090909,
+        -0.03030303030303029,
+        0.0,
+        -0.24242424242424243
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.9,
+      "allocation": 6,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000176,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "f775a4a504b7a23836367fe7f35731cd152f5f35a6fbd57722ea68d563b29fb6",
+      "derivative_errors": [
+        3.4416913763379853e-15,
+        5.551115123125783e-17,
+        1.6653345369377348e-15
+      ],
+      "constrained_moment_error": 4.786969431957999e-15,
+      "original_direction_recession": -0.007536419341478001,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.10000000000000005,
+        0.1,
+        0.11666666666666668,
+        -0.05,
+        0.13333333333333336,
+        -0.05,
+        -0.08333333333333336,
+        0.016666666666666666,
+        0.10000000000000002,
+        -0.18333333333333335,
+        0.06666666666666671
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.9,
+      "allocation": 6,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5780129415402133,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "71a4debcecab2215123b147b99f9e31112df5580b595a115f1d9d594437eba42",
+      "derivative_errors": [
+        8.548717289613705e-15,
+        5.551115123125783e-17,
+        4.6074255521944e-15
+      ],
+      "constrained_moment_error": 1.177801346036178e-14,
+      "original_direction_recession": -0.016812188646257914,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.1,
+        0.1,
+        0.11666666666666668,
+        -0.05,
+        0.13333333333333333,
+        -0.05,
+        -0.08333333333333331,
+        0.01666666666666669,
+        0.1,
+        -0.18333333333333335,
+        0.06666666666666668
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.95,
+      "allocation": 6,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000134,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "a80308b9546f7155ec0e76aa31664d02af22146bd0a257816630799bfe103593",
+      "derivative_errors": [
+        2.886579864025407e-15,
+        5.898059818321144e-17,
+        4.579669976578771e-16
+      ],
+      "constrained_moment_error": 5.591013763073249e-15,
+      "original_direction_recession": -0.008461074390537615,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.09375,
+        0.109375,
+        0.125,
+        -0.0625,
+        0.109375,
+        -0.0625,
+        -0.0625,
+        0.03125,
+        0.09375,
+        -0.1875,
+        0.0625
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.95,
+      "allocation": 6,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5783961870539515,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "57b8220c234e04a240ac47cc8f9481452245df2bf4892598091ddc39b2342918",
+      "derivative_errors": [
+        5.10702591327572e-15,
+        1.6653345369377348e-16,
+        1.304512053934559e-15
+      ],
+      "constrained_moment_error": 1.0660743121615468e-14,
+      "original_direction_recession": -0.018480703268459492,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.09375,
+        0.109375,
+        0.125,
+        -0.0625,
+        0.109375,
+        -0.0625,
+        -0.0625,
+        0.03125,
+        0.09375,
+        -0.1875,
+        0.0625
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 25,
+      "weight": 1.0,
+      "allocation": 6,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000118,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "c3bd2984c98db7847a1f26e5c72ad299c6d67b7c5729194f00e6e9e81b6c3458",
+      "derivative_errors": [
+        4.3298697960381105e-15,
+        4.163336342344337e-17,
+        3.608224830031759e-16
+      ],
+      "constrained_moment_error": 5.927116436543756e-15,
+      "original_direction_recession": -0.011969651067998494,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.10416666666666669,
+        0.08333333333333333,
+        0.08333333333333333,
+        -0.08333333333333333,
+        0.10416666666666669,
+        -0.08333333333333334,
+        -0.06250000000000003,
+        0.04166666666666666,
+        0.10416666666666669,
+        -0.20833333333333343,
+        0.041666666666666664
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 25,
+      "weight": 1.0,
+      "allocation": 6,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5796444545660508,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "1784d80c191e1ae2e0e3630965cf5f3fb7b6874f750334a95221d67eb51669da",
+      "derivative_errors": [
+        1.4099832412739488e-14,
+        1.1102230246251565e-15,
+        2.7101801705620154e-15
+      ],
+      "constrained_moment_error": 1.915655134521188e-14,
+      "original_direction_recession": -0.022499701815240553,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.10416666666666667,
+        0.08333333333333333,
+        0.08333333333333333,
+        -0.08333333333333333,
+        0.10416666666666667,
+        -0.08333333333333333,
+        -0.0625,
+        0.041666666666666664,
+        0.10416666666666667,
+        -0.20833333333333334,
+        0.041666666666666664
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.75,
+      "allocation": 89,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000134,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "e513dc73a0cad76cc8ea891bf9d52dd78dc9a459e7021b5993cb62143691516a",
+      "derivative_errors": [
+        2.220446049250313e-15,
+        5.551115123125783e-17,
+        1.8318679906315083e-15
+      ],
+      "constrained_moment_error": 6.050823904424352e-15,
+      "original_direction_recession": -0.0043455419791378486,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.21243523316062177,
+        0.3160621761658031,
+        0.005181347150259066,
+        -0.005181347150259066,
+        0.020725388601036263,
+        -0.005181347150259066,
+        -0.005181347150259066,
+        -0.16062176165803108,
+        -0.005181347150259066,
+        0.18652849740932645,
+        0.07772020725388604
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.75,
+      "allocation": 89,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5790243473981977,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "e1e9f48e42a34f36e4ab38fdc5c44d1d78a662668ab086d438ef6da82b8fa507",
+      "derivative_errors": [
+        2.4424906541753444e-15,
+        1.3877787807814457e-16,
+        5.35682609381638e-15
+      ],
+      "constrained_moment_error": 9.652001420334955e-15,
+      "original_direction_recession": -0.011368426981295782,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.19999999999999998,
+        0.3,
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        -0.19999999999999998,
+        0.0,
+        0.19999999999999998,
+        0.09999999999999994
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.9,
+      "allocation": 56,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000001333,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "ca63d6745505822ecf0fdba4e790130e5c05b16b1ff1545430663eb4c8411057",
+      "derivative_errors": [
+        2.3314683517128287e-14,
+        1.8943180357666733e-15,
+        8.465450562766819e-15
+      ],
+      "constrained_moment_error": 3.6544552106665407e-14,
+      "original_direction_recession": -0.004583694269915353,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.18932038834951456,
+        0.20873786407766987,
+        0.053398058252427175,
+        -0.10194174757281552,
+        0.029126213592233007,
+        -0.04854368932038833,
+        -0.16019417475728154,
+        -0.09223300970873782,
+        0.0,
+        0.053398058252427175,
+        0.06310679611650488
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.9,
+      "allocation": 56,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5785540607988252,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "684bceeb81c9094b0d96d731af4138c679ddabdf56ee975c22ffceb6433e426d",
+      "derivative_errors": [
+        7.105427357601002e-15,
+        2.8449465006019636e-16,
+        4.690692279041286e-15
+      ],
+      "constrained_moment_error": 9.34799113117002e-15,
+      "original_direction_recession": -0.010623593474214085,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.18181818181818174,
+        0.21212121212121213,
+        0.06060606060606072,
+        -0.12121212121212113,
+        0.030303030303030415,
+        -0.060606060606060594,
+        -0.15151515151515155,
+        -0.09090909090909093,
+        0.0,
+        0.030303030303030193,
+        0.06060606060606073
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.95,
+      "allocation": 8,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000134,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "6a2c14449f0808261b842868da048fcc566cd742b1cf4dba08b631bf0ba55f01",
+      "derivative_errors": [
+        2.9976021664879227e-15,
+        4.163336342344337e-17,
+        2.7755575615628914e-16
+      ],
+      "constrained_moment_error": 5.6893509001176845e-15,
+      "original_direction_recession": -0.004917131590391477,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.19512195121951223,
+        0.19512195121951217,
+        0.09756097560975609,
+        -0.09756097560975605,
+        0.09756097560975609,
+        -0.04878048780487805,
+        -0.12195121951219508,
+        0.024390243902439046,
+        -0.02439024390243906,
+        -0.02439024390243902,
+        -0.0731707317073171
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.95,
+      "allocation": 8,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5791563631894914,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "32229e86419bf4d475e905b2ed24b1ba77957e98141aa8a866cd0313bbcc80c9",
+      "derivative_errors": [
+        5.218048215738236e-15,
+        2.220446049250313e-16,
+        2.1371793224034263e-15
+      ],
+      "constrained_moment_error": 1.0436096431476471e-14,
+      "original_direction_recession": -0.013240469974020272,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.1875,
+        0.1875,
+        0.09375,
+        -0.09375,
+        0.09375,
+        -0.0625,
+        -0.125,
+        0.03125,
+        -0.03125,
+        -0.03125,
+        -0.06249999999999999
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 50,
+      "weight": 1.0,
+      "allocation": 8,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000176,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "8c726229f055d7c13fbadfad5a28d383994ff05c29b9e7be5f97079c4b21bb54",
+      "derivative_errors": [
+        4.107825191113079e-15,
+        1.1102230246251565e-16,
+        4.718447854656915e-16
+      ],
+      "constrained_moment_error": 5.8205393629884306e-15,
+      "original_direction_recession": -0.006515520049014734,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.21052631578947378,
+        0.21052631578947378,
+        0.10526315789473684,
+        -0.10526315789473684,
+        0.10526315789473684,
+        -0.052631578947368474,
+        -0.10526315789473673,
+        0.052631578947368585,
+        0.0,
+        0.0,
+        -0.05263157894736825
+      ]
+    },
+    {
+      "forecast": "human_ridge_logit",
+      "budget": 50,
+      "weight": 1.0,
+      "allocation": 8,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5790005696770317,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "da46e310f5f779e46f71fcbc663bd202a7cd9d00872d2023319c90ca84cdd736",
+      "derivative_errors": [
+        9.658940314238862e-15,
+        5.551115123125783e-17,
+        3.469446951953614e-16
+      ],
+      "constrained_moment_error": 1.2618812245124289e-14,
+      "original_direction_recession": -0.015639002509008793,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.21126760563380279,
+        0.1971830985915493,
+        0.09859154929577466,
+        -0.11267605633802817,
+        0.09859154929577466,
+        -0.042253521126760535,
+        -0.1267605633802817,
+        0.028169014084507032,
+        0.0,
+        -0.028169014084507088,
+        -0.05633802816901405
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.75,
+      "allocation": 0,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000226,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "df423c4b86d8cf6b559a48eba55ef5071d3bcbc442d328dc7ae113ae87a583f2",
+      "derivative_errors": [
+        2.7755575615628914e-15,
+        3.4677122284776374e-15,
+        2.275957200481571e-15
+      ],
+      "constrained_moment_error": 4.669875597329565e-15,
+      "original_direction_recession": 0.00275299695602603,
+      "final_state": "interior",
+      "separating_ray": null
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.75,
+      "allocation": 0,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.578545330177541,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "8aecc978ec357469237da9faaf5cce9654f9e894a00f859c76aede723b8def94",
+      "derivative_errors": [
+        2.4424906541753444e-15,
+        1.0408340855860843e-16,
+        4.9960036108132044e-15
+      ],
+      "constrained_moment_error": 1.0842889086593033e-14,
+      "original_direction_recession": -0.0033435766441961418,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.13157894736842102,
+        0.12280701754385968,
+        0.03508771929824564,
+        -0.052631578947368404,
+        0.08771929824561404,
+        -0.052631578947368404,
+        -0.07017543859649128,
+        -0.08771929824561404,
+        0.16666666666666669,
+        0.13157894736842113,
+        -0.06140350877192983
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.9,
+      "allocation": 0,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.200000000000004,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "480c2fd2472e2494c37c997b8accd77e571092e9a604dc3e5f641da698b1c326",
+      "derivative_errors": [
+        3.1086244689504383e-15,
+        3.8163916471489756e-16,
+        1.7486012637846216e-15
+      ],
+      "constrained_moment_error": 4.417473331574939e-15,
+      "original_direction_recession": -0.009171427881876026,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.11611374407582947,
+        0.07938388625592425,
+        -0.005924170616113745,
+        -0.04146919431279619,
+        0.09952606635071086,
+        -0.040284360189573445,
+        -0.08767772511848339,
+        -0.12203791469194308,
+        0.21445497630331756,
+        0.1445497630331754,
+        -0.04857819905213258
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.9,
+      "allocation": 0,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5796273001084788,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "6a44b4eb1ef045e9c27ecdaad4e633d42467774c4d223f631389f4e9468b3cb0",
+      "derivative_errors": [
+        1.3433698597964394e-14,
+        5.898059818321144e-15,
+        8.992806499463768e-15
+      ],
+      "constrained_moment_error": 1.975719934876885e-14,
+      "original_direction_recession": -0.016717717039248015,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.12,
+        0.08000000000000007,
+        0.0,
+        -0.03999999999999998,
+        0.12,
+        -0.03999999999999998,
+        -0.07999999999999996,
+        -0.11999999999999994,
+        0.20000000000000007,
+        0.12,
+        -0.08000000000000002
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.95,
+      "allocation": 2,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000168,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "12832c5441982d5231af3494acb898b49601f2e47d976461abfb826a458c2470",
+      "derivative_errors": [
+        2.6645352591003757e-15,
+        1.3183898417423734e-16,
+        4.440892098500626e-16
+      ],
+      "constrained_moment_error": 5.401928904191777e-15,
+      "original_direction_recession": 0.0062783134700763465,
+      "final_state": "interior",
+      "separating_ray": null
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.95,
+      "allocation": 2,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.576990138807458,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "e531ef71bf5183ee1034dd30bb8f6c0d0fc9bca61cb720709d893abb1b1f5bf8",
+      "derivative_errors": [
+        3.3306690738754696e-14,
+        5.3484994211316916e-14,
+        4.3526814097472055e-14
+      ],
+      "constrained_moment_error": 5.6333410158870834e-14,
+      "original_direction_recession": -0.0024121092123316687,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.16470588235294117,
+        0.1411764705882353,
+        0.15294117647058825,
+        -0.07058823529411766,
+        0.09411764705882358,
+        0.03529411764705884,
+        -0.05882352941176469,
+        0.023529411764705882,
+        0.10588235294117651,
+        0.09411764705882356,
+        0.05882352941176469
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 1.0,
+      "allocation": 2,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.2000000000000022,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "b5d019e8b228eef900958380380b68b26fb504b560d3318f41473caad351117f",
+      "derivative_errors": [
+        4.107825191113079e-15,
+        2.0122792321330962e-16,
+        3.885780586188048e-16
+      ],
+      "constrained_moment_error": 5.591013763073249e-15,
+      "original_direction_recession": 0.005350630262872039,
+      "final_state": "interior",
+      "separating_ray": null
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 1.0,
+      "allocation": 2,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5796322376675691,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "08e94ee008c1ed8c042de52d2dd45b100bc152f75f538f1d8a6c90da4f65a2f8",
+      "derivative_errors": [
+        8.43769498715119e-15,
+        3.5388358909926865e-16,
+        7.216449660063518e-16
+      ],
+      "constrained_moment_error": 1.1160343482696788e-14,
+      "original_direction_recession": -0.00393016129347086,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.16455696202531642,
+        0.1476793248945147,
+        0.1540084388185653,
+        -0.06540084388185653,
+        0.09493670886075967,
+        0.04008438818565404,
+        -0.05274261603375553,
+        0.03375527426160298,
+        0.10126582278481025,
+        0.0907172995780592,
+        0.054852320675105426
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.75,
+      "allocation": 0,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000001478,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "8806fb317c44635f06e9f4b17069a27b0939e15ad8f7f4b1a5e1e0d0ed5ffe7f",
+      "derivative_errors": [
+        4.107825191113079e-15,
+        3.3653635433950058e-15,
+        2.706168622523819e-15
+      ],
+      "constrained_moment_error": 9.859300875714183e-15,
+      "original_direction_recession": -0.0017633577636110148,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.1105263157894737,
+        0.14210526315789473,
+        -0.026315789473684213,
+        -0.06842105263157894,
+        0.07368421052631578,
+        -0.047368421052631574,
+        -0.13157894736842107,
+        -0.15263157894736842,
+        0.08421052631578949,
+        0.09473684210526317,
+        -0.06842105263157895
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.75,
+      "allocation": 0,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5761120139356771,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "19b9a6d051ea4975891d33d9f8bcec1fabe19a51ff8548a3804616a8cffa4d8f",
+      "derivative_errors": [
+        6.272760089132134e-14,
+        4.243827511629661e-14,
+        4.363176486776865e-14
+      ],
+      "constrained_moment_error": 1.1523594578566332e-13,
+      "original_direction_recession": -0.008274616698665999,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.11718749999999992,
+        0.1484375,
+        -0.027343749999999972,
+        -0.05859375000000003,
+        0.07421875000000006,
+        -0.050781250000000035,
+        -0.12890625,
+        -0.15234375000000003,
+        0.078125,
+        0.08984374999999994,
+        -0.07421875000000003
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.9,
+      "allocation": 0,
+      "base_scenario": "multinomial_1",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000256,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "533dbe34fc33a34585cb56aebfad67913f83e6327d737e730eb89767604112d2",
+      "derivative_errors": [
+        2.55351295663786e-15,
+        2.6575963651964685e-15,
+        1.0967789176863363e-15
+      ],
+      "constrained_moment_error": 4.803449304979779e-15,
+      "original_direction_recession": -0.008318703141067446,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.1150159744408946,
+        0.10862619808306712,
+        -0.035143769968051124,
+        -0.08945686900958474,
+        0.07028753993610225,
+        -0.02875399361022363,
+        -0.13418530351437685,
+        -0.15335463258785936,
+        0.10543130990415336,
+        0.09904153354632587,
+        -0.06070287539936099
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.9,
+      "allocation": 0,
+      "base_scenario": "multinomial_1",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5780780450029898,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "bf4ff0ce1fb92806d0afc8f8a1d9f6a048cf63cd128f8c9bcc0288ee859eebc0",
+      "derivative_errors": [
+        1.1102230246251565e-16,
+        2.0122792321330962e-15,
+        2.173174834529945e-15
+      ],
+      "constrained_moment_error": 2.4147350785597155e-15,
+      "original_direction_recession": -0.016344077722783006,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.11698113207547173,
+        0.11320754716981114,
+        -0.03773584905660382,
+        -0.086792452830189,
+        0.06792452830188687,
+        -0.02641509433962258,
+        -0.1358490566037736,
+        -0.15471698113207544,
+        0.09811320754716979,
+        0.09433962264150945,
+        -0.06792452830188654
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.95,
+      "allocation": 4,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.2000000000000109,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "072f5ae1c91f26a0ea19087ca3d17bacba2b05979d9a723f32e5ca58c231d05d",
+      "derivative_errors": [
+        4.218847493575595e-15,
+        6.1547988927657116e-15,
+        4.468647674116255e-15
+      ],
+      "constrained_moment_error": 7.692631254219151e-15,
+      "original_direction_recession": -0.012028277210330215,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.08888888888888889,
+        0.11111111111111109,
+        0.09999999999999999,
+        -0.1444444444444445,
+        -0.12222222222222225,
+        0.04444444444444445,
+        -0.22222222222222224,
+        -0.05555555555555554,
+        -0.0777777777777778,
+        0.02222222222222218,
+        0.011111111111111084
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.95,
+      "allocation": 4,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5789665912497947,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "3d2596f42b19403aa7003cfb4e67d87b3c62be865970748daa8dc170f8ee5ca1",
+      "derivative_errors": [
+        2.8477220581635265e-13,
+        1.24983356997177e-13,
+        1.1217329148882627e-13
+      ],
+      "constrained_moment_error": 4.297603939384942e-13,
+      "original_direction_recession": -0.021594760768792923,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.08750000000000002,
+        0.11250000000000002,
+        0.1,
+        -0.15000000000000002,
+        -0.125,
+        0.05,
+        -0.22500000000000003,
+        -0.05,
+        -0.0875,
+        0.012500000000000011,
+        -0.0
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 1.0,
+      "allocation": 4,
+      "base_scenario": "multinomial_2",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000104,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "7a19b335c33ffcef94b6943c2a1e8982ca3a58426d44425fb5c00599f8386880",
+      "derivative_errors": [
+        9.992007221626409e-16,
+        5.828670879282072e-16,
+        4.996003610813204e-16
+      ],
+      "constrained_moment_error": 2.0660556598883772e-15,
+      "original_direction_recession": -0.013278004629408965,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.08823529411764706,
+        0.11764705882352941,
+        0.08823529411764706,
+        -0.1470588235294118,
+        -0.11764705882352942,
+        0.02941176470588235,
+        -0.23529411764705885,
+        -0.058823529411764705,
+        -0.05882352941176473,
+        0.02941176470588233,
+        0.02941176470588235
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 1.0,
+      "allocation": 4,
+      "base_scenario": "multinomial_2",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.578474362572257,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "4adc8ce462a7e4b4e2d78f9f839cfba6d678fcc4cf8741ea3b8bc933c4790c81",
+      "derivative_errors": [
+        1.1102230246251565e-15,
+        2.498001805406602e-16,
+        1.700029006457271e-16
+      ],
+      "constrained_moment_error": 3.1363800445660672e-15,
+      "original_direction_recession": -0.023576238016777683,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.08333333333333333,
+        0.12500000000000006,
+        0.08333333333333331,
+        -0.16666666666666663,
+        -0.12499999999999997,
+        0.041666666666666664,
+        -0.24999999999999997,
+        -0.041666666666666734,
+        -0.0833333333333334,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 0.9,
+      "allocation": 8,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.2000000000000019,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "c25cfca227a6831d2f2c7513339ac9b3b950e650b8dd4b3ac2c4ed04b21e00f6",
+      "derivative_errors": [
+        4.440892098500626e-15,
+        1.6653345369377348e-16,
+        1.887379141862766e-15
+      ],
+      "constrained_moment_error": 6.330005963839369e-15,
+      "original_direction_recession": 0.007892489785509355,
+      "final_state": "interior",
+      "separating_ray": null
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 0.9,
+      "allocation": 8,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5767169470484947,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "aca53ea04a46a41c381641cffdf88d9d2fd14708632753d56339b6395b47a93c",
+      "derivative_errors": [
+        9.43689570931383e-15,
+        4.440892098500626e-16,
+        4.6351811278100286e-15
+      ],
+      "constrained_moment_error": 1.2833484275276419e-14,
+      "original_direction_recession": -0.0019688024589492453,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.20512820512820518,
+        0.20512820512820518,
+        0.17948717948717952,
+        -0.15384615384615388,
+        0.025641025641025647,
+        -0.025641025641025647,
+        -0.051282051282051294,
+        0.10256410256410259,
+        -0.02564102564102566,
+        -0.02564102564102566,
+        -0.0
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 0.95,
+      "allocation": 8,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.2000000000000129,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "6185addefca281f969091311f018eaa3c42d677b01c207e52762ae513ac9af32",
+      "derivative_errors": [
+        1.5765166949677223e-14,
+        8.465450562766819e-15,
+        6.217248937900877e-15
+      ],
+      "constrained_moment_error": 2.5020784055751477e-14,
+      "original_direction_recession": 0.0067056235298825345,
+      "final_state": "interior",
+      "separating_ray": null
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 0.95,
+      "allocation": 8,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5793210973558562,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "6ea797e12525dc0bb15750b6fe4108267e6518cbb61ed32eb6af80aece6dcd3e",
+      "derivative_errors": [
+        6.8833827526759706e-15,
+        6.938893903907228e-16,
+        1.5543122344752192e-15
+      ],
+      "constrained_moment_error": 1.3138795607048337e-14,
+      "original_direction_recession": -0.003797447027589343,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.21212121212121213,
+        0.20707070707070707,
+        0.18686868686868688,
+        -0.15656565656565657,
+        0.02525252525252525,
+        -0.02525252525252525,
+        -0.05555555555555555,
+        0.10101010101010102,
+        -0.015151515151515138,
+        -0.010101010101010083,
+        0.005050505050505055
+      ]
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 1.0,
+      "allocation": 1,
+      "base_scenario": "original",
+      "total_variation_bound": 0.2,
+      "total_variation": 0.20000000000000231,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "763532b6453842415a02bfa75930891a6d4ad201dcb1b4a2e311acdbc237e50c",
+      "derivative_errors": [
+        4.440892098500626e-15,
+        7.389922007661198e-16,
+        5.07189776288719e-16
+      ],
+      "constrained_moment_error": 5.960509863456309e-15,
+      "original_direction_recession": 0.00867059772566664,
+      "final_state": "interior",
+      "separating_ray": null
+    },
+    {
+      "forecast": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 1.0,
+      "allocation": 1,
+      "base_scenario": "original",
+      "total_variation_bound": 0.6,
+      "total_variation": 0.5797653783208289,
+      "relative_base_count_range": [
+        0.25,
+        4.0
+      ],
+      "predicted_weights_sha256": "4dc709b9ea259454ee4af31e5091962a751d1aff635d3253d03e68918400bbb7",
+      "derivative_errors": [
+        7.216449660063518e-15,
+        3.5735303605122226e-16,
+        6.106226635438361e-16
+      ],
+      "constrained_moment_error": 9.079542673262608e-15,
+      "original_direction_recession": -0.0025618645819306812,
+      "final_state": "outside_mean_support",
+      "separating_ray": [
+        0.21428571428571422,
+        0.28571428571428575,
+        0.07142857142857137,
+        -0.14285714285714274,
+        0.0714285714285714,
+        -0.07142857142857141,
+        -0.07142857142857141,
+        -0.0,
+        -0.07142857142857155,
+        0.0,
+        -0.0
+      ]
+    }
+  ]
+}

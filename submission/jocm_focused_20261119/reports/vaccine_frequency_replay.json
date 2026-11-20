@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "weight_grid_objectives_verified": 16128,
+  "certificates": {
+    "positive_probability_vector": 11236,
+    "binary_probability_program": 4892
+  },
+  "exact_ordered_auxiliary_menus": 1199,
+  "witness_states_checked_in_two_programs": 38,
+  "paths_replayed": 19,
+  "matched_derivative_cases_replayed": 38,
+  "matched_derivative_exterior_cases": 32,
+  "highest_matched_derivative_error": 2.8477220581635265e-13,
+  "source_commit": "d18717206867c7a12ff470879a0dd5d488b300c2",
+  "published_result_sha256": {
+    "fit_states.csv": "8d6d853138b71b61d5bfa9933f266b12c95d4a063b61e0ac65c4cc5fbf1e0504",
+    "frontiers.json": "c53092a09eed266058a35ea670158f0fd2b0f8794a01ad7bcd970f080350d199",
+    "matched_derivatives.json": "c7af3f3a1a6474e18358c8436af265019855c8a58336a6bd65fd771d825986f2",
+    "results.json": "daf9f18bd986513d086dfceeb6ada74d4c1ef4adc3e2564848697b4dd7e1a01c"
+  },
+  "scope": "All grid rows have a computed support status. A positive feasible probability vector or the archived probability program verifies each status. Both detailed follow-ups replayed byte-identically from the extracted archive."
+}

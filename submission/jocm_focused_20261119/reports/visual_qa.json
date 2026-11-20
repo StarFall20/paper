@@ -19,14 +19,15 @@
     "page_numbering_verified": true
   },
   "supplement": {
-    "pages": 93,
+    "pages": 94,
     "directly_reviewed_pages": [
       88,
       89,
       90,
       91,
       92,
-      93
+      93,
+      94
     ],
     "inherited_pixel_identical_pages": [
       1,
@@ -117,7 +118,7 @@
       86,
       87
     ],
-    "sha256": "9c6ba290cd5f94d9c8a705095ff881baca82f15a52e9460af05ace48c78020c0",
+    "sha256": "9faa4e91ee650c7331067d8b958c518109ea154d2df15b0864b8b9d98da80e69",
     "page_numbering_verified": true
   }
 }
