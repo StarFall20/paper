@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "reports": {
+    "row": {
+      "verified_summary": {
+        "scheme": "row",
+        "unique_configurations": 12000,
+        "checked_frontiers": 2000,
+        "verified_summary_groups": 24,
+        "protected_fits": 2000,
+        "fallback_configurations": 7
+      },
+      "checks": {
+        "scheme": "row",
+        "plan_sha256": "e9ff6271417ec4dcbdfcf608853e8c2184ca309585f59c725079305909744a3f",
+        "allocations": 500,
+        "configurations": 12000,
+        "frontiers": 2000,
+        "original_score_checks": 11993,
+        "archived_checks": 6000,
+        "alternative_roots": 480,
+        "maxima": {
+          "primal_dual_gap": 1.687538997430238e-14,
+          "dual_error": 1.1102230246251565e-15,
+          "primal_error": 2.1267709815475655e-15,
+          "witness_error": 1.0443035325380379e-15,
+          "max_direct_score": 1.8041124150158794e-16,
+          "largest_alternative_root_error": 5.173657058321623e-10,
+          "max_archived_loss_error": 2.220446049250313e-16
+        }
+      },
+      "checked_files": {
+        "frontier_checks.csv.gz": "f6aa27a92a131eb2eff77e36411353ed017940fe769ffcf3115466a388f49603",
+        "policy_rows.csv.gz": "7853cc5cf0b838a2a0dfcbec6364ba1bf1bd39b863beda3e1a21b98c5734a3be",
+        "summary.csv": "4d31595856f2df9545bb3dfc476ea9d0a0d33bd850d33547f48f46a3278f0674"
+      }
+    },
+    "block": {
+      "verified_summary": {
+        "scheme": "block",
+        "unique_configurations": 12000,
+        "checked_frontiers": 2000,
+        "verified_summary_groups": 24,
+        "protected_fits": 2000,
+        "fallback_configurations": 6
+      },
+      "checks": {
+        "scheme": "block",
+        "plan_sha256": "e9ff6271417ec4dcbdfcf608853e8c2184ca309585f59c725079305909744a3f",
+        "allocations": 500,
+        "configurations": 12000,
+        "frontiers": 2000,
+        "original_score_checks": 11994,
+        "archived_checks": 0,
+        "alternative_roots": 480,
+        "maxima": {
+          "primal_dual_gap": 1.554312234475219e-14,
+          "dual_error": 2.55351295663786e-15,
+          "primal_error": 1.893450674028685e-15,
+          "witness_error": 9.345822726825048e-16,
+          "max_direct_score": 1.942890293094024e-16,
+          "largest_alternative_root_error": 4.6702641753881835e-11,
+          "max_archived_loss_error": 0.0
+        }
+      },
+      "checked_files": {
+        "frontier_checks.csv.gz": "abf38f69880755b0c958182e87df380931f922367c254f8f286dcd88f7e53649",
+        "policy_rows.csv.gz": "49ab9251c31f9e87a0dab372c793f0479764093aeca7623d2aa83074493c0a82",
+        "summary.csv": "dcce748c1688678a079a851a168429a9546e928dcea07d7755b0e72403aa5933"
+      }
+    }
+  },
+  "checked_supplement_sha256": "7700c52aed95d2b07688923f3b66a504b7c1034416896b59842023af1c7ab301"
+}

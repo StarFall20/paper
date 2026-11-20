@@ -1,15 +1,10 @@
 {
-  "new_pages_visually_reviewed": {
-    "main": [
-      4,
-      5
-    ],
-    "supplement": [
-      84,
-      85
-    ]
-  },
-  "prior_body_identical_shifted_supplement_pages": [
+  "main_pages": 11,
+  "main_identical_reviewed_pages": 11,
+  "supplement_pages": 91,
+  "supplement_same_pixels_count": 84,
+  "new_supplement_pages_reviewed": [
+    85,
     86,
     87,
     88,
@@ -17,9 +12,6 @@
     90,
     91
   ],
-  "same_page_pixels": {
-    "main": 9,
-    "supplement": 83
-  },
-  "page_numbers_checked": true
+  "page_numbers_checked": true,
+  "supplement_sha256": "b1efd27d17ec6dd7c52a9c4747ca0ae8faa1649480d516856a01c5fa17ec9a7e"
 }

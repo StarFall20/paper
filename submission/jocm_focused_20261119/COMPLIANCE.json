@@ -4,14 +4,14 @@
   "journal": "Journal of Choice Modelling",
   "article_type": "Research Article",
   "upload_sha256": {
-    "Cover_letter.docx": "e07f3abb1c961b48c5666edec2c35684cfaf07f9a970a06b9634b5651d00aeed",
-    "Figures/Figure_1.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291",
-    "Highlights.docx": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
-    "Manuscript.docx": "ec89d71eaaae456109434eb6f929a656aafe1dad37e509c4e7000f5a1a107191",
-    "Reproduction_Materials.zip": "1aca8fbff8f922f2fba7cf00863834423c1a8087eeb917f5c0e0a4e4c05ef189",
     "Supplementary_File_Captions.txt": "a7ed0b685ace81de0c1672589086f872d2de83aa3ad8a585f856ecf6c50b69ee",
-    "Supplementary_Methods_and_Proofs.docx": "7f3056d2fa695269bc295652352ab1d7185fc1fc584a0eb7280d65712d9cf9db",
-    "Title_page.docx": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c"
+    "Highlights.docx": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
+    "Title_page.docx": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c",
+    "Manuscript.docx": "ec89d71eaaae456109434eb6f929a656aafe1dad37e509c4e7000f5a1a107191",
+    "Supplementary_Methods_and_Proofs.docx": "b1efd27d17ec6dd7c52a9c4747ca0ae8faa1649480d516856a01c5fa17ec9a7e",
+    "Reproduction_Materials.zip": "b9bf20b60d08347404b1d0ca59b96d8d430c64af6acfc1f20cf6bd9f21fdac0b",
+    "Cover_letter.docx": "e07f3abb1c961b48c5666edec2c35684cfaf07f9a970a06b9634b5651d00aeed",
+    "Figures/Figure_1.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291"
   },
   "manuscript": {
     "main_rendered_pages": 11,
@@ -27,24 +27,19 @@
       74
     ],
     "main_native_math_objects": 115,
-    "supplement_native_math_objects": 1824,
+    "supplement_native_math_objects": 1827,
     "original_display_math_blocks_preserved_in_supplement": 153,
     "original_markdown_table_blocks_preserved_in_supplement": 20,
     "supplement_tables": 23,
     "supplement_display_equations": 166
   },
   "visual_review": {
-    "new_pages_visually_reviewed": {
-      "main": [
-        4,
-        5
-      ],
-      "supplement": [
-        84,
-        85
-      ]
-    },
-    "prior_body_identical_shifted_supplement_pages": [
+    "main_pages": 11,
+    "main_identical_reviewed_pages": 11,
+    "supplement_pages": 91,
+    "supplement_same_pixels_count": 84,
+    "new_supplement_pages_reviewed": [
+      85,
       86,
       87,
       88,
@@ -52,14 +47,11 @@
       90,
       91
     ],
-    "same_page_pixels": {
-      "main": 9,
-      "supplement": 83
-    },
-    "page_numbers_checked": true
+    "page_numbers_checked": true,
+    "supplement_sha256": "b1efd27d17ec6dd7c52a9c4747ca0ae8faa1649480d516856a01c5fa17ec9a7e"
   },
   "reproduction": {
-    "archive_entries": 1298,
+    "archive_entries": 1311,
     "exact_design_cases": 30,
     "highest_matched_derivative_order_checked": 33,
     "swissmetro_original_menu_score_checks": 1960,
@@ -76,7 +68,7 @@
     "unit_limit_independently_recomputed_path_points": 30,
     "unit_limit_archived_unit_states_screened": 3824,
     "food_original_menu_method_records": 16000,
-    "verification_receipt_sha256": "6f3b261b1d2f7e05a9bf2485a326f10a018de13a38067bf674abcf61692c9275",
+    "verification_receipt_sha256": "3f356f9718c52c39b3e07ad13dd4c08bdd0575f397043bea7a995b3bf23f3ac9",
     "hessian_grid_minimum_checks": 119,
     "hessian_continuous_bound_checks": 2320,
     "matched_auxiliary_pairs": 5376,
@@ -89,11 +81,13 @@
     "matched_soft_label_configurations": 8000,
     "matched_soft_label_finite_scores_verified": 7993,
     "matched_soft_label_lp_checks": 32,
-    "total_verified_checks": 18,
-    "prior_checks_preserved": 15,
+    "total_verified_checks": 19,
+    "prior_checks_preserved": 16,
     "current_archive_fresh_checks": 3,
     "interior_weight_configurations": 400,
-    "interior_weight_margins_recomputed": 32
+    "interior_weight_margins_recomputed": 32,
+    "residual_comparison_configurations": 24000,
+    "residual_primal_dual_limits": 4000
   },
   "open_items": [
     "Scopus subscribed document search",
@@ -102,7 +96,7 @@
     "author confirmation of final declarations and files",
     "generate official competing-interest Word using the publisher tool"
   ],
-  "edition": "fixed_interior_correction_with_correlated_tasks",
+  "edition": "residual_margin_and_grouped_prediction_folds",
   "priority_review": {
     "scopus_verified_result_sets_added": 0,
     "official_ppi_plus_plus_supplements_accessible": false,

@@ -1880,7 +1880,7 @@ With 192 respondents in each role and 127 slopes, 96 of 100 independent-task fit
 
 ### I1 The labelled residual
 
-Wang et al. (2026, equation 3) estimate human choice probabilities and use them as the labels in a second-stage choice loss on the auxiliary menus. Section 5.3 pools the labelled and auxiliary menus in that stage. Write $M_S(g)$ for the mean feature moment on menu set $S$ under forecast $g$. Let $\Delta=M_L(Y)-M_L(g)$. Subtracting $L_L(\beta,g)$ from $L_L(\beta,Y)$ cancels the log partition function in equation (1), so
+Wang et al. (2026, equation 3) estimate human choice probabilities and use them as the labels in a second-stage choice loss on the auxiliary menus. Section 5.3 pools the labelled and auxiliary menus in that stage. Wang et al. compare AAE with PPI and PPI++ in Sections 5.3 and 6.2, including on a vaccination conjoint experiment. Write $M_S(g)$ for the mean feature moment on menu set $S$ under forecast $g$. Let $\Delta=M_L(Y)-M_L(g)$. Subtracting $L_L(\beta,g)$ from $L_L(\beta,Y)$ cancels the log partition function in equation (1), so
 
 $$Q_\lambda(\beta)=(1-\lambda)L_L(\beta,g)+\lambda L_U(\beta,g)-\Delta^T\beta. \qquad (I.1)$$
 
@@ -1912,6 +1912,14 @@ Table I1  Mean holdout log loss and finite fits on matched menus
 Means in Table I1 use available finite fits. All three soft-label fits are finite in every allocation. Restricting each comparison to its common finite fits, the full correction increases mean loss relative to pooled all-soft by 0.19477 and 0.18081 at 50 labels, and by 0.01871 and 0.01531 at 150 labels, for AI and attribute-only predictions, respectively. The shares describe allocations on the same fixed archive and the same evaluation records.
 
 All eight previously identified exterior unit-weight fits have auxiliary-menu limits below one. Adding the labelled menus while retaining the same residual moves one of the eight limits to 1.0069. The other seven stay below one. The dual directions certify a negative recession slope at full correction in all seven. Across 16 prespecified diagnostic cases, the unpenalized first-stage refit attains a maximum absolute labelled residual below $1.1\times10^{-16}$. The all-soft and corrected coefficients agree to within $1.5\times10^{-14}$. The reproduction code checks the original scores at all 7993 finite fits. The archive records the fit statuses, primal residuals and supporting directions for the 32 audited limits.
+
+### I4 A feasibility margin and the choice of first stage folds
+
+For the pooled menus, set the residual multiplier to the smaller of one and half of the last feasible multiplier $a_*$. The associated target is a mixture of the all-soft moment and the endpoint moment. Its weight on the all-soft moment is at least one half, so a positive probability representation exists for every available alternative. The same guarantee holds at any fixed fraction strictly below one. This check refers to the observed support. Holding a multiplier $a<1$ fixed can change the population target. With common sampling and frozen forecasts, the population feature moment becomes $E(Xg)+aE[X(Y-g)]$ in binary choice.
+
+We retain all 500 allocations at each label budget. Exterior full-correction fits use a pooled all-soft fallback. The first audit uses the original row folds. The second holds out each released five-row block as a unit and calculates the fallback probability from training labels alone. These blocks preserve the released ordering convention. The archive lacks respondent identifiers. The 3,405 evaluation outcomes enter only the forecast scores. Both fixed multipliers, 0.25 and 0.50, and the half-limit rule yield finite fits throughout.
+
+With 50 labels and AI predictions, the block-fold mean log losses are 0.88863 for full correction with fallback, 0.76318 for the half-limit rule, 0.71130 at fixed multiplier 0.50, 0.69020 at 0.25, and 0.68694 for pooled all-soft. The corresponding same-label ridge loss is 0.76235. Four full-correction fits require fallback. The row-fold results and the attribute-only control show the same ordering among the full, half-limit, fixed-multiplier and all-soft losses. With 150 labels, full correction has a finite estimate in every allocation and its average loss remains above the all-soft loss. The reproduction materials give every allocation, both fold conventions, the Brier scores and the primal and dual limit checks. The half-limit rule secures a finite fit. Forecast quality still depends on the correction and label budget.
 
 ## Data availability
 

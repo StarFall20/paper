@@ -32,3 +32,5 @@ The exact text screen compared 14 named primary PDFs, covering 611 pages. No con
 Section 4.4 and Supplementary Appendix I compare four estimators on fixed public choices and matched probabilities. The code recomputes 8,000 fits in the extracted release, verifies 7,993 finite scores and checks the 32 fixed-menu limits through primal feasibility and dual supporting directions. The clean archive passed 17 release checks. Revised prose was bound to those outputs through a final inventory and headline check.
 
 Section 3.2 and Supplementary Appendix H6 extend the paired task result to a fixed weight below one. Both samples retain positive log partition weights. The current extraction reconstructs all 400 new fit configurations and rechecks the archived headline results. Fifteen earlier checks retain byte-identical evidence.
+
+Appendix I4 compares the half-limit correction, fixed multipliers and all-soft criteria, with all fallbacks retained. The 24,000 configurations use row folds and released five-row block folds. The current release reruns 4,000 residual limits and independently recomputes all 48 summaries.

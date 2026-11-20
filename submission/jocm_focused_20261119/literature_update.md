@@ -123,3 +123,7 @@ The matched comparison uses both all-soft second-stage objectives of Wang et al.
 
 
 The paired task result now also covers fixed interior weights. The test at 0.90 shows that the boundary difference survives with positive log partition weights on both samples. The author review section records the formal filing items.
+
+## Matched second-stage evaluation
+
+Wang et al. compare AAE, PPI and PPI++ in Sections 5.3 and 6.2. The new sensitivity holds menus and forecasts fixed and records all exterior targets and forecast fallbacks. Li and Ignatiadis study risk-tuned shrinkage for parallel mean estimation. Here the half-limit rule enforces finite estimation on a fixed choice design. The held-out comparison quantifies prediction separately. No additional subscribed Scopus results were verified. [Wang et al.](https://arxiv.org/html/2412.19363v3#S6.SS2) · [Li and Ignatiadis](https://proceedings.mlr.press/v267/li25ak.html)

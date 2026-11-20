@@ -1,0 +1,21 @@
+{
+  "source_manifest_sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e",
+  "matched_run_plan_sha256": "d9346962583cc8cf66f5455940775486ca1615b47d5201e67bda641ac0880cce",
+  "matched_records_sha256": "d2bd71e03c9df91ced5c5417283c563d5032ebff2f45e8ec72c636a439845f4e",
+  "existing_human_ridge": "Use the existing same-label fit records at each allocation. It consumes exactly the human outcomes disclosed to the first-stage predictor.",
+  "prediction_split_schemes": {
+    "row": "Replicate the archived row-level five-fold predictor and use it for the comparison with the existing results.",
+    "block": "Use five-fold splitting of the released five-row allocation blocks. In degenerate folds fill with the training-fold-only smoothed marginal share. Score the same final holdout. The archive lacks respondent identifiers."
+  },
+  "residual_multipliers": {
+    "all_soft": 0,
+    "human_and_soft": "label rows / development rows",
+    "fixed_quarter": 0.25,
+    "fixed_half": 0.5,
+    "protected_half_margin": "min(1, 0.5 * last feasible multiplier)",
+    "full": 1
+  },
+  "comparison_rule": "Retain all 500 allocations, both label budgets and both forecast inputs. A multiplier with no interior solution falls back to the pooled all-soft estimate. Record every fallback and report both logloss and Brier scores. Report logloss median, 90th percentile and paired loss differences against pooled all-soft and human ridge.",
+  "verification_rule": "Match every allocation order and the archived finite/status/holdout results in the row condition. Compute primal and dual bounds for every residual limit. Check direct probability scores in all interior fits, mixed endpoint and forecast probabilities for the protected multiplier, and an alternative root and holdout likelihood in every 25th allocation.",
+  "scope": "Retrospective sensitivity study on a fixed public dataset and reused evaluation rows. No evaluation outcome selects either a multiplier or a model. The comparisons do not estimate population risk or justify confidence interval coverage."
+}

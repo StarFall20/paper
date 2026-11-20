@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "cde2d9cc28d02577fb56c94200302c2955c611ec0dfc21751b39cf6046ae9a57",
-  "prior_manifest_sha256": "82308b8a4947c52ba5a211be4fe182844a5ae29e1b42b63082b9b781a0224e2b",
-  "prior_full_receipt_sha256": "91390d6b7f1729bf73e6fa479bd29b2ba1f44a4080b08ef3175d248ff97ab1f0",
+  "archive_manifest_sha256": "d7a1c5833c61c71642368c5748aa78eacd38b57970c9b262c4c838bd9fa0f207",
+  "prior_manifest_sha256": "cde2d9cc28d02577fb56c94200302c2955c611ec0dfc21751b39cf6046ae9a57",
+  "prior_receipt_sha256": "6f3b261b1d2f7e05a9bf2485a326f10a018de13a38067bf674abcf61692c9275",
   "python": "3.12.14",
   "package_versions": {
     "numpy": "2.5.3",
@@ -33,116 +33,175 @@
     "mathematics": {
       "status": "passed",
       "log": "mathematics.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "exact_designs": {
       "status": "passed",
       "log": "exact_designs.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "common_newton_point": {
       "status": "passed",
       "log": "common_newton_point.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "hessian_power_bounds": {
       "status": "passed",
       "log": "hessian_power_bounds.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "unit_endpoint": {
       "status": "passed",
       "log": "unit_endpoint.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "unit_archive": {
       "status": "passed",
       "log": "unit_archive.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "author_ppi_branch": {
       "status": "passed",
       "log": "author_ppi_branch.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "paired_task_integral": {
       "status": "passed",
       "log": "paired_task_integral.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "paired_task_states": {
       "status": "passed",
       "log": "paired_task_states.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "matched_all_soft_choice": {
       "status": "passed",
       "log": "matched_all_soft_choice.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "food_panel": {
       "status": "passed",
       "log": "food_panel.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "food_path": {
       "status": "passed",
       "log": "food_path.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "swissmetro_path": {
       "status": "passed",
       "log": "swissmetro_path.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "swissmetro_budget": {
       "status": "passed",
       "log": "swissmetro_budget.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "matched_auxiliary_diagnostics": {
       "status": "passed",
       "log": "matched_auxiliary_diagnostics.log",
-      "provenance": "prior full replay, identical scientific inputs and code"
-    },
-    "headline": {
-      "status": "passed",
-      "provenance": "fresh replay from the current extracted archive"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "paired_interior_power": {
       "status": "passed",
-      "provenance": "fresh replay from the current extracted archive"
+      "provenance": "prior successful replay and identical scientific inputs"
     },
     "inventory": {
       "status": "passed",
-      "provenance": "fresh replay from the current extracted archive"
+      "provenance": "fresh current-archive verification"
+    },
+    "public_residual_margin": {
+      "status": "passed",
+      "provenance": "fresh current-archive verification"
+    },
+    "headline": {
+      "status": "passed",
+      "provenance": "fresh current-archive verification"
     }
   },
   "fresh_checks": [
     "headline",
     "inventory",
-    "paired_interior_power"
+    "public_residual_margin"
   ],
-  "prior_checks_preserved": 15,
-  "scope": "Prior scientific code and data have byte-identical hashes. The shared driver adds the new test. The current extraction reruns the inventory, headline claims and the new interior-weight calculations.",
-  "new_result": {
+  "prior_checks_preserved": 16,
+  "previous_payloads_byte_identical": 1294,
+  "current_result": {
     "status": "passed",
-    "checked_artifacts": {
-      "boundaries.json": "ff4fb834c89476600004516aabf4e78a1e0d354cbaebebbc5d94585100097641",
-      "strict_bounds.json": "38c9c97332ae7114c21a0e103af2aba353f3dfb6319bf0bdc09101e49d120299",
-      "projection_verification.json": "fd12f8b30f03f8696c19248f2f37d1f6f1912a188bcb34d1b2dd36f217f5473f",
-      "results/cohort_results.csv": "9c5572971fe519ea1e409082f20ebdaec13fb198b0f3bcc28a101fe9e3a08ecb",
-      "results/simulation_design.json": "51bd990cd7c8910e38534f40c43f884ec284dbc75ed539dfcbbc7cf950dba2f6",
-      "results/summary.json": "c5a9a5b9b8824d1899c1db8b4f73c3dafe275d9b83a56144a50753ca001a73da"
+    "reports": {
+      "row": {
+        "verified_summary": {
+          "scheme": "row",
+          "unique_configurations": 12000,
+          "checked_frontiers": 2000,
+          "verified_summary_groups": 24,
+          "protected_fits": 2000,
+          "fallback_configurations": 7
+        },
+        "checks": {
+          "scheme": "row",
+          "plan_sha256": "e9ff6271417ec4dcbdfcf608853e8c2184ca309585f59c725079305909744a3f",
+          "allocations": 500,
+          "configurations": 12000,
+          "frontiers": 2000,
+          "original_score_checks": 11993,
+          "archived_checks": 6000,
+          "alternative_roots": 480,
+          "maxima": {
+            "primal_dual_gap": 1.687538997430238e-14,
+            "dual_error": 1.1102230246251565e-15,
+            "primal_error": 2.1267709815475655e-15,
+            "witness_error": 1.0443035325380379e-15,
+            "max_direct_score": 1.8041124150158794e-16,
+            "largest_alternative_root_error": 5.173657058321623e-10,
+            "max_archived_loss_error": 2.220446049250313e-16
+          }
+        },
+        "checked_files": {
+          "frontier_checks.csv.gz": "f6aa27a92a131eb2eff77e36411353ed017940fe769ffcf3115466a388f49603",
+          "policy_rows.csv.gz": "7853cc5cf0b838a2a0dfcbec6364ba1bf1bd39b863beda3e1a21b98c5734a3be",
+          "summary.csv": "4d31595856f2df9545bb3dfc476ea9d0a0d33bd850d33547f48f46a3278f0674"
+        }
+      },
+      "block": {
+        "verified_summary": {
+          "scheme": "block",
+          "unique_configurations": 12000,
+          "checked_frontiers": 2000,
+          "verified_summary_groups": 24,
+          "protected_fits": 2000,
+          "fallback_configurations": 6
+        },
+        "checks": {
+          "scheme": "block",
+          "plan_sha256": "e9ff6271417ec4dcbdfcf608853e8c2184ca309585f59c725079305909744a3f",
+          "allocations": 500,
+          "configurations": 12000,
+          "frontiers": 2000,
+          "original_score_checks": 11994,
+          "archived_checks": 0,
+          "alternative_roots": 480,
+          "maxima": {
+            "primal_dual_gap": 1.554312234475219e-14,
+            "dual_error": 2.55351295663786e-15,
+            "primal_error": 1.893450674028685e-15,
+            "witness_error": 9.345822726825048e-16,
+            "max_direct_score": 1.942890293094024e-16,
+            "largest_alternative_root_error": 4.6702641753881835e-11,
+            "max_archived_loss_error": 0.0
+          }
+        },
+        "checked_files": {
+          "frontier_checks.csv.gz": "abf38f69880755b0c958182e87df380931f922367c254f8f286dcd88f7e53649",
+          "policy_rows.csv.gz": "49ab9251c31f9e87a0dab372c793f0479764093aeca7623d2aa83074493c0a82",
+          "summary.csv": "dcce748c1688678a079a851a168429a9546e928dcea07d7755b0e72403aa5933"
+        }
+      }
     },
-    "calculation_grid_points": 15,
-    "simulation_fit_configurations": 400,
-    "independent_probability_checks": 32,
-    "maximum_probability_margin_difference": 1.4233059175694507e-13,
-    "verified_sources": {
-      "focused_article.md": "ec352f71eef9db8b008d013f58f757e1b5961652b9c37085f66100fa52a56345",
-      "focused_supplement.md": "079ca72990711249a43f9f1bced973beb457e13fd88fbee600e0dfc83fe7689c"
-    }
+    "checked_supplement_sha256": "7700c52aed95d2b07688923f3b66a504b7c1034416896b59842023af1c7ab301"
   },
-  "previous_entries_byte_identical": 1281
+  "scope": "The current extraction rechecks inventory and headline claims and reruns the two residual paths. Inherited checks retain their original source receipt. Prior scientific code and results are unchanged."
 }

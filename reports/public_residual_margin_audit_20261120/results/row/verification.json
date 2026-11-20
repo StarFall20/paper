@@ -1,0 +1,20 @@
+{
+  "scheme": "row",
+  "runner_sha256": "e3ff66a481cfac8b6287c7c9e5672913fad4b60e76034adbca27854cdf41b079",
+  "plan_sha256": "e9ff6271417ec4dcbdfcf608853e8c2184ca309585f59c725079305909744a3f",
+  "allocations": 500,
+  "configurations": 12000,
+  "frontiers": 2000,
+  "original_score_checks": 11993,
+  "archived_checks": 6000,
+  "alternative_roots": 480,
+  "maxima": {
+    "primal_dual_gap": 1.687538997430238e-14,
+    "dual_error": 1.1102230246251565e-15,
+    "primal_error": 2.1267709815475655e-15,
+    "witness_error": 1.0443035325380379e-15,
+    "max_direct_score": 1.8041124150158794e-16,
+    "largest_alternative_root_error": 5.173657058321623e-10,
+    "max_archived_loss_error": 2.220446049250313e-16
+  }
+}
