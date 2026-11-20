@@ -33,6 +33,7 @@
     "paired_interior_power",
     "paired_task_integral",
     "paired_task_states",
+    "public_common_menu_diagnostics",
     "public_residual_margin",
     "swissmetro_budget",
     "swissmetro_path",
@@ -53,10 +54,10 @@
       "sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e"
     }
   },
-  "final_archive_manifest_sha256": "a90197fcd895ceca798632b35243c172e51c568cad10f683a10c6eeb17b7ead2",
+  "final_archive_manifest_sha256": "6938d6eaf1a8054d99ca42f8f48cdddfbd40776846437621eff9123dc4e5cc0e",
   "current_fresh_checks": [
-    "discrete_frequency_diagnostics",
     "headline",
-    "inventory"
+    "inventory",
+    "public_common_menu_diagnostics"
   ]
 }

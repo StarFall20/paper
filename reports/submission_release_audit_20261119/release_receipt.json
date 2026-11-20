@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "a90197fcd895ceca798632b35243c172e51c568cad10f683a10c6eeb17b7ead2",
-  "prior_manifest_sha256": "d7a1c5833c61c71642368c5748aa78eacd38b57970c9b262c4c838bd9fa0f207",
-  "prior_receipt_sha256": "3f356f9718c52c39b3e07ad13dd4c08bdd0575f397043bea7a995b3bf23f3ac9",
+  "archive_manifest_sha256": "6938d6eaf1a8054d99ca42f8f48cdddfbd40776846437621eff9123dc4e5cc0e",
+  "prior_manifest_sha256": "a90197fcd895ceca798632b35243c172e51c568cad10f683a10c6eeb17b7ead2",
+  "prior_receipt_sha256": "db025f801cbee73351c9d11f76bbb7d4f8dc13e5b2253daa3a123b13d07f1098",
   "python": "3.12.14",
   "package_versions": {
     "numpy": "2.5.3",
@@ -113,6 +113,10 @@
       "status": "passed",
       "provenance": "prior successful replay and identical scientific inputs"
     },
+    "discrete_frequency_diagnostics": {
+      "status": "passed",
+      "provenance": "prior successful replay and identical scientific inputs"
+    },
     "inventory": {
       "status": "passed",
       "provenance": "fresh verification from extracted archive"
@@ -121,118 +125,27 @@
       "status": "passed",
       "provenance": "fresh verification from extracted archive"
     },
-    "discrete_frequency_diagnostics": {
+    "public_common_menu_diagnostics": {
       "status": "passed",
       "provenance": "fresh verification from extracted archive"
     }
   },
   "fresh_checks": [
-    "discrete_frequency_diagnostics",
     "headline",
-    "inventory"
+    "inventory",
+    "public_common_menu_diagnostics"
   ],
-  "prior_checks_preserved": 17,
-  "previous_payloads_byte_identical": 1306,
+  "prior_checks_preserved": 18,
+  "previous_payloads_byte_identical": 1311,
   "current_result": {
     "status": "passed",
-    "exact_derivative_orders": 5,
-    "profiles": 9,
-    "positive_integer_designs": 3,
-    "checks": {
-      "status": "passed",
-      "plan_sha256": "c8ccd0b9bc34ee08715abb55ac08249ddbd68a8b9e268e5a16aafa80ff868fc5",
-      "labelled_rows": 80,
-      "common_profiles": 9,
-      "common_target": [
-        "1/2",
-        "2/5"
-      ],
-      "common_derivatives": {
-        "1": [
-          "0",
-          "-2/5"
-        ],
-        "2": [
-          "1/4",
-          "0",
-          "677/1440"
-        ],
-        "3": [
-          "0",
-          "0",
-          "0",
-          "0"
-        ],
-        "4": [
-          "-1/8",
-          "0",
-          "-677/2880",
-          "0",
-          "-4811/2880"
-        ],
-        "5": [
-          "0",
-          "0",
-          "0",
-          "0",
-          "0",
-          "0"
-        ]
-      },
-      "pure_sixth_order_derivative": [
-        "40247/1440",
-        "39347/1440",
-        "38447/1440"
-      ],
-      "complete_integer_solutions": 3,
-      "shared_objective_value": 0.6931471805599453,
-      "bounded_unattained_infimum_factor_log2": "433/720",
-      "matches_all_score_rows": true,
-      "cases": [
-        {
-          "pair_counts": [
-            1,
-            31,
-            1,
-            3
-          ],
-          "positive_slope_recession": "1/48",
-          "negative_slope_recession": "197/240",
-          "largest_feasible_weight": "18/31",
-          "state": "interior",
-          "auxiliary_rows": 144
-        },
-        {
-          "pair_counts": [
-            11,
-            16,
-            7,
-            2
-          ],
-          "positive_slope_recession": "0",
-          "negative_slope_recession": "4/5",
-          "largest_feasible_weight": "1/2",
-          "state": "boundary",
-          "auxiliary_rows": 144
-        },
-        {
-          "pair_counts": [
-            21,
-            1,
-            13,
-            1
-          ],
-          "positive_slope_recession": "-1/48",
-          "negative_slope_recession": "187/240",
-          "largest_feasible_weight": "18/41",
-          "state": "exterior",
-          "auxiliary_rows": 144
-        }
-      ]
-    },
+    "checked_configurations": 768,
+    "unit_weight_opposite_pairs": 70,
+    "half_weight_opposite_pairs": 0,
+    "reports_sha256": "f20c5bfe9b4d8f43881f434245bafd3325bb0912c64345a923be8ee3ae014243",
     "source_sha256": {
-      "focused_article.md": "d0f31b14dc30ec5e0e4943c2b866045189fa70e2424afc2ffd6868bc437a9706",
-      "focused_supplement.md": "3d96e5cd956658221d02e1a855fc3a1bc478b6f649038f16a9b9709008a6a53c"
+      "focused_article.md": "4c937cd1ea48945ecce43d037be419ab539aa111f726f193af81aa1cb867d9de",
+      "focused_supplement.md": "cc23838e11360abc674d71593c917c10f688a6bff0167d2e9deb16984c0677a2"
     }
   },
   "scope": "Three fresh checks from the extraction. Earlier scientific inputs and results are unchanged."

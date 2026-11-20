@@ -7,9 +7,9 @@
     "Supplementary_File_Captions.txt": "a7ed0b685ace81de0c1672589086f872d2de83aa3ad8a585f856ecf6c50b69ee",
     "Highlights.docx": "3a138545675336a562c75d26924f94cb8acb00778219eea6dfe43baaef54a998",
     "Title_page.docx": "74cc95dc3d5e9d7add91d6691d2b9a4847cc5816040eb96b373896630c5a530c",
-    "Manuscript.docx": "e3483c05eaad650abf3b953b7307622f0c66b0ea09f81bc86c150bedbb881aec",
-    "Supplementary_Methods_and_Proofs.docx": "73dd4434dfd9d672fa0b2c914a3cdd7fa5bbf1e8a6a6d0c9fcf6c60071a6be31",
-    "Reproduction_Materials.zip": "256b2c348330efa8287549f6eceed219ea166ca80c86825476d62e55f86cc568",
+    "Manuscript.docx": "fa0eb694debfe170e048eccac071e63071198cdeba4372a991e2cc14e193ef96",
+    "Supplementary_Methods_and_Proofs.docx": "3d73ed2e3036d3e91bf340e3114ac315b68d7fc31fb50de5ac50f47019711bd5",
+    "Reproduction_Materials.zip": "9a7815bb60f9fe910bb8b06e2b2d92aba9dcfd87685847b930799661f8787404",
     "Cover_letter.docx": "e07f3abb1c961b48c5666edec2c35684cfaf07f9a970a06b9634b5651d00aeed",
     "Figures/Figure_1.pdf": "5bc755deacc5886872a87ce65242b5f7bae2536f421939175ea41ced33175291"
   },
@@ -18,7 +18,7 @@
     "supplement_rendered_pages": 92,
     "cover_rendered_pages": 1,
     "abstract_lexical_words": 194,
-    "main_body_lexical_words_excluding_equations_and_references": 3879,
+    "main_body_lexical_words_excluding_equations_and_references": 3903,
     "highlight_line_lengths": [
       79,
       75,
@@ -37,7 +37,9 @@
     "manuscript": {
       "pages": 11,
       "directly_reviewed_pages": [
-        6
+        6,
+        7,
+        8
       ],
       "inherited_pixel_identical_pages": [
         1,
@@ -45,19 +47,16 @@
         3,
         4,
         5,
-        7,
-        8,
         9,
         10,
         11
       ],
-      "sha256": "e3483c05eaad650abf3b953b7307622f0c66b0ea09f81bc86c150bedbb881aec",
+      "sha256": "fa0eb694debfe170e048eccac071e63071198cdeba4372a991e2cc14e193ef96",
       "page_numbering_verified": true
     },
     "supplement": {
       "pages": 92,
       "directly_reviewed_pages": [
-        87,
         88,
         89,
         90,
@@ -150,14 +149,15 @@
         83,
         84,
         85,
-        86
+        86,
+        87
       ],
-      "sha256": "73dd4434dfd9d672fa0b2c914a3cdd7fa5bbf1e8a6a6d0c9fcf6c60071a6be31",
+      "sha256": "3d73ed2e3036d3e91bf340e3114ac315b68d7fc31fb50de5ac50f47019711bd5",
       "page_numbering_verified": true
     }
   },
   "reproduction": {
-    "archive_entries": 1316,
+    "archive_entries": 1320,
     "exact_design_cases": 30,
     "highest_matched_derivative_order_checked": 33,
     "swissmetro_original_menu_score_checks": 1960,
@@ -174,7 +174,7 @@
     "unit_limit_independently_recomputed_path_points": 30,
     "unit_limit_archived_unit_states_screened": 3824,
     "food_original_menu_method_records": 16000,
-    "verification_receipt_sha256": "db025f801cbee73351c9d11f76bbb7d4f8dc13e5b2253daa3a123b13d07f1098",
+    "verification_receipt_sha256": "775ddee5a8a6210eeeb32f70ddeace8ac31cca7941ff3b2d64d3f497d690e398",
     "hessian_grid_minimum_checks": 119,
     "hessian_continuous_bound_checks": 2320,
     "matched_auxiliary_pairs": 5376,
@@ -187,14 +187,16 @@
     "matched_soft_label_configurations": 8000,
     "matched_soft_label_finite_scores_verified": 7993,
     "matched_soft_label_lp_checks": 32,
-    "total_verified_checks": 20,
-    "prior_checks_preserved": 17,
+    "total_verified_checks": 21,
+    "prior_checks_preserved": 18,
     "current_archive_fresh_checks": 3,
     "interior_weight_configurations": 400,
     "interior_weight_margins_recomputed": 32,
     "residual_comparison_configurations": 24000,
     "residual_primal_dual_limits": 4000,
-    "discrete_frequency_same_support_designs": 3
+    "discrete_frequency_same_support_designs": 3,
+    "public_fixed_menu_configurations": 768,
+    "public_same_menu_unit_opposite_pairs": 70
   },
   "open_items": [
     "Scopus subscribed document search",
@@ -203,7 +205,7 @@
     "author confirmation of final declarations and files",
     "generate official competing-interest Word using the publisher tool"
   ],
-  "edition": "fixed_discrete_profile_frequencies",
+  "edition": "fixed_discrete_profiles_and_public_same_menu_check",
   "priority_review": {
     "scopus_verified_result_sets_added": 0,
     "official_ppi_plus_plus_supplements_accessible": false,

@@ -1,0 +1,7680 @@
+{
+  "scope": "Complete alternative sets with identical available identities and exact encoded relative attributes. No attribute rounding. Fixed archived auxiliary draws.",
+  "plan_sha256": "cec38baa35431a2c7d48b86f799c030f7db4c19bdc2372fbf93b834812412ca3",
+  "archived_states_sha256": "8e66dc8987b8e537f3a90ba4c70dfe2ed8de5b080f66f326dc034ccb2bad9a22",
+  "summaries": [
+    {
+      "dataset": "RADIANT",
+      "power": 1,
+      "all_pairs": 1344,
+      "interior_exterior_pairs": 74,
+      "same_aux_menu_pairs": 1344,
+      "same_menu_pairs_and_changed_counts": 1344,
+      "same_menu_opposite_states": 74,
+      "same_menu_including_labelled": 112,
+      "all_samples_same_menu_opposite_states": 0
+    },
+    {
+      "dataset": "RADIANT",
+      "power": 0.5,
+      "all_pairs": 1344,
+      "interior_exterior_pairs": 7,
+      "same_aux_menu_pairs": 1344,
+      "same_menu_pairs_and_changed_counts": 1344,
+      "same_menu_opposite_states": 7,
+      "same_menu_including_labelled": 112,
+      "all_samples_same_menu_opposite_states": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "power": 1,
+      "all_pairs": 1344,
+      "interior_exterior_pairs": 83,
+      "same_aux_menu_pairs": 0,
+      "same_menu_pairs_and_changed_counts": 0,
+      "same_menu_opposite_states": 0,
+      "same_menu_including_labelled": 0,
+      "all_samples_same_menu_opposite_states": 0
+    },
+    {
+      "dataset": "Swissmetro",
+      "power": 0.5,
+      "all_pairs": 1344,
+      "interior_exterior_pairs": 7,
+      "same_aux_menu_pairs": 0,
+      "same_menu_pairs_and_changed_counts": 0,
+      "same_menu_opposite_states": 0,
+      "same_menu_including_labelled": 0,
+      "all_samples_same_menu_opposite_states": 0
+    }
+  ],
+  "reverified_same_menu_opposite_state_pairs": [
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        5,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        6,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 0.5,
+      "auxiliary_draws": [
+        0,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 0.5,
+      "auxiliary_draws": [
+        1,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 0.5,
+      "auxiliary_draws": [
+        2,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 0.5,
+      "auxiliary_draws": [
+        3,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 0.5,
+      "auxiliary_draws": [
+        4,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 0.5,
+      "auxiliary_draws": [
+        5,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 2,
+      "budget": 5,
+      "power": 0.5,
+      "auxiliary_draws": [
+        6,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 28,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        6
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        5,
+        6
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 3,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        5,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        2
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        2
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        3
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        4
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        5
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        5,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 8,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        6,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 10,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 10,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 10,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 10,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 10,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 10,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        5,
+        6
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 10,
+      "budget": 5,
+      "power": 1,
+      "auxiliary_draws": [
+        5,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 17,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        1
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        7
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        2
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        3
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        4
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        7
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        7
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        5
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        6
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 11,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        7
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        1
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        2
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        3
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        5
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        6
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        0,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        1,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        2,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        3,
+        4
+      ],
+      "states": [
+        "interior",
+        "outside"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        5
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        6
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    },
+    {
+      "dataset": "RADIANT",
+      "trial": 17,
+      "budget": 10,
+      "power": 1,
+      "auxiliary_draws": [
+        4,
+        7
+      ],
+      "states": [
+        "outside",
+        "interior"
+      ],
+      "menu_count": 34,
+      "labelled_menu_count": 23,
+      "labelled_also_same": false,
+      "equal_auxiliary_task_counts": true
+    }
+  ],
+  "common_forecast_by_exact_auxiliary_menu": {
+    "1": {
+      "counts": {
+        "interior": 322,
+        "groups": 48,
+        "mixed_groups": 5,
+        "opposite_state_pairs": 70,
+        "outside": 62
+      },
+      "allocation_records": [
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05662842233906061
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07135104355842212
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06603581753159087
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07018330292497571
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06481665035899666
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06534660225227089
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.060049437001291686
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06562485371411436
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1927197138404502
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1819953976561906
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18772791275961584
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1866171827289688
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1867540279859978
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19037256804311364
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18060950191957093
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1833081657000001
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.056589859619897105
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05805264319763007
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05551154073802501
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06408818546096737
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05359326745320163
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05062010841975789
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03663318025422729
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0500758362227181
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07389041560845801
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09413209339269084
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08801851920454172
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07184466027652255
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08607321428438466
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09563696067503027
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10118856779319314
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10140315702833969
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.005660424567536988
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.005475448293026169
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.00861338024311573
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0064139977310628095
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.0015911002804025465,
+          "probability_margin": null
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.009062333540652168,
+          "probability_margin": null
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.007624966421951929,
+          "probability_margin": null
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01225445568877679
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.027224957382302465
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06903411595397443
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02739606107835329
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05899159925167521
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06390115016222608
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02889499018118636
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0407977839608398
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.020347009094317803
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01441296548093836
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.014345880193652735
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03143746142979751
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01234735364973163
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.0011543859414579472,
+          "probability_margin": null
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.01337917117012749,
+          "probability_margin": null
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.019161809117770434
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03740877785861955
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1164971501522213
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14203103226236802
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0830997079364765
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14789084767662625
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14521793481846149
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08315753665423398
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08101911006903056
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07207226609123213
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1290229823175811
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13388319039994462
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12856459704527465
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12984258299903273
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13186349367076822
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12974536979562723
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13103089113266622
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11964692149890234
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2706286090734949
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.25076159818479404
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.25496195318743964
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2429541035370617
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.26626789748927804
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.27243416484710975
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2582449597862676
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.28155825933527673
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09630639545774244
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11110365166155996
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11112229426813414
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11510277117770816
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10946284619874813
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11715837566186209
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10326360840383708
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09429428954447033
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2928913110453511
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.30005782369841094
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3046622132144764
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.29381349785139704
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2903832827205664
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2873029160502882
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2979388478730824
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.28843260033589896
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17147543716121516
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18945333584682914
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1935270468721868
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17132288872057866
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2081343686657244
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17335630518690273
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18196980503608406
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18973598437719444
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15948182792807408
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15428603704016602
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15419872106857047
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16535332262344263
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1630890260337702
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1560895006160824
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14420273622414814
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1674235271020703
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.01564785637105831,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.007220948958232054,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.007931335113523619,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.007246462686688437,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.009349784833616814,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.006045700710104462,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.006662622937346707,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.007003867398417962,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09801107435642199
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08971744000344946
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09780139362691576
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09653207610591853
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07196156403049428
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09577936703681768
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09156204649404355
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0847484959065091
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.046287801815785554
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.0011821910553767578,
+          "probability_margin": null
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.0005917605650245239,
+          "probability_margin": null
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0061706938772167095
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03757683064674045
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.012611930250308875
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.005938989967449793,
+          "probability_margin": null
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.009119398139721341
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17133550897783711
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21357684723610082
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.23234385572403077
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17976809014430165
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.23683724526342637
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20300332113600042
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.22067039207548858
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.23568112154417695
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07777436106473294
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.049613658537964546
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06581819218828054
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07825871414230165
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.061982990344739704
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06719201540951257
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.050767807041125115
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07063174421414047
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21420330625313713
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19983201005002035
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18976528549537558
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20024049689772155
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19770060593201427
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20420145519978314
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20947578300521988
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20629815575299099
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.031521138246926685
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01744063396490247
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04046691897769336
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03067579074732598
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04512919586742857
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.005550421746760776
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03271293758168078
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.037920598283131504
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08565371643637995
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08620571849630793
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06240510758387211
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0781853623873693
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07521275030042014
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07976018073788219
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09144604962378357
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09328018454925936
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.009287929354296232,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.01963872298368874,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.008023192933167667,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.022924209823663277,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.02758280788718792,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.010847455946344842,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.010006845161342315,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.03127685532134833,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02128238539571183
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.013582789089234826,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03033231533288451
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.008056174363451442
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0008793958652405717
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.004061800976728924,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.002423667282982378,
+          "probability_margin": null
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.0046234582987080275,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.012617487086031054,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.01491151797612833,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.01586271584273291,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.011777352535998431,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.011314899309742499,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.016687230616876436,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.011162084962487662,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.012039387029731452,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03635811563168185
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03257620970202426
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.057803620818290456
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05385082999987104
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.041872556434145884
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05330568045577714
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0363215607007078
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05773013816743221
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0331717609031525
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.050794951492501975
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.025335585983857933
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05143267188303514
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06263305426527364
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05340589860607786
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0369273576445947
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04732377029840773
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14121093710537297
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14016718747902346
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1437127255731359
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14040293860247458
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13839509568060337
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13690515913430595
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13337795272316133
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12551930418803006
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.01907487741140501,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.018879726305302214,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.019797824549547705,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.01752984136661251,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.021520578810262148,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.015965274113117767,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.026760416628668016,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.023154906431087197,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07183098888799859
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0780067602425927
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07879745368695405
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08533174956311713
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07926940147163049
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08539633952714389
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08177278580271645
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06558017979122188
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19837390555530662
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18149792210033683
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20905984844662137
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17682021558516092
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20339000115255806
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16093574609454292
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17438706065033027
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18671350977855253
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3467515407689536
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3215586335446708
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3320669007686592
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.34537254584682625
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.33151898433298194
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.34452735240919713
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3284005602070292
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.32091320505631415
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04470378274733484
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.013069149616189856
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.024344005897597585
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.005039741946524059
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03604617476283831
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02937237414253418
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.015958897456904847
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03175354785412312
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09449807708317856
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10755482483903131
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1135133316410528
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08426065450378344
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11383994268136137
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08408053947773328
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11405855281372204
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10910652492240559
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.04542382068535361,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.04183984243331296,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.04328261925074711,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.034200437692094354,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.03971740264002299,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.04131186998328651,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.04421919399029878,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.04722581492020006,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.0014645184182325854,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.026635319706264926
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01981339726509333
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04501835470147768
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.0006211379472969569,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.046316942197499975
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.027451111282453988
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03820717185886775
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.0005634326484059149,
+          "probability_margin": null
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.0043832873425558305,
+          "probability_margin": null
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.015295520718312916,
+          "probability_margin": null
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.004078441321204829,
+          "probability_margin": null
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.01343478804142495,
+          "probability_margin": null
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.0076543997182499934,
+          "probability_margin": null
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.004963943013828631,
+          "probability_margin": null
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -7.481041394319377e-05,
+          "probability_margin": null
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15668209419845497
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14956136711557774
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13854673878658752
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15045425942120166
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10172788208699031
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14443042476601697
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10793207066559345
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1532163838355786
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16641966125706825
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16043399784629916
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17232175846116735
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16477731828648026
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1330648667528243
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1649364174583224
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16990614643425334
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17383841292733815
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2100310166972974
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21266130236742029
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21605778957232438
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21397563869219907
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21037943799046638
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21951574354527978
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21546745123869682
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21805010177487064
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07036646322000178
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07786572536444407
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08646412856467128
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0826574627860531
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07504406235350412
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08992965593666435
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07231954623233944
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08091132361072932
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20693954509957999
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19868654619151122
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18414055728711623
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20628625129383138
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2049912558689319
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2016586770308068
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2015613745291894
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20374540085264792
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14895900302975953
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13493362676687873
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14041043414570573
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15240249222954624
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14533547096545077
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13447002589803997
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.159336127234639
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16418049116245118
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16128414175830122
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16434710613017758
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1522318273053539
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15215361059286817
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16427419765809897
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1502629846181636
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1592328660985751
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17335945880557868
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17111505201068172
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1903098486034641
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1668572217559234
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1924589261836173
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14959014421684708
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15238370970211815
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15927510763566333
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18516097777402815
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.31400746002743296
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3091385450511666
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3092820846495278
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.30780712440479274
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.30051371735785526
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.30048131600262284
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.30994868542765297
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.31453050371901736
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4065290037928094
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4053918878506457
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4126490863822847
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4062798077180579
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.41375596687030736
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.40386206234448413
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.40597236968936135
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4086284754437642
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.42649326391116177
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.42801426063816694
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.42482309467022417
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4298823209276291
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.42884281545346764
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4289528873279661
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.42901375952625637
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.424778623911554
+        }
+      ]
+    },
+    "0.5": {
+      "counts": {
+        "interior": 352,
+        "groups": 48,
+        "mixed_groups": 0,
+        "opposite_state_pairs": 0,
+        "outside": 32
+      },
+      "allocation_records": [
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05052974632227216
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05093863796156417
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.048909987399732346
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.049880532649770624
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04971867213517058
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04775041584479781
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04290456027713499
+        },
+        {
+          "trial": 0,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04171394481549378
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18211066258792497
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18301485548083749
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18058295156119045
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17877708412313956
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18210158606852175
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18040986899764117
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1764043049640894
+        },
+        {
+          "trial": 0,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18267225094768272
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04314947320670355
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04190776031389186
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.046866316326460024
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.045158833829661946
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04520624963382151
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04178484555594435
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03619454201913184
+        },
+        {
+          "trial": 1,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.043599681086036214
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08627182676531227
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09613300138439779
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09310109199580914
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08526536407201853
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09222945527688461
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0967854403739521
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10148976027019768
+        },
+        {
+          "trial": 1,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1010523381510429
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01878191890276229
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.018307450866350737
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.019692324941261656
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.015448277529199476
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.013276358666726287
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0027228269274563463
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.005048551633486404
+        },
+        {
+          "trial": 2,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02415595222386476
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06682028123489583
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08325228816376536
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06716584164998425
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07491312035900521
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08040744654993656
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06872984570391336
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06709647367301777
+        },
+        {
+          "trial": 2,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05822010426059021
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09041794587536355
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08997058176116116
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09592219761422442
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08856072083607686
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08255140665609512
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07643826833401444
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0953014264346439
+        },
+        {
+          "trial": 3,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09788345329382211
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1788436568129893
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17919659774473368
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16998957432067122
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17739756074876814
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17491010707640928
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17062020086413365
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1729862856631136
+        },
+        {
+          "trial": 3,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16581093304917263
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11190397439139646
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12068863128965077
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11244314225877182
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10958075773763737
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1119174853971646
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11014044228702959
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11268482493641101
+        },
+        {
+          "trial": 4,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10502485044639046
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2572987486296261
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2467505431798576
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2486627062471418
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2459963947212203
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.25470403639317757
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2572479917293234
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2501057355903708
+        },
+        {
+          "trial": 4,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2608629705643363
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15137922663660155
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15345899355428877
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1556723674172367
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15538863832753402
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1528469811031171
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14512687288906184
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15012570786280227
+        },
+        {
+          "trial": 5,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.14443215642786492
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.28219122679075664
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.28508813968984664
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.28658680022622524
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.28115526707612865
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.29169701432919365
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.283311765892539
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.28508826357068434
+        },
+        {
+          "trial": 5,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2894491490774098
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17600561888182983
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1797260891297151
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17949171471021375
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17509784766537698
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18747253194591235
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1731647134514147
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17603094217788243
+        },
+        {
+          "trial": 6,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17529557184425737
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18120810042888189
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17574843504980872
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17416905229154273
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18576078442527968
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17406248748157924
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17892145078354513
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17378652525299665
+        },
+        {
+          "trial": 6,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1821304554608956
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.0028683021534778863,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.00197989247905056,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.0026930033578291823,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.0021088202743367868,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.0031983592238809533,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.0024473861508760852,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.0017774415814102995,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.0032932959774675252,
+          "probability_margin": null
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08646914783505778
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07976266333386722
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08553890805990735
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08369034142817798
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07018515237181486
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08355097912320232
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08113204688016722
+        },
+        {
+          "trial": 7,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07714504789334392
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07428044094489589
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07119453862440349
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06460595373748158
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0675217271584058
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07636252971522235
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07027591936344428
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06374233008226829
+        },
+        {
+          "trial": 8,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0735014103535751
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2407267806913697
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.24516225753617252
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2475266518576037
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.24178492040495875
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.24896596061586174
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.24464006993858226
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.24622776248078884
+        },
+        {
+          "trial": 8,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.24838926194199362
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09961324755985641
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09183730196806679
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09620765393681784
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10169035366748767
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09310208839691768
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09552570261121893
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09060970740428431
+        },
+        {
+          "trial": 9,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0951406605770092
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20367267684117987
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19734126263930404
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19126229912067572
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19633193735486373
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19681766934216408
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1979294301015441
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20035471658991152
+        },
+        {
+          "trial": 9,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19900942680752443
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.050513376215847915
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03975158356568015
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04930782270080233
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04344886126609168
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.050747566063864144
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.03221305933105781
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.043112816097057804
+        },
+        {
+          "trial": 10,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04608392695450265
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08674507641514105
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09346913644482863
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0862198428024762
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08802181361939682
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0904827648937472
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08580614498625107
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08779075208325819
+        },
+        {
+          "trial": 10,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08846825071266744
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.018747411212468798
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01646263880868404
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.020046627058762097
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01655204130717066
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01246177296667222
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02327326702837398
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.015440335628935714
+        },
+        {
+          "trial": 11,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0077706606242087415
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06832848129905036
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04864301137234979
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06848720693333421
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0633947588230646
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06085071127421654
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05716468881896795
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.058092241847268286
+        },
+        {
+          "trial": 11,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05722607648264014
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.00563292857550074,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.005974188239021905,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.0069124925657313985,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.004135816486406818,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.005181297640884264,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.006925505703799739,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.0054040061727713695,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.005536233186029527,
+          "probability_margin": null
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.059940337323970846
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06334271762116495
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06585128366115577
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06473153584752873
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06446431279276786
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06433388857340021
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06275621315092327
+        },
+        {
+          "trial": 12,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06601906657260259
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06823914419671673
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07523320988750011
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06837580291634954
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07602162468069205
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08133194226770853
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07450039104463557
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07108457605699169
+        },
+        {
+          "trial": 13,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07683891600261948
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1258432772150452
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12375738371294615
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13195350897084254
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12704093669548175
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12616085033682548
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12971315401537695
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12092555107619053
+        },
+        {
+          "trial": 13,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13024980835592667
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.009537438705701895,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.009439863152649886,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.009898912274766247,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.008749581465547496,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.010760289405128853,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.007982637056559272,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.013380208314332842,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.011577453215543043,
+          "probability_margin": null
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0911431225041655
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09561537976450474
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09432310057925569
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09746150928565663
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09612663583804149
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0956459637436594
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.09738267920974901
+        },
+        {
+          "trial": 14,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08876833981421786
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1945661465000847
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19368066812983809
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20332121114143106
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19523963591716137
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.20243458894738414
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19271750104414587
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19562943436484556
+        },
+        {
+          "trial": 15,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19191958258004033
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.34180956359538084
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3311532531384679
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3351744337100754
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.34080381234328067
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.33509246355030947
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3406134924025893
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.33333008415648374
+        },
+        {
+          "trial": 15,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.33002960801215947
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02382483164218754
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.020161392015986605
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02320707273143287
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.01798798711867036
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.024982421205425716
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02291009859960204
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.020954831526840346
+        },
+        {
+          "trial": 16,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.02165608124095878
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11726701016450086
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12422739911517183
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12404207844938507
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11293727492532023
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1226297941270798
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11268474281608568
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1243960294072452
+        },
+        {
+          "trial": 16,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12179943693659034
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 0,
+          "state": "outside",
+          "recession": -0.019083546555906217,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 1,
+          "state": "outside",
+          "recession": -0.018187689256004835,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 2,
+          "state": "outside",
+          "recession": -0.01846822414042354,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 3,
+          "state": "outside",
+          "recession": -0.015545447152659542,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 4,
+          "state": "outside",
+          "recession": -0.017649203799145363,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 5,
+          "state": "outside",
+          "recession": -0.018306778237217713,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 6,
+          "state": "outside",
+          "recession": -0.01860988765511845,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 5,
+          "draw": 7,
+          "state": "outside",
+          "recession": -0.016786381658288052,
+          "probability_margin": null
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.04867467654251846
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06195640958419149
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.05968992987389561
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06878686150409681
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0504308452120625
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0705046589120619
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06267279674280841
+        },
+        {
+          "trial": 17,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.06795605861068907
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.018775474550214024
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.018106590494030336
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0071611432698702356
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.016326159231132318
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.010619627461025712
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.014466805419393585
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.026511008550542284
+        },
+        {
+          "trial": 18,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.006701169091872019
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19509686316810979
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19205057823917215
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18775845388988155
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19118996202872904
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17449589263040652
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1865068838740645
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17723828948401152
+        },
+        {
+          "trial": 18,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19177497904229004
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1775494538050618
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17858994017585816
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1843559460453862
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17618830102576025
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17027805328544485
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18006388681645666
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1796481338277438
+        },
+        {
+          "trial": 19,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18069692778296692
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2101325901598629
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.2098493840438891
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21270434848813516
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21236734207127644
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21073504116655772
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21291927894235127
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21129141620433528
+        },
+        {
+          "trial": 19,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.21309542631540804
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0798186848095172
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0833582111473578
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08731010598924206
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.0843682935162882
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08052502171001885
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08855773280162944
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07978326290050318
+        },
+        {
+          "trial": 20,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.08424060080068324
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1858714739792654
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19720987602686257
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16855549461496752
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.19096973616928348
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18890638725232442
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1807811044774398
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18378984820164168
+        },
+        {
+          "trial": 20,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18837664810024723
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18198746828813925
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18258388891872313
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18417882097990093
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18117329444097247
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.17921799497220725
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1782635828204577
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.182072825680435
+        },
+        {
+          "trial": 21,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.18311759385510054
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1550710350324245
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15905080560892895
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15725502633204827
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16098705650497885
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15680720416106989
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.16076059198027362
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15869017723555273
+        },
+        {
+          "trial": 21,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15550500065221134
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.15004976435441142
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.12852234036994978
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.10877064275235412
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.1337526662205143
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.07678581547252601
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13262401710721586
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.13823897531874296
+        },
+        {
+          "trial": 22,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.11718526399077986
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3198888423951152
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3146302919354087
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3157471897261584
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3164698773761405
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3105480698472427
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.31140825504477004
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3159469623356418
+        },
+        {
+          "trial": 22,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.31784122000755416
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.36777163133025037
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3652592336333646
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3768355899758513
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3674436468178094
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.37328150720586495
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.36070328761562864
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.36246537571737686
+        },
+        {
+          "trial": 23,
+          "label_people": 5,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.3685677782301732
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 0,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.422820674680325
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 1,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.43003942717800964
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 2,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4271081849913249
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 3,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4274313961583166
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 4,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.42559197257961356
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 5,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.42246217476086695
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 6,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4249065078254373
+        },
+        {
+          "trial": 23,
+          "label_people": 10,
+          "draw": 7,
+          "state": "interior",
+          "recession": null,
+          "probability_margin": 0.4249383321278719
+        }
+      ]
+    }
+  },
+  "common_forecast_definition": "One frozen mean vector per menu across the RADIANT correction pool. Leave the labelled forecasts intact and fix the per-menu vector in all auxiliary draws. Every finite state is rechecked using both compressed and original task rows."
+}

@@ -2,7 +2,9 @@
   "manuscript": {
     "pages": 11,
     "directly_reviewed_pages": [
-      6
+      6,
+      7,
+      8
     ],
     "inherited_pixel_identical_pages": [
       1,
@@ -10,19 +12,16 @@
       3,
       4,
       5,
-      7,
-      8,
       9,
       10,
       11
     ],
-    "sha256": "e3483c05eaad650abf3b953b7307622f0c66b0ea09f81bc86c150bedbb881aec",
+    "sha256": "fa0eb694debfe170e048eccac071e63071198cdeba4372a991e2cc14e193ef96",
     "page_numbering_verified": true
   },
   "supplement": {
     "pages": 92,
     "directly_reviewed_pages": [
-      87,
       88,
       89,
       90,
@@ -115,9 +114,10 @@
       83,
       84,
       85,
-      86
+      86,
+      87
     ],
-    "sha256": "73dd4434dfd9d672fa0b2c914a3cdd7fa5bbf1e8a6a6d0c9fcf6c60071a6be31",
+    "sha256": "3d73ed2e3036d3e91bf340e3114ac315b68d7fc31fb50de5ac50f47019711bd5",
     "page_numbering_verified": true
   }
 }

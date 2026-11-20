@@ -131,3 +131,7 @@ Wang et al. compare AAE, PPI and PPI++ in Sections 5.3 and 6.2. The new sensitiv
 ## Fixed discrete profiles
 
 Cai and Low (2011, Lemma 1) use moment matching and differences in absolute moments for lower bounds. Ordinary Logit separation depends on class overlap among the observed choices. Appendix J gives an exact separate phenomenon in corrected Logit. All nine profiles remain present in both samples, both outcomes occur at each labelled profile, and only auxiliary frequencies change. It states the finite-grid moment identification condition and an exact integer instance. [Cai and Low](https://doi.org/10.1214/10-AOS849) · [Albert and Anderson](https://doi.org/10.1093/biomet/71.1.1)
+
+## Menu frequencies on released choice tasks
+
+The RADIANT check holds auxiliary menu support, the forecast per auxiliary menu and the labelled estimates of the moments fixed within each group. At unit correction, changes in observed auxiliary frequencies alone account for 70 opposite-state pairs. The half-weight and Swissmetro scope is given in the public audit. [RADIANT archive](https://doi.org/10.5281/zenodo.15420092)

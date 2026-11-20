@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_configurations": 768,
+  "unit_weight_opposite_pairs": 70,
+  "half_weight_opposite_pairs": 0,
+  "reports_sha256": "f20c5bfe9b4d8f43881f434245bafd3325bb0912c64345a923be8ee3ae014243",
+  "source_sha256": {
+    "focused_article.md": "4c937cd1ea48945ecce43d037be419ab539aa111f726f193af81aa1cb867d9de",
+    "focused_supplement.md": "cc23838e11360abc674d71593c917c10f688a6bff0167d2e9deb16984c0677a2"
+  }
+}
