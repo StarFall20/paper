@@ -1,0 +1,1090 @@
+[
+  {
+    "order": 1,
+    "label_allocation": "balanced",
+    "labelled_rows": 4,
+    "labelled_profiles": {
+      "-2": 1,
+      "-1": 1,
+      "1": 1,
+      "2": 1
+    },
+    "distinct_moments": 15,
+    "common_auxiliary_rows": 8,
+    "independent_hull_states_verified": 60,
+    "brute_force_distribution_verified": true,
+    "ordinary_finite": 0.3377777777777778,
+    "exact_ordinary_finite": "76/225",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 1,
+    "label_allocation": "balanced",
+    "labelled_rows": 8,
+    "labelled_profiles": {
+      "-2": 2,
+      "-1": 2,
+      "1": 2,
+      "2": 2
+    },
+    "distinct_moments": 61,
+    "common_auxiliary_rows": 8,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": true,
+    "ordinary_finite": 0.6924641975308642,
+    "exact_ordinary_finite": "35056/50625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 1,
+    "label_allocation": "balanced",
+    "labelled_rows": 16,
+    "labelled_profiles": {
+      "-2": 4,
+      "-1": 4,
+      "1": 4,
+      "2": 4
+    },
+    "distinct_moments": 237,
+    "common_auxiliary_rows": 8,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9390817230056394,
+    "exact_ordinary_finite": "2406763744/2562890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 8.64231067625722e-07,
+      "states_differ": 8.64231067625722e-07,
+      "all_three_states": 0.0,
+      "any_exterior": 8.64231067625722e-07
+    },
+    "exact_joint_strata": {
+      "exterior interior interior": "65/75211367",
+      "interior interior interior": "75211302/75211367"
+    }
+  },
+  {
+    "order": 1,
+    "label_allocation": "balanced",
+    "labelled_rows": 32,
+    "labelled_profiles": {
+      "-2": 8,
+      "-1": 8,
+      "1": 8,
+      "2": 8
+    },
+    "distinct_moments": 925,
+    "common_auxiliary_rows": 8,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9978446490870417,
+    "exact_ordinary_finite": "6554251130766721984/6568408355712890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 2.6628774927581258e-05,
+      "states_differ": 2.6628774927581258e-05,
+      "all_three_states": 0.0,
+      "any_exterior": 2.6628774927581258e-05
+    },
+    "exact_joint_strata": {
+      "exterior interior interior": "13285451/102410173918230031",
+      "interior interior exterior": "2727044186112/102410173918230031",
+      "interior interior interior": "102407446860758468/102410173918230031"
+    }
+  },
+  {
+    "order": 1,
+    "label_allocation": "concentrated",
+    "labelled_rows": 8,
+    "labelled_profiles": {
+      "-2": 3,
+      "-1": 1,
+      "1": 1,
+      "2": 3
+    },
+    "distinct_moments": 55,
+    "common_auxiliary_rows": 8,
+    "independent_hull_states_verified": 220,
+    "brute_force_distribution_verified": true,
+    "ordinary_finite": 0.6541937777777778,
+    "exact_ordinary_finite": "91996/140625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0002608809078655594,
+      "states_differ": 0.0002608809078655594,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0002608809078655594
+    },
+    "exact_joint_strata": {
+      "exterior interior interior": "6/22999",
+      "interior interior interior": "22993/22999"
+    }
+  },
+  {
+    "order": 1,
+    "label_allocation": "concentrated",
+    "labelled_rows": 16,
+    "labelled_profiles": {
+      "-2": 6,
+      "-1": 2,
+      "1": 2,
+      "2": 6
+    },
+    "distinct_moments": 261,
+    "common_auxiliary_rows": 8,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9333819172535308,
+    "exact_ordinary_finite": "18457992016/19775390625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 7.045620124186319e-06,
+      "states_differ": 7.045620124186319e-06,
+      "all_three_states": 0.0,
+      "any_exterior": 7.045620124186319e-06
+    },
+    "exact_joint_strata": {
+      "exterior exterior interior": "15/1153624501",
+      "exterior interior interior": "427/60717079",
+      "interior interior interior": "1153616373/1153624501"
+    }
+  },
+  {
+    "order": 1,
+    "label_allocation": "concentrated",
+    "labelled_rows": 32,
+    "labelled_profiles": {
+      "-2": 12,
+      "-1": 4,
+      "1": 4,
+      "2": 12
+    },
+    "distinct_moments": 1021,
+    "common_auxiliary_rows": 8,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9980064996564322,
+    "exact_ordinary_finite": "390286484017720909984/391066074371337890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 2.460119361849088e-10,
+      "states_differ": 2.460119361849088e-10,
+      "all_three_states": 0.0,
+      "any_exterior": 2.460119361849088e-10
+    },
+    "exact_joint_strata": {
+      "exterior exterior interior": "488314763/12196452625553778437",
+      "exterior interior interior": "2512158162/12196452625553778437",
+      "interior interior interior": "12196452622553305512/12196452625553778437"
+    }
+  },
+  {
+    "order": 1,
+    "label_allocation": "concentrated",
+    "labelled_rows": 64,
+    "labelled_profiles": {
+      "-2": 24,
+      "-1": 8,
+      "1": 8,
+      "2": 24
+    },
+    "distinct_moments": 4029,
+    "common_auxiliary_rows": 8,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9999982377680076,
+    "exact_ordinary_finite": "152932405021357044791093434393446995424064/152932674524208778166212141513824462890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 1.0440111000520382e-05,
+      "states_differ": 1.0440111000520382e-05,
+      "all_three_states": 0.0,
+      "any_exterior": 1.0440111000520382e-05
+    },
+    "exact_joint_strata": {
+      "exterior exterior interior": "16212463918306590461/2389568828458703824860834912397609303501",
+      "exterior interior interior": "24947363812492298029097243084122832/2389568828458703824860834912397609303501",
+      "interior interior interior": "2389543881094891332546593351236218590208/2389568828458703824860834912397609303501"
+    }
+  },
+  {
+    "order": 2,
+    "label_allocation": "balanced",
+    "labelled_rows": 8,
+    "labelled_profiles": {
+      "-4": 1,
+      "-3": 1,
+      "-2": 1,
+      "-1": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "distinct_moments": 105,
+    "common_auxiliary_rows": 308800,
+    "independent_hull_states_verified": 420,
+    "brute_force_distribution_verified": true,
+    "ordinary_finite": 0.5454244094151822,
+    "exact_ordinary_finite": "319196/585225",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 2,
+    "label_allocation": "balanced",
+    "labelled_rows": 16,
+    "labelled_profiles": {
+      "-4": 2,
+      "-3": 2,
+      "-2": 2,
+      "-1": 2,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2
+    },
+    "distinct_moments": 413,
+    "common_auxiliary_rows": 308800,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.8498020379689701,
+    "exact_ordinary_finite": "23574827723984/27741552350625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 2,
+    "label_allocation": "balanced",
+    "labelled_rows": 32,
+    "labelled_profiles": {
+      "-4": 4,
+      "-3": 4,
+      "-2": 4,
+      "-1": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4
+    },
+    "distinct_moments": 1629,
+    "common_auxiliary_rows": 308800,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9853823879413072,
+    "exact_ordinary_finite": "758344104280972965600723104/769593726822467462937890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 2,
+    "label_allocation": "balanced",
+    "labelled_rows": 64,
+    "labelled_profiles": {
+      "-4": 8,
+      "-3": 8,
+      "-2": 8,
+      "-1": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8
+    },
+    "distinct_moments": 6461,
+    "common_auxiliary_rows": 308800,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9998758877623798,
+    "exact_ordinary_finite": "592200995850472615106341322360011827360095344225565504/592274504364494675308729032939927988834326324462890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 2,
+    "label_allocation": "concentrated",
+    "labelled_rows": 16,
+    "labelled_profiles": {
+      "-4": 1,
+      "-3": 1,
+      "-2": 5,
+      "-1": 1,
+      "1": 1,
+      "2": 5,
+      "3": 1,
+      "4": 1
+    },
+    "distinct_moments": 353,
+    "common_auxiliary_rows": 308800,
+    "independent_hull_states_verified": 1412,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.8646644537767412,
+    "exact_ordinary_finite": "592996001908/685810546875",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 2.357690994264479e-06
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "1048576/444747001431",
+      "interior interior interior": "444745952855/444747001431"
+    }
+  },
+  {
+    "order": 2,
+    "label_allocation": "concentrated",
+    "labelled_rows": 32,
+    "labelled_profiles": {
+      "-4": 2,
+      "-3": 2,
+      "-2": 10,
+      "-1": 2,
+      "1": 2,
+      "2": 10,
+      "3": 2,
+      "4": 2
+    },
+    "distinct_moments": 1389,
+    "common_auxiliary_rows": 308800,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9914582755868492,
+    "exact_ordinary_finite": "4196867623238062474691984/4233024955844879150390625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 5.830451058467151e-09
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "1529351954759680/262304226452378904668249",
+      "interior interior interior": "262304224923026949908569/262304226452378904668249"
+    }
+  },
+  {
+    "order": 2,
+    "label_allocation": "concentrated",
+    "labelled_rows": 64,
+    "labelled_profiles": {
+      "-4": 4,
+      "-3": 4,
+      "-2": 20,
+      "-1": 4,
+      "1": 4,
+      "2": 20,
+      "3": 4,
+      "4": 4
+    },
+    "distinct_moments": 5501,
+    "common_auxiliary_rows": 308800,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9999753053065896,
+    "exact_ordinary_finite": "17918057784934831377870102003660459087290119575584/17918500276805541080839248024858534336090087890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 6.5298068600890846e-15,
+      "states_differ": 6.5298068600890846e-15,
+      "all_three_states": 0.0,
+      "any_exterior": 6.222980601089094e-05
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "34844914372857107856937084865837857536737280/559939305779213480558440687614389346477816236737",
+      "exterior exterior interior": "3656295520110627774083360167559168/559939305779213480558440687614389346477816236737",
+      "interior interior interior": "559904460864836967155063639901749425260111940289/559939305779213480558440687614389346477816236737"
+    }
+  },
+  {
+    "order": 2,
+    "label_allocation": "concentrated",
+    "labelled_rows": 128,
+    "labelled_profiles": {
+      "-4": 8,
+      "-3": 8,
+      "-2": 40,
+      "-1": 8,
+      "1": 8,
+      "2": 40,
+      "3": 8,
+      "4": 8
+    },
+    "distinct_moments": 21885,
+    "common_auxiliary_rows": 308800,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.999999999831127,
+    "exact_ordinary_finite": "321072652115659726959133867390658214017004946561017196609913889813676799512460646457177161270745664/321072652169880252335343704523039868645740591697907776445354566252632366740726865828037261962890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 5.539812546823199e-27,
+      "states_differ": 5.539812546823199e-27,
+      "all_three_states": 0.0,
+      "any_exterior": 5.023573075578116e-09
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "25202061413635737074995553957791990183700572810531583365912385267348238876059915150950400/5016760189307183233736466677979034594015702290015893697029904528338699992382197600893393144855401",
+      "exterior exterior interior": "1329013562944514687128892065972780008783094887302549480215060464795648/5016760189307183233736466677979034594015702290015893697029904528338699992382197600893393144855401",
+      "exterior interior interior": "26462897478182543757189980015190700769980979983933158816665641202745344/5016760189307183233736466677979034594015702290015893697029904528338699992382197600893393144855401",
+      "interior interior interior": "5016760164105121820100729575191569595096653661996448805334840383662239853798250427952776326364009/5016760189307183233736466677979034594015702290015893697029904528338699992382197600893393144855401"
+    }
+  },
+  {
+    "order": 3,
+    "label_allocation": "balanced",
+    "labelled_rows": 12,
+    "labelled_profiles": {
+      "-6": 1,
+      "-5": 1,
+      "-4": 1,
+      "-3": 1,
+      "-2": 1,
+      "-1": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "distinct_moments": 331,
+    "common_auxiliary_rows": 55626165120,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.5856224778589336,
+    "exact_ordinary_finite": "14191807465084/24233713700625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 3,
+    "label_allocation": "balanced",
+    "labelled_rows": 24,
+    "labelled_profiles": {
+      "-6": 2,
+      "-5": 2,
+      "-4": 2,
+      "-3": 2,
+      "-2": 2,
+      "-1": 2,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2
+    },
+    "distinct_moments": 1309,
+    "common_auxiliary_rows": 55626165120,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.875182738883353,
+    "exact_ordinary_finite": "34264739156576103659566256/39151525314923988808359375",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 3,
+    "label_allocation": "balanced",
+    "labelled_rows": 48,
+    "labelled_profiles": {
+      "-6": 4,
+      "-5": 4,
+      "-4": 4,
+      "-3": 4,
+      "-2": 4,
+      "-1": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4
+    },
+    "distinct_moments": 5197,
+    "common_auxiliary_rows": 55626165120,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.989905200951938,
+    "exact_ordinary_finite": "113802615238804794994418504094079465002030945677442016/114963145086385045577814246417105815836490936279296875",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 3,
+    "label_allocation": "balanced",
+    "labelled_rows": 96,
+    "labelled_profiles": {
+      "-6": 8,
+      "-5": 8,
+      "-4": 8,
+      "-3": 8,
+      "-2": 8,
+      "-1": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 8
+    },
+    "distinct_moments": 20701,
+    "common_auxiliary_rows": 55626165120,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.999940808806341,
+    "exact_ordinary_finite": "39647227278835602376678318677223920081215634686021093637672384213058673405495347514636940281085740366312896/39649574184459654145950336261935932390027380904460939268099411297616144830173903475212864577770233154296875",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 3,
+    "label_allocation": "concentrated",
+    "labelled_rows": 24,
+    "labelled_profiles": {
+      "-6": 1,
+      "-5": 1,
+      "-4": 1,
+      "-3": 1,
+      "-2": 7,
+      "-1": 1,
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1
+    },
+    "distinct_moments": 1015,
+    "common_auxiliary_rows": 55626165120,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.928059487219635,
+    "exact_ordinary_finite": "5490802712507197516204/5916434008941650390625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 3.0693716589309046e-06,
+      "states_differ": 3.0693716589309046e-06,
+      "all_three_states": 0.0,
+      "any_exterior": 4.405800744538273e-05
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "56265128139554816/1372700678126799379051",
+      "interior interior exterior": "4213328557637632/1372700678126799379051",
+      "interior interior interior": "1372640199670102186603/1372700678126799379051"
+    }
+  },
+  {
+    "order": 3,
+    "label_allocation": "concentrated",
+    "labelled_rows": 48,
+    "labelled_profiles": {
+      "-6": 2,
+      "-5": 2,
+      "-4": 2,
+      "-3": 2,
+      "-2": 14,
+      "-1": 2,
+      "1": 2,
+      "2": 14,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2
+    },
+    "distinct_moments": 4021,
+    "common_auxiliary_rows": 55626165120,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9977651089058136,
+    "exact_ordinary_finite": "2328397388438812038102047466145922609547152/2333612758810757923624478280544281005859375",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 3.847782369701753e-10,
+      "states_differ": 3.847782369701753e-10,
+      "all_three_states": 0.0,
+      "any_exterior": 0.002182449363747247
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "4764007971592870169119676221558953607168/2182872551661386285720669499511802446450455",
+      "interior interior exterior": "279973950652952026692128786612224/727624183887128761906889833170600815483485",
+      "interior interior interior": "435621708569974312718538748642771426601323/436574510332277257144133899902360489290091"
+    }
+  },
+  {
+    "order": 3,
+    "label_allocation": "concentrated",
+    "labelled_rows": 96,
+    "labelled_profiles": {
+      "-6": 4,
+      "-5": 4,
+      "-4": 4,
+      "-3": 4,
+      "-2": 28,
+      "-1": 4,
+      "1": 4,
+      "2": 28,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4
+    },
+    "distinct_moments": 15997,
+    "common_auxiliary_rows": 55626165120,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9999982188720071,
+    "exact_ordinary_finite": "408430410638193519103054703359499512643455410560685560736933913411139193004324681019296/408431138106326747482250448289796252639728408977137785740296749281696975231170654296875",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 1.5672841744674e-14,
+      "states_differ": 1.5672841744674e-14,
+      "all_three_states": 0.0,
+      "any_exterior": 3.653101693090845e-05
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "466261819991264820605007903694570824775038884361062390333794974665025087988563968/12763450332443547471970459479984359770107981580021423773029184794098099781385146281853",
+      "exterior exterior interior": "200024491861415458904687619832395274483955284993486378107884547216506880/12763450332443547471970459479984359770107981580021423773029184794098099781385146281853",
+      "interior exterior exterior": "1169845409581542008080123597528698118126374896847686681489074814976/12763450332443547471970459479984359770107981580021423773029184794098099781385146281853",
+      "interior interior exterior": "41626408708400919567895268705999006469299658498974342367373837729792/38290350997330642415911378439953079310323944740064271319087554382294299344155438845559",
+      "interior interior interior": "1664737052690002978384262357944336345341499258217505888799251710813851226235163541665/1664797869449158365909190366954481709144519336524533535612502364447578232354584297633"
+    }
+  },
+  {
+    "order": 3,
+    "label_allocation": "concentrated",
+    "labelled_rows": 192,
+    "labelled_profiles": {
+      "-6": 8,
+      "-5": 8,
+      "-4": 8,
+      "-3": 8,
+      "-2": 56,
+      "-1": 8,
+      "1": 8,
+      "2": 56,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 8
+    },
+    "distinct_moments": 63805,
+    "common_auxiliary_rows": 55626165120,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9999999999987484,
+    "exact_ordinary_finite": "500447983723861741120887238302874106221989192488463134206521607076705496488212316114754349901220257660816434879958214279161243699383648678435444978962918737013571954373928256/500447983724488058878001244066532579656049646179734067253732242469636908114393746228697890766673911576538226303070001275608088368569530135498979461772250942885875701904296875",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 6.7964207889172e-10,
+      "states_differ": 6.7964207889172e-10,
+      "all_three_states": 0.0,
+      "any_exterior": 1.8660205117162035e-09
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "27830657561272859951461555405197930047525302320616707193243601131115905763216528607388092950911437425560443476963636148717414372436330662472342736343481144932564992/23458499237056019115041589295447223729155743397896709415930700331720570147884952317879110151619699577850770384998041294335683298408608531801661483388886815797511185361277887",
+      "exterior exterior interior": "11273343212666421828984608578685320108713393973841592124008978302259348721182500293787447070502630955647980327186348508226253706175933095409090560/7819499745685339705013863098482407909718581132632236471976900110573523382628317439293036717206566525950256794999347098111894432802869510600553827796295605265837061787092629",
+      "exterior interior exterior": "739163531591543878530908548031004906298879380392893754665710157930897891325826550398609225717115287299036342983232841360904962366493830001348050944/23458499237056019115041589295447223729155743397896709415930700331720570147884952317879110151619699577850770384998041294335683298408608531801661483388886815797511185361277887",
+      "exterior interior interior": "314190554288467384930876578116479722840059102138013552065179865168558782626436408461351639072683847223224367593286770728156121625800406582322790400/23458499237056019115041589295447223729155743397896709415930700331720570147884952317879110151619699577850770384998041294335683298408608531801661483388886815797511185361277887",
+      "interior exterior exterior": "987710763706744563873629326096767051674153109353179027804415474823198677344795918596098293855301928276613742282543463222304629659271168/7819499745685339705013863098482407909718581132632236471976900110573523382628317439293036717206566525950256794999347098111894432802869510600553827796295605265837061787092629",
+      "interior interior exterior": "15943383189152579591805937565582477384031694812275727245787443410080474836120084917769661405429772083934127325761964124410141796168235733699579949763341901807747072/23458499237056019115041589295447223729155743397896709415930700331720570147884952317879110151619699577850770384998041294335683298408608531801661483388886815797511185361277887",
+      "interior interior interior": "23458499193281978364616148665005615237401674726480526707876788449320559999234029287566001536813978681229505102145876734514760754510495020288596246629488629201738379745039295/23458499237056019115041589295447223729155743397896709415930700331720570147884952317879110151619699577850770384998041294335683298408608531801661483388886815797511185361277887"
+    }
+  },
+  {
+    "order": 4,
+    "label_allocation": "balanced",
+    "labelled_rows": 18,
+    "labelled_profiles": {
+      "-9": 1,
+      "-8": 1,
+      "-7": 1,
+      "-6": 1,
+      "-5": 1,
+      "-4": 1,
+      "-3": 1,
+      "-2": 1,
+      "-1": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "distinct_moments": 1065,
+    "common_auxiliary_rows": 496230129640283220000,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.5967674502322384,
+    "exact_ordinary_finite": "3841294617302391678021244/6436836687067149237980625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 4,
+    "label_allocation": "balanced",
+    "labelled_rows": 36,
+    "labelled_profiles": {
+      "-9": 2,
+      "-8": 2,
+      "-7": 2,
+      "-6": 2,
+      "-5": 2,
+      "-4": 2,
+      "-3": 2,
+      "-2": 2,
+      "-1": 2,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2
+    },
+    "distinct_moments": 4233,
+    "common_auxiliary_rows": 496230129640283220000,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.8818065424639797,
+    "exact_ordinary_finite": "43328540196317694643837700385022393524315487245348185168/49136106515208339770858203418522359862518789011125390625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 4,
+    "label_allocation": "balanced",
+    "labelled_rows": 72,
+    "labelled_profiles": {
+      "-9": 4,
+      "-8": 4,
+      "-7": 4,
+      "-6": 4,
+      "-5": 4,
+      "-4": 4,
+      "-3": 4,
+      "-2": 4,
+      "-1": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 4
+    },
+    "distinct_moments": 16869,
+    "common_auxiliary_rows": 496230129640283220000,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9909481936220412,
+    "exact_ordinary_finite": "2392502671713257362399387938039909407792595282703416115498331377454207700419513080839937106372072579754031222688/2414356963473899455569442157728224844934160783573729684551629755861053261178706605561206648177680566558837890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 4,
+    "label_allocation": "balanced",
+    "labelled_rows": 144,
+    "labelled_profiles": {
+      "-9": 8,
+      "-8": 8,
+      "-7": 8,
+      "-6": 8,
+      "-5": 8,
+      "-4": 8,
+      "-3": 8,
+      "-2": 8,
+      "-1": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 8,
+      "9": 8
+    },
+    "distinct_moments": 67341,
+    "common_auxiliary_rows": 496230129640283220000,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9999524081865909,
+    "exact_ordinary_finite": "5828842128705084547261676295643140539137759579263998770459549109109875149648750616373549363205375783424104454740020792806910373343045586190254090837326388869717658944034743677806978284113817146533108224390565943777069160768/5829119547074908269856564301062781513719896684027233690480878071720378643472477899053158355901734235284976009254708906743917035380900094561400362232744524226993315797479285543274994985933154728763371729291975498199462890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 0.0,
+      "states_differ": 0.0,
+      "all_three_states": 0.0,
+      "any_exterior": 0.0
+    },
+    "exact_joint_strata": {
+      "interior interior interior": "1"
+    }
+  },
+  {
+    "order": 4,
+    "label_allocation": "concentrated",
+    "labelled_rows": 36,
+    "labelled_profiles": {
+      "-9": 1,
+      "-8": 1,
+      "-7": 1,
+      "-6": 1,
+      "-5": 1,
+      "-4": 1,
+      "-3": 1,
+      "-2": 10,
+      "-1": 1,
+      "1": 1,
+      "2": 10,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "distinct_moments": 3063,
+    "common_auxiliary_rows": 496230129640283220000,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9671894481622274,
+    "exact_ordinary_finite": "2351144454209177966735917528826787795724/2430903747633544061889960765838623046875",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 2.5926888844061947e-06,
+      "states_differ": 2.5926888844061947e-06,
+      "all_three_states": 0.0,
+      "any_exterior": 0.05852455546887282
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "378382367658915635466491323271608270848/6465647249075239408523773204273666438241",
+      "exterior interior interior": "215750757502865480878129152/6465647249075239408523773204273666438241",
+      "interior interior exterior": "16763411537418105605392403187892224/6465647249075239408523773204273666438241",
+      "interior interior interior": "6087248118004570604194173623117992146017/6465647249075239408523773204273666438241"
+    }
+  },
+  {
+    "order": 4,
+    "label_allocation": "concentrated",
+    "labelled_rows": 72,
+    "labelled_profiles": {
+      "-9": 2,
+      "-8": 2,
+      "-7": 2,
+      "-6": 2,
+      "-5": 2,
+      "-4": 2,
+      "-3": 2,
+      "-2": 20,
+      "-1": 2,
+      "1": 2,
+      "2": 20,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2
+    },
+    "distinct_moments": 12189,
+    "common_auxiliary_rows": 496230129640283220000,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9995306928310281,
+    "exact_ordinary_finite": "16620671873437548624299779163264907939148392040585144442877904503899405355453056/16628475736309672617454415932609848523292778846024475569720380008220672607421875",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 5.5347974337072767e-11,
+      "states_differ": 5.5347974337072767e-11,
+      "all_three_states": 0.0,
+      "any_exterior": 0.004387167609598536
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "24495780562801363101086645539025782116998603525708045477872358730872045699072/5583506957482926490975707062659305010807662951134071961279296044278706486597511",
+      "exterior interior exterior": "136588380603004568393158885958260530304418415634164182901648785408/5583506957482926490975707062659305010807662951134071961279296044278706486597511",
+      "exterior interior interior": "6384566305668990596323272417875329875191694986165201490742870016/5583506957482926490975707062659305010807662951134071961279296044278706486597511",
+      "interior interior exterior": "7183554112714502125775515176700069100102801448031298800243185811456/129848999011230848627342024713007093274596812817071440959983628936714104339477",
+      "interior interior interior": "5559011176611089328080988152152942593934185240443763843425457507752985059350407/5583506957482926490975707062659305010807662951134071961279296044278706486597511"
+    }
+  },
+  {
+    "order": 4,
+    "label_allocation": "concentrated",
+    "labelled_rows": 144,
+    "labelled_profiles": {
+      "-9": 4,
+      "-8": 4,
+      "-7": 4,
+      "-6": 4,
+      "-5": 4,
+      "-4": 4,
+      "-3": 4,
+      "-2": 40,
+      "-1": 4,
+      "1": 4,
+      "2": 40,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 4,
+      "9": 4
+    },
+    "distinct_moments": 48621,
+    "common_auxiliary_rows": 496230129640283220000,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9999999027424822,
+    "exact_ordinary_finite": "511259923899934058938871132491211928601780591198362248109421118198736444882947359191911426958263063653294535658588403631152788138808931442789632524042959030443648/511259973623810051969014577121911373383840880527274277602800313869998782448417276741884386314028168385820134314291869463177386823105052826576866209506988525390625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 4.832466041614163e-20,
+      "states_differ": 4.832466041614163e-20,
+      "all_three_states": 0.0,
+      "any_exterior": 4.0432776211957884e-05
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "161497328821786146746805628135377098299428094317419754715879873550451714494376138176932406880948800605721443905025975570342395994325321613363192455009140736/3994218155468234835459930722587593192201410868737205063354852485927628475648026243686808023111430184791363559832721903368381157334444776896794004094085617425341",
+      "exterior interior exterior": "8209805691842880255641903839679845285577631517348108635151860636144194432904883995698181225097469666877100886224587928049821555884032/570602593638319262208561531798227598885915838391029294764978926561089782235432320526686860444490026398766222833245986195483022476349253842399143442012231060763",
+      "exterior interior interior": "3062784661911597768727529942309742599224241706672486955196586036312020289657166536963028540085792440037997653844406230547076032233472/3994218155468234835459930722587593192201410868737205063354852485927628475648026243686808023111430184791363559832721903368381157334444776896794004094085617425341",
+      "interior interior exterior": "193019175459565546718521049715336856044302285811368632376026856121187040304188509725029963761586325980898669799892328014739599381735235649536/3994218155468234835459930722587593192201410868737205063354852485927628475648026243686808023111430184791363559832721903368381157334444776896794004094085617425341",
+      "interior interior interior": "3994056658139413049120164680968467763572830832706693967487174721975047063448257610167833561078979406274373367776933435643832036960854266143919314624068449213373/3994218155468234835459930722587593192201410868737205063354852485927628475648026243686808023111430184791363559832721903368381157334444776896794004094085617425341"
+    }
+  },
+  {
+    "order": 4,
+    "label_allocation": "concentrated",
+    "labelled_rows": 288,
+    "labelled_profiles": {
+      "-9": 8,
+      "-8": 8,
+      "-7": 8,
+      "-6": 8,
+      "-5": 8,
+      "-4": 8,
+      "-3": 8,
+      "-2": 80,
+      "-1": 8,
+      "1": 8,
+      "2": 80,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 8,
+      "9": 8
+    },
+    "distinct_moments": 194205,
+    "common_auxiliary_rows": 496230129640283220000,
+    "independent_hull_states_verified": 0,
+    "brute_force_distribution_verified": false,
+    "ordinary_finite": 0.9999999999999953,
+    "exact_ordinary_finite": "261386760629817737000154482852197307109515239559005387860917788914111639333155625056973031105779005820855835129512068247432628017717453931457298686014086171733619214755152428674586782059803734710293700026291025600331440956022261307311606671140492351391134309277876398218439815922276694936607582063022061878182330403837650688/261386760629818950042752960009494320416545999200205315213737776311138957938409281442391373037180910843778720933765597151254356313469672085891986947958065920314654102764576105931800354194856739683701135792543837066735997479747314489516836643647157414938206866637090724891130476999754651823426598866717540659010410308837890625",
+    "conditional_probabilities": {
+      "any_exterior_and_interior": 6.619576818688129e-38,
+      "states_differ": 6.619576818688129e-38,
+      "all_three_states": 0.0,
+      "any_exterior": 4.765870003789973e-09
+    },
+    "exact_joint_strata": {
+      "exterior exterior exterior": "4866153601068274390383740598927293086764452580031071522918386075726694937323047227575202394447650579607422977663337812781574203624910213906881529809708960599245000949172641862741725777682456626795374101950229886244658049215438259736063453176991161819954365486124443459654578833189135539190471155147682662404063232/1021042033710225535156853448641395730896543904527364796331710112945748591145139160378800902756949241487718105974656516591533703194208804419755072992242524108334450057637314174510104617421108338712084765727699318751294691234461958231685963559142548247621618395616704680540780530946393339596123367433679929211649728139990823",
+      "exterior exterior interior": "30313556567736857142750298058566344176992610128842799184073768568057842686071375482795971727740427004464191856699616083753397004785468080180757212149551731787039386576268258066769131408734722279526708827302453436354357964320700424696700889833292321705135292264711454720/1021042033710225535156853448641395730896543904527364796331710112945748591145139160378800902756949241487718105974656516591533703194208804419755072992242524108334450057637314174510104617421108338712084765727699318751294691234461958231685963559142548247621618395616704680540780530946393339596123367433679929211649728139990823",
+      "exterior interior exterior": "9566678317676304499379943175198239005163635053988567341847539426286681010616267682654653879860191258725734275758302212892589437681939266364873566433741549566156175214516686071549769146281676189314782454074459064139419555001830222734241039293848581741792995155555813163008/1021042033710225535156853448641395730896543904527364796331710112945748591145139160378800902756949241487718105974656516591533703194208804419755072992242524108334450057637314174510104617421108338712084765727699318751294691234461958231685963559142548247621618395616704680540780530946393339596123367433679929211649728139990823",
+      "exterior interior interior": "550349062705757008107410044135781289738943326083758589486914091899743898240936650804120961206702065268740750120477843516942086075983397940298657394258195327893199030394357538140022991588373492950253436212872690549781220631796295990877253318098929620220813522131107184640/1021042033710225535156853448641395730896543904527364796331710112945748591145139160378800902756949241487718105974656516591533703194208804419755072992242524108334450057637314174510104617421108338712084765727699318751294691234461958231685963559142548247621618395616704680540780530946393339596123367433679929211649728139990823",
+      "interior exterior exterior": "41321206115694500662490749749685624960789600471730491438200694543177235716947448756844272559909467824232030263212465485706591766679144420974914635440529415495374455996449215227795007909051667466331786476378786080814342626471308756060283454708735016960/1021042033710225535156853448641395730896543904527364796331710112945748591145139160378800902756949241487718105974656516591533703194208804419755072992242524108334450057637314174510104617421108338712084765727699318751294691234461958231685963559142548247621618395616704680540780530946393339596123367433679929211649728139990823",
+      "interior interior exterior": "67588661772533780116148675130170187282379976297653265911861200358102570471900394780374894102422561935008152314461333190801586799978274276913511140825142302797605801289030592868942857976955451128546763624297308360382237916774270629858681936141995659585137286777709916972255235987734528/1021042033710225535156853448641395730896543904527364796331710112945748591145139160378800902756949241487718105974656516591533703194208804419755072992242524108334450057637314174510104617421108338712084765727699318751294691234461958231685963559142548247621618395616704680540780530946393339596123367433679929211649728139990823",
+      "interior interior interior": "1021042028844071934088579058257655131901662155990368288843552965098827656711340738476960667208145695827609476578445917934578014833808554111788195189699905324333607269273721431472925693256369198659215509202247812603855019171565205951975664965162014352641194973012476677637580809144588217485722289353059077864287169381373735/1021042033710225535156853448641395730896543904527364796331710112945748591145139160378800902756949241487718105974656516591533703194208804419755072992242524108334450057637314174510104617421108338712084765727699318751294691234461958231685963559142548247621618395616704680540780530946393339596123367433679929211649728139990823"
+    }
+  }
+]

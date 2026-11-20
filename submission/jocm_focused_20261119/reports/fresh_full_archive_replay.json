@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "ad9d56c83c11a00ff2f2804f1963dccf67f3a0c496f148aea7fb0f8cee7bfb88",
+  "archive_manifest_sha256": "00d06788f092d47c3d848d387b7e783631139a208738a07d74cf2ca7426b22b4",
   "python": "3.12.14",
   "package_versions": {
     "numpy": "2.5.3",
@@ -21,6 +21,10 @@
     "oracle_common_menu": {
       "status": "passed",
       "log": "oracle_common_menu.log"
+    },
+    "oracle_label_sampling": {
+      "status": "passed",
+      "log": "oracle_label_sampling.log"
     },
     "headline": {
       "status": "passed",
