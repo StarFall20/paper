@@ -1,21 +1,23 @@
 {
   "changed_pages_inspected": {
     "main": [
-      1,
-      6,
+      4,
       10
     ],
     "supplement": [
-      48,
-      49,
-      50,
-      51,
-      52
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
     ]
   },
   "prior_render_pages_exact_body_matches": {
-    "main": 7,
-    "supplement": 79
+    "main": 8,
+    "supplement": 80
   },
   "all_rendered_footer_page_numbers_checked": true
 }

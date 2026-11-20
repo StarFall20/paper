@@ -8,7 +8,7 @@ Keywords: discrete choice; multinomial logit; prediction-powered inference; sepa
 
 ## 1 Introduction
 
-Choice analysts can obtain predicted responses for profiles without observed human choices. Prediction-powered inference uses a smaller set of human choices to correct errors in these predictions (Angelopoulos et al., 2023, 2026). Large language models have already been used in choice modelling and in prediction-assisted preference estimation (Sfeir et al., 2026; Ye and Yoganarasimhan, 2026). The resulting models raise a basic estimation question. Does the corrected objective attain a finite minimum for the choice menus at hand?
+Choice analysts can obtain predicted responses for profiles without observed human choices. Prediction-powered inference uses a smaller set of human choices to correct errors in these predictions (Angelopoulos et al., 2023, 2026). Recent work uses language models to support choice modelling and conjoint estimation (Sfeir et al., 2026; Wang et al., 2026; Ye and Yoganarasimhan, 2026). Comparisons of human and model-generated food choices also report differences in utility magnitudes (Califano and Caracciolo, 2026). These applications raise a basic estimation question. Does the corrected objective attain a finite minimum for the choice menus at hand?
 
 Consider a food choice experiment with ten labelled respondents. In 21 of 500 label allocations the unit-weight correction puts the target moment outside the range of fitted choice probabilities. In 18 of those 21 allocations, ordinary multinomial logit on the same human choices has a finite estimate. This failure matters because some optimizers can return a finite coefficient vector even when the objective decreases without bound. We give a finite-design check, explain through two controlled comparisons why local diagnostics miss the failure, and calculate what happens to forecast probabilities as the correction weight approaches its limit.
 
@@ -79,6 +79,8 @@ For $a\in E$, $b\in\mathbb R$ and independent standard Gaussian $H$ in $E$, writ
 $$\inf_{(a,b)\in E\times\mathbb R}\sup_{t\geq0}\{E B_J(H-h,tD_L)+\tau E B_J(H-h,tD_U)\}. \qquad (8)$$
 
 Above this ratio the probability of a finite fit tends to zero, with equality left unspecified. This is the whole-menu theorem in Supplementary Appendix F. Equation (8) counts common noise slopes per labelled menu. Its projection preserves the zero-sum residuals of each menu. The supplement includes hard predictions, a binary reduction and an extension to a specified class of independent discrete attributes. The applications below use the exact finite-design check, so they do not require Gaussian menus or independent repeated choices.
+
+When one respondent completes several tasks, cluster-robust PPI provides standard errors and variance-based tuning (Broska and Howes, 2026). Supplementary Appendix H shows that within-person correlation in the attributes can shift the binary existence boundary. For two tasks per person and equal sample sizes, correlation 0.99 gives a critical ratio of 0.495 slopes per labelled respondent, compared with 0.675 for independent tasks. These designs have identical task marginals, population Hessians, and fixed-dimensional cluster sandwich covariance. They also have the same exact ordinary-logit existence probability.
 
 ### 3.3 Identical scores and different boundaries
 
@@ -162,7 +164,7 @@ At 15 respondents, exact frequency matching leaves all five exterior targets and
 
 The corrected moment and the active menus determine whether the estimation problem has a finite solution. A favourable variance calculation or a converged local update supplies different information. For known labelled choices and available auxiliary menus, (3) gives a finite-design check. Reporting the active contrast rank, the chosen weight and its distance from any positive limit makes the fitted choice model easier to interpret. When outcomes are scarce, the label budget includes any human choices used to train or prompt the predictor. A direct fit using those choices is an appropriate comparator when they can enter the target likelihood.
 
-The high-dimensional boundary is a statement about independent attributes and a specified prediction law. Choice panels, dependent effect coding and predictors trained on the analysis respondents require their own probability arguments. The observed-design support check still applies to a fitted criterion with repeated choices. In a blocked experiment, identical menu frequencies and predicted moments make the correction cancel. Equal frequencies alone leave the within-menu moment term. The released analyses illustrate these mechanisms with food and travel choices and with fixed evaluation groups. They establish finite-estimate and forecast comparisons under the recorded designs.
+The probability boundaries use specified attribute and prediction laws. The repeated-task result covers a balanced binary design with fixed Gaussian within-person correlation. Dependent effect coding, respondent preference heterogeneity and predictors trained on the analysis respondents require separate probability arguments. The observed-design support check applies to fitted criteria with repeated choices. In a blocked experiment, identical menu frequencies and predicted moments make the correction cancel. Equal frequencies alone leave the within-menu moment term. The released analyses illustrate these mechanisms with food and travel choices and with fixed evaluation groups. They establish finite-estimate and forecast comparisons under the recorded designs.
 
 The supplement describes extensions and alternatives, including sample-size-dependent powers, penalized estimates and explicit fallback policies. Each changes a specific part of the fitting problem. Penalized or pooled fits can give meaningful forecasts when the compensated objective fails, provided their targets and human-label costs are reported. The estimated probability on a held-out human choice remains the measure of predictive performance in the applications here.
 
@@ -188,7 +190,11 @@ Angelopoulos, A.N., Duchi, J.C., Zrnic, T. (2026). PPI++: Efficient prediction-p
 
 Bierlaire, M., Axhausen, K.W., Abay, G. (2001). The acceptance of modal innovation: The case of Swissmetro. Swiss Transport Research Conference, Monte Verità. https://transp-or.epfl.ch/documents/proceedings/BierAxhaAbay01.pdf
 
+Broska, D., Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. Preprint, arXiv:2610.09601v1. https://arxiv.org/abs/2610.09601v1
+
 Cai, T.T., Low, M.G. (2011). Testing composite hypotheses, Hermite polynomials and optimal estimation of a nonsmooth functional. Annals of Statistics 39(2), 1012–1041. https://doi.org/10.1214/10-AOS849
+
+Califano, G., Caracciolo, F. (2026). Do large language models shop like people? Comparing GPT and human food choices using discrete choice experiments. Food Quality and Preference 142, 105930. https://doi.org/10.1016/j.foodqual.2026.105930
 
 Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753
 
@@ -207,5 +213,7 @@ Rinaldo, A., Fienberg, S.E., Zhou, Y. (2009). On the geometry of discrete expone
 Sfeir, G., Nova, G., Hess, S., van Cranenburgh, S. (2026). Can large language models assist choice modelling? Insights into prompting strategies and current models’ capabilities. Journal of Choice Modelling 60, 100623. https://doi.org/10.1016/j.jocm.2026.100623
 
 Vadlamani, A.T., Chang, J.H., Parthasarathy, S., Paul, S. (2026). Transfer Calibrated Prediction Powered Inference. Preprint, arXiv:2609.34156v1. https://arxiv.org/abs/2609.34156v1
+
+Wang, M., Zhang, D.J., Zhang, H. (2026). Large Language Models for Market Research: A Data-Augmentation Approach. Marketing Science 45(4), 728–751. https://doi.org/10.1287/mksc.2025.0009
 
 Ye, Z., Yoganarasimhan, H. (2026). Rectification Difficulty and Optimal Sample Allocation in LLM-Augmented Surveys. Preprint, arXiv:2604.17267v2. https://arxiv.org/abs/2604.17267v2

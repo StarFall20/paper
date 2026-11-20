@@ -25,3 +25,6 @@ The separate final PPI++ supplements returned webpages with no readable suppleme
 [Fixed-label empirical and source-level checks](../matched_auxiliary_diagnostics_20261119/README.md) accompany the manuscript version with Appendix B9.
 
 [Author branch replay](../author_ppi_branch_audit_20261119/README.md) verifies the stored call records as part of the release.
+
+Appendix H gives the correlated two-task benchmark, the exact ordinary-logit comparison and an independent check of all 2280 corrected outcomes. The November 20 institutional report records eight Web of Science Topic queries, 71 exported records and cross-checks in EconLit, EBSCO Business and Google Scholar.
+The exact text screen compared 14 named primary PDFs, covering 611 pages. No contiguous matching passage of ten or more words was detected under the recorded extraction rules.

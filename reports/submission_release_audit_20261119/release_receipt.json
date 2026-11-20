@@ -1,18 +1,7 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "08cac0c659f77e52c95716f51ce7f7c3fb999e47f23beab302ced862c2a605a1",
-  "python": "3.12.14",
-  "package_versions": {
-    "numpy": "2.5.3",
-    "scipy": "1.18.1",
-    "pandas": "2.2.3",
-    "scikit-learn": "1.9.1",
-    "matplotlib": "3.11.2",
-    "threadpoolctl": "3.7.0",
-    "python-docx": "1.2.0",
-    "lxml": "6.1.1",
-    "openpyxl": "3.1.5"
-  },
+  "archive_manifest_sha256": "19826108f140d0f37314f33ce8fc19458c7cfee4747a0e80f5a40fd16444727c",
+  "numerical_replay_manifest_sha256": "38e6b05cfe9f5e53887379591c90b99b78d1519444ce829adcaf5f6585a9609a",
   "checks": {
     "inventory": {
       "status": "passed",
@@ -50,6 +39,14 @@
       "status": "passed",
       "log": "author_ppi_branch.log"
     },
+    "paired_task_integral": {
+      "status": "passed",
+      "log": "paired_task_integral.log"
+    },
+    "paired_task_states": {
+      "status": "passed",
+      "log": "paired_task_states.log"
+    },
     "food_panel": {
       "status": "passed",
       "log": "food_panel.log"
@@ -81,5 +78,44 @@
       "sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
     }
   },
-  "optional_sources_not_supplied": []
+  "python": "3.12.14",
+  "package_versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.7.0",
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1",
+    "openpyxl": "3.1.5"
+  },
+  "same_prior_result_reports": [
+    "headline.json",
+    "mathematics/quick_check.json",
+    "exact_designs.json",
+    "common_newton_point.json",
+    "hessian_power_bounds.json",
+    "unit_endpoint.json",
+    "unit_archive.json",
+    "food_panel/verification.json",
+    "food_path/verification.json",
+    "swissmetro_path.json",
+    "swissmetro_budget.json",
+    "matched_auxiliary_diagnostics/summary.json"
+  ],
+  "final_edition_binding": {
+    "identical_items_except_four_editorial_files": 1269,
+    "changed_content": [
+      "focused_article.md",
+      "focused_supplement.md",
+      "results/paired_choice_boundary/README.md",
+      "results/paired_choice_boundary/proof.md"
+    ],
+    "first_replay_manifest_sha256": "38e6b05cfe9f5e53887379591c90b99b78d1519444ce829adcaf5f6585a9609a",
+    "final_edition_manifest_sha256": "19826108f140d0f37314f33ce8fc19458c7cfee4747a0e80f5a40fd16444727c",
+    "inventory_and_headline_completed_on_final_edition": true,
+    "appendix_h_claims_checked_against_saved_outputs": true
+  },
+  "scope": "The validation run ran 16 checks on an extracted archive. Final prose and source references were edited separately. The final archive passed inventory and headline checks and preserved all numerical code and data bytes."
 }

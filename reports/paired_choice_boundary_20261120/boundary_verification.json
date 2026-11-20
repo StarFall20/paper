@@ -1,0 +1,10 @@
+{
+  "polygons_checked": 32,
+  "independent_gaussian_points_per_polygon": 524288,
+  "maximum_value_difference": 5.689843992406907e-06,
+  "finite_correlation_contrast": {
+    "rho_0_lower_bound": 0.6703891055572211,
+    "rho_099_upper_bound": 0.5507935464461248,
+    "test_ratio": 0.585
+  }
+}

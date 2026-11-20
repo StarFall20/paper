@@ -7,32 +7,32 @@
   "scope": "Exact contiguous phrase screening against one supplied preprint. Paraphrases, ideas, formula identity and matches elsewhere are outside the screen.",
   "results": {
     "manuscript.md": {
-      "markdown_sha256": "f84a25665190b1dec0d3e5bf9c7269d0a56940d340f6c4f3fc2b7e98f4281abd",
+      "markdown_sha256": "d33e4557ab8f6947ad1bb6407e90e441951341cc18f6b15eda215dc3307b89ab",
       "10": {
-        "compared_distinct_windows": 1216,
+        "compared_distinct_windows": 1260,
         "matched_windows": 0
       },
       "12": {
-        "compared_distinct_windows": 878,
+        "compared_distinct_windows": 911,
         "matched_windows": 0
       },
       "15": {
-        "compared_distinct_windows": 511,
+        "compared_distinct_windows": 531,
         "matched_windows": 0
       }
     },
     "supplement.md": {
-      "markdown_sha256": "93ccd3aa729f08c8be5a671e43cf45e54cd2d4656b217194ad45422a6fe4654a",
+      "markdown_sha256": "d6f7a8f9b45f8a93990b24222234eb5f686521df59369131ec21988240f6ffc8",
       "10": {
-        "compared_distinct_windows": 8013,
+        "compared_distinct_windows": 8330,
         "matched_windows": 0
       },
       "12": {
-        "compared_distinct_windows": 5474,
+        "compared_distinct_windows": 5674,
         "matched_windows": 0
       },
       "15": {
-        "compared_distinct_windows": 2924,
+        "compared_distinct_windows": 3018,
         "matched_windows": 0
       }
     }

@@ -1,8 +1,8 @@
 {
-  "source_sha256": "93ccd3aa729f08c8be5a671e43cf45e54cd2d4656b217194ad45422a6fe4654a",
-  "native_math_count": 1639,
-  "display_equation_paragraphs": 156,
+  "source_sha256": "d6f7a8f9b45f8a93990b24222234eb5f686521df59369131ec21988240f6ffc8",
+  "native_math_count": 1751,
+  "display_equation_paragraphs": 162,
   "rasterized_equations": 0,
   "raw_tex_commands_left_in_text": false,
-  "tables": 21
+  "tables": 22
 }

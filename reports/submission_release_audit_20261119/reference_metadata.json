@@ -1,12 +1,12 @@
 {
   "source_sha256": {
-    "manuscript": "f84a25665190b1dec0d3e5bf9c7269d0a56940d340f6c4f3fc2b7e98f4281abd",
-    "supplement": "93ccd3aa729f08c8be5a671e43cf45e54cd2d4656b217194ad45422a6fe4654a"
+    "manuscript": "d33e4557ab8f6947ad1bb6407e90e441951341cc18f6b15eda215dc3307b89ab",
+    "supplement": "d6f7a8f9b45f8a93990b24222234eb5f686521df59369131ec21988240f6ffc8"
   },
-  "unique_links": 70,
+  "unique_links": 75,
   "counts": {
     "automated_matches": 59,
-    "manual_matches": 11,
+    "manual_matches": 16,
     "unresolved": 0
   },
   "details": [
@@ -2000,6 +2000,46 @@
         "record": "title page and cited theorem",
         "paper_title_and_leading_author_agree": true
       }
+    },
+    {
+      "url": "https://doi.org/10.1016/j.foodqual.2026.105930",
+      "classification": "primary_source_matched",
+      "printed": [
+        "Califano, G., Caracciolo, F. (2026). Do large language models shop like people? Comparing GPT and human food choices using discrete choice experiments. Food Quality and Preference 142, 105930. https://doi.org/10.1016/j.foodqual.2026.105930"
+      ],
+      "primary_source_text_check": "WoS and journal bibliographic record, main abstract"
+    },
+    {
+      "url": "https://doi.org/10.1287/mksc.2025.0009",
+      "classification": "primary_source_matched",
+      "printed": [
+        "Wang, M., Zhang, D.J., Zhang, H. (2026). Large Language Models for Market Research: A Data-Augmentation Approach. Marketing Science 45(4), 728–751. https://doi.org/10.1287/mksc.2025.0009"
+      ],
+      "primary_source_text_check": "WoS and INFORMS metadata; author v3 sections 3.3 and 4.3"
+    },
+    {
+      "url": "https://isl.stanford.edu/~cover/papers/paper2.pdf",
+      "classification": "primary_source_matched",
+      "printed": [
+        "Cover, T.M. (1965). Geometrical and statistical properties of systems of linear inequalities with applications in pattern recognition. IEEE Transactions on Electronic Computers EC-14(3), 326–334. https://isl.stanford.edu/~cover/papers/paper2.pdf"
+      ],
+      "primary_source_text_check": "Author-hosted published PDF, function-counting theorem"
+    },
+    {
+      "url": "https://doi.org/10.1080/03610926.2025.2505986",
+      "classification": "primary_source_matched",
+      "printed": [
+        "Nwaigwe, D., Rychlik, M. (2026). The existence of the maximum likelihood estimate in multinomial logistic regression for mixed-membership models. Communications in Statistics - Theory and Methods 55(3), 766–776. https://doi.org/10.1080/03610926.2025.2505986"
+      ],
+      "primary_source_text_check": "WoS and publisher abstract"
+    },
+    {
+      "url": "https://doi.org/10.1088/0305-4470/28/16/005",
+      "classification": "primary_source_matched",
+      "printed": [
+        "López, B., Schröder, M., Opper, M. (1995). Storage of correlated patterns in a perceptron. Journal of Physics A: Mathematical and General 28(16), L447–L452. https://doi.org/10.1088/0305-4470/28/16/005"
+      ],
+      "primary_source_text_check": "Journal and author preprint record, ordinary pattern capacity"
     }
   ],
   "scope": "Identity of the linked works, measured by title and leading author. Claim-level citation use, priority and text similarity require separate evidence.",

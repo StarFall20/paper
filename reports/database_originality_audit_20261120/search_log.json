@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "queryScope": {
+    "index": "Web of Science Core Collection",
+    "editionsDisplayed": "All",
+    "field": "Topic",
+    "databaseLimitsRecordCount": 40539641,
+    "noAdditionalDateLimiter": true
+  },
+  "webOfScience": [
+    {
+      "id": "W01",
+      "query": "(\"prediction-powered inference\" OR \"prediction-powered\" OR \"prediction-assisted inference\") AND (logit OR logistic OR \"Bradley-Terry\" OR \"discrete choice\" OR conjoint)",
+      "total": 1,
+      "download": null,
+      "notes": "One indexed result, unrelated disease-category classification. The exact-phrase positive control establishes the PPI family is indexed."
+    },
+    {
+      "id": "W02",
+      "query": "(\"prediction-powered\" OR \"prediction-assisted inference\") AND (separation OR \"finite minimizer*\" OR \"unbounded below\" OR \"phase transition\" OR \"statistical dimension\")",
+      "total": 0,
+      "download": null,
+      "notes": "Verified zero on the query page."
+    },
+    {
+      "id": "W03",
+      "query": "(\"logistic regression\" OR \"discrete choice\" OR \"choice model*\") AND (\"phase transition\" OR \"existence of the maximum likelihood\" OR \"conic kinematic*\" OR \"statistical dimension\")",
+      "total": 33,
+      "download": "savedrecs (11).txt",
+      "notes": "All 33 exported with full bibliographic records."
+    },
+    {
+      "id": "W04",
+      "query": "(\"logistic regression\" OR \"discrete choice\") AND (\"repeated choice\" OR \"within-respondent\" OR \"within-cluster\" OR \"correlated observations\" OR \"dependent observations\" OR \"repeated measurements\") AND (separation OR \"finite estimate*\" OR \"phase transition\" OR \"likelihood existence\")",
+      "total": 0,
+      "download": null,
+      "notes": "Verified zero on the query page."
+    },
+    {
+      "id": "W05",
+      "query": "(\"large language model*\" OR \"synthetic respondent*\" OR \"prediction-powered\") AND (\"discrete choice experiment*\" OR \"conjoint analysis\" OR \"stated choice\")",
+      "total": 15,
+      "download": "savedrecs (10).txt",
+      "notes": "All 15 exported with full bibliographic records."
+    },
+    {
+      "id": "W06",
+      "query": "(\"prediction-powered inference\" OR \"prediction-assisted inference\") AND (\"matched derivatives\" OR \"matched scores\" OR \"local diagnostics\" OR \"convex support\" OR \"auxiliary design\")",
+      "total": 0,
+      "download": null,
+      "notes": "Verified zero on the query page."
+    },
+    {
+      "id": "W07",
+      "query": "\"Prediction-powered inference\"",
+      "total": 23,
+      "download": "savedrecs (12).txt",
+      "notes": "All 23 exported with full bibliographic records. PPI++ definitive bibliographic record WOS:001917263100021."
+    },
+    {
+      "id": "W08",
+      "query": "(\"within-respondent\" OR \"correlated observations\" OR \"dependent observations\") AND (\"complete separation\" OR \"quasi separation\")",
+      "total": 0,
+      "download": null,
+      "notes": "Verified zero on the query page."
+    }
+  ],
+  "econLit": [
+    {
+      "query": "(\"prediction-powered inference\" OR \"prediction-assisted inference\" OR \"prediction powered inference\") AND (logit OR logistic OR \"discrete choice\" OR conjoint OR separation)",
+      "providedDatabase": "EconLit with Full Text",
+      "initialBoolean": 0,
+      "automaticSmartText": 447,
+      "visibleFirstPageScreened": 10
+    },
+    {
+      "query": "(\"logistic regression\" OR \"discrete choice\") AND (\"correlated observations\" OR \"repeated choice\" OR \"within-respondent\" OR \"panel data\") AND (\"phase transition\" OR \"complete separation\" OR \"finite minimizer\" OR \"existence of maximum likelihood\")",
+      "providedDatabase": "EconLit with Full Text",
+      "initialBoolean": 0,
+      "automaticSmartText": 63,
+      "visibleFirstPageScreened": 10
+    },
+    {
+      "query": "(\"large language model\" OR \"large language models\" OR \"synthetic respondents\") AND (\"conjoint analysis\" OR \"discrete choice experiment\" OR \"stated choice\")",
+      "providedDatabase": "EconLit with Full Text",
+      "initialBoolean": 0,
+      "automaticSmartText": 276475,
+      "visibleFirstPageScreened": 10
+    }
+  ],
+  "business": {
+    "interface": "EBSCO Business Searching Interface",
+    "selectedCollections": 2,
+    "fullTextLimiterClearedForQuery": true,
+    "modeDisplayed": "Proximity search",
+    "query": "(\"large language model\" OR \"large language models\" OR \"synthetic respondents\") AND (\"conjoint analysis\" OR \"discrete choice experiment\" OR \"stated choice\" OR \"human preferences\")",
+    "total": 19,
+    "visibleFirstPageScreened": 10
+  },
+  "googleScholar": [
+    {
+      "query": "\"logistic regression\" \"phase transition\" \"dependent observations\"",
+      "count": 13,
+      "approximate": false,
+      "yearFilterFrom": 2023,
+      "visibleFirstPageScreened": 10
+    },
+    {
+      "query": "\"prediction-powered\" \"logistic\" \"separation\"",
+      "count": 86,
+      "approximate": true,
+      "yearFilterFrom": 2023,
+      "visibleFirstPageScreened": 10
+    }
+  ],
+  "scienceDirect": {
+    "nativeQuery": "\"large language models\" OR \"synthetic respondents\"",
+    "journal": "Journal of Choice Modelling",
+    "countVerified": false,
+    "usedForPrimaryArticleLinks": true
+  },
+  "outstanding": {
+    "scopusSubscriptionQuery": "Not verified this round",
+    "formalPpiPlusPlus": "WoS bibliographic entry verified; WoS full-text menu provided Google Scholar lookup only. Formal Supplement A and B not checked directly.",
+    "institutionalExports": "Retain the originals privately; publish titles, scope, bibliographic identifiers, and screening codes only."
+  }
+}

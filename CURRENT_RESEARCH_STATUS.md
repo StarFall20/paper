@@ -1,6 +1,6 @@
-# JCM 研究论文投稿版
+# JCM 投稿版与机构数据库复查
 
-[投稿稿件](submission/jocm_focused_20261119/README.md)正文 10 页，补充材料 84 页。[PPI++ 作者分支](reports/author_ppi_branch_audit_20261119/README.md)复跑 136 次，覆盖既有点估计、自动单步和区间接口。最新版复现档通过 14 项检查。机构 Web of Science 本轮返回 90013，既有九组检索继续保留。订阅版 Scopus、正式 PPI++ 补充材料对照及广覆盖相似性评估仍待完成。
+[投稿稿件](submission/jocm_focused_20261119/README.md)正文 10 页，补充材料 88 页。[两题临界值](reports/paired_choice_boundary_20261120/README.md)提供相同的普通存在性概率、分开的校正临界值和 2280 个独立复核。[检索报告](reports/database_originality_audit_20261120/README.md)记录核心合集 8 组机构检索、71 条导出记录与数据库间的交叉检查。复现 16 项通过。订阅版 Scopus 和 PPI++ 正式附件仍待核对。
 
 # 菜单频率与菜单内预测差异的实证核查
 

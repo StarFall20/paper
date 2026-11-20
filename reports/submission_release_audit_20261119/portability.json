@@ -109,8 +109,8 @@
       "version": "2026.6"
     }
   ],
-  "release_manifest_sha256": "08cac0c659f77e52c95716f51ce7f7c3fb999e47f23beab302ced862c2a605a1",
-  "release_checks_passed": 14,
+  "release_manifest_sha256": "19826108f140d0f37314f33ce8fc19458c7cfee4747a0e80f5a40fd16444727c",
+  "release_checks_passed": 16,
   "identical_result_reports": [
     "headline.json",
     "mathematics/quick_check.json",
@@ -137,5 +137,20 @@
   },
   "independently_reconstructed_new_report": "matched_auxiliary_diagnostics/summary.json",
   "authors_branch_stored_call_records_verified": 136,
-  "authors_branch_separate_runtime_git_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4"
+  "authors_branch_separate_runtime_git_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4",
+  "calculation_archive_sha256": "38e6b05cfe9f5e53887379591c90b99b78d1519444ce829adcaf5f6585a9609a",
+  "same_prior_result_reports": [
+    "headline.json",
+    "mathematics/quick_check.json",
+    "exact_designs.json",
+    "common_newton_point.json",
+    "hessian_power_bounds.json",
+    "unit_endpoint.json",
+    "unit_archive.json",
+    "food_panel/verification.json",
+    "food_path/verification.json",
+    "swissmetro_path.json",
+    "swissmetro_budget.json",
+    "matched_auxiliary_diagnostics/summary.json"
+  ]
 }

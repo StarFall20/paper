@@ -108,3 +108,10 @@ The local prose screen compared both manuscript files with 8 named source PDFs a
 
 
 November 19 follow-up. Web of Science displayed institutional login error 90013. The coverage count uses the nine archived institutional searches. The November 6 version of Chen, Bai and Zhu conditions its grouped logistic risk theorem on the existence of the pilot, as specified in Theorem 4.2. The author-linked PPI++ research commit was independently retrieved and executed. Subscription Scopus and the formally deposited PPI++ appendices remain outstanding. [Covariance-calibrated PPI, version 2](https://arxiv.org/html/2610.21837v2#S4.SS2)
+
+
+Appendix H gives the correlated two-task benchmark, the exact ordinary-logit comparison and an independent check of all 2280 corrected outcomes. The November 20 institutional report records eight Web of Science Topic queries, 71 exported records and cross-checks in EconLit, EBSCO Business and Google Scholar.
+
+The exact text screen compared 14 named primary PDFs, covering 611 pages. No contiguous matching passage of ten or more words was detected under the recorded extraction rules.
+
+See the November 20 author review report for explicit scope and result-level comparisons.

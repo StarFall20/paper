@@ -1,0 +1,238 @@
+{
+  "verified_corrected_cases": 2280,
+  "maximum_original_probability_margin_difference": 3.447006569068378e-11,
+  "ordinary_control_states": {
+    "interior": 1800,
+    "not_requested": 480
+  },
+  "cells": [
+    {
+      "family": 0,
+      "respondents": 48,
+      "slopes": 28,
+      "rho": 0.0,
+      "state": "exterior",
+      "count": 40
+    },
+    {
+      "family": 0,
+      "respondents": 48,
+      "slopes": 28,
+      "rho": 0.0,
+      "state": "interior",
+      "count": 160
+    },
+    {
+      "family": 0,
+      "respondents": 48,
+      "slopes": 28,
+      "rho": 0.8,
+      "state": "exterior",
+      "count": 108
+    },
+    {
+      "family": 0,
+      "respondents": 48,
+      "slopes": 28,
+      "rho": 0.8,
+      "state": "interior",
+      "count": 92
+    },
+    {
+      "family": 0,
+      "respondents": 48,
+      "slopes": 28,
+      "rho": 0.99,
+      "state": "exterior",
+      "count": 166
+    },
+    {
+      "family": 0,
+      "respondents": 48,
+      "slopes": 28,
+      "rho": 0.99,
+      "state": "interior",
+      "count": 34
+    },
+    {
+      "family": 0,
+      "respondents": 96,
+      "slopes": 56,
+      "rho": 0.0,
+      "state": "exterior",
+      "count": 30
+    },
+    {
+      "family": 0,
+      "respondents": 96,
+      "slopes": 56,
+      "rho": 0.0,
+      "state": "interior",
+      "count": 170
+    },
+    {
+      "family": 0,
+      "respondents": 96,
+      "slopes": 56,
+      "rho": 0.8,
+      "state": "exterior",
+      "count": 98
+    },
+    {
+      "family": 0,
+      "respondents": 96,
+      "slopes": 56,
+      "rho": 0.8,
+      "state": "interior",
+      "count": 102
+    },
+    {
+      "family": 0,
+      "respondents": 96,
+      "slopes": 56,
+      "rho": 0.99,
+      "state": "exterior",
+      "count": 174
+    },
+    {
+      "family": 0,
+      "respondents": 96,
+      "slopes": 56,
+      "rho": 0.99,
+      "state": "interior",
+      "count": 26
+    },
+    {
+      "family": 0,
+      "respondents": 192,
+      "slopes": 112,
+      "rho": 0.0,
+      "state": "exterior",
+      "count": 11
+    },
+    {
+      "family": 0,
+      "respondents": 192,
+      "slopes": 112,
+      "rho": 0.0,
+      "state": "interior",
+      "count": 189
+    },
+    {
+      "family": 0,
+      "respondents": 192,
+      "slopes": 112,
+      "rho": 0.8,
+      "state": "exterior",
+      "count": 115
+    },
+    {
+      "family": 0,
+      "respondents": 192,
+      "slopes": 112,
+      "rho": 0.8,
+      "state": "interior",
+      "count": 85
+    },
+    {
+      "family": 0,
+      "respondents": 192,
+      "slopes": 112,
+      "rho": 0.99,
+      "state": "exterior",
+      "count": 193
+    },
+    {
+      "family": 0,
+      "respondents": 192,
+      "slopes": 112,
+      "rho": 0.99,
+      "state": "interior",
+      "count": 7
+    },
+    {
+      "family": 1,
+      "respondents": 96,
+      "slopes": 40,
+      "rho": 0.0,
+      "state": "interior",
+      "count": 120
+    },
+    {
+      "family": 1,
+      "respondents": 96,
+      "slopes": 40,
+      "rho": 0.99,
+      "state": "exterior",
+      "count": 18
+    },
+    {
+      "family": 1,
+      "respondents": 96,
+      "slopes": 40,
+      "rho": 0.99,
+      "state": "interior",
+      "count": 102
+    },
+    {
+      "family": 2,
+      "respondents": 96,
+      "slopes": 72,
+      "rho": 0.0,
+      "state": "exterior",
+      "count": 99
+    },
+    {
+      "family": 2,
+      "respondents": 96,
+      "slopes": 72,
+      "rho": 0.0,
+      "state": "interior",
+      "count": 21
+    },
+    {
+      "family": 2,
+      "respondents": 96,
+      "slopes": 72,
+      "rho": 0.99,
+      "state": "exterior",
+      "count": 120
+    }
+  ],
+  "paired_cases": [
+    {
+      "respondents": 48,
+      "slopes": 28,
+      "nominal_ratio": 0.585,
+      "ordinary_separation_probability": 3.9021235281579624e-05,
+      "paired_states_0_to_099": {
+        "exterior/exterior": 37,
+        "exterior/interior": 3,
+        "interior/exterior": 129,
+        "interior/interior": 31
+      }
+    },
+    {
+      "respondents": 96,
+      "slopes": 56,
+      "nominal_ratio": 0.585,
+      "ordinary_separation_probability": 5.175783745797278e-09,
+      "paired_states_0_to_099": {
+        "exterior/exterior": 30,
+        "interior/exterior": 144,
+        "interior/interior": 26
+      }
+    },
+    {
+      "respondents": 192,
+      "slopes": 112,
+      "nominal_ratio": 0.585,
+      "ordinary_separation_probability": 1.266108370963787e-16,
+      "paired_states_0_to_099": {
+        "exterior/exterior": 11,
+        "interior/exterior": 182,
+        "interior/interior": 7
+      }
+    }
+  ]
+}

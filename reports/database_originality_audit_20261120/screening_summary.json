@@ -1,0 +1,32 @@
+{
+  "institutional_topic_queries": 8,
+  "records_in_three_complete_exports": 71,
+  "additional_screened_single_hit": 1,
+  "records_with_abstract_in_export": 70,
+  "screening": {
+    "read": 14,
+    "context": 8,
+    "exclude": 49
+  },
+  "export_provenance": [
+    {
+      "query": "W03",
+      "filename": "savedrecs (11).txt",
+      "count": 33,
+      "sha256": "e41d448c05997d7193373b96c620e194c43380ace834e71f134908f02a309bda"
+    },
+    {
+      "query": "W05",
+      "filename": "savedrecs (10).txt",
+      "count": 15,
+      "sha256": "039c818efb466000b2c19dcfebf040bc8bb6c7df0f880e044668729bb27591b0"
+    },
+    {
+      "query": "W07",
+      "filename": "savedrecs (12).txt",
+      "count": 23,
+      "sha256": "e086716e19d04eed6e183ed37b346f988f55b6eeeb496c1e7210bb837110328c"
+    }
+  ],
+  "scope": "Full title lists and selected abstracts or primary results. Read marks priority, with reading level reported separately."
+}

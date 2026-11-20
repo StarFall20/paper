@@ -1,0 +1,226 @@
+[
+  {
+    "rho": 0.0,
+    "auxiliary_ratio": 0.5,
+    "critical_slopes_per_labelled_person": 0.4752413615401225,
+    "critical_slopes_per_labelled_task": 0.23762068077006124,
+    "maximizing_scale": 0.6360272846179329
+  },
+  {
+    "rho": 0.5,
+    "auxiliary_ratio": 0.5,
+    "critical_slopes_per_labelled_person": 0.4492521353572654,
+    "critical_slopes_per_labelled_task": 0.2246260676786327,
+    "maximizing_scale": 0.6173852356586917
+  },
+  {
+    "rho": 0.8,
+    "auxiliary_ratio": 0.5,
+    "critical_slopes_per_labelled_person": 0.39792411152092244,
+    "critical_slopes_per_labelled_task": 0.19896205576046122,
+    "maximizing_scale": 0.5666181961252651
+  },
+  {
+    "rho": 0.9,
+    "auxiliary_ratio": 0.5,
+    "critical_slopes_per_labelled_person": 0.3682494033273623,
+    "critical_slopes_per_labelled_task": 0.18412470166368114,
+    "maximizing_scale": 0.5286351803327524
+  },
+  {
+    "rho": 0.95,
+    "auxiliary_ratio": 0.5,
+    "critical_slopes_per_labelled_person": 0.3477689195600691,
+    "critical_slopes_per_labelled_task": 0.17388445978003456,
+    "maximizing_scale": 0.4990178043750076
+  },
+  {
+    "rho": 0.99,
+    "auxiliary_ratio": 0.5,
+    "critical_slopes_per_labelled_person": 0.32280792096249133,
+    "critical_slopes_per_labelled_task": 0.16140396048124567,
+    "maximizing_scale": 0.45971667121044857
+  },
+  {
+    "rho": 0.999,
+    "auxiliary_ratio": 0.5,
+    "critical_slopes_per_labelled_person": 0.31068005979098534,
+    "critical_slopes_per_labelled_task": 0.15534002989549267,
+    "maximizing_scale": 0.4395377841463655
+  },
+  {
+    "rho": 1.0,
+    "auxiliary_ratio": 0.5,
+    "critical_slopes_per_labelled_person": 0.30554399351681455,
+    "critical_slopes_per_labelled_task": 0.15277199675840727,
+    "maximizing_scale": 0.4307960562850778
+  },
+  {
+    "rho": 0.0,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.6748003771741751,
+    "critical_slopes_per_labelled_task": 0.33740018858708754,
+    "maximizing_scale": 0.43632656315732715
+  },
+  {
+    "rho": 0.5,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.6410221836100782,
+    "critical_slopes_per_labelled_task": 0.3205110918050391,
+    "maximizing_scale": 0.4205970953947245
+  },
+  {
+    "rho": 0.8,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.5790392281753038,
+    "critical_slopes_per_labelled_task": 0.2895196140876519,
+    "maximizing_scale": 0.3870869624466489
+  },
+  {
+    "rho": 0.9,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.5451955397837771,
+    "critical_slopes_per_labelled_task": 0.27259776989188855,
+    "maximizing_scale": 0.366287498202567
+  },
+  {
+    "rho": 0.95,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.5222838086405595,
+    "critical_slopes_per_labelled_task": 0.2611419043202797,
+    "maximizing_scale": 0.35124936500642784
+  },
+  {
+    "rho": 0.99,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.49450974838800577,
+    "critical_slopes_per_labelled_task": 0.24725487419400288,
+    "maximizing_scale": 0.3320189321600911
+  },
+  {
+    "rho": 0.999,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.48098399219436716,
+    "critical_slopes_per_labelled_task": 0.24049199609718358,
+    "maximizing_scale": 0.32224914194734794
+  },
+  {
+    "rho": 1.0,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.47524136154012264,
+    "critical_slopes_per_labelled_task": 0.23762068077006132,
+    "maximizing_scale": 0.3180136375884829
+  },
+  {
+    "rho": 0.0,
+    "auxiliary_ratio": 2.0,
+    "critical_slopes_per_labelled_person": 0.8698993029229248,
+    "critical_slopes_per_labelled_task": 0.4349496514614624,
+    "maximizing_scale": 0.2760298016556874
+  },
+  {
+    "rho": 0.5,
+    "auxiliary_ratio": 2.0,
+    "critical_slopes_per_labelled_person": 0.835539164369182,
+    "critical_slopes_per_labelled_task": 0.417769582184591,
+    "maximizing_scale": 0.2669402057855563
+  },
+  {
+    "rho": 0.8,
+    "auxiliary_ratio": 2.0,
+    "critical_slopes_per_labelled_person": 0.7745130756343019,
+    "critical_slopes_per_labelled_task": 0.38725653781715097,
+    "maximizing_scale": 0.2496461380043382
+  },
+  {
+    "rho": 0.9,
+    "auxiliary_ratio": 2.0,
+    "critical_slopes_per_labelled_person": 0.7418727361194908,
+    "critical_slopes_per_labelled_task": 0.3709363680597454,
+    "maximizing_scale": 0.23979572596520332
+  },
+  {
+    "rho": 0.95,
+    "auxiliary_ratio": 2.0,
+    "critical_slopes_per_labelled_person": 0.7198908396282819,
+    "critical_slopes_per_labelled_task": 0.35994541981414097,
+    "maximizing_scale": 0.2329235453342417
+  },
+  {
+    "rho": 0.99,
+    "auxiliary_ratio": 2.0,
+    "critical_slopes_per_labelled_person": 0.6932685529663383,
+    "critical_slopes_per_labelled_task": 0.34663427648316913,
+    "maximizing_scale": 0.22432850966705872
+  },
+  {
+    "rho": 0.999,
+    "auxiliary_ratio": 2.0,
+    "critical_slopes_per_labelled_person": 0.6803020760777032,
+    "critical_slopes_per_labelled_task": 0.3401510380388516,
+    "maximizing_scale": 0.22002019573092496
+  },
+  {
+    "rho": 1.0,
+    "auxiliary_ratio": 2.0,
+    "critical_slopes_per_labelled_person": 0.6748003771741755,
+    "critical_slopes_per_labelled_task": 0.33740018858708776,
+    "maximizing_scale": 0.21816328223157555
+  },
+  {
+    "rho": 0.0,
+    "auxiliary_ratio": 4.0,
+    "critical_slopes_per_labelled_person": 1.02739544799408,
+    "critical_slopes_per_labelled_task": 0.51369772399704,
+    "maximizing_scale": 0.16165750920987654
+  },
+  {
+    "rho": 0.5,
+    "auxiliary_ratio": 4.0,
+    "critical_slopes_per_labelled_person": 0.999629765797926,
+    "critical_slopes_per_labelled_task": 0.499814882898963,
+    "maximizing_scale": 0.15770599347015543
+  },
+  {
+    "rho": 0.8,
+    "auxiliary_ratio": 4.0,
+    "critical_slopes_per_labelled_person": 0.9504900734240713,
+    "critical_slopes_per_labelled_task": 0.47524503671203566,
+    "maximizing_scale": 0.15049710271545766
+  },
+  {
+    "rho": 0.9,
+    "auxiliary_ratio": 4.0,
+    "critical_slopes_per_labelled_person": 0.9241775289039161,
+    "critical_slopes_per_labelled_task": 0.46208876445195807,
+    "maximizing_scale": 0.14652050563525593
+  },
+  {
+    "rho": 0.95,
+    "auxiliary_ratio": 4.0,
+    "critical_slopes_per_labelled_person": 0.9064126259041978,
+    "critical_slopes_per_labelled_task": 0.4532063129520989,
+    "maximizing_scale": 0.1437863773045853
+  },
+  {
+    "rho": 0.99,
+    "auxiliary_ratio": 4.0,
+    "critical_slopes_per_labelled_person": 0.8848508710319415,
+    "critical_slopes_per_labelled_task": 0.44242543551597074,
+    "maximizing_scale": 0.14040715131326809
+  },
+  {
+    "rho": 0.999,
+    "auxiliary_ratio": 4.0,
+    "critical_slopes_per_labelled_person": 0.874348342553121,
+    "critical_slopes_per_labelled_task": 0.4371741712765605,
+    "maximizing_scale": 0.1387319022844338
+  },
+  {
+    "rho": 1.0,
+    "auxiliary_ratio": 4.0,
+    "critical_slopes_per_labelled_person": 0.8698993029229249,
+    "critical_slopes_per_labelled_task": 0.43494965146146247,
+    "maximizing_scale": 0.1380149061926365
+  }
+]

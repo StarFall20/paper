@@ -42,6 +42,8 @@ An exterior moment supplies a direction with a negative value in (5). An interio
 
 Our implementation maximizes a common slack in the constraints $b_\lambda=\sum_iw_iX_ip_i$, $s\leq p_i\leq1-s$. A separate linear program obtains an exterior separating direction and verifies the recession gap. It reports rank deficiency, numerical boundary proximity and unresolved cases separately. The interface preserves the specified objective; power changes, pooling and penalties are explicit subsequent decisions. This audit implements established support geometry and supplies the finite design counterpart to the probabilistic calculation below.
 
+In a separate data-augmentation approach, Wang et al. (2026, eq. 3) estimate human choice probabilities conditional on the auxiliary forecasts and then use these probabilities in a weighted choice likelihood. A strictly positive probability vector for each available menu puts the target of that second-stage loss inside its moment support if the contrasts span the coefficient space. Positive class probabilities also underlie the multinomial existence result of Nwaigwe and Rychlik (2026). In objective (2), the signed difference of prediction moments can move the corrected target outside its support even when all forecasts are strictly positive. Wang et al.'s finite-sample error bound uses a coefficient norm constraint.
+
 ## 3 The existence boundary with finite auxiliary data
 
 ### 3.1 Model and main result
@@ -1775,6 +1777,85 @@ The equality law proves sufficiency; (G.16) proves necessity. The proportional l
 
 For a finite-ratio illustration, take $D=1/2$ with probability $4/5$ and $D=2$ otherwise. Then $ED^2=1$ and $(ED)^2=16/25$. At error $e=2/5$, the boundaries at $\tau=1/40$ and $\tau=1$ are enclosed around $0.4855662367$ and $0.3982976460$. Ratio $\kappa=0.46$ lies on opposite strict existence sides. Ordinary human separation retains threshold $1/2$. The regular covariance factor falls from approximately $3.9961$ to $3.92$, a small reduction. The boundary subsequently increases. All 196 grid conditions and 28 endpoint cases are retained, with independent distance-integral and interval checks. These Gaussian zero-signal model results do not estimate a DCE failure prevalence. The range characterization applies the existing boundary and a classical inequality; it is a robustness corollary.
 
+## Appendix H Existence with correlated tasks
+
+Consider independent labelled and auxiliary samples with $m$ and $N$ respondents, with $N/m\to\tau\in(0,\infty)$. Each respondent has $K$ binary tasks. Conditional on the predictors, the human choices are independent fair Bernoulli variables. The prediction is $1/2$ on every task, and the correction weight is one. The fitted contrast contains an intercept and $q$ slopes. For each slope and respondent, the vector of $K$ attributes is $N_K(0,R)$. Slopes, respondents and sample roles are independent. The fixed matrix $R$ is positive definite and has unit diagonal.
+
+Write $T=R^{1/2}$, $B=[-1,1]^K$ and $G\sim N_K(0,I_K)$. Define
+
+$$\kappa_R=\max_{u\geq 0}[ \tau E\{\|G\|^2-\operatorname{dist}^2(G,uTB)\} -\tau^2 K u^2 ].$$
+
+Proposition 9. If $q/m\to\kappa<\kappa_R$, a unique finite minimizer exists with probability tending to one. If $q/m\to\kappa>\kappa_R$, the corrected objective is unbounded below with probability tending to one. The boundary uses slopes per labelled respondent. Slopes per labelled task have critical ratio $\kappa_R/K$.
+
+Broska and Howes (2026, Appendix A) give cluster-robust inference at fixed dimension. López et al. (1995) study ordinary classification capacity with correlated patterns. Here the limiting event is attainment of the signed corrected choice objective. The two-task comparison below fixes the exact ordinary-logit existence probability.
+
+### H1 Finite sample reduction
+
+Let $s_{ai}=2Y_{ai}-1$ on the labelled sample. Use $W_L,W_U$ for the independent standard Gaussian slope matrices before within-respondent transformation, and $T_L,T_U$ for their block transformations with repeated blocks $T$. Let $\tau_m=N/m$. At unit correction, subtract the auxiliary probability $1/2$ and write $t=2p_U-1$ for a candidate auxiliary probability vector. Let $e$ be the vector of ones. The intercept and slope score equations are
+
+$$e^T t=\tau_me^T s=:a, \qquad W_U^T T_U t=\tau_m W_L^T T_Ls, \qquad t\in[-1,1]^{NK}.$$
+
+Conditional on $s$, the right side of the slope equation equals $vg$ in distribution, where $v=\tau_m\|T_Ls\|>0$ and $g$ is standard Gaussian in $\mathbb R^q$, independent of $W_U$. A feasible moment exists exactly when the nullspace of $[W_U^T,-g]$ intersects the following cone at a nonzero point:
+
+$$C_b=\{(uT_U t,uv): u\geq 0,\ t\in[-b,b]^{NK},\ e^Tt=a\},\qquad b=1 .$$
+
+For (b\in$0,1]$, the sliced box is nonempty with probability tending to one because $a/(NK)\to0$. Conditional on a nonempty box, $C_b$ is a closed pointed convex polyhedral cone. Its last coordinate fixes the positive scale at any nonzero point. The Gaussian nullspace is independent of the cone conditional on the labels.
+
+### H2 Statistical dimension
+
+For independent $H_1,…,H_N\sim N_K(0,I_K)$ and $Z\sim N(0,1)$, the squared projection on $C_b$ is given by maximizing
+
+$$\sum_{j=1}^N\{2u H_j^TTt_j-u^2\|Tt_j\|^2\} +2Zuv-u^2v^2$$
+
+over $u\geq 0$ and the constrained box above. Dropping the sum constraint gives the sum of $N$ separate block projection expressions. The label signs are independent within a block, so $v^2/m\to\tau^2\operatorname{tr}(R)=\tau^2K$. The linear term divided by $m$ vanishes uniformly on compact sets. The normalized objective without the sum constraint converges uniformly on compact scale sets to
+
+$$\Psi_b(u)=\tau E\{\|G\|^2-\operatorname{dist}^2(G,ubTB)\}-\tau^2Ku^2.$$
+
+For the uniform law, write each block objective as the maximum over the fixed box $[-b,b]^K$. On a compact scale set, differences are bounded by a constant times $(1+\|H_j\|)|u-u'|$. The bound $\sum_j\|H_j\|^2/m+2Z^2/m-u^2v^2/(2m)$ keeps all optimal scales in a bounded region with probability tending to one. The probability bound uses the fact that the value at zero scale is zero.
+
+The intercept sum does not change the limit. At a positive deterministic maximizer $u_b$ of $\Psi_b$, the block maximizers are unique because $T$ is invertible. They are odd functions of $H_j$, so the mean ordinary coordinate over all the maximizers converges to zero. The desired mean $a/(NK)$ also converges to zero. Move all the block maximizers toward either the all-$b$ or all-$(-b)$ vector by the same mixing fraction, choosing the endpoint on the side of the desired mean. The fraction tends to zero and enforces the sum exactly. The loss of objective divided by $m$ tends to zero by the integrable linear envelope in the block normals. A zero maximizer would already be feasible and attain zero. In fact the optimal scale is positive for $b>0$, since the population objective has a positive right derivative at zero.
+
+The projection value divided by $m$ is bounded by $(\sum_j\|H_j\|^2+Z^2)/m$ and hence is uniformly integrable. Conditional expectation given $s$ now yields $\delta(C_b)/m\to\max_u\Psi_b(u)$ in probability. One may define the projection value as zero on the vanishing event of an empty sliced box.
+
+### H3 Strict sides and an interior witness
+
+If $q\geq NK+1$, the Gaussian matrix has full column rank almost surely, so its nullspace is trivial. For a nontrivial nullspace, the approximate conic kinematic formula (Amelunxen et al., 2014) applies because, conditional on the labels, its orientation is uniform and the ambient dimension is $NK+1=O(m)$. The fixed positive gap in ratios dominates the $O(\sqrt{NK})$ transition width. Above $\kappa_R$, use $b=1$. The nullspace misses the cone aside from zero, which puts the target outside the auxiliary moment support. Its separating direction has negative recession cost.
+
+Below $\kappa_R$, take $b<1$ sufficiently close to one. The maximum of $\Psi_b$ tends to that of $\Psi_1$ as $b$ increases to one, by continuity on the same compact scale set. The nullspace meets $C_b$ at a nonzero point with probability tending to one. The recovered probabilities are strictly between zero and one. Also $\kappa_R\leq\tau K$, so the strict lower side has $q+1\leq NK$ eventually. Since $T_U$ is invertible, the augmented auxiliary design with its intercept has full rank almost surely. The strictly interior probability representation gives the desired unique finite minimizer.
+
+### H4 Two tasks with identical marginal choice information
+
+For two tasks, let $R_\rho$ have off-diagonal correlation $\rho$. Let $F(a)=1-E(|Z|-a)_+^2$ for a scalar standard Gaussian $Z$. Independent tasks give the value $\max_u[-2\tau^2u^2+2\tau F(u)]$. As $\rho$ increases to one, the transformed box converges to a segment of half-length $2u$, giving the limit $\max_u[-2\tau^2u^2+\tau F(2u)]$. Convergence follows from Hausdorff convergence on the common compact scale range. $F$ is strictly concave, $F(0)=0$, and the limiting maximizer is positive, so the second value is strictly smaller. This argument uses positive definite $R_\rho$ throughout the finite-estimation theorem.
+
+The chosen finite comparison can also be bounded without the two-dimensional integral. In eigen-coordinates the transformed box lies in the rectangle of half-lengths $2u$ and $c u$, where $c=\sqrt{2(1-\rho)}$. Thus
+
+$$\kappa_{R_\rho}\leq\max_{u\geq 0}\{-2\tau^2u^2+\tau F(2u)+\tau F'(0)c u\}.$$
+
+For $\tau=1,\rho=0.99$, the right side is less than $0.551$. Evaluate the strongly concave objective at $u=1/3$ and add the square of its derivative divided by eight. Evaluating the independent-task objective at $u=0.4$ gives a lower bound above $0.670$. These bounds put the test ratio $q/m=0.585$ strictly between the two boundaries.
+
+Every individual task has the same Gaussian slope distribution across $R$, and its observed choice and frozen prediction have the same joint law. At the true coefficient zero the prediction correction to the score is zero on every task. Let $x_i$ include the intercept. The population Hessian is $E(x_i x_i^T)/4=I/4$. The covariance of the average human score in a respondent's $K$ tasks is $I/(4K)$, because labels are independent fair signs and their conditional score means are zero. For fixed parameter dimension, the prospective per-respondent sandwich covariance is $4I/K$ in every design.
+
+Ordinary logit also has the same exact probability of existence across positive definite $R$, for $q+1\leq Km$. The labelled augmented rows have general position almost surely. A weak separator with some nonzero margins can be perturbed to a strict separator by making the at most $q$ tied margins positive. The tied rows are independent, and a sufficiently small perturbation keeps strict margins positive. There is no nonzero direction tying every row under full rank. Cover's (1965) counting theorem then gives separation probability $P(B_0\leq q)$ conditional on any design in general position, where $B_0$ is binomial with $Km-1$ trials and success probability $1/2$. Both designs therefore approach ordinary finite existence at $q/m=0.585$ with $K=2$.
+
+The comparison isolates within-respondent attribute correlation in a correctly calibrated null model. It supplies a counterexample to identifying the corrected threshold from task marginals, the usual local sandwich information, or the ordinary existence probability. The theory concerns a fixed positive definite Gaussian correlation across equally sized panels and uses unit correction. The released choice designs in the paper do not supply estimates of this theoretical correlation parameter.
+
+
+### H5 Paired simulation
+
+For two tasks per person and equal labelled and auxiliary group sizes, the numerical thresholds per labelled respondent are 0.6748 for independent tasks, 0.5790 at correlation 0.80 and 0.4945 at correlation 0.99. A second calculation approximates the Gaussian projection directly in the eigenbasis and checks 32 threshold values. The independent integral differs by less than 0.000006 when evaluated at the computed scales.
+
+At the nominal ratio of 0.585 slopes per labelled respondent, each sample size uses 200 independent cohorts. Human outcomes and underlying Gaussian draws are shared across the three correlation settings in each cohort. Each person contributes two tasks in each sample.
+
+Table H1  Finite unit correction fits in paired cohorts
+
+| Labelled respondents | Slopes | Independent tasks | Correlation 0.80 | Correlation 0.99 |
+| --- | --- | --- | --- | --- |
+| 48 | 28 | 160/200 | 92/200 | 34/200 |
+| 96 | 56 | 170/200 | 102/200 | 26/200 |
+| 192 | 112 | 189/200 | 85/200 | 7/200 |
+
+At 192 respondents, 182 pairs switch from a finite to an exterior target at correlation 0.99. The reverse count is zero. All 1800 ordinary fits in this comparison are interior. The additional ratios 0.42 and 0.75 check the lower and upper sides. Independent linear programming in the original probability variables verifies all 2280 corrected cases with a maximum margin discrepancy below $3.5\times10^{-11}$. The benchmark uses a fixed unit weight and a calibrated constant predictor, which contributes no variance reduction. It isolates the effect of correlated attributes on existence. Frequencies are conditional on this simulation design.
+
 ## Data availability
 
 Section 4 identifies the public vaccine repository, the RADIANT food DCE (Chen et al., 2025, https://doi.org/10.5281/zenodo.15420092) and the Swissmetro data distributed by Biogeme (Bierlaire et al., 2001, https://github.com/michelbierlaire/biogeme/blob/master/src/biogeme/data/data/swissmetro.dat). The reproduction package provides pinned source hashes, download instructions, code and derived results. Raw respondent records are downloaded separately. Reported estimates use these released choices and simulations; the author's separate private questionnaire supplies no observations to this paper.
@@ -1805,6 +1886,8 @@ Broska, D., Howes, M. (2026). Cluster-Robust Prediction-Powered Inference. Prepr
 
 Cai, T.T., Low, M.G. (2011). Testing composite hypotheses, Hermite polynomials and optimal estimation of a nonsmooth functional. Annals of Statistics 39(2), 1012–1041. https://doi.org/10.1214/10-AOS849
 
+Califano, G., Caracciolo, F. (2026). Do large language models shop like people? Comparing GPT and human food choices using discrete choice experiments. Food Quality and Preference 142, 105930. https://doi.org/10.1016/j.foodqual.2026.105930
+
 Cai, Z., Fan, Y., Chen, S., Du, J.H. (2026). DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration. Preprint, arXiv:2609.31215v1. https://arxiv.org/abs/2609.31215v1
 
 Candès, E.J., Sur, P. (2020). The phase transition for the existence of the maximum likelihood estimate in high-dimensional logistic regression. Annals of Statistics 48, 27–42. https://arxiv.org/abs/1804.09753
@@ -1816,6 +1899,8 @@ Chen, S., Bai, Y., Zhu, H. (2026). Covariance-Calibrated Prediction-Powered Infe
 Cominetti, R., San Martín, J. (1994). Asymptotic analysis of the exponential penalty trajectory in linear programming. Mathematical Programming 67, 169–187. https://doi.org/10.1007/BF01582220
 
 Correia, S., Guimarães, P., Zylkin, T. (2026). Verifying the existence of maximum likelihood estimates for generalized linear models. Econometric Reviews 45(9), 1270–1305. https://doi.org/10.1080/07474938.2026.2673989
+
+Cover, T.M. (1965). Geometrical and statistical properties of systems of linear inequalities with applications in pattern recognition. IEEE Transactions on Electronic Computers EC-14(3), 326–334. https://isl.stanford.edu/~cover/papers/paper2.pdf
 
 Fan, S., Visokay, A., Hoffman, K., Salerno, S., Liu, L., Leek, J.T., McCormick, T.H. (2024). From Narratives to Numbers: Valid Inference Using Language Model Predictions from Verbal Autopsy Narratives. Conference on Language Modeling. https://soc.washington.edu/sites/soc/files/documents/research/ppi_colm.pdf
 
@@ -1853,6 +1938,8 @@ Li, R., Cai, X. (2026). Accuracy Is Not Value: Choosing Weak Supervisors by What
 
 Li, W., Huang, D. (2026). Regularization Using Synthetic Data for High-Dimensional Inference. arXiv:2407.04194, version 5. https://arxiv.org/abs/2407.04194v5
 
+López, B., Schröder, M., Opper, M. (1995). Storage of correlated patterns in a perceptron. Journal of Physics A: Mathematical and General 28(16), L447–L452. https://doi.org/10.1088/0305-4470/28/16/005
+
 Loureiro, B., Gerbelot, C., Cui, H., Goldt, S., Krzakala, F., Mézard, M., Zdeborová, L. (2021). Learning curves of generic features maps for realistic datasets with a teacher-student model. Advances in Neural Information Processing Systems 34. https://proceedings.neurips.cc/paper/2021/hash/9704a4fc48ae88598dcbdcdf57f3fdef-Abstract.html
 
 Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html
@@ -1865,6 +1952,8 @@ Montanari, A., Ruan, F., Sohn, Y., Yan, J. (2025). The generalization error of m
 Natarajan, N., Dhillon, I.S., Ravikumar, P.K., Tewari, A. (2013). Learning with Noisy Labels. Advances in Neural Information Processing Systems 26, 1196–1204. https://papers.nips.cc/paper_files/paper/2013/hash/3871bd64012152bfb53fdf04b401193f-Abstract.html
 
 Nguyen, V. (2026). Attainment Boundaries and Escape Rates in Asymptotically Conic Optimization. Preprint, arXiv:2608.10341v1. https://arxiv.org/abs/2608.10341v1
+
+Nwaigwe, D., Rychlik, M. (2026). The existence of the maximum likelihood estimate in multinomial logistic regression for mixed-membership models. Communications in Statistics - Theory and Methods 55(3), 766–776. https://doi.org/10.1080/03610926.2025.2505986
 
 Odlyzko, A.M. (1988). On subspaces spanned by random selections of ±1 vectors. Journal of Combinatorial Theory, Series A 47, 124–133. https://doi.org/10.1016/0097-3165(88)90046-5
 
@@ -1899,6 +1988,8 @@ Tan, K., Bellec, P.C. (2023). Multinomial Logistic Regression: Asymptotic Normal
 Tang, W., Ye, Y. (2020). The existence of maximum likelihood estimate in high-dimensional binary response generalized linear models. Preprint version 2. https://arxiv.org/abs/1908.06208v2
 
 Vadlamani, A.T., Chang, J.H., Parthasarathy, S., Paul, S. (2026). Transfer Calibrated Prediction Powered Inference. Preprint, arXiv:2609.34156v1. https://arxiv.org/abs/2609.34156v1
+
+Wang, M., Zhang, D.J., Zhang, H. (2026). Large Language Models for Market Research: A Data-Augmentation Approach. Marketing Science 45(4), 728–751. https://doi.org/10.1287/mksc.2025.0009
 
 van der Laan, L., van der Laan, M. (2026). Calibeating Prediction-Powered Inference. Preprint, arXiv:2604.21260. https://arxiv.org/abs/2604.21260
 

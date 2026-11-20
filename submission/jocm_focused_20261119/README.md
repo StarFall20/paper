@@ -1,6 +1,6 @@
 # When prediction assisted logit estimates exist
 
-This Research Article edition has a 10-page main manuscript and an 84-page supplement. The main text contains 3,582 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
+This Research Article edition has a 10-page main manuscript and an 88-page supplement. The main text contains 3,691 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
 
 [Manuscript](upload/Manuscript.docx) · [Supplementary methods and proofs](upload/Supplementary_Methods_and_Proofs.docx) · [Figure 1](upload/Figures/Figure_1.pdf) · [Cover letter](upload/Cover_letter.docx) · [Highlights](upload/Highlights.docx) · [Title page](upload/Title_page.docx) · [Supplementary file captions](upload/Supplementary_File_Captions.txt)
 
@@ -17,10 +17,14 @@ The main result connects fixed choice menus and prediction correction to whether
 [Appendix C17 unit endpoint](../../reports/unit_correction_endpoint_20261119/README.md) derives the choice-loss rate where the labelled log partitions lose their weight and verifies 30 fits in constructed paths.
 
 
-[Release audit](../../reports/submission_release_audit_20261119/README.md) gives the verified source links, document changes, and the receipt for 14 checks from a fresh extraction of the submission archive. RADIANT and Swissmetro original-menu checks used the upstream workbook and choice file. Follow the README in Reproduction_Materials.zip to run the checks.
+[Release audit](../../reports/submission_release_audit_20261119/README.md) gives the verified source links, document changes, and the receipt for 16 checks from a fresh extraction of the submission archive. RADIANT and Swissmetro original-menu checks used the upstream workbook and choice file. Follow the README in Reproduction_Materials.zip to run the checks.
 
 [Appendix B8 verification](../../reports/hessian_power_bounds_20261119/README.md) gives the sharp range from the Hessian, the design cap and its finite number of pairs.
 
 [Appendix B9 verification](../../reports/matched_auxiliary_diagnostics_20261119/README.md) compares local derivatives while holding the human labels fixed, using both released choice datasets.
 
 The author-linked research branch reproduces the 68 earlier default point calls and supplies 68 additional point and interval checks. See Supplementary Appendix C10 and the reproduction report for code-path details and normal controls. The final journal supplement archive still requires direct comparison. [Author branch audit](../../reports/author_ppi_branch_audit_20261119/README.md)
+
+Appendix H gives the correlated two-task benchmark, the exact ordinary-logit comparison and an independent check of all 2280 corrected outcomes. The November 20 institutional report records eight Web of Science Topic queries, 71 exported records and cross-checks in EconLit, EBSCO Business and Google Scholar.
+
+[Paired benchmark](../../reports/paired_choice_boundary_20261120/README.md) · [Database report](../../reports/database_originality_audit_20261120/README.md)

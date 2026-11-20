@@ -1,0 +1,21 @@
+{
+  "released_on": "2026-11-20",
+  "model": "Two binary tasks per independent respondent. Independent fair human choices, fixed prediction 0.5 and unit correction. Gaussian slope attributes with within-respondent task correlation. Both samples have equal numbers of respondents. An intercept is fitted.",
+  "seed": 20261120,
+  "primary": {
+    "slope_count_per_labelled_person": 0.585,
+    "labelled_respondents": [48, 96, 192],
+    "correlations": [0.0, 0.8, 0.99],
+    "cohorts_per_size": 200,
+    "ordinary_control_in_each_fit": true
+  },
+  "stress_controls": {
+    "slope_count_per_labelled_person": [0.42, 0.75],
+    "labelled_respondents": [96],
+    "correlations": [0.0, 0.99],
+    "cohorts_per_size_ratio": 120,
+    "ordinary_control_in_each_fit": false
+  },
+  "classification_rule": "A full-rank active design is interior if the minimum box radius is smaller than 1 by more than 1e-7, exterior if larger by more than 1e-7 and a strict negative recession is verified, and numerically near-boundary otherwise.",
+  "scope": "The rho grid and ratios are chosen from the theoretical boundaries before evaluating any LP cohort. For each size and ratio the human labels and Gaussian drivers are identical across correlations. Cohorts are independent across draws within a size and ratio. Outcomes are not estimators of a public choice dataset's failure probability."
+}

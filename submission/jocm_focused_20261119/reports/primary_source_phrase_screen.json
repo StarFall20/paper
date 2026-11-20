@@ -7,8 +7,8 @@
   },
   "scope": "Reported exact token matches in extracted text from the named source versions. Candidate references, tables, images and equations are excluded. Semantic similarity and other sources require other evidence.",
   "draft_sha256": {
-    "manuscript.md": "f84a25665190b1dec0d3e5bf9c7269d0a56940d340f6c4f3fc2b7e98f4281abd",
-    "supplement.md": "93ccd3aa729f08c8be5a671e43cf45e54cd2d4656b217194ad45422a6fe4654a"
+    "manuscript.md": "d33e4557ab8f6947ad1bb6407e90e441951341cc18f6b15eda215dc3307b89ab",
+    "supplement.md": "d6f7a8f9b45f8a93990b24222234eb5f686521df59369131ec21988240f6ffc8"
   },
   "sources": {
     "original_ppi": {
@@ -90,6 +90,66 @@
         "manuscript.md": [],
         "supplement.md": []
       }
+    },
+    "wang_augmentation_v3": {
+      "url": "https://arxiv.org/pdf/2412.19363v3",
+      "sha256": "07b29876a8eacfc4aecd372daebb5df37ec9513efb03019a9ff7af1a62e44a08",
+      "pages": 64,
+      "nonempty_pages": 64,
+      "comparisons": {
+        "manuscript.md": [],
+        "supplement.md": []
+      }
+    },
+    "xu_sun_filtered_ppi_v1": {
+      "url": "https://arxiv.org/pdf/2602.10464v1",
+      "sha256": "1d7cce5b19843c182beeb6a6633c2efe834d963f1f4c07a21bc88d243e8d3d89",
+      "pages": 81,
+      "nonempty_pages": 81,
+      "comparisons": {
+        "manuscript.md": [],
+        "supplement.md": []
+      }
+    },
+    "han_ren_cone_logistic": {
+      "url": "https://arxiv.org/pdf/2212.05545",
+      "sha256": "5e7daac1531978f1b53222e46063fb71b0639576ec835b03e12bee1a47e3d207",
+      "pages": 45,
+      "nonempty_pages": 45,
+      "comparisons": {
+        "manuscript.md": [],
+        "supplement.md": []
+      }
+    },
+    "zhao_sur_candes_covariance": {
+      "url": "https://arxiv.org/pdf/2001.09351",
+      "sha256": "1391c75774ed98f389b52e9cd0817a1ae54562be1202798600afeb2ac39c3812",
+      "pages": 28,
+      "nonempty_pages": 28,
+      "comparisons": {
+        "manuscript.md": [],
+        "supplement.md": []
+      }
+    },
+    "cover_dichotomies": {
+      "url": "https://isl.stanford.edu/~cover/papers/paper2.pdf",
+      "sha256": "5b4e859e05be369af9c1936c3e7bfb32e150b47c062a6e6814152ffc9bb7d0ba",
+      "pages": 9,
+      "nonempty_pages": 9,
+      "comparisons": {
+        "manuscript.md": [],
+        "supplement.md": []
+      }
+    },
+    "mukherjee_network_logistic": {
+      "url": "https://jmlr.org/papers/volume25/22-1040/22-1040.pdf",
+      "sha256": "b547d3bd9d088e96417f04bf23169543bfd6b17103320525efd369e144e0657b",
+      "pages": 62,
+      "nonempty_pages": 62,
+      "comparisons": {
+        "manuscript.md": [],
+        "supplement.md": []
+      }
     }
   },
   "unavailable_primary_downloads": {
@@ -121,5 +181,6 @@
       "bytes": 1163,
       "sha256": null
     }
-  }
+  },
+  "unique_pages": 611
 }

@@ -80,6 +80,11 @@ def verify(args, out):
           "--records", branch / "records.json",
           "--prior", RESULTS / "official_ppi_runtime/results/api_records.json",
           "--expected", branch / "summary.json")
+    paired = RESULTS / "paired_choice_boundary"
+    check("paired_task_integral", "results/paired_choice_boundary/verify_boundary.py",
+          "--boundaries", paired / "boundaries.json", "--out", out / "paired_task_integral.json")
+    check("paired_task_states", "results/paired_choice_boundary/verify_cases.py",
+          "--records", paired / "cohort_results.csv", "--out", out / "paired_task_states.json")
 
     if args.food_source:
         panel = RESULTS / "public_panel_dce"
