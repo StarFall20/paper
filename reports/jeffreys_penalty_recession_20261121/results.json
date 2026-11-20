@@ -1,0 +1,730 @@
+{
+  "status": "passed",
+  "exact_toy": {
+    "labels": 32,
+    "human_sum_half_logdet_normalized_coefficient": 0.015625,
+    "unpenalized_directional_slope": -0.03125,
+    "basis_cost": 1.0,
+    "penalized_directional_slope": -0.015625,
+    "objective_at_0_20_200_2000": [
+      0.7689601534336893,
+      0.3502423347846079,
+      -2.462257665519044,
+      -30.587257665519047
+    ],
+    "global_strict_coercivity_threshold": 0.03125
+  },
+  "multinomial_identity": {
+    "minimum_basis_cost": 1.5,
+    "direct_logdet_rate": 1.5,
+    "pairwise_information_max_difference": 2.6469779601696886e-23
+  },
+  "exact_common_support_constructions": [
+    {
+      "matched_order": 1,
+      "paired_magnitudes": 2,
+      "common_total_auxiliary_rows": 8,
+      "labelled_rows": 224,
+      "positive_slope_recession_costs": [
+        "-1/16",
+        "0",
+        "1/16"
+      ]
+    },
+    {
+      "matched_order": 3,
+      "paired_magnitudes": 3,
+      "common_total_auxiliary_rows": 96,
+      "labelled_rows": 240,
+      "positive_slope_recession_costs": [
+        "1/96",
+        "0",
+        "-1/96"
+      ]
+    },
+    {
+      "matched_order": 5,
+      "paired_magnitudes": 4,
+      "common_total_auxiliary_rows": 224,
+      "labelled_rows": 832,
+      "positive_slope_recession_costs": [
+        "-1/224",
+        "0",
+        "1/224"
+      ]
+    },
+    {
+      "matched_order": 7,
+      "paired_magnitudes": 5,
+      "common_total_auxiliary_rows": 1920,
+      "labelled_rows": 320,
+      "positive_slope_recession_costs": [
+        "1/384",
+        "0",
+        "-1/384"
+      ]
+    },
+    {
+      "matched_order": 9,
+      "paired_magnitudes": 6,
+      "common_total_auxiliary_rows": 3960,
+      "labelled_rows": 1824,
+      "positive_slope_recession_costs": [
+        "-7/3960",
+        "0",
+        "7/3960"
+      ]
+    },
+    {
+      "matched_order": 11,
+      "paired_magnitudes": 7,
+      "common_total_auxiliary_rows": 36036,
+      "labelled_rows": 1232,
+      "positive_slope_recession_costs": [
+        "1/858",
+        "0",
+        "-1/858"
+      ]
+    },
+    {
+      "matched_order": 13,
+      "paired_magnitudes": 8,
+      "common_total_auxiliary_rows": 78624,
+      "labelled_rows": 3200,
+      "positive_slope_recession_costs": [
+        "-11/13104",
+        "0",
+        "11/13104"
+      ]
+    },
+    {
+      "matched_order": 15,
+      "paired_magnitudes": 9,
+      "common_total_auxiliary_rows": 668304,
+      "labelled_rows": 504,
+      "positive_slope_recession_costs": [
+        "11/17136",
+        "0",
+        "-11/17136"
+      ]
+    },
+    {
+      "matched_order": 17,
+      "paired_magnitudes": 10,
+      "common_total_auxiliary_rows": 1395360,
+      "labelled_rows": 4960,
+      "positive_slope_recession_costs": [
+        "-143/279072",
+        "0",
+        "143/279072"
+      ]
+    },
+    {
+      "matched_order": 19,
+      "paired_magnitudes": 11,
+      "common_total_auxiliary_rows": 11511720,
+      "labelled_rows": 2992,
+      "positive_slope_recession_costs": [
+        "13/30780",
+        "0",
+        "-13/30780"
+      ]
+    },
+    {
+      "matched_order": 21,
+      "paired_magnitudes": 12,
+      "common_total_auxiliary_rows": 23535072,
+      "labelled_rows": 7104,
+      "positive_slope_recession_costs": [
+        "-13/36432",
+        "0",
+        "13/36432"
+      ]
+    },
+    {
+      "matched_order": 23,
+      "paired_magnitudes": 13,
+      "common_total_auxiliary_rows": 199971200,
+      "labelled_rows": 2080,
+      "positive_slope_recession_costs": [
+        "119/404800",
+        "0",
+        "-119/404800"
+      ]
+    },
+    {
+      "matched_order": 25,
+      "paired_magnitudes": 14,
+      "common_total_auxiliary_rows": 419939520,
+      "labelled_rows": 9632,
+      "positive_slope_recession_costs": [
+        "-17/68640",
+        "0",
+        "17/68640"
+      ]
+    },
+    {
+      "matched_order": 27,
+      "paired_magnitudes": 15,
+      "common_total_auxiliary_rows": 3496147200,
+      "labelled_rows": 5520,
+      "positive_slope_recession_costs": [
+        "323/1520064",
+        "0",
+        "-323/1520064"
+      ]
+    },
+    {
+      "matched_order": 29,
+      "paired_magnitudes": 16,
+      "common_total_auxiliary_rows": 7225370880,
+      "labelled_rows": 12544,
+      "positive_slope_recession_costs": [
+        "-969/5235776",
+        "0",
+        "969/5235776"
+      ]
+    },
+    {
+      "matched_order": 31,
+      "paired_magnitudes": 17,
+      "common_total_auxiliary_rows": 59390960640,
+      "labelled_rows": 884,
+      "positive_slope_recession_costs": [
+        "57/349184",
+        "0",
+        "-57/349184"
+      ]
+    },
+    {
+      "matched_order": 33,
+      "paired_magnitudes": 18,
+      "common_total_auxiliary_rows": 121481510400,
+      "labelled_rows": 15840,
+      "positive_slope_recession_costs": [
+        "-19/130560",
+        "0",
+        "19/130560"
+      ]
+    }
+  ],
+  "public_source_commit": "d18717206867c7a12ff470879a0dd5d488b300c2",
+  "prior_results_sha256": "daf9f18bd986513d086dfceeb6ada74d4c1ef4adc3e2564848697b4dd7e1a01c",
+  "public_rays": 19,
+  "public_rays_still_certify_unbounded": 19,
+  "rows": [
+    {
+      "predictor": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.75,
+      "allocation": 3,
+      "frequency_scenario": "low_strong",
+      "direct_recession": -0.0031827085239271025,
+      "basis_cost_upper_bound": 0.03030303030303022,
+      "active_basis_indices": [
+        25,
+        48,
+        56,
+        83,
+        220,
+        248,
+        308,
+        334,
+        376,
+        383,
+        938
+      ],
+      "penalty": 0.02,
+      "penalized_directional_slope_upper_bound": -0.002576647917866498,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.10502938128959467,
+      "loss_upper_bound_at_20000": -49.38262632330671
+    },
+    {
+      "predictor": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.9,
+      "allocation": 6,
+      "frequency_scenario": "high_strong",
+      "direct_recession": -0.0009059627953683924,
+      "basis_cost_upper_bound": 0.024999999999999967,
+      "active_basis_indices": [
+        44,
+        173,
+        207,
+        237,
+        251,
+        286,
+        317,
+        322,
+        433,
+        484,
+        21
+      ],
+      "penalty": 0.02,
+      "penalized_directional_slope_upper_bound": -0.00040596279536839306,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.036238511814735745,
+      "loss_upper_bound_at_20000": -6.243050288186716
+    },
+    {
+      "predictor": "human_ridge_logit",
+      "budget": 25,
+      "weight": 0.95,
+      "allocation": 6,
+      "frequency_scenario": "high_strong",
+      "direct_recession": -0.002014003647578838,
+      "basis_cost_upper_bound": 0.00641025641025636,
+      "active_basis_indices": [
+        102,
+        174,
+        207,
+        237,
+        251,
+        308,
+        317,
+        466,
+        887,
+        79,
+        1149
+      ],
+      "penalty": 0.02,
+      "penalized_directional_slope_upper_bound": -0.0018857985193737109,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.31418456902230124,
+      "loss_upper_bound_at_20000": -35.92033259403524
+    },
+    {
+      "predictor": "human_ridge_logit",
+      "budget": 25,
+      "weight": 1.0,
+      "allocation": 6,
+      "frequency_scenario": "multinomial_1",
+      "direct_recession": -0.000630831540078175,
+      "basis_cost_upper_bound": 0.020833333333333183,
+      "active_basis_indices": [
+        39,
+        182,
+        282,
+        296,
+        625,
+        866,
+        877,
+        1088,
+        167,
+        275,
+        635
+      ],
+      "penalty": 0.02,
+      "penalized_directional_slope_upper_bound": -0.00021416487341151133,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.030279913923752618,
+      "loss_upper_bound_at_20000": -2.4649573712977926
+    },
+    {
+      "predictor": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.75,
+      "allocation": 89,
+      "frequency_scenario": "low_strong",
+      "direct_recession": -0.00042301976939418395,
+      "basis_cost_upper_bound": 0.007936507936507966,
+      "active_basis_indices": [
+        35,
+        44,
+        102,
+        317,
+        493,
+        846,
+        1138,
+        208,
+        13,
+        139,
+        341
+      ],
+      "penalty": 0.01,
+      "penalized_directional_slope_upper_bound": -0.00034365469002910426,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.053300490943666984,
+      "loss_upper_bound_at_20000": -5.932116745556236
+    },
+    {
+      "predictor": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.9,
+      "allocation": 56,
+      "frequency_scenario": "low_strong",
+      "direct_recession": -4.7923040329425626e-05,
+      "basis_cost_upper_bound": 0.0015999999999999903,
+      "active_basis_indices": [
+        10,
+        142,
+        235,
+        509,
+        863,
+        975,
+        1088,
+        1168,
+        1249,
+        738,
+        672
+      ],
+      "penalty": 0.01,
+      "penalized_directional_slope_upper_bound": -3.1923040329425725e-05,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.029951900205891197,
+      "loss_upper_bound_at_20000": 0.224847090049775
+    },
+    {
+      "predictor": "human_ridge_logit",
+      "budget": 50,
+      "weight": 0.95,
+      "allocation": 8,
+      "frequency_scenario": "low_strong",
+      "direct_recession": -0.00011522122962164677,
+      "basis_cost_upper_bound": 0.0064102564102563875,
+      "active_basis_indices": [
+        87,
+        142,
+        153,
+        270,
+        348,
+        465,
+        875,
+        1000,
+        1146,
+        1190,
+        778
+      ],
+      "penalty": 0.01,
+      "penalized_directional_slope_upper_bound": -5.11186655190829e-05,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.01797451182097696,
+      "loss_upper_bound_at_20000": -0.06210618486360753
+    },
+    {
+      "predictor": "human_ridge_logit",
+      "budget": 50,
+      "weight": 1.0,
+      "allocation": 8,
+      "frequency_scenario": "low_strong",
+      "direct_recession": -0.001081926210187753,
+      "basis_cost_upper_bound": 0.014285714285714221,
+      "active_basis_indices": [
+        81,
+        92,
+        598,
+        1060,
+        1156,
+        1160,
+        706,
+        937,
+        298,
+        779,
+        169
+      ],
+      "penalty": 0.01,
+      "penalized_directional_slope_upper_bound": -0.0009390690673306108,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.07573483471314306,
+      "loss_upper_bound_at_20000": -17.83280708074043
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.75,
+      "allocation": 0,
+      "frequency_scenario": "high_strong",
+      "direct_recession": -0.0015153423574414404,
+      "basis_cost_upper_bound": 0.009900990099009799,
+      "active_basis_indices": [
+        437,
+        452,
+        548,
+        945,
+        950,
+        755,
+        665,
+        57,
+        432,
+        1037,
+        872
+      ],
+      "penalty": 0.02,
+      "penalized_directional_slope_upper_bound": -0.0013173225554612444,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.15304957810158706,
+      "loss_upper_bound_at_20000": -24.40048918921991
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.9,
+      "allocation": 0,
+      "frequency_scenario": "low_moderate",
+      "direct_recession": -0.0007956224982187676,
+      "basis_cost_upper_bound": 0.006578947368421087,
+      "active_basis_indices": [
+        0,
+        24,
+        65,
+        102,
+        145,
+        375,
+        486,
+        646,
+        9,
+        984,
+        971
+      ],
+      "penalty": 0.02,
+      "penalized_directional_slope_upper_bound": -0.0006640435508503458,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.12093461972925205,
+      "loss_upper_bound_at_20000": -11.473457656244626
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 0.95,
+      "allocation": 2,
+      "frequency_scenario": "high_strong",
+      "direct_recession": -0.0029111284960938316,
+      "basis_cost_upper_bound": 0.0030120481927711842,
+      "active_basis_indices": [
+        17,
+        78,
+        159,
+        1033,
+        1127,
+        16,
+        533,
+        1185,
+        880,
+        491,
+        698
+      ],
+      "penalty": 0.02,
+      "penalized_directional_slope_upper_bound": -0.0028508875322384077,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.9664946607031201,
+      "loss_upper_bound_at_20000": -55.27328454555398
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 25,
+      "weight": 1.0,
+      "allocation": 2,
+      "frequency_scenario": "high_strong",
+      "direct_recession": -0.0043965198481712014,
+      "basis_cost_upper_bound": 0.00970873786407761,
+      "active_basis_indices": [
+        133,
+        134,
+        160,
+        257,
+        541,
+        892,
+        1008,
+        1102,
+        751,
+        12,
+        851
+      ],
+      "penalty": 0.02,
+      "penalized_directional_slope_upper_bound": -0.00420234509088965,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.45284154436163654,
+      "loss_upper_bound_at_20000": -82.26080124060225
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.75,
+      "allocation": 0,
+      "frequency_scenario": "low_strong",
+      "direct_recession": -0.002181078361582378,
+      "basis_cost_upper_bound": 0.006451612903225823,
+      "active_basis_indices": [
+        129,
+        253,
+        428,
+        532,
+        719,
+        947,
+        49,
+        822,
+        25,
+        126,
+        181
+      ],
+      "penalty": 0.01,
+      "penalized_directional_slope_upper_bound": -0.00211656223255012,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.3380671460452677,
+      "loss_upper_bound_at_20000": -41.38626033883956
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.9,
+      "allocation": 0,
+      "frequency_scenario": "original",
+      "direct_recession": -0.00020185569261661762,
+      "basis_cost_upper_bound": 0.003267973856209243,
+      "active_basis_indices": [
+        48,
+        277,
+        573,
+        1211,
+        80,
+        753,
+        1033,
+        313,
+        668,
+        238,
+        832
+      ],
+      "penalty": 0.01,
+      "penalized_directional_slope_upper_bound": -0.0001691759540545252,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.061767841940683244,
+      "loss_upper_bound_at_20000": -2.4503766060109076
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 0.95,
+      "allocation": 4,
+      "frequency_scenario": "multinomial_1",
+      "direct_recession": -0.00024778979929999945,
+      "basis_cost_upper_bound": 0.013333333333333294,
+      "active_basis_indices": [
+        31,
+        32,
+        48,
+        89,
+        320,
+        529,
+        572,
+        722,
+        908,
+        158,
+        167
+      ],
+      "penalty": 0.01,
+      "penalized_directional_slope_upper_bound": -0.00011445646596666651,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.018584234947500014,
+      "loss_upper_bound_at_20000": -1.3540174272967773
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 50,
+      "weight": 1.0,
+      "allocation": 4,
+      "frequency_scenario": "original",
+      "direct_recession": -0.000890779644244194,
+      "basis_cost_upper_bound": 0.02941176470588228,
+      "active_basis_indices": [
+        41,
+        118,
+        236,
+        315,
+        326,
+        474,
+        645,
+        646,
+        922,
+        170,
+        1158
+      ],
+      "penalty": 0.01,
+      "penalized_directional_slope_upper_bound": -0.0005966619971853712,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.03028650790430267,
+      "loss_upper_bound_at_20000": -10.97773420603039
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 0.9,
+      "allocation": 8,
+      "frequency_scenario": "high_strong",
+      "direct_recession": -0.0022914324022567656,
+      "basis_cost_upper_bound": 0.004219409282700433,
+      "active_basis_indices": [
+        18,
+        188,
+        437,
+        787,
+        816,
+        1103,
+        1192,
+        1324,
+        364,
+        582,
+        19
+      ],
+      "penalty": 0.0033333333333333335,
+      "penalized_directional_slope_upper_bound": -0.002277367704647764,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.5430694793348521,
+      "loss_upper_bound_at_20000": -45.220020790557996
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 0.95,
+      "allocation": 8,
+      "frequency_scenario": "high_strong",
+      "direct_recession": -0.0040989958709848895,
+      "basis_cost_upper_bound": 0.004273504273504258,
+      "active_basis_indices": [
+        18,
+        19,
+        188,
+        228,
+        385,
+        630,
+        751,
+        787,
+        816,
+        1141,
+        72
+      ],
+      "penalty": 0.0033333333333333335,
+      "penalized_directional_slope_upper_bound": -0.004084750856739875,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.9591650338104676,
+      "loss_upper_bound_at_20000": -81.34679057441325
+    },
+    {
+      "predictor": "archived_AI_ridge_logit",
+      "budget": 150,
+      "weight": 1.0,
+      "allocation": 1,
+      "frequency_scenario": "high_strong",
+      "direct_recession": -0.0010127638304069653,
+      "basis_cost_upper_bound": 0.0714285714285714,
+      "active_basis_indices": [
+        2,
+        8,
+        11,
+        17,
+        20,
+        29,
+        42,
+        65,
+        67,
+        79,
+        32
+      ],
+      "penalty": 0.0033333333333333335,
+      "penalized_directional_slope_upper_bound": -0.0007746685923117273,
+      "certified_unbounded_after_penalty": true,
+      "directional_penalty_threshold_lower_bound": 0.01417869362569752,
+      "loss_upper_bound_at_20000": -15.06155962374148
+    }
+  ]
+}

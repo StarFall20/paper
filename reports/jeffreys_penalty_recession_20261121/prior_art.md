@@ -1,0 +1,9 @@
+# Prior work on separation and the Jeffreys penalty
+
+| Source examined | Result relevant to the present paper |
+| --- | --- |
+| [Kosmidis and Firth (2021), Theorem 1 and ordinary binomial likelihood](https://wrap.warwick.ac.uk/135327/13/WRAP-Jeffreys-prior-penalty-finiteness-shrinkage-binomial-response-generalized-linear-model-Kosmidis-2021.pdf) | The Jeffreys information determinant vanishes as a full-rank binomial GLM parameter diverges. The ordinary negative log likelihood is bounded below. The corrected choice loss can instead decrease linearly, so the rate of information decay enters its penalty condition. |
+| [Kessels, Jones and Goos (2019), Journal of Choice Modelling](https://doi.org/10.1016/j.jocm.2018.12.002) | Firth adaptation for multinomial choice estimation under ordinary separation. The new criterion concerns the Hessian of the corrected objective and compares the rise of its information penalty to a negative directional slope. |
+| [Detecting and Correcting for Separation in Strategic Choice Models](https://www.cambridge.org/core/journals/political-analysis/article/detecting-and-correcting-for-separation-in-strategic-choice-models/D03887AC89BD337086DACBF833FFBCF5) | Documents misleading numerical convergence codes under separation and studies penalized strategic likelihoods. Optimizer diagnostics and information penalties are part of the established literature. |
+
+Public searches combined prediction-powered inference, logistic separation, Jeffreys or Firth penalties, and existence of a finite optimum. The compared primary sources support the paper's narrow contribution about competition between the negative recession of a corrected choice loss and the rate of its log-information penalty. Background tools such as Cauchy–Binet and classical likelihood separation retain their established attribution. Institutional Scopus coverage and the separately released final PPI++ supplements remain open.
