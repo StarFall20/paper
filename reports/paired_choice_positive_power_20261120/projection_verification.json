@@ -1,0 +1,114 @@
+{
+  "state": "passed",
+  "grid_points": 15,
+  "quadrature_inputs": 131072,
+  "max_abs_difference": 3.190738807390403e-06,
+  "scope": "Independent projection evaluation at the selected deterministic scale",
+  "comparisons": [
+    {
+      "power": 0.5,
+      "correlation": 0.0,
+      "analytic_integration": 1.0797024144394256,
+      "qmc_value": 1.0797025014288781,
+      "absolute_difference": 8.698945253016177e-08
+    },
+    {
+      "power": 0.5,
+      "correlation": 0.8,
+      "analytic_integration": 1.0359543899754013,
+      "qmc_value": 1.0359563705664063,
+      "absolute_difference": 1.980591004979715e-06
+    },
+    {
+      "power": 0.5,
+      "correlation": 0.99,
+      "analytic_integration": 0.9354363516357886,
+      "qmc_value": 0.935439542374596,
+      "absolute_difference": 3.190738807390403e-06
+    },
+    {
+      "power": 0.8,
+      "correlation": 0.0,
+      "analytic_integration": 0.8362731528279277,
+      "qmc_value": 0.8362724765681553,
+      "absolute_difference": 6.762597724030428e-07
+    },
+    {
+      "power": 0.8,
+      "correlation": 0.8,
+      "analytic_integration": 0.750634828950252,
+      "qmc_value": 0.7506344289888391,
+      "absolute_difference": 3.999614128780138e-07
+    },
+    {
+      "power": 0.8,
+      "correlation": 0.99,
+      "analytic_integration": 0.6573137717220141,
+      "qmc_value": 0.657313655644149,
+      "absolute_difference": 1.160778650977079e-07
+    },
+    {
+      "power": 0.9,
+      "correlation": 0.0,
+      "analytic_integration": 0.7535460193382191,
+      "qmc_value": 0.7535451493451213,
+      "absolute_difference": 8.699930977851267e-07
+    },
+    {
+      "power": 0.9,
+      "correlation": 0.8,
+      "analytic_integration": 0.6612682568231074,
+      "qmc_value": 0.6612675115745583,
+      "absolute_difference": 7.452485490944127e-07
+    },
+    {
+      "power": 0.9,
+      "correlation": 0.99,
+      "analytic_integration": 0.5719398130674942,
+      "qmc_value": 0.5719398587656817,
+      "absolute_difference": 4.569818745636667e-08
+    },
+    {
+      "power": 0.95,
+      "correlation": 0.0,
+      "analytic_integration": 0.713556416271792,
+      "qmc_value": 0.713555457318864,
+      "absolute_difference": 9.589529279541154e-07
+    },
+    {
+      "power": 0.95,
+      "correlation": 0.8,
+      "analytic_integration": 0.6191697515926857,
+      "qmc_value": 0.6191687990669437,
+      "absolute_difference": 9.525257420595068e-07
+    },
+    {
+      "power": 0.95,
+      "correlation": 0.99,
+      "analytic_integration": 0.5321443000369814,
+      "qmc_value": 0.5321443141239817,
+      "absolute_difference": 1.4087000232976266e-08
+    },
+    {
+      "power": 1.0,
+      "correlation": 0.0,
+      "analytic_integration": 0.6748003771741751,
+      "qmc_value": 0.6747993341151535,
+      "absolute_difference": 1.0430590215992908e-06
+    },
+    {
+      "power": 1.0,
+      "correlation": 0.8,
+      "analytic_integration": 0.5790392281753036,
+      "qmc_value": 0.5790381238466704,
+      "absolute_difference": 1.1043286332057534e-06
+    },
+    {
+      "power": 1.0,
+      "correlation": 0.99,
+      "analytic_integration": 0.49450974838800565,
+      "qmc_value": 0.4945096768688826,
+      "absolute_difference": 7.151912306824215e-08
+    }
+  ]
+}

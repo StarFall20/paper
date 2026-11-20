@@ -1,0 +1,33 @@
+{
+  "records": 400,
+  "paired": [
+    {
+      "respondents": 96,
+      "slopes": 64,
+      "draws": 100,
+      "independent_finite": 78,
+      "correlated_finite": 8,
+      "finite_to_exterior": 70,
+      "exterior_to_finite": 0,
+      "ordinary_finite": 200,
+      "near_boundary": 0
+    },
+    {
+      "respondents": 192,
+      "slopes": 127,
+      "draws": 100,
+      "independent_finite": 96,
+      "correlated_finite": 9,
+      "finite_to_exterior": 87,
+      "exterior_to_finite": 0,
+      "ordinary_finite": 200,
+      "near_boundary": 0
+    }
+  ],
+  "checks": {
+    "max_primal_residual": 8.455547373387162e-11,
+    "max_duality_gap": 5.2799986605123195e-12,
+    "independently_rechecked": 32,
+    "max_independent_radius_diff": 1.4233059175694507e-13
+  }
+}

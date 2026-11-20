@@ -1,0 +1,16 @@
+{
+  "state": "passed",
+  "power": 0.9,
+  "auxiliary_ratio": 1.0,
+  "upper_evaluation_scale": 0.405,
+  "lower_evaluation_scale": 0.48,
+  "independent_boundary_lower_bound": 0.753141088224069,
+  "correlated_boundary_upper_bound": 0.6344808072394177,
+  "upper_objective_value": 0.6344791160213168,
+  "upper_objective_slope": 0.0023408431486866554,
+  "minimum_upper_objective_concavity": 1.62,
+  "numerical_rounding_for_text": {
+    "correlated_upper": 0.635,
+    "independent_lower": 0.75
+  }
+}

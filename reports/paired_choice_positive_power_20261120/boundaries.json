@@ -1,0 +1,107 @@
+[
+  {
+    "correlation": 0.0,
+    "power": 0.5,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 1.0797024144394256,
+    "maximizing_scale": 0.7989471210818395
+  },
+  {
+    "correlation": 0.8,
+    "power": 0.5,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 1.0359543899754013,
+    "maximizing_scale": 0.8131512932914418
+  },
+  {
+    "correlation": 0.99,
+    "power": 0.5,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.9354363516357886,
+    "maximizing_scale": 0.7505368803370472
+  },
+  {
+    "correlation": 0.0,
+    "power": 0.8,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.8362731528279277,
+    "maximizing_scale": 0.5540539693219642
+  },
+  {
+    "correlation": 0.8,
+    "power": 0.8,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.750634828950252,
+    "maximizing_scale": 0.51793959161473
+  },
+  {
+    "correlation": 0.99,
+    "power": 0.8,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.6573137717220141,
+    "maximizing_scale": 0.4565140501471775
+  },
+  {
+    "correlation": 0.0,
+    "power": 0.9,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.7535460193382191,
+    "maximizing_scale": 0.4918766358695245
+  },
+  {
+    "correlation": 0.8,
+    "power": 0.9,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.6612682568231074,
+    "maximizing_scale": 0.44771051156299374
+  },
+  {
+    "correlation": 0.99,
+    "power": 0.9,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.5719398130674942,
+    "maximizing_scale": 0.38924801861128905
+  },
+  {
+    "correlation": 0.0,
+    "power": 0.95,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.713556416271792,
+    "maximizing_scale": 0.46332321463012577
+  },
+  {
+    "correlation": 0.8,
+    "power": 0.95,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.6191697515926857,
+    "maximizing_scale": 0.4162922552238149
+  },
+  {
+    "correlation": 0.99,
+    "power": 0.95,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.5321443000369814,
+    "maximizing_scale": 0.35948369733011276
+  },
+  {
+    "correlation": 0.0,
+    "power": 1.0,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.6748003771741751,
+    "maximizing_scale": 0.4363265597266244
+  },
+  {
+    "correlation": 0.8,
+    "power": 1.0,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.5790392281753036,
+    "maximizing_scale": 0.3870869582957137
+  },
+  {
+    "correlation": 0.99,
+    "power": 1.0,
+    "auxiliary_ratio": 1.0,
+    "critical_slopes_per_labelled_person": 0.49450974838800565,
+    "maximizing_scale": 0.33201893222811685
+  }
+]

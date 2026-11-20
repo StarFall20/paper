@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-20",
+  "scope": "Extend the repeated binary task boundary to a fixed positive power below one, under Gaussian attribute blocks and independent fair choice labels.",
+  "boundary_grid": {
+    "power": [0.5, 0.8, 0.9, 0.95, 1.0],
+    "correlation": [0.0, 0.8, 0.99],
+    "auxiliary_ratio": 1.0
+  },
+  "paired_simulation": {
+    "primary_power": 0.9,
+    "slope_ratio": "Round the midpoint of the two analytic numerical boundaries for correlations 0 and 0.99 to three decimals. Freeze the ratio before generating any simulation outcomes.",
+    "labelled_and_auxiliary_respondents": [96, 192],
+    "tasks_per_respondent": 2,
+    "correlations": [0.0, 0.99],
+    "coupled_draws_per_sample_size": 100,
+    "seed": 20261120,
+    "family": 16,
+    "ordinary_comparator": "Original zero-power human-choice logit, classify both designs.",
+    "independent_check": "Recompute the candidate margin directly in original probability coordinates for the first eight paired allocations per sample size and correlation."
+  }
+}

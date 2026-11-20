@@ -1,0 +1,27 @@
+{
+  "power": 0.9,
+  "exact_calculated_boundaries": [
+    0.7535460193382191,
+    0.5719398130674942
+  ],
+  "nominal_ratio": 0.663,
+  "source_plan": {
+    "primary_power": 0.9,
+    "slope_ratio": "Round the midpoint of the two analytic numerical boundaries for correlations 0 and 0.99 to three decimals. Freeze the ratio before generating any simulation outcomes.",
+    "labelled_and_auxiliary_respondents": [
+      96,
+      192
+    ],
+    "tasks_per_respondent": 2,
+    "correlations": [
+      0.0,
+      0.99
+    ],
+    "coupled_draws_per_sample_size": 100,
+    "seed": 20261120,
+    "family": 16,
+    "ordinary_comparator": "Original zero-power human-choice logit, classify both designs.",
+    "independent_check": "Recompute the candidate margin directly in original probability coordinates for the first eight paired allocations per sample size and correlation."
+  },
+  "recorded_before_simulation": true
+}
