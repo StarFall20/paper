@@ -1,0 +1,18 @@
+{
+  "plan_sha256": "d9346962583cc8cf66f5455940775486ca1615b47d5201e67bda641ac0880cce",
+  "runner_sha256": "e29946a42bdc31ee8fa8d7258d711e8ed33cd78ac05494973fac9a8decf21ec0",
+  "canonical_reader_sha256": "693b68358a3c040dce795ece7299114c1a4ff3cce53f5237c50d99cd566f3867",
+  "canonical_nuisance_sha256": "83e0f67c178773a949fc1a9445df7e5bb97fde81a91634dfeb1bf66b8cc698ce",
+  "canonical_support_sha256": "ebdb9c4a265b8a4af077f31eff1bbcdf2bcc0725b172b67969fcd1405e3cdf01",
+  "fit_count": 8000,
+  "order_hashes_matched": 500,
+  "direct_probability_scores": 7993,
+  "max_direct_score": 2.1163626406917047e-16,
+  "max_objective_form_difference": 2.220446049250313e-16,
+  "max_previous_soft_pool_logloss_difference": 1.2312862951446846e-09,
+  "max_previous_soft_pool_brier_difference": 6.142392150465525e-10,
+  "least_squares_roots_rechecked": 57,
+  "max_alternative_root_difference": 6.851053058198886e-11,
+  "primal_dual_frontiers": 32,
+  "max_primal_dual_frontier_difference": 4.884981308350689e-15
+}

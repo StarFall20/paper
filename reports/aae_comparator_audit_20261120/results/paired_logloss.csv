@@ -1,0 +1,13 @@
+label_rows,prediction,first,second,shared_finite,mean_logloss_difference,first_lower
+50,AI,pooled_AAE,auxiliary_AAE,500,-5.4009800602689007e-05,259
+50,AI,pooled_PPI,pooled_AAE,495,0.1947719289735003,7
+50,AI,pooled_human_and_soft,pooled_AAE,500,-0.0004315339203703432,305
+50,X_only,pooled_AAE,auxiliary_AAE,500,-4.697706614574759e-05,265
+50,X_only,pooled_PPI,pooled_AAE,498,0.1808125908965202,10
+50,X_only,pooled_human_and_soft,pooled_AAE,500,-0.00015353006399333413,282
+150,AI,pooled_AAE,auxiliary_AAE,500,-1.1648245261034251e-05,251
+150,AI,pooled_PPI,pooled_AAE,500,0.018712631914862464,117
+150,AI,pooled_human_and_soft,pooled_AAE,500,-0.001315790787808406,351
+150,X_only,pooled_AAE,auxiliary_AAE,500,-2.926578349127684e-06,252
+150,X_only,pooled_PPI,pooled_AAE,500,0.015307826562684432,137
+150,X_only,pooled_human_and_soft,pooled_AAE,500,-0.0008702979281133723,328

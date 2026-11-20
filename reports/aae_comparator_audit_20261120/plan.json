@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-20",
+  "scope": "Matched equation-level comparison of Wang et al. (2026) Section 3.3/5.3 second-stage losses and compensated Logit. No exclusive or new data. This is not a rerun of the published numerical study.",
+  "source_manifest_sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e",
+  "existing_order_log_sha256": "02542cff67225a276efda604fcfb885b22997f58a17a3b831a8c4e989d16b2bd",
+  "existing_fit_records_sha256": "52df28a2edb48b3e93091278fac0de8ff67b948cf9adc91d800b455e90f38377",
+  "allocations": 500,
+  "allocation_seed": 20261109,
+  "source_prefix_rows": 1200,
+  "evaluation_suffix_rows": 3405,
+  "source_block_size": 5,
+  "label_budgets": [50, 150],
+  "prediction_routines": ["AI", "X_only"],
+  "matched_methods": ["auxiliary_AAE", "pooled_AAE", "pooled_human_and_soft", "pooled_PPI"],
+  "comparisons": ["pooled_AAE minus auxiliary_AAE", "pooled_PPI minus pooled_AAE", "pooled_human_and_soft minus pooled_AAE"],
+  "witness_selection": "Use the preexisting official API audit's public cases, without selection by new results. For each, inspect both the auxiliary and pooled menus, and one same-label unpenalized fit with focal attributes (and an intercept and hard AI label when appropriate). Retain original separations and any new nonfinite fits. No inferential use of these same-label refits.",
+  "verification": "Hash each allocation order and recheck existing human-plus-soft log losses. Compare original and moment forms on fixed probes in every allocation. Verify direct probability scores on all successful fits and replay witness allocations using least squares on the probability score. Match each primal frontier to a supporting face computed by a separate dual LP.",
+  "uncertainty": "Report allocation summaries and counts on shared finite fits as descriptive comparisons. Fixed evaluation records and overlapping allocations do not supply independent-patient or population inference."
+}
