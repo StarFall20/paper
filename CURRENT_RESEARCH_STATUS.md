@@ -1,6 +1,6 @@
-# JCM 投稿稿与同条件估计对照
+# JCM 投稿稿与重复题目有限解
 
-[投稿稿件](submission/jocm_focused_20261119/README.md)正文 11 页，附录 90 页。正文 4.4 和附录 I 给出[同条件对照](reports/aae_comparator_audit_20261120/README.md)。解压后重跑 8,000 个配置并核对与附录的结果一致，投稿复现包的 17 项检查均通过。最有把握的原创结果是[重复题目条件下的有限解临界值](reports/paired_choice_boundary_20261120/README.md)。订阅版 Scopus 和 PPI++ 正式附件仍待核对。
+[投稿稿件](submission/jocm_focused_20261119/README.md)有 11 页主稿和 91 页附录。正文 3.2 和附录 H6 加入[固定权重低于一的临界值](reports/paired_choice_positive_power_20261120/README.md)。当前复现包新跑 3 项，另有 15 项以原代码和数据哈希继承。投稿仍需出版社声明工具生成的利益冲突 Word。
 
 # 菜单频率与菜单内预测差异的实证核查
 

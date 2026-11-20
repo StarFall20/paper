@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checked_artifacts": {
+    "boundaries.json": "ff4fb834c89476600004516aabf4e78a1e0d354cbaebebbc5d94585100097641",
+    "strict_bounds.json": "38c9c97332ae7114c21a0e103af2aba353f3dfb6319bf0bdc09101e49d120299",
+    "projection_verification.json": "fd12f8b30f03f8696c19248f2f37d1f6f1912a188bcb34d1b2dd36f217f5473f",
+    "results/cohort_results.csv": "9c5572971fe519ea1e409082f20ebdaec13fb198b0f3bcc28a101fe9e3a08ecb",
+    "results/simulation_design.json": "51bd990cd7c8910e38534f40c43f884ec284dbc75ed539dfcbbc7cf950dba2f6",
+    "results/summary.json": "c5a9a5b9b8824d1899c1db8b4f73c3dafe275d9b83a56144a50753ca001a73da"
+  },
+  "calculation_grid_points": 15,
+  "simulation_fit_configurations": 400,
+  "independent_probability_checks": 32,
+  "maximum_probability_margin_difference": 1.4233059175694507e-13,
+  "verified_sources": {
+    "focused_article.md": "ec352f71eef9db8b008d013f58f757e1b5961652b9c37085f66100fa52a56345",
+    "focused_supplement.md": "079ca72990711249a43f9f1bced973beb457e13fd88fbee600e0dfc83fe7689c"
+  }
+}

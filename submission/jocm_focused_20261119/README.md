@@ -1,6 +1,6 @@
 # When prediction assisted logit estimates exist
 
-This Research Article edition has a 11-page main manuscript and a 90-page supplement. The main text contains 3,833 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
+This Research Article edition has a 11-page main manuscript and a 91-page supplement. The main text contains 3,852 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
 
 [Manuscript](upload/Manuscript.docx) · [Supplementary methods and proofs](upload/Supplementary_Methods_and_Proofs.docx) · [Figure 1](upload/Figures/Figure_1.pdf) · [Cover letter](upload/Cover_letter.docx) · [Highlights](upload/Highlights.docx) · [Title page](upload/Title_page.docx) · [Supplementary file captions](upload/Supplementary_File_Captions.txt)
 
@@ -17,7 +17,7 @@ The main result connects fixed choice menus and prediction correction to whether
 [Appendix C17 unit endpoint](../../reports/unit_correction_endpoint_20261119/README.md) derives the choice-loss rate where the labelled log partitions lose their weight and verifies 30 fits in constructed paths.
 
 
-[Release audit](../../reports/submission_release_audit_20261119/README.md) gives the verified source links, document changes, and the receipt for 17 checks from a fresh extraction of the submission archive. RADIANT and Swissmetro original-menu checks used the upstream workbook and choice file. Follow the README in Reproduction_Materials.zip to run the checks.
+[Release audit](../../reports/submission_release_audit_20261119/README.md) gives the verified source links, document changes, and the receipt binding the previously replayed checks to the current archive of the submission archive. RADIANT and Swissmetro original-menu checks used the upstream workbook and choice file. Follow the README in Reproduction_Materials.zip to run the checks.
 
 [Appendix B8 verification](../../reports/hessian_power_bounds_20261119/README.md) gives the sharp range from the Hessian, the design cap and its finite number of pairs.
 
@@ -30,3 +30,5 @@ Appendix H gives the correlated two-task benchmark, the exact ordinary-logit com
 [Paired benchmark](../../reports/paired_choice_boundary_20261120/README.md) · [Database report](../../reports/database_originality_audit_20261120/README.md)
 
 Section 4.4 and Supplementary Appendix I compare four estimators on fixed public choices and matched probabilities. The code recomputes 8,000 fits in the extracted release, verifies 7,993 finite scores and checks the 32 fixed-menu limits through primal feasibility and dual supporting directions. The clean archive passed 17 release checks. Revised prose was bound to those outputs through a final inventory and headline check. [Matched estimates](../../reports/aae_comparator_audit_20261120/README.md)
+
+Section 3.2 and Supplementary Appendix H6 extend the paired task result to a fixed weight below one. Both samples retain positive log partition weights. The current extraction reconstructs all 400 new fit configurations and rechecks the archived headline results. Fifteen earlier checks retain byte-identical evidence. [Interior correction weight](../../reports/paired_choice_positive_power_20261120/README.md)

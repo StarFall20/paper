@@ -1,7 +1,6 @@
 {
-  "entries": 1286,
+  "entries": 1298,
   "status": "passed",
-  "manifest_sha256": "82308b8a4947c52ba5a211be4fe182844a5ae29e1b42b63082b9b781a0224e2b",
-  "sha256": "f5c8f4f1964f517833d1c0e59a09f75e6fbbb2a62a756024a10042d54d325e02",
-  "verified_after_editorial_binding": true
+  "manifest_sha256": "cde2d9cc28d02577fb56c94200302c2955c611ec0dfc21751b39cf6046ae9a57",
+  "sha256": "1aca8fbff8f922f2fba7cf00863834423c1a8087eeb917f5c0e0a4e4c05ef189"
 }

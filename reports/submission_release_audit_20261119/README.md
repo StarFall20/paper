@@ -30,3 +30,5 @@ Appendix H gives the correlated two-task benchmark, the exact ordinary-logit com
 The exact text screen compared 14 named primary PDFs, covering 611 pages. No contiguous matching passage of ten or more words was detected under the recorded extraction rules.
 
 Section 4.4 and Supplementary Appendix I compare four estimators on fixed public choices and matched probabilities. The code recomputes 8,000 fits in the extracted release, verifies 7,993 finite scores and checks the 32 fixed-menu limits through primal feasibility and dual supporting directions. The clean archive passed 17 release checks. Revised prose was bound to those outputs through a final inventory and headline check.
+
+Section 3.2 and Supplementary Appendix H6 extend the paired task result to a fixed weight below one. Both samples retain positive log partition weights. The current extraction reconstructs all 400 new fit configurations and rechecks the archived headline results. Fifteen earlier checks retain byte-identical evidence.

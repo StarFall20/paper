@@ -1856,6 +1856,26 @@ Table H1  Finite unit correction fits in paired cohorts
 
 At 192 respondents, 182 pairs switch from a finite to an exterior target at correlation 0.99. The reverse count is zero. All 1800 ordinary fits in this comparison are interior. The additional ratios 0.42 and 0.75 check the lower and upper sides. Independent linear programming in the original probability variables verifies all 2280 corrected cases with a maximum margin discrepancy below $3.5\times10^{-11}$. The benchmark uses a fixed unit weight and a calibrated constant predictor, which contributes no variance reduction. It isolates the effect of correlated attributes on existence. Frequencies are conditional on this simulation design.
 
+### H6 A fixed weight below one
+
+For a fixed $0<\lambda<1$, the labelled log partition retains positive weight. Let $s$ collect the labelled signs and let $t=2p-1$ on both samples. With $\tau_m=N/m$, set $v_L=(1-\lambda)t_L-s$ and $v_U=(\lambda/\tau_m)t_U$. If $W$ is the combined standard Gaussian slope matrix and $T_0$ repeats the block $T$ over respondents, the score equations reduce to $W^TT_0 v=0$ and $e^Tv=0$, where $e$ denotes ones. Restrict $t$ to $[-b,b]$, with $0<b\leq1$. The sliced set of $v$ is a compact convex polytope and lies on one side of a hyperplane because all its labelled coordinates have the signs of $-s$ and magnitudes at least $\lambda$. The cone of its block transforms is closed. Feasibility is equivalent to a nonzero intersection with the Gaussian nullspace conditional on $s$.
+
+For $S$ a block of independent fair signs, $G$ a standard Gaussian block independent of $S$, and $B=[-1,1]^K$, define
+
+$$D_L=(1-\lambda)bB-S,\qquad D_U=(\lambda/\tau)bB,\qquad F(G,C)=\|G\|^2-\operatorname{dist}^2(G,C).$$
+
+The statistical dimension divided by $m$ converges to
+
+$$\max_{u\geq0}\{E F(G,uTD_L)+\tau E F(G,uTD_U)\}. \qquad (H.4)$$
+
+To see this, drop the sum constraint in the Gaussian projection. The resulting two block averages converge uniformly on bounded scales by their Lipschitz envelopes. The minimum norm of each labelled block transform is at least $\lambda\sqrt{K\lambda_{\min}(R)}$, which yields a quadratic upper bound and keeps maximizing scales bounded. At a fixed positive maximizing scale the unconstrained block maximizers have mean zero by joint sign symmetry. A common interpolation toward one of the endpoint vectors with $t=-b e$ or $t=b e$ enforces the sum exactly. The interpolation fraction tends to zero because the endpoint sums per labelled task tend to $-b$ and $b$. The normalized objective changes by a vanishing amount. Gaussian squared norms dominate the normalized projection and justify taking conditional expectations.
+
+At $b=1$, (H.4) gives the critical ratio. Above it, the approximate conic kinematic formula gives an exterior target with probability tending to one. Below it, continuity in $b$ gives the same strict inequality at some $b<1$. Feasible probabilities then lie strictly inside the interval, and the full positive-weight design spans the parameter space almost surely. The original choice loss therefore has a unique finite minimizer with probability tending to one. At unit weight the labelled term in (H.4) becomes $-u^2K$, and rescaling $u$ reduces to the preceding unit-weight formula.
+
+At weight 0.90 with two tasks and equal sample sizes, the numerical boundaries are 0.75355 for independent tasks and 0.57194 at correlation 0.99. The scalar Gaussian distance calculation for independent tasks at $u=0.48$ gives a lower bound above 0.750. In the correlated design, the two transformed boxes lie inside axis-aligned rectangles in eigen-coordinates. Their labelled centers are on either axis according to the sign pair. A rectangle gives an upper objective with curvature at least $2\lambda^2$, from the labelled normal tail terms alone. Its value and first derivative at $u=0.405$ bound the correlated threshold below 0.635. These bounds straddle the nominal simulation ratio of 0.663.
+
+With 192 respondents in each role and 127 slopes, 96 of 100 independent-task fits and 9 of 100 correlated-task fits are finite. All 200 ordinary fits have finite minimizers. Both designs retain the same task marginals. The prediction score is zero on each row at the true coefficient, so the fixed-dimensional covariance calculation in H4 still applies. The release code retains all 400 fits at the two sample sizes and recomputes 32 margins directly from the original probability equations.
+
 ## Appendix I A matched comparison with soft-label fitting
 
 ### I1 The labelled residual
