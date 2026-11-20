@@ -18,5 +18,16 @@
     "matched_derivatives.json": "c7af3f3a1a6474e18358c8436af265019855c8a58336a6bd65fd771d825986f2",
     "results.json": "daf9f18bd986513d086dfceeb6ada74d4c1ef4adc3e2564848697b4dd7e1a01c"
   },
-  "scope": "All grid rows have a computed support status. A positive feasible probability vector or the archived probability program verifies each status. Both detailed follow-ups replayed byte-identically from the extracted archive."
+  "scope": "All grid rows have a computed support status. A positive feasible probability vector or the archived probability program verifies each status. Both detailed follow-ups replayed byte-identically from the extracted archive.",
+  "direct_binary_program_comparison": {
+    "status": "passed",
+    "objective_states_agree": 16128,
+    "summary_agrees_byte_for_byte": true,
+    "crossing_witness_pairs": 19,
+    "ordinary_label_status_also_agrees": true,
+    "direct_fit_states_sha256": "02183ba0eaa5134a10abcdf2158a80402d0f4626410cdc799584c3a4810dc614",
+    "accelerated_fit_states_sha256": "8d6d853138b71b61d5bfa9933f266b12c95d4a063b61e0ac65c4cc5fbf1e0504",
+    "result_summary_sha256": "daf9f18bd986513d086dfceeb6ada74d4c1ef4adc3e2564848697b4dd7e1a01c",
+    "scope": "Same allocation, forecast, correction, menu frequencies and case classification between the direct binary probability program and the accelerated positive-probability representation with binary-program fallback."
+  }
 }
