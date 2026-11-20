@@ -1,6 +1,6 @@
 # When prediction assisted logit estimates exist
 
-This Research Article edition has an 11-page main manuscript and a 92-page supplement. The main text contains 3,903 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
+This Research Article edition has an 11-page main manuscript and a 93-page supplement. The main text contains 3,919 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
 
 [Manuscript](upload/Manuscript.docx) · [Supplementary methods and proofs](upload/Supplementary_Methods_and_Proofs.docx) · [Figure 1](upload/Figures/Figure_1.pdf) · [Cover letter](upload/Cover_letter.docx) · [Highlights](upload/Highlights.docx) · [Title page](upload/Title_page.docx) · [Supplementary file captions](upload/Supplementary_File_Captions.txt)
 
@@ -41,3 +41,6 @@ Section 3.4 and Appendix J verify the diagnostic limitation while holding the en
 
 Appendix J verifies an exact three-state frequency comparison and checks the same mechanism on the public RADIANT menus. A fixed auxiliary forecast for each of 34 menus leaves 70 finite-versus-unbounded pairs at unit weight and none at weight 0.5.
  [Public audit](../../reports/public_common_menu_diagnostics_20261120/README.md)
+
+Appendix J verifies per-allocation correction-weight limits for 384 previously used food allocations. With all auxiliary menus and their forecasts fixed, 12 pairs span a finite fit and an unbounded objective at weight 0.75, with ordinary labelled Logit finite.
+ [Public weight limits](../../reports/public_common_menu_weight_limits_20261120/README.md)

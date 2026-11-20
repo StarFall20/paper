@@ -135,3 +135,7 @@ Cai and Low (2011, Lemma 1) use moment matching and differences in absolute mome
 ## Menu frequencies on released choice tasks
 
 The RADIANT check holds auxiliary menu support, the forecast per auxiliary menu and the labelled estimates of the moments fixed within each group. At unit correction, changes in observed auxiliary frequencies alone account for 70 opposite-state pairs. The half-weight and Swissmetro scope is given in the public audit. [RADIANT archive](https://doi.org/10.5281/zenodo.15420092)
+
+## Additional abstract screening
+
+The current manuscript and supplement were locally checked against 530 abstracts in 12 archive Web of Science exports. No contiguous match of eight or more normalized words was detected. Title blocks, tables, equations and references are excluded. This covers the archived abstracts. Formal full-text similarity screening remains open.

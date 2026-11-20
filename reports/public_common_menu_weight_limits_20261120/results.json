@@ -1,0 +1,4266 @@
+{
+  "status": "passed",
+  "public_workbook_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "plan_sha256": "429a2e7e754e03e18ea29f1f9f38f31e3cb60cdf5d9d5dea3f7507052f982c42",
+  "archived_draws_sha256": "f20c5bfe9b4d8f43881f434245bafd3325bb0912c64345a923be8ee3ae014243",
+  "records": [
+    {
+      "trial": 0,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 0,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 1,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 2,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 2,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 2,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 2,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 2,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 0.8747383245829251,
+      "cap_original": 0.8747383245828747,
+      "direction_recession_endpoints": [
+        0.8747383245829319,
+        -0.12526167541711075
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "outside",
+        "0.95": "outside",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 2,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 0.550779071344148,
+      "cap_original": 0.5507790713441189,
+      "direction_recession_endpoints": [
+        0.5507790713441523,
+        -0.44922092865587615
+      ],
+      "checks": {
+        "0.75": "outside",
+        "0.9": "outside",
+        "0.95": "outside",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 2,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 0.5930329382712801,
+      "cap_original": 0.5930329382712619,
+      "direction_recession_endpoints": [
+        0.593032938271282,
+        -0.40696706172874997
+      ],
+      "checks": {
+        "0.75": "outside",
+        "0.9": "outside",
+        "0.95": "outside",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 2,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 2,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 2,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 2,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 2,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 2,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 2,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 2,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 2,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 0.9837763206556515,
+      "cap_original": 0.9837763206556294,
+      "direction_recession_endpoints": [
+        0.9837763206556511,
+        -0.016223679344356867
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 0.8729538007553556,
+      "cap_original": 0.8729538007553509,
+      "direction_recession_endpoints": [
+        0.8729538007553561,
+        -0.12704619924464655
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "outside",
+        "0.95": "outside",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 3,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 3,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 3,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 3,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 3,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 3,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 3,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 3,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 4,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 5,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 6,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.000000000000064
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -1.4210854715202004e-14,
+        -1.000000000000071
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -3.552713678800501e-14,
+        -1.0000000000000568
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.0000000000001705
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -7.105427357601002e-15,
+        -1.0000000000000924
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -2.842170943040401e-14,
+        -1.0000000000001066
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -1.4210854715202004e-14,
+        -1.000000000000142
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -1.4210854715202004e-14,
+        -1.0000000000000426
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 7,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.9854607638031009,
+      "cap_original": 0.9854607638030782,
+      "direction_recession_endpoints": [
+        0.985460763803097,
+        -0.014539236196903893
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.9905142578094883,
+      "cap_original": 0.9905142578094734,
+      "direction_recession_endpoints": [
+        0.9905142578094877,
+        -0.00948574219051146
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.9180945417436753,
+      "cap_original": 0.9180945417436583,
+      "direction_recession_endpoints": [
+        0.918094541743673,
+        -0.08190545825632789
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 8,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 9,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 10,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 0.8177214602883255,
+      "cap_original": 0.8177214602883088,
+      "direction_recession_endpoints": [
+        0.8177214602883254,
+        -0.1822785397116835
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 0.6796574804320616,
+      "cap_original": 0.6796574804320491,
+      "direction_recession_endpoints": [
+        0.6796574804320628,
+        -0.320342519567939
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 0.8385346024765652,
+      "cap_original": 0.838534602476548,
+      "direction_recession_endpoints": [
+        0.8385346024765692,
+        -0.16146539752343791
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 0.6450859460454061,
+      "cap_original": 0.6450859460453854,
+      "direction_recession_endpoints": [
+        0.6450859460454161,
+        -0.35491405395458386
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 0.6016892826278801,
+      "cap_original": 0.6016892826278682,
+      "direction_recession_endpoints": [
+        0.6016892826278788,
+        -0.39831071737212653
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 0.7934373572936174,
+      "cap_original": 0.7934373572935993,
+      "direction_recession_endpoints": [
+        0.7934373572936391,
+        -0.20656264270636804
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 0.7633842960383395,
+      "cap_original": 0.7633842960383144,
+      "direction_recession_endpoints": [
+        0.7633842960383372,
+        -0.23661570396167342
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 0.5712181908834937,
+      "cap_original": 0.5712181908834856,
+      "direction_recession_endpoints": [
+        0.5712181908834904,
+        -0.42878180911650876
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 0.8390972162729442,
+      "cap_original": 0.8390972162729334,
+      "direction_recession_endpoints": [
+        0.8390972162729478,
+        -0.16090278372705935
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "outside",
+        "0.95": "outside",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 0.9457668243184179,
+      "cap_original": 0.9457668243184095,
+      "direction_recession_endpoints": [
+        0.9457668243184312,
+        -0.05423317568156438
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "outside",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 0.9669155539731058,
+      "cap_original": 0.966915553973095,
+      "direction_recession_endpoints": [
+        0.9669155539731111,
+        -0.03308444602689331
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 0.9387270754731367,
+      "cap_original": 0.9387270754731288,
+      "direction_recession_endpoints": [
+        0.9387270754731407,
+        -0.061272924526863726
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "outside",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 12,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -7.105427357601002e-15,
+        -1.000000000000032
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -3.552713678800501e-15,
+        -1.0000000000000497
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -3.552713678800501e-15,
+        -1.0
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -1.4210854715202004e-14,
+        -1.0000000000000426
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.0000000000000284
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.0000000000000355
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -3.552713678800501e-15,
+        -1.0000000000000604
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -3.552713678800501e-15,
+        -1.0000000000000284
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 12,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 13,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -3.552713678800501e-15,
+        -1.0000000000000107
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        1.7763568394002505e-14,
+        -1.0000000000000142
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.0000000000000107
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        3.907985046680551e-14,
+        -0.9999999999998828
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        3.552713678800501e-15,
+        -1.0000000000000142
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.0000000000000213
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        7.105427357601002e-15,
+        -1.0000000000000036
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        7.105427357601002e-15,
+        -1.0000000000000213
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 14,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 15,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 16,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        5.329070518200751e-15,
+        -1.0000000000000142
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.0
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -3.552713678800501e-15,
+        -1.0000000000000124
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.0000000000000284
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        0.0,
+        -1.000000000000007
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -3.552713678800501e-15,
+        -1.0000000000000107
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -1.7763568394002505e-15,
+        -1.0000000000000053
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": -0.0,
+      "cap_original": -0.0,
+      "direction_recession_endpoints": [
+        -5.329070518200751e-15,
+        -1.0000000000000195
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 0.9579135393561298,
+      "cap_original": 0.9579135393561147,
+      "direction_recession_endpoints": [
+        0.9579135393561291,
+        -0.04208646064388333
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 0.9817067407068933,
+      "cap_original": 0.981706740706875,
+      "direction_recession_endpoints": [
+        0.9817067407068887,
+        -0.0182932592931202
+      ],
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "outside"
+      }
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {
+        "0.75": "interior",
+        "0.9": "interior",
+        "0.95": "interior",
+        "0.99": "interior"
+      }
+    },
+    {
+      "trial": 18,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.9789768000765193,
+      "cap_original": 0.9789768000764782,
+      "direction_recession_endpoints": [
+        0.9789768000765164,
+        -0.02102319992348889
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.8818218165453747,
+      "cap_original": 0.8818218165453682,
+      "direction_recession_endpoints": [
+        0.8818218165453775,
+        -0.11817818345462783
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.6193635422962535,
+      "cap_original": 0.6193635422962276,
+      "direction_recession_endpoints": [
+        0.6193635422962558,
+        -0.38063645770374954
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.8166092251081046,
+      "cap_original": 0.8166092251080457,
+      "direction_recession_endpoints": [
+        0.8166092251080972,
+        -0.18339077489192235
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.6385039622754736,
+      "cap_original": 0.6385039622754483,
+      "direction_recession_endpoints": [
+        0.63850396227547,
+        -0.36149603772453887
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.805024034287424,
+      "cap_original": 0.8050240342873962,
+      "direction_recession_endpoints": [
+        0.8050240342874169,
+        -0.19497596571259201
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.8785281774007179,
+      "cap_original": 0.8785281774006887,
+      "direction_recession_endpoints": [
+        0.8785281774007192,
+        -0.1214718225992879
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 0.9915927672567483,
+      "cap_original": 0.991592767256648,
+      "direction_recession_endpoints": [
+        0.9915927672567584,
+        -0.008407232743302018
+      ],
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 18,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 19,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 20,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 21,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "boundary_or_unresolved",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 22,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 5,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 5,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 5,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 5,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 5,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 5,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 5,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 5,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 10,
+      "draw": 0,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 10,
+      "draw": 1,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 10,
+      "draw": 2,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 10,
+      "draw": 3,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 10,
+      "draw": 4,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 10,
+      "draw": 5,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 10,
+      "draw": 6,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    },
+    {
+      "trial": 23,
+      "label_people": 10,
+      "draw": 7,
+      "ordinary": "interior",
+      "cap": 1.0,
+      "cap_original": 1.0,
+      "direction_recession_endpoints": null,
+      "checks": {}
+    }
+  ],
+  "mixed_groups": [
+    {
+      "trial": 2,
+      "label_people": 5,
+      "ordinary": "interior",
+      "outside_unit": 3,
+      "interior_unit": 5,
+      "opposite_unit": 15,
+      "min_outside_unit_cap": 0.550779071344148,
+      "max_outside_unit_cap": 0.8747383245829251
+    },
+    {
+      "trial": 3,
+      "label_people": 5,
+      "ordinary": "interior",
+      "outside_unit": 2,
+      "interior_unit": 6,
+      "opposite_unit": 12,
+      "min_outside_unit_cap": 0.8729538007553556,
+      "max_outside_unit_cap": 0.9837763206556515
+    },
+    {
+      "trial": 8,
+      "label_people": 5,
+      "ordinary": "boundary_or_unresolved",
+      "outside_unit": 3,
+      "interior_unit": 5,
+      "opposite_unit": 15,
+      "min_outside_unit_cap": 0.9180945417436753,
+      "max_outside_unit_cap": 0.9905142578094883
+    },
+    {
+      "trial": 11,
+      "label_people": 10,
+      "ordinary": "interior",
+      "outside_unit": 4,
+      "interior_unit": 4,
+      "opposite_unit": 16,
+      "min_outside_unit_cap": 0.8390972162729442,
+      "max_outside_unit_cap": 0.9669155539731058
+    },
+    {
+      "trial": 17,
+      "label_people": 10,
+      "ordinary": "interior",
+      "outside_unit": 2,
+      "interior_unit": 6,
+      "opposite_unit": 12,
+      "min_outside_unit_cap": 0.9579135393561298,
+      "max_outside_unit_cap": 0.9817067407068933
+    }
+  ],
+  "summary": {
+    "total_allocations": 384,
+    "unique_label_groups": 48,
+    "mixed_unit_groups": 5,
+    "mixed_unit_groups_ordinary_finite": 4,
+    "unit_pairs_ordinary_finite": 55,
+    "max_compression_error": 1.0025313912365164e-13,
+    "validated_supporting_directions": 62,
+    "full_intervals": [
+      -0.0,
+      1.0
+    ],
+    "direct_state_checks": 128,
+    "opposite_pairs_for_weight": {
+      "0.75": 12,
+      "0.9": 29,
+      "0.95": 37,
+      "0.99": 55
+    }
+  }
+}

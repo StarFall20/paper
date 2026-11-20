@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "authoritative_summary": {
+    "total_allocations": 384,
+    "unique_label_groups": 48,
+    "mixed_unit_groups": 5,
+    "mixed_unit_groups_ordinary_finite": 4,
+    "unit_pairs_ordinary_finite": 55,
+    "max_compression_error": 1.0025313912365164e-13,
+    "validated_supporting_directions": 62,
+    "full_intervals": [
+      -0.0,
+      1.0
+    ],
+    "direct_state_checks": 128,
+    "opposite_pairs_for_weight": {
+      "0.75": 12,
+      "0.9": 29,
+      "0.95": 37,
+      "0.99": 55
+    }
+  },
+  "results_sha256": "95ef89475ffd053a359d3be491569be252aa47359ecbc769131854f66a77bfb5",
+  "source_sha256": {
+    "focused_article.md": "c8e13bdbbcb7899162f0c1ea0942497964d466a57ffecee280b8d3a70efc90d1",
+    "focused_supplement.md": "4e5053687494d8864692e9251aa1c950bd97f8a4dc5d81e48c804d1731028d85"
+  }
+}

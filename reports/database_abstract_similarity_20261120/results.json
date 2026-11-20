@@ -1,0 +1,95 @@
+{
+  "source_exports": [
+    {
+      "name": "Q01_prediction_powered_woscc.txt",
+      "sha256": "7050d89a0c9c9da1fa378fe8f04d4b0d6ecf93c82ab39c5e50172f4a5b9213be",
+      "records": 28,
+      "with_abstract": 27
+    },
+    {
+      "name": "Q02_corrected_logit_existence_woscc.txt",
+      "sha256": "5d2670b952547305721830660a3f41f9c757efd3afa68e3da5bcff72d05ebf38",
+      "records": 7,
+      "with_abstract": 7
+    },
+    {
+      "name": "Q03_M_estimator_phase_woscc.txt",
+      "sha256": "6c008a6f192d1aacf7a7e0d293545d78555558f0d6f688c61c06949bf9f55f4d",
+      "records": 50,
+      "with_abstract": 50
+    },
+    {
+      "name": "Q04_negative_risk_woscc.txt",
+      "sha256": "f6488c59ede0cfb7aeaa3da76567ba187593bcac360e396e3c610778fb5c93bf",
+      "records": 54,
+      "with_abstract": 54
+    },
+    {
+      "name": "Q05_JCM_2021_2026_woscc.txt",
+      "sha256": "4fc700ed8e6ec0f646e396696fe2d6fb6705714995ec1a74285ea5a810b88308",
+      "records": 128,
+      "with_abstract": 128
+    },
+    {
+      "name": "Q06_corrected_negative_risk_woscc.txt",
+      "sha256": "45637a371e7ce8e4318021746a0d5a7fcb6d958fcb7de54591fe827d167aa902",
+      "records": 28,
+      "with_abstract": 28
+    },
+    {
+      "name": "Q07_prediction_optimization_woscc.txt",
+      "sha256": "7e316126d50d129b2d7c9cfedbd44f6c1a8951f4811f9bfc56b7a602261a3c32",
+      "records": 41,
+      "with_abstract": 41
+    },
+    {
+      "name": "Q08_PPI_Science_citing_woscc.txt",
+      "sha256": "780bb6fdb00196003ed64be187628d16435370ffb7ee3c9cafd68a0bf54ad0c5",
+      "records": 82,
+      "with_abstract": 81
+    },
+    {
+      "name": "Q09_prediction_powered_preprints.txt",
+      "sha256": "b36c04ce3cfbef743c34ef0014b9af92673493450451cc2e0b02772da7f42ebd",
+      "records": 119,
+      "with_abstract": 119
+    },
+    {
+      "name": "savedrecs (10).txt",
+      "sha256": "039c818efb466000b2c19dcfebf040bc8bb6c7df0f880e044668729bb27591b0",
+      "records": 15,
+      "with_abstract": 15
+    },
+    {
+      "name": "savedrecs (11).txt",
+      "sha256": "e41d448c05997d7193373b96c620e194c43380ace834e71f134908f02a309bda",
+      "records": 33,
+      "with_abstract": 33
+    },
+    {
+      "name": "savedrecs (12).txt",
+      "sha256": "e086716e19d04eed6e183ed37b346f988f55b6eeeb496c1e7210bb837110328c",
+      "records": 23,
+      "with_abstract": 22
+    }
+  ],
+  "unique_records": 532,
+  "unique_records_with_abstract": 530,
+  "distinct_source_abstracts": 530,
+  "min_match_words": 8,
+  "scope": "Locally archived abstract texts in 12 Web of Science exports, matched to prose. Excludes reference lists, equations, headings and tables. The screen records contiguous matches of normalized tokens of length eight or more. No third-party manuscript upload.",
+  "checked_drafts": [
+    {
+      "draft": "manuscript.md",
+      "sha256": "c8e13bdbbcb7899162f0c1ea0942497964d466a57ffecee280b8d3a70efc90d1",
+      "match_length_distribution": {},
+      "matches": []
+    },
+    {
+      "draft": "supplement.md",
+      "sha256": "4e5053687494d8864692e9251aa1c950bd97f8a4dc5d81e48c804d1731028d85",
+      "match_length_distribution": {},
+      "matches": []
+    }
+  ]
+}

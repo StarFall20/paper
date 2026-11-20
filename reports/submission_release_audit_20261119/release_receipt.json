@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "6938d6eaf1a8054d99ca42f8f48cdddfbd40776846437621eff9123dc4e5cc0e",
-  "prior_manifest_sha256": "a90197fcd895ceca798632b35243c172e51c568cad10f683a10c6eeb17b7ead2",
-  "prior_receipt_sha256": "db025f801cbee73351c9d11f76bbb7d4f8dc13e5b2253daa3a123b13d07f1098",
+  "archive_manifest_sha256": "a190c671bf499ad362b45aa8af576f6d4e6ac867cfdcb5822bf60c27a4e07c1e",
+  "prior_manifest_sha256": "6938d6eaf1a8054d99ca42f8f48cdddfbd40776846437621eff9123dc4e5cc0e",
+  "prior_receipt_sha256": "775ddee5a8a6210eeeb32f70ddeace8ac31cca7941ff3b2d64d3f497d690e398",
   "python": "3.12.14",
   "package_versions": {
     "numpy": "2.5.3",
@@ -117,6 +117,10 @@
       "status": "passed",
       "provenance": "prior successful replay and identical scientific inputs"
     },
+    "public_common_menu_diagnostics": {
+      "status": "passed",
+      "provenance": "prior successful replay and identical scientific inputs"
+    },
     "inventory": {
       "status": "passed",
       "provenance": "fresh verification from extracted archive"
@@ -125,7 +129,7 @@
       "status": "passed",
       "provenance": "fresh verification from extracted archive"
     },
-    "public_common_menu_diagnostics": {
+    "public_common_menu_weight_limits": {
       "status": "passed",
       "provenance": "fresh verification from extracted archive"
     }
@@ -133,19 +137,36 @@
   "fresh_checks": [
     "headline",
     "inventory",
-    "public_common_menu_diagnostics"
+    "public_common_menu_weight_limits"
   ],
-  "prior_checks_preserved": 18,
-  "previous_payloads_byte_identical": 1311,
+  "prior_checks_preserved": 19,
+  "previous_payloads_byte_identical": 1315,
   "current_result": {
     "status": "passed",
-    "checked_configurations": 768,
-    "unit_weight_opposite_pairs": 70,
-    "half_weight_opposite_pairs": 0,
-    "reports_sha256": "f20c5bfe9b4d8f43881f434245bafd3325bb0912c64345a923be8ee3ae014243",
+    "authoritative_summary": {
+      "total_allocations": 384,
+      "unique_label_groups": 48,
+      "mixed_unit_groups": 5,
+      "mixed_unit_groups_ordinary_finite": 4,
+      "unit_pairs_ordinary_finite": 55,
+      "max_compression_error": 1.0025313912365164e-13,
+      "validated_supporting_directions": 62,
+      "full_intervals": [
+        -0.0,
+        1.0
+      ],
+      "direct_state_checks": 128,
+      "opposite_pairs_for_weight": {
+        "0.75": 12,
+        "0.9": 29,
+        "0.95": 37,
+        "0.99": 55
+      }
+    },
+    "results_sha256": "95ef89475ffd053a359d3be491569be252aa47359ecbc769131854f66a77bfb5",
     "source_sha256": {
-      "focused_article.md": "4c937cd1ea48945ecce43d037be419ab539aa111f726f193af81aa1cb867d9de",
-      "focused_supplement.md": "cc23838e11360abc674d71593c917c10f688a6bff0167d2e9deb16984c0677a2"
+      "focused_article.md": "c8e13bdbbcb7899162f0c1ea0942497964d466a57ffecee280b8d3a70efc90d1",
+      "focused_supplement.md": "4e5053687494d8864692e9251aa1c950bd97f8a4dc5d81e48c804d1731028d85"
     }
   },
   "scope": "Three fresh checks from the extraction. Earlier scientific inputs and results are unchanged."

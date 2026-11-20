@@ -1,0 +1,8 @@
+{
+  "reference": "Appendix J food experiment with one frozen prediction vector per auxiliary menu",
+  "allocations": "All 384 existing RADIANT draws from 48 fixed label groups",
+  "controls": "Keep the labelled sample, labelled prediction moments, 34 distinct auxiliary menus, forecast probabilities per auxiliary menu and auxiliary task count fixed within each label group",
+  "defining_program": "Maximize the original correction weight over the linear choice-probability-mass constraints with affine menu totals and feature moments",
+  "verification": "Compare compressed and original rows for every maximum. For uncapped maxima compute a supporting direction from the compressed optimum and evaluate its recession on the original rows. Reproduce ordinary Logit status for every label group. Directly verify the positive and exterior states of witnessed opposite pairs at weights 0.75, 0.90, 0.95 and 0.99.",
+  "interpretation_scope": "Descriptive repeated allocations from fixed public data. No population or sampling conclusion."
+}

@@ -38,3 +38,5 @@ Appendix I4 compares the half-limit correction, fixed multipliers and all-soft c
 Section 3.4 and Appendix J verify the diagnostic limitation while holding the entire discrete profile support and all sample sizes fixed. Changing only the auxiliary frequencies at weight 0.5 produces all three existence outcomes at identical local derivatives through order five.
 
 Appendix J verifies an exact three-state frequency comparison and checks the same mechanism on the public RADIANT menus. A fixed auxiliary forecast for each of 34 menus leaves 70 finite-versus-unbounded pairs at unit weight and none at weight 0.5.
+
+Appendix J verifies per-allocation correction-weight limits for 384 previously used food allocations. With all auxiliary menus and their forecasts fixed, 12 pairs span a finite fit and an unbounded objective at weight 0.75, with ordinary labelled Logit finite.
