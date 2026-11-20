@@ -44,6 +44,8 @@ To implement the check, use masses $q_{ij}=w_ip_{ij}$. A linear program imposes 
 
 Because $w_i$ and $b_\lambda$ are affine in $\lambda$, a second linear program maximizes feasible weight directly. Its maximum $c$ is an upper bound on weights yielding a finite estimate. Zero is feasible through the human choice masses, even when ordinary logit is separated. When $0<c\leq1$ and the midpoint has a strictly positive representation with full active rank, interpolating this representation with the two endpoint representations certifies all weights strictly between zero and $c$. Test unit weight separately when $c=1$. Supplementary Appendix C gives the programs, numerical qualifications and weight rules used in the applications.
 
+ChatGPT and Codex assisted with writing and revising the Python scripts for the probability-mass programs, the simulations and the checks of empirical results. The reproduction archive records input versions, seeds and package versions. It verifies exact constructions with rational arithmetic and checks empirical classifications using the original menu probabilities and separating directions.
+
 ## 3 Population boundaries and the limits of local diagnostics
 
 ### 3.1 Binary choices with a finite auxiliary ratio

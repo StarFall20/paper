@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "archive_manifest_sha256": "ad9d56c83c11a00ff2f2804f1963dccf67f3a0c496f148aea7fb0f8cee7bfb88",
+  "python": "3.12.14",
+  "package_versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.7.0",
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1",
+    "openpyxl": "3.1.5"
+  },
+  "checks": {
+    "inventory": {
+      "status": "passed",
+      "log": "inventory.log"
+    },
+    "oracle_common_menu": {
+      "status": "passed",
+      "log": "oracle_common_menu.log"
+    },
+    "headline": {
+      "status": "passed",
+      "log": "headline.log"
+    },
+    "mathematics": {
+      "status": "passed",
+      "log": "mathematics.log"
+    },
+    "exact_designs": {
+      "status": "passed",
+      "log": "exact_designs.log"
+    },
+    "common_newton_point": {
+      "status": "passed",
+      "log": "common_newton_point.log"
+    },
+    "hessian_power_bounds": {
+      "status": "passed",
+      "log": "hessian_power_bounds.log"
+    },
+    "unit_endpoint": {
+      "status": "passed",
+      "log": "unit_endpoint.log"
+    },
+    "unit_archive": {
+      "status": "passed",
+      "log": "unit_archive.log"
+    },
+    "author_ppi_branch": {
+      "status": "passed",
+      "log": "author_ppi_branch.log"
+    },
+    "paired_task_integral": {
+      "status": "passed",
+      "log": "paired_task_integral.log"
+    },
+    "paired_task_states": {
+      "status": "passed",
+      "log": "paired_task_states.log"
+    },
+    "discrete_frequency_diagnostics": {
+      "status": "passed",
+      "log": "discrete_frequency_diagnostics.log"
+    },
+    "paired_interior_power": {
+      "status": "passed",
+      "log": "paired_interior_power.log"
+    },
+    "public_vaccine_menu_frequency_counts": {
+      "status": "passed",
+      "log": "public_vaccine_menu_frequency_counts.log"
+    },
+    "jeffreys_penalty_recession": {
+      "status": "passed",
+      "log": "jeffreys_penalty_recession.log"
+    },
+    "matched_all_soft_choice": {
+      "status": "passed",
+      "log": "matched_all_soft_choice.log"
+    },
+    "public_residual_margin": {
+      "status": "passed",
+      "log": "public_residual_margin.log"
+    },
+    "public_common_menu_weight_limits": {
+      "status": "passed",
+      "log": "public_common_menu_weight_limits.log"
+    },
+    "public_common_menu_shared_predictor": {
+      "status": "passed",
+      "log": "public_common_menu_shared_predictor.log"
+    },
+    "food_panel": {
+      "status": "passed",
+      "log": "food_panel.log"
+    },
+    "food_path": {
+      "status": "passed",
+      "log": "food_path.log"
+    },
+    "swissmetro_path": {
+      "status": "passed",
+      "log": "swissmetro_path.log"
+    },
+    "swissmetro_budget": {
+      "status": "passed",
+      "log": "swissmetro_budget.log"
+    },
+    "public_common_menu_diagnostics": {
+      "status": "passed",
+      "log": "public_common_menu_diagnostics.log"
+    },
+    "matched_auxiliary_diagnostics": {
+      "status": "passed",
+      "log": "matched_auxiliary_diagnostics.log"
+    }
+  },
+  "public_inputs": {
+    "food": {
+      "file": "COSCBB.xlsx",
+      "sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0"
+    },
+    "swissmetro": {
+      "file": "swissmetro_label_budget_input_20261119.dat",
+      "sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
+    },
+    "gai": {
+      "file": "source_manifest.json",
+      "sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e"
+    }
+  },
+  "optional_sources_not_supplied": []
+}

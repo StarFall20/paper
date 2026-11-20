@@ -1,6 +1,6 @@
 {
-  "status": "passed",
-  "entries": 1329,
-  "manifest_sha256": "e79e93b4d9d6e6cb21a97d2899a2788a3c4777ef7f01dc79cbf63b28f961f504",
-  "sha256": "c9f47d533ed24b52048fe12d57090a42cd9b490ca18bcc8cb820c770e73c735c"
+  "manifest_sha256": "ad9d56c83c11a00ff2f2804f1963dccf67f3a0c496f148aea7fb0f8cee7bfb88",
+  "prior_manifest_sha256": "e5da9b9d160b1d1707fba07c6faee058e5fa4b05de91d8f8e770e52bffd273ff",
+  "entries": 1352,
+  "sha256": "d24f5d0b1a74e394ebce598702c34a2d7d5c3ad1f95b66724b681bd5f7c313f1"
 }

@@ -2,7 +2,9 @@
   "manuscript": {
     "pages": 11,
     "directly_reviewed_pages": [
-      1,
+      3,
+      4,
+      5,
       6,
       7,
       8,
@@ -11,22 +13,16 @@
       11
     ],
     "inherited_pixel_identical_pages": [
-      2,
-      3,
-      4,
-      5
+      1,
+      2
     ],
-    "body_identical_with_renumbered_footer": {},
-    "sha256": "226e14326079bbc00eefc623bc2da8f8e1b8af31be8ee43ba9f15884a8fe5034",
+    "body_identical_with_renumbered_footer": [],
+    "sha256": "a10cb29e96ec63e42aca118c0f8be5acf7f8b86593fe2ce4c210ed64b571230f",
     "page_numbering_verified": true
   },
   "supplement": {
     "pages": 97,
-    "directly_reviewed_pages": [
-      88,
-      89,
-      90
-    ],
+    "directly_reviewed_pages": [],
     "inherited_pixel_identical_pages": [
       1,
       2,
@@ -114,17 +110,19 @@
       84,
       85,
       86,
-      87
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
     ],
-    "body_identical_with_renumbered_footer": {
-      "91": 90,
-      "92": 91,
-      "93": 92,
-      "94": 93,
-      "95": 94,
-      "96": 95,
-      "97": 96
-    },
+    "body_identical_with_renumbered_footer": [],
     "sha256": "ebabe28f67132c65d3f5037cbe3d9a1e224375aacff0cd166d35901bfd5e0204",
     "page_numbering_verified": true
   }
