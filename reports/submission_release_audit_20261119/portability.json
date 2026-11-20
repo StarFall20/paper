@@ -1,129 +1,40 @@
 {
-  "state": "passed",
+  "status": "passed",
   "python": "3.12.14",
   "platform": "Darwin",
   "architecture": "arm64",
-  "package_index": "https://pypi.org/simple",
+  "package_versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.7.0",
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1",
+    "openpyxl": "3.1.5"
+  },
   "dependency_check": "No broken requirements found.",
-  "isolated_environment": true,
-  "requirements_sha256": "cedc6129c48ca40016b50bc2a74dfd3b59c5b332a1ac1b9e48bd39a787930ce6",
-  "package_versions": [
-    {
-      "name": "cloudpickle",
-      "version": "3.1.3"
-    },
-    {
-      "name": "contourpy",
-      "version": "1.4.0"
-    },
-    {
-      "name": "cycler",
-      "version": "0.12.1"
-    },
-    {
-      "name": "et_xmlfile",
-      "version": "2.0.0"
-    },
-    {
-      "name": "fonttools",
-      "version": "4.68.0"
-    },
-    {
-      "name": "joblib",
-      "version": "1.6.0"
-    },
-    {
-      "name": "kiwisolver",
-      "version": "1.5.1"
-    },
-    {
-      "name": "lxml",
-      "version": "6.1.1"
-    },
-    {
-      "name": "matplotlib",
-      "version": "3.11.2"
-    },
-    {
-      "name": "narwhals",
-      "version": "2.29.0"
-    },
-    {
-      "name": "numpy",
-      "version": "2.5.3"
-    },
-    {
-      "name": "openpyxl",
-      "version": "3.1.5"
-    },
-    {
-      "name": "packaging",
-      "version": "26.3"
-    },
-    {
-      "name": "pandas",
-      "version": "2.2.3"
-    },
-    {
-      "name": "pillow",
-      "version": "13.0.0"
-    },
-    {
-      "name": "pip",
-      "version": "25.0.1"
-    },
-    {
-      "name": "pyparsing",
-      "version": "3.3.3"
-    },
-    {
-      "name": "python-dateutil",
-      "version": "4.0.0"
-    },
-    {
-      "name": "python-docx",
-      "version": "1.2.0"
-    },
-    {
-      "name": "pytz",
-      "version": "2026.6"
-    },
-    {
-      "name": "scikit-learn",
-      "version": "1.9.1"
-    },
-    {
-      "name": "scipy",
-      "version": "1.18.1"
-    },
-    {
-      "name": "threadpoolctl",
-      "version": "3.7.0"
-    },
-    {
-      "name": "typing_extensions",
-      "version": "4.16.0"
-    },
-    {
-      "name": "tzdata",
-      "version": "2026.6"
-    }
-  ],
-  "release_manifest_sha256": "19826108f140d0f37314f33ce8fc19458c7cfee4747a0e80f5a40fd16444727c",
-  "release_checks_passed": 16,
-  "identical_result_reports": [
-    "headline.json",
-    "mathematics/quick_check.json",
-    "exact_designs.json",
-    "common_newton_point.json",
-    "hessian_power_bounds.json",
-    "unit_endpoint.json",
-    "unit_archive.json",
-    "food_panel/verification.json",
-    "food_path/verification.json",
-    "swissmetro_path.json",
-    "swissmetro_budget.json",
-    "matched_auxiliary_diagnostics/summary.json"
+  "isolated_environment_reused": true,
+  "previous_environment_receipt_sha256": "4d8143c2a1656fa2fcb4fef6d56a5fb0f5094063cd84007cd38dc780a6a3546a",
+  "release_checks": [
+    "author_ppi_branch",
+    "common_newton_point",
+    "exact_designs",
+    "food_panel",
+    "food_path",
+    "headline",
+    "hessian_power_bounds",
+    "inventory",
+    "matched_all_soft_choice",
+    "matched_auxiliary_diagnostics",
+    "mathematics",
+    "paired_task_integral",
+    "paired_task_states",
+    "swissmetro_budget",
+    "swissmetro_path",
+    "unit_archive",
+    "unit_endpoint"
   ],
   "public_inputs": {
     "food": {
@@ -133,24 +44,11 @@
     "swissmetro": {
       "file": "swissmetro_label_budget_input_20261119.dat",
       "sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
+    },
+    "gai": {
+      "file": "source_manifest.json",
+      "sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e"
     }
   },
-  "independently_reconstructed_new_report": "matched_auxiliary_diagnostics/summary.json",
-  "authors_branch_stored_call_records_verified": 136,
-  "authors_branch_separate_runtime_git_commit": "363265dd97919b47e185b9a0b069dcf5463e79d4",
-  "calculation_archive_sha256": "38e6b05cfe9f5e53887379591c90b99b78d1519444ce829adcaf5f6585a9609a",
-  "same_prior_result_reports": [
-    "headline.json",
-    "mathematics/quick_check.json",
-    "exact_designs.json",
-    "common_newton_point.json",
-    "hessian_power_bounds.json",
-    "unit_endpoint.json",
-    "unit_archive.json",
-    "food_panel/verification.json",
-    "food_path/verification.json",
-    "swissmetro_path.json",
-    "swissmetro_budget.json",
-    "matched_auxiliary_diagnostics/summary.json"
-  ]
+  "final_archive_manifest_sha256": "82308b8a4947c52ba5a211be4fe182844a5ae29e1b42b63082b9b781a0224e2b"
 }

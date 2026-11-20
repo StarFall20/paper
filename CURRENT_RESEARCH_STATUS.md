@@ -1,6 +1,6 @@
-# JCM 投稿版与机构数据库复查
+# JCM 投稿稿与同条件估计对照
 
-[投稿稿件](submission/jocm_focused_20261119/README.md)正文 10 页，补充材料 88 页。[两题临界值](reports/paired_choice_boundary_20261120/README.md)提供相同的普通存在性概率、分开的校正临界值和 2280 个独立复核。[检索报告](reports/database_originality_audit_20261120/README.md)记录核心合集 8 组机构检索、71 条导出记录与数据库间的交叉检查。复现 16 项通过。订阅版 Scopus 和 PPI++ 正式附件仍待核对。
+[投稿稿件](submission/jocm_focused_20261119/README.md)正文 11 页，附录 90 页。正文 4.4 和附录 I 给出[同条件对照](reports/aae_comparator_audit_20261120/README.md)。解压后重跑 8,000 个配置并核对与附录的结果一致，投稿复现包的 17 项检查均通过。最有把握的原创结果是[重复题目条件下的有限解临界值](reports/paired_choice_boundary_20261120/README.md)。订阅版 Scopus 和 PPI++ 正式附件仍待核对。
 
 # 菜单频率与菜单内预测差异的实证核查
 

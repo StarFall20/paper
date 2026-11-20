@@ -1,22 +1,7 @@
 {
-  "entries": 1274,
-  "archive_sha256": "3574af533b114f26369d0791bdef1d319b4bbded830b3d074dd7bbf146f79a6c",
-  "prior_scientific_inputs_retained": 1209,
-  "raw_participant_input_distributed": false,
-  "all_file_hashes_checked": true,
-  "file_manifest_sha256": "19826108f140d0f37314f33ce8fc19458c7cfee4747a0e80f5a40fd16444727c",
-  "full_release_checks_passed": 16,
-  "final_edition_binding": {
-    "identical_items_except_four_editorial_files": 1269,
-    "changed_content": [
-      "focused_article.md",
-      "focused_supplement.md",
-      "results/paired_choice_boundary/README.md",
-      "results/paired_choice_boundary/proof.md"
-    ],
-    "first_replay_manifest_sha256": "38e6b05cfe9f5e53887379591c90b99b78d1519444ce829adcaf5f6585a9609a",
-    "final_edition_manifest_sha256": "19826108f140d0f37314f33ce8fc19458c7cfee4747a0e80f5a40fd16444727c",
-    "inventory_and_headline_completed_on_final_edition": true,
-    "appendix_h_claims_checked_against_saved_outputs": true
-  }
+  "entries": 1286,
+  "status": "passed",
+  "manifest_sha256": "82308b8a4947c52ba5a211be4fe182844a5ae29e1b42b63082b9b781a0224e2b",
+  "sha256": "f5c8f4f1964f517833d1c0e59a09f75e6fbbb2a62a756024a10042d54d325e02",
+  "verified_after_editorial_binding": true
 }

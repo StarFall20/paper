@@ -1,23 +1,25 @@
 {
-  "changed_pages_inspected": {
+  "changed_pages_visually_reviewed": {
     "main": [
-      4,
-      10
+      2,
+      8,
+      9,
+      10,
+      11
     ],
     "supplement": [
-      81,
-      82,
-      83,
       84,
       85,
       86,
       87,
-      88
+      88,
+      89,
+      90
     ]
   },
-  "prior_render_pages_exact_body_matches": {
-    "main": 8,
-    "supplement": 80
+  "same_pixels_as_previously_reviewed_page_counts": {
+    "main": 6,
+    "supplement": 83
   },
   "all_rendered_footer_page_numbers_checked": true
 }

@@ -115,3 +115,8 @@ Appendix H gives the correlated two-task benchmark, the exact ordinary-logit com
 The exact text screen compared 14 named primary PDFs, covering 611 pages. No contiguous matching passage of ten or more words was detected under the recorded extraction rules.
 
 See the November 20 author review report for explicit scope and result-level comparisons.
+
+
+The latest check of the formal [PPI++ main page](https://doi.org/10.1214/26-AOAS2215) returned a publisher iframe. Both formal supplement links remained inaccessible. The author-hosted [efficiency companion note](https://web.stanford.edu/~jduchi/projects/AngelopoulosDuZr23w.pdf) covers the conditional-score asymptotic variance and the common-distribution post-training estimand. The note supplies no proof of a finite minimizer for the realized corrected choice objective.
+
+The matched comparison uses both all-soft second-stage objectives of Wang et al., with common cross-fitted probabilities. Equation (I.1) identifies the overlap at a zero labelled feature residual. The finite-menu boundary, high-dimensional threshold and repeated-task contrast remain the main contribution. The final wording was screened for contiguous overlaps of ten lexical words against 14 source PDFs. Scopus subscription access and full-text similarity coverage remain open.

@@ -1856,6 +1856,43 @@ Table H1  Finite unit correction fits in paired cohorts
 
 At 192 respondents, 182 pairs switch from a finite to an exterior target at correlation 0.99. The reverse count is zero. All 1800 ordinary fits in this comparison are interior. The additional ratios 0.42 and 0.75 check the lower and upper sides. Independent linear programming in the original probability variables verifies all 2280 corrected cases with a maximum margin discrepancy below $3.5\times10^{-11}$. The benchmark uses a fixed unit weight and a calibrated constant predictor, which contributes no variance reduction. It isolates the effect of correlated attributes on existence. Frequencies are conditional on this simulation design.
 
+## Appendix I A matched comparison with soft-label fitting
+
+### I1 The labelled residual
+
+Wang et al. (2026, equation 3) estimate human choice probabilities and use them as the labels in a second-stage choice loss on the auxiliary menus. Section 5.3 pools the labelled and auxiliary menus in that stage. Write $M_S(g)$ for the mean feature moment on menu set $S$ under forecast $g$. Let $\Delta=M_L(Y)-M_L(g)$. Subtracting $L_L(\beta,g)$ from $L_L(\beta,Y)$ cancels the log partition function in equation (1), so
+
+$$Q_\lambda(\beta)=(1-\lambda)L_L(\beta,g)+\lambda L_U(\beta,g)-\Delta^T\beta. \qquad (I.1)$$
+
+At unit weight the first two terms form the auxiliary-only all-soft loss. At $\lambda=N/(m+N)$ they give the equally weighted all-soft loss on the pooled menus. On those pooled menus, retaining observed outcomes for the labelled rows subtracts $m\Delta^T\beta/(m+N)$ from the all-soft loss. The three pooled criteria share the same log partition function and use residual multipliers $0$, $m/(m+N)$ and $1$.
+
+At matched menu weights, $\Delta=0$ gives equality of the all-soft and fully corrected objectives. A common finite optimizer also implies $\Delta=0$ because the two gradients differ by this constant. When a finite first-stage Logit is fitted without a penalty on the same labelled choices and includes the focal contrast directions, its score equations imply $\Delta=0$. Regularized or out-of-fold forecasts generally need a separate check. This identity is conditional on the forecast probabilities. The same-sample refit does not establish valid inference from reused labels. Van der Laan and van der Laan (2026, Section 3.1) establish a related mean calibration identity. Lee and Kim (2026, Section 4) give a population conditional-score efficiency result.
+
+### I2 The residual limit on fixed menus
+
+Fix either auxiliary or pooled menu weights. Write $K$ for the feasible moment set in (3) at these weights and $b_0$ for the all-soft target. If all forecast probabilities are strictly positive and the positive-weight contrasts span the coefficient space, then $b_0$ lies in the interior of $K$. For a nonzero $\Delta$, the last feasible multiplier $a_*$ along $b_0+a\Delta$ satisfies
+
+$$a_* = \min_{d:\Delta^Td=1} \{ h_K(d) - b_0^Td \}, \qquad h_K(d)=\sum_iw_i\max_{j\in A_i} x_{ij}^Td. \qquad (I.2)$$
+
+The representation follows from the supporting half-spaces of $K$. Directions with $\Delta^Td\leq0$ impose no upper limit on $a\geq0$. A supporting direction at the last feasible point has positive inner product with $\Delta$ because $b_0$ is interior. Normalizing that direction gives (I.2). The target is interior for $0\leq a<a_*$ and on the boundary at $a_*$. Above $a_*$ the supporting direction in (I.2) gives recession slope $a_*-a$ for the corrected objective. The limit holds the menus and the prediction array fixed.
+
+### I3 Public choice records
+
+The public archive of Lu et al. (2026) has 1200 rows with stored AI predictions and a subsequent 3405 human choices reserved for evaluation. We use the existing 500 five-row-block allocations at each of the 50- and 150-label budgets. One prediction routine uses attributes and stored AI responses. The attribute-only control omits AI responses. Both use the same cross-fitted probabilities within each set of matched losses. This follows the second-stage equations of Wang et al. (2026) with a common first stage and the fixed public archive. Their own first-stage learner, budget design and coefficient error metric define a separate empirical comparison.
+
+Table I1  Mean holdout log loss and finite fits on matched menus
+
+| Labels | Predictor inputs | Auxiliary soft | Pooled soft | Human plus soft | Full correction | Finite full fits |
+| --- | --- | --- | --- | --- | --- | --- |
+| 50 | Attributes and AI | 0.68686 | 0.68681 | 0.68638 | 0.88173 | 495/500 |
+| 50 | Attributes | 0.68810 | 0.68805 | 0.68790 | 0.86893 | 498/500 |
+| 150 | Attributes and AI | 0.67857 | 0.67856 | 0.67724 | 0.69727 | 500/500 |
+| 150 | Attributes | 0.68122 | 0.68122 | 0.68035 | 0.69653 | 500/500 |
+
+Means in Table I1 use available finite fits. All three soft-label fits are finite in every allocation. Restricting each comparison to its common finite fits, the full correction increases mean loss relative to pooled all-soft by 0.19477 and 0.18081 at 50 labels, and by 0.01871 and 0.01531 at 150 labels, for AI and attribute-only predictions, respectively. The shares describe allocations on the same fixed archive and the same evaluation records.
+
+All eight previously identified exterior unit-weight fits have auxiliary-menu limits below one. Adding the labelled menus while retaining the same residual moves one of the eight limits to 1.0069. The other seven stay below one. The dual directions certify a negative recession slope at full correction in all seven. Across 16 prespecified diagnostic cases, the unpenalized first-stage refit attains a maximum absolute labelled residual below $1.1\times10^{-16}$. The all-soft and corrected coefficients agree to within $1.5\times10^{-14}$. The reproduction code checks the original scores at all 7993 finite fits. The archive records the fit statuses, primal residuals and supporting directions for the 32 audited limits.
+
 ## Data availability
 
 Section 4 identifies the public vaccine repository, the RADIANT food DCE (Chen et al., 2025, https://doi.org/10.5281/zenodo.15420092) and the Swissmetro data distributed by Biogeme (Bierlaire et al., 2001, https://github.com/michelbierlaire/biogeme/blob/master/src/biogeme/data/data/swissmetro.dat). The reproduction package provides pinned source hashes, download instructions, code and derived results. Raw respondent records are downloaded separately. Reported estimates use these released choices and simulations; the author's separate private questionnaire supplies no observations to this paper.

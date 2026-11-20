@@ -14,7 +14,7 @@ Consider a food choice experiment with ten labelled respondents. In 21 of 500 la
 
 Classical separation and convex support characterize ordinary likelihood existence (Albert and Anderson, 1984; Geyer, 2009; Correia et al., 2026). Prediction-powered inference provides the corrected loss, fixed-dimensional regular inference and variance-oriented tuning (Angelopoulos et al., 2026). Recent analyses establish conditional logistic risk improvements given a finite pilot and document quasi-separation in prediction-assisted Bradley–Terry estimation (Chen et al., 2026; Vadlamani et al., 2026). We characterize when the corrected choice objective attains a finite optimum and derive the critical parameter-to-label ratio with a finite auxiliary sample ratio. A fixed-design construction shows that even exact agreement in finitely many derivatives cannot replace the global check.
 
-We use released food, transport and third-party prediction archives to examine when the distinction affects choice forecasts. The empirical comparisons are at fixed respondent splits and utility specifications. They track whether an estimate exists and how well it predicts observed choices on a separate group. The accompanying Supplementary Methods and Proofs contains the complete derivations, additional simulations and sensitivity analyses. The Reproduction Materials give the corresponding code, public source identifiers and saved results.
+We use released food, transport and third-party prediction archives to examine when the distinction affects choice forecasts. The empirical comparisons fix the utility specification and hold out human choices for evaluation. Food and transport splits keep each respondent's tasks together. The third-party prediction archive permits a matched comparison of the fitted objectives. The accompanying Supplementary Methods and Proofs contains the complete derivations, additional simulations and sensitivity analyses. The Reproduction Materials give the corresponding code, public source identifiers and saved results.
 
 ## 2 Finite estimation on observed choice menus
 
@@ -160,6 +160,12 @@ Table 3  Finite fits using released language model predictions
 
 At 15 respondents, exact frequency matching leaves all five exterior targets and adds one. Giving the two roles the same predicted moment within shared menus makes all five original exterior targets interior. At five respondents it restores 43 originally exterior fits and makes 16 originally finite fits exterior. In the 15-person comparisons, both interventions have higher mean held-out loss than direct ridge on the same correction labels. With the shared ridge fallback, the mean differences are 0.0640 and 0.0827. The results support checking both the menu frequencies and the predictions within a menu. They use repeated partitions of one released study.
 
+### 4.4 A matched comparison with soft-label choice estimation
+
+Wang et al. (2026) fit choice coefficients to estimated human choice probabilities. We implement their auxiliary-only and pooled second-stage losses on the same public binary choice records used by Lu et al. (2026). We fix the predicted probabilities for every comparison. On the same pooled menus, the all-soft and fully corrected losses share a log partition function. The correction changes only the linear term through the labelled residual feature moment. The losses agree when that moment is zero.
+
+At a budget of 50 human choice records, the pooled all-soft loss has a finite estimate in all 500 allocations with AI-based predictions. Full correction on the same menus is unbounded below in five. Across the 495 common finite fits, full correction raises average log loss by 0.19477 on the same 3405 held-out human choices. At 150 labels, both methods have 500 finite fits and the paired difference is 0.01871. Supplementary Appendix I reports the attribute-only prediction control, the finite-sample identity and the residual limit for each audited case. The archive lacks respondent identifiers. These are within-archive comparisons with a common holdout.
+
 ## 5 Discussion
 
 The corrected moment and the active menus determine whether the estimation problem has a finite solution. A favourable variance calculation or a converged local update supplies different information. For known labelled choices and available auxiliary menus, (3) gives a finite-design check. Reporting the active contrast rank, the chosen weight and its distance from any positive limit makes the fitted choice model easier to interpret. When outcomes are scarce, the label budget includes any human choices used to train or prompt the predictor. A direct fit using those choices is an appropriate comparator when they can enter the target likelihood.
@@ -207,6 +213,8 @@ Correia, S., Guimarães, P., Zylkin, T. (2026). Verifying the existence of maxim
 Geyer, C.J. (2009). Likelihood inference in exponential families and directions of recession. Electronic Journal of Statistics 3, 259–289. https://www.stat.umn.edu/geyer/gdor/
 
 Koriyama, T., Bellec, P.C. (2025). Phase transitions for the existence of unregularized M-estimators in single index models. Proceedings of Machine Learning Research 267, 31519–31540. https://proceedings.mlr.press/v267/koriyama25a.html
+
+Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html
 
 Rinaldo, A., Fienberg, S.E., Zhou, Y. (2009). On the geometry of discrete exponential families with application to exponential random graph models. Electronic Journal of Statistics 3, 446–484. https://doi.org/10.1214/08-EJS350
 

@@ -1,7 +1,18 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "19826108f140d0f37314f33ce8fc19458c7cfee4747a0e80f5a40fd16444727c",
-  "numerical_replay_manifest_sha256": "38e6b05cfe9f5e53887379591c90b99b78d1519444ce829adcaf5f6585a9609a",
+  "archive_manifest_sha256": "82308b8a4947c52ba5a211be4fe182844a5ae29e1b42b63082b9b781a0224e2b",
+  "python": "3.12.14",
+  "package_versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.7.0",
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1",
+    "openpyxl": "3.1.5"
+  },
   "checks": {
     "inventory": {
       "status": "passed",
@@ -47,6 +58,10 @@
       "status": "passed",
       "log": "paired_task_states.log"
     },
+    "matched_all_soft_choice": {
+      "status": "passed",
+      "log": "matched_all_soft_choice.log"
+    },
     "food_panel": {
       "status": "passed",
       "log": "food_panel.log"
@@ -76,46 +91,40 @@
     "swissmetro": {
       "file": "swissmetro_label_budget_input_20261119.dat",
       "sha256": "27432693cf052985d79a950b4b888be3efca798fc89b0d3ffefe40608ede00f2"
+    },
+    "gai": {
+      "file": "source_manifest.json",
+      "sha256": "bc48b1e1da8601477656cb25a77143a063de19042b6a31e134800d1ce58a3a5e"
     }
   },
-  "python": "3.12.14",
-  "package_versions": {
-    "numpy": "2.5.3",
-    "scipy": "1.18.1",
-    "pandas": "2.2.3",
-    "scikit-learn": "1.9.1",
-    "matplotlib": "3.11.2",
-    "threadpoolctl": "3.7.0",
-    "python-docx": "1.2.0",
-    "lxml": "6.1.1",
-    "openpyxl": "3.1.5"
-  },
-  "same_prior_result_reports": [
-    "headline.json",
-    "mathematics/quick_check.json",
-    "exact_designs.json",
-    "common_newton_point.json",
-    "hessian_power_bounds.json",
-    "unit_endpoint.json",
-    "unit_archive.json",
-    "food_panel/verification.json",
-    "food_path/verification.json",
-    "swissmetro_path.json",
-    "swissmetro_budget.json",
-    "matched_auxiliary_diagnostics/summary.json"
-  ],
-  "final_edition_binding": {
-    "identical_items_except_four_editorial_files": 1269,
-    "changed_content": [
-      "focused_article.md",
-      "focused_supplement.md",
-      "results/paired_choice_boundary/README.md",
-      "results/paired_choice_boundary/proof.md"
+  "optional_sources_not_supplied": [],
+  "full_replay_archive_manifest_sha256": "2aef482e637d46fbf2f55ac8fae518b6855499e8b041627ceaf49a4571736bb4",
+  "final_editorial_binding": {
+    "editorial_changes_after_full_replay": [
+      "focused_supplement.md"
     ],
-    "first_replay_manifest_sha256": "38e6b05cfe9f5e53887379591c90b99b78d1519444ce829adcaf5f6585a9609a",
-    "final_edition_manifest_sha256": "19826108f140d0f37314f33ce8fc19458c7cfee4747a0e80f5a40fd16444727c",
-    "inventory_and_headline_completed_on_final_edition": true,
-    "appendix_h_claims_checked_against_saved_outputs": true
-  },
-  "scope": "The validation run ran 16 checks on an extracted archive. Final prose and source references were edited separately. The final archive passed inventory and headline checks and preserved all numerical code and data bytes."
+    "replay_inputs_and_scripts_byte_identical": true,
+    "final_inventory_and_headlines_passed": true,
+    "verified_numerical_replay": {
+      "status": "passed",
+      "exact_replay_artifacts": {
+        "fit_records.csv.gz": "d2bd71e03c9df91ced5c5417283c563d5032ebff2f45e8ec72c636a439845f4e",
+        "paired_logloss.csv": "2b4b41d4e66ccf3361b8f48bd62de8c41b85f6f370cbd8e389fe3a2531533fb4",
+        "status_counts.csv": "cf13ded6b07662cb994f775381beb2fd7c3ff0053e5847bf3c4b5a643d289573",
+        "summary.csv": "295327c99e55b601e1651ab2f8edd1473bcf7836612d9721fa87d102b1d69e50",
+        "witnesses.json": "bd3c4e19b623a6c80b83ef813a4f91ec0cebf5f00127a7f22e20025af8cbd97a"
+      },
+      "repository_runner_sha256": "e29946a42bdc31ee8fa8d7258d711e8ed33cd78ac05494973fac9a8decf21ec0",
+      "extracted_runner_sha256": "307bdf5ab823efe6ef6d145e398f91ff336c6157ae64c2fdb61c567af03fcd26",
+      "runner_revision_scope": "Resolve the existing canonical dependencies at the archive layout paths",
+      "same_numerical_diagnostics": true,
+      "verified_article_sha256": "df0067bd27abf9b4e19751226bbcf7e47c80b52ee600598268d3f0f9d878d358",
+      "verified_supplement_sha256": "a409ef6e96413668754f7f29839ebed6e970013aeb659780f4b0d0aed1e46180",
+      "design_comparisons": 8000,
+      "verified_finite_scores": 7993,
+      "paired_table_rows_verified": 4,
+      "dual_frontiers_verified": 32
+    },
+    "final_supplement_sha256": "bace133b7d632e08c62d44227a3db3cdb4aa8273cf10a0130d4587ac1de223ef"
+  }
 }

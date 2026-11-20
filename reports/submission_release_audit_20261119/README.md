@@ -28,3 +28,5 @@ The separate final PPI++ supplements returned webpages with no readable suppleme
 
 Appendix H gives the correlated two-task benchmark, the exact ordinary-logit comparison and an independent check of all 2280 corrected outcomes. The November 20 institutional report records eight Web of Science Topic queries, 71 exported records and cross-checks in EconLit, EBSCO Business and Google Scholar.
 The exact text screen compared 14 named primary PDFs, covering 611 pages. No contiguous matching passage of ten or more words was detected under the recorded extraction rules.
+
+Section 4.4 and Supplementary Appendix I compare four estimators on fixed public choices and matched probabilities. The code recomputes 8,000 fits in the extracted release, verifies 7,993 finite scores and checks the 32 fixed-menu limits through primal feasibility and dual supporting directions. The clean archive passed 17 release checks. Revised prose was bound to those outputs through a final inventory and headline check.

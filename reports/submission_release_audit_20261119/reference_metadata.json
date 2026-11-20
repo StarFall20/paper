@@ -1,7 +1,7 @@
 {
   "source_sha256": {
-    "manuscript": "d33e4557ab8f6947ad1bb6407e90e441951341cc18f6b15eda215dc3307b89ab",
-    "supplement": "d6f7a8f9b45f8a93990b24222234eb5f686521df59369131ec21988240f6ffc8"
+    "manuscript": "df0067bd27abf9b4e19751226bbcf7e47c80b52ee600598268d3f0f9d878d358",
+    "supplement": "bace133b7d632e08c62d44227a3db3cdb4aa8273cf10a0130d4587ac1de223ef"
   },
   "unique_links": 75,
   "counts": {
@@ -1227,6 +1227,11 @@
       },
       "comparisons": [
         {
+          "file": "manuscript",
+          "score": 1.0,
+          "first_author_agrees": true
+        },
+        {
           "file": "supplement",
           "score": 1.0,
           "first_author_agrees": true
@@ -1234,7 +1239,8 @@
       ],
       "printed": [
         "Lu, C., Wang, M., Zhang, D., Zhang, H. (2026). Generative Augmented Inference. Proceedings of Machine Learning Research 306, 81730–81751. https://proceedings.mlr.press/v306/lu26am.html"
-      ]
+      ],
+      "same_bibliographic_entry_in_both_final_documents": true
     },
     {
       "url": "https://proceedings.mlr.press/v306/mani26b.html",
