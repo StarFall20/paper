@@ -1,0 +1,10 @@
+{
+  "label_pair_counts": [2, 2, 6, 10],
+  "label_positive_side_one_counts": [1, 1, 5, 9],
+  "auxiliary_pair_baseline": [11, 16, 7, 2],
+  "levels": [0, 1, 2, 3],
+  "matching_order": 5,
+  "weight": "1/2",
+  "design": "For every magnitude count, include that many rows at each sign. At zero the two sides create duplicate records. Each sample includes an equally large set of informative profiles at each of z=-1 and z=1 with x=0. The auxiliary count direction is the primitive integer kernel of the four-level moment matrix through squared magnitude order two.",
+  "verification": "Match all original-row objective derivatives through order five by exact arithmetic. Verify the exact moment, local score rows, both directional recession slopes, complete positive integer frequency set, support checks in original probability coordinates and finite-root likelihood using an independently written probability equation."
+}

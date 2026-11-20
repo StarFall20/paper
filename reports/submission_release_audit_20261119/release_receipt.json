@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "archive_manifest_sha256": "d7a1c5833c61c71642368c5748aa78eacd38b57970c9b262c4c838bd9fa0f207",
-  "prior_manifest_sha256": "cde2d9cc28d02577fb56c94200302c2955c611ec0dfc21751b39cf6046ae9a57",
-  "prior_receipt_sha256": "6f3b261b1d2f7e05a9bf2485a326f10a018de13a38067bf674abcf61692c9275",
+  "archive_manifest_sha256": "a90197fcd895ceca798632b35243c172e51c568cad10f683a10c6eeb17b7ead2",
+  "prior_manifest_sha256": "d7a1c5833c61c71642368c5748aa78eacd38b57970c9b262c4c838bd9fa0f207",
+  "prior_receipt_sha256": "3f356f9718c52c39b3e07ad13dd4c08bdd0575f397043bea7a995b3bf23f3ac9",
   "python": "3.12.14",
   "package_versions": {
     "numpy": "2.5.3",
@@ -109,99 +109,131 @@
       "status": "passed",
       "provenance": "prior successful replay and identical scientific inputs"
     },
-    "inventory": {
-      "status": "passed",
-      "provenance": "fresh current-archive verification"
-    },
     "public_residual_margin": {
       "status": "passed",
-      "provenance": "fresh current-archive verification"
+      "provenance": "prior successful replay and identical scientific inputs"
+    },
+    "inventory": {
+      "status": "passed",
+      "provenance": "fresh verification from extracted archive"
     },
     "headline": {
       "status": "passed",
-      "provenance": "fresh current-archive verification"
+      "provenance": "fresh verification from extracted archive"
+    },
+    "discrete_frequency_diagnostics": {
+      "status": "passed",
+      "provenance": "fresh verification from extracted archive"
     }
   },
   "fresh_checks": [
+    "discrete_frequency_diagnostics",
     "headline",
-    "inventory",
-    "public_residual_margin"
+    "inventory"
   ],
-  "prior_checks_preserved": 16,
-  "previous_payloads_byte_identical": 1294,
+  "prior_checks_preserved": 17,
+  "previous_payloads_byte_identical": 1306,
   "current_result": {
     "status": "passed",
-    "reports": {
-      "row": {
-        "verified_summary": {
-          "scheme": "row",
-          "unique_configurations": 12000,
-          "checked_frontiers": 2000,
-          "verified_summary_groups": 24,
-          "protected_fits": 2000,
-          "fallback_configurations": 7
-        },
-        "checks": {
-          "scheme": "row",
-          "plan_sha256": "e9ff6271417ec4dcbdfcf608853e8c2184ca309585f59c725079305909744a3f",
-          "allocations": 500,
-          "configurations": 12000,
-          "frontiers": 2000,
-          "original_score_checks": 11993,
-          "archived_checks": 6000,
-          "alternative_roots": 480,
-          "maxima": {
-            "primal_dual_gap": 1.687538997430238e-14,
-            "dual_error": 1.1102230246251565e-15,
-            "primal_error": 2.1267709815475655e-15,
-            "witness_error": 1.0443035325380379e-15,
-            "max_direct_score": 1.8041124150158794e-16,
-            "largest_alternative_root_error": 5.173657058321623e-10,
-            "max_archived_loss_error": 2.220446049250313e-16
-          }
-        },
-        "checked_files": {
-          "frontier_checks.csv.gz": "f6aa27a92a131eb2eff77e36411353ed017940fe769ffcf3115466a388f49603",
-          "policy_rows.csv.gz": "7853cc5cf0b838a2a0dfcbec6364ba1bf1bd39b863beda3e1a21b98c5734a3be",
-          "summary.csv": "4d31595856f2df9545bb3dfc476ea9d0a0d33bd850d33547f48f46a3278f0674"
-        }
+    "exact_derivative_orders": 5,
+    "profiles": 9,
+    "positive_integer_designs": 3,
+    "checks": {
+      "status": "passed",
+      "plan_sha256": "c8ccd0b9bc34ee08715abb55ac08249ddbd68a8b9e268e5a16aafa80ff868fc5",
+      "labelled_rows": 80,
+      "common_profiles": 9,
+      "common_target": [
+        "1/2",
+        "2/5"
+      ],
+      "common_derivatives": {
+        "1": [
+          "0",
+          "-2/5"
+        ],
+        "2": [
+          "1/4",
+          "0",
+          "677/1440"
+        ],
+        "3": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "4": [
+          "-1/8",
+          "0",
+          "-677/2880",
+          "0",
+          "-4811/2880"
+        ],
+        "5": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
       },
-      "block": {
-        "verified_summary": {
-          "scheme": "block",
-          "unique_configurations": 12000,
-          "checked_frontiers": 2000,
-          "verified_summary_groups": 24,
-          "protected_fits": 2000,
-          "fallback_configurations": 6
+      "pure_sixth_order_derivative": [
+        "40247/1440",
+        "39347/1440",
+        "38447/1440"
+      ],
+      "complete_integer_solutions": 3,
+      "shared_objective_value": 0.6931471805599453,
+      "bounded_unattained_infimum_factor_log2": "433/720",
+      "matches_all_score_rows": true,
+      "cases": [
+        {
+          "pair_counts": [
+            1,
+            31,
+            1,
+            3
+          ],
+          "positive_slope_recession": "1/48",
+          "negative_slope_recession": "197/240",
+          "largest_feasible_weight": "18/31",
+          "state": "interior",
+          "auxiliary_rows": 144
         },
-        "checks": {
-          "scheme": "block",
-          "plan_sha256": "e9ff6271417ec4dcbdfcf608853e8c2184ca309585f59c725079305909744a3f",
-          "allocations": 500,
-          "configurations": 12000,
-          "frontiers": 2000,
-          "original_score_checks": 11994,
-          "archived_checks": 0,
-          "alternative_roots": 480,
-          "maxima": {
-            "primal_dual_gap": 1.554312234475219e-14,
-            "dual_error": 2.55351295663786e-15,
-            "primal_error": 1.893450674028685e-15,
-            "witness_error": 9.345822726825048e-16,
-            "max_direct_score": 1.942890293094024e-16,
-            "largest_alternative_root_error": 4.6702641753881835e-11,
-            "max_archived_loss_error": 0.0
-          }
+        {
+          "pair_counts": [
+            11,
+            16,
+            7,
+            2
+          ],
+          "positive_slope_recession": "0",
+          "negative_slope_recession": "4/5",
+          "largest_feasible_weight": "1/2",
+          "state": "boundary",
+          "auxiliary_rows": 144
         },
-        "checked_files": {
-          "frontier_checks.csv.gz": "abf38f69880755b0c958182e87df380931f922367c254f8f286dcd88f7e53649",
-          "policy_rows.csv.gz": "49ab9251c31f9e87a0dab372c793f0479764093aeca7623d2aa83074493c0a82",
-          "summary.csv": "dcce748c1688678a079a851a168429a9546e928dcea07d7755b0e72403aa5933"
+        {
+          "pair_counts": [
+            21,
+            1,
+            13,
+            1
+          ],
+          "positive_slope_recession": "-1/48",
+          "negative_slope_recession": "187/240",
+          "largest_feasible_weight": "18/41",
+          "state": "exterior",
+          "auxiliary_rows": 144
         }
-      }
+      ]
     },
-    "checked_supplement_sha256": "7700c52aed95d2b07688923f3b66a504b7c1034416896b59842023af1c7ab301"
+    "source_sha256": {
+      "focused_article.md": "d0f31b14dc30ec5e0e4943c2b866045189fa70e2424afc2ffd6868bc437a9706",
+      "focused_supplement.md": "3d96e5cd956658221d02e1a855fc3a1bc478b6f649038f16a9b9709008a6a53c"
+    }
   },
-  "scope": "The current extraction rechecks inventory and headline claims and reruns the two residual paths. Inherited checks retain their original source receipt. Prior scientific code and results are unchanged."
+  "scope": "Three fresh checks from the extraction. Earlier scientific inputs and results are unchanged."
 }

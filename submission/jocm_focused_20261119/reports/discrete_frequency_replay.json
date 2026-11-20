@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "exact_derivative_orders": 5,
+  "profiles": 9,
+  "positive_integer_designs": 3,
+  "checks": {
+    "status": "passed",
+    "plan_sha256": "c8ccd0b9bc34ee08715abb55ac08249ddbd68a8b9e268e5a16aafa80ff868fc5",
+    "labelled_rows": 80,
+    "common_profiles": 9,
+    "common_target": [
+      "1/2",
+      "2/5"
+    ],
+    "common_derivatives": {
+      "1": [
+        "0",
+        "-2/5"
+      ],
+      "2": [
+        "1/4",
+        "0",
+        "677/1440"
+      ],
+      "3": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "4": [
+        "-1/8",
+        "0",
+        "-677/2880",
+        "0",
+        "-4811/2880"
+      ],
+      "5": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "pure_sixth_order_derivative": [
+      "40247/1440",
+      "39347/1440",
+      "38447/1440"
+    ],
+    "complete_integer_solutions": 3,
+    "shared_objective_value": 0.6931471805599453,
+    "bounded_unattained_infimum_factor_log2": "433/720",
+    "matches_all_score_rows": true,
+    "cases": [
+      {
+        "pair_counts": [
+          1,
+          31,
+          1,
+          3
+        ],
+        "positive_slope_recession": "1/48",
+        "negative_slope_recession": "197/240",
+        "largest_feasible_weight": "18/31",
+        "state": "interior",
+        "auxiliary_rows": 144
+      },
+      {
+        "pair_counts": [
+          11,
+          16,
+          7,
+          2
+        ],
+        "positive_slope_recession": "0",
+        "negative_slope_recession": "4/5",
+        "largest_feasible_weight": "1/2",
+        "state": "boundary",
+        "auxiliary_rows": 144
+      },
+      {
+        "pair_counts": [
+          21,
+          1,
+          13,
+          1
+        ],
+        "positive_slope_recession": "-1/48",
+        "negative_slope_recession": "187/240",
+        "largest_feasible_weight": "18/41",
+        "state": "exterior",
+        "auxiliary_rows": 144
+      }
+    ]
+  },
+  "source_sha256": {
+    "focused_article.md": "d0f31b14dc30ec5e0e4943c2b866045189fa70e2424afc2ffd6868bc437a9706",
+    "focused_supplement.md": "3d96e5cd956658221d02e1a855fc3a1bc478b6f649038f16a9b9709008a6a53c"
+  }
+}

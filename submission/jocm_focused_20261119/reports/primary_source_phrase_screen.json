@@ -7,8 +7,8 @@
   },
   "scope": "Exact normalized lexical matches in the named PDF versions. Candidate headings, tables, images, references and mathematical expressions are excluded. The comparison uses words within a draft prose line and within a source page.",
   "draft_sha256": {
-    "manuscript.md": "ec352f71eef9db8b008d013f58f757e1b5961652b9c37085f66100fa52a56345",
-    "supplement.md": "7700c52aed95d2b07688923f3b66a504b7c1034416896b59842023af1c7ab301"
+    "manuscript.md": "d0f31b14dc30ec5e0e4943c2b866045189fa70e2424afc2ffd6868bc437a9706",
+    "supplement.md": "3d96e5cd956658221d02e1a855fc3a1bc478b6f649038f16a9b9709008a6a53c"
   },
   "sources": {
     "original_ppi": {

@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "plan_sha256": "c8ccd0b9bc34ee08715abb55ac08249ddbd68a8b9e268e5a16aafa80ff868fc5",
+  "labelled_rows": 80,
+  "common_profiles": 9,
+  "common_target": [
+    "1/2",
+    "2/5"
+  ],
+  "common_derivatives": {
+    "1": [
+      "0",
+      "-2/5"
+    ],
+    "2": [
+      "1/4",
+      "0",
+      "677/1440"
+    ],
+    "3": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "4": [
+      "-1/8",
+      "0",
+      "-677/2880",
+      "0",
+      "-4811/2880"
+    ],
+    "5": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "pure_sixth_order_derivative": [
+    "40247/1440",
+    "39347/1440",
+    "38447/1440"
+  ],
+  "complete_integer_solutions": 3,
+  "shared_objective_value": 0.6931471805599453,
+  "bounded_unattained_infimum_factor_log2": "433/720",
+  "matches_all_score_rows": true,
+  "cases": [
+    {
+      "pair_counts": [
+        1,
+        31,
+        1,
+        3
+      ],
+      "positive_slope_recession": "1/48",
+      "negative_slope_recession": "197/240",
+      "largest_feasible_weight": "18/31",
+      "state": "interior",
+      "probability_margin": 0.024752475247524247,
+      "finite_slope": 2.437892984404938,
+      "auxiliary_rows": 144
+    },
+    {
+      "pair_counts": [
+        11,
+        16,
+        7,
+        2
+      ],
+      "positive_slope_recession": "0",
+      "negative_slope_recession": "4/5",
+      "largest_feasible_weight": "1/2",
+      "state": "boundary",
+      "probability_margin": -0.0,
+      "finite_slope": null,
+      "auxiliary_rows": 144
+    },
+    {
+      "pair_counts": [
+        21,
+        1,
+        13,
+        1
+      ],
+      "positive_slope_recession": "-1/48",
+      "negative_slope_recession": "187/240",
+      "largest_feasible_weight": "18/41",
+      "state": "exterior",
+      "probability_margin": null,
+      "finite_slope": null,
+      "auxiliary_rows": 144
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # When prediction assisted logit estimates exist
 
-This Research Article edition has an 11-page main manuscript and a 91-page supplement. The main text contains 3,852 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
+This Research Article edition has an 11-page main manuscript and a 92-page supplement. The main text contains 3,879 lexical words excluding equations and references. The supplement retains all 153 display-math blocks and 20 tables from the full research manuscript and adds the menu-decomposition comparison.
 
 [Manuscript](upload/Manuscript.docx) · [Supplementary methods and proofs](upload/Supplementary_Methods_and_Proofs.docx) · [Figure 1](upload/Figures/Figure_1.pdf) · [Cover letter](upload/Cover_letter.docx) · [Highlights](upload/Highlights.docx) · [Title page](upload/Title_page.docx) · [Supplementary file captions](upload/Supplementary_File_Captions.txt)
 
@@ -35,3 +35,6 @@ Section 3.2 and Supplementary Appendix H6 extend the paired task result to a fix
 
 Appendix I4 compares the half-limit correction, fixed multipliers and all-soft criteria, with all fallbacks retained. The 24,000 configurations use row folds and released five-row block folds. The current release reruns 4,000 residual limits and independently recomputes all 48 summaries.
  [Appendix I4 verification](../../reports/public_residual_margin_audit_20261120/README.md)
+
+Section 3.4 and Appendix J verify the diagnostic limitation while holding the entire discrete profile support and all sample sizes fixed. Changing only the auxiliary frequencies at weight 0.5 produces all three existence outcomes at identical local derivatives through order five.
+ [Appendix J](../../reports/discrete_frequency_diagnostics_20261120/README.md)
