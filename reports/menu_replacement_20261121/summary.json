@@ -1,0 +1,43 @@
+{
+  "workbook_sha256": "447cb59fab8500639d9f5478dad4aeeeb64bc09f1d0d0848ae0219e1c42c88a0",
+  "analytic_check": {
+    "threshold_fraction": "79/105",
+    "linear_program_radii": [
+      1.0,
+      0.7523809523809523
+    ]
+  },
+  "summaries": [
+    {
+      "weight": 0.75,
+      "label_groups": 37,
+      "nominal_states": {
+        "interior": 36,
+        "outside": 1
+      },
+      "vertex_programs": 1224,
+      "below_and_above_checks": 72,
+      "smallest_radius": 0.1399527274624434,
+      "median_radius": 0.4425110921111345,
+      "smaller_than_one": 36,
+      "at_most_one_quarter": 10
+    },
+    {
+      "weight": 0.9,
+      "label_groups": 37,
+      "nominal_states": {
+        "interior": 36,
+        "outside": 1
+      },
+      "vertex_programs": 1224,
+      "below_and_above_checks": 72,
+      "smallest_radius": 0.08337373855554948,
+      "median_radius": 0.3338299860075157,
+      "smaller_than_one": 36,
+      "at_most_one_quarter": 11
+    }
+  ],
+  "paired_vertex_inequalities": 1224,
+  "boundary_side_checks": 144,
+  "full_result_sha256": "62fd47da5e5c82f22cdb264c154fb006075fd67fe5da81c4802916ddee866239"
+}
