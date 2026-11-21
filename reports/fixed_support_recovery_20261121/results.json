@@ -1,0 +1,614 @@
+[
+  {
+    "matched_order": 1,
+    "frequency_class": "unrestricted",
+    "magnitudes": 2,
+    "signed_menus": 4,
+    "rank_at_matched_order": 1,
+    "first_full_rank_order": 3,
+    "parity_lower_bound_order": 3,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "matched_order": 1,
+    "frequency_class": "symmetric",
+    "magnitudes": 2,
+    "signed_menus": 4,
+    "rank_at_matched_order": 1,
+    "first_full_rank_order": 2,
+    "parity_lower_bound_order": 2,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        2
+      ]
+    ]
+  },
+  {
+    "matched_order": 2,
+    "frequency_class": "unrestricted",
+    "magnitudes": 4,
+    "signed_menus": 8,
+    "rank_at_matched_order": 4,
+    "first_full_rank_order": 4,
+    "parity_lower_bound_order": 4,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        8
+      ]
+    ]
+  },
+  {
+    "matched_order": 2,
+    "frequency_class": "symmetric",
+    "magnitudes": 4,
+    "signed_menus": 8,
+    "rank_at_matched_order": 3,
+    "first_full_rank_order": 3,
+    "parity_lower_bound_order": 3,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "matched_order": 3,
+    "frequency_class": "unrestricted",
+    "magnitudes": 6,
+    "signed_menus": 12,
+    "rank_at_matched_order": 8,
+    "first_full_rank_order": 5,
+    "parity_lower_bound_order": 5,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        12
+      ]
+    ]
+  },
+  {
+    "matched_order": 3,
+    "frequency_class": "symmetric",
+    "magnitudes": 6,
+    "signed_menus": 12,
+    "rank_at_matched_order": 5,
+    "first_full_rank_order": 4,
+    "parity_lower_bound_order": 4,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  },
+  {
+    "matched_order": 4,
+    "frequency_class": "unrestricted",
+    "magnitudes": 9,
+    "signed_menus": 18,
+    "rank_at_matched_order": 13,
+    "first_full_rank_order": 6,
+    "parity_lower_bound_order": 6,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        17
+      ],
+      [
+        6,
+        18
+      ]
+    ]
+  },
+  {
+    "matched_order": 4,
+    "frequency_class": "symmetric",
+    "magnitudes": 9,
+    "signed_menus": 18,
+    "rank_at_matched_order": 8,
+    "first_full_rank_order": 5,
+    "parity_lower_bound_order": 5,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        9
+      ]
+    ]
+  },
+  {
+    "matched_order": 5,
+    "frequency_class": "unrestricted",
+    "magnitudes": 12,
+    "signed_menus": 24,
+    "rank_at_matched_order": 19,
+    "first_full_rank_order": 7,
+    "parity_lower_bound_order": 7,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        6,
+        23
+      ],
+      [
+        7,
+        24
+      ]
+    ]
+  },
+  {
+    "matched_order": 5,
+    "frequency_class": "symmetric",
+    "magnitudes": 12,
+    "signed_menus": 24,
+    "rank_at_matched_order": 11,
+    "first_full_rank_order": 6,
+    "parity_lower_bound_order": 6,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        12
+      ]
+    ]
+  },
+  {
+    "matched_order": 6,
+    "frequency_class": "unrestricted",
+    "magnitudes": 16,
+    "signed_menus": 32,
+    "rank_at_matched_order": 26,
+    "first_full_rank_order": 8,
+    "parity_lower_bound_order": 8,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        6,
+        26
+      ],
+      [
+        7,
+        31
+      ],
+      [
+        8,
+        32
+      ]
+    ]
+  },
+  {
+    "matched_order": 6,
+    "frequency_class": "symmetric",
+    "magnitudes": 16,
+    "signed_menus": 32,
+    "rank_at_matched_order": 15,
+    "first_full_rank_order": 7,
+    "parity_lower_bound_order": 7,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        16
+      ]
+    ]
+  },
+  {
+    "matched_order": 7,
+    "frequency_class": "unrestricted",
+    "magnitudes": 20,
+    "signed_menus": 40,
+    "rank_at_matched_order": 34,
+    "first_full_rank_order": 9,
+    "parity_lower_bound_order": 9,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        6,
+        26
+      ],
+      [
+        7,
+        34
+      ],
+      [
+        8,
+        39
+      ],
+      [
+        9,
+        40
+      ]
+    ]
+  },
+  {
+    "matched_order": 7,
+    "frequency_class": "symmetric",
+    "magnitudes": 20,
+    "signed_menus": 40,
+    "rank_at_matched_order": 19,
+    "first_full_rank_order": 8,
+    "parity_lower_bound_order": 8,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        8,
+        20
+      ]
+    ]
+  },
+  {
+    "matched_order": 8,
+    "frequency_class": "unrestricted",
+    "magnitudes": 25,
+    "signed_menus": 50,
+    "rank_at_matched_order": 43,
+    "first_full_rank_order": 10,
+    "parity_lower_bound_order": 10,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        6,
+        26
+      ],
+      [
+        7,
+        34
+      ],
+      [
+        8,
+        43
+      ],
+      [
+        9,
+        49
+      ],
+      [
+        10,
+        50
+      ]
+    ]
+  },
+  {
+    "matched_order": 8,
+    "frequency_class": "symmetric",
+    "magnitudes": 25,
+    "signed_menus": 50,
+    "rank_at_matched_order": 24,
+    "first_full_rank_order": 9,
+    "parity_lower_bound_order": 9,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        8,
+        24
+      ],
+      [
+        9,
+        25
+      ]
+    ]
+  },
+  {
+    "matched_order": 9,
+    "frequency_class": "unrestricted",
+    "magnitudes": 30,
+    "signed_menus": 60,
+    "rank_at_matched_order": 53,
+    "first_full_rank_order": 11,
+    "parity_lower_bound_order": 11,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        6,
+        26
+      ],
+      [
+        7,
+        34
+      ],
+      [
+        8,
+        43
+      ],
+      [
+        9,
+        53
+      ],
+      [
+        10,
+        59
+      ],
+      [
+        11,
+        60
+      ]
+    ]
+  },
+  {
+    "matched_order": 9,
+    "frequency_class": "symmetric",
+    "magnitudes": 30,
+    "signed_menus": 60,
+    "rank_at_matched_order": 29,
+    "first_full_rank_order": 10,
+    "parity_lower_bound_order": 10,
+    "full_rank_verified_modular": true,
+    "ranks": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        19
+      ],
+      [
+        8,
+        24
+      ],
+      [
+        9,
+        29
+      ],
+      [
+        10,
+        30
+      ]
+    ]
+  }
+]
